@@ -19,7 +19,7 @@ Why this pattern is currently strongest:
 ----------------------------------------
 - Trinitarian signal: strong Trinitarian signal
 - Father: 3,187
-- Son: 6,681
+- Son: 6,679
 - Holy Spirit: 1,250
 
 Strongest research layers:
@@ -28,7 +28,7 @@ Strongest research layers:
 - Physical Order: 2,436
 - Moral Response: 2,213
 - Transformation: 2,032
-- Worship And Community: 1,014
+- Worship And Community: 1,013
 
 Music-note science/math support:
 - Mathematical Structure: 129
