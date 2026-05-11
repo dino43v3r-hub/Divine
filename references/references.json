@@ -1,5 +1,5 @@
 {
-  "source_count": 219,
+  "source_count": 220,
   "sources": [
     {
       "authors": [],
@@ -3475,6 +3475,25 @@
       "year": 2020
     },
     {
+      "authors": [
+        "John G. Gibbs"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.1163/9789004266032_003",
+      "id": "10.1163/9789004266032_003",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "trinity"
+      ],
+      "title": "The Relation between creation and redemption according to modern studies of Pauline Theology",
+      "url": "https://doi.org/10.1163/9789004266032_003",
+      "year": 1971
+    },
+    {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "date_accessed": "2026-05-11",
@@ -4154,5 +4173,5 @@
       "year": 2021
     }
   ],
-  "updated_at": "2026-05-11T21:19:23.428470+00:00"
+  "updated_at": "2026-05-11T21:29:45.251415+00:00"
 }

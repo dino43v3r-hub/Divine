@@ -41,7 +41,7 @@ Trinitarian Test Lens
 Test-set signal: thin but complete Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
 - Father: test set 2 | research corpus 3,187
-- Son: test set 1 | research corpus 6,680
+- Son: test set 1 | research corpus 6,679
 - Holy Spirit: test set 3 | research corpus 1,250
 
 Layer Pressure Comparison

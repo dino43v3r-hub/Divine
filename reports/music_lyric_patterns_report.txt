@@ -75,10 +75,10 @@ Shared Theme Signals
 --------------------
 - God and Divine Attributes: lyrics 12 | religious corpus 25,203
 - Faith and Trust: lyrics 8 | religious corpus 1,184
-- Jesus and Christology: lyrics 1 | religious corpus 5,440
+- Jesus and Christology: lyrics 1 | religious corpus 5,439
 - Holy Spirit and Pneumatology: lyrics 4 | religious corpus 941
 - Creation and Order: lyrics 11 | religious corpus 5,740
-- Moral Transformation: lyrics 11 | religious corpus 2,953
+- Moral Transformation: lyrics 11 | religious corpus 2,952
 - Theology and Logos: lyrics 8 | religious corpus 5,775
 - Spirituality and Worship: lyrics 8 | religious corpus 1,255
 - Biology and Neuroscience: lyrics 0 | religious corpus 49
@@ -86,7 +86,7 @@ Shared Theme Signals
 - Mathematics and Intelligibility: lyrics 6 | religious corpus 645
 - Quantum Physics and Uncertainty: lyrics 0 | religious corpus 48
 - Anthropology and Culture: lyrics 0 | religious corpus 622
-- AI and Pattern Recognition: lyrics 17 | religious corpus 203
+- AI and Pattern Recognition: lyrics 17 | religious corpus 202
 - Philosophy and Meaning: lyrics 0 | religious corpus 3,010
 
 Most Aligned Lyric Files
