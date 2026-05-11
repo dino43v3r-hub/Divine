@@ -68,14 +68,14 @@ Shared Divine-Pattern Layers
 - Life And Consciousness: lyrics 38 | religious corpus 5,215
 - Meaning And Logos: lyrics 47 | religious corpus 5,823
 - Moral Response: lyrics 62 | religious corpus 2,213
-- Worship And Community: lyrics 62 | religious corpus 1,014
+- Worship And Community: lyrics 62 | religious corpus 1,013
 - Transformation: lyrics 57 | religious corpus 2,032
 
 Shared Theme Signals
 --------------------
 - God and Divine Attributes: lyrics 12 | religious corpus 25,203
 - Faith and Trust: lyrics 8 | religious corpus 1,184
-- Jesus and Christology: lyrics 1 | religious corpus 5,441
+- Jesus and Christology: lyrics 1 | religious corpus 5,440
 - Holy Spirit and Pneumatology: lyrics 4 | religious corpus 941
 - Creation and Order: lyrics 11 | religious corpus 5,740
 - Moral Transformation: lyrics 11 | religious corpus 2,953

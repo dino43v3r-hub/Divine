@@ -1,5 +1,5 @@
 {
-  "source_count": 218,
+  "source_count": 219,
   "sources": [
     {
       "authors": [],
@@ -4098,6 +4098,25 @@
     },
     {
       "authors": [
+        "Andrew Linzey"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.1093/acprof:oso/9780199351848.003.0002",
+      "id": "10.1093/acprof:oso/9780199351848.003.0002",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "unresolved_suffering"
+      ],
+      "title": "Why Animal Suffering Matters Morally",
+      "url": "https://doi.org/10.1093/acprof:oso/9780199351848.003.0002",
+      "year": 2013
+    },
+    {
+      "authors": [
         "Roger P. Abbott"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
@@ -4135,5 +4154,5 @@
       "year": 2021
     }
   ],
-  "updated_at": "2026-05-11T21:13:39.704102+00:00"
+  "updated_at": "2026-05-11T21:19:23.428470+00:00"
 }
