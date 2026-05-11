@@ -49,6 +49,7 @@ reports back to the repository.
 - `cultural_inputs/`: art, politics, science, technology, economics, health, ecology, education, and community
 - `pattern_tests/`: counterexamples and pressure tests
 - `deep_sources/`: stricter support for unresolved suffering and quantum/science claims
+- `theologians/`: cross-era theologian sources and pattern-design material
 - `references/`: collected source metadata
 - `reports/`: generated findings
 
@@ -59,3 +60,21 @@ reports back to the repository.
 - Do not use quantum physics as vague proof of God.
 - Do not rush unresolved suffering into easy resolution.
 - Use source quality, counterarguments, and practical application checks.
+
+## Theologian Pattern Design
+
+The project now includes a cross-era theologian lane in:
+
+```text
+theologians/
+```
+
+It groups theologian signals by era and concepts such as Trinity, creation,
+Christology, Spirit, suffering, grace, church, and justice. The report is:
+
+```text
+reports/theologian_pattern_design_report.txt
+```
+
+The goal is not to flatten theologians into one voice. It is to use continuity,
+development, and disagreement across eras to make pattern design more careful.

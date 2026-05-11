@@ -51,6 +51,11 @@ QUERY_SETS = {
         "AI ethics human dignity theology technology",
         "technology ethics human dignity community",
     ],
+    "theologians_cross_era": [
+        "Athanasius Trinity Augustine Trinity Aquinas grace Luther theology Calvin church Barth revelation Bonhoeffer discipleship Moltmann hope",
+        "patristic medieval reformation modern contemporary theologians Trinity creation Christology pneumatology",
+        "Irenaeus Athanasius Augustine Aquinas Luther Calvin Barth Bonhoeffer Moltmann theology",
+    ],
 }
 
 

@@ -10,6 +10,7 @@ MUSIC_NOTES_DIR = Path("music_notes")
 CULTURAL_INPUTS_DIR = Path("cultural_inputs")
 PATTERN_TESTS_DIR = Path("pattern_tests")
 DEEP_SOURCE_DIR = Path("deep_sources")
+THEOLOGIANS_DIR = Path("theologians")
 REPORTS_DIR = Path("reports")
 REPORT_PATH = REPORTS_DIR / "divine_pattern_research_report.txt"
 PATTERN_CANDIDATES_PATH = REPORTS_DIR / "divine_pattern_candidates_report.txt"
@@ -19,6 +20,7 @@ MUSIC_NOTE_PATTERNS_PATH = REPORTS_DIR / "music_note_patterns_report.txt"
 CULTURAL_PATTERNS_PATH = REPORTS_DIR / "cultural_pattern_relationships_report.txt"
 PATTERN_TEST_REPORT_PATH = REPORTS_DIR / "divine_pattern_test_report.txt"
 DEEP_SOURCE_REVIEW_PATH = REPORTS_DIR / "deep_source_review_report.txt"
+THEOLOGIAN_REPORT_PATH = REPORTS_DIR / "theologian_pattern_design_report.txt"
 SUPPORTED_EXTENSIONS = {".txt", ".md"}
 
 
@@ -1375,6 +1377,113 @@ DEEP_SOURCE_TYPE_MARKERS = {
 }
 
 
+THEOLOGICAL_ERAS = {
+    "Patristic": [
+        "ignatius",
+        "irenaeus",
+        "athanasius",
+        "basil",
+        "gregory of nazianzus",
+        "gregory of nyssa",
+        "augustine",
+    ],
+    "Medieval": [
+        "anselm",
+        "aquinas",
+        "bonaventure",
+        "julian of norwich",
+        "catherine of siena",
+    ],
+    "Reformation": [
+        "luther",
+        "calvin",
+        "zwingli",
+        "teresa of avila",
+        "john of the cross",
+    ],
+    "Modern": [
+        "schleiermacher",
+        "kierkegaard",
+        "newman",
+        "barth",
+        "bonhoeffer",
+        "rahner",
+        "moltmann",
+        "von balthasar",
+    ],
+    "Contemporary": [
+        "james cone",
+        "sarah coakley",
+        "rowan williams",
+        "n. t. wright",
+        "willie james jennings",
+        "beth felker jones",
+    ],
+}
+
+
+THEOLOGICAL_CONCEPTS = {
+    "Trinity": [
+        "trinity",
+        "father",
+        "son",
+        "holy spirit",
+        "one god",
+        "three persons",
+    ],
+    "Creation": [
+        "creation",
+        "creator",
+        "providence",
+        "order",
+        "being",
+    ],
+    "Christology": [
+        "christ",
+        "incarnation",
+        "logos",
+        "cross",
+        "resurrection",
+        "atonement",
+    ],
+    "Pneumatology": [
+        "holy spirit",
+        "sanctification",
+        "presence",
+        "gifts",
+        "communion",
+    ],
+    "Theodicy And Suffering": [
+        "suffering",
+        "evil",
+        "lament",
+        "theodicy",
+        "cross",
+    ],
+    "Grace And Transformation": [
+        "grace",
+        "sanctification",
+        "virtue",
+        "transformation",
+        "salvation",
+    ],
+    "Church And Practice": [
+        "church",
+        "worship",
+        "sacrament",
+        "liturgy",
+        "community",
+    ],
+    "Justice And Public Life": [
+        "justice",
+        "poor",
+        "oppression",
+        "public",
+        "liberation",
+    ],
+}
+
+
 STOP_WORDS = {
     "a",
     "an",
@@ -1512,6 +1621,18 @@ def find_pattern_test_documents(folder):
 
 def find_deep_source_documents(folder):
     """Find deeper source files for unresolved suffering and quantum/science claims."""
+    if not folder.exists():
+        folder.mkdir(parents=True)
+
+    return sorted(
+        path
+        for path in folder.rglob("*")
+        if path.is_file() and path.suffix.lower() in SUPPORTED_EXTENSIONS
+    )
+
+
+def find_theologian_documents(folder):
+    """Find theologian source files across historical eras."""
     if not folder.exists():
         folder.mkdir(parents=True)
 
@@ -1780,6 +1901,28 @@ def count_deep_source_types(text):
         counts[source_type] = sum(
             count_term_lower(lowercase_text, term) for term in terms
         )
+
+    return counts
+
+
+def count_theological_eras(text):
+    """Count theologian-name signals grouped by historical era."""
+    counts = {}
+    lowercase_text = text.lower()
+
+    for era, terms in THEOLOGICAL_ERAS.items():
+        counts[era] = sum(count_term_lower(lowercase_text, term) for term in terms)
+
+    return counts
+
+
+def count_theological_concepts(text):
+    """Count deeper theological concept signals."""
+    counts = {}
+    lowercase_text = text.lower()
+
+    for concept, terms in THEOLOGICAL_CONCEPTS.items():
+        counts[concept] = sum(count_term_lower(lowercase_text, term) for term in terms)
 
     return counts
 
@@ -2562,6 +2705,38 @@ def analyze_deep_source_document(path):
     }
 
 
+def analyze_theologian_document(path):
+    """Analyze theologian material for pattern-design support."""
+    text = read_document(path)
+    sentences = split_sentences(text)
+    era_counts = count_theological_eras(text)
+    concept_counts = count_theological_concepts(text)
+    meaning_context_counts = count_meaning_contexts(text)
+    trinity_counts = count_trinity_person_matches(text)
+    layer_counts = Counter(count_layer_matches(text))
+    meaning_arc = detect_meaning_arc(sentences)
+
+    return {
+        "file_name": path.name,
+        "characters": len(text),
+        "sentences": len(sentences),
+        "words": len([word for word in tokenize(text) if word not in STOP_WORDS]),
+        "era_counts": era_counts,
+        "concept_counts": concept_counts,
+        "meaning_context_counts": meaning_context_counts,
+        "trinity_counts": trinity_counts,
+        "layer_counts": dict(layer_counts),
+        "meaning_arc": meaning_arc,
+        "meaning_confidence": score_meaning_confidence(
+            meaning_context_counts,
+            meaning_arc,
+        ),
+        "trinity_evidence": find_trinity_evidence(sentences),
+        "trinitarian_co_presence": find_trinitarian_co_presence(sentences),
+        "meaning_context_evidence": find_meaning_context_evidence(sentences),
+    }
+
+
 def combine_theme_counts(analyses):
     """Combine theme counts across every document."""
     combined = Counter()
@@ -2697,6 +2872,26 @@ def combine_cultural_domain_counts(analyses):
 
     for analysis in analyses:
         combined.update(analysis.get("cultural_domain_counts", {}))
+
+    return combined
+
+
+def combine_theological_era_counts(analyses):
+    """Combine theologian-era counts across analyses."""
+    combined = Counter()
+
+    for analysis in analyses:
+        combined.update(analysis.get("era_counts", {}))
+
+    return combined
+
+
+def combine_theological_concept_counts(analyses):
+    """Combine theological concept counts across analyses."""
+    combined = Counter()
+
+    for analysis in analyses:
+        combined.update(analysis.get("concept_counts", {}))
 
     return combined
 
@@ -3977,6 +4172,103 @@ def create_deep_source_review_report(deep_source_analyses):
     return "\n".join(lines)
 
 
+def create_theologian_pattern_design_report(research_analyses, theologian_analyses):
+    """Create a report using theologians across eras to improve pattern design."""
+    era_counts = combine_theological_era_counts(theologian_analyses)
+    concept_counts = combine_theological_concept_counts(theologian_analyses)
+    theologian_trinity_counts = combine_trinity_counts(theologian_analyses)
+    theologian_layer_counts = combine_layer_counts(theologian_analyses)
+    research_layer_counts = combine_layer_counts(research_analyses)
+
+    lines = [
+        "Theologian Pattern Design Report",
+        "================================",
+        "",
+        "Purpose",
+        "-------",
+        "This report uses theologians across eras to deepen pattern design. It looks for continuity, development, and disagreement instead of treating theology as one flat voice.",
+        TRINITARIAN_GUARDRAIL,
+        "",
+        "Overview",
+        "--------",
+        f"Theologian documents analyzed: {len(theologian_analyses):,}",
+        f"Total theologian words analyzed: {sum(analysis['words'] for analysis in theologian_analyses):,}",
+        "",
+        "Era Coverage",
+        "------------",
+    ]
+
+    for era in THEOLOGICAL_ERAS:
+        lines.append(f"- {era}: {era_counts.get(era, 0):,}")
+
+    lines.extend(["", "Concept Coverage", "----------------"])
+    for concept, count in concept_counts.most_common():
+        if count > 0:
+            lines.append(f"- {concept}: {count:,}")
+
+    if not any(concept_counts.values()):
+        lines.append("- No theologian concept signals found yet.")
+
+    lines.extend(["", "Trinitarian Lens", "----------------"])
+    lines.append(f"Signal: {score_trinitarian_pattern(theologian_trinity_counts)}")
+    for person in TRINITY_PERSONS:
+        lines.append(f"- {person}: {theologian_trinity_counts.get(person, 0):,}")
+
+    lines.extend(["", "Layer Comparison", "----------------"])
+    for layer in DIVINE_PATTERN_LAYERS:
+        theologian_count = theologian_layer_counts.get(layer, 0)
+        research_count = research_layer_counts.get(layer, 0)
+        if theologian_count or research_count:
+            lines.append(
+                f"- {layer}: theologians {theologian_count:,} | broader corpus {research_count:,}"
+            )
+
+    lines.extend(["", "Per-Source Findings", "-------------------"])
+    if not theologian_analyses:
+        lines.append("- No theologian files found yet. Add .txt or .md files to theologians.")
+
+    for analysis in theologian_analyses:
+        strongest_concept = Counter(analysis["concept_counts"]).most_common(1)
+        strongest_era = Counter(analysis["era_counts"]).most_common(1)
+        concept_label = strongest_concept[0] if strongest_concept else ("None", 0)
+        era_label = strongest_era[0] if strongest_era else ("None", 0)
+
+        lines.extend(
+            [
+                "",
+                analysis["file_name"],
+                "-" * len(analysis["file_name"]),
+                f"Words: {analysis['words']:,}",
+                f"Strongest era signal: {era_label[0]} ({era_label[1]:,})",
+                f"Strongest concept signal: {concept_label[0]} ({concept_label[1]:,})",
+                f"Meaning confidence: {analysis['meaning_confidence']}",
+                "Meaning arc:",
+            ]
+        )
+
+        for segment in analysis["meaning_arc"]:
+            lines.append(
+                f"- {segment['segment']}: {segment['context']} ({segment['count']:,})"
+            )
+
+    lines.extend(
+        [
+            "",
+            "Pattern Design Guidance",
+            "-----------------------",
+            "1. Prefer patterns that appear across multiple eras, not only one modern synthesis.",
+            "2. Preserve real theological disagreements instead of averaging them away.",
+            "3. Give strongest weight to patterns supported by Trinity, creation, Christology, Spirit, suffering, grace, church, and justice together.",
+            "4. Use theologians to refine the pattern vocabulary, not to replace scripture, science, or lived testing.",
+            "",
+            "Candidate design rule:",
+            "A stronger divine pattern should show continuity across eras, preserve Father/Son/Spirit distinction and unity, survive suffering and justice questions, and remain useful in practical life.",
+        ]
+    )
+
+    return "\n".join(lines)
+
+
 def save_text(path, text):
     """Save the generated research report."""
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -3991,6 +4283,7 @@ def main():
     cultural_documents = find_cultural_documents(CULTURAL_INPUTS_DIR)
     pattern_test_documents = find_pattern_test_documents(PATTERN_TESTS_DIR)
     deep_source_documents = find_deep_source_documents(DEEP_SOURCE_DIR)
+    theologian_documents = find_theologian_documents(THEOLOGIANS_DIR)
 
     if not documents:
         print("No research documents found.")
@@ -4032,6 +4325,11 @@ def main():
         print(f"Analyzing deep-source file: {document.name}")
         deep_source_analyses.append(analyze_deep_source_document(document))
 
+    theologian_analyses = []
+    for document in theologian_documents:
+        print(f"Analyzing theologian file: {document.name}")
+        theologian_analyses.append(analyze_theologian_document(document))
+
     report = create_report(analyses)
     candidates_report = create_pattern_candidates_report(analyses)
     discovered_patterns_report = create_discovered_patterns_report(analyses, pattern_seeds)
@@ -4049,6 +4347,10 @@ def main():
         pattern_test_analyses,
     )
     deep_source_review_report = create_deep_source_review_report(deep_source_analyses)
+    theologian_pattern_design_report = create_theologian_pattern_design_report(
+        analyses,
+        theologian_analyses,
+    )
     save_text(REPORT_PATH, report)
     save_text(PATTERN_CANDIDATES_PATH, candidates_report)
     save_text(DISCOVERED_PATTERNS_PATH, discovered_patterns_report)
@@ -4057,6 +4359,7 @@ def main():
     save_text(CULTURAL_PATTERNS_PATH, cultural_patterns_report)
     save_text(PATTERN_TEST_REPORT_PATH, pattern_test_report)
     save_text(DEEP_SOURCE_REVIEW_PATH, deep_source_review_report)
+    save_text(THEOLOGIAN_REPORT_PATH, theologian_pattern_design_report)
 
     print("Divine pattern research analysis complete.")
     print(f"Report saved to: {REPORT_PATH}")
@@ -4067,6 +4370,7 @@ def main():
     print(f"Cultural patterns saved to: {CULTURAL_PATTERNS_PATH}")
     print(f"Pattern test report saved to: {PATTERN_TEST_REPORT_PATH}")
     print(f"Deep source review saved to: {DEEP_SOURCE_REVIEW_PATH}")
+    print(f"Theologian pattern design saved to: {THEOLOGIAN_REPORT_PATH}")
 
 
 if __name__ == "__main__":

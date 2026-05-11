@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-11T18:12:53.307536+00:00
-Total references: 168
-New references this run: 168
+Updated: 2026-05-11T20:46:56.973094+00:00
+Total references: 193
+New references this run: 25
 
 Guardrails
 ----------
@@ -15,9 +15,9 @@ Guardrails
 Reference Tags
 --------------
 - art_beauty: 20
-- music_math: 28
+- music_math: 40
 - politics_justice: 20
-- quantum_science_guardrails: 24
+- quantum_science_guardrails: 37
 - technology_ethics: 18
 - trinity: 28
 - unresolved_suffering: 30
@@ -25,6 +25,7 @@ Reference Tags
 Quality Counts
 --------------
 - scholarly metadata: 168
+- scholarly preprint: 25
 
 Recent Candidate Sources
 ------------------------
@@ -174,12 +175,3 @@ Recent Candidate Sources
   Authors: Kudzai Biri
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.20378/irb-48992
-
-Collector Errors
-----------------
-- search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Unknown Error
-- search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Unknown Error
-- search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Unknown Error
-- search_arxiv failed for music_math: HTTP Error 429: Unknown Error
-- search_arxiv failed for music_math: HTTP Error 429: Unknown Error
-- search_arxiv failed for music_math: The read operation timed out
