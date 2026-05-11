@@ -1,9 +1,9 @@
-name: Weekly Cloud Research
+name: Daily Cloud Research
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 14 * * 1"
+    - cron: "0 14 * * *"
 
 permissions:
   contents: write
