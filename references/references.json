@@ -1,5 +1,5 @@
 {
-  "source_count": 193,
+  "source_count": 218,
   "sources": [
     {
       "authors": [],
@@ -2593,6 +2593,465 @@
     },
     {
       "authors": [
+        "David L. Paulsen"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": null,
+      "id": "https://scholarsarchive.byu.edu/byusq/vol45/iss1/3",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Are Christians Mormon?: Reassessing Joseph Smith's Theology in His Bicentennial",
+      "url": "https://scholarsarchive.byu.edu/byusq/vol45/iss1/3",
+      "year": 2006
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "https://doi.org/10.1111/j.1468-2400.2006.00191_1.x",
+      "id": "https://doi.org/10.1111/j.1468-2400.2006.00191_1.x",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "article",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Athanasius",
+      "url": "https://doi.org/10.1111/j.1468-2400.2006.00191_1.x",
+      "year": 2006
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.5040/9781472549846.ch-003",
+      "id": "10.5040/9781472549846.ch-003",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Contemporary Catholic Approaches to an Ascending Christology",
+      "url": "https://doi.org/10.5040/9781472549846.ch-003",
+      "year": null
+    },
+    {
+      "authors": [
+        "Karim Schelkens",
+        "Stephan van Erp"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "https://doi.org/10.1163/9789004319165",
+      "id": "https://doi.org/10.1163/9789004319165",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "article",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Conversion and Church: The Challenge of Ecclesial Renewal: Essays in honour of H.P.J. Witte",
+      "url": "https://research.tilburguniversity.edu/en/publications/f6547a8a-7d54-494d-8b76-ee9492213045",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Whitcomb, Michael Dean"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": null,
+      "id": "http://hdl.handle.net/10019.1/104856",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "dissertation",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Creation and salvation? : a critical analysis of South African ecotheology",
+      "url": "http://hdl.handle.net/10019.1/104856",
+      "year": 2018
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.5040/9780567675118.ch-005",
+      "id": "10.5040/9780567675118.ch-005",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "EXPERIENCE AND THE THEOLOGY OF THE TRINITY: HOW KARL RAHNER\u2019S METHOD AFFECTS HIS UNDERSTANDING OF REVELATION, GRACE AND THE TRINITY",
+      "url": "https://doi.org/10.5040/9780567675118.ch-005",
+      "year": 2017
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.5040/9780567660428.ch-004",
+      "id": "10.5040/9780567660428.ch-004",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Experience and the Theology of the Trinity: How Karl Rahner\u2019s Method Affects His Understanding of Revelation, Grace and the Trinity",
+      "url": "https://doi.org/10.5040/9780567660428.ch-004",
+      "year": null
+    },
+    {
+      "authors": [
+        "E. P. Meijering"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.1163/9789004474895_011",
+      "id": "10.1163/9789004474895_011",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Index of Modern Authors",
+      "url": "https://doi.org/10.1163/9789004474895_011",
+      "year": 1983
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.2307/jj.19948938.11",
+      "id": "10.2307/jj.19948938.11",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Is a Modern Thomistic Christology Possible?",
+      "url": "https://doi.org/10.2307/jj.19948938.11",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Patrick J. O\u2019Banion"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "https://doi.org/10.33137/rr.v41i2-3.9525",
+      "id": "https://doi.org/10.33137/rr.v41i2-3.9525",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Jerome Zanchi, the Application of Theology, and the Rise of the English Practical Divinity Tradition",
+      "url": "https://doi.org/10.33137/rr.v41i2-3.9525",
+      "year": 2005
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.5040/9780567678263.ch-3",
+      "id": "10.5040/9780567678263.ch-3",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Karl Barth on Luther and Calvin as Fathers of the Church",
+      "url": "https://doi.org/10.5040/9780567678263.ch-3",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "E. P. Meijering"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.1163/9789004474895_005",
+      "id": "10.1163/9789004474895_005",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Melanchthon as a Patristic Scholar",
+      "url": "https://doi.org/10.1163/9789004474895_005",
+      "year": 1983
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.2307/j.ctt22nm63r.8",
+      "id": "10.2307/j.ctt22nm63r.8",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Metaphysics and Social Relations",
+      "url": "https://doi.org/10.2307/j.ctt22nm63r.8",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Walter H. Capps"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.1080/00393387108599924",
+      "id": "10.1080/00393387108599924",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Motif\u2010Research in Irenaeus, Thomas Aquinas, and Luther",
+      "url": "https://doi.org/10.1080/00393387108599924",
+      "year": 1971
+    },
+    {
+      "authors": [
+        "Christopher A. Stephenson"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": null,
+      "id": "https://epublications.marquette.edu/dissertations_mu/9",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Pentecostal theology according to the theologians: An introduction to the theological methods of pentecostal systematic theologians",
+      "url": "https://epublications.marquette.edu/dissertations_mu/9",
+      "year": 2009
+    },
+    {
+      "authors": [
+        "Ernst M. Conradie"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "https://doi.org/10.7833/85-0-941",
+      "id": "https://doi.org/10.7833/85-0-941",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "review",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "TOWARDS AN ECOLOGICAL BIBLICAL HERMENEUTICS: A REVIEW ESSAY ON THE EARTH BIBLE PROJECT",
+      "url": "https://doi.org/10.7833/85-0-941",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Kyung-Dong Yoo"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.21130/tw.2016.12.88.216",
+      "id": "10.21130/tw.2016.12.88.216",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "The Christian Classical Ideas of Sins : On Augustine, Thomas Aquinas, and Martin Luther",
+      "url": "https://doi.org/10.21130/tw.2016.12.88.216",
+      "year": 2016
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.5040/9780567660442.ch-010",
+      "id": "10.5040/9780567660442.ch-010",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "The Nicene Theology of Athanasius and Hilary",
+      "url": "https://doi.org/10.5040/9780567660442.ch-010",
+      "year": null
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.2307/j.ctv1hztrfz.24",
+      "id": "10.2307/j.ctv1hztrfz.24",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "The Pre-Nicene Period:",
+      "url": "https://doi.org/10.2307/j.ctv1hztrfz.24",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Editors Evangelical Quarterly: An Internati"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.1163/27725472-04003013",
+      "id": "10.1163/27725472-04003013",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "The Principles of Biblical Interpretation. As Enunciated by Irenaeus, Origen, Augustine, Luther and Calvin. By A. Skevington Wood. (Grand Rapids, Michigan: Zondervan. 1967. 103 pp. $3.50.)",
+      "url": "https://doi.org/10.1163/27725472-04003013",
+      "year": 1968
+    },
+    {
+      "authors": [
+        "Gilles Emery Op",
+        "Francesca Aran Murphy"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.1093/acprof:oso/9780199582211.003.0002",
+      "id": "10.1093/acprof:oso/9780199582211.003.0002",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "The Revelation of the Trinity",
+      "url": "https://doi.org/10.1093/acprof:oso/9780199582211.003.0002",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Bong-Chan Ko"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": null,
+      "id": "http://hdl.handle.net/1807/139159",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "dissertation",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "The Vulnerability of God as Viewed from a Theology of Han: A Constructive Dialogue between Jurgen Moltmann and Suh Nam-Dong",
+      "url": "http://hdl.handle.net/1807/139159",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Richelle Wagner Sampl"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": null,
+      "id": "https://place.asburyseminary.edu/ecommonsatsdissertations/1063",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "The symphony of the Trinity : tuning in to the Father, Son and Holy Spirit for congregational renaissance",
+      "url": "https://place.asburyseminary.edu/ecommonsatsdissertations/1063",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "A.J. Swoboda"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "https://doi.org/10.1163/9789004397163_011",
+      "id": "https://doi.org/10.1163/9789004397163_011",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Tongues and Trees: Towards a Green Pentecostal Pneumatology",
+      "url": "https://doi.org/10.1163/9789004397163_011",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Anne Hunt"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.1017/ccol9780521877398.021",
+      "id": "10.1017/ccol9780521877398.021",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Trinity, Christology, and pneumatology",
+      "url": "https://doi.org/10.1017/ccol9780521877398.021",
+      "year": 2011
+    },
+    {
+      "authors": [
         "Rogers Brubaker",
         "Frederick Cooper"
       ],
@@ -3676,5 +4135,5 @@
       "year": 2021
     }
   ],
-  "updated_at": "2026-05-11T20:46:56.943674+00:00"
+  "updated_at": "2026-05-11T21:13:39.704102+00:00"
 }
