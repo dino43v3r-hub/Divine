@@ -1,5 +1,5 @@
 {
-  "source_count": 220,
+  "source_count": 221,
   "sources": [
     {
       "authors": [],
@@ -1954,6 +1954,26 @@
       "title": "Quantum Theory",
       "url": "https://doi.org/10.4324/9781315236407-11",
       "year": 2017
+    },
+    {
+      "authors": [
+        "Alberto Barchielli",
+        "Matteo Gregoratti"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/1301.3626v2",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "The stochastic Schr\u00f6dinger equation, of classical or quantum type, allows to describe open quantum systems under measurement in continuous time. In this paper we review the link between these two descriptions and we study the properties of the output of the measurement. For simplicity we deal only with the diffusive case. Firstly, we discuss the quantum stochastic Schr\u00f6dinger equation, which is based on quantum stochastic calculus, and we show how to transform it into the classical stochastic Schr\u00f6dinger equation by diagonalization of suitable quantum observables, based on the isomorphism between Fock space and Wiener space. Then, we give the a posteriori state, the conditional system state ",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Quantum continuous measurements: The stochastic Schroedinger equations and the spectrum of the output",
+      "url": "http://arxiv.org/abs/1301.3626v2",
+      "year": "2013"
     },
     {
       "authors": [
@@ -4173,5 +4193,5 @@
       "year": 2021
     }
   ],
-  "updated_at": "2026-05-11T21:29:45.251415+00:00"
+  "updated_at": "2026-05-11T21:34:19.246511+00:00"
 }
