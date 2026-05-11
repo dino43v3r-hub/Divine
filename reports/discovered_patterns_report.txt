@@ -19,7 +19,7 @@ Being-To-Transformation Pattern
 -------------------------------
 Sequence: Being -> Order -> Life -> Consciousness -> Meaning -> Moral Response -> Worship -> Transformation
 Layer path: Physical Order, Life And Consciousness, Meaning And Logos, Moral Response, Worship And Community, Transformation
-Layer support: 18,733
+Layer support: 18,732
 Interpretation: This seed sequence suggests a layered movement from Being toward Transformation.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 
@@ -43,7 +43,7 @@ Meaning And Logos-Through-Moral Response-To-Worship And Community
 -----------------------------------------------------------------
 Sequence: Meaning And Logos -> Moral Response -> Worship And Community
 Layer path: Meaning And Logos, Moral Response, Worship And Community
-Layer support: 9,050
+Layer support: 9,049
 Interpretation: This bridge appears where adjacent layers of the divine-pattern model are all represented in the corpus.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 
@@ -67,7 +67,7 @@ Moral Response-Through-Worship And Community-To-Transformation
 --------------------------------------------------------------
 Sequence: Moral Response -> Worship And Community -> Transformation
 Layer path: Moral Response, Worship And Community, Transformation
-Layer support: 5,259
+Layer support: 5,258
 Interpretation: This bridge appears where adjacent layers of the divine-pattern model are all represented in the corpus.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 

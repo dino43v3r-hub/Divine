@@ -45,7 +45,7 @@ Layer Comparison
 - Life And Consciousness: theologians 1 | broader corpus 5,215
 - Meaning And Logos: theologians 3 | broader corpus 5,823
 - Moral Response: theologians 3 | broader corpus 2,213
-- Worship And Community: theologians 5 | broader corpus 1,014
+- Worship And Community: theologians 5 | broader corpus 1,013
 - Transformation: theologians 11 | broader corpus 2,032
 
 Per-Source Findings

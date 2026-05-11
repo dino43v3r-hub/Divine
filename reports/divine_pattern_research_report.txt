@@ -11,7 +11,7 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 17
-Total analyzed words: 722,522
+Total analyzed words: 722,518
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
@@ -19,7 +19,7 @@ Theme Signals
 - God and Divine Attributes: 25,203
 - Theology and Logos: 5,775
 - Creation and Order: 5,740
-- Jesus and Christology: 5,441
+- Jesus and Christology: 5,440
 - Physics and Natural Law: 3,021
 - Philosophy and Meaning: 3,010
 - Moral Transformation: 2,953
@@ -38,7 +38,7 @@ Signal: strong Trinitarian signal
 The analyzer treats Father, Son, and Holy Spirit as distinct persons and one God. It looks for each person separately, then checks whether the corpus keeps them relationally connected.
 - Father: 3,187
   Role: Source, Creator, giver of being, providential care, and holy authority.
-- Son: 6,681
+- Son: 6,680
   Role: Word/Logos, revelation, incarnation, redemption, reconciliation, and resurrection.
 - Holy Spirit: 1,250
   Role: Living presence, conviction, gifts, communion, sanctification, and transformation.
@@ -103,7 +103,7 @@ Layer Scores:
   Test: Does the corpus connect intelligibility with meaning, Logos, wisdom, or truth?
 - Moral Response: 2,213 (strong signal)
   Test: Does the corpus connect meaning with moral accountability or response?
-- Worship And Community: 1,014 (strong signal)
+- Worship And Community: 1,013 (strong signal)
   Test: Does the corpus connect belief with embodied practice and community?
 - Transformation: 2,032 (strong signal)
   Test: Does the corpus connect divine presence with personal or communal change?
@@ -307,8 +307,8 @@ Jesus and Christology
 - nicene_creed_325_wikisource.txt: {{translations  | translated = Nicene Creed  | original   = Σύμβολον τῆς Νικαίας  | language   = grc  | author     = [[Portal:First Council of Nicaea|First Council of Nicaea]] | author-nolink = true  | section    =   | portal     = Christianity  | notes = The '''Nicene Creed''' i
 - science_math_physics_divine_pattern_model.md: - Son / Logos: intelligibility, revelation, incarnation, embodied pattern, redemption.
 - science_math_physics_divine_pattern_model.md: Christian theology interprets this layered order through creation, Logos, incarnation, Spirit, and redemption.
-- cloud_references_summary.md: Witte  - Tags: theologians_cross_era - Provider: OpenAlex - Quality: scholarly metadata - URL: https://research.tilburguniversity.edu/en/publications/f6547a8a-7d54-494d-8b76-ee9492213045  No summary available in metadata.
 - cloud_references_summary.md: : a critical analysis of South African ecotheology  - Tags: theologians_cross_era - Provider: OpenAlex - Quality: scholarly metadata - URL: http://hdl.handle.net/10019.1/104856  OpenAlex abstract metadata available.
+- cloud_references_summary.md: ## EXPERIENCE AND THE THEOLOGY OF THE TRINITY: HOW KARL RAHNER’S METHOD AFFECTS HIS UNDERSTANDING OF REVELATION, GRACE AND THE TRINITY  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567675118.ch-005  No summary
 
 Holy Spirit and Pneumatology
 ----------------------------

@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-11T21:13:39.707479+00:00
-Total references: 218
-New references this run: 25
+Updated: 2026-05-11T21:19:23.431745+00:00
+Total references: 219
+New references this run: 1
 
 Guardrails
 ----------
@@ -21,20 +21,15 @@ Reference Tags
 - technology_ethics: 18
 - theologians_cross_era: 25
 - trinity: 28
-- unresolved_suffering: 30
+- unresolved_suffering: 31
 
 Quality Counts
 --------------
-- scholarly metadata: 193
+- scholarly metadata: 194
 - scholarly preprint: 25
 
 Recent Candidate Sources
 ------------------------
-- A Way of God's Theodicy: Honesty, Presence, Adventure (1978)
-  Tags: unresolved_suffering
-  Authors: David Cain
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1177/002234097803200404
 - Assessing Existing Theodicies (2019)
   Tags: unresolved_suffering
   Source: Crossref | scholarly metadata
@@ -166,6 +161,11 @@ Recent Candidate Sources
   Authors: Gerald West, Charlene van der Walt, Kapya Kaoma
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4102/hts.v72i1.3511
+- Why Animal Suffering Matters Morally (2013)
+  Tags: unresolved_suffering
+  Authors: Andrew Linzey
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.1093/acprof:oso/9780199351848.003.0002
 - “I Will Show You My Faith by My Works”: Addressing the Nexus between Philosophical Theodicy and Human Suffering and Loss in Contexts of ‘Natural’ Disaster (2019)
   Tags: unresolved_suffering
   Authors: Roger P. Abbott
