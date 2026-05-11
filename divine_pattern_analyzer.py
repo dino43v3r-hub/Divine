@@ -21,6 +21,7 @@ CULTURAL_PATTERNS_PATH = REPORTS_DIR / "cultural_pattern_relationships_report.tx
 PATTERN_TEST_REPORT_PATH = REPORTS_DIR / "divine_pattern_test_report.txt"
 DEEP_SOURCE_REVIEW_PATH = REPORTS_DIR / "deep_source_review_report.txt"
 THEOLOGIAN_REPORT_PATH = REPORTS_DIR / "theologian_pattern_design_report.txt"
+SUMMARY_REPORT_PATH = REPORTS_DIR / "divine_pattern_summary_report.txt"
 SUPPORTED_EXTENSIONS = {".txt", ".md"}
 
 
@@ -4269,6 +4270,143 @@ def create_theologian_pattern_design_report(research_analyses, theologian_analys
     return "\n".join(lines)
 
 
+def create_divine_pattern_summary_report(
+    research_analyses,
+    music_analyses,
+    note_analyses,
+    cultural_analyses,
+    test_analyses,
+    deep_source_analyses,
+    theologian_analyses,
+):
+    """Create a concise summary of the current divine pattern found."""
+    research_layer_counts = combine_layer_counts(research_analyses)
+    music_meaning_counts = combine_meaning_context_counts(music_analyses)
+    cultural_meaning_counts = combine_meaning_context_counts(cultural_analyses)
+    trinity_counts = combine_trinity_counts(research_analyses)
+    theologian_concepts = combine_theological_concept_counts(theologian_analyses)
+
+    note_relationships = Counter()
+    for analysis in note_analyses:
+        note_relationships.update(analysis.get("science_math_relationships", {}))
+
+    pressure_confidence = Counter(
+        analysis.get("test_confidence", "not tested") for analysis in test_analyses
+    )
+
+    deep_area_scores = Counter()
+    for analysis in deep_source_analyses:
+        for area, score in analysis.get("area_scores", {}).items():
+            if analysis.get("area_counts", {}).get(area, 0) > 0:
+                deep_area_scores[f"{area}: {score}"] += 1
+
+    lines = [
+        "Divine Pattern Summary Report",
+        "=============================",
+        "",
+        "Divine Pattern Found",
+        "--------------------",
+        "Father creates and sustains ordered reality.",
+        "Son / Logos reveals meaning and redeems disorder.",
+        "Holy Spirit makes redemption present through communion, healing, and transformation.",
+        "",
+        "Condensed sequence:",
+        "",
+        "Physical Order -> Perception -> Meaning -> Tension/Lament -> Moral Discernment -> Community Practice -> Spirit-Led Transformation",
+        "",
+        "Practical daily-life form:",
+        "",
+        "Notice -> Name -> Discern -> Practice -> Transform",
+        "",
+        "Why this pattern is currently strongest:",
+        "----------------------------------------",
+    ]
+
+    lines.extend(
+        [
+            f"- Trinitarian signal: {score_trinitarian_pattern(trinity_counts)}",
+            f"- Father: {trinity_counts.get('Father', 0):,}",
+            f"- Son: {trinity_counts.get('Son', 0):,}",
+            f"- Holy Spirit: {trinity_counts.get('Holy Spirit', 0):,}",
+            "",
+            "Strongest research layers:",
+        ]
+    )
+
+    for layer, count in research_layer_counts.most_common(6):
+        lines.append(f"- {layer}: {count:,}")
+
+    lines.extend(["", "Music-note science/math support:"])
+    if note_relationships:
+        for relationship, count in note_relationships.most_common(5):
+            lines.append(f"- {relationship}: {count:,}")
+    else:
+        lines.append("- No music-note relationships analyzed yet.")
+
+    lines.extend(["", "Lyric meaning support:"])
+    if music_meaning_counts:
+        for context, count in music_meaning_counts.most_common(5):
+            lines.append(f"- {context}: {count:,}")
+    else:
+        lines.append("- No lyric meaning contexts analyzed yet.")
+
+    lines.extend(["", "Cultural meaning support:"])
+    if cultural_meaning_counts:
+        for context, count in cultural_meaning_counts.most_common(5):
+            lines.append(f"- {context}: {count:,}")
+    else:
+        lines.append("- No cultural meaning contexts analyzed yet.")
+
+    lines.extend(["", "Theologian pattern-design support:"])
+    if theologian_concepts:
+        for concept, count in theologian_concepts.most_common(6):
+            if count > 0:
+                lines.append(f"- {concept}: {count:,}")
+    else:
+        lines.append("- No theologian pattern-design sources analyzed yet.")
+
+    lines.extend(["", "Pressure-test result:", "---------------------"])
+    if pressure_confidence:
+        for label, count in pressure_confidence.most_common():
+            lines.append(f"- {label}: {count:,}")
+    else:
+        lines.append("- No pressure tests analyzed yet.")
+
+    lines.extend(["", "Deep-source result:", "-------------------"])
+    if deep_area_scores:
+        for label, count in deep_area_scores.most_common():
+            lines.append(f"- {label}: {count:,}")
+    else:
+        lines.append("- No deep-source files analyzed yet.")
+
+    lines.extend(
+        [
+            "",
+            "Guardrails",
+            "----------",
+            "- This is a research hypothesis, not proof.",
+            "- Father, Son, and Holy Spirit are distinct persons and one God.",
+            "- Quantum/science claims must stay tied to qualified evidence.",
+            "- Unresolved suffering must not be rushed into easy resolution.",
+            "- Non-Christian traditions should be compared respectfully, not flattened.",
+            "",
+            "Modern-Life Application",
+            "-----------------------",
+            "Use the pattern to ask: What order or gift is present? What tension, suffering, beauty, or injustice must be named? What truth is being revealed? What moral response is called for? What community practice can carry it? What transformation or hope can be practiced today?",
+            "",
+            "Next Actions",
+            "------------",
+            "1. Add more actual theologian source material across eras.",
+            "2. Add harder unresolved-suffering case studies.",
+            "3. Add qualified quantum/science references and counterarguments.",
+            "4. Review daily cloud references before treating them as strong evidence.",
+            "5. Keep refining the pattern only where it survives pressure.",
+        ]
+    )
+
+    return "\n".join(lines)
+
+
 def save_text(path, text):
     """Save the generated research report."""
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -4351,6 +4489,15 @@ def main():
         analyses,
         theologian_analyses,
     )
+    divine_pattern_summary_report = create_divine_pattern_summary_report(
+        analyses,
+        music_analyses,
+        music_note_analyses,
+        cultural_analyses,
+        pattern_test_analyses,
+        deep_source_analyses,
+        theologian_analyses,
+    )
     save_text(REPORT_PATH, report)
     save_text(PATTERN_CANDIDATES_PATH, candidates_report)
     save_text(DISCOVERED_PATTERNS_PATH, discovered_patterns_report)
@@ -4360,6 +4507,7 @@ def main():
     save_text(PATTERN_TEST_REPORT_PATH, pattern_test_report)
     save_text(DEEP_SOURCE_REVIEW_PATH, deep_source_review_report)
     save_text(THEOLOGIAN_REPORT_PATH, theologian_pattern_design_report)
+    save_text(SUMMARY_REPORT_PATH, divine_pattern_summary_report)
 
     print("Divine pattern research analysis complete.")
     print(f"Report saved to: {REPORT_PATH}")
@@ -4371,6 +4519,7 @@ def main():
     print(f"Pattern test report saved to: {PATTERN_TEST_REPORT_PATH}")
     print(f"Deep source review saved to: {DEEP_SOURCE_REVIEW_PATH}")
     print(f"Theologian pattern design saved to: {THEOLOGIAN_REPORT_PATH}")
+    print(f"Summary report saved to: {SUMMARY_REPORT_PATH}")
 
 
 if __name__ == "__main__":

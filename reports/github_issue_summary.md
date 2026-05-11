@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-11T21:16:41.436462+00:00
+Generated: 2026-05-11T21:27:40.131419+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -9,6 +9,7 @@ Full reports are committed in the repository under `reports/`.
 
 | Report | Read full file |
 | --- | --- |
+| `divine_pattern_summary_report.txt` | [available](./reports/divine_pattern_summary_report.txt) |
 | `cloud_research_findings_report.txt` | [available](./reports/cloud_research_findings_report.txt) |
 | `divine_pattern_research_report.txt` | [available](./reports/divine_pattern_research_report.txt) |
 | `divine_pattern_candidates_report.txt` | [available](./reports/divine_pattern_candidates_report.txt) |
@@ -23,14 +24,39 @@ Full reports are committed in the repository under `reports/`.
 
 The sections below are only short previews. Use the links above for the full reports.
 
+## reports\divine_pattern_summary_report.txt
+
+```text
+Divine Pattern Summary Report
+=============================
+
+Divine Pattern Found
+--------------------
+Father creates and sustains ordered reality.
+Son / Logos reveals meaning and redeems disorder.
+Holy Spirit makes redemption present through communion, healing, and transformation.
+
+Condensed sequence:
+
+Physical Order -> Perception -> Meaning -> Tension/Lament -> Moral Discernment -> Community Practice -> Spirit-Led Transformation
+
+Practical daily-life form:
+
+Notice -> Name -> Discern -> Practice -> Transform
+
+Why this pattern is currently strongest:
+
+_Full report has 90 lines. Open the linked report above to read everything._
+```
+
 ## reports\cloud_research_findings_report.txt
 
 ```text
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-11T20:46:56.973094+00:00
-Total references: 193
+Updated: 2026-05-11T21:13:39.707479+00:00
+Total references: 218
 New references this run: 25
 
 Guardrails
@@ -45,7 +71,7 @@ Reference Tags
 - art_beauty: 20
 - music_math: 40
 
-_Full report has 177 lines. Open the linked report above to read everything._
+_Full report has 178 lines. Open the linked report above to read everything._
 ```
 
 ## reports\divine_pattern_research_report.txt
@@ -64,13 +90,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 17
-Total analyzed words: 722,727
+Total analyzed words: 722,522
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 656 lines. Open the linked report above to read everything._
+_Full report has 653 lines. Open the linked report above to read everything._
 ```
 
 ## reports\divine_pattern_candidates_report.txt

@@ -5,6 +5,7 @@ from pathlib import Path
 
 
 REPORT_PATHS = [
+    Path("reports/divine_pattern_summary_report.txt"),
     Path("reports/cloud_research_findings_report.txt"),
     Path("reports/divine_pattern_research_report.txt"),
     Path("reports/divine_pattern_candidates_report.txt"),
