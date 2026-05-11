@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   collect-and-analyze:
@@ -26,6 +27,24 @@ jobs:
 
       - name: Run divine pattern analyzer
         run: python divine_pattern_analyzer.py
+
+      - name: Build GitHub issue summary
+        run: python build_github_issue_summary.py
+
+      - name: Create GitHub notification issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const body = fs.readFileSync("reports/github_issue_summary.md", "utf8");
+            const date = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Daily Cloud Research Results - ${date}`,
+              body,
+              labels: ["daily-research"]
+            });
 
       - name: Commit updated references and reports
         uses: stefanzweifel/git-auto-commit-action@v5
