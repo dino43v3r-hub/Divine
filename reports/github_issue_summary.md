@@ -1,9 +1,27 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-11T20:51:06.171279+00:00
+Generated: 2026-05-11T21:16:41.436462+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
+
+## Full Reports
+
+| Report | Read full file |
+| --- | --- |
+| `cloud_research_findings_report.txt` | [available](./reports/cloud_research_findings_report.txt) |
+| `divine_pattern_research_report.txt` | [available](./reports/divine_pattern_research_report.txt) |
+| `divine_pattern_candidates_report.txt` | [available](./reports/divine_pattern_candidates_report.txt) |
+| `divine_pattern_test_report.txt` | [available](./reports/divine_pattern_test_report.txt) |
+| `deep_source_review_report.txt` | [available](./reports/deep_source_review_report.txt) |
+| `theologian_pattern_design_report.txt` | [available](./reports/theologian_pattern_design_report.txt) |
+| `music_note_patterns_report.txt` | [available](./reports/music_note_patterns_report.txt) |
+| `music_lyric_patterns_report.txt` | [available](./reports/music_lyric_patterns_report.txt) |
+| `cultural_pattern_relationships_report.txt` | [available](./reports/cultural_pattern_relationships_report.txt) |
+
+## Quick Highlights
+
+The sections below are only short previews. Use the links above for the full reports.
 
 ## reports\cloud_research_findings_report.txt
 
@@ -26,25 +44,8 @@ Reference Tags
 --------------
 - art_beauty: 20
 - music_math: 40
-- politics_justice: 20
-- quantum_science_guardrails: 37
-- technology_ethics: 18
-- trinity: 28
-- unresolved_suffering: 30
 
-Quality Counts
---------------
-- scholarly metadata: 168
-- scholarly preprint: 25
-
-Recent Candidate Sources
-------------------------
-- A Way of God's Theodicy: Honesty, Presence, Adventure (1978)
-  Tags: unresolved_suffering
-  Authors: David Cain
-  Source: Crossref | scholarly metadata
-
-_Trimmed. Full report has 177 lines._
+_Full report has 177 lines. Open the linked report above to read everything._
 ```
 
 ## reports\divine_pattern_research_report.txt
@@ -63,30 +64,38 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 17
-Total analyzed words: 722,720
+Total analyzed words: 722,727
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
-- God and Divine Attributes: 25,198
-- Theology and Logos: 5,771
-- Creation and Order: 5,740
-- Jesus and Christology: 5,418
-- Philosophy and Meaning: 3,032
-- Physics and Natural Law: 3,022
-- Moral Transformation: 2,950
-- Spirituality and Worship: 1,255
-- Faith and Trust: 1,184
-- Holy Spirit and Pneumatology: 939
-- Mathematics and Intelligibility: 649
-- Anthropology and Culture: 644
-- AI and Pattern Recognition: 239
-- Quantum Physics and Uncertainty: 56
-- Biology and Neuroscience: 49
 
-Trinitarian Pattern Lens
+_Full report has 656 lines. Open the linked report above to read everything._
+```
 
-_Trimmed. Full report has 656 lines._
+## reports\divine_pattern_candidates_report.txt
+
+```text
+Divine Pattern Candidates Report
+================================
+
+Purpose
+-------
+This report proposes possible divine-pattern candidates from the current corpus.
+These are research hypotheses, not proofs. Each candidate should be tested against stronger sources and fair criticism.
+
+Core Model
+----------
+Physical Order -> Mathematical Structure -> Quantum Probability -> Life And Consciousness -> Meaning And Logos -> Moral Response -> Worship And Community -> Transformation
+
+Candidate Rankings
+------------------
+
+Image Of God Pattern
+--------------------
+Status: strong candidate
+
+_Full report has 163 lines. Open the linked report above to read everything._
 ```
 
 ## reports\divine_pattern_test_report.txt
@@ -110,25 +119,8 @@ Test Overview
 Test documents analyzed: 5
 Test words analyzed: 247
 
-Pressure Types
---------------
-- Science Guardrail: 10
-- Injustice And Corruption: 8
-- Suffering Without Resolution: 7
-- Non-Christian Comparison: 7
-- Practical Case Study: 5
-- Counterexample Pressure: 3
 
-Source Quality Markers
-----------------------
-- Practical Lived Source: 8
-- Scholarly Or Scientific Source: 4
-- Speculative Source: 1
-
-Confidence Results
-------------------
-
-_Trimmed. Full report has 156 lines._
+_Full report has 156 lines. Open the linked report above to read everything._
 ```
 
 ## reports\deep_source_review_report.txt
@@ -152,23 +144,106 @@ Area signal: 16
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
 - Scripture/Theology: present (9)
-- Pastoral/Clinical: present (12)
-- Lived Case: present (8)
-- Counterargument: present (7)
 
-Quantum And Science Claims
---------------------------
-Status: source-supported
-Area signal: 16
-Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
-Required source types:
-- Physicist/Primary Science: present (8)
-- Peer-Reviewed/Academic: present (5)
-- Philosophy Of Science: present (10)
-- Counterargument: present (7)
+_Full report has 82 lines. Open the linked report above to read everything._
+```
 
-All Source-Type Signals
------------------------
+## reports\theologian_pattern_design_report.txt
 
-_Trimmed. Full report has 82 lines._
+```text
+Theologian Pattern Design Report
+================================
+
+Purpose
+-------
+This report uses theologians across eras to deepen pattern design. It looks for continuity, development, and disagreement instead of treating theology as one flat voice.
+Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
+
+Overview
+--------
+Theologian documents analyzed: 1
+Total theologian words analyzed: 150
+
+Era Coverage
+------------
+- Patristic: 6
+- Medieval: 5
+- Reformation: 2
+
+_Full report has 73 lines. Open the linked report above to read everything._
+```
+
+## reports\music_note_patterns_report.txt
+
+```text
+Music Note Science And Math Pattern Report
+==========================================
+
+Purpose
+-------
+This report analyzes actual note and chord patterns, then compares their mathematical structure with the science, math, and divine-pattern layers in the research corpus.
+It treats musical order as a relationship between number, physical sound, pattern, tension, resolution, and meaning. These are research signals, not theological proof.
+Guardrail: note math is analyzed directly, while theological meaning is only suggested when the surrounding composition notes support it.
+Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
+
+Overview
+--------
+Music-note files analyzed: 4
+Note/chord events analyzed: 79
+Individual notes analyzed: 113
+Intervals analyzed: 129
+Consonance ratio: 68.99%
+Tension ratio: 31.01%
+
+_Full report has 203 lines. Open the linked report above to read everything._
+```
+
+## reports\music_lyric_patterns_report.txt
+
+```text
+Music And Lyric Pattern Alignment Report
+========================================
+
+Purpose
+-------
+This report looks for patterns across any kind of music or lyrics, then compares those patterns with biblical and other religious themes already used by the research analyzer.
+It detects broad human motifs, religious motifs, repeated refrains, question/response movement, and possible spiritual arcs. These are interpretive signals, not proof of author intent.
+Guardrail: the report separates broad human meaning from religious vocabulary so secular music is not forced into a religious reading.
+Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
+
+Overview
+--------
+Lyric documents analyzed: 13
+Total lyric words analyzed: 794
+Religious research documents used for comparison: 17
+
+Strongest Lyric Motifs
+---------------------
+
+_Full report has 664 lines. Open the linked report above to read everything._
+```
+
+## reports\cultural_pattern_relationships_report.txt
+
+```text
+Cultural Pattern Relationships Report
+=====================================
+
+Purpose
+-------
+This report broadens the project beyond music. It compares art, politics, science, technology, economics, family, health, ecology, and education with the same meaning guardrails used for theology and music.
+Guardrail: cultural patterns are treated as practical-theology questions, not automatic proof claims.
+Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
+
+Overview
+--------
+Cultural documents analyzed: 9
+Total cultural words analyzed: 338
+
+Cultural Domains
+----------------
+- Family And Community: 19
+- Education And Formation: 12
+
+_Full report has 258 lines. Open the linked report above to read everything._
 ```
