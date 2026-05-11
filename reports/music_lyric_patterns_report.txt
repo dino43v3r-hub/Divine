@@ -1,0 +1,664 @@
+Music And Lyric Pattern Alignment Report
+========================================
+
+Purpose
+-------
+This report looks for patterns across any kind of music or lyrics, then compares those patterns with biblical and other religious themes already used by the research analyzer.
+It detects broad human motifs, religious motifs, repeated refrains, question/response movement, and possible spiritual arcs. These are interpretive signals, not proof of author intent.
+Guardrail: the report separates broad human meaning from religious vocabulary so secular music is not forced into a religious reading.
+Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
+
+Overview
+--------
+Lyric documents analyzed: 13
+Total lyric words analyzed: 794
+Religious research documents used for comparison: 17
+
+Strongest Lyric Motifs
+---------------------
+Broad music motifs:
+- Community And Solidarity: 17
+- Home And Belonging: 15
+- Mortality And Time: 15
+- Love And Longing: 13
+- Loss And Grief: 12
+- Identity And Becoming: 11
+- Journey And Road: 11
+- Rebellion And Resistance: 9
+- Party And Release: 9
+- Work And Survival: 8
+- Nature And Cosmos: 6
+- Freedom And Escape: 5
+- Healing And Recovery: 5
+- Money And Status: 2
+
+Religious motif echoes:
+- Wisdom And Truth: 13
+- Spirit And Presence: 13
+- Creation And Wonder: 12
+- Resurrection And Hope: 12
+- Lament And Cry For Help: 10
+- Justice And Mercy: 10
+- Redemption And Rescue: 8
+- Exile And Homecoming: 5
+- Covenant And Faithfulness: 5
+- Praise And Thanksgiving: 2
+
+Trinitarian Lens
+----------------
+Signal: partial Trinitarian signal
+- Father: 0
+- Son: 2
+- Holy Spirit: 7
+
+Meaning Guardrails
+------------------
+- Communal Practice: 23
+- Creation And Order: 19
+- Alienation And Lament: 13
+- Desire And Longing: 12
+- Moral Confrontation: 12
+- Transformation And Hope: 12
+
+Shared Divine-Pattern Layers
+----------------------------
+- Physical Order: lyrics 12 | religious corpus 2,436
+- Mathematical Structure: lyrics 2 | religious corpus 554
+- Quantum Probability: lyrics 0 | religious corpus 72
+- Life And Consciousness: lyrics 38 | religious corpus 5,239
+- Meaning And Logos: lyrics 47 | religious corpus 5,820
+- Moral Response: lyrics 62 | religious corpus 2,213
+- Worship And Community: lyrics 62 | religious corpus 1,012
+- Transformation: lyrics 57 | religious corpus 2,027
+
+Shared Theme Signals
+--------------------
+- God and Divine Attributes: lyrics 12 | religious corpus 25,198
+- Faith and Trust: lyrics 8 | religious corpus 1,184
+- Jesus and Christology: lyrics 1 | religious corpus 5,418
+- Holy Spirit and Pneumatology: lyrics 4 | religious corpus 939
+- Creation and Order: lyrics 11 | religious corpus 5,740
+- Moral Transformation: lyrics 11 | religious corpus 2,950
+- Theology and Logos: lyrics 8 | religious corpus 5,771
+- Spirituality and Worship: lyrics 8 | religious corpus 1,255
+- Biology and Neuroscience: lyrics 0 | religious corpus 49
+- Physics and Natural Law: lyrics 4 | religious corpus 3,022
+- Mathematics and Intelligibility: lyrics 6 | religious corpus 649
+- Quantum Physics and Uncertainty: lyrics 0 | religious corpus 56
+- Anthropology and Culture: lyrics 0 | religious corpus 644
+- AI and Pattern Recognition: lyrics 17 | religious corpus 239
+- Philosophy and Meaning: lyrics 0 | religious corpus 3,032
+
+Most Aligned Lyric Files
+------------------------
+- from_order_to_worship.md: score 115; strongest broad motif Love And Longing (5); strongest motif Creation And Wonder (4); strongest layer Worship And Community (14)
+- lament_to_hope.md: score 66; strongest broad motif Love And Longing (2); strongest motif Lament And Cry For Help (6); strongest layer Transformation (7)
+- spirit_and_transformation.md: score 56; strongest broad motif Community And Solidarity (4); strongest motif Spirit And Presence (6); strongest layer Worship And Community (7)
+- folk_journey_time.md: score 51; strongest broad motif Journey And Road (5); strongest motif Lament And Cry For Help (2); strongest layer Meaning And Logos (11)
+- pop_love_longing.md: score 43; strongest broad motif Love And Longing (5); strongest motif Wisdom And Truth (3); strongest layer Worship And Community (8)
+- classical_symphony_arc.md: score 38; strongest broad motif Journey And Road (2); strongest motif Wisdom And Truth (2); strongest layer Transformation (6)
+- dance_party_release.md: score 38; strongest broad motif Party And Release (6); strongest motif Spirit And Presence (1); strongest layer Worship And Community (11)
+- classical_requiem_memory.md: score 35; strongest broad motif Mortality And Time (3); strongest motif Creation And Wonder (2); strongest layer Life And Consciousness (4)
+- hiphop_work_status.md: score 34; strongest broad motif Work And Survival (6); strongest motif Lament And Cry For Help (0); strongest layer Moral Response (10)
+- rock_rebellion_resistance.md: score 34; strongest broad motif Rebellion And Resistance (6); strongest motif Justice And Mercy (1); strongest layer Moral Response (11)
+
+Per-Lyric Findings
+------------------
+
+from_order_to_worship.md
+------------------------
+Lines: 27
+Words: 102
+Alignment score: 115
+Strongest theme: God and Divine Attributes (6)
+Strongest divine-pattern layer: Worship And Community (14)
+Strongest broad music motif: Love And Longing (5)
+Strongest lyric motif: Creation And Wonder (4)
+Meaning confidence: context-supported pattern
+Repeated refrain candidates:
+- Order becomes wonder (2x)
+- Wonder becomes prayer (2x)
+- Prayer becomes surrender (2x)
+- And love remakes us there (2x)
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Life And Consciousness (3); broad motif Love And Longing (1); motif Creation And Wonder (4)
+- Middle: layer Moral Response (7); broad motif Love And Longing (2); motif Justice And Mercy (3)
+- Ending: layer Worship And Community (6); broad motif Love And Longing (2); motif Covenant And Faithfulness (2)
+Meaning arc:
+- Opening: Creation And Order (3)
+- Middle: Moral Confrontation (3)
+- Ending: Transformation And Hope (3)
+Broad music motif evidence samples:
+- Mortality And Time: The earth keeps time beneath my feet
+- Mortality And Time: Grace is stronger than the grave
+- Love And Longing: The stars hold silence like a promise
+- Love And Longing: And love remakes us there
+- Nature And Cosmos: The stars hold silence like a promise
+- Identity And Becoming: I was hunger learning a name
+- Freedom And Escape: Then the word became a road before me
+- Journey And Road: Then the word became a road before me
+- Community And Solidarity: And love remakes us there
+- Community And Solidarity: Teach my hands to answer with justice
+- Work And Survival: Teach my hands to answer with justice
+- Party And Release: When the night remembers my failures
+- Healing And Recovery: Spirit breathe through all my wanting
+Religious motif evidence samples:
+- Praise And Thanksgiving: Title: From Order To Worship
+- Creation And Wonder: The morning opens with light over water
+- Creation And Wonder: The earth keeps time beneath my feet
+- Wisdom And Truth: The morning opens with light over water
+- Wisdom And Truth: Then the word became a road before me
+- Resurrection And Hope: The morning opens with light over water
+- Covenant And Faithfulness: The stars hold silence like a promise
+- Covenant And Faithfulness: And love remakes us there
+- Spirit And Presence: And every breath becomes receipt
+- Spirit And Presence: I was dust with a question inside me
+- Redemption And Rescue: And mercy called me out of shame
+- Redemption And Rescue: Make my heart a shelter for mercy
+- Justice And Mercy: And mercy called me out of shame
+- Justice And Mercy: Teach my hands to answer with justice
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+
+lament_to_hope.md
+-----------------
+Lines: 23
+Words: 73
+Alignment score: 66
+Strongest theme: Faith and Trust (6)
+Strongest divine-pattern layer: Transformation (7)
+Strongest broad music motif: Love And Longing (2)
+Strongest lyric motif: Lament And Cry For Help (6)
+Meaning confidence: context-supported pattern
+Repeated refrain candidates:
+- Answer me with mercy (2x)
+- Meet me in the dust (2x)
+- Hold me when my faith is shaking (2x)
+- Teach my fear to trust (2x)
+Question/response candidates:
+- Q: Why does the road grow quiet?
+  R: Why does the city sleep?
+- Q: Why does the city sleep?
+  R: I bring my cry from the valley
+Lyric arc:
+- Opening: layer Transformation (4); broad motif Loss And Grief (1); motif Lament And Cry For Help (4)
+- Middle: layer Moral Response (2); broad motif Love And Longing (1); motif Justice And Mercy (4)
+- Ending: layer Transformation (3); broad motif Love And Longing (1); motif Resurrection And Hope (3)
+Meaning arc:
+- Opening: Alienation And Lament (2)
+- Middle: Moral Confrontation (4)
+- Ending: Alienation And Lament (3)
+Broad music motif evidence samples:
+- Freedom And Escape: Why does the road grow quiet?
+- Journey And Road: Why does the road grow quiet?
+- Loss And Grief: I bring the tears I keep
+- Love And Longing: Hold me when my faith is shaking
+- Love And Longing: Hold me when my faith is shaking
+- Healing And Recovery: The wounded wait to mend
+- Rebellion And Resistance: Let hope rise from the ground
+- Mortality And Time: If death has spoken its warning
+Religious motif evidence samples:
+- Resurrection And Hope: Title: Lament To Hope
+- Resurrection And Hope: The prisoner waits for morning
+- Lament And Cry For Help: Why does the road grow quiet?
+- Lament And Cry For Help: Why does the city sleep?
+- Redemption And Rescue: Answer me with mercy
+- Redemption And Rescue: Answer me with mercy
+- Justice And Mercy: Answer me with mercy
+- Justice And Mercy: The poor are waiting for justice
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Make room for honest lament: name grief without rushing to easy answers, especially in counseling, prayer, music, and community care.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+
+spirit_and_transformation.md
+----------------------------
+Lines: 23
+Words: 87
+Alignment score: 56
+Strongest theme: Holy Spirit and Pneumatology (3)
+Strongest divine-pattern layer: Worship And Community (7)
+Strongest broad music motif: Community And Solidarity (4)
+Strongest lyric motif: Spirit And Presence (6)
+Meaning confidence: context-supported pattern
+Repeated refrain candidates:
+- Presence becomes courage (2x)
+- Courage becomes song (2x)
+- Song becomes communion (2x)
+- And the weak are made strong (2x)
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Worship And Community (2); broad motif Party And Release (1); motif Spirit And Presence (3)
+- Middle: layer Moral Response (4); broad motif Community And Solidarity (3); motif Redemption And Rescue (1)
+- Ending: layer Transformation (4); broad motif Identity And Becoming (1); motif Spirit And Presence (2)
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Communal Practice (3)
+- Ending: Communal Practice (6)
+Broad music motif evidence samples:
+- Party And Release: Come like fire in the room
+- Home And Belonging: Come like fire in the room
+- Community And Solidarity: Forgive the pride that divides us
+- Community And Solidarity: Heal the anger we defend
+- Healing And Recovery: Heal the anger we defend
+- Work And Survival: Shape our work with truth and grace
+- Identity And Becoming: Let our worship become service
+Religious motif evidence samples:
+- Spirit And Presence: Title: Spirit And Transformation
+- Spirit And Presence: Come like wind over silence
+- Redemption And Rescue: Forgive the pride that divides us
+- Redemption And Rescue: Shape our work with truth and grace
+- Wisdom And Truth: Shape our work with truth and grace
+- Praise And Thanksgiving: Let our worship become service
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+
+folk_journey_time.md
+--------------------
+Lines: 11
+Words: 44
+Alignment score: 51
+Strongest theme: Physics and Natural Law (1)
+Strongest divine-pattern layer: Meaning And Logos (11)
+Strongest broad music motif: Journey And Road (5)
+Strongest lyric motif: Lament And Cry For Help (2)
+Meaning confidence: not enough meaning context
+Repeated refrain candidates:
+- No repeated refrain lines detected.
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Meaning And Logos (2); broad motif Journey And Road (1); motif Lament And Cry For Help (0)
+- Middle: layer Meaning And Logos (5); broad motif Journey And Road (2); motif Lament And Cry For Help (1)
+- Ending: layer Meaning And Logos (4); broad motif Journey And Road (2); motif Lament And Cry For Help (1)
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Broad music motif evidence samples:
+- Journey And Road: Title: Map Of Years
+- Journey And Road: I walked by the river with a map of years
+- Mortality And Time: Title: Map Of Years
+- Mortality And Time: I walked by the river with a map of years
+- Nature And Cosmos: I walked by the river with a map of years
+- Nature And Cosmos: I will answer by learning the sky
+- Loss And Grief: The road was written in dust and tears
+- Freedom And Escape: The road was written in dust and tears
+- Home And Belonging: Every path bent back toward town
+- Identity And Becoming: It shows the stranger inside my name
+Religious motif evidence samples:
+- Creation And Wonder: I walked by the river with a map of years
+- Lament And Cry For Help: The road was written in dust and tears
+- Lament And Cry For Help: If the horizon keeps asking me why
+- Wisdom And Truth: Every path bent back toward town
+- Spirit And Presence: It shows the stranger inside my name
+Practical theology applications:
+- No practical theology plan yet. Add more source text, lyrics, notes, or observations with clear context.
+
+pop_love_longing.md
+-------------------
+Lines: 11
+Words: 44
+Alignment score: 43
+Strongest theme: God and Divine Attributes (1)
+Strongest divine-pattern layer: Worship And Community (8)
+Strongest broad music motif: Love And Longing (5)
+Strongest lyric motif: Wisdom And Truth (3)
+Meaning confidence: plausible meaning pattern
+Repeated refrain candidates:
+- No repeated refrain lines detected.
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Physical Order (0); broad motif Love And Longing (0); motif Creation And Wonder (1)
+- Middle: layer Worship And Community (3); broad motif Love And Longing (1); motif Creation And Wonder (1)
+- Ending: layer Worship And Community (5); broad motif Love And Longing (4); motif Exile And Homecoming (1)
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (1)
+- Ending: Desire And Longing (4)
+Broad music motif evidence samples:
+- Identity And Becoming: I see your name in the window light
+- Identity And Becoming: I want a voice that feels like home
+- Love And Longing: My heart keeps time with the city night
+- Love And Longing: I want to hold what I cannot own
+- Party And Release: My heart keeps time with the city night
+- Mortality And Time: My heart keeps time with the city night
+- Loss And Grief: Every room feels empty when you go
+- Home And Belonging: Every room feels empty when you go
+- Home And Belonging: I want a voice that feels like home
+Religious motif evidence samples:
+- Creation And Wonder: Title: Window Light
+- Creation And Wonder: I see your name in the window light
+- Wisdom And Truth: Title: Window Light
+- Wisdom And Truth: I see your name in the window light
+- Exile And Homecoming: I want a voice that feels like home
+- Covenant And Faithfulness: Love is a question under my skin
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+
+classical_symphony_arc.md
+-------------------------
+Lines: 19
+Words: 87
+Alignment score: 38
+Strongest theme: Faith and Trust (1)
+Strongest divine-pattern layer: Transformation (6)
+Strongest broad music motif: Journey And Road (2)
+Strongest lyric motif: Wisdom And Truth (2)
+Meaning confidence: context-supported pattern
+Repeated refrain candidates:
+- No repeated refrain lines detected.
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Physical Order (1); broad motif Love And Longing (0); motif Creation And Wonder (1)
+- Middle: layer Life And Consciousness (2); broad motif Loss And Grief (1); motif Lament And Cry For Help (0)
+- Ending: layer Transformation (4); broad motif Journey And Road (2); motif Resurrection And Hope (2)
+Meaning arc:
+- Opening: Creation And Order (3)
+- Middle: Alienation And Lament (2)
+- Ending: Alienation And Lament (1)
+Broad music motif evidence samples:
+- Loss And Grief: The theme bends downward, as if memory has become grief.
+- Identity And Becoming: The theme bends downward, as if memory has become grief.
+- Mortality And Time: The theme bends downward, as if memory has become grief.
+- Journey And Road: The music searches for a path through pressure.
+- Journey And Road: The first theme returns, changed by the journey.
+- Rebellion And Resistance: Strings, brass, and choir-like harmony rise together.
+- Home And Belonging: Strings, brass, and choir-like harmony rise together.
+- Community And Solidarity: Strings, brass, and choir-like harmony rise together.
+Religious motif evidence samples:
+- Creation And Wonder: Title: Symphony In Light And Shadow
+- Wisdom And Truth: Title: Symphony In Light And Shadow
+- Wisdom And Truth: The music searches for a path through pressure.
+- Exile And Homecoming: The first theme returns, changed by the journey.
+- Resurrection And Hope: Strings, brass, and choir-like harmony rise together.
+- Resurrection And Hope: The ending does not erase sorrow; it gathers it into hope.
+- Lament And Cry For Help: The ending does not erase sorrow; it gathers it into hope.
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Make room for honest lament: name grief without rushing to easy answers, especially in counseling, prayer, music, and community care.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+
+dance_party_release.md
+----------------------
+Lines: 11
+Words: 48
+Alignment score: 38
+Strongest theme: AI and Pattern Recognition (1)
+Strongest divine-pattern layer: Worship And Community (11)
+Strongest broad music motif: Party And Release (6)
+Strongest lyric motif: Spirit And Presence (1)
+Meaning confidence: not enough meaning context
+Repeated refrain candidates:
+- No repeated refrain lines detected.
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Worship And Community (1); broad motif Party And Release (1); motif Lament And Cry For Help (0)
+- Middle: layer Worship And Community (5); broad motif Party And Release (3); motif Resurrection And Hope (1)
+- Ending: layer Worship And Community (5); broad motif Party And Release (2); motif Spirit And Presence (1)
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Broad music motif evidence samples:
+- Party And Release: Genre: Dance
+- Party And Release: Lights in the room and the bass comes alive
+- Home And Belonging: Lights in the room and the bass comes alive
+- Community And Solidarity: Move with the crowd till the worries unwind
+- Community And Solidarity: Fire in the pulse and a shout for us all
+- Love And Longing: Dance till the clock loses hold of the wall
+- Mortality And Time: Dance till the clock loses hold of the wall
+- Nature And Cosmos: Under the moon and the turning sun
+Religious motif evidence samples:
+- Resurrection And Hope: Lights in the room and the bass comes alive
+- Spirit And Presence: Fire in the pulse and a shout for us all
+Practical theology applications:
+- No practical theology plan yet. Add more source text, lyrics, notes, or observations with clear context.
+
+classical_requiem_memory.md
+---------------------------
+Lines: 13
+Words: 68
+Alignment score: 35
+Strongest theme: God and Divine Attributes (1)
+Strongest divine-pattern layer: Life And Consciousness (4)
+Strongest broad music motif: Mortality And Time (3)
+Strongest lyric motif: Creation And Wonder (2)
+Meaning confidence: plausible meaning pattern
+Repeated refrain candidates:
+- No repeated refrain lines detected.
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Life And Consciousness (1); broad motif Mortality And Time (1); motif Lament And Cry For Help (0)
+- Middle: layer Moral Response (2); broad motif Loss And Grief (1); motif Redemption And Rescue (1)
+- Ending: layer Life And Consciousness (3); broad motif Mortality And Time (2); motif Spirit And Presence (2)
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Alienation And Lament (2)
+- Ending: Alienation And Lament (2)
+Broad music motif evidence samples:
+- Mortality And Time: The opening is low and slow, shaped by mortality and time.
+- Mortality And Time: The final sound does not conquer death loudly.
+- Home And Belonging: Voices enter like names remembered in a dark room.
+- Loss And Grief: The music carries grief without rushing it.
+- Loss And Grief: The orchestra trembles between loss and healing.
+- Healing And Recovery: The orchestra trembles between loss and healing.
+Religious motif evidence samples:
+- Redemption And Rescue: The harmony asks for mercy, rest, and light.
+- Creation And Wonder: The harmony asks for mercy, rest, and light.
+- Creation And Wonder: The choir holds one phrase until it feels like breath.
+- Wisdom And Truth: The harmony asks for mercy, rest, and light.
+- Justice And Mercy: The harmony asks for mercy, rest, and light.
+- Spirit And Presence: Near the end, the melody becomes simpler.
+- Spirit And Presence: The choir holds one phrase until it feels like breath.
+- Resurrection And Hope: It leaves hope burning quietly beside the grave.
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Make room for honest lament: name grief without rushing to easy answers, especially in counseling, prayer, music, and community care.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+
+hiphop_work_status.md
+---------------------
+Lines: 11
+Words: 51
+Alignment score: 34
+Strongest theme: AI and Pattern Recognition (1)
+Strongest divine-pattern layer: Moral Response (10)
+Strongest broad music motif: Work And Survival (6)
+Strongest lyric motif: Lament And Cry For Help (0)
+Meaning confidence: word-level signal only
+Repeated refrain candidates:
+- No repeated refrain lines detected.
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Life And Consciousness (1); broad motif Work And Survival (1); motif Lament And Cry For Help (0)
+- Middle: layer Life And Consciousness (5); broad motif Work And Survival (4); motif Lament And Cry For Help (0)
+- Ending: layer Moral Response (4); broad motif Money And Status (2); motif Lament And Cry For Help (0)
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Communal Practice (1)
+- Ending: Creation And Order (0)
+Broad music motif evidence samples:
+- Work And Survival: Title: Rent Day
+- Work And Survival: Hands in the cold at the bus stop
+- Community And Solidarity: Hands in the cold at the bus stop
+- Mortality And Time: Rent due, phone cracked, clock hot
+- Money And Status: Money talks but it never says enough
+- Money And Status: Gold looks bright when the week gets rough
+- Identity And Becoming: I build my name out of sweat and scars
+- Rebellion And Resistance: Trying to stand where the locked doors are
+Religious motif evidence samples:
+- No motif evidence snippets found yet.
+Practical theology applications:
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+
+rock_rebellion_resistance.md
+----------------------------
+Lines: 11
+Words: 46
+Alignment score: 34
+Strongest theme: Moral Transformation (1)
+Strongest divine-pattern layer: Moral Response (11)
+Strongest broad music motif: Rebellion And Resistance (6)
+Strongest lyric motif: Justice And Mercy (1)
+Meaning confidence: word-level signal only
+Repeated refrain candidates:
+- No repeated refrain lines detected.
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Moral Response (1); broad motif Rebellion And Resistance (1); motif Lament And Cry For Help (0)
+- Middle: layer Moral Response (4); broad motif Rebellion And Resistance (2); motif Lament And Cry For Help (0)
+- Ending: layer Moral Response (6); broad motif Rebellion And Resistance (3); motif Justice And Mercy (1)
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Creation And Order (0)
+- Ending: Moral Confrontation (1)
+Broad music motif evidence samples:
+- Rebellion And Resistance: Title: Break The Switch
+- Rebellion And Resistance: Break the switch that they told us to save
+- Community And Solidarity: Break the switch that they told us to save
+- Community And Solidarity: We stand in the sparks with our voices raised
+- Identity And Becoming: We will not answer to a stolen name
+Religious motif evidence samples:
+- Resurrection And Hope: Rise with the crowd at the factory door
+- Justice And Mercy: Rage is a match but justice is flame
+Practical theology applications:
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+
+country_home_belonging.md
+-------------------------
+Lines: 11
+Words: 44
+Alignment score: 32
+Strongest theme: AI and Pattern Recognition (1)
+Strongest divine-pattern layer: Worship And Community (5)
+Strongest broad music motif: Home And Belonging (5)
+Strongest lyric motif: Creation And Wonder (2)
+Meaning confidence: thin meaning signal
+Repeated refrain candidates:
+- No repeated refrain lines detected.
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Transformation (2); broad motif Freedom And Escape (1); motif Creation And Wonder (1)
+- Middle: layer Transformation (2); broad motif Freedom And Escape (1); motif Creation And Wonder (1)
+- Ending: layer Worship And Community (3); broad motif Home And Belonging (3); motif Exile And Homecoming (1)
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (1)
+- Ending: Desire And Longing (1)
+Broad music motif evidence samples:
+- Freedom And Escape: Title: Porch Light Road
+- Freedom And Escape: I took the road past the county line
+- Home And Belonging: Title: Porch Light Road
+- Home And Belonging: The porch light burned like a patient star
+- Journey And Road: Title: Porch Light Road
+- Journey And Road: I took the road past the county line
+- Loss And Grief: I was gone long enough to see
+Religious motif evidence samples:
+- Creation And Wonder: Title: Porch Light Road
+- Creation And Wonder: The porch light burned like a patient star
+- Wisdom And Truth: Title: Porch Light Road
+- Wisdom And Truth: The porch light burned like a patient star
+- Exile And Homecoming: Home is a table with room to spare
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+classical_fugue_order.md
+------------------------
+Lines: 14
+Words: 59
+Alignment score: 29
+Strongest theme: Creation and Order (2)
+Strongest divine-pattern layer: Worship And Community (4)
+Strongest broad music motif: Identity And Becoming (3)
+Strongest lyric motif: Exile And Homecoming (2)
+Meaning confidence: plausible meaning pattern
+Repeated refrain candidates:
+- No repeated refrain lines detected.
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Physical Order (0); broad motif Love And Longing (0); motif Lament And Cry For Help (0)
+- Middle: layer Life And Consciousness (2); broad motif Identity And Becoming (2); motif Lament And Cry For Help (0)
+- Ending: layer Worship And Community (4); broad motif Home And Belonging (3); motif Exile And Homecoming (2)
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Communal Practice (2)
+- Ending: Creation And Order (3)
+Broad music motif evidence samples:
+- Identity And Becoming: A single voice enters with a precise melodic idea.
+- Identity And Becoming: A second voice repeats the subject from another height.
+- Home And Belonging: Order is not silence; order is many voices held together.
+- Home And Belonging: The voices return to the home key.
+- Community And Solidarity: Order is not silence; order is many voices held together.
+Religious motif evidence samples:
+- Exile And Homecoming: The voices return to the home key.
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+
+blues_loss_grief.md
+-------------------
+Lines: 11
+Words: 41
+Alignment score: 27
+Strongest theme: AI and Pattern Recognition (1)
+Strongest divine-pattern layer: Transformation (6)
+Strongest broad music motif: Loss And Grief (5)
+Strongest lyric motif: Lament And Cry For Help (1)
+Meaning confidence: word-level signal only
+Repeated refrain candidates:
+- No repeated refrain lines detected.
+Question/response candidates:
+- No adjacent question/response pairs detected.
+Lyric arc:
+- Opening: layer Moral Response (1); broad motif Loss And Grief (1); motif Lament And Cry For Help (0)
+- Middle: layer Moral Response (2); broad motif Loss And Grief (2); motif Lament And Cry For Help (0)
+- Ending: layer Transformation (3); broad motif Loss And Grief (2); motif Lament And Cry For Help (1)
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Communal Practice (1)
+- Ending: Creation And Order (0)
+Broad music motif evidence samples:
+- Loss And Grief: Title: Empty Chair Blues
+- Loss And Grief: There is an empty chair at the table
+- Mortality And Time: There is a clock that will not slow
+- Nature And Cosmos: Rain on the roof keeps talking
+- Healing And Recovery: If healing comes by morning
+Religious motif evidence samples:
+- Wisdom And Truth: I lost the hand I used to know
+- Lament And Cry For Help: Tears on my sleeve answer back
+- Resurrection And Hope: If healing comes by morning
+Practical theology applications:
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+
+Recommended Next Steps
+----------------------
+1. Add lyric files, song notes, or public-domain lyrics to music_lyrics as .txt or .md files.
+2. Keep song title, artist, genre, album, and source notes at the top of each file when possible.
+3. Compare sacred, secular, and mixed music separately if you want cleaner results.
+4. Treat phrase matches as prompts for interpretation, then check the full song context before drawing conclusions.
+5. Do not paste large copyrighted lyric collections unless you have the right to analyze them locally.

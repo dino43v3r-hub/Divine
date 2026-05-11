@@ -1,0 +1,13 @@
+{{other versions|Apostles' Creed}}
+{{header
+ | title      = [[../|The Church Hymnary]]
+ | author     = | editor = Edwin A. Bedell
+ | translator = 
+ | section    = The Apostles' Creed
+ | previous   = [[../The Law of God/]]
+ | next       = [[../The Lord's Prayer/]]
+ | year       = 1893
+ | notes      = 
+}}
+
+<pages index="The Church hymnary (1893).djvu" from=10 to=10 tosection=s1 />

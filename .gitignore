@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local/private scratch files
+.env
+*.log
+
+# Large/local operational exports should not be pushed to GitHub.
+documents/*.csv
+documents/*.txt
+divine-pattern-github-upload.zip
+synthesize data/
+
+# Keep generated research outputs if you want GitHub Actions to track report history.
+# Uncomment these if reports get too noisy.
+# reports/
+# references/

@@ -1,0 +1,34 @@
+name: Weekly Cloud Research
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 14 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  collect-and-analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect reference metadata
+        run: python internet_source_collector.py
+
+      - name: Run divine pattern analyzer
+        run: python divine_pattern_analyzer.py
+
+      - name: Commit updated references and reports
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update cloud research references and reports"
+          file_pattern: "references/*.json reports/*.txt research_documents/cloud_references_summary.md"

@@ -1,0 +1,17 @@
+{{translations
+ | translated = Nicene Creed
+ | original   = Σύμβολον τῆς Νικαίας
+ | language   = grc
+ | author     = [[Portal:First Council of Nicaea|First Council of Nicaea]] | author-nolink = true
+ | section    = 
+ | portal     = Christianity
+ | notes = The '''Nicene Creed''' is a concise summary of the core beliefs of Christianity, primarily concerned with defining the nature of the three persons comprising the [[w:Trinity|Trinity]] - God, Jesus Christ, and the Holy Spirit. It was adopted by the [[Portal:First Council of Nicaea|First Ecumenical Council]], held in Nicaea in 325. The term is also loosely but commonly applied to a longer creed traditionally attributed to the [[Portal:First Council of Constantinople|Second Ecumenical Council]], held in Constantinople in 381 but of which there is evidence only from 451 onward. Because of its supposed origin and because it has been considered to be an elaboration of the Creed of Nicaea, this longer creed is distinguished from the original Nicene Creed by being called the [[Niceno-Constantinopolitan Creed]].
+}}
+*[[Nicene and Post-Nicene Fathers: Series II/Volume XIV/The First Ecumenical Council/The Nicene Creed|Nicene Creed]] in ''[[Nicene and Post-Nicene Fathers: Series II]]'', translated by [[Author:Philip Schaff|Philip Schaff]] ''et. al.''
+*[[Ante-Nicene Fathers/Volume VII/The Nicene Creed|Nicene Creed]] in ''[[Ante-Nicene Fathers]]'', translated by [[Author:Philip Schaff|Philip Schaff]] ''et. al.''
+
+==See also==
+* [[Niceno-Constantinopolitan Creed]]
+*"[[Catholic Encyclopedia (1913)/Nicene and Niceno-Constantinopolitan Creed|Nicene and Niceno-Constantinopolitan Creed]]" in the ''[[Catholic Encyclopedia (1913)|Catholic Encyclopedia]]'' (1913)
+
+[[Category:Articles of faith]]

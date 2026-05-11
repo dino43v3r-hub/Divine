@@ -1,0 +1,31 @@
+{{translations
+ | portal = Christianity
+ | wikipedia = Didache
+ | notes      = The '''Didache''' [[w:Koine Greek|Koine Greek]]: {{polytonic|Διδαχή}}, ''Didachē'', meaning "Teaching"... is the common name of a brief [[w:Early Christianity|early Christian]] [[w:treatise|treatise]] (dated to any point in the first three Christian centuries), containing instructions for Christian communities. The text is possibly the first written [[w:catechism|catechism]], with three main sections dealing with Christian lessons, rituals such as [[w:baptism|baptism]] and [[w:eucharist|eucharist]], and Church organization. It was considered by some of the [[w:Church Fathers|Church Fathers]] as part of the [[w:New Testament|New Testament]] but rejected as [[w:Apocrypha#Spurious writings|spurious]] by others, eventually not accepted into the [[w:Biblical canon#Orthodox.2C Catholic and Protestant|New Testament canon]] with the exception of the [[w:Ethiopian Orthodox Church|Ethiopian Orthodox Church]] "broader canon". The [[w:Roman Catholic Church|Roman Catholic Church]] has accepted it as part of the collection of [[w:Apostolic Fathers|Apostolic Fathers]].
+}}
+
+==Translations==
+* [[Didache (Schaff translation)]], translated by [[Author:Philip Schaff|Philip Schaff]], 1885<!-- <ref>http://www.catholicplanet.com/ebooks/didache.htm</ref> -->
+* [[Didache (Riddle translation)]], translated by [[Author:Matthew Brown Riddle|Matthew Brown Riddle]] in ''[[Ante-Nicene Fathers]]'', 1886
+* [[Didache (Lightfoot translation)]], translated by [[Author:Joseph Barber Lightfoot|Joseph Barber Lightfoot]], 1891
+* [[Didache (Hoole translation)]], translated by [[Author:Charles H. Hoole|Charles H. Hoole]], 1894<!-- <ref>http://www.earlychristianwritings.com/text/didache-hoole.html</ref> -->
+* [[Didache (Lake translation)]], translated by [[Author:Kirsopp Lake|Kirsopp Lake]], 1912<!-- <ref>http://www.earlychristianwritings.com/text/didache-lake.html</ref> -->
+
+==Works about this text==
+* [[Ante-Nicene Fathers/Volume VII/The Teaching of the Twelve Apostles/Introductory Notice|Introductory Notice To The Teaching of the Twelve Apostles]] by [[Author:Arthur Cleveland Coxe|Arthur Cleveland Coxe]], from ''Ante-Nicene Fathers''
+* [[Ante-Nicene Fathers/Volume VII/The Teaching of the Twelve Apostles/Introductory Notice by Professor M. B. Riddle, D.D|Introductory Notice]] by [[Author:Matthew Brown Riddle|Matthew Brown Riddle]], ''ibid.''
+* [[Nicene and Post-Nicene Fathers: Series II/Volume XIV/The First Ecumenical Council/Canons/Excursus 2|Excursus on the Word Προσφέρειν]] by [[Author:Adolph von Harnack|Adolph von Harnack]] from ''[[History of Dogma]]'', 1894;<!-- <ref>http://www.ccel.org/h/harnack/?show=worksBy</ref> --> reproduced in ''Ante-Nicene Fathers''
+* {{CE link|Didache}}
+* {{DCBL link|Teaching of the Twelve Apostles}}
+* The "[[Jewish Encyclopedia/Didache|Didache]]" article in the ''[[Jewish Encyclopedia]]'', 1905<!-- <ref>http://www.jewishencyclopedia.com/view.jsp?artid=341&letter=D</ref> -->
+* The "Notes on the Didache" section from ''Journal of Theological Studies'', 1905<!-- <ref>http://books.google.com/books?id=WW0MAAAAIAAJ&dq=Didache&as_brr=1&source=gbs_summary_s&cad=0</ref> -->
+
+==External links==
+* [http://www.earlychristianwritings.com/didache.html Early Christian Writings: Didache]
+{{PD-old-100}}
+[[Category:Works originally in Greek]]
+[[Category:2nd century works]]
+[[Category:Early Christian works]]
+
+[[el:Διδαχή των Δώδεκα Αποστόλων]]
+[[ru:Дидахе]]
