@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -33,7 +34,14 @@ def read_preview(path: Path, max_lines: int = 18):
 
 
 def report_link(path: Path):
-    return f"./{path.as_posix()}"
+    repository = os.getenv("GITHUB_REPOSITORY", "").strip()
+    server_url = os.getenv("GITHUB_SERVER_URL", "https://github.com").strip()
+    branch = os.getenv("GITHUB_REF_NAME", "main").strip()
+
+    if repository:
+        return f"{server_url}/{repository}/blob/{branch}/{path.as_posix()}"
+
+    return path.as_posix()
 
 
 def main():

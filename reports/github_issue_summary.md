@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-11T21:27:40.131419+00:00
+Generated: 2026-05-11T21:31:34.678198+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -9,16 +9,16 @@ Full reports are committed in the repository under `reports/`.
 
 | Report | Read full file |
 | --- | --- |
-| `divine_pattern_summary_report.txt` | [available](./reports/divine_pattern_summary_report.txt) |
-| `cloud_research_findings_report.txt` | [available](./reports/cloud_research_findings_report.txt) |
-| `divine_pattern_research_report.txt` | [available](./reports/divine_pattern_research_report.txt) |
-| `divine_pattern_candidates_report.txt` | [available](./reports/divine_pattern_candidates_report.txt) |
-| `divine_pattern_test_report.txt` | [available](./reports/divine_pattern_test_report.txt) |
-| `deep_source_review_report.txt` | [available](./reports/deep_source_review_report.txt) |
-| `theologian_pattern_design_report.txt` | [available](./reports/theologian_pattern_design_report.txt) |
-| `music_note_patterns_report.txt` | [available](./reports/music_note_patterns_report.txt) |
-| `music_lyric_patterns_report.txt` | [available](./reports/music_lyric_patterns_report.txt) |
-| `cultural_pattern_relationships_report.txt` | [available](./reports/cultural_pattern_relationships_report.txt) |
+| `divine_pattern_summary_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_summary_report.txt) |
+| `cloud_research_findings_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cloud_research_findings_report.txt) |
+| `divine_pattern_research_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_research_report.txt) |
+| `divine_pattern_candidates_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_candidates_report.txt) |
+| `divine_pattern_test_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_test_report.txt) |
+| `deep_source_review_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/deep_source_review_report.txt) |
+| `theologian_pattern_design_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/theologian_pattern_design_report.txt) |
+| `music_note_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_note_patterns_report.txt) |
+| `music_lyric_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_lyric_patterns_report.txt) |
+| `cultural_pattern_relationships_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cultural_pattern_relationships_report.txt) |
 
 ## Quick Highlights
 
@@ -55,9 +55,9 @@ _Full report has 90 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-11T21:13:39.707479+00:00
-Total references: 218
-New references this run: 25
+Updated: 2026-05-11T21:19:23.431745+00:00
+Total references: 219
+New references this run: 1
 
 Guardrails
 ----------
@@ -90,7 +90,7 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 17
-Total analyzed words: 722,522
+Total analyzed words: 722,518
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
