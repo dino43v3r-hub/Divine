@@ -1,8 +1,8 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-11T20:46:56.973094+00:00
-Total references: 193
+Updated: 2026-05-11T21:13:39.707479+00:00
+Total references: 218
 New references this run: 25
 
 Guardrails
@@ -19,12 +19,13 @@ Reference Tags
 - politics_justice: 20
 - quantum_science_guardrails: 37
 - technology_ethics: 18
+- theologians_cross_era: 25
 - trinity: 28
 - unresolved_suffering: 30
 
 Quality Counts
 --------------
-- scholarly metadata: 168
+- scholarly metadata: 193
 - scholarly preprint: 25
 
 Recent Candidate Sources
