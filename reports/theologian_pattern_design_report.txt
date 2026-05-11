@@ -1,0 +1,73 @@
+Theologian Pattern Design Report
+================================
+
+Purpose
+-------
+This report uses theologians across eras to deepen pattern design. It looks for continuity, development, and disagreement instead of treating theology as one flat voice.
+Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
+
+Overview
+--------
+Theologian documents analyzed: 1
+Total theologian words analyzed: 150
+
+Era Coverage
+------------
+- Patristic: 6
+- Medieval: 5
+- Reformation: 2
+- Modern: 8
+- Contemporary: 6
+
+Concept Coverage
+----------------
+- Trinity: 9
+- Grace And Transformation: 6
+- Pneumatology: 4
+- Theodicy And Suffering: 4
+- Church And Practice: 4
+- Justice And Public Life: 4
+- Creation: 3
+- Christology: 3
+
+Trinitarian Lens
+----------------
+Signal: thin but complete Trinitarian signal
+- Father: 5
+- Son: 5
+- Holy Spirit: 5
+
+Layer Comparison
+----------------
+- Physical Order: theologians 3 | broader corpus 2,436
+- Mathematical Structure: theologians 0 | broader corpus 554
+- Quantum Probability: theologians 0 | broader corpus 72
+- Life And Consciousness: theologians 1 | broader corpus 5,239
+- Meaning And Logos: theologians 3 | broader corpus 5,820
+- Moral Response: theologians 3 | broader corpus 2,213
+- Worship And Community: theologians 5 | broader corpus 1,012
+- Transformation: theologians 11 | broader corpus 2,027
+
+Per-Source Findings
+-------------------
+
+cross_era_theologian_framework.md
+---------------------------------
+Words: 150
+Strongest era signal: Modern (8)
+Strongest concept signal: Trinity (9)
+Meaning confidence: context-supported pattern
+Meaning arc:
+- Opening: Creation And Order (3)
+- Middle: Transformation And Hope (1)
+- Ending: Creation And Order (4)
+
+Pattern Design Guidance
+-----------------------
+1. Prefer patterns that appear across multiple eras, not only one modern synthesis.
+2. Preserve real theological disagreements instead of averaging them away.
+3. Give strongest weight to patterns supported by Trinity, creation, Christology, Spirit, suffering, grace, church, and justice together.
+4. Use theologians to refine the pattern vocabulary, not to replace scripture, science, or lived testing.
+
+Candidate design rule:
+A stronger divine pattern should show continuity across eras, preserve Father/Son/Spirit distinction and unity, survive suffering and justice questions, and remain useful in practical life.
