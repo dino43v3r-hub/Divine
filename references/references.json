@@ -1,5 +1,5 @@
 {
-  "source_count": 168,
+  "source_count": 195,
   "sources": [
     {
       "authors": [],
@@ -449,6 +449,27 @@
     },
     {
       "authors": [
+        "Rui Guo",
+        "Ivor Simpson",
+        "Thor Magnusson"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2010.06230v2",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "Many of the music generation systems based on neural networks are fully autonomous and do not offer control over the generation process. In this research, we present a controllable music generation system in terms of tonal tension. We incorporate two tonal tension measures based on the Spiral Array Tension theory into a variational autoencoder model. This allows us to control the direction of the tonal tension throughout the generated piece, as well as the overall level of tonal tension. Given a seed musical fragment, stemming from either the user input or from directly sampling from the latent space, the model can generate variations of this original seed fragment with altered tonal tension",
+      "tags": [
+        "music_math"
+      ],
+      "title": "A variational autoencoder for music generation controlled by tonal tension",
+      "url": "http://arxiv.org/abs/2010.06230v2",
+      "year": "2020"
+    },
+    {
+      "authors": [
         "Karol Beffa"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
@@ -584,6 +605,88 @@
     },
     {
       "authors": [
+        "Jan Cichowlas",
+        "Pawe\u0142 D\u0142otko",
+        "Marek Ku\u015b"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2503.07632v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "The Pythagorean school attributed consonance in music to simplicity of frequency ratios between musical tones. In the last two centuries, the consonance curves developed by Helmholtz, Plompt and Levelt shifted focus to psycho-acoustic considerations in perceiving consonances. The appearance of peaks of these curves at the ratios considered by the Pythagorean school, and which were a consequence of an attempt to understand the world by nice mathematical proportions, remained a curiosity. This paper addresses this curiosity, by describing a mathematical model of musical sound, along with a mathematical definition of consonance. First, we define pure, complex and mixed tones as mathematical mod",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Consonance in music -- the Pythagorean approach revisited",
+      "url": "http://arxiv.org/abs/2503.07632v1",
+      "year": "2025"
+    },
+    {
+      "authors": [
+        "Bradley Hauer",
+        "Colin Choi",
+        "Abram Hindle"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2509.17950v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "The Dorabella cipher is an encrypted note written by English composer Edward Elgar, which has defied decipherment attempts for more than a century. While most proposed solutions are English texts, we investigate the hypothesis that Dorabella represents enciphered music. We weigh the evidence for and against the hypothesis, devise a simplified music notation, and attempt to reconstruct a melody from the cipher. Our tools are n-gram models of music which we validate on existing music corpora enciphered using monoalphabetic substitution. By applying our methods to Dorabella, we produce a decipherment with musical qualities, which is then transformed via artful composition into a listenable melo",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Dorabella Cipher as Musical Inspiration",
+      "url": "http://arxiv.org/abs/2509.17950v1",
+      "year": "2025"
+    },
+    {
+      "authors": [
+        "Alejandro Tabas",
+        "Martin Andermann",
+        "Valeria Sebold"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/1711.10991v2",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "Pitch is the perceptual correlate of sound's periodicity and a fundamental property of the auditory sensation. The interaction of two or more pitches gives rise to a sensation that can be characterized by its degree of consonance or dissonance. In the current study, we investigated the neuromagnetic representations of consonant and dissonant musical dyads using a new model of cortical activity, in an effort to assess the possible involvement of pitch-specific neural mechanisms in consonance processing at early cortical stages. In the first step of the study, we developed a novel model of cortical pitch processing designed to explain the morphology of the pitch onset response (POR), a pitch-s",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Early processing of consonance and dissonance in human auditory cortex",
+      "url": "http://arxiv.org/abs/1711.10991v2",
+      "year": "2017"
+    },
+    {
+      "authors": [
+        "Daniel Shawcross Wilkerson"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/1202.4212v2",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "Most music theory books are like medieval medical textbooks: they contain unjustified superstition, non-reasoning, and funny symbols glorified by Latin phrases. How does music, in particular harmony, actually work, presented as a real, scientific theory of music? The core to our approach is to consider not only the Physical phenomena of nature but also the Computational phenomena of any machine that must make sense of sound, such as the human brain. In particular we derive the following three fundamental phenomena of music: * the Major Scale, * the Standard Chord Dictionary, and * the difference in feeling between the Major and Minor Triads. While the Major Scale has been independently deriv",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Harmony Explained: Progress Towards A Scientific Theory of Music",
+      "url": "http://arxiv.org/abs/1202.4212v2",
+      "year": "2012"
+    },
+    {
+      "authors": [
         "Frieder Stolzenburg"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
@@ -636,6 +739,87 @@
       "title": "Imperfect consonance",
       "url": "https://doi.org/10.1093/gmo/9781561592630.article.50025",
       "year": 2001
+    },
+    {
+      "authors": [
+        "Dawid Przyczyna",
+        "Maria Szaci\u0142owska",
+        "Marek Przybylski"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2007.04360v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "Reservoir computing is an emerging, but very successful approach towards processing and classification of various signals. It can be described as a model of a transient computation, where influence of input changes internal dynamics of chosen computational reservoir. Trajectory of these changes represents computation performed by the system. The selection of a suitable computational substrate capable of non-linear response and rich internal dynamics ensures the implementation of simple readout protocols. Signal evolution based on the rich dynamics of the reservoir layer helps to emphasize differences between given signals thus enabling their easier classification. Here we present a simple re",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Information, communication and music: Recognition of musical dissonance and consonance in a simple reservoir computing system",
+      "url": "http://arxiv.org/abs/2007.04360v1",
+      "year": "2020"
+    },
+    {
+      "authors": [
+        "Maria Mannone"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/1904.10340v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "Mathematics, and more generally computational sciences, intervene in several aspects of music. Mathematics describes the acoustics of the sounds giving formal tools to physics, and the matter of music itself in terms of compositional structures and strategies. Mathematics can also be applied to the entire making of music, from the score to the performance, connecting compositional structures to acoustical reality of sounds. Moreover, the precise concept of gesture has a decisive role in understanding musical performance. In this paper, we apply some concepts of category theory to compare gestures of orchestral musicians, and to investigate the relationship between orchestra and conductor, as",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Introduction to Gestural Similarity in Music. An Application of Category Theory to the Orchestra",
+      "url": "http://arxiv.org/abs/1904.10340v1",
+      "year": "2019"
+    },
+    {
+      "authors": [
+        "Wenjing Liao",
+        "Albert Fannjiang"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/1404.1484v2",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "This paper studies the problem of line spectral estimation in the continuum of a bounded interval with one snapshot of array measurement. The single-snapshot measurement data is turned into a Hankel data matrix which admits the Vandermonde decomposition and is suitable for the MUSIC algorithm. The MUSIC algorithm amounts to finding the null space (the noise space) of the Hankel matrix, forming the noise-space correlation function and identifying the s smallest local minima of the noise-space correlation as the frequency set. In the noise-free case exact reconstruction is guaranteed for any arbitrary set of frequencies as long as the number of measurements is at least twice the number of dist",
+      "tags": [
+        "music_math"
+      ],
+      "title": "MUSIC for Single-Snapshot Spectral Estimation: Stability and Super-resolution",
+      "url": "http://arxiv.org/abs/1404.1484v2",
+      "year": "2014"
+    },
+    {
+      "authors": [
+        "Ke Chen",
+        "Cheng-i Wang",
+        "Taylor Berg-Kirkpatrick"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2008.01291v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "Drawing an analogy with automatic image completion systems, we propose Music SketchNet, a neural network framework that allows users to specify partial musical ideas guiding automatic music generation. We focus on generating the missing measures in incomplete monophonic musical pieces, conditioned on surrounding context, and optionally guided by user-specified pitch and rhythm snippets. First, we introduce SketchVAE, a novel variational autoencoder that explicitly factorizes rhythm and pitch contour to form the basis of our proposed model. Then we introduce two discriminative architectures, SketchInpainter and SketchConnector, that in conjunction perform the guided music completion, filling ",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Music SketchNet: Controllable Music Generation via Factorized Representations of Pitch and Rhythm",
+      "url": "http://arxiv.org/abs/2008.01291v1",
+      "year": "2020"
     },
     {
       "authors": [
@@ -716,6 +900,25 @@
       "title": "Perfect consonance",
       "url": "https://doi.org/10.1093/gmo/9781561592630.article.21314",
       "year": 2001
+    },
+    {
+      "authors": [
+        "Lasse Rempe"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2309.06595v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "\"Phase-locking\" is a fundamental phenomenon in which coupled or periodically forced oscillators synchronise. The Arnold family of circle maps, which describes a forced oscillator, is the simplest mathematical model of phase-locking and has been studied intensively since its introduction in the 1960s. The family exhibits regions of parameter space where phase-locking phenomena can be observed. A long-standing question asked whether \"hyperbolic\" parameters~-- those whose behaviour is dominated by periodic attractors, and which are therefore stable under perturbation~-- are dense within the family. A positive answer was given in 2015 by van Strien and the author, which implies that, no matter h",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Points of convergence -- music meets mathematics",
+      "url": "http://arxiv.org/abs/2309.06595v1",
+      "year": "2023"
     },
     {
       "authors": [],
@@ -897,6 +1100,25 @@
     },
     {
       "authors": [
+        "Steve Mathew"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2106.08479v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "To date, calculating the frequencies of musical notes requires one to know the frequency of some reference note. In this study, first-order ordinary differential equations are used to arrive at a mathematical model to determine tonal frequencies using their respective note indices. In the next part of the study, an analysis that is based on the fundamental musical frequencies is conducted to theoretically and neurobiologically explain the consonance and dissonance caused by the different musical notes in the chromatic scale which is based on the fact that systematic patterns of sound invoke pleasure. The reason behind the richness of harmony and the sonic interference and degree of consonanc",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Tonal Frequencies, Consonance, Dissonance: A Math-Bio Intersection",
+      "url": "http://arxiv.org/abs/2106.08479v1",
+      "year": "2021"
+    },
+    {
+      "authors": [
         "Stefan Koelsch"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
@@ -913,6 +1135,26 @@
       "title": "Toward a Neural Basis of Music Perception \u2013 A Review and Updated Model",
       "url": "https://doi.org/10.3389/fpsyg.2011.00110",
       "year": 2011
+    },
+    {
+      "authors": [
+        "Daeun Hwang",
+        "Hyeonbin Hwang"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2601.02586v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "There is a wide variety of music similarity detection algorithms, while discussions about music plagiarism in the real world are often based on audience perceptions. Therefore, we aim to conduct a study to examine the key criteria of human perception of music plagiarism, focusing on the three commonly used musical features in similarity analysis: melody, rhythm, and chord progression. After identifying the key features and levels of variation humans use in perceiving musical similarity, we propose a LLM-as-a-judge framework that applies a systematic, step-by-step approach, drawing on modules that extract such high-level attributes.",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Understanding Human Perception of Music Plagiarism Through a Computational Approach",
+      "url": "http://arxiv.org/abs/2601.02586v1",
+      "year": "2026"
     },
     {
       "authors": [
@@ -1392,6 +1634,25 @@
       "year": 2019
     },
     {
+      "authors": [
+        "Shiro Ishikawa"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/1209.3483v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "The philosophy of science is a discipline concerning the metaphysical aspect of science. Recently, I proposed measurement theory, which is characterized as the metaphysical and linguistic interpretation of quantum mechanics. I assert that this theory is one of the most fundamental languages in science, and thus, it is located at the central position in science. This assertion will be examined throughout this preprint, which is written as the draft of my future book (concerning the philosophy of science). Hence, I hope to hear various opinions about this draft.",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Measurement Theory in the Philosophy of Science",
+      "url": "http://arxiv.org/abs/1209.3483v1",
+      "year": "2012"
+    },
+    {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "date_accessed": "2026-05-11",
@@ -1407,6 +1668,103 @@
       "title": "Measurement and quantum states",
       "url": "https://doi.org/10.1017/cbo9780511624902.005",
       "year": 1989
+    },
+    {
+      "authors": [
+        "Olival Freire"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/physics/0508180v2",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "This paper deals with the ways that the issue of completing quantum mechanics was brought into laboratories and became a topic in mainstream quantum optics. It focuses on the period between 1965, when Bell published what now we call Bell's theorem, and 1982, when Aspect published the results of his experiments. I argue that what was considered good physics after Aspect's experiments was once considered by many a philosophical matter instead of a scientific one, and that the path from philosophy to physics required a change in the physics community's attitude about the status of the foundations of quantum mechanics.",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982)",
+      "url": "http://arxiv.org/abs/physics/0508180v2",
+      "year": "2005"
+    },
+    {
+      "authors": [
+        "Sergey B. Kulikov"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/1612.05095v3",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "This article aims at applying the approaches peculiar to analytic philosophy to the question about representation of the concept of time as a symbol which can reflect the bases of the modern natural sciences, social sciences and humanities. The main methods, which the author of this article uses, are speculative analysis and modeling. The symbolic meaning of the concept of time demonstrates preconditions for the organization of the bases of the natural sciences, and social and humanitarian knowledge as well. Judgments for the meaning of time reveal the essence of the problem in two aspects of discussion on the dissociation of the foundations in the modern philosophy of physics and the philos",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Philosophy on time in the natural sciences and the humanities from analytical positions",
+      "url": "http://arxiv.org/abs/1612.05095v3",
+      "year": "2016"
+    },
+    {
+      "authors": [
+        "European Strategy for Particle Physics Preparatory Group"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/1910.11775v2",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "The European Particle Physics Strategy Update (EPPSU) process takes a bottom-up approach, whereby the community is first invited to submit proposals (also called inputs) for projects that it would like to see realised in the near-term, mid-term and longer-term future. National inputs as well as inputs from National Laboratories are also an important element of the process. All these inputs are then reviewed by the Physics Preparatory Group (PPG), whose role is to organize a Symposium around the submitted ideas and to prepare a community discussion on the importance and merits of the various proposals. The results of these discussions are then concisely summarised in this Briefing Book, prepa",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Physics Briefing Book",
+      "url": "http://arxiv.org/abs/1910.11775v2",
+      "year": "2019"
+    },
+    {
+      "authors": [
+        "Carlo Rovelli"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/1805.10602v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "Contrary to claims about the irrelevance of philosophy for science, I argue that philosophy has had, and still has, far more influence on physics than is commonly assumed. I maintain that the current anti-philosophical ideology has had damaging effects on the fertility of science. I also suggest that recent important empirical results, such as the detection of the Higgs particle and gravitational waves, and the failure to detect supersymmetry where many expected to find it, question the validity of certain philosophical assumptions common among theoretical physicists, inviting us to engage in a clearer philosophical reflection on scientific method.",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Physics Needs Philosophy. Philosophy Needs Physics",
+      "url": "http://arxiv.org/abs/1805.10602v1",
+      "year": "2018"
+    },
+    {
+      "authors": [
+        "NLC ZDR Design Group",
+        "NLC Physics Working Group",
+        "S. Kuhlman"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/hep-ex/9605011v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "We present the current expectations for the design and physics program of an e+e- linear collider of center of mass energy 500 GeV -- 1 TeV. We review the experiments that would be carried out at this facility and demonstrate its key role in exploring physics beyond the Standard Model over the full range of theoretical possibilities. We then show the feasibility of constructing this machine, by reviewing the current status of linear collider technology and by presenting a precis of our `zeroth-order' design.",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Physics and Technology of the Next Linear Collider: A Report Submitted to Snowmass '96",
+      "url": "http://arxiv.org/abs/hep-ex/9605011v1",
+      "year": "1996"
     },
     {
       "authors": [
@@ -1484,6 +1842,27 @@
     },
     {
       "authors": [
+        "Atta Ur Rahman",
+        "Muhammad Javed",
+        "Arif Ullah"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2107.11259v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "Quantum information processing exploits non-local functionality that has led to significant breakthroughs in the successful deployment of quantum mechanical protocols. In this regard, we address the dynamics of entanglement and coherence for three non-interacting qubits initially prepared as maximally entangled GHZ-like state coupled with independent classical environments. Two different Gaussian noises in pure and mixed noisy situations, namely, pure power-law noise, pure fractional Gaussian noise, power-law noise maximized and fractional Gaussian noise maximized cases are assumed to characterize the environments. With the help of time-dependent entanglement witnesses, purity, and decoheren",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Probing tripartite entanglement and coherence dynamics in pure and mixed independent classical environments",
+      "url": "http://arxiv.org/abs/2107.11259v1",
+      "year": "2021"
+    },
+    {
+      "authors": [
         "Kerstin Fink"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
@@ -1539,6 +1918,27 @@
       "year": 2009
     },
     {
+      "authors": [
+        "Christian W. Bauer",
+        "Zohreh Davoudi",
+        "A. Baha Balantekin"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2204.03381v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "It is for the first time that Quantum Simulation for High Energy Physics (HEP) is studied in the U.S. decadal particle-physics community planning, and in fact until recently, this was not considered a mainstream topic in the community. This fact speaks of a remarkable rate of growth of this subfield over the past few years, stimulated by the impressive advancements in Quantum Information Sciences (QIS) and associated technologies over the past decade, and the significant investment in this area by the government and private sectors in the U.S. and other countries. High-energy physicists have quickly identified problems of importance to our understanding of nature at the most fundamental leve",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Quantum Simulation for High Energy Physics",
+      "url": "http://arxiv.org/abs/2204.03381v1",
+      "year": "2022"
+    },
+    {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "date_accessed": "2026-05-11",
@@ -1576,6 +1976,25 @@
     },
     {
       "authors": [
+        "Sebastian De Haro"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/1307.1244v2",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "In this paper I review the problematic relationship between science and philosophy; in particular, I will address the question of whether science needs philosophy, and I will offer some positive perspectives that should be helpful in developing a synergetic relationship between the two. I will review three lines of reasoning often employed in arguing that philosophy is useless for science: a) philosophy's death diagnosis ('philosophy is dead'); b) the historic-agnostic argument/challenge \"show me examples where philosophy has been useful for science, for I don't know of any\"; c) the division of property argument (or: philosophy and science have different subject matters, therefore philosophy",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Science and Philosophy: A Love-Hate Relationship",
+      "url": "http://arxiv.org/abs/1307.1244v2",
+      "year": "2013"
+    },
+    {
+      "authors": [
         "Enzo Tiezzi"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
@@ -1592,6 +2011,26 @@
       "title": "Steps Towards An Evolutionary Physics",
       "url": "http://cds.cern.ch/record/2303804",
       "year": 2006
+    },
+    {
+      "authors": [
+        "Sebastian De Haro",
+        "Jeremy Butterfield"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2508.01616v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "This monograph discusses dualities in physics: what dualities are, their main examples--from quantum mechanics and electrodynamics to statistical mechanics, quantum field theory and string theory--and the philosophical questions they raise. Part I first conceptualises dualities and discusses their main roles and themes, including how they are related to familiar notions like symmetry and interpretation. It also discusses the main simple examples of dualities: position-momentum, wave-particle, electric-magnetic, and Kramers-Wannier dualities. Part II discusses advanced examples and their inter-relations: particle-soliton dualities, electric-magnetic dualities in quantum field theories, dualit",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "The Philosophy and Physics of Duality",
+      "url": "http://arxiv.org/abs/2508.01616v1",
+      "year": "2025"
     },
     {
       "authors": [
@@ -1614,6 +2053,25 @@
     },
     {
       "authors": [
+        "Eddy Keming Chen"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2110.12102v1",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "In this thought-provoking book, Richard Healey proposes a new interpretation of quantum theory inspired by pragmatist philosophy. Healey puts forward the interpretation as an alternative to realist quantum theories on the one hand such as Bohmian mechanics, spontaneous collapse theories, and many-worlds interpretations, which are different proposals for describing what the quantum world is like and what the basic laws of physics are, and non-realist interpretations on the other hand such as quantum Bayesianism, which proposes to understand quantum theory as describing agents' subjective epistemic states. The central idea of Healey's proposal is to understand quantum theory as providing not a",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "The Quantum Revolution in Philosophy (Book Review)",
+      "url": "http://arxiv.org/abs/2110.12102v1",
+      "year": "2021"
+    },
+    {
+      "authors": [
         "Badis Ydri"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
@@ -1630,6 +2088,25 @@
       "title": "The measurement problem and interpretations of quantum mechanics",
       "url": "https://doi.org/10.1088/978-0-7503-2600-1ch2",
       "year": 2021
+    },
+    {
+      "authors": [
+        "P. J. E. Peebles"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2401.16506v2",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "I argue that research in physics operates under an implicit community philosophy, and I offer a definition I think physicists would accept, by and large. I compare this definition to what philosophers, sociologists, and historians of science, with physicists, say we are doing.",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "The physicists philosophy of physics",
+      "url": "http://arxiv.org/abs/2401.16506v2",
+      "year": "2024"
     },
     {
       "authors": [],
@@ -1664,6 +2141,25 @@
       "title": "Theology, Science, and Quantum Theory",
       "url": "https://doi.org/10.2307/j.ctt22nm9mz.11",
       "year": 2014
+    },
+    {
+      "authors": [
+        "Tianyan Quantum Group"
+      ],
+      "copyright_note": "Open preprint metadata and short summary only.",
+      "date_accessed": "2026-05-11",
+      "doi": "",
+      "id": "http://arxiv.org/abs/2512.10504v2",
+      "provider": "arXiv",
+      "quality": "scholarly preprint",
+      "source_type": "scholarly preprint",
+      "summary": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits and achieves high operational fidelities, with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively. For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles, the platform completes one million samples in just 18.4 minutes. In contrast, state-of-the-art classical supercomputers would require approximately 16,000 years to complete the equivalent calculatio",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Tianyan: Cloud services with quantum advantage",
+      "url": "http://arxiv.org/abs/2512.10504v2",
+      "year": "2025"
     },
     {
       "authors": [
@@ -2520,6 +3016,25 @@
       "year": 2020
     },
     {
+      "authors": [
+        "John G. Gibbs"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.1163/9789004266032_003",
+      "id": "10.1163/9789004266032_003",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "trinity"
+      ],
+      "title": "The Relation between creation and redemption according to modern studies of Pauline Theology",
+      "url": "https://doi.org/10.1163/9789004266032_003",
+      "year": 1971
+    },
+    {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "date_accessed": "2026-05-11",
@@ -3143,6 +3658,25 @@
     },
     {
       "authors": [
+        "Andrew Linzey"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "10.1093/acprof:oso/9780199351848.003.0002",
+      "id": "10.1093/acprof:oso/9780199351848.003.0002",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "unresolved_suffering"
+      ],
+      "title": "Why Animal Suffering Matters Morally",
+      "url": "https://doi.org/10.1093/acprof:oso/9780199351848.003.0002",
+      "year": 2013
+    },
+    {
+      "authors": [
         "Roger P. Abbott"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
@@ -3180,5 +3714,5 @@
       "year": 2021
     }
   ],
-  "updated_at": "2026-05-11T18:12:53.299820+00:00"
+  "updated_at": "2026-05-11T20:25:01.597095+00:00"
 }
