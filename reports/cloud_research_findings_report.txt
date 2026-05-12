@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-11T21:34:19.249788+00:00
+Updated: 2026-05-12T20:19:20.584628+00:00
 Total references: 221
-New references this run: 1
+New references this run: 0
 
 Guardrails
 ----------
