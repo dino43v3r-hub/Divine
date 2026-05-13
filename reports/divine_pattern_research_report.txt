@@ -11,21 +11,21 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 17
-Total analyzed words: 722,516
+Total analyzed words: 722,506
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
-- God and Divine Attributes: 25,203
-- Theology and Logos: 5,775
+- God and Divine Attributes: 25,204
+- Theology and Logos: 5,774
 - Creation and Order: 5,740
 - Jesus and Christology: 5,439
 - Physics and Natural Law: 3,021
-- Philosophy and Meaning: 3,010
-- Moral Transformation: 2,952
+- Philosophy and Meaning: 3,009
+- Moral Transformation: 2,951
 - Spirituality and Worship: 1,255
 - Faith and Trust: 1,184
-- Holy Spirit and Pneumatology: 941
+- Holy Spirit and Pneumatology: 943
 - Mathematics and Intelligibility: 645
 - Anthropology and Culture: 622
 - AI and Pattern Recognition: 202
@@ -36,11 +36,11 @@ Trinitarian Pattern Lens
 ------------------------
 Signal: strong Trinitarian signal
 The analyzer treats Father, Son, and Holy Spirit as distinct persons and one God. It looks for each person separately, then checks whether the corpus keeps them relationally connected.
-- Father: 3,187
+- Father: 3,188
   Role: Source, Creator, giver of being, providential care, and holy authority.
 - Son: 6,679
   Role: Word/Logos, revelation, incarnation, redemption, reconciliation, and resurrection.
-- Holy Spirit: 1,250
+- Holy Spirit: 1,252
   Role: Living presence, conviction, gifts, communion, sanctification, and transformation.
 
 Trinitarian Evidence Samples
@@ -99,13 +99,13 @@ Layer Scores:
   Test: Does the corpus include disciplined uncertainty rather than simple determinism?
 - Life And Consciousness: 5,215 (strong signal)
   Test: Does the corpus connect ordered reality with life, mind, or personhood?
-- Meaning And Logos: 5,823 (strong signal)
+- Meaning And Logos: 5,822 (strong signal)
   Test: Does the corpus connect intelligibility with meaning, Logos, wisdom, or truth?
 - Moral Response: 2,213 (strong signal)
   Test: Does the corpus connect meaning with moral accountability or response?
 - Worship And Community: 1,013 (strong signal)
   Test: Does the corpus connect belief with embodied practice and community?
-- Transformation: 2,032 (strong signal)
+- Transformation: 2,033 (strong signal)
   Test: Does the corpus connect divine presence with personal or communal change?
 
 Layer Evidence Samples
@@ -161,7 +161,7 @@ Transformation
 
 Hypothesis Test Domains
 -----------------------
-- Historical Theology: 6,859 (strongly represented)
+- Historical Theology: 6,861 (strongly represented)
 - Scripture And Early Christian Logos: 3,125 (strongly represented)
 - Philosophy Of Science: 2,772 (strongly represented)
 - Physics And Quantum Mechanics: 1,300 (strongly represented)
@@ -256,8 +256,8 @@ God and Divine Attributes
 - nicene_creed_325_wikisource.txt: {{translations  | translated = Nicene Creed  | original   = Σύμβολον τῆς Νικαίας  | language   = grc  | author     = [[Portal:First Council of Nicaea|First Council of Nicaea]] | author-nolink = true  | section    =   | portal     = Christianity  | notes = The '''Nicene Creed''' i
 - science_math_physics_divine_pattern_model.md: It proposes an example pattern to test: if Christian theology describes God as creator, Logos, source of being, and giver of order, then science and mathematics may be studied as domains where order, intelligibility, structure, law, probability, and emergence become visible.
 - science_math_physics_divine_pattern_model.md: ## Sources Consulted  - Stanford Encyclopedia of Philosophy, "Laws of Nature": https://plato.stanford.edu/entries/laws-of-nature/ - Stanford Encyclopedia of Philosophy, "Indispensability Arguments in the Philosophy of Mathematics": https://plato.stanford.edu/entries/mathphil-indi
-- cloud_references_summary.md: ## EXPERIENCE AND THE THEOLOGY OF THE TRINITY: HOW KARL RAHNER’S METHOD AFFECTS HIS UNDERSTANDING OF REVELATION, GRACE AND THE TRINITY  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567675118.ch-005  No summary
 - cloud_references_summary.md: ## Experience and the Theology of the Trinity: How Karl Rahner’s Method Affects His Understanding of Revelation, Grace and the Trinity  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567660428.ch-004  No summary
+- cloud_references_summary.md: ## The Vulnerability of God as Viewed from a Theology of Han: A Constructive Dialogue between Jurgen Moltmann and Suh Nam-Dong  - Tags: theologians_cross_era - Provider: OpenAlex - Quality: scholarly metadata - URL: http://hdl.handle.net/1807/139159  OpenAlex abstract metadata av
 - divine_pattern_concept.md: The broader vision is not about creating a digital god.
 
 Faith and Trust
@@ -307,8 +307,8 @@ Jesus and Christology
 - nicene_creed_325_wikisource.txt: {{translations  | translated = Nicene Creed  | original   = Σύμβολον τῆς Νικαίας  | language   = grc  | author     = [[Portal:First Council of Nicaea|First Council of Nicaea]] | author-nolink = true  | section    =   | portal     = Christianity  | notes = The '''Nicene Creed''' i
 - science_math_physics_divine_pattern_model.md: - Son / Logos: intelligibility, revelation, incarnation, embodied pattern, redemption.
 - science_math_physics_divine_pattern_model.md: Christian theology interprets this layered order through creation, Logos, incarnation, Spirit, and redemption.
-- cloud_references_summary.md: ## EXPERIENCE AND THE THEOLOGY OF THE TRINITY: HOW KARL RAHNER’S METHOD AFFECTS HIS UNDERSTANDING OF REVELATION, GRACE AND THE TRINITY  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567675118.ch-005  No summary
 - cloud_references_summary.md: ## Experience and the Theology of the Trinity: How Karl Rahner’s Method Affects His Understanding of Revelation, Grace and the Trinity  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567660428.ch-004  No summary
+- cloud_references_summary.md: ## Index of Modern Authors  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.1163/9789004474895_011  No summary available in metadata.
 
 Holy Spirit and Pneumatology
 ----------------------------
@@ -381,8 +381,8 @@ Moral Transformation
 - jesus_and_holy_spirit_synthesis.md: Christian discipleship asks people to follow Jesus, love enemies, forgive, serve, take up the cross, practice mercy, resist hypocrisy, and reorient status around humility and self-giving love.
 - king_james_bible_gutenberg.txt: and if thou doest not well, sin lieth at the door.
 - king_james_bible_gutenberg.txt: 6:8 But Noah found grace in the eyes of the LORD.
-- cloud_references_summary.md: ## EXPERIENCE AND THE THEOLOGY OF THE TRINITY: HOW KARL RAHNER’S METHOD AFFECTS HIS UNDERSTANDING OF REVELATION, GRACE AND THE TRINITY  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567675118.ch-005  No summary
 - cloud_references_summary.md: ## Experience and the Theology of the Trinity: How Karl Rahner’s Method Affects His Understanding of Revelation, Grace and the Trinity  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567660428.ch-004  No summary
+- cloud_references_summary.md: ## Theology's Need for a New Interpretation of Nature: Correlate of the Doctrine of Grace  - Tags: trinity - Provider: OpenAlex - Quality: scholarly metadata - URL: https://doi.org/10.1111/j.1540-6385.2007.00334.x  OpenAlex abstract metadata available.
 
 Theology and Logos
 ------------------
@@ -412,8 +412,8 @@ Theology and Logos
 - king_james_bible_gutenberg.txt: 15:1 After these things the word of the LORD came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward.
 - science_math_physics_divine_pattern_model.md: # Science, Mathematics, Physics, And A Divine-Pattern Model  This note adds science, mathematics, physics, and quantum physics to the divine-pattern research project.
 - science_math_physics_divine_pattern_model.md: It proposes an example pattern to test: if Christian theology describes God as creator, Logos, source of being, and giver of order, then science and mathematics may be studied as domains where order, intelligibility, structure, law, probability, and emergence become visible.
-- cloud_references_summary.md: ## EXPERIENCE AND THE THEOLOGY OF THE TRINITY: HOW KARL RAHNER’S METHOD AFFECTS HIS UNDERSTANDING OF REVELATION, GRACE AND THE TRINITY  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567675118.ch-005  No summary
 - cloud_references_summary.md: ## Experience and the Theology of the Trinity: How Karl Rahner’s Method Affects His Understanding of Revelation, Grace and the Trinity  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567660428.ch-004  No summary
+- cloud_references_summary.md: ## The Revelation of the Trinity  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.1093/acprof:oso/9780199582211.003.0002  No summary available in metadata.
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 
@@ -618,8 +618,8 @@ Philosophy and Meaning
 - king_james_bible_gutenberg.txt: 2:16 And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat: 2:17 But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.
 - science_math_physics_divine_pattern_model.md: It proposes an example pattern to test: if Christian theology describes God as creator, Logos, source of being, and giver of order, then science and mathematics may be studied as domains where order, intelligibility, structure, law, probability, and emergence become visible.
 - science_math_physics_divine_pattern_model.md: ## Sources Consulted  - Stanford Encyclopedia of Philosophy, "Laws of Nature": https://plato.stanford.edu/entries/laws-of-nature/ - Stanford Encyclopedia of Philosophy, "Indispensability Arguments in the Philosophy of Mathematics": https://plato.stanford.edu/entries/mathphil-indi
-- cloud_references_summary.md: ## EXPERIENCE AND THE THEOLOGY OF THE TRINITY: HOW KARL RAHNER’S METHOD AFFECTS HIS UNDERSTANDING OF REVELATION, GRACE AND THE TRINITY  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567675118.ch-005  No summary
 - cloud_references_summary.md: ## Experience and the Theology of the Trinity: How Karl Rahner’s Method Affects His Understanding of Revelation, Grace and the Trinity  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.5040/9780567660428.ch-004  No summary
+- cloud_references_summary.md: ## Metaphysics and Social Relations  - Tags: theologians_cross_era - Provider: Crossref - Quality: scholarly metadata - URL: https://doi.org/10.2307/j.ctt22nm63r.8  No summary available in metadata.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - divine_pattern_concept.md: It is about using AI as an analytical tool to explore connections between science, faith, and human experience.
 

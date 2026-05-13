@@ -1,5 +1,5 @@
 {
-  "source_count": 221,
+  "source_count": 223,
   "sources": [
     {
       "authors": [],
@@ -200,6 +200,23 @@
       "title": "Non-Sensory Beauty and Meaning Qualia",
       "url": "https://doi.org/10.2307/j.ctv2nrzh64.7",
       "year": 2019
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-13",
+      "doi": "10.5040/9781350104280.0014",
+      "id": "10.5040/9781350104280.0014",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "other",
+      "summary": "",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "On Beauty: Aesthetic Choices, Adornment, and Art",
+      "url": "https://doi.org/10.5040/9781350104280.0014",
+      "year": 2022
     },
     {
       "authors": [
@@ -3222,6 +3239,23 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-13",
+      "doi": "10.2307/j.ctv27tct7n.8",
+      "id": "10.2307/j.ctv27tct7n.8",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "trinity"
+      ],
+      "title": "Father, Son, and Holy Spirit",
+      "url": "https://doi.org/10.2307/j.ctv27tct7n.8",
+      "year": 2021
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "date_accessed": "2026-05-11",
       "doi": "10.2307/j.ctt1tm7j2q.6",
       "id": "10.2307/j.ctt1tm7j2q.6",
@@ -4193,5 +4227,5 @@
       "year": 2021
     }
   ],
-  "updated_at": "2026-05-12T20:19:20.581671+00:00"
+  "updated_at": "2026-05-13T20:23:02.340809+00:00"
 }
