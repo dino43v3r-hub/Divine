@@ -485,6 +485,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+### The Relation between creation and redemption according to modern studies of Pauline Theology
+
+- Review status: unreviewed_daily_candidate
+- Evaluation use: candidate lead only until original source review and counterargument check
+- Tags: trinity
+- Provider: Crossref
+- Quality: scholarly metadata
+- Year: 1971
+- URL: https://doi.org/10.1163/9789004266032_003
+
+No summary available in metadata.
+
 ### The Quantum Revolution in Philosophy (Book Review)
 
 - Review status: unreviewed_daily_candidate
@@ -1261,6 +1273,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+### Oral Epic - Albert Bates Lord: Epic Singers and Oral Tradition. (Myth and Poetics.) Pp. xii + 262. Ithaca and London: Cornell University Press, 1991. $36.50 (Paper, $12.95).
+
+- Review status: unreviewed_daily_candidate
+- Evaluation use: candidate lead only until original source review and counterargument check
+- Tags: global_text_traditions
+- Provider: Crossref
+- Quality: scholarly metadata
+- Year: 1992
+- URL: https://doi.org/10.1017/s0009840x00283935
+
+No summary available in metadata.
+
 ### On the Legacy of Lutheranism in Finland: Societal Perspectives
 
 - Review status: unreviewed_daily_candidate
@@ -1284,6 +1308,18 @@ OpenAlex abstract metadata available.
 - URL: https://doi.org/10.1111/1467-9655.12000
 
 OpenAlex abstract metadata available.
+
+### On Beauty: Aesthetic Choices, Adornment, and Art
+
+- Review status: unreviewed_daily_candidate
+- Evaluation use: candidate lead only until original source review and counterargument check
+- Tags: art_beauty
+- Provider: Crossref
+- Quality: scholarly metadata
+- Year: 2022
+- URL: https://doi.org/10.5040/9781350104280.0014
+
+No summary available in metadata.
 
 ### Official Apologies and the Quest for Historical Justice
 
@@ -1553,41 +1589,5 @@ OpenAlex abstract metadata available.
 - Quality: scholarly metadata
 - Year: 1970
 - URL: http://hdl.handle.net/2346/47256
-
-OpenAlex abstract metadata available.
-
-### Liminal Legality: Salvadoran and Guatemalan Immigrants' Lives in the United States
-
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: history_memory
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Year: 2006
-- URL: https://doi.org/10.1086/499509
-
-OpenAlex abstract metadata available.
-
-### Leeds Working Papers in Linguistics and Phonetics
-
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: biblical_languages
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Year: 2013
-- URL: https://openalex.org/W2604690993
-
-No summary available in metadata.
-
-### Late Biblical Hebrew And The Qumran Pesher Habakkuk
-
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: biblical_languages
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Year: 2008
-- URL: https://doi.org/10.5508/jhs.2008.v8.a25
 
 OpenAlex abstract metadata available.

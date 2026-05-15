@@ -18,16 +18,16 @@ Notice -> Name -> Discern -> Practice -> Transform
 Why this pattern is currently strongest:
 ----------------------------------------
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,324
-- Son: 6,676
+- Father: 3,325
+- Son: 6,675
 - Holy Spirit: 1,257
 
 Strongest research layers:
 - Meaning And Logos: 5,830
-- Life And Consciousness: 5,221
-- Physical Order: 2,468
+- Life And Consciousness: 5,220
+- Physical Order: 2,469
 - Moral Response: 2,221
-- Transformation: 2,043
+- Transformation: 2,044
 - Worship And Community: 1,029
 
 Music-note science/math support:
