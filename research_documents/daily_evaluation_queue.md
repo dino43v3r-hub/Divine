@@ -7,14 +7,50 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Oral Epic - Albert Bates Lord: Epic Singers and Oral Tradition. (Myth and Poetics.) Pp. xii + 262. Ithaca and London: Cornell University Press, 1991. $36.50 (Paper, $12.95).
+### Glory in suffering? A reflection on finding meaning in grief through an interrogation into the phenomenology of suffering
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: global_text_traditions
+- Tags: unresolved_suffering
 - Provider: Crossref
 - Quality: scholarly metadata
-- Year: 1992
-- URL: https://doi.org/10.1017/s0009840x00283935
+- Year: 2020
+- URL: https://doi.org/10.1080/1756073x.2019.1707458
+
+No summary available in metadata.
+
+### Pythagorean Music Theory
+
+- Review status: unreviewed_daily_candidate
+- Evaluation use: candidate lead only until original source review and counterargument check
+- Tags: music_math
+- Provider: Crossref
+- Quality: scholarly metadata
+- Year: 2024
+- URL: https://doi.org/10.18485/mi_sanu_zr.2024.29.21.ch1
+
+No summary available in metadata.
+
+### Frontmatter
+
+- Review status: unreviewed_daily_candidate
+- Evaluation use: candidate lead only until original source review and counterargument check
+- Tags: biblical_languages
+- Provider: Crossref
+- Quality: scholarly metadata
+- Year: 2015
+- URL: https://doi.org/10.1515/9783110312164-fm
+
+No summary available in metadata.
+
+### A Pentecostal Biblical Theology: Turning Points in the Story of Redemption, written by Roger Stronstad
+
+- Review status: unreviewed_daily_candidate
+- Evaluation use: candidate lead only until original source review and counterargument check
+- Tags: biblical_languages
+- Provider: Crossref
+- Quality: scholarly metadata
+- Year: 2017
+- URL: https://doi.org/10.1163/15700747-03903006
 
 No summary available in metadata.
