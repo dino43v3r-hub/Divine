@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect reference metadata
+      - name: Collect daily internet candidate material
         run: python internet_source_collector.py
 
       - name: Run divine pattern analyzer
@@ -46,8 +46,8 @@ jobs:
               labels: ["daily-research"]
             });
 
-      - name: Commit updated references and reports
+      - name: Commit updated references, evaluation queue, and reports
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update cloud research references and reports"
-          file_pattern: "references/*.json reports/*.txt research_documents/cloud_references_summary.md"
+          commit_message: "Update daily cloud research evaluation set"
+          file_pattern: "references/*.json reports/*.txt reports/*.md research_documents/cloud_references_summary.md research_documents/daily_evaluation_queue.md"

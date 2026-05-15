@@ -1,5 +1,5 @@
 {
-  "source_count": 223,
+  "source_count": 361,
   "sources": [
     {
       "authors": [],
@@ -57,6 +57,48 @@
       "year": 2020
     },
     {
+      "authors": [
+        "Nyambura J. Njoroge"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9781351149204-13",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9781351149204-13",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Beyond Suffering and Lament: Theology of Hope and Life",
+      "url": "https://doi.org/10.4324/9781351149204-13",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Caesar A. Montevecchio"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1080/1462317x.2018.1436511",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1080/1462317x.2018.1436511",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Born from lament: the theology and politics of hope in Africa",
+      "url": "https://doi.org/10.1080/1462317x.2018.1436511",
+      "year": 2018
+    },
+    {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "date_accessed": "2026-05-11",
@@ -91,6 +133,27 @@
       "title": "Divine Opacity: Mystical Theology, Black Theology, and the Problem of Light-Dark Aesthetics",
       "url": "https://doi.org/10.1353/scs.2016.0024",
       "year": 2016
+    },
+    {
+      "authors": [
+        "Jason Neelis"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1163/ej.9789004181595.i-372",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1163/ej.9789004181595.i-372",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Early Buddhist Transmission and Trade Networks",
+      "url": "https://doi.org/10.1163/ej.9789004181595.i-372",
+      "year": 2011
     },
     {
       "authors": [],
@@ -184,6 +247,27 @@
     },
     {
       "authors": [
+        "Michael Squire"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1353/ajp.2010.a407739",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1353/ajp.2010.a407739",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Making Myron's Cow Moo?: Ecphrastic Epigram and the Poetics of Simulation",
+      "url": "https://doi.org/10.1353/ajp.2010.a407739",
+      "year": 2010
+    },
+    {
+      "authors": [
         "Maria Elisabeth Reicher"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
@@ -202,21 +286,47 @@
       "year": 2019
     },
     {
-      "authors": [],
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-13",
-      "doi": "10.5040/9781350104280.0014",
-      "id": "10.5040/9781350104280.0014",
-      "provider": "Crossref",
+      "authors": [
+        "Jason M. Silverman",
+        "Caroline Waerzeggers"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://repositorio.uca.edu.ar/handle/123456789/8007",
+      "provider": "OpenAlex",
       "quality": "scholarly metadata",
-      "source_type": "other",
-      "summary": "",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
       "tags": [
         "art_beauty"
       ],
-      "title": "On Beauty: Aesthetic Choices, Adornment, and Art",
-      "url": "https://doi.org/10.5040/9781350104280.0014",
-      "year": 2022
+      "title": "Political Memory in and after the Persian Empire",
+      "url": "https://repositorio.uca.edu.ar/handle/123456789/8007",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Matthew Fisher"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://escholarship.org/uc/item/1tm7x1rv",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Scribal Authorship and the Writing of History in Medieval England",
+      "url": "https://escholarship.org/uc/item/1tm7x1rv",
+      "year": 2012
     },
     {
       "authors": [
@@ -389,6 +499,1785 @@
     },
     {
       "authors": [
+        "Taylor Worley"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9780429019753-1",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9780429019753-1",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Theology and contemporary art",
+      "url": "https://doi.org/10.4324/9780429019753-1",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Joel M. LeMon"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.5167/uzh-152246",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.5167/uzh-152246",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Yahweh's Winged Form in the Psalms: Exploring Congruent Iconography and Texts",
+      "url": "https://doi.org/10.5167/uzh-152246",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Wemimo B. Jaiyesimi"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1080/1462317x.2025.2509440",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1080/1462317x.2025.2509440",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "\u201cDwelling Amid Ruins\u201d: Hope, Lament, and Necropolitics",
+      "url": "https://doi.org/10.1080/1462317x.2025.2509440",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Wendy Farley"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1111/moth.12124",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1111/moth.12124",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "Abstract Polydoxy contributes to a much needed reform of theology by exposing the \u201clogic of the One\u201d as a corruption of Christian thought, by its recovery of the importance of apophatic theology, and by its deployment of multiplicity both to celebrate human diversity and as a \u201cname\u201d of divinity. This article extends these themes by considering them as spiritual and not only intellectual practices that can assist us in our responses to the contemporary situation. The article is framed by attention to the environmental crisis that requires and relativizes theological resources as we find ways to act in the world.",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "\u201cThere is Hope for a Tree\u201d: Lament and Hope in Conversation with Polydoxy",
+      "url": "https://doi.org/10.1111/moth.12124",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Raija Sollamo"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.14315/9783641310950-012",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.14315/9783641310950-012",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "10. The Study of Translation Technique",
+      "url": "https://doi.org/10.14315/9783641310950-012",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Martti Nissinen"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "http://hdl.handle.net/10138/325625",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Ancient Prophecy: Near Eastern, Biblical, and Greek Perspectives",
+      "url": "http://hdl.handle.net/10138/325625",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Olga Timofeeva"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1515/stap-2016-0007",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1515/stap-2016-0007",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Bide Nu \u00c6t Gode \u00de\u00e6t Ic Grecisc Cunne: Attitudes to Greek and the Greeks in the Anglo-Saxon Period",
+      "url": "https://doi.org/10.1515/stap-2016-0007",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Clint Tibbs"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1163/15700747-03602029",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1163/15700747-03602029",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Book Review: What\u2019s Wrong with Protestant Theology: Tradition vs. Biblical Emphasis, written by Jon Mark Ruthven",
+      "url": "https://doi.org/10.1163/15700747-03602029",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Alan Lenzi",
+        "Jonathan St\u00f6kl"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.2307/j.ctt1287n4q",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.2307/j.ctt1287n4q",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Divination, Politics, and Ancient Near Eastern Empires",
+      "url": "https://doi.org/10.2307/j.ctt1287n4q",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "S\u00e9amus O\u2019Connell"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.5167/uzh-152676",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.5167/uzh-152676",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "From most ancient sources : the nature and text-critical use of the Greek Old Testament text of the Complutensian Polyglot bible",
+      "url": "https://doi.org/10.5167/uzh-152676",
+      "year": 2006
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctt16xwbcw.6",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctt16xwbcw.6",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "From \u201cOld Greek\u201d to the Recensions:",
+      "url": "https://doi.org/10.2307/j.ctt16xwbcw.6",
+      "year": null
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctt16xwbcw.1",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctt16xwbcw.1",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Front Matter",
+      "url": "https://doi.org/10.2307/j.ctt16xwbcw.1",
+      "year": null
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1515/9783110312164-020",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1515/9783110312164-020",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Index of Greek words",
+      "url": "https://doi.org/10.1515/9783110312164-020",
+      "year": 2015
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1515/9783110312164-019",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1515/9783110312164-019",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Index of Hebrew words",
+      "url": "https://doi.org/10.1515/9783110312164-019",
+      "year": 2015
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctt16xwbcw.20",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctt16xwbcw.20",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Indices",
+      "url": "https://doi.org/10.2307/j.ctt16xwbcw.20",
+      "year": null
+    },
+    {
+      "authors": [
+        "Clint Tibbs"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1163/15700747-12341362",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1163/15700747-12341362",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "John W. Wyckoff, Pneuma and Logos: The Role of the Spirit in Biblical Hermeneutics (Eugene, OR: Wipf &amp; Stock, 2010). xviii + 150 pp., $17.10 paperback.",
+      "url": "https://doi.org/10.1163/15700747-12341362",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Ian Young"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.5508/jhs.2008.v8.a25",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.5508/jhs.2008.v8.a25",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Late Biblical Hebrew And The Qumran Pesher Habakkuk",
+      "url": "https://doi.org/10.5508/jhs.2008.v8.a25",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "D Wright",
+        "Marilena Di Bari",
+        "Christine Lynn Norton"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://openalex.org/w2604690993",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Leeds Working Papers in Linguistics and Phonetics",
+      "url": "https://openalex.org/W2604690993",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Knuutila, Jyrki"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.21435/sfh.25",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.21435/sfh.25",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "On the Legacy of Lutheranism in Finland: Societal Perspectives",
+      "url": "https://doi.org/10.21435/sfh.25",
+      "year": 2019
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctt16xwbcw.18",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctt16xwbcw.18",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Original Publications",
+      "url": "https://doi.org/10.2307/j.ctt16xwbcw.18",
+      "year": null
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1515/9783110312164-001",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1515/9783110312164-001",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Preface",
+      "url": "https://doi.org/10.1515/9783110312164-001",
+      "year": 2015
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctt16xwbcw.19",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctt16xwbcw.19",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Publications on Text and Textual History of the Hebrew Bible and the Septuagint by Siegfried Kreuzer",
+      "url": "https://doi.org/10.2307/j.ctt16xwbcw.19",
+      "year": null
+    },
+    {
+      "authors": [
+        "Leonid Kogan"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1515/9783110312164-005",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1515/9783110312164-005",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Semitic Etymology in A Biblical Hebrew Lexicon: the Limits of Usefulness",
+      "url": "https://doi.org/10.1515/9783110312164-005",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Simeon Chavel"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1628/094457012799440186",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1628/094457012799440186",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "The Face of God and the Etiquette of Eye-Contact: Visitation, Pilgrimage, and Prophetic Vision in Ancient Israelite and Early Jewish Imagination",
+      "url": "https://doi.org/10.1628/094457012799440186",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Jacob Dodson"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1163/157007408x287849",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1163/157007408x287849",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "The Holy Spirit of God: An Essay in Biblical Theology",
+      "url": "https://doi.org/10.1163/157007408x287849",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Jan Joosten"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1515/9783110312164-009",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1515/9783110312164-009",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "The Interplay between Hebrew and Greek in Biblical Lexicology: Language, Text, and Interpretation",
+      "url": "https://doi.org/10.1515/9783110312164-009",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "David Michel"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1163/15700747-04602009",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1163/15700747-04602009",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Union with the Resurrected Christ: Eschatological New Creation and New Testament Biblical Theology, by G.K. Beale",
+      "url": "https://doi.org/10.1163/15700747-04602009",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Klaas Bentein"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.3406/rbph.2012.8388",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.3406/rbph.2012.8388",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Verbal Periphrasis in Ancient Greek A state of the art",
+      "url": "https://doi.org/10.3406/rbph.2012.8388",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Joel Edmund Anderson"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1177/0146107911431222",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1177/0146107911431222",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "This article, essentially a \u201cpart two\u201d of my earlier article, \u201cJonah's Peculiar Re-Creation,\u201d continues to explore narrative readings of the story of Jonah. Whereas the former article focused on the intertextual connections and thematic parallels between the story of Jonah and the creation account of Genesis 1\u20133, as well as the flood account of Genesis 6\u20139, this current article focuses specifically on the full or partial citations in Jonah of Exodus 32:14, Exodus 34:6, 1 Kings 19:4\u20136, and Jeremiah 8:7\u20138, as well as the implicit allusion to Jeremiah 36, and argues that along with the strong \u201cre-creation theme\u201d found in Jonah, there is a clear \u201ccovenant theme\u201d in Jonah as well. The covenant la",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "Yhwh's Surprising Covenant Hesed in Jonah",
+      "url": "https://doi.org/10.1177/0146107911431222",
+      "year": 2012
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9781472550194.ch-006",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9781472550194.ch-006",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "A Cross That Leads to Hope",
+      "url": "https://doi.org/10.5040/9781472550194.ch-006",
+      "year": null
+    },
+    {
+      "authors": [
+        "John Miles Foley",
+        "Chao Gejin"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1353/ort.2012.0018",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1353/ort.2012.0018",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Challenges in Comparative Oral Epic",
+      "url": "https://doi.org/10.1353/ort.2012.0018",
+      "year": 2012
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.14325/mississippi/9781496819215.001.0001",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.14325/mississippi/9781496819215.001.0001",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "edited-book",
+      "summary": "Comics and Sacred Texts: Reimagining Religion and Graphic Narratives explores how comics and notions of the sacred interweave to produce new modes of seeing and understanding the sacred. The creative texts explored within this edited volume share an expressive interest in modes of seeing the sacred in graphic structures. We examine the intersections between religion and comics in ways that critically expand our ability to think well about religious landscapes, rhetorical practices, pictorial representation, and the everyday experiences of the uncanny. Sacred Texts and Comics engages the diverse and expansive universe of comic studies and its capacity to reveal new modalities of the sacred. W",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Comics and Sacred Texts",
+      "url": "https://doi.org/10.14325/mississippi/9781496819215.001.0001",
+      "year": 2018
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1515/9780773598911-019",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1515/9780773598911-019",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Earth\u2019s Lament: Suffering, Hope, and Wisdom",
+      "url": "https://doi.org/10.1515/9780773598911-019",
+      "year": 2016
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9781472550194.ch-002",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9781472550194.ch-002",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Facing the Reality of Suffering",
+      "url": "https://doi.org/10.5040/9781472550194.ch-002",
+      "year": null
+    },
+    {
+      "authors": [
+        "Lynda Kay"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1080/25783858.2019.1589988",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1080/25783858.2019.1589988",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Guardians of research: negotiating the strata of gatekeepers in research with vulnerable participants",
+      "url": "https://doi.org/10.1080/25783858.2019.1589988",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Charles Segal"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.7591/9781501746703",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.7591/9781501746703",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Interpreting Greek Tragedy",
+      "url": "https://doi.org/10.7591/9781501746703",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Rosanna Masiola",
+        "Matteo Baraldo"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9798881898557.0005",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9798881898557.0005",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "other",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Introduction",
+      "url": "https://doi.org/10.5040/9798881898557.0005",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Matthew Arnold"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "http://hdl.handle.net/2346/47256",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Literature and Dogma: An Essay Towards a Better Apprehension of the Bible",
+      "url": "http://hdl.handle.net/2346/47256",
+      "year": 1970
+    },
+    {
+      "authors": [
+        "Gerald West"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.4102/hts.v70i1.2641",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.4102/hts.v70i1.2641",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Locating \u2018Contextual Bible Study\u2019 within biblical liberation hermeneutics and intercultural biblical hermeneutics",
+      "url": "https://doi.org/10.4102/hts.v70i1.2641",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Bertrand Russell"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.5962/bhl.title.28528",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.5962/bhl.title.28528",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Mysticism and logic and other essays",
+      "url": "https://doi.org/10.5962/bhl.title.28528",
+      "year": 1918
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9781472550194.0007",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9781472550194.0007",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Notes",
+      "url": "https://doi.org/10.5040/9781472550194.0007",
+      "year": null
+    },
+    {
+      "authors": [
+        "Ruth Finnegan"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.11647/obp.0025",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.11647/obp.0025",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Oral Literature in Africa",
+      "url": "https://doi.org/10.11647/obp.0025",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Christopher Chinn"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1093/acprof:oso/9780199644094.003.0019",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1093/acprof:oso/9780199644094.003.0019",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Orphic Ritual and Myth in the Thebaid",
+      "url": "https://doi.org/10.1093/acprof:oso/9780199644094.003.0019",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Kathleen Daly",
+        "Russ Immarigeon"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1371/journal.pone.0276025",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1371/journal.pone.0276025",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Past, Present, and Future of Restorative Justice: Some Critical Reflections",
+      "url": "https://research-repository.griffith.edu.au/bitstream/10072/12484/1/8383.pdf",
+      "year": 1998
+    },
+    {
+      "authors": [
+        "Willis Jenkins",
+        "Evan Berry",
+        "Luke Beck Kreider"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1146/annurev-environ-102017-025855",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1146/annurev-environ-102017-025855",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Religion and Climate Change",
+      "url": "https://doi.org/10.1146/annurev-environ-102017-025855",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Matthew E. Price"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1017/cbo9780511626845",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1017/cbo9780511626845",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Rethinking Asylum",
+      "url": "https://doi.org/10.1017/cbo9780511626845",
+      "year": 2009
+    },
+    {
+      "authors": [
+        "R., Roshini",
+        "V., Rajasekaran",
+        "Mani, Manimangai"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.3828/jlcds.2013.33",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.3828/jlcds.2013.33",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Review of Disability Studies",
+      "url": "https://doi.org/10.3828/jlcds.2013.33",
+      "year": 2013
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1017/9781107280465.007",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1017/9781107280465.007",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Ritual, Aggression, and Voicing the Moral Order(s)",
+      "url": "https://doi.org/10.1017/9781107280465.007",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Jonathan Chan"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1007/978-94-007-2756-4_12",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1007/978-94-007-2756-4_12",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Ritual, Harmony, and Peace and Order: A Confucian Conception of Ritual",
+      "url": "https://doi.org/10.1007/978-94-007-2756-4_12",
+      "year": 2012
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1017/9781107280465.008",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1017/9781107280465.008",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Ritual, Responsibility, and the Moral Order(s)",
+      "url": "https://doi.org/10.1017/9781107280465.008",
+      "year": 2017
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9781472550194.ch-001",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9781472550194.ch-001",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "The Terrain of Suffering",
+      "url": "https://doi.org/10.5040/9781472550194.ch-001",
+      "year": null
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9781472550194",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9781472550194",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "monograph",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Unwanted Wisdom : Suffering, the Cross, and Hope",
+      "url": "https://doi.org/10.5040/9781472550194",
+      "year": 2005
+    },
+    {
+      "authors": [
+        "LEONARD V. KAPLAN"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctv7vcsv2.19",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctv7vcsv2.19",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "WILL EISNER:",
+      "url": "https://doi.org/10.2307/j.ctv7vcsv2.19",
+      "year": null
+    },
+    {
+      "authors": [
+        "Walpola R\u0101hula"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.5281/zenodo.5638972",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.5281/zenodo.5638972",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "What the Buddha Taught",
+      "url": "https://zenodo.org/record/5638973",
+      "year": 1974
+    },
+    {
+      "authors": [
+        "Jonathon Repinecz"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://escholarship.org/uc/item/6vz9618c",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Whose Hero? Reinventing Epic in French West African Literature",
+      "url": "https://escholarship.org/uc/item/6vz9618c",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Leonard V. Kaplan"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.14325/mississippi/9781496819215.003.0015",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.14325/mississippi/9781496819215.003.0015",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "This essay explores Will Eisner\u2019s work in A Contract with God (1978). The book, emanating from pre-biblical wisdom, is paradigmatic for its harsh warning about human expectations. In it, Eisner created parables and midrash, literary criticism and political commentary, to capture moments that reveal a culture to itself. This emerging paradigm, the essay argues, is a new form of Jewish wisdom.The essay reads Eisner\u2019s work both through the work of Isaiah Berlin, but also as a Midrash on the book of Job. In utilizing Berlin\u2019s political thought, along with the foundation of the biblical tale, one can discern Eisner\u2019s vision of transformative, messianic politics, that lie in the vicissitudes and b",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Will Eisner",
+      "url": "https://doi.org/10.14325/mississippi/9781496819215.003.0015",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Craig S. Womack"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.5749/9781452974637",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.5749/9781452974637",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "global_text_traditions",
+        "world_languages_translation"
+      ],
+      "title": "Red on Red: Native American Literary Separatism",
+      "url": "https://doi.org/10.5749/9781452974637",
+      "year": 1999
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9781472548825.ch-006",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9781472548825.ch-006",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "A Hope and a Future : Suffering and Redemption in Eschatological Perspective",
+      "url": "https://doi.org/10.5040/9781472548825.ch-006",
+      "year": null
+    },
+    {
+      "authors": [
+        "Pumla Gobodo-Madikizela"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1007/978-3-030-39077-8_6",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1007/978-3-030-39077-8_6",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Aesthetics of Memory, Witness to Violence and a Call to Repair",
+      "url": "https://doi.org/10.1007/978-3-030-39077-8_6",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Kieran McEvoy",
+        "Louise Mallinder"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1111/j.1467-6478.2012.00591.x",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1111/j.1467-6478.2012.00591.x",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Amnesties in Transition: Punishment, Restoration, and the Governance of Mercy",
+      "url": "https://doi.org/10.1111/j.1467-6478.2012.00591.x",
+      "year": 2012
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1017/9781839700675.012",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1017/9781839700675.012",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "other",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Appendix. Spanish Historical Memory Act",
+      "url": "https://doi.org/10.1017/9781839700675.012",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Tania Murray Li"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1017/s0010417500002632",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1017/s0010417500002632",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Articulating Indigenous Identity in Indonesia: Resource Politics and the Tribal Slot",
+      "url": "https://doi.org/10.1017/s0010417500002632",
+      "year": 2000
+    },
+    {
+      "authors": [
+        "Edward A. Cerny"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1177/004056394800900316",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1177/004056394800900316",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Book Review: The Bible in the Church: A Short History of Interpretation",
+      "url": "https://doi.org/10.1177/004056394800900316",
+      "year": 1948
+    },
+    {
+      "authors": [
+        "Philip R. Stone",
+        "Richard Sharpley"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1016/j.annals.2008.02.003",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1016/j.annals.2008.02.003",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Consuming dark tourism: A Thanatological Perspective",
+      "url": "https://doi.org/10.1016/j.annals.2008.02.003",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Jan van Dijk"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1177/026975800901600101",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1177/026975800901600101",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Free the Victim: A Critique of the Western Conception of Victimhood",
+      "url": "https://doi.org/10.1177/026975800901600101",
+      "year": 2009
+    },
+    {
+      "authors": [
+        "El\u017cbieta Korolczuk",
+        "Agnieszka Graff"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1086/696691",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1086/696691",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Gender as \u201cEbola from Brussels\u201d: The Anticolonial Frame and the Rise of Illiberal Populism",
+      "url": "https://doi.org/10.1086/696691",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Ryan Mallon"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.3366/sch.2021.0058",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.3366/sch.2021.0058",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "I. G. C. Hutchison, Industry, Reform and Empire: Scotland, 1790\u20131880",
+      "url": "https://doi.org/10.3366/sch.2021.0058",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Khaled Abou El Fadl",
+        "Chasman, Deborah",
+        "Cohen, Joshua"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1515/9781400873203",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1515/9781400873203",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Islam and the Challenge of Democracy",
+      "url": "https://escholarship.org/uc/item/4x82849x",
+      "year": 2005
+    },
+    {
+      "authors": [
+        "Cecilia Menj\u00edvar"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1086/499509",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1086/499509",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Liminal Legality: Salvadoran and Guatemalan Immigrants' Lives in the United States",
+      "url": "https://doi.org/10.1086/499509",
+      "year": 2006
+    },
+    {
+      "authors": [
+        "J\u00f6rg R\u00fcpke"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1515/9783110715101-017",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1515/9783110715101-017",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Memorizing the Past and Writing Religion in the Roman Republic",
+      "url": "https://doi.org/10.1515/9783110715101-017",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "MARK PENDLETON"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/jj.36032686.15",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/jj.36032686.15",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Memory, Justice, and Postterror Futures",
+      "url": "https://doi.org/10.2307/jj.36032686.15",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "David Satcher"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.13016/jela-ckxw",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.13016/jela-ckxw",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Mental Health: Culture, Race, and Ethnicity\u2014A Supplement to Mental Health: A Report of the Surgeon General",
+      "url": "http://hdl.handle.net/1903/22834",
+      "year": 2001
+    },
+    {
+      "authors": [
+        "\uad8c\ud3c9"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.17301/tf.2016.83..001",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.17301/tf.2016.83..001",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Methodology of Church History in Structure of Concentric circle: A Critical Review on the Prof. Lee Yang Ho's Interpretation of Early Church History",
+      "url": "https://doi.org/10.17301/tf.2016.83..001",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Douglas J. Davies"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1093/acprof:osobl/9780199551538.003.0009",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1093/acprof:osobl/9780199551538.003.0009",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Moral-Somatics, Hope, Despair, and Suffering",
+      "url": "https://doi.org/10.1093/acprof:osobl/9780199551538.003.0009",
+      "year": 2011
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctv1nzfxdf.4",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctv1nzfxdf.4",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "ON FORGETTING:",
+      "url": "https://doi.org/10.2307/j.ctv1nzfxdf.4",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Micha\u00ebl R. Marrus"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1080/14754830601098402",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1080/14754830601098402",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Official Apologies and the Quest for Historical Justice",
+      "url": "https://doi.org/10.1080/14754830601098402",
+      "year": 2007
+    },
+    {
+      "authors": [
+        "Herbert Moyo"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.4102/hts.v71i2.2919",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.4102/hts.v71i2.2919",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Pastoral care in the healing of moral injury: A case of the Zimbabwe National Liberation War Veterans",
+      "url": "https://doi.org/10.4102/hts.v71i2.2919",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Mary Watkins"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.5964/jspp.v3i1.103",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.5964/jspp.v3i1.103",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Psychosocial Accompaniment",
+      "url": "https://doi.org/10.5964/jspp.v3i1.103",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Alexander Agadjanian"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9781003264750-3",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9781003264750-3",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Religion and collective memory of the last century",
+      "url": "https://doi.org/10.4324/9781003264750-3",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Kathanne Hodgkin"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9780203785751-7",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9780203785751-7",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-part",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Remembering Suffering: Trauma and History",
+      "url": "https://doi.org/10.4324/9780203785751-7",
+      "year": null
+    },
+    {
+      "authors": [
+        "Otto, J.M."
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.5117/9789087280574",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.5117/9789087280574",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Sharia Incorporated : A Comparative Overview of the Legal Systems of Twelve Muslim Countries in Past and Present",
+      "url": "https://doi.org/10.5117/9789087280574",
+      "year": 2010
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1017/9781839700675.007",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1017/9781839700675.007",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "other",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "The Historical Memory Act and Its Implementation",
+      "url": "https://doi.org/10.1017/9781839700675.007",
+      "year": 2013
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9780567660411.ch-008",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9780567660411.ch-008",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "The Theological Split in the Empire",
+      "url": "https://doi.org/10.5040/9780567660411.ch-008",
+      "year": null
+    },
+    {
+      "authors": [
+        "AJ Barnard-Naud\u00e9"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctvdf03jc.9",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctvdf03jc.9",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Towards the Poetic Justice of Reparative Citizenship",
+      "url": "https://doi.org/10.2307/j.ctvdf03jc.9",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Bill Schwarz"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.7228/manchester/9780719064746.001.0001",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.7228/manchester/9780719064746.001.0001",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "West Indian Intellectuals in Britain",
+      "url": "https://doi.org/10.7228/manchester/9780719064746.001.0001",
+      "year": 2003
+    },
+    {
+      "authors": [
+        "Eve Tuck",
+        "K. Wayne Yang"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": null,
+      "id": "http://hdl.handle.net/1807/138516",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "history_memory",
+        "politics_justice",
+        "world_languages_translation"
+      ],
+      "title": "Decolonization is not a metaphor",
+      "url": "http://hdl.handle.net/1807/138516",
+      "year": 2012
+    },
+    {
+      "authors": [
         "Kamraan Z. Gill",
         "Dale Purves"
       ],
@@ -471,11 +2360,13 @@
         "Thor Magnusson"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2010.06230v2",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "Many of the music generation systems based on neural networks are fully autonomous and do not offer control over the generation process. In this research, we present a controllable music generation system in terms of tonal tension. We incorporate two tonal tension measures based on the Spiral Array Tension theory into a variational autoencoder model. This allows us to control the direction of the tonal tension throughout the generated piece, as well as the overall level of tonal tension. Given a seed musical fragment, stemming from either the user input or from directly sampling from the latent space, the model can generate variations of this original seed fragment with altered tonal tension",
       "tags": [
@@ -627,11 +2518,13 @@
         "Marek Ku\u015b"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2503.07632v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "The Pythagorean school attributed consonance in music to simplicity of frequency ratios between musical tones. In the last two centuries, the consonance curves developed by Helmholtz, Plompt and Levelt shifted focus to psycho-acoustic considerations in perceiving consonances. The appearance of peaks of these curves at the ratios considered by the Pythagorean school, and which were a consequence of an attempt to understand the world by nice mathematical proportions, remained a curiosity. This paper addresses this curiosity, by describing a mathematical model of musical sound, along with a mathematical definition of consonance. First, we define pure, complex and mixed tones as mathematical mod",
       "tags": [
@@ -648,11 +2541,13 @@
         "Abram Hindle"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2509.17950v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "The Dorabella cipher is an encrypted note written by English composer Edward Elgar, which has defied decipherment attempts for more than a century. While most proposed solutions are English texts, we investigate the hypothesis that Dorabella represents enciphered music. We weigh the evidence for and against the hypothesis, devise a simplified music notation, and attempt to reconstruct a melody from the cipher. Our tools are n-gram models of music which we validate on existing music corpora enciphered using monoalphabetic substitution. By applying our methods to Dorabella, we produce a decipherment with musical qualities, which is then transformed via artful composition into a listenable melo",
       "tags": [
@@ -669,11 +2564,13 @@
         "Valeria Sebold"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/1711.10991v2",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "Pitch is the perceptual correlate of sound's periodicity and a fundamental property of the auditory sensation. The interaction of two or more pitches gives rise to a sensation that can be characterized by its degree of consonance or dissonance. In the current study, we investigated the neuromagnetic representations of consonant and dissonant musical dyads using a new model of cortical activity, in an effort to assess the possible involvement of pitch-specific neural mechanisms in consonance processing at early cortical stages. In the first step of the study, we developed a novel model of cortical pitch processing designed to explain the morphology of the pitch onset response (POR), a pitch-s",
       "tags": [
@@ -688,11 +2585,13 @@
         "Daniel Shawcross Wilkerson"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/1202.4212v2",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "Most music theory books are like medieval medical textbooks: they contain unjustified superstition, non-reasoning, and funny symbols glorified by Latin phrases. How does music, in particular harmony, actually work, presented as a real, scientific theory of music? The core to our approach is to consider not only the Physical phenomena of nature but also the Computational phenomena of any machine that must make sense of sound, such as the human brain. In particular we derive the following three fundamental phenomena of music: * the Major Scale, * the Standard Chord Dictionary, and * the difference in feeling between the Major and Minor Triads. While the Major Scale has been independently deriv",
       "tags": [
@@ -764,11 +2663,13 @@
         "Marek Przybylski"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2007.04360v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "Reservoir computing is an emerging, but very successful approach towards processing and classification of various signals. It can be described as a model of a transient computation, where influence of input changes internal dynamics of chosen computational reservoir. Trajectory of these changes represents computation performed by the system. The selection of a suitable computational substrate capable of non-linear response and rich internal dynamics ensures the implementation of simple readout protocols. Signal evolution based on the rich dynamics of the reservoir layer helps to emphasize differences between given signals thus enabling their easier classification. Here we present a simple re",
       "tags": [
@@ -783,11 +2684,13 @@
         "Maria Mannone"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/1904.10340v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "Mathematics, and more generally computational sciences, intervene in several aspects of music. Mathematics describes the acoustics of the sounds giving formal tools to physics, and the matter of music itself in terms of compositional structures and strategies. Mathematics can also be applied to the entire making of music, from the score to the performance, connecting compositional structures to acoustical reality of sounds. Moreover, the precise concept of gesture has a decisive role in understanding musical performance. In this paper, we apply some concepts of category theory to compare gestures of orchestral musicians, and to investigate the relationship between orchestra and conductor, as",
       "tags": [
@@ -803,11 +2706,13 @@
         "Albert Fannjiang"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/1404.1484v2",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "This paper studies the problem of line spectral estimation in the continuum of a bounded interval with one snapshot of array measurement. The single-snapshot measurement data is turned into a Hankel data matrix which admits the Vandermonde decomposition and is suitable for the MUSIC algorithm. The MUSIC algorithm amounts to finding the null space (the noise space) of the Hankel matrix, forming the noise-space correlation function and identifying the s smallest local minima of the noise-space correlation as the frequency set. In the noise-free case exact reconstruction is guaranteed for any arbitrary set of frequencies as long as the number of measurements is at least twice the number of dist",
       "tags": [
@@ -824,11 +2729,13 @@
         "Taylor Berg-Kirkpatrick"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2008.01291v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "Drawing an analogy with automatic image completion systems, we propose Music SketchNet, a neural network framework that allows users to specify partial musical ideas guiding automatic music generation. We focus on generating the missing measures in incomplete monophonic musical pieces, conditioned on surrounding context, and optionally guided by user-specified pitch and rhythm snippets. First, we introduce SketchVAE, a novel variational autoencoder that explicitly factorizes rhythm and pitch contour to form the basis of our proposed model. Then we introduce two discriminative architectures, SketchInpainter and SketchConnector, that in conjunction perform the guided music completion, filling ",
       "tags": [
@@ -923,11 +2830,13 @@
         "Lasse Rempe"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2309.06595v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "\"Phase-locking\" is a fundamental phenomenon in which coupled or periodically forced oscillators synchronise. The Arnold family of circle maps, which describes a forced oscillator, is the simplest mathematical model of phase-locking and has been studied intensively since its introduction in the 1960s. The family exhibits regions of parameter space where phase-locking phenomena can be observed. A long-standing question asked whether \"hyperbolic\" parameters~-- those whose behaviour is dominated by periodic attractors, and which are therefore stable under perturbation~-- are dense within the family. A positive answer was given in 2015 by van Strien and the author, which implies that, no matter h",
       "tags": [
@@ -1120,11 +3029,13 @@
         "Steve Mathew"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2106.08479v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "To date, calculating the frequencies of musical notes requires one to know the frequency of some reference note. In this study, first-order ordinary differential equations are used to arrive at a mathematical model to determine tonal frequencies using their respective note indices. In the next part of the study, an analysis that is based on the fundamental musical frequencies is conducted to theoretically and neurobiologically explain the consonance and dissonance caused by the different musical notes in the chromatic scale which is based on the fact that systematic patterns of sound invoke pleasure. The reason behind the richness of harmony and the sonic interference and degree of consonanc",
       "tags": [
@@ -1159,11 +3070,13 @@
         "Hyeonbin Hwang"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2601.02586v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "There is a wide variety of music similarity detection algorithms, while discussions about music plagiarism in the real world are often based on audience perceptions. Therefore, we aim to conduct a study to examine the key criteria of human perception of music plagiarism, focusing on the three commonly used musical features in similarity analysis: melody, rhythm, and chord progression. After identifying the key features and levels of variation humans use in perceiving musical similarity, we propose a LLM-as-a-judge framework that applies a systematic, step-by-step approach, drawing on modules that extract such high-level attributes.",
       "tags": [
@@ -1271,26 +3184,6 @@
       "title": "Data Feminism",
       "url": "https://doi.org/10.7551/mitpress/11805.001.0001",
       "year": 2020
-    },
-    {
-      "authors": [
-        "Eve Tuck",
-        "K. Wayne Yang"
-      ],
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
-      "doi": null,
-      "id": "http://hdl.handle.net/1807/138516",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "source_type": "article",
-      "summary": "OpenAlex abstract metadata available.",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "Decolonization is not a metaphor",
-      "url": "http://hdl.handle.net/1807/138516",
-      "year": 2012
     },
     {
       "authors": [],
@@ -1558,6 +3451,644 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctt1f89ts1.16",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctt1f89ts1.16",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "A Baptism of Repentance for the Forgiveness of Sins",
+      "url": "https://doi.org/10.2307/j.ctt1f89ts1.16",
+      "year": 2016
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9781474223812.ch-005",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9781474223812.ch-005",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "A Cognitive Psychological Account of Reasoning about Ritual Efficacy",
+      "url": "https://doi.org/10.5040/9781474223812.ch-005",
+      "year": null
+    },
+    {
+      "authors": [
+        "Benaouda Bensaid"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.3390/rel12121057",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.3390/rel12121057",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "An Overview of Muslim Spiritual Parenting",
+      "url": "https://doi.org/10.3390/rel12121057",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Shanti Farrington",
+        "Alison Woodward"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9781032637242-4",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9781032637242-4",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Attachment and trauma",
+      "url": "https://doi.org/10.4324/9781032637242-4",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Peter C. Hill",
+        "Kenneth II. Pargament",
+        "Ralph W. Hood"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1111/1468-5914.00119",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1111/1468-5914.00119",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Conceptualizing Religion and Spirituality: Points of Commonality, Points of Departure",
+      "url": "https://doi.org/10.1111/1468-5914.00119",
+      "year": 2000
+    },
+    {
+      "authors": [
+        "Ann S. Masten",
+        "Jelena Obradovi\u0107"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.5751/es-02282-130109",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.5751/es-02282-130109",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Disaster Preparation and Recovery: Lessons from Research on Resilience in Human Development",
+      "url": "https://doi.org/10.5751/es-02282-130109",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Barrett Emerick"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9798881817091.ch-7",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9798881817091.ch-7",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "other",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Forgiveness and Reconciliation",
+      "url": "https://doi.org/10.5040/9798881817091.ch-7",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Loren D. Marks",
+        "David C. Dollahite"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9781032623023-14",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9781032623023-14",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Forgiveness, Repentance, and Families",
+      "url": "https://doi.org/10.4324/9781032623023-14",
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1017/cbo9780511762857.006",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1017/cbo9780511762857.006",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Humility and Repentance",
+      "url": "https://doi.org/10.1017/cbo9780511762857.006",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Jensine Andresen"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1017/cbo9780511586330.001",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1017/cbo9780511586330.001",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Introduction: towards a cognitive science of religion",
+      "url": "https://doi.org/10.1017/cbo9780511586330.001",
+      "year": 2001
+    },
+    {
+      "authors": [
+        "Peter J. Jankowski",
+        "Steven J. Sandage"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1037/a0021601",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1037/a0021601",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Meditative prayer, hope, adult attachment, and forgiveness: A proposed model.",
+      "url": "https://doi.org/10.1037/a0021601",
+      "year": 2011
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.3726/978-3-653-06719-4/10",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.3726/978-3-653-06719-4/10",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Migration and Religion: Beyond Ethnic Community and Ethclass",
+      "url": "https://doi.org/10.3726/978-3-653-06719-4/10",
+      "year": null
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.3726/978-3-653-06719-4/5",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.3726/978-3-653-06719-4/5",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Migration and Religion: Beyond Ethnic Community and Ethclass (Dariu\u0161 Zifonun)",
+      "url": "https://doi.org/10.3726/978-3-653-06719-4/5",
+      "year": null
+    },
+    {
+      "authors": [
+        "Ilkka Pyysi\u00e4inen"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1163/9789004496217_007",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1163/9789004496217_007",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Religious Belief, Experience, and Ritual",
+      "url": "https://doi.org/10.1163/9789004496217_007",
+      "year": 2001
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctv2vvsx3n.6",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctv2vvsx3n.6",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Repentance",
+      "url": "https://doi.org/10.2307/j.ctv2vvsx3n.6",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Steven M. Southwick",
+        "George A. Bonanno",
+        "Ann S. Masten"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.3402/ejpt.v5.25338",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.3402/ejpt.v5.25338",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Resilience definitions, theory, and challenges: interdisciplinary perspectives",
+      "url": "https://doi.org/10.3402/ejpt.v5.25338",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Catherine Maxwell",
+        "Amanda Anderson"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.2307/3733283",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.2307/3733283",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Tainted Souls and Painted Faces: The Rhetoric of Fallenness in Victorian Culture",
+      "url": "https://doi.org/10.2307/3733283",
+      "year": 1995
+    },
+    {
+      "authors": [
+        "Kenneth I. Parg\u00e4ment",
+        "Margaret Feuille",
+        "Donna C. Burdzy"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.3390/rel2010051",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.3390/rel2010051",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "The Brief RCOPE: Current Psychometric Status of a Short Measure of Religious Coping",
+      "url": "https://doi.org/10.3390/rel2010051",
+      "year": 2011
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9781315745626-4",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9781315745626-4",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-section",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "The Dynamics of Attachment and Trauma",
+      "url": "https://doi.org/10.4324/9781315745626-4",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Stig Hjarvard"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1515/nor-2017-0181",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1515/nor-2017-0181",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "The Mediatization of Society",
+      "url": "https://doi.org/10.1515/nor-2017-0181",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Alison Liebling",
+        "Shadd Maruna",
+        "Lesley McAra"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1093/he/9780198860914.001.0001",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1093/he/9780198860914.001.0001",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "The Oxford Handbook of Criminology",
+      "url": "https://doi.org/10.1093/he/9780198860914.001.0001",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Geoffrey L. Cohen",
+        "David K. Sherman"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1146/annurev-psych-010213-115137",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1146/annurev-psych-010213-115137",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "review",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "The Psychology of Change: Self-Affirmation and Social Psychological Intervention",
+      "url": "https://doi.org/10.1146/annurev-psych-010213-115137",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Margaret R. Somers"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1007/bf00992905",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1007/bf00992905",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "The narrative constitution of identity: A relational and network approach",
+      "url": "https://doi.org/10.1007/bf00992905",
+      "year": 1994
+    },
+    {
+      "authors": [
+        "Nicholas Barr",
+        "Hazel R. Atuel",
+        "Shaddy K. Saba"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.3389/fpsyt.2022.883338",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.3389/fpsyt.2022.883338",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "review",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Toward a dual process model of moral injury and traumatic illness",
+      "url": "https://doi.org/10.3389/fpsyt.2022.883338",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Esther M. Sternberg",
+        "Altaf Engineer",
+        "Hester Oberman"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1177/0084672418824067",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1177/0084672418824067",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "This commentary comprises three different responses to Counted and Zock\u2019s article: \u201cPlace Spirituality: An Attachment Perspective.\u201d The first response is from Esther Sternberg, MD, who gives a psychophysiological and neuroscience critique. The second is from Altaf Engineer, PhD, from the perspective of architecture and environmental psychology, and the last response is from Hester Oberman, PhD, who gives a psychology of religion rebuttal.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Trauma, place, and transformation",
+      "url": "https://doi.org/10.1177/0084672418824067",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Meredith O. Hope",
+        "Eric Buhs"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1037/rel0000232",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1037/rel0000232",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Victimization and religious engagement: Links to school attachment and subsequent adjustment outcomes.",
+      "url": "https://doi.org/10.1037/rel0000232",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Everett L. Worthington",
+        "Sandra Yu Rueger",
+        "Edward B. Davis"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.3390/rel10010044",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.3390/rel10010044",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "\u201cMere\u201d Christian Forgiveness: An Ecumenical Christian Conceptualization of Forgiveness through the Lens of Stress-And-Coping Theory",
+      "url": "https://doi.org/10.3390/rel10010044",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Rogers Brubaker",
+        "Frederick Cooper"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "https://doi.org/10.1023/a:1007068714468",
+      "id": "https://doi.org/10.1023/a:1007068714468",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "article",
+      "summary": "",
+      "tags": [
+        "psychology_patterns",
+        "trinity"
+      ],
+      "title": "Beyond \u201cidentity\u201d",
+      "url": "https://doi.org/10.1023/a:1007068714468",
+      "year": 2000
+    },
+    {
+      "authors": [
+        "Harold G. Koenig",
+        "Faten Al Zaben"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "https://doi.org/10.1007/s10943-021-01328-0",
+      "id": "https://doi.org/10.1007/s10943-021-01328-0",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "review",
+      "summary": "",
+      "tags": [
+        "psychology_patterns",
+        "unresolved_suffering"
+      ],
+      "title": "Moral Injury: An Increasingly Recognized and Widespread Syndrome",
+      "url": "https://doi.org/10.1007/s10943-021-01328-0",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Rogers Brubaker"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1017/s0003975602001066",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1017/s0003975602001066",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "psychology_patterns",
+        "world_languages_translation"
+      ],
+      "title": "Ethnicity without groups",
+      "url": "https://doi.org/10.1017/s0003975602001066",
+      "year": 2002
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "date_accessed": "2026-05-11",
       "doi": "10.1017/cbo9780511815676.025",
       "id": "10.1017/cbo9780511815676.025",
@@ -1655,11 +4186,13 @@
         "Shiro Ishikawa"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/1209.3483v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "The philosophy of science is a discipline concerning the metaphysical aspect of science. Recently, I proposed measurement theory, which is characterized as the metaphysical and linguistic interpretation of quantum mechanics. I assert that this theory is one of the most fundamental languages in science, and thus, it is located at the central position in science. This assertion will be examined throughout this preprint, which is written as the draft of my future book (concerning the philosophy of science). Hence, I hope to hear various opinions about this draft.",
       "tags": [
@@ -1691,11 +4224,13 @@
         "Olival Freire"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/physics/0508180v2",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "This paper deals with the ways that the issue of completing quantum mechanics was brought into laboratories and became a topic in mainstream quantum optics. It focuses on the period between 1965, when Bell published what now we call Bell's theorem, and 1982, when Aspect published the results of his experiments. I argue that what was considered good physics after Aspect's experiments was once considered by many a philosophical matter instead of a scientific one, and that the path from philosophy to physics required a change in the physics community's attitude about the status of the foundations of quantum mechanics.",
       "tags": [
@@ -1710,11 +4245,13 @@
         "Sergey B. Kulikov"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/1612.05095v3",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "This article aims at applying the approaches peculiar to analytic philosophy to the question about representation of the concept of time as a symbol which can reflect the bases of the modern natural sciences, social sciences and humanities. The main methods, which the author of this article uses, are speculative analysis and modeling. The symbolic meaning of the concept of time demonstrates preconditions for the organization of the bases of the natural sciences, and social and humanitarian knowledge as well. Judgments for the meaning of time reveal the essence of the problem in two aspects of discussion on the dissociation of the foundations in the modern philosophy of physics and the philos",
       "tags": [
@@ -1729,11 +4266,13 @@
         "European Strategy for Particle Physics Preparatory Group"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/1910.11775v2",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "The European Particle Physics Strategy Update (EPPSU) process takes a bottom-up approach, whereby the community is first invited to submit proposals (also called inputs) for projects that it would like to see realised in the near-term, mid-term and longer-term future. National inputs as well as inputs from National Laboratories are also an important element of the process. All these inputs are then reviewed by the Physics Preparatory Group (PPG), whose role is to organize a Symposium around the submitted ideas and to prepare a community discussion on the importance and merits of the various proposals. The results of these discussions are then concisely summarised in this Briefing Book, prepa",
       "tags": [
@@ -1748,11 +4287,13 @@
         "Carlo Rovelli"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/1805.10602v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "Contrary to claims about the irrelevance of philosophy for science, I argue that philosophy has had, and still has, far more influence on physics than is commonly assumed. I maintain that the current anti-philosophical ideology has had damaging effects on the fertility of science. I also suggest that recent important empirical results, such as the detection of the Higgs particle and gravitational waves, and the failure to detect supersymmetry where many expected to find it, question the validity of certain philosophical assumptions common among theoretical physicists, inviting us to engage in a clearer philosophical reflection on scientific method.",
       "tags": [
@@ -1769,11 +4310,13 @@
         "S. Kuhlman"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/hep-ex/9605011v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "We present the current expectations for the design and physics program of an e+e- linear collider of center of mass energy 500 GeV -- 1 TeV. We review the experiments that would be carried out at this facility and demonstrate its key role in exploring physics beyond the Standard Model over the full range of theoretical possibilities. We then show the feasibility of constructing this machine, by reviewing the current status of linear collider technology and by presenting a precis of our `zeroth-order' design.",
       "tags": [
@@ -1864,11 +4407,13 @@
         "Arif Ullah"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2107.11259v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "Quantum information processing exploits non-local functionality that has led to significant breakthroughs in the successful deployment of quantum mechanical protocols. In this regard, we address the dynamics of entanglement and coherence for three non-interacting qubits initially prepared as maximally entangled GHZ-like state coupled with independent classical environments. Two different Gaussian noises in pure and mixed noisy situations, namely, pure power-law noise, pure fractional Gaussian noise, power-law noise maximized and fractional Gaussian noise maximized cases are assumed to characterize the environments. With the help of time-dependent entanglement witnesses, purity, and decoheren",
       "tags": [
@@ -1941,11 +4486,13 @@
         "A. Baha Balantekin"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2204.03381v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "It is for the first time that Quantum Simulation for High Energy Physics (HEP) is studied in the U.S. decadal particle-physics community planning, and in fact until recently, this was not considered a mainstream topic in the community. This fact speaks of a remarkable rate of growth of this subfield over the past few years, stimulated by the impressive advancements in Quantum Information Sciences (QIS) and associated technologies over the past decade, and the significant investment in this area by the government and private sectors in the U.S. and other countries. High-energy physicists have quickly identified problems of importance to our understanding of nature at the most fundamental leve",
       "tags": [
@@ -1974,26 +4521,6 @@
     },
     {
       "authors": [
-        "Alberto Barchielli",
-        "Matteo Gregoratti"
-      ],
-      "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
-      "doi": "",
-      "id": "http://arxiv.org/abs/1301.3626v2",
-      "provider": "arXiv",
-      "quality": "scholarly preprint",
-      "source_type": "scholarly preprint",
-      "summary": "The stochastic Schr\u00f6dinger equation, of classical or quantum type, allows to describe open quantum systems under measurement in continuous time. In this paper we review the link between these two descriptions and we study the properties of the output of the measurement. For simplicity we deal only with the diffusive case. Firstly, we discuss the quantum stochastic Schr\u00f6dinger equation, which is based on quantum stochastic calculus, and we show how to transform it into the classical stochastic Schr\u00f6dinger equation by diagonalization of suitable quantum observables, based on the isomorphism between Fock space and Wiener space. Then, we give the a posteriori state, the conditional system state ",
-      "tags": [
-        "quantum_science_guardrails"
-      ],
-      "title": "Quantum continuous measurements: The stochastic Schroedinger equations and the spectrum of the output",
-      "url": "http://arxiv.org/abs/1301.3626v2",
-      "year": "2013"
-    },
-    {
-      "authors": [
         "Bradley Monton"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
@@ -2016,11 +4543,13 @@
         "Sebastian De Haro"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/1307.1244v2",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "In this paper I review the problematic relationship between science and philosophy; in particular, I will address the question of whether science needs philosophy, and I will offer some positive perspectives that should be helpful in developing a synergetic relationship between the two. I will review three lines of reasoning often employed in arguing that philosophy is useless for science: a) philosophy's death diagnosis ('philosophy is dead'); b) the historic-agnostic argument/challenge \"show me examples where philosophy has been useful for science, for I don't know of any\"; c) the division of property argument (or: philosophy and science have different subject matters, therefore philosophy",
       "tags": [
@@ -2055,11 +4584,13 @@
         "Jeremy Butterfield"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2508.01616v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "This monograph discusses dualities in physics: what dualities are, their main examples--from quantum mechanics and electrodynamics to statistical mechanics, quantum field theory and string theory--and the philosophical questions they raise. Part I first conceptualises dualities and discusses their main roles and themes, including how they are related to familiar notions like symmetry and interpretation. It also discusses the main simple examples of dualities: position-momentum, wave-particle, electric-magnetic, and Kramers-Wannier dualities. Part II discusses advanced examples and their inter-relations: particle-soliton dualities, electric-magnetic dualities in quantum field theories, dualit",
       "tags": [
@@ -2093,11 +4624,13 @@
         "Eddy Keming Chen"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2110.12102v1",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "In this thought-provoking book, Richard Healey proposes a new interpretation of quantum theory inspired by pragmatist philosophy. Healey puts forward the interpretation as an alternative to realist quantum theories on the one hand such as Bohmian mechanics, spontaneous collapse theories, and many-worlds interpretations, which are different proposals for describing what the quantum world is like and what the basic laws of physics are, and non-realist interpretations on the other hand such as quantum Bayesianism, which proposes to understand quantum theory as describing agents' subjective epistemic states. The central idea of Healey's proposal is to understand quantum theory as providing not a",
       "tags": [
@@ -2131,11 +4664,13 @@
         "P. J. E. Peebles"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2401.16506v2",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "I argue that research in physics operates under an implicit community philosophy, and I offer a definition I think physicists would accept, by and large. I compare this definition to what philosophers, sociologists, and historians of science, with physicists, say we are doing.",
       "tags": [
@@ -2184,11 +4719,13 @@
         "Tianyan Quantum Group"
       ],
       "copyright_note": "Open preprint metadata and short summary only.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://arxiv.org/abs/2512.10504v2",
       "provider": "arXiv",
       "quality": "scholarly preprint",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "scholarly preprint",
       "summary": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits and achieves high operational fidelities, with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively. For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles, the platform completes one million samples in just 18.4 minutes. In contrast, state-of-the-art classical supercomputers would require approximately 16,000 years to complete the equivalent calculatio",
       "tags": [
@@ -2633,11 +5170,13 @@
         "David L. Paulsen"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "https://scholarsarchive.byu.edu/byusq/vol45/iss1/3",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "article",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
@@ -2650,11 +5189,13 @@
     {
       "authors": [],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "https://doi.org/10.1111/j.1468-2400.2006.00191_1.x",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "https://doi.org/10.1111/j.1468-2400.2006.00191_1.x",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "article",
       "summary": "",
       "tags": [
@@ -2667,11 +5208,13 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.5040/9781472549846.ch-003",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.5040/9781472549846.ch-003",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -2687,11 +5230,13 @@
         "Stephan van Erp"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "https://doi.org/10.1163/9789004319165",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "https://doi.org/10.1163/9789004319165",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "article",
       "summary": "",
       "tags": [
@@ -2706,11 +5251,13 @@
         "Whitcomb, Michael Dean"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://hdl.handle.net/10019.1/104856",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "dissertation",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
@@ -2723,11 +5270,13 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.5040/9780567675118.ch-005",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.5040/9780567675118.ch-005",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -2740,11 +5289,13 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.5040/9780567660428.ch-004",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.5040/9780567660428.ch-004",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -2759,11 +5310,13 @@
         "E. P. Meijering"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.1163/9789004474895_011",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.1163/9789004474895_011",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -2776,11 +5329,13 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.2307/jj.19948938.11",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.2307/jj.19948938.11",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -2795,11 +5350,13 @@
         "Patrick J. O\u2019Banion"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "https://doi.org/10.33137/rr.v41i2-3.9525",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "https://doi.org/10.33137/rr.v41i2-3.9525",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "article",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
@@ -2812,11 +5369,13 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.5040/9780567678263.ch-3",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.5040/9780567678263.ch-3",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -2831,11 +5390,13 @@
         "E. P. Meijering"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.1163/9789004474895_005",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.1163/9789004474895_005",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -2848,11 +5409,13 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.2307/j.ctt22nm63r.8",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.2307/j.ctt22nm63r.8",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -2867,11 +5430,13 @@
         "Walter H. Capps"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.1080/00393387108599924",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.1080/00393387108599924",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "journal-article",
       "summary": "",
       "tags": [
@@ -2886,11 +5451,13 @@
         "Christopher A. Stephenson"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "https://epublications.marquette.edu/dissertations_mu/9",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "article",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
@@ -2905,11 +5472,13 @@
         "Ernst M. Conradie"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "https://doi.org/10.7833/85-0-941",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "https://doi.org/10.7833/85-0-941",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "review",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
@@ -2924,11 +5493,13 @@
         "Kyung-Dong Yoo"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.21130/tw.2016.12.88.216",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.21130/tw.2016.12.88.216",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "journal-article",
       "summary": "",
       "tags": [
@@ -2941,11 +5512,13 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.5040/9780567660442.ch-010",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.5040/9780567660442.ch-010",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -2958,11 +5531,13 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.2307/j.ctv1hztrfz.24",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.2307/j.ctv1hztrfz.24",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -2977,11 +5552,13 @@
         "Editors Evangelical Quarterly: An Internati"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.1163/27725472-04003013",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.1163/27725472-04003013",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "journal-article",
       "summary": "",
       "tags": [
@@ -2997,11 +5574,13 @@
         "Francesca Aran Murphy"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.1093/acprof:oso/9780199582211.003.0002",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.1093/acprof:oso/9780199582211.003.0002",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -3016,11 +5595,13 @@
         "Bong-Chan Ko"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "http://hdl.handle.net/1807/139159",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "dissertation",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
@@ -3035,11 +5616,13 @@
         "Richelle Wagner Sampl"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "https://place.asburyseminary.edu/ecommonsatsdissertations/1063",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "article",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
@@ -3054,11 +5637,13 @@
         "A.J. Swoboda"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "https://doi.org/10.1163/9789004397163_011",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "https://doi.org/10.1163/9789004397163_011",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
@@ -3073,11 +5658,13 @@
         "Anne Hunt"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.1017/ccol9780521877398.021",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.1017/ccol9780521877398.021",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -3086,26 +5673,6 @@
       "title": "Trinity, Christology, and pneumatology",
       "url": "https://doi.org/10.1017/ccol9780521877398.021",
       "year": 2011
-    },
-    {
-      "authors": [
-        "Rogers Brubaker",
-        "Frederick Cooper"
-      ],
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
-      "doi": "https://doi.org/10.1023/a:1007068714468",
-      "id": "https://doi.org/10.1023/a:1007068714468",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "source_type": "article",
-      "summary": "",
-      "tags": [
-        "trinity"
-      ],
-      "title": "Beyond \u201cidentity\u201d",
-      "url": "https://doi.org/10.1023/a:1007068714468",
-      "year": 2000
     },
     {
       "authors": [
@@ -3239,11 +5806,13 @@
     {
       "authors": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-13",
+      "date_accessed": "2026-05-15",
       "doi": "10.2307/j.ctv27tct7n.8",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.2307/j.ctv27tct7n.8",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -3527,25 +6096,6 @@
       "title": "The Paschal Event:",
       "url": "https://doi.org/10.2307/j.ctv1hztrfz.20",
       "year": 2020
-    },
-    {
-      "authors": [
-        "John G. Gibbs"
-      ],
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
-      "doi": "10.1163/9789004266032_003",
-      "id": "10.1163/9789004266032_003",
-      "provider": "Crossref",
-      "quality": "scholarly metadata",
-      "source_type": "book-chapter",
-      "summary": "",
-      "tags": [
-        "trinity"
-      ],
-      "title": "The Relation between creation and redemption according to modern studies of Pauline Theology",
-      "url": "https://doi.org/10.1163/9789004266032_003",
-      "year": 1971
     },
     {
       "authors": [],
@@ -3904,26 +6454,6 @@
     },
     {
       "authors": [
-        "Harold G. Koenig",
-        "Faten Al Zaben"
-      ],
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
-      "doi": "https://doi.org/10.1007/s10943-021-01328-0",
-      "id": "https://doi.org/10.1007/s10943-021-01328-0",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "source_type": "review",
-      "summary": "",
-      "tags": [
-        "unresolved_suffering"
-      ],
-      "title": "Moral Injury: An Increasingly Recognized and Widespread Syndrome",
-      "url": "https://doi.org/10.1007/s10943-021-01328-0",
-      "year": 2021
-    },
-    {
-      "authors": [
         "Ngtt Ngtt"
       ],
       "copyright_note": "Metadata only; do not store full copyrighted text.",
@@ -4016,26 +6546,6 @@
       "title": "Suffering in worship: Anglican liturgy in relation to stories of suffering people",
       "url": "https://doi.org/10.1080/1756073x.2018.1459119",
       "year": 2018
-    },
-    {
-      "authors": [
-        "Alice N. Benston",
-        "Fredric Jameson"
-      ],
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
-      "doi": "https://doi.org/10.2307/3684627",
-      "id": "https://doi.org/10.2307/3684627",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "source_type": "article",
-      "summary": "OpenAlex abstract metadata available.",
-      "tags": [
-        "unresolved_suffering"
-      ],
-      "title": "The Political Unconscious: Narrative as a Socially Symbolic Act",
-      "url": "https://doi.org/10.2307/3684627",
-      "year": 1983
     },
     {
       "authors": [],
@@ -4174,11 +6684,13 @@
         "Andrew Linzey"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-11",
+      "date_accessed": "2026-05-15",
       "doi": "10.1093/acprof:oso/9780199351848.003.0002",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
       "id": "10.1093/acprof:oso/9780199351848.003.0002",
       "provider": "Crossref",
       "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
       "source_type": "book-chapter",
       "summary": "",
       "tags": [
@@ -4225,7 +6737,472 @@
       "title": "\u201cThe wounded Beast?\u201d - Single Women, Tradition, and the Bible in Zimbabwe",
       "url": "https://doi.org/10.20378/irb-48992",
       "year": 2021
+    },
+    {
+      "authors": [
+        "Alice N. Benston",
+        "Fredric Jameson"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-11",
+      "doi": "https://doi.org/10.2307/3684627",
+      "id": "https://doi.org/10.2307/3684627",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "unresolved_suffering",
+        "world_languages_translation"
+      ],
+      "title": "The Political Unconscious: Narrative as a Socially Symbolic Act",
+      "url": "https://doi.org/10.2307/3684627",
+      "year": 1983
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1075/dapsac.23.15gra",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1075/dapsac.23.15gra",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "7. Grammar, metaphor and ecology",
+      "url": "https://doi.org/10.1075/dapsac.23.15gra",
+      "year": 2007
+    },
+    {
+      "authors": [
+        "Florent\u00edn Smarandache"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": null,
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://philpapers.org/rec/smaauf-2",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "A Unifying Field in Logics: Neutrosophic Logic. Neutrosophy, Neutrosophic Set, Neutrosophic Probability",
+      "url": "https://philpapers.org/rec/SMAAUF-2",
+      "year": 2008
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2307/j.ctv6gqs2k.28",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2307/j.ctv6gqs2k.28",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "APPENDIX 6:",
+      "url": "https://doi.org/10.2307/j.ctv6gqs2k.28",
+      "year": null
+    },
+    {
+      "authors": [
+        "Richard Coggins"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1177/0040571x9910200613",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1177/0040571x9910200613",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Book Review: Sacred Languages and Sacred Texts",
+      "url": "https://doi.org/10.1177/0040571x9910200613",
+      "year": 1999
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1163/2773-1952_hcso_com_0310",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1163/2773-1952_hcso_com_0310",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "dataset",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Conceptual Metaphor in Cognitive Semantics",
+      "url": "https://doi.org/10.1163/2773-1952_hcso_com_0310",
+      "year": null
+    },
+    {
+      "authors": [
+        "Ruth Breeze"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1075/prag.21.4.01bre",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1075/prag.21.4.01bre",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Critical discourse analysis and its critics",
+      "url": "https://doi.org/10.1075/prag.21.4.01bre",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Thomas J. Csordas"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1007/978-1-137-08286-2_3",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1007/978-1-137-08286-2_3",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Embodiment as a Paradigm for Anthropology",
+      "url": "https://doi.org/10.1007/978-1-137-08286-2_3",
+      "year": 2002
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9780203290903_chapter_10",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9780203290903_chapter_10",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Fundraising",
+      "url": "https://doi.org/10.4324/9780203290903_chapter_10",
+      "year": null
+    },
+    {
+      "authors": [
+        "Van Vree, Frank"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.5117/9789053563069",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.5117/9789053563069",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "History of Concepts : Comparative Perspectives",
+      "url": "https://doi.org/10.5117/9789053563069",
+      "year": 1998
+    },
+    {
+      "authors": [
+        "Webb Keane"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1111/1467-9655.12000",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1111/1467-9655.12000",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "On spirit writing: materialities of language and the religious work of transduction",
+      "url": "https://doi.org/10.1111/1467-9655.12000",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "George Lakoff"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1075/pbns.32.08lak",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1075/pbns.32.08lak",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Reflections on metaphor and grammar",
+      "url": "https://doi.org/10.1075/pbns.32.08lak",
+      "year": 1996
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9780203047750-8",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9780203047750-8",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "SACRED LANGUAGES",
+      "url": "https://doi.org/10.4324/9780203047750-8",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "John Sawyer"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9780203047750",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9780203047750",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Sacred Languages and Sacred Texts",
+      "url": "https://doi.org/10.4324/9780203047750",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Andrew McKinnon"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1163/157006802760198776",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1163/157006802760198776",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Sociological definitions, language games, and the \"essence\" of religion",
+      "url": "https://doi.org/10.1163/157006802760198776",
+      "year": 2002
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1515/9781552384671-026",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1515/9781552384671-026",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Syntax, Semantics, and Grammar",
+      "url": "https://doi.org/10.1515/9781552384671-026",
+      "year": 2006
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9780203047750-11",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9780203047750-11",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "TRANSLATION",
+      "url": "https://doi.org/10.4324/9780203047750-11",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Dilyara Davletshina"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.2139/ssrn.6623278",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.2139/ssrn.6623278",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "posted-content",
+      "summary": "The aim of this study is to develop an approach (methodology) for teaching the translation of color in socio-political texts. This approach includes a description of the method of pre-translation analysis of color, the identification of developing competencies, and the development of methods for the practical adaptation of English-language color realities to Russian-language political culture. &lt;div&gt; &lt;p&gt;The suggested teaching methods, the set of competencies to be developed, the plan for pre-translation analysis of political texts, the stages of practical instruction, and the process map are designed to address and overcome difficulties associated with teaching the translation of ",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Teaching the Translation of English-Language Color Terms in Political Texts: From Culture to Semantics",
+      "url": "https://doi.org/10.2139/ssrn.6623278",
+      "year": null
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9780203290903_chapter_8",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9780203290903_chapter_8",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "The human factor",
+      "url": "https://doi.org/10.4324/9780203290903_chapter_8",
+      "year": null
+    },
+    {
+      "authors": [
+        "Charles E. Osgood"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.1037/h0055737",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1037/h0055737",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "The nature and measurement of meaning.",
+      "url": "https://doi.org/10.1037/h0055737",
+      "year": 1952
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.4324/9780203102893-45",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.4324/9780203102893-45",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "The translation of sacred texts",
+      "url": "https://doi.org/10.4324/9780203102893-45",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "A. \u015eerban"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1016/b0-08-044854-2/00486-7",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1016/b0-08-044854-2/00486-7",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Translation and Genre: Sacred Texts",
+      "url": "https://doi.org/10.1016/b0-08-044854-2/00486-7",
+      "year": 2006
+    },
+    {
+      "authors": [
+        "Ernst-August Gutt"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "https://doi.org/10.4324/9781315760018",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.4324/9781315760018",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "Translation and Relevance",
+      "url": "https://doi.org/10.4324/9781315760018",
+      "year": 2014
     }
   ],
-  "updated_at": "2026-05-14T20:17:56.260088+00:00"
+  "updated_at": "2026-05-15T03:31:39.295173+00:00"
 }

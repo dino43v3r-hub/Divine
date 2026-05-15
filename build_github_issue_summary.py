@@ -13,9 +13,11 @@ REPORT_PATHS = [
     Path("reports/divine_pattern_test_report.txt"),
     Path("reports/deep_source_review_report.txt"),
     Path("reports/theologian_pattern_design_report.txt"),
+    Path("reports/cross_layer_reasoning_report.txt"),
     Path("reports/music_note_patterns_report.txt"),
     Path("reports/music_lyric_patterns_report.txt"),
     Path("reports/cultural_pattern_relationships_report.txt"),
+    Path("research_documents/daily_evaluation_queue.md"),
 ]
 
 

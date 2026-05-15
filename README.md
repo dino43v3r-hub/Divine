@@ -1,8 +1,9 @@
 # Synthesize Data
 
 Synthesize Data is a divine-pattern research prototype. It analyzes theology,
-music lyrics, music notes, art, politics, science, technology, culture,
-practical theology, pressure tests, and source metadata.
+music lyrics, music notes, visual art, history, world languages, biblical Greek
+and Hebrew, global text traditions, psychology, politics, science, technology,
+culture, practical theology, pressure tests, and source metadata.
 
 The current Trinitarian pattern lens is:
 
@@ -30,16 +31,27 @@ python divine_pattern_analyzer.py
 The collector stores metadata and summaries only. It does not copy full
 copyrighted books, articles, or lyrics.
 
+The collector also writes a daily candidate evaluation queue:
+
+```text
+research_documents/daily_evaluation_queue.md
+```
+
+This queue is intentionally cautious. It helps the analyzer see new material
+from the internet, but all entries remain candidate leads until original-source
+review, author/context checks, and counterarguments are added.
+
 ## GitHub
 
 The GitHub Actions workflow is in:
 
 ```text
-.github/workflows/weekly-cloud-research.yml
+.github/workflows/daily-cloud-research.yml
 ```
 
-It collects new reference metadata, reruns the analyzer, and commits updated
-reports back to the repository.
+It runs every day at 14:00 UTC, collects new reference metadata, updates the
+daily evaluation queue, reruns the analyzer, opens a GitHub notification issue,
+and commits updated reports back to the repository.
 
 ## Project Areas
 
@@ -47,6 +59,12 @@ reports back to the repository.
 - `music_lyrics/`: lyric and genre motif analysis
 - `music_notes/`: note, chord, interval, ratio, and tension analysis
 - `cultural_inputs/`: art, politics, science, technology, economics, health, ecology, education, and community
+- `visual_art/`: composition, symbol, beauty, image, gesture, and visual meaning notes
+- `history_inputs/`: historical memory, conflict, era, power, reform, and repair notes
+- `world_languages/`: translation, semantics, metaphor, grammar, and culture notes
+- `biblical_languages/`: biblical Greek, Hebrew, Aramaic, lemma, syntax, and translation-range notes
+- `all_texts/`: global sacred, philosophical, poetic, legal, oral, wisdom, ritual, and commentary text notes
+- `psychology_inputs/`: perception, attachment, trauma, habit, identity, and transformation notes
 - `pattern_tests/`: counterexamples and pressure tests
 - `deep_sources/`: stricter support for unresolved suffering and quantum/science claims
 - `theologians/`: cross-era theologian sources and pattern-design material
@@ -78,3 +96,22 @@ reports/theologian_pattern_design_report.txt
 
 The goal is not to flatten theologians into one voice. It is to use continuity,
 development, and disagreement across eras to make pattern design more careful.
+
+## Cross-Layer Reasoning
+
+The analyzer now writes a dedicated synthesis report:
+
+```text
+reports/cross_layer_reasoning_report.txt
+```
+
+This report asks whether the app is seeing deeper context and movement across
+visual symbol, history, language, original-language study, psychology, ethics,
+practice, theology, and counter-readings. Word matches remain starting signals,
+but stronger synthesis needs multiple lenses, meaning movement, and layer
+convergence.
+
+The report also tracks language-family and text-tradition coverage. This lets
+the project explore all world languages over time without claiming universality
+too early. Add translated notes, original-language observations, genre/context
+notes, and counter-readings to `world_languages/` or `all_texts/`.

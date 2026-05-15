@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-14T20:17:56.263376+00:00
-Total references: 223
-New references this run: 0
+Updated: 2026-05-15T03:31:39.309383+00:00
+Total references: 361
+New references this run: 193
 
 Guardrails
 ----------
@@ -14,134 +14,27 @@ Guardrails
 
 Reference Tags
 --------------
-- art_beauty: 21
+- art_beauty: 30
+- biblical_languages: 25
+- global_text_traditions: 28
+- history_memory: 29
 - music_math: 40
 - politics_justice: 20
-- quantum_science_guardrails: 38
+- psychology_patterns: 30
+- quantum_science_guardrails: 37
 - technology_ethics: 18
 - theologians_cross_era: 25
-- trinity: 30
+- trinity: 29
 - unresolved_suffering: 31
+- world_languages_translation: 26
 
 Quality Counts
 --------------
-- scholarly metadata: 197
-- scholarly preprint: 26
+- scholarly metadata: 336
+- scholarly preprint: 25
 
 Recent Candidate Sources
 ------------------------
-- Assessing Existing Theodicies (2019)
-  Tags: unresolved_suffering
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.5040/9781978720480.ch-2
-- Chaplaincy, Spiritual Care and Moral Injury: Considerations Regarding Screening and Treatment (2018)
-  Tags: unresolved_suffering
-  Authors: Lindsay B. Carey, Timothy J. Hodgson
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.3389/fpsyt.2018.00619
-- Climate Grief and Transformation: Deepening Pastoral Eco-Theological Grief Care Through Self-reflection, Witnessing and Narrative Practice (2025)
-  Tags: unresolved_suffering
-  Authors: Christine Tind Johannessen
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1080/10649867.2025.2607257
-- Dangerous prayer: discovering a missional spirituality in the lord’s prayer (2018)
-  Tags: unresolved_suffering
-  Authors: Neil Thorogood
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1080/1756073x.2018.1500163
-- Death and Grief (2014)
-  Tags: unresolved_suffering
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.4324/9781315808499-21
-- Doing practical theology ‘from the place where it hurts’: the significance of trauma theology in renewing a practical theology of suffering (2024)
-  Tags: unresolved_suffering
-  Authors: Eilidh Galbraith
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1080/1756073x.2023.2277004
-- Faith after an Earthquake: A Longitudinal Study of Religion and Perceived Health before and after the 2011 Christchurch New Zealand Earthquake (2012)
-  Tags: unresolved_suffering
-  Authors: Chris G. Sibley, Joseph Bulbulia
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.1371/journal.pone.0049648
-- Gendered Political Violence and the Church in Africa: Perspectives from Church Leaders (2025)
-  Tags: unresolved_suffering
-  Authors: James Ndlovu
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.3390/rel16091213
-- Going back to my roots : a critical understanding of the interplay between Christian faith and Shona tradition in the quest to find meaning within the HIV pandemic (2011)
-  Tags: unresolved_suffering
-  Authors: Farirai Tamirepi
-  Source: OpenAlex | scholarly metadata
-  URL: http://hdl.handle.net/10019.1/6511
-- Hamartology and ecology: a critical assessment of Dietrich Bonhoeffer’s view on the nature of sin (2013)
-  Tags: unresolved_suffering
-  Authors: Newton Millan Cloete
-  Source: OpenAlex | scholarly metadata
-  URL: http://hdl.handle.net/11394/3272
-- Hospice spiritual care and suffering: towards a theodicy of suffering (2000)
-  Tags: unresolved_suffering
-  Authors: Guy Harrison
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1080/13520806.2000.11758892
-- Lament as a Contributor to the Healing of Trauma: an Application of Poetry in the Form of Biblical Lament (2019)
-  Tags: unresolved_suffering
-  Authors: June F. Dickie
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1007/s11089-018-0851-z
-- Mary Shelley's Frankenstein (2020)
-  Tags: unresolved_suffering
-  Authors: Scarsella, Alessandro
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.5040/9781682661109
-- Moral Injury: An Increasingly Recognized and Widespread Syndrome (2021)
-  Tags: unresolved_suffering
-  Authors: Harold G. Koenig, Faten Al Zaben
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.1007/s10943-021-01328-0
-- Nederduitse Gereformeerde Teologiese Tydskrif (2011)
-  Tags: unresolved_suffering
-  Authors: Ngtt Ngtt
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.5952/52-0-39
-- Prayer and Practical Theology (2013)
-  Tags: unresolved_suffering
-  Authors: Andre van Oudtshoorn
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1515/ijpt-2012-0018
-- RECOVERING GRIEF IN THE AGE OF GRIEF RECOVERY (2003)
-  Tags: unresolved_suffering
-  Authors: S. BRUCE VAUGHN
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1179/jpt.2003.13.1.005
-- Shades of Lament: Phenomenology, Theopoetics, and Pastoral Theology (2014)
-  Tags: unresolved_suffering
-  Authors: Phil C. Zylla
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1007/s11089-014-0616-2
-- Suffering in worship: Anglican liturgy in relation to stories of suffering people (2018)
-  Tags: unresolved_suffering
-  Authors: Wendy Bray
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1080/1756073x.2018.1459119
-- The Political Unconscious: Narrative as a Socially Symbolic Act (1983)
-  Tags: unresolved_suffering
-  Authors: Alice N. Benston, Fredric Jameson
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.2307/3684627
-- The Trinity and Suffering (2016)
-  Tags: unresolved_suffering
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.4324/9781315605364-9
-- The True, the Good and the Reasonable: The Theological and Ethical Roots of Public Reason in Islamic Law (2008)
-  Tags: unresolved_suffering
-  Authors: Mohammad Fadel
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.1017/s084182090000432x
-- Theodicy in the Face of Children's Suffering and Death (1994)
-  Tags: unresolved_suffering
-  Authors: J. Reid Perkins-Buzo
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1177/002234099404800207
 - Third-Generation Holocaust Representation : Trauma, History, and Memory (2017)
   Tags: unresolved_suffering
   Authors: Victoria Aarons, Alan R. Berger
@@ -176,3 +69,109 @@ Recent Candidate Sources
   Authors: Kudzai Biri
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.20378/irb-48992
+- The Political Unconscious: Narrative as a Socially Symbolic Act (1983)
+  Tags: unresolved_suffering, world_languages_translation
+  Authors: Alice N. Benston, Fredric Jameson
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.2307/3684627
+- 7. Grammar, metaphor and ecology (2007)
+  Tags: world_languages_translation
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.1075/dapsac.23.15gra
+- A Unifying Field in Logics: Neutrosophic Logic. Neutrosophy, Neutrosophic Set, Neutrosophic Probability (2008)
+  Tags: world_languages_translation
+  Authors: Florentín Smarandache
+  Source: OpenAlex | scholarly metadata
+  URL: https://philpapers.org/rec/SMAAUF-2
+- APPENDIX 6: (n.d.)
+  Tags: world_languages_translation
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.2307/j.ctv6gqs2k.28
+- Book Review: Sacred Languages and Sacred Texts (1999)
+  Tags: world_languages_translation
+  Authors: Richard Coggins
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.1177/0040571x9910200613
+- Conceptual Metaphor in Cognitive Semantics (n.d.)
+  Tags: world_languages_translation
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.1163/2773-1952_hcso_com_0310
+- Critical discourse analysis and its critics (2015)
+  Tags: world_languages_translation
+  Authors: Ruth Breeze
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.1075/prag.21.4.01bre
+- Embodiment as a Paradigm for Anthropology (2002)
+  Tags: world_languages_translation
+  Authors: Thomas J. Csordas
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.1007/978-1-137-08286-2_3
+- Fundraising (n.d.)
+  Tags: world_languages_translation
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.4324/9780203290903_chapter_10
+- History of Concepts : Comparative Perspectives (1998)
+  Tags: world_languages_translation
+  Authors: Van Vree, Frank
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.5117/9789053563069
+- On spirit writing: materialities of language and the religious work of transduction (2013)
+  Tags: world_languages_translation
+  Authors: Webb Keane
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.1111/1467-9655.12000
+- Reflections on metaphor and grammar (1996)
+  Tags: world_languages_translation
+  Authors: George Lakoff
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.1075/pbns.32.08lak
+- SACRED LANGUAGES (2012)
+  Tags: world_languages_translation
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.4324/9780203047750-8
+- Sacred Languages and Sacred Texts (2012)
+  Tags: world_languages_translation
+  Authors: John Sawyer
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.4324/9780203047750
+- Sociological definitions, language games, and the "essence" of religion (2002)
+  Tags: world_languages_translation
+  Authors: Andrew McKinnon
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.1163/157006802760198776
+- Syntax, Semantics, and Grammar (2006)
+  Tags: world_languages_translation
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.1515/9781552384671-026
+- TRANSLATION (2012)
+  Tags: world_languages_translation
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.4324/9780203047750-11
+- Teaching the Translation of English-Language Color Terms in Political Texts: From Culture to Semantics (n.d.)
+  Tags: world_languages_translation
+  Authors: Dilyara Davletshina
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.2139/ssrn.6623278
+- The human factor (n.d.)
+  Tags: world_languages_translation
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.4324/9780203290903_chapter_8
+- The nature and measurement of meaning. (1952)
+  Tags: world_languages_translation
+  Authors: Charles E. Osgood
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.1037/h0055737
+- The translation of sacred texts (2013)
+  Tags: world_languages_translation
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.4324/9780203102893-45
+- Translation and Genre: Sacred Texts (2006)
+  Tags: world_languages_translation
+  Authors: A. Şerban
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.1016/b0-08-044854-2/00486-7
+- Translation and Relevance (2014)
+  Tags: world_languages_translation
+  Authors: Ernst-August Gutt
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.4324/9781315760018

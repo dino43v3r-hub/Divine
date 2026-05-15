@@ -15,41 +15,54 @@ Status: source-supported
 Area signal: 16
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
-- Scripture/Theology: present (9)
+- Scripture/Theology: present (10)
 - Pastoral/Clinical: present (12)
 - Lived Case: present (8)
-- Counterargument: present (7)
+- Counterargument: present (10)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 16
+Area signal: 43
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
-- Physicist/Primary Science: present (8)
-- Peer-Reviewed/Academic: present (5)
-- Philosophy Of Science: present (10)
-- Counterargument: present (7)
+- Physicist/Primary Science: present (18)
+- Peer-Reviewed/Academic: present (8)
+- Philosophy Of Science: present (22)
+- Counterargument: present (10)
 
 All Source-Type Signals
 -----------------------
+- Philosophy Of Science: 22
+- Physicist/Primary Science: 18
 - Pastoral/Clinical: 12
-- Philosophy Of Science: 10
-- Scripture/Theology: 9
+- Scripture/Theology: 10
+- Counterargument: 10
 - Lived Case: 8
-- Physicist/Primary Science: 8
-- Counterargument: 7
-- Peer-Reviewed/Academic: 5
+- Peer-Reviewed/Academic: 8
 
 Quality And Risk Markers
 ------------------------
+- Scholarly Or Scientific Source: 13
 - Practical Lived Source: 12
-- Scholarly Or Scientific Source: 8
+- Speculative Source: 3
 - Primary Or Classical Source: 2
-- Speculative Source: 1
+- Reviewed Cloud Reference: 2
 
 Per-Source Findings
 -------------------
+
+qualified_quantum_science_references.md
+---------------------------------------
+Words: 214
+Area scores:
+- Quantum And Science Claims: source-supported (22)
+Source types:
+- Physicist/Primary Science: 8
+- Philosophy Of Science: 7
+- Counterargument: 2
+- Scripture/Theology: 1
+- Peer-Reviewed/Academic: 1
 
 quantum_science_source_framework.md
 -----------------------------------
@@ -61,6 +74,17 @@ Source types:
 - Physicist/Primary Science: 8
 - Counterargument: 4
 - Peer-Reviewed/Academic: 4
+
+science_counterarguments_and_limits.md
+--------------------------------------
+Words: 131
+Area scores:
+- Quantum And Science Claims: source-supported (5)
+Source types:
+- Philosophy Of Science: 5
+- Physicist/Primary Science: 2
+- Peer-Reviewed/Academic: 2
+- Counterargument: 1
 
 unresolved_suffering_source_framework.md
 ----------------------------------------
