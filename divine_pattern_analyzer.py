@@ -8,6 +8,12 @@ PATTERN_INPUTS_DIR = Path("pattern_inputs")
 MUSIC_LYRICS_DIR = Path("music_lyrics")
 MUSIC_NOTES_DIR = Path("music_notes")
 CULTURAL_INPUTS_DIR = Path("cultural_inputs")
+VISUAL_ART_DIR = Path("visual_art")
+HISTORY_DIR = Path("history_inputs")
+WORLD_LANGUAGES_DIR = Path("world_languages")
+BIBLICAL_LANGUAGES_DIR = Path("biblical_languages")
+ALL_TEXTS_DIR = Path("all_texts")
+PSYCHOLOGY_INPUTS_DIR = Path("psychology_inputs")
 PATTERN_TESTS_DIR = Path("pattern_tests")
 DEEP_SOURCE_DIR = Path("deep_sources")
 THEOLOGIANS_DIR = Path("theologians")
@@ -18,6 +24,7 @@ DISCOVERED_PATTERNS_PATH = REPORTS_DIR / "discovered_patterns_report.txt"
 MUSIC_PATTERNS_PATH = REPORTS_DIR / "music_lyric_patterns_report.txt"
 MUSIC_NOTE_PATTERNS_PATH = REPORTS_DIR / "music_note_patterns_report.txt"
 CULTURAL_PATTERNS_PATH = REPORTS_DIR / "cultural_pattern_relationships_report.txt"
+CROSS_LAYER_REASONING_PATH = REPORTS_DIR / "cross_layer_reasoning_report.txt"
 PATTERN_TEST_REPORT_PATH = REPORTS_DIR / "divine_pattern_test_report.txt"
 DEEP_SOURCE_REVIEW_PATH = REPORTS_DIR / "deep_source_review_report.txt"
 THEOLOGIAN_REPORT_PATH = REPORTS_DIR / "theologian_pattern_design_report.txt"
@@ -353,6 +360,58 @@ TEST_DOMAINS = {
         "behavior",
         "identity",
         "prosocial",
+    ],
+    "Visual Art And Symbol": [
+        "visual art",
+        "painting",
+        "icon",
+        "image",
+        "color",
+        "composition",
+        "gesture",
+        "symbol",
+        "beauty",
+        "aesthetic",
+    ],
+    "History And Cultural Memory": [
+        "history",
+        "historical",
+        "era",
+        "empire",
+        "exile",
+        "migration",
+        "war",
+        "reform",
+        "movement",
+        "memory",
+    ],
+    "World Languages And Translation": [
+        "language",
+        "translation",
+        "meaning",
+        "semantic",
+        "metaphor",
+        "idiom",
+        "grammar",
+        "word order",
+        "culture",
+        "context",
+    ],
+    "Biblical Greek And Hebrew": [
+        "greek",
+        "hebrew",
+        "aramaic",
+        "septuagint",
+        "masoretic",
+        "lexicon",
+        "lemma",
+        "syntax",
+        "covenant",
+        "hesed",
+        "agape",
+        "logos",
+        "ruach",
+        "pneuma",
     ],
 }
 
@@ -1123,6 +1182,97 @@ CULTURAL_DOMAINS = {
         "stewardship",
         "creation",
     ],
+    "Visual Art And Iconography": [
+        "visual art",
+        "iconography",
+        "painting",
+        "sculpture",
+        "image",
+        "composition",
+        "color",
+        "light",
+        "gesture",
+        "perspective",
+        "symbol",
+    ],
+    "History And Memory": [
+        "history",
+        "historical",
+        "empire",
+        "exile",
+        "migration",
+        "war",
+        "reform",
+        "movement",
+        "era",
+        "memory",
+        "archive",
+    ],
+    "World Languages": [
+        "language",
+        "translation",
+        "semantic",
+        "metaphor",
+        "idiom",
+        "grammar",
+        "culture",
+        "meaning",
+        "word order",
+        "interpretation",
+        "comparative linguistics",
+        "language family",
+        "script",
+        "oral tradition",
+        "poetry",
+        "proverb",
+    ],
+    "Biblical Greek And Hebrew": [
+        "greek",
+        "hebrew",
+        "aramaic",
+        "septuagint",
+        "masoretic",
+        "lemma",
+        "lexicon",
+        "syntax",
+        "logos",
+        "agape",
+        "hesed",
+        "shalom",
+        "ruach",
+        "pneuma",
+    ],
+    "Psychology And Human Behavior": [
+        "psychology",
+        "cognitive",
+        "perception",
+        "memory",
+        "attention",
+        "emotion",
+        "attachment",
+        "trauma",
+        "habit",
+        "behavior",
+        "identity",
+        "motivation",
+    ],
+    "Global Text Traditions": [
+        "text",
+        "texts",
+        "scripture",
+        "epic",
+        "myth",
+        "poetry",
+        "proverb",
+        "law code",
+        "philosophy",
+        "wisdom",
+        "oral tradition",
+        "ritual",
+        "commentary",
+        "chronicle",
+        "folklore",
+    ],
 }
 
 
@@ -1136,6 +1286,12 @@ CULTURAL_DOMAIN_LAYER_MAP = {
     "Family And Community": ["Worship And Community", "Transformation"],
     "Health And Suffering": ["Life And Consciousness", "Transformation"],
     "Ecology And Creation Care": ["Physical Order", "Moral Response"],
+    "Visual Art And Iconography": ["Meaning And Logos", "Moral Response", "Worship And Community"],
+    "History And Memory": ["Meaning And Logos", "Moral Response", "Transformation"],
+    "World Languages": ["Meaning And Logos", "Worship And Community"],
+    "Biblical Greek And Hebrew": ["Meaning And Logos", "Worship And Community", "Transformation"],
+    "Psychology And Human Behavior": ["Life And Consciousness", "Moral Response", "Transformation"],
+    "Global Text Traditions": ["Meaning And Logos", "Moral Response", "Worship And Community", "Transformation"],
 }
 
 
@@ -1149,6 +1305,348 @@ PRACTICAL_DOMAIN_USES = {
     "Family And Community": "Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.",
     "Health And Suffering": "Respond to suffering with truthful lament, practical care, patience, and hope without minimizing pain.",
     "Ecology And Creation Care": "Connect creation order to stewardship: beauty and interdependence should lead to responsibility.",
+    "Visual Art And Iconography": "Read visual form as meaning: ask how image, color, gesture, and composition reveal desire, lament, worship, power, or hope.",
+    "History And Memory": "Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.",
+    "World Languages": "Use translation carefully: compare semantic range, metaphor, grammar, and cultural context before turning a word match into a conclusion.",
+    "Biblical Greek And Hebrew": "Use original-language study as a depth check: examine lemma, syntax, covenant language, and translation range before making theological claims.",
+    "Psychology And Human Behavior": "Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.",
+    "Global Text Traditions": "Compare sacred, philosophical, poetic, legal, oral, and wisdom texts as witnesses to human longing, moral order, suffering, community, and transformation.",
+}
+
+
+SYNTHESIS_SOURCE_DIRS = {
+    "Visual Art": VISUAL_ART_DIR,
+    "History": HISTORY_DIR,
+    "World Languages": WORLD_LANGUAGES_DIR,
+    "Biblical Greek And Hebrew": BIBLICAL_LANGUAGES_DIR,
+    "All Texts": ALL_TEXTS_DIR,
+    "Psychology And Other Texts": PSYCHOLOGY_INPUTS_DIR,
+}
+
+
+LANGUAGE_FAMILY_MARKERS = {
+    "Afro-Asiatic": [
+        "afro-asiatic",
+        "hebrew",
+        "arabic",
+        "aramaic",
+        "amharic",
+        "akkadian",
+        "coptic",
+    ],
+    "Indo-European": [
+        "indo-european",
+        "greek",
+        "latin",
+        "sanskrit",
+        "english",
+        "spanish",
+        "french",
+        "german",
+        "russian",
+        "persian",
+        "hindi",
+    ],
+    "Sino-Tibetan": [
+        "sino-tibetan",
+        "chinese",
+        "mandarin",
+        "classical chinese",
+        "tibetan",
+        "burmese",
+    ],
+    "Niger-Congo": [
+        "niger-congo",
+        "swahili",
+        "yoruba",
+        "igbo",
+        "zulu",
+        "xhosa",
+        "akan",
+    ],
+    "Austronesian": [
+        "austronesian",
+        "malay",
+        "indonesian",
+        "tagalog",
+        "hawaiian",
+        "maori",
+    ],
+    "Dravidian": [
+        "dravidian",
+        "tamil",
+        "telugu",
+        "kannada",
+        "malayalam",
+    ],
+    "Turkic": [
+        "turkic",
+        "turkish",
+        "azerbaijani",
+        "uzbek",
+        "kazakh",
+        "uyghur",
+    ],
+    "Uralic": [
+        "uralic",
+        "finnish",
+        "hungarian",
+        "estonian",
+        "sami",
+    ],
+    "Austroasiatic": [
+        "austroasiatic",
+        "vietnamese",
+        "khmer",
+        "mon",
+    ],
+    "Kra-Dai": [
+        "kra-dai",
+        "thai",
+        "lao",
+        "zhuang",
+    ],
+    "Japonic": [
+        "japonic",
+        "japanese",
+        "ryukyuan",
+    ],
+    "Koreanic": [
+        "koreanic",
+        "korean",
+    ],
+    "Mongolic": [
+        "mongolic",
+        "mongolian",
+    ],
+    "Indigenous Americas": [
+        "nahuatl",
+        "maya",
+        "quechua",
+        "aymara",
+        "navajo",
+        "cherokee",
+        "cree",
+        "ojibwe",
+        "mapuche",
+    ],
+    "Australian": [
+        "aboriginal",
+        "australian language",
+        "yolngu",
+        "warlpiri",
+    ],
+    "Papuan": [
+        "papuan",
+        "tok pisin",
+        "hiri motu",
+    ],
+}
+
+
+TEXT_TRADITION_MARKERS = {
+    "Sacred Scripture": [
+        "scripture",
+        "sacred text",
+        "bible",
+        "quran",
+        "torah",
+        "veda",
+        "sutra",
+        "tripitaka",
+        "avesta",
+        "guru granth sahib",
+    ],
+    "Wisdom And Proverbs": [
+        "wisdom",
+        "proverb",
+        "aphorism",
+        "instruction",
+        "teaching",
+        "counsel",
+    ],
+    "Epic And Myth": [
+        "epic",
+        "myth",
+        "origin story",
+        "hero",
+        "cosmogony",
+        "creation story",
+    ],
+    "Philosophy And Ethics": [
+        "philosophy",
+        "ethics",
+        "virtue",
+        "metaphysics",
+        "reason",
+        "good life",
+    ],
+    "Law And Covenant": [
+        "law",
+        "code",
+        "covenant",
+        "contract",
+        "justice",
+        "judgment",
+    ],
+    "Poetry And Lament": [
+        "poetry",
+        "poem",
+        "lament",
+        "song",
+        "hymn",
+        "elegy",
+    ],
+    "Ritual And Liturgy": [
+        "ritual",
+        "liturgy",
+        "prayer",
+        "sacrifice",
+        "festival",
+        "ceremony",
+    ],
+    "History And Chronicle": [
+        "history",
+        "chronicle",
+        "annals",
+        "genealogy",
+        "king",
+        "empire",
+    ],
+    "Oral Tradition And Folklore": [
+        "oral tradition",
+        "folklore",
+        "storytelling",
+        "ancestor",
+        "clan",
+        "memory",
+    ],
+    "Commentary And Interpretation": [
+        "commentary",
+        "interpretation",
+        "exegesis",
+        "midrash",
+        "tafsir",
+        "scholia",
+    ],
+}
+
+
+SYNTHESIS_LENSES = {
+    "Surface Vocabulary": [
+        "word",
+        "term",
+        "keyword",
+        "phrase",
+        "vocabulary",
+        "label",
+        "definition",
+    ],
+    "Visual Symbol": [
+        "image",
+        "icon",
+        "painting",
+        "composition",
+        "color",
+        "light",
+        "shadow",
+        "gesture",
+        "symbol",
+        "perspective",
+    ],
+    "Historical Context": [
+        "history",
+        "historical",
+        "era",
+        "empire",
+        "exile",
+        "war",
+        "migration",
+        "reform",
+        "movement",
+        "memory",
+    ],
+    "Language Semantics": [
+        "language",
+        "translation",
+        "semantic",
+        "metaphor",
+        "idiom",
+        "grammar",
+        "syntax",
+        "lemma",
+        "lexicon",
+        "meaning",
+    ],
+    "Original-Language Witness": [
+        "greek",
+        "hebrew",
+        "aramaic",
+        "septuagint",
+        "masoretic",
+        "logos",
+        "agape",
+        "hesed",
+        "shalom",
+        "ruach",
+        "pneuma",
+    ],
+    "Psychological Process": [
+        "psychology",
+        "perception",
+        "attention",
+        "memory",
+        "emotion",
+        "attachment",
+        "trauma",
+        "habit",
+        "motivation",
+        "identity",
+    ],
+    "Embodied Practice": [
+        "practice",
+        "ritual",
+        "habit",
+        "body",
+        "community",
+        "relationship",
+        "discipline",
+        "care",
+        "service",
+    ],
+    "Ethical Consequence": [
+        "justice",
+        "mercy",
+        "responsibility",
+        "power",
+        "harm",
+        "repair",
+        "neighbor",
+        "accountability",
+        "dignity",
+    ],
+    "Theological Resonance": [
+        "god",
+        "trinity",
+        "father",
+        "son",
+        "holy spirit",
+        "christ",
+        "logos",
+        "creation",
+        "redemption",
+        "spirit",
+    ],
+    "Counter-Reading": [
+        "counterargument",
+        "objection",
+        "alternative",
+        "critique",
+        "limitation",
+        "does not fit",
+        "risk",
+        "overclaim",
+    ],
 }
 
 
@@ -1250,6 +1748,22 @@ SOURCE_QUALITY_MARKERS = {
         "practice",
         "daily life",
         "community",
+    ],
+    "Reviewed Cloud Reference": [
+        "reviewed cloud reference",
+        "human reviewed",
+        "source reviewed",
+        "confirmed source",
+        "vetted reference",
+    ],
+    "Unreviewed Cloud Reference": [
+        "generated by internet_source_collector.py",
+        "candidate reference",
+        "candidate references",
+        "search result",
+        "cloud reference",
+        "daily cloud",
+        "unreviewed",
     ],
     "Speculative Source": [
         "maybe",
@@ -1644,6 +2158,18 @@ def find_theologian_documents(folder):
     )
 
 
+def find_synthesis_documents(folder):
+    """Find documents for cross-layer synthesis lanes."""
+    if not folder.exists():
+        folder.mkdir(parents=True)
+
+    return sorted(
+        path
+        for path in folder.rglob("*")
+        if path.is_file() and path.suffix.lower() in SUPPORTED_EXTENSIONS
+    )
+
+
 def read_document(path):
     """Read a research document."""
     return path.read_text(encoding="utf-8-sig", errors="replace")
@@ -1856,6 +2382,39 @@ def count_cultural_domains(text):
     return counts
 
 
+def count_synthesis_lenses(text):
+    """Count interpretive lenses that support deeper-than-word synthesis."""
+    counts = {}
+    lowercase_text = text.lower()
+
+    for lens, terms in SYNTHESIS_LENSES.items():
+        counts[lens] = sum(count_term_lower(lowercase_text, term) for term in terms)
+
+    return counts
+
+
+def count_language_families(text):
+    """Count language-family signals for global coverage tracking."""
+    counts = {}
+    lowercase_text = text.lower()
+
+    for family, terms in LANGUAGE_FAMILY_MARKERS.items():
+        counts[family] = sum(count_term_lower(lowercase_text, term) for term in terms)
+
+    return counts
+
+
+def count_text_traditions(text):
+    """Count broad text-tradition signals across world literature."""
+    counts = {}
+    lowercase_text = text.lower()
+
+    for tradition, terms in TEXT_TRADITION_MARKERS.items():
+        counts[tradition] = sum(count_term_lower(lowercase_text, term) for term in terms)
+
+    return counts
+
+
 def count_pressure_types(text):
     """Count pressure-test categories that challenge a proposed pattern."""
     counts = {}
@@ -2050,6 +2609,76 @@ def create_practical_domain_plan(domain_counts):
         return ["No cultural-domain application yet. Add clearer art, politics, science, or daily-life context."]
 
     return [PRACTICAL_DOMAIN_USES[domain] for domain in detected]
+
+
+def score_synthesis_depth(lens_counts, meaning_context_counts, layer_counts, meaning_arc):
+    """Score whether an analysis is doing synthesis rather than only word matching."""
+    active_lenses = [lens for lens, count in lens_counts.items() if count > 0]
+    active_meaning = [context for context, count in meaning_context_counts.items() if count > 0]
+    active_layers = [layer for layer, count in layer_counts.items() if count > 0]
+    arc_contexts = {
+        item["context"]
+        for item in meaning_arc
+        if item["context"] != "None" and item["count"] > 0
+    }
+
+    if (
+        len(active_lenses) >= 5
+        and len(active_meaning) >= 4
+        and len(active_layers) >= 4
+        and len(arc_contexts) >= 2
+    ):
+        return "cross-layer synthesis"
+    if len(active_lenses) >= 4 and len(active_meaning) >= 3 and len(active_layers) >= 3:
+        return "multi-lens understanding"
+    if len(active_lenses) >= 3 and len(active_meaning) >= 2:
+        return "contextual interpretation"
+    if len(active_lenses) >= 2:
+        return "early synthesis signal"
+    if active_lenses:
+        return "lens detected but still word-heavy"
+    return "surface signal only"
+
+
+def create_synthesis_questions(lens_counts, domain_counts, layer_counts):
+    """Create follow-up questions that force deeper comparison across layers."""
+    questions = []
+
+    if lens_counts.get("Visual Symbol", 0) >= 2:
+        questions.append("What does the visual form communicate before any explanation is added?")
+    if lens_counts.get("Historical Context", 0) >= 3:
+        questions.append("How does the pattern change when placed in its historical conflict, memory, and consequence?")
+    if lens_counts.get("Language Semantics", 0) >= 4 or lens_counts.get("Original-Language Witness", 0) >= 2:
+        questions.append("What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?")
+    if lens_counts.get("Psychological Process", 0) >= 3:
+        questions.append("What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?")
+    if layer_counts.get("Moral Response", 0) >= 3:
+        questions.append("What responsibility, justice, mercy, or repair does this pattern call for?")
+    if domain_counts.get("Biblical Greek And Hebrew", 0) >= 2:
+        questions.append("Does the original-language evidence support the theological claim, or only suggest a possible reading?")
+    if domain_counts.get("Psychology And Human Behavior", 0) >= 3:
+        questions.append("Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?")
+
+    if not questions:
+        questions.append("What context beyond repeated words would make this interpretation stronger or weaker?")
+
+    return questions
+
+
+def score_global_coverage(language_family_counts, text_tradition_counts):
+    """Score global text coverage without pretending the corpus is complete."""
+    family_breadth = sum(1 for count in language_family_counts.values() if count > 0)
+    tradition_breadth = sum(1 for count in text_tradition_counts.values() if count > 0)
+
+    if family_breadth >= 10 and tradition_breadth >= 8:
+        return "broad global coverage map"
+    if family_breadth >= 6 and tradition_breadth >= 5:
+        return "developing global coverage map"
+    if family_breadth >= 3 and tradition_breadth >= 3:
+        return "early global coverage map"
+    if family_breadth or tradition_breadth:
+        return "starter global coverage map"
+    return "no global-language coverage yet"
 
 
 def score_test_confidence(analysis):
@@ -2435,6 +3064,7 @@ def analyze_document(path):
     words = [word for word in tokenize(text) if word not in STOP_WORDS]
     meaning_context_counts = count_meaning_contexts(text)
     meaning_arc = detect_meaning_arc(sentences)
+    source_quality_counts = count_source_quality_markers(text)
 
     return {
         "file_name": path.name,
@@ -2451,6 +3081,7 @@ def analyze_document(path):
         "evidence": find_evidence_sentences(sentences),
         "layer_evidence": find_layer_evidence(sentences),
         "cross_theme_patterns": find_cross_theme_patterns(sentences),
+        "source_quality_counts": source_quality_counts,
         "meaning_context_counts": meaning_context_counts,
         "meaning_context_evidence": find_meaning_context_evidence(sentences),
         "meaning_arc": meaning_arc,
@@ -2636,6 +3267,60 @@ def analyze_cultural_document(path):
             meaning_context_counts,
         ),
         "practical_domain_plan": create_practical_domain_plan(domain_counts),
+    }
+
+
+def analyze_synthesis_document(path, source_lane):
+    """Analyze a cross-layer source such as art, history, language, or psychology."""
+    text = read_document(path)
+    sentences = split_sentences(text)
+    words = [word for word in tokenize(text) if word not in STOP_WORDS]
+    domain_counts = count_cultural_domains(text)
+    lens_counts = count_synthesis_lenses(text)
+    language_family_counts = count_language_families(text)
+    text_tradition_counts = count_text_traditions(text)
+    meaning_context_counts = count_meaning_contexts(text)
+    meaning_arc = detect_meaning_arc(sentences)
+    inferred_layer_counts = infer_layers_from_cultural_domains(domain_counts)
+    direct_layer_counts = Counter(count_layer_matches(text))
+    combined_layer_counts = Counter(direct_layer_counts)
+    combined_layer_counts.update(inferred_layer_counts)
+
+    return {
+        "file_name": path.name,
+        "source_lane": source_lane,
+        "characters": len(text),
+        "sentences": len(sentences),
+        "words": len(words),
+        "cultural_domain_counts": domain_counts,
+        "synthesis_lens_counts": lens_counts,
+        "language_family_counts": language_family_counts,
+        "text_tradition_counts": text_tradition_counts,
+        "global_coverage": score_global_coverage(
+            language_family_counts,
+            text_tradition_counts,
+        ),
+        "meaning_context_counts": meaning_context_counts,
+        "layer_counts": dict(combined_layer_counts),
+        "direct_layer_counts": dict(direct_layer_counts),
+        "inferred_layer_counts": dict(inferred_layer_counts),
+        "meaning_context_evidence": find_meaning_context_evidence(sentences),
+        "meaning_arc": meaning_arc,
+        "meaning_confidence": score_meaning_confidence(
+            meaning_context_counts,
+            meaning_arc,
+        ),
+        "synthesis_depth": score_synthesis_depth(
+            lens_counts,
+            meaning_context_counts,
+            combined_layer_counts,
+            meaning_arc,
+        ),
+        "synthesis_questions": create_synthesis_questions(
+            lens_counts,
+            domain_counts,
+            combined_layer_counts,
+        ),
     }
 
 
@@ -2832,7 +3517,7 @@ def combine_layer_counts(analyses):
     combined = Counter()
 
     for analysis in analyses:
-        combined.update(analysis["layer_counts"])
+        combined.update(analysis.get("layer_counts", {}))
 
     return combined
 
@@ -2843,6 +3528,16 @@ def combine_meaning_context_counts(analyses):
 
     for analysis in analyses:
         combined.update(analysis.get("meaning_context_counts", {}))
+
+    return combined
+
+
+def combine_source_quality_counts(analyses):
+    """Combine source-quality markers across analyses."""
+    combined = Counter()
+
+    for analysis in analyses:
+        combined.update(analysis.get("source_quality_counts", {}))
 
     return combined
 
@@ -2873,6 +3568,36 @@ def combine_cultural_domain_counts(analyses):
 
     for analysis in analyses:
         combined.update(analysis.get("cultural_domain_counts", {}))
+
+    return combined
+
+
+def combine_synthesis_lens_counts(analyses):
+    """Combine cross-layer synthesis lens counts across analyses."""
+    combined = Counter()
+
+    for analysis in analyses:
+        combined.update(analysis.get("synthesis_lens_counts", {}))
+
+    return combined
+
+
+def combine_language_family_counts(analyses):
+    """Combine language-family coverage signals across analyses."""
+    combined = Counter()
+
+    for analysis in analyses:
+        combined.update(analysis.get("language_family_counts", {}))
+
+    return combined
+
+
+def combine_text_tradition_counts(analyses):
+    """Combine text-tradition coverage signals across analyses."""
+    combined = Counter()
+
+    for analysis in analyses:
+        combined.update(analysis.get("text_tradition_counts", {}))
 
     return combined
 
@@ -3285,6 +4010,7 @@ def create_report(analyses):
     layer_counts = combine_layer_counts(analyses)
     layer_evidence = combine_layer_evidence(analyses)
     meaning_context_counts = combine_meaning_context_counts(analyses)
+    source_quality_counts = combine_source_quality_counts(analyses)
     repeated_terms = combine_terms(analyses)
     cross_theme_patterns = [
         pattern
@@ -3359,6 +4085,20 @@ def create_report(analyses):
     for context, count in meaning_context_counts.most_common():
         if count > 0:
             lines.append(f"- {context}: {count:,}")
+
+    lines.extend(["", "Source Review Guardrails", "------------------------"])
+    reviewed_cloud = source_quality_counts.get("Reviewed Cloud Reference", 0)
+    unreviewed_cloud = source_quality_counts.get("Unreviewed Cloud Reference", 0)
+    if source_quality_counts:
+        for marker, count in source_quality_counts.most_common():
+            if count > 0:
+                lines.append(f"- {marker}: {count:,}")
+    if unreviewed_cloud > reviewed_cloud:
+        lines.append(
+            "- Cloud references are candidate leads until reviewed against the original source, author qualifications, publication context, and counterarguments."
+        )
+    else:
+        lines.append("- No unreviewed cloud-reference imbalance detected.")
 
     lines.extend(
         [
@@ -3926,6 +4666,201 @@ def create_cultural_patterns_report(research_analyses, cultural_analyses):
     return "\n".join(lines)
 
 
+def create_cross_layer_reasoning_report(
+    research_analyses,
+    music_analyses,
+    note_analyses,
+    cultural_analyses,
+    test_analyses,
+    deep_source_analyses,
+    theologian_analyses,
+    synthesis_analyses,
+):
+    """Create a synthesis report that reasons across domains and interpretive lenses."""
+    all_analyses = (
+        research_analyses
+        + music_analyses
+        + note_analyses
+        + cultural_analyses
+        + test_analyses
+        + deep_source_analyses
+        + theologian_analyses
+        + synthesis_analyses
+    )
+    all_layer_counts = combine_layer_counts(all_analyses)
+    all_meaning_counts = combine_meaning_context_counts(all_analyses)
+    synthesis_lens_counts = combine_synthesis_lens_counts(synthesis_analyses)
+    synthesis_domain_counts = combine_cultural_domain_counts(synthesis_analyses)
+    language_family_counts = combine_language_family_counts(synthesis_analyses)
+    text_tradition_counts = combine_text_tradition_counts(synthesis_analyses)
+    global_coverage_status = score_global_coverage(
+        language_family_counts,
+        text_tradition_counts,
+    )
+    depth_counts = Counter(
+        analysis.get("synthesis_depth", "not scored") for analysis in synthesis_analyses
+    )
+    lane_groups = defaultdict(list)
+
+    for analysis in synthesis_analyses:
+        lane_groups[analysis["source_lane"]].append(analysis)
+
+    layer_breadth = sum(1 for count in all_layer_counts.values() if count > 0)
+    meaning_breadth = sum(1 for count in all_meaning_counts.values() if count > 0)
+    lens_breadth = sum(1 for count in synthesis_lens_counts.values() if count > 0)
+
+    if layer_breadth >= 7 and meaning_breadth >= 5 and lens_breadth >= 5:
+        synthesis_status = "broad cross-layer synthesis"
+    elif layer_breadth >= 5 and meaning_breadth >= 4 and lens_breadth >= 3:
+        synthesis_status = "developing multi-domain understanding"
+    elif layer_breadth >= 3 and meaning_breadth >= 2:
+        synthesis_status = "early cross-domain pattern"
+    else:
+        synthesis_status = "needs more non-religious and context-rich sources"
+
+    lines = [
+        "Cross-Layer Reasoning Report",
+        "============================",
+        "",
+        "Purpose",
+        "-------",
+        "This report is the deeper synthesis layer. It asks whether the app is seeing context, movement, symbol, language, history, psychology, ethics, and theology together, instead of only matching religious words.",
+        "It can use religious and non-religious texts, visual-art notes, historical material, world-language observations, biblical Greek/Hebrew notes, psychology, and other human-behavior sources.",
+        "Guardrail: synthesis is a disciplined interpretation, not proof. A pattern gets stronger when multiple lenses converge and when counter-readings are preserved.",
+        TRINITARIAN_GUARDRAIL,
+        "",
+        "Current Synthesis Status",
+        "------------------------",
+        f"Status: {synthesis_status}",
+        f"Total documents across all lanes: {len(all_analyses):,}",
+        f"Dedicated synthesis documents: {len(synthesis_analyses):,}",
+        f"Active divine-pattern layers: {layer_breadth:,} of {len(DIVINE_PATTERN_LAYERS):,}",
+        f"Active meaning contexts: {meaning_breadth:,} of {len(MEANING_CONTEXTS):,}",
+        f"Active synthesis lenses: {lens_breadth:,} of {len(SYNTHESIS_LENSES):,}",
+        f"Global language/text coverage: {global_coverage_status}",
+        "Coverage note: these are coverage-map signals. A language family or tradition is not treated as deeply studied until actual source notes, translation notes, and counter-readings are added.",
+        "",
+        "Interpretive Lenses",
+        "-------------------",
+    ]
+
+    if synthesis_lens_counts:
+        for lens, count in synthesis_lens_counts.most_common():
+            if count > 0:
+                lines.append(f"- {lens}: {count:,}")
+    else:
+        lines.append("- No dedicated synthesis-lens sources found yet.")
+
+    lines.extend(["", "Dedicated Synthesis Domains", "---------------------------"])
+    if synthesis_domain_counts:
+        for domain, count in synthesis_domain_counts.most_common():
+            if count > 0:
+                lines.append(f"- {domain}: {count:,}")
+    else:
+        lines.append("- Add files to visual_art, history_inputs, world_languages, biblical_languages, or psychology_inputs.")
+
+    lines.extend(["", "Language Family Coverage", "------------------------"])
+    if language_family_counts:
+        for family in LANGUAGE_FAMILY_MARKERS:
+            count = language_family_counts.get(family, 0)
+            marker = "mapped" if count > 0 else "missing"
+            lines.append(f"- {family}: {marker} ({count:,})")
+    else:
+        lines.append("- No language-family signals found yet.")
+
+    lines.extend(["", "Text Tradition Coverage", "-----------------------"])
+    if text_tradition_counts:
+        for tradition in TEXT_TRADITION_MARKERS:
+            count = text_tradition_counts.get(tradition, 0)
+            marker = "mapped" if count > 0 else "missing"
+            lines.append(f"- {tradition}: {marker} ({count:,})")
+    else:
+        lines.append("- No text-tradition signals found yet.")
+
+    lines.extend(["", "Layer Convergence Across All Sources", "------------------------------------"])
+    for layer in DIVINE_PATTERN_LAYERS:
+        count = all_layer_counts.get(layer, 0)
+        lines.append(f"- {layer}: {count:,} ({score_layer(count)})")
+
+    lines.extend(["", "Meaning Movement Across All Sources", "-----------------------------------"])
+    for context in MEANING_STAGE_ORDER:
+        lines.append(f"- {context}: {all_meaning_counts.get(context, 0):,}")
+
+    lines.extend(["", "Synthesis Depth Results", "-----------------------"])
+    if depth_counts:
+        for label, count in depth_counts.most_common():
+            lines.append(f"- {label}: {count:,}")
+    else:
+        lines.append("- No dedicated synthesis files scored yet.")
+
+    lines.extend(["", "Reasoning Rules", "---------------"])
+    lines.extend(
+        [
+            "1. Start with the surface words, but do not stop there.",
+            "2. Ask what the form is doing: image, story, rhythm, history, grammar, body, habit, power, or relationship.",
+            "3. Compare religious and non-religious sources without forcing them into the same answer.",
+            "4. Use psychology to reveal human process, while keeping theology, ethics, and lived practice distinct.",
+            "5. Use Greek and Hebrew to check semantic range and syntax before making a doctrinal claim from a translated word.",
+            "6. Treat counter-readings as part of the synthesis, not as noise to remove.",
+        ]
+    )
+
+    lines.extend(["", "Per-Lane Synthesis", "------------------"])
+    if not synthesis_analyses:
+        lines.append("- No dedicated synthesis files found yet.")
+
+    for lane in SYNTHESIS_SOURCE_DIRS:
+        lane_analyses = lane_groups.get(lane, [])
+        lane_layers = combine_layer_counts(lane_analyses)
+        lane_lenses = combine_synthesis_lens_counts(lane_analyses)
+        lane_meaning = combine_meaning_context_counts(lane_analyses)
+
+        lines.extend(["", lane, "-" * len(lane)])
+        lines.append(f"Files: {len(lane_analyses):,}")
+        strongest_lens = lane_lenses.most_common(1)[0] if lane_lenses else ("None", 0)
+        strongest_layer = lane_layers.most_common(1)[0] if lane_layers else ("None", 0)
+        strongest_meaning = lane_meaning.most_common(1)[0] if lane_meaning else ("None", 0)
+        lines.append(f"Strongest lens: {strongest_lens[0]} ({strongest_lens[1]:,})")
+        lines.append(f"Strongest layer: {strongest_layer[0]} ({strongest_layer[1]:,})")
+        lines.append(f"Strongest meaning context: {strongest_meaning[0]} ({strongest_meaning[1]:,})")
+
+        for analysis in lane_analyses:
+            lines.extend(
+                [
+                    "",
+                    analysis["file_name"],
+                    "~" * len(analysis["file_name"]),
+                    f"Words: {analysis['words']:,}",
+                    f"Meaning confidence: {analysis['meaning_confidence']}",
+                    f"Synthesis depth: {analysis['synthesis_depth']}",
+                    f"Global coverage: {analysis['global_coverage']}",
+                    "Synthesis questions:",
+                ]
+            )
+            for question in analysis["synthesis_questions"][:4]:
+                lines.append(f"- {question}")
+
+    lines.extend(
+        [
+            "",
+            "Working Synthesis",
+            "-----------------",
+            "The app should interpret patterns as layered movement: form and context shape perception; perception becomes meaning; meaning exposes tension, beauty, desire, or harm; moral discernment asks what response is required; embodied practice tests whether transformation is real.",
+            "",
+            "Recommended Next Inputs",
+            "-----------------------",
+            "1. Add visual-art notes that describe actual composition, color, gesture, and symbol.",
+            "2. Add history notes that include era, conflict, power, memory, and consequences.",
+            "3. Add world-language and translation notes across many language families, scripts, oral traditions, and cultures.",
+            "4. Add biblical Greek/Hebrew notes with lemma, syntax, translation range, and theological caution.",
+            "5. Add sacred scripture, wisdom, epic, myth, philosophy, law, poetry, ritual, chronicle, oral tradition, and commentary sources to all_texts.",
+            "6. Add psychology or human-behavior notes about perception, attachment, trauma, habit, desire, identity, and repair.",
+        ]
+    )
+
+    return "\n".join(lines)
+
+
 def create_pattern_test_report(research_analyses, test_analyses):
     """Create a pressure-test report for the proposed divine pattern."""
     pressure_counts = Counter()
@@ -4278,11 +5213,19 @@ def create_divine_pattern_summary_report(
     test_analyses,
     deep_source_analyses,
     theologian_analyses,
+    synthesis_analyses,
 ):
     """Create a concise summary of the current divine pattern found."""
     research_layer_counts = combine_layer_counts(research_analyses)
     music_meaning_counts = combine_meaning_context_counts(music_analyses)
     cultural_meaning_counts = combine_meaning_context_counts(cultural_analyses)
+    synthesis_lens_counts = combine_synthesis_lens_counts(synthesis_analyses)
+    language_family_counts = combine_language_family_counts(synthesis_analyses)
+    text_tradition_counts = combine_text_tradition_counts(synthesis_analyses)
+    source_quality_counts = combine_source_quality_counts(research_analyses)
+    synthesis_depth_counts = Counter(
+        analysis.get("synthesis_depth", "not scored") for analysis in synthesis_analyses
+    )
     trinity_counts = combine_trinity_counts(research_analyses)
     theologian_concepts = combine_theological_concept_counts(theologian_analyses)
 
@@ -4357,6 +5300,44 @@ def create_divine_pattern_summary_report(
     else:
         lines.append("- No cultural meaning contexts analyzed yet.")
 
+    lines.extend(["", "Cross-layer synthesis support:"])
+    if synthesis_lens_counts:
+        for lens, count in synthesis_lens_counts.most_common(6):
+            if count > 0:
+                lines.append(f"- {lens}: {count:,}")
+        for label, count in synthesis_depth_counts.most_common():
+            lines.append(f"- Depth: {label}: {count:,}")
+    else:
+        lines.append("- No dedicated visual art, history, language, biblical-language, or psychology synthesis files analyzed yet.")
+
+    lines.extend(["", "Global language/text coverage:"])
+    lines.append(f"- {score_global_coverage(language_family_counts, text_tradition_counts)}")
+    if language_family_counts:
+        present_families = [
+            family
+            for family in LANGUAGE_FAMILY_MARKERS
+            if language_family_counts.get(family, 0) > 0
+        ]
+        lines.append(f"- Language families mapped: {len(present_families):,} of {len(LANGUAGE_FAMILY_MARKERS):,}")
+    if text_tradition_counts:
+        present_traditions = [
+            tradition
+            for tradition in TEXT_TRADITION_MARKERS
+            if text_tradition_counts.get(tradition, 0) > 0
+        ]
+        lines.append(f"- Text traditions mapped: {len(present_traditions):,} of {len(TEXT_TRADITION_MARKERS):,}")
+        lines.append("- Treat mapped coverage as a research agenda until actual texts and counter-readings are added.")
+
+    lines.extend(["", "Cloud reference review:"])
+    reviewed_cloud = source_quality_counts.get("Reviewed Cloud Reference", 0)
+    unreviewed_cloud = source_quality_counts.get("Unreviewed Cloud Reference", 0)
+    lines.append(f"- Reviewed cloud-reference markers: {reviewed_cloud:,}")
+    lines.append(f"- Unreviewed cloud-reference markers: {unreviewed_cloud:,}")
+    if unreviewed_cloud > reviewed_cloud:
+        lines.append("- Treat cloud references as leads until checked against original sources, author expertise, date, publication venue, and counterarguments.")
+    else:
+        lines.append("- Cloud-reference review markers are balanced enough for cautious use.")
+
     lines.extend(["", "Theologian pattern-design support:"])
     if theologian_concepts:
         for concept, count in theologian_concepts.most_common(6):
@@ -4397,10 +5378,12 @@ def create_divine_pattern_summary_report(
             "Next Actions",
             "------------",
             "1. Add more actual theologian source material across eras.",
-            "2. Add harder unresolved-suffering case studies.",
-            "3. Add qualified quantum/science references and counterarguments.",
-            "4. Review daily cloud references before treating them as strong evidence.",
-            "5. Keep refining the pattern only where it survives pressure.",
+            "2. Add visual art, history, world-language, biblical Greek/Hebrew, all-texts, and psychology notes for cross-layer synthesis.",
+            "3. Expand language-family and text-tradition coverage before calling a pattern universal.",
+            "4. Add harder unresolved-suffering case studies.",
+            "5. Add qualified quantum/science references and counterarguments.",
+            "6. Review daily cloud references before treating them as strong evidence.",
+            "7. Keep refining the pattern only where it survives pressure.",
         ]
     )
 
@@ -4422,6 +5405,10 @@ def main():
     pattern_test_documents = find_pattern_test_documents(PATTERN_TESTS_DIR)
     deep_source_documents = find_deep_source_documents(DEEP_SOURCE_DIR)
     theologian_documents = find_theologian_documents(THEOLOGIANS_DIR)
+    synthesis_documents_by_lane = {
+        lane: find_synthesis_documents(folder)
+        for lane, folder in SYNTHESIS_SOURCE_DIRS.items()
+    }
 
     if not documents:
         print("No research documents found.")
@@ -4468,6 +5455,12 @@ def main():
         print(f"Analyzing theologian file: {document.name}")
         theologian_analyses.append(analyze_theologian_document(document))
 
+    synthesis_analyses = []
+    for lane, lane_documents in synthesis_documents_by_lane.items():
+        for document in lane_documents:
+            print(f"Analyzing {lane} synthesis file: {document.name}")
+            synthesis_analyses.append(analyze_synthesis_document(document, lane))
+
     report = create_report(analyses)
     candidates_report = create_pattern_candidates_report(analyses)
     discovered_patterns_report = create_discovered_patterns_report(analyses, pattern_seeds)
@@ -4479,6 +5472,16 @@ def main():
     cultural_patterns_report = create_cultural_patterns_report(
         analyses,
         cultural_analyses,
+    )
+    cross_layer_reasoning_report = create_cross_layer_reasoning_report(
+        analyses,
+        music_analyses,
+        music_note_analyses,
+        cultural_analyses,
+        pattern_test_analyses,
+        deep_source_analyses,
+        theologian_analyses,
+        synthesis_analyses,
     )
     pattern_test_report = create_pattern_test_report(
         analyses,
@@ -4497,6 +5500,7 @@ def main():
         pattern_test_analyses,
         deep_source_analyses,
         theologian_analyses,
+        synthesis_analyses,
     )
     save_text(REPORT_PATH, report)
     save_text(PATTERN_CANDIDATES_PATH, candidates_report)
@@ -4504,6 +5508,7 @@ def main():
     save_text(MUSIC_PATTERNS_PATH, music_patterns_report)
     save_text(MUSIC_NOTE_PATTERNS_PATH, music_note_patterns_report)
     save_text(CULTURAL_PATTERNS_PATH, cultural_patterns_report)
+    save_text(CROSS_LAYER_REASONING_PATH, cross_layer_reasoning_report)
     save_text(PATTERN_TEST_REPORT_PATH, pattern_test_report)
     save_text(DEEP_SOURCE_REVIEW_PATH, deep_source_review_report)
     save_text(THEOLOGIAN_REPORT_PATH, theologian_pattern_design_report)
@@ -4516,6 +5521,7 @@ def main():
     print(f"Music lyric patterns saved to: {MUSIC_PATTERNS_PATH}")
     print(f"Music note patterns saved to: {MUSIC_NOTE_PATTERNS_PATH}")
     print(f"Cultural patterns saved to: {CULTURAL_PATTERNS_PATH}")
+    print(f"Cross-layer reasoning saved to: {CROSS_LAYER_REASONING_PATH}")
     print(f"Pattern test report saved to: {PATTERN_TEST_REPORT_PATH}")
     print(f"Deep source review saved to: {DEEP_SOURCE_REVIEW_PATH}")
     print(f"Theologian pattern design saved to: {THEOLOGIAN_REPORT_PATH}")

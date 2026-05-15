@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-11T21:31:34.678198+00:00
+Generated: 2026-05-15T03:33:26.194964+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -9,16 +9,18 @@ Full reports are committed in the repository under `reports/`.
 
 | Report | Read full file |
 | --- | --- |
-| `divine_pattern_summary_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_summary_report.txt) |
-| `cloud_research_findings_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cloud_research_findings_report.txt) |
-| `divine_pattern_research_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_research_report.txt) |
-| `divine_pattern_candidates_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_candidates_report.txt) |
-| `divine_pattern_test_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_test_report.txt) |
-| `deep_source_review_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/deep_source_review_report.txt) |
-| `theologian_pattern_design_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/theologian_pattern_design_report.txt) |
-| `music_note_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_note_patterns_report.txt) |
-| `music_lyric_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_lyric_patterns_report.txt) |
-| `cultural_pattern_relationships_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cultural_pattern_relationships_report.txt) |
+| `divine_pattern_summary_report.txt` | [available](reports/divine_pattern_summary_report.txt) |
+| `cloud_research_findings_report.txt` | [available](reports/cloud_research_findings_report.txt) |
+| `divine_pattern_research_report.txt` | [available](reports/divine_pattern_research_report.txt) |
+| `divine_pattern_candidates_report.txt` | [available](reports/divine_pattern_candidates_report.txt) |
+| `divine_pattern_test_report.txt` | [available](reports/divine_pattern_test_report.txt) |
+| `deep_source_review_report.txt` | [available](reports/deep_source_review_report.txt) |
+| `theologian_pattern_design_report.txt` | [available](reports/theologian_pattern_design_report.txt) |
+| `cross_layer_reasoning_report.txt` | [available](reports/cross_layer_reasoning_report.txt) |
+| `music_note_patterns_report.txt` | [available](reports/music_note_patterns_report.txt) |
+| `music_lyric_patterns_report.txt` | [available](reports/music_lyric_patterns_report.txt) |
+| `cultural_pattern_relationships_report.txt` | [available](reports/cultural_pattern_relationships_report.txt) |
+| `daily_evaluation_queue.md` | [available](research_documents/daily_evaluation_queue.md) |
 
 ## Quick Highlights
 
@@ -46,7 +48,7 @@ Notice -> Name -> Discern -> Practice -> Transform
 
 Why this pattern is currently strongest:
 
-_Full report has 90 lines. Open the linked report above to read everything._
+_Full report has 115 lines. Open the linked report above to read everything._
 ```
 
 ## reports\cloud_research_findings_report.txt
@@ -55,9 +57,9 @@ _Full report has 90 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-11T21:19:23.431745+00:00
-Total references: 219
-New references this run: 1
+Updated: 2026-05-15T03:31:39.309383+00:00
+Total references: 361
+New references this run: 193
 
 Guardrails
 ----------
@@ -68,10 +70,10 @@ Guardrails
 
 Reference Tags
 --------------
-- art_beauty: 20
-- music_math: 40
+- art_beauty: 30
+- biblical_languages: 25
 
-_Full report has 178 lines. Open the linked report above to read everything._
+_Full report has 177 lines. Open the linked report above to read everything._
 ```
 
 ## reports\divine_pattern_research_report.txt
@@ -89,14 +91,14 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 17
-Total analyzed words: 722,518
+Documents analyzed: 19
+Total analyzed words: 728,655
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 653 lines. Open the linked report above to read everything._
+_Full report has 701 lines. Open the linked report above to read everything._
 ```
 
 ## reports\divine_pattern_candidates_report.txt
@@ -142,11 +144,11 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 5
-Test words analyzed: 247
+Test documents analyzed: 8
+Test words analyzed: 533
 
 
-_Full report has 156 lines. Open the linked report above to read everything._
+_Full report has 209 lines. Open the linked report above to read everything._
 ```
 
 ## reports\deep_source_review_report.txt
@@ -169,9 +171,9 @@ Status: source-supported
 Area signal: 16
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
-- Scripture/Theology: present (9)
+- Scripture/Theology: present (10)
 
-_Full report has 82 lines. Open the linked report above to read everything._
+_Full report has 106 lines. Open the linked report above to read everything._
 ```
 
 ## reports\theologian_pattern_design_report.txt
@@ -187,16 +189,41 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 1
-Total theologian words analyzed: 150
+Theologian documents analyzed: 5
+Total theologian words analyzed: 901
 
 Era Coverage
 ------------
-- Patristic: 6
-- Medieval: 5
-- Reformation: 2
+- Patristic: 16
+- Medieval: 11
+- Reformation: 7
 
-_Full report has 73 lines. Open the linked report above to read everything._
+_Full report has 117 lines. Open the linked report above to read everything._
+```
+
+## reports\cross_layer_reasoning_report.txt
+
+```text
+Cross-Layer Reasoning Report
+============================
+
+Purpose
+-------
+This report is the deeper synthesis layer. It asks whether the app is seeing context, movement, symbol, language, history, psychology, ethics, and theology together, instead of only matching religious words.
+It can use religious and non-religious texts, visual-art notes, historical material, world-language observations, biblical Greek/Hebrew notes, psychology, and other human-behavior sources.
+Guardrail: synthesis is a disciplined interpretation, not proof. A pattern gets stronger when multiple lenses converge and when counter-readings are preserved.
+Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
+
+Current Synthesis Status
+------------------------
+Status: broad cross-layer synthesis
+Total documents across all lanes: 68
+Dedicated synthesis documents: 6
+Active divine-pattern layers: 8 of 8
+Active meaning contexts: 6 of 6
+Active synthesis lenses: 10 of 10
+
+_Full report has 238 lines. Open the linked report above to read everything._
 ```
 
 ## reports\music_note_patterns_report.txt
@@ -241,7 +268,7 @@ Overview
 --------
 Lyric documents analyzed: 13
 Total lyric words analyzed: 794
-Religious research documents used for comparison: 17
+Religious research documents used for comparison: 19
 
 Strongest Lyric Motifs
 ---------------------
@@ -271,5 +298,30 @@ Cultural Domains
 - Family And Community: 19
 - Education And Formation: 12
 
-_Full report has 258 lines. Open the linked report above to read everything._
+_Full report has 279 lines. Open the linked report above to read everything._
+```
+
+## research_documents\daily_evaluation_queue.md
+
+```text
+# Daily Evaluation Queue
+
+This file is generated by internet_source_collector.py every time the daily cloud research workflow runs.
+It is an evaluation set of candidate material, not a set of approved conclusions.
+
+Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
+
+## Newest Candidate Material
+
+### “There is Hope for a Tree”: Lament and Hope in Conversation with Polydoxy
+
+- Review status: unreviewed_daily_candidate
+- Evaluation use: candidate lead only until original source review and counterargument check
+- Tags: art_beauty
+- Provider: Crossref
+- Quality: scholarly metadata
+- Year: 2014
+- URL: https://doi.org/10.1111/moth.12124
+
+_Full report has 1,593 lines. Open the linked report above to read everything._
 ```

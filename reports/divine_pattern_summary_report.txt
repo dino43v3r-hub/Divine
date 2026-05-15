@@ -18,17 +18,17 @@ Notice -> Name -> Discern -> Practice -> Transform
 Why this pattern is currently strongest:
 ----------------------------------------
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,188
-- Son: 6,679
-- Holy Spirit: 1,252
+- Father: 3,324
+- Son: 6,676
+- Holy Spirit: 1,257
 
 Strongest research layers:
-- Meaning And Logos: 5,822
-- Life And Consciousness: 5,215
-- Physical Order: 2,436
-- Moral Response: 2,213
-- Transformation: 2,033
-- Worship And Community: 1,013
+- Meaning And Logos: 5,830
+- Life And Consciousness: 5,221
+- Physical Order: 2,468
+- Moral Response: 2,221
+- Transformation: 2,043
+- Worship And Community: 1,029
 
 Music-note science/math support:
 - Mathematical Structure: 129
@@ -51,22 +51,45 @@ Cultural meaning support:
 - Moral Confrontation: 9
 - Transformation And Hope: 6
 
+Cross-layer synthesis support:
+- Language Semantics: 33
+- Psychological Process: 27
+- Historical Context: 20
+- Original-Language Witness: 18
+- Ethical Consequence: 14
+- Visual Symbol: 13
+- Depth: multi-lens understanding: 3
+- Depth: contextual interpretation: 1
+- Depth: early synthesis signal: 1
+- Depth: cross-layer synthesis: 1
+
+Global language/text coverage:
+- broad global coverage map
+- Language families mapped: 16 of 16
+- Text traditions mapped: 10 of 10
+- Treat mapped coverage as a research agenda until actual texts and counter-readings are added.
+
+Cloud reference review:
+- Reviewed cloud-reference markers: 3
+- Unreviewed cloud-reference markers: 130
+- Treat cloud references as leads until checked against original sources, author expertise, date, publication venue, and counterarguments.
+
 Theologian pattern-design support:
-- Trinity: 9
-- Grace And Transformation: 6
-- Pneumatology: 4
-- Theodicy And Suffering: 4
-- Church And Practice: 4
-- Justice And Public Life: 4
+- Christology: 24
+- Theodicy And Suffering: 23
+- Creation: 18
+- Grace And Transformation: 17
+- Trinity: 15
+- Church And Practice: 14
 
 Pressure-test result:
 ---------------------
-- resilient under pressure: 3
+- resilient under pressure: 6
 - needs deeper review but still plausible: 2
 
 Deep-source result:
 -------------------
-- Quantum And Science Claims: source-supported: 1
+- Quantum And Science Claims: source-supported: 3
 - Unresolved Suffering: source-supported: 1
 
 Guardrails
@@ -84,7 +107,9 @@ Use the pattern to ask: What order or gift is present? What tension, suffering, 
 Next Actions
 ------------
 1. Add more actual theologian source material across eras.
-2. Add harder unresolved-suffering case studies.
-3. Add qualified quantum/science references and counterarguments.
-4. Review daily cloud references before treating them as strong evidence.
-5. Keep refining the pattern only where it survives pressure.
+2. Add visual art, history, world-language, biblical Greek/Hebrew, all-texts, and psychology notes for cross-layer synthesis.
+3. Expand language-family and text-tradition coverage before calling a pattern universal.
+4. Add harder unresolved-suffering case studies.
+5. Add qualified quantum/science references and counterarguments.
+6. Review daily cloud references before treating them as strong evidence.
+7. Keep refining the pattern only where it survives pressure.
