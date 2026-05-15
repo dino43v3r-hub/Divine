@@ -1,5 +1,5 @@
 {
-  "source_count": 364,
+  "source_count": 365,
   "sources": [
     {
       "authors": [],
@@ -1355,6 +1355,27 @@
       "title": "Notes",
       "url": "https://doi.org/10.5040/9781472550194.0007",
       "year": null
+    },
+    {
+      "authors": [
+        "W. McLeod"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1017/s0009840x00283935",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1017/s0009840x00283935",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Oral Epic - Albert Bates Lord: Epic Singers and Oral Tradition. (Myth and Poetics.) Pp. xii + 262. Ithaca and London: Cornell University Press, 1991. $36.50 (Paper, $12.95).",
+      "url": "https://doi.org/10.1017/s0009840x00283935",
+      "year": 1992
     },
     {
       "authors": [
@@ -7265,5 +7286,5 @@
       "year": 2014
     }
   ],
-  "updated_at": "2026-05-15T04:44:36.403567+00:00"
+  "updated_at": "2026-05-15T05:18:49.591170+00:00"
 }

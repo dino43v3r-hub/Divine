@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-15T04:44:36.418868+00:00
-Total references: 364
-New references this run: 3
+Updated: 2026-05-15T05:18:49.597126+00:00
+Total references: 365
+New references this run: 1
 
 Guardrails
 ----------
@@ -16,7 +16,7 @@ Reference Tags
 --------------
 - art_beauty: 31
 - biblical_languages: 25
-- global_text_traditions: 28
+- global_text_traditions: 29
 - history_memory: 29
 - music_math: 40
 - politics_justice: 20
@@ -30,29 +30,19 @@ Reference Tags
 
 Quality Counts
 --------------
-- scholarly metadata: 339
+- scholarly metadata: 340
 - scholarly preprint: 25
 
 New This Run By Tag
 -------------------
-- art_beauty: 1
-- trinity: 1
-- world_languages_translation: 1
+- global_text_traditions: 1
 
 Newest Additions This Run
 ------------------------
-- The Relation between creation and redemption according to modern studies of Pauline Theology (1971)
-  Tags: trinity
+- Oral Epic - Albert Bates Lord: Epic Singers and Oral Tradition. (Myth and Poetics.) Pp. xii + 262. Ithaca and London: Cornell University Press, 1991. $36.50 (Paper, $12.95). (1992)
+  Tags: global_text_traditions
   Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1163/9789004266032_003
-- On Beauty: Aesthetic Choices, Adornment, and Art (2022)
-  Tags: art_beauty
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.5040/9781350104280.0014
-- God's Invisible Traces: The Sacred in Fallen Language, Translation and Literariness (2009)
-  Tags: world_languages_translation
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1093/litthe/frp043
+  URL: https://doi.org/10.1017/s0009840x00283935
 
 Recent Candidate Sources
 ------------------------
@@ -196,3 +186,8 @@ Recent Candidate Sources
   Authors: Ernst-August Gutt
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4324/9781315760018
+
+Collector Errors
+----------------
+- search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Unknown Error
+- search_arxiv failed for music_math: HTTP Error 429: Unknown Error

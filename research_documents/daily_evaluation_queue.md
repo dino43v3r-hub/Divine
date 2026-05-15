@@ -7,38 +7,14 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### The Relation between creation and redemption according to modern studies of Pauline Theology
+### Oral Epic - Albert Bates Lord: Epic Singers and Oral Tradition. (Myth and Poetics.) Pp. xii + 262. Ithaca and London: Cornell University Press, 1991. $36.50 (Paper, $12.95).
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: trinity
+- Tags: global_text_traditions
 - Provider: Crossref
 - Quality: scholarly metadata
-- Year: 1971
-- URL: https://doi.org/10.1163/9789004266032_003
-
-No summary available in metadata.
-
-### On Beauty: Aesthetic Choices, Adornment, and Art
-
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: art_beauty
-- Provider: Crossref
-- Quality: scholarly metadata
-- Year: 2022
-- URL: https://doi.org/10.5040/9781350104280.0014
-
-No summary available in metadata.
-
-### God's Invisible Traces: The Sacred in Fallen Language, Translation and Literariness
-
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: world_languages_translation
-- Provider: Crossref
-- Quality: scholarly metadata
-- Year: 2009
-- URL: https://doi.org/10.1093/litthe/frp043
+- Year: 1992
+- URL: https://doi.org/10.1017/s0009840x00283935
 
 No summary available in metadata.

@@ -1,68 +1,31 @@
 {
-  "errors": [],
-  "new_count": 3,
+  "errors": [
+    "search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Unknown Error",
+    "search_arxiv failed for music_math: HTTP Error 429: Unknown Error"
+  ],
+  "new_count": 1,
   "new_sources": [
     {
       "authors": [
-        "John G. Gibbs"
+        "W. McLeod"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "date_accessed": "2026-05-15",
-      "doi": "10.1163/9789004266032_003",
+      "doi": "10.1017/s0009840x00283935",
       "evaluation_use": "candidate lead only until original source review and counterargument check",
-      "id": "10.1163/9789004266032_003",
-      "provider": "Crossref",
-      "quality": "scholarly metadata",
-      "review_status": "unreviewed_daily_candidate",
-      "source_type": "book-chapter",
-      "summary": "",
-      "tags": [
-        "trinity"
-      ],
-      "title": "The Relation between creation and redemption according to modern studies of Pauline Theology",
-      "url": "https://doi.org/10.1163/9789004266032_003",
-      "year": 1971
-    },
-    {
-      "authors": [],
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-15",
-      "doi": "10.5040/9781350104280.0014",
-      "evaluation_use": "candidate lead only until original source review and counterargument check",
-      "id": "10.5040/9781350104280.0014",
-      "provider": "Crossref",
-      "quality": "scholarly metadata",
-      "review_status": "unreviewed_daily_candidate",
-      "source_type": "other",
-      "summary": "",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "On Beauty: Aesthetic Choices, Adornment, and Art",
-      "url": "https://doi.org/10.5040/9781350104280.0014",
-      "year": 2022
-    },
-    {
-      "authors": [
-        "E. M. Loevlie"
-      ],
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-15",
-      "doi": "10.1093/litthe/frp043",
-      "evaluation_use": "candidate lead only until original source review and counterargument check",
-      "id": "10.1093/litthe/frp043",
+      "id": "10.1017/s0009840x00283935",
       "provider": "Crossref",
       "quality": "scholarly metadata",
       "review_status": "unreviewed_daily_candidate",
       "source_type": "journal-article",
       "summary": "",
       "tags": [
-        "world_languages_translation"
+        "global_text_traditions"
       ],
-      "title": "God's Invisible Traces: The Sacred in Fallen Language, Translation and Literariness",
-      "url": "https://doi.org/10.1093/litthe/frp043",
-      "year": 2009
+      "title": "Oral Epic - Albert Bates Lord: Epic Singers and Oral Tradition. (Myth and Poetics.) Pp. xii + 262. Ithaca and London: Cornell University Press, 1991. $36.50 (Paper, $12.95).",
+      "url": "https://doi.org/10.1017/s0009840x00283935",
+      "year": 1992
     }
   ],
-  "updated_at": "2026-05-15T04:44:36.403567+00:00"
+  "updated_at": "2026-05-15T05:18:49.591170+00:00"
 }

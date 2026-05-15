@@ -19,7 +19,7 @@ Being-To-Transformation Pattern
 -------------------------------
 Sequence: Being -> Order -> Life -> Consciousness -> Meaning -> Moral Response -> Worship -> Transformation
 Layer path: Physical Order, Life And Consciousness, Meaning And Logos, Moral Response, Worship And Community, Transformation
-Layer support: 18,730
+Layer support: 18,728
 Interpretation: This seed sequence suggests a layered movement from Being toward Transformation.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 
@@ -67,7 +67,7 @@ Moral Response-Through-Worship And Community-To-Transformation
 --------------------------------------------------------------
 Sequence: Moral Response -> Worship And Community -> Transformation
 Layer path: Moral Response, Worship And Community, Transformation
-Layer support: 5,256
+Layer support: 5,255
 Interpretation: This bridge appears where adjacent layers of the divine-pattern model are all represented in the corpus.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 
@@ -75,7 +75,7 @@ Physical Order-Through-Mathematical Structure-To-Quantum Probability
 --------------------------------------------------------------------
 Sequence: Physical Order -> Mathematical Structure -> Quantum Probability
 Layer path: Physical Order, Mathematical Structure, Quantum Probability
-Layer support: 3,054
+Layer support: 3,053
 Interpretation: This bridge appears where adjacent layers of the divine-pattern model are all represented in the corpus.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 
@@ -83,7 +83,7 @@ Father-As-Creation Pattern
 --------------------------
 Sequence: Father -> Creation
 Layer path: Physical Order
-Layer support: 2,437
+Layer support: 2,436
 Interpretation: This mapping suggests interpreting Father through Creation.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 
@@ -91,6 +91,6 @@ Holy Spirit-As-Presence and Transformation Pattern
 --------------------------------------------------
 Sequence: Holy Spirit -> Presence and Transformation
 Layer path: Transformation
-Layer support: 2,032
+Layer support: 2,031
 Interpretation: This mapping suggests interpreting Holy Spirit through Presence and Transformation.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
