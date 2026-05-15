@@ -14,6 +14,7 @@ REFERENCES_DIR = Path("references")
 REPORTS_DIR = Path("reports")
 RESEARCH_DIR = Path("research_documents")
 REFERENCES_PATH = REFERENCES_DIR / "references.json"
+DAILY_DIGEST_PATH = REFERENCES_DIR / "daily_research_digest.json"
 FINDINGS_REPORT_PATH = REPORTS_DIR / "cloud_research_findings_report.txt"
 CLOUD_SUMMARY_PATH = RESEARCH_DIR / "cloud_references_summary.md"
 DAILY_EVALUATION_QUEUE_PATH = RESEARCH_DIR / "daily_evaluation_queue.md"
@@ -299,6 +300,7 @@ def collect_sources():
     existing = read_json(REFERENCES_PATH, {"sources": []})
     sources_by_id = {source_id(source): source for source in existing.get("sources", []) if source_id(source)}
     new_count = 0
+    new_sources = []
     errors = []
 
     for tag, queries in QUERY_SETS.items():
@@ -313,22 +315,33 @@ def collect_sources():
                         source["quality"] = source_quality(source)
                         if add_source(sources_by_id, source):
                             new_count += 1
+                            new_sources.append(source)
                 except Exception as exc:
                     errors.append(f"{collector.__name__} failed for {tag}: {exc}")
 
     sources = sorted(sources_by_id.values(), key=lambda item: (item.get("tags", []), item.get("title", "")))
+    run_at = datetime.now(timezone.utc).isoformat()
     save_json(
         REFERENCES_PATH,
         {
-            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "updated_at": run_at,
             "source_count": len(sources),
             "sources": sources,
         },
     )
-    write_reports(sources, new_count, errors)
+    save_json(
+        DAILY_DIGEST_PATH,
+        {
+            "updated_at": run_at,
+            "new_count": new_count,
+            "new_sources": new_sources,
+            "errors": errors,
+        },
+    )
+    write_reports(sources, new_count, new_sources, errors)
 
 
-def write_reports(sources: list[dict], new_count: int, errors: list[str]):
+def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], errors: list[str]):
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     RESEARCH_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -361,6 +374,29 @@ def write_reports(sources: list[dict], new_count: int, errors: list[str]):
     lines.extend(f"- {tag}: {count:,}" for tag, count in sorted(tag_counts.items()))
     lines.extend(["", "Quality Counts", "--------------"])
     lines.extend(f"- {quality}: {count:,}" for quality, count in sorted(quality_counts.items()))
+
+    new_tag_counts = {}
+    for source in new_sources:
+        for tag in source.get("tags", []):
+            new_tag_counts[tag] = new_tag_counts.get(tag, 0) + 1
+
+    lines.extend(["", "New This Run By Tag", "-------------------"])
+    if new_tag_counts:
+        lines.extend(f"- {tag}: {count:,}" for tag, count in sorted(new_tag_counts.items()))
+    else:
+        lines.append("- No brand-new references found this run; reports still re-evaluate the current candidate set.")
+
+    lines.extend(["", "Newest Additions This Run", "------------------------"])
+    if new_sources:
+        for source in new_sources[:30]:
+            tags = ", ".join(source.get("tags", []))
+            lines.append(f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'})")
+            lines.append(f"  Tags: {tags}")
+            lines.append(f"  Source: {source.get('provider')} | {source.get('quality')}")
+            if source.get("url"):
+                lines.append(f"  URL: {source['url']}")
+    else:
+        lines.append("- No new additions this run.")
 
     lines.extend(["", "Recent Candidate Sources", "------------------------"])
     for source in sources[-30:]:
@@ -418,13 +454,13 @@ def write_reports(sources: list[dict], new_count: int, errors: list[str]):
         "",
     ]
 
-    recent_sources = sorted(
+    queued_sources = new_sources or sorted(
         sources,
         key=lambda source: (source.get("date_accessed", ""), source.get("title", "")),
         reverse=True,
     )[:120]
 
-    for source in recent_sources:
+    for source in queued_sources[:120]:
         summary = source.get("summary") or "No summary available in metadata."
         queue_lines.extend(
             [

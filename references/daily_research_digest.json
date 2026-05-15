@@ -1,0 +1,68 @@
+{
+  "errors": [],
+  "new_count": 3,
+  "new_sources": [
+    {
+      "authors": [
+        "John G. Gibbs"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1163/9789004266032_003",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1163/9789004266032_003",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "trinity"
+      ],
+      "title": "The Relation between creation and redemption according to modern studies of Pauline Theology",
+      "url": "https://doi.org/10.1163/9789004266032_003",
+      "year": 1971
+    },
+    {
+      "authors": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.5040/9781350104280.0014",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.5040/9781350104280.0014",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "other",
+      "summary": "",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "On Beauty: Aesthetic Choices, Adornment, and Art",
+      "url": "https://doi.org/10.5040/9781350104280.0014",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "E. M. Loevlie"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-15",
+      "doi": "10.1093/litthe/frp043",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1093/litthe/frp043",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "world_languages_translation"
+      ],
+      "title": "God's Invisible Traces: The Sacred in Fallen Language, Translation and Literariness",
+      "url": "https://doi.org/10.1093/litthe/frp043",
+      "year": 2009
+    }
+  ],
+  "updated_at": "2026-05-15T04:44:36.403567+00:00"
+}
