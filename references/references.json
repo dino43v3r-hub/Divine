@@ -1,5 +1,5 @@
 {
-  "source_count": 369,
+  "source_count": 372,
   "sources": [
     {
       "authors": [],
@@ -1087,6 +1087,27 @@
       ],
       "title": "The Interplay between Hebrew and Greek in Biblical Lexicology: Language, Text, and Interpretation",
       "url": "https://doi.org/10.1515/9783110312164-009",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Jacobus Kok"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-16",
+      "doi": "https://doi.org/10.4102/ve.v36i3.1441",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.4102/ve.v36i3.1441",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "biblical_languages"
+      ],
+      "title": "The radicality of early Christian oikodome: A theology that edifies insiders and outsiders",
+      "url": "https://doi.org/10.4102/ve.v36i3.1441",
       "year": 2015
     },
     {
@@ -2735,6 +2756,29 @@
       "title": "Imperfect consonance",
       "url": "https://doi.org/10.1093/gmo/9781561592630.article.50025",
       "year": 2001
+    },
+    {
+      "authors": [
+        "Josh H. McDermott",
+        "Andriana J. Lehr",
+        "Andrew J. Oxenham"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-16",
+      "doi": "https://doi.org/10.1016/j.cub.2010.04.019",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1016/j.cub.2010.04.019",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Individual Differences Reveal the Basis of Consonance",
+      "url": "https://doi.org/10.1016/j.cub.2010.04.019",
+      "year": 2010
     },
     {
       "authors": [
@@ -5488,6 +5532,27 @@
     },
     {
       "authors": [
+        "Meijering"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-16",
+      "doi": "10.1163/9789004474895",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1163/9789004474895",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "monograph",
+      "summary": "",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Melanchthon and Patristic Thought: The Doctrines of Christ and Grace, the Trinity and the Creation",
+      "url": "https://doi.org/10.1163/9789004474895",
+      "year": 1983
+    },
+    {
+      "authors": [
         "E. P. Meijering"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
@@ -7368,5 +7433,5 @@
       "year": 2014
     }
   ],
-  "updated_at": "2026-05-15T19:09:23.903526+00:00"
+  "updated_at": "2026-05-16T16:42:36.936894+00:00"
 }

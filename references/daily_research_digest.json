@@ -1,89 +1,79 @@
 {
-  "errors": [],
-  "new_count": 4,
+  "errors": [
+    "search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Unknown Error",
+    "search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Unknown Error",
+    "search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Unknown Error",
+    "search_arxiv failed for music_math: The read operation timed out",
+    "search_arxiv failed for music_math: The read operation timed out",
+    "search_arxiv failed for music_math: HTTP Error 429: Unknown Error"
+  ],
+  "new_count": 3,
   "new_sources": [
     {
       "authors": [
-        "Eilidh Campbell"
+        "Josh H. McDermott",
+        "Andriana J. Lehr",
+        "Andrew J. Oxenham"
       ],
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-15",
-      "doi": "10.1080/1756073x.2019.1707458",
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-16",
+      "doi": "https://doi.org/10.1016/j.cub.2010.04.019",
       "evaluation_use": "candidate lead only until original source review and counterargument check",
-      "id": "10.1080/1756073x.2019.1707458",
-      "provider": "Crossref",
+      "id": "https://doi.org/10.1016/j.cub.2010.04.019",
+      "provider": "OpenAlex",
       "quality": "scholarly metadata",
       "review_status": "unreviewed_daily_candidate",
-      "source_type": "journal-article",
-      "summary": "",
-      "tags": [
-        "unresolved_suffering"
-      ],
-      "title": "Glory in suffering? A reflection on finding meaning in grief through an interrogation into the phenomenology of suffering",
-      "url": "https://doi.org/10.1080/1756073x.2019.1707458",
-      "year": 2020
-    },
-    {
-      "authors": [
-        "Zoran Lu\u010di\u0107"
-      ],
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-15",
-      "doi": "10.18485/mi_sanu_zr.2024.29.21.ch1",
-      "evaluation_use": "candidate lead only until original source review and counterargument check",
-      "id": "10.18485/mi_sanu_zr.2024.29.21.ch1",
-      "provider": "Crossref",
-      "quality": "scholarly metadata",
-      "review_status": "unreviewed_daily_candidate",
-      "source_type": "book-chapter",
+      "source_type": "article",
       "summary": "",
       "tags": [
         "music_math"
       ],
-      "title": "Pythagorean Music Theory",
-      "url": "https://doi.org/10.18485/mi_sanu_zr.2024.29.21.ch1",
-      "year": 2024
+      "title": "Individual Differences Reveal the Basis of Consonance",
+      "url": "https://doi.org/10.1016/j.cub.2010.04.019",
+      "year": 2010
     },
     {
-      "authors": [],
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-15",
-      "doi": "10.1515/9783110312164-fm",
+      "authors": [
+        "Jacobus Kok"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-16",
+      "doi": "https://doi.org/10.4102/ve.v36i3.1441",
       "evaluation_use": "candidate lead only until original source review and counterargument check",
-      "id": "10.1515/9783110312164-fm",
-      "provider": "Crossref",
+      "id": "https://doi.org/10.4102/ve.v36i3.1441",
+      "provider": "OpenAlex",
       "quality": "scholarly metadata",
       "review_status": "unreviewed_daily_candidate",
-      "source_type": "book-chapter",
-      "summary": "",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
       "tags": [
         "biblical_languages"
       ],
-      "title": "Frontmatter",
-      "url": "https://doi.org/10.1515/9783110312164-fm",
+      "title": "The radicality of early Christian oikodome: A theology that edifies insiders and outsiders",
+      "url": "https://doi.org/10.4102/ve.v36i3.1441",
       "year": 2015
     },
     {
       "authors": [
-        "Justin Dennis"
+        "Meijering"
       ],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-15",
-      "doi": "10.1163/15700747-03903006",
+      "date_accessed": "2026-05-16",
+      "doi": "10.1163/9789004474895",
       "evaluation_use": "candidate lead only until original source review and counterargument check",
-      "id": "10.1163/15700747-03903006",
+      "id": "10.1163/9789004474895",
       "provider": "Crossref",
       "quality": "scholarly metadata",
       "review_status": "unreviewed_daily_candidate",
-      "source_type": "journal-article",
+      "source_type": "monograph",
       "summary": "",
       "tags": [
-        "biblical_languages"
+        "theologians_cross_era"
       ],
-      "title": "A Pentecostal Biblical Theology: Turning Points in the Story of Redemption, written by Roger Stronstad",
-      "url": "https://doi.org/10.1163/15700747-03903006",
-      "year": 2017
+      "title": "Melanchthon and Patristic Thought: The Doctrines of Christ and Grace, the Trinity and the Creation",
+      "url": "https://doi.org/10.1163/9789004474895",
+      "year": 1983
     }
   ],
-  "updated_at": "2026-05-15T19:09:23.903526+00:00"
+  "updated_at": "2026-05-16T16:42:36.936894+00:00"
 }

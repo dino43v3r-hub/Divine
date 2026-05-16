@@ -7,50 +7,38 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Glory in suffering? A reflection on finding meaning in grief through an interrogation into the phenomenology of suffering
-
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: unresolved_suffering
-- Provider: Crossref
-- Quality: scholarly metadata
-- Year: 2020
-- URL: https://doi.org/10.1080/1756073x.2019.1707458
-
-No summary available in metadata.
-
-### Pythagorean Music Theory
+### Individual Differences Reveal the Basis of Consonance
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
-- Provider: Crossref
+- Provider: OpenAlex
 - Quality: scholarly metadata
-- Year: 2024
-- URL: https://doi.org/10.18485/mi_sanu_zr.2024.29.21.ch1
+- Year: 2010
+- URL: https://doi.org/10.1016/j.cub.2010.04.019
 
 No summary available in metadata.
 
-### Frontmatter
+### The radicality of early Christian oikodome: A theology that edifies insiders and outsiders
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
-- Provider: Crossref
+- Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2015
-- URL: https://doi.org/10.1515/9783110312164-fm
+- URL: https://doi.org/10.4102/ve.v36i3.1441
 
-No summary available in metadata.
+OpenAlex abstract metadata available.
 
-### A Pentecostal Biblical Theology: Turning Points in the Story of Redemption, written by Roger Stronstad
+### Melanchthon and Patristic Thought: The Doctrines of Christ and Grace, the Trinity and the Creation
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: biblical_languages
+- Tags: theologians_cross_era
 - Provider: Crossref
 - Quality: scholarly metadata
-- Year: 2017
-- URL: https://doi.org/10.1163/15700747-03903006
+- Year: 1983
+- URL: https://doi.org/10.1163/9789004474895
 
 No summary available in metadata.
