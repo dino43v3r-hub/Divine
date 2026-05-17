@@ -1,5 +1,5 @@
 {
-  "source_count": 372,
+  "source_count": 373,
   "sources": [
     {
       "authors": [],
@@ -2453,6 +2453,27 @@
       "title": "A dynamic self-adaptive harmony search algorithm for continuous optimization problems",
       "url": "https://doi.org/10.1016/j.amc.2013.02.074",
       "year": 2013
+    },
+    {
+      "authors": [
+        "Emmanuel Amiot"
+      ],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-17",
+      "doi": "10.1080/17459737.2012.658264",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "10.1080/17459737.2012.658264",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "music_math"
+      ],
+      "title": "A geometry of music: harmony and counterpoint in the extended common practice",
+      "url": "https://doi.org/10.1080/17459737.2012.658264",
+      "year": 2012
     },
     {
       "authors": [
@@ -7433,5 +7454,5 @@
       "year": 2014
     }
   ],
-  "updated_at": "2026-05-16T16:42:36.936894+00:00"
+  "updated_at": "2026-05-17T16:46:46.691463+00:00"
 }

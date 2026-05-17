@@ -7,38 +7,14 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Individual Differences Reveal the Basis of Consonance
+### A geometry of music: harmony and counterpoint in the extended common practice
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Year: 2010
-- URL: https://doi.org/10.1016/j.cub.2010.04.019
-
-No summary available in metadata.
-
-### The radicality of early Christian oikodome: A theology that edifies insiders and outsiders
-
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: biblical_languages
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Year: 2015
-- URL: https://doi.org/10.4102/ve.v36i3.1441
-
-OpenAlex abstract metadata available.
-
-### Melanchthon and Patristic Thought: The Doctrines of Christ and Grace, the Trinity and the Creation
-
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
-- Tags: theologians_cross_era
 - Provider: Crossref
 - Quality: scholarly metadata
-- Year: 1983
-- URL: https://doi.org/10.1163/9789004474895
+- Year: 2012
+- URL: https://doi.org/10.1080/17459737.2012.658264
 
 No summary available in metadata.
