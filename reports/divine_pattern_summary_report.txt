@@ -3,27 +3,19 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-17T16:46:46.691463+00:00
-Brand-new candidate references this run: 1
+Daily collector updated: 2026-05-18T19:19:23.673441+00:00
+Brand-new candidate references this run: 0
 New candidate pattern movements:
-- New candidate sources arrived today, but no dominant pattern family emerged yet. Review titles and summaries manually before increasing confidence.
+- No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.
 
 New material by lane:
-- music_math: 1
+- No new lanes grew in the latest collector run.
 
 New material quality mix:
-- scholarly metadata: 1
+- No new source-quality mix available for the latest run.
 
 Newest sources to review:
-- A geometry of music: harmony and counterpoint in the extended common practice (2012) | music_math | scholarly metadata
-
-Collector warnings:
-- search_openalex failed for trinity: The read operation timed out
-- search_openalex failed for unresolved_suffering: HTTP Error 503: Service Unavailable
-- search_arxiv failed for quantum_science_guardrails: The read operation timed out
-- search_arxiv failed for quantum_science_guardrails: The read operation timed out
-- search_openalex failed for history_memory: The read operation timed out
-- search_openalex failed for psychology_patterns: The read operation timed out
+- No brand-new sources to review from the latest collector run.
 
 Divine Pattern Found
 --------------------
@@ -42,17 +34,17 @@ Notice -> Name -> Discern -> Practice -> Transform
 Why this pattern is currently strongest:
 ----------------------------------------
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,200
-- Son: 6,658
-- Holy Spirit: 1,251
+- Father: 3,326
+- Son: 6,677
+- Holy Spirit: 1,257
 
 Strongest research layers:
-- Meaning And Logos: 5,821
-- Life And Consciousness: 5,215
-- Physical Order: 2,435
-- Moral Response: 2,212
-- Transformation: 2,030
-- Worship And Community: 1,012
+- Meaning And Logos: 5,830
+- Life And Consciousness: 5,220
+- Physical Order: 2,470
+- Moral Response: 2,221
+- Transformation: 2,044
+- Worship And Community: 1,029
 
 Music-note science/math support:
 - Mathematical Structure: 129
@@ -95,7 +87,7 @@ Global language/text coverage:
 
 Cloud reference review:
 - Reviewed cloud-reference markers: 3
-- Unreviewed cloud-reference markers: 11
+- Unreviewed cloud-reference markers: 130
 - Treat cloud references as leads until checked against original sources, author expertise, date, publication venue, and counterarguments.
 
 Theologian pattern-design support:

@@ -1,37 +1,6 @@
 {
-  "errors": [
-    "search_openalex failed for trinity: The read operation timed out",
-    "search_openalex failed for unresolved_suffering: HTTP Error 503: Service Unavailable",
-    "search_arxiv failed for quantum_science_guardrails: The read operation timed out",
-    "search_arxiv failed for quantum_science_guardrails: The read operation timed out",
-    "search_openalex failed for history_memory: The read operation timed out",
-    "search_openalex failed for psychology_patterns: The read operation timed out",
-    "search_openalex failed for global_text_traditions: The read operation timed out",
-    "search_openalex failed for theologians_cross_era: The read operation timed out"
-  ],
-  "new_count": 1,
-  "new_sources": [
-    {
-      "authors": [
-        "Emmanuel Amiot"
-      ],
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-17",
-      "doi": "10.1080/17459737.2012.658264",
-      "evaluation_use": "candidate lead only until original source review and counterargument check",
-      "id": "10.1080/17459737.2012.658264",
-      "provider": "Crossref",
-      "quality": "scholarly metadata",
-      "review_status": "unreviewed_daily_candidate",
-      "source_type": "journal-article",
-      "summary": "",
-      "tags": [
-        "music_math"
-      ],
-      "title": "A geometry of music: harmony and counterpoint in the extended common practice",
-      "url": "https://doi.org/10.1080/17459737.2012.658264",
-      "year": 2012
-    }
-  ],
-  "updated_at": "2026-05-17T16:46:46.691463+00:00"
+  "errors": [],
+  "new_count": 0,
+  "new_sources": [],
+  "updated_at": "2026-05-18T19:19:23.673441+00:00"
 }

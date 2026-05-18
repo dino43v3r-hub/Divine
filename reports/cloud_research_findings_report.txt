@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-17T16:46:46.697511+00:00
+Updated: 2026-05-18T19:19:23.678639+00:00
 Total references: 373
-New references this run: 1
+New references this run: 0
 
 Guardrails
 ----------
@@ -35,14 +35,11 @@ Quality Counts
 
 New This Run By Tag
 -------------------
-- music_math: 1
+- No brand-new references found this run; reports still re-evaluate the current candidate set.
 
 Newest Additions This Run
 ------------------------
-- A geometry of music: harmony and counterpoint in the extended common practice (2012)
-  Tags: music_math
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1080/17459737.2012.658264
+- No new additions this run.
 
 Recent Candidate Sources
 ------------------------
@@ -186,14 +183,3 @@ Recent Candidate Sources
   Authors: Ernst-August Gutt
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4324/9781315760018
-
-Collector Errors
-----------------
-- search_openalex failed for trinity: The read operation timed out
-- search_openalex failed for unresolved_suffering: HTTP Error 503: Service Unavailable
-- search_arxiv failed for quantum_science_guardrails: The read operation timed out
-- search_arxiv failed for quantum_science_guardrails: The read operation timed out
-- search_openalex failed for history_memory: The read operation timed out
-- search_openalex failed for psychology_patterns: The read operation timed out
-- search_openalex failed for global_text_traditions: The read operation timed out
-- search_openalex failed for theologians_cross_era: The read operation timed out

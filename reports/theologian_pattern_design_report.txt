@@ -39,14 +39,14 @@ Signal: thin but complete Trinitarian signal
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 18 | broader corpus 2,435
-- Mathematical Structure: theologians 0 | broader corpus 554
-- Quantum Probability: theologians 0 | broader corpus 64
-- Life And Consciousness: theologians 9 | broader corpus 5,215
-- Meaning And Logos: theologians 18 | broader corpus 5,821
-- Moral Response: theologians 16 | broader corpus 2,212
-- Worship And Community: theologians 25 | broader corpus 1,012
-- Transformation: theologians 31 | broader corpus 2,030
+- Physical Order: theologians 18 | broader corpus 2,470
+- Mathematical Structure: theologians 0 | broader corpus 560
+- Quantum Probability: theologians 0 | broader corpus 108
+- Life And Consciousness: theologians 9 | broader corpus 5,220
+- Meaning And Logos: theologians 18 | broader corpus 5,830
+- Moral Response: theologians 16 | broader corpus 2,221
+- Worship And Community: theologians 25 | broader corpus 1,029
+- Transformation: theologians 31 | broader corpus 2,044
 
 Per-Source Findings
 -------------------
