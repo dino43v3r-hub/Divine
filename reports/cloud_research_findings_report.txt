@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-19T20:18:27.164645+00:00
+Updated: 2026-05-20T21:18:22.663837+00:00
 Total references: 374
-New references this run: 1
+New references this run: 0
 
 Guardrails
 ----------
@@ -35,14 +35,11 @@ Quality Counts
 
 New This Run By Tag
 -------------------
-- quantum_science_guardrails: 1
+- No brand-new references found this run; reports still re-evaluate the current candidate set.
 
 Newest Additions This Run
 ------------------------
-- Quantum continuous measurements: The stochastic Schroedinger equations and the spectrum of the output (2013)
-  Tags: quantum_science_guardrails
-  Source: arXiv | scholarly preprint
-  URL: http://arxiv.org/abs/1301.3626v2
+- No new additions this run.
 
 Recent Candidate Sources
 ------------------------
