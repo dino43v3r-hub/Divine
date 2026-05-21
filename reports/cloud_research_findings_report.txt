@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-20T21:18:22.663837+00:00
-Total references: 374
-New references this run: 0
+Updated: 2026-05-21T20:27:38.942109+00:00
+Total references: 375
+New references this run: 1
 
 Guardrails
 ----------
@@ -18,7 +18,7 @@ Reference Tags
 - biblical_languages: 28
 - global_text_traditions: 29
 - history_memory: 29
-- music_math: 43
+- music_math: 44
 - politics_justice: 20
 - psychology_patterns: 30
 - quantum_science_guardrails: 38
@@ -30,16 +30,19 @@ Reference Tags
 
 Quality Counts
 --------------
-- scholarly metadata: 348
+- scholarly metadata: 349
 - scholarly preprint: 26
 
 New This Run By Tag
 -------------------
-- No brand-new references found this run; reports still re-evaluate the current candidate set.
+- music_math: 1
 
 Newest Additions This Run
 ------------------------
-- No new additions this run.
+- Simultaneous consonance in music perception and composition. (2019)
+  Tags: music_math
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.1037/rev0000169
 
 Recent Candidate Sources
 ------------------------

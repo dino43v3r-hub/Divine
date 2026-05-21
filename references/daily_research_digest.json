@@ -1,6 +1,29 @@
 {
   "errors": [],
-  "new_count": 0,
-  "new_sources": [],
-  "updated_at": "2026-05-20T21:18:22.657908+00:00"
+  "new_count": 1,
+  "new_sources": [
+    {
+      "authors": [
+        "Peter M. C. Harrison",
+        "Marcus T. Pearce"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-21",
+      "doi": "https://doi.org/10.1037/rev0000169",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1037/rev0000169",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Simultaneous consonance in music perception and composition.",
+      "url": "https://doi.org/10.1037/rev0000169",
+      "year": 2019
+    }
+  ],
+  "updated_at": "2026-05-21T20:27:38.935736+00:00"
 }
