@@ -11,6 +11,9 @@ permissions:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+  SEARXNG_BASE_URL: ${{ secrets.SEARXNG_BASE_URL }}
+  BING_SEARCH_API_KEY: ${{ secrets.BING_SEARCH_API_KEY }}
+  BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
 
 jobs:
   collect-and-analyze:

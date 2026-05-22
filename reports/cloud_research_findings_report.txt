@@ -1,7 +1,7 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-22T19:41:14.379516+00:00
+Updated: 2026-05-22T20:22:10.697089+00:00
 Total references: 376
 New references this run: 0
 
@@ -14,6 +14,8 @@ Guardrails
 
 Reference Tags
 --------------
+Broad web search: not enabled; set SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.
+
 - art_beauty: 31
 - biblical_languages: 28
 - global_text_traditions: 29
@@ -52,6 +54,11 @@ Quality Counts
 - scholarly metadata: 350
 - scholarly preprint: 26
 
+Automated Evidence Counts
+-------------------------
+- moderate_scholarly_candidate: 147
+- strong_scholarly_candidate: 229
+
 New This Run By Tag
 -------------------
 - No brand-new references found this run; reports still re-evaluate the current candidate set.
@@ -69,170 +76,200 @@ Recent Candidate Sources
 - Towards a theology of Covid: providence and lament in past, present, and future trauma narratives (2021)
   Tags: unresolved_suffering
   Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Melanie Harrington
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1080/1756073x.2020.1861403
 - Unanswered Prayer (2014)
   Tags: unresolved_suffering
   Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+  Automated evidence: moderate_scholarly_candidate (9)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9781315808499-18
 - When faith does violence: Reimagining engagement between churches and LGBTI groups on homophobia in Africa (2016)
   Tags: unresolved_suffering
   Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Gerald West, Charlene van der Walt, Kapya Kaoma
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4102/hts.v72i1.3511
 - Why Animal Suffering Matters Morally (2013)
   Tags: unresolved_suffering
   Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+  Automated evidence: strong_scholarly_candidate (10)
   Authors: Andrew Linzey
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1093/acprof:oso/9780199351848.003.0002
 - “I Will Show You My Faith by My Works”: Addressing the Nexus between Philosophical Theodicy and Human Suffering and Loss in Contexts of ‘Natural’ Disaster (2019)
   Tags: unresolved_suffering
   Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Roger P. Abbott
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.3390/rel10030213
 - “The wounded Beast?” - Single Women, Tradition, and the Bible in Zimbabwe (2021)
   Tags: unresolved_suffering
   Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Kudzai Biri
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.20378/irb-48992
 - The Political Unconscious: Narrative as a Socially Symbolic Act (1983)
   Tags: unresolved_suffering, world_languages_translation
   Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Alice N. Benston, Fredric Jameson
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.2307/3684627
 - 7. Grammar, metaphor and ecology (2007)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: moderate_scholarly_candidate (9)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1075/dapsac.23.15gra
 - A Unifying Field in Logics: Neutrosophic Logic. Neutrosophy, Neutrosophic Set, Neutrosophic Probability (2008)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: moderate_scholarly_candidate (9)
   Authors: Florentín Smarandache
   Source: OpenAlex | scholarly metadata
   URL: https://philpapers.org/rec/SMAAUF-2
 - APPENDIX 6: (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: moderate_scholarly_candidate (8)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.2307/j.ctv6gqs2k.28
 - Book Review: Sacred Languages and Sacred Texts (1999)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (10)
   Authors: Richard Coggins
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1177/0040571x9910200613
 - Conceptual Metaphor in Cognitive Semantics (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, psychology_inputs
+  Automated evidence: moderate_scholarly_candidate (7)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1163/2773-1952_hcso_com_0310
 - Critical discourse analysis and its critics (2015)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Ruth Breeze
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1075/prag.21.4.01bre
 - Embodiment as a Paradigm for Anthropology (2002)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Thomas J. Csordas
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1007/978-1-137-08286-2_3
 - Fundraising (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: moderate_scholarly_candidate (8)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203290903_chapter_10
 - God's Invisible Traces: The Sacred in Fallen Language, Translation and Literariness (2009)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (10)
   Authors: E. M. Loevlie
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1093/litthe/frp043
 - History of Concepts : Comparative Perspectives (1998)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, history_inputs
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Van Vree, Frank
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.5117/9789053563069
 - On spirit writing: materialities of language and the religious work of transduction (2013)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Webb Keane
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1111/1467-9655.12000
 - Reflections on metaphor and grammar (1996)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (10)
   Authors: George Lakoff
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1075/pbns.32.08lak
 - SACRED LANGUAGES (2012)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: moderate_scholarly_candidate (9)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203047750-8
 - Sacred Languages and Sacred Texts (2012)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (10)
   Authors: John Sawyer
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203047750
 - Sociological definitions, language games, and the "essence" of religion (2002)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Andrew McKinnon
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1163/157006802760198776
 - Syntax, Semantics, and Grammar (2006)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: moderate_scholarly_candidate (9)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1515/9781552384671-026
 - TRANSLATION (2012)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: moderate_scholarly_candidate (9)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203047750-11
 - Teaching the Translation of English-Language Color Terms in Political Texts: From Culture to Semantics (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: moderate_scholarly_candidate (9)
   Authors: Dilyara Davletshina
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.2139/ssrn.6623278
 - The human factor (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: moderate_scholarly_candidate (8)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203290903_chapter_8
 - The nature and measurement of meaning. (1952)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Charles E. Osgood
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1037/h0055737
 - The translation of sacred texts (2013)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: moderate_scholarly_candidate (9)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203102893-45
 - Translation and Genre: Sacred Texts (2006)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (10)
   Authors: A. Şerban
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1016/b0-08-044854-2/00486-7
 - Translation and Relevance (2014)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (11)
   Authors: Ernst-August Gutt
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4324/9781315760018

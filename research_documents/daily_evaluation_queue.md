@@ -9,17 +9,28 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ### MUSICA MUNDANA , ARISTOTELIAN NATURAL PHILOSOPHY AND PTOLEMAIC ASTRONOMY
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: music_math
 - Layer routes: music_notes, deep_sources
 - Primary layer: music_notes
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 119
 - Year: 2002
 - URL: https://doi.org/10.1017/s0261127902002024
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check musical structure directly before using it as analogy or theological support.
@@ -27,17 +38,28 @@ Layer review prompts:
 
 ### Simultaneous consonance in music perception and composition.
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: music_math
 - Layer routes: music_notes, deep_sources
 - Primary layer: music_notes
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 119
 - Year: 2019
 - URL: https://doi.org/10.1037/rev0000169
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check musical structure directly before using it as analogy or theological support.
@@ -45,13 +67,16 @@ Layer review prompts:
 
 ### Quantum continuous measurements: The stochastic Schroedinger equations and the spectrum of the output
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 245
 - Year: 2013
 - URL: http://arxiv.org/abs/1301.3626v2
 
@@ -64,23 +89,44 @@ stochastic Schrödinger equation by diagonalization of suitable quantum observab
 isomorphism between Fock space and Wiener space. Then, we give the a posteriori state, the
 conditional system state
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
 ### A geometry of music: harmony and counterpoint in the extended common practice
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: music_math
 - Layer routes: music_notes, deep_sources
 - Primary layer: music_notes
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 119
 - Year: 2012
 - URL: https://doi.org/10.1080/17459737.2012.658264
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check musical structure directly before using it as analogy or theological support.
@@ -88,17 +134,28 @@ Layer review prompts:
 
 ### The radicality of early Christian oikodome: A theology that edifies insiders and outsiders
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, world_languages
 - Primary layer: biblical_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 82
 - Year: 2015
 - URL: https://doi.org/10.4102/ve.v36i3.1441
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -107,17 +164,27 @@ Layer review prompts:
 
 ### Melanchthon and Patristic Thought: The Doctrines of Christ and Grace, the Trinity and the Creation
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 116
 - Year: 1983
 - URL: https://doi.org/10.1163/9789004474895
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -125,17 +192,28 @@ Layer review prompts:
 
 ### Individual Differences Reveal the Basis of Consonance
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: music_math
 - Layer routes: music_notes, deep_sources
 - Primary layer: music_notes
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 119
 - Year: 2010
 - URL: https://doi.org/10.1016/j.cub.2010.04.019
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check musical structure directly before using it as analogy or theological support.
@@ -143,13 +221,16 @@ Layer review prompts:
 
 ### “There is Hope for a Tree”: Lament and Hope in Conversation with Polydoxy
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: art_beauty
 - Layer routes: visual_art, cultural_inputs, history_inputs, all_texts
 - Primary layer: visual_art
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 193
 - Year: 2014
 - URL: https://doi.org/10.1111/moth.12124
 
@@ -161,6 +242,14 @@ practices that can assist us in our responses to the contemporary situation. The
 by attention to the environmental crisis that requires and relativizes theological resources as we
 find ways to act in the world.
 
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
@@ -169,17 +258,28 @@ Layer review prompts:
 
 ### “Mere” Christian Forgiveness: An Ecumenical Christian Conceptualization of Forgiveness through the Lens of Stress-And-Coping Theory
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 2019
 - URL: https://doi.org/10.3390/rel10010044
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -188,17 +288,28 @@ Layer review prompts:
 
 ### “Dwelling Amid Ruins”: Hope, Lament, and Necropolitics
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: art_beauty
 - Layer routes: visual_art, cultural_inputs
 - Primary layer: visual_art
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 103
 - Year: 2025
 - URL: https://doi.org/10.1080/1462317x.2025.2509440
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
@@ -206,13 +317,16 @@ Layer review prompts:
 
 ### Yhwh's Surprising Covenant Hesed in Jonah
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
 - Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 150
 - Year: 2012
 - URL: https://doi.org/10.1177/0146107911431222
 
@@ -225,6 +339,14 @@ and Jeremiah 8:7–8, as well as the implicit allusion to Jeremiah 36, and argue
 strong “re-creation theme” found in Jonah, there is a clear “covenant theme” in Jonah as well. The
 covenant la
 
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
 - Check Christian source context, doctrine, and source quality.
@@ -233,17 +355,28 @@ Layer review prompts:
 
 ### Yahweh's Winged Form in the Psalms: Exploring Congruent Iconography and Texts
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: art_beauty
 - Layer routes: visual_art, cultural_inputs
 - Primary layer: visual_art
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 103
 - Year: 2010
 - URL: https://doi.org/10.5167/uzh-152246
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
@@ -251,13 +384,16 @@ Layer review prompts:
 
 ### Will Eisner
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 2018
 - URL: https://doi.org/10.14325/mississippi/9781496819215.003.0015
 
@@ -270,6 +406,14 @@ on the book of Job. In utilizing Berlin’s political thought, along with the fo
 biblical tale, one can discern Eisner’s vision of transformative, messianic politics, that lie in
 the vicissitudes and b
 
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
@@ -277,17 +421,28 @@ Layer review prompts:
 
 ### Why Animal Suffering Matters Morally
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: unresolved_suffering
 - Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 246
 - Year: 2013
 - URL: https://doi.org/10.1093/acprof:oso/9780199351848.003.0002
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
@@ -297,17 +452,28 @@ Layer review prompts:
 
 ### Whose Hero? Reinventing Epic in French West African Literature
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 2013
 - URL: https://escholarship.org/uc/item/6vz9618c
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+- many routed corroborating candidates
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -316,17 +482,28 @@ Layer review prompts:
 
 ### What the Buddha Taught
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 1974
 - URL: https://zenodo.org/record/5638973
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -335,17 +512,28 @@ Layer review prompts:
 
 ### West Indian Intellectuals in Britain
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2003
 - URL: https://doi.org/10.7228/manchester/9780719064746.001.0001
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -354,17 +542,27 @@ Layer review prompts:
 
 ### WILL EISNER:
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: n.d.
 - URL: https://doi.org/10.2307/j.ctv7vcsv2.19
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -373,17 +571,28 @@ Layer review prompts:
 
 ### Victimization and religious engagement: Links to school attachment and subsequent adjustment outcomes.
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 2020
 - URL: https://doi.org/10.1037/rel0000232
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -392,17 +601,28 @@ Layer review prompts:
 
 ### Verbal Periphrasis in Ancient Greek A state of the art
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
 - Primary layer: biblical_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 150
 - Year: 2012
 - URL: https://doi.org/10.3406/rbph.2012.8388
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -412,17 +632,26 @@ Layer review prompts:
 
 ### Unwanted Wisdom : Suffering, the Cross, and Hope
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature, pattern_tests
 - Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 251
 - Year: 2005
 - URL: https://doi.org/10.5040/9781472550194
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- many routed corroborating candidates
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -432,17 +661,28 @@ Layer review prompts:
 
 ### Union with the Resurrected Christ: Eschatological New Creation and New Testament Biblical Theology, by G.K. Beale
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, world_languages
 - Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 82
 - Year: 2024
 - URL: https://doi.org/10.1163/15700747-04602009
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -451,13 +691,16 @@ Layer review prompts:
 
 ### Understanding Human Perception of Music Plagiarism Through a Computational Approach
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: music_math
 - Layer routes: music_notes, deep_sources
 - Primary layer: music_notes
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 119
 - Year: 2026
 - URL: http://arxiv.org/abs/2601.02586v1
 
@@ -469,23 +712,44 @@ identifying the key features and levels of variation humans use in perceiving mu
 propose a LLM-as-a-judge framework that applies a systematic, step-by-step approach, drawing on
 modules that extract such high-level attributes.
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Check musical structure directly before using it as analogy or theological support.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
 ### Trinity, Christology, and pneumatology
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources, biblical_languages
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 117
 - Year: 2011
 - URL: https://doi.org/10.1017/ccol9780521877398.021
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -494,13 +758,16 @@ Layer review prompts:
 
 ### Trauma, place, and transformation
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests, visual_art, all_texts, deep_sources
 - Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (12)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 328
 - Year: 2019
 - URL: https://doi.org/10.1177/0084672418824067
 
@@ -509,6 +776,14 @@ Spirituality: An Attachment Perspective.” The first response is from Esther St
 a psychophysiological and neuroscience critique. The second is from Altaf Engineer, PhD, from the
 perspective of architecture and environmental psychology, and the last response is from Hester
 Oberman, PhD, who gives a psychology of religion rebuttal.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -519,17 +794,28 @@ Layer review prompts:
 
 ### Translation and Relevance
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 2014
 - URL: https://doi.org/10.4324/9781315760018
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -537,17 +823,28 @@ Layer review prompts:
 
 ### Translation and Genre: Sacred Texts
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 2006
 - URL: https://doi.org/10.1016/b0-08-044854-2/00486-7
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -555,17 +852,28 @@ Layer review prompts:
 
 ### Towards the Poetic Justice of Reparative Citizenship
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2016
 - URL: https://doi.org/10.2307/j.ctvdf03jc.9
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -574,17 +882,28 @@ Layer review prompts:
 
 ### Toward a dual process model of moral injury and traumatic illness
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 2022
 - URL: https://doi.org/10.3389/fpsyt.2022.883338
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -593,17 +912,28 @@ Layer review prompts:
 
 ### Tongues and Trees: Towards a Green Pentecostal Pneumatology
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources, biblical_languages
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 117
 - Year: 2013
 - URL: https://doi.org/10.1163/9789004397163_011
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -612,13 +942,16 @@ Layer review prompts:
 
 ### Tonal Frequencies, Consonance, Dissonance: A Math-Bio Intersection
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: music_math
 - Layer routes: music_notes, deep_sources, visual_art
 - Primary layer: music_notes
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 169
 - Year: 2021
 - URL: http://arxiv.org/abs/2106.08479v1
 
@@ -631,6 +964,16 @@ musical notes in the chromatic scale which is based on the fact that systematic 
 invoke pleasure. The reason behind the richness of harmony and the sonic interference and degree of
 consonanc
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Check musical structure directly before using it as analogy or theological support.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
@@ -638,13 +981,16 @@ Layer review prompts:
 
 ### Tianyan: Cloud services with quantum advantage
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests, visual_art
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 281
 - Year: 2025
 - URL: http://arxiv.org/abs/2512.10504v2
 
@@ -657,6 +1003,16 @@ over 24 cycles, the platform completes one million samples in just 18.4 minutes.
 of-the-art classical supercomputers would require approximately 16,000 years to complete the
 equivalent calculatio
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
@@ -664,17 +1020,28 @@ Layer review prompts:
 
 ### Theology and contemporary art
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: art_beauty
 - Layer routes: visual_art, cultural_inputs
 - Primary layer: visual_art
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 103
 - Year: 2019
 - URL: https://doi.org/10.4324/9780429019753-1
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
@@ -682,17 +1049,27 @@ Layer review prompts:
 
 ### The translation of sacred texts
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 2013
 - URL: https://doi.org/10.4324/9780203102893-45
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -700,17 +1077,28 @@ Layer review prompts:
 
 ### The symphony of the Trinity : tuning in to the Father, Son and Holy Spirit for congregational renaissance
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 116
 - Year: 2013
 - URL: https://place.asburyseminary.edu/ecommonsatsdissertations/1063
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -718,13 +1106,16 @@ Layer review prompts:
 
 ### The physicists philosophy of physics
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 245
 - Year: 2024
 - URL: http://arxiv.org/abs/2401.16506v2
 
@@ -732,23 +1123,44 @@ I argue that research in physics operates under an implicit community philosophy
 definition I think physicists would accept, by and large. I compare this definition to what
 philosophers, sociologists, and historians of science, with physicists, say we are doing.
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
 ### The nature and measurement of meaning.
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 1952
 - URL: https://doi.org/10.1037/h0055737
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -756,17 +1168,28 @@ Layer review prompts:
 
 ### The narrative constitution of identity: A relational and network approach
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 1994
 - URL: https://doi.org/10.1007/bf00992905
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -775,17 +1198,26 @@ Layer review prompts:
 
 ### The human factor
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: n.d.
 - URL: https://doi.org/10.4324/9780203290903_chapter_8
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -793,17 +1225,27 @@ Layer review prompts:
 
 ### The Vulnerability of God as Viewed from a Theology of Han: A Constructive Dialogue between Jurgen Moltmann and Suh Nam-Dong
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 116
 - Year: 2024
 - URL: http://hdl.handle.net/1807/139159
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -811,17 +1253,26 @@ Layer review prompts:
 
 ### The Theological Split in the Empire
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: n.d.
 - URL: https://doi.org/10.5040/9780567660411.ch-008
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -830,17 +1281,26 @@ Layer review prompts:
 
 ### The Terrain of Suffering
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature, pattern_tests
 - Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 251
 - Year: n.d.
 - URL: https://doi.org/10.5040/9781472550194.ch-001
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -850,17 +1310,28 @@ Layer review prompts:
 
 ### The Revelation of the Trinity
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 116
 - Year: 2010
 - URL: https://doi.org/10.1093/acprof:oso/9780199582211.003.0002
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -868,17 +1339,28 @@ Layer review prompts:
 
 ### The Relation between creation and redemption according to modern studies of Pauline Theology
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: trinity
 - Layer routes: theologians, research_documents, pattern_tests
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 225
 - Year: 1971
 - URL: https://doi.org/10.1163/9789004266032_003
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -887,13 +1369,16 @@ Layer review prompts:
 
 ### The Quantum Revolution in Philosophy (Book Review)
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 245
 - Year: 2021
 - URL: http://arxiv.org/abs/2110.12102v1
 
@@ -906,23 +1391,44 @@ such as quantum Bayesianism, which proposes to understand quantum theory as desc
 subjective epistemic states. The central idea of Healey's proposal is to understand quantum theory
 as providing not a
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
 ### The Psychology of Change: Self-Affirmation and Social Psychological Intervention
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 2014
 - URL: https://doi.org/10.1146/annurev-psych-010213-115137
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -931,17 +1437,28 @@ Layer review prompts:
 
 ### The Principles of Biblical Interpretation. As Enunciated by Irenaeus, Origen, Augustine, Luther and Calvin. By A. Skevington Wood. (Grand Rapids, Michigan: Zondervan. 1967. 103 pp. $3.50.)
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 116
 - Year: 1968
 - URL: https://doi.org/10.1163/27725472-04003013
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -949,17 +1466,27 @@ Layer review prompts:
 
 ### The Pre-Nicene Period:
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 116
 - Year: 2020
 - URL: https://doi.org/10.2307/j.ctv1hztrfz.24
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -967,13 +1494,16 @@ Layer review prompts:
 
 ### The Philosophy and Physics of Duality
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests, visual_art
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 281
 - Year: 2025
 - URL: http://arxiv.org/abs/2508.01616v1
 
@@ -986,6 +1516,16 @@ particle, electric-magnetic, and Kramers-Wannier dualities. Part II discusses ad
 their inter-relations: particle-soliton dualities, electric-magnetic dualities in quantum field
 theories, dualit
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
@@ -993,17 +1533,28 @@ Layer review prompts:
 
 ### The Oxford Handbook of Criminology
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 2023
 - URL: https://doi.org/10.1093/he/9780198860914.001.0001
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -1012,17 +1563,26 @@ Layer review prompts:
 
 ### The Nicene Theology of Athanasius and Hilary
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 116
 - Year: n.d.
 - URL: https://doi.org/10.5040/9780567660442.ch-010
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -1030,17 +1590,28 @@ Layer review prompts:
 
 ### The Mediatization of Society
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 2008
 - URL: https://doi.org/10.1515/nor-2017-0181
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -1049,17 +1620,28 @@ Layer review prompts:
 
 ### The Interplay between Hebrew and Greek in Biblical Lexicology: Language, Text, and Interpretation
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, world_languages
 - Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 82
 - Year: 2015
 - URL: https://doi.org/10.1515/9783110312164-009
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -1068,17 +1650,28 @@ Layer review prompts:
 
 ### The Holy Spirit of God: An Essay in Biblical Theology
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, world_languages
 - Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 82
 - Year: 2008
 - URL: https://doi.org/10.1163/157007408x287849
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -1087,17 +1680,26 @@ Layer review prompts:
 
 ### The Historical Memory Act and Its Implementation
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2013
 - URL: https://doi.org/10.1017/9781839700675.007
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -1106,17 +1708,28 @@ Layer review prompts:
 
 ### The Face of God and the Etiquette of Eye-Contact: Visitation, Pilgrimage, and Prophetic Vision in Ancient Israelite and Early Jewish Imagination
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, world_languages
 - Primary layer: biblical_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 82
 - Year: 2012
 - URL: https://doi.org/10.1628/094457012799440186
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -1125,17 +1738,27 @@ Layer review prompts:
 
 ### The Dynamics of Attachment and Trauma
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 2015
 - URL: https://doi.org/10.4324/9781315745626-4
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -1144,17 +1767,28 @@ Layer review prompts:
 
 ### The Christian Classical Ideas of Sins : On Augustine, Thomas Aquinas, and Martin Luther
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources, visual_art
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 179
 - Year: 2016
 - URL: https://doi.org/10.21130/tw.2016.12.88.216
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -1163,17 +1797,28 @@ Layer review prompts:
 
 ### The Brief RCOPE: Current Psychometric Status of a Short Measure of Religious Coping
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 2011
 - URL: https://doi.org/10.3390/rel2010051
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -1182,13 +1827,16 @@ Layer review prompts:
 
 ### Teaching the Translation of English-Language Color Terms in Political Texts: From Culture to Semantics
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: n.d.
 - URL: https://doi.org/10.2139/ssrn.6623278
 
@@ -1201,23 +1849,41 @@ plan for pre-translation analysis of political texts, the stages of practical in
 process map are designed to address and overcome difficulties associated with teaching the
 translation of
 
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
 ### Tainted Souls and Painted Faces: The Rhetoric of Fallenness in Victorian Culture
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 1995
 - URL: https://doi.org/10.2307/3733283
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -1226,17 +1892,27 @@ Layer review prompts:
 
 ### TRANSLATION
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 2012
 - URL: https://doi.org/10.4324/9780203047750-11
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -1244,17 +1920,28 @@ Layer review prompts:
 
 ### TOWARDS AN ECOLOGICAL BIBLICAL HERMENEUTICS: A REVIEW ESSAY ON THE EARTH BIBLE PROJECT
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources, visual_art
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 179
 - Year: 2013
 - URL: https://doi.org/10.7833/85-0-941
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -1263,17 +1950,27 @@ Layer review prompts:
 
 ### Syntax, Semantics, and Grammar
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 2006
 - URL: https://doi.org/10.1515/9781552384671-026
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -1281,17 +1978,28 @@ Layer review prompts:
 
 ### Sociological definitions, language games, and the "essence" of religion
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 2002
 - URL: https://doi.org/10.1163/157006802760198776
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -1299,17 +2007,28 @@ Layer review prompts:
 
 ### Sharia Incorporated : A Comparative Overview of the Legal Systems of Twelve Muslim Countries in Past and Present
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2010
 - URL: https://doi.org/10.5117/9789087280574
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -1318,17 +2037,28 @@ Layer review prompts:
 
 ### Semitic Etymology in A Biblical Hebrew Lexicon: the Limits of Usefulness
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
 - Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 150
 - Year: 2015
 - URL: https://doi.org/10.1515/9783110312164-005
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -1338,17 +2068,28 @@ Layer review prompts:
 
 ### Scribal Authorship and the Writing of History in Medieval England
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: art_beauty
 - Layer routes: visual_art, cultural_inputs, history_inputs
 - Primary layer: visual_art
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 135
 - Year: 2012
 - URL: https://escholarship.org/uc/item/1tm7x1rv
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+- many routed corroborating candidates
 
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
@@ -1357,13 +2098,16 @@ Layer review prompts:
 
 ### Science and Philosophy: A Love-Hate Relationship
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests, visual_art
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 281
 - Year: 2013
 - URL: http://arxiv.org/abs/1307.1244v2
 
@@ -1376,6 +2120,16 @@ philosophy's death diagnosis ('philosophy is dead'); b) the historic-agnostic ar
 division of property argument (or: philosophy and science have different subject matters, therefore
 philosophy
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
@@ -1383,17 +2137,28 @@ Layer review prompts:
 
 ### Sacred Languages and Sacred Texts
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 2012
 - URL: https://doi.org/10.4324/9780203047750
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -1401,17 +2166,27 @@ Layer review prompts:
 
 ### SACRED LANGUAGES
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 2012
 - URL: https://doi.org/10.4324/9780203047750-8
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -1419,17 +2194,27 @@ Layer review prompts:
 
 ### Ritual, Responsibility, and the Moral Order(s)
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 2017
 - URL: https://doi.org/10.1017/9781107280465.008
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -1438,17 +2223,28 @@ Layer review prompts:
 
 ### Ritual, Harmony, and Peace and Order: A Confucian Conception of Ritual
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 2012
 - URL: https://doi.org/10.1007/978-94-007-2756-4_12
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -1457,17 +2253,27 @@ Layer review prompts:
 
 ### Ritual, Aggression, and Voicing the Moral Order(s)
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 2017
 - URL: https://doi.org/10.1017/9781107280465.007
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -1476,17 +2282,28 @@ Layer review prompts:
 
 ### Review of Disability Studies
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 2013
 - URL: https://doi.org/10.3828/jlcds.2013.33
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -1495,17 +2312,28 @@ Layer review prompts:
 
 ### Rethinking Asylum
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 2009
 - URL: https://doi.org/10.1017/cbo9780511626845
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -1514,17 +2342,28 @@ Layer review prompts:
 
 ### Resilience definitions, theory, and challenges: interdisciplinary perspectives
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 2014
 - URL: https://doi.org/10.3402/ejpt.v5.25338
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -1533,17 +2372,27 @@ Layer review prompts:
 
 ### Repentance
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: 2022
 - URL: https://doi.org/10.2307/j.ctv2vvsx3n.6
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -1552,17 +2401,27 @@ Layer review prompts:
 
 ### Remembering Suffering: Trauma and History
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests, psychology_inputs
 - Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 235
 - Year: n.d.
 - URL: https://doi.org/10.4324/9780203785751-7
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -1572,17 +2431,28 @@ Layer review prompts:
 
 ### Religious Belief, Experience, and Ritual
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests, all_texts
 - Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 249
 - Year: 2001
 - URL: https://doi.org/10.1163/9789004496217_007
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -1592,17 +2462,28 @@ Layer review prompts:
 
 ### Religion and collective memory of the last century
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2022
 - URL: https://doi.org/10.4324/9781003264750-3
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -1611,17 +2492,28 @@ Layer review prompts:
 
 ### Religion and Climate Change
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 2018
 - URL: https://doi.org/10.1146/annurev-environ-102017-025855
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -1630,17 +2522,28 @@ Layer review prompts:
 
 ### Reflections on metaphor and grammar
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 1996
 - URL: https://doi.org/10.1075/pbns.32.08lak
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -1648,17 +2551,28 @@ Layer review prompts:
 
 ### Red on Red: Native American Literary Separatism
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions, world_languages_translation
 - Layer routes: all_texts, other_religious_texts, modern_literature, world_languages
 - Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 105
 - Year: 1999
 - URL: https://doi.org/10.5749/9781452974637
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -1668,13 +2582,16 @@ Layer review prompts:
 
 ### Quantum Simulation for High Energy Physics
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests, visual_art
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 281
 - Year: 2022
 - URL: http://arxiv.org/abs/2204.03381v1
 
@@ -1687,6 +2604,16 @@ investment in this area by the government and private sectors in the U.S. and ot
 energy physicists have quickly identified problems of importance to our understanding of nature at
 the most fundamental leve
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
@@ -1694,17 +2621,28 @@ Layer review prompts:
 
 ### Pythagorean Music Theory
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: music_math
 - Layer routes: music_notes, deep_sources
 - Primary layer: music_notes
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 119
 - Year: 2024
 - URL: https://doi.org/10.18485/mi_sanu_zr.2024.29.21.ch1
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check musical structure directly before using it as analogy or theological support.
@@ -1712,17 +2650,26 @@ Layer review prompts:
 
 ### Publications on Text and Textual History of the Hebrew Bible and the Septuagint by Siegfried Kreuzer
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, history_inputs, world_languages
 - Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 136
 - Year: n.d.
 - URL: https://doi.org/10.2307/j.ctt16xwbcw.19
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -1732,17 +2679,28 @@ Layer review prompts:
 
 ### Psychosocial Accompaniment
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2015
 - URL: https://doi.org/10.5964/jspp.v3i1.103
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -1751,13 +2709,16 @@ Layer review prompts:
 
 ### Probing tripartite entanglement and coherence dynamics in pure and mixed independent classical environments
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests, visual_art
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 281
 - Year: 2021
 - URL: http://arxiv.org/abs/2107.11259v1
 
@@ -1770,6 +2731,16 @@ fractional Gaussian noise, power-law noise maximized and fractional Gaussian noi
 are assumed to characterize the environments. With the help of time-dependent entanglement
 witnesses, purity, and decoheren
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
@@ -1777,17 +2748,27 @@ Layer review prompts:
 
 ### Preface
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, world_languages
 - Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 82
 - Year: 2015
 - URL: https://doi.org/10.1515/9783110312164-001
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -1796,17 +2777,28 @@ Layer review prompts:
 
 ### Political Memory in and after the Persian Empire
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: art_beauty
 - Layer routes: visual_art, cultural_inputs, history_inputs
 - Primary layer: visual_art
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 135
 - Year: 2015
 - URL: https://repositorio.uca.edu.ar/handle/123456789/8007
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
@@ -1815,13 +2807,16 @@ Layer review prompts:
 
 ### Points of convergence -- music meets mathematics
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: music_math
 - Layer routes: music_notes, deep_sources
 - Primary layer: music_notes
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 119
 - Year: 2023
 - URL: http://arxiv.org/abs/2309.06595v1
 
@@ -1834,19 +2829,32 @@ by periodic attractors, and which are therefore stable under perturbation~-- are
 family. A positive answer was given in 2015 by van Strien and the author, which implies that, no
 matter h
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Check musical structure directly before using it as analogy or theological support.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
 ### Physics and Technology of the Next Linear Collider: A Report Submitted to Snowmass '96
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 245
 - Year: 1996
 - URL: http://arxiv.org/abs/hep-ex/9605011v1
 
@@ -1857,19 +2865,32 @@ range of theoretical possibilities. We then show the feasibility of constructing
 reviewing the current status of linear collider technology and by presenting a precis of our
 `zeroth-order' design.
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
 ### Physics Needs Philosophy. Philosophy Needs Physics
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests, visual_art
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 281
 - Year: 2018
 - URL: http://arxiv.org/abs/1805.10602v1
 
@@ -1881,6 +2902,16 @@ gravitational waves, and the failure to detect supersymmetry where many expected
 question the validity of certain philosophical assumptions common among theoretical physicists,
 inviting us to engage in a clearer philosophical reflection on scientific method.
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
@@ -1888,13 +2919,16 @@ Layer review prompts:
 
 ### Physics Briefing Book
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests, visual_art
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 281
 - Year: 2019
 - URL: http://arxiv.org/abs/1910.11775v2
 
@@ -1907,6 +2941,16 @@ the submitted ideas and to prepare a community discussion on the importance and 
 various proposals. The results of these discussions are then concisely summarised in this Briefing
 Book, prepa
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
@@ -1914,13 +2958,16 @@ Layer review prompts:
 
 ### Philosophy on time in the natural sciences and the humanities from analytical positions
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests, visual_art
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 281
 - Year: 2016
 - URL: http://arxiv.org/abs/1612.05095v3
 
@@ -1933,6 +2980,16 @@ knowledge as well. Judgments for the meaning of time reveal the essence of the p
 aspects of discussion on the dissociation of the foundations in the modern philosophy of physics and
 the philos
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
@@ -1940,13 +2997,16 @@ Layer review prompts:
 
 ### Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982)
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
 - Layer routes: deep_sources, pattern_tests
 - Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 245
 - Year: 2005
 - URL: http://arxiv.org/abs/physics/0508180v2
 
@@ -1958,23 +3018,44 @@ considered by many a philosophical matter instead of a scientific one, and that 
 philosophy to physics required a change in the physics community's attitude about the status of the
 foundations of quantum mechanics.
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
 ### Pentecostal theology according to the theologians: An introduction to the theological methods of pentecostal systematic theologians
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 116
 - Year: 2009
 - URL: https://epublications.marquette.edu/dissertations_mu/9
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -1982,17 +3063,28 @@ Layer review prompts:
 
 ### Pastoral care in the healing of moral injury: A case of the Zimbabwe National Liberation War Veterans
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests, human_stories
 - Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2015
 - URL: https://doi.org/10.4102/hts.v71i2.2919
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -2002,17 +3094,28 @@ Layer review prompts:
 
 ### Past, Present, and Future of Restorative Justice: Some Critical Reflections
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (13)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 1998
 - URL: https://research-repository.griffith.edu.au/bitstream/10072/12484/1/8383.pdf
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -2021,17 +3124,28 @@ Layer review prompts:
 
 ### Orphic Ritual and Myth in the Thebaid
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 2013
 - URL: https://doi.org/10.1093/acprof:oso/9780199644094.003.0019
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -2040,17 +3154,26 @@ Layer review prompts:
 
 ### Original Publications
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, world_languages
 - Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 82
 - Year: n.d.
 - URL: https://doi.org/10.2307/j.ctt16xwbcw.18
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -2059,17 +3182,28 @@ Layer review prompts:
 
 ### Oral Literature in Africa
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 2012
 - URL: https://doi.org/10.11647/obp.0025
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -2078,17 +3212,28 @@ Layer review prompts:
 
 ### Oral Epic - Albert Bates Lord: Epic Singers and Oral Tradition. (Myth and Poetics.) Pp. xii + 262. Ithaca and London: Cornell University Press, 1991. $36.50 (Paper, $12.95).
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 1992
 - URL: https://doi.org/10.1017/s0009840x00283935
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -2097,17 +3242,28 @@ Layer review prompts:
 
 ### On the Legacy of Lutheranism in Finland: Societal Perspectives
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: biblical_languages
 - Layer routes: biblical_languages, research_documents/christian_sources, theologians, world_languages
 - Primary layer: biblical_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 144
 - Year: 2019
 - URL: https://doi.org/10.21435/sfh.25
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
@@ -2117,17 +3273,28 @@ Layer review prompts:
 
 ### On spirit writing: materialities of language and the religious work of transduction
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: world_languages_translation
 - Layer routes: world_languages, all_texts
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 94
 - Year: 2013
 - URL: https://doi.org/10.1111/1467-9655.12000
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
@@ -2135,17 +3302,26 @@ Layer review prompts:
 
 ### On Beauty: Aesthetic Choices, Adornment, and Art
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: art_beauty
 - Layer routes: visual_art, cultural_inputs
 - Primary layer: visual_art
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 103
 - Year: 2022
 - URL: https://doi.org/10.5040/9781350104280.0014
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- many routed corroborating candidates
 
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
@@ -2153,17 +3329,28 @@ Layer review prompts:
 
 ### Official Apologies and the Quest for Historical Justice
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2007
 - URL: https://doi.org/10.1080/14754830601098402
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -2172,17 +3359,27 @@ Layer review prompts:
 
 ### ON FORGETTING:
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2017
 - URL: https://doi.org/10.2307/j.ctv1nzfxdf.4
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -2191,17 +3388,26 @@ Layer review prompts:
 
 ### Notes
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: n.d.
 - URL: https://doi.org/10.5040/9781472550194.0007
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -2210,17 +3416,28 @@ Layer review prompts:
 
 ### Mysticism and logic and other essays
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
 - Layer routes: all_texts, other_religious_texts, modern_literature
 - Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 76
 - Year: 1918
 - URL: https://doi.org/10.5962/bhl.title.28528
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
@@ -2229,13 +3446,16 @@ Layer review prompts:
 
 ### Music SketchNet: Controllable Music Generation via Factorized Representations of Pitch and Rhythm
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: music_math
 - Layer routes: music_notes, deep_sources, visual_art, modern_literature
 - Primary layer: music_notes
 - Provider: arXiv
 - Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 196
 - Year: 2020
 - URL: http://arxiv.org/abs/2008.01291v1
 
@@ -2248,6 +3468,16 @@ rhythm and pitch contour to form the basis of our proposed model. Then we introd
 discriminative architectures, SketchInpainter and SketchConnector, that in conjunction perform the
 guided music completion, filling
 
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
 Layer review prompts:
 - Check musical structure directly before using it as analogy or theological support.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
@@ -2256,17 +3486,28 @@ Layer review prompts:
 
 ### Motif‐Research in Irenaeus, Thomas Aquinas, and Luther
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 116
 - Year: 1971
 - URL: https://doi.org/10.1080/00393387108599924
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -2274,17 +3515,28 @@ Layer review prompts:
 
 ### Moral-Somatics, Hope, Despair, and Suffering
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2011
 - URL: https://doi.org/10.1093/acprof:osobl/9780199551538.003.0009
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -2293,17 +3545,26 @@ Layer review prompts:
 
 ### Migration and Religion: Beyond Ethnic Community and Ethclass (Dariuš Zifonun)
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: n.d.
 - URL: https://doi.org/10.3726/978-3-653-06719-4/5
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -2312,17 +3573,26 @@ Layer review prompts:
 
 ### Migration and Religion: Beyond Ethnic Community and Ethclass
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: psychology_patterns
 - Layer routes: psychology_inputs, human_stories, pattern_tests
 - Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 201
 - Year: n.d.
 - URL: https://doi.org/10.3726/978-3-653-06719-4/10
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -2331,17 +3601,28 @@ Layer review prompts:
 
 ### Methodology of Church History in Structure of Concentric circle: A Critical Review on the Prof. Lee Yang Ho's Interpretation of Early Church History
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2016
 - URL: https://doi.org/10.17301/tf.2016.83..001
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -2350,17 +3631,27 @@ Layer review prompts:
 
 ### Metaphysics and Social Relations
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: theologians_cross_era
 - Layer routes: theologians, research_documents/christian_sources, deep_sources
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2013
 - URL: https://doi.org/10.2307/j.ctt22nm63r.8
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
@@ -2369,17 +3660,28 @@ Layer review prompts:
 
 ### Mental Health: Culture, Race, and Ethnicity—A Supplement to Mental Health: A Report of the Surgeon General
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2001
 - URL: http://hdl.handle.net/1903/22834
 
 OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
@@ -2388,17 +3690,28 @@ Layer review prompts:
 
 ### Memory, Justice, and Postterror Futures
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, pattern_tests
 - Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 233
 - Year: 2015
 - URL: https://doi.org/10.2307/jj.36032686.15
 
 No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.

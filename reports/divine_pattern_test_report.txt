@@ -13,65 +13,65 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 14
-Test words analyzed: 1,102
+Test documents analyzed: 16
+Test words analyzed: 1,284
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 27
-- Injustice And Corruption: 22
-- Practical Case Study: 21
-- Disconfirming Failure Condition: 20
+- Suffering Without Resolution: 29
+- Disconfirming Failure Condition: 25
+- Practical Case Study: 24
+- Injustice And Corruption: 23
 - Science Guardrail: 15
+- Counterexample Pressure: 12
 - Non-Christian Comparison: 11
-- Counterexample Pressure: 10
 - Rival Explanation: 9
 - Misuse And Weaponization: 9
 
 Source Quality Markers
 ----------------------
-- Practical Lived Source: 34
-- Scholarly Or Scientific Source: 14
+- Practical Lived Source: 40
+- Scholarly Or Scientific Source: 16
 - Speculative Source: 2
 - Primary Or Classical Source: 1
 
 Confidence Results
 ------------------
-- resilient under pressure: 12
+- resilient under pressure: 14
 - needs deeper review but still plausible: 2
 
 Hold Assessment
 ---------------
-- pressure present but hold question is underdeveloped: 9
+- pressure present but hold question is underdeveloped: 10
 - provisionally holds; needs stronger review: 4
-- does not hold yet under this friction: 1
+- does not hold yet under this friction: 2
 
 Trinitarian Test Lens
 ---------------------
 Test-set signal: thin but complete Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 24 | research corpus 3,435
-- Son: test set 4 | research corpus 6,678
-- Holy Spirit: test set 12 | research corpus 1,257
+- Father: test set 31 | research corpus 3,419
+- Son: test set 4 | research corpus 6,680
+- Holy Spirit: test set 12 | research corpus 1,258
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 9 | research corpus 2,471
-- Mathematical Structure: test set 4 | research corpus 572
-- Quantum Probability: test set 7 | research corpus 119
-- Life And Consciousness: test set 6 | research corpus 5,272
-- Meaning And Logos: test set 12 | research corpus 5,848
-- Moral Response: test set 17 | research corpus 2,240
-- Worship And Community: test set 27 | research corpus 1,065
-- Transformation: test set 23 | research corpus 2,043
+- Physical Order: test set 13 | research corpus 2,475
+- Mathematical Structure: test set 4 | research corpus 574
+- Quantum Probability: test set 7 | research corpus 126
+- Life And Consciousness: test set 9 | research corpus 5,276
+- Meaning And Logos: test set 13 | research corpus 5,977
+- Moral Response: test set 20 | research corpus 2,242
+- Worship And Community: test set 31 | research corpus 1,066
+- Transformation: test set 26 | research corpus 2,051
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 38
-- Communal Practice: 24
-- Alienation And Lament: 17
-- Transformation And Hope: 13
-- Moral Confrontation: 11
+- Creation And Order: 46
+- Communal Practice: 27
+- Alienation And Lament: 20
+- Transformation And Hope: 16
+- Moral Confrontation: 12
 - Desire And Longing: 3
 
 Per-Test Findings
@@ -320,6 +320,27 @@ Recommendations:
 - Add physicist-authored sources before making quantum or science-related claims.
 - Add rival natural, psychological, social, or comparative explanations.
 
+moral_injury_no_clear_repair_test.md
+------------------------------------
+Words: 97
+Meaning confidence: context-supported pattern
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Practical Case Study: 2
+- Disconfirming Failure Condition: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+- Injustice And Corruption: 1
+Meaning arc:
+- Opening: Communal Practice (1)
+- Middle: Creation And Order (1)
+- Ending: Creation And Order (1)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add physicist-authored sources before making quantum or science-related claims.
+- Add rival natural, psychological, social, or comparative explanations.
+
 non_christian_comparison_test.md
 --------------------------------
 Words: 50
@@ -337,6 +358,26 @@ Recommendations:
 - Add physicist-authored sources before making quantum or science-related claims.
 - Add concrete daily-life case studies so the pattern can be used, not just admired.
 - Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+ecological_loss_no_restoration_test.md
+--------------------------------------
+Words: 85
+Meaning confidence: plausible meaning pattern
+Test confidence: resilient under pressure
+Hold assessment: does not hold yet under this friction
+Pressure signals:
+- Disconfirming Failure Condition: 3
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+- Practical Case Study: 1
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (3)
+- Ending: Creation And Order (2)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add physicist-authored sources before making quantum or science-related claims.
 - Add rival natural, psychological, social, or comparative explanations.
 
 daily_life_case_study_test.md

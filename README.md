@@ -47,6 +47,52 @@ psychology, other religious texts, modern literature, human stories, deep
 sources, and pressure tests. These routes are triage hints, not evidence
 approval.
 
+The collector also assigns automated evidence labels:
+
+```text
+strong_scholarly_candidate
+moderate_scholarly_candidate
+weak_scholarly_candidate
+do_not_strengthen_claim
+```
+
+These labels are based on scholarly metadata signals such as provider, DOI,
+author/year metadata, source type, citation count when available, corroborating
+routed sources, counterargument language, and overclaim risk. They estimate
+evidence confidence; they do not declare absolute truth.
+
+### Broad Web Search
+
+By default, the collector searches scholarly/indexed sources:
+
+```text
+Crossref
+OpenAlex
+arXiv
+```
+
+It can also search the broader web when repository secrets are configured.
+The fully-free option is SearXNG:
+
+```text
+SEARXNG_BASE_URL
+```
+
+`SEARXNG_BASE_URL` should point to a SearXNG instance with JSON results enabled,
+for example a self-hosted instance. Public instances may disable JSON or rate
+limit automation, so self-hosting is the most reliable free path.
+
+Paid or free-credit API options can also be configured:
+
+```text
+BING_SEARCH_API_KEY
+BRAVE_SEARCH_API_KEY
+```
+
+Open-web results are stored as metadata and snippets only. They are scored more
+cautiously than scholarly sources, and they need trusted-domain signals or
+corroboration before they can strengthen a claim.
+
 ## GitHub
 
 The GitHub Actions workflow is in:

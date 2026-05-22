@@ -10,6 +10,8 @@ It stores summaries and citations only, not full copyrighted source text.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.1163/9789004266032_004
 
 No summary available in metadata.
@@ -21,6 +23,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.14421/rejusta.2017.1302-01
 
 OpenAlex abstract metadata available.
@@ -32,6 +36,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.2307/j.ctt3fgqdw.10
 
 No summary available in metadata.
@@ -43,6 +49,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 225
 - URL: http://hdl.handle.net/1842/10289
 
 OpenAlex abstract metadata available.
@@ -54,6 +62,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.2307/j.ctv27tct7n.8
 
 No summary available in metadata.
@@ -65,6 +75,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.2307/j.ctt1tm7j2q.6
 
 No summary available in metadata.
@@ -76,6 +88,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 267
 - URL: https://doi.org/10.4102/ve.v44i1.2711
 
 OpenAlex abstract metadata available.
@@ -87,6 +101,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.2307/j.ctt1cgf175.11
 
 No summary available in metadata.
@@ -98,6 +114,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 225
 - URL: https://www.etsjets.org/files/JETS-PDFs/40/40-1/40-1-pp057-068_JETS.pdf
 
 OpenAlex abstract metadata available.
@@ -109,6 +127,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 225
 - URL: https://ixtheo.de/Record/1645122360
 
 OpenAlex abstract metadata available.
@@ -120,6 +140,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.1111/j.1468-2400.2009.00470.x
 
 OpenAlex abstract metadata available.
@@ -131,6 +153,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.46965/jtc.v3i1.249
 
 OpenAlex abstract metadata available.
@@ -142,6 +166,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.5040/9781978720497.ch-1
 
 No summary available in metadata.
@@ -153,6 +179,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.46362/quaerens.v7i1.301
 
 OpenAlex abstract metadata available.
@@ -164,6 +192,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.5040/9780567690289.ch-001
 
 No summary available in metadata.
@@ -175,6 +205,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 225
 - URL: http://hdl.handle.net/1842/7821
 
 OpenAlex abstract metadata available.
@@ -186,6 +218,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.5040/9780567690289.ch-005
 
 No summary available in metadata.
@@ -197,6 +231,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.1093/oso/9780195086003.003.0003
 
 Abstract By and large, sufficient attention has not been given in assessments of Calvin’s thought to
@@ -213,6 +249,8 @@ divorce consideration of his doctrine from examination of his life and ministry,
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.1111/j.1758-6623.2010.00092.x
 
 OpenAlex abstract metadata available.
@@ -224,6 +262,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.2307/j.ctv1hztrfz.20
 
 No summary available in metadata.
@@ -235,6 +275,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.1163/9789004266032_003
 
 No summary available in metadata.
@@ -246,6 +288,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.2307/j.ctt3fgqdw.7
 
 No summary available in metadata.
@@ -257,6 +301,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.1017/9781009293105
 
 OpenAlex abstract metadata available.
@@ -268,6 +314,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.1163/9789004266032_007
 
 No summary available in metadata.
@@ -279,6 +327,8 @@ No summary available in metadata.
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.1111/j.1540-6385.2007.00334.x
 
 OpenAlex abstract metadata available.
@@ -290,6 +340,8 @@ OpenAlex abstract metadata available.
 - Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 225
 - URL: https://doi.org/10.5040/9780567677167.ch-008
 
 No summary available in metadata.
@@ -301,6 +353,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.1177/002234097803200404
 
 No summary available in metadata.
@@ -312,6 +366,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.5040/9781978720480.ch-2
 
 No summary available in metadata.
@@ -323,6 +379,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 294
 - URL: https://doi.org/10.3389/fpsyt.2018.00619
 
 OpenAlex abstract metadata available.
@@ -334,6 +392,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.1080/10649867.2025.2607257
 
 No summary available in metadata.
@@ -345,6 +405,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 294
 - URL: https://doi.org/10.1080/1756073x.2018.1500163
 
 No summary available in metadata.
@@ -356,6 +418,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.4324/9781315808499-21
 
 No summary available in metadata.
@@ -367,6 +431,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.1080/1756073x.2023.2277004
 
 No summary available in metadata.
@@ -378,6 +444,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 282
 - URL: https://doi.org/10.1371/journal.pone.0049648
 
 OpenAlex abstract metadata available.
@@ -389,6 +457,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.3390/rel16091213
 
 OpenAlex abstract metadata available.
@@ -400,6 +470,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.1080/1756073x.2019.1707458
 
 No summary available in metadata.
@@ -411,6 +483,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 246
 - URL: http://hdl.handle.net/10019.1/6511
 
 OpenAlex abstract metadata available.
@@ -422,6 +496,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 305
 - URL: http://hdl.handle.net/11394/3272
 
 OpenAlex abstract metadata available.
@@ -433,6 +509,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 294
 - URL: https://doi.org/10.1080/13520806.2000.11758892
 
 No summary available in metadata.
@@ -444,6 +522,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 271
 - URL: https://doi.org/10.1007/s11089-018-0851-z
 
 No summary available in metadata.
@@ -455,6 +535,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.5040/9781682661109
 
 OpenAlex abstract metadata available.
@@ -466,6 +548,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 252
 - URL: https://doi.org/10.5952/52-0-39
 
 OpenAlex abstract metadata available.
@@ -477,6 +561,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 282
 - URL: https://doi.org/10.1515/ijpt-2012-0018
 
 Abstract The command to pray invites believers to critically engage with their broken reality with a
@@ -495,6 +581,8 @@ practical theology, offer
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.1179/jpt.2003.13.1.005
 
 No summary available in metadata.
@@ -506,6 +594,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.1007/s11089-014-0616-2
 
 No summary available in metadata.
@@ -517,6 +607,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.1080/1756073x.2018.1459119
 
 No summary available in metadata.
@@ -528,6 +620,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 272
 - URL: https://doi.org/10.4324/9781315605364-9
 
 No summary available in metadata.
@@ -539,6 +633,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 273
 - URL: https://doi.org/10.1017/s084182090000432x
 
 OpenAlex abstract metadata available.
@@ -550,6 +646,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 282
 - URL: https://doi.org/10.1177/002234099404800207
 
 Discusses the complex issues of Christianity's perspectives and theologies regarding the death of
@@ -562,6 +660,8 @@ children and illustrates how such contemplations get expressed in particular pas
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 252
 - URL: https://doi.org/10.26530/oapen_628783
 
 OpenAlex abstract metadata available.
@@ -573,6 +673,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.1080/1756073x.2020.1861403
 
 OpenAlex abstract metadata available.
@@ -584,6 +686,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.4324/9781315808499-18
 
 No summary available in metadata.
@@ -595,6 +699,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.4102/hts.v72i1.3511
 
 OpenAlex abstract metadata available.
@@ -606,6 +712,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.1093/acprof:oso/9780199351848.003.0002
 
 No summary available in metadata.
@@ -617,6 +725,8 @@ No summary available in metadata.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.3390/rel10030213
 
 OpenAlex abstract metadata available.
@@ -628,6 +738,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 246
 - URL: https://doi.org/10.20378/irb-48992
 
 OpenAlex abstract metadata available.
@@ -639,6 +751,8 @@ OpenAlex abstract metadata available.
 - Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 322
 - URL: https://doi.org/10.2307/3684627
 
 OpenAlex abstract metadata available.
@@ -650,6 +764,8 @@ OpenAlex abstract metadata available.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1075/dapsac.23.15gra
 
 No summary available in metadata.
@@ -661,6 +777,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 94
 - URL: https://philpapers.org/rec/SMAAUF-2
 
 OpenAlex abstract metadata available.
@@ -672,6 +790,8 @@ OpenAlex abstract metadata available.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.2307/j.ctv6gqs2k.28
 
 No summary available in metadata.
@@ -683,6 +803,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1177/0040571x9910200613
 
 No summary available in metadata.
@@ -694,6 +816,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Corroborating routed candidates: 149
 - URL: https://doi.org/10.1163/2773-1952_hcso_com_0310
 
 No summary available in metadata.
@@ -705,6 +829,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1075/prag.21.4.01bre
 
 OpenAlex abstract metadata available.
@@ -716,6 +842,8 @@ OpenAlex abstract metadata available.
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1007/978-1-137-08286-2_3
 
 OpenAlex abstract metadata available.
@@ -727,6 +855,8 @@ OpenAlex abstract metadata available.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.4324/9780203290903_chapter_10
 
 No summary available in metadata.
@@ -738,6 +868,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1093/litthe/frp043
 
 No summary available in metadata.
@@ -749,6 +881,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 146
 - URL: https://doi.org/10.5117/9789053563069
 
 OpenAlex abstract metadata available.
@@ -760,6 +894,8 @@ OpenAlex abstract metadata available.
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1111/1467-9655.12000
 
 OpenAlex abstract metadata available.
@@ -771,6 +907,8 @@ OpenAlex abstract metadata available.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1075/pbns.32.08lak
 
 No summary available in metadata.
@@ -782,6 +920,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.4324/9780203047750-8
 
 No summary available in metadata.
@@ -793,6 +933,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.4324/9780203047750
 
 No summary available in metadata.
@@ -804,6 +946,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1163/157006802760198776
 
 OpenAlex abstract metadata available.
@@ -815,6 +959,8 @@ OpenAlex abstract metadata available.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1515/9781552384671-026
 
 No summary available in metadata.
@@ -826,6 +972,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.4324/9780203047750-11
 
 No summary available in metadata.
@@ -837,6 +985,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.2139/ssrn.6623278
 
 The aim of this study is to develop an approach (methodology) for teaching the translation of color
@@ -855,6 +1005,8 @@ translation of
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.4324/9780203290903_chapter_8
 
 No summary available in metadata.
@@ -866,6 +1018,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1037/h0055737
 
 OpenAlex abstract metadata available.
@@ -877,6 +1031,8 @@ OpenAlex abstract metadata available.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.4324/9780203102893-45
 
 No summary available in metadata.
@@ -888,6 +1044,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.1016/b0-08-044854-2/00486-7
 
 No summary available in metadata.
@@ -899,6 +1057,8 @@ No summary available in metadata.
 - Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Corroborating routed candidates: 94
 - URL: https://doi.org/10.4324/9781315760018
 
 OpenAlex abstract metadata available.

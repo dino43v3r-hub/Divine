@@ -5409,6 +5409,7 @@ def create_daily_pattern_developments(digest):
     """Turn new daily sources into evolving candidate pattern language."""
     new_sources = digest.get("new_sources", [])
     layer_counts = Counter(digest.get("new_layer_counts", {}))
+    evidence_counts = Counter(digest.get("new_automated_evidence_counts", {}))
     tag_counts = Counter(
         tag
         for source in new_sources
@@ -5463,6 +5464,10 @@ def create_daily_pattern_developments(digest):
 
     if not developments and new_sources:
         developments.append("New candidate sources arrived today, but no dominant pattern family emerged yet. Review titles and summaries manually before increasing confidence.")
+    if evidence_counts.get("strong_scholarly_candidate", 0):
+        developments.append("Strong scholarly candidates arrived today; use them only for claim-scoped confidence, not absolute proof.")
+    if evidence_counts.get("do_not_strengthen_claim", 0):
+        developments.append("Some candidates should not strengthen claims yet; keep them as questions or counter-readings.")
     if not new_sources:
         developments.append("No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.")
 
@@ -5484,6 +5489,7 @@ def create_divine_pattern_summary_report(
     daily_tag_counts, daily_layer_counts, daily_quality_counts, daily_developments = create_daily_pattern_developments(
         daily_digest
     )
+    daily_evidence_counts = Counter(daily_digest.get("new_automated_evidence_counts", {}))
     research_layer_counts = combine_layer_counts(research_analyses)
     music_meaning_counts = combine_meaning_context_counts(music_analyses)
     cultural_meaning_counts = combine_meaning_context_counts(cultural_analyses)
@@ -5564,6 +5570,13 @@ def create_divine_pattern_summary_report(
     else:
         lines.append("- No new source-quality mix available for the latest run.")
 
+    lines.extend(["", "New material automated evidence:"])
+    if daily_evidence_counts:
+        for label, count in daily_evidence_counts.most_common():
+            lines.append(f"- {label}: {count:,}")
+    else:
+        lines.append("- No new automated evidence scores available for the latest run.")
+
     new_sources = daily_digest.get("new_sources", [])
     lines.extend(["", "Newest sources to review:"])
     if new_sources:
@@ -5571,7 +5584,7 @@ def create_divine_pattern_summary_report(
             tags = ", ".join(source.get("tags", []))
             routes = ", ".join(source.get("layer_routes", []))
             lines.append(
-                f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'}) | tags: {tags} | layers: {routes} | {source.get('quality', 'unknown')}"
+                f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'}) | tags: {tags} | layers: {routes} | evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})"
             )
     else:
         lines.append("- No brand-new sources to review from the latest collector run.")
@@ -5730,13 +5743,13 @@ def create_divine_pattern_summary_report(
             "",
             "Next Actions",
             "------------",
-            "1. Add more actual theologian source material across eras.",
-            "2. Add visual art, history, world-language, biblical Greek/Hebrew, all-texts, and psychology notes for cross-layer synthesis.",
-            "3. Expand language-family and text-tradition coverage before calling a pattern universal.",
-            "4. Add harder unresolved-suffering case studies.",
-            "5. Add qualified quantum/science references and counterarguments.",
-            "6. Review daily cloud references before treating them as strong evidence.",
-            "7. Keep refining the pattern only where it survives pressure.",
+            "1. Deepen theologian source notes with primary-text references and disagreements across eras.",
+            "2. Keep adding source-specific visual art, history, language, biblical-language, all-texts, and psychology notes for cross-layer synthesis.",
+            "3. Treat language-family and text-tradition coverage as mapped but not universal until actual source notes and counter-readings are broad enough.",
+            "4. Continue adding harder unresolved-suffering case studies, especially where repair remains absent.",
+            "5. Keep qualified quantum/science references paired with counterarguments and narrow allowed conclusions.",
+            "6. Review routed daily cloud references before promoting any candidate to strong evidence.",
+            "7. Revise or weaken the pattern wherever pressure tests show it does not hold.",
         ]
     )
 

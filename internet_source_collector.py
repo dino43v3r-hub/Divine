@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import textwrap
 import urllib.parse
@@ -18,6 +19,31 @@ DAILY_DIGEST_PATH = REFERENCES_DIR / "daily_research_digest.json"
 FINDINGS_REPORT_PATH = REPORTS_DIR / "cloud_research_findings_report.txt"
 CLOUD_SUMMARY_PATH = RESEARCH_DIR / "cloud_references_summary.md"
 DAILY_EVALUATION_QUEUE_PATH = RESEARCH_DIR / "daily_evaluation_queue.md"
+
+BING_WEB_SEARCH_ENDPOINT = "https://api.bing.microsoft.com/v7.0/search"
+BRAVE_WEB_SEARCH_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
+
+TRUSTED_OPEN_WEB_DOMAINS = [
+    ".edu",
+    ".gov",
+    ".ac.uk",
+    "archive.org",
+    "loc.gov",
+    "bl.uk",
+    "worldcat.org",
+    "jstor.org",
+    "plato.stanford.edu",
+    "iep.utm.edu",
+    "metmuseum.org",
+    "getty.edu",
+    "britishmuseum.org",
+    "louvre.fr",
+    "vatican.va",
+    "newadvent.org",
+    "ccel.org",
+    "sacred-texts.com",
+    "gutenberg.org",
+]
 
 
 QUERY_SETS = {
@@ -163,6 +189,16 @@ def fetch_json(url: str, timeout: int = 30):
         return json.loads(response.read().decode("utf-8", errors="replace"))
 
 
+def fetch_json_with_headers(url: str, headers: dict[str, str], timeout: int = 30):
+    request_headers = {
+        "User-Agent": "DivinePatternResearchBot/0.1 (metadata-only research collector)"
+    }
+    request_headers.update(headers)
+    request = urllib.request.Request(url, headers=request_headers)
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8", errors="replace"))
+
+
 def fetch_text(url: str, timeout: int = 30):
     request = urllib.request.Request(
         url,
@@ -215,11 +251,170 @@ def source_quality(source: dict):
         return "scholarly preprint"
     if "crossref" in provider.lower() or "openalex" in provider.lower():
         return "scholarly metadata"
+    if provider in {"Bing Web Search", "Brave Search", "SearXNG"}:
+        return "open web result"
     if source_type == "counterargument":
         return "counterargument"
     if any(term in text for term in ["maybe", "proof of god", "quantum proves"]):
         return "speculative-risk"
     return "reference metadata"
+
+
+def is_trusted_open_web_source(source: dict):
+    url = (source.get("url") or "").lower()
+    return any(domain in url for domain in TRUSTED_OPEN_WEB_DOMAINS)
+
+
+def source_text(source: dict):
+    return " ".join(
+        [
+            source.get("title", ""),
+            source.get("summary", ""),
+            " ".join(source.get("tags", [])),
+            source.get("source_type", ""),
+        ]
+    ).lower()
+
+
+def count_corroborating_sources(source: dict, sources: list[dict]):
+    """Count other scholarly candidates that share tags or routed layers."""
+    source_key = source.get("id") or source_id(source)
+    source_tags = set(source.get("tags", []))
+    source_layers = set(source.get("layer_routes", []))
+    corroborating = 0
+
+    for other in sources:
+        other_key = other.get("id") or source_id(other)
+        if other_key == source_key:
+            continue
+        if not {"Crossref", "OpenAlex", "arXiv"}.intersection({other.get("provider", "")}):
+            continue
+
+        shared_tags = source_tags.intersection(other.get("tags", []))
+        shared_layers = source_layers.intersection(other.get("layer_routes", []))
+        if shared_tags or shared_layers:
+            corroborating += 1
+
+    return corroborating
+
+
+def score_automated_evidence(source: dict, sources: list[dict]):
+    """Estimate evidence strength from metadata, corroboration, and risk signals."""
+    score = 0
+    reasons = []
+    warnings = []
+    provider = source.get("provider", "")
+    source_type = (source.get("source_type") or "").lower()
+    text = source_text(source)
+    citation_count = int(source.get("citation_count") or 0)
+    corroborating = count_corroborating_sources(source, sources)
+
+    if provider in {"Crossref", "OpenAlex"}:
+        score += 2
+        reasons.append("scholarly metadata provider")
+    elif provider == "arXiv":
+        score += 1
+        reasons.append("scholarly preprint provider")
+    elif provider in {"Bing Web Search", "Brave Search", "SearXNG"}:
+        score += 0
+        reasons.append("broad open-web search result")
+
+    if is_trusted_open_web_source(source):
+        score += 2
+        reasons.append("trusted archive, university, government, museum, library, or public-domain domain")
+
+    if source.get("doi"):
+        score += 2
+        reasons.append("DOI or stable scholarly identifier present")
+
+    if source.get("authors"):
+        score += 1
+        reasons.append("author metadata present")
+
+    if source.get("year"):
+        score += 1
+        reasons.append("publication year present")
+
+    if any(term in source_type for term in ["journal", "article", "book", "chapter", "proceedings"]):
+        score += 1
+        reasons.append("recognized scholarly source type")
+
+    if source.get("summary") and "no summary available" not in source.get("summary", "").lower():
+        score += 1
+        reasons.append("summary or abstract metadata available")
+
+    if citation_count >= 100:
+        score += 3
+        reasons.append("high citation signal")
+    elif citation_count >= 25:
+        score += 2
+        reasons.append("moderate citation signal")
+    elif citation_count > 0:
+        score += 1
+        reasons.append("some citation signal")
+
+    if corroborating >= 10:
+        score += 3
+        reasons.append("many routed corroborating candidates")
+    elif corroborating >= 3:
+        score += 2
+        reasons.append("several routed corroborating candidates")
+    elif corroborating > 0:
+        score += 1
+        reasons.append("at least one routed corroborating candidate")
+
+    if any(term in text for term in ["counterargument", "critique", "limitation", "overclaim"]):
+        score += 1
+        reasons.append("counterargument or limitation language present")
+
+    if any(term in text for term in ["proof of god", "quantum proves", "maybe", "possibly"]):
+        score -= 3
+        warnings.append("speculative or overclaim language detected")
+
+    if source.get("is_retracted"):
+        score -= 8
+        warnings.append("source metadata indicates retraction")
+
+    if provider == "arXiv":
+        warnings.append("preprint status: use cautiously until peer-reviewed or corroborated")
+    if provider in {"Bing Web Search", "Brave Search", "SearXNG"} and not is_trusted_open_web_source(source):
+        warnings.append("open-web result: require corroboration before strengthening claims")
+
+    if score >= 10:
+        label = "strong_scholarly_candidate"
+        use = "may increase confidence after claim-scope and counterargument checks"
+    elif score >= 7:
+        label = "moderate_scholarly_candidate"
+        use = "can support cautious working claims when corroborated"
+    elif score >= 4:
+        label = "weak_scholarly_candidate"
+        use = "use as a lead or question generator, not strong evidence"
+    else:
+        label = "do_not_strengthen_claim"
+        use = "do not use to increase confidence without stronger corroboration"
+
+    return {
+        "score": score,
+        "label": label,
+        "corroborating_source_count": corroborating,
+        "truth_assessment": label,
+        "evaluation_use": use,
+        "reasons": reasons[:8],
+        "warnings": warnings[:5],
+    }
+
+
+def add_automated_evidence(source: dict, sources: list[dict]):
+    assessment = score_automated_evidence(source, sources)
+    source["automated_evidence_score"] = assessment["score"]
+    source["automated_evidence_label"] = assessment["label"]
+    source["truth_assessment"] = assessment["truth_assessment"]
+    source["corroborating_source_count"] = assessment["corroborating_source_count"]
+    source["automated_evidence_reasons"] = assessment["reasons"]
+    source["automated_evidence_warnings"] = assessment["warnings"]
+    source["evaluation_use"] = assessment["evaluation_use"]
+    source["review_status"] = f"machine_assessed_{assessment['label']}"
+    return source
 
 
 def route_layers_for_source(source: dict):
@@ -336,6 +531,8 @@ def search_openalex(query: str, tag: str, limit: int = 5):
                 "doi": item.get("doi", ""),
                 "provider": "OpenAlex",
                 "source_type": item.get("type", "scholarly metadata"),
+                "citation_count": item.get("cited_by_count", 0),
+                "is_retracted": item.get("is_retracted", False),
                 "tags": [tag],
                 "summary": clean_text(item.get("abstract_inverted_index") and "OpenAlex abstract metadata available."),
                 "copyright_note": "Metadata only; do not store full copyrighted text.",
@@ -391,6 +588,117 @@ def search_arxiv(query: str, tag: str, limit: int = 5):
     return results
 
 
+def web_source_from_result(result: dict, provider: str, tag: str):
+    title = result.get("name") or result.get("title") or ""
+    url = result.get("url") or result.get("link") or ""
+    summary = result.get("snippet") or result.get("description") or ""
+    if not title or not url:
+        return None
+
+    return {
+        "title": clean_text(title, 250),
+        "authors": [],
+        "year": None,
+        "url": url,
+        "doi": "",
+        "provider": provider,
+        "source_type": "open web result",
+        "tags": [tag],
+        "summary": clean_text(summary),
+        "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+        "review_status": "unreviewed_web_candidate",
+        "evaluation_use": "open web lead only until corroborated by scholarly or trusted sources",
+        "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+    }
+
+
+def search_bing_web(query: str, tag: str, limit: int = 5):
+    api_key = os.getenv("BING_SEARCH_API_KEY")
+    if not api_key:
+        return []
+
+    url = BING_WEB_SEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
+        {
+            "q": query,
+            "count": str(limit),
+            "responseFilter": "Webpages",
+            "safeSearch": "Moderate",
+            "textFormat": "Raw",
+        }
+    )
+    payload = fetch_json_with_headers(url, {"Ocp-Apim-Subscription-Key": api_key})
+    results = []
+
+    for item in payload.get("webPages", {}).get("value", []):
+        source = web_source_from_result(item, "Bing Web Search", tag)
+        if source:
+            results.append(source)
+
+    return results
+
+
+def search_brave_web(query: str, tag: str, limit: int = 5):
+    api_key = os.getenv("BRAVE_SEARCH_API_KEY")
+    if not api_key:
+        return []
+
+    url = BRAVE_WEB_SEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
+        {
+            "q": query,
+            "count": str(limit),
+            "safesearch": "moderate",
+            "text_decorations": "false",
+        }
+    )
+    payload = fetch_json_with_headers(
+        url,
+        {
+            "Accept": "application/json",
+            "X-Subscription-Token": api_key,
+        },
+    )
+    results = []
+
+    for item in payload.get("web", {}).get("results", []):
+        source = web_source_from_result(item, "Brave Search", tag)
+        if source:
+            results.append(source)
+
+    return results
+
+
+def search_searxng_web(query: str, tag: str, limit: int = 5):
+    base_url = os.getenv("SEARXNG_BASE_URL", "").rstrip("/")
+    if not base_url:
+        return []
+
+    url = base_url + "/search?" + urllib.parse.urlencode(
+        {
+            "q": query,
+            "format": "json",
+            "categories": "general",
+        }
+    )
+    payload = fetch_json(url)
+    results = []
+
+    for item in payload.get("results", [])[:limit]:
+        source = web_source_from_result(
+            {
+                "title": item.get("title", ""),
+                "url": item.get("url", ""),
+                "description": item.get("content", ""),
+            },
+            "SearXNG",
+            tag,
+        )
+        if source:
+            source["source_type"] = "open web result via SearXNG"
+            results.append(source)
+
+    return results
+
+
 def collect_sources():
     existing = read_json(REFERENCES_PATH, {"sources": []})
     sources_by_id = {source_id(source): source for source in existing.get("sources", []) if source_id(source)}
@@ -399,12 +707,19 @@ def collect_sources():
     new_count = 0
     new_sources = []
     errors = []
+    broad_web_enabled = bool(
+        os.getenv("BING_SEARCH_API_KEY")
+        or os.getenv("BRAVE_SEARCH_API_KEY")
+        or os.getenv("SEARXNG_BASE_URL")
+    )
 
     for tag, queries in QUERY_SETS.items():
         for query in queries:
             collectors = [search_crossref, search_openalex]
             if "quantum" in tag or "science" in tag or "music_math" in tag:
                 collectors.append(search_arxiv)
+            if broad_web_enabled:
+                collectors.extend([search_bing_web, search_brave_web, search_searxng_web])
 
             for collector in collectors:
                 try:
@@ -420,14 +735,26 @@ def collect_sources():
         add_layer_routing(source)
 
     sources = sorted(sources_by_id.values(), key=lambda item: (item.get("tags", []), item.get("title", "")))
+    for source in sources:
+        add_automated_evidence(source, sources)
+    for source in new_sources:
+        source_key = source.get("id") or source_id(source)
+        if source_key in sources_by_id:
+            source.update(sources_by_id[source_key])
     layer_counts = {}
     new_layer_counts = {}
+    evidence_counts = {}
+    new_evidence_counts = {}
     for source in sources:
         for layer in source.get("layer_routes", []):
             layer_counts[layer] = layer_counts.get(layer, 0) + 1
+        label = source.get("automated_evidence_label", "not_scored")
+        evidence_counts[label] = evidence_counts.get(label, 0) + 1
     for source in new_sources:
         for layer in source.get("layer_routes", []):
             new_layer_counts[layer] = new_layer_counts.get(layer, 0) + 1
+        label = source.get("automated_evidence_label", "not_scored")
+        new_evidence_counts[label] = new_evidence_counts.get(label, 0) + 1
     run_at = datetime.now(timezone.utc).isoformat()
     save_json(
         REFERENCES_PATH,
@@ -445,6 +772,8 @@ def collect_sources():
             "new_sources": new_sources,
             "layer_counts": layer_counts,
             "new_layer_counts": new_layer_counts,
+            "automated_evidence_counts": evidence_counts,
+            "new_automated_evidence_counts": new_evidence_counts,
             "errors": errors,
         },
     )
@@ -458,6 +787,7 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
     tag_counts = {}
     quality_counts = {}
     layer_counts = {}
+    evidence_counts = {}
     for source in sources:
         for tag in source.get("tags", []):
             tag_counts[tag] = tag_counts.get(tag, 0) + 1
@@ -465,6 +795,8 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
             layer_counts[layer] = layer_counts.get(layer, 0) + 1
         quality = source.get("quality", "unknown")
         quality_counts[quality] = quality_counts.get(quality, 0) + 1
+        evidence_label = source.get("automated_evidence_label", "not_scored")
+        evidence_counts[evidence_label] = evidence_counts.get(evidence_label, 0) + 1
 
     lines = [
         "Cloud Research Findings Report",
@@ -484,11 +816,27 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
         "Reference Tags",
         "--------------",
     ]
+    if os.getenv("BING_SEARCH_API_KEY") or os.getenv("BRAVE_SEARCH_API_KEY") or os.getenv("SEARXNG_BASE_URL"):
+        lines.extend(
+            [
+                "Broad web search: enabled",
+                "",
+            ]
+        )
+    else:
+        lines.extend(
+            [
+                "Broad web search: not enabled; set SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.",
+                "",
+            ]
+        )
     lines.extend(f"- {tag}: {count:,}" for tag, count in sorted(tag_counts.items()))
     lines.extend(["", "Layer Routes", "------------"])
     lines.extend(f"- {layer}: {count:,}" for layer, count in sorted(layer_counts.items()))
     lines.extend(["", "Quality Counts", "--------------"])
     lines.extend(f"- {quality}: {count:,}" for quality, count in sorted(quality_counts.items()))
+    lines.extend(["", "Automated Evidence Counts", "-------------------------"])
+    lines.extend(f"- {label}: {count:,}" for label, count in sorted(evidence_counts.items()))
 
     new_tag_counts = {}
     new_layer_counts = {}
@@ -519,6 +867,9 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
             lines.append(f"  Tags: {tags}")
             lines.append(f"  Layer routes: {routes}")
             lines.append(f"  Source: {source.get('provider')} | {source.get('quality')}")
+            lines.append(
+                f"  Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})"
+            )
             if source.get("url"):
                 lines.append(f"  URL: {source['url']}")
     else:
@@ -532,6 +883,9 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
         lines.append(f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'})")
         lines.append(f"  Tags: {tags}")
         lines.append(f"  Layer routes: {routes}")
+        lines.append(
+            f"  Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})"
+        )
         if authors:
             lines.append(f"  Authors: {authors}")
         lines.append(f"  Source: {source.get('provider')} | {source.get('quality')}")
@@ -563,6 +917,8 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
                 f"- Primary layer: {source.get('primary_layer', 'research_documents')}",
                 f"- Provider: {source.get('provider')}",
                 f"- Quality: {source.get('quality')}",
+                f"- Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})",
+                f"- Corroborating routed candidates: {source.get('corroborating_source_count', 0)}",
                 f"- URL: {source.get('url')}",
                 "",
                 textwrap.fill(summary, width=100),
@@ -603,10 +959,26 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
                 f"- Primary layer: {source.get('primary_layer', 'research_documents')}",
                 f"- Provider: {source.get('provider')}",
                 f"- Quality: {source.get('quality')}",
+                f"- Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})",
+                f"- Truth assessment: {source.get('truth_assessment', 'not_scored')}",
+                f"- Corroborating routed candidates: {source.get('corroborating_source_count', 0)}",
                 f"- Year: {source.get('year') or 'n.d.'}",
                 f"- URL: {source.get('url')}",
                 "",
                 textwrap.fill(summary, width=100),
+                "",
+                "Automated evidence reasons:",
+            ]
+        )
+        for reason in source.get("automated_evidence_reasons", [])[:6]:
+            queue_lines.append(f"- {reason}")
+        if source.get("automated_evidence_warnings"):
+            queue_lines.append("")
+            queue_lines.append("Automated evidence warnings:")
+            for warning in source.get("automated_evidence_warnings", [])[:4]:
+                queue_lines.append(f"- {warning}")
+        queue_lines.extend(
+            [
                 "",
                 "Layer review prompts:",
             ]

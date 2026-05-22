@@ -15,35 +15,35 @@ Status: source-supported
 Area signal: 16
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
-- Scripture/Theology: present (11)
+- Scripture/Theology: present (13)
 - Pastoral/Clinical: present (12)
 - Lived Case: present (8)
-- Counterargument: present (12)
+- Counterargument: present (16)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 58
+Area signal: 74
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
-- Physicist/Primary Science: present (22)
-- Peer-Reviewed/Academic: present (10)
-- Philosophy Of Science: present (29)
-- Counterargument: present (12)
+- Physicist/Primary Science: present (26)
+- Peer-Reviewed/Academic: present (11)
+- Philosophy Of Science: present (37)
+- Counterargument: present (16)
 
 All Source-Type Signals
 -----------------------
-- Philosophy Of Science: 29
-- Physicist/Primary Science: 22
+- Philosophy Of Science: 37
+- Physicist/Primary Science: 26
+- Counterargument: 16
+- Scripture/Theology: 13
 - Pastoral/Clinical: 12
-- Counterargument: 12
-- Scripture/Theology: 11
-- Peer-Reviewed/Academic: 10
+- Peer-Reviewed/Academic: 11
 - Lived Case: 8
 
 Quality And Risk Markers
 ------------------------
-- Scholarly Or Scientific Source: 17
+- Scholarly Or Scientific Source: 18
 - Practical Lived Source: 12
 - Speculative Source: 3
 - Primary Or Classical Source: 2
@@ -86,6 +86,18 @@ Source types:
 - Physicist/Primary Science: 8
 - Counterargument: 4
 - Peer-Reviewed/Academic: 4
+
+science_counterargument_matrix.md
+---------------------------------
+Words: 214
+Area scores:
+- Quantum And Science Claims: source-supported (16)
+Source types:
+- Philosophy Of Science: 8
+- Counterargument: 4
+- Physicist/Primary Science: 4
+- Scripture/Theology: 2
+- Peer-Reviewed/Academic: 1
 
 science_counterarguments_and_limits.md
 --------------------------------------

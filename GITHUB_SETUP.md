@@ -65,6 +65,34 @@ Node.js 24 runtime ahead of GitHub's default switch. Keep
 `python-version: "3.12"` for the analyzer; that setting is separate from the
 GitHub Actions Node.js runtime.
 
+## Optional Broad Web Search
+
+The collector always searches scholarly/indexed sources through Crossref,
+OpenAlex, and arXiv.
+
+For a free broad-web option, use SearXNG. Add this repository secret:
+
+```text
+SEARXNG_BASE_URL
+```
+
+Set it to the base URL of a SearXNG instance with JSON search enabled, such as a
+self-hosted instance. Public SearXNG instances may block automation or disable
+JSON, so self-hosting is the most reliable no-cost route.
+
+Paid or free-credit search APIs can also be added as repository secrets:
+
+```text
+BING_SEARCH_API_KEY
+BRAVE_SEARCH_API_KEY
+```
+
+The workflow passes these values to `internet_source_collector.py`. If none are
+configured, broad web search is skipped and the workflow still succeeds.
+Open-web results are treated as weaker than scholarly results unless they come
+from trusted archives, universities, government, museums, libraries, or are
+corroborated by other routed sources.
+
 ## Option 3: Command Line Later
 
 If Git is installed later, run:

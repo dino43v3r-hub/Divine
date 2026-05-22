@@ -8,45 +8,45 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 6
-Total theologian words analyzed: 1,219
+Theologian documents analyzed: 7
+Total theologian words analyzed: 1,753
 
 Era Coverage
 ------------
-- Patristic: 20
-- Medieval: 15
-- Reformation: 9
-- Modern: 16
-- Contemporary: 14
+- Patristic: 27
+- Medieval: 16
+- Reformation: 12
+- Modern: 20
+- Contemporary: 17
 
 Concept Coverage
 ----------------
-- Christology: 36
-- Theodicy And Suffering: 32
-- Creation: 28
-- Grace And Transformation: 23
-- Trinity: 17
-- Church And Practice: 17
-- Justice And Public Life: 16
-- Pneumatology: 10
+- Christology: 53
+- Creation: 43
+- Theodicy And Suffering: 42
+- Grace And Transformation: 37
+- Church And Practice: 22
+- Trinity: 21
+- Justice And Public Life: 21
+- Pneumatology: 15
 
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 62
-- Son: 42
-- Holy Spirit: 14
+- Father: 75
+- Son: 61
+- Holy Spirit: 21
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 29 | broader corpus 2,471
-- Mathematical Structure: theologians 0 | broader corpus 572
-- Quantum Probability: theologians 0 | broader corpus 119
-- Life And Consciousness: theologians 11 | broader corpus 5,272
-- Meaning And Logos: theologians 23 | broader corpus 5,848
-- Moral Response: theologians 21 | broader corpus 2,240
-- Worship And Community: theologians 31 | broader corpus 1,065
-- Transformation: theologians 46 | broader corpus 2,043
+- Physical Order: theologians 44 | broader corpus 2,475
+- Mathematical Structure: theologians 0 | broader corpus 574
+- Quantum Probability: theologians 0 | broader corpus 126
+- Life And Consciousness: theologians 16 | broader corpus 5,276
+- Meaning And Logos: theologians 33 | broader corpus 5,977
+- Moral Response: theologians 25 | broader corpus 2,242
+- Worship And Community: theologians 40 | broader corpus 1,066
+- Transformation: theologians 72 | broader corpus 2,051
 
 Per-Source Findings
 -------------------
@@ -116,6 +116,17 @@ Meaning arc:
 - Opening: Creation And Order (3)
 - Middle: Creation And Order (4)
 - Ending: Desire And Longing (2)
+
+source_specific_theologian_review_notes.md
+------------------------------------------
+Words: 534
+Strongest era signal: Patristic (7)
+Strongest concept signal: Christology (17)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Creation And Order (11)
+- Middle: Creation And Order (13)
+- Ending: Creation And Order (9)
 
 Pattern Design Guidance
 -----------------------
