@@ -1,5 +1,5 @@
 {
-  "source_count": 375,
+  "source_count": 376,
   "sources": [
     {
       "authors": [],
@@ -2866,6 +2866,27 @@
       "title": "MUSIC for Single-Snapshot Spectral Estimation: Stability and Super-resolution",
       "url": "http://arxiv.org/abs/1404.1484v2",
       "year": "2014"
+    },
+    {
+      "authors": [
+        "Gabriela Ilnitchi"
+      ],
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "date_accessed": "2026-05-22",
+      "doi": "https://doi.org/10.1017/s0261127902002024",
+      "evaluation_use": "candidate lead only until original source review and counterargument check",
+      "id": "https://doi.org/10.1017/s0261127902002024",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "unreviewed_daily_candidate",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "music_math"
+      ],
+      "title": "MUSICA MUNDANA , ARISTOTELIAN NATURAL PHILOSOPHY AND PTOLEMAIC ASTRONOMY",
+      "url": "https://doi.org/10.1017/s0261127902002024",
+      "year": 2002
     },
     {
       "authors": [
@@ -7498,5 +7519,5 @@
       "year": 2014
     }
   ],
-  "updated_at": "2026-05-21T20:27:38.935736+00:00"
+  "updated_at": "2026-05-22T17:27:54.944667+00:00"
 }

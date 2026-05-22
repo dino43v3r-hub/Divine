@@ -7,14 +7,14 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Simultaneous consonance in music perception and composition.
+### MUSICA MUNDANA , ARISTOTELIAN NATURAL PHILOSOPHY AND PTOLEMAIC ASTRONOMY
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
 - Provider: OpenAlex
 - Quality: scholarly metadata
-- Year: 2019
-- URL: https://doi.org/10.1037/rev0000169
+- Year: 2002
+- URL: https://doi.org/10.1017/s0261127902002024
 
 OpenAlex abstract metadata available.

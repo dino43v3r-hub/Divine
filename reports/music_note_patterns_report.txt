@@ -66,7 +66,7 @@ Relevant Research Domains
 - Philosophy Of Mathematics: corpus signal 500
 - Physics And Quantum Mechanics: corpus signal 1,302
 - Philosophy Of Science: corpus signal 2,773
-- Cognitive Science: corpus signal 861
+- Cognitive Science: corpus signal 860
 - Anthropology And Psychology Of Worship: corpus signal 334
 
 Per-Composition Findings
