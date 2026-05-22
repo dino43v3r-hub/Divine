@@ -53,6 +53,16 @@ It runs every day at 14:00 UTC, collects new reference metadata, updates the
 daily evaluation queue, reruns the analyzer, opens a GitHub notification issue,
 and commits updated reports back to the repository.
 
+The workflow opts JavaScript-based GitHub Actions into Node.js 24 with:
+
+```yaml
+FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+```
+
+This addresses GitHub's Node.js 20 deprecation warning for actions such as
+`actions/checkout`, `actions/setup-python`, `actions/github-script`, and the
+auto-commit action. The analyzer itself still uses Python 3.12.
+
 ## Project Areas
 
 - `research_documents/`: theology, science, philosophy, and source notes

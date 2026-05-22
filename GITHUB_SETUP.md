@@ -4,12 +4,15 @@ This project is ready to upload to GitHub.
 
 ## What Is Already Set Up
 
-- `.github/workflows/weekly-cloud-research.yml`
-  - runs every Monday at 14:00 UTC
+- `.github/workflows/daily-cloud-research.yml`
+  - runs every day at 14:00 UTC
   - can also be run manually from the GitHub Actions tab
   - runs `internet_source_collector.py`
   - runs `divine_pattern_analyzer.py`
+  - builds a GitHub issue summary
+  - creates a daily notification issue
   - commits updated references and reports back to the repository
+  - opts JavaScript-based GitHub Actions into Node.js 24 with `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24`
 
 - `internet_source_collector.py`
   - collects metadata from Crossref, OpenAlex, and arXiv
@@ -33,7 +36,7 @@ This project is ready to upload to GitHub.
 4. Commit the upload.
 5. Go to the **Actions** tab.
 6. Enable workflows if GitHub asks.
-7. Open **Weekly Cloud Research**.
+7. Open **Daily Cloud Research**.
 8. Click **Run workflow**.
 
 ## Option 2: GitHub Desktop
@@ -46,6 +49,21 @@ This project is ready to upload to GitHub.
 
 4. Publish the repository to GitHub.
 5. Open the repository on GitHub and run the workflow from the **Actions** tab.
+
+## GitHub Actions Node.js 24
+
+GitHub is deprecating Node.js 20 for JavaScript-based actions. The workflow sets
+this environment variable:
+
+```yaml
+FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+```
+
+This opts actions such as `actions/checkout`, `actions/setup-python`,
+`actions/github-script`, and `stefanzweifel/git-auto-commit-action` into the
+Node.js 24 runtime ahead of GitHub's default switch. Keep
+`python-version: "3.12"` for the analyzer; that setting is separate from the
+GitHub Actions Node.js runtime.
 
 ## Option 3: Command Line Later
 
