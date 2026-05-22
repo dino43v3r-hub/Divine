@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-22T19:19:23.161501+00:00
+Generated: 2026-05-22T19:42:15.606382+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -34,7 +34,7 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-22T19:18:21.580033+00:00
+Daily collector updated: 2026-05-22T19:41:14.370717+00:00
 Brand-new candidate references this run: 0
 New candidate pattern movements:
 - No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.
@@ -42,13 +42,13 @@ New candidate pattern movements:
 New material by lane:
 - No new lanes grew in the latest collector run.
 
+New material by routed layer:
+- No routed layers grew in the latest collector run.
+
 New material quality mix:
 - No new source-quality mix available for the latest run.
 
-Newest sources to review:
-- No brand-new sources to review from the latest collector run.
-
-_Full report has 142 lines. Open the linked report above to read everything._
+_Full report has 145 lines. Open the linked report above to read everything._
 ```
 
 ## reports/cloud_research_findings_report.txt
@@ -57,7 +57,7 @@ _Full report has 142 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-22T19:18:21.586041+00:00
+Updated: 2026-05-22T19:41:14.379516+00:00
 Total references: 376
 New references this run: 0
 
@@ -73,7 +73,7 @@ Reference Tags
 - art_beauty: 31
 - biblical_languages: 28
 
-_Full report has 185 lines. Open the linked report above to read everything._
+_Full report has 238 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -91,14 +91,14 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 20
-Total analyzed words: 728,794
+Documents analyzed: 21
+Total analyzed words: 735,032
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 706 lines. Open the linked report above to read everything._
+_Full report has 721 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -217,7 +217,7 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 86
+Total documents across all lanes: 87
 Dedicated synthesis documents: 15
 Active divine-pattern layers: 8 of 8
 Active meaning contexts: 6 of 6
@@ -268,7 +268,7 @@ Overview
 --------
 Lyric documents analyzed: 13
 Total lyric words analyzed: 794
-Religious research documents used for comparison: 20
+Religious research documents used for comparison: 21
 
 Strongest Lyric Motifs
 ---------------------
@@ -318,10 +318,10 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
+- Layer routes: music_notes, deep_sources
+- Primary layer: music_notes
 - Provider: OpenAlex
 - Quality: scholarly metadata
-- Year: 2002
-- URL: https://doi.org/10.1017/s0261127902002024
 
-_Full report has 1,588 lines. Open the linked report above to read everything._
+_Full report has 2,406 lines. Open the linked report above to read everything._
 ```
