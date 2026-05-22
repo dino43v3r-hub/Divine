@@ -27,6 +27,12 @@
   "new_automated_evidence_counts": {},
   "new_count": 0,
   "new_layer_counts": {},
+  "new_provider_counts": {},
   "new_sources": [],
-  "updated_at": "2026-05-22T23:20:29.529481+00:00"
+  "run_provider_counts": {
+    "Crossref": 185,
+    "OpenAlex": 171,
+    "arXiv": 30
+  },
+  "updated_at": "2026-05-22T23:30:43.010398+00:00"
 }

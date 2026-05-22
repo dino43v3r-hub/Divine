@@ -24,6 +24,7 @@ DAILY_EVALUATION_QUEUE_PATH = RESEARCH_DIR / "daily_evaluation_queue.md"
 BING_WEB_SEARCH_ENDPOINT = "https://api.bing.microsoft.com/v7.0/search"
 BRAVE_WEB_SEARCH_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
 DEFAULT_SEARXNG_BASE_URL = "https://search.mdosch.de"
+OPEN_WEB_PROVIDERS = {"Bing Web Search", "Brave Search", "SearXNG"}
 
 TRUSTED_OPEN_WEB_DOMAINS = [
     ".edu",
@@ -244,6 +245,14 @@ def add_source(sources_by_id: dict, source: dict):
     add_layer_routing(source)
     sources_by_id[key] = source
     return True
+
+
+def count_by_provider(sources: list[dict]):
+    counts = {}
+    for source in sources:
+        provider = source.get("provider") or "unknown"
+        counts[provider] = counts.get(provider, 0) + 1
+    return counts
 
 
 def source_quality(source: dict):
@@ -713,6 +722,8 @@ def collect_sources():
     new_count = 0
     new_sources = []
     errors = []
+    run_provider_counts = {}
+    new_provider_counts = {}
     broad_web_enabled = bool(
         os.getenv("BING_SEARCH_API_KEY")
         or os.getenv("BRAVE_SEARCH_API_KEY")
@@ -733,10 +744,13 @@ def collect_sources():
             for collector in collectors:
                 try:
                     for source in collector(query, tag):
+                        provider = source.get("provider") or collector.__name__
+                        run_provider_counts[provider] = run_provider_counts.get(provider, 0) + 1
                         source["quality"] = source_quality(source)
                         if add_source(sources_by_id, source):
                             new_count += 1
                             new_sources.append(source)
+                            new_provider_counts[provider] = new_provider_counts.get(provider, 0) + 1
                 except HTTPError as exc:
                     errors.append(f"{collector.__name__} failed for {tag}: {exc}")
                     if collector is search_searxng_web and exc.code == 429:
@@ -787,13 +801,22 @@ def collect_sources():
             "new_layer_counts": new_layer_counts,
             "automated_evidence_counts": evidence_counts,
             "new_automated_evidence_counts": new_evidence_counts,
+            "run_provider_counts": run_provider_counts,
+            "new_provider_counts": new_provider_counts,
             "errors": errors,
         },
     )
-    write_reports(sources, new_count, new_sources, errors)
+    write_reports(sources, new_count, new_sources, errors, run_provider_counts, new_provider_counts)
 
 
-def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], errors: list[str]):
+def write_reports(
+    sources: list[dict],
+    new_count: int,
+    new_sources: list[dict],
+    errors: list[str],
+    run_provider_counts: dict[str, int],
+    new_provider_counts: dict[str, int],
+):
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     RESEARCH_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -826,23 +849,43 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
         "- Treat search results as candidate references until reviewed.",
         "- Keep quantum/science claims tied to qualified sources and stated limits.",
         "",
-        "Reference Tags",
-        "--------------",
+        "Online Collection Status",
+        "------------------------",
     ]
-    if os.getenv("BING_SEARCH_API_KEY") or os.getenv("BRAVE_SEARCH_API_KEY") or searxng_base_url():
-        lines.extend(
-            [
-                f"Broad web search: enabled via SearXNG ({searxng_base_url()}) or configured search API keys.",
-                "",
-            ]
-        )
+    if run_provider_counts:
+        lines.append("- Online scholarly/indexed metadata returned from provider APIs this run.")
     else:
-        lines.extend(
-            [
-                "Broad web search: not enabled; set SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.",
-                "",
-            ]
-        )
+        lines.append("- No online provider returned candidate metadata this run.")
+
+    searxng_errors = [error for error in errors if error.startswith("search_searxng_web")]
+    open_web_returned = sum(
+        count for provider, count in run_provider_counts.items() if provider in OPEN_WEB_PROVIDERS
+    )
+    if os.getenv("BING_SEARCH_API_KEY") or os.getenv("BRAVE_SEARCH_API_KEY") or searxng_base_url():
+        lines.append(f"- Broad web search attempted via SearXNG ({searxng_base_url()}) or configured search API keys.")
+        if open_web_returned:
+            lines.append(f"- Open-web candidates returned this run: {open_web_returned:,}.")
+        elif searxng_errors:
+            lines.append("- Open-web candidates returned this run: 0; the public SearXNG endpoint rate-limited the request.")
+        else:
+            lines.append("- Open-web candidates returned this run: 0.")
+    else:
+        lines.append("- Broad web search not enabled; set SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.")
+
+    if run_provider_counts:
+        lines.append("- Provider results returned this run:")
+        lines.extend(f"  - {provider}: {count:,}" for provider, count in sorted(run_provider_counts.items()))
+    if new_provider_counts:
+        lines.append("- Brand-new references added by provider:")
+        lines.extend(f"  - {provider}: {count:,}" for provider, count in sorted(new_provider_counts.items()))
+    else:
+        lines.append("- Brand-new references added by provider: 0.")
+
+    provider_totals = count_by_provider(sources)
+    lines.append("- Total stored references by provider:")
+    lines.extend(f"  - {provider}: {count:,}" for provider, count in sorted(provider_totals.items()))
+    lines.extend(["", "Reference Tags", "--------------"])
+
     lines.extend(f"- {tag}: {count:,}" for tag, count in sorted(tag_counts.items()))
     lines.extend(["", "Layer Routes", "------------"])
     lines.extend(f"- {layer}: {count:,}" for layer, count in sorted(layer_counts.items()))

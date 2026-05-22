@@ -30,12 +30,12 @@ Risk to avoid: Do not collapse the image of God into intelligence alone.
 Providence And Contingency Pattern
 ----------------------------------
 Status: promising candidate
-Layer signal total: 13,854
+Layer signal total: 13,856
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
 - Physical Order: 2,475 (strong signal)
-- Quantum Probability: 126 (early signal)
+- Quantum Probability: 128 (early signal)
 - Life And Consciousness: 5,276 (strong signal)
 - Meaning And Logos: 5,977 (strong signal)
 Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
@@ -136,13 +136,13 @@ Risk to avoid: Do not reduce the Spirit to emotion or group energy.
 Quantum Humility Pattern
 ------------------------
 Status: promising candidate
-Layer signal total: 3,175
+Layer signal total: 3,177
 Pattern: Law-Like Reality -> Probability -> Uncertainty -> Epistemic Humility
 Interpretation: Reality is structured but not fully controllable or reducible to simple mechanism. This supports humility, not mystical overclaiming.
 Layer support:
 - Physical Order: 2,475 (strong signal)
 - Mathematical Structure: 574 (moderate signal)
-- Quantum Probability: 126 (early signal)
+- Quantum Probability: 128 (early signal)
 Evidence needed: Physicist-authored quantum mechanics sources, philosophy of probability, and theology of providence.
 Risk to avoid: Never use quantum physics as vague proof of God, prayer, or consciousness.
 

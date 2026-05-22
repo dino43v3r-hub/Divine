@@ -150,6 +150,10 @@ auto-commit action. The analyzer itself still uses Python 3.12.
 - Do not use quantum physics as vague proof of God.
 - Do not rush unresolved suffering into easy resolution.
 - Use source quality, counterarguments, and practical application checks.
+- Treat language-family and text-tradition coverage as mapped, not universal,
+  until source-specific notes and counter-readings are broad enough.
+- Review routed cloud references before promoting them to strong evidence.
+- Revise or weaken the pattern wherever pressure tests show it does not hold.
 
 The current research roadmap is tracked in:
 

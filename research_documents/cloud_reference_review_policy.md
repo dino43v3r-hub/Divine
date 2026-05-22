@@ -17,9 +17,21 @@ Review checklist:
 6. Avoid copying copyrighted text into the repository; store metadata,
    summaries, and short notes only.
 7. Mark reviewed items as reviewed cloud reference or source reviewed.
+8. Route reviewed material into the most specific layer folder possible instead
+   of leaving it as general cloud metadata.
+9. Pair any science, quantum, language-family, text-tradition, or
+   unresolved-suffering claim with a counterargument or narrow allowed
+   conclusion.
 
 Evidence rule:
 
 Unreviewed cloud references can suggest research questions, but they should not
 increase confidence in a divine pattern. Strong evidence requires original
 source review, source quality, context, and pressure testing.
+
+Pattern revision rule:
+
+When a pressure test shows that the pattern does not hold, the project should
+revise, narrow, or weaken the pattern. It should not preserve the pattern by
+ignoring unresolved suffering, rival explanations, disputed primary texts, or
+missing source coverage.

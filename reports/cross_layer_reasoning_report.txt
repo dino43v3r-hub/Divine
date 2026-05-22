@@ -87,7 +87,7 @@ Layer Convergence Across All Sources
 ------------------------------------
 - Physical Order: 2,748 (strong signal)
 - Mathematical Structure: 788 (moderate signal)
-- Quantum Probability: 134 (early signal)
+- Quantum Probability: 136 (early signal)
 - Life And Consciousness: 5,512 (strong signal)
 - Meaning And Logos: 6,603 (strong signal)
 - Moral Response: 2,780 (strong signal)
@@ -96,9 +96,9 @@ Layer Convergence Across All Sources
 
 Meaning Movement Across All Sources
 -----------------------------------
-- Creation And Order: 5,693
+- Creation And Order: 5,700
 - Alienation And Lament: 2,102
-- Desire And Longing: 3,303
+- Desire And Longing: 3,304
 - Moral Confrontation: 3,208
 - Communal Practice: 2,475
 - Transformation And Hope: 3,653

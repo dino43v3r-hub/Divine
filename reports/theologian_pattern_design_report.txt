@@ -41,7 +41,7 @@ Layer Comparison
 ----------------
 - Physical Order: theologians 44 | broader corpus 2,475
 - Mathematical Structure: theologians 0 | broader corpus 574
-- Quantum Probability: theologians 0 | broader corpus 126
+- Quantum Probability: theologians 0 | broader corpus 128
 - Life And Consciousness: theologians 16 | broader corpus 5,276
 - Meaning And Logos: theologians 33 | broader corpus 5,977
 - Moral Response: theologians 25 | broader corpus 2,242

@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-22T23:21:31.477261+00:00
+Generated: 2026-05-22T23:31:55.159088+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -34,7 +34,7 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-22T23:20:29.529481+00:00
+Daily collector updated: 2026-05-22T23:30:43.010398+00:00
 Brand-new candidate references this run: 0
 New candidate pattern movements:
 - No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.
@@ -57,7 +57,7 @@ _Full report has 151 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-22T23:20:29.541840+00:00
+Updated: 2026-05-22T23:30:43.020678+00:00
 Total references: 376
 New references this run: 0
 
@@ -68,12 +68,12 @@ Guardrails
 - Treat search results as candidate references until reviewed.
 - Keep quantum/science claims tied to qualified sources and stated limits.
 
-Reference Tags
---------------
-Broad web search: enabled via SearXNG (https://search.mdosch.de) or configured search API keys.
+Online Collection Status
+------------------------
+- Online scholarly/indexed metadata returned from provider APIs this run.
+- Broad web search attempted via SearXNG (https://search.mdosch.de) or configured search API keys.
 
-
-_Full report has 279 lines. Open the linked report above to read everything._
+_Full report has 292 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -92,13 +92,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 22
-Total analyzed words: 740,617
+Total analyzed words: 740,847
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 752 lines. Open the linked report above to read everything._
+_Full report has 759 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt

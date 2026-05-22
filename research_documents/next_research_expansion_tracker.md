@@ -8,6 +8,24 @@ The project has first-pass coverage for each item, but several lanes still need
 deeper primary sources, actual source review, and counter-readings before the
 pattern can be treated as strong.
 
+## Active Research Commitments
+
+These are active operating rules for the next phase, not merely future ideas:
+
+1. Deepen theologian source notes with primary-text references and disagreements
+   across patristic, medieval, Reformation, modern, and contemporary eras.
+2. Keep adding source-specific visual art, history, language,
+   biblical-language, all-texts, and psychology notes for cross-layer synthesis.
+3. Treat language-family and text-tradition coverage as mapped but not
+   universal until actual source notes and counter-readings are broad enough.
+4. Continue adding harder unresolved-suffering case studies, especially where
+   repair remains absent.
+5. Keep qualified quantum/science references paired with counterarguments and
+   narrow allowed conclusions.
+6. Review routed daily cloud references before promoting any candidate to strong
+   evidence.
+7. Revise or weaken the pattern wherever pressure tests show it does not hold.
+
 ## 1. Theologian Source Material Across Eras
 
 Status: second-pass expanded, needs primary-text checking.

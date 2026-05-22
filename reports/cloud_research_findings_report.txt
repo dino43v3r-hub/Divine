@@ -1,7 +1,7 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-22T23:20:29.541840+00:00
+Updated: 2026-05-22T23:30:43.020678+00:00
 Total references: 376
 New references this run: 0
 
@@ -12,10 +12,23 @@ Guardrails
 - Treat search results as candidate references until reviewed.
 - Keep quantum/science claims tied to qualified sources and stated limits.
 
+Online Collection Status
+------------------------
+- Online scholarly/indexed metadata returned from provider APIs this run.
+- Broad web search attempted via SearXNG (https://search.mdosch.de) or configured search API keys.
+- Open-web candidates returned this run: 0; the public SearXNG endpoint rate-limited the request.
+- Provider results returned this run:
+  - Crossref: 185
+  - OpenAlex: 171
+  - arXiv: 30
+- Brand-new references added by provider: 0.
+- Total stored references by provider:
+  - Crossref: 191
+  - OpenAlex: 159
+  - arXiv: 26
+
 Reference Tags
 --------------
-Broad web search: enabled via SearXNG (https://search.mdosch.de) or configured search API keys.
-
 - art_beauty: 31
 - biblical_languages: 28
 - global_text_traditions: 29

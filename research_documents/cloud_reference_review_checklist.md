@@ -21,6 +21,10 @@ candidate before it increases confidence in the pattern.
    copied copyrighted text.
 8. Confidence effect: mark whether the source can increase confidence, only
    generate questions, or should be rejected.
+9. Routed layer check: decide which layer should receive source-specific notes
+   before the candidate can shape synthesis.
+10. Pressure-test effect: record whether this source survives, complicates,
+    weakens, or breaks the current pattern claim.
 
 ## Review Labels
 
@@ -35,3 +39,17 @@ Rule:
 
 The analyzer may use unreviewed cloud references to ask better questions. It
 should not use them as strong support until this checklist is complete.
+
+## Promotion Gate
+
+A routed daily reference can be promoted only when the reviewer can state:
+
+- The source has been checked beyond search metadata.
+- The claim being supported is narrow and source-specific.
+- At least one counter-reading or limitation has been recorded.
+- Any relevant unresolved-suffering, science, language, tradition, or historical
+  pressure test has been considered.
+- If the pressure test does not hold, the pattern is revised or weakened instead
+  of the evidence label being strengthened.
+
+Automated labels help triage candidates. They do not override source review.
