@@ -16,14 +16,14 @@ Candidate Rankings
 Image Of God Pattern
 --------------------
 Status: strong candidate
-Layer signal total: 14,260
+Layer signal total: 14,261
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
 - Life And Consciousness: 5,215 (strong signal)
 - Meaning And Logos: 5,821 (strong signal)
 - Moral Response: 2,212 (strong signal)
-- Worship And Community: 1,012 (strong signal)
+- Worship And Community: 1,013 (strong signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
@@ -44,14 +44,14 @@ Risk to avoid: Do not confuse providence with easy prediction or visible control
 Creation-To-Consciousness Pattern
 ---------------------------------
 Status: strong candidate
-Layer signal total: 10,874
+Layer signal total: 10,875
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
 - Physical Order: 2,435 (strong signal)
 - Life And Consciousness: 5,215 (strong signal)
 - Moral Response: 2,212 (strong signal)
-- Worship And Community: 1,012 (strong signal)
+- Worship And Community: 1,013 (strong signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
@@ -97,24 +97,24 @@ Risk to avoid: Do not treat mathematical elegance as automatic proof of Christia
 Moral Transformation Pattern
 ----------------------------
 Status: strong candidate
-Layer signal total: 5,254
+Layer signal total: 5,255
 Pattern: Sin -> Conviction -> Repentance -> Forgiveness -> New Life
 Interpretation: Christianity repeatedly frames human behavior as transformable, not fixed. The pattern is moral repair through grace.
 Layer support:
 - Moral Response: 2,212 (strong signal)
 - Transformation: 2,030 (strong signal)
-- Worship And Community: 1,012 (strong signal)
+- Worship And Community: 1,013 (strong signal)
 Evidence needed: Scripture, Augustine, pastoral theology, moral psychology, forgiveness research, and spiritual formation studies.
 Risk to avoid: Do not reduce grace to self-improvement psychology.
 
 Worship Embodiment Pattern
 --------------------------
 Status: strong candidate
-Layer signal total: 5,254
+Layer signal total: 5,255
 Pattern: Belief -> Ritual -> Community -> Identity -> Practice
 Interpretation: Worship turns abstract belief into repeated embodied behavior. Prayer, sacrament, singing, confession, and gathering train identity.
 Layer support:
-- Worship And Community: 1,012 (strong signal)
+- Worship And Community: 1,013 (strong signal)
 - Moral Response: 2,212 (strong signal)
 - Transformation: 2,030 (strong signal)
 Evidence needed: Liturgical theology, ritual studies, anthropology of religion, psychology of habit, and community formation research.
@@ -123,11 +123,11 @@ Risk to avoid: Do not treat ritual as only social bonding; preserve theological 
 Spirit Transformation Pattern
 -----------------------------
 Status: strong candidate
-Layer signal total: 5,254
+Layer signal total: 5,255
 Pattern: Presence -> Conviction -> Gifts -> Unity -> Sanctification
 Interpretation: The Holy Spirit pattern links divine presence to inner change and communal formation.
 Layer support:
-- Worship And Community: 1,012 (strong signal)
+- Worship And Community: 1,013 (strong signal)
 - Moral Response: 2,212 (strong signal)
 - Transformation: 2,030 (strong signal)
 Evidence needed: Acts, Pauline letters, pneumatology, spiritual gifts, sanctification, and communal practice.

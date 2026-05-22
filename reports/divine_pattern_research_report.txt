@@ -10,8 +10,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 19
-Total analyzed words: 722,719
+Documents analyzed: 20
+Total analyzed words: 722,885
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
@@ -24,11 +24,11 @@ Theme Signals
 - Philosophy and Meaning: 3,009
 - Moral Transformation: 2,950
 - Spirituality and Worship: 1,264
-- Faith and Trust: 1,186
+- Faith and Trust: 1,189
 - Holy Spirit and Pneumatology: 942
-- Mathematics and Intelligibility: 649
-- Anthropology and Culture: 624
-- AI and Pattern Recognition: 207
+- Mathematics and Intelligibility: 650
+- Anthropology and Culture: 627
+- AI and Pattern Recognition: 208
 - Biology and Neuroscience: 49
 - Quantum Physics and Uncertainty: 49
 
@@ -36,7 +36,7 @@ Trinitarian Pattern Lens
 ------------------------
 Signal: strong Trinitarian signal
 The analyzer treats Father, Son, and Holy Spirit as distinct persons and one God. It looks for each person separately, then checks whether the corpus keeps them relationally connected.
-- Father: 3,200
+- Father: 3,209
   Role: Source, Creator, giver of being, providential care, and holy authority.
 - Son: 6,658
   Role: Word/Logos, revelation, incarnation, redemption, reconciliation, and resurrection.
@@ -78,20 +78,20 @@ Trinitarian Co-Presence Samples
 Meaning Guardrails
 ------------------
 The analyzer now checks whether a pattern has contextual movement, not only repeated vocabulary.
-- Creation And Order: 5,039
+- Creation And Order: 5,040
 - Transformation And Hope: 3,498
-- Desire And Longing: 3,228
+- Desire And Longing: 3,229
 - Moral Confrontation: 2,963
-- Communal Practice: 2,299
+- Communal Practice: 2,300
 - Alienation And Lament: 1,987
 
 Source Review Guardrails
 ------------------------
-- Primary Or Classical Source: 266
-- Practical Lived Source: 138
-- Scholarly Or Scientific Source: 116
+- Primary Or Classical Source: 269
+- Practical Lived Source: 140
+- Scholarly Or Scientific Source: 121
 - Speculative Source: 32
-- Unreviewed Cloud Reference: 11
+- Unreviewed Cloud Reference: 15
 - Reviewed Cloud Reference: 3
 - Cloud references are candidate leads until reviewed against the original source, author qualifications, publication context, and counterarguments.
 
@@ -113,7 +113,7 @@ Layer Scores:
   Test: Does the corpus connect intelligibility with meaning, Logos, wisdom, or truth?
 - Moral Response: 2,212 (strong signal)
   Test: Does the corpus connect meaning with moral accountability or response?
-- Worship And Community: 1,012 (strong signal)
+- Worship And Community: 1,013 (strong signal)
   Test: Does the corpus connect belief with embodied practice and community?
 - Transformation: 2,030 (strong signal)
   Test: Does the corpus connect divine presence with personal or communal change?
@@ -175,13 +175,13 @@ Hypothesis Test Domains
 - Scripture And Early Christian Logos: 3,122 (strongly represented)
 - Philosophy Of Science: 2,773 (strongly represented)
 - Physics And Quantum Mechanics: 1,302 (strongly represented)
-- History And Cultural Memory: 1,025 (strongly represented)
+- History And Cultural Memory: 1,026 (strongly represented)
 - Visual Art And Symbol: 876 (strongly represented)
 - Cognitive Science: 861 (strongly represented)
 - Philosophy Of Mathematics: 500 (strongly represented)
 - Biblical Greek And Hebrew: 392 (represented)
-- Anthropology And Psychology Of Worship: 333 (represented)
-- World Languages And Translation: 288 (represented)
+- Anthropology And Psychology Of Worship: 334 (represented)
+- World Languages And Translation: 293 (represented)
 
 Repeated Terms
 --------------
@@ -297,6 +297,8 @@ Faith and Trust
 - king_james_bible_gutenberg.txt: And he put forth his hand, and caught it, and it became a rod in his hand: 4:5 That they may believe that the LORD God of their fathers, the God of Abraham, the God of Isaac, and the God of Jacob, hath appeared unto thee.
 - nicene_creed_325_wikisource.txt: al.''  ==See also== * [[Niceno-Constantinopolitan Creed]] *"[[Catholic Encyclopedia (1913)/Nicene and Niceno-Constantinopolitan Creed|Nicene and Niceno-Constantinopolitan Creed]]" in the ''[[Catholic Encyclopedia (1913)|Catholic Encyclopedia]]'' (1913)  [[Category:Articles of fai
 - science_math_physics_divine_pattern_model.md: ## Sources Consulted  - Stanford Encyclopedia of Philosophy, "Laws of Nature": https://plato.stanford.edu/entries/laws-of-nature/ - Stanford Encyclopedia of Philosophy, "Indispensability Arguments in the Philosophy of Mathematics": https://plato.stanford.edu/entries/mathphil-indi
+- cloud_reference_review_checklist.md: Review each candidate before it increases confidence in the pattern.
+- cloud_reference_review_checklist.md: Confidence effect: mark whether the source can increase confidence, only    generate questions, or should be rejected.
 - cloud_reference_review_policy.md: Evidence rule:  Unreviewed cloud references can suggest research questions, but they should not increase confidence in a divine pattern.
 - cloud_references_summary.md: ## Faith after an Earthquake: A Longitudinal Study of Religion and Perceived Health before and after the 2011 Christchurch New Zealand Earthquake  - Tags: unresolved_suffering - Provider: OpenAlex - Quality: scholarly metadata - URL: https://doi.org/10.1371/journal.pone.0049648  
 - cloud_references_summary.md: ## Going back to my roots : a critical understanding of the interplay between Christian faith and Shona tradition in the quest to find meaning within the HIV pandemic  - Tags: unresolved_suffering - Provider: OpenAlex - Quality: scholarly metadata - URL: http://hdl.handle.net/100
@@ -534,6 +536,7 @@ Mathematics and Intelligibility
 - king_james_bible_gutenberg.txt: 15:5 And he brought him forth abroad, and said, Look now toward heaven, and tell the stars, if thou be able to number them: and he said unto him, So shall thy seed be.
 - science_math_physics_divine_pattern_model.md: # Science, Mathematics, Physics, And A Divine-Pattern Model  This note adds science, mathematics, physics, and quantum physics to the divine-pattern research project.
 - science_math_physics_divine_pattern_model.md: It proposes an example pattern to test: if Christian theology describes God as creator, Logos, source of being, and giver of order, then science and mathematics may be studied as domains where order, intelligibility, structure, law, probability, and emergence become visible.
+- cloud_reference_review_checklist.md: Review each candidate before it increases confidence in the pattern.
 - cloud_reference_review_policy.md: Evidence rule:  Unreviewed cloud references can suggest research questions, but they should not increase confidence in a divine pattern.
 - cloud_references_summary.md: # Cloud References Summary  This file is generated by internet_source_collector.py so the main analyzer can include reference metadata in pattern analysis.
 - cloud_references_summary.md: ## The Hallowing of Logic: The Trinitarian Method of Richard Baxter's Methodus Theologiae  - Tags: trinity - Provider: OpenAlex - Quality: scholarly metadata - URL: http://hdl.handle.net/1842/7821  OpenAlex abstract metadata available.
@@ -581,6 +584,7 @@ Anthropology and Culture
 - king_james_bible_gutenberg.txt: 15:3 But he answered and said unto them, Why do ye also transgress the commandment of God by your tradition?
 - science_math_physics_divine_pattern_model.md: ## Sources Consulted  - Stanford Encyclopedia of Philosophy, "Laws of Nature": https://plato.stanford.edu/entries/laws-of-nature/ - Stanford Encyclopedia of Philosophy, "Indispensability Arguments in the Philosophy of Mathematics": https://plato.stanford.edu/entries/mathphil-indi
 - science_math_physics_divine_pattern_model.md: In Christian thought, providence does not have to mean that every event is mechanically obvious to human observers.
+- cloud_reference_review_checklist.md: Tradition and context: note religious tradition, language, era, genre, and    community context.
 - cloud_references_summary.md: ## Going back to my roots : a critical understanding of the interplay between Christian faith and Shona tradition in the quest to find meaning within the HIV pandemic  - Tags: unresolved_suffering - Provider: OpenAlex - Quality: scholarly metadata - URL: http://hdl.handle.net/100
 - cloud_references_summary.md: ## “I Will Show You My Faith by My Works”: Addressing the Nexus between Philosophical Theodicy and Human Suffering and Loss in Contexts of ‘Natural’ Disaster  - Tags: unresolved_suffering - Provider: OpenAlex - Quality: scholarly metadata - URL: https://doi.org/10.3390/rel1003021
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
@@ -612,6 +616,7 @@ AI and Pattern Recognition
 - king_james_bible_gutenberg.txt: 25:40 And look that thou make them after their pattern, which was shewed thee in the mount.
 - science_math_physics_divine_pattern_model.md: # Science, Mathematics, Physics, And A Divine-Pattern Model  This note adds science, mathematics, physics, and quantum physics to the divine-pattern research project.
 - science_math_physics_divine_pattern_model.md: It proposes an example pattern to test: if Christian theology describes God as creator, Logos, source of being, and giver of order, then science and mathematics may be studied as domains where order, intelligibility, structure, law, probability, and emergence become visible.
+- cloud_reference_review_checklist.md: Review each candidate before it increases confidence in the pattern.
 - cloud_reference_review_policy.md: Evidence rule:  Unreviewed cloud references can suggest research questions, but they should not increase confidence in a divine pattern.
 - cloud_references_summary.md: # Cloud References Summary  This file is generated by internet_source_collector.py so the main analyzer can include reference metadata in pattern analysis.
 - cloud_references_summary.md: ## Critical discourse analysis and its critics  - Tags: world_languages_translation - Provider: OpenAlex - Quality: scholarly metadata - URL: https://doi.org/10.1075/prag.21.4.01bre  OpenAlex abstract metadata available.

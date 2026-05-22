@@ -15,35 +15,35 @@ Status: source-supported
 Area signal: 16
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
-- Scripture/Theology: present (10)
+- Scripture/Theology: present (11)
 - Pastoral/Clinical: present (12)
 - Lived Case: present (8)
-- Counterargument: present (10)
+- Counterargument: present (12)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 43
+Area signal: 58
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
-- Physicist/Primary Science: present (18)
-- Peer-Reviewed/Academic: present (8)
-- Philosophy Of Science: present (22)
-- Counterargument: present (10)
+- Physicist/Primary Science: present (22)
+- Peer-Reviewed/Academic: present (10)
+- Philosophy Of Science: present (29)
+- Counterargument: present (12)
 
 All Source-Type Signals
 -----------------------
-- Philosophy Of Science: 22
-- Physicist/Primary Science: 18
+- Philosophy Of Science: 29
+- Physicist/Primary Science: 22
 - Pastoral/Clinical: 12
-- Scripture/Theology: 10
-- Counterargument: 10
+- Counterargument: 12
+- Scripture/Theology: 11
+- Peer-Reviewed/Academic: 10
 - Lived Case: 8
-- Peer-Reviewed/Academic: 8
 
 Quality And Risk Markers
 ------------------------
-- Scholarly Or Scientific Source: 13
+- Scholarly Or Scientific Source: 17
 - Practical Lived Source: 12
 - Speculative Source: 3
 - Primary Or Classical Source: 2
@@ -63,6 +63,18 @@ Source types:
 - Counterargument: 2
 - Scripture/Theology: 1
 - Peer-Reviewed/Academic: 1
+
+qualified_science_reference_review_notes.md
+-------------------------------------------
+Words: 190
+Area scores:
+- Quantum And Science Claims: source-supported (15)
+Source types:
+- Philosophy Of Science: 7
+- Physicist/Primary Science: 4
+- Counterargument: 2
+- Peer-Reviewed/Academic: 2
+- Scripture/Theology: 1
 
 quantum_science_source_framework.md
 -----------------------------------

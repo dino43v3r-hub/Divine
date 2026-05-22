@@ -34,7 +34,7 @@ Notice -> Name -> Discern -> Practice -> Transform
 Why this pattern is currently strongest:
 ----------------------------------------
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,200
+- Father: 3,209
 - Son: 6,658
 - Holy Spirit: 1,251
 
@@ -44,7 +44,7 @@ Strongest research layers:
 - Physical Order: 2,435
 - Moral Response: 2,212
 - Transformation: 2,030
-- Worship And Community: 1,012
+- Worship And Community: 1,013
 
 Music-note science/math support:
 - Mathematical Structure: 129
@@ -68,44 +68,55 @@ Cultural meaning support:
 - Transformation And Hope: 6
 
 Cross-layer synthesis support:
-- Language Semantics: 33
-- Psychological Process: 27
-- Historical Context: 20
-- Original-Language Witness: 18
-- Ethical Consequence: 14
-- Visual Symbol: 13
-- Depth: multi-lens understanding: 3
+- Language Semantics: 58
+- Psychological Process: 52
+- Ethical Consequence: 46
+- Historical Context: 45
+- Embodied Practice: 37
+- Original-Language Witness: 33
+- Depth: cross-layer synthesis: 7
+- Depth: multi-lens understanding: 6
 - Depth: contextual interpretation: 1
 - Depth: early synthesis signal: 1
-- Depth: cross-layer synthesis: 1
+
+Comparative validity support:
+- strong shared-human pattern; Trinitarian claim still needs Christian sources: 4
+- shared-human pattern signal: 1
+- Comparative recurrence supports a broad human pattern, not automatic proof of the Trinitarian claim.
 
 Global language/text coverage:
 - broad global coverage map
 - Language families mapped: 16 of 16
-- Text traditions mapped: 10 of 10
+- Text traditions mapped: 12 of 12
 - Treat mapped coverage as a research agenda until actual texts and counter-readings are added.
 
 Cloud reference review:
 - Reviewed cloud-reference markers: 3
-- Unreviewed cloud-reference markers: 11
+- Unreviewed cloud-reference markers: 15
 - Treat cloud references as leads until checked against original sources, author expertise, date, publication venue, and counterarguments.
 
 Theologian pattern-design support:
-- Christology: 24
-- Theodicy And Suffering: 23
-- Creation: 18
-- Grace And Transformation: 17
-- Trinity: 15
-- Church And Practice: 14
+- Christology: 36
+- Theodicy And Suffering: 32
+- Creation: 28
+- Grace And Transformation: 23
+- Trinity: 17
+- Church And Practice: 17
 
 Pressure-test result:
 ---------------------
-- resilient under pressure: 6
+- resilient under pressure: 12
 - needs deeper review but still plausible: 2
+
+Hold-under-friction result:
+---------------------------
+- pressure present but hold question is underdeveloped: 9
+- provisionally holds; needs stronger review: 4
+- does not hold yet under this friction: 1
 
 Deep-source result:
 -------------------
-- Quantum And Science Claims: source-supported: 3
+- Quantum And Science Claims: source-supported: 4
 - Unresolved Suffering: source-supported: 1
 
 Guardrails

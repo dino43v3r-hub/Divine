@@ -65,6 +65,9 @@ and commits updated reports back to the repository.
 - `biblical_languages/`: biblical Greek, Hebrew, Aramaic, lemma, syntax, and translation-range notes
 - `all_texts/`: global sacred, philosophical, poetic, legal, oral, wisdom, ritual, and commentary text notes
 - `psychology_inputs/`: perception, attachment, trauma, habit, identity, and transformation notes
+- `other_religious_texts/`: comparative non-Christian sacred and wisdom-text notes
+- `modern_literature/`: summarized literary comparison notes without copyrighted text copying
+- `human_stories/`: privacy-preserving lived-experience and practical-witness notes
 - `pattern_tests/`: counterexamples and pressure tests
 - `deep_sources/`: stricter support for unresolved suffering and quantum/science claims
 - `theologians/`: cross-era theologian sources and pattern-design material
@@ -115,3 +118,8 @@ The report also tracks language-family and text-tradition coverage. This lets
 the project explore all world languages over time without claiming universality
 too early. Add translated notes, original-language observations, genre/context
 notes, and counter-readings to `world_languages/` or `all_texts/`.
+
+Comparative validation now also uses `other_religious_texts/`,
+`modern_literature/`, and `human_stories/`. Recurrence across these lanes can
+support a broad human pattern, but it does not by itself prove a distinct
+Trinitarian claim.

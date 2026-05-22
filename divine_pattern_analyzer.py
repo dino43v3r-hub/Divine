@@ -15,6 +15,9 @@ WORLD_LANGUAGES_DIR = Path("world_languages")
 BIBLICAL_LANGUAGES_DIR = Path("biblical_languages")
 ALL_TEXTS_DIR = Path("all_texts")
 PSYCHOLOGY_INPUTS_DIR = Path("psychology_inputs")
+OTHER_RELIGIOUS_TEXTS_DIR = Path("other_religious_texts")
+MODERN_LITERATURE_DIR = Path("modern_literature")
+HUMAN_STORIES_DIR = Path("human_stories")
 PATTERN_TESTS_DIR = Path("pattern_tests")
 DEEP_SOURCE_DIR = Path("deep_sources")
 THEOLOGIANS_DIR = Path("theologians")
@@ -1313,6 +1316,9 @@ PRACTICAL_DOMAIN_USES = {
     "Biblical Greek And Hebrew": "Use original-language study as a depth check: examine lemma, syntax, covenant language, and translation range before making theological claims.",
     "Psychology And Human Behavior": "Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.",
     "Global Text Traditions": "Compare sacred, philosophical, poetic, legal, oral, and wisdom texts as witnesses to human longing, moral order, suffering, community, and transformation.",
+    "Other Religious Texts": "Compare non-Christian sacred and wisdom traditions on their own terms, looking for shared human patterns and real theological difference.",
+    "Modern Literature": "Use modern novels, drama, memoir, and poetry through summaries and public-domain material, not copied copyrighted text, to test narrative recurrence and limits.",
+    "Human Stories": "Use lived stories as practical witnesses: grief, repair, addiction, injustice, forgiveness, vocation, community, and transformation.",
 }
 
 
@@ -1323,6 +1329,9 @@ SYNTHESIS_SOURCE_DIRS = {
     "Biblical Greek And Hebrew": BIBLICAL_LANGUAGES_DIR,
     "All Texts": ALL_TEXTS_DIR,
     "Psychology And Other Texts": PSYCHOLOGY_INPUTS_DIR,
+    "Other Religious Texts": OTHER_RELIGIOUS_TEXTS_DIR,
+    "Modern Literature": MODERN_LITERATURE_DIR,
+    "Human Stories": HUMAN_STORIES_DIR,
 }
 
 
@@ -1531,6 +1540,26 @@ TEXT_TRADITION_MARKERS = {
         "tafsir",
         "scholia",
     ],
+    "Modern Literature": [
+        "modern literature",
+        "novel",
+        "short story",
+        "drama",
+        "memoir",
+        "fiction",
+        "narrator",
+        "character",
+    ],
+    "Human Story And Testimony": [
+        "human story",
+        "lived story",
+        "testimony",
+        "case story",
+        "interview",
+        "memoir",
+        "witness",
+        "experience",
+    ],
 }
 
 
@@ -1718,6 +1747,39 @@ TEST_PRESSURE_TYPES = {
         "family",
         "church hurt",
         "recovery",
+    ],
+    "Rival Explanation": [
+        "rival explanation",
+        "alternative explanation",
+        "natural explanation",
+        "psychological explanation",
+        "social explanation",
+        "confirmation bias",
+        "projection",
+        "coincidence",
+        "placebo",
+    ],
+    "Misuse And Weaponization": [
+        "misuse",
+        "weaponized",
+        "manipulation",
+        "control",
+        "coercion",
+        "domination",
+        "silence victims",
+        "protect institutions",
+        "spiritual bypass",
+    ],
+    "Disconfirming Failure Condition": [
+        "failure condition",
+        "fails if",
+        "would fail",
+        "does not hold",
+        "not hold",
+        "falsify",
+        "falsification",
+        "disconfirm",
+        "disconfirmation",
     ],
 }
 
@@ -2642,6 +2704,29 @@ def score_synthesis_depth(lens_counts, meaning_context_counts, layer_counts, mea
     return "surface signal only"
 
 
+def score_comparative_validity(analysis):
+    """Classify what a non-Christian or extra-biblical witness can actually prove."""
+    layer_counts = Counter(analysis.get("layer_counts", {}))
+    meaning_counts = Counter(analysis.get("meaning_context_counts", {}))
+    lens_counts = Counter(analysis.get("synthesis_lens_counts", {}))
+    trinity_counts = Counter(analysis.get("trinity_counts", {}))
+
+    layer_breadth = sum(1 for count in layer_counts.values() if count > 0)
+    meaning_breadth = sum(1 for count in meaning_counts.values() if count > 0)
+    trinity_breadth = sum(1 for person in TRINITY_PERSONS if trinity_counts.get(person, 0) > 0)
+    has_counter_reading = lens_counts.get("Counter-Reading", 0) > 0
+
+    if layer_breadth >= 4 and meaning_breadth >= 4 and has_counter_reading:
+        return "strong shared-human pattern; Trinitarian claim still needs Christian sources"
+    if layer_breadth >= 3 and meaning_breadth >= 3:
+        return "shared-human pattern signal"
+    if trinity_breadth >= 2:
+        return "explicit Trinitarian overlap; check source context"
+    if has_counter_reading:
+        return "useful counter-reading, not validation"
+    return "too thin for comparative validation"
+
+
 def create_synthesis_questions(lens_counts, domain_counts, layer_counts):
     """Create follow-up questions that force deeper comparison across layers."""
     questions = []
@@ -2712,6 +2797,36 @@ def score_test_confidence(analysis):
     return "fragile or incomplete test"
 
 
+def score_hold_assessment(analysis):
+    """Estimate whether the pattern holds after disconfirming friction."""
+    pressure_counts = Counter(analysis["pressure_counts"])
+    quality_counts = Counter(analysis["source_quality_counts"])
+    meaning_counts = Counter(analysis["meaning_context_counts"])
+    trinity_counts = Counter(analysis["trinity_counts"])
+
+    friction_total = (
+        pressure_counts.get("Disconfirming Failure Condition", 0)
+        + pressure_counts.get("Rival Explanation", 0)
+        + pressure_counts.get("Misuse And Weaponization", 0)
+    )
+    pressure_total = sum(pressure_counts.values())
+    quality_total = quality_counts.get("Primary Or Classical Source", 0)
+    quality_total += quality_counts.get("Scholarly Or Scientific Source", 0)
+    quality_total += quality_counts.get("Practical Lived Source", 0)
+    meaning_breadth = sum(1 for count in meaning_counts.values() if count > 0)
+    trinity_breadth = sum(1 for person in TRINITY_PERSONS if trinity_counts.get(person, 0) > 0)
+
+    if friction_total >= 3 and (meaning_breadth < 2 or trinity_breadth < 2):
+        return "does not hold yet under this friction"
+    if friction_total >= 6 and meaning_breadth >= 4 and trinity_breadth >= 2 and quality_total >= 3:
+        return "holds under added friction"
+    if friction_total >= 3 and meaning_breadth >= 3 and trinity_breadth >= 1:
+        return "provisionally holds; needs stronger review"
+    if pressure_total >= 5:
+        return "pressure present but hold question is underdeveloped"
+    return "not enough friction to judge hold"
+
+
 def create_test_recommendations(pressure_counts, source_quality_counts):
     """Recommend next research steps based on test gaps."""
     recommendations = []
@@ -2727,6 +2842,12 @@ def create_test_recommendations(pressure_counts, source_quality_counts):
 
     if pressure_counts.get("Practical Case Study", 0) == 0:
         recommendations.append("Add concrete daily-life case studies so the pattern can be used, not just admired.")
+
+    if pressure_counts.get("Disconfirming Failure Condition", 0) == 0:
+        recommendations.append("Name explicit failure conditions so the pattern can be revised or rejected.")
+
+    if pressure_counts.get("Rival Explanation", 0) == 0:
+        recommendations.append("Add rival natural, psychological, social, or comparative explanations.")
 
     if source_quality_counts.get("Speculative Source", 0) > source_quality_counts.get("Scholarly Or Scientific Source", 0):
         recommendations.append("Reduce speculative claims or pair them with stronger sources and counterarguments.")
@@ -3282,6 +3403,7 @@ def analyze_synthesis_document(path, source_lane):
     language_family_counts = count_language_families(text)
     text_tradition_counts = count_text_traditions(text)
     meaning_context_counts = count_meaning_contexts(text)
+    trinity_counts = count_trinity_person_matches(text)
     meaning_arc = detect_meaning_arc(sentences)
     inferred_layer_counts = infer_layers_from_cultural_domains(domain_counts)
     direct_layer_counts = Counter(count_layer_matches(text))
@@ -3298,6 +3420,7 @@ def analyze_synthesis_document(path, source_lane):
         "synthesis_lens_counts": lens_counts,
         "language_family_counts": language_family_counts,
         "text_tradition_counts": text_tradition_counts,
+        "trinity_counts": trinity_counts,
         "global_coverage": score_global_coverage(
             language_family_counts,
             text_tradition_counts,
@@ -3317,6 +3440,14 @@ def analyze_synthesis_document(path, source_lane):
             meaning_context_counts,
             combined_layer_counts,
             meaning_arc,
+        ),
+        "comparative_validity": score_comparative_validity(
+            {
+                "layer_counts": dict(combined_layer_counts),
+                "meaning_context_counts": meaning_context_counts,
+                "synthesis_lens_counts": lens_counts,
+                "trinity_counts": trinity_counts,
+            }
         ),
         "synthesis_questions": create_synthesis_questions(
             lens_counts,
@@ -3356,6 +3487,7 @@ def analyze_pattern_test_document(path):
         "meaning_context_evidence": find_meaning_context_evidence(sentences),
     }
     analysis["test_confidence"] = score_test_confidence(analysis)
+    analysis["hold_assessment"] = score_hold_assessment(analysis)
     analysis["recommendations"] = create_test_recommendations(
         pressure_counts,
         source_quality_counts,
@@ -4702,6 +4834,22 @@ def create_cross_layer_reasoning_report(
     depth_counts = Counter(
         analysis.get("synthesis_depth", "not scored") for analysis in synthesis_analyses
     )
+    comparative_lanes = {
+        "All Texts",
+        "Other Religious Texts",
+        "Modern Literature",
+        "Human Stories",
+    }
+    comparative_analyses = [
+        analysis
+        for analysis in synthesis_analyses
+        if analysis.get("source_lane") in comparative_lanes
+    ]
+    comparative_validity_counts = Counter(
+        analysis.get("comparative_validity", "not assessed")
+        for analysis in comparative_analyses
+    )
+    comparative_trinity_counts = combine_trinity_counts(comparative_analyses)
     lane_groups = defaultdict(list)
 
     for analysis in synthesis_analyses:
@@ -4795,6 +4943,21 @@ def create_cross_layer_reasoning_report(
     else:
         lines.append("- No dedicated synthesis files scored yet.")
 
+    lines.extend(["", "Comparative Validity Check", "--------------------------"])
+    lines.append(
+        "Comparative recurrence can support a broad human pattern of order, meaning, moral response, community, and transformation; it does not by itself validate the specifically Christian Trinitarian interpretation."
+    )
+    if comparative_validity_counts:
+        for label, count in comparative_validity_counts.most_common():
+            lines.append(f"- {label}: {count:,}")
+    else:
+        lines.append("- No comparative text, literature, or human-story files assessed yet.")
+    lines.append(
+        f"- Comparative Trinitarian signal: {score_trinitarian_pattern(comparative_trinity_counts)}"
+    )
+    for person in TRINITY_PERSONS:
+        lines.append(f"- {person}: {comparative_trinity_counts.get(person, 0):,}")
+
     lines.extend(["", "Reasoning Rules", "---------------"])
     lines.extend(
         [
@@ -4839,6 +5002,8 @@ def create_cross_layer_reasoning_report(
                     "Synthesis questions:",
                 ]
             )
+            if analysis.get("source_lane") in comparative_lanes:
+                lines.append(f"Comparative validity: {analysis['comparative_validity']}")
             for question in analysis["synthesis_questions"][:4]:
                 lines.append(f"- {question}")
 
@@ -4856,7 +5021,8 @@ def create_cross_layer_reasoning_report(
             "3. Add world-language and translation notes across many language families, scripts, oral traditions, and cultures.",
             "4. Add biblical Greek/Hebrew notes with lemma, syntax, translation range, and theological caution.",
             "5. Add sacred scripture, wisdom, epic, myth, philosophy, law, poetry, ritual, chronicle, oral tradition, and commentary sources to all_texts.",
-            "6. Add psychology or human-behavior notes about perception, attachment, trauma, habit, desire, identity, and repair.",
+            "6. Add other religious texts, modern literature summaries, and human stories with counter-readings before claiming validity.",
+            "7. Add psychology or human-behavior notes about perception, attachment, trauma, habit, desire, identity, and repair.",
         ]
     )
 
@@ -4882,6 +5048,9 @@ def create_pattern_test_report(research_analyses, test_analyses):
     research_layer_counts = combine_layer_counts(research_analyses)
     confidence_counts = Counter(
         analysis["test_confidence"] for analysis in test_analyses
+    )
+    hold_counts = Counter(
+        analysis["hold_assessment"] for analysis in test_analyses
     )
 
     lines = [
@@ -4929,6 +5098,13 @@ def create_pattern_test_report(research_analyses, test_analyses):
     else:
         lines.append("- No tests scored yet.")
 
+    lines.extend(["", "Hold Assessment", "---------------"])
+    if hold_counts:
+        for label, count in hold_counts.most_common():
+            lines.append(f"- {label}: {count:,}")
+    else:
+        lines.append("- No hold assessments yet.")
+
     lines.extend(["", "Trinitarian Test Lens", "---------------------"])
     lines.append(f"Test-set signal: {score_trinitarian_pattern(trinity_counts)}")
     lines.append(f"Research-corpus signal: {score_trinitarian_pattern(research_trinity_counts)}")
@@ -4970,6 +5146,7 @@ def create_pattern_test_report(research_analyses, test_analyses):
                 f"Words: {analysis['words']:,}",
                 f"Meaning confidence: {analysis['meaning_confidence']}",
                 f"Test confidence: {analysis['test_confidence']}",
+                f"Hold assessment: {analysis['hold_assessment']}",
                 "Pressure signals:",
             ]
         )
@@ -5297,6 +5474,21 @@ def create_divine_pattern_summary_report(
     synthesis_depth_counts = Counter(
         analysis.get("synthesis_depth", "not scored") for analysis in synthesis_analyses
     )
+    comparative_lanes = {
+        "All Texts",
+        "Other Religious Texts",
+        "Modern Literature",
+        "Human Stories",
+    }
+    comparative_analyses = [
+        analysis
+        for analysis in synthesis_analyses
+        if analysis.get("source_lane") in comparative_lanes
+    ]
+    comparative_validity_counts = Counter(
+        analysis.get("comparative_validity", "not assessed")
+        for analysis in comparative_analyses
+    )
     trinity_counts = combine_trinity_counts(research_analyses)
     theologian_concepts = combine_theological_concept_counts(theologian_analyses)
 
@@ -5306,6 +5498,9 @@ def create_divine_pattern_summary_report(
 
     pressure_confidence = Counter(
         analysis.get("test_confidence", "not tested") for analysis in test_analyses
+    )
+    hold_assessments = Counter(
+        analysis.get("hold_assessment", "not assessed") for analysis in test_analyses
     )
 
     deep_area_scores = Counter()
@@ -5425,6 +5620,14 @@ def create_divine_pattern_summary_report(
     else:
         lines.append("- No dedicated visual art, history, language, biblical-language, or psychology synthesis files analyzed yet.")
 
+    lines.extend(["", "Comparative validity support:"])
+    if comparative_validity_counts:
+        for label, count in comparative_validity_counts.most_common():
+            lines.append(f"- {label}: {count:,}")
+    else:
+        lines.append("- No comparative religious-text, literature, or human-story files analyzed yet.")
+    lines.append("- Comparative recurrence supports a broad human pattern, not automatic proof of the Trinitarian claim.")
+
     lines.extend(["", "Global language/text coverage:"])
     lines.append(f"- {score_global_coverage(language_family_counts, text_tradition_counts)}")
     if language_family_counts:
@@ -5467,6 +5670,13 @@ def create_divine_pattern_summary_report(
             lines.append(f"- {label}: {count:,}")
     else:
         lines.append("- No pressure tests analyzed yet.")
+
+    lines.extend(["", "Hold-under-friction result:", "---------------------------"])
+    if hold_assessments:
+        for label, count in hold_assessments.most_common():
+            lines.append(f"- {label}: {count:,}")
+    else:
+        lines.append("- No hold assessments yet.")
 
     lines.extend(["", "Deep-source result:", "-------------------"])
     if deep_area_scores:
