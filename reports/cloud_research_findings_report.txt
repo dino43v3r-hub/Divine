@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-22T17:27:54.950816+00:00
+Updated: 2026-05-22T19:10:21.094322+00:00
 Total references: 376
-New references this run: 1
+New references this run: 0
 
 Guardrails
 ----------
@@ -35,14 +35,11 @@ Quality Counts
 
 New This Run By Tag
 -------------------
-- music_math: 1
+- No brand-new references found this run; reports still re-evaluate the current candidate set.
 
 Newest Additions This Run
 ------------------------
-- MUSICA MUNDANA , ARISTOTELIAN NATURAL PHILOSOPHY AND PTOLEMAIC ASTRONOMY (2002)
-  Tags: music_math
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.1017/s0261127902002024
+- No new additions this run.
 
 Recent Candidate Sources
 ------------------------

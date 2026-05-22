@@ -1,28 +1,6 @@
 {
   "errors": [],
-  "new_count": 1,
-  "new_sources": [
-    {
-      "authors": [
-        "Gabriela Ilnitchi"
-      ],
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "date_accessed": "2026-05-22",
-      "doi": "https://doi.org/10.1017/s0261127902002024",
-      "evaluation_use": "candidate lead only until original source review and counterargument check",
-      "id": "https://doi.org/10.1017/s0261127902002024",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "review_status": "unreviewed_daily_candidate",
-      "source_type": "article",
-      "summary": "OpenAlex abstract metadata available.",
-      "tags": [
-        "music_math"
-      ],
-      "title": "MUSICA MUNDANA , ARISTOTELIAN NATURAL PHILOSOPHY AND PTOLEMAIC ASTRONOMY",
-      "url": "https://doi.org/10.1017/s0261127902002024",
-      "year": 2002
-    }
-  ],
-  "updated_at": "2026-05-22T17:27:54.944667+00:00"
+  "new_count": 0,
+  "new_sources": [],
+  "updated_at": "2026-05-22T19:10:21.088399+00:00"
 }
