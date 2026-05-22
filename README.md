@@ -78,9 +78,16 @@ The fully-free option is SearXNG:
 SEARXNG_BASE_URL
 ```
 
-`SEARXNG_BASE_URL` should point to a SearXNG instance with JSON results enabled,
-for example a self-hosted instance. Public instances may disable JSON or rate
-limit automation, so self-hosting is the most reliable free path.
+By default, the collector uses:
+
+```text
+https://search.mdosch.de
+```
+
+`SEARXNG_BASE_URL` can override that default and should point to a SearXNG
+instance with JSON results enabled, for example a self-hosted instance. Public
+instances may disable JSON or rate limit automation, so self-hosting is the most
+reliable free path.
 
 Paid or free-credit API options can also be configured:
 

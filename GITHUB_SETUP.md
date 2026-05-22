@@ -70,7 +70,13 @@ GitHub Actions Node.js runtime.
 The collector always searches scholarly/indexed sources through Crossref,
 OpenAlex, and arXiv.
 
-For a free broad-web option, use SearXNG. Add this repository secret:
+For a free broad-web option, use SearXNG. The collector defaults to:
+
+```text
+https://search.mdosch.de
+```
+
+To override that default, add this repository secret:
 
 ```text
 SEARXNG_BASE_URL

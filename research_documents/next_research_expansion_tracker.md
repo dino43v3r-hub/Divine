@@ -120,11 +120,12 @@ Current coverage:
   scholarly metadata, DOI/stable identifiers, author/year metadata, source
   type, citation count when available, routed corroboration, counterargument
   language, and overclaim risk.
-- Broad web search is supported through optional `SEARXNG_BASE_URL`,
-  `BING_SEARCH_API_KEY`, and `BRAVE_SEARCH_API_KEY` secrets. SearXNG is the
-  preferred free path when a reliable instance with JSON enabled is available.
-  Open-web results are scored more cautiously than scholarly/indexed sources and
-  require trusted-domain signals or corroboration before strengthening claims.
+- Broad web search now defaults to the public SearXNG instance
+  `https://search.mdosch.de`. It can be overridden with `SEARXNG_BASE_URL`, and
+  paid or free-credit providers can still be added with `BING_SEARCH_API_KEY`
+  and `BRAVE_SEARCH_API_KEY`. Open-web results are scored more cautiously than
+  scholarly/indexed sources and require trusted-domain signals or corroboration
+  before strengthening claims.
 - `research_documents/daily_cloud_reference_review_log.md` starts reviewing
   routed queue items with cautious labels.
 

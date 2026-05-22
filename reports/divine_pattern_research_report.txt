@@ -11,7 +11,7 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 22
-Total analyzed words: 740,616
+Total analyzed words: 740,617
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
@@ -80,7 +80,7 @@ Meaning Guardrails
 The analyzer now checks whether a pattern has contextual movement, not only repeated vocabulary.
 - Creation And Order: 5,392
 - Transformation And Hope: 3,524
-- Desire And Longing: 3,233
+- Desire And Longing: 3,234
 - Moral Confrontation: 3,126
 - Communal Practice: 2,346
 - Alienation And Lament: 2,022

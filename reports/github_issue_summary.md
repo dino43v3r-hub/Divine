@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-22T19:42:15.606382+00:00
+Generated: 2026-05-22T22:28:53.564730+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -9,24 +9,24 @@ Full reports are committed in the repository under `reports/`.
 
 | Report | Read full file |
 | --- | --- |
-| `divine_pattern_summary_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_summary_report.txt) |
-| `cloud_research_findings_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cloud_research_findings_report.txt) |
-| `divine_pattern_research_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_research_report.txt) |
-| `divine_pattern_candidates_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_candidates_report.txt) |
-| `divine_pattern_test_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_test_report.txt) |
-| `deep_source_review_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/deep_source_review_report.txt) |
-| `theologian_pattern_design_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/theologian_pattern_design_report.txt) |
-| `cross_layer_reasoning_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cross_layer_reasoning_report.txt) |
-| `music_note_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_note_patterns_report.txt) |
-| `music_lyric_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_lyric_patterns_report.txt) |
-| `cultural_pattern_relationships_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cultural_pattern_relationships_report.txt) |
-| `daily_evaluation_queue.md` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/research_documents/daily_evaluation_queue.md) |
+| `divine_pattern_summary_report.txt` | [available](reports/divine_pattern_summary_report.txt) |
+| `cloud_research_findings_report.txt` | [available](reports/cloud_research_findings_report.txt) |
+| `divine_pattern_research_report.txt` | [available](reports/divine_pattern_research_report.txt) |
+| `divine_pattern_candidates_report.txt` | [available](reports/divine_pattern_candidates_report.txt) |
+| `divine_pattern_test_report.txt` | [available](reports/divine_pattern_test_report.txt) |
+| `deep_source_review_report.txt` | [available](reports/deep_source_review_report.txt) |
+| `theologian_pattern_design_report.txt` | [available](reports/theologian_pattern_design_report.txt) |
+| `cross_layer_reasoning_report.txt` | [available](reports/cross_layer_reasoning_report.txt) |
+| `music_note_patterns_report.txt` | [available](reports/music_note_patterns_report.txt) |
+| `music_lyric_patterns_report.txt` | [available](reports/music_lyric_patterns_report.txt) |
+| `cultural_pattern_relationships_report.txt` | [available](reports/cultural_pattern_relationships_report.txt) |
+| `daily_evaluation_queue.md` | [available](research_documents/daily_evaluation_queue.md) |
 
 ## Quick Highlights
 
 The sections below are only short previews. Use the links above for the full reports.
 
-## reports/divine_pattern_summary_report.txt
+## reports\divine_pattern_summary_report.txt
 
 ```text
 Divine Pattern Summary Report
@@ -34,7 +34,7 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-22T19:41:14.370717+00:00
+Daily collector updated: 2026-05-22T22:27:18.982521+00:00
 Brand-new candidate references this run: 0
 New candidate pattern movements:
 - No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.
@@ -48,16 +48,16 @@ New material by routed layer:
 New material quality mix:
 - No new source-quality mix available for the latest run.
 
-_Full report has 145 lines. Open the linked report above to read everything._
+_Full report has 151 lines. Open the linked report above to read everything._
 ```
 
-## reports/cloud_research_findings_report.txt
+## reports\cloud_research_findings_report.txt
 
 ```text
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-22T19:41:14.379516+00:00
+Updated: 2026-05-22T22:27:18.997119+00:00
 Total references: 376
 New references this run: 0
 
@@ -70,13 +70,13 @@ Guardrails
 
 Reference Tags
 --------------
-- art_beauty: 31
-- biblical_languages: 28
+Broad web search: enabled via SearXNG (https://search.mdosch.de) or configured search API keys.
 
-_Full report has 238 lines. Open the linked report above to read everything._
+
+_Full report has 279 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_research_report.txt
+## reports\divine_pattern_research_report.txt
 
 ```text
 Divine Pattern Research Report
@@ -91,17 +91,17 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 21
-Total analyzed words: 735,032
+Documents analyzed: 22
+Total analyzed words: 740,617
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 721 lines. Open the linked report above to read everything._
+_Full report has 752 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_candidates_report.txt
+## reports\divine_pattern_candidates_report.txt
 
 ```text
 Divine Pattern Candidates Report
@@ -126,7 +126,7 @@ Status: strong candidate
 _Full report has 163 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_test_report.txt
+## reports\divine_pattern_test_report.txt
 
 ```text
 Divine Pattern Pressure-Test Report
@@ -144,14 +144,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 14
-Test words analyzed: 1,102
+Test documents analyzed: 16
+Test words analyzed: 1,284
 
 
-_Full report has 364 lines. Open the linked report above to read everything._
+_Full report has 405 lines. Open the linked report above to read everything._
 ```
 
-## reports/deep_source_review_report.txt
+## reports\deep_source_review_report.txt
 
 ```text
 Deep Source Review Report
@@ -171,12 +171,12 @@ Status: source-supported
 Area signal: 16
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
-- Scripture/Theology: present (11)
+- Scripture/Theology: present (13)
 
-_Full report has 118 lines. Open the linked report above to read everything._
+_Full report has 130 lines. Open the linked report above to read everything._
 ```
 
-## reports/theologian_pattern_design_report.txt
+## reports\theologian_pattern_design_report.txt
 
 ```text
 Theologian Pattern Design Report
@@ -189,19 +189,19 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 6
-Total theologian words analyzed: 1,219
+Theologian documents analyzed: 7
+Total theologian words analyzed: 1,753
 
 Era Coverage
 ------------
-- Patristic: 20
-- Medieval: 15
-- Reformation: 9
+- Patristic: 27
+- Medieval: 16
+- Reformation: 12
 
-_Full report has 128 lines. Open the linked report above to read everything._
+_Full report has 139 lines. Open the linked report above to read everything._
 ```
 
-## reports/cross_layer_reasoning_report.txt
+## reports\cross_layer_reasoning_report.txt
 
 ```text
 Cross-Layer Reasoning Report
@@ -217,16 +217,16 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 87
-Dedicated synthesis documents: 15
+Total documents across all lanes: 98
+Dedicated synthesis documents: 21
 Active divine-pattern layers: 8 of 8
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
 
-_Full report has 372 lines. Open the linked report above to read everything._
+_Full report has 440 lines. Open the linked report above to read everything._
 ```
 
-## reports/music_note_patterns_report.txt
+## reports\music_note_patterns_report.txt
 
 ```text
 Music Note Science And Math Pattern Report
@@ -251,7 +251,7 @@ Tension ratio: 31.01%
 _Full report has 203 lines. Open the linked report above to read everything._
 ```
 
-## reports/music_lyric_patterns_report.txt
+## reports\music_lyric_patterns_report.txt
 
 ```text
 Music And Lyric Pattern Alignment Report
@@ -268,7 +268,7 @@ Overview
 --------
 Lyric documents analyzed: 13
 Total lyric words analyzed: 794
-Religious research documents used for comparison: 21
+Religious research documents used for comparison: 22
 
 Strongest Lyric Motifs
 ---------------------
@@ -276,7 +276,7 @@ Strongest Lyric Motifs
 _Full report has 664 lines. Open the linked report above to read everything._
 ```
 
-## reports/cultural_pattern_relationships_report.txt
+## reports\cultural_pattern_relationships_report.txt
 
 ```text
 Cultural Pattern Relationships Report
@@ -301,7 +301,7 @@ Cultural Domains
 _Full report has 279 lines. Open the linked report above to read everything._
 ```
 
-## research_documents/daily_evaluation_queue.md
+## research_documents\daily_evaluation_queue.md
 
 ```text
 # Daily Evaluation Queue
@@ -315,13 +315,13 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ### MUSICA MUNDANA , ARISTOTELIAN NATURAL PHILOSOPHY AND PTOLEMAIC ASTRONOMY
 
-- Review status: unreviewed_daily_candidate
-- Evaluation use: candidate lead only until original source review and counterargument check
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: music_math
 - Layer routes: music_notes, deep_sources
 - Primary layer: music_notes
 - Provider: OpenAlex
 - Quality: scholarly metadata
 
-_Full report has 2,406 lines. Open the linked report above to read everything._
+_Full report has 3,719 lines. Open the linked report above to read everything._
 ```

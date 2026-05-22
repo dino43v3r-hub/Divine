@@ -9,6 +9,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.error import HTTPError
 
 
 REFERENCES_DIR = Path("references")
@@ -22,6 +23,7 @@ DAILY_EVALUATION_QUEUE_PATH = RESEARCH_DIR / "daily_evaluation_queue.md"
 
 BING_WEB_SEARCH_ENDPOINT = "https://api.bing.microsoft.com/v7.0/search"
 BRAVE_WEB_SEARCH_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
+DEFAULT_SEARXNG_BASE_URL = "https://search.mdosch.de"
 
 TRUSTED_OPEN_WEB_DOMAINS = [
     ".edu",
@@ -208,6 +210,10 @@ def fetch_text(url: str, timeout: int = 30):
     )
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return response.read().decode("utf-8", errors="replace")
+
+
+def searxng_base_url():
+    return (os.getenv("SEARXNG_BASE_URL") or DEFAULT_SEARXNG_BASE_URL).rstrip("/")
 
 
 def clean_text(value: str, limit: int = 700):
@@ -668,7 +674,7 @@ def search_brave_web(query: str, tag: str, limit: int = 5):
 
 
 def search_searxng_web(query: str, tag: str, limit: int = 5):
-    base_url = os.getenv("SEARXNG_BASE_URL", "").rstrip("/")
+    base_url = searxng_base_url()
     if not base_url:
         return []
 
@@ -710,8 +716,9 @@ def collect_sources():
     broad_web_enabled = bool(
         os.getenv("BING_SEARCH_API_KEY")
         or os.getenv("BRAVE_SEARCH_API_KEY")
-        or os.getenv("SEARXNG_BASE_URL")
+        or searxng_base_url()
     )
+    searxng_available = bool(searxng_base_url())
 
     for tag, queries in QUERY_SETS.items():
         for query in queries:
@@ -719,7 +726,9 @@ def collect_sources():
             if "quantum" in tag or "science" in tag or "music_math" in tag:
                 collectors.append(search_arxiv)
             if broad_web_enabled:
-                collectors.extend([search_bing_web, search_brave_web, search_searxng_web])
+                collectors.extend([search_bing_web, search_brave_web])
+                if searxng_available:
+                    collectors.append(search_searxng_web)
 
             for collector in collectors:
                 try:
@@ -728,6 +737,10 @@ def collect_sources():
                         if add_source(sources_by_id, source):
                             new_count += 1
                             new_sources.append(source)
+                except HTTPError as exc:
+                    errors.append(f"{collector.__name__} failed for {tag}: {exc}")
+                    if collector is search_searxng_web and exc.code == 429:
+                        searxng_available = False
                 except Exception as exc:
                     errors.append(f"{collector.__name__} failed for {tag}: {exc}")
 
@@ -816,10 +829,10 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
         "Reference Tags",
         "--------------",
     ]
-    if os.getenv("BING_SEARCH_API_KEY") or os.getenv("BRAVE_SEARCH_API_KEY") or os.getenv("SEARXNG_BASE_URL"):
+    if os.getenv("BING_SEARCH_API_KEY") or os.getenv("BRAVE_SEARCH_API_KEY") or searxng_base_url():
         lines.extend(
             [
-                "Broad web search: enabled",
+                f"Broad web search: enabled via SearXNG ({searxng_base_url()}) or configured search API keys.",
                 "",
             ]
         )

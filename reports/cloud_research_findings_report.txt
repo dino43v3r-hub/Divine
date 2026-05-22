@@ -1,7 +1,7 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-22T20:22:10.697089+00:00
+Updated: 2026-05-22T22:27:18.997119+00:00
 Total references: 376
 New references this run: 0
 
@@ -14,7 +14,7 @@ Guardrails
 
 Reference Tags
 --------------
-Broad web search: not enabled; set SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.
+Broad web search: enabled via SearXNG (https://search.mdosch.de) or configured search API keys.
 
 - art_beauty: 31
 - biblical_languages: 28
@@ -273,3 +273,7 @@ Recent Candidate Sources
   Authors: Ernst-August Gutt
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4324/9781315760018
+
+Collector Errors
+----------------
+- search_searxng_web failed for trinity: HTTP Error 429: TOO MANY REQUESTS
