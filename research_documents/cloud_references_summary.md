@@ -6,6 +6,8 @@ It stores summaries and citations only, not full copyrighted source text.
 ## Creation and redemption according to Paul's theology
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1163/9789004266032_004
@@ -15,6 +17,8 @@ No summary available in metadata.
 ## DOGMA TRITUNGGAL MENURUT KRISTEN SAKSI-SAKSI YEHUWA
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.14421/rejusta.2017.1302-01
@@ -24,6 +28,8 @@ OpenAlex abstract metadata available.
 ## Doctrinal Synthesis on the Father, Son, and Holy Spirit
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.2307/j.ctt3fgqdw.10
@@ -33,6 +39,8 @@ No summary available in metadata.
 ## Doctrine of the Holy Spirit in John Calvin
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: http://hdl.handle.net/1842/10289
@@ -42,6 +50,8 @@ OpenAlex abstract metadata available.
 ## Father, Son, and Holy Spirit
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.2307/j.ctv27tct7n.8
@@ -51,6 +61,8 @@ No summary available in metadata.
 ## Father, Son, and Holy Spirit in the Old Testament
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.2307/j.ctt1tm7j2q.6
@@ -60,6 +72,8 @@ No summary available in metadata.
 ## God as one, with reference to Barth and the perichoresis doctrine
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests, visual_art
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4102/ve.v44i1.2711
@@ -69,6 +83,8 @@ OpenAlex abstract metadata available.
 ## God the Trinity:
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.2307/j.ctt1cgf175.11
@@ -78,6 +94,8 @@ No summary available in metadata.
 ## HERMENEUTICAL BUNGEE-JUMPING: SUBORDINATION IN THE GODHEAD
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://www.etsjets.org/files/JETS-PDFs/40/40-1/40-1-pp057-068_JETS.pdf
@@ -87,6 +105,8 @@ OpenAlex abstract metadata available.
 ## How augustine used the trinity: Functionalism and the development of doctrine
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://ixtheo.de/Record/1645122360
@@ -96,6 +116,8 @@ OpenAlex abstract metadata available.
 ## John Calvin's Soteriology: On the Multifaceted ‘Sum’ of the Gospel
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1111/j.1468-2400.2009.00470.x
@@ -105,6 +127,8 @@ OpenAlex abstract metadata available.
 ## PANDANGAN PENGAKUAN IMAN NICEA-KONSTANTINOPEL (KREDO NICEA) TENTANG DOKTRIN ALLAH TRITUNGGAL
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.46965/jtc.v3i1.249
@@ -114,6 +138,8 @@ OpenAlex abstract metadata available.
 ## Redemption and Creation
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.5040/9781978720497.ch-1
@@ -123,6 +149,8 @@ No summary available in metadata.
 ## THE TRINITY IN CHRISTIAN LIFE
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.46362/quaerens.v7i1.301
@@ -132,6 +160,8 @@ OpenAlex abstract metadata available.
 ## The Forgotten Trinity
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.5040/9780567690289.ch-001
@@ -141,6 +171,8 @@ No summary available in metadata.
 ## The Hallowing of Logic: The Trinitarian Method of Richard Baxter's Methodus Theologiae
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: http://hdl.handle.net/1842/7821
@@ -150,6 +182,8 @@ OpenAlex abstract metadata available.
 ## The Holy Spirit who with the Father and the Son together is Worshipped and Glorified
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.5040/9780567690289.ch-005
@@ -159,6 +193,8 @@ No summary available in metadata.
 ## The Impact of Calvin’s Trinitarian Controversies upon the Economic-Trinitarian Emphasis of His Theology
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1093/oso/9780195086003.003.0003
@@ -173,6 +209,8 @@ divorce consideration of his doctrine from examination of his life and ministry,
 ## The International Ecumenical Peace Convocation: Towards an Ecumenical Theology of Just Peace?
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1111/j.1758-6623.2010.00092.x
@@ -182,6 +220,8 @@ OpenAlex abstract metadata available.
 ## The Paschal Event:
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.2307/j.ctv1hztrfz.20
@@ -191,6 +231,8 @@ No summary available in metadata.
 ## The Relation between creation and redemption according to modern studies of Pauline Theology
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1163/9789004266032_003
@@ -200,6 +242,8 @@ No summary available in metadata.
 ## The Revelation of the Father, Son, and Holy Spirit
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.2307/j.ctt3fgqdw.7
@@ -209,6 +253,8 @@ No summary available in metadata.
 ## The Trinity
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1017/9781009293105
@@ -218,6 +264,8 @@ OpenAlex abstract metadata available.
 ## The lord of creation and redemption according to pauline theology
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1163/9789004266032_007
@@ -227,6 +275,8 @@ No summary available in metadata.
 ## Theology's Need for a New Interpretation of Nature: Correlate of the Doctrine of Grace
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1111/j.1540-6385.2007.00334.x
@@ -236,6 +286,8 @@ OpenAlex abstract metadata available.
 ## “In the Name of the Father, Son, and Holy Spirit”: Trinitarian Theology
 
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.5040/9780567677167.ch-008
@@ -245,6 +297,8 @@ No summary available in metadata.
 ## A Way of God's Theodicy: Honesty, Presence, Adventure
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1177/002234097803200404
@@ -254,6 +308,8 @@ No summary available in metadata.
 ## Assessing Existing Theodicies
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.5040/9781978720480.ch-2
@@ -263,6 +319,8 @@ No summary available in metadata.
 ## Chaplaincy, Spiritual Care and Moral Injury: Considerations Regarding Screening and Treatment
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.3389/fpsyt.2018.00619
@@ -272,6 +330,8 @@ OpenAlex abstract metadata available.
 ## Climate Grief and Transformation: Deepening Pastoral Eco-Theological Grief Care Through Self-reflection, Witnessing and Narrative Practice
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1080/10649867.2025.2607257
@@ -281,6 +341,8 @@ No summary available in metadata.
 ## Dangerous prayer: discovering a missional spirituality in the lord’s prayer
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1080/1756073x.2018.1500163
@@ -290,6 +352,8 @@ No summary available in metadata.
 ## Death and Grief
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4324/9781315808499-21
@@ -299,6 +363,8 @@ No summary available in metadata.
 ## Doing practical theology ‘from the place where it hurts’: the significance of trauma theology in renewing a practical theology of suffering
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1080/1756073x.2023.2277004
@@ -308,6 +374,8 @@ No summary available in metadata.
 ## Faith after an Earthquake: A Longitudinal Study of Religion and Perceived Health before and after the 2011 Christchurch New Zealand Earthquake
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, visual_art
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1371/journal.pone.0049648
@@ -317,6 +385,8 @@ OpenAlex abstract metadata available.
 ## Gendered Political Violence and the Church in Africa: Perspectives from Church Leaders
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.3390/rel16091213
@@ -326,6 +396,8 @@ OpenAlex abstract metadata available.
 ## Glory in suffering? A reflection on finding meaning in grief through an interrogation into the phenomenology of suffering
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1080/1756073x.2019.1707458
@@ -335,6 +407,8 @@ No summary available in metadata.
 ## Going back to my roots : a critical understanding of the interplay between Christian faith and Shona tradition in the quest to find meaning within the HIV pandemic
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: http://hdl.handle.net/10019.1/6511
@@ -344,6 +418,8 @@ OpenAlex abstract metadata available.
 ## Hamartology and ecology: a critical assessment of Dietrich Bonhoeffer’s view on the nature of sin
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, theologians, visual_art
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: http://hdl.handle.net/11394/3272
@@ -353,6 +429,8 @@ OpenAlex abstract metadata available.
 ## Hospice spiritual care and suffering: towards a theodicy of suffering
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1080/13520806.2000.11758892
@@ -362,6 +440,8 @@ No summary available in metadata.
 ## Lament as a Contributor to the Healing of Trauma: an Application of Poetry in the Form of Biblical Lament
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, modern_literature
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1007/s11089-018-0851-z
@@ -371,6 +451,8 @@ No summary available in metadata.
 ## Mary Shelley's Frankenstein
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.5040/9781682661109
@@ -380,6 +462,8 @@ OpenAlex abstract metadata available.
 ## Nederduitse Gereformeerde Teologiese Tydskrif
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, history_inputs
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.5952/52-0-39
@@ -389,6 +473,8 @@ OpenAlex abstract metadata available.
 ## Prayer and Practical Theology
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, visual_art
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1515/ijpt-2012-0018
@@ -405,6 +491,8 @@ practical theology, offer
 ## RECOVERING GRIEF IN THE AGE OF GRIEF RECOVERY
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1179/jpt.2003.13.1.005
@@ -414,6 +502,8 @@ No summary available in metadata.
 ## Shades of Lament: Phenomenology, Theopoetics, and Pastoral Theology
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1007/s11089-014-0616-2
@@ -423,6 +513,8 @@ No summary available in metadata.
 ## Suffering in worship: Anglican liturgy in relation to stories of suffering people
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1080/1756073x.2018.1459119
@@ -432,6 +524,8 @@ No summary available in metadata.
 ## The Trinity and Suffering
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, theologians
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4324/9781315605364-9
@@ -441,6 +535,8 @@ No summary available in metadata.
 ## The True, the Good and the Reasonable: The Theological and Ethical Roots of Public Reason in Islamic Law
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, other_religious_texts
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1017/s084182090000432x
@@ -450,6 +546,8 @@ OpenAlex abstract metadata available.
 ## Theodicy in the Face of Children's Suffering and Death
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, visual_art
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1177/002234099404800207
@@ -460,6 +558,8 @@ children and illustrates how such contemplations get expressed in particular pas
 ## Third-Generation Holocaust Representation : Trauma, History, and Memory
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, history_inputs
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.26530/oapen_628783
@@ -469,6 +569,8 @@ OpenAlex abstract metadata available.
 ## Towards a theology of Covid: providence and lament in past, present, and future trauma narratives
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1080/1756073x.2020.1861403
@@ -478,6 +580,8 @@ OpenAlex abstract metadata available.
 ## Unanswered Prayer
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4324/9781315808499-18
@@ -487,6 +591,8 @@ No summary available in metadata.
 ## When faith does violence: Reimagining engagement between churches and LGBTI groups on homophobia in Africa
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4102/hts.v72i1.3511
@@ -496,6 +602,8 @@ OpenAlex abstract metadata available.
 ## Why Animal Suffering Matters Morally
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1093/acprof:oso/9780199351848.003.0002
@@ -505,6 +613,8 @@ No summary available in metadata.
 ## “I Will Show You My Faith by My Works”: Addressing the Nexus between Philosophical Theodicy and Human Suffering and Loss in Contexts of ‘Natural’ Disaster
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.3390/rel10030213
@@ -514,6 +624,8 @@ OpenAlex abstract metadata available.
 ## “The wounded Beast?” - Single Women, Tradition, and the Bible in Zimbabwe
 
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.20378/irb-48992
@@ -523,6 +635,8 @@ OpenAlex abstract metadata available.
 ## The Political Unconscious: Narrative as a Socially Symbolic Act
 
 - Tags: unresolved_suffering, world_languages_translation
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, world_languages, all_texts
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.2307/3684627
@@ -532,6 +646,8 @@ OpenAlex abstract metadata available.
 ## 7. Grammar, metaphor and ecology
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1075/dapsac.23.15gra
@@ -541,6 +657,8 @@ No summary available in metadata.
 ## A Unifying Field in Logics: Neutrosophic Logic. Neutrosophy, Neutrosophic Set, Neutrosophic Probability
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://philpapers.org/rec/SMAAUF-2
@@ -550,6 +668,8 @@ OpenAlex abstract metadata available.
 ## APPENDIX 6:
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.2307/j.ctv6gqs2k.28
@@ -559,6 +679,8 @@ No summary available in metadata.
 ## Book Review: Sacred Languages and Sacred Texts
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1177/0040571x9910200613
@@ -568,6 +690,8 @@ No summary available in metadata.
 ## Conceptual Metaphor in Cognitive Semantics
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, psychology_inputs
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1163/2773-1952_hcso_com_0310
@@ -577,6 +701,8 @@ No summary available in metadata.
 ## Critical discourse analysis and its critics
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1075/prag.21.4.01bre
@@ -586,6 +712,8 @@ OpenAlex abstract metadata available.
 ## Embodiment as a Paradigm for Anthropology
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1007/978-1-137-08286-2_3
@@ -595,6 +723,8 @@ OpenAlex abstract metadata available.
 ## Fundraising
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4324/9780203290903_chapter_10
@@ -604,6 +734,8 @@ No summary available in metadata.
 ## God's Invisible Traces: The Sacred in Fallen Language, Translation and Literariness
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1093/litthe/frp043
@@ -613,6 +745,8 @@ No summary available in metadata.
 ## History of Concepts : Comparative Perspectives
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, history_inputs
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.5117/9789053563069
@@ -622,6 +756,8 @@ OpenAlex abstract metadata available.
 ## On spirit writing: materialities of language and the religious work of transduction
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1111/1467-9655.12000
@@ -631,6 +767,8 @@ OpenAlex abstract metadata available.
 ## Reflections on metaphor and grammar
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1075/pbns.32.08lak
@@ -640,6 +778,8 @@ No summary available in metadata.
 ## SACRED LANGUAGES
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4324/9780203047750-8
@@ -649,6 +789,8 @@ No summary available in metadata.
 ## Sacred Languages and Sacred Texts
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4324/9780203047750
@@ -658,6 +800,8 @@ No summary available in metadata.
 ## Sociological definitions, language games, and the "essence" of religion
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1163/157006802760198776
@@ -667,6 +811,8 @@ OpenAlex abstract metadata available.
 ## Syntax, Semantics, and Grammar
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1515/9781552384671-026
@@ -676,6 +822,8 @@ No summary available in metadata.
 ## TRANSLATION
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4324/9780203047750-11
@@ -685,6 +833,8 @@ No summary available in metadata.
 ## Teaching the Translation of English-Language Color Terms in Political Texts: From Culture to Semantics
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.2139/ssrn.6623278
@@ -701,6 +851,8 @@ translation of
 ## The human factor
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4324/9780203290903_chapter_8
@@ -710,6 +862,8 @@ No summary available in metadata.
 ## The nature and measurement of meaning.
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1037/h0055737
@@ -719,6 +873,8 @@ OpenAlex abstract metadata available.
 ## The translation of sacred texts
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4324/9780203102893-45
@@ -728,6 +884,8 @@ No summary available in metadata.
 ## Translation and Genre: Sacred Texts
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - URL: https://doi.org/10.1016/b0-08-044854-2/00486-7
@@ -737,6 +895,8 @@ No summary available in metadata.
 ## Translation and Relevance
 
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - URL: https://doi.org/10.4324/9781315760018

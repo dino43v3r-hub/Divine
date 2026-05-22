@@ -41,6 +41,12 @@ This queue is intentionally cautious. It helps the analyzer see new material
 from the internet, but all entries remain candidate leads until original-source
 review, author/context checks, and counterarguments are added.
 
+Daily candidates are also routed to likely review layers such as theologians,
+visual art, history, world languages, biblical languages, all texts,
+psychology, other religious texts, modern literature, human stories, deep
+sources, and pressure tests. These routes are triage hints, not evidence
+approval.
+
 ## GitHub
 
 The GitHub Actions workflow is in:
@@ -91,6 +97,12 @@ auto-commit action. The analyzer itself still uses Python 3.12.
 - Do not use quantum physics as vague proof of God.
 - Do not rush unresolved suffering into easy resolution.
 - Use source quality, counterarguments, and practical application checks.
+
+The current research roadmap is tracked in:
+
+```text
+research_documents/next_research_expansion_tracker.md
+```
 
 ## Theologian Pattern Design
 

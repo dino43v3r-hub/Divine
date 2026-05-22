@@ -87,6 +87,59 @@ QUERY_SETS = {
 }
 
 
+TAG_LAYER_ROUTES = {
+    "trinity": ["theologians", "research_documents", "pattern_tests"],
+    "unresolved_suffering": ["pattern_tests", "deep_sources", "psychology_inputs", "human_stories"],
+    "quantum_science_guardrails": ["deep_sources", "pattern_tests"],
+    "music_math": ["music_notes", "deep_sources"],
+    "politics_justice": ["cultural_inputs", "history_inputs", "pattern_tests"],
+    "art_beauty": ["visual_art", "cultural_inputs"],
+    "history_memory": ["history_inputs", "theologians", "pattern_tests"],
+    "world_languages_translation": ["world_languages", "all_texts"],
+    "biblical_languages": ["biblical_languages", "research_documents/christian_sources"],
+    "psychology_patterns": ["psychology_inputs", "human_stories", "pattern_tests"],
+    "global_text_traditions": ["all_texts", "other_religious_texts", "modern_literature"],
+    "technology_ethics": ["cultural_inputs", "pattern_tests"],
+    "theologians_cross_era": ["theologians", "research_documents/christian_sources"],
+}
+
+
+TEXT_LAYER_ROUTES = {
+    "theologians": ["athanasius", "augustine", "aquinas", "luther", "calvin", "barth", "bonhoeffer", "moltmann", "theologian", "trinity"],
+    "visual_art": ["art", "beauty", "aesthetic", "icon", "iconography", "visual"],
+    "history_inputs": ["history", "historical", "memory", "empire", "reform", "chronicle"],
+    "world_languages": ["translation", "language", "semantics", "metaphor", "grammar"],
+    "biblical_languages": ["hebrew", "greek", "septuagint", "logos", "pneuma", "ruach", "hesed"],
+    "all_texts": ["sacred text", "scripture", "wisdom", "myth", "epic", "ritual", "oral tradition"],
+    "psychology_inputs": ["psychology", "trauma", "attachment", "habit", "cognitive", "identity"],
+    "other_religious_texts": ["comparative religion", "quran", "hindu", "buddhist", "islam", "judaism"],
+    "modern_literature": ["modern literature", "novel", "fiction", "poetry", "drama", "memoir"],
+    "human_stories": ["case study", "testimony", "lived experience", "pastoral", "counseling"],
+    "deep_sources": ["quantum", "physics", "science", "peer review", "counterargument"],
+    "pattern_tests": ["suffering", "injustice", "overclaim", "unanswered", "abuse", "counterargument"],
+}
+
+
+LAYER_REVIEW_PROMPTS = {
+    "theologians": "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+    "visual_art": "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+    "history_inputs": "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+    "world_languages": "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+    "biblical_languages": "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
+    "all_texts": "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+    "psychology_inputs": "Separate psychological/social process from theological interpretation and note clinical limits.",
+    "other_religious_texts": "Read the tradition on its own terms; do not flatten it into Christian categories.",
+    "modern_literature": "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+    "human_stories": "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+    "deep_sources": "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+    "pattern_tests": "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+    "cultural_inputs": "Classify the cultural domain and practical consequences before making theological claims.",
+    "music_notes": "Check musical structure directly before using it as analogy or theological support.",
+    "research_documents": "Use as general research context until a more specific layer is reviewed.",
+    "research_documents/christian_sources": "Check Christian source context, doctrine, and source quality.",
+}
+
+
 def read_json(path: Path, default):
     if not path.exists():
         return default
@@ -142,9 +195,11 @@ def add_source(sources_by_id: dict, source: dict):
         existing_tags = set(existing.get("tags", []))
         existing_tags.update(source.get("tags", []))
         existing["tags"] = sorted(existing_tags)
+        add_layer_routing(existing)
         return False
 
     source["id"] = key
+    add_layer_routing(source)
     sources_by_id[key] = source
     return True
 
@@ -165,6 +220,46 @@ def source_quality(source: dict):
     if any(term in text for term in ["maybe", "proof of god", "quantum proves"]):
         return "speculative-risk"
     return "reference metadata"
+
+
+def route_layers_for_source(source: dict):
+    routes = []
+
+    for tag in source.get("tags", []):
+        routes.extend(TAG_LAYER_ROUTES.get(tag, []))
+
+    text = " ".join(
+        [
+            source.get("title", ""),
+            source.get("summary", ""),
+            " ".join(source.get("tags", [])),
+        ]
+    ).lower()
+
+    for layer, terms in TEXT_LAYER_ROUTES.items():
+        if any(term in text for term in terms):
+            routes.append(layer)
+
+    deduped = []
+    for route in routes:
+        if route not in deduped:
+            deduped.append(route)
+
+    return deduped or ["research_documents"]
+
+
+def add_layer_routing(source: dict):
+    routes = route_layers_for_source(source)
+    source["layer_routes"] = routes
+    source["primary_layer"] = routes[0]
+    source["layer_review_prompts"] = [
+        LAYER_REVIEW_PROMPTS.get(
+            route,
+            "Review source quality, scope, context, and counterarguments.",
+        )
+        for route in routes[:5]
+    ]
+    return source
 
 
 def search_crossref(query: str, tag: str, limit: int = 5):
@@ -299,6 +394,8 @@ def search_arxiv(query: str, tag: str, limit: int = 5):
 def collect_sources():
     existing = read_json(REFERENCES_PATH, {"sources": []})
     sources_by_id = {source_id(source): source for source in existing.get("sources", []) if source_id(source)}
+    for source in sources_by_id.values():
+        add_layer_routing(source)
     new_count = 0
     new_sources = []
     errors = []
@@ -319,7 +416,18 @@ def collect_sources():
                 except Exception as exc:
                     errors.append(f"{collector.__name__} failed for {tag}: {exc}")
 
+    for source in sources_by_id.values():
+        add_layer_routing(source)
+
     sources = sorted(sources_by_id.values(), key=lambda item: (item.get("tags", []), item.get("title", "")))
+    layer_counts = {}
+    new_layer_counts = {}
+    for source in sources:
+        for layer in source.get("layer_routes", []):
+            layer_counts[layer] = layer_counts.get(layer, 0) + 1
+    for source in new_sources:
+        for layer in source.get("layer_routes", []):
+            new_layer_counts[layer] = new_layer_counts.get(layer, 0) + 1
     run_at = datetime.now(timezone.utc).isoformat()
     save_json(
         REFERENCES_PATH,
@@ -335,6 +443,8 @@ def collect_sources():
             "updated_at": run_at,
             "new_count": new_count,
             "new_sources": new_sources,
+            "layer_counts": layer_counts,
+            "new_layer_counts": new_layer_counts,
             "errors": errors,
         },
     )
@@ -347,9 +457,12 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
 
     tag_counts = {}
     quality_counts = {}
+    layer_counts = {}
     for source in sources:
         for tag in source.get("tags", []):
             tag_counts[tag] = tag_counts.get(tag, 0) + 1
+        for layer in source.get("layer_routes", []):
+            layer_counts[layer] = layer_counts.get(layer, 0) + 1
         quality = source.get("quality", "unknown")
         quality_counts[quality] = quality_counts.get(quality, 0) + 1
 
@@ -372,13 +485,18 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
         "--------------",
     ]
     lines.extend(f"- {tag}: {count:,}" for tag, count in sorted(tag_counts.items()))
+    lines.extend(["", "Layer Routes", "------------"])
+    lines.extend(f"- {layer}: {count:,}" for layer, count in sorted(layer_counts.items()))
     lines.extend(["", "Quality Counts", "--------------"])
     lines.extend(f"- {quality}: {count:,}" for quality, count in sorted(quality_counts.items()))
 
     new_tag_counts = {}
+    new_layer_counts = {}
     for source in new_sources:
         for tag in source.get("tags", []):
             new_tag_counts[tag] = new_tag_counts.get(tag, 0) + 1
+        for layer in source.get("layer_routes", []):
+            new_layer_counts[layer] = new_layer_counts.get(layer, 0) + 1
 
     lines.extend(["", "New This Run By Tag", "-------------------"])
     if new_tag_counts:
@@ -386,12 +504,20 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
     else:
         lines.append("- No brand-new references found this run; reports still re-evaluate the current candidate set.")
 
+    lines.extend(["", "New This Run By Layer Route", "---------------------------"])
+    if new_layer_counts:
+        lines.extend(f"- {layer}: {count:,}" for layer, count in sorted(new_layer_counts.items()))
+    else:
+        lines.append("- No brand-new layer routes this run.")
+
     lines.extend(["", "Newest Additions This Run", "------------------------"])
     if new_sources:
         for source in new_sources[:30]:
             tags = ", ".join(source.get("tags", []))
+            routes = ", ".join(source.get("layer_routes", []))
             lines.append(f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'})")
             lines.append(f"  Tags: {tags}")
+            lines.append(f"  Layer routes: {routes}")
             lines.append(f"  Source: {source.get('provider')} | {source.get('quality')}")
             if source.get("url"):
                 lines.append(f"  URL: {source['url']}")
@@ -401,9 +527,11 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
     lines.extend(["", "Recent Candidate Sources", "------------------------"])
     for source in sources[-30:]:
         tags = ", ".join(source.get("tags", []))
+        routes = ", ".join(source.get("layer_routes", []))
         authors = ", ".join(source.get("authors", []))
         lines.append(f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'})")
         lines.append(f"  Tags: {tags}")
+        lines.append(f"  Layer routes: {routes}")
         if authors:
             lines.append(f"  Authors: {authors}")
         lines.append(f"  Source: {source.get('provider')} | {source.get('quality')}")
@@ -431,6 +559,8 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
                 f"## {source.get('title', 'Untitled')}",
                 "",
                 f"- Tags: {', '.join(source.get('tags', []))}",
+                f"- Layer routes: {', '.join(source.get('layer_routes', []))}",
+                f"- Primary layer: {source.get('primary_layer', 'research_documents')}",
                 f"- Provider: {source.get('provider')}",
                 f"- Quality: {source.get('quality')}",
                 f"- URL: {source.get('url')}",
@@ -469,6 +599,8 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
                 f"- Review status: {source.get('review_status', 'unreviewed_daily_candidate')}",
                 f"- Evaluation use: {source.get('evaluation_use', 'candidate lead only')}",
                 f"- Tags: {', '.join(source.get('tags', []))}",
+                f"- Layer routes: {', '.join(source.get('layer_routes', []))}",
+                f"- Primary layer: {source.get('primary_layer', 'research_documents')}",
                 f"- Provider: {source.get('provider')}",
                 f"- Quality: {source.get('quality')}",
                 f"- Year: {source.get('year') or 'n.d.'}",
@@ -476,8 +608,12 @@ def write_reports(sources: list[dict], new_count: int, new_sources: list[dict], 
                 "",
                 textwrap.fill(summary, width=100),
                 "",
+                "Layer review prompts:",
             ]
         )
+        for prompt in source.get("layer_review_prompts", [])[:5]:
+            queue_lines.append(f"- {prompt}")
+        queue_lines.append("")
 
     DAILY_EVALUATION_QUEUE_PATH.write_text("\n".join(queue_lines), encoding="utf-8")
 

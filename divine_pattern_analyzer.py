@@ -5408,6 +5408,7 @@ def read_daily_research_digest():
 def create_daily_pattern_developments(digest):
     """Turn new daily sources into evolving candidate pattern language."""
     new_sources = digest.get("new_sources", [])
+    layer_counts = Counter(digest.get("new_layer_counts", {}))
     tag_counts = Counter(
         tag
         for source in new_sources
@@ -5426,6 +5427,25 @@ def create_daily_pattern_developments(digest):
     ).lower()
 
     developments = []
+    if layer_counts.get("theologians", 0):
+        developments.append("Theologian-source candidates grew today; review era, primary source, doctrine, disagreement, and pressure points.")
+    if layer_counts.get("visual_art", 0):
+        developments.append("Visual-art candidates grew today; examine actual form, composition, symbol, beauty, lament, and counter-reading.")
+    if layer_counts.get("history_inputs", 0):
+        developments.append("History candidates grew today; test power, harm, reform, memory, consequence, and unfinished repair.")
+    if layer_counts.get("world_languages", 0):
+        developments.append("World-language candidates grew today; track translation range, metaphor, grammar, culture, and rival readings.")
+    if layer_counts.get("biblical_languages", 0):
+        developments.append("Biblical-language candidates grew today; check lemma, syntax, canonical context, and scholarly counter-readings.")
+    if layer_counts.get("all_texts", 0) or layer_counts.get("other_religious_texts", 0):
+        developments.append("Global and comparative text candidates grew today; respect each tradition's own meaning before comparing patterns.")
+    if layer_counts.get("psychology_inputs", 0) or layer_counts.get("human_stories", 0):
+        developments.append("Psychology or human-story candidates grew today; separate lived repair from overclaimed theological interpretation.")
+    if layer_counts.get("deep_sources", 0):
+        developments.append("Deep-source candidates grew today; review qualified evidence and counterarguments before strengthening claims.")
+    if layer_counts.get("pattern_tests", 0):
+        developments.append("Pressure-test candidates grew today; name failure conditions and whether the pattern holds under friction.")
+
     if tag_counts.get("unresolved_suffering", 0) or any(term in text for term in ["lament", "grief", "trauma", "hope"]):
         developments.append("Lament-to-hope material grew today; test whether hope is patient and non-coercive rather than a quick resolution.")
     if tag_counts.get("biblical_languages", 0) or any(term in text for term in ["hebrew", "greek", "hesed", "logos", "translation"]):
@@ -5446,7 +5466,7 @@ def create_daily_pattern_developments(digest):
     if not new_sources:
         developments.append("No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.")
 
-    return tag_counts, quality_counts, developments
+    return tag_counts, layer_counts, quality_counts, developments
 
 
 def create_divine_pattern_summary_report(
@@ -5461,7 +5481,7 @@ def create_divine_pattern_summary_report(
 ):
     """Create a concise summary of the current divine pattern found."""
     daily_digest = read_daily_research_digest()
-    daily_tag_counts, daily_quality_counts, daily_developments = create_daily_pattern_developments(
+    daily_tag_counts, daily_layer_counts, daily_quality_counts, daily_developments = create_daily_pattern_developments(
         daily_digest
     )
     research_layer_counts = combine_layer_counts(research_analyses)
@@ -5530,6 +5550,13 @@ def create_divine_pattern_summary_report(
     else:
         lines.append("- No new lanes grew in the latest collector run.")
 
+    lines.extend(["", "New material by routed layer:"])
+    if daily_layer_counts:
+        for layer, count in daily_layer_counts.most_common():
+            lines.append(f"- {layer}: {count:,}")
+    else:
+        lines.append("- No routed layers grew in the latest collector run.")
+
     lines.extend(["", "New material quality mix:"])
     if daily_quality_counts:
         for quality, count in daily_quality_counts.most_common():
@@ -5542,8 +5569,9 @@ def create_divine_pattern_summary_report(
     if new_sources:
         for source in new_sources[:8]:
             tags = ", ".join(source.get("tags", []))
+            routes = ", ".join(source.get("layer_routes", []))
             lines.append(
-                f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'}) | {tags} | {source.get('quality', 'unknown')}"
+                f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'}) | tags: {tags} | layers: {routes} | {source.get('quality', 'unknown')}"
             )
     else:
         lines.append("- No brand-new sources to review from the latest collector run.")

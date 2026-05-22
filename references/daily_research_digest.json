@@ -1,6 +1,25 @@
 {
   "errors": [],
+  "layer_counts": {
+    "all_texts": 66,
+    "biblical_languages": 31,
+    "cultural_inputs": 69,
+    "deep_sources": 120,
+    "history_inputs": 58,
+    "human_stories": 63,
+    "modern_literature": 32,
+    "music_notes": 45,
+    "other_religious_texts": 37,
+    "pattern_tests": 199,
+    "psychology_inputs": 66,
+    "research_documents": 30,
+    "research_documents/christian_sources": 54,
+    "theologians": 90,
+    "visual_art": 74,
+    "world_languages": 56
+  },
   "new_count": 0,
+  "new_layer_counts": {},
   "new_sources": [],
-  "updated_at": "2026-05-22T19:18:21.580033+00:00"
+  "updated_at": "2026-05-22T19:33:48.516170+00:00"
 }

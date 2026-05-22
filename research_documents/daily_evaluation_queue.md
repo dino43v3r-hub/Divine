@@ -12,6 +12,8 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
+- Layer routes: music_notes, deep_sources
+- Primary layer: music_notes
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2002
@@ -19,11 +21,17 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check musical structure directly before using it as analogy or theological support.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
 ### Simultaneous consonance in music perception and composition.
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
+- Layer routes: music_notes, deep_sources
+- Primary layer: music_notes
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2019
@@ -31,11 +39,17 @@ OpenAlex abstract metadata available.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check musical structure directly before using it as analogy or theological support.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
 ### Quantum continuous measurements: The stochastic Schroedinger equations and the spectrum of the output
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2013
@@ -50,11 +64,17 @@ stochastic Schrödinger equation by diagonalization of suitable quantum observab
 isomorphism between Fock space and Wiener space. Then, we give the a posteriori state, the
 conditional system state
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### A geometry of music: harmony and counterpoint in the extended common practice
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
+- Layer routes: music_notes, deep_sources
+- Primary layer: music_notes
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2012
@@ -62,11 +82,17 @@ conditional system state
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check musical structure directly before using it as analogy or theological support.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
 ### The radicality of early Christian oikodome: A theology that edifies insiders and outsiders
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+- Primary layer: biblical_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2015
@@ -74,11 +100,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### Melanchthon and Patristic Thought: The Doctrines of Christ and Grace, the Trinity and the Creation
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 1983
@@ -86,11 +119,17 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+
 ### Individual Differences Reveal the Basis of Consonance
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
+- Layer routes: music_notes, deep_sources
+- Primary layer: music_notes
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2010
@@ -98,11 +137,17 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check musical structure directly before using it as analogy or theological support.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
 ### “There is Hope for a Tree”: Lament and Hope in Conversation with Polydoxy
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, history_inputs, all_texts
+- Primary layer: visual_art
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2014
@@ -116,11 +161,19 @@ practices that can assist us in our responses to the contemporary situation. The
 by attention to the environmental crisis that requires and relativizes theological resources as we
 find ways to act in the world.
 
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### “Mere” Christian Forgiveness: An Ecumenical Christian Conceptualization of Forgiveness through the Lens of Stress-And-Coping Theory
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2019
@@ -128,11 +181,18 @@ find ways to act in the world.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### “Dwelling Amid Ruins”: Hope, Lament, and Necropolitics
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs
+- Primary layer: visual_art
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2025
@@ -140,11 +200,17 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+
 ### Yhwh's Surprising Covenant Hesed in Jonah
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
+- Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2012
@@ -159,11 +225,19 @@ and Jeremiah 8:7–8, as well as the implicit allusion to Jeremiah 36, and argue
 strong “re-creation theme” found in Jonah, there is a clear “covenant theme” in Jonah as well. The
 covenant la
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### Yahweh's Winged Form in the Psalms: Exploring Congruent Iconography and Texts
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs
+- Primary layer: visual_art
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2010
@@ -171,11 +245,17 @@ covenant la
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+
 ### Will Eisner
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2018
@@ -190,11 +270,18 @@ on the book of Job. In utilizing Berlin’s political thought, along with the fo
 biblical tale, one can discern Eisner’s vision of transformative, messianic politics, that lie in
 the vicissitudes and b
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Why Animal Suffering Matters Morally
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2013
@@ -202,11 +289,19 @@ the vicissitudes and b
 
 No summary available in metadata.
 
+Layer review prompts:
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+
 ### Whose Hero? Reinventing Epic in French West African Literature
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2013
@@ -214,11 +309,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### What the Buddha Taught
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 1974
@@ -226,11 +328,18 @@ OpenAlex abstract metadata available.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### West Indian Intellectuals in Britain
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2003
@@ -238,11 +347,18 @@ OpenAlex abstract metadata available.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### WILL EISNER:
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -250,11 +366,18 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Victimization and religious engagement: Links to school attachment and subsequent adjustment outcomes.
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2020
@@ -262,11 +385,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Verbal Periphrasis in Ancient Greek A state of the art
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
+- Primary layer: biblical_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2012
@@ -274,11 +404,19 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### Unwanted Wisdom : Suffering, the Cross, and Hope
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature, pattern_tests
+- Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2005
@@ -286,11 +424,19 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Union with the Resurrected Christ: Eschatological New Creation and New Testament Biblical Theology, by G.K. Beale
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+- Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2024
@@ -298,11 +444,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### Understanding Human Perception of Music Plagiarism Through a Computational Approach
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
+- Layer routes: music_notes, deep_sources
+- Primary layer: music_notes
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2026
@@ -316,11 +469,17 @@ identifying the key features and levels of variation humans use in perceiving mu
 propose a LLM-as-a-judge framework that applies a systematic, step-by-step approach, drawing on
 modules that extract such high-level attributes.
 
+Layer review prompts:
+- Check musical structure directly before using it as analogy or theological support.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
 ### Trinity, Christology, and pneumatology
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources, biblical_languages
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2011
@@ -328,11 +487,18 @@ modules that extract such high-level attributes.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+
 ### Trauma, place, and transformation
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests, visual_art, all_texts, deep_sources
+- Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2019
@@ -344,11 +510,20 @@ a psychophysiological and neuroscience critique. The second is from Altaf Engine
 perspective of architecture and environmental psychology, and the last response is from Hester
 Oberman, PhD, who gives a psychology of religion rebuttal.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### Translation and Relevance
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2014
@@ -356,11 +531,17 @@ Oberman, PhD, who gives a psychology of religion rebuttal.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### Translation and Genre: Sacred Texts
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2006
@@ -368,11 +549,17 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### Towards the Poetic Justice of Reparative Citizenship
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2016
@@ -380,11 +567,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Toward a dual process model of moral injury and traumatic illness
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2022
@@ -392,11 +586,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Tongues and Trees: Towards a Green Pentecostal Pneumatology
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources, biblical_languages
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2013
@@ -404,11 +605,18 @@ OpenAlex abstract metadata available.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+
 ### Tonal Frequencies, Consonance, Dissonance: A Math-Bio Intersection
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
+- Layer routes: music_notes, deep_sources, visual_art
+- Primary layer: music_notes
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2021
@@ -423,11 +631,18 @@ musical notes in the chromatic scale which is based on the fact that systematic 
 invoke pleasure. The reason behind the richness of harmony and the sonic interference and degree of
 consonanc
 
+Layer review prompts:
+- Check musical structure directly before using it as analogy or theological support.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### Tianyan: Cloud services with quantum advantage
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, visual_art
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2025
@@ -442,11 +657,18 @@ over 24 cycles, the platform completes one million samples in just 18.4 minutes.
 of-the-art classical supercomputers would require approximately 16,000 years to complete the
 equivalent calculatio
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### Theology and contemporary art
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs
+- Primary layer: visual_art
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2019
@@ -454,11 +676,17 @@ equivalent calculatio
 
 No summary available in metadata.
 
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+
 ### The translation of sacred texts
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2013
@@ -466,11 +694,17 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### The symphony of the Trinity : tuning in to the Father, Son and Holy Spirit for congregational renaissance
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2013
@@ -478,11 +712,17 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+
 ### The physicists philosophy of physics
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2024
@@ -492,11 +732,17 @@ I argue that research in physics operates under an implicit community philosophy
 definition I think physicists would accept, by and large. I compare this definition to what
 philosophers, sociologists, and historians of science, with physicists, say we are doing.
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The nature and measurement of meaning.
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 1952
@@ -504,11 +750,17 @@ philosophers, sociologists, and historians of science, with physicists, say we a
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### The narrative constitution of identity: A relational and network approach
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 1994
@@ -516,11 +768,18 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The human factor
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -528,11 +787,17 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### The Vulnerability of God as Viewed from a Theology of Han: A Constructive Dialogue between Jurgen Moltmann and Suh Nam-Dong
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2024
@@ -540,11 +805,17 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+
 ### The Theological Split in the Empire
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -552,11 +823,18 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The Terrain of Suffering
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature, pattern_tests
+- Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -564,11 +842,19 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The Revelation of the Trinity
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2010
@@ -576,11 +862,17 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+
 ### The Relation between creation and redemption according to modern studies of Pauline Theology
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 1971
@@ -588,11 +880,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The Quantum Revolution in Philosophy (Book Review)
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2021
@@ -607,11 +906,17 @@ such as quantum Bayesianism, which proposes to understand quantum theory as desc
 subjective epistemic states. The central idea of Healey's proposal is to understand quantum theory
 as providing not a
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The Psychology of Change: Self-Affirmation and Social Psychological Intervention
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2014
@@ -619,11 +924,18 @@ as providing not a
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The Principles of Biblical Interpretation. As Enunciated by Irenaeus, Origen, Augustine, Luther and Calvin. By A. Skevington Wood. (Grand Rapids, Michigan: Zondervan. 1967. 103 pp. $3.50.)
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 1968
@@ -631,11 +943,17 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+
 ### The Pre-Nicene Period:
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2020
@@ -643,11 +961,17 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+
 ### The Philosophy and Physics of Duality
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, visual_art
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2025
@@ -662,11 +986,18 @@ particle, electric-magnetic, and Kramers-Wannier dualities. Part II discusses ad
 their inter-relations: particle-soliton dualities, electric-magnetic dualities in quantum field
 theories, dualit
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### The Oxford Handbook of Criminology
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2023
@@ -674,11 +1005,18 @@ theories, dualit
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The Nicene Theology of Athanasius and Hilary
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -686,11 +1024,17 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+
 ### The Mediatization of Society
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2008
@@ -698,11 +1042,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The Interplay between Hebrew and Greek in Biblical Lexicology: Language, Text, and Interpretation
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+- Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2015
@@ -710,11 +1061,18 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### The Holy Spirit of God: An Essay in Biblical Theology
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+- Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2008
@@ -722,11 +1080,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### The Historical Memory Act and Its Implementation
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2013
@@ -734,11 +1099,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The Face of God and the Etiquette of Eye-Contact: Visitation, Pilgrimage, and Prophetic Vision in Ancient Israelite and Early Jewish Imagination
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+- Primary layer: biblical_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2012
@@ -746,11 +1118,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### The Dynamics of Attachment and Trauma
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2015
@@ -758,11 +1137,18 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### The Christian Classical Ideas of Sins : On Augustine, Thomas Aquinas, and Martin Luther
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources, visual_art
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2016
@@ -770,11 +1156,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### The Brief RCOPE: Current Psychometric Status of a Short Measure of Religious Coping
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2011
@@ -782,11 +1175,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Teaching the Translation of English-Language Color Terms in Political Texts: From Culture to Semantics
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -801,11 +1201,17 @@ plan for pre-translation analysis of political texts, the stages of practical in
 process map are designed to address and overcome difficulties associated with teaching the
 translation of
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### Tainted Souls and Painted Faces: The Rhetoric of Fallenness in Victorian Culture
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 1995
@@ -813,11 +1219,18 @@ translation of
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### TRANSLATION
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2012
@@ -825,11 +1238,17 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### TOWARDS AN ECOLOGICAL BIBLICAL HERMENEUTICS: A REVIEW ESSAY ON THE EARTH BIBLE PROJECT
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources, visual_art
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2013
@@ -837,11 +1256,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### Syntax, Semantics, and Grammar
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2006
@@ -849,11 +1275,17 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### Sociological definitions, language games, and the "essence" of religion
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2002
@@ -861,11 +1293,17 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### Sharia Incorporated : A Comparative Overview of the Legal Systems of Twelve Muslim Countries in Past and Present
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2010
@@ -873,11 +1311,18 @@ OpenAlex abstract metadata available.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Semitic Etymology in A Biblical Hebrew Lexicon: the Limits of Usefulness
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
+- Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2015
@@ -885,11 +1330,19 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### Scribal Authorship and the Writing of History in Medieval England
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, history_inputs
+- Primary layer: visual_art
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2012
@@ -897,11 +1350,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
 ### Science and Philosophy: A Love-Hate Relationship
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, visual_art
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2013
@@ -916,11 +1376,18 @@ philosophy's death diagnosis ('philosophy is dead'); b) the historic-agnostic ar
 division of property argument (or: philosophy and science have different subject matters, therefore
 philosophy
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### Sacred Languages and Sacred Texts
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2012
@@ -928,11 +1395,17 @@ philosophy
 
 No summary available in metadata.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### SACRED LANGUAGES
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2012
@@ -940,11 +1413,17 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### Ritual, Responsibility, and the Moral Order(s)
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2017
@@ -952,11 +1431,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Ritual, Harmony, and Peace and Order: A Confucian Conception of Ritual
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2012
@@ -964,11 +1450,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Ritual, Aggression, and Voicing the Moral Order(s)
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2017
@@ -976,11 +1469,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Review of Disability Studies
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2013
@@ -988,11 +1488,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Rethinking Asylum
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2009
@@ -1000,11 +1507,18 @@ OpenAlex abstract metadata available.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Resilience definitions, theory, and challenges: interdisciplinary perspectives
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2014
@@ -1012,11 +1526,18 @@ OpenAlex abstract metadata available.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Repentance
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2022
@@ -1024,11 +1545,18 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Remembering Suffering: Trauma and History
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests, psychology_inputs
+- Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -1036,11 +1564,19 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
 ### Religious Belief, Experience, and Ritual
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests, all_texts
+- Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2001
@@ -1048,11 +1584,19 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### Religion and collective memory of the last century
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2022
@@ -1060,11 +1604,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Religion and Climate Change
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2018
@@ -1072,11 +1623,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Reflections on metaphor and grammar
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 1996
@@ -1084,11 +1642,17 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### Red on Red: Native American Literary Separatism
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions, world_languages_translation
+- Layer routes: all_texts, other_religious_texts, modern_literature, world_languages
+- Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 1999
@@ -1096,11 +1660,19 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### Quantum Simulation for High Energy Physics
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, visual_art
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2022
@@ -1115,11 +1687,18 @@ investment in this area by the government and private sectors in the U.S. and ot
 energy physicists have quickly identified problems of importance to our understanding of nature at
 the most fundamental leve
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### Pythagorean Music Theory
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
+- Layer routes: music_notes, deep_sources
+- Primary layer: music_notes
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2024
@@ -1127,11 +1706,17 @@ the most fundamental leve
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check musical structure directly before using it as analogy or theological support.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
 ### Publications on Text and Textual History of the Hebrew Bible and the Septuagint by Siegfried Kreuzer
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, history_inputs, world_languages
+- Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -1139,11 +1724,19 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### Psychosocial Accompaniment
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2015
@@ -1151,11 +1744,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Probing tripartite entanglement and coherence dynamics in pure and mixed independent classical environments
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, visual_art
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2021
@@ -1170,11 +1770,18 @@ fractional Gaussian noise, power-law noise maximized and fractional Gaussian noi
 are assumed to characterize the environments. With the help of time-dependent entanglement
 witnesses, purity, and decoheren
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### Preface
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+- Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2015
@@ -1182,11 +1789,18 @@ witnesses, purity, and decoheren
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### Political Memory in and after the Persian Empire
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, history_inputs
+- Primary layer: visual_art
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2015
@@ -1194,11 +1808,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
 ### Points of convergence -- music meets mathematics
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
+- Layer routes: music_notes, deep_sources
+- Primary layer: music_notes
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2023
@@ -1213,11 +1834,17 @@ by periodic attractors, and which are therefore stable under perturbation~-- are
 family. A positive answer was given in 2015 by van Strien and the author, which implies that, no
 matter h
 
+Layer review prompts:
+- Check musical structure directly before using it as analogy or theological support.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
 ### Physics and Technology of the Next Linear Collider: A Report Submitted to Snowmass '96
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 1996
@@ -1230,11 +1857,17 @@ range of theoretical possibilities. We then show the feasibility of constructing
 reviewing the current status of linear collider technology and by presenting a precis of our
 `zeroth-order' design.
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Physics Needs Philosophy. Philosophy Needs Physics
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, visual_art
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2018
@@ -1248,11 +1881,18 @@ gravitational waves, and the failure to detect supersymmetry where many expected
 question the validity of certain philosophical assumptions common among theoretical physicists,
 inviting us to engage in a clearer philosophical reflection on scientific method.
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### Physics Briefing Book
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, visual_art
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2019
@@ -1267,11 +1907,18 @@ the submitted ideas and to prepare a community discussion on the importance and 
 various proposals. The results of these discussions are then concisely summarised in this Briefing
 Book, prepa
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### Philosophy on time in the natural sciences and the humanities from analytical positions
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, visual_art
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2016
@@ -1286,11 +1933,18 @@ knowledge as well. Judgments for the meaning of time reveal the essence of the p
 aspects of discussion on the dissociation of the foundations in the modern philosophy of physics and
 the philos
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
 ### Philosophy Enters the Optics Laboratory: Bell's Theorem and its First Experimental Tests (1965-1982)
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2005
@@ -1304,11 +1958,17 @@ considered by many a philosophical matter instead of a scientific one, and that 
 philosophy to physics required a change in the physics community's attitude about the status of the
 foundations of quantum mechanics.
 
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Pentecostal theology according to the theologians: An introduction to the theological methods of pentecostal systematic theologians
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2009
@@ -1316,11 +1976,17 @@ foundations of quantum mechanics.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+
 ### Pastoral care in the healing of moral injury: A case of the Zimbabwe National Liberation War Veterans
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests, human_stories
+- Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2015
@@ -1328,11 +1994,19 @@ OpenAlex abstract metadata available.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+
 ### Past, Present, and Future of Restorative Justice: Some Critical Reflections
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 1998
@@ -1340,11 +2014,18 @@ OpenAlex abstract metadata available.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Orphic Ritual and Myth in the Thebaid
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2013
@@ -1352,11 +2033,18 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Original Publications
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+- Primary layer: biblical_languages
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -1364,11 +2052,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### Oral Literature in Africa
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2012
@@ -1376,11 +2071,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Oral Epic - Albert Bates Lord: Epic Singers and Oral Tradition. (Myth and Poetics.) Pp. xii + 262. Ithaca and London: Cornell University Press, 1991. $36.50 (Paper, $12.95).
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 1992
@@ -1388,11 +2090,18 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### On the Legacy of Lutheranism in Finland: Societal Perspectives
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, theologians, world_languages
+- Primary layer: biblical_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2019
@@ -1400,11 +2109,19 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
 ### On spirit writing: materialities of language and the religious work of transduction
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2013
@@ -1412,11 +2129,17 @@ OpenAlex abstract metadata available.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
 ### On Beauty: Aesthetic Choices, Adornment, and Art
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs
+- Primary layer: visual_art
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2022
@@ -1424,11 +2147,17 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+
 ### Official Apologies and the Quest for Historical Justice
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2007
@@ -1436,11 +2165,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### ON FORGETTING:
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2017
@@ -1448,11 +2184,18 @@ OpenAlex abstract metadata available.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Notes
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -1460,11 +2203,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Mysticism and logic and other essays
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 1918
@@ -1472,11 +2222,18 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Music SketchNet: Controllable Music Generation via Factorized Representations of Pitch and Rhythm
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: music_math
+- Layer routes: music_notes, deep_sources, visual_art, modern_literature
+- Primary layer: music_notes
 - Provider: arXiv
 - Quality: scholarly preprint
 - Year: 2020
@@ -1491,11 +2248,19 @@ rhythm and pitch contour to form the basis of our proposed model. Then we introd
 discriminative architectures, SketchInpainter and SketchConnector, that in conjunction perform the
 guided music completion, filling
 
+Layer review prompts:
+- Check musical structure directly before using it as analogy or theological support.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
 ### Motif‐Research in Irenaeus, Thomas Aquinas, and Luther
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 1971
@@ -1503,11 +2268,17 @@ guided music completion, filling
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+
 ### Moral-Somatics, Hope, Despair, and Suffering
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2011
@@ -1515,11 +2286,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Migration and Religion: Beyond Ethnic Community and Ethclass (Dariuš Zifonun)
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -1527,11 +2305,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Migration and Religion: Beyond Ethnic Community and Ethclass
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, pattern_tests
+- Primary layer: psychology_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: n.d.
@@ -1539,11 +2324,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Methodology of Church History in Structure of Concentric circle: A Critical Review on the Prof. Lee Yang Ho's Interpretation of Early Church History
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2016
@@ -1551,11 +2343,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Metaphysics and Social Relations
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources, deep_sources
+- Primary layer: theologians
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2013
@@ -1563,11 +2362,18 @@ No summary available in metadata.
 
 No summary available in metadata.
 
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
 ### Mental Health: Culture, Race, and Ethnicity—A Supplement to Mental Health: A Report of the Surgeon General
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Year: 2001
@@ -1575,14 +2381,26 @@ No summary available in metadata.
 
 OpenAlex abstract metadata available.
 
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
 ### Memory, Justice, and Postterror Futures
 
 - Review status: unreviewed_daily_candidate
 - Evaluation use: candidate lead only until original source review and counterargument check
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: Crossref
 - Quality: scholarly metadata
 - Year: 2015
 - URL: https://doi.org/10.2307/jj.36032686.15
 
 No summary available in metadata.
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
