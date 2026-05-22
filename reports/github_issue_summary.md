@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-22T22:28:53.564730+00:00
+Generated: 2026-05-22T23:21:31.477261+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -9,24 +9,24 @@ Full reports are committed in the repository under `reports/`.
 
 | Report | Read full file |
 | --- | --- |
-| `divine_pattern_summary_report.txt` | [available](reports/divine_pattern_summary_report.txt) |
-| `cloud_research_findings_report.txt` | [available](reports/cloud_research_findings_report.txt) |
-| `divine_pattern_research_report.txt` | [available](reports/divine_pattern_research_report.txt) |
-| `divine_pattern_candidates_report.txt` | [available](reports/divine_pattern_candidates_report.txt) |
-| `divine_pattern_test_report.txt` | [available](reports/divine_pattern_test_report.txt) |
-| `deep_source_review_report.txt` | [available](reports/deep_source_review_report.txt) |
-| `theologian_pattern_design_report.txt` | [available](reports/theologian_pattern_design_report.txt) |
-| `cross_layer_reasoning_report.txt` | [available](reports/cross_layer_reasoning_report.txt) |
-| `music_note_patterns_report.txt` | [available](reports/music_note_patterns_report.txt) |
-| `music_lyric_patterns_report.txt` | [available](reports/music_lyric_patterns_report.txt) |
-| `cultural_pattern_relationships_report.txt` | [available](reports/cultural_pattern_relationships_report.txt) |
-| `daily_evaluation_queue.md` | [available](research_documents/daily_evaluation_queue.md) |
+| `divine_pattern_summary_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_summary_report.txt) |
+| `cloud_research_findings_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cloud_research_findings_report.txt) |
+| `divine_pattern_research_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_research_report.txt) |
+| `divine_pattern_candidates_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_candidates_report.txt) |
+| `divine_pattern_test_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_test_report.txt) |
+| `deep_source_review_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/deep_source_review_report.txt) |
+| `theologian_pattern_design_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/theologian_pattern_design_report.txt) |
+| `cross_layer_reasoning_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cross_layer_reasoning_report.txt) |
+| `music_note_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_note_patterns_report.txt) |
+| `music_lyric_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_lyric_patterns_report.txt) |
+| `cultural_pattern_relationships_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cultural_pattern_relationships_report.txt) |
+| `daily_evaluation_queue.md` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/research_documents/daily_evaluation_queue.md) |
 
 ## Quick Highlights
 
 The sections below are only short previews. Use the links above for the full reports.
 
-## reports\divine_pattern_summary_report.txt
+## reports/divine_pattern_summary_report.txt
 
 ```text
 Divine Pattern Summary Report
@@ -34,7 +34,7 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-22T22:27:18.982521+00:00
+Daily collector updated: 2026-05-22T23:20:29.529481+00:00
 Brand-new candidate references this run: 0
 New candidate pattern movements:
 - No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.
@@ -51,13 +51,13 @@ New material quality mix:
 _Full report has 151 lines. Open the linked report above to read everything._
 ```
 
-## reports\cloud_research_findings_report.txt
+## reports/cloud_research_findings_report.txt
 
 ```text
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-22T22:27:18.997119+00:00
+Updated: 2026-05-22T23:20:29.541840+00:00
 Total references: 376
 New references this run: 0
 
@@ -76,7 +76,7 @@ Broad web search: enabled via SearXNG (https://search.mdosch.de) or configured s
 _Full report has 279 lines. Open the linked report above to read everything._
 ```
 
-## reports\divine_pattern_research_report.txt
+## reports/divine_pattern_research_report.txt
 
 ```text
 Divine Pattern Research Report
@@ -101,7 +101,7 @@ Theme Signals
 _Full report has 752 lines. Open the linked report above to read everything._
 ```
 
-## reports\divine_pattern_candidates_report.txt
+## reports/divine_pattern_candidates_report.txt
 
 ```text
 Divine Pattern Candidates Report
@@ -126,7 +126,7 @@ Status: strong candidate
 _Full report has 163 lines. Open the linked report above to read everything._
 ```
 
-## reports\divine_pattern_test_report.txt
+## reports/divine_pattern_test_report.txt
 
 ```text
 Divine Pattern Pressure-Test Report
@@ -151,7 +151,7 @@ Test words analyzed: 1,284
 _Full report has 405 lines. Open the linked report above to read everything._
 ```
 
-## reports\deep_source_review_report.txt
+## reports/deep_source_review_report.txt
 
 ```text
 Deep Source Review Report
@@ -176,7 +176,7 @@ Required source types:
 _Full report has 130 lines. Open the linked report above to read everything._
 ```
 
-## reports\theologian_pattern_design_report.txt
+## reports/theologian_pattern_design_report.txt
 
 ```text
 Theologian Pattern Design Report
@@ -201,7 +201,7 @@ Era Coverage
 _Full report has 139 lines. Open the linked report above to read everything._
 ```
 
-## reports\cross_layer_reasoning_report.txt
+## reports/cross_layer_reasoning_report.txt
 
 ```text
 Cross-Layer Reasoning Report
@@ -226,7 +226,7 @@ Active synthesis lenses: 10 of 10
 _Full report has 440 lines. Open the linked report above to read everything._
 ```
 
-## reports\music_note_patterns_report.txt
+## reports/music_note_patterns_report.txt
 
 ```text
 Music Note Science And Math Pattern Report
@@ -251,7 +251,7 @@ Tension ratio: 31.01%
 _Full report has 203 lines. Open the linked report above to read everything._
 ```
 
-## reports\music_lyric_patterns_report.txt
+## reports/music_lyric_patterns_report.txt
 
 ```text
 Music And Lyric Pattern Alignment Report
@@ -276,7 +276,7 @@ Strongest Lyric Motifs
 _Full report has 664 lines. Open the linked report above to read everything._
 ```
 
-## reports\cultural_pattern_relationships_report.txt
+## reports/cultural_pattern_relationships_report.txt
 
 ```text
 Cultural Pattern Relationships Report
@@ -301,7 +301,7 @@ Cultural Domains
 _Full report has 279 lines. Open the linked report above to read everything._
 ```
 
-## research_documents\daily_evaluation_queue.md
+## research_documents/daily_evaluation_queue.md
 
 ```text
 # Daily Evaluation Queue
