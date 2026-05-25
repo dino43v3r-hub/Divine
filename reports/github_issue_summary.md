@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-25T16:52:45.589852+00:00
+Generated: 2026-05-25T17:27:42.809937+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -34,8 +34,8 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-25T16:51:42.266244+00:00
-Brand-new candidate references this run: 118
+Daily collector updated: 2026-05-25T17:26:39.248414+00:00
+Brand-new candidate references this run: 197
 New candidate pattern movements:
 - Theologian-source candidates grew today; review era, primary source, doctrine, disagreement, and pressure points.
 - Visual-art candidates grew today; examine actual form, composition, symbol, beauty, lament, and counter-reading.
@@ -48,7 +48,7 @@ New candidate pattern movements:
 - Pressure-test candidates grew today; name failure conditions and whether the pattern holds under friction.
 - Lament-to-hope material grew today; test whether hope is patient and non-coercive rather than a quick resolution.
 
-_Full report has 202 lines. Open the linked report above to read everything._
+_Full report has 284 lines. Open the linked report above to read everything._
 ```
 
 ## reports/cloud_research_findings_report.txt
@@ -57,9 +57,9 @@ _Full report has 202 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T16:51:42.295465+00:00
-Total references: 758
-New references this run: 118
+Updated: 2026-05-25T17:26:39.285264+00:00
+Total references: 955
+New references this run: 197
 
 Guardrails
 ----------
@@ -73,7 +73,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 517 lines. Open the linked report above to read everything._
+_Full report has 530 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -91,14 +91,14 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 23
-Total analyzed words: 746,183
+Documents analyzed: 27
+Total analyzed words: 748,172
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 781 lines. Open the linked report above to read everything._
+_Full report has 842 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -119,11 +119,11 @@ Physical Order -> Mathematical Structure -> Quantum Probability -> Life And Cons
 Candidate Rankings
 ------------------
 
-Image Of God Pattern
---------------------
+1. Image Of God Pattern
+-----------------------
 Status: strong candidate
 
-_Full report has 163 lines. Open the linked report above to read everything._
+_Full report has 96 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_test_report.txt
@@ -144,11 +144,11 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 20
-Test words analyzed: 2,163
+Test documents analyzed: 21
+Test words analyzed: 2,405
 
 
-_Full report has 488 lines. Open the linked report above to read everything._
+_Full report has 509 lines. Open the linked report above to read everything._
 ```
 
 ## reports/deep_source_review_report.txt
@@ -189,16 +189,16 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 9
-Total theologian words analyzed: 2,751
+Theologian documents analyzed: 10
+Total theologian words analyzed: 3,230
 
 Era Coverage
 ------------
-- Patristic: 32
-- Medieval: 19
-- Reformation: 14
+- Patristic: 37
+- Medieval: 22
+- Reformation: 16
 
-_Full report has 161 lines. Open the linked report above to read everything._
+_Full report has 172 lines. Open the linked report above to read everything._
 ```
 
 ## reports/cross_layer_reasoning_report.txt
@@ -217,13 +217,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 119
-Dedicated synthesis documents: 32
+Total documents across all lanes: 129
+Dedicated synthesis documents: 35
 Active divine-pattern layers: 8 of 8
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
 
-_Full report has 563 lines. Open the linked report above to read everything._
+_Full report has 598 lines. Open the linked report above to read everything._
 ```
 
 ## reports/music_note_patterns_report.txt
@@ -268,7 +268,7 @@ Overview
 --------
 Lyric documents analyzed: 13
 Total lyric words analyzed: 794
-Religious research documents used for comparison: 23
+Religious research documents used for comparison: 27
 
 Strongest Lyric Motifs
 ---------------------
@@ -290,15 +290,15 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 9
-Total cultural words analyzed: 338
+Cultural documents analyzed: 10
+Total cultural words analyzed: 479
 
 Cultural Domains
 ----------------
-- Family And Community: 19
-- Education And Formation: 12
+- Family And Community: 25
+- Education And Formation: 16
 
-_Full report has 279 lines. Open the linked report above to read everything._
+_Full report has 306 lines. Open the linked report above to read everything._
 ```
 
 ## research_documents/daily_evaluation_queue.md
@@ -313,15 +313,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Hidden history of the Greek New Testament [HE Kaine Diatheke] for Translators, Christ followers and Seminary Students
+### The Outsider (Analysis of the Self)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity
-- Layer routes: theologians, research_documents, pattern_tests, visual_art, history_inputs, world_languages, biblical_languages, all_texts, human_stories
-- Primary layer: theologians
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 3,892 lines. Open the linked report above to read everything._
+_Full report has 3,951 lines. Open the linked report above to read everything._
 ```
