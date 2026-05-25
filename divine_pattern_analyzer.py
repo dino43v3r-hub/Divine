@@ -1547,6 +1547,50 @@ PATTERN_PRESSURE_PROFILES = {
 }
 
 
+PATTERN_FORMATION_PROFILES = {
+    "Image Of God Pattern": {
+        "human_problem": "People are often measured by usefulness, intelligence, productivity, beauty, tribe, or power. The pattern asks whether every person has a deeper dignity before any performance.",
+        "biblical_grounding": "Begin with Genesis 1:26-28, Genesis 2, Psalm 8, the incarnation, and New Testament language about renewal in Christ. Add theologians on image, likeness, dignity, vocation, disability, and communion.",
+        "scholarly_conversation": "Needs theological anthropology, disability theology, cognitive science, moral psychology, social cognition, and critiques of reducing personhood to rational ability.",
+        "cross_cultural_listening": "Compare how cultures name personhood, kinship, ancestors, moral agency, honor, shame, body, and community without assuming every tradition means the same thing by dignity.",
+        "pressure_test": "Test against dementia, disability, racism, caste, poverty, trauma, slavery, exploitation, and any theology that quietly ranks human worth.",
+        "practical_response": "Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.",
+    },
+    "Cross And Reversal Pattern": {
+        "human_problem": "Human beings often trust power, victory, revenge, and control. The cross confronts the assumption that God is revealed only through visible success.",
+        "biblical_grounding": "Ground in the passion narratives, Isaiah's servant songs, Philippians 2, 1 Corinthians 1-2, Romans 5-8, and resurrection witness. Include atonement debates and martyrdom traditions carefully.",
+        "scholarly_conversation": "Needs biblical theology, atonement theology, trauma theology, liberation theology, forgiveness research, and critiques of suffering being romanticized.",
+        "cross_cultural_listening": "Compare stories of sacrifice, shame, honor, nonviolence, martyrdom, resistance, and communal memory while preserving the uniqueness of the Christian resurrection claim.",
+        "pressure_test": "Test against abuse, domestic violence, spiritual manipulation, state violence, unanswered grief, and situations where appeals to sacrifice protect the powerful.",
+        "practical_response": "Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.",
+    },
+    "Providence And Contingency Pattern": {
+        "human_problem": "People want to know whether their lives are guided or random, especially when events feel accidental, painful, or beyond control.",
+        "biblical_grounding": "Ground in Joseph, Job, Esther, Psalms, wisdom literature, Jesus' teaching on providence, Acts, and Pauline language about hope and groaning. Include classical and modern providence debates.",
+        "scholarly_conversation": "Needs philosophy of causality, theology of providence, history, complexity, probability, science limits, and careful distinctions between meaning, cause, and prediction.",
+        "cross_cultural_listening": "Compare fate, karma, destiny, providence, chance, ancestral guidance, and wisdom traditions without pretending they are identical.",
+        "pressure_test": "Test against evil, tragedy, failed prediction, survivor bias, random loss, unanswered prayer, and attempts to explain every event too neatly.",
+        "practical_response": "Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.",
+    },
+    "Trinity-As-Behavior Pattern": {
+        "human_problem": "Faith can become abstract if it does not shape how people receive life, follow Christ, and live by the Spirit in community.",
+        "biblical_grounding": "Ground in baptismal language, Matthew 28:19, John 14-17, Romans 8, 2 Corinthians 13:14, Ephesians, creeds, and theologians who preserve distinction and unity.",
+        "scholarly_conversation": "Needs Trinitarian doctrine, Christology, pneumatology, liturgical theology, spiritual formation, and critiques of reducing the Trinity to a psychological symbol.",
+        "cross_cultural_listening": "Compare how Christian communities across cultures pray, baptize, worship, serve, and describe the Spirit's work without collapsing local practice into one model.",
+        "pressure_test": "Test against modalism, tritheism, vague symbolism, authoritarian claims of divine authority, and spiritual experiences that lack fruit.",
+        "practical_response": "Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.",
+    },
+    "Creation-To-Consciousness Pattern": {
+        "human_problem": "Modern people often feel split between matter and meaning, science and faith, body and soul, observation and worship.",
+        "biblical_grounding": "Ground in Genesis, Psalms of creation, wisdom literature, John 1, Colossians 1, Romans 8, and doctrines of creation, image of God, vocation, and worship.",
+        "scholarly_conversation": "Needs physics, biology, cognitive science, philosophy of mind, theology of creation, ecological theology, and critique of simplistic ladders from matter to worship.",
+        "cross_cultural_listening": "Compare creation stories, ecological traditions, body practices, wisdom texts, and human vocation across cultures while preserving differences in doctrine.",
+        "pressure_test": "Test against evolution debates, disability, animal consciousness, ecological loss, suffering in nature, and claims that science mechanically proves worship.",
+        "practical_response": "Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.",
+    },
+}
+
+
 LANGUAGE_FAMILY_MARKERS = {
     "Afro-Asiatic": [
         "afro-asiatic",
@@ -4417,6 +4461,11 @@ def append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5
     for index, item in enumerate(ranked_patterns[:limit], start=1):
         candidate = item["candidate"]
         profile = PATTERN_PRESSURE_PROFILES.get(candidate["name"], {})
+        formation = PATTERN_FORMATION_PROFILES.get(candidate["name"], {})
+        practical_response = formation.get(
+            "practical_response",
+            profile.get("daily_use", "ask what faithful action this pattern actually produces"),
+        ).rstrip(".")
         lines.extend(
             [
                 "",
@@ -4426,8 +4475,13 @@ def append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5
                 f"Pattern movement: {candidate['sequence']}",
                 f"Current reading: {item['status']}.",
                 f"Why it matters: {profile.get('best_use', 'it helps organize one part of the larger divine-pattern question')}.",
+                f"Human problem: {formation.get('human_problem', 'This pattern matters where ordinary life raises a question the research must face.')}",
+                f"Biblical and theological grounding: {formation.get('biblical_grounding', candidate['evidence_needed'])}",
+                f"Scholarly conversation: {formation.get('scholarly_conversation', candidate['evidence_needed'])}",
+                f"Cross-cultural listening: {formation.get('cross_cultural_listening', 'Compare carefully without flattening difference or forcing agreement.')}",
                 f"Where it must be tested: {profile.get('hardest_pressure', candidate['risk'])}.",
-                f"Daily-life practice: {profile.get('daily_use', 'ask what faithful action this pattern actually produces')}.",
+                f"Pressure test: {formation.get('pressure_test', profile.get('hardest_pressure', candidate['risk']))}",
+                f"Daily-life practice: {practical_response}.",
                 "Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.",
                 "Layer support in brief:",
             ]
@@ -4437,6 +4491,26 @@ def append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5
             lines.append(f"- {layer}: {score_layer(count)} ({count:,} signals)")
 
     lines.append("")
+
+
+def append_pattern_detection_to_formation(lines):
+    """Explain how search remains active and routes into formation."""
+    lines.extend(
+        [
+            "From Pattern Search To Pattern Formation",
+            "----------------------------------------",
+            "The search engine remains essential. It keeps scanning scripture, theology, culture, history, language, testimony, art, psychology, science, and pressure tests for recurring structures.",
+            "The change is what happens next. A discovered pattern should not stop at a score. It should move through this path:",
+            "",
+            "Detected pattern -> candidate pattern -> formation chapter -> reviewed pattern",
+            "",
+            "Detected pattern: a repeated signal worth noticing.",
+            "Candidate pattern: a named pattern with enough signal to test.",
+            "Formation chapter: a reader-facing chapter that adds human problem, biblical grounding, scholarly conversation, cross-cultural listening, pressure test, and practical response.",
+            "Reviewed pattern: a pattern strengthened only after source review, counter-readings, and lane balance.",
+            "",
+        ]
+    )
 
 
 def append_reader_case_studies(lines):
@@ -4867,6 +4941,7 @@ def create_disciplined_theological_assistant_report(
     ]
     append_reader_preface(lines)
     append_how_to_read_this_book(lines)
+    append_pattern_detection_to_formation(lines)
     append_everyday_pattern_story(lines)
     append_scholarly_spine(lines)
     lines.extend(
@@ -4993,6 +5068,7 @@ def create_reader_book_report(
     ]
     append_reader_preface(lines)
     append_how_to_read_this_book(lines)
+    append_pattern_detection_to_formation(lines)
     append_everyday_pattern_story(lines)
     append_scholarly_spine(lines)
     append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5)
