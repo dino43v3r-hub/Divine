@@ -114,10 +114,25 @@ QUERY_SETS = {
         "moral psychology forgiveness repentance habit formation",
         "cognitive science religion ritual identity community transformation",
     ],
+    "pattern_perception_divine_response": [
+        "psychology pattern perception religious meaning divine agency",
+        "cognitive science religion pattern recognition agency detection",
+        "apophenia meaning making religious experience psychology divine patterns",
+    ],
     "global_text_traditions": [
         "sacred texts wisdom literature lament justice transformation comparative religion",
         "world scriptures wisdom traditions suffering justice hope",
         "oral tradition myth epic proverb ritual moral order comparative theology",
+    ],
+    "interreligious_dream_testimony": [
+        "interreligious dreams visions Jesus conversion testimony scholarly study",
+        "religious conversion dreams visions Jesus testimonies comparative religion research",
+        "dreams visions conversion testimony Christianity anthropology religion",
+    ],
+    "holy_spirit_gifts_global": [
+        "gifts of the Holy Spirit global Christianity Pentecostal charismatic anthropology",
+        "spiritual gifts healing prophecy tongues discernment cross cultural Christianity",
+        "charismatic gifts world Christianity interreligious discernment spiritual experiences",
     ],
     "technology_ethics": [
         "AI ethics human dignity theology technology",
@@ -142,7 +157,10 @@ TAG_LAYER_ROUTES = {
     "world_languages_translation": ["world_languages", "all_texts"],
     "biblical_languages": ["biblical_languages", "research_documents/christian_sources"],
     "psychology_patterns": ["psychology_inputs", "human_stories", "pattern_tests"],
+    "pattern_perception_divine_response": ["psychology_inputs", "pattern_tests", "human_stories", "deep_sources"],
     "global_text_traditions": ["all_texts", "other_religious_texts", "modern_literature"],
+    "interreligious_dream_testimony": ["other_religious_texts", "human_stories", "pattern_tests", "theologians"],
+    "holy_spirit_gifts_global": ["theologians", "other_religious_texts", "human_stories", "psychology_inputs", "pattern_tests"],
     "technology_ethics": ["cultural_inputs", "pattern_tests"],
     "theologians_cross_era": ["theologians", "research_documents/christian_sources"],
 }

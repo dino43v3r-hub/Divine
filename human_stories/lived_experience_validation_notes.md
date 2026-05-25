@@ -26,3 +26,13 @@ Validity rule:
 Human stories validate practical usefulness only when the pattern helps people
 tell the truth, resist harm, seek justice, receive care, and practice repair. It
 fails if it pressures people to call unresolved pain a completed transformation.
+
+Interreligious testimony rule:
+
+Dreams, visions, and conversion testimonies can be included when public,
+ethically usable, and carefully sourced. They should be treated as testimony,
+not statistics. A report of Jesus appearing in a dream, or of conviction and
+transformation that Christians interpret as the Holy Ghost's work, may raise a
+serious discernment question. It should not be used to erase the person's
+religious background, family risk, social context, or the tradition's own
+account of religious experience.

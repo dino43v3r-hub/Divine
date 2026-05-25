@@ -86,3 +86,38 @@ Allowed conclusion:
 
 - Consciousness belongs in interdisciplinary inquiry, not quick apologetic
   closure.
+
+## Claim: Repeated patterns prove the hypothesis.
+
+Responsible use:
+
+- Repeated patterns can generate research questions and modest confidence
+  updates when sampling, base rates, comparison cases, and rival explanations
+  are named.
+
+Counterarguments:
+
+- Confirmation bias, curated source sets, selection effects, broad human
+  recurrence, and flexible interpretation can all create apparent patterns.
+
+Allowed conclusion:
+
+- Repetition may support a research hypothesis. It does not prove the divine
+  pattern without statistical and logical filters.
+
+## Claim: Mathematical or logical structure proves theology.
+
+Responsible use:
+
+- Theorems, proof, logic, and formal structure can clarify what follows from
+  stated assumptions.
+
+Counterarguments:
+
+- Formal proof is internal to a system of axioms and definitions. Theology
+  requires additional interpretive and philosophical argument.
+
+Allowed conclusion:
+
+- Mathematical and logical structure can discipline claims and expose invalid
+  inference, not directly prove doctrine.

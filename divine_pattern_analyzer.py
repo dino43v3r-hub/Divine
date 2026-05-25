@@ -260,6 +260,7 @@ TRINITY_PERSONS = {
     "Holy Spirit": {
         "terms": [
             "holy spirit",
+            "holy ghost",
             "spirit",
             "comforter",
             "paraclete",
@@ -1886,6 +1887,30 @@ DEEP_SOURCE_AREAS = {
         ],
         "guardrail": "Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.",
     },
+    "Mathematics Statistics And Logic": {
+        "terms": [
+            "theorem",
+            "proof",
+            "logic",
+            "validity",
+            "inference",
+            "statistics",
+            "statistical",
+            "probability",
+            "bayes",
+            "correlation",
+            "causation",
+            "sample size",
+            "base rate",
+        ],
+        "required_source_types": [
+            "Mathematics/Logic",
+            "Statistics/Inference",
+            "Peer-Reviewed/Academic",
+            "Counterargument",
+        ],
+        "guardrail": "Do not treat repeated patterns, analogies, or mathematical beauty as proof. Check validity, statistical inference, base rates, and alternative explanations.",
+    },
 }
 
 
@@ -1953,6 +1978,111 @@ DEEP_SOURCE_TYPE_MARKERS = {
         "realism",
         "probability",
     ],
+    "Mathematics/Logic": [
+        "theorem",
+        "proof",
+        "axiom",
+        "logic",
+        "valid",
+        "invalid",
+        "deduction",
+        "induction",
+        "category mistake",
+        "godel",
+        "incompleteness",
+        "bayes theorem",
+    ],
+    "Statistics/Inference": [
+        "statistics",
+        "statistical",
+        "sample size",
+        "base rate",
+        "correlation",
+        "causation",
+        "p-value",
+        "confidence interval",
+        "bayesian",
+        "selection bias",
+        "false positive",
+    ],
+}
+
+
+CONGRUENCE_FILTERS = {
+    "Logic Validity Filter": {
+        "terms": [
+            "logic",
+            "validity",
+            "invalid",
+            "deduction",
+            "non sequitur",
+            "contradiction",
+            "category mistake",
+            "equivocation",
+        ],
+        "rule": "Reject claims where the conclusion does not follow, terms shift meaning, or analogy is treated as identity.",
+    },
+    "Statistical Inference Filter": {
+        "terms": [
+            "statistics",
+            "statistical",
+            "sample size",
+            "base rate",
+            "correlation",
+            "causation",
+            "selection bias",
+            "false positive",
+            "confidence interval",
+        ],
+        "rule": "Pattern frequency cannot become evidence without sample size, base rates, comparison cases, and bias checks.",
+    },
+    "Bayesian Humility Filter": {
+        "terms": [
+            "bayes",
+            "bayesian",
+            "prior",
+            "likelihood",
+            "posterior",
+            "evidence update",
+        ],
+        "rule": "New evidence should update confidence modestly and should not jump from compatibility to proof.",
+    },
+    "Formal Proof Boundary Filter": {
+        "terms": [
+            "theorem",
+            "proof",
+            "axiom",
+            "incompleteness",
+            "godel",
+            "undecidable",
+            "formal system",
+        ],
+        "rule": "Mathematical proof applies inside formal systems; it cannot be transferred directly into theology without philosophical argument.",
+    },
+    "Physics Scale Filter": {
+        "terms": [
+            "scale",
+            "quantum",
+            "classical",
+            "macroscopic",
+            "relativity",
+            "thermodynamics",
+            "entropy",
+        ],
+        "rule": "Do not move from quantum, cosmic, or thermodynamic claims to daily spiritual claims without a justified bridge.",
+    },
+    "Causality Filter": {
+        "terms": [
+            "causality",
+            "cause",
+            "causal",
+            "mechanism",
+            "correlation",
+            "necessary",
+            "sufficient",
+        ],
+        "rule": "Distinguish causation, correlation, compatibility, analogy, and theological interpretation.",
+    },
 }
 
 
@@ -2524,6 +2654,19 @@ def count_deep_source_types(text):
     for source_type, terms in DEEP_SOURCE_TYPE_MARKERS.items():
         counts[source_type] = sum(
             count_term_lower(lowercase_text, term) for term in terms
+        )
+
+    return counts
+
+
+def count_congruence_filters(text):
+    """Count math, statistics, logic, and physics filters mentioned by a source."""
+    counts = {}
+    lowercase_text = text.lower()
+
+    for filter_name, details in CONGRUENCE_FILTERS.items():
+        counts[filter_name] = sum(
+            count_term_lower(lowercase_text, term) for term in details["terms"]
         )
 
     return counts
@@ -3501,6 +3644,7 @@ def analyze_deep_source_document(path):
     sentences = split_sentences(text)
     area_counts = count_deep_source_areas(text)
     source_type_counts = count_deep_source_types(text)
+    congruence_filter_counts = count_congruence_filters(text)
     quality_counts = count_source_quality_markers(text)
     meaning_context_counts = count_meaning_contexts(text)
     pressure_counts = count_pressure_types(text)
@@ -3517,6 +3661,7 @@ def analyze_deep_source_document(path):
         "words": len([word for word in tokenize(text) if word not in STOP_WORDS]),
         "area_counts": area_counts,
         "source_type_counts": source_type_counts,
+        "congruence_filter_counts": congruence_filter_counts,
         "source_quality_counts": quality_counts,
         "meaning_context_counts": meaning_context_counts,
         "pressure_counts": pressure_counts,
@@ -5182,12 +5327,14 @@ def create_deep_source_review_report(deep_source_analyses):
     """Create a stricter review of unresolved suffering and quantum/science sources."""
     area_counts = Counter()
     source_type_counts = Counter()
+    congruence_filter_counts = Counter()
     quality_counts = Counter()
     pressure_counts = Counter()
 
     for analysis in deep_source_analyses:
         area_counts.update(analysis["area_counts"])
         source_type_counts.update(analysis["source_type_counts"])
+        congruence_filter_counts.update(analysis.get("congruence_filter_counts", {}))
         quality_counts.update(analysis["source_quality_counts"])
         pressure_counts.update(analysis["pressure_counts"])
 
@@ -5235,6 +5382,17 @@ def create_deep_source_review_report(deep_source_analyses):
     if not any(source_type_counts.values()):
         lines.append("- No deep source type signals found yet.")
 
+    lines.extend(["", "Math / Statistics / Logic Congruence Filters", "------------------------------------------------"])
+    for filter_name, details in CONGRUENCE_FILTERS.items():
+        count = congruence_filter_counts.get(filter_name, 0)
+        marker = "active" if count > 0 else "not detected"
+        lines.extend(
+            [
+                f"- {filter_name}: {marker} ({count:,})",
+                f"  Rule: {details['rule']}",
+            ]
+        )
+
     lines.extend(["", "Quality And Risk Markers", "------------------------"])
     for marker, count in quality_counts.most_common():
         if count > 0:
@@ -5272,6 +5430,15 @@ def create_deep_source_review_report(deep_source_analyses):
         if not found_type:
             lines.append("- No required source types detected.")
 
+        active_filters = [
+            filter_name
+            for filter_name, count in analysis.get("congruence_filter_counts", {}).items()
+            if count > 0
+        ]
+        if active_filters:
+            lines.append("Active congruence filters:")
+            lines.extend(f"- {filter_name}" for filter_name in active_filters)
+
     lines.extend(
         [
             "",
@@ -5281,6 +5448,7 @@ def create_deep_source_review_report(deep_source_analyses):
             "2. Quantum/science claims need qualified science sources before they can support any theological comparison.",
             "3. Suffering claims need lament, pastoral care, lived cases, and counterarguments before they can guide practical theology.",
             "4. A source-supported status does not prove the divine pattern; it only means the claim has enough support to discuss responsibly.",
+            "5. Math, statistics, logic, and physics filters can block overclaim even when a source sounds impressive.",
         ]
     )
 

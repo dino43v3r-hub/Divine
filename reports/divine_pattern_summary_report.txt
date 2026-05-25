@@ -93,16 +93,16 @@ Notice -> Name -> Discern -> Practice -> Transform
 Why this pattern is currently strongest:
 ----------------------------------------
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,269
+- Father: 3,270
 - Son: 6,665
-- Holy Spirit: 1,241
+- Holy Spirit: 1,744
 
 Strongest research layers:
 - Meaning And Logos: 5,910
-- Life And Consciousness: 5,301
+- Life And Consciousness: 5,302
 - Physical Order: 2,458
 - Moral Response: 2,235
-- Transformation: 2,034
+- Transformation: 2,035
 - Worship And Community: 1,067
 
 Music-note science/math support:
@@ -127,20 +127,20 @@ Cultural meaning support:
 - Transformation And Hope: 6
 
 Cross-layer synthesis support:
-- Psychological Process: 107
-- Historical Context: 99
-- Language Semantics: 92
-- Ethical Consequence: 92
-- Original-Language Witness: 78
-- Embodied Practice: 78
+- Psychological Process: 125
+- Ethical Consequence: 108
+- Historical Context: 104
+- Embodied Practice: 102
+- Language Semantics: 99
+- Original-Language Witness: 79
+- Depth: cross-layer synthesis: 17
 - Depth: multi-lens understanding: 13
-- Depth: cross-layer synthesis: 12
 - Depth: contextual interpretation: 1
 - Depth: early synthesis signal: 1
 
 Comparative validity support:
-- strong shared-human pattern; Trinitarian claim still needs Christian sources: 4
-- shared-human pattern signal: 3
+- shared-human pattern signal: 6
+- strong shared-human pattern; Trinitarian claim still needs Christian sources: 5
 - Comparative recurrence supports a broad human pattern, not automatic proof of the Trinitarian claim.
 
 Global language/text coverage:
@@ -155,27 +155,31 @@ Cloud reference review:
 - Treat cloud references as leads until checked against original sources, author expertise, date, publication venue, and counterarguments.
 
 Theologian pattern-design support:
-- Christology: 64
-- Theodicy And Suffering: 58
+- Christology: 68
+- Theodicy And Suffering: 61
 - Creation: 54
-- Grace And Transformation: 46
-- Justice And Public Life: 28
-- Church And Practice: 26
+- Grace And Transformation: 47
+- Justice And Public Life: 31
+- Trinity: 30
 
 Pressure-test result:
 ---------------------
-- resilient under pressure: 15
-- needs deeper review but still plausible: 2
+- resilient under pressure: 17
+- needs deeper review but still plausible: 3
 
 Hold-under-friction result:
 ---------------------------
-- pressure present but hold question is underdeveloped: 11
-- provisionally holds; needs stronger review: 4
+- pressure present but hold question is underdeveloped: 12
+- provisionally holds; needs stronger review: 5
 - does not hold yet under this friction: 2
+- not enough friction to judge hold: 1
 
 Deep-source result:
 -------------------
+- Mathematics Statistics And Logic: partially sourced: 6
 - Quantum And Science Claims: source-supported: 6
+- Quantum And Science Claims: partially sourced: 2
+- Mathematics Statistics And Logic: source-supported: 2
 - Unresolved Suffering: source-supported: 1
 
 Guardrails

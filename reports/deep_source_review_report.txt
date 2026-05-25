@@ -15,112 +15,222 @@ Status: source-supported
 Area signal: 16
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
-- Scripture/Theology: present (14)
+- Scripture/Theology: present (21)
 - Pastoral/Clinical: present (12)
 - Lived Case: present (8)
-- Counterargument: present (23)
+- Counterargument: present (27)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 96
+Area signal: 120
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
-- Physicist/Primary Science: present (32)
-- Peer-Reviewed/Academic: present (13)
-- Philosophy Of Science: present (44)
-- Counterargument: present (23)
+- Physicist/Primary Science: present (34)
+- Peer-Reviewed/Academic: present (16)
+- Philosophy Of Science: present (53)
+- Counterargument: present (27)
+
+Mathematics Statistics And Logic
+--------------------------------
+Status: source-supported
+Area signal: 85
+Guardrail: Do not treat repeated patterns, analogies, or mathematical beauty as proof. Check validity, statistical inference, base rates, and alternative explanations.
+Required source types:
+- Mathematics/Logic: present (44)
+- Statistics/Inference: present (21)
+- Peer-Reviewed/Academic: present (16)
+- Counterargument: present (27)
 
 All Source-Type Signals
 -----------------------
-- Philosophy Of Science: 44
-- Physicist/Primary Science: 32
-- Counterargument: 23
-- Scripture/Theology: 14
-- Peer-Reviewed/Academic: 13
+- Philosophy Of Science: 53
+- Mathematics/Logic: 44
+- Physicist/Primary Science: 34
+- Counterargument: 27
+- Scripture/Theology: 21
+- Statistics/Inference: 21
+- Peer-Reviewed/Academic: 16
 - Pastoral/Clinical: 12
 - Lived Case: 8
 
+Math / Statistics / Logic Congruence Filters
+------------------------------------------------
+- Logic Validity Filter: active (20)
+  Rule: Reject claims where the conclusion does not follow, terms shift meaning, or analogy is treated as identity.
+- Statistical Inference Filter: active (20)
+  Rule: Pattern frequency cannot become evidence without sample size, base rates, comparison cases, and bias checks.
+- Bayesian Humility Filter: active (8)
+  Rule: New evidence should update confidence modestly and should not jump from compatibility to proof.
+- Formal Proof Boundary Filter: active (35)
+  Rule: Mathematical proof applies inside formal systems; it cannot be transferred directly into theology without philosophical argument.
+- Physics Scale Filter: active (63)
+  Rule: Do not move from quantum, cosmic, or thermodynamic claims to daily spiritual claims without a justified bridge.
+- Causality Filter: active (17)
+  Rule: Distinguish causation, correlation, compatibility, analogy, and theological interpretation.
+
 Quality And Risk Markers
 ------------------------
-- Scholarly Or Scientific Source: 22
+- Scholarly Or Scientific Source: 30
 - Practical Lived Source: 12
-- Speculative Source: 3
+- Speculative Source: 5
 - Primary Or Classical Source: 2
 - Reviewed Cloud Reference: 2
 
 Per-Source Findings
 -------------------
 
+math_physics_theorem_inventory.md
+---------------------------------
+Words: 411
+Area scores:
+- Quantum And Science Claims: partially sourced (13)
+- Mathematics Statistics And Logic: partially sourced (17)
+Source types:
+- Mathematics/Logic: 11
+- Statistics/Inference: 4
+- Counterargument: 3
+- Scripture/Theology: 2
+- Philosophy Of Science: 2
+- Physicist/Primary Science: 1
+Active congruence filters:
+- Logic Validity Filter
+- Statistical Inference Filter
+- Bayesian Humility Filter
+- Formal Proof Boundary Filter
+- Physics Scale Filter
+- Causality Filter
+
+math_statistics_logic_congruence_filters.md
+-------------------------------------------
+Words: 390
+Area scores:
+- Quantum And Science Claims: partially sourced (10)
+- Mathematics Statistics And Logic: partially sourced (30)
+Source types:
+- Mathematics/Logic: 14
+- Statistics/Inference: 13
+- Philosophy Of Science: 5
+- Scripture/Theology: 3
+- Physicist/Primary Science: 1
+- Peer-Reviewed/Academic: 1
+Active congruence filters:
+- Logic Validity Filter
+- Statistical Inference Filter
+- Bayesian Humility Filter
+- Formal Proof Boundary Filter
+- Physics Scale Filter
+- Causality Filter
+
 qualified_quantum_science_references.md
 ---------------------------------------
 Words: 214
 Area scores:
 - Quantum And Science Claims: source-supported (22)
+- Mathematics Statistics And Logic: partially sourced (2)
 Source types:
 - Physicist/Primary Science: 8
 - Philosophy Of Science: 7
 - Counterargument: 2
+- Mathematics/Logic: 2
 - Scripture/Theology: 1
 - Peer-Reviewed/Academic: 1
+Active congruence filters:
+- Formal Proof Boundary Filter
+- Physics Scale Filter
 
 qualified_science_reference_review_notes.md
 -------------------------------------------
 Words: 190
 Area scores:
 - Quantum And Science Claims: source-supported (15)
+- Mathematics Statistics And Logic: partially sourced (7)
 Source types:
 - Philosophy Of Science: 7
 - Physicist/Primary Science: 4
+- Mathematics/Logic: 3
 - Counterargument: 2
 - Peer-Reviewed/Academic: 2
 - Scripture/Theology: 1
+Active congruence filters:
+- Logic Validity Filter
+- Formal Proof Boundary Filter
+- Physics Scale Filter
 
 quantum_claim_limits_source_pairs.md
 ------------------------------------
-Words: 251
+Words: 286
 Area scores:
-- Quantum And Science Claims: source-supported (22)
+- Quantum And Science Claims: source-supported (23)
+- Mathematics Statistics And Logic: source-supported (10)
 Source types:
+- Philosophy Of Science: 8
 - Counterargument: 7
-- Philosophy Of Science: 7
 - Physicist/Primary Science: 6
+- Mathematics/Logic: 4
+- Statistics/Inference: 3
 - Peer-Reviewed/Academic: 2
 - Scripture/Theology: 1
+Active congruence filters:
+- Logic Validity Filter
+- Statistical Inference Filter
+- Formal Proof Boundary Filter
+- Physics Scale Filter
+- Causality Filter
 
 quantum_science_source_framework.md
 -----------------------------------
 Words: 112
 Area scores:
 - Quantum And Science Claims: source-supported (16)
+- Mathematics Statistics And Logic: partially sourced (4)
 Source types:
 - Philosophy Of Science: 10
 - Physicist/Primary Science: 8
 - Counterargument: 4
 - Peer-Reviewed/Academic: 4
+- Mathematics/Logic: 2
+Active congruence filters:
+- Formal Proof Boundary Filter
+- Physics Scale Filter
+- Causality Filter
 
 science_counterargument_matrix.md
 ---------------------------------
-Words: 214
+Words: 310
 Area scores:
 - Quantum And Science Claims: source-supported (16)
+- Mathematics Statistics And Logic: source-supported (11)
 Source types:
-- Philosophy Of Science: 8
-- Counterargument: 4
+- Philosophy Of Science: 9
+- Mathematics/Logic: 7
+- Counterargument: 5
+- Scripture/Theology: 4
 - Physicist/Primary Science: 4
-- Scripture/Theology: 2
-- Peer-Reviewed/Academic: 1
+- Peer-Reviewed/Academic: 3
+- Statistics/Inference: 1
+Active congruence filters:
+- Logic Validity Filter
+- Statistical Inference Filter
+- Formal Proof Boundary Filter
+- Physics Scale Filter
+- Causality Filter
 
 science_counterarguments_and_limits.md
 --------------------------------------
 Words: 131
 Area scores:
 - Quantum And Science Claims: source-supported (5)
+- Mathematics Statistics And Logic: partially sourced (4)
 Source types:
 - Philosophy Of Science: 5
 - Physicist/Primary Science: 2
 - Peer-Reviewed/Academic: 2
 - Counterargument: 1
+- Mathematics/Logic: 1
+Active congruence filters:
+- Formal Proof Boundary Filter
+- Physics Scale Filter
 
 unresolved_suffering_source_framework.md
 ----------------------------------------
@@ -140,3 +250,4 @@ Use Rules
 2. Quantum/science claims need qualified science sources before they can support any theological comparison.
 3. Suffering claims need lament, pastoral care, lived cases, and counterarguments before they can guide practical theology.
 4. A source-supported status does not prove the divine pattern; it only means the claim has enough support to discuss responsibly.
+5. Math, statistics, logic, and physics filters can block overclaim even when a source sounds impressive.

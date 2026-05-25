@@ -25,6 +25,12 @@ These are active operating rules for the next phase, not merely future ideas:
 6. Review routed daily cloud references before promoting any candidate to strong
    evidence.
 7. Revise or weaken the pattern wherever pressure tests show it does not hold.
+8. Add global gifts-of-the-Holy-Spirit discernment across countries, peoples,
+   churches, and religious backgrounds without collapsing every spiritual
+   phenomenon into the same source.
+9. Compare ordinary human pattern response with response to perceived divine
+   pattern using psychology, cognition, statistics, fruit, and abuse-risk
+   filters.
 
 ## 1. Theologian Source Material Across Eras
 

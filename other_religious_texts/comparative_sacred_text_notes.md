@@ -29,3 +29,12 @@ Other religious texts can support the broad hypothesis that humans seek order,
 meaning, moral repair, community, and transformation. They do not validate the
 specifically Christian claim about Father, Son, and Holy Spirit unless Christian
 sources and Trinitarian reasoning carry that distinct claim.
+
+Additional discernment rule:
+
+Christian interpretation may ask whether Jesus can be present and whether the
+Holy Ghost can be working before explicit Christian naming, especially in
+testimony, dreams, visions, conscience, mercy, truth, or transformation. That
+question must be held beside each tradition's own self-understanding. Do not
+turn resonance into possession, fulfillment, or proof without source review and
+counter-readings.

@@ -61,3 +61,12 @@ vague theological proof.
 Every science claim must name the qualified source area, the narrow allowed
 conclusion, and at least one counterargument. If it cannot do all three, the
 claim should remain a research question.
+
+It must also pass the math/statistics/logic congruence filters:
+
+- validity rather than non sequitur,
+- sample and base-rate checks rather than confirmation bias,
+- confidence updates rather than proof jumps,
+- formal proof boundaries,
+- physics scale boundaries,
+- causality versus correlation.

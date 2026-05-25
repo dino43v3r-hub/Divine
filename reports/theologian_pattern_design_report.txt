@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 8
-Total theologian words analyzed: 2,428
+Theologian documents analyzed: 9
+Total theologian words analyzed: 2,751
 
 Era Coverage
 ------------
@@ -21,32 +21,32 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Christology: 64
-- Theodicy And Suffering: 58
+- Christology: 68
+- Theodicy And Suffering: 61
 - Creation: 54
-- Grace And Transformation: 46
-- Justice And Public Life: 28
-- Church And Practice: 26
-- Trinity: 25
-- Pneumatology: 16
+- Grace And Transformation: 47
+- Justice And Public Life: 31
+- Trinity: 30
+- Church And Practice: 30
+- Pneumatology: 28
 
 Trinitarian Lens
 ----------------
 Signal: moderate Trinitarian signal
-- Father: 88
-- Son: 74
-- Holy Spirit: 26
+- Father: 92
+- Son: 81
+- Holy Spirit: 46
 
 Layer Comparison
 ----------------
 - Physical Order: theologians 55 | broader corpus 2,458
 - Mathematical Structure: theologians 1 | broader corpus 567
 - Quantum Probability: theologians 0 | broader corpus 98
-- Life And Consciousness: theologians 19 | broader corpus 5,301
-- Meaning And Logos: theologians 40 | broader corpus 5,910
-- Moral Response: theologians 33 | broader corpus 2,235
-- Worship And Community: theologians 47 | broader corpus 1,067
-- Transformation: theologians 89 | broader corpus 2,034
+- Life And Consciousness: theologians 22 | broader corpus 5,302
+- Meaning And Logos: theologians 45 | broader corpus 5,910
+- Moral Response: theologians 40 | broader corpus 2,235
+- Worship And Community: theologians 53 | broader corpus 1,067
+- Transformation: theologians 99 | broader corpus 2,035
 
 Per-Source Findings
 -------------------
@@ -72,6 +72,17 @@ Meaning arc:
 - Opening: Creation And Order (3)
 - Middle: Transformation And Hope (1)
 - Ending: Creation And Order (4)
+
+holy_spirit_gifts_global_framework.md
+-------------------------------------
+Words: 323
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (12)
+Meaning confidence: context-supported pattern
+Meaning arc:
+- Opening: Transformation And Hope (7)
+- Middle: Moral Confrontation (4)
+- Ending: Moral Confrontation (3)
 
 medieval_source_notes.md
 ------------------------
