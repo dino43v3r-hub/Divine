@@ -36,6 +36,7 @@ THEOLOGIAN_REPORT_PATH = REPORTS_DIR / "theologian_pattern_design_report.txt"
 SUMMARY_REPORT_PATH = REPORTS_DIR / "divine_pattern_summary_report.txt"
 TOP_PATTERNS_PATH = REPORTS_DIR / "top_five_divine_patterns_report.txt"
 DISCIPLINED_ASSISTANT_PATH = REPORTS_DIR / "disciplined_theological_assistant_report.txt"
+READER_BOOK_PATH = REPORTS_DIR / "divine_pattern_reader_book.txt"
 CLAIM_LEDGER_PATH = RESEARCH_DIR / "claim_ledger.md"
 REVIEWED_SOURCE_PACKS_PATH = RESEARCH_DIR / "reviewed_source_packs.md"
 SUPPORTED_EXTENSIONS = {".txt", ".md"}
@@ -4345,6 +4346,137 @@ def append_pattern_pressure_competition(lines, ranked_patterns, pressure_counts,
         )
 
 
+def append_reader_preface(lines):
+    """Append a warm, book-style preface for non-specialist readers."""
+    lines.extend(
+        [
+            "A Reader's Preface",
+            "------------------",
+            "This report is written for two kinds of readers at once: the person who wants a clear, practical explanation, and the careful student who wants the claims handled responsibly.",
+            "The central idea is simple: Christian theology often sees God's work through patterns. Creation gives order. The Word gives meaning. The Spirit makes truth live in people and communities.",
+            "But the project must stay honest. A pattern can guide discernment without becoming proof. It can be meaningful without being forced. It can help ordinary life only if it faces grief, injustice, doubt, history, science, and other religious traditions with humility.",
+            "",
+        ]
+    )
+
+
+def append_how_to_read_this_book(lines):
+    """Append an accessible reading guide."""
+    lines.extend(
+        [
+            "How To Read This",
+            "----------------",
+            "Read this like a field guide, not a verdict. A field guide helps you notice what is there, compare what you are seeing, and avoid mistaking one thing for another.",
+            "When the report says evidence, it means source-located support. When it says discernment, it means a prayerful and accountable way of asking what the evidence may mean for life with God and neighbor.",
+            "When it says high internal signal, it means the current collection repeats a pattern often. It does not mean the pattern has been proven. The scholarly work is to test the pattern, and the practical work is to ask what faithful response it invites.",
+            "",
+        ]
+    )
+
+
+def append_everyday_pattern_story(lines):
+    """Append a relatable explanation of the divine-pattern movement."""
+    lines.extend(
+        [
+            "The Pattern In Ordinary Life",
+            "----------------------------",
+            "A divine pattern is not only an idea on a page. It is a way of learning to notice how God may be calling human beings toward truth, love, repair, worship, and hope.",
+            "In daily life the movement can be simple:",
+            "",
+            "Notice -> Name -> Discern -> Practice -> Review",
+            "",
+            "A parent notices a conflict at home and names the real wound instead of pretending everything is fine. A worker notices a system that treats people like tools and discerns a more just way to act. A grieving person names sorrow honestly and refuses a shallow answer. A community tests spiritual gifts by love, humility, truth, and fruit.",
+            "This is practical theology: faith becoming wise action in actual human life.",
+            "",
+        ]
+    )
+
+
+def append_scholarly_spine(lines):
+    """Append the scholarly structure in reader-friendly language."""
+    lines.extend(
+        [
+            "The Scholarly Spine",
+            "-------------------",
+            "The project is built around several scholarly lenses.",
+            "- Biblical typology asks whether earlier people, events, and institutions anticipate later fulfillment without ignoring their original context.",
+            "- Redemptive metanarrative asks how creation, fall, covenant, redemption, restoration, and new creation shape the whole story.",
+            "- Thematic analysis tracks repeated motifs such as divine pursuit, lament, mercy, judgment, wisdom, worship, and transformation.",
+            "- Symbolic and narrative analysis asks what images, rituals, stories, and forms are doing, not only what words appear.",
+            "- Digital theology uses computational tools to map patterns, but it must remain accountable to human interpretation, source quality, and theological judgment.",
+            "- Practical theology asks whether the pattern helps people live faithfully in grief, work, family, worship, justice, service, and community.",
+            "",
+        ]
+    )
+
+
+def append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5):
+    """Append top patterns as short reader-facing chapters."""
+    lines.extend(["The Five Leading Pattern Chapters", "---------------------------------"])
+
+    for index, item in enumerate(ranked_patterns[:limit], start=1):
+        candidate = item["candidate"]
+        profile = PATTERN_PRESSURE_PROFILES.get(candidate["name"], {})
+        lines.extend(
+            [
+                "",
+                f"Chapter {index}: {candidate['name']}",
+                "-" * (len(candidate["name"]) + 11),
+                f"In plain language: {candidate['interpretation']}",
+                f"Pattern movement: {candidate['sequence']}",
+                f"Current reading: {item['status']}.",
+                f"Why it matters: {profile.get('best_use', 'it helps organize one part of the larger divine-pattern question')}.",
+                f"Where it must be tested: {profile.get('hardest_pressure', candidate['risk'])}.",
+                f"Daily-life practice: {profile.get('daily_use', 'ask what faithful action this pattern actually produces')}.",
+                "Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.",
+                "Layer support in brief:",
+            ]
+        )
+        for layer in candidate["layers"]:
+            count = layer_counts.get(layer, 0)
+            lines.append(f"- {layer}: {score_layer(count)} ({count:,} signals)")
+
+    lines.append("")
+
+
+def append_reader_case_studies(lines):
+    """Append everyday examples that make the pattern relatable."""
+    lines.extend(
+        [
+            "Everyday Case Studies",
+            "---------------------",
+            "Family conflict: The pattern begins with attention. What actually happened? Then truth-telling: what wound, sin, fear, or longing needs to be named? Discernment asks whether the next faithful act is apology, patience, boundary, counsel, or repair.",
+            "",
+            "Work and money: The pattern asks whether order serves dignity. A workplace can be efficient and still unjust. Practical theology asks how truth, service, stewardship, and courage should appear in decisions about labor, power, and responsibility.",
+            "",
+            "Grief without repair: The pattern must not force hope too quickly. Lament is not failure. A faithful pattern may look like presence, meals, silence, prayer, honest anger, and patient love before any visible resolution appears.",
+            "",
+            "Spiritual gifts: The project should ask whether gifts build up love and truth. A claimed gift becomes suspect when it produces control, spectacle, fear, pride, or harm. It becomes more credible when it serves, heals, corrects humbly, and strengthens community.",
+            "",
+            "Other religions and cultures: The pattern should compare respectfully. Christians may ask how God is present beyond explicit naming, but the project must preserve each tradition's own voice and not use other people merely as evidence for a pre-decided conclusion.",
+            "",
+        ]
+    )
+
+
+def append_reader_guardrails(lines):
+    """Append simple scholarly guardrails for everyday readers."""
+    lines.extend(
+        [
+            "Guardrails For A Careful Reader",
+            "-------------------------------",
+            "1. Do not confuse a repeated pattern with proof.",
+            "2. Do not use suffering as a shortcut to a happy ending.",
+            "3. Do not use science, math, or quantum language as a shortcut to theology.",
+            "4. Do not flatten other religions into Christian language without listening to their own claims.",
+            "5. Do not call something the Holy Spirit if it produces coercion, pride, fear, or harm.",
+            "6. Do not strengthen a claim until weak source lanes have been developed.",
+            "7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today.",
+            "",
+        ]
+    )
+
+
 def score_layer(count):
     """Convert a raw layer count into a cautious strength label."""
     if count >= 1000:
@@ -4652,10 +4784,11 @@ def create_top_patterns_report(analyses, synthesis_analyses, test_analyses, deep
         "Top Five Divine Pattern Families Report",
         "======================================",
         "",
-        "Plain-Language Reading",
-        "----------------------",
-        "The project is no longer asking for one dominant pattern to explain everything.",
-        "It is comparing five candidate pattern families and asking which ones remain faithful, useful, and honest when they face suffering, other traditions, science limits, language context, history, and daily life.",
+        "A Reader's Opening",
+        "------------------",
+        "The project is no longer asking for one dominant pattern to explain everything. It is learning to read several possible patterns side by side.",
+        "Think of these as five chapters in a larger theological book. Each chapter asks how God's work may be recognized through scripture, history, human experience, and practical life.",
+        "The patterns are not conclusions by themselves. They are disciplined hypotheses that must face suffering, other traditions, science limits, language context, history, and ordinary daily life.",
         "",
         "Purpose",
         "-------",
@@ -4663,9 +4796,11 @@ def create_top_patterns_report(analyses, synthesis_analyses, test_analyses, deep
         "Each family is a research hypothesis with its own support, limits, practical uses, and pressure tests.",
         "High signal means repeated internal support in the corpus; it does not mean proof.",
         "",
-        "Top Five Pattern Families",
-        "-------------------------",
+        "Five Chapters In Brief",
+        "----------------------",
     ]
+    append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5)
+    lines.extend(["", "Research Detail", "---------------"])
     append_top_pattern_families(lines, ranked_patterns, layer_counts, limit=5)
     append_pattern_pressure_competition(lines, ranked_patterns, pressure_counts, limit=5)
     append_cautious_confidence_section(lines)
@@ -4729,12 +4864,13 @@ def create_disciplined_theological_assistant_report(
         "Disciplined Theological Assistant Report",
         "=======================================",
         "",
-        "Plain-Language Purpose",
-        "----------------------",
-        "This project studies recurring biblical, theological, historical, symbolic, linguistic, psychological, and practical patterns as possible witnesses to God's self-revelation.",
-        "It should contribute to research by mapping typology, redemptive metanarrative, thematic recurrence, symbolic meaning, and digital theology.",
-        "It should also serve practical theology: the pattern must help real people discern, practice, test, repair, lament, worship, and live more faithfully.",
-        "",
+    ]
+    append_reader_preface(lines)
+    append_how_to_read_this_book(lines)
+    append_everyday_pattern_story(lines)
+    append_scholarly_spine(lines)
+    lines.extend(
+        [
         "Non-Negotiable Guardrail",
         "------------------------",
         "The assistant may say a pattern is visible, supported, reviewed, useful, compatible, or theologically interpreted.",
@@ -4757,9 +4893,15 @@ def create_disciplined_theological_assistant_report(
         f"Pressure-test documents: {len(test_analyses):,}",
         f"Theologian documents: {len(theologian_analyses):,}",
         f"Dedicated synthesis documents: {len(synthesis_analyses):,}",
-    ]
+        ]
+    )
 
-    lines.extend(["", "Most Visible Pattern Families", "-----------------------------"])
+    lines.extend(["", "The Main Pattern Chapters", "-------------------------"])
+    append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5)
+    append_reader_case_studies(lines)
+    append_reader_guardrails(lines)
+
+    lines.extend(["", "Research Detail: Pattern Families", "---------------------------------"])
     append_top_pattern_families(lines, ranked_patterns, layer_counts, limit=5)
     append_pattern_pressure_competition(lines, ranked_patterns, pressure_counts, limit=5)
     append_claim_ledger_section(lines, ledger)
@@ -4793,6 +4935,93 @@ def create_disciplined_theological_assistant_report(
             "One-Sentence Operating Summary",
             "------------------------------",
             "The Divine assistant should map possible divine patterns carefully, test them honestly, interpret them theologically, and help people practice faithful love in daily life without overstating the evidence.",
+        ]
+    )
+
+    return "\n".join(lines)
+
+
+def create_reader_book_report(
+    research_analyses,
+    music_analyses,
+    note_analyses,
+    cultural_analyses,
+    test_analyses,
+    deep_source_analyses,
+    theologian_analyses,
+    synthesis_analyses,
+):
+    """Create a book-style report for everyday readers with scholarly guardrails."""
+    all_analyses = (
+        research_analyses
+        + music_analyses
+        + note_analyses
+        + cultural_analyses
+        + test_analyses
+        + deep_source_analyses
+        + theologian_analyses
+        + synthesis_analyses
+    )
+    top_pattern_analyses = (
+        research_analyses
+        + synthesis_analyses
+        + test_analyses
+        + deep_source_analyses
+        + theologian_analyses
+    )
+    layer_counts = combine_layer_counts(top_pattern_analyses)
+    ranked_patterns = rank_divine_pattern_candidates(layer_counts)
+    pressure_counts = combine_pressure_counts(test_analyses)
+    ledger = parse_claim_ledger()
+    pack_names = load_reviewed_source_pack_names()
+    lane_records = create_lane_balance_records(
+        research_analyses,
+        cultural_analyses,
+        test_analyses,
+        deep_source_analyses,
+        theologian_analyses,
+        synthesis_analyses,
+    )
+
+    lines = [
+        "The Divine Pattern Reader",
+        "=========================",
+        "",
+        "A Book-Style Guide For Everyday Readers And Careful Students",
+        "------------------------------------------------------------",
+        "",
+    ]
+    append_reader_preface(lines)
+    append_how_to_read_this_book(lines)
+    append_everyday_pattern_story(lines)
+    append_scholarly_spine(lines)
+    append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5)
+    append_reader_case_studies(lines)
+
+    lines.extend(
+        [
+            "What The Research Currently Suggests",
+            "------------------------------------",
+            f"The project has analyzed {len(all_analyses):,} documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.",
+            "The current corpus most visibly repeats patterns around image of God, cross and reversal, providence and contingency, Trinity-as-behavior, and creation-to-consciousness.",
+            "These are best understood as chapters in an ongoing research book. They are not final proof claims.",
+            "",
+        ]
+    )
+
+    append_pattern_pressure_competition(lines, ranked_patterns, pressure_counts, limit=5)
+    append_claim_ledger_section(lines, ledger)
+    append_lane_balance_section(lines, lane_records)
+    append_reviewed_source_packs_section(lines, pack_names)
+    append_cautious_confidence_section(lines)
+    append_reader_guardrails(lines)
+
+    lines.extend(
+        [
+            "Closing Practical Rule",
+            "----------------------",
+            "If a pattern does not help a person become more truthful, loving, humble, just, worshipful, patient, and practically faithful, it has not yet become practical theology.",
+            "The report should therefore be read with both a scholar's caution and a disciple's question: what faithful response is being invited today?",
         ]
     )
 
@@ -6339,17 +6568,22 @@ def create_divine_pattern_summary_report(
         "Divine Pattern Summary Report",
         "=============================",
         "",
-        "Plain-Language Summary",
-        "----------------------",
-        "The strongest use of this project is not to declare one final proof.",
-        "Its stronger role is to act as a disciplined theological assistant: map recurring patterns, separate evidence from discernment, test claims under pressure, and turn the pattern into practical love, justice, worship, lament, and hope.",
+    ]
+    append_reader_preface(lines)
+    append_how_to_read_this_book(lines)
+    lines.extend(
+        [
+        "Chapter One: What Is Growing Today?",
+        "-----------------------------------",
+        "This chapter summarizes the newest research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?",
         "",
         "Today's Development",
         "-------------------",
         f"Daily collector updated: {daily_digest.get('updated_at', 'not available')}",
         f"Brand-new candidate references this run: {daily_digest.get('new_count', 0):,}",
         "New candidate pattern movements:",
-    ]
+        ]
+    )
 
     for development in daily_developments:
         lines.append(f"- {development}")
@@ -6399,11 +6633,13 @@ def create_divine_pattern_summary_report(
         for error in daily_digest.get("errors", [])[:6]:
             lines.append(f"- {error}")
 
+    append_everyday_pattern_story(lines)
+
     lines.extend(
         [
             "",
-        "Most Visible Divine Pattern",
-        "---------------------------",
+        "Chapter Two: The Most Visible Divine Pattern",
+        "--------------------------------------------",
         "Father creates and sustains ordered reality.",
         "Son / Logos reveals meaning and redeems disorder.",
         "Holy Spirit makes redemption present through communion, healing, and transformation.",
@@ -6427,7 +6663,9 @@ def create_divine_pattern_summary_report(
         ]
     )
 
-    lines.extend(["", "Top Five Divine Pattern Families", "--------------------------------"])
+    lines.extend(["", "Chapter Three: Five Pattern Families", "------------------------------------"])
+    append_reader_pattern_chapters(lines, top_pattern_rankings, top_pattern_layer_counts, limit=5)
+    lines.extend(["", "Research Detail For The Five Patterns", "-------------------------------------"])
     append_top_pattern_families(lines, top_pattern_rankings, top_pattern_layer_counts, limit=5)
     lines.extend(
         [
@@ -6691,6 +6929,16 @@ def main():
         pattern_test_analyses,
         deep_source_analyses,
     )
+    reader_book_report = create_reader_book_report(
+        analyses,
+        music_analyses,
+        music_note_analyses,
+        cultural_analyses,
+        pattern_test_analyses,
+        deep_source_analyses,
+        theologian_analyses,
+        synthesis_analyses,
+    )
     disciplined_assistant_report = create_disciplined_theological_assistant_report(
         analyses,
         music_analyses,
@@ -6722,6 +6970,7 @@ def main():
     save_text(DEEP_SOURCE_REVIEW_PATH, deep_source_review_report)
     save_text(THEOLOGIAN_REPORT_PATH, theologian_pattern_design_report)
     save_text(TOP_PATTERNS_PATH, top_patterns_report)
+    save_text(READER_BOOK_PATH, reader_book_report)
     save_text(DISCIPLINED_ASSISTANT_PATH, disciplined_assistant_report)
     save_text(SUMMARY_REPORT_PATH, divine_pattern_summary_report)
 
@@ -6737,6 +6986,7 @@ def main():
     print(f"Deep source review saved to: {DEEP_SOURCE_REVIEW_PATH}")
     print(f"Theologian pattern design saved to: {THEOLOGIAN_REPORT_PATH}")
     print(f"Top five patterns saved to: {TOP_PATTERNS_PATH}")
+    print(f"Reader book report saved to: {READER_BOOK_PATH}")
     print(f"Disciplined assistant report saved to: {DISCIPLINED_ASSISTANT_PATH}")
     print(f"Summary report saved to: {SUMMARY_REPORT_PATH}")
 
