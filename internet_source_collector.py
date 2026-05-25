@@ -18,19 +18,21 @@ REPORTS_DIR = Path("reports")
 RESEARCH_DIR = Path("research_documents")
 REFERENCES_PATH = REFERENCES_DIR / "references.json"
 DAILY_DIGEST_PATH = REFERENCES_DIR / "daily_research_digest.json"
+TAVILY_USAGE_PATH = REFERENCES_DIR / "tavily_usage.json"
 FINDINGS_REPORT_PATH = REPORTS_DIR / "cloud_research_findings_report.txt"
 CLOUD_SUMMARY_PATH = RESEARCH_DIR / "cloud_references_summary.md"
 DAILY_EVALUATION_QUEUE_PATH = RESEARCH_DIR / "daily_evaluation_queue.md"
 
 BING_WEB_SEARCH_ENDPOINT = "https://api.bing.microsoft.com/v7.0/search"
 BRAVE_WEB_SEARCH_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
+TAVILY_SEARCH_ENDPOINT = "https://api.tavily.com/search"
 DEFAULT_SEARXNG_BASE_URL = ""
 EUROPE_PMC_SEARCH_ENDPOINT = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 PUBMED_ESEARCH_ENDPOINT = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 PUBMED_ESUMMARY_ENDPOINT = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
 INTERNET_ARCHIVE_ADVANCED_SEARCH_ENDPOINT = "https://archive.org/advancedsearch.php"
 SEMANTIC_SCHOLAR_PAPER_SEARCH_ENDPOINT = "https://api.semanticscholar.org/graph/v1/paper/search"
-OPEN_WEB_PROVIDERS = {"Bing Web Search", "Brave Search", "SearXNG"}
+OPEN_WEB_PROVIDERS = {"Bing Web Search", "Brave Search", "SearXNG", "Tavily Search"}
 SCHOLARLY_METADATA_PROVIDERS = {
     "Crossref",
     "OpenAlex",
@@ -232,6 +234,19 @@ def fetch_json_with_headers(url: str, headers: dict[str, str], timeout: int | No
         return json.loads(response.read().decode("utf-8", errors="replace"))
 
 
+def post_json_with_headers(url: str, payload: dict, headers: dict[str, str], timeout: int | None = None):
+    timeout = request_timeout_seconds() if timeout is None else timeout
+    request_headers = {
+        "User-Agent": "DivinePatternResearchBot/0.1 (metadata-only research collector)",
+        "Content-Type": "application/json",
+    }
+    request_headers.update(headers)
+    data = json.dumps(payload).encode("utf-8")
+    request = urllib.request.Request(url, data=data, headers=request_headers, method="POST")
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8", errors="replace"))
+
+
 def fetch_text(url: str, timeout: int | None = None):
     timeout = request_timeout_seconds() if timeout is None else timeout
     request = urllib.request.Request(
@@ -267,6 +282,73 @@ def polite_delay():
     delay = request_delay_seconds()
     if delay:
         time.sleep(delay)
+
+
+def tavily_daily_limit():
+    try:
+        return max(0, int(os.getenv("TAVILY_DAILY_SEARCH_LIMIT", "5")))
+    except ValueError:
+        return 5
+
+
+def tavily_max_results():
+    try:
+        return max(1, min(10, int(os.getenv("TAVILY_MAX_RESULTS", "3"))))
+    except ValueError:
+        return 3
+
+
+def tavily_today():
+    return datetime.now(timezone.utc).date().isoformat()
+
+
+def tavily_usage():
+    usage = read_json(TAVILY_USAGE_PATH, {"days": {}})
+    if "days" not in usage:
+        usage["days"] = {}
+    return usage
+
+
+def tavily_searches_used_today():
+    today_usage = tavily_usage().get("days", {}).get(tavily_today(), {})
+    return int(today_usage.get("searches_used", 0) or 0)
+
+
+def tavily_searches_remaining_today():
+    return max(0, tavily_daily_limit() - tavily_searches_used_today())
+
+
+def record_tavily_search(query: str, tag: str, credits_used: int = 1):
+    usage = tavily_usage()
+    today = tavily_today()
+    today_usage = usage["days"].setdefault(
+        today,
+        {"searches_used": 0, "credits_used": 0, "queries": []},
+    )
+    today_usage["searches_used"] = int(today_usage.get("searches_used", 0) or 0) + 1
+    today_usage["credits_used"] = int(today_usage.get("credits_used", 0) or 0) + credits_used
+    today_usage.setdefault("queries", []).append(
+        {
+            "tag": tag,
+            "query": query,
+            "credits_used": credits_used,
+            "searched_at": datetime.now(timezone.utc).isoformat(),
+        }
+    )
+    save_json(TAVILY_USAGE_PATH, usage)
+
+
+def tavily_daily_query_keys():
+    limit = tavily_daily_limit()
+    if limit <= 0:
+        return set()
+
+    query_keys = [(tag, query) for tag, queries in QUERY_SETS.items() for query in queries]
+    if not query_keys:
+        return set()
+
+    start = (datetime.now(timezone.utc).date().toordinal() * limit) % len(query_keys)
+    return {query_keys[(start + offset) % len(query_keys)] for offset in range(min(limit, len(query_keys)))}
 
 
 def clean_text(value: str, limit: int = 700):
@@ -318,7 +400,7 @@ def source_quality(source: dict):
         return "scholarly preprint"
     if provider in SCHOLARLY_METADATA_PROVIDERS:
         return "scholarly metadata"
-    if provider in {"Bing Web Search", "Brave Search", "SearXNG"}:
+    if provider in OPEN_WEB_PROVIDERS:
         return "open web result"
     if source_type == "counterargument":
         return "counterargument"
@@ -382,7 +464,7 @@ def score_automated_evidence(source: dict, sources: list[dict]):
     elif provider == "arXiv":
         score += 1
         reasons.append("scholarly preprint provider")
-    elif provider in {"Bing Web Search", "Brave Search", "SearXNG"}:
+    elif provider in OPEN_WEB_PROVIDERS:
         score += 0
         reasons.append("broad open-web search result")
 
@@ -444,7 +526,7 @@ def score_automated_evidence(source: dict, sources: list[dict]):
 
     if provider == "arXiv":
         warnings.append("preprint status: use cautiously until peer-reviewed or corroborated")
-    if provider in {"Bing Web Search", "Brave Search", "SearXNG"} and not is_trusted_open_web_source(source):
+    if provider in OPEN_WEB_PROVIDERS and not is_trusted_open_web_source(source):
         warnings.append("open-web result: require corroboration before strengthening claims")
 
     if score >= 10:
@@ -946,6 +1028,46 @@ def search_brave_web(query: str, tag: str, limit: int = 5):
     return results
 
 
+def search_tavily_web(query: str, tag: str, limit: int = 5):
+    api_key = os.getenv("TAVILY_API_KEY")
+    if not api_key or tavily_searches_remaining_today() <= 0:
+        return []
+
+    max_results = min(limit, tavily_max_results())
+    payload = {
+        "query": query,
+        "search_depth": "basic",
+        "max_results": max_results,
+        "include_answer": False,
+        "include_raw_content": False,
+    }
+    response = post_json_with_headers(
+        TAVILY_SEARCH_ENDPOINT,
+        payload,
+        {"Authorization": f"Bearer {api_key}"},
+    )
+    record_tavily_search(query, tag, credits_used=1)
+    results = []
+
+    for item in response.get("results", [])[:max_results]:
+        source = web_source_from_result(
+            {
+                "title": item.get("title", ""),
+                "url": item.get("url", ""),
+                "description": item.get("content", ""),
+            },
+            "Tavily Search",
+            tag,
+        )
+        if source:
+            source["source_type"] = "open web result via Tavily"
+            if item.get("score") is not None:
+                source["relevance_score"] = item.get("score")
+            results.append(source)
+
+    return results
+
+
 def search_searxng_web(query: str, tag: str, limit: int = 5, base_url: str | None = None):
     base_url = (base_url or searxng_base_url()).rstrip("/")
     if not base_url:
@@ -1013,8 +1135,10 @@ def collect_sources():
     broad_web_enabled = bool(
         (provider_enabled("ENABLE_BING_WEB") and os.getenv("BING_SEARCH_API_KEY"))
         or (provider_enabled("ENABLE_BRAVE_WEB") and os.getenv("BRAVE_SEARCH_API_KEY"))
+        or (provider_enabled("ENABLE_TAVILY_WEB") and os.getenv("TAVILY_API_KEY"))
         or (provider_enabled("ENABLE_SEARXNG") and searxng_base_urls())
     )
+    tavily_query_keys = tavily_daily_query_keys()
 
     for tag, queries in QUERY_SETS.items():
         for query in queries:
@@ -1039,6 +1163,13 @@ def collect_sources():
                     collectors.append(search_bing_web)
                 if provider_enabled("ENABLE_BRAVE_WEB"):
                     collectors.append(search_brave_web)
+                if (
+                    provider_enabled("ENABLE_TAVILY_WEB")
+                    and os.getenv("TAVILY_API_KEY")
+                    and (tag, query) in tavily_query_keys
+                    and tavily_searches_remaining_today() > 0
+                ):
+                    collectors.append(search_tavily_web)
                 if searxng_base_urls():
                     if provider_enabled("ENABLE_SEARXNG"):
                         collectors.append(search_searxng_web_all)
@@ -1174,12 +1305,18 @@ def write_reports(
     if (
         (provider_enabled("ENABLE_BING_WEB") and os.getenv("BING_SEARCH_API_KEY"))
         or (provider_enabled("ENABLE_BRAVE_WEB") and os.getenv("BRAVE_SEARCH_API_KEY"))
+        or (provider_enabled("ENABLE_TAVILY_WEB") and os.getenv("TAVILY_API_KEY"))
         or (provider_enabled("ENABLE_SEARXNG") and searxng_base_urls())
     ):
         lines.append(
             "- Broad web search attempted via SearXNG "
-            + f"({', '.join(searxng_base_urls())}) or configured search API keys."
+            + f"({', '.join(searxng_base_urls()) or 'not configured'}), Tavily, or configured search API keys."
         )
+        if os.getenv("TAVILY_API_KEY") and provider_enabled("ENABLE_TAVILY_WEB"):
+            lines.append(
+                f"- Tavily budget: {tavily_searches_used_today():,}/{tavily_daily_limit():,} basic searches used today; "
+                + f"{tavily_searches_remaining_today():,} remaining."
+            )
         if open_web_returned:
             lines.append(f"- Open-web candidates returned this run: {open_web_returned:,}.")
         elif searxng_errors:
@@ -1187,7 +1324,7 @@ def write_reports(
         else:
             lines.append("- Open-web candidates returned this run: 0.")
     else:
-        lines.append("- Broad web search not enabled; set SEARXNG_BASE_URLS, SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.")
+        lines.append("- Broad web search not enabled; set TAVILY_API_KEY, SEARXNG_BASE_URLS, SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.")
 
     if run_provider_counts:
         lines.append("- Provider results returned this run:")

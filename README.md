@@ -83,7 +83,26 @@ SEMANTIC_SCHOLAR_API_KEY
 ```
 
 It can also search the broader web when repository secrets are configured.
-The fully-free broader-web option is SearXNG:
+The recommended limited-credit broader-web option is Tavily:
+
+```text
+TAVILY_API_KEY
+TAVILY_DAILY_SEARCH_LIMIT
+TAVILY_MAX_RESULTS
+```
+
+The default Tavily budget is `5` basic searches per UTC day, with `3` results
+per search and no raw page content. Basic Tavily searches cost 1 credit each, so
+this keeps the project around 5 credits per day. Usage is tracked in:
+
+```text
+references/tavily_usage.json
+```
+
+The five Tavily queries rotate across the research query set over time so one
+topic does not consume the whole monthly allowance.
+
+The fully-free broader-web software option is SearXNG:
 
 ```text
 SEARXNG_BASE_URL
