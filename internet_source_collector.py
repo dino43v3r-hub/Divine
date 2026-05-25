@@ -32,14 +32,13 @@ EUROPE_PMC_SEARCH_ENDPOINT = "https://www.ebi.ac.uk/europepmc/webservices/rest/s
 PUBMED_ESEARCH_ENDPOINT = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 PUBMED_ESUMMARY_ENDPOINT = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
 INTERNET_ARCHIVE_ADVANCED_SEARCH_ENDPOINT = "https://archive.org/advancedsearch.php"
-SEMANTIC_SCHOLAR_PAPER_SEARCH_ENDPOINT = "https://api.semanticscholar.org/graph/v1/paper/search"
+OPENCITATIONS_INDEX_ENDPOINT = "https://api.opencitations.net/index/v2"
 OPEN_WEB_PROVIDERS = {"Bing Web Search", "Brave Search", "SearXNG", "Tavily Search"}
 SCHOLARLY_METADATA_PROVIDERS = {
     "Crossref",
     "OpenAlex",
     "Europe PMC",
     "PubMed",
-    "Semantic Scholar",
 }
 
 TRUSTED_OPEN_WEB_DOMAINS = [
@@ -207,6 +206,13 @@ def request_timeout_seconds():
 def arxiv_timeout_seconds():
     try:
         return max(5, int(os.getenv("ARXIV_REQUEST_TIMEOUT_SECONDS", "25")))
+    except ValueError:
+        return 25
+
+
+def opencitations_enrichment_limit():
+    try:
+        return max(0, int(os.getenv("OPENCITATIONS_ENRICHMENT_LIMIT", "25")))
     except ValueError:
         return 25
 
@@ -907,56 +913,6 @@ def search_internet_archive(query: str, tag: str, limit: int = 5):
     return results
 
 
-def search_semantic_scholar(query: str, tag: str, limit: int = 5):
-    url = SEMANTIC_SCHOLAR_PAPER_SEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
-        {
-            "query": query,
-            "limit": str(limit),
-            "fields": "title,authors,year,url,abstract,citationCount,externalIds,publicationTypes",
-        }
-    )
-    headers = {}
-    api_key = os.getenv("SEMANTIC_SCHOLAR_API_KEY")
-    if api_key:
-        headers["x-api-key"] = api_key
-
-    payload = fetch_json_with_headers(url, headers) if headers else fetch_json(url)
-    results = []
-
-    for item in payload.get("data", []):
-        title = item.get("title", "")
-        if not title:
-            continue
-
-        external_ids = item.get("externalIds") or {}
-        doi = external_ids.get("DOI", "")
-        publication_types = item.get("publicationTypes") or ["scholarly metadata"]
-        results.append(
-            {
-                "title": clean_text(title, 250),
-                "authors": [
-                    clean_text(author.get("name", ""), 120)
-                    for author in (item.get("authors") or [])[:3]
-                    if author.get("name")
-                ],
-                "year": item.get("year"),
-                "url": item.get("url", ""),
-                "doi": doi,
-                "provider": "Semantic Scholar",
-                "source_type": publication_types[0],
-                "citation_count": item.get("citationCount", 0),
-                "tags": [tag],
-                "summary": clean_text(item.get("abstract", "")),
-                "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-                "review_status": "unreviewed_daily_candidate",
-                "evaluation_use": "candidate lead only until original source review and counterargument check",
-                "date_accessed": datetime.now(timezone.utc).date().isoformat(),
-            }
-        )
-
-    return results
-
-
 def web_source_from_result(result: dict, provider: str, tag: str):
     title = result.get("name") or result.get("title") or ""
     url = result.get("url") or result.get("link") or ""
@@ -1129,6 +1085,50 @@ def search_searxng_web_all(query: str, tag: str, limit: int = 5):
     return results[:limit]
 
 
+def fetch_opencitations_count(kind: str, doi: str):
+    url = f"{OPENCITATIONS_INDEX_ENDPOINT}/{kind}/doi:{urllib.parse.quote(doi, safe='/')}"
+    payload = fetch_json(url)
+    if isinstance(payload, list):
+        return len(payload)
+    return 0
+
+
+def enrich_sources_with_opencitations(sources: list[dict], errors: list[str]):
+    if not provider_enabled("ENABLE_OPENCITATIONS"):
+        return 0
+
+    enriched = 0
+    limit = opencitations_enrichment_limit()
+    for source in sources:
+        if enriched >= limit:
+            break
+        doi = source.get("doi")
+        if not doi or source.get("opencitations_checked_at"):
+            continue
+
+        try:
+            references_count = fetch_opencitations_count("references", doi)
+            citations_count = fetch_opencitations_count("citations", doi)
+            source["opencitations_reference_count"] = references_count
+            source["opencitations_citation_count"] = citations_count
+            if citations_count and not source.get("citation_count"):
+                source["citation_count"] = citations_count
+            source["opencitations_checked_at"] = datetime.now(timezone.utc).date().isoformat()
+            enriched += 1
+        except HTTPError as exc:
+            errors.append(f"OpenCitations enrichment failed for DOI {doi}: {exc}")
+            if exc.code == 429:
+                break
+        except Exception as exc:
+            errors.append(f"OpenCitations enrichment failed for DOI {doi}: {exc}")
+            if isinstance(exc, (TimeoutError, SocketTimeoutError)) or "timed out" in str(exc).lower():
+                break
+        finally:
+            polite_delay()
+
+    return enriched
+
+
 def collect_sources():
     existing = read_json(REFERENCES_PATH, {"sources": []})
     sources_by_id = {source_id(source): source for source in existing.get("sources", []) if source_id(source)}
@@ -1140,6 +1140,7 @@ def collect_sources():
     unavailable_collectors = set()
     run_provider_counts = {}
     new_provider_counts = {}
+    opencitations_enriched_count = 0
     broad_web_enabled = bool(
         (provider_enabled("ENABLE_BING_WEB") and os.getenv("BING_SEARCH_API_KEY"))
         or (provider_enabled("ENABLE_BRAVE_WEB") and os.getenv("BRAVE_SEARCH_API_KEY"))
@@ -1161,8 +1162,6 @@ def collect_sources():
                 collectors.append(search_pubmed)
             if provider_enabled("ENABLE_INTERNET_ARCHIVE"):
                 collectors.append(search_internet_archive)
-            if provider_enabled("ENABLE_SEMANTIC_SCHOLAR", default=bool(os.getenv("SEMANTIC_SCHOLAR_API_KEY"))):
-                collectors.append(search_semantic_scholar)
             if "quantum" in tag or "science" in tag or "music_math" in tag:
                 if provider_enabled("ENABLE_ARXIV"):
                     collectors.append(search_arxiv)
@@ -1210,6 +1209,7 @@ def collect_sources():
         add_layer_routing(source)
 
     sources = sorted(sources_by_id.values(), key=lambda item: (item.get("tags", []), item.get("title", "")))
+    opencitations_enriched_count = enrich_sources_with_opencitations(sources, errors)
     for source in sources:
         add_automated_evidence(source, sources)
     for source in new_sources:
@@ -1251,10 +1251,11 @@ def collect_sources():
             "new_automated_evidence_counts": new_evidence_counts,
             "run_provider_counts": run_provider_counts,
             "new_provider_counts": new_provider_counts,
+            "opencitations_enriched_count": opencitations_enriched_count,
             "errors": errors,
         },
     )
-    write_reports(sources, new_count, new_sources, errors, run_provider_counts, new_provider_counts)
+    write_reports(sources, new_count, new_sources, errors, run_provider_counts, new_provider_counts, opencitations_enriched_count)
 
 
 def write_reports(
@@ -1264,6 +1265,7 @@ def write_reports(
     errors: list[str],
     run_provider_counts: dict[str, int],
     new_provider_counts: dict[str, int],
+    opencitations_enriched_count: int = 0,
 ):
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     RESEARCH_DIR.mkdir(parents=True, exist_ok=True)
@@ -1310,8 +1312,12 @@ def write_reports(
         count for provider, count in run_provider_counts.items() if provider in OPEN_WEB_PROVIDERS
     )
     lines.append(
-        "- Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, Semantic Scholar, and arXiv for science/music queries."
+        "- Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries."
     )
+    if provider_enabled("ENABLE_OPENCITATIONS"):
+        lines.append(
+            f"- OpenCitations DOI enrichment checked {opencitations_enriched_count:,} stored DOI source(s) this run."
+        )
     if (
         (provider_enabled("ENABLE_BING_WEB") and os.getenv("BING_SEARCH_API_KEY"))
         or (provider_enabled("ENABLE_BRAVE_WEB") and os.getenv("BRAVE_SEARCH_API_KEY"))

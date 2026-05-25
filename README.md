@@ -71,15 +71,16 @@ OpenAlex
 Europe PMC
 PubMed
 Internet Archive
-Semantic Scholar
 arXiv
 ```
 
-These are free/keyless metadata sources in normal use. Semantic Scholar is
-available when a key is configured, which avoids noisy anonymous rate limits:
+OpenCitations is also used as a free/keyless DOI enrichment source. It does not
+run broad keyword search; instead, it enriches DOI-based sources found by
+Crossref, OpenAlex, Europe PMC, or PubMed with open citation/reference counts:
 
 ```text
-SEMANTIC_SCHOLAR_API_KEY
+ENABLE_OPENCITATIONS
+OPENCITATIONS_ENRICHMENT_LIMIT
 ```
 
 It can also search the broader web when repository secrets are configured.
