@@ -3,8 +3,8 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-25T16:04:08.683628+00:00
-Brand-new candidate references this run: 42
+Daily collector updated: 2026-05-25T16:51:42.266244+00:00
+Brand-new candidate references this run: 118
 New candidate pattern movements:
 - Theologian-source candidates grew today; review era, primary source, doctrine, disagreement, and pressure points.
 - Visual-art candidates grew today; examine actual form, composition, symbol, beauty, lament, and counter-reading.
@@ -22,59 +22,56 @@ New candidate pattern movements:
 - Global text-tradition material grew today; compare patterns across genre and culture before calling them universal.
 - Science-guardrail material grew today; keep any science analogy tied to qualified sources and stated limits.
 - Art and beauty material grew today; ask what visual or aesthetic form reveals before translating it into doctrine.
+- Strong scholarly candidates arrived today; use them only for claim-scoped confidence, not absolute proof.
 
 New material by lane:
-- trinity: 7
-- psychology_patterns: 7
-- global_text_traditions: 7
-- art_beauty: 6
-- quantum_science_guardrails: 5
-- politics_justice: 4
+- pattern_perception_divine_response: 39
+- interreligious_dream_testimony: 36
+- holy_spirit_gifts_global: 29
+- politics_justice: 5
+- quantum_science_guardrails: 4
+- trinity: 3
 - history_memory: 3
-- technology_ethics: 2
-- music_math: 1
+- art_beauty: 1
+- global_text_traditions: 1
 
 New material by routed layer:
-- pattern_tests: 30
-- visual_art: 24
-- all_texts: 14
-- cultural_inputs: 12
-- theologians: 11
-- deep_sources: 10
-- other_religious_texts: 9
-- history_inputs: 8
-- psychology_inputs: 8
-- human_stories: 7
-- modern_literature: 7
-- research_documents: 7
-- biblical_languages: 4
-- world_languages: 4
-- music_notes: 1
+- pattern_tests: 116
+- human_stories: 102
+- psychology_inputs: 71
+- theologians: 68
+- other_religious_texts: 64
+- deep_sources: 46
+- visual_art: 22
+- history_inputs: 20
+- all_texts: 16
+- cultural_inputs: 6
+- world_languages: 5
+- research_documents: 3
+- modern_literature: 2
+- biblical_languages: 1
 
 New material quality mix:
-- reference metadata: 30
-- open web result: 12
+- scholarly metadata: 100
+- reference metadata: 18
 
 New material automated evidence:
-- moderate_scholarly_candidate: 30
-- weak_scholarly_candidate: 12
+- strong_scholarly_candidate: 74
+- moderate_scholarly_candidate: 43
+- weak_scholarly_candidate: 1
 
 Newest sources to review:
-- Becoming: How It Started… (2021) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art | evidence: moderate_scholarly_candidate (8)
-- The unseen realm : recovering the supernatural worldview of the Bible (2015) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art | evidence: moderate_scholarly_candidate (8)
-- On Principle (2021) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art | evidence: moderate_scholarly_candidate (8)
-- 55. Meant to Be Understood - Tom Huszti (2022) | tags: trinity | layers: theologians, research_documents, pattern_tests | evidence: moderate_scholarly_candidate (8)
-- Beyond me, my selfie, & I : finding real happiness in a self-absorbed world (2016) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art, all_texts | evidence: moderate_scholarly_candidate (8)
-- July 30, 2023 ”Christianities” The Rev. Angela Herrera (2023) | tags: trinity | layers: theologians, research_documents, pattern_tests | evidence: moderate_scholarly_candidate (8)
-- 495 Early Church History 13: Trinity Controversy in the Fourth Century (2023) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art, history_inputs | evidence: moderate_scholarly_candidate (8)
-- Structure of the benzene molecule on the basis of the three-electron bond. (2009) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests | evidence: moderate_scholarly_candidate (8)
+- Hidden history of the Greek New Testament [HE Kaine Diatheke] for Translators, Christ followers and Seminary Students (n.d.) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art, history_inputs, world_languages, biblical_languages, all_texts, human_stories | evidence: moderate_scholarly_candidate (7)
+- 20. The Good, the Bad, and the Boys Home - Josiah Wright (2021) | tags: trinity | layers: theologians, research_documents, pattern_tests, history_inputs | evidence: moderate_scholarly_candidate (8)
+- Early Church and Trinity: Father and Son (2015) | tags: trinity | layers: theologians, research_documents, pattern_tests, history_inputs | evidence: moderate_scholarly_candidate (8)
+- Sean Carroll | Why Almost No One Understands Quantum Mechanics and Problems in Physics & Philosophy (2020) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests | evidence: moderate_scholarly_candidate (8)
+- Paul K. Feyerabend Philosophical Papers, Volume L Realism, Rationalism And Scientific Method (2000) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests, visual_art, history_inputs, world_languages | evidence: moderate_scholarly_candidate (8)
+- Order out of chaos : man's new dialogue with nature (1984) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests, world_languages, all_texts | evidence: moderate_scholarly_candidate (8)
+- Consciousness of the Universe (n.d.) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests | evidence: moderate_scholarly_candidate (7)
+- Many political commentator frankfurt people (2022) | tags: politics_justice | layers: cultural_inputs, history_inputs, pattern_tests, visual_art | evidence: moderate_scholarly_candidate (8)
 
 Collector warnings:
-- search_semantic_scholar failed for trinity: HTTP Error 429: 
-- search_arxiv failed for quantum_science_guardrails: The read operation timed out
-- search_arxiv failed for quantum_science_guardrails: The read operation timed out
-- search_arxiv failed for music_math: The read operation timed out
-- search_arxiv failed for music_math: The read operation timed out
+- search_arxiv failed for music_math: HTTP Error 429: Unknown Error
 
 Divine Pattern Found
 --------------------
@@ -93,17 +90,17 @@ Notice -> Name -> Discern -> Practice -> Transform
 Why this pattern is currently strongest:
 ----------------------------------------
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,270
-- Son: 6,665
-- Holy Spirit: 1,744
+- Father: 3,388
+- Son: 6,672
+- Holy Spirit: 1,817
 
 Strongest research layers:
-- Meaning And Logos: 5,910
-- Life And Consciousness: 5,302
-- Physical Order: 2,458
-- Moral Response: 2,235
-- Transformation: 2,035
-- Worship And Community: 1,067
+- Meaning And Logos: 6,086
+- Life And Consciousness: 5,412
+- Physical Order: 2,460
+- Moral Response: 2,331
+- Transformation: 2,065
+- Worship And Community: 1,064
 
 Music-note science/math support:
 - Mathematical Structure: 129
@@ -151,7 +148,7 @@ Global language/text coverage:
 
 Cloud reference review:
 - Reviewed cloud-reference markers: 3
-- Unreviewed cloud-reference markers: 33
+- Unreviewed cloud-reference markers: 21
 - Treat cloud references as leads until checked against original sources, author expertise, date, publication venue, and counterarguments.
 
 Theologian pattern-design support:

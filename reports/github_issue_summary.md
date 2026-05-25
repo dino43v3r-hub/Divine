@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-25T16:05:10.306255+00:00
+Generated: 2026-05-25T16:52:45.589852+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -34,8 +34,8 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-25T16:04:08.683628+00:00
-Brand-new candidate references this run: 42
+Daily collector updated: 2026-05-25T16:51:42.266244+00:00
+Brand-new candidate references this run: 118
 New candidate pattern movements:
 - Theologian-source candidates grew today; review era, primary source, doctrine, disagreement, and pressure points.
 - Visual-art candidates grew today; examine actual form, composition, symbol, beauty, lament, and counter-reading.
@@ -48,7 +48,7 @@ New candidate pattern movements:
 - Pressure-test candidates grew today; name failure conditions and whether the pattern holds under friction.
 - Lament-to-hope material grew today; test whether hope is patient and non-coercive rather than a quick resolution.
 
-_Full report has 201 lines. Open the linked report above to read everything._
+_Full report has 202 lines. Open the linked report above to read everything._
 ```
 
 ## reports/cloud_research_findings_report.txt
@@ -57,9 +57,9 @@ _Full report has 201 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T16:04:08.705341+00:00
-Total references: 640
-New references this run: 42
+Updated: 2026-05-25T16:51:42.295465+00:00
+Total references: 758
+New references this run: 118
 
 Guardrails
 ----------
@@ -71,7 +71,7 @@ Guardrails
 Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
-- Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, Semantic Scholar, and arXiv for science/music queries.
+- Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
 _Full report has 517 lines. Open the linked report above to read everything._
 ```
@@ -91,14 +91,14 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 22
-Total analyzed words: 734,822
+Documents analyzed: 23
+Total analyzed words: 746,183
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 760 lines. Open the linked report above to read everything._
+_Full report has 781 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -144,11 +144,11 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 16
-Test words analyzed: 1,284
+Test documents analyzed: 20
+Test words analyzed: 2,163
 
 
-_Full report has 405 lines. Open the linked report above to read everything._
+_Full report has 488 lines. Open the linked report above to read everything._
 ```
 
 ## reports/deep_source_review_report.txt
@@ -171,9 +171,9 @@ Status: source-supported
 Area signal: 16
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
-- Scripture/Theology: present (13)
+- Scripture/Theology: present (21)
 
-_Full report has 130 lines. Open the linked report above to read everything._
+_Full report has 253 lines. Open the linked report above to read everything._
 ```
 
 ## reports/theologian_pattern_design_report.txt
@@ -189,16 +189,16 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 7
-Total theologian words analyzed: 1,753
+Theologian documents analyzed: 9
+Total theologian words analyzed: 2,751
 
 Era Coverage
 ------------
-- Patristic: 27
-- Medieval: 16
-- Reformation: 12
+- Patristic: 32
+- Medieval: 19
+- Reformation: 14
 
-_Full report has 139 lines. Open the linked report above to read everything._
+_Full report has 161 lines. Open the linked report above to read everything._
 ```
 
 ## reports/cross_layer_reasoning_report.txt
@@ -217,13 +217,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 98
-Dedicated synthesis documents: 21
+Total documents across all lanes: 119
+Dedicated synthesis documents: 32
 Active divine-pattern layers: 8 of 8
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
 
-_Full report has 440 lines. Open the linked report above to read everything._
+_Full report has 563 lines. Open the linked report above to read everything._
 ```
 
 ## reports/music_note_patterns_report.txt
@@ -268,7 +268,7 @@ Overview
 --------
 Lyric documents analyzed: 13
 Total lyric words analyzed: 794
-Religious research documents used for comparison: 22
+Religious research documents used for comparison: 23
 
 Strongest Lyric Motifs
 ---------------------
@@ -313,15 +313,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Becoming: How It Started…
+### Hidden history of the Greek New Testament [HE Kaine Diatheke] for Translators, Christ followers and Seminary Students
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: trinity
-- Layer routes: theologians, research_documents, pattern_tests, visual_art
+- Layer routes: theologians, research_documents, pattern_tests, visual_art, history_inputs, world_languages, biblical_languages, all_texts, human_stories
 - Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 1,470 lines. Open the linked report above to read everything._
+_Full report has 3,892 lines. Open the linked report above to read everything._
 ```

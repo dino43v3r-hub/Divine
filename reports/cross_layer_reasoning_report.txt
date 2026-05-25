@@ -85,23 +85,23 @@ Text Tradition Coverage
 
 Layer Convergence Across All Sources
 ------------------------------------
-- Physical Order: 2,775 (strong signal)
-- Mathematical Structure: 802 (moderate signal)
-- Quantum Probability: 108 (early signal)
-- Life And Consciousness: 5,652 (strong signal)
-- Meaning And Logos: 6,767 (strong signal)
-- Moral Response: 2,998 (strong signal)
-- Worship And Community: 1,922 (strong signal)
-- Transformation: 2,991 (strong signal)
+- Physical Order: 2,777 (strong signal)
+- Mathematical Structure: 801 (moderate signal)
+- Quantum Probability: 102 (early signal)
+- Life And Consciousness: 5,762 (strong signal)
+- Meaning And Logos: 6,943 (strong signal)
+- Moral Response: 3,094 (strong signal)
+- Worship And Community: 1,919 (strong signal)
+- Transformation: 3,021 (strong signal)
 
 Meaning Movement Across All Sources
 -----------------------------------
-- Creation And Order: 5,843
-- Alienation And Lament: 2,146
-- Desire And Longing: 3,371
-- Moral Confrontation: 3,177
-- Communal Practice: 2,538
-- Transformation And Hope: 3,724
+- Creation And Order: 6,046
+- Alienation And Lament: 2,141
+- Desire And Longing: 3,343
+- Moral Confrontation: 3,437
+- Communal Practice: 2,530
+- Transformation And Hope: 3,756
 
 Synthesis Depth Results
 -----------------------
