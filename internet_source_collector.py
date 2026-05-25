@@ -24,7 +24,7 @@ DAILY_EVALUATION_QUEUE_PATH = RESEARCH_DIR / "daily_evaluation_queue.md"
 
 BING_WEB_SEARCH_ENDPOINT = "https://api.bing.microsoft.com/v7.0/search"
 BRAVE_WEB_SEARCH_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
-DEFAULT_SEARXNG_BASE_URL = "https://search.mdosch.de"
+DEFAULT_SEARXNG_BASE_URL = ""
 EUROPE_PMC_SEARCH_ENDPOINT = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 PUBMED_ESEARCH_ENDPOINT = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 PUBMED_ESUMMARY_ENDPOINT = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
@@ -796,7 +796,6 @@ def search_internet_archive(query: str, tag: str, limit: int = 5):
         if isinstance(description, list):
             description = " ".join(str(part) for part in description)
 
-        publication_types = item.get("publicationTypes") or ["scholarly metadata"]
         results.append(
             {
                 "title": clean_text(title, 250),
@@ -841,6 +840,7 @@ def search_semantic_scholar(query: str, tag: str, limit: int = 5):
 
         external_ids = item.get("externalIds") or {}
         doi = external_ids.get("DOI", "")
+        publication_types = item.get("publicationTypes") or ["scholarly metadata"]
         results.append(
             {
                 "title": clean_text(title, 250),
@@ -996,9 +996,6 @@ def search_searxng_web_all(query: str, tag: str, limit: int = 5):
         finally:
             polite_delay()
 
-    if errors and not results:
-        raise RuntimeError("; ".join(errors))
-
     return results[:limit]
 
 
@@ -1010,6 +1007,7 @@ def collect_sources():
     new_count = 0
     new_sources = []
     errors = []
+    unavailable_collectors = set()
     run_provider_counts = {}
     new_provider_counts = {}
     broad_web_enabled = bool(
@@ -1046,6 +1044,9 @@ def collect_sources():
                         collectors.append(search_searxng_web_all)
 
             for collector in collectors:
+                if collector.__name__ in unavailable_collectors:
+                    continue
+
                 try:
                     for source in collector(query, tag):
                         provider = source.get("provider") or collector.__name__
@@ -1057,6 +1058,8 @@ def collect_sources():
                             new_provider_counts[provider] = new_provider_counts.get(provider, 0) + 1
                 except HTTPError as exc:
                     errors.append(f"{collector.__name__} failed for {tag}: {exc}")
+                    if exc.code == 429:
+                        unavailable_collectors.add(collector.__name__)
                 except Exception as exc:
                     errors.append(f"{collector.__name__} failed for {tag}: {exc}")
                 finally:

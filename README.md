@@ -90,16 +90,11 @@ SEARXNG_BASE_URL
 SEARXNG_BASE_URLS
 ```
 
-By default, the collector uses:
-
-```text
-https://search.mdosch.de
-```
-
-`SEARXNG_BASE_URL` can override that default and should point to a SearXNG
-instance with JSON results enabled, for example a self-hosted instance. Public
-instances may disable JSON or rate limit automation, so self-hosting is the most
-reliable free path.
+`SEARXNG_BASE_URL` should point to a SearXNG instance with JSON results enabled,
+for example a self-hosted instance. Public instances may disable JSON or rate
+limit automation, so self-hosting is the most reliable free path. The collector
+does not use a public SearXNG instance by default because those endpoints often
+return `429 TOO MANY REQUESTS` during automated runs.
 
 `SEARXNG_BASE_URLS` accepts a comma-separated list of SearXNG instances and
 tries them in order. This lets the collector keep working when one public
