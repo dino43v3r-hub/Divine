@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-25T17:27:42.809937+00:00
+Generated: 2026-05-25T19:13:27.501768+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -34,8 +34,8 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-25T17:26:39.248414+00:00
-Brand-new candidate references this run: 197
+Daily collector updated: 2026-05-25T19:12:26.219584+00:00
+Brand-new candidate references this run: 37
 New candidate pattern movements:
 - Theologian-source candidates grew today; review era, primary source, doctrine, disagreement, and pressure points.
 - Visual-art candidates grew today; examine actual form, composition, symbol, beauty, lament, and counter-reading.
@@ -48,7 +48,7 @@ New candidate pattern movements:
 - Pressure-test candidates grew today; name failure conditions and whether the pattern holds under friction.
 - Lament-to-hope material grew today; test whether hope is patient and non-coercive rather than a quick resolution.
 
-_Full report has 284 lines. Open the linked report above to read everything._
+_Full report has 281 lines. Open the linked report above to read everything._
 ```
 
 ## reports/cloud_research_findings_report.txt
@@ -57,9 +57,9 @@ _Full report has 284 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T17:26:39.285264+00:00
-Total references: 955
-New references this run: 197
+Updated: 2026-05-25T19:12:26.255701+00:00
+Total references: 992
+New references this run: 37
 
 Guardrails
 ----------
@@ -73,7 +73,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 530 lines. Open the linked report above to read everything._
+_Full report has 527 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -92,13 +92,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 27
-Total analyzed words: 748,172
+Total analyzed words: 736,559
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 842 lines. Open the linked report above to read everything._
+_Full report has 841 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -313,15 +313,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### The Outsider (Analysis of the Self)
+### 32. Negotiating with Trinitarians - John Lawson
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests
-- Primary layer: deep_sources
+- Tags: trinity
+- Layer routes: theologians, research_documents, all_texts
+- Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 3,951 lines. Open the linked report above to read everything._
+_Full report has 1,301 lines. Open the linked report above to read everything._
 ```
