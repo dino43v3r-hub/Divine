@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-25T14:45:46.660455+00:00
+Generated: 2026-05-25T15:36:51.589778+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -34,7 +34,7 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-25T14:44:53.118179+00:00
+Daily collector updated: 2026-05-25T15:35:49.500169+00:00
 Brand-new candidate references this run: 0
 New candidate pattern movements:
 - No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.
@@ -48,7 +48,7 @@ New material by routed layer:
 New material quality mix:
 - No new source-quality mix available for the latest run.
 
-_Full report has 151 lines. Open the linked report above to read everything._
+_Full report has 156 lines. Open the linked report above to read everything._
 ```
 
 ## reports/cloud_research_findings_report.txt
@@ -57,8 +57,8 @@ _Full report has 151 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T14:44:53.129147+00:00
-Total references: 376
+Updated: 2026-05-25T15:35:49.519273+00:00
+Total references: 598
 New references this run: 0
 
 Guardrails
@@ -71,9 +71,9 @@ Guardrails
 Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
-- Broad web search attempted via SearXNG (https://search.mdosch.de) or configured search API keys.
+- Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, Semantic Scholar, and arXiv for science/music queries.
 
-_Full report has 292 lines. Open the linked report above to read everything._
+_Full report has 378 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -92,13 +92,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 22
-Total analyzed words: 740,847
+Total analyzed words: 747,995
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 759 lines. Open the linked report above to read everything._
+_Full report has 763 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -313,15 +313,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### MUSICA MUNDANA , ARISTOTELIAN NATURAL PHILOSOPHY AND PTOLEMAIC ASTRONOMY
+### 🎥 Sonic Geometry I–III — The Language of Frequency and Form
 
-- Review status: machine_assessed_strong_scholarly_candidate
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
 - Tags: music_math
-- Layer routes: music_notes, deep_sources
+- Layer routes: music_notes, deep_sources, visual_art, world_languages
 - Primary layer: music_notes
-- Provider: OpenAlex
-- Quality: scholarly metadata
+- Provider: Internet Archive
+- Quality: reference metadata
 
-_Full report has 3,719 lines. Open the linked report above to read everything._
+_Full report has 4,186 lines. Open the linked report above to read everything._
 ```

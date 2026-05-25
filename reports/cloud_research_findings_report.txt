@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T15:28:02.898443+00:00
+Updated: 2026-05-25T15:35:49.519273+00:00
 Total references: 598
-New references this run: 222
+New references this run: 0
 
 Guardrails
 ----------
@@ -16,7 +16,8 @@ Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, Semantic Scholar, and arXiv for science/music queries.
-- Broad web search not enabled; set SEARXNG_BASE_URLS, SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.
+- Broad web search attempted via SearXNG (https://search.mdosch.de) or configured search API keys.
+- Open-web candidates returned this run: 0; configured SearXNG endpoint(s) rate-limited or rejected the request.
 - Provider results returned this run:
   - Crossref: 185
   - Europe PMC: 134
@@ -24,10 +25,7 @@ Online Collection Status
   - OpenAlex: 171
   - PubMed: 24
   - arXiv: 30
-- Brand-new references added by provider:
-  - Europe PMC: 119
-  - Internet Archive: 81
-  - PubMed: 22
+- Brand-new references added by provider: 0.
 - Total stored references by provider:
   - Crossref: 191
   - Europe PMC: 119
@@ -86,221 +84,15 @@ Automated Evidence Counts
 
 New This Run By Tag
 -------------------
-- art_beauty: 21
-- biblical_languages: 2
-- global_text_traditions: 16
-- history_memory: 19
-- music_math: 31
-- politics_justice: 21
-- psychology_patterns: 21
-- quantum_science_guardrails: 24
-- technology_ethics: 25
-- theologians_cross_era: 3
-- trinity: 20
-- unresolved_suffering: 11
-- world_languages_translation: 17
+- No brand-new references found this run; reports still re-evaluate the current candidate set.
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 57
-- biblical_languages: 6
-- cultural_inputs: 66
-- deep_sources: 79
-- history_inputs: 67
-- human_stories: 35
-- modern_literature: 30
-- music_notes: 31
-- other_religious_texts: 27
-- pattern_tests: 138
-- psychology_inputs: 51
-- research_documents: 20
-- research_documents/christian_sources: 5
-- theologians: 48
-- visual_art: 90
-- world_languages: 28
+- No brand-new layer routes this run.
 
 Newest Additions This Run
 ------------------------
-- Disaster risk reduction and Evangelical Christianity: a case for pluriversality in practice. (2026)
-  Tags: politics_justice, trinity
-  Layer routes: cultural_inputs, history_inputs, pattern_tests, theologians, research_documents, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
-  URL: https://doi.org/10.1111/disa.70035
-- Casting a Vision of Communal and Public Life of the Church for the Post-Pandemic Korean-American Churches: Focusing on Veli-Matti Kärkkäinen’s Communion and Public Ecclesiology (2023)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10288205/?tool=EBI
-- Physician Resilience and the Little Way. (2025)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, visual_art, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1177/00243639231200621
-- Pentecostal spirituality in the context of faith and hope gospel (prosperity preaching): African Pentecostal response to the COVID-19 pandemic. (2022)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, visual_art, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
-  URL: https://doi.org/10.1111/dial.12727
-- The Trilogy of Health Care: Caring and Healing of the Clinician. (2022)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, history_inputs
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1177/00243639211055556
-- 420 One God 10: Christ’s Exaltation & Priestly Service (2021)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, visual_art, psychology_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-420_one_god_10_christs_exaltation_priestly_service
-- Responsible grace : John Wesley's practical theology (1994)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/responsiblegrace0000madd
-- 413 - Unpacking John 20:17 (2025)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, all_texts, psychology_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-413a
-- Renovatio: rivista di teologia e cultura (1990)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, biblical_languages
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/siri-renovatio-1990-25-01
-- 64. Where We Stand (and Predictions) - Dale Tuggy (2022)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, visual_art, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Unitarian_Christian_Alliance-UCA_64_Where_We_Stand_and_Predictions___Dale_Tuggy
-- After we transgress God's values: relational spirituality as a paradigm for the Christian experience of reconciliation with God. (2025)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
-  URL: https://doi.org/10.3389/fpsyg.2025.1587704
-- Life, Information, Entropy, and Time: Vehicles for Semantic Inheritance. (2007)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, world_languages
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
-  URL: https://doi.org/10.1002/cplx.20180
-- The Experience of God - Trinity Sunday c 2022 (2022)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/leurhkmyht4bz481ynvkiggjcnk1wpywxkgsm3th
-- 363: The Council of Nicaea: Fact & Fiction (2025)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, history_inputs, all_texts, modern_literature
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_363_
-- Slaying The Trinitarian-Oneness Chimaera (2020)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/slayingthetrinitarianonenesschimaera_202001
-- Roman Catholic Church (2008)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/youtube-vs2sO-H42_Q
-- Who Proceeds from the Father and the Son (2021)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/210925-2237
-- Can the Communion of Saints Help the Search for Justice in Dying well (Enough), "In Abraham's Arms, Where Lazarus is Poor no Longer"? (2013)
-  Tags: global_text_traditions, trinity
-  Layer routes: all_texts, other_religious_texts, modern_literature, theologians, research_documents, pattern_tests, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1179/2050854913y.0000000014
-- The claims of truth : John Owen's Trinitarian theology (1998)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, visual_art, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/claimsoftruthjoh0000true
-- Dogmatic Theology, William G T (2013)
-  Tags: trinity
-  Layer routes: theologians, research_documents, pattern_tests, visual_art, all_texts, deep_sources
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  URL: https://archive.org/details/dogmatic-theology-william-g-t
-- Black Pastors' Experiences of Occupational and Life Stress During COVID-19 in the USA. (2024)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1007/s10943-023-01901-9
-- A Brief Pastoral Topography for Migrating People. (2022)
-  Tags: history_memory, unresolved_suffering
-  Layer routes: history_inputs, theologians, pattern_tests, deep_sources, psychology_inputs, human_stories, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1007/s11089-022-01010-6
-- Recognizing the Role of Chaplaincy in Healthcare: Perspectives on the COVID-19 Pandemic. (2022)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1177/15423050211064998
-- When Patients Talk Politics: Opportunities for Recontextualizing Ministerial Theory and Practice. (2022)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, history_inputs, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1007/s11089-022-01013-3
-- Scared but Powerful: Healthcare Chaplains' Emotional Responses and Self-Care Modes during the SARS-Cov-19 Pandemic. (2021)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
-  URL: https://doi.org/10.1177/1542305021993761
-- A struggle for holy ground : reconciliation and the rites of parish closure (2004)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/struggleforholyg0000weld
-- Insight Into the Role of Protestant Christianity in the Experience of Living With a Suicidal Relative: A Constructivist Grounded Theory Study. (2025)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
-  URL: https://doi.org/10.1111/jpm.70025
-- Concepts of Mental Disorders Among Psychiatrists, Psychologists, and Theologians. (2024)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, theologians
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.3390/ejihpe14110185
-- Persistence and Innovation in the Greco-Roman Medical Tradition: The Reading and Writing Practices of a Tenth-Century Monk. (2025)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, visual_art, biblical_languages, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1093/shm/hkaf032
-- Tipping Point: Pathogenic Stress and the Biopolitics of Euthanasia. (2025)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1177/00243639241287918
+- No new additions this run.
 
 Recent Candidate Sources
 ------------------------
@@ -508,3 +300,79 @@ Recent Candidate Sources
   Authors: Ernst-August Gutt
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4324/9781315760018
+
+Collector Errors
+----------------
+- search_semantic_scholar failed for trinity: name 'publication_types' is not defined
+- search_searxng_web_all failed for trinity: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for trinity: HTTP Error 429: 
+- search_searxng_web_all failed for trinity: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for trinity: HTTP Error 429: 
+- search_searxng_web_all failed for trinity: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for unresolved_suffering: HTTP Error 429: 
+- search_searxng_web_all failed for unresolved_suffering: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for unresolved_suffering: HTTP Error 429: 
+- search_searxng_web_all failed for unresolved_suffering: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for unresolved_suffering: HTTP Error 429: 
+- search_searxng_web_all failed for unresolved_suffering: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for quantum_science_guardrails: HTTP Error 429: 
+- search_searxng_web_all failed for quantum_science_guardrails: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for quantum_science_guardrails: HTTP Error 429: 
+- search_searxng_web_all failed for quantum_science_guardrails: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for quantum_science_guardrails: HTTP Error 429: 
+- search_searxng_web_all failed for quantum_science_guardrails: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for music_math: HTTP Error 429: 
+- search_searxng_web_all failed for music_math: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for music_math: HTTP Error 429: 
+- search_searxng_web_all failed for music_math: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for music_math: HTTP Error 429: 
+- search_searxng_web_all failed for music_math: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for politics_justice: HTTP Error 429: 
+- search_searxng_web_all failed for politics_justice: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for politics_justice: HTTP Error 429: 
+- search_searxng_web_all failed for politics_justice: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for art_beauty: HTTP Error 429: 
+- search_searxng_web_all failed for art_beauty: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for art_beauty: HTTP Error 429: 
+- search_searxng_web_all failed for art_beauty: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for art_beauty: HTTP Error 429: 
+- search_searxng_web_all failed for art_beauty: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for history_memory: HTTP Error 429: 
+- search_searxng_web_all failed for history_memory: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for history_memory: HTTP Error 429: 
+- search_searxng_web_all failed for history_memory: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for history_memory: name 'publication_types' is not defined
+- search_searxng_web_all failed for history_memory: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for world_languages_translation: name 'publication_types' is not defined
+- search_searxng_web_all failed for world_languages_translation: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for world_languages_translation: HTTP Error 429: 
+- search_searxng_web_all failed for world_languages_translation: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for world_languages_translation: HTTP Error 429: 
+- search_searxng_web_all failed for world_languages_translation: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for biblical_languages: HTTP Error 429: 
+- search_searxng_web_all failed for biblical_languages: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for biblical_languages: HTTP Error 429: 
+- search_searxng_web_all failed for biblical_languages: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for biblical_languages: HTTP Error 429: 
+- search_searxng_web_all failed for biblical_languages: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for psychology_patterns: HTTP Error 429: 
+- search_searxng_web_all failed for psychology_patterns: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for psychology_patterns: HTTP Error 429: 
+- search_searxng_web_all failed for psychology_patterns: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for psychology_patterns: HTTP Error 429: 
+- search_searxng_web_all failed for psychology_patterns: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for global_text_traditions: HTTP Error 429: 
+- search_searxng_web_all failed for global_text_traditions: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for global_text_traditions: HTTP Error 429: 
+- search_searxng_web_all failed for global_text_traditions: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_searxng_web_all failed for global_text_traditions: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for technology_ethics: HTTP Error 429: 
+- search_searxng_web_all failed for technology_ethics: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for technology_ethics: HTTP Error 429: 
+- search_searxng_web_all failed for technology_ethics: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for theologians_cross_era: HTTP Error 429: 
+- search_searxng_web_all failed for theologians_cross_era: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for theologians_cross_era: name 'publication_types' is not defined
+- search_searxng_web_all failed for theologians_cross_era: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_semantic_scholar failed for theologians_cross_era: HTTP Error 429: 
+- search_searxng_web_all failed for theologians_cross_era: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
