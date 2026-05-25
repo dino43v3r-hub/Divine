@@ -49,10 +49,10 @@ Where it must be tested: disability, dementia, trauma, oppression, and intellige
 Daily-life practice: treat every person as bearing dignity before performance or usefulness.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (5,608 signals)
-- Meaning And Logos: high internal signal (6,764 signals)
-- Moral Response: high internal signal (2,944 signals)
-- Worship And Community: high internal signal (1,870 signals)
+- Life And Consciousness: high internal signal (5,600 signals)
+- Meaning And Logos: high internal signal (6,715 signals)
+- Moral Response: high internal signal (2,927 signals)
+- Worship And Community: high internal signal (1,839 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -64,9 +64,9 @@ Where it must be tested: unresolved suffering, injustice, violence, and romantic
 Daily-life practice: choose humility, truth, forgiveness with boundaries, and hope without denial.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (6,764 signals)
-- Moral Response: high internal signal (2,944 signals)
-- Transformation: high internal signal (2,939 signals)
+- Meaning And Logos: high internal signal (6,715 signals)
+- Moral Response: high internal signal (2,927 signals)
+- Transformation: high internal signal (2,934 signals)
 
 Chapter 3: Providence And Contingency Pattern
 ---------------------------------------------
@@ -78,10 +78,10 @@ Where it must be tested: evil, chance, failed prediction, and no-visible-repair 
 Daily-life practice: act faithfully in uncertainty without pretending to know every cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,634 signals)
-- Quantum Probability: early signal (103 signals)
-- Life And Consciousness: high internal signal (5,608 signals)
-- Meaning And Logos: high internal signal (6,764 signals)
+- Physical Order: high internal signal (2,631 signals)
+- Quantum Probability: early signal (102 signals)
+- Life And Consciousness: high internal signal (5,600 signals)
+- Meaning And Logos: high internal signal (6,715 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -93,9 +93,9 @@ Where it must be tested: Trinitarian doctrine, other religious comparison, and s
 Daily-life practice: receive life, follow Christ, and seek Spirit-led transformation in community.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,634 signals)
-- Meaning And Logos: high internal signal (6,764 signals)
-- Transformation: high internal signal (2,939 signals)
+- Physical Order: high internal signal (2,631 signals)
+- Meaning And Logos: high internal signal (6,715 signals)
+- Transformation: high internal signal (2,934 signals)
 
 Chapter 5: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -107,10 +107,10 @@ Where it must be tested: evolution, suffering, disability, consciousness, and im
 Daily-life practice: honor embodied life, dignity, vocation, and stewardship in ordinary choices.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,634 signals)
-- Life And Consciousness: high internal signal (5,608 signals)
-- Moral Response: high internal signal (2,944 signals)
-- Worship And Community: high internal signal (1,870 signals)
+- Physical Order: high internal signal (2,631 signals)
+- Life And Consciousness: high internal signal (5,600 signals)
+- Moral Response: high internal signal (2,927 signals)
+- Worship And Community: high internal signal (1,839 signals)
 
 Everyday Case Studies
 ---------------------

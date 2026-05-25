@@ -1,5 +1,5 @@
 {
-  "source_count": 992,
+  "source_count": 1002,
   "sources": [
     {
       "authors": [
@@ -887,6 +887,52 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1057/s41280-022-00260-0",
       "year": "2023"
+    },
+    {
+      "authors": [
+        "None"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 373,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/dictionaryofhist0000unse",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "history_inputs",
+        "biblical_languages"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "5 volumes ; 29 cm Contains overviews of religious, intellectual, literary, economic, political, and scientific concepts Includes bibliographical references v. 1. Abstraction in the formulation of concepts, to Design argument.--v. 2. Despotism, to Law, common.--v. 3. Law, conception of, to Protest movements.--v. 4. Psychological ideas, to Zeitgeist.--[5] Index v. 1. Abstraction in the formulation of concepts -- Academic freedom -- Agnosticism -- Alchemy -- Alienation in christian theology -- Alienation in hegel and marx -- Allegory in literary history -- Ambiguity as aethestic principle -- Analogy in early greek thought -- Analogy in patristic and medieval thought -- Analogy of the body polit",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Dictionary of the history of ideas : studies of selected pivotal ideas",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/dictionaryofhist0000unse",
+      "year": "1973"
     },
     {
       "authors": [
@@ -4072,6 +4118,9 @@
         "visual_art",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -4123,6 +4172,9 @@
         "all_texts",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -4214,6 +4266,9 @@
         "visual_art",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -4232,21 +4287,23 @@
       "authors": [
         "Ronald D. Peters"
       ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_label": "strong_scholarly_candidate",
       "automated_evidence_reasons": [
         "scholarly metadata provider",
         "DOI or stable scholarly identifier present",
         "author metadata present",
         "publication year present",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 9,
+      "automated_evidence_score": 10,
       "automated_evidence_warnings": [],
+      "citation_count": 7,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 416,
       "date_accessed": "2026-05-25",
       "doi": "10.1163/9789004262317",
-      "evaluation_use": "can support cautious working claims when corroborated",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
       "id": "10.1163/9789004262317",
       "layer_review_prompts": [
         "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
@@ -4262,17 +4319,20 @@
         "visual_art",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 7,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "review_status": "machine_assessed_strong_scholarly_candidate",
       "source_type": "monograph",
       "summary": "",
       "tags": [
         "biblical_language_source_depth"
       ],
       "title": "The Greek Article",
-      "truth_assessment": "moderate_scholarly_candidate",
+      "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1163/9789004262317",
       "year": 2014
     },
@@ -4355,6 +4415,9 @@
         "all_texts",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -4380,10 +4443,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
+      "citation_count": 1,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 300,
       "date_accessed": "2026-05-25",
@@ -4402,6 +4467,9 @@
         "all_texts",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 1,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -4455,6 +4523,9 @@
         "world_languages",
         "other_religious_texts"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 10,
+      "opencitations_reference_count": 19,
       "primary_layer": "biblical_languages",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -4499,6 +4570,9 @@
         "all_texts",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -4549,6 +4623,9 @@
         "all_texts",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -4622,10 +4699,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
+      "citation_count": 2,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 510,
       "date_accessed": "2026-05-25",
@@ -4647,6 +4726,9 @@
         "history_inputs",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 2,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -4743,6 +4825,9 @@
         "world_languages",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 16,
+      "opencitations_reference_count": 65,
       "primary_layer": "biblical_languages",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -4791,6 +4876,9 @@
         "all_texts",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -4835,6 +4923,9 @@
         "all_texts",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -4885,6 +4976,9 @@
         "all_texts",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 4,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -4936,6 +5030,9 @@
         "visual_art",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -4989,6 +5086,9 @@
         "world_languages",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -5143,6 +5243,9 @@
         "research_documents/christian_sources",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -5234,6 +5337,9 @@
         "research_documents/christian_sources",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -5279,6 +5385,9 @@
         "research_documents/christian_sources",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -5328,6 +5437,9 @@
         "history_inputs",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -5374,6 +5486,9 @@
         "research_documents/christian_sources",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -5415,6 +5530,9 @@
         "research_documents/christian_sources",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -5457,6 +5575,9 @@
         "research_documents/christian_sources",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -5499,6 +5620,9 @@
         "research_documents/christian_sources",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -5541,6 +5665,9 @@
         "research_documents/christian_sources",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-25",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "biblical_languages",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -11280,6 +11407,50 @@
     },
     {
       "authors": [
+        "content.uusf.org"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 313,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/content_uusf_org-20110605jksermon",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Our monthly newsletter weekly flame austin world: While you're there check out our monthly newsletter weekly flame and much much more to all who are here this morning welcome home the work of this church in the world is realized through the generous financial support of all who call this place home along with the gifts and time and talent ours is a shared ministry you have a role to play here church membership is open to all for more information go to uusf..",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Our monthly newsletter weekly flame austin world",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/content_uusf_org-20110605JKSermon",
+      "year": "2022"
+    },
+    {
+      "authors": [
         "Kathleen Daly",
         "Russ Immarigeon"
       ],
@@ -11917,6 +12088,52 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/uusf_org-20111127JKComplete",
       "year": "2022"
+    },
+    {
+      "authors": [
+        "Petru Loga"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 422,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/the-church-the-body-of-christ",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "visual_art"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "For very many of us, the church we are part of no longer carries the purpose given by God. For many, the church is merely a place to regain the inner peace lost during the week because of an overcrowded and hectic lifestyle. We have been taught to believe that what is generally called \u201cthe church\u201d is simply a place where people with similar religious interests gather. It is a place where people sing, pray, listen to a sermon, socialize a little after the service, and then each one returns to his own pursuits and personal interests. A very small portion of the members have the responsibility of conducting this program. The great majority of members find themselves in the position of spectator",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "The Church - The Body Of Christ",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/the-church-the-body-of-christ",
+      "year": "2025"
     },
     {
       "authors": [],
@@ -14719,6 +14936,49 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.5117/9789087280574",
       "year": 2010
+    },
+    {
+      "authors": [
+        "Sorin Cerin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 407,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism2020",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "visual_art"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Sorin Cerin \u2013 books which can be viewed on Google Books, bibliography 2020 with literary and philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, author of a new philosophical system called Coaxialism, and an important 21st-century existentialist poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard. Sorin Cerin is especially sought after by the general public, both for his philosophical poems, which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms, structured in several ",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Sorin Cerin \u2013 Books Biography And Bibliography With Literary And Philosophical Criticism 2020",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism2020",
+      "year": null
     },
     {
       "authors": [],
@@ -20924,6 +21184,52 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1186/s40708-025-00270-1",
       "year": "2025"
+    },
+    {
+      "authors": [
+        "Maxwell Forteau"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 482,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/identity_202411",
+      "layer_review_prompts": [
+        "Check musical structure directly before using it as analogy or theological support.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Separate psychological/social process from theological interpretation and note clinical limits."
+      ],
+      "layer_routes": [
+        "music_notes",
+        "deep_sources",
+        "visual_art",
+        "psychology_inputs"
+      ],
+      "primary_layer": "music_notes",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org image",
+      "summary": "Note - In some suburban locales 44% of insect populations are in decline and 33% are in danger of extinction. Habitat loss? Light Pollution? Pesticides? Consequences; Ecosystem Instability? Loss of Pollination? Increase in \"Pests?\" Sir Humphrey Davy suggested an Anthropocentric View that humans were put on the Earth for a definite purpose; that purpose to complete the formation of the Earth. So - contrasting philosophies result. The second from a contemporary of Davy, Mary Shelley. 1. Humphrey Davy - Philosophic/Scientific Materialism : The world is incomplete. The role of humans is to change the world into a more hospitable place of existence. Education can extend human capacities, and Scie",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Charles Darwin - Natural and Artificial Selection",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/identity_202411",
+      "year": "2024"
     },
     {
       "authors": [
@@ -30634,6 +30940,50 @@
     },
     {
       "authors": [
+        "Bezverkhniy Volodymyr Dmytrovych"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 419,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/1.structureofthebenzenemoleculeonthebasisofthethreeelectronbond",
+      "layer_review_prompts": [
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
+      ],
+      "layer_routes": [
+        "deep_sources",
+        "pattern_tests",
+        "world_languages"
+      ],
+      "primary_layer": "deep_sources",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "One-electron bond in He2+. And He2 + and H2 + are equally stable, because they are connected by a one-electron bond: compare the bond energies and the bond length (see page 262 L. Pauling, Nature of the chemical bond/translation from English by M. E. Dyatkina, edited by Prof. Ya. K. Syrkin. M. L .: GNTI Chemical Literature, 1947): E (He2 +) = 58 kcal/mole E (H2 +) = 61 kcal/mole L (He2 +) = 1.09 \u00c5 L (H2 +) = 1.06 \u00c5 The helium atom has 2 electrons and one energy level (1S). Therefore in He2 + there are 3 electrons. The assumption that the bond in He2 + is three-electron is incorrect. The multiplicity of the bond is still determined by the fundamental rule of the octet. Therefore, it is easy t",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "1. Structure of the benzene molecule on the basis of the three-electron bond.",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/1.StructureOfTheBenzeneMoleculeOnTheBasisOfTheThreeElectronBond",
+      "year": "2009"
+    },
+    {
+      "authors": [
         "Yin M."
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
@@ -35710,6 +36060,45 @@
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_africa_20190722_160000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "visual_art"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 The comedian turned president's party which was formed just 00:00:03 a few months ago underscores Ukrainians desire for 00:00:06 a break with established politicians and parties that have failed to improve living 00:00:11 standards enough at the site 00:00:14 a show on Space Center in eastern India Monday afternoon will. Look 00:00:21 like they don't. Come out of this particular case Yvonne chairman of the 00:00:28 Indian Space Research Organization announced the successful launch of an ambitious 00:00:33 mission to land 00:00:35 a rover on an unexplored area of the moon today because I think 00:00:40 a lot of space and sayings and ecology in India. I mix",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "VOA [Voice of America] Africa : July 22, 2019 12:00PM-01:00PM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Africa_20190722_160000",
+      "year": "2019"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 263,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
       "id": "https://archive.org/details/voa_global_english_20200226_160000",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims.",
@@ -39970,6 +40359,51 @@
       "year": "2021"
     },
     {
+      "authors": [
+        "Al-Fajr-Media-Center"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 431,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/trans_25-08-2010-jkasset",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "visual_art",
+        "other_religious_texts"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "The Bible Led Me to Islam Abdul Malik (Melvin) LeBlanc tells how he discovered Islam within the pages of Bible Source: International Edition Voice of Islam - November 1998, Page 25 During my Christian days there were many verses in the Bible that made me question the religion I was following (Christianity). There was one particular verse, 1 Thessalonians 5:17 which says; \"pray without ceasing,\" that lingered heavily in my mind. I often wondered how a person (Christian) was supposed to pray (be in a state of worship) without ceasing? Without any biblical or divine guidance, the only way I thought this to be possible was to always do good deeds and keep the remembrance of God on my tongue and ",
+      "tags": [
+        "trinity"
+      ],
+      "title": "\u0628\u0631\u0646\u0627\u0645\u062c \u0635\u0646\u0627\u0639\u0629 \u0627\u0644\u062c\u0647\u0627\u062f",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/trans_25-08-2010-jkasset",
+      "year": null
+    },
+    {
       "authors": [],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -42097,6 +42531,52 @@
     },
     {
       "authors": [
+        "Restitutio"
+      ],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 5,
+      "automated_evidence_warnings": [
+        "speculative or overclaim language detected"
+      ],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 337,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://archive.org/details/restitutio-577_nothing_mere_about_a_man_made_in_the_image_of_god_anna_brown",
+      "layer_review_prompts": [
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "world_languages",
+        "all_texts",
+        "other_religious_texts"
+      ],
+      "primary_layer": "world_languages",
+      "provider": "Internet Archive",
+      "quality": "speculative-risk",
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Has anyone ever said to you, \u201cOh, you believe Jesus is just a mere man.\u201d How do you respond when someone says that? Do you just go along with it and say, \u201cYep, that\u2019s what I believe\u2013Jesus is just another guy\u201d? I hope not. Jesus is not just another guy. He\u2019s the virginally-conceived son of God who lived righteously without sin, healed dozens (maybe hundreds) of people, preached tirelessly about the kingdom, taught the Bible and how to live, performed many miracles and exorcisms, voluntarily died for our sins as a perfect sacrifice. Then God raised him from the dead and he ascended to God\u2019s right hand from which place he is the head of the church and from which place he will come again on the ",
+      "tags": [
+        "world_language_source_sampling"
+      ],
+      "title": "577 Nothing Mere about a Man Made in the Image of God (Anna Brown)",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://archive.org/details/Restitutio-577_nothing_mere_about_a_man_made_in_the_image_of_god_anna_brown",
+      "year": "2024"
+    },
+    {
+      "authors": [
         "Berhanu W",
         "Yigremachew S",
         "Hanson C"
@@ -43370,6 +43850,52 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.35271/cticen.2017..50.195",
       "year": 2017
+    },
+    {
+      "authors": [
+        "Westminster Institute"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 444,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/the-crucifix-on-meccas-front-porch",
+      "layer_review_prompts": [
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "world_languages",
+        "all_texts",
+        "other_religious_texts",
+        "visual_art"
+      ],
+      "primary_layer": "world_languages",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "The Crucifix on Mecca\u2019s Front Porch (Dr. David Pinault, August 7, 2020) Transcript available below Watch his speaker playlist About the speaker David Pinault received his B.A. in French literature from Georgetown University and his M.A.and Ph.D in Arabic and Islamic Studies from the Department of Oriental Studies at the University of Pennsylvania. His research interests include comparative Christology and the status of Christian populations in Muslim-majority societies. Among the countries in which he has done fieldwork are Yemen, Egypt, Pakistan, India, and Indonesia. A recipient of Santa Clara University\u2019s Public Intellectual Award and the Brutocao Award for Teaching Excellence, he has ser",
+      "tags": [
+        "world_language_source_sampling"
+      ],
+      "title": "The Crucifix On Mecca's Front Porch",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/the-crucifix-on-meccas-front-porch",
+      "year": "2020"
     },
     {
       "authors": [
@@ -45481,5 +46007,5 @@
       "year": 2014
     }
   ],
-  "updated_at": "2026-05-25T19:12:26.219584+00:00"
+  "updated_at": "2026-05-25T21:42:49.545460+00:00"
 }

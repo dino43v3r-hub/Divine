@@ -71,10 +71,10 @@ Where it must be tested: disability, dementia, trauma, oppression, and intellige
 Daily-life practice: treat every person as bearing dignity before performance or usefulness.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (5,608 signals)
-- Meaning And Logos: high internal signal (6,764 signals)
-- Moral Response: high internal signal (2,944 signals)
-- Worship And Community: high internal signal (1,870 signals)
+- Life And Consciousness: high internal signal (5,600 signals)
+- Meaning And Logos: high internal signal (6,715 signals)
+- Moral Response: high internal signal (2,927 signals)
+- Worship And Community: high internal signal (1,839 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -86,9 +86,9 @@ Where it must be tested: unresolved suffering, injustice, violence, and romantic
 Daily-life practice: choose humility, truth, forgiveness with boundaries, and hope without denial.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (6,764 signals)
-- Moral Response: high internal signal (2,944 signals)
-- Transformation: high internal signal (2,939 signals)
+- Meaning And Logos: high internal signal (6,715 signals)
+- Moral Response: high internal signal (2,927 signals)
+- Transformation: high internal signal (2,934 signals)
 
 Chapter 3: Providence And Contingency Pattern
 ---------------------------------------------
@@ -100,10 +100,10 @@ Where it must be tested: evil, chance, failed prediction, and no-visible-repair 
 Daily-life practice: act faithfully in uncertainty without pretending to know every cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,634 signals)
-- Quantum Probability: early signal (103 signals)
-- Life And Consciousness: high internal signal (5,608 signals)
-- Meaning And Logos: high internal signal (6,764 signals)
+- Physical Order: high internal signal (2,631 signals)
+- Quantum Probability: early signal (102 signals)
+- Life And Consciousness: high internal signal (5,600 signals)
+- Meaning And Logos: high internal signal (6,715 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -115,9 +115,9 @@ Where it must be tested: Trinitarian doctrine, other religious comparison, and s
 Daily-life practice: receive life, follow Christ, and seek Spirit-led transformation in community.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,634 signals)
-- Meaning And Logos: high internal signal (6,764 signals)
-- Transformation: high internal signal (2,939 signals)
+- Physical Order: high internal signal (2,631 signals)
+- Meaning And Logos: high internal signal (6,715 signals)
+- Transformation: high internal signal (2,934 signals)
 
 Chapter 5: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -129,10 +129,10 @@ Where it must be tested: evolution, suffering, disability, consciousness, and im
 Daily-life practice: honor embodied life, dignity, vocation, and stewardship in ordinary choices.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,634 signals)
-- Life And Consciousness: high internal signal (5,608 signals)
-- Moral Response: high internal signal (2,944 signals)
-- Worship And Community: high internal signal (1,870 signals)
+- Physical Order: high internal signal (2,631 signals)
+- Life And Consciousness: high internal signal (5,600 signals)
+- Moral Response: high internal signal (2,927 signals)
+- Worship And Community: high internal signal (1,839 signals)
 
 Everyday Case Studies
 ---------------------
@@ -163,73 +163,73 @@ Research Detail: Pattern Families
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 17,186
+Layer signal total: 17,081
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 5,608 (high internal signal)
-- Meaning And Logos: 6,764 (high internal signal)
-- Moral Response: 2,944 (high internal signal)
-- Worship And Community: 1,870 (high internal signal)
+- Life And Consciousness: 5,600 (high internal signal)
+- Meaning And Logos: 6,715 (high internal signal)
+- Moral Response: 2,927 (high internal signal)
+- Worship And Community: 1,839 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
 2. Cross And Reversal Pattern
 -----------------------------
 Status: high internal signal; not proof
-Layer signal total: 12,647
+Layer signal total: 12,576
 Layers present: 3/3
 Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
 Layer support:
-- Meaning And Logos: 6,764 (high internal signal)
-- Moral Response: 2,944 (high internal signal)
-- Transformation: 2,939 (high internal signal)
+- Meaning And Logos: 6,715 (high internal signal)
+- Moral Response: 2,927 (high internal signal)
+- Transformation: 2,934 (high internal signal)
 Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
 Risk to avoid: Do not romanticize suffering or ignore injustice.
 
 3. Providence And Contingency Pattern
 -------------------------------------
 Status: well-represented hypothesis; needs review
-Layer signal total: 15,109
+Layer signal total: 15,048
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 2,634 (high internal signal)
-- Quantum Probability: 103 (early signal)
-- Life And Consciousness: 5,608 (high internal signal)
-- Meaning And Logos: 6,764 (high internal signal)
+- Physical Order: 2,631 (high internal signal)
+- Quantum Probability: 102 (early signal)
+- Life And Consciousness: 5,600 (high internal signal)
+- Meaning And Logos: 6,715 (high internal signal)
 Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
 Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
 
 4. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 12,337
+Layer signal total: 12,280
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 2,634 (high internal signal)
-- Meaning And Logos: 6,764 (high internal signal)
-- Transformation: 2,939 (high internal signal)
+- Physical Order: 2,631 (high internal signal)
+- Meaning And Logos: 6,715 (high internal signal)
+- Transformation: 2,934 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
 Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
 
 5. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 13,056
+Layer signal total: 12,997
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 2,634 (high internal signal)
-- Life And Consciousness: 5,608 (high internal signal)
-- Moral Response: 2,944 (high internal signal)
-- Worship And Community: 1,870 (high internal signal)
+- Physical Order: 2,631 (high internal signal)
+- Life And Consciousness: 5,600 (high internal signal)
+- Moral Response: 2,927 (high internal signal)
+- Worship And Community: 1,839 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 

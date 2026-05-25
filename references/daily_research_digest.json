@@ -1,151 +1,101 @@
 {
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 411,
-    "strong_scholarly_candidate": 560,
-    "weak_scholarly_candidate": 21
+    "moderate_scholarly_candidate": 419,
+    "strong_scholarly_candidate": 561,
+    "weak_scholarly_candidate": 22
   },
-  "errors": [
-    "search_internet_archive failed for world_language_source_sampling: <urlopen error [Errno 104] Connection reset by peer>",
-    "search_internet_archive failed for holy_spirit_gifts_global: <urlopen error [Errno 104] Connection reset by peer>",
-    "OpenCitations enrichment failed for DOI 10.2307/j.ctt1cg4jsn.17: The read operation timed out"
-  ],
+  "errors": [],
   "layer_counts": {
-    "all_texts": 300,
-    "biblical_languages": 78,
-    "cultural_inputs": 220,
-    "deep_sources": 313,
-    "history_inputs": 238,
+    "all_texts": 304,
+    "biblical_languages": 79,
+    "cultural_inputs": 222,
+    "deep_sources": 315,
+    "history_inputs": 240,
     "human_stories": 260,
-    "modern_literature": 121,
-    "music_notes": 77,
-    "other_religious_texts": 199,
-    "pattern_tests": 187,
-    "psychology_inputs": 252,
-    "research_documents": 111,
+    "modern_literature": 123,
+    "music_notes": 78,
+    "other_religious_texts": 204,
+    "pattern_tests": 188,
+    "psychology_inputs": 253,
+    "research_documents": 112,
     "research_documents/christian_sources": 94,
-    "theologians": 234,
-    "visual_art": 282,
-    "world_languages": 180
+    "theologians": 236,
+    "visual_art": 289,
+    "world_languages": 183
   },
   "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 36,
+    "moderate_scholarly_candidate": 9,
     "weak_scholarly_candidate": 1
   },
-  "new_count": 37,
+  "new_count": 10,
   "new_layer_counts": {
-    "all_texts": 15,
-    "biblical_languages": 3,
-    "cultural_inputs": 16,
+    "all_texts": 4,
+    "biblical_languages": 1,
+    "cultural_inputs": 2,
     "deep_sources": 2,
-    "history_inputs": 14,
-    "human_stories": 2,
-    "modern_literature": 4,
-    "other_religious_texts": 10,
-    "pattern_tests": 4,
-    "psychology_inputs": 2,
-    "research_documents": 8,
-    "research_documents/christian_sources": 3,
-    "theologians": 11,
-    "visual_art": 21,
-    "world_languages": 11
+    "history_inputs": 2,
+    "modern_literature": 2,
+    "music_notes": 1,
+    "other_religious_texts": 5,
+    "pattern_tests": 1,
+    "psychology_inputs": 1,
+    "research_documents": 1,
+    "theologians": 2,
+    "visual_art": 7,
+    "world_languages": 3
   },
   "new_provider_counts": {
-    "Internet Archive": 37
+    "Internet Archive": 10
   },
   "new_sources": [
     {
       "authors": [
-        "Unitarian Christian Alliance"
+        "Al-Fajr-Media-Center"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "trusted archive, university, government, museum, library, or public-domain domain",
         "author metadata present",
-        "publication year present",
         "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 8,
+      "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 433,
+      "corroborating_source_count": 431,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/unitarian_christian_alliance-uca_32_negotiating_with_trinitarians___john_lawson",
-      "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
-      ],
-      "layer_routes": [
-        "theologians",
-        "research_documents",
-        "all_texts"
-      ],
-      "primary_layer": "theologians",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "How a Torah observant Christian seeking a first century faith learned wisdom from a hostage negotiator. CLOSING REMARKS The UCA Podcast YouTube channel , closed captioning for hearing impaired, a request for a consult, prepping for the UCA conference, Hector's excitement to be attending the UCA conference , behind the scenes of my episode emails, and a clip of one of John's videos. RESOURCES The Truman Show BiblicalUnitarian.com Restitutio podcast, Sean Finnegan One God Report podcast, Bill Schlegel Never Split the Difference: Negotiating as if Your Life Depended on It , book by Chris Voss John Lawson YouTube channel UCA Podcast YouTube channel Unitarian Christian Alliance conference , Oct. ",
-      "tags": [
-        "trinity"
-      ],
-      "title": "32. Negotiating with Trinitarians - John Lawson",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Unitarian_Christian_Alliance-UCA_32_Negotiating_with_Trinitarians___John_Lawson",
-      "year": "2021"
-    },
-    {
-      "authors": [
-        "Anchorage Unitarian Universalist Fellowship Forum Podcasts"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 436,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/anchorage_unitarian_universalist_fellowship_forum_podcasts-16325685_a_history_of",
+      "id": "https://archive.org/details/trans_25-08-2010-jkasset",
       "layer_review_prompts": [
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
         "Use as general research context until a more specific layer is reviewed.",
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
       ],
       "layer_routes": [
         "theologians",
         "research_documents",
         "visual_art",
-        "history_inputs"
+        "other_religious_texts"
       ],
       "primary_layer": "theologians",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Rev. Lise Adams Sherry is the settled minister for the Anchorage Unitarian Universalist Fellowship. She grew up in Oregon as part of a blended family. Her main interests growing up were dancing and theatre--she performed a lot! Another highlight was learning French and spending her junior year in France. Lise is married to Nelson, and together, they have two boys (Kennen and Derek) and a daughter-in-law, Maria. They\u2019ve lived in Alaska, British Columbia, Oregon, Il...",
+      "summary": "The Bible Led Me to Islam Abdul Malik (Melvin) LeBlanc tells how he discovered Islam within the pages of Bible Source: International Edition Voice of Islam - November 1998, Page 25 During my Christian days there were many verses in the Bible that made me question the religion I was following (Christianity). There was one particular verse, 1 Thessalonians 5:17 which says; \"pray without ceasing,\" that lingered heavily in my mind. I often wondered how a person (Christian) was supposed to pray (be in a state of worship) without ceasing? Without any biblical or divine guidance, the only way I thought this to be possible was to always do good deeds and keep the remembrance of God on my tongue and ",
       "tags": [
         "trinity"
       ],
-      "title": "A History of the Theology of Unitarian Universalism - Questions and Answers - Rev. Lise Adams Sherry",
+      "title": "\u0628\u0631\u0646\u0627\u0645\u062c \u0635\u0646\u0627\u0639\u0629 \u0627\u0644\u062c\u0647\u0627\u062f",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-16325685_a_history_of",
-      "year": "2024"
+      "url": "https://archive.org/details/trans_25-08-2010-jkasset",
+      "year": null
     },
     {
       "authors": [
-        "Restitutio"
+        "Bezverkhniy Volodymyr Dmytrovych"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -158,310 +108,38 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 360,
+      "corroborating_source_count": 419,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/restitutio-651_translating_the_holy_spirit_sean_finnegan",
+      "id": "https://archive.org/details/1.structureofthebenzenemoleculeonthebasisofthethreeelectronbond",
       "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
         "Track original language, translation range, metaphor, grammar, culture, and rival reading."
       ],
       "layer_routes": [
-        "theologians",
-        "research_documents",
+        "deep_sources",
+        "pattern_tests",
         "world_languages"
       ],
-      "primary_layer": "theologians",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Have you ever heard the expression \u201ca smoking gun\u201d? It comes from an earlier era of guns when black powder produced a good cloud of smoke each time someone fired the weapon. Originally a smoking gun referred to a situation when someone was caught with the weapon in hand, still emitting smoke. The implication of this is not just that the smoking gun is evidence of the person\u2019s guilt, but that such is conclusive and undeniable evidence. Today were going to consider the topic of bias in our English Bible translations. I\u2019m going to present to you four independent grammatical smoking guns of Trinitarian mischief in evangelical translations. In each case, rather than rendering the source language ",
-      "tags": [
-        "trinity"
-      ],
-      "title": "651. Translating the Holy Spirit (Sean Finnegan)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Restitutio-651_translating_the_holy_spirit_sean_finnegan",
-      "year": "2026"
-    },
-    {
-      "authors": [
-        "Restitutio"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 436,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/restitutio-317_what_evangelism_is_josh_anderson",
-      "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "theologians",
-        "research_documents",
-        "visual_art",
-        "history_inputs"
-      ],
-      "primary_layer": "theologians",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "This is part three of Joshua Anderson\u2019s Announcing the Kingdom evangelism class . In the previous teaching we learned what evangelism is not as well as some ineffective methods to avoid. Today, we\u2019ll hear about what evangelism is and one key to sharing your faith more effectively. Anderson also explains the history of how our culture shifted from seeing religious matters as objective to subjective. The end result is that people now see evangelism as rude and inappropriate. Knowing this can help us navigate the challenges of sharing our faith authentically today. \u2014\u2014 Links \u2014\u2014 See all the sessions in this class , Announcing the Kingdom Download the notes for this seminar Watch the unedited vide",
-      "tags": [
-        "trinity"
-      ],
-      "title": "317 What Evangelism Is (Josh Anderson)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Restitutio-317_what_evangelism_is_josh_anderson",
-      "year": "2020"
-    },
-    {
-      "authors": [
-        "Restitutio"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 436,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/restitutio-501_early_church_history_19_arian_kingdoms_from_ulfilas_to_clovis",
-      "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "theologians",
-        "research_documents",
-        "visual_art",
-        "history_inputs"
-      ],
-      "primary_layer": "theologians",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "This is part 19 of the Early Church History class . Even though the Roman Empire chose Nicene Christianity as it's \"orthodoxy,\" subordinationist Christianity continued to exist, especially outside among the Germanic tribes. In this episode, you'll learn about Ulfilas the Missionary to the Goths who not only brought Christianity to these \"barbarians,\" but also made them an alphabet and translated most of the bible into Gothic. Next, we'll briefly survey the major Germanic tribes, including the Visigoths, Ostrogoths, Vandals, Burgundians, Lombards, and finally the Franks. This little known chapter of history when the Arian kingdoms took over the Roman Empire had a massive effects on Europe and",
-      "tags": [
-        "trinity"
-      ],
-      "title": "501 Early Church History 19: Arian Kingdoms from Ulfilas to Clovis",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Restitutio-501_early_church_history_19_arian_kingdoms_from_ulfilas_to_clovis",
-      "year": "2023"
-    },
-    {
-      "authors": [
-        "Restitutio"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 364,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/restitutio-423_one_god_13_the_fourth_century",
-      "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "theologians",
-        "research_documents",
-        "visual_art"
-      ],
-      "primary_layer": "theologians",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "This is part 13 of the One God Over All class . What happened in the fourth century? You've probably heard all kinds of rumors about Arius of Alexandria and his newfangled heresy. But, was Arius really a sinful outsider who tried to corrupt Christianity? Was his idea of a Son with a beginning even new? In this episode we'll cover an outline of the major events that happened in the controversy that raged from 318 to 381. You may be surprised to discover that Arius was actually and elderly conservative with an impeccable character who quite consciously worked to avoid established heresies. Listen to this episode on Spotify or Apple Podcasts https://youtu.be/OZeMX_Ni6O0 \u2014\u2014 Links \u2014\u2014 More one God",
-      "tags": [
-        "trinity"
-      ],
-      "title": "423 One God 13: The Fourth Century",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Restitutio-423_one_god_13_the_fourth_century",
-      "year": "2021"
-    },
-    {
-      "authors": [
-        "Sunnyhill Unitarian Universalist"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 537,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/sunnyhill_unitarian_universalist-15618491_uu_elevator_speeches",
-      "layer_review_prompts": [
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed."
-      ],
-      "layer_routes": [
-        "all_texts",
-        "other_religious_texts",
-        "modern_literature",
-        "theologians",
-        "research_documents",
-        "visual_art"
-      ],
-      "primary_layer": "all_texts",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Because it is a creedless tradition that encompasses many different ways of believing, Unitarian Universalism is not easy to explain in just a few sentences. This sermon explores how we might articulate a UU \u201celevator speech\u201d\u2013a personal description of what UUism means to you that can be shared in the time it takes for an average elevator ride.www.sunnyhill.org",
-      "tags": [
-        "global_text_traditions",
-        "trinity"
-      ],
-      "title": "UU Elevator Speeches",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Sunnyhill_Unitarian_Universalist-15618491_uu_elevator_speeches",
-      "year": "2024"
-    },
-    {
-      "authors": [
-        "The Biblical Unitarian Podcast"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 223,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/the_biblical_unitarian_podcast-episode_196_",
-      "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed."
-      ],
-      "layer_routes": [
-        "theologians",
-        "research_documents"
-      ],
-      "primary_layer": "theologians",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "This episode will feature the opening statements of my recent debate on the topic \"Does the Old Testament Teach Unitarianism?\" with Kelly Powers. I open by discussing my reasons for organizing my opening statement in the manner that I did, my overarching strategy, and a few of my observations. You can watch the debate in its entirety here: https://youtu.be/b0t90eJe0q4 Please consider supporting this Podcast and future projects by donating at: https://www.paypal.me/10mintruthtalks To view the notes from this episode please click the link below: https://docs.google.com/document/d/1agLilpCgdMUjSMDXTyyQWofeBbcKeklcg7mZrOWUytI/edit?usp=sharing Check out some of my videos on YouTube at: https://ww",
-      "tags": [
-        "trinity"
-      ],
-      "title": "196: Reflections and Opening Statements From the Recent OT Debate",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_196_",
-      "year": "2021"
-    },
-    {
-      "authors": [
-        "CIA Reading Room"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 394,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/cia-readingroom-document-06038925",
-      "layer_review_prompts": [
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "deep_sources",
-        "pattern_tests",
-        "visual_art"
-      ],
       "primary_layer": "deep_sources",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org texts",
-      "summary": "Approved for Release: 2019/04/11 C06038925 5906/ L\\\\ NI-E 11-6-56 9 October 1956 N? 308 NATIONAL INTELLIGENCE ESTIMATE NUMBER 11-6-56 CAPABILITIES AND TRENDS OF SOVIET SCIENCE AND TECHNOLOGY Submitted by the DIRECTOR OF CENTRAL INTELLIGENCE The following intelligence organizations participated in the preparation of this estimate: The Central Intelligence Agency and the intelligence organizations of the Departments of State, the Army, the Navy, the Air Force, The Joint Staff, and the Atomic Energy Commission. Concurred in by the INTELLIGENCE ADVISORY COMMITTEE on 9 October 1956. Concurring were the Special Assistant, Intelligence, Department of State; the Assistant Chief of Staff, Intelligenc",
+      "summary": "One-electron bond in He2+. And He2 + and H2 + are equally stable, because they are connected by a one-electron bond: compare the bond energies and the bond length (see page 262 L. Pauling, Nature of the chemical bond/translation from English by M. E. Dyatkina, edited by Prof. Ya. K. Syrkin. M. L .: GNTI Chemical Literature, 1947): E (He2 +) = 58 kcal/mole E (H2 +) = 61 kcal/mole L (He2 +) = 1.09 \u00c5 L (H2 +) = 1.06 \u00c5 The helium atom has 2 electrons and one energy level (1S). Therefore in He2 + there are 3 electrons. The assumption that the bond in He2 + is three-electron is incorrect. The multiplicity of the bond is still determined by the fundamental rule of the octet. Therefore, it is easy t",
       "tags": [
         "quantum_science_guardrails"
       ],
-      "title": "CIA Reading Room 06038925: CAPABILITIES AND TRENDS OF SOVIET SCIENCE AND TECHNOLOGY",
+      "title": "1. Structure of the benzene molecule on the basis of the three-electron bond.",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/cia-readingroom-document-06038925",
-      "year": "1956"
+      "url": "https://archive.org/details/1.StructureOfTheBenzeneMoleculeOnTheBasisOfTheThreeElectronBond",
+      "year": "2009"
     },
     {
       "authors": [
-        "Cord Rossi"
+        "Maxwell Forteau"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -474,339 +152,40 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 394,
+      "corroborating_source_count": 482,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/m-4-h-00393",
+      "id": "https://archive.org/details/identity_202411",
       "layer_review_prompts": [
+        "Check musical structure directly before using it as analogy or theological support.",
         "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Separate psychological/social process from theological interpretation and note clinical limits."
       ],
       "layer_routes": [
+        "music_notes",
         "deep_sources",
-        "pattern_tests",
-        "visual_art"
-      ],
-      "primary_layer": "deep_sources",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "The World ledaer,Great sun---Fangruida / Cord Rossi 2020v1.3 2021 v1.2 modified version) \u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014 - World leader Fangruida- One hand gently pats the earth, and the other hand gently pats the moon. Only the great gods of science and philosophy have such magic and magic The world leader, the international leader, Fang Ruida, the great mentor of mankind, the great sun (Cord Rossi 2020v1.3 2021 v1.2 modified version) Fanyinling leads gruida-a great scientist, philosopher, thinker, sociologist and cosmologist Fang Ruida who has led the world for millions of years. It is difficult for any figure in the world to replace and replace. scientist, philosopher, thinker,",
-      "tags": [
-        "quantum_science_guardrails"
-      ],
-      "title": "The World ledaer,Great sun---Fangruida/ Cord Rossi 2020v1.3 2021 v1.2 modified version)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/m-4-h-00393",
-      "year": "2021"
-    },
-    {
-      "authors": [
-        "Brainerd Baptist Church"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 232,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/brainerd_baptist_church-20230212_sanctuarysermonaudio",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "A sermon from Brainerd Baptist Church.",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "Upper Room Discourse | John 13 | Dr. Curtis Hill",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Brainerd_Baptist_Church-20230212_SanctuarySermonAUDIO",
-      "year": "2023"
-    },
-    {
-      "authors": [
-        "Mystagogy"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 588,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/mystagogy-12217240_starting_the_descent_into_dante_s_inferno_the_dark_woods_the_",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
         "visual_art",
-        "all_texts",
-        "pattern_tests"
+        "psychology_inputs"
       ],
-      "primary_layer": "cultural_inputs",
+      "primary_layer": "music_notes",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "We begin the third part in our five part series: a ten-week tour through Dante\u2019s epic spiritual poem, The Divine Comedy . An imaginative vision of hell, purgatory, and heaven, this ranks with the greatest narrative works ever written. Barbara will break open Dante's Divine Comedy in order to explore the themes of sin, suffering, virtue and holiness. The music in the introduction and close of this podcast is provided by George Sarah . This program of mystagogy is hosted by the Adult Faith Programs at Saint Stephen Martyr Church in Chesapeake, Virginia. Support the show",
+      "source_type": "archive.org image",
+      "summary": "Note - In some suburban locales 44% of insect populations are in decline and 33% are in danger of extinction. Habitat loss? Light Pollution? Pesticides? Consequences; Ecosystem Instability? Loss of Pollination? Increase in \"Pests?\" Sir Humphrey Davy suggested an Anthropocentric View that humans were put on the Earth for a definite purpose; that purpose to complete the formation of the Earth. So - contrasting philosophies result. The second from a contemporary of Davy, Mary Shelley. 1. Humphrey Davy - Philosophic/Scientific Materialism : The world is incomplete. The role of humans is to change the world into a more hospitable place of existence. Education can extend human capacities, and Scie",
       "tags": [
-        "politics_justice"
+        "music_math"
       ],
-      "title": "Starting the Descent into Dante\u2019s Inferno: The Dark Woods, The Three Beasts",
+      "title": "Charles Darwin - Natural and Artificial Selection",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Mystagogy-12217240_starting_the_descent_into_dante_s_inferno_the_dark_woods_the_",
-      "year": "2023"
-    },
-    {
-      "authors": [
-        "Ad-Durar Al-Bahiyyah"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 439,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/ad_durar_al_bahiyyah-christian_talk_taht_rocks_with_richie_l_ep_8_1_2023",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "human_stories"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "On today's show, 1:06 pm CT, 2:06 pm ET: Devon Archer interview \u2018very productive\u2019 in Biden family probe, Jordan says - Democrat who attended Devon Archer meeting calls on Comer to release full transcript - Did DOJ try to jail key Hunter Biden witness Devon Archer on eve of congressional testimony? - Biden business dealings shaping up to be 'one of the greatest corruption scandals' in DC history says law professor Turley - Burisma bigwigs and Hunter Biden 'called DC' to resolve issue of Ukrainian prosecutor looking into corruption according Devon Archer - 5 key takeaways from explosive witness account of Hunter Biden's foreign business dealings, Joe's role - CNN Buries Devon Archer, Hunter Bi",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "Christian Talk Taht Rocks with Richie L. Ep. 8/1/2023",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Ad_Durar_Al_Bahiyyah-christian_talk_taht_rocks_with_richie_l_ep_8_1_2023",
-      "year": "2023"
-    },
-    {
-      "authors": [
-        "First Unitarian Dallas Podcast"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 588,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/first_unitarian_dallas_podcast-09_15_24___podcast",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "visual_art",
-        "all_texts",
-        "pattern_tests"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Our faith is filled with radicals who fought for what was right and took on systems of injustice. Our own church is part of this fight and is in it for the long haul. This sermon is part of our Luminaries of Truth and Justice series \u2013 finding inspiration in the radical voices of our faith\u2019s history, present, and future. As we embark on a new church year and prepare to celebrate our church\u2019s 125-year history of truth and justice, we look to the radical visionaries of our past, present, and future for spiritual inspiration. How have radical voices shaped our church\u2019s history? How do we find courage to lift our voices when it feels challenging? And, what do we proclaim to the world as Unitarian",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "09.15.24 Sermon - \u201cLuminaries of Truth and Justice: How to be a Radical\u201d - Rev. Dr. Daniel Kanter",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/First_Unitarian_Dallas_Podcast-09_15_24___Podcast",
+      "url": "https://archive.org/details/identity_202411",
       "year": "2024"
     },
     {
-      "authors": [],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 327,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20200516_030000",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "visual_art"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 Recorded resulting from Coburg 19 while there are more than 4500000 confirmed cases 00:00:07 in the United States more than 87000 people have died and there are more than 00:00:11 1400000 confirmed infections 00:00:13 a controversial end to malarial drug is being given to us veterans and v.a. 00:00:18 Hospitals despite questions about its effectiveness against covert 19 despite 00:00:24 concerns voiced by members of Congress and some veterans groups the Department of 00:00:28 Veterans Affairs says it has not discontinued the use of the military 00:00:31 a drug hydroxide chloroquine veterans with coping 1000 but fear of its patients are 00:00:37 now taking",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "VOA [Voice of America] Global English : May 15, 2020 11:00PM-12:00AM EDT",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20200516_030000",
-      "year": "2020"
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 232,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/youdontneedaweathermantoknowwhichwaythewindblows_925",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "The famous manifesto that gave the weathermen their name",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "You Don't Need A Weatherman To Know Which Way The Wind Blows",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/YouDontNeedAWeathermanToKnowWhichWayTheWindBlows_925",
-      "year": "1969"
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 232,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20200517_010000",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:07 This is v.o.a. News reporting by remote I'm David Bird former u.s. 00:00:12 President Barack Obama Saturday sharply criticized American leaders overseeing the 00:00:17 nation's response to the coronavirus pandemic his 2nd such statement this month in 00:00:23 an online address to graduates from historically black colleges and universities 00:00:27 the former president said the pandemic had torn back the curtain on the idea that 00:00:32 so many of the folks in charge know what they are doing while they did not 00:00:36 specifically name President Donald Trump Obama said many of the country's leaders 00:00:41 aren't even pretending to be in charge the rema",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "VOA [Voice of America] Global English : May 16, 2020 09:00PM-10:00PM EDT",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20200517_010000",
-      "year": "2020"
-    },
-    {
       "authors": [
-        "CIA Reading Room"
+        "None"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -819,389 +198,36 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 458,
+      "corroborating_source_count": 373,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp78-00915r000100080002-0",
+      "id": "https://archive.org/details/dictionaryofhist0000unse",
       "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims.",
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading."
       ],
       "layer_routes": [
+        "visual_art",
         "cultural_inputs",
         "history_inputs",
-        "visual_art",
-        "psychology_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Approved For Release : CIA-RDP78-00915R000100080002-0 THE GOSPEL ACCORDING TO MARX AN OUTLINE OF COMMUNIST THEORY 88 Approved For R~PI 8-00915R000100080002-0 Approved For Re Neither the current tactics nor the strategic goal of the Communist parties of the world - and of the Soviet Union - can be adequately understood without some knowledge of the basic \"philosophy\" or theory of the century-old revolutionary Marxist movement. The publication of the Communi,_?st Manifesto exactly one hundred years ago (January, 184) initiated the era of \"scientific\" socialism, socialism professedly based not upon a sentimental attachment to the vision of a humanitarian future nor upon a program of \"social ref",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "CIA Reading Room cia-rdp78-00915r000100080002-0: THE GOSPEL ACCORDING TO MARX",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp78-00915r000100080002-0",
-      "year": "1997"
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 460,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/muslimboxers-ironmiketyson-part3of3b",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "world_languages",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Also, type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Surah al-Fatiha #1 (The Opening): Arabic: \u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u0651\u0647\u0650 \u0627\u0644\u0631\u064e\u0651\u062d\u0652\u0645\u0640\u064e\u0646\u0650 \u0627\u0644\u0631\u064e\u0651\u062d\u0650\u064a\u0645 \u0627\u0644\u0652\u062d\u064e\u0645\u0652\u062f\u064f \u0644\u0644\u0651\u0647\u0650 \u0631\u064e\u0628\u0650\u0651 \u0627\u0644\u0652\u0639\u064e\u0627\u0644\u064e\u0645\u0650\u064a\u0646 \u0627\u0644\u0631\u064e\u0651\u062d\u0645\u0640\u0646\u0650 \u0627\u0644\u0631\u064e\u0651\u062d\u0650\u064a\u0645 \u0645\u064e\u0640\u0627\u0644\u0650\u0643\u0650 \u064a\u064e\u0648\u0652\u0645\u0650 \u0627\u0644\u062f\u0650\u0651\u064a\u0646 \u0625\u0650\u064a\u064e\u0651\u0627\u0643 \u0646\u064e\u0639\u0652\u0628\u064f\u062f\u064f \u0648\u0625\u0650\u064a\u064e\u0651\u0627\u0643\u064e \u0646\u064e\u0633\u0652\u062a\u064e\u0639\u0650\u064a\u0646 \u0627\u0647\u062f\u0650\u0646\u064e\u0640\u0640\u0640\u0640\u0627 \u0627\u0644\u0635\u0650\u0651\u0631\u064e\u0627\u0637\u064e \u0627\u0644\u0645\u064f\u0633\u062a\u064e\u0642\u0650\u064a\u0645 \u0635\u0650\u0631\u064e\u0627\u0637\u064e \u0627\u0644\u064e\u0651\u0630\u0650\u064a\u0646\u064e \u0623\u064e\u0646\u0639\u064e\u0645\u062a\u064e \u0639\u064e\u0644\u064e\u064a\u0647\u0650\u0645\u0652 \u063a\u064e\u064a\u0631\u0650 \u0627\u0644\u0645\u064e\u063a\u0636\u064f\u0648\u0628\u0650 \u0639\u064e\u0644\u064e\u064a\u0647\u0650\u0645\u0652 \u0648\u064e\u0644\u0627\u064e \u0627\u0644\u0636\u064e\u0651\u0627\u0644\u0650\u0651\u064a\u0646 Transliteration: Bismill\u0101hi r-ra\u1e25m\u0101ni r-ra\u1e25\u012bm Al \u1e25amdu lill\u0101hi rabbi l-\u02bf\u0101lam\u012bn A",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "The Ultimate Surah al-Fatiha Audio Collection with English Translation (x100)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/MuslimBoxers-IronMikeTyson-Part3Of3B",
-      "year": null
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 382,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/livesoftheprophetsqasasul-anbiyahcollection-21lectures",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Stories of the Prophets; Aadam - 'Eesa ibn Maryam: (Peace & Blessings be upon them!) This excellent series include: * Introduction, * Story of Creation, * The Creation of Aadam ('Alaihis-Salaam). * Aadam (cont.), * Idris, Sheeth, Nuh & Hud ('Alaihimus-Salaam). * Hud (cont.), * Saaleh & Ibraheem ('Alaihimus-Salaam). * The Da'wah of Ibraheem ('Alaihis-Salaam) to his people, * Ibraheem & al-Nimrud, *",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Lives of the Prophets (Qasas ul-Anbiyah) Collection - (21 Part Video Lecture Series)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/LivesOfTheProphetsqasasUl-anbiyahCollection-21Lectures",
-      "year": null
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 460,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/001alfaatiha_20140313",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "world_languages",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------ The Noble Qur'aan - \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 Qari - Muhammad Ayyoob ibn Muhammad Yusuf ibn Sulaiman `Umar Translator - Mikaal Waters Translation of the Meanings - Dr. Muhammad Muhsin Khan & Dr. Muhammad Taqi-ud-Din Al-Hilali ------------------------------------------------------------------------------------------------------------------------------------------------------- Holy / Glorious / Noble / Quran / Q",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Complete Quran (114 Surahs) - Muhammad Ayyub (with English Audio Translation)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/001AlFaatiha_20140313",
-      "year": null
-    },
-    {
-      "authors": [
-        "All Souls Unitarian Church"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 263,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/all_souls_unitarian_church-i_believepod",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "\"I BELIEVE\" 10 AM Coming of Age Service | April 12, 2026 Speakers: Owen Showalter, David Rodman, Muriel Arthrell-Knezek, Tucker Meek, Hunter Reece Smith, Imogen Mize, Finn Burk, Cedar Jacob, Oliver Voelker Introduction by Corey Smith, Youth Coordinator and Commisioning by Rev. Dr. Marlin Lavanhar. Description: What does it mean to truly believe something \u2014 not because you were told to, but because you've wrestled with it, questioned it, and claimed it as your own? These young people stood before their community and answered that question with radical honesty: one found God in the beat of a drum and the sway of trees at Walden Pond; another discovered that doubt isn't the enemy of faith, but ",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "\"I BELIEVE\" COMING OF AGE SUNDAY",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/All_Souls_Unitarian_Church-I_BELIEVEPOD",
-      "year": "2026"
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 510,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/muslimboxers-ironmiketyson-part2of3a",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "world_languages",
-        "all_texts",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- The Noble Qur'aan - \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 Qari - as-Sudais & ash-Shuraim Translator - Naeem Sultan Translation of the Meanings - Muhammad Marmaduke Pickthall ------------------------------------------------------------------------------------------------------------------------------------------------------- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / Koran / Recital / Revelation / Scripture / Fu",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Complete Qur'an (114 Surahs) - as-Sudais & ash-Shuraim (with English Audio Translation)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/MuslimBoxers-IronMikeTyson-Part2Of3A",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 438,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/mindingspiritstu0000unse",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "all_texts"
+        "biblical_languages"
       ],
       "primary_layer": "visual_art",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org texts",
-      "summary": "xxvii, 382 pages : 26 cm The birth of an academic discipline is a rare event. Even more extraordinary is academia's acknowledgment that spirituality has scholarly as well as personal dimensions. Inquiry and dialogue are the essence of this new discipline, as it paves the way toward a deeper understanding of what it means to be human within the Christian faith. The twenty-five essays in this volume, originally published in either the Christian Spirituality Bulletin or Spiritus: A Journal of Christian Spirituality offer groundbreaking explorations of Christian spirituality. Arranged under five broad headings, these essays create an insightful dialogue on the questions, methods, and critical ap",
+      "summary": "5 volumes ; 29 cm Contains overviews of religious, intellectual, literary, economic, political, and scientific concepts Includes bibliographical references v. 1. Abstraction in the formulation of concepts, to Design argument.--v. 2. Despotism, to Law, common.--v. 3. Law, conception of, to Protest movements.--v. 4. Psychological ideas, to Zeitgeist.--[5] Index v. 1. Abstraction in the formulation of concepts -- Academic freedom -- Agnosticism -- Alchemy -- Alienation in christian theology -- Alienation in hegel and marx -- Allegory in literary history -- Ambiguity as aethestic principle -- Analogy in early greek thought -- Analogy in patristic and medieval thought -- Analogy of the body polit",
       "tags": [
         "art_beauty"
       ],
-      "title": "Minding the Spirit : the study of Christian spirituality",
+      "title": "Dictionary of the history of ideas : studies of selected pivotal ideas",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/mindingspiritstu0000unse",
-      "year": "2005"
-    },
-    {
-      "authors": [
-        "Complete Service-First Unitarian Universalist Society of San Francisco"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 440,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/complete_service_first_unitari-20210523vrscomplete",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians",
-        "human_stories"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "\"Marge and Barb Have Class\" (May 23, 2021) Worship Service The title of the sermon is a set of words my cousin and I saw spray painted on the side of a falling down old shed on a country road one day in Upstate New York. A good place to leap into a conversation on our obsession, perhaps, with the whole wild notion of \"class\". Rev. Vanessa Rush Southern, Senior Minister Rev. Alyson Jacks, Associate Minister Linda Enger, 8th Principle Testimony Reiko Oda Lane, organist Brielle Marina Neilson, alto Ben Rudiak-Gould, tenor Asher Davison, bass Wm. Garc\u00eda Ganz, pianist Eric Shackelford, camera Shulee Ong, camera Jonathan Silk, audio, oos design, drums Joe Chapot, social media chat Thomas Brown, Se",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "Marge and Barb Have Class",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Complete_Service_First_Unitari-20210523VRSComplete",
-      "year": "2021"
-    },
-    {
-      "authors": [
-        "Unity Temple Unitarian Universalist Congregation"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 511,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/unity_temple_unitarian_universalist_congregation-5_30_21_trauma_and_grace_podcas",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians",
-        "visual_art",
-        "psychology_inputs"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "This service is from a live stream on May 23, 2021, led by Senior Minister Rev. Alan Taylor. Reflecting on the disturbing Unitarian connection to the Tulsa Race Massacre a century ago, Rev. Taylor articulates a theology of grace for navigating a ruptured world. The theme for May is what it means to be a people of story. To read about our theme-based ministry, please visit http://www.unitytemple.org/faith-development/soul-connections on our website. For the safety of all in light of the COVID-19 pandemic, UTUUC will NOT be holding in\u2013person worship until further notice. We have also cancelled or postponed any congregational events that would have taken place. To see a video of this service, c",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "Trauma and Grace",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Unity_Temple_Unitarian_Universalist_Congregation-5_30_21_Trauma_and_Grace_Podcas",
-      "year": "2021"
+      "url": "https://archive.org/details/dictionaryofhist0000unse",
+      "year": "1973"
     },
     {
       "authors": [
@@ -1217,40 +243,38 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 555,
+      "corroborating_source_count": 407,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/9781548779504thephilosophyofloveloveanddestiny",
+      "id": "https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism2020",
       "layer_review_prompts": [
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
         "history_inputs",
         "theologians",
-        "visual_art",
-        "all_texts"
+        "visual_art"
       ],
       "primary_layer": "history_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org texts",
-      "summary": "SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard, philosopher,- the creator of Coaxialism, \u2013 compared to Schopenhauer, Nietzsche and Wittgenstein. Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in 14 volumes of thoughts previously published in various publishing houses, and then to be reunited under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity and international recognition, for which he is considered to be one of the most representative thinkers of the aphoris",
+      "summary": "Sorin Cerin \u2013 books which can be viewed on Google Books, bibliography 2020 with literary and philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, author of a new philosophical system called Coaxialism, and an important 21st-century existentialist poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard. Sorin Cerin is especially sought after by the general public, both for his philosophical poems, which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms, structured in several ",
       "tags": [
         "history_memory"
       ],
-      "title": "The Philosophy of Love - Love and Destiny: Philosophical poems by Sorin Cerin",
+      "title": "Sorin Cerin \u2013 Books Biography And Bibliography With Literary And Philosophical Criticism 2020",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/9781548779504Thephilosophyofloveloveanddestiny",
+      "url": "https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism2020",
       "year": null
     },
     {
       "authors": [
-        "Brainerd Baptist Church"
+        "Westminster Institute"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -1263,40 +287,42 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 337,
+      "corroborating_source_count": 444,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/brainerd_baptist_church-20220911_sanctuary_sermonaudio",
+      "id": "https://archive.org/details/the-crucifix-on-meccas-front-porch",
       "layer_review_prompts": [
         "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
         "world_languages",
         "all_texts",
-        "other_religious_texts"
+        "other_religious_texts",
+        "visual_art"
       ],
       "primary_layer": "world_languages",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Sermon Title: Remember Their Motives | 2 Peter 2:1-3a Big Idea: Believers must beware of teachers who discredit the gospel through deception, sexual immorality and greed. Outline They Smuggle Destruction (1) How they work What they teach Where they\u2019re headed They Scandalize the Gospel (2) The temptation to godless conduct The tarnish to gospel credibility They Swindle Believers (3a)",
+      "source_type": "archive.org movies",
+      "summary": "The Crucifix on Mecca\u2019s Front Porch (Dr. David Pinault, August 7, 2020) Transcript available below Watch his speaker playlist About the speaker David Pinault received his B.A. in French literature from Georgetown University and his M.A.and Ph.D in Arabic and Islamic Studies from the Department of Oriental Studies at the University of Pennsylvania. His research interests include comparative Christology and the status of Christian populations in Muslim-majority societies. Among the countries in which he has done fieldwork are Yemen, Egypt, Pakistan, India, and Indonesia. A recipient of Santa Clara University\u2019s Public Intellectual Award and the Brutocao Award for Teaching Excellence, he has ser",
       "tags": [
         "world_language_source_sampling"
       ],
-      "title": "Uncompromising: 2 Peter 2:1\u20133 | Dr. Jim Shaddix",
+      "title": "The Crucifix On Mecca's Front Porch",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Brainerd_Baptist_Church-20220911_Sanctuary_SermonAUDIO",
-      "year": "2022"
+      "url": "https://archive.org/details/the-crucifix-on-meccas-front-porch",
+      "year": "2020"
     },
     {
       "authors": [
         "Restitutio"
       ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_label": "weak_scholarly_candidate",
       "automated_evidence_reasons": [
         "trusted archive, university, government, museum, library, or public-domain domain",
         "author metadata present",
@@ -1304,14 +330,16 @@
         "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
+      "automated_evidence_score": 5,
+      "automated_evidence_warnings": [
+        "speculative or overclaim language detected"
+      ],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
       "corroborating_source_count": 337,
       "date_accessed": "2026-05-25",
       "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/restitutio-555_was_paul_really_subverting_caesar_clint_burnett",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://archive.org/details/restitutio-577_nothing_mere_about_a_man_made_in_the_image_of_god_anna_brown",
       "layer_review_prompts": [
         "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
@@ -1324,21 +352,21 @@
       ],
       "primary_layer": "world_languages",
       "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "quality": "speculative-risk",
+      "review_status": "machine_assessed_weak_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Scholars and pastors regularly point to specialized \"technical\" language in Paul's epistles to make the case that Paul was intentionally subverting Roman power by applying to Jesus terms that the ancients commonly applied to the Caesars. My guest today has done the hard work of analyzing the inscriptions, coins, and material remains of several key ancient cities to see how they talked about the Roman emperors in the New Testament period. In our conversation he shares his own journey to become an independent scholar as well as how his research offers a corrective to what many are saying about imperial divine honors. Listen to this episode on Spotify or Apple Podcasts https://www.youtube.com/w",
+      "summary": "Has anyone ever said to you, \u201cOh, you believe Jesus is just a mere man.\u201d How do you respond when someone says that? Do you just go along with it and say, \u201cYep, that\u2019s what I believe\u2013Jesus is just another guy\u201d? I hope not. Jesus is not just another guy. He\u2019s the virginally-conceived son of God who lived righteously without sin, healed dozens (maybe hundreds) of people, preached tirelessly about the kingdom, taught the Bible and how to live, performed many miracles and exorcisms, voluntarily died for our sins as a perfect sacrifice. Then God raised him from the dead and he ascended to God\u2019s right hand from which place he is the head of the church and from which place he will come again on the ",
       "tags": [
         "world_language_source_sampling"
       ],
-      "title": "555 Was Paul Really Subverting Caesar? (Clint Burnett)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Restitutio-555_was_paul_really_subverting_caesar_clint_burnett",
+      "title": "577 Nothing Mere about a Man Made in the Image of God (Anna Brown)",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://archive.org/details/Restitutio-577_nothing_mere_about_a_man_made_in_the_image_of_god_anna_brown",
       "year": "2024"
     },
     {
       "authors": [
-        "Mystagogy"
+        "Petru Loga"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -1351,132 +379,40 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 417,
+      "corroborating_source_count": 422,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/mystagogy-18101670_on_the_word_of_god_dei_verbum_dogmatic_constitution_on_divine",
+      "id": "https://archive.org/details/the-church-the-body-of-christ",
       "layer_review_prompts": [
-        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
-        "Check Christian source context, doctrine, and source quality.",
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
-        "biblical_languages",
-        "research_documents/christian_sources",
         "all_texts",
-        "visual_art",
-        "world_languages"
+        "other_religious_texts",
+        "modern_literature",
+        "visual_art"
       ],
-      "primary_layer": "biblical_languages",
+      "primary_layer": "all_texts",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "In this session, guest presenter Dr. Andr\u00e9 Villeneuve discusses Dei Verbum, the dogmatic constitution on divine revelation issued at the Second Vatican Council. Dr. Villeneuve is Associate Professor of Old Testament & Biblical Languages at Sacred Heart Major Seminary in Detroit. The music in the introduction and close of this podcast is provided by George Sarah. This program of mystagogy is hosted by the Adult Faith Programs at Saint Stephen Martyr Church in Chesapeake, Virginia. Support...",
+      "source_type": "archive.org texts",
+      "summary": "For very many of us, the church we are part of no longer carries the purpose given by God. For many, the church is merely a place to regain the inner peace lost during the week because of an overcrowded and hectic lifestyle. We have been taught to believe that what is generally called \u201cthe church\u201d is simply a place where people with similar religious interests gather. It is a place where people sing, pray, listen to a sermon, socialize a little after the service, and then each one returns to his own pursuits and personal interests. A very small portion of the members have the responsibility of conducting this program. The great majority of members find themselves in the position of spectator",
       "tags": [
-        "biblical_language_source_depth"
+        "global_text_traditions"
       ],
-      "title": "On the Word of God (Dei Verbum - Dogmatic Constitution on Divine Revelation)",
+      "title": "The Church - The Body Of Christ",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Mystagogy-18101670_on_the_word_of_god_dei_verbum_dogmatic_constitution_on_divine",
+      "url": "https://archive.org/details/the-church-the-body-of-christ",
       "year": "2025"
     },
     {
       "authors": [
-        "Constantine Tischendorf,19th cent., various works, several helpers and translators.1845-1880."
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 301,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/tischendorf.v.various",
-      "layer_review_prompts": [
-        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
-        "Check Christian source context, doctrine, and source quality.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
-      ],
-      "layer_routes": [
-        "biblical_languages",
-        "research_documents/christian_sources",
-        "all_texts",
-        "world_languages"
-      ],
-      "primary_layer": "biblical_languages",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Constantine Tischendorf's other works in this fith set of 12 select volumes covers many years and many labors and productions. The Codex Ephraemi Syriacus Rescriptus;Synoptic Gospels and Harmony with critical notes; Greek and Latin diglots with critical apparatus; unpublished notes; textual criticism and reponses on Sinaiticus and the New Testament; travel treasures and an English translation. I have avoided the German works not translated, and omitted the many erroneous books claiming his authorship or co-authorship. It is curious that that the copy of the Authorized English Translation that is in this set has Tregelles's own handwritten note.mjm,2010.",
-      "tags": [
-        "biblical_language_source_depth"
-      ],
-      "title": "Tischendorf. V. Various Works.Codicis,Synoptics,Testaments,Anecdotes,Criticism.12vols..1845-1880.",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Tischendorf.V.Various",
-      "year": null
-    },
-    {
-      "authors": [
-        "George Whitefield Samson, God, Westcott Hort, Textual Critics, F.C. Baur, Tregelles, Riplinger, Tischendorf, Lucifer, Cu"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 301,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/theenglishreviserswescott-hortgreektextshowntobeunauthorized",
-      "layer_review_prompts": [
-        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
-        "Check Christian source context, doctrine, and source quality.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
-      ],
-      "layer_routes": [
-        "biblical_languages",
-        "research_documents/christian_sources",
-        "all_texts",
-        "world_languages"
-      ],
-      "primary_layer": "biblical_languages",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "The English Revisers' Greek Text: Shown to be Unauthorized, Except by Egyptian Copies Discarded. For those seeking information about comparisons between the Textus Receptus and Codex Vaticanus (or Sinaiticus), this is a key book. It is not as official as the [greek] book Codex B and Allies by Hoskier, but this book will give you much information and documentation about the TRUE state of Manuscript Translation in the Early Church, and the Politics of the Alexandrian (Egyptian) Church, and their impact on Church Manuscripts of the New Testament (and the Inspiration and Canonization) of the Bible. Some people think that the information is too hard to find, but it is right here. and it accessibl",
-      "tags": [
-        "biblical_language_source_depth"
-      ],
-      "title": "The English Revisers' [Wescott - Hort] Greek Text: Shown to be Unauthorized, Except by [errant] Egyptian Copies Discarded",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/TheEnglishReviserswescott-HortGreekTextShownToBeUnauthorized",
-      "year": null
-    },
-    {
-      "authors": [
-        "UUSLO"
+        "content.uusf.org"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -1493,7 +429,7 @@
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/uuslo-3508384",
+      "id": "https://archive.org/details/content_uusf_org-20110605jksermon",
       "layer_review_prompts": [
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
         "Read the tradition on its own terms; do not flatten it into Christian categories.",
@@ -1509,144 +445,14 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Is there life after death? How do some of the world's religions and wisdom traditions speak to this question? How do beliefs about life after death affect how we live in this life? \"Some beliefs are like walled gardens,\" writes Sophia Lyon Fahs. \"They encourage exclusiveness, and the feeling of being especially privileged...Other beliefs are expansive and lead the way into wider and deeper sympathies.\"",
+      "summary": "Our monthly newsletter weekly flame austin world: While you're there check out our monthly newsletter weekly flame and much much more to all who are here this morning welcome home the work of this church in the world is realized through the generous financial support of all who call this place home along with the gifts and time and talent ours is a shared ministry you have a role to play here church membership is open to all for more information go to uusf..",
       "tags": [
         "global_text_traditions"
       ],
-      "title": "Dust to Dust - Audio",
+      "title": "Our monthly newsletter weekly flame austin world",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/UUSLO-3508384",
-      "year": "2020"
-    },
-    {
-      "authors": [
-        "Ric Gaz"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 345,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/godunveiledunedited_201603",
-      "layer_review_prompts": [
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
-      ],
-      "layer_routes": [
-        "all_texts",
-        "other_religious_texts",
-        "modern_literature",
-        "world_languages"
-      ],
-      "primary_layer": "all_texts",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "In a Nutshell Main Points Seven sayings of Jesus Time Times Half a Time Why the generation did not see end time Answers what is it for the reader Explains how to go about it to benefit the readers Sub Points Parables explained Metaphors disclosed Main queries explained Elevation of laws into flexibility, from justice to mercy Meaning of cross and the ways of cross sacrifice Progressive steps towards way of the Lord",
-      "tags": [
-        "global_text_traditions"
-      ],
-      "title": "God Unveiled Unedited",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/GodUnveiledUnedited_201603",
-      "year": "2010"
-    },
-    {
-      "authors": [
-        "Ric Gaz"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 345,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/godunveiledunedited",
-      "layer_review_prompts": [
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
-      ],
-      "layer_routes": [
-        "all_texts",
-        "other_religious_texts",
-        "modern_literature",
-        "world_languages"
-      ],
-      "primary_layer": "all_texts",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "In a nutshell Main Points Seven sayings of Jesus Time Times Half a Time Why the generation did not see end time Answers what is it for the reader Explains how to go about it to benefit the readers Sub Points Parables explained Metaphors disclosed Main queries explained Elevation of laws into flexibility, from justice to mercy Meaning of cross and the ways of cross sacrifice Progressive steps towards way of the Lord",
-      "tags": [
-        "global_text_traditions"
-      ],
-      "title": "God Unveiled Unedited",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/GodUnveiledUnedited",
-      "year": "2010"
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 6,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 263,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://archive.org/details/consumershouldbeataboowordinpublicservicesjacknunnhealthissuescentrejournalheaiss2015n114038",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "visual_art"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Issue 114 WINTER 2014 HEALTH ISSUES PAGE 38 \u2018Consumer\u2019 should be a taboo word in public services JACK NUNN Human rights are a powerful idea, but they only exist as words and actions. If we don\u2019t get the words right, then we can end up with the wrong actions. There is a particular word I\u2019d like to challenge. That word is \u2018consumer\u2019. I have lived in Australia for more than a year now and have been exposed to this word many times. It is used across Australia to describe people who use public services, including health services. It is used to describe people using a service which should be designed to uphold their human rights. When people talk about \u2018engaging\u2019 or \u2018involving\u2019 the public in impro",
-      "tags": [
-        "technology_ethics"
-      ],
-      "title": "Consumer Should Be A Taboo Word In Public Services Jack Nunn Health Issues Centre Journal Hea Iss 2015 N 114 038",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://archive.org/details/ConsumerShouldBeATabooWordInPublicServicesJackNunnHealthIssuesCentreJournalHeaIss2015N114038",
-      "year": null
+      "url": "https://archive.org/details/content_uusf_org-20110605JKSermon",
+      "year": "2022"
     },
     {
       "authors": [],
@@ -1660,33 +466,35 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 148,
+      "corroborating_source_count": 263,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20200325_170000",
+      "id": "https://archive.org/details/voa_africa_20190722_160000",
       "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims."
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
-        "cultural_inputs"
+        "cultural_inputs",
+        "visual_art"
       ],
       "primary_layer": "cultural_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 That reported its 1st one of our last Thursday after 00:00:04 a 2 year old Randwick returns from the United Arab Emirates. By remote Ondine 00:00:10 Lobert. 00:00:19 Today is Wednesday March 25th and this is v.o.a. 00:00:23 Is international edition I'm Steve Miller in Washington what's the psychological 00:00:28 effect of social distancing the age of Kobe 19 to me. 00:00:35 Wrong. Doing to 3 times. Plus how 00:00:42 critical is the supply of medical resources really and thank you. And now where you 00:00:50 live. And 00:00:52 a music legend is remembered those stories and more are all next. Buckingham 00:01:01 Palace says the heir to the British throne Pr",
+      "summary": "Closed captions transcript: 00:00:00 The comedian turned president's party which was formed just 00:00:03 a few months ago underscores Ukrainians desire for 00:00:06 a break with established politicians and parties that have failed to improve living 00:00:11 standards enough at the site 00:00:14 a show on Space Center in eastern India Monday afternoon will. Look 00:00:21 like they don't. Come out of this particular case Yvonne chairman of the 00:00:28 Indian Space Research Organization announced the successful launch of an ambitious 00:00:33 mission to land 00:00:35 a rover on an unexplored area of the moon today because I think 00:00:40 a lot of space and sayings and ecology in India. I mix",
       "tags": [
         "technology_ethics"
       ],
-      "title": "VOA [Voice of America] Global English : March 25, 2020 01:00PM-02:00PM EDT",
+      "title": "VOA [Voice of America] Africa : July 22, 2019 12:00PM-01:00PM EDT",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20200325_170000",
-      "year": "2020"
+      "url": "https://archive.org/details/VOA_Africa_20190722_160000",
+      "year": "2019"
     }
   ],
-  "opencitations_enriched_count": 1,
+  "opencitations_enriched_count": 25,
   "run_provider_counts": {
     "Crossref": 305,
     "Europe PMC": 223,
@@ -1695,5 +503,5 @@
     "PubMed": 26,
     "arXiv": 30
   },
-  "updated_at": "2026-05-25T19:12:26.219584+00:00"
+  "updated_at": "2026-05-25T21:42:49.545460+00:00"
 }

@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T19:12:26.255701+00:00
-Total references: 992
-New references this run: 37
+Updated: 2026-05-25T21:42:49.575380+00:00
+Total references: 1,002
+New references this run: 10
 
 Guardrails
 ----------
@@ -16,7 +16,7 @@ Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
-- OpenCitations DOI enrichment checked 1 stored DOI source(s) this run.
+- OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
 - Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
 - Tavily budget: 5/5 basic searches used today; 0 remaining.
 - Open-web candidates returned this run: 0.
@@ -28,11 +28,11 @@ Online Collection Status
   - PubMed: 26
   - arXiv: 30
 - Brand-new references added by provider:
-  - Internet Archive: 37
+  - Internet Archive: 10
 - Total stored references by provider:
   - Crossref: 305
   - Europe PMC: 185
-  - Internet Archive: 192
+  - Internet Archive: 202
   - OpenAlex: 248
   - PubMed: 24
   - Tavily Search: 12
@@ -40,278 +40,151 @@ Online Collection Status
 
 Reference Tags
 --------------
-- art_beauty: 67
+- art_beauty: 68
 - biblical_language_source_depth: 40
 - biblical_languages: 30
 - cultural_practice_patterns: 48
 - general_research_methods: 44
-- global_text_traditions: 58
-- history_memory: 59
+- global_text_traditions: 60
+- history_memory: 60
 - holy_spirit_gifts_global: 30
 - interreligious_dream_testimony: 38
 - modern_literature_meaning: 47
-- music_math: 77
+- music_math: 78
 - pattern_perception_divine_response: 41
 - politics_justice: 59
 - psychology_patterns: 58
-- quantum_science_guardrails: 75
-- technology_ethics: 51
+- quantum_science_guardrails: 76
+- technology_ethics: 52
 - theologians_cross_era: 29
-- trinity: 68
+- trinity: 69
 - unresolved_suffering: 43
-- world_language_source_sampling: 50
+- world_language_source_sampling: 52
 - world_languages_translation: 44
 
 Layer Routes
 ------------
-- all_texts: 300
-- biblical_languages: 78
-- cultural_inputs: 220
-- deep_sources: 313
-- history_inputs: 238
+- all_texts: 304
+- biblical_languages: 79
+- cultural_inputs: 222
+- deep_sources: 315
+- history_inputs: 240
 - human_stories: 260
-- modern_literature: 121
-- music_notes: 77
-- other_religious_texts: 199
-- pattern_tests: 187
-- psychology_inputs: 252
-- research_documents: 111
+- modern_literature: 123
+- music_notes: 78
+- other_religious_texts: 204
+- pattern_tests: 188
+- psychology_inputs: 253
+- research_documents: 112
 - research_documents/christian_sources: 94
-- theologians: 234
-- visual_art: 282
-- world_languages: 180
-
-Layer Balance Watch
--------------------
-- These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
-  - music_notes: 77
+- theologians: 236
+- visual_art: 289
+- world_languages: 183
 
 Quality Counts
 --------------
 - open web result: 12
-- reference metadata: 191
+- reference metadata: 200
 - scholarly metadata: 762
 - scholarly preprint: 26
-- speculative-risk: 1
+- speculative-risk: 2
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 411
-- strong_scholarly_candidate: 560
-- weak_scholarly_candidate: 21
+- moderate_scholarly_candidate: 419
+- strong_scholarly_candidate: 561
+- weak_scholarly_candidate: 22
 
 New This Run By Tag
 -------------------
-- art_beauty: 6
-- biblical_language_source_depth: 3
-- global_text_traditions: 4
-- history_memory: 3
-- politics_justice: 8
-- quantum_science_guardrails: 2
-- technology_ethics: 2
-- trinity: 8
+- art_beauty: 1
+- global_text_traditions: 2
+- history_memory: 1
+- music_math: 1
+- quantum_science_guardrails: 1
+- technology_ethics: 1
+- trinity: 1
 - world_language_source_sampling: 2
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 15
-- biblical_languages: 3
-- cultural_inputs: 16
+- all_texts: 4
+- biblical_languages: 1
+- cultural_inputs: 2
 - deep_sources: 2
-- history_inputs: 14
-- human_stories: 2
-- modern_literature: 4
-- other_religious_texts: 10
-- pattern_tests: 4
-- psychology_inputs: 2
-- research_documents: 8
-- research_documents/christian_sources: 3
-- theologians: 11
-- visual_art: 21
-- world_languages: 11
+- history_inputs: 2
+- modern_literature: 2
+- music_notes: 1
+- other_religious_texts: 5
+- pattern_tests: 1
+- psychology_inputs: 1
+- research_documents: 1
+- theologians: 2
+- visual_art: 7
+- world_languages: 3
 
 Newest Additions This Run
 ------------------------
-- 32. Negotiating with Trinitarians - John Lawson (2021)
+- برنامج صناعة الجهاد (n.d.)
   Tags: trinity
-  Layer routes: theologians, research_documents, all_texts
+  Layer routes: theologians, research_documents, visual_art, other_religious_texts
   Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Unitarian_Christian_Alliance-UCA_32_Negotiating_with_Trinitarians___John_Lawson
-- A History of the Theology of Unitarian Universalism - Questions and Answers - Rev. Lise Adams Sherry (2024)
-  Tags: trinity
-  Layer routes: theologians, research_documents, visual_art, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-16325685_a_history_of
-- 651. Translating the Holy Spirit (Sean Finnegan) (2026)
-  Tags: trinity
-  Layer routes: theologians, research_documents, world_languages
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-651_translating_the_holy_spirit_sean_finnegan
-- 317 What Evangelism Is (Josh Anderson) (2020)
-  Tags: trinity
-  Layer routes: theologians, research_documents, visual_art, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-317_what_evangelism_is_josh_anderson
-- 501 Early Church History 19: Arian Kingdoms from Ulfilas to Clovis (2023)
-  Tags: trinity
-  Layer routes: theologians, research_documents, visual_art, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-501_early_church_history_19_arian_kingdoms_from_ulfilas_to_clovis
-- 423 One God 13: The Fourth Century (2021)
-  Tags: trinity
-  Layer routes: theologians, research_documents, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-423_one_god_13_the_fourth_century
-- UU Elevator Speeches (2024)
-  Tags: global_text_traditions, trinity
-  Layer routes: all_texts, other_religious_texts, modern_literature, theologians, research_documents, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Sunnyhill_Unitarian_Universalist-15618491_uu_elevator_speeches
-- 196: Reflections and Opening Statements From the Recent OT Debate (2021)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_196_
-- CIA Reading Room 06038925: CAPABILITIES AND TRENDS OF SOVIET SCIENCE AND TECHNOLOGY (1956)
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/trans_25-08-2010-jkasset
+- 1. Structure of the benzene molecule on the basis of the three-electron bond. (2009)
   Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests, visual_art
+  Layer routes: deep_sources, pattern_tests, world_languages
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/cia-readingroom-document-06038925
-- The World ledaer,Great sun---Fangruida/ Cord Rossi 2020v1.3 2021 v1.2 modified version) (2021)
-  Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests, visual_art
+  URL: https://archive.org/details/1.StructureOfTheBenzeneMoleculeOnTheBasisOfTheThreeElectronBond
+- Charles Darwin - Natural and Artificial Selection (2024)
+  Tags: music_math
+  Layer routes: music_notes, deep_sources, visual_art, psychology_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/m-4-h-00393
-- Upper Room Discourse | John 13 | Dr. Curtis Hill (2023)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Brainerd_Baptist_Church-20230212_SanctuarySermonAUDIO
-- Starting the Descent into Dante’s Inferno: The Dark Woods, The Three Beasts (2023)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art, all_texts, pattern_tests
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Mystagogy-12217240_starting_the_descent_into_dante_s_inferno_the_dark_woods_the_
-- Christian Talk Taht Rocks with Richie L. Ep. 8/1/2023 (2023)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, human_stories
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Ad_Durar_Al_Bahiyyah-christian_talk_taht_rocks_with_richie_l_ep_8_1_2023
-- 09.15.24 Sermon - “Luminaries of Truth and Justice: How to be a Radical” - Rev. Dr. Daniel Kanter (2024)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art, all_texts, pattern_tests
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/First_Unitarian_Dallas_Podcast-09_15_24___Podcast
-- VOA [Voice of America] Global English : May 15, 2020 11:00PM-12:00AM EDT (2020)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Global_English_20200516_030000
-- You Don't Need A Weatherman To Know Which Way The Wind Blows (1969)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/YouDontNeedAWeathermanToKnowWhichWayTheWindBlows_925
-- VOA [Voice of America] Global English : May 16, 2020 09:00PM-10:00PM EDT (2020)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Global_English_20200517_010000
-- CIA Reading Room cia-rdp78-00915r000100080002-0: THE GOSPEL ACCORDING TO MARX (1997)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art, psychology_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/cia-readingroom-document-cia-rdp78-00915r000100080002-0
-- The Ultimate Surah al-Fatiha Audio Collection with English Translation (x100) (n.d.)
+  URL: https://archive.org/details/identity_202411
+- Dictionary of the history of ideas : studies of selected pivotal ideas (1973)
   Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, world_languages, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/MuslimBoxers-IronMikeTyson-Part3Of3B
-- Lives of the Prophets (Qasas ul-Anbiyah) Collection - (21 Part Video Lecture Series) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/LivesOfTheProphetsqasasUl-anbiyahCollection-21Lectures
-- Complete Quran (114 Surahs) - Muhammad Ayyub (with English Audio Translation) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, world_languages, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/001AlFaatiha_20140313
-- "I BELIEVE" COMING OF AGE SUNDAY (2026)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs
+  Layer routes: visual_art, cultural_inputs, history_inputs, biblical_languages
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/All_Souls_Unitarian_Church-I_BELIEVEPOD
-- Complete Qur'an (114 Surahs) - as-Sudais & ash-Shuraim (with English Audio Translation) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, world_languages, all_texts, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/MuslimBoxers-IronMikeTyson-Part2Of3A
-- Minding the Spirit : the study of Christian spirituality (2005)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, all_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/mindingspiritstu0000unse
-- Marge and Barb Have Class (2021)
+  URL: https://archive.org/details/dictionaryofhist0000unse
+- Sorin Cerin – Books Biography And Bibliography With Literary And Philosophical Criticism 2020 (n.d.)
   Tags: history_memory
-  Layer routes: history_inputs, theologians, human_stories
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20210523VRSComplete
-- Trauma and Grace (2021)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, psychology_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Unity_Temple_Unitarian_Universalist_Congregation-5_30_21_Trauma_and_Grace_Podcas
-- The Philosophy of Love - Love and Destiny: Philosophical poems by Sorin Cerin (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts
+  Layer routes: history_inputs, theologians, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/9781548779504Thephilosophyofloveloveanddestiny
-- Uncompromising: 2 Peter 2:1–3 | Dr. Jim Shaddix (2022)
+  URL: https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism2020
+- The Crucifix On Mecca's Front Porch (2020)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/the-crucifix-on-meccas-front-porch
+- 577 Nothing Mere about a Man Made in the Image of God (Anna Brown) (2024)
   Tags: world_language_source_sampling
   Layer routes: world_languages, all_texts, other_religious_texts
+  Source: Internet Archive | speculative-risk
+  Automated evidence: weak_scholarly_candidate (5)
+  URL: https://archive.org/details/Restitutio-577_nothing_mere_about_a_man_made_in_the_image_of_god_anna_brown
+- The Church - The Body Of Christ (2025)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Brainerd_Baptist_Church-20220911_Sanctuary_SermonAUDIO
-- 555 Was Paul Really Subverting Caesar? (Clint Burnett) (2024)
-  Tags: world_language_source_sampling
-  Layer routes: world_languages, all_texts, other_religious_texts
+  URL: https://archive.org/details/the-church-the-body-of-christ
+- Our monthly newsletter weekly flame austin world (2022)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-555_was_paul_really_subverting_caesar_clint_burnett
-- On the Word of God (Dei Verbum - Dogmatic Constitution on Divine Revelation) (2025)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, visual_art, world_languages
+  URL: https://archive.org/details/content_uusf_org-20110605JKSermon
+- VOA [Voice of America] Africa : July 22, 2019 12:00PM-01:00PM EDT (2019)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs, visual_art
   Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Mystagogy-18101670_on_the_word_of_god_dei_verbum_dogmatic_constitution_on_divine
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/VOA_Africa_20190722_160000
 
 Recent Candidate Sources
 ------------------------
@@ -519,9 +392,3 @@ Recent Candidate Sources
   Authors: Ernst-August Gutt
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4324/9781315760018
-
-Collector Errors
-----------------
-- search_internet_archive failed for world_language_source_sampling: <urlopen error [Errno 104] Connection reset by peer>
-- search_internet_archive failed for holy_spirit_gifts_global: <urlopen error [Errno 104] Connection reset by peer>
-- OpenCitations enrichment failed for DOI 10.2307/j.ctt1cg4jsn.17: The read operation timed out
