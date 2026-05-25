@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-25T15:36:51.589778+00:00
+Generated: 2026-05-25T16:05:10.306255+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -34,21 +34,21 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-25T15:35:49.500169+00:00
-Brand-new candidate references this run: 0
+Daily collector updated: 2026-05-25T16:04:08.683628+00:00
+Brand-new candidate references this run: 42
 New candidate pattern movements:
-- No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.
+- Theologian-source candidates grew today; review era, primary source, doctrine, disagreement, and pressure points.
+- Visual-art candidates grew today; examine actual form, composition, symbol, beauty, lament, and counter-reading.
+- History candidates grew today; test power, harm, reform, memory, consequence, and unfinished repair.
+- World-language candidates grew today; track translation range, metaphor, grammar, culture, and rival readings.
+- Biblical-language candidates grew today; check lemma, syntax, canonical context, and scholarly counter-readings.
+- Global and comparative text candidates grew today; respect each tradition's own meaning before comparing patterns.
+- Psychology or human-story candidates grew today; separate lived repair from overclaimed theological interpretation.
+- Deep-source candidates grew today; review qualified evidence and counterarguments before strengthening claims.
+- Pressure-test candidates grew today; name failure conditions and whether the pattern holds under friction.
+- Lament-to-hope material grew today; test whether hope is patient and non-coercive rather than a quick resolution.
 
-New material by lane:
-- No new lanes grew in the latest collector run.
-
-New material by routed layer:
-- No routed layers grew in the latest collector run.
-
-New material quality mix:
-- No new source-quality mix available for the latest run.
-
-_Full report has 156 lines. Open the linked report above to read everything._
+_Full report has 201 lines. Open the linked report above to read everything._
 ```
 
 ## reports/cloud_research_findings_report.txt
@@ -57,9 +57,9 @@ _Full report has 156 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T15:35:49.519273+00:00
-Total references: 598
-New references this run: 0
+Updated: 2026-05-25T16:04:08.705341+00:00
+Total references: 640
+New references this run: 42
 
 Guardrails
 ----------
@@ -73,7 +73,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, Semantic Scholar, and arXiv for science/music queries.
 
-_Full report has 378 lines. Open the linked report above to read everything._
+_Full report has 517 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -92,13 +92,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 22
-Total analyzed words: 747,995
+Total analyzed words: 734,822
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 763 lines. Open the linked report above to read everything._
+_Full report has 760 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -313,15 +313,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### 🎥 Sonic Geometry I–III — The Language of Frequency and Form
+### Becoming: How It Started…
 
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: music_math
-- Layer routes: music_notes, deep_sources, visual_art, world_languages
-- Primary layer: music_notes
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: trinity
+- Layer routes: theologians, research_documents, pattern_tests, visual_art
+- Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 4,186 lines. Open the linked report above to read everything._
+_Full report has 1,470 lines. Open the linked report above to read everything._
 ```

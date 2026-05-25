@@ -3,33 +3,78 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-25T15:35:49.500169+00:00
-Brand-new candidate references this run: 0
+Daily collector updated: 2026-05-25T16:04:08.683628+00:00
+Brand-new candidate references this run: 42
 New candidate pattern movements:
-- No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.
+- Theologian-source candidates grew today; review era, primary source, doctrine, disagreement, and pressure points.
+- Visual-art candidates grew today; examine actual form, composition, symbol, beauty, lament, and counter-reading.
+- History candidates grew today; test power, harm, reform, memory, consequence, and unfinished repair.
+- World-language candidates grew today; track translation range, metaphor, grammar, culture, and rival readings.
+- Biblical-language candidates grew today; check lemma, syntax, canonical context, and scholarly counter-readings.
+- Global and comparative text candidates grew today; respect each tradition's own meaning before comparing patterns.
+- Psychology or human-story candidates grew today; separate lived repair from overclaimed theological interpretation.
+- Deep-source candidates grew today; review qualified evidence and counterarguments before strengthening claims.
+- Pressure-test candidates grew today; name failure conditions and whether the pattern holds under friction.
+- Lament-to-hope material grew today; test whether hope is patient and non-coercive rather than a quick resolution.
+- Original-language and translation material grew today; check whether word-level claims survive syntax, genre, and semantic range.
+- Psychology and formation material grew today; compare spiritual transformation with habit, attachment, memory, and repair without reducing faith to mechanism.
+- Historical-memory material grew today; test whether the pattern can face power, harm, repair, and communal memory.
+- Global text-tradition material grew today; compare patterns across genre and culture before calling them universal.
+- Science-guardrail material grew today; keep any science analogy tied to qualified sources and stated limits.
+- Art and beauty material grew today; ask what visual or aesthetic form reveals before translating it into doctrine.
 
 New material by lane:
-- No new lanes grew in the latest collector run.
+- trinity: 7
+- psychology_patterns: 7
+- global_text_traditions: 7
+- art_beauty: 6
+- quantum_science_guardrails: 5
+- politics_justice: 4
+- history_memory: 3
+- technology_ethics: 2
+- music_math: 1
 
 New material by routed layer:
-- No routed layers grew in the latest collector run.
+- pattern_tests: 30
+- visual_art: 24
+- all_texts: 14
+- cultural_inputs: 12
+- theologians: 11
+- deep_sources: 10
+- other_religious_texts: 9
+- history_inputs: 8
+- psychology_inputs: 8
+- human_stories: 7
+- modern_literature: 7
+- research_documents: 7
+- biblical_languages: 4
+- world_languages: 4
+- music_notes: 1
 
 New material quality mix:
-- No new source-quality mix available for the latest run.
+- reference metadata: 30
+- open web result: 12
 
 New material automated evidence:
-- No new automated evidence scores available for the latest run.
+- moderate_scholarly_candidate: 30
+- weak_scholarly_candidate: 12
 
 Newest sources to review:
-- No brand-new sources to review from the latest collector run.
+- Becoming: How It Started… (2021) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art | evidence: moderate_scholarly_candidate (8)
+- The unseen realm : recovering the supernatural worldview of the Bible (2015) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art | evidence: moderate_scholarly_candidate (8)
+- On Principle (2021) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art | evidence: moderate_scholarly_candidate (8)
+- 55. Meant to Be Understood - Tom Huszti (2022) | tags: trinity | layers: theologians, research_documents, pattern_tests | evidence: moderate_scholarly_candidate (8)
+- Beyond me, my selfie, & I : finding real happiness in a self-absorbed world (2016) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art, all_texts | evidence: moderate_scholarly_candidate (8)
+- July 30, 2023 ”Christianities” The Rev. Angela Herrera (2023) | tags: trinity | layers: theologians, research_documents, pattern_tests | evidence: moderate_scholarly_candidate (8)
+- 495 Early Church History 13: Trinity Controversy in the Fourth Century (2023) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art, history_inputs | evidence: moderate_scholarly_candidate (8)
+- Structure of the benzene molecule on the basis of the three-electron bond. (2009) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests | evidence: moderate_scholarly_candidate (8)
 
 Collector warnings:
-- search_semantic_scholar failed for trinity: name 'publication_types' is not defined
-- search_searxng_web_all failed for trinity: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
 - search_semantic_scholar failed for trinity: HTTP Error 429: 
-- search_searxng_web_all failed for trinity: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for trinity: HTTP Error 429: 
-- search_searxng_web_all failed for trinity: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_arxiv failed for quantum_science_guardrails: The read operation timed out
+- search_arxiv failed for quantum_science_guardrails: The read operation timed out
+- search_arxiv failed for music_math: The read operation timed out
+- search_arxiv failed for music_math: The read operation timed out
 
 Divine Pattern Found
 --------------------
@@ -48,17 +93,17 @@ Notice -> Name -> Discern -> Practice -> Transform
 Why this pattern is currently strongest:
 ----------------------------------------
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,288
-- Son: 6,687
-- Holy Spirit: 1,251
+- Father: 3,249
+- Son: 6,661
+- Holy Spirit: 1,241
 
 Strongest research layers:
-- Meaning And Logos: 6,016
-- Life And Consciousness: 5,366
-- Physical Order: 2,474
-- Moral Response: 2,275
-- Transformation: 2,044
-- Worship And Community: 1,086
+- Meaning And Logos: 5,905
+- Life And Consciousness: 5,296
+- Physical Order: 2,455
+- Moral Response: 2,233
+- Transformation: 2,031
+- Worship And Community: 1,065
 
 Music-note science/math support:
 - Mathematical Structure: 129
@@ -106,7 +151,7 @@ Global language/text coverage:
 
 Cloud reference review:
 - Reviewed cloud-reference markers: 3
-- Unreviewed cloud-reference markers: 20
+- Unreviewed cloud-reference markers: 32
 - Treat cloud references as leads until checked against original sources, author expertise, date, publication venue, and counterarguments.
 
 Theologian pattern-design support:

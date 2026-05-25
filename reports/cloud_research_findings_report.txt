@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T15:35:49.519273+00:00
-Total references: 598
-New references this run: 0
+Updated: 2026-05-25T16:04:08.705341+00:00
+Total references: 640
+New references this run: 42
 
 Guardrails
 ----------
@@ -16,83 +16,290 @@ Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, Semantic Scholar, and arXiv for science/music queries.
-- Broad web search attempted via SearXNG (https://search.mdosch.de) or configured search API keys.
-- Open-web candidates returned this run: 0; configured SearXNG endpoint(s) rate-limited or rejected the request.
+- Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
+- Tavily budget: 5/5 basic searches used today; 0 remaining.
+- Open-web candidates returned this run: 12.
 - Provider results returned this run:
   - Crossref: 185
   - Europe PMC: 134
   - Internet Archive: 82
   - OpenAlex: 171
   - PubMed: 24
-  - arXiv: 30
-- Brand-new references added by provider: 0.
+  - Tavily Search: 12
+  - arXiv: 10
+- Brand-new references added by provider:
+  - Internet Archive: 30
+  - Tavily Search: 12
 - Total stored references by provider:
   - Crossref: 191
   - Europe PMC: 119
-  - Internet Archive: 81
+  - Internet Archive: 111
   - OpenAlex: 159
   - PubMed: 22
+  - Tavily Search: 12
   - arXiv: 26
 
 Reference Tags
 --------------
-- art_beauty: 52
+- art_beauty: 58
 - biblical_languages: 30
-- global_text_traditions: 45
-- history_memory: 48
-- music_math: 76
-- politics_justice: 41
-- psychology_patterns: 51
-- quantum_science_guardrails: 62
-- technology_ethics: 43
+- global_text_traditions: 52
+- history_memory: 51
+- music_math: 77
+- politics_justice: 45
+- psychology_patterns: 58
+- quantum_science_guardrails: 67
+- technology_ethics: 46
 - theologians_cross_era: 29
-- trinity: 50
+- trinity: 57
 - unresolved_suffering: 43
 - world_languages_translation: 44
 
 Layer Routes
 ------------
-- all_texts: 123
-- biblical_languages: 37
-- cultural_inputs: 135
-- deep_sources: 199
-- history_inputs: 125
-- human_stories: 98
-- modern_literature: 62
-- music_notes: 76
-- other_religious_texts: 64
-- pattern_tests: 337
-- psychology_inputs: 117
-- research_documents: 50
+- all_texts: 137
+- biblical_languages: 41
+- cultural_inputs: 147
+- deep_sources: 209
+- history_inputs: 133
+- human_stories: 105
+- modern_literature: 69
+- music_notes: 77
+- other_religious_texts: 73
+- pattern_tests: 367
+- psychology_inputs: 125
+- research_documents: 57
 - research_documents/christian_sources: 59
-- theologians: 138
-- visual_art: 164
-- world_languages: 84
+- theologians: 149
+- visual_art: 188
+- world_languages: 88
 
 Quality Counts
 --------------
-- reference metadata: 80
+- open web result: 12
+- reference metadata: 110
 - scholarly metadata: 491
 - scholarly preprint: 26
 - speculative-risk: 1
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 243
+- moderate_scholarly_candidate: 273
 - strong_scholarly_candidate: 349
-- weak_scholarly_candidate: 6
+- weak_scholarly_candidate: 18
 
 New This Run By Tag
 -------------------
-- No brand-new references found this run; reports still re-evaluate the current candidate set.
+- art_beauty: 6
+- global_text_traditions: 7
+- history_memory: 3
+- music_math: 1
+- politics_justice: 4
+- psychology_patterns: 7
+- quantum_science_guardrails: 5
+- technology_ethics: 2
+- trinity: 7
 
 New This Run By Layer Route
 ---------------------------
-- No brand-new layer routes this run.
+- all_texts: 14
+- biblical_languages: 4
+- cultural_inputs: 12
+- deep_sources: 10
+- history_inputs: 8
+- human_stories: 7
+- modern_literature: 7
+- music_notes: 1
+- other_religious_texts: 9
+- pattern_tests: 30
+- psychology_inputs: 8
+- research_documents: 7
+- theologians: 11
+- visual_art: 24
+- world_languages: 4
 
 Newest Additions This Run
 ------------------------
-- No new additions this run.
+- Becoming: How It Started… (2021)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/UU_Los_Alamos-20210411_Becoming_How_It_Started
+- The unseen realm : recovering the supernatural worldview of the Bible (2015)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/unseenrealmrecov0000heis
+- On Principle (2021)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/peoria_UU_church-Sermon_2021_11_14
+- 55. Meant to Be Understood - Tom Huszti (2022)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Unitarian_Christian_Alliance-UCA_55_Meant_To_Be_Understood___Tom_Huszti
+- Beyond me, my selfie, & I : finding real happiness in a self-absorbed world (2016)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art, all_texts
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/beyondmemyselfie0000tome
+- July 30, 2023 ”Christianities” The Rev. Angela Herrera (2023)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/UUABQ_Voice-HyperDeck_2307301018_0001
+- 495 Early Church History 13: Trinity Controversy in the Fourth Century (2023)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art, history_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Restitutio-495_early_church_history_13_trinity_controversy_in_the_fourth_century
+- Structure of the benzene molecule on the basis of the three-electron bond. (2009)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/structure-of-the-benzene-molecule-on-the-basis-of-the-three-electron-bond
+- Expressive Field Theory (EFT): A Unified Framework for Emergent Time, the Dark Sector, and Quantum Uncertainty (2025)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests, visual_art, psychology_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/osf-registrations-x385s-v1
+- Dialectics in Modern Physics (1979)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/omelyanovsky-m.-e.-dialectics-in-modern-physics
+- Seven Brief Lessons on Physics (2025)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests, world_languages
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/youtube-4iqs1LoEnmw
+- CIA Reading Room cia-rdp96-00789r002200400001-3: ENHANCED HUMAN PERFORMANCE (1998)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r002200400001-3
+- Music in Terms of Science (2012)
+  Tags: music_math
+  Layer routes: music_notes, deep_sources, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/arxiv-1209.3767
+- Christian Talk That Rocks with Richie L. Ep. 7/8/2022 (2022)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/The_Beneficial_Principles_In_T-christian_talk_that_rocks_with_richie_l_ep_7_8_20
+- The rochester first unitarian church sophia church (2022)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/uusf_org-20120205SFSermon
+- CIA Reading Room cia-rdp05-01559r000400430031-4: AL-QADHDHAFI SPEAKS TO BASIC PEOPLE'S CONGRESS (1988)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs, pattern_tests, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/cia-readingroom-document-cia-rdp05-01559r000400430031-4
+- What I want for Christmas? (2022)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs, pattern_tests, theologians, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Complete_Service_First_Unitari-20221211VRSComplete
+- Muslim Boxers - Prince Naseem Hamed الأمير نسيم حامد (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, other_religious_texts
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/MuslimBoxers-PrinceNaseemHamed
+- Complete Quran (114 Surahs) - Waheed Zafar Qasmi (with English Audio Translation) (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, world_languages, all_texts, other_religious_texts
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/001AlFaatiha_20140310
+- Al-Qur'ān ul-Kareem - Sūrah al-Kahf - #018 / Abū Bakr ash-Shatri (w/English Audio) (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, world_languages
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/018AlKahf_201711
+- The nature san francisco god (2022)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/uusf_org-20110313GSComplete
+- Jonathan Edwards, art and the sense of the heart (1980)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/jonathanedwardsa0000erdt
+- الإصدار الصوتي : [ الفقير إلى مولاه: أبو عبد الله المهاجر رحمه الله ] (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, world_languages, biblical_languages, all_texts, deep_sources
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/trans21-12-2009-audio-1tape-3options
+- VOA [Voice of America] Global English : May 27, 2020 12:00PM-01:00PM EDT (2020)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/VOA_Global_English_20200527_160000
+- Podcast: Global Ecofeminism(s) (2026)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, pattern_tests, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Podcasts_Archives___First_Unitarian_Society_of_Minneapolis-2026_03_08_Podcast
+- Lament in a Time of Horror (2026)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Miami_Valley_Unitarian_Univers-20260208_Lament_in_a_Time_of_Horror_mp3
+- Religious Trauma, Attachment, and Leaving Faith | Psychology Today (n.d.)
+  Tags: psychology_patterns
+  Layer routes: psychology_inputs, human_stories, pattern_tests
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.psychologytoday.com/us/blog/navigating-the-serpentine-path/202603/religious-trauma-attachment-and-leaving-faith
+- Counseling Reflections on Attachment, Spirituality, and Trauma (n.d.)
+  Tags: psychology_patterns
+  Layer routes: psychology_inputs, human_stories, pattern_tests, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.familytransformation.com/2020/12/20/counseling-reflections-on-attachment-spirituality-and-trauma
+- A Theoretical and Theological Reframing of Trauma - PMC (n.d.)
+  Tags: psychology_patterns
+  Layer routes: psychology_inputs, human_stories, pattern_tests, visual_art, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10077305
+- github.com-VoltAgent-awesome-openclaw-skills_-_2026-03-12_11-15-34 (2026)
+  Tags: psychology_patterns
+  Layer routes: psychology_inputs, human_stories, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/github.com-VoltAgent-awesome-openclaw-skills_-_2026-03-12_11-15-34
 
 Recent Candidate Sources
 ------------------------
@@ -303,76 +510,8 @@ Recent Candidate Sources
 
 Collector Errors
 ----------------
-- search_semantic_scholar failed for trinity: name 'publication_types' is not defined
-- search_searxng_web_all failed for trinity: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
 - search_semantic_scholar failed for trinity: HTTP Error 429: 
-- search_searxng_web_all failed for trinity: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for trinity: HTTP Error 429: 
-- search_searxng_web_all failed for trinity: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for unresolved_suffering: HTTP Error 429: 
-- search_searxng_web_all failed for unresolved_suffering: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for unresolved_suffering: HTTP Error 429: 
-- search_searxng_web_all failed for unresolved_suffering: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for unresolved_suffering: HTTP Error 429: 
-- search_searxng_web_all failed for unresolved_suffering: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for quantum_science_guardrails: HTTP Error 429: 
-- search_searxng_web_all failed for quantum_science_guardrails: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for quantum_science_guardrails: HTTP Error 429: 
-- search_searxng_web_all failed for quantum_science_guardrails: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for quantum_science_guardrails: HTTP Error 429: 
-- search_searxng_web_all failed for quantum_science_guardrails: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for music_math: HTTP Error 429: 
-- search_searxng_web_all failed for music_math: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for music_math: HTTP Error 429: 
-- search_searxng_web_all failed for music_math: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for music_math: HTTP Error 429: 
-- search_searxng_web_all failed for music_math: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for politics_justice: HTTP Error 429: 
-- search_searxng_web_all failed for politics_justice: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for politics_justice: HTTP Error 429: 
-- search_searxng_web_all failed for politics_justice: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for art_beauty: HTTP Error 429: 
-- search_searxng_web_all failed for art_beauty: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for art_beauty: HTTP Error 429: 
-- search_searxng_web_all failed for art_beauty: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for art_beauty: HTTP Error 429: 
-- search_searxng_web_all failed for art_beauty: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for history_memory: HTTP Error 429: 
-- search_searxng_web_all failed for history_memory: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for history_memory: HTTP Error 429: 
-- search_searxng_web_all failed for history_memory: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for history_memory: name 'publication_types' is not defined
-- search_searxng_web_all failed for history_memory: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for world_languages_translation: name 'publication_types' is not defined
-- search_searxng_web_all failed for world_languages_translation: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for world_languages_translation: HTTP Error 429: 
-- search_searxng_web_all failed for world_languages_translation: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for world_languages_translation: HTTP Error 429: 
-- search_searxng_web_all failed for world_languages_translation: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for biblical_languages: HTTP Error 429: 
-- search_searxng_web_all failed for biblical_languages: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for biblical_languages: HTTP Error 429: 
-- search_searxng_web_all failed for biblical_languages: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for biblical_languages: HTTP Error 429: 
-- search_searxng_web_all failed for biblical_languages: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for psychology_patterns: HTTP Error 429: 
-- search_searxng_web_all failed for psychology_patterns: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for psychology_patterns: HTTP Error 429: 
-- search_searxng_web_all failed for psychology_patterns: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for psychology_patterns: HTTP Error 429: 
-- search_searxng_web_all failed for psychology_patterns: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for global_text_traditions: HTTP Error 429: 
-- search_searxng_web_all failed for global_text_traditions: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for global_text_traditions: HTTP Error 429: 
-- search_searxng_web_all failed for global_text_traditions: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_searxng_web_all failed for global_text_traditions: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for technology_ethics: HTTP Error 429: 
-- search_searxng_web_all failed for technology_ethics: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for technology_ethics: HTTP Error 429: 
-- search_searxng_web_all failed for technology_ethics: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for theologians_cross_era: HTTP Error 429: 
-- search_searxng_web_all failed for theologians_cross_era: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for theologians_cross_era: name 'publication_types' is not defined
-- search_searxng_web_all failed for theologians_cross_era: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
-- search_semantic_scholar failed for theologians_cross_era: HTTP Error 429: 
-- search_searxng_web_all failed for theologians_cross_era: https://search.mdosch.de: HTTP Error 429: TOO MANY REQUESTS
+- search_arxiv failed for quantum_science_guardrails: The read operation timed out
+- search_arxiv failed for quantum_science_guardrails: The read operation timed out
+- search_arxiv failed for music_math: The read operation timed out
+- search_arxiv failed for music_math: The read operation timed out

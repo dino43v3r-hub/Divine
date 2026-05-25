@@ -1,5 +1,5 @@
 {
-  "source_count": 598,
+  "source_count": 640,
   "sources": [
     {
       "authors": [
@@ -278,6 +278,49 @@
     },
     {
       "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 234,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/018alkahf_201711",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "world_languages"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Isl \u0101 mic files. ------------------------------------------------------------------------------------------------------------------------------ This is the 18th S\u016brah (Chapter) of the Noble Qur'\u0101n - S\u016brah al-Kahf (The Cave). Revealed in Makkah - contains 110 \u0100y\u0101t (verses). Recited by Q\u0101ri; Ab\u016b Bakr ash-Shatree, with English Audio Translation (of the meanings). \u0623\u064e\u0641\u064e\u0644\u064e\u0627 \u064a\u064e\u062a\u064e\u062f\u064e\u0628\u0651\u064e\u0631\u064f\u0648\u0646\u064e \u0627\u0644\u0652\u0642\u064f\u0631\u0652\u0622\u0646\u064e \u06da \u0648\u064e\u0644\u064e\u0648\u0652 \u0643\u064e\u0627\u0646\u064e \u0645\u0650\u0646\u0652 \u0639\u0650\u0646\u062f\u0650 \u063a\u064e\u064a\u0652\u0631\u0650 \u0627\u0644\u0644\u0651\u064e\u0647\u0650 \u0644\u064e\u0648\u064e\u062c\u064e\u062f\u064f\u0648\u0627 \u0641\u0650\u064a\u0647\u0650 \u0627\u062e\u0652\u062a\u0650\u0644\u064e\u0627\u0641\u064b\u0627 \u0643\u064e\u062b\u0650\u064a\u0631\u064b\u0627 {Do they not consider the Qur'\u0101n (with care)? Had it been from other than All\u0101h (The Creato",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Al-Qur'\u0101n ul-Kareem - S\u016brah al-Kahf - #018 / Ab\u016b Bakr ash-Shatri (w/English Audio)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/018AlKahf_201711",
+      "year": null
+    },
+    {
+      "authors": [
         "Milena Ivanova"
       ],
       "automated_evidence_label": "strong_scholarly_candidate",
@@ -545,6 +588,53 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1007/s40656-025-00697-z",
       "year": "2025"
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 289,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/001alfaatiha_20140310",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "world_languages",
+        "all_texts",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- The Noble Qur'aan - \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 Qari - Waheed Zafar Qasmi Translator - Naeem Sultan Translation of the Meanings - Muhammad Marmaduke Pickthall ------------------------------------------------------------------------------------------------------------------------------------------------------- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / Koran / Recital / Revelation / Scripture / Furqan ",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Complete Quran (114 Surahs) - Waheed Zafar Qasmi (with English Audio Translation)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/001AlFaatiha_20140310",
+      "year": null
     },
     {
       "authors": [],
@@ -1075,6 +1165,48 @@
     },
     {
       "authors": [
+        "Erdt, Terrence, 1942-"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 172,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/jonathanedwardsa0000erdt",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "xiv, 123 pages ; 22 cm Jonathan Edwards has long been accorded a place in the front rank of colonial American writers; his aesthetics are now recognized as the primary characteristic of his theology; and his writings are judged worthy of extended literary analysis. Oddly, perhaps, no attempt has been made to discover if in his aesthetics Edwards attributes a particular significance to art. The discussion to follow contends that art as an instance of what he termed secondary beauty can perform a vital religious function by enabling the saint to conceive, and subsequently receive or revive, the particular emotional sensation that constitutes the religious experience - which Edwards referred to",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Jonathan Edwards, art and the sense of the heart",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/jonathanedwardsa0000erdt",
+      "year": "1980"
+    },
+    {
+      "authors": [
         "Amelia Purwandini",
         "Kadek Rudi Sanjaya"
       ],
@@ -1162,6 +1294,49 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1353/ajp.2010.a407739",
       "year": 2010
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 212,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/muslimboxers-princenaseemhamed",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Islamic Tributes Collection: Prince / Hajj Naseem Hamed. Naseem Hamed (Arabic: \u0646\u0633\u064a\u0645 \u062d\u0645\u064a\u062f, Nas\u012bm \u1e24am\u012bd; also known as Prince Naseem; born 12 February 1974) is an English former professional boxer. He is the former WBO, WBC, IBF, and Lineal featherweight champion, and European bantamweight champion. Hamed was known for his boxing antics and spectacular ring entrances that have included entering the ",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Muslim Boxers - Prince Naseem Hamed \u0627\u0644\u0623\u0645\u064a\u0631 \u0646\u0633\u064a\u0645 \u062d\u0627\u0645\u062f",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/MuslimBoxers-PrinceNaseemHamed",
+      "year": null
     },
     {
       "authors": [
@@ -1777,6 +1952,48 @@
       "year": "2022"
     },
     {
+      "authors": [
+        "uusf.org"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 172,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/uusf_org-20110313gscomplete",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "The nature san francisco god: As with jonah we again encounter a god who hears the cries of those who loved her and who responds with the nature of god.",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "The nature san francisco god",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/uusf_org-20110313GSComplete",
+      "year": "2022"
+    },
+    {
       "authors": [],
       "automated_evidence_label": "strong_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -2165,6 +2382,54 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.5167/uzh-152246",
       "year": 2010
+    },
+    {
+      "authors": [
+        "\u0645\u062c\u0645\u0648\u0639\u0629 \u0627\u0644\u0623\u0646\u0635\u0627\u0631 \u0627\u0644\u0628\u0631\u064a\u062f\u064a\u0629 \u0645\u062d\u0631\u0645 1431"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 410,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/trans21-12-2009-audio-1tape-3options",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "world_languages",
+        "biblical_languages",
+        "all_texts",
+        "deep_sources"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "The Muslim Infuence on European Civilization: [Taken from, 'The Arab's Impact on European Civilization' by Abbas Mahmoud Al-Akkad] Medicine, Science, Geography, Astronomy, Mathematics, literature, Fine arts, Music, Philosophy and Civilisation; Medicine and Science In the Odyssey Homer lauded the efficiency of the Egyptian doctor. Herodotus mentioned many times that they cured a great variety of diseases in which they specialized and excelled. He wrote once that Qorsh had invited an oculist from Egypt, and that Dara had admired and praised them very much. The Greeks know \u2018Amhoteb\u2019 father of wisdom in Old Cairo, and used to call him in their own language \u2018Amotycos\u2019. They learned from Egyptian ",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "\u0627\u0644\u0625\u0635\u062f\u0627\u0631 \u0627\u0644\u0635\u0648\u062a\u064a : [ \u0627\u0644\u0641\u0642\u064a\u0631 \u0625\u0644\u0649 \u0645\u0648\u0644\u0627\u0647: \u0623\u0628\u0648 \u0639\u0628\u062f \u0627\u0644\u0644\u0647 \u0627\u0644\u0645\u0647\u0627\u062c\u0631 \u0631\u062d\u0645\u0647 \u0627\u0644\u0644\u0647 ]",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/trans21-12-2009-audio-1tape-3options",
+      "year": null
     },
     {
       "authors": [
@@ -5071,6 +5336,95 @@
       "year": 2017
     },
     {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 6,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 221,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://guides.lib.uw.edu/c.php?g=341358&p=2303837",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "visual_art"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99991107,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "+ Buddhist Studies This link opens in a new window. + Christianity This link opens in a new window. + Islam This link opens in a new window. + Jainism This link opens in a new window. + Jewish Studies This link opens in a new window. + Sephardic Studies This link opens in a new window. Sacred texts of the world's main religions can be found in the Reference section on the first floor of the Suzzallo library (for Christianity, Islam, Judaism) and in the Suzzallo/Allen Stacks on the fourth floor (for all religions, particularly Buddhism and Hinduism). * Discovering Sacred Texts This link opens in a new window. * Internet Sacred Text Archive This link opens in a new window. * Religious Studies ",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Sacred Texts - Comparative Religion - Library Guides at University of Washington Libraries",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://guides.lib.uw.edu/c.php?g=341358&p=2303837",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 221,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://mlpp.pressbooks.pub/evcphil070/chapter/chapter-2-sacred-texts",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "visual_art"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9994684,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Start by reading this article from the New York Times: What is the Meaning of Sacred Texts? Scripture was usually sung, chanted or declaimed in a way that separated it from mundane speech, so that words \u2014 a product of the brain\u2019s left hemisphere \u2014 were fused with the more indefinable emotions of the right.\u201d. > \u201c**A work of art, be it a novel, a poem, or a Scripture, must be read according to the laws of its genre.\u201d**. Then when we look at when this story is written, we see that the people of Israel at this time are trying to become a nation like any other surrounding them, and as a people they are not following the basic commandments of their faith, nor following Yahweh as commanded in the c",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Sacred Texts \u2013 Comparative Religions",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://mlpp.pressbooks.pub/evcphil070/chapter/chapter-2-sacred-texts",
+      "year": null
+    },
+    {
       "authors": [
         "uusf.org"
       ],
@@ -5113,6 +5467,51 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/uusf_org-20111127JKComplete",
       "year": "2022"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 364,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.wycliffe.org/blog/posts/the-light-of-hope-scripture-passages-for-hard-times-1",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "pattern_tests"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.39922652,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Bible verses contain life-changing truths. Let's look at seven Scripture passages that illuminate our suffering with brilliant hope.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "The Light of Hope: 7 Scripture Passages for Hard Times",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.wycliffe.org/blog/posts/the-light-of-hope-scripture-passages-for-hard-times-1",
+      "year": null
     },
     {
       "authors": [],
@@ -5250,6 +5649,53 @@
     },
     {
       "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 249,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://journals.co.za/doi/10.18820/23099089/actat.sup32.14",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "visual_art",
+        "biblical_languages"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99938333,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "This article deals with the transformation of theology and society through biblical wisdom. The first section explores the realms of wisdom",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Transformation in the Wisdom Books of the Hebrew Bible and its ...",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://journals.co.za/doi/10.18820/23099089/actat.Sup32.14",
+      "year": null
+    },
+    {
+      "authors": [],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "scholarly metadata provider",
@@ -5378,6 +5824,52 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://doi.org/10.2307/j.ctv7vcsv2.19",
       "year": null
+    },
+    {
+      "authors": [
+        "Wavelengths: A WUU Podcast"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 221,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/wavelengths__a_wuu_podcast-wuuser1213_2020",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "visual_art"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Come listen to a WUU service! The Jewish scriptures tell the story of the prophet Elijah, who fled violence and found shelter far from home. Today, we invite his story to inspire us as we work to create safe shelter for others. Rev. Laura Horton-Ludwig, Minister Nicki Peet, Worship Associate Austen Petersen, Director of Religious Education Dave Robbins, Assistant Director of Music, Piano WUU Choir, directed by Dr. Jamie Bartlett, Director of Music Rev. Joanna Lubkin, Lighting the Chanukah Candles The YouTube version is here: https://www.youtube.com/watch?v=SdtlpaSMSq0> Thank you for listening. For more information about the Williamsburg Unitarian Universalists, or to join us on Sunday mornin",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "WUU Service - \"Refuge\" (12/13/20)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Wavelengths__A_WUU_Podcast-wuuser1213_2020",
+      "year": "2020"
     },
     {
       "authors": [
@@ -5515,6 +6007,99 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.14325/mississippi/9781496819215.003.0015",
       "year": 2018
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 396,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.dialoguejournal.com/articles/wisdom-traditions-in-the-hebrew-bible",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "biblical_languages",
+        "pattern_tests"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.4942147,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "The friends, like those in Mesopotamian texts, put forward various views from traditional theological thinking: that suffering is a just punishment for sin,",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Wisdom Traditions in the Hebrew Bible - Dialogue Journal",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.dialoguejournal.com/articles/wisdom-traditions-in-the-hebrew-bible",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 6,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 249,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.saet.ac.uk/christianity/wisdomintheoldtestament",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "visual_art",
+        "biblical_languages"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.41137156,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "This article takes a thematic approach to commonalities between the three main wisdom books in the Old Testament/Hebrew Bible (OT/HB; sections 1\u20133), and then looks briefly at apocryphal and New Testament (NT) developments (section 4). The first section covers the acquisition of wisdom; its function as teaching and character formation through proverbs, instructions, and pre-scientific listing of phenomena; the beneficial goals to be gained by adherence to wisdom in relation to life and death issues; and the importance of communication as individuals and within community. The second section looks at the divine aspect of the wisdom quest, with God as creator, and the place of woman Wisdom and w",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Wisdom in the Old Testament - St Andrews Encyclopaedia of Theology",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.saet.ac.uk/Christianity/WisdomintheOldTestament",
+      "year": null
     },
     {
       "authors": [],
@@ -6515,6 +7100,50 @@
     },
     {
       "authors": [
+        "Miami Valley Unitarian Universalist Fellowship Sermon Podcast"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 332,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/miami_valley_unitarian_univers-20260208_lament_in_a_time_of_horror_mp3",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "pattern_tests"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Recorded 2/8/26 Presider: Rev. Kellie C. Kelly Recorded via Zoom for Miami Valley UU Fellowship, Dayton OH USA",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Lament in a Time of Horror",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Miami_Valley_Unitarian_Univers-20260208_Lament_in_a_Time_of_Horror_mp3",
+      "year": "2026"
+    },
+    {
+      "authors": [
         "Schraub DH."
       ],
       "automated_evidence_label": "strong_scholarly_candidate",
@@ -7207,6 +7836,52 @@
     },
     {
       "authors": [
+        "Podcasts Archives - First Unitarian Society of Minneapolis"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 392,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/podcasts_archives___first_unitarian_society_of_minneapolis-2026_03_08_podcast",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "pattern_tests",
+        "visual_art"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "A cofounder of the Minnesota Green Party, Greta Gaard is author of Critical Ecofeminism, a book about contemporary issues from animal and plant studies to sustainability and climate justice. She is an activist and scholar with insights about the ecofeminist perspective, which recognizes the co-constitution of human identities with all life on earth: elements, species, minerals, contaminants. As she\u2026 Read More \u00bb Podcast: Global Ecofeminism(s) The post Podcast: Global Ecofeminism(s) appeared first on First Unitarian Society of Minneapolis .",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Podcast: Global Ecofeminism(s)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Podcasts_Archives___First_Unitarian_Society_of_Minneapolis-2026_03_08_Podcast",
+      "year": "2026"
+    },
+    {
+      "authors": [
         "Mary Watkins"
       ],
       "automated_evidence_label": "strong_scholarly_candidate",
@@ -7649,6 +8324,47 @@
       "title": "VOA [Voice of America] Global English : June 10, 2020 02:00PM-03:00PM EDT",
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/VOA_Global_English_20200610_180000",
+      "year": "2020"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 332,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_global_english_20200527_160000",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "pattern_tests"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:09 Live. 00:00:19 This is video 00:00:20 a new that's very remote that the worldwide death toll from the covert 19 pandemic 00:00:26 has surpassed 350000 this as Brazil has emerged as 00:00:31 a major source of concern trailing only the United States in the number of 00:00:35 infections on Tuesday the South American nation reported the most single day deaths 00:00:41 in the world India posted its record high of 6000 new cases Wednesday pushing its 00:00:48 total above 150000 Mexico also reported troubling escalations in its corona 00:00:55 virus outbreak with 00:00:56 a new high of 501 deaths and more than 3400 new confirmed cases 00:01:03 like many governme",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "VOA [Voice of America] Global English : May 27, 2020 12:00PM-01:00PM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Global_English_20200527_160000",
       "year": "2020"
     },
     {
@@ -10001,6 +10717,50 @@
     },
     {
       "authors": [
+        "James Q. Feng"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 256,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/arxiv-1209.3767",
+      "layer_review_prompts": [
+        "Check musical structure directly before using it as analogy or theological support.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "music_notes",
+        "deep_sources",
+        "visual_art"
+      ],
+      "primary_layer": "music_notes",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "To many people, music is a mystery. It is uniquely human, because no other species produces elaborate, well organized sound for no particular reason. It has been part of every known civilization on earth. It has become a very part of man's need to impose his will upon the universe, to bring order out of chaos and to endow his moments of highest awareness with enduring form and substance. It is a form of art dealing with the organization of tones into patterns. Despite of cultural differences, music from different civilizations seems to consist of some building blocks that are universal: melody, harmony, rhythm, etc. Almost all musical systems are based on scales spanning an octave---the note",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Music in Terms of Science",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/arxiv-1209.3767",
+      "year": "2012"
+    },
+    {
+      "authors": [
         "Tsai CG."
       ],
       "automated_evidence_label": "strong_scholarly_candidate",
@@ -11502,6 +12262,52 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 368,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp05-01559r000400430031-4",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "pattern_tests",
+        "visual_art"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Q#+D rT\" r- f . I ~ I r \" 0, - 0V 0, r N. kzj . &., d6- - - W -,,# a Declassified and Approved For Release 2012/02/02 CIA-RDP05-01559R000400430031-4 ./dyW FBIS-NES-88-087 5 May 1988 Sudan, and the role played by French forces in support- ing the agent Habre's gangsters in their aggression on the southern part of the Great Jamahiriyah. While the Great Socialist People's Libyan Arab Jamahi- riyah strongly condemns this colonialist logic, which is opposed to the freedom of history, it retains the right to defend itself against any threat that may result from the presence of imperialist military bases near its interna- tional border.' French Envoy Summoned, LD0405182488 Tripoli JANA in Arabic 17",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "CIA Reading Room cia-rdp05-01559r000400430031-4: AL-QADHDHAFI SPEAKS TO BASIC PEOPLE'S CONGRESS",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp05-01559r000400430031-4",
+      "year": "1988"
+    },
+    {
+      "authors": [
+        "CIA Reading Room"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
       "corroborating_source_count": 373,
       "date_accessed": "2026-05-25",
       "doi": "",
@@ -11625,6 +12431,50 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1080/1462317x.2016.1270073",
       "year": 2017
+    },
+    {
+      "authors": [
+        "The Beneficial Principles In Tawheed, Fiqh, & 'Aqeedah - Abuu Rizq Mundhir Ibn Muhammad"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 337,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/the_beneficial_principles_in_t-christian_talk_that_rocks_with_richie_l_ep_7_8_20",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "pattern_tests"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "New Time! On today's show, 1:06pm CT, 2:06pm ET: School Daze: NEA teachers union spending 140K for 'enemies list' opposition research of groups turning up heat on schools - Youth 'community organizer' drag queen charged with 25 child porn counts - Accused of obtaining dozens of videos of underage boys performing sex acts - Do K-12 students deserve to inherit an American birthright? - we'll explore. Roe Rage: Protesters force a Supreme Court Justice to flee D.C. Restaurant - Sen. Elizabeth Warren calls for crackdown on crisis pregnancy centers - Constitutional Professor Jonathan Turley takes aprt Biden abortion executive orders we'll examine. Plus, prosperity preacher Creflo Dollar admits his",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "Christian Talk That Rocks with Richie L. Ep. 7/8/2022",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/The_Beneficial_Principles_In_T-christian_talk_that_rocks_with_richie_l_ep_7_8_20",
+      "year": "2022"
     },
     {
       "authors": [
@@ -12846,6 +13696,50 @@
     },
     {
       "authors": [
+        "uusf.org"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 337,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/uusf_org-20120205sfsermon",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "pattern_tests"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "The rochester first unitarian church sophia church: The call to worship need road building your own theology and the great social activist 33 years minister of the rochester first unitarian church.",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "The rochester first unitarian church sophia church",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/uusf_org-20120205SFSermon",
+      "year": "2022"
+    },
+    {
+      "authors": [
         "Unitarian Universalist Society of Oneonta, NY"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
@@ -12933,47 +13827,6 @@
       "truth_assessment": "weak_scholarly_candidate",
       "url": "https://archive.org/details/Auckland_Unitarian_Church___Love_beyond_belief-20220717_RevClayNelson_Unconstrai",
       "year": "2022"
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 337,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20200515_220000",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "pattern_tests"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 Didn't says it's unlike anything the nation has seen since the Manhattan Project 00:00:04 it's aimed at having 300000000 vaccine doses in stock by January which even 00:00:10 National Institutes of Health Director Francis Collins tells the 8 key is 00:00:14 a stretch goal if there ever was one way outstripping ever been done and it could 00:00:20 waste millions of shots and 00:00:22 a lot of money if the vaccines chosen for production don't pan out the president 00:00:27 believes they will by year's end when a vaccine is ready the u.s. 00:00:30 Government will deploy every playing truck in Soldier required to help this tribute 00:00:35 it solder Magni Was",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "VOA [Voice of America] Global English : May 15, 2020 06:00PM-07:00PM EDT",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20200515_220000",
-      "year": "2020"
     },
     {
       "authors": [],
@@ -13102,6 +13955,54 @@
     },
     {
       "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 392,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20221211vrscomplete",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "pattern_tests",
+        "theologians",
+        "visual_art"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\u201cWhat I want for Christmas?\u201d Sunday, December 11, 10:50 am, Worship Service Livestream Cleaning out a box of old papers, the other day, I came across a chapter -- part of a chapter -- of a book from Theologian Stanley Hauerwas that felt very current. It was about the \"wanting\" at the center of our lives. Rev. Vanessa Rush Southern, Senior Minister; Sam King, Worship Associate; Larry Chinn, Jazz Pianist; Laurel Sprigg, Soprano; Ben Rudiak-Gould, Songleader Shulee Ong, Camera; Eric Shackelford, Camera; Jonathan Silk, Communications Director; Joe Chapot, Live Chat Moderator; Thomas Brown, Sexton; DeAndre Smith, Sexton; Carrie Steere-Salazar, Flowers; Linda Messner, Head Usher",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "What I want for Christmas?",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20221211VRSComplete",
+      "year": "2022"
+    },
+    {
+      "authors": [
         "Shaheen S",
         "Ghaly M."
       ],
@@ -13151,6 +14052,48 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.3389/fgene.2026.1716793",
       "year": "2026"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 337,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_global_english_20200515_220000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "pattern_tests"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 Didn't says it's unlike anything the nation has seen since the Manhattan Project 00:00:04 it's aimed at having 300000000 vaccine doses in stock by January which even 00:00:10 National Institutes of Health Director Francis Collins tells the 8 key is 00:00:14 a stretch goal if there ever was one way outstripping ever been done and it could 00:00:20 waste millions of shots and 00:00:22 a lot of money if the vaccines chosen for production don't pan out the president 00:00:27 believes they will by year's end when a vaccine is ready the u.s. 00:00:30 Government will deploy every playing truck in Soldier required to help this tribute 00:00:35 it solder Magni Was",
+      "tags": [
+        "politics_justice",
+        "technology_ethics"
+      ],
+      "title": "VOA [Voice of America] Global English : May 15, 2020 06:00PM-07:00PM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Global_English_20200515_220000",
+      "year": "2020"
     },
     {
       "authors": [
@@ -13331,6 +14274,52 @@
       "title": "A Cognitive Psychological Account of Reasoning about Ritual Efficacy",
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://doi.org/10.5040/9781474223812.ch-005",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 6,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 417,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://pmc.ncbi.nlm.nih.gov/articles/pmc10077305",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "human_stories",
+        "pattern_tests",
+        "visual_art",
+        "all_texts"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9953181,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "This article posits a strength-based approach to trauma that contextualizes our societal negativity bias within spiritual values of hope, (post-traumatic)",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "A Theoretical and Theological Reframing of Trauma - PMC",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10077305",
       "year": null
     },
     {
@@ -13573,6 +14562,51 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1111/1468-5914.00119",
       "year": 2000
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 365,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.familytransformation.com/2020/12/20/counseling-reflections-on-attachment-spirituality-and-trauma",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "human_stories",
+        "pattern_tests",
+        "all_texts"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99899954,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "In my experience, as reinforced by my research, a healthy attachment to a higher power (i.e., God) helps us heal from trauma. Then, an impact of",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Counseling Reflections on Attachment, Spirituality, and Trauma",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.familytransformation.com/2020/12/20/counseling-reflections-on-attachment-spirituality-and-trauma",
+      "year": null
     },
     {
       "authors": [
@@ -14361,6 +15395,49 @@
     },
     {
       "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 296,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.psychologytoday.com/us/blog/navigating-the-serpentine-path/202603/religious-trauma-attachment-and-leaving-faith",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "human_stories",
+        "pattern_tests"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9996923,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "# Religious Trauma, Attachment, and Leaving Faith. ## How faith functions as an attachment system, and what happens when it dissolves. * Religious trauma is often an attachment wound, not just a crisis of belief. * Religious trauma disrupts internal models of love and belonging, making the process feel like relational loss. * Love after religious trauma becomes organized less around certainty and more around authentic relationships. In clinical work, it becomes clear that for those who have experienced religious trauma, faith often functions as an attachment system, unconsciously organizing belonging, safety, and love. In more rigid or moralized religious environments, faith can become organ",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Religious Trauma, Attachment, and Leaving Faith | Psychology Today",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.psychologytoday.com/us/blog/navigating-the-serpentine-path/202603/religious-trauma-attachment-and-leaving-faith",
+      "year": null
+    },
+    {
+      "authors": [],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "scholarly metadata provider",
@@ -14682,6 +15759,53 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.3390/rel2010051",
       "year": 2011
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 431,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.youtube.com/watch?v=k68lan2ebx0",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "human_stories",
+        "pattern_tests",
+        "all_texts",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.60498303,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "... identity, to establish transformation, and more! John is truly ... Meet the music reviewer community.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "The Cognitive Science of Ritual - with John Vervaeke - YouTube",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.youtube.com/watch?v=k68laN2EBX0",
+      "year": null
     },
     {
       "authors": [],
@@ -15252,6 +16376,98 @@
       "year": "2026"
     },
     {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 6,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 412,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://ora.ox.ac.uk/objects/uuid:e6766b6c-b4e9-4ee4-8a14-fcebd20def99/files/r6w924d492",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "human_stories",
+        "pattern_tests",
+        "visual_art",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.5084226,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Thomas Lawson, Robert McCauley & Harvey Whitehouse (16 Jul 2025): The cognitive science of religion: past, present, and possible futures, Religion, Brain & Behavior, DOI: 10.1080/2153599X.2025.2474404 To link to this article: https://doi.org/10.1080/2153599X.2025.2474404 \u00a9 2025 The Author(s). Origins of the cognitive science of religion More than thirty years ago, a small group of scholars from different fields sought to rescue the aca\u00ad demic study of religion from interpretive exclusivism \u2013 the dogma that culture in general, and reli\u00ad gion in particular, is an autonomous domain that can only be studied on its own terms (Lawson & McCauley, 1990; McCauley & Lawson, 1996). This group of schola",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "[PDF] The cognitive science of religion: past, present, and possible futures",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://ora.ox.ac.uk/objects/uuid:e6766b6c-b4e9-4ee4-8a14-fcebd20def99/files/r6w924d492",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 6,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 431,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.saet.ac.uk/christianity/theologyandthecognitivescienceofreligion.pdf",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "human_stories",
+        "pattern_tests",
+        "all_texts",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.6659544,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Keywords: Cognition, Psychology, Cognitive science, Cognitive science of religion, Psychology of religion, Theology and science 1 Table of contents 1 Cognitive science of religion 1.1 Overview 1.1.1 Cognitive science 1.1.2 Application to religion 1.2 Supernatural beings 1.2.1 Agency detection 1.2.2 Theory of mind 1.2.3 Application to Christian theology and practice 1.3 Design and origin of the world 1.3.1 Teleological reasoning 1.3.2 Application to Christian theology and practice 1.4 Death and afterlife 1.4.1 Intuitive dualism 1.4.2 Application to Christian theology and practice 1.5 Rituals 1.5.1 Ritual form hypothesis 1.5.2 Divergent modes of religiosity theory 1.5.3 Application to Christia",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "[PDF] Theology and the Cognitive Science of Religion",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.saet.ac.uk/Christianity/TheologyandtheCognitiveScienceofReligion.pdf",
+      "year": null
+    },
+    {
       "authors": [
         "VoltAgent"
       ],
@@ -15293,6 +16509,50 @@
       "title": "github.com-VoltAgent-awesome-openclaw-skills_-_2026-03-11_10-04-34",
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/github.com-VoltAgent-awesome-openclaw-skills_-_2026-03-11_10-04-34",
+      "year": "2026"
+    },
+    {
+      "authors": [
+        "VoltAgent"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 296,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/github.com-voltagent-awesome-openclaw-skills_-_2026-03-12_11-15-34",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "human_stories",
+        "pattern_tests"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org software",
+      "summary": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.\ud83e\udd9e Discover 5490+ community-built OpenClaw skills, organized by category. [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Skills Count](https://img.shields.io/badge/skills-5494-blue?style=flat-square)](#table-of-contents)[![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-clawdbot-skills?label=Last%20update&style=flat-square)](https://github.com/VoltAgent/awesome-clawdbot-skills/pulls?q=is%3Apr+is%3Amerged+sort%3Aupdated-desc)[![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "github.com-VoltAgent-awesome-openclaw-skills_-_2026-03-12_11-15-34",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/github.com-VoltAgent-awesome-openclaw-skills_-_2026-03-12_11-15-34",
       "year": "2026"
     },
     {
@@ -15947,6 +17207,48 @@
       "year": "1976"
     },
     {
+      "authors": [
+        "CIA Reading Room"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 358,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r002200400001-3",
+      "layer_review_prompts": [
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "deep_sources",
+        "pattern_tests"
+      ],
+      "primary_layer": "deep_sources",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "CIVI'7NIVl~GI! nurvw~v ~ ENHANCED HUMAN ` INVESTIGATIONS (U) \\ ~ v ^ u .. -.__._.. _. I / ~ . 1~ NOT RELEASABLE TO FOREIGN NATIONALS Approved ~~~;f~~s~7~8~/?B~T~C~A~~P96-007898002200400001-3 roved For Release 2000/08/08 :CIA-HtDP96-007898002200400001-3 FJna1 Report . _ _ Covering the Period November 1983 to October 1985 PERFORMANCE Approved For Releas 08/08 :CIA-RDP96-007898002200400001-3 a- I. (U) Objective ~'---_ (U) The objective of this program was to provide an overview of the eurre?~ _~ psychoenergetics research and, based upon this assessment, to recommend avenues of approach for future investigations. II. (U) Background (U) Psychoenergetic research can be divided into two major areas",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "CIA Reading Room cia-rdp96-00789r002200400001-3: ENHANCED HUMAN PERFORMANCE",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r002200400001-3",
+      "year": "1998"
+    },
+    {
       "authors": [],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -16072,6 +17374,49 @@
     },
     {
       "authors": [
+        "\u041e\u043c\u0435\u043b\u044c\u044f\u043d\u043e\u0432\u0441\u043a\u0438\u0439, \u041c\u0438\u0445\u0430\u0438\u043b \u042d\u0440\u0430\u0437\u043c\u043e\u0432\u0438\u0447",
+        "Creighton, H. Campbell, tr."
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 358,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/omelyanovsky-m.-e.-dialectics-in-modern-physics",
+      "layer_review_prompts": [
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "deep_sources",
+        "pattern_tests"
+      ],
+      "primary_layer": "deep_sources",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Ed. by H. C. Creighton. \u2014 Moscow: Progress Publishers, 1979. \u2014 387 p. Contents Preface to the english edition Preface to the russian edition Dialectical materialism in modern physics The Problem of Objective Reality in Quantum Theory The Methodological Significance of the Idea of Objective Reality in Physics Observation, Complementarity, and Dialectics The Philosophical Evolution of the Copenhagen School Physical Reality Can We Form Mental Pictures of the Concepts and Theories of Modern Physics? The Principle of Observability in Modern Physics Formulation of the Question. The Significance or Meaning of 'Observability' What Is an Observable (or a Non-observable)? The Heuristic Role of the Obs",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Dialectics in Modern Physics",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/omelyanovsky-m.-e.-dialectics-in-modern-physics",
+      "year": "1979"
+    },
+    {
+      "authors": [
         "Stefano Dorian Franco"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
@@ -16162,6 +17507,52 @@
       "title": "Expressive Field Theory (EFT): A Unified Framework for Emergent Time, the Dark Sector, and Quantum Uncertainty",
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/osf-registrations-a672u-v1",
+      "year": "2025"
+    },
+    {
+      "authors": [
+        "Jungsik Yoo"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 411,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/osf-registrations-x385s-v1",
+      "layer_review_prompts": [
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Separate psychological/social process from theological interpretation and note clinical limits."
+      ],
+      "layer_routes": [
+        "deep_sources",
+        "pattern_tests",
+        "visual_art",
+        "psychology_inputs"
+      ],
+      "primary_layer": "deep_sources",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org data",
+      "summary": "Expressive Field Theory (EFT): A Unified Framework for Emergent Time, the Dark Sector, and Quantum Uncertainty Author: Jungsik Yoo, D.O. ORCID: https://orcid.org/0009-0008-1337-9802 Date: November 11, 2025 Abstract This paper establishes the canonical theoretical framework of the Expressive Field Theory (EFT), which defines time not as a coordinate but as a physical field emerging from the divergence of a causal-expression current: \u03c4 = \u2202\u03bcJ\u1d9c\u03bc. Starting from six axioms, EFT derives a unified stress\u2013force identity (\u2202\u03bdT\u03bc\u03bd(\u03d5) = \u03c4P\u03bc) and demonstrates full self-consistency as an open-system field theory. This formulation unifies the foundations of quantum mechanics, general relativity, and thermody",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Expressive Field Theory (EFT): A Unified Framework for Emergent Time, the Dark Sector, and Quantum Uncertainty",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/osf-registrations-x385s-v1",
       "year": "2025"
     },
     {
@@ -17360,6 +18751,50 @@
     },
     {
       "authors": [
+        "SyllabuswithRohit"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 425,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/youtube-4iqs1loenmw",
+      "layer_review_prompts": [
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
+      ],
+      "layer_routes": [
+        "deep_sources",
+        "pattern_tests",
+        "world_languages"
+      ],
+      "primary_layer": "deep_sources",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "A slim, lyrical tour of modern physics for non-specialists. Rovelli uses plain metaphors to sketch our best ideas about space, time, matter, and us\u2014without equations. The Most Beautiful of Theories (General Relativity) Space and time aren\u2019t a fixed stage; they\u2019re flexible. Mass and energy bend spacetime, and that curvature tells matter how to move\u2014gravity is geometry, not an invisible pull. Quanta (Quantum Theory) At tiny scales, nature comes in discrete packets (quanta). Outcomes are inherently probabilistic and depend on interactions\u2014what exists is best understood through how things affect each other, not as isolated essences. The Architecture of the Cosmos (Cosmology) The universe evolves",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Seven Brief Lessons on Physics",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/youtube-4iqs1LoEnmw",
+      "year": "2025"
+    },
+    {
+      "authors": [
         "Enzo Tiezzi"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
@@ -17400,6 +18835,48 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "http://cds.cern.ch/record/2303804",
       "year": 2006
+    },
+    {
+      "authors": [
+        "Bezverkhniy Volodymyr Dmytrovych"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 358,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/structure-of-the-benzene-molecule-on-the-basis-of-the-three-electron-bond",
+      "layer_review_prompts": [
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "deep_sources",
+        "pattern_tests"
+      ],
+      "primary_layer": "deep_sources",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "The present work shows the inapplicability of the Pauli principle to chemical bond, and a new theoretical model of the chemical bond is proposed based on the Heisenberg uncertainty principle. See pp. 88 - 104 Review (135 pages, full version). Benzene on the Basis of the Three-Electron Bond. (The Pauli exclusion principle, Heisenberg's uncertainty principle and chemical bond). http://vixra.org/pdf/1710.0326v3.pdf Notes on the chemical bond. If we analyze the formation of the chemical bond (one-electron, many-electron) strictly theoretically, then it is difficult to understand the cause of the formation of the chemical bond. There are several problems here: 1. When a chemical bond is formed, w",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Structure of the benzene molecule on the basis of the three-electron bond.",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/structure-of-the-benzene-molecule-on-the-basis-of-the-three-electron-bond",
+      "year": "2009"
     },
     {
       "authors": [
@@ -19990,6 +21467,86 @@
       "year": 2024
     },
     {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 356,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_global_english_20200226_160000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "pattern_tests",
+        "visual_art"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 And we've got to do is restore the credibility of the United States. Senator any 00:00:06 closer char touted herself as 00:00:08 a lawmaker who gets things done and courting to Vanderbilt University in Tennessee 00:00:13 last Congress I was the most effective Democrat in the u.s. 00:00:16 Senate and 15 metrics Bernie and Elizabeth were in the bottom half she also noted 00:00:22 that she backs lifting the u.s. 00:00:24 Trade embargo on Cuba they like America they want to be entrepreneurs and the way 00:00:29 that we embrace them and not the socialist regime is by opening up Cuba and 00:00:35 starting to do business with them former Vice President Joe Biden",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "VOA [Voice of America] Global English : February 26, 2020 11:00AM-12:00PM EST",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Global_English_20200226_160000",
+      "year": "2020"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 324,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_global_english_20200504_160000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "pattern_tests"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:08 This is v.o.a. 00:00:10 News the file from oh I'm Diane Roberts Globally there are more than 3500000 00:00:15 confirmed coronavirus cases and nearly 250000 people have died from code 19 more 00:00:22 people have died in the United States than anywhere else with nearly $70000.00 00:00:26 deaths out of more than $1100000.00 confirmed cases Italy is among the countries 00:00:32 easing social distancing restrictions Monday including reopening factories 00:00:37 construction sites hairdressers and libraries other countries reopening include 00:00:41 Germany Spain Nigeria Malaysia and Lebanon in Spain some small businesses such as 00:00:47 hairdressers can reop",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "VOA [Voice of America] Global English : May 04, 2020 12:00PM-01:00PM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Global_English_20200504_160000",
+      "year": "2020"
+    },
+    {
       "authors": [
         "Wendy H. Wong"
       ],
@@ -21500,6 +23057,98 @@
     },
     {
       "authors": [
+        "Restitutio"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 392,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/restitutio-495_early_church_history_13_trinity_controversy_in_the_fourth_century",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "pattern_tests",
+        "visual_art",
+        "history_inputs"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "This is part 13 of the Early Church History class . Between the year 325 and 381 titanic shifts occurred that changed Christianity forever. Rather than ending conflict and ushering in a golden era of lasting peace, Constantine's Council of Nicea ignited a theological civil war within Christianity that raged for six more decades. In today's episode you'll learn about the struggle over Christology that eventually ended with the emperor Theodosius endorsing the trinitarian creed of Constantinople in 381. Rather than sugarcoating this tumultuous period, my hope is to relentlessly tell the truth in hopes that you can draw your own conclusions. Listen to this episode on Spotify or Apple Podcasts h",
+      "tags": [
+        "trinity"
+      ],
+      "title": "495 Early Church History 13: Trinity Controversy in the Fourth Century",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Restitutio-495_early_church_history_13_trinity_controversy_in_the_fourth_century",
+      "year": "2023"
+    },
+    {
+      "authors": [
+        "Unitarian Christian Alliance"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 312,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/unitarian_christian_alliance-uca_55_meant_to_be_understood___tom_huszti",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "pattern_tests"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "A life of tepid Trinitarianism takes a lurch, a pause, and then a burst of clarifying realization. RESOURCES 49. The Eventgelist - Amanda Dunn Genesis 18 - The three angels Al Garza's books Tim Mackie - The BibleProject Podcast Colossians 1:16 - Image of the invisible God Mark 12:28 - Jesus declares the Shema Acts 2:22-36 - Peter's inspired sermon UCA Events EPISODE INDEX (04:29) The Interview (05:50) Desiring to help a theological situation (07:16) The Three God theory (08:25) Podcasting opportunities (09:28) BibleProject, image bearer (12:33) The son of Man's teaching (15:15) The Jewish tour guide (17:07) The Jewish concept of Messiah (18:27) Sermons in Acts (22:14) Meaning given to all Sc",
+      "tags": [
+        "trinity"
+      ],
+      "title": "55. Meant to Be Understood - Tom Huszti",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Unitarian_Christian_Alliance-UCA_55_Meant_To_Be_Understood___Tom_Huszti",
+      "year": "2022"
+    },
+    {
+      "authors": [
         "Unitarian Christian Alliance"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
@@ -21595,6 +23244,100 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.3389/fpsyg.2025.1587704",
       "year": "2025"
+    },
+    {
+      "authors": [
+        "UU Los Alamos"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 380,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/uu_los_alamos-20210411_becoming_how_it_started",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "pattern_tests",
+        "visual_art"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "As a people of faith, we are formed by the dreams and convictions of those who came before us. What threads have we inherited, and which shall we carry forward?",
+      "tags": [
+        "trinity"
+      ],
+      "title": "Becoming: How It Started\u2026",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/UU_Los_Alamos-20210411_Becoming_How_It_Started",
+      "year": "2021"
+    },
+    {
+      "authors": [
+        "Tomeo, Teresa, author"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 441,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/beyondmemyselfie0000tome",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "pattern_tests",
+        "visual_art",
+        "all_texts"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "x, 149 pages ; 22 cm \"You might not know it by observing popular media, but the world does not revolve around \"me, my selfie and I\". Teresa Tomeo believes \"selfie culture\" represents a society that is losing touch with its humanity. In Beyond Me, My Selfie and I, she offers real ways to rebel against the narcissism of modern life and rediscover our relationship with each other, the beauty of nature--and, most importantly, God. Tomeo examines teachings and Scripture passages about self-centeredness versus other-centeredness. She's also gathered practical advice from a number of media experts on how to find balance when it comes to selfies and other media activities. Tomeo makes the case for \"",
+      "tags": [
+        "trinity"
+      ],
+      "title": "Beyond me, my selfie, & I : finding real happiness in a self-absorbed world",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/beyondmemyselfie0000tome",
+      "year": "2016"
     },
     {
       "authors": [],
@@ -22313,6 +24056,50 @@
     },
     {
       "authors": [
+        "UUABQ Voice"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 312,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/uuabq_voice-hyperdeck_2307301018_0001",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "pattern_tests"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "How many kinds of Christianity are there and why are there so many? What do they have in common and where do they differ? A sermon about the religion we probably think we know best.",
+      "tags": [
+        "trinity"
+      ],
+      "title": "July 30, 2023 \u201dChristianities\u201d The Rev. Angela Herrera",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/UUABQ_Voice-HyperDeck_2307301018_0001",
+      "year": "2023"
+    },
+    {
+      "authors": [
         "Crofts AR."
       ],
       "automated_evidence_label": "strong_scholarly_candidate",
@@ -22359,6 +24146,52 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1002/cplx.20180",
       "year": "2007"
+    },
+    {
+      "authors": [
+        "peoria UU church"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 380,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/peoria_uu_church-sermon_2021_11_14",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "pattern_tests",
+        "visual_art"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Many of us cite the seven principles of Unitarian Universalism as a core expression of our shared values. From we covenant to promote the inherent worth and dignity of every person to the interdependent web of existence of which we are a part, living those principles is a daily challenge. But where did they come from? While our larger UU world considers revising these principles, how did they come to us in the first place?",
+      "tags": [
+        "trinity"
+      ],
+      "title": "On Principle",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/peoria_UU_church-Sermon_2021_11_14",
+      "year": "2021"
     },
     {
       "authors": [
@@ -23356,6 +25189,52 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1163/9789004266032_007",
       "year": 1971
+    },
+    {
+      "authors": [
+        "Heiser, Michael S., author"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 380,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/unseenrealmrecov0000heis",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "pattern_tests",
+        "visual_art"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "1 online resource (413 pages) : The psalmist declared that God presides over an assembly of divine beings (Psa. 82:1). Who are they? What does it mean when those beings participate in God's decisions (1 Kings 22:19-23)? Why wasn't Eve surprised when the serpent spoke to her? Why are Yahweh and his Angel fused together in Jacob's prayer (Gen. 48:15-16)? How did descendants of the Nephilim (Gen. 6:4) survive the flood (Num. 13:33)? What are we to make of Peter and Jude's belief in imprisoned spirits (2 Pet. 2:4; Jude 6)? Why does Paul describe evil spirits in terms of geographical rulership (thrones, principalities, rulers, authorities)? Who are the \"glorious ones\" that even angels dare not re",
+      "tags": [
+        "trinity"
+      ],
+      "title": "The unseen realm : recovering the supernatural worldview of the Bible",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/unseenrealmrecov0000heis",
+      "year": "2015"
     },
     {
       "authors": [
@@ -27171,5 +29050,5 @@
       "year": 2014
     }
   ],
-  "updated_at": "2026-05-25T15:35:49.500169+00:00"
+  "updated_at": "2026-05-25T16:04:08.683628+00:00"
 }
