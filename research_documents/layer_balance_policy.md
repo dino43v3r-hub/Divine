@@ -43,7 +43,7 @@ counterargument, unresolved suffering, science overclaim, or discernment risk.
 
 ## Promotion Rule
 
-A claim cannot be promoted to strong evidence if its supporting layers are
+A claim cannot be promoted to reviewed evidence if its supporting layers are
 unbalanced. It must have at least one source-specific note from the relevant
 underrepresented lane, or it stays at `limited_christian_signal`,
 `shared_human_pattern`, or `research_question_only`.

@@ -1,86 +1,148 @@
 Top Five Divine Pattern Families Report
 ======================================
 
+Plain-Language Reading
+----------------------
+The project is no longer asking for one dominant pattern to explain everything.
+It is comparing five candidate pattern families and asking which ones remain faithful, useful, and honest when they face suffering, other traditions, science limits, language context, history, and daily life.
+
 Purpose
 -------
 This report prevents the project from showing only one dominant pattern.
-Each family is a research hypothesis with its own support, limits, and pressure tests.
+Each family is a research hypothesis with its own support, limits, practical uses, and pressure tests.
+High signal means repeated internal support in the corpus; it does not mean proof.
 
 Top Five Pattern Families
 -------------------------
 
 1. Image Of God Pattern
 -----------------------
-Status: strong candidate
-Layer signal total: 16,922
+Status: high internal signal; not proof
+Layer signal total: 16,996
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 5,562 (strong signal)
-- Meaning And Logos: 6,689 (strong signal)
-- Moral Response: 2,885 (strong signal)
-- Worship And Community: 1,786 (strong signal)
+- Life And Consciousness: 5,579 (high internal signal)
+- Meaning And Logos: 6,712 (high internal signal)
+- Moral Response: 2,898 (high internal signal)
+- Worship And Community: 1,807 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
 2. Cross And Reversal Pattern
 -----------------------------
-Status: strong candidate
-Layer signal total: 12,364
+Status: high internal signal; not proof
+Layer signal total: 12,430
 Layers present: 3/3
 Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
 Layer support:
-- Meaning And Logos: 6,689 (strong signal)
-- Moral Response: 2,885 (strong signal)
-- Transformation: 2,790 (strong signal)
+- Meaning And Logos: 6,712 (high internal signal)
+- Moral Response: 2,898 (high internal signal)
+- Transformation: 2,820 (high internal signal)
 Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
 Risk to avoid: Do not romanticize suffering or ignore injustice.
 
 3. Providence And Contingency Pattern
 -------------------------------------
-Status: promising candidate
-Layer signal total: 14,906
+Status: well-represented hypothesis; needs review
+Layer signal total: 14,963
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 2,556 (strong signal)
-- Quantum Probability: 99 (early signal)
-- Life And Consciousness: 5,562 (strong signal)
-- Meaning And Logos: 6,689 (strong signal)
+- Physical Order: 2,569 (high internal signal)
+- Quantum Probability: 103 (early signal)
+- Life And Consciousness: 5,579 (high internal signal)
+- Meaning And Logos: 6,712 (high internal signal)
 Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
 Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
 
 4. Trinity-As-Behavior Pattern
 ------------------------------
-Status: strong candidate
-Layer signal total: 12,035
+Status: high internal signal; not proof
+Layer signal total: 12,101
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 2,556 (strong signal)
-- Meaning And Logos: 6,689 (strong signal)
-- Transformation: 2,790 (strong signal)
+- Physical Order: 2,569 (high internal signal)
+- Meaning And Logos: 6,712 (high internal signal)
+- Transformation: 2,820 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
 Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
 
 5. Creation-To-Consciousness Pattern
 ------------------------------------
-Status: strong candidate
-Layer signal total: 12,789
+Status: high internal signal; not proof
+Layer signal total: 12,853
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 2,556 (strong signal)
-- Life And Consciousness: 5,562 (strong signal)
-- Moral Response: 2,885 (strong signal)
-- Worship And Community: 1,786 (strong signal)
+- Physical Order: 2,569 (high internal signal)
+- Life And Consciousness: 5,579 (high internal signal)
+- Moral Response: 2,898 (high internal signal)
+- Worship And Community: 1,807 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
+
+Top-Five Pattern Competition
+----------------------------
+The top five should compete under pressure before being merged into one master pattern.
+Current pressure-test material is most concentrated in: Suffering Without Resolution (41), Injustice And Corruption (39), Practical Case Study (30), Disconfirming Failure Condition (30), Science Guardrail (25).
+
+1. Image Of God Pattern
+- Best use: connects mind, symbol, moral agency, relationship, dignity, and worship.
+- Hardest pressure: disability, dementia, trauma, oppression, and intelligence-reduction tests.
+- Weakens if: the image of God is collapsed into ability, status, or intelligence.
+- Practical check: treat every person as bearing dignity before performance or usefulness.
+
+2. Cross And Reversal Pattern
+- Best use: faces power, suffering, mercy, forgiveness, resurrection hope, and reversal.
+- Hardest pressure: unresolved suffering, injustice, violence, and romanticized suffering tests.
+- Weakens if: it asks people to accept harm instead of seeking truth and justice.
+- Practical check: choose humility, truth, forgiveness with boundaries, and hope without denial.
+
+3. Providence And Contingency Pattern
+- Best use: studies a world that is ordered yet historically open and contingent.
+- Hardest pressure: evil, chance, failed prediction, and no-visible-repair tests.
+- Weakens if: providence is reduced to prediction or control of every event.
+- Practical check: act faithfully in uncertainty without pretending to know every cause.
+
+4. Trinity-As-Behavior Pattern
+- Best use: keeps creation, redemption, and transformation relational and practical.
+- Hardest pressure: Trinitarian doctrine, other religious comparison, and spiritual misuse tests.
+- Weakens if: Father, Son, and Holy Spirit become symbols rather than persons.
+- Practical check: receive life, follow Christ, and seek Spirit-led transformation in community.
+
+5. Creation-To-Consciousness Pattern
+- Best use: connects creation, life, personhood, responsibility, and worship.
+- Hardest pressure: evolution, suffering, disability, consciousness, and image-of-God reduction tests.
+- Weakens if: it implies a simple ladder from physics to worship.
+- Practical check: honor embodied life, dignity, vocation, and stewardship in ordinary choices.
+
+Cautious Confidence Language
+----------------------------
+- high internal signal: the current corpus strongly repeats the pattern, but it is still not proof.
+- well-represented hypothesis: the pattern has broad source coverage and should now face source review and counter-readings.
+- early complete hypothesis: every required layer appears, but the weakest layer is still thin.
+- partial hypothesis: some layers appear and others are missing, so synthesis must wait.
+- reviewed evidence: source-specific support has been checked against counterarguments and lane balance.
+- discernment question: useful for prayer, pastoral reflection, and communal testing, but not a conclusion.
+- analogy only: illuminating comparison that cannot carry proof-level weight.
+
+Practical Theology Use
+----------------------
+A divine pattern becomes useful only when it helps people love God and neighbor truthfully in ordinary life.
+Practice loop:
+- Notice: attend to the actual situation before explaining it.
+- Name: tell the truth about gift, harm, longing, beauty, sin, or suffering.
+- Discern: test the possible meaning with scripture, community, reason, prayer, and counter-readings.
+- Practice: choose a small embodied act of repentance, repair, service, worship, courage, or care.
+- Review: look for fruit over time: love, truth, humility, justice, patience, and hope.
+Use it for family conflict, work, grief, spiritual gifts, interreligious encounter, justice, creativity, and pattern perception; review the fruit before strengthening the claim.
 
 Use Rule
 --------

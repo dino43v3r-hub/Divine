@@ -13,36 +13,36 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 21
-Test words analyzed: 2,405
+Test documents analyzed: 22
+Test words analyzed: 2,545
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 39
-- Injustice And Corruption: 37
+- Suffering Without Resolution: 41
+- Injustice And Corruption: 39
 - Practical Case Study: 30
 - Disconfirming Failure Condition: 30
-- Science Guardrail: 23
-- Counterexample Pressure: 16
-- Misuse And Weaponization: 13
+- Science Guardrail: 25
+- Counterexample Pressure: 17
+- Misuse And Weaponization: 14
 - Non-Christian Comparison: 11
-- Rival Explanation: 10
+- Rival Explanation: 11
 
 Source Quality Markers
 ----------------------
 - Practical Lived Source: 51
-- Scholarly Or Scientific Source: 23
+- Scholarly Or Scientific Source: 25
 - Speculative Source: 3
 - Primary Or Classical Source: 2
 
 Confidence Results
 ------------------
-- resilient under pressure: 18
+- resilient under pressure: 19
 - needs deeper review but still plausible: 3
 
 Hold Assessment
 ---------------
-- pressure present but hold question is underdeveloped: 13
+- pressure present but hold question is underdeveloped: 14
 - provisionally holds; needs stronger review: 5
 - does not hold yet under this friction: 2
 - not enough friction to judge hold: 1
@@ -51,29 +51,29 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: thin but complete Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 45 | research corpus 3,351
-- Son: test set 13 | research corpus 6,686
-- Holy Spirit: test set 32 | research corpus 1,761
+- Father: test set 46 | research corpus 3,387
+- Son: test set 13 | research corpus 6,695
+- Holy Spirit: test set 37 | research corpus 1,781
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 23 | research corpus 2,449
-- Mathematical Structure: test set 9 | research corpus 561
-- Quantum Probability: test set 9 | research corpus 90
-- Life And Consciousness: test set 14 | research corpus 5,285
-- Meaning And Logos: test set 28 | research corpus 5,922
-- Moral Response: test set 32 | research corpus 2,245
-- Worship And Community: test set 43 | research corpus 1,069
-- Transformation: test set 39 | research corpus 2,040
+- Physical Order: test set 23 | research corpus 2,462
+- Mathematical Structure: test set 11 | research corpus 570
+- Quantum Probability: test set 9 | research corpus 94
+- Life And Consciousness: test set 15 | research corpus 5,301
+- Meaning And Logos: test set 28 | research corpus 5,945
+- Moral Response: test set 33 | research corpus 2,257
+- Worship And Community: test set 44 | research corpus 1,089
+- Transformation: test set 44 | research corpus 2,065
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 83
-- Communal Practice: 40
+- Creation And Order: 91
+- Communal Practice: 41
 - Alienation And Lament: 32
-- Moral Confrontation: 29
-- Transformation And Hope: 28
-- Desire And Longing: 10
+- Transformation And Hope: 32
+- Moral Confrontation: 30
+- Desire And Longing: 11
 
 Per-Test Findings
 -----------------
@@ -341,6 +341,28 @@ Recommendations:
 - Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
 - Add concrete daily-life case studies so the pattern can be used, not just admired.
 - Add rival natural, psychological, social, or comparative explanations.
+
+top_five_pattern_competition_matrix.md
+--------------------------------------
+Words: 140
+Meaning confidence: context-supported pattern
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 2
+- Injustice And Corruption: 2
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Rival Explanation: 1
+- Misuse And Weaponization: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (3)
+- Ending: Transformation And Hope (4)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
 
 unresolved_suffering_test.md
 ----------------------------

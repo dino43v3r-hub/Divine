@@ -35,6 +35,9 @@ DEEP_SOURCE_REVIEW_PATH = REPORTS_DIR / "deep_source_review_report.txt"
 THEOLOGIAN_REPORT_PATH = REPORTS_DIR / "theologian_pattern_design_report.txt"
 SUMMARY_REPORT_PATH = REPORTS_DIR / "divine_pattern_summary_report.txt"
 TOP_PATTERNS_PATH = REPORTS_DIR / "top_five_divine_patterns_report.txt"
+DISCIPLINED_ASSISTANT_PATH = REPORTS_DIR / "disciplined_theological_assistant_report.txt"
+CLAIM_LEDGER_PATH = RESEARCH_DIR / "claim_ledger.md"
+REVIEWED_SOURCE_PACKS_PATH = RESEARCH_DIR / "reviewed_source_packs.md"
 SUPPORTED_EXTENSIONS = {".txt", ".md"}
 
 
@@ -1334,6 +1337,212 @@ SYNTHESIS_SOURCE_DIRS = {
     "Other Religious Texts": OTHER_RELIGIOUS_TEXTS_DIR,
     "Modern Literature": MODERN_LITERATURE_DIR,
     "Human Stories": HUMAN_STORIES_DIR,
+}
+
+
+SOURCE_LANE_TARGETS = {
+    "biblical_languages": {
+        "minimum": 12,
+        "target": 30,
+        "review_cap": 60,
+        "purpose": "original-language depth before using Greek, Hebrew, Aramaic, or translation claims",
+    },
+    "world_languages": {
+        "minimum": 12,
+        "target": 30,
+        "review_cap": 60,
+        "purpose": "global translation, metaphor, oral tradition, and language-family breadth",
+    },
+    "all_texts": {
+        "minimum": 20,
+        "target": 50,
+        "review_cap": 90,
+        "purpose": "sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison",
+    },
+    "other_religious_texts": {
+        "minimum": 20,
+        "target": 50,
+        "review_cap": 90,
+        "purpose": "respectful comparison across traditions without flattening differences",
+    },
+    "theologians": {
+        "minimum": 30,
+        "target": 75,
+        "review_cap": 120,
+        "purpose": "primary-text theology and disagreements across eras",
+    },
+    "history_inputs": {
+        "minimum": 20,
+        "target": 50,
+        "review_cap": 90,
+        "purpose": "power, conflict, memory, reform, and consequences",
+    },
+    "visual_art": {
+        "minimum": 20,
+        "target": 50,
+        "review_cap": 90,
+        "purpose": "image, form, gesture, beauty, lament, glory, and iconography",
+    },
+    "psychology_inputs": {
+        "minimum": 20,
+        "target": 50,
+        "review_cap": 90,
+        "purpose": "pattern perception, attachment, trauma, habit, desire, identity, and repair",
+    },
+    "human_stories": {
+        "minimum": 20,
+        "target": 50,
+        "review_cap": 90,
+        "purpose": "lived grief, repair, vocation, community, and transformation",
+    },
+    "cultural_inputs": {
+        "minimum": 20,
+        "target": 50,
+        "review_cap": 90,
+        "purpose": "politics, economics, technology, ecology, health, work, and education",
+    },
+    "modern_literature": {
+        "minimum": 12,
+        "target": 30,
+        "review_cap": 60,
+        "purpose": "narrative recurrence and limits through literature summaries",
+    },
+    "deep_sources": {
+        "minimum": 20,
+        "target": 50,
+        "review_cap": 90,
+        "purpose": "math, statistics, science, suffering, and counterargument guardrails",
+    },
+    "pattern_tests": {
+        "minimum": 20,
+        "target": 45,
+        "review_cap": 75,
+        "purpose": "pressure tests that challenge claims without becoming the whole project",
+    },
+    "research_documents": {
+        "minimum": 20,
+        "target": 45,
+        "review_cap": 75,
+        "purpose": "method, cloud review, claim rules, ledgers, and synthesis policy",
+    },
+}
+
+
+SYNTHESIS_LANE_KEYS = {
+    "Visual Art": "visual_art",
+    "History": "history_inputs",
+    "World Languages": "world_languages",
+    "Biblical Greek And Hebrew": "biblical_languages",
+    "All Texts": "all_texts",
+    "Psychology And Other Texts": "psychology_inputs",
+    "Other Religious Texts": "other_religious_texts",
+    "Modern Literature": "modern_literature",
+    "Human Stories": "human_stories",
+}
+
+
+CAUTIOUS_CONFIDENCE_GLOSSARY = [
+    (
+        "high internal signal",
+        "the current corpus strongly repeats the pattern, but it is still not proof",
+    ),
+    (
+        "well-represented hypothesis",
+        "the pattern has broad source coverage and should now face source review and counter-readings",
+    ),
+    (
+        "early complete hypothesis",
+        "every required layer appears, but the weakest layer is still thin",
+    ),
+    (
+        "partial hypothesis",
+        "some layers appear and others are missing, so synthesis must wait",
+    ),
+    (
+        "reviewed evidence",
+        "source-specific support has been checked against counterarguments and lane balance",
+    ),
+    (
+        "discernment question",
+        "useful for prayer, pastoral reflection, and communal testing, but not a conclusion",
+    ),
+    (
+        "analogy only",
+        "illuminating comparison that cannot carry proof-level weight",
+    ),
+]
+
+
+PRACTICAL_THEOLOGY_LOOP = [
+    ("Notice", "attend to the actual situation before explaining it"),
+    ("Name", "tell the truth about gift, harm, longing, beauty, sin, or suffering"),
+    ("Discern", "test the possible meaning with scripture, community, reason, prayer, and counter-readings"),
+    ("Practice", "choose a small embodied act of repentance, repair, service, worship, courage, or care"),
+    ("Review", "look for fruit over time: love, truth, humility, justice, patience, and hope"),
+]
+
+
+PATTERN_PRESSURE_PROFILES = {
+    "Logos Pattern": {
+        "best_use": "shows how order, intelligibility, word, wisdom, and revelation can be studied together",
+        "hardest_pressure": "language-context tests and science/math overclaim tests",
+        "weakens_if": "word matches replace exegesis, or mathematical beauty is treated as doctrine",
+        "daily_use": "ask what truth is being revealed and what response wisdom requires",
+    },
+    "Creation-To-Consciousness Pattern": {
+        "best_use": "connects creation, life, personhood, responsibility, and worship",
+        "hardest_pressure": "evolution, suffering, disability, consciousness, and image-of-God reduction tests",
+        "weakens_if": "it implies a simple ladder from physics to worship",
+        "daily_use": "honor embodied life, dignity, vocation, and stewardship in ordinary choices",
+    },
+    "Trinity-As-Behavior Pattern": {
+        "best_use": "keeps creation, redemption, and transformation relational and practical",
+        "hardest_pressure": "Trinitarian doctrine, other religious comparison, and spiritual misuse tests",
+        "weakens_if": "Father, Son, and Holy Spirit become symbols rather than persons",
+        "daily_use": "receive life, follow Christ, and seek Spirit-led transformation in community",
+    },
+    "Moral Transformation Pattern": {
+        "best_use": "connects conviction, repentance, forgiveness, repair, and new life",
+        "hardest_pressure": "abuse, cheap grace, unresolved harm, and failed repair tests",
+        "weakens_if": "it pressures victims to forgive without justice or safety",
+        "daily_use": "practice confession, accountability, repair, and mercy without denial",
+    },
+    "Worship Embodiment Pattern": {
+        "best_use": "shows how belief becomes habit, ritual, community, and identity",
+        "hardest_pressure": "empty ritual, coercive community, trauma, and institutional failure tests",
+        "weakens_if": "ritual is treated as only social bonding or as control",
+        "daily_use": "turn prayer, gathering, song, sacrament, and service into faithful formation",
+    },
+    "Quantum Humility Pattern": {
+        "best_use": "supports epistemic humility about causality, probability, and control",
+        "hardest_pressure": "qualified physics, logic, scale, and category-mistake tests",
+        "weakens_if": "quantum language is used to prove prayer, consciousness, or God",
+        "daily_use": "remain humble where evidence is limited and avoid false certainty",
+    },
+    "Providence And Contingency Pattern": {
+        "best_use": "studies a world that is ordered yet historically open and contingent",
+        "hardest_pressure": "evil, chance, failed prediction, and no-visible-repair tests",
+        "weakens_if": "providence is reduced to prediction or control of every event",
+        "daily_use": "act faithfully in uncertainty without pretending to know every cause",
+    },
+    "Image Of God Pattern": {
+        "best_use": "connects mind, symbol, moral agency, relationship, dignity, and worship",
+        "hardest_pressure": "disability, dementia, trauma, oppression, and intelligence-reduction tests",
+        "weakens_if": "the image of God is collapsed into ability, status, or intelligence",
+        "daily_use": "treat every person as bearing dignity before performance or usefulness",
+    },
+    "Cross And Reversal Pattern": {
+        "best_use": "faces power, suffering, mercy, forgiveness, resurrection hope, and reversal",
+        "hardest_pressure": "unresolved suffering, injustice, violence, and romanticized suffering tests",
+        "weakens_if": "it asks people to accept harm instead of seeking truth and justice",
+        "daily_use": "choose humility, truth, forgiveness with boundaries, and hope without denial",
+    },
+    "Spirit Transformation Pattern": {
+        "best_use": "links presence, conviction, gifts, unity, sanctification, and communal fruit",
+        "hardest_pressure": "false discernment, manipulation, spectacle, abuse, and cross-cultural testimony tests",
+        "weakens_if": "the Holy Spirit becomes emotion, group energy, status, or coercion",
+        "daily_use": "test gifts by love, service, humility, truth, and the fruit of the Spirit",
+    },
 }
 
 
@@ -3822,6 +4031,58 @@ def combine_source_quality_counts(analyses):
     return combined
 
 
+def combine_pressure_counts(analyses):
+    """Combine pressure-test markers across analyses."""
+    combined = Counter()
+
+    for analysis in analyses:
+        combined.update(analysis.get("pressure_counts", {}))
+
+    return combined
+
+
+def parse_claim_ledger(path=CLAIM_LEDGER_PATH):
+    """Parse the claim ledger into a small reportable summary."""
+    if not path.exists():
+        return {"claims": [], "status_counts": Counter(), "kind_counts": Counter()}
+
+    claims = []
+    for line in read_document(path).splitlines():
+        if not line.startswith("| DP-"):
+            continue
+        cells = [cell.strip().strip("`") for cell in line.strip().strip("|").split("|")]
+        if len(cells) < 6:
+            continue
+        claim = {
+            "id": cells[0],
+            "claim": cells[1],
+            "kind": cells[2],
+            "status": cells[3],
+            "evidence_needed": cells[4],
+            "pressure_test": cells[5],
+        }
+        claims.append(claim)
+
+    return {
+        "claims": claims,
+        "status_counts": Counter(claim["status"] for claim in claims),
+        "kind_counts": Counter(claim["kind"] for claim in claims),
+    }
+
+
+def load_reviewed_source_pack_names(path=REVIEWED_SOURCE_PACKS_PATH):
+    """Return reviewed source-pack headings from the source-pack document."""
+    if not path.exists():
+        return []
+
+    pack_names = []
+    for line in read_document(path).splitlines():
+        if line.startswith("## Pack"):
+            pack_names.append(line.lstrip("# ").strip())
+
+    return pack_names
+
+
 def combine_alignment_counts(analyses):
     """Combine lyric alignment counts across every song."""
     combined = Counter()
@@ -3915,12 +4176,181 @@ def combine_layer_evidence(analyses):
     return dict(combined)
 
 
+def create_lane_balance_records(
+    research_analyses,
+    cultural_analyses,
+    test_analyses,
+    deep_source_analyses,
+    theologian_analyses,
+    synthesis_analyses,
+):
+    """Compare analyzed source-lane counts with target bands."""
+    actuals = Counter(
+        {
+            "research_documents": len(research_analyses),
+            "cultural_inputs": len(cultural_analyses),
+            "pattern_tests": len(test_analyses),
+            "deep_sources": len(deep_source_analyses),
+            "theologians": len(theologian_analyses),
+        }
+    )
+
+    for analysis in synthesis_analyses:
+        lane_key = SYNTHESIS_LANE_KEYS.get(analysis.get("source_lane"))
+        if lane_key:
+            actuals[lane_key] += 1
+
+    records = []
+    for lane, target in SOURCE_LANE_TARGETS.items():
+        actual = actuals.get(lane, 0)
+        if actual < target["minimum"]:
+            status = "below minimum - prioritize"
+        elif actual > target["review_cap"]:
+            status = "above review cap - pause unless thin lanes are growing"
+        elif actual < target["target"]:
+            status = "developing toward target"
+        else:
+            status = "healthy target range"
+
+        records.append(
+            {
+                "lane": lane,
+                "actual": actual,
+                "minimum": target["minimum"],
+                "target": target["target"],
+                "review_cap": target["review_cap"],
+                "purpose": target["purpose"],
+                "status": status,
+            }
+        )
+
+    return records
+
+
+def append_lane_balance_section(lines, records):
+    """Append human-readable lane balance target results."""
+    lines.extend(["", "Source Lane Balance", "-------------------"])
+    lines.append(
+        "The assistant should not strengthen broad claims while relevant lanes are thin."
+    )
+
+    for record in records:
+        lines.append(
+            f"- {record['lane']}: {record['actual']:,} notes; target {record['minimum']:,}-{record['target']:,}, review cap {record['review_cap']:,}; {record['status']}. Purpose: {record['purpose']}."
+        )
+
+    priority = [
+        record["lane"]
+        for record in records
+        if record["status"].startswith("below minimum")
+    ]
+    if priority:
+        lines.append(
+            "Priority lanes before stronger claims: " + ", ".join(priority[:8]) + "."
+        )
+    else:
+        lines.append(
+            "No lane is below its minimum target, but broad claims still need source-specific review."
+        )
+
+
+def append_claim_ledger_section(lines, ledger):
+    """Append a compact claim-ledger snapshot."""
+    claims = ledger["claims"]
+    lines.extend(["", "Claim Ledger Snapshot", "---------------------"])
+    if not claims:
+        lines.append("- No claim ledger found yet.")
+        return
+
+    lines.append(
+        "Claims are split by status so evidence, interpretation, discernment, analogy, and practice do not blur together."
+    )
+    for status, count in ledger["status_counts"].most_common():
+        lines.append(f"- {status}: {count:,}")
+
+    lines.append("Claims that should not be promoted without more review:")
+    for claim in claims:
+        if claim["status"] in {
+            "research_question_only",
+            "analogy_only",
+            "discernment_question",
+            "weakened_or_limited",
+        }:
+            lines.append(
+                f"- {claim['id']} ({claim['status']}): {claim['claim']} Pressure: {claim['pressure_test']}"
+            )
+
+
+def append_cautious_confidence_section(lines):
+    """Append the confidence language used by reports."""
+    lines.extend(["", "Cautious Confidence Language", "----------------------------"])
+    for label, definition in CAUTIOUS_CONFIDENCE_GLOSSARY:
+        lines.append(f"- {label}: {definition}.")
+
+
+def append_practical_theology_section(lines):
+    """Append practical theology guidance for daily use."""
+    lines.extend(["", "Practical Theology Use", "----------------------"])
+    lines.append(
+        "A divine pattern becomes useful only when it helps people love God and neighbor truthfully in ordinary life."
+    )
+    lines.append("Practice loop:")
+    for step, description in PRACTICAL_THEOLOGY_LOOP:
+        lines.append(f"- {step}: {description}.")
+    lines.append(
+        "Use it for family conflict, work, grief, spiritual gifts, interreligious encounter, justice, creativity, and pattern perception; review the fruit before strengthening the claim."
+    )
+
+
+def append_reviewed_source_packs_section(lines, pack_names):
+    """Append reviewed source-pack status."""
+    lines.extend(["", "Reviewed Source Packs", "---------------------"])
+    if not pack_names:
+        lines.append("- No reviewed source-pack document found yet.")
+        return
+
+    lines.append(
+        "Each source pack ties a claim to primary sources, interpreters, counter-readings, pressure tests, and practical use."
+    )
+    for pack_name in pack_names:
+        lines.append(f"- {pack_name}")
+
+
+def append_pattern_pressure_competition(lines, ranked_patterns, pressure_counts, limit=5):
+    """Append top-pattern competition under shared pressure tests."""
+    lines.extend(["", "Top-Five Pattern Competition", "----------------------------"])
+    lines.append(
+        "The top five should compete under pressure before being merged into one master pattern."
+    )
+    if pressure_counts:
+        top_pressures = ", ".join(
+            f"{label} ({count:,})" for label, count in pressure_counts.most_common(5)
+        )
+        lines.append(f"Current pressure-test material is most concentrated in: {top_pressures}.")
+    else:
+        lines.append("No pressure-test counts are available yet.")
+
+    for index, item in enumerate(ranked_patterns[:limit], start=1):
+        candidate = item["candidate"]
+        profile = PATTERN_PRESSURE_PROFILES.get(candidate["name"], {})
+        lines.extend(
+            [
+                "",
+                f"{index}. {candidate['name']}",
+                f"- Best use: {profile.get('best_use', candidate['interpretation'])}.",
+                f"- Hardest pressure: {profile.get('hardest_pressure', candidate['risk'])}.",
+                f"- Weakens if: {profile.get('weakens_if', candidate['risk'])}.",
+                f"- Practical check: {profile.get('daily_use', 'ask what faithful action this pattern actually produces')}.",
+            ]
+        )
+
+
 def score_layer(count):
     """Convert a raw layer count into a cautious strength label."""
     if count >= 1000:
-        return "strong signal"
+        return "high internal signal"
     if count >= 250:
-        return "moderate signal"
+        return "moderate internal signal"
     if count >= 50:
         return "early signal"
     if count > 0:
@@ -3936,13 +4366,13 @@ def score_candidate(candidate, layer_counts):
     minimum_signal = min(layer_scores) if layer_scores else 0
 
     if present_layers == total_layers and minimum_signal >= 250:
-        return "strong candidate"
+        return "high internal signal; not proof"
     if present_layers == total_layers and minimum_signal >= 50:
-        return "promising candidate"
+        return "well-represented hypothesis; needs review"
     if present_layers == total_layers:
-        return "early candidate"
+        return "early complete hypothesis"
     if present_layers > 0:
-        return "partial candidate"
+        return "partial hypothesis"
     return "not detected"
 
 
@@ -4215,21 +4645,31 @@ def create_top_patterns_report(analyses, synthesis_analyses, test_analyses, deep
     """Create a concise top-five pattern-family report."""
     all_analyses = analyses + synthesis_analyses + test_analyses + deep_source_analyses
     layer_counts = combine_layer_counts(all_analyses)
+    pressure_counts = combine_pressure_counts(test_analyses)
     ranked_patterns = rank_divine_pattern_candidates(layer_counts)
 
     lines = [
         "Top Five Divine Pattern Families Report",
         "======================================",
         "",
+        "Plain-Language Reading",
+        "----------------------",
+        "The project is no longer asking for one dominant pattern to explain everything.",
+        "It is comparing five candidate pattern families and asking which ones remain faithful, useful, and honest when they face suffering, other traditions, science limits, language context, history, and daily life.",
+        "",
         "Purpose",
         "-------",
         "This report prevents the project from showing only one dominant pattern.",
-        "Each family is a research hypothesis with its own support, limits, and pressure tests.",
+        "Each family is a research hypothesis with its own support, limits, practical uses, and pressure tests.",
+        "High signal means repeated internal support in the corpus; it does not mean proof.",
         "",
         "Top Five Pattern Families",
         "-------------------------",
     ]
     append_top_pattern_families(lines, ranked_patterns, layer_counts, limit=5)
+    append_pattern_pressure_competition(lines, ranked_patterns, pressure_counts, limit=5)
+    append_cautious_confidence_section(lines)
+    append_practical_theology_section(lines)
     lines.extend(
         [
             "",
@@ -4239,6 +4679,123 @@ def create_top_patterns_report(analyses, synthesis_analyses, test_analyses, deep
             "Treat the top five as separate hypotheses until source balance, counterarguments, and pressure tests justify synthesis.",
         ]
     )
+    return "\n".join(lines)
+
+
+def create_disciplined_theological_assistant_report(
+    research_analyses,
+    music_analyses,
+    note_analyses,
+    cultural_analyses,
+    test_analyses,
+    deep_source_analyses,
+    theologian_analyses,
+    synthesis_analyses,
+):
+    """Create the main discipline report for practical theological use."""
+    all_analyses = (
+        research_analyses
+        + music_analyses
+        + note_analyses
+        + cultural_analyses
+        + test_analyses
+        + deep_source_analyses
+        + theologian_analyses
+        + synthesis_analyses
+    )
+    top_pattern_analyses = (
+        research_analyses
+        + synthesis_analyses
+        + test_analyses
+        + deep_source_analyses
+        + theologian_analyses
+    )
+    layer_counts = combine_layer_counts(top_pattern_analyses)
+    pressure_counts = combine_pressure_counts(test_analyses)
+    source_quality_counts = combine_source_quality_counts(research_analyses)
+    ranked_patterns = rank_divine_pattern_candidates(layer_counts)
+    ledger = parse_claim_ledger()
+    pack_names = load_reviewed_source_pack_names()
+    lane_records = create_lane_balance_records(
+        research_analyses,
+        cultural_analyses,
+        test_analyses,
+        deep_source_analyses,
+        theologian_analyses,
+        synthesis_analyses,
+    )
+
+    lines = [
+        "Disciplined Theological Assistant Report",
+        "=======================================",
+        "",
+        "Plain-Language Purpose",
+        "----------------------",
+        "This project studies recurring biblical, theological, historical, symbolic, linguistic, psychological, and practical patterns as possible witnesses to God's self-revelation.",
+        "It should contribute to research by mapping typology, redemptive metanarrative, thematic recurrence, symbolic meaning, and digital theology.",
+        "It should also serve practical theology: the pattern must help real people discern, practice, test, repair, lament, worship, and live more faithfully.",
+        "",
+        "Non-Negotiable Guardrail",
+        "------------------------",
+        "The assistant may say a pattern is visible, supported, reviewed, useful, compatible, or theologically interpreted.",
+        "It must not say a pattern is proven merely because repeated language, narrative similarity, scientific analogy, or spiritual testimony appears.",
+        TRINITARIAN_GUARDRAIL,
+        "",
+        "Evidence Versus Discernment",
+        "---------------------------",
+        "- Evidence: source-located support from texts, history, languages, art, psychology, statistics, theology, testimony, or pressure tests.",
+        "- Reviewed evidence: evidence checked against source quality, counter-readings, lane balance, and claim boundaries.",
+        "- Theological interpretation: a Christian reading shaped by scripture, doctrine, tradition, reason, and worship.",
+        "- Discernment: prayerful, communal, morally accountable interpretation for faithful response.",
+        "- Practical theology: the pattern tested in ordinary life by fruit, love, justice, truth, humility, and care.",
+        "- Analogy: an illuminating comparison that must stay narrower than proof.",
+        "",
+        "Current Corpus Shape",
+        "--------------------",
+        f"Documents analyzed across all lanes: {len(all_analyses):,}",
+        f"Top-pattern source documents: {len(top_pattern_analyses):,}",
+        f"Pressure-test documents: {len(test_analyses):,}",
+        f"Theologian documents: {len(theologian_analyses):,}",
+        f"Dedicated synthesis documents: {len(synthesis_analyses):,}",
+    ]
+
+    lines.extend(["", "Most Visible Pattern Families", "-----------------------------"])
+    append_top_pattern_families(lines, ranked_patterns, layer_counts, limit=5)
+    append_pattern_pressure_competition(lines, ranked_patterns, pressure_counts, limit=5)
+    append_claim_ledger_section(lines, ledger)
+    append_lane_balance_section(lines, lane_records)
+    append_reviewed_source_packs_section(lines, pack_names)
+    append_cautious_confidence_section(lines)
+    append_practical_theology_section(lines)
+
+    lines.extend(["", "Cloud Reference Discipline", "--------------------------"])
+    reviewed_cloud = source_quality_counts.get("Reviewed Cloud Reference", 0)
+    unreviewed_cloud = source_quality_counts.get("Unreviewed Cloud Reference", 0)
+    lines.append(f"- Reviewed cloud-reference markers: {reviewed_cloud:,}")
+    lines.append(f"- Unreviewed cloud-reference markers: {unreviewed_cloud:,}")
+    lines.append(
+        "- Cloud references are leads until the original source, author expertise, date, venue, and counterarguments are checked."
+    )
+
+    lines.extend(
+        [
+            "",
+            "Assistant Behavior Rules",
+            "------------------------",
+            "1. Start by naming the claim type: evidence, interpretation, discernment, analogy, or practical use.",
+            "2. Cite or name the source lane before strengthening a claim.",
+            "3. Ask which top-five pattern best fits and which pressure test might weaken it.",
+            "4. Use other religious traditions respectfully and preserve real differences.",
+            "5. Keep gifts of the Holy Spirit accountable to love, truth, humility, community, and fruit.",
+            "6. Keep math, statistics, logic, and physics as discipline filters, not shortcuts to proof.",
+            "7. Translate patterns into practice only with safeguards against control, denial, abuse, and spiritual bypass.",
+            "",
+            "One-Sentence Operating Summary",
+            "------------------------------",
+            "The Divine assistant should map possible divine patterns carefully, test them honestly, interpret them theologically, and help people practice faithful love in daily life without overstating the evidence.",
+        ]
+    )
+
     return "\n".join(lines)
 
 
@@ -5690,7 +6247,7 @@ def create_daily_pattern_developments(digest):
     if not developments and new_sources:
         developments.append("New candidate sources arrived today, but no dominant pattern family emerged yet. Review titles and summaries manually before increasing confidence.")
     if evidence_counts.get("strong_scholarly_candidate", 0):
-        developments.append("Strong scholarly candidates arrived today; use them only for claim-scoped confidence, not absolute proof.")
+        developments.append("High-quality scholarly leads arrived today; use them only for claim-scoped confidence after source review, not absolute proof.")
     if evidence_counts.get("do_not_strengthen_claim", 0):
         developments.append("Some candidates should not strengthen claims yet; keep them as questions or counter-readings.")
     if not new_sources:
@@ -5760,6 +6317,17 @@ def create_divine_pattern_summary_report(
     hold_assessments = Counter(
         analysis.get("hold_assessment", "not assessed") for analysis in test_analyses
     )
+    pressure_counts = combine_pressure_counts(test_analyses)
+    claim_ledger = parse_claim_ledger()
+    reviewed_pack_names = load_reviewed_source_pack_names()
+    lane_balance_records = create_lane_balance_records(
+        research_analyses,
+        cultural_analyses,
+        test_analyses,
+        deep_source_analyses,
+        theologian_analyses,
+        synthesis_analyses,
+    )
 
     deep_area_scores = Counter()
     for analysis in deep_source_analyses:
@@ -5770,6 +6338,11 @@ def create_divine_pattern_summary_report(
     lines = [
         "Divine Pattern Summary Report",
         "=============================",
+        "",
+        "Plain-Language Summary",
+        "----------------------",
+        "The strongest use of this project is not to declare one final proof.",
+        "Its stronger role is to act as a disciplined theological assistant: map recurring patterns, separate evidence from discernment, test claims under pressure, and turn the pattern into practical love, justice, worship, lament, and hope.",
         "",
         "Today's Development",
         "-------------------",
@@ -5829,8 +6402,8 @@ def create_divine_pattern_summary_report(
     lines.extend(
         [
             "",
-        "Divine Pattern Found",
-        "--------------------",
+        "Most Visible Divine Pattern",
+        "---------------------------",
         "Father creates and sustains ordered reality.",
         "Son / Logos reveals meaning and redeems disorder.",
         "Holy Spirit makes redemption present through communion, healing, and transformation.",
@@ -5843,8 +6416,14 @@ def create_divine_pattern_summary_report(
         "",
         "Notice -> Name -> Discern -> Practice -> Transform",
         "",
-        "Why this pattern is currently strongest:",
-        "----------------------------------------",
+        "Evidence and discernment boundary:",
+        "- Evidence can show that a pattern appears in the current corpus.",
+        "- Theology can interpret that pattern through scripture, doctrine, tradition, reason, worship, and lived practice.",
+        "- Discernment can ask how a person or community should respond before God.",
+        "- None of these should be mislabeled as mathematical or scientific proof.",
+        "",
+        "Why this pattern is currently most visible:",
+        "------------------------------------------",
         ]
     )
 
@@ -5857,6 +6436,12 @@ def create_divine_pattern_summary_report(
             "- These are related but distinct candidate families. Do not treat the strongest one as the only divine pattern.",
         ]
     )
+    append_pattern_pressure_competition(lines, top_pattern_rankings, pressure_counts, limit=5)
+    append_claim_ledger_section(lines, claim_ledger)
+    append_lane_balance_section(lines, lane_balance_records)
+    append_reviewed_source_packs_section(lines, reviewed_pack_names)
+    append_cautious_confidence_section(lines)
+    append_practical_theology_section(lines)
 
     lines.extend(
         [
@@ -5990,7 +6575,7 @@ def create_divine_pattern_summary_report(
             "3. Treat language-family and text-tradition coverage as mapped but not universal until actual source notes and counter-readings are broad enough.",
             "4. Continue adding harder unresolved-suffering case studies, especially where repair remains absent.",
             "5. Keep qualified quantum/science references paired with counterarguments and narrow allowed conclusions.",
-            "6. Review routed daily cloud references before promoting any candidate to strong evidence.",
+            "6. Review routed daily cloud references before promoting any candidate to reviewed evidence.",
             "7. Revise or weaken the pattern wherever pressure tests show it does not hold.",
         ]
     )
@@ -6106,6 +6691,16 @@ def main():
         pattern_test_analyses,
         deep_source_analyses,
     )
+    disciplined_assistant_report = create_disciplined_theological_assistant_report(
+        analyses,
+        music_analyses,
+        music_note_analyses,
+        cultural_analyses,
+        pattern_test_analyses,
+        deep_source_analyses,
+        theologian_analyses,
+        synthesis_analyses,
+    )
     divine_pattern_summary_report = create_divine_pattern_summary_report(
         analyses,
         music_analyses,
@@ -6127,6 +6722,7 @@ def main():
     save_text(DEEP_SOURCE_REVIEW_PATH, deep_source_review_report)
     save_text(THEOLOGIAN_REPORT_PATH, theologian_pattern_design_report)
     save_text(TOP_PATTERNS_PATH, top_patterns_report)
+    save_text(DISCIPLINED_ASSISTANT_PATH, disciplined_assistant_report)
     save_text(SUMMARY_REPORT_PATH, divine_pattern_summary_report)
 
     print("Divine pattern research analysis complete.")
@@ -6141,6 +6737,7 @@ def main():
     print(f"Deep source review saved to: {DEEP_SOURCE_REVIEW_PATH}")
     print(f"Theologian pattern design saved to: {THEOLOGIAN_REPORT_PATH}")
     print(f"Top five patterns saved to: {TOP_PATTERNS_PATH}")
+    print(f"Disciplined assistant report saved to: {DISCIPLINED_ASSISTANT_PATH}")
     print(f"Summary report saved to: {SUMMARY_REPORT_PATH}")
 
 

@@ -1,6 +1,11 @@
 Divine Pattern Summary Report
 =============================
 
+Plain-Language Summary
+----------------------
+The strongest use of this project is not to declare one final proof.
+Its stronger role is to act as a disciplined theological assistant: map recurring patterns, separate evidence from discernment, test claims under pressure, and turn the pattern into practical love, justice, worship, lament, and hope.
+
 Today's Development
 -------------------
 Daily collector updated: 2026-05-25T19:12:26.219584+00:00
@@ -73,8 +78,8 @@ Collector warnings:
 - search_internet_archive failed for holy_spirit_gifts_global: <urlopen error [Errno 104] Connection reset by peer>
 - OpenCitations enrichment failed for DOI 10.2307/j.ctt1cg4jsn.17: The read operation timed out
 
-Divine Pattern Found
---------------------
+Most Visible Divine Pattern
+---------------------------
 Father creates and sustains ordered reality.
 Son / Logos reveals meaning and redeems disorder.
 Holy Spirit makes redemption present through communion, healing, and transformation.
@@ -87,99 +92,204 @@ Practical daily-life form:
 
 Notice -> Name -> Discern -> Practice -> Transform
 
-Why this pattern is currently strongest:
-----------------------------------------
+Evidence and discernment boundary:
+- Evidence can show that a pattern appears in the current corpus.
+- Theology can interpret that pattern through scripture, doctrine, tradition, reason, worship, and lived practice.
+- Discernment can ask how a person or community should respond before God.
+- None of these should be mislabeled as mathematical or scientific proof.
+
+Why this pattern is currently most visible:
+------------------------------------------
 
 Top Five Divine Pattern Families
 --------------------------------
 
 1. Image Of God Pattern
 -----------------------
-Status: strong candidate
-Layer signal total: 16,922
+Status: high internal signal; not proof
+Layer signal total: 16,996
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 5,562 (strong signal)
-- Meaning And Logos: 6,689 (strong signal)
-- Moral Response: 2,885 (strong signal)
-- Worship And Community: 1,786 (strong signal)
+- Life And Consciousness: 5,579 (high internal signal)
+- Meaning And Logos: 6,712 (high internal signal)
+- Moral Response: 2,898 (high internal signal)
+- Worship And Community: 1,807 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
 2. Cross And Reversal Pattern
 -----------------------------
-Status: strong candidate
-Layer signal total: 12,364
+Status: high internal signal; not proof
+Layer signal total: 12,430
 Layers present: 3/3
 Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
 Layer support:
-- Meaning And Logos: 6,689 (strong signal)
-- Moral Response: 2,885 (strong signal)
-- Transformation: 2,790 (strong signal)
+- Meaning And Logos: 6,712 (high internal signal)
+- Moral Response: 2,898 (high internal signal)
+- Transformation: 2,820 (high internal signal)
 Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
 Risk to avoid: Do not romanticize suffering or ignore injustice.
 
 3. Providence And Contingency Pattern
 -------------------------------------
-Status: promising candidate
-Layer signal total: 14,906
+Status: well-represented hypothesis; needs review
+Layer signal total: 14,963
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 2,556 (strong signal)
-- Quantum Probability: 99 (early signal)
-- Life And Consciousness: 5,562 (strong signal)
-- Meaning And Logos: 6,689 (strong signal)
+- Physical Order: 2,569 (high internal signal)
+- Quantum Probability: 103 (early signal)
+- Life And Consciousness: 5,579 (high internal signal)
+- Meaning And Logos: 6,712 (high internal signal)
 Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
 Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
 
 4. Trinity-As-Behavior Pattern
 ------------------------------
-Status: strong candidate
-Layer signal total: 12,035
+Status: high internal signal; not proof
+Layer signal total: 12,101
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 2,556 (strong signal)
-- Meaning And Logos: 6,689 (strong signal)
-- Transformation: 2,790 (strong signal)
+- Physical Order: 2,569 (high internal signal)
+- Meaning And Logos: 6,712 (high internal signal)
+- Transformation: 2,820 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
 Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
 
 5. Creation-To-Consciousness Pattern
 ------------------------------------
-Status: strong candidate
-Layer signal total: 12,789
+Status: high internal signal; not proof
+Layer signal total: 12,853
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 2,556 (strong signal)
-- Life And Consciousness: 5,562 (strong signal)
-- Moral Response: 2,885 (strong signal)
-- Worship And Community: 1,786 (strong signal)
+- Physical Order: 2,569 (high internal signal)
+- Life And Consciousness: 5,579 (high internal signal)
+- Moral Response: 2,898 (high internal signal)
+- Worship And Community: 1,807 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
 Top-five guardrail:
 - These are related but distinct candidate families. Do not treat the strongest one as the only divine pattern.
+
+Top-Five Pattern Competition
+----------------------------
+The top five should compete under pressure before being merged into one master pattern.
+Current pressure-test material is most concentrated in: Suffering Without Resolution (41), Injustice And Corruption (39), Practical Case Study (30), Disconfirming Failure Condition (30), Science Guardrail (25).
+
+1. Image Of God Pattern
+- Best use: connects mind, symbol, moral agency, relationship, dignity, and worship.
+- Hardest pressure: disability, dementia, trauma, oppression, and intelligence-reduction tests.
+- Weakens if: the image of God is collapsed into ability, status, or intelligence.
+- Practical check: treat every person as bearing dignity before performance or usefulness.
+
+2. Cross And Reversal Pattern
+- Best use: faces power, suffering, mercy, forgiveness, resurrection hope, and reversal.
+- Hardest pressure: unresolved suffering, injustice, violence, and romanticized suffering tests.
+- Weakens if: it asks people to accept harm instead of seeking truth and justice.
+- Practical check: choose humility, truth, forgiveness with boundaries, and hope without denial.
+
+3. Providence And Contingency Pattern
+- Best use: studies a world that is ordered yet historically open and contingent.
+- Hardest pressure: evil, chance, failed prediction, and no-visible-repair tests.
+- Weakens if: providence is reduced to prediction or control of every event.
+- Practical check: act faithfully in uncertainty without pretending to know every cause.
+
+4. Trinity-As-Behavior Pattern
+- Best use: keeps creation, redemption, and transformation relational and practical.
+- Hardest pressure: Trinitarian doctrine, other religious comparison, and spiritual misuse tests.
+- Weakens if: Father, Son, and Holy Spirit become symbols rather than persons.
+- Practical check: receive life, follow Christ, and seek Spirit-led transformation in community.
+
+5. Creation-To-Consciousness Pattern
+- Best use: connects creation, life, personhood, responsibility, and worship.
+- Hardest pressure: evolution, suffering, disability, consciousness, and image-of-God reduction tests.
+- Weakens if: it implies a simple ladder from physics to worship.
+- Practical check: honor embodied life, dignity, vocation, and stewardship in ordinary choices.
+
+Claim Ledger Snapshot
+---------------------
+Claims are split by status so evidence, interpretation, discernment, analogy, and practice do not blur together.
+- developing_evidence: 2
+- theological_interpretation: 2
+- research_question_only: 2
+- reviewed_evidence: 2
+- analogy_only: 1
+- practical_theology_use: 1
+Claims that should not be promoted without more review:
+- DP-005 (research_question_only): Gifts of the Holy Spirit should be studied globally as discernible practices of service, truth, healing, courage, wisdom, and communal upbuilding. Pressure: Are gifts tested by love, truth, humility, accountability, and fruit?
+- DP-006 (research_question_only): Other religious traditions may contain experiences, longings, wisdom, or moral patterns Christians can compare with the presence and work of God without flattening differences. Pressure: Does comparison honor difference instead of using other traditions as props?
+- DP-008 (analogy_only): Quantum or science references may support humility about causality and knowledge, but they do not prove prayer, consciousness, or God. Pressure: Is the conclusion narrower than the science actually allows?
+
+Source Lane Balance
+-------------------
+The assistant should not strengthen broad claims while relevant lanes are thin.
+- biblical_languages: 5 notes; target 12-30, review cap 60; below minimum - prioritize. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
+- world_languages: 5 notes; target 12-30, review cap 60; below minimum - prioritize. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
+- all_texts: 4 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
+- other_religious_texts: 4 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: respectful comparison across traditions without flattening differences.
+- theologians: 10 notes; target 30-75, review cap 120; below minimum - prioritize. Purpose: primary-text theology and disagreements across eras.
+- history_inputs: 4 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: power, conflict, memory, reform, and consequences.
+- visual_art: 4 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
+- psychology_inputs: 5 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
+- human_stories: 2 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: lived grief, repair, vocation, community, and transformation.
+- cultural_inputs: 10 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: politics, economics, technology, ecology, health, work, and education.
+- modern_literature: 2 notes; target 12-30, review cap 60; below minimum - prioritize. Purpose: narrative recurrence and limits through literature summaries.
+- deep_sources: 9 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: math, statistics, science, suffering, and counterargument guardrails.
+- pattern_tests: 22 notes; target 20-45, review cap 75; developing toward target. Purpose: pressure tests that challenge claims without becoming the whole project.
+- research_documents: 32 notes; target 20-45, review cap 75; developing toward target. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
+Priority lanes before stronger claims: biblical_languages, world_languages, all_texts, other_religious_texts, theologians, history_inputs, visual_art, psychology_inputs.
+
+Reviewed Source Packs
+---------------------
+Each source pack ties a claim to primary sources, interpreters, counter-readings, pressure tests, and practical use.
+- Pack 1: Biblical Typology And Christ Fulfillment
+- Pack 2: Redemptive Metanarrative And Practical Theology
+- Pack 3: Holy Spirit Gifts Across Peoples And Countries
+- Pack 4: Other Religious Traditions And Comparative Witness
+- Pack 5: Math, Statistics, Logic, And Science Guardrails
+- Pack 6: Art, History, Language, And Human Experience
+
+Cautious Confidence Language
+----------------------------
+- high internal signal: the current corpus strongly repeats the pattern, but it is still not proof.
+- well-represented hypothesis: the pattern has broad source coverage and should now face source review and counter-readings.
+- early complete hypothesis: every required layer appears, but the weakest layer is still thin.
+- partial hypothesis: some layers appear and others are missing, so synthesis must wait.
+- reviewed evidence: source-specific support has been checked against counterarguments and lane balance.
+- discernment question: useful for prayer, pastoral reflection, and communal testing, but not a conclusion.
+- analogy only: illuminating comparison that cannot carry proof-level weight.
+
+Practical Theology Use
+----------------------
+A divine pattern becomes useful only when it helps people love God and neighbor truthfully in ordinary life.
+Practice loop:
+- Notice: attend to the actual situation before explaining it.
+- Name: tell the truth about gift, harm, longing, beauty, sin, or suffering.
+- Discern: test the possible meaning with scripture, community, reason, prayer, and counter-readings.
+- Practice: choose a small embodied act of repentance, repair, service, worship, courage, or care.
+- Review: look for fruit over time: love, truth, humility, justice, patience, and hope.
+Use it for family conflict, work, grief, spiritual gifts, interreligious encounter, justice, creativity, and pattern perception; review the fruit before strengthening the claim.
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,351
-- Son: 6,686
-- Holy Spirit: 1,761
+- Father: 3,387
+- Son: 6,695
+- Holy Spirit: 1,781
 
 Strongest research layers:
-- Meaning And Logos: 5,922
-- Life And Consciousness: 5,285
-- Physical Order: 2,449
-- Moral Response: 2,245
-- Transformation: 2,040
-- Worship And Community: 1,069
+- Meaning And Logos: 5,945
+- Life And Consciousness: 5,301
+- Physical Order: 2,462
+- Moral Response: 2,257
+- Transformation: 2,065
+- Worship And Community: 1,089
 
 Music-note science/math support:
 - Mathematical Structure: 129
@@ -240,12 +350,12 @@ Theologian pattern-design support:
 
 Pressure-test result:
 ---------------------
-- resilient under pressure: 18
+- resilient under pressure: 19
 - needs deeper review but still plausible: 3
 
 Hold-under-friction result:
 ---------------------------
-- pressure present but hold question is underdeveloped: 13
+- pressure present but hold question is underdeveloped: 14
 - provisionally holds; needs stronger review: 5
 - does not hold yet under this friction: 2
 - not enough friction to judge hold: 1
@@ -277,5 +387,5 @@ Next Actions
 3. Treat language-family and text-tradition coverage as mapped but not universal until actual source notes and counter-readings are broad enough.
 4. Continue adding harder unresolved-suffering case studies, especially where repair remains absent.
 5. Keep qualified quantum/science references paired with counterarguments and narrow allowed conclusions.
-6. Review routed daily cloud references before promoting any candidate to strong evidence.
+6. Review routed daily cloud references before promoting any candidate to reviewed evidence.
 7. Revise or weaken the pattern wherever pressure tests show it does not hold.
