@@ -7,29 +7,63 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### برنامج صناعة الجهاد
+### 489 Early Church History 9: Early Church Orders
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: trinity
-- Layer routes: theologians, research_documents, visual_art, other_religious_texts
+- Layer routes: theologians, research_documents, visual_art, history_inputs
+- Primary layer: theologians
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 437
+- Year: 2023
+- URL: https://archive.org/details/Restitutio-489_early_church_history_9_early_church_orders
+
+This is part 9 of the Early Church History class . How did Christians organize themselves in the
+first few centuries? We're taking a break from theology and switching to focus on practical matters
+of church offices, church governance, church discipline, conversion, and charity. As it turns out we
+have a surprising amount of information about how early Christians did church not only from
+scattered quotes, but from a series of church manuals that have survived. In some ways these church
+orders sound eerily familiar to modern ears and in other ways, utterly foreign. See what you think.
+Listen to this episode on Spotify or Apple Podcasts
+https://www.youtube.com/watch?v=v7tCjuTbHx8&list=PLN9jFDsS
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Evangelicals Embark to Papal Rome
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: trinity
+- Layer routes: theologians, research_documents, visual_art
 - Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 431
+- Corroborating routed candidates: 365
 - Year: n.d.
-- URL: https://archive.org/details/trans_25-08-2010-jkasset
+- URL: https://archive.org/details/EvangelicalsEmbarkToPapalRome
 
-The Bible Led Me to Islam Abdul Malik (Melvin) LeBlanc tells how he discovered Islam within the
-pages of Bible Source: International Edition Voice of Islam - November 1998, Page 25 During my
-Christian days there were many verses in the Bible that made me question the religion I was
-following (Christianity). There was one particular verse, 1 Thessalonians 5:17 which says; "pray
-without ceasing," that lingered heavily in my mind. I often wondered how a person (Christian) was
-supposed to pray (be in a state of worship) without ceasing? Without any biblical or divine
-guidance, the only way I thought this to be possible was to always do good deeds and keep the
-remembrance of God on my tongue and
+An account of the drastic departure from true evangelicalism the Nottingham Conference 1977 to March
+1994 and Evangelicals and Catholics Together and much more by Richard Bennett and Michael de Semlyen
+narrated by Brian Haskin. This presentation highlights all the major apostasies of modern times. It
+also clearly gives the Gospel of the Lordâs grace to His glory and for the salvation of souls.
+DVD107 http;//www.BereanBeacon.org
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -41,31 +75,102 @@ Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Use as general research context until a more specific layer is reviewed.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### 1. Structure of the benzene molecule on the basis of the three-electron bond.
+### 477 Questioning the Trinity (Steven Nemes)
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: trinity
+- Layer routes: theologians, research_documents, history_inputs, all_texts
+- Primary layer: theologians
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 505
+- Year: 2023
+- URL: https://archive.org/details/Restitutio-477_questioning_the_trinity_steven_nemes_2
+
+Dr. Steven Nemes is an analytic philosopher and theologian who uses a phenomenological approach to
+reading scripture and constructing theology. In this interview I ask him about his unique approach
+to evaluating doctrine, especially the Trinity, from a phenomenological perspective. We also discuss
+restorationism as a common ground and delve into Church history extensively. In the end Nemes argues
+for freedom rather than dogma when evaluating various doctrines related to the Trinity. Listen to
+this episode on Spotify or Apple Podcasts https://www.youtube.com/watch?v=MRVifpSTHek —— Links ——
+Check out Nemes' personal website , blog on substack , and YouTube channel Here is his interview
+with Da
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### 197: Reacting to the Rebuttals In the Recent OT Debate
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 224
+- Year: 2021
+- URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_197_
+
+This episode explores the rebuttal phase of the recent debate entitled, "Does the Old Testament
+Teach Unitarianism?". I offer my insider strategies for preparing for a rebuttal as well as share my
+reactions to my opponent's attempt to rebut my opening statement. You can watch the debate in its
+entirety here: https://youtu.be/b0t90eJe0q4 Please consider supporting this Podcast and future
+projects by donating at: https://www.paypal.me/10mintruthtalks To view the notes from this episode
+please click the link below:
+https://docs.google.com/document/d/119vYZ5mCfNRxx9ICzxekfgK_4vi4nQ_bWup-emqDNAY/edit?usp=sharing
+Check out some of my videos on YouTube at: https://www.youtube.com/channel/UCG5H6oqEn
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+
+### CIA Reading Room cia-rdp96-00789r003200180001-7: DECISION AUGMENTATION THEORY: TOWARD A MODEL OF ANOMALOUS MENTAL PHENOMENA
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests, world_languages
+- Layer routes: deep_sources, pattern_tests, visual_art
 - Primary layer: deep_sources
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 419
-- Year: 2009
-- URL: https://archive.org/details/1.StructureOfTheBenzeneMoleculeOnTheBasisOfTheThreeElectronBond
+- Corroborating routed candidates: 395
+- Year: 1994
+- URL: https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r003200180001-7
 
-One-electron bond in He2+. And He2 + and H2 + are equally stable, because they are connected by a
-one-electron bond: compare the bond energies and the bond length (see page 262 L. Pauling, Nature of
-the chemical bond/translation from English by M. E. Dyatkina, edited by Prof. Ya. K. Syrkin. M. L .:
-GNTI Chemical Literature, 1947): E (He2 +) = 58 kcal/mole E (H2 +) = 61 kcal/mole L (He2 +) = 1.09 Å
-L (H2 +) = 1.06 Å The helium atom has 2 electrons and one energy level (1S). Therefore in He2 +
-there are 3 electrons. The assumption that the bond in He2 + is three-electron is incorrect. The
-multiplicity of the bond is still determined by the fundamental rule of the octet. Therefore, it is
-easy t
+Approved For Relle one12OOeory: O/ T08ar~ [~ePf9gf9( l?9RO032001800014g, 22 April 1994 Decision
+Decision Augmentation Theory: Toward a Model of Anomalous Mental Phenomena by Edwin C. May, Ph.D
+Science Applications International Corporation Menlo Park, CA Jessica M. Utts, Ph.D. University of
+California, Davis Department of Statistics Davis, CA and S. James P. Spottiswoode Science
+Applications International Corporation (Consultant) Menlo Park, CA Abstract Decision Augmentation
+Theory (DAT) holds that humans integrate information obtained by anoma- lous cognition into the
+usual decision process. The result is that, to a statistical degree, such decisions are biased
+toward volitional outcomes. W
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -77,31 +182,31 @@ Automated evidence reasons:
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### Charles Darwin - Natural and Artificial Selection
+### CIA Reading Room 00355733: MAJOR DEVELOPMENTS IN THE SOVBLOC CYBERNETICS PROGRAMS IN 1965
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: music_math
-- Layer routes: music_notes, deep_sources, visual_art, psychology_inputs
-- Primary layer: music_notes
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 482
-- Year: 2024
-- URL: https://archive.org/details/identity_202411
+- Corroborating routed candidates: 286
+- Year: 1966
+- URL: https://archive.org/details/cia-readingroom-document-00355733
 
-Note - In some suburban locales 44% of insect populations are in decline and 33% are in danger of
-extinction. Habitat loss? Light Pollution? Pesticides? Consequences; Ecosystem Instability? Loss of
-Pollination? Increase in "Pests?" Sir Humphrey Davy suggested an Anthropocentric View that humans
-were put on the Earth for a definite purpose; that purpose to complete the formation of the Earth.
-So - contrasting philosophies result. The second from a contemporary of Davy, Mary Shelley. 1.
-Humphrey Davy - Philosophic/Scientific Materialism : The world is incomplete. The role of humans is
-to change the world into a more hospitable place of existence. Education can extend human
-capacities, and Scie
+Scientific and Technical Intelligence Report Approved for Release: 2018/01/31 C00355733 N9 6 Major
+Developments in the SovBloc Cybernetics Programs in 1965 IPS FIU copy DO N01 REMOVE 25 OCT 1966
+OSI�STIR/66-29 3 October 1966 Directorate of Science and Technology Office of Scientific
+Intelligence Approved for Release: 2018/01/31 C00355733 Approved for Release: 2018/01/31 C00355733
+WARNING Thi terial contains information affecting the National e of the United States within the
+meaning of the esp e laws, Title 18, USC, Secs. 793 and 794, the transm sn or revelation of which in
+any manner to an unau ed person is prohibited by law. GROUP 1 EXCLUDED FROM AUTOMATIC DOWNGRADING
+AND DECLASSIFICATION
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -111,34 +216,172 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
-- Check musical structure directly before using it as analogy or theological support.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### Dictionary of the history of ideas : studies of selected pivotal ideas
+### CIA Reading Room cia-rdp06t00412r000606390001-6: ISLAMIC FUNDAMENTALISM IN THE MIDDLE EAST AND SOUTH ASIA: LOOKING AHEAD
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs, visual_art, other_religious_texts
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 433
+- Year: 1986
+- URL: https://archive.org/details/cia-readingroom-document-cia-rdp06t00412r000606390001-6
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-
+RDP06T00412R000606390001-6 X1 NESA 86-10049 December 1986 Copy 19 2 Declassified in Part - Sanitized
+Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 Directorate of Intelligence
+Looking Ahead Islamic Fundamentalism in the Middle East and South Asia: A Research Paper
+Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-
+RDP06T00412R000606390001-6 Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 :
+CIA-RDP06T00412R000606390001-6 Declassified in Part - Sanitized Copy Approved for Release 2012/06/22
+: CIA-RDP06T00412R000606390001-6 -- Directorate of Intellige
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### CIA Reading Room cia-rdp88t00096r000400460001-8: ISLAMIC FUNDAMENTALISM IN THE MIDDLE EAST AND SOUTH ASIA: LOOKING AHEAD
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs, visual_art, other_religious_texts
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 433
+- Year: 1986
+- URL: https://archive.org/details/cia-readingroom-document-cia-rdp88t00096r000400460001-8
+
+Declassified in Part - Sanitized Copy Approved for Release 2013/08/30: CIA-
+RDP88T00096R000400460001-8 R Next 1 Page(s) In Document Denied Declassified in Part - Sanitized Copy
+Approved for Release 2013/08/30: CIA-RDP88T00096R000400460001-8 25X1 Declassified in Part -
+Sanitized Copy Approved for Release 2013/08/30: CIA-RDP88T00096R000400460001-8 / Directorate of
+Intelligence n es 1.4-0,4 pal r P.1%f11.-...)11 f4r7: i#4.Y 1 iiU d prtryl Secret Islamic
+Fundamentalism in the Middle East and South Asia: Looking Ahead A Research Paper PROJECT NUMBER I W
+K PAGE NUMBERS /1/A3-74 TOTAL NUMBER OF COPIES '&gt;(0-5---DISSEM DATE a'770 /A5 7 EXTRA COPIES 02_
+0 ?^ /7 RECORD CENTER ,-// 61. ?36 7 JOB NUMBE
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### VOA [Voice of America] Global English : May 16, 2020 02:00AM-03:00AM EDT
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 232
+- Year: 2020
+- URL: https://archive.org/details/VOA_Global_English_20200516_060000
+
+Closed captions transcript: 00:00:00 U.s. President Donald Trump said Friday the u.s. 00:00:02
+Government was working with other countries to develop 00:00:05 a covert $1000.00 vaccine at an
+accelerated pace while preparing to distribute 00:00:09 a vaccine once one is ready at an event in
+the White House Rose Garden Mr Trump 00:00:14 expressed hope that 00:00:15 a vaccine would be in
+place before the end of the year he said his administration 00:00:19 would mobilize its forces to
+get 00:00:21 a vaccine distributed once that one was in place he said it's risky it's expensive
+00:00:26 but will be saving massive amounts of time will be saving years if we do this 00:00:31
+properly and that's wha
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### The Ultimate Suratul-Mulk Audio Collection with English Translation (x100)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, history_inputs, biblical_languages
+- Layer routes: visual_art, cultural_inputs, world_languages, other_religious_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 461
+- Year: n.d.
+- URL: https://archive.org/details/SuratulMulkAbdulAzeezAhmad
+
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Islamic files. -----------------------------------------------------
+-------------------------------------------------------------------------- *~Suratul-Mulk~* بِسْمِ
+اللَّهِ الرَّحْمَـٰنِ الرَّحِيمِ In the Name of Allah, the Most Gracious, the Most Merciful
+تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ 1. Blessed is He in Whose
+Hand is the dominion, and He is Able to do all things. الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ
+لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ الْعَزِيزُ الْغَفُورُ 2. Who has created death
+and life, that He m
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### Podcast: Forest and Trees and Seeding the Possible
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs
 - Primary layer: visual_art
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 373
-- Year: 1973
-- URL: https://archive.org/details/dictionaryofhist0000unse
+- Corroborating routed candidates: 263
+- Year: 2026
+- URL: https://archive.org/details/First_Unitarian_Society_of_Minneapolis-2026_04_19_Podcast
 
-5 volumes ; 29 cm Contains overviews of religious, intellectual, literary, economic, political, and
-scientific concepts Includes bibliographical references v. 1. Abstraction in the formulation of
-concepts, to Design argument.--v. 2. Despotism, to Law, common.--v. 3. Law, conception of, to
-Protest movements.--v. 4. Psychological ideas, to Zeitgeist.--[5] Index v. 1. Abstraction in the
-formulation of concepts -- Academic freedom -- Agnosticism -- Alchemy -- Alienation in christian
-theology -- Alienation in hegel and marx -- Allegory in literary history -- Ambiguity as aethestic
-principle -- Analogy in early greek thought -- Analogy in patristic and medieval thought -- Analogy
-of the body polit
+Everything grows from something. We can’t always know just how the planting will turn out, but we
+can picture possibilities and envision what we will do together to shape them into something
+beautiful and flourishing. Rev. Chad Snyder — candidate to be the next settled minister at FUS —
+will share his hopes for what […]
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -150,32 +393,140 @@ Automated evidence reasons:
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
 
-### Sorin Cerin – Books Biography And Bibliography With Literary And Philosophical Criticism 2020
+### Sheikh Ahmed Deedat (احمد حسين ديدات - رحمه الله) - Complete Audio Collection (150+)
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, other_religious_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 383
+- Year: n.d.
+- URL: https://archive.org/details/SheikhAhmedDeedat-CompleteAudioCollection
+
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Islamic files. -----------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Biography: Ahmed Hoosen Deedat (Arabic: احمد حسين ديدات‎ July 1918 – 8 August 2005) was a South
+African writer and public speaker of Indian descent. He was reverently known and called 'UNCLE' by
+those who hold him in high esteem and admiration. He was best known as a Muslim Da'ee (caller to
+Islaam) who held numerous inter-religious public debates with evangelical Christians, as well as
+video lectu
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### Complete Quran (114 Surahs) - Sa'ad al-Ghamdi (with English Translation)
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, world_languages, all_texts, other_religious_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 511
+- Year: n.d.
+- URL: https://archive.org/details/001AlFaatiha_201510
+
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Islamic files. -----------------------------------------------------
+--------------------------------------------------------------------------------------------------
+The Noble Qur'aan - القرآن الكريم Qari - Sa'ad al-Ghamdi Translation of the Meanings - Dr. Muhammad
+Muhsin Khan ----------------------------------------------------------------------------------------
+--------------------------------------------------------------- Holy / Glorious / Noble / Quran /
+Qur'an / Qur'aan / Koran / Recital / Revelation / Scripture / Furqan / Criterion
+---------------------
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### Aesthetics from classical Greece to the present; a short history
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, theologians, history_inputs, modern_literature
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 494
+- Year: 1966
+- URL: https://archive.org/details/aestheticsfromcl0000bear_s1w1
+
+414 pages 21 cm Includes bibliographical references 1. First thoughts -- 2. Plato: Art and imitation
+; Beauty ; Morality ; 3. Aristotle: The proper pleasure of tragedy ; Aristotle's answer to Plato ;
+4. The later classical philosophers: Hellenism and Roman classicism ; Plotinus ; 5. The Middle Ages:
+St. Augustine ; St. Thomas Aquinas ; The theory of interpretation ; 6. The Renaissance: Neoplatonism
+; Theory of painting ; Music and poetry ; 7. The Enlightenment: Cartesian rationalism: Poetics ;
+Theory of painting and music ; Toward a unified aesthetics ; 8. The Enlightenment: empiricism:
+Imagination and artistic creation ; The problem of taste: Shaftesbury to Hume ; The aesthetic
+qualities: H
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
+### The Creation of Love: Philosophical poems by Sorin Cerin
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art
+- Layer routes: history_inputs, theologians, visual_art, all_texts
 - Primary layer: history_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 407
+- Corroborating routed candidates: 556
 - Year: n.d.
-- URL: https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism2020
+- URL: https://archive.org/details/9781722003067Thecreationoflove
 
-Sorin Cerin – books which can be viewed on Google Books, bibliography 2020 with literary and
-philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian
-philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher,
-author of a new philosophical system called Coaxialism, and an important 21st-century existentialist
-poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard.
-Sorin Cerin is especially sought after by the general public, both for his philosophical poems,
-which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms,
-structured in several
+SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an
+important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard,
+philosopher,- the creator of Coaxialism, – compared to Schopenhauer, Nietzsche and Wittgenstein.
+Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in
+14 volumes of thoughts previously published in various publishing houses, and then to be reunited
+under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity
+and international recognition, for which he is considered to be one of the most representative
+thinkers of the aphoris
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -187,8 +538,9 @@ Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### The Crucifix On Mecca's Front Porch
+### De-weaponizing the Bible - Rev. Matt Schultz
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -199,18 +551,16 @@ Layer review prompts:
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 444
-- Year: 2020
-- URL: https://archive.org/details/the-crucifix-on-meccas-front-porch
+- Corroborating routed candidates: 445
+- Year: 2024
+- URL: https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-15797139_de_weaponizi
 
-The Crucifix on Mecca’s Front Porch (Dr. David Pinault, August 7, 2020) Transcript available below
-Watch his speaker playlist About the speaker David Pinault received his B.A. in French literature
-from Georgetown University and his M.A.and Ph.D in Arabic and Islamic Studies from the Department of
-Oriental Studies at the University of Pennsylvania. His research interests include comparative
-Christology and the status of Christian populations in Muslim-majority societies. Among the
-countries in which he has done fieldwork are Yemen, Egypt, Pakistan, India, and Indonesia. A
-recipient of Santa Clara University’s Public Intellectual Award and the Brutocao Award for Teaching
-Excellence, he has ser
+Rev. Matt Schultz graduated from Westminster College with a BA in Art in 1995. He is married to Rev.
+Elizabeth Schultz. Together, they attended Princeton Theological Seminary and are ordained as
+pastors in the Presbyterian Church (USA). They live in Anchorage, Alaska, where they go on wild
+adventures with their three beautiful children, two awesome dogs, and one average cat. Since 2013,
+Matt has been the pastor at First Presbyterian Church of Anchorage and also serves with Christians
+for Equa...
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -225,7 +575,7 @@ Layer review prompts:
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### 577 Nothing Mere about a Man Made in the Image of God (Anna Brown)
+### Experiencing God through Deceitful Mysticism
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
@@ -233,21 +583,55 @@ Layer review prompts:
 - Layer routes: world_languages, all_texts, other_religious_texts
 - Primary layer: world_languages
 - Provider: Internet Archive
-- Quality: speculative-risk
-- Automated evidence: weak_scholarly_candidate (5)
+- Quality: reference metadata
+- Automated evidence: weak_scholarly_candidate (6)
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 337
-- Year: 2024
-- URL: https://archive.org/details/Restitutio-577_nothing_mere_about_a_man_made_in_the_image_of_god_anna_brown
+- Corroborating routed candidates: 338
+- Year: n.d.
+- URL: https://archive.org/details/ExperiencingGodThroughDeceitfulMysticism
 
-Has anyone ever said to you, “Oh, you believe Jesus is just a mere man.” How do you respond when
-someone says that? Do you just go along with it and say, “Yep, that’s what I believe–Jesus is just
-another guy”? I hope not. Jesus is not just another guy. He’s the virginally-conceived son of God
-who lived righteously without sin, healed dozens (maybe hundreds) of people, preached tirelessly
-about the kingdom, taught the Bible and how to live, performed many miracles and exorcisms,
-voluntarily died for our sins as a perfect sacrifice. Then God raised him from the dead and he
-ascended to God’s right hand from which place he is the head of the church and from which place he
-will come again on the
+"Kundalini" type spirits invading the church - http://www.youtube.com/watch?v=-RVAu1uGkew
+http://www.youtube.com/watch?v=eBpw2oQrvMM A subtle and dangerous shift in Christianity It seems
+everyone's practicing yoga meditation these days. Physicians recommend it to their patients which
+means it's beneficial...right? Meditation is said to relieve stress, anxiety, hypertension, acne and
+post-nasal drip, so go for it! Just tighten those abdominal muscles, inhale deeply and chant
+Maaaaaaaaa all in one breath and your concerns will drift away like a feather floating on the
+win........ http://www.newswithviews.com/West/marsha198.htm by Marsha West Professional deception
+and clever fraudulence are ru
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### Weak Points In The Ideology Of Jihad
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: biblical_language_source_depth
+- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
+- Primary layer: biblical_languages
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 301
+- Year: 2009
+- URL: https://archive.org/details/weak-points-in-the-ideology-of-jihad
+
+Weak Points in the Ideology of Jihad The Resilience of the Ideology Whether you like it or not,
+whether you consider it something too obscure to be bothered with, the ideology is the jihad’s most
+effective and most enduring weapon. Ideology is the most important arm because it is the most
+resilient. It is going to remain long after Bin Laden is gone, long after the individual groups have
+vanished. If, and when, all the strategies and tactics of these cells have been wound up, the jihad
+as an ideology will stay and will go on to generate the next group, and the next. So how does the
+ideology provide this resilience? It frames the conflict, and justifies it. It gives the Mujahideen
+a grand mis
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -256,15 +640,43 @@ Automated evidence reasons:
 - summary or abstract metadata available
 - many routed corroborating candidates
 
-Automated evidence warnings:
-- speculative or overclaim language detected
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
+### Religious Experience Psychologized
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
+- Primary layer: psychology_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 472
+- Year: 2019
+- URL: https://doi.org/10.1017/9781108558785.006
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
 
 Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### The Church - The Body Of Christ
+### The vilnius christian know
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -275,18 +687,13 @@ Layer review prompts:
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 422
-- Year: 2025
-- URL: https://archive.org/details/the-church-the-body-of-christ
+- Corroborating routed candidates: 423
+- Year: 2022
+- URL: https://archive.org/details/content_uusf_org-20120226JKComplete
 
-For very many of us, the church we are part of no longer carries the purpose given by God. For many,
-the church is merely a place to regain the inner peace lost during the week because of an
-overcrowded and hectic lifestyle. We have been taught to believe that what is generally called “the
-church” is simply a place where people with similar religious interests gather. It is a place where
-people sing, pray, listen to a sermon, socialize a little after the service, and then each one
-returns to his own pursuits and personal interests. A very small portion of the members have the
-responsibility of conducting this program. The great majority of members find themselves in the
-position of spectator
+The vilnius christian know: And forgetting you know they can be all sorts of things that could be an
+illness that we begin to identify with that then starts dictating how we live our life because we're
+struggling with the vilnius.
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -301,26 +708,91 @@ Layer review prompts:
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### Our monthly newsletter weekly flame austin world
+### Conclusion
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature
-- Primary layer: all_texts
+- Tags: interreligious_dream_testimony
+- Layer routes: other_religious_texts, human_stories, theologians
+- Primary layer: other_religious_texts
+- Provider: Crossref
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 430
+- Year: 2015
+- URL: https://doi.org/10.4324/9781315744605-13
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Layer review prompts:
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### VOA [Voice of America] Africa : May 28, 2019 12:00PM-01:00PM EDT
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: technology_ethics
+- Layer routes: cultural_inputs
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 148
+- Year: 2019
+- URL: https://archive.org/details/VOA_Africa_20190528_160000
+
+Closed captions transcript: 00:00:00 For Takeoff vertical landing variant of the f. 00:00:02 $35.00
+supersonic jet fighter in their remarks the 2 leaders did not mention China 00:00:08 by name but
+Abbay spoke of an increasingly severe security environment in the 00:00:13 region and Trump noted
+Japan is to purchase more than $100.00 additional f. 00:00:17 $35.00 stealth jets from the United
+States that will help our nations defend 00:00:21 against 00:00:22 a range of complex threats in the
+region and far beyond there has been nervousness 00:00:26 in Japan about America's long term
+commitment to the defense of the island nation 00:00:31 especially with the presidency of Trump who
+had a long ti
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+
+### CIA Reading Room cia-rdp88g01116r000500570003-2: BACKGROUND FOR 8 MAY CABINET MEETING ON ECONOMIC SUMMIT
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: technology_ethics
+- Layer routes: cultural_inputs
+- Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 313
-- Year: 2022
-- URL: https://archive.org/details/content_uusf_org-20110605JKSermon
+- Corroborating routed candidates: 148
+- Year: 1986
+- URL: https://archive.org/details/cia-readingroom-document-cia-rdp88g01116r000500570003-2
 
-Our monthly newsletter weekly flame austin world: While you're there check out our monthly
-newsletter weekly flame and much much more to all who are here this morning welcome home the work of
-this church in the world is realized through the generous financial support of all who call this
-place home along with the gifts and time and talent ours is a shared ministry you have a role to
-play here church membership is open to all for more information go to uusf..
+25X1 Sanitized Copy Approved for Release 2011/04/12 : CIA-RDP88GO1116R000500570003-2 Next 2 Page(s)
+In Document Denied Sanitized Copy Approved for Release 2011/04/12 : CIA-RDP88GO1116R000500570003-2
+Sanitized Copy Approved for Release 2011/04/12 : CIA-RDP88GO1116ROO0500570003-2 7 TO ECRET National
+Intelligence Council he Director of Central Intelligence Washington, D.C. 20505 7 May 1986
+MEMORANDUM FOR: Director of Central Intelligence Deputy Director of Central Intelligence Acting
+National Intelligence Officer for Economics SUBJECT: Background for 8 May Cabinet Meeting on
+Economic Summit 1. This Memorandum is background for your 8 May meeting with the President on the
+Economic Summit. 2. Ove
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -330,11 +802,45 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Classify the cultural domain and practical consequences before making theological claims.
 
-### VOA [Voice of America] Africa : July 22, 2019 12:00PM-01:00PM EDT
+### Demianism
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: technology_ethics
+- Layer routes: cultural_inputs, visual_art, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 402
+- Year: 2026
+- URL: https://archive.org/details/demianism
+
+In a time marked by unprecedented technological transformation and a deepening crisis of values,
+meaning, and identity, Demianism proposes a vision capable of recomposing what the modern world has
+torn apart — spirit and matter, individual and community, freedom and ethics, masculine and
+feminine, faith and reason, human and divine. Demianism is a strange hybrid between a religion and a
+cultural and political movement. A revealed doctrine founded on 13 axioms: three of a metaphysical
+nature — the cosmotheandric triad — and ten of an ethical, social, and political nature — the
+2kTenCom. From these principles emerges an original vision that restores to humanity meaning,
+dignity, and a horizon
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Cross-cultural perspectives on the (im)possibility of global bioethics
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -343,23 +849,24 @@ Layer review prompts:
 - Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
+- Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 263
-- Year: 2019
-- URL: https://archive.org/details/VOA_Africa_20190722_160000
+- Year: 2011
+- URL: https://archive.org/details/springer_10.1007-978-94-017-1195-1
 
-Closed captions transcript: 00:00:00 The comedian turned president's party which was formed just
-00:00:03 a few months ago underscores Ukrainians desire for 00:00:06 a break with established
-politicians and parties that have failed to improve living 00:00:11 standards enough at the site
-00:00:14 a show on Space Center in eastern India Monday afternoon will. Look 00:00:21 like they
-don't. Come out of this particular case Yvonne chairman of the 00:00:28 Indian Space Research
-Organization announced the successful launch of an ambitious 00:00:33 mission to land 00:00:35 a
-rover on an unexplored area of the moon today because I think 00:00:40 a lot of space and sayings
-and ecology in India. I mix
+Cross-Cultural Perspectives on the (Im)Possibility of Global Bioethics Author: Julia Tao Lai Po-Wah
+Published by Springer Netherlands ISBN: 978-90-481-5969-7 DOI: 10.1007/978-94-017-1195-1 Table of
+Contents: Global Bioethics, Global Dialogue: Introduction Morality, Universality, and Particularity:
+Rethinking the Role of Community in the Foundations of Bioethics Is Just Caring Possible? Challenge
+to Bioethics in the New Century Living and Dying in a Post-Traditional World The Tension between
+Biomedical Technology and Confucian Values On Relational Paradigm in Bioethics The Ethics of
+Prenatal Screening and the Search for Global Bioethics Genetic Engineering and Social Justice:
+Towards a Global
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates

@@ -1,56 +1,104 @@
 {
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 419,
+    "moderate_scholarly_candidate": 443,
     "strong_scholarly_candidate": 561,
-    "weak_scholarly_candidate": 22
+    "weak_scholarly_candidate": 23
   },
   "errors": [],
   "layer_counts": {
-    "all_texts": 304,
-    "biblical_languages": 79,
-    "cultural_inputs": 222,
-    "deep_sources": 315,
-    "history_inputs": 240,
-    "human_stories": 260,
-    "modern_literature": 123,
+    "all_texts": 311,
+    "biblical_languages": 80,
+    "cultural_inputs": 234,
+    "deep_sources": 318,
+    "history_inputs": 247,
+    "human_stories": 262,
+    "modern_literature": 125,
     "music_notes": 78,
-    "other_religious_texts": 204,
-    "pattern_tests": 188,
-    "psychology_inputs": 253,
-    "research_documents": 112,
-    "research_documents/christian_sources": 94,
-    "theologians": 236,
-    "visual_art": 289,
-    "world_languages": 183
+    "other_religious_texts": 213,
+    "pattern_tests": 191,
+    "psychology_inputs": 255,
+    "research_documents": 116,
+    "research_documents/christian_sources": 95,
+    "theologians": 243,
+    "visual_art": 304,
+    "world_languages": 188
   },
   "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 9,
+    "moderate_scholarly_candidate": 24,
     "weak_scholarly_candidate": 1
   },
-  "new_count": 10,
+  "new_count": 25,
   "new_layer_counts": {
-    "all_texts": 4,
+    "all_texts": 7,
     "biblical_languages": 1,
-    "cultural_inputs": 2,
-    "deep_sources": 2,
-    "history_inputs": 2,
+    "cultural_inputs": 12,
+    "deep_sources": 3,
+    "history_inputs": 7,
+    "human_stories": 2,
     "modern_literature": 2,
-    "music_notes": 1,
-    "other_religious_texts": 5,
-    "pattern_tests": 1,
-    "psychology_inputs": 1,
-    "research_documents": 1,
-    "theologians": 2,
-    "visual_art": 7,
-    "world_languages": 3
+    "other_religious_texts": 9,
+    "pattern_tests": 3,
+    "psychology_inputs": 2,
+    "research_documents": 4,
+    "research_documents/christian_sources": 1,
+    "theologians": 7,
+    "visual_art": 15,
+    "world_languages": 5
   },
   "new_provider_counts": {
-    "Internet Archive": 10
+    "Crossref": 2,
+    "Internet Archive": 23
   },
   "new_sources": [
     {
       "authors": [
-        "Al-Fajr-Media-Center"
+        "Restitutio"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 437,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/restitutio-489_early_church_history_9_early_church_orders",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "visual_art",
+        "history_inputs"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "This is part 9 of the Early Church History class . How did Christians organize themselves in the first few centuries? We're taking a break from theology and switching to focus on practical matters of church offices, church governance, church discipline, conversion, and charity. As it turns out we have a surprising amount of information about how early Christians did church not only from scattered quotes, but from a series of church manuals that have survived. In some ways these church orders sound eerily familiar to modern ears and in other ways, utterly foreign. See what you think. Listen to this episode on Spotify or Apple Podcasts https://www.youtube.com/watch?v=v7tCjuTbHx8&list=PLN9jFDsS",
+      "tags": [
+        "trinity"
+      ],
+      "title": "489 Early Church History 9: Early Church Orders",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Restitutio-489_early_church_history_9_early_church_orders",
+      "year": "2023"
+    },
+    {
+      "authors": [
+        "Richard Bennett"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -62,40 +110,84 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 431,
+      "corroborating_source_count": 365,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/trans_25-08-2010-jkasset",
+      "id": "https://archive.org/details/evangelicalsembarktopapalrome",
       "layer_review_prompts": [
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
         "Use as general research context until a more specific layer is reviewed.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
         "theologians",
         "research_documents",
-        "visual_art",
-        "other_religious_texts"
+        "visual_art"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "An account of the drastic departure from true evangelicalism the Nottingham Conference 1977 to March 1994 and Evangelicals and Catholics Together and much more by Richard Bennett and Michael de Semlyen narrated by Brian Haskin. This presentation highlights all the major apostasies of modern times. It also clearly gives the Gospel of the Lord\u00e2s grace to His glory and for the salvation of souls. DVD107 http;//www.BereanBeacon.org",
+      "tags": [
+        "trinity"
+      ],
+      "title": "Evangelicals Embark to Papal Rome",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/EvangelicalsEmbarkToPapalRome",
+      "year": null
+    },
+    {
+      "authors": [
+        "Restitutio"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 505,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/restitutio-477_questioning_the_trinity_steven_nemes_2",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "history_inputs",
+        "all_texts"
       ],
       "primary_layer": "theologians",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "The Bible Led Me to Islam Abdul Malik (Melvin) LeBlanc tells how he discovered Islam within the pages of Bible Source: International Edition Voice of Islam - November 1998, Page 25 During my Christian days there were many verses in the Bible that made me question the religion I was following (Christianity). There was one particular verse, 1 Thessalonians 5:17 which says; \"pray without ceasing,\" that lingered heavily in my mind. I often wondered how a person (Christian) was supposed to pray (be in a state of worship) without ceasing? Without any biblical or divine guidance, the only way I thought this to be possible was to always do good deeds and keep the remembrance of God on my tongue and ",
+      "summary": "Dr. Steven Nemes is an analytic philosopher and theologian who uses a phenomenological approach to reading scripture and constructing theology. In this interview I ask him about his unique approach to evaluating doctrine, especially the Trinity, from a phenomenological perspective. We also discuss restorationism as a common ground and delve into Church history extensively. In the end Nemes argues for freedom rather than dogma when evaluating various doctrines related to the Trinity. Listen to this episode on Spotify or Apple Podcasts https://www.youtube.com/watch?v=MRVifpSTHek \u2014\u2014 Links \u2014\u2014 Check out Nemes' personal website , blog on substack , and YouTube channel Here is his interview with Da",
       "tags": [
         "trinity"
       ],
-      "title": "\u0628\u0631\u0646\u0627\u0645\u062c \u0635\u0646\u0627\u0639\u0629 \u0627\u0644\u062c\u0647\u0627\u062f",
+      "title": "477 Questioning the Trinity (Steven Nemes)",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/trans_25-08-2010-jkasset",
-      "year": null
+      "url": "https://archive.org/details/Restitutio-477_questioning_the_trinity_steven_nemes_2",
+      "year": "2023"
     },
     {
       "authors": [
-        "Bezverkhniy Volodymyr Dmytrovych"
+        "The Biblical Unitarian Podcast"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -108,38 +200,80 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 419,
+      "corroborating_source_count": 224,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/1.structureofthebenzenemoleculeonthebasisofthethreeelectronbond",
+      "id": "https://archive.org/details/the_biblical_unitarian_podcast-episode_197_",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "This episode explores the rebuttal phase of the recent debate entitled, \"Does the Old Testament Teach Unitarianism?\". I offer my insider strategies for preparing for a rebuttal as well as share my reactions to my opponent's attempt to rebut my opening statement. You can watch the debate in its entirety here: https://youtu.be/b0t90eJe0q4 Please consider supporting this Podcast and future projects by donating at: https://www.paypal.me/10mintruthtalks To view the notes from this episode please click the link below: https://docs.google.com/document/d/119vYZ5mCfNRxx9ICzxekfgK_4vi4nQ_bWup-emqDNAY/edit?usp=sharing Check out some of my videos on YouTube at: https://www.youtube.com/channel/UCG5H6oqEn",
+      "tags": [
+        "trinity"
+      ],
+      "title": "197: Reacting to the Rebuttals In the Recent OT Debate",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_197_",
+      "year": "2021"
+    },
+    {
+      "authors": [
+        "CIA Reading Room"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 395,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r003200180001-7",
       "layer_review_prompts": [
         "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
         "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
         "deep_sources",
         "pattern_tests",
-        "world_languages"
+        "visual_art"
       ],
       "primary_layer": "deep_sources",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org texts",
-      "summary": "One-electron bond in He2+. And He2 + and H2 + are equally stable, because they are connected by a one-electron bond: compare the bond energies and the bond length (see page 262 L. Pauling, Nature of the chemical bond/translation from English by M. E. Dyatkina, edited by Prof. Ya. K. Syrkin. M. L .: GNTI Chemical Literature, 1947): E (He2 +) = 58 kcal/mole E (H2 +) = 61 kcal/mole L (He2 +) = 1.09 \u00c5 L (H2 +) = 1.06 \u00c5 The helium atom has 2 electrons and one energy level (1S). Therefore in He2 + there are 3 electrons. The assumption that the bond in He2 + is three-electron is incorrect. The multiplicity of the bond is still determined by the fundamental rule of the octet. Therefore, it is easy t",
+      "summary": "Approved For Relle one12OOeory: O/ T08ar~ [~ePf9gf9( l?9RO032001800014g, 22 April 1994 Decision Decision Augmentation Theory: Toward a Model of Anomalous Mental Phenomena by Edwin C. May, Ph.D Science Applications International Corporation Menlo Park, CA Jessica M. Utts, Ph.D. University of California, Davis Department of Statistics Davis, CA and S. James P. Spottiswoode Science Applications International Corporation (Consultant) Menlo Park, CA Abstract Decision Augmentation Theory (DAT) holds that humans integrate information obtained by anoma- lous cognition into the usual decision process. The result is that, to a statistical degree, such decisions are biased toward volitional outcomes. W",
       "tags": [
         "quantum_science_guardrails"
       ],
-      "title": "1. Structure of the benzene molecule on the basis of the three-electron bond.",
+      "title": "CIA Reading Room cia-rdp96-00789r003200180001-7: DECISION AUGMENTATION THEORY: TOWARD A MODEL OF ANOMALOUS MENTAL PHENOMENA",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/1.StructureOfTheBenzeneMoleculeOnTheBasisOfTheThreeElectronBond",
-      "year": "2009"
+      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r003200180001-7",
+      "year": "1994"
     },
     {
       "authors": [
-        "Maxwell Forteau"
+        "CIA Reading Room"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -152,40 +286,36 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 482,
+      "corroborating_source_count": 286,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/identity_202411",
+      "id": "https://archive.org/details/cia-readingroom-document-00355733",
       "layer_review_prompts": [
-        "Check musical structure directly before using it as analogy or theological support.",
         "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
       ],
       "layer_routes": [
-        "music_notes",
         "deep_sources",
-        "visual_art",
-        "psychology_inputs"
+        "pattern_tests"
       ],
-      "primary_layer": "music_notes",
+      "primary_layer": "deep_sources",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org image",
-      "summary": "Note - In some suburban locales 44% of insect populations are in decline and 33% are in danger of extinction. Habitat loss? Light Pollution? Pesticides? Consequences; Ecosystem Instability? Loss of Pollination? Increase in \"Pests?\" Sir Humphrey Davy suggested an Anthropocentric View that humans were put on the Earth for a definite purpose; that purpose to complete the formation of the Earth. So - contrasting philosophies result. The second from a contemporary of Davy, Mary Shelley. 1. Humphrey Davy - Philosophic/Scientific Materialism : The world is incomplete. The role of humans is to change the world into a more hospitable place of existence. Education can extend human capacities, and Scie",
+      "source_type": "archive.org texts",
+      "summary": "Scientific and Technical Intelligence Report Approved for Release: 2018/01/31 C00355733 N9 6 Major Developments in the SovBloc Cybernetics Programs in 1965 IPS FIU copy DO N01 REMOVE 25 OCT 1966 OSI\ufffdSTIR/66-29 3 October 1966 Directorate of Science and Technology Office of Scientific Intelligence Approved for Release: 2018/01/31 C00355733 Approved for Release: 2018/01/31 C00355733 WARNING Thi terial contains information affecting the National e of the United States within the meaning of the esp e laws, Title 18, USC, Secs. 793 and 794, the transm sn or revelation of which in any manner to an unau ed person is prohibited by law. GROUP 1 EXCLUDED FROM AUTOMATIC DOWNGRADING AND DECLASSIFICATION ",
       "tags": [
-        "music_math"
+        "quantum_science_guardrails"
       ],
-      "title": "Charles Darwin - Natural and Artificial Selection",
+      "title": "CIA Reading Room 00355733: MAJOR DEVELOPMENTS IN THE SOVBLOC CYBERNETICS PROGRAMS IN 1965",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/identity_202411",
-      "year": "2024"
+      "url": "https://archive.org/details/cia-readingroom-document-00355733",
+      "year": "1966"
     },
     {
       "authors": [
-        "None"
+        "CIA Reading Room"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -198,36 +328,346 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 373,
+      "corroborating_source_count": 433,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/dictionaryofhist0000unse",
+      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp06t00412r000606390001-6",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "visual_art",
+        "other_religious_texts"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 X1 NESA 86-10049 December 1986 Copy 19 2 Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 Directorate of Intelligence Looking Ahead Islamic Fundamentalism in the Middle East and South Asia: A Research Paper Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 -- Directorate of Intellige",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "CIA Reading Room cia-rdp06t00412r000606390001-6: ISLAMIC FUNDAMENTALISM IN THE MIDDLE EAST AND SOUTH ASIA: LOOKING AHEAD",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp06t00412r000606390001-6",
+      "year": "1986"
+    },
+    {
+      "authors": [
+        "CIA Reading Room"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 433,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp88t00096r000400460001-8",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "visual_art",
+        "other_religious_texts"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Declassified in Part - Sanitized Copy Approved for Release 2013/08/30: CIA-RDP88T00096R000400460001-8 R Next 1 Page(s) In Document Denied Declassified in Part - Sanitized Copy Approved for Release 2013/08/30: CIA-RDP88T00096R000400460001-8 25X1 Declassified in Part - Sanitized Copy Approved for Release 2013/08/30: CIA-RDP88T00096R000400460001-8 / Directorate of Intelligence n es 1.4-0,4 pal r P.1%f11.-...)11 f4r7: i#4.Y 1 iiU d prtryl Secret Islamic Fundamentalism in the Middle East and South Asia: Looking Ahead A Research Paper PROJECT NUMBER I W K PAGE NUMBERS /1/A3-74 TOTAL NUMBER OF COPIES '&gt;(0-5---DISSEM DATE a'770 /A5 7 EXTRA COPIES 02_ 0 ?^ /7 RECORD CENTER ,-// 61. ?36 7 JOB NUMBE",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "CIA Reading Room cia-rdp88t00096r000400460001-8: ISLAMIC FUNDAMENTALISM IN THE MIDDLE EAST AND SOUTH ASIA: LOOKING AHEAD",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp88t00096r000400460001-8",
+      "year": "1986"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 232,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_global_english_20200516_060000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 U.s. President Donald Trump said Friday the u.s. 00:00:02 Government was working with other countries to develop 00:00:05 a covert $1000.00 vaccine at an accelerated pace while preparing to distribute 00:00:09 a vaccine once one is ready at an event in the White House Rose Garden Mr Trump 00:00:14 expressed hope that 00:00:15 a vaccine would be in place before the end of the year he said his administration 00:00:19 would mobilize its forces to get 00:00:21 a vaccine distributed once that one was in place he said it's risky it's expensive 00:00:26 but will be saving massive amounts of time will be saving years if we do this 00:00:31 properly and that's wha",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "VOA [Voice of America] Global English : May 16, 2020 02:00AM-03:00AM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Global_English_20200516_060000",
+      "year": "2020"
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 461,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/suratulmulkabdulazeezahmad",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading."
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
       ],
       "layer_routes": [
         "visual_art",
         "cultural_inputs",
+        "world_languages",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------- *~Suratul-Mulk~* \u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u0651\u064e\u0647\u0650 \u0627\u0644\u0631\u0651\u064e\u062d\u0652\u0645\u064e\u0640\u0670\u0646\u0650 \u0627\u0644\u0631\u0651\u064e\u062d\u0650\u064a\u0645\u0650 In the Name of Allah, the Most Gracious, the Most Merciful \u062a\u064e\u0628\u064e\u0627\u0631\u064e\u0643\u064e \u0627\u0644\u0651\u064e\u0630\u0650\u064a \u0628\u0650\u064a\u064e\u062f\u0650\u0647\u0650 \u0627\u0644\u0652\u0645\u064f\u0644\u0652\u0643\u064f \u0648\u064e\u0647\u064f\u0648\u064e \u0639\u064e\u0644\u064e\u0649\u0670 \u0643\u064f\u0644\u0650\u0651 \u0634\u064e\u064a\u0652\u0621\u064d \u0642\u064e\u062f\u0650\u064a\u0631\u064c 1. Blessed is He in Whose Hand is the dominion, and He is Able to do all things. \u0627\u0644\u0651\u064e\u0630\u0650\u064a \u062e\u064e\u0644\u064e\u0642\u064e \u0627\u0644\u0652\u0645\u064e\u0648\u0652\u062a\u064e \u0648\u064e\u0627\u0644\u0652\u062d\u064e\u064a\u064e\u0627\u0629\u064e \u0644\u0650\u064a\u064e\u0628\u0652\u0644\u064f\u0648\u064e\u0643\u064f\u0645\u0652 \u0623\u064e\u064a\u0651\u064f\u0643\u064f\u0645\u0652 \u0623\u064e\u062d\u0652\u0633\u064e\u0646\u064f \u0639\u064e\u0645\u064e\u0644\u064b\u0627 \u06da \u0648\u064e\u0647\u064f\u0648\u064e \u0627\u0644\u0652\u0639\u064e\u0632\u0650\u064a\u0632\u064f \u0627\u0644\u0652\u063a\u064e\u0641\u064f\u0648\u0631\u064f 2. Who has created death and life, that He m",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "The Ultimate Suratul-Mulk Audio Collection with English Translation (x100)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/SuratulMulkAbdulAzeezAhmad",
+      "year": null
+    },
+    {
+      "authors": [
+        "First Unitarian Society of Minneapolis"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 263,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/first_unitarian_society_of_minneapolis-2026_04_19_podcast",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Everything grows from something. We can\u2019t always know just how the planting will turn out, but we can picture possibilities and envision what we will do together to shape them into something beautiful and flourishing. Rev. Chad Snyder \u2014 candidate to be the next settled minister at FUS \u2014 will share his hopes for what [\u2026]",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Podcast: Forest and Trees and Seeding the Possible",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/First_Unitarian_Society_of_Minneapolis-2026_04_19_Podcast",
+      "year": "2026"
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 383,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/sheikhahmeddeedat-completeaudiocollection",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org image",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Biography: Ahmed Hoosen Deedat (Arabic: \u0627\u062d\u0645\u062f \u062d\u0633\u064a\u0646 \u062f\u064a\u062f\u0627\u062a\u200e July 1918 \u2013 8 August 2005) was a South African writer and public speaker of Indian descent. He was reverently known and called 'UNCLE' by those who hold him in high esteem and admiration. He was best known as a Muslim Da'ee (caller to Islaam) who held numerous inter-religious public debates with evangelical Christians, as well as video lectu",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Sheikh Ahmed Deedat (\u0627\u062d\u0645\u062f \u062d\u0633\u064a\u0646 \u062f\u064a\u062f\u0627\u062a - \u0631\u062d\u0645\u0647 \u0627\u0644\u0644\u0647) - Complete Audio Collection (150+)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/SheikhAhmedDeedat-CompleteAudioCollection",
+      "year": null
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 511,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/001alfaatiha_201510",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "world_languages",
+        "all_texts",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- The Noble Qur'aan - \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 Qari - Sa'ad al-Ghamdi Translation of the Meanings - Dr. Muhammad Muhsin Khan ------------------------------------------------------------------------------------------------------------------------------------------------------- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / Koran / Recital / Revelation / Scripture / Furqan / Criterion ---------------------",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Complete Quran (114 Surahs) - Sa'ad al-Ghamdi (with English Translation)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/001AlFaatiha_201510",
+      "year": null
+    },
+    {
+      "authors": [
+        "Beardsley, Monroe C"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 494,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/aestheticsfromcl0000bear_s1w1",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "theologians",
         "history_inputs",
-        "biblical_languages"
+        "modern_literature"
       ],
       "primary_layer": "visual_art",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org texts",
-      "summary": "5 volumes ; 29 cm Contains overviews of religious, intellectual, literary, economic, political, and scientific concepts Includes bibliographical references v. 1. Abstraction in the formulation of concepts, to Design argument.--v. 2. Despotism, to Law, common.--v. 3. Law, conception of, to Protest movements.--v. 4. Psychological ideas, to Zeitgeist.--[5] Index v. 1. Abstraction in the formulation of concepts -- Academic freedom -- Agnosticism -- Alchemy -- Alienation in christian theology -- Alienation in hegel and marx -- Allegory in literary history -- Ambiguity as aethestic principle -- Analogy in early greek thought -- Analogy in patristic and medieval thought -- Analogy of the body polit",
+      "summary": "414 pages 21 cm Includes bibliographical references 1. First thoughts -- 2. Plato: Art and imitation ; Beauty ; Morality ; 3. Aristotle: The proper pleasure of tragedy ; Aristotle's answer to Plato ; 4. The later classical philosophers: Hellenism and Roman classicism ; Plotinus ; 5. The Middle Ages: St. Augustine ; St. Thomas Aquinas ; The theory of interpretation ; 6. The Renaissance: Neoplatonism ; Theory of painting ; Music and poetry ; 7. The Enlightenment: Cartesian rationalism: Poetics ; Theory of painting and music ; Toward a unified aesthetics ; 8. The Enlightenment: empiricism: Imagination and artistic creation ; The problem of taste: Shaftesbury to Hume ; The aesthetic qualities: H",
       "tags": [
         "art_beauty"
       ],
-      "title": "Dictionary of the history of ideas : studies of selected pivotal ideas",
+      "title": "Aesthetics from classical Greece to the present; a short history",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/dictionaryofhist0000unse",
-      "year": "1973"
+      "url": "https://archive.org/details/aestheticsfromcl0000bear_s1w1",
+      "year": "1966"
     },
     {
       "authors": [
@@ -243,33 +683,121 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 407,
+      "corroborating_source_count": 556,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism2020",
+      "id": "https://archive.org/details/9781722003067thecreationoflove",
       "layer_review_prompts": [
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
       ],
       "layer_routes": [
         "history_inputs",
         "theologians",
-        "visual_art"
+        "visual_art",
+        "all_texts"
       ],
       "primary_layer": "history_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org texts",
-      "summary": "Sorin Cerin \u2013 books which can be viewed on Google Books, bibliography 2020 with literary and philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, author of a new philosophical system called Coaxialism, and an important 21st-century existentialist poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard. Sorin Cerin is especially sought after by the general public, both for his philosophical poems, which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms, structured in several ",
+      "summary": "SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard, philosopher,- the creator of Coaxialism, \u2013 compared to Schopenhauer, Nietzsche and Wittgenstein. Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in 14 volumes of thoughts previously published in various publishing houses, and then to be reunited under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity and international recognition, for which he is considered to be one of the most representative thinkers of the aphoris",
       "tags": [
         "history_memory"
       ],
-      "title": "Sorin Cerin \u2013 Books Biography And Bibliography With Literary And Philosophical Criticism 2020",
+      "title": "The Creation of Love: Philosophical poems by Sorin Cerin",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism2020",
+      "url": "https://archive.org/details/9781722003067Thecreationoflove",
+      "year": null
+    },
+    {
+      "authors": [
+        "Anchorage Unitarian Universalist Fellowship Forum Podcasts"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 445,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/anchorage_unitarian_universalist_fellowship_forum_podcasts-15797139_de_weaponizi",
+      "layer_review_prompts": [
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "world_languages",
+        "all_texts",
+        "other_religious_texts",
+        "visual_art"
+      ],
+      "primary_layer": "world_languages",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Rev. Matt Schultz graduated from Westminster College with a BA in Art in 1995. He is married to Rev. Elizabeth Schultz. Together, they attended Princeton Theological Seminary and are ordained as pastors in the Presbyterian Church (USA). They live in Anchorage, Alaska, where they go on wild adventures with their three beautiful children, two awesome dogs, and one average cat. Since 2013, Matt has been the pastor at First Presbyterian Church of Anchorage and also serves with Christians for Equa...",
+      "tags": [
+        "world_language_source_sampling"
+      ],
+      "title": "De-weaponizing the Bible - Rev. Matt Schultz",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-15797139_de_weaponizi",
+      "year": "2024"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 6,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 338,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://archive.org/details/experiencinggodthroughdeceitfulmysticism",
+      "layer_review_prompts": [
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "world_languages",
+        "all_texts",
+        "other_religious_texts"
+      ],
+      "primary_layer": "world_languages",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "\"Kundalini\" type spirits invading the church - http://www.youtube.com/watch?v=-RVAu1uGkew http://www.youtube.com/watch?v=eBpw2oQrvMM A subtle and dangerous shift in Christianity It seems everyone's practicing yoga meditation these days. Physicians recommend it to their patients which means it's beneficial...right? Meditation is said to relieve stress, anxiety, hypertension, acne and post-nasal drip, so go for it! Just tighten those abdominal muscles, inhale deeply and chant Maaaaaaaaa all in one breath and your concerns will drift away like a feather floating on the win........ http://www.newswithviews.com/West/marsha198.htm by Marsha West Professional deception and clever fraudulence are ru",
+      "tags": [
+        "world_language_source_sampling"
+      ],
+      "title": "Experiencing God through Deceitful Mysticism",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://archive.org/details/ExperiencingGodThroughDeceitfulMysticism",
       "year": null
     },
     {
@@ -287,128 +815,80 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 444,
+      "corroborating_source_count": 301,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/the-crucifix-on-meccas-front-porch",
+      "id": "https://archive.org/details/weak-points-in-the-ideology-of-jihad",
       "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
+        "Check Christian source context, doctrine, and source quality.",
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
       ],
       "layer_routes": [
-        "world_languages",
+        "biblical_languages",
+        "research_documents/christian_sources",
         "all_texts",
-        "other_religious_texts",
-        "visual_art"
+        "world_languages"
       ],
-      "primary_layer": "world_languages",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "The Crucifix on Mecca\u2019s Front Porch (Dr. David Pinault, August 7, 2020) Transcript available below Watch his speaker playlist About the speaker David Pinault received his B.A. in French literature from Georgetown University and his M.A.and Ph.D in Arabic and Islamic Studies from the Department of Oriental Studies at the University of Pennsylvania. His research interests include comparative Christology and the status of Christian populations in Muslim-majority societies. Among the countries in which he has done fieldwork are Yemen, Egypt, Pakistan, India, and Indonesia. A recipient of Santa Clara University\u2019s Public Intellectual Award and the Brutocao Award for Teaching Excellence, he has ser",
-      "tags": [
-        "world_language_source_sampling"
-      ],
-      "title": "The Crucifix On Mecca's Front Porch",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/the-crucifix-on-meccas-front-porch",
-      "year": "2020"
-    },
-    {
-      "authors": [
-        "Restitutio"
-      ],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 5,
-      "automated_evidence_warnings": [
-        "speculative or overclaim language detected"
-      ],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 337,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://archive.org/details/restitutio-577_nothing_mere_about_a_man_made_in_the_image_of_god_anna_brown",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "other_religious_texts"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Internet Archive",
-      "quality": "speculative-risk",
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Has anyone ever said to you, \u201cOh, you believe Jesus is just a mere man.\u201d How do you respond when someone says that? Do you just go along with it and say, \u201cYep, that\u2019s what I believe\u2013Jesus is just another guy\u201d? I hope not. Jesus is not just another guy. He\u2019s the virginally-conceived son of God who lived righteously without sin, healed dozens (maybe hundreds) of people, preached tirelessly about the kingdom, taught the Bible and how to live, performed many miracles and exorcisms, voluntarily died for our sins as a perfect sacrifice. Then God raised him from the dead and he ascended to God\u2019s right hand from which place he is the head of the church and from which place he will come again on the ",
-      "tags": [
-        "world_language_source_sampling"
-      ],
-      "title": "577 Nothing Mere about a Man Made in the Image of God (Anna Brown)",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://archive.org/details/Restitutio-577_nothing_mere_about_a_man_made_in_the_image_of_god_anna_brown",
-      "year": "2024"
-    },
-    {
-      "authors": [
-        "Petru Loga"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 422,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/the-church-the-body-of-christ",
-      "layer_review_prompts": [
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "all_texts",
-        "other_religious_texts",
-        "modern_literature",
-        "visual_art"
-      ],
-      "primary_layer": "all_texts",
+      "primary_layer": "biblical_languages",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org texts",
-      "summary": "For very many of us, the church we are part of no longer carries the purpose given by God. For many, the church is merely a place to regain the inner peace lost during the week because of an overcrowded and hectic lifestyle. We have been taught to believe that what is generally called \u201cthe church\u201d is simply a place where people with similar religious interests gather. It is a place where people sing, pray, listen to a sermon, socialize a little after the service, and then each one returns to his own pursuits and personal interests. A very small portion of the members have the responsibility of conducting this program. The great majority of members find themselves in the position of spectator",
+      "summary": "Weak Points in the Ideology of Jihad The Resilience of the Ideology Whether you like it or not, whether you consider it something too obscure to be bothered with, the ideology is the jihad\u2019s most effective and most enduring weapon. Ideology is the most important arm because it is the most resilient. It is going to remain long after Bin Laden is gone, long after the individual groups have vanished. If, and when, all the strategies and tactics of these cells have been wound up, the jihad as an ideology will stay and will go on to generate the next group, and the next. So how does the ideology provide this resilience? It frames the conflict, and justifies it. It gives the Mujahideen a grand mis",
       "tags": [
-        "global_text_traditions"
+        "biblical_language_source_depth"
       ],
-      "title": "The Church - The Body Of Christ",
+      "title": "Weak Points In The Ideology Of Jihad",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/the-church-the-body-of-christ",
-      "year": "2025"
+      "url": "https://archive.org/details/weak-points-in-the-ideology-of-jihad",
+      "year": "2009"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "publication year present",
+        "recognized scholarly source type",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 9,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 472,
+      "date_accessed": "2026-05-25",
+      "doi": "10.1017/9781108558785.006",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "10.1017/9781108558785.006",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "Religious Experience Psychologized",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://doi.org/10.1017/9781108558785.006",
+      "year": 2019
     },
     {
       "authors": [
@@ -425,34 +905,78 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 313,
+      "corroborating_source_count": 423,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/content_uusf_org-20110605jksermon",
+      "id": "https://archive.org/details/content_uusf_org-20120226jkcomplete",
       "layer_review_prompts": [
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
         "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
         "all_texts",
         "other_religious_texts",
-        "modern_literature"
+        "modern_literature",
+        "visual_art"
       ],
       "primary_layer": "all_texts",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Our monthly newsletter weekly flame austin world: While you're there check out our monthly newsletter weekly flame and much much more to all who are here this morning welcome home the work of this church in the world is realized through the generous financial support of all who call this place home along with the gifts and time and talent ours is a shared ministry you have a role to play here church membership is open to all for more information go to uusf..",
+      "summary": "The vilnius christian know: And forgetting you know they can be all sorts of things that could be an illness that we begin to identify with that then starts dictating how we live our life because we're struggling with the vilnius.",
       "tags": [
         "global_text_traditions"
       ],
-      "title": "Our monthly newsletter weekly flame austin world",
+      "title": "The vilnius christian know",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/content_uusf_org-20110605JKSermon",
+      "url": "https://archive.org/details/content_uusf_org-20120226JKComplete",
       "year": "2022"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "publication year present",
+        "recognized scholarly source type",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 9,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 430,
+      "date_accessed": "2026-05-25",
+      "doi": "10.4324/9781315744605-13",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "10.4324/9781315744605-13",
+      "layer_review_prompts": [
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "other_religious_texts",
+        "human_stories",
+        "theologians"
+      ],
+      "primary_layer": "other_religious_texts",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "interreligious_dream_testimony"
+      ],
+      "title": "Conclusion",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://doi.org/10.4324/9781315744605-13",
+      "year": 2015
     },
     {
       "authors": [],
@@ -466,11 +990,135 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 148,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_africa_20190528_160000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "cultural_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 For Takeoff vertical landing variant of the f. 00:00:02 $35.00 supersonic jet fighter in their remarks the 2 leaders did not mention China 00:00:08 by name but Abbay spoke of an increasingly severe security environment in the 00:00:13 region and Trump noted Japan is to purchase more than $100.00 additional f. 00:00:17 $35.00 stealth jets from the United States that will help our nations defend 00:00:21 against 00:00:22 a range of complex threats in the region and far beyond there has been nervousness 00:00:26 in Japan about America's long term commitment to the defense of the island nation 00:00:31 especially with the presidency of Trump who had a long ti",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "VOA [Voice of America] Africa : May 28, 2019 12:00PM-01:00PM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Africa_20190528_160000",
+      "year": "2019"
+    },
+    {
+      "authors": [
+        "CIA Reading Room"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 148,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp88g01116r000500570003-2",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "cultural_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "25X1 Sanitized Copy Approved for Release 2011/04/12 : CIA-RDP88GO1116R000500570003-2 Next 2 Page(s) In Document Denied Sanitized Copy Approved for Release 2011/04/12 : CIA-RDP88GO1116R000500570003-2 Sanitized Copy Approved for Release 2011/04/12 : CIA-RDP88GO1116ROO0500570003-2 7 TO ECRET National Intelligence Council he Director of Central Intelligence Washington, D.C. 20505 7 May 1986 MEMORANDUM FOR: Director of Central Intelligence Deputy Director of Central Intelligence Acting National Intelligence Officer for Economics SUBJECT: Background for 8 May Cabinet Meeting on Economic Summit 1. This Memorandum is background for your 8 May meeting with the President on the Economic Summit. 2. Ove",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "CIA Reading Room cia-rdp88g01116r000500570003-2: BACKGROUND FOR 8 MAY CABINET MEETING ON ECONOMIC SUMMIT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp88g01116r000500570003-2",
+      "year": "1986"
+    },
+    {
+      "authors": [
+        "Barabeke"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 402,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/demianism",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Separate psychological/social process from theological interpretation and note clinical limits."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "visual_art",
+        "psychology_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "In a time marked by unprecedented technological transformation and a deepening crisis of values, meaning, and identity, Demianism proposes a vision capable of recomposing what the modern world has torn apart \u2014 spirit and matter, individual and community, freedom and ethics, masculine and feminine, faith and reason, human and divine. Demianism is a strange hybrid between a religion and a cultural and political movement. A revealed doctrine founded on 13 axioms: three of a metaphysical nature \u2014 the cosmotheandric triad \u2014 and ten of an ethical, social, and political nature \u2014 the 2kTenCom. From these principles emerges an original vision that restores to humanity meaning, dignity, and a horizon ",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "Demianism",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/demianism",
+      "year": "2026"
+    },
+    {
+      "authors": [
+        "Tao, Julia Lai Po-Wah, 1946-"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
       "corroborating_source_count": 263,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_africa_20190722_160000",
+      "id": "https://archive.org/details/springer_10.1007-978-94-017-1195-1",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims.",
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
@@ -483,15 +1131,15 @@
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 The comedian turned president's party which was formed just 00:00:03 a few months ago underscores Ukrainians desire for 00:00:06 a break with established politicians and parties that have failed to improve living 00:00:11 standards enough at the site 00:00:14 a show on Space Center in eastern India Monday afternoon will. Look 00:00:21 like they don't. Come out of this particular case Yvonne chairman of the 00:00:28 Indian Space Research Organization announced the successful launch of an ambitious 00:00:33 mission to land 00:00:35 a rover on an unexplored area of the moon today because I think 00:00:40 a lot of space and sayings and ecology in India. I mix",
+      "source_type": "archive.org texts",
+      "summary": "Cross-Cultural Perspectives on the (Im)Possibility of Global Bioethics Author: Julia Tao Lai Po-Wah Published by Springer Netherlands ISBN: 978-90-481-5969-7 DOI: 10.1007/978-94-017-1195-1 Table of Contents: Global Bioethics, Global Dialogue: Introduction Morality, Universality, and Particularity: Rethinking the Role of Community in the Foundations of Bioethics Is Just Caring Possible? Challenge to Bioethics in the New Century Living and Dying in a Post-Traditional World The Tension between Biomedical Technology and Confucian Values On Relational Paradigm in Bioethics The Ethics of Prenatal Screening and the Search for Global Bioethics Genetic Engineering and Social Justice: Towards a Global",
       "tags": [
         "technology_ethics"
       ],
-      "title": "VOA [Voice of America] Africa : July 22, 2019 12:00PM-01:00PM EDT",
+      "title": "Cross-cultural perspectives on the (im)possibility of global bioethics",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Africa_20190722_160000",
-      "year": "2019"
+      "url": "https://archive.org/details/springer_10.1007-978-94-017-1195-1",
+      "year": "2011"
     }
   ],
   "opencitations_enriched_count": 25,
@@ -503,5 +1151,5 @@
     "PubMed": 26,
     "arXiv": 30
   },
-  "updated_at": "2026-05-25T21:42:49.545460+00:00"
+  "updated_at": "2026-05-25T22:21:03.885110+00:00"
 }
