@@ -34,6 +34,7 @@ PATTERN_TEST_REPORT_PATH = REPORTS_DIR / "divine_pattern_test_report.txt"
 DEEP_SOURCE_REVIEW_PATH = REPORTS_DIR / "deep_source_review_report.txt"
 THEOLOGIAN_REPORT_PATH = REPORTS_DIR / "theologian_pattern_design_report.txt"
 SUMMARY_REPORT_PATH = REPORTS_DIR / "divine_pattern_summary_report.txt"
+TOP_PATTERNS_PATH = REPORTS_DIR / "top_five_divine_patterns_report.txt"
 SUPPORTED_EXTENSIONS = {".txt", ".md"}
 
 
@@ -3945,6 +3946,68 @@ def score_candidate(candidate, layer_counts):
     return "not detected"
 
 
+def rank_divine_pattern_candidates(layer_counts):
+    """Rank candidate pattern families by breadth and layer signal."""
+    ranked = []
+
+    for candidate in DIVINE_PATTERN_CANDIDATES:
+        layer_scores = [layer_counts.get(layer, 0) for layer in candidate["layers"]]
+        present_layers = sum(1 for score in layer_scores if score > 0)
+        layer_total = sum(layer_scores)
+        weakest_layer = min(layer_scores) if layer_scores else 0
+        breadth_ratio = present_layers / max(1, len(candidate["layers"]))
+        score = (breadth_ratio * 100000) + layer_total + weakest_layer
+        ranked.append(
+            {
+                "candidate": candidate,
+                "status": score_candidate(candidate, layer_counts),
+                "layer_total": layer_total,
+                "present_layers": present_layers,
+                "total_layers": len(candidate["layers"]),
+                "weakest_layer": weakest_layer,
+                "score": score,
+            }
+        )
+
+    return sorted(
+        ranked,
+        key=lambda item: (
+            item["present_layers"] == item["total_layers"],
+            item["score"],
+            item["layer_total"],
+        ),
+        reverse=True,
+    )
+
+
+def append_top_pattern_families(lines, ranked_patterns, layer_counts, limit=5):
+    """Append concise top-pattern summaries to a report."""
+    for index, item in enumerate(ranked_patterns[:limit], start=1):
+        candidate = item["candidate"]
+        lines.extend(
+            [
+                "",
+                f"{index}. {candidate['name']}",
+                "-" * (len(candidate["name"]) + 3),
+                f"Status: {item['status']}",
+                f"Layer signal total: {item['layer_total']:,}",
+                f"Layers present: {item['present_layers']:,}/{item['total_layers']:,}",
+                f"Pattern: {candidate['sequence']}",
+                f"Interpretation: {candidate['interpretation']}",
+                "Layer support:",
+            ]
+        )
+        for layer in candidate["layers"]:
+            count = layer_counts.get(layer, 0)
+            lines.append(f"- {layer}: {count:,} ({score_layer(count)})")
+        lines.extend(
+            [
+                f"Evidence needed: {candidate['evidence_needed']}",
+                f"Risk to avoid: {candidate['risk']}",
+            ]
+        )
+
+
 def parse_pattern_seed(path):
     """Extract named patterns and arrow sequences from a user seed file."""
     text = read_document(path)
@@ -4127,54 +4190,17 @@ def create_pattern_candidates_report(analyses):
         "------------------",
     ]
 
-    ranked_candidates = sorted(
-        DIVINE_PATTERN_CANDIDATES,
-        key=lambda candidate: sum(layer_counts.get(layer, 0) for layer in candidate["layers"]),
-        reverse=True,
-    )
+    ranked_candidates = rank_divine_pattern_candidates(layer_counts)
 
-    for candidate in ranked_candidates:
-        status = score_candidate(candidate, layer_counts)
-        layer_total = sum(layer_counts.get(layer, 0) for layer in candidate["layers"])
-
-        lines.extend(
-            [
-                "",
-                candidate["name"],
-                "-" * len(candidate["name"]),
-                f"Status: {status}",
-                f"Layer signal total: {layer_total:,}",
-                f"Pattern: {candidate['sequence']}",
-                f"Interpretation: {candidate['interpretation']}",
-                "Layer support:",
-            ]
-        )
-
-        for layer in candidate["layers"]:
-            count = layer_counts.get(layer, 0)
-            lines.append(f"- {layer}: {count:,} ({score_layer(count)})")
-
-        lines.extend(
-            [
-                f"Evidence needed: {candidate['evidence_needed']}",
-                f"Risk to avoid: {candidate['risk']}",
-            ]
-        )
+    append_top_pattern_families(lines, ranked_candidates, layer_counts, limit=5)
 
     lines.extend(
         [
             "",
-            "Best Current Candidate",
-            "----------------------",
-            "The strongest overall pattern is the layered convergence model:",
-            "",
-            "Being -> Order -> Life -> Consciousness -> Meaning -> Moral Response -> Worship -> Transformation",
-            "",
-            "Christian interpretation:",
-            "",
-            "Father -> Creation",
-            "Son / Logos -> Revelation and Redemption",
-            "Holy Spirit -> Presence and Transformation",
+            "Why Top Five Instead Of One",
+            "---------------------------",
+            "The project should not collapse the divine pattern into only one dominant sequence.",
+            "A family of patterns is more honest: Logos, creation-consciousness, Trinity-as-behavior, moral transformation, worship embodiment, cross/reversal, Spirit transformation, and science-humility patterns can each be tested separately.",
             "",
             "Responsible Claim",
             "-----------------",
@@ -4182,6 +4208,37 @@ def create_pattern_candidates_report(analyses):
         ]
     )
 
+    return "\n".join(lines)
+
+
+def create_top_patterns_report(analyses, synthesis_analyses, test_analyses, deep_source_analyses):
+    """Create a concise top-five pattern-family report."""
+    all_analyses = analyses + synthesis_analyses + test_analyses + deep_source_analyses
+    layer_counts = combine_layer_counts(all_analyses)
+    ranked_patterns = rank_divine_pattern_candidates(layer_counts)
+
+    lines = [
+        "Top Five Divine Pattern Families Report",
+        "======================================",
+        "",
+        "Purpose",
+        "-------",
+        "This report prevents the project from showing only one dominant pattern.",
+        "Each family is a research hypothesis with its own support, limits, and pressure tests.",
+        "",
+        "Top Five Pattern Families",
+        "-------------------------",
+    ]
+    append_top_pattern_families(lines, ranked_patterns, layer_counts, limit=5)
+    lines.extend(
+        [
+            "",
+            "Use Rule",
+            "--------",
+            "Do not merge these families too quickly. A pattern can be strong in one lane and weak in another.",
+            "Treat the top five as separate hypotheses until source balance, counterarguments, and pressure tests justify synthesis.",
+        ]
+    )
     return "\n".join(lines)
 
 
@@ -5665,6 +5722,13 @@ def create_divine_pattern_summary_report(
     language_family_counts = combine_language_family_counts(synthesis_analyses)
     text_tradition_counts = combine_text_tradition_counts(synthesis_analyses)
     source_quality_counts = combine_source_quality_counts(research_analyses)
+    top_pattern_layer_counts = combine_layer_counts(
+        research_analyses
+        + synthesis_analyses
+        + test_analyses
+        + deep_source_analyses
+    )
+    top_pattern_rankings = rank_divine_pattern_candidates(top_pattern_layer_counts)
     synthesis_depth_counts = Counter(
         analysis.get("synthesis_depth", "not scored") for analysis in synthesis_analyses
     )
@@ -5781,6 +5845,16 @@ def create_divine_pattern_summary_report(
         "",
         "Why this pattern is currently strongest:",
         "----------------------------------------",
+        ]
+    )
+
+    lines.extend(["", "Top Five Divine Pattern Families", "--------------------------------"])
+    append_top_pattern_families(lines, top_pattern_rankings, top_pattern_layer_counts, limit=5)
+    lines.extend(
+        [
+            "",
+            "Top-five guardrail:",
+            "- These are related but distinct candidate families. Do not treat the strongest one as the only divine pattern.",
         ]
     )
 
@@ -6026,6 +6100,12 @@ def main():
         analyses,
         theologian_analyses,
     )
+    top_patterns_report = create_top_patterns_report(
+        analyses,
+        synthesis_analyses,
+        pattern_test_analyses,
+        deep_source_analyses,
+    )
     divine_pattern_summary_report = create_divine_pattern_summary_report(
         analyses,
         music_analyses,
@@ -6046,6 +6126,7 @@ def main():
     save_text(PATTERN_TEST_REPORT_PATH, pattern_test_report)
     save_text(DEEP_SOURCE_REVIEW_PATH, deep_source_review_report)
     save_text(THEOLOGIAN_REPORT_PATH, theologian_pattern_design_report)
+    save_text(TOP_PATTERNS_PATH, top_patterns_report)
     save_text(SUMMARY_REPORT_PATH, divine_pattern_summary_report)
 
     print("Divine pattern research analysis complete.")
@@ -6059,6 +6140,7 @@ def main():
     print(f"Pattern test report saved to: {PATTERN_TEST_REPORT_PATH}")
     print(f"Deep source review saved to: {DEEP_SOURCE_REVIEW_PATH}")
     print(f"Theologian pattern design saved to: {THEOLOGIAN_REPORT_PATH}")
+    print(f"Top five patterns saved to: {TOP_PATTERNS_PATH}")
     print(f"Summary report saved to: {SUMMARY_REPORT_PATH}")
 
 

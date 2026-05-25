@@ -8,45 +8,45 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 9
-Total theologian words analyzed: 2,751
+Theologian documents analyzed: 10
+Total theologian words analyzed: 3,230
 
 Era Coverage
 ------------
-- Patristic: 32
-- Medieval: 19
-- Reformation: 14
-- Modern: 24
+- Patristic: 37
+- Medieval: 22
+- Reformation: 16
+- Modern: 27
 - Contemporary: 20
 
 Concept Coverage
 ----------------
-- Christology: 68
-- Theodicy And Suffering: 61
-- Creation: 54
-- Grace And Transformation: 47
-- Justice And Public Life: 31
-- Trinity: 30
-- Church And Practice: 30
-- Pneumatology: 28
+- Christology: 81
+- Theodicy And Suffering: 74
+- Creation: 65
+- Grace And Transformation: 54
+- Justice And Public Life: 37
+- Trinity: 36
+- Church And Practice: 34
+- Pneumatology: 29
 
 Trinitarian Lens
 ----------------
 Signal: moderate Trinitarian signal
-- Father: 92
-- Son: 81
-- Holy Spirit: 46
+- Father: 104
+- Son: 97
+- Holy Spirit: 54
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 55 | broader corpus 2,460
-- Mathematical Structure: theologians 1 | broader corpus 566
-- Quantum Probability: theologians 0 | broader corpus 92
-- Life And Consciousness: theologians 22 | broader corpus 5,412
-- Meaning And Logos: theologians 45 | broader corpus 6,086
-- Moral Response: theologians 40 | broader corpus 2,331
-- Worship And Community: theologians 53 | broader corpus 1,064
-- Transformation: theologians 99 | broader corpus 2,065
+- Physical Order: theologians 65 | broader corpus 2,463
+- Mathematical Structure: theologians 2 | broader corpus 568
+- Quantum Probability: theologians 0 | broader corpus 96
+- Life And Consciousness: theologians 29 | broader corpus 5,434
+- Meaning And Logos: theologians 52 | broader corpus 6,104
+- Moral Response: theologians 46 | broader corpus 2,339
+- Worship And Community: theologians 63 | broader corpus 1,066
+- Transformation: theologians 119 | broader corpus 2,074
 
 Per-Source Findings
 -------------------
@@ -127,6 +127,17 @@ Meaning arc:
 - Opening: Creation And Order (11)
 - Middle: Creation And Order (9)
 - Ending: Creation And Order (8)
+
+primary_text_reference_index.md
+-------------------------------
+Words: 479
+Strongest era signal: Patristic (5)
+Strongest concept signal: Christology (13)
+Meaning confidence: context-supported pattern
+Meaning arc:
+- Opening: Creation And Order (10)
+- Middle: Transformation And Hope (9)
+- Ending: Transformation And Hope (8)
 
 reformation_source_notes.md
 ---------------------------

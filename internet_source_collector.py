@@ -104,10 +104,20 @@ QUERY_SETS = {
         "comparative theology translation language semantics sacred texts",
         "world languages sacred texts translation meaning metaphor",
     ],
+    "world_language_source_sampling": [
+        "world Christianity translation local language theology source study",
+        "indigenous language Christian theology translation oral tradition source",
+        "African Asian Latin American Christian language translation theology",
+    ],
     "biblical_languages": [
         "biblical Hebrew Greek lemma syntax theology translation",
         "Septuagint Hebrew Bible Greek translation semantics theology",
         "logos pneuma ruach hesed agape shalom biblical theology",
+    ],
+    "biblical_language_source_depth": [
+        "biblical Hebrew ruach hesed shalom source context scholarly article",
+        "New Testament Greek pneuma logos agape source context scholarly article",
+        "Septuagint translation Hebrew Greek theological terms source study",
     ],
     "psychology_patterns": [
         "psychology trauma attachment religion transformation hope",
@@ -123,6 +133,21 @@ QUERY_SETS = {
         "sacred texts wisdom literature lament justice transformation comparative religion",
         "world scriptures wisdom traditions suffering justice hope",
         "oral tradition myth epic proverb ritual moral order comparative theology",
+    ],
+    "modern_literature_meaning": [
+        "modern literature theology suffering grace conversion narrative scholarly",
+        "novel drama poetry religious meaning suffering justice hope literary criticism",
+        "modern memoir spiritual transformation religious experience literary study",
+    ],
+    "cultural_practice_patterns": [
+        "ritual cultural practice justice mercy community transformation anthropology",
+        "public culture religion ethics community repair source study",
+        "religion culture practice formation justice cross cultural anthropology",
+    ],
+    "general_research_methods": [
+        "interdisciplinary theology research method evidence counterargument source review",
+        "comparative theology methodology source review counterargument",
+        "religion science humanities interdisciplinary research method evidence",
     ],
     "interreligious_dream_testimony": [
         "interreligious dreams visions Jesus conversion testimony scholarly study",
@@ -147,21 +172,26 @@ QUERY_SETS = {
 
 
 TAG_LAYER_ROUTES = {
-    "trinity": ["theologians", "research_documents", "pattern_tests"],
+    "trinity": ["theologians", "research_documents"],
     "unresolved_suffering": ["pattern_tests", "deep_sources", "psychology_inputs", "human_stories"],
     "quantum_science_guardrails": ["deep_sources", "pattern_tests"],
     "music_math": ["music_notes", "deep_sources"],
-    "politics_justice": ["cultural_inputs", "history_inputs", "pattern_tests"],
+    "politics_justice": ["cultural_inputs", "history_inputs"],
     "art_beauty": ["visual_art", "cultural_inputs"],
-    "history_memory": ["history_inputs", "theologians", "pattern_tests"],
+    "history_memory": ["history_inputs", "theologians"],
     "world_languages_translation": ["world_languages", "all_texts"],
+    "world_language_source_sampling": ["world_languages", "all_texts", "other_religious_texts"],
     "biblical_languages": ["biblical_languages", "research_documents/christian_sources"],
-    "psychology_patterns": ["psychology_inputs", "human_stories", "pattern_tests"],
+    "biblical_language_source_depth": ["biblical_languages", "research_documents/christian_sources", "all_texts"],
+    "psychology_patterns": ["psychology_inputs", "human_stories"],
     "pattern_perception_divine_response": ["psychology_inputs", "pattern_tests", "human_stories", "deep_sources"],
     "global_text_traditions": ["all_texts", "other_religious_texts", "modern_literature"],
-    "interreligious_dream_testimony": ["other_religious_texts", "human_stories", "pattern_tests", "theologians"],
-    "holy_spirit_gifts_global": ["theologians", "other_religious_texts", "human_stories", "psychology_inputs", "pattern_tests"],
-    "technology_ethics": ["cultural_inputs", "pattern_tests"],
+    "modern_literature_meaning": ["modern_literature", "all_texts", "human_stories"],
+    "cultural_practice_patterns": ["cultural_inputs", "history_inputs", "psychology_inputs"],
+    "general_research_methods": ["research_documents", "deep_sources"],
+    "interreligious_dream_testimony": ["other_religious_texts", "human_stories", "theologians"],
+    "holy_spirit_gifts_global": ["theologians", "other_religious_texts", "human_stories", "psychology_inputs"],
+    "technology_ethics": ["cultural_inputs"],
     "theologians_cross_era": ["theologians", "research_documents/christian_sources"],
 }
 
@@ -419,6 +449,22 @@ def count_by_provider(sources: list[dict]):
         provider = source.get("provider") or "unknown"
         counts[provider] = counts.get(provider, 0) + 1
     return counts
+
+
+def layer_balance_status(layer_counts: dict[str, int]):
+    if not layer_counts:
+        return []
+
+    max_count = max(layer_counts.values())
+    if max_count <= 0:
+        return []
+
+    thin_threshold = max(1, int(max_count * 0.25))
+    return [
+        (layer, count)
+        for layer, count in sorted(layer_counts.items(), key=lambda item: (item[1], item[0]))
+        if count < thin_threshold
+    ]
 
 
 def source_quality(source: dict):
@@ -1377,6 +1423,13 @@ def write_reports(
     lines.extend(f"- {tag}: {count:,}" for tag, count in sorted(tag_counts.items()))
     lines.extend(["", "Layer Routes", "------------"])
     lines.extend(f"- {layer}: {count:,}" for layer, count in sorted(layer_counts.items()))
+    thin_layers = layer_balance_status(layer_counts)
+    if thin_layers:
+        lines.extend(["", "Layer Balance Watch", "-------------------"])
+        lines.append(
+            "- These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:"
+        )
+        lines.extend(f"  - {layer}: {count:,}" for layer, count in thin_layers)
     lines.extend(["", "Quality Counts", "--------------"])
     lines.extend(f"- {quality}: {count:,}" for quality, count in sorted(quality_counts.items()))
     lines.extend(["", "Automated Evidence Counts", "-------------------------"])

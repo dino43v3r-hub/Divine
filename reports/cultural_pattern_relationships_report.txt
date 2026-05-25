@@ -9,54 +9,81 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 9
-Total cultural words analyzed: 338
+Cultural documents analyzed: 10
+Total cultural words analyzed: 479
 
 Cultural Domains
 ----------------
-- Family And Community: 19
-- Education And Formation: 12
+- Family And Community: 25
+- Education And Formation: 16
+- Health And Suffering: 16
+- Politics And Justice: 14
+- Technology And AI: 14
+- Economics And Work: 13
 - Art And Beauty: 11
-- Politics And Justice: 11
-- Health And Suffering: 11
-- Technology And AI: 10
-- Ecology And Creation Care: 10
-- Science And Discovery: 8
-- Economics And Work: 8
-- Psychology And Human Behavior: 6
+- Ecology And Creation Care: 11
+- Science And Discovery: 10
+- Psychology And Human Behavior: 10
 - Visual Art And Iconography: 4
-- Global Text Traditions: 3
-- History And Memory: 2
+- History And Memory: 4
+- Global Text Traditions: 4
+- World Languages: 2
 
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 2
+- Father: 5
 - Son: 0
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Communal Practice: 11
-- Creation And Order: 9
+- Creation And Order: 13
+- Moral Confrontation: 13
+- Communal Practice: 13
 - Desire And Longing: 9
-- Moral Confrontation: 9
-- Transformation And Hope: 6
+- Transformation And Hope: 7
 - Alienation And Lament: 2
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 22 | religious/science corpus 2,460
-- Mathematical Structure: cultural inputs 18 | religious/science corpus 566
-- Quantum Probability: cultural inputs 1 | religious/science corpus 92
-- Life And Consciousness: cultural inputs 32 | religious/science corpus 5,412
-- Meaning And Logos: cultural inputs 48 | religious/science corpus 6,086
-- Moral Response: cultural inputs 60 | religious/science corpus 2,331
-- Worship And Community: cultural inputs 55 | religious/science corpus 1,064
-- Transformation: cultural inputs 57 | religious/science corpus 2,065
+- Physical Order: cultural inputs 25 | religious/science corpus 2,463
+- Mathematical Structure: cultural inputs 24 | religious/science corpus 568
+- Quantum Probability: cultural inputs 1 | religious/science corpus 96
+- Life And Consciousness: cultural inputs 46 | religious/science corpus 5,434
+- Meaning And Logos: cultural inputs 62 | religious/science corpus 6,104
+- Moral Response: cultural inputs 84 | religious/science corpus 2,339
+- Worship And Community: cultural inputs 69 | religious/science corpus 1,066
+- Transformation: cultural inputs 79 | religious/science corpus 2,074
 
 Per-Domain Findings
 -------------------
+
+cultural_practice_balance_notes.md
+----------------------------------
+Words: 141
+Strongest cultural domain: Family And Community (6)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (2)
+- Ending: Creation And Order (1)
+Layer interpretation:
+- Moral Response: 24
+- Transformation: 22
+- Life And Consciousness: 14
+- Meaning And Logos: 14
+- Worship And Community: 14
+- Mathematical Structure: 6
+- Physical Order: 3
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+Practical domain applications:
+- Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.
+- Apply the pattern to labor and money by asking whether systems protect dignity, reduce exploitation, and support real flourishing.
+- Respond to suffering with truthful lament, practical care, patience, and hope without minimizing pain.
 
 art_beauty_symbol.md
 --------------------

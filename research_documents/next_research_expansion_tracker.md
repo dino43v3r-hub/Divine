@@ -31,6 +31,8 @@ These are active operating rules for the next phase, not merely future ideas:
 9. Compare ordinary human pattern response with response to perceived divine
    pattern using psychology, cognition, statistics, fruit, and abuse-risk
    filters.
+10. Rebalance source coverage so underrepresented lanes receive direct notes and
+   search routes before high-count lanes keep expanding.
 
 ## 1. Theologian Source Material Across Eras
 
@@ -57,7 +59,7 @@ Next depth work:
 
 ## 2. Cross-Layer Synthesis Notes
 
-Status: third-pass expanded across all requested lanes.
+Status: fourth-pass expanded across all requested lanes, with balance policy added.
 
 Current coverage:
 
@@ -76,6 +78,10 @@ Current coverage:
   `biblical_languages/source_specific_counterreadings.md`,
   `all_texts/text_tradition_counterreading_map.md`, and
   `psychology_inputs/source_specific_psychology_limits.md`.
+- `research_documents/layer_balance_policy.md` identifies thin lanes and
+  requires direct source notes before promotion.
+- Added balancing notes in biblical languages, world languages, modern
+  literature, and cultural inputs.
 
 Next depth work:
 
@@ -161,12 +167,10 @@ Current coverage:
   scholarly metadata, DOI/stable identifiers, author/year metadata, source
   type, citation count when available, routed corroboration, counterargument
   language, and overclaim risk.
-- Broad web search now defaults to the public SearXNG instance
-  `https://search.mdosch.de`. It can be overridden with `SEARXNG_BASE_URL`, and
-  paid or free-credit providers can still be added with `BING_SEARCH_API_KEY`
-  and `BRAVE_SEARCH_API_KEY`. Open-web results are scored more cautiously than
-  scholarly/indexed sources and require trusted-domain signals or corroboration
-  before strengthening claims.
+- Broad web search is metered through configured providers such as Tavily and
+  optional SearXNG/Bing/Brave keys. Open-web results are scored more cautiously
+  than scholarly/indexed sources and require trusted-domain signals or
+  corroboration before strengthening claims.
 - `research_documents/daily_cloud_reference_review_log.md` starts reviewing
   routed queue items with cautious labels.
 - The review log now includes a seven-item depth-pass batch for theologian,
@@ -180,6 +184,8 @@ Next depth work:
   support, corroboration, and no unresolved overclaim warning.
 - Convert high-quality routed candidates into source-specific notes in the
   appropriate layer folder.
+- Record promotion decisions in
+  `research_documents/cloud_reference_promotion_decision_log.md`.
 
 ## 7. Refine Only Where The Pattern Survives Pressure
 
@@ -192,6 +198,8 @@ Current coverage:
   Trinitarian claims.
 - `research_documents/pattern_revision_rules.md` defines weakening labels and
   revision triggers for failed pressure tests.
+- `research_documents/weakened_claims_register.md` records claims that are
+  currently weakened or blocked by pressure tests.
 
 Next depth work:
 

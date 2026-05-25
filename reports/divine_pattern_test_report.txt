@@ -13,36 +13,36 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 20
-Test words analyzed: 2,163
+Test documents analyzed: 21
+Test words analyzed: 2,405
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 35
-- Injustice And Corruption: 30
+- Suffering Without Resolution: 39
+- Injustice And Corruption: 37
+- Practical Case Study: 30
 - Disconfirming Failure Condition: 30
-- Practical Case Study: 27
 - Science Guardrail: 23
-- Counterexample Pressure: 14
+- Counterexample Pressure: 16
 - Misuse And Weaponization: 13
 - Non-Christian Comparison: 11
 - Rival Explanation: 10
 
 Source Quality Markers
 ----------------------
-- Practical Lived Source: 50
+- Practical Lived Source: 51
 - Scholarly Or Scientific Source: 23
 - Speculative Source: 3
 - Primary Or Classical Source: 2
 
 Confidence Results
 ------------------
-- resilient under pressure: 17
+- resilient under pressure: 18
 - needs deeper review but still plausible: 3
 
 Hold Assessment
 ---------------
-- pressure present but hold question is underdeveloped: 12
+- pressure present but hold question is underdeveloped: 13
 - provisionally holds; needs stronger review: 5
 - does not hold yet under this friction: 2
 - not enough friction to judge hold: 1
@@ -51,32 +51,53 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: thin but complete Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 43 | research corpus 3,388
-- Son: test set 13 | research corpus 6,672
-- Holy Spirit: test set 30 | research corpus 1,817
+- Father: test set 45 | research corpus 3,412
+- Son: test set 13 | research corpus 6,681
+- Holy Spirit: test set 32 | research corpus 1,834
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 22 | research corpus 2,460
-- Mathematical Structure: test set 9 | research corpus 566
-- Quantum Probability: test set 9 | research corpus 92
-- Life And Consciousness: test set 13 | research corpus 5,412
-- Meaning And Logos: test set 23 | research corpus 6,086
-- Moral Response: test set 31 | research corpus 2,331
-- Worship And Community: test set 42 | research corpus 1,064
-- Transformation: test set 38 | research corpus 2,065
+- Physical Order: test set 23 | research corpus 2,463
+- Mathematical Structure: test set 9 | research corpus 568
+- Quantum Probability: test set 9 | research corpus 96
+- Life And Consciousness: test set 14 | research corpus 5,434
+- Meaning And Logos: test set 28 | research corpus 6,104
+- Moral Response: test set 32 | research corpus 2,339
+- Worship And Community: test set 43 | research corpus 1,066
+- Transformation: test set 39 | research corpus 2,074
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 76
-- Communal Practice: 39
-- Alienation And Lament: 28
-- Transformation And Hope: 26
-- Moral Confrontation: 24
-- Desire And Longing: 9
+- Creation And Order: 83
+- Communal Practice: 40
+- Alienation And Lament: 32
+- Moral Confrontation: 29
+- Transformation And Hope: 28
+- Desire And Longing: 10
 
 Per-Test Findings
 -----------------
+
+absent_repair_extreme_pressure_cases.md
+---------------------------------------
+Words: 242
+Meaning confidence: context-supported pattern
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Injustice And Corruption: 7
+- Suffering Without Resolution: 4
+- Practical Case Study: 3
+- Counterexample Pressure: 2
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (3)
+- Ending: Alienation And Lament (3)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add physicist-authored sources before making quantum or science-related claims.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
 
 no_repair_case_studies_expansion.md
 -----------------------------------

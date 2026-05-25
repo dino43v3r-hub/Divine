@@ -11,8 +11,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 119
-Dedicated synthesis documents: 32
+Total documents across all lanes: 129
+Dedicated synthesis documents: 35
 Active divine-pattern layers: 8 of 8
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
@@ -21,38 +21,38 @@ Coverage note: these are coverage-map signals. A language family or tradition is
 
 Interpretive Lenses
 -------------------
-- Psychological Process: 125
-- Ethical Consequence: 108
-- Historical Context: 104
-- Embodied Practice: 102
-- Language Semantics: 99
-- Original-Language Witness: 79
-- Theological Resonance: 66
+- Psychological Process: 128
+- Ethical Consequence: 122
+- Language Semantics: 116
+- Historical Context: 107
+- Embodied Practice: 105
+- Original-Language Witness: 91
+- Theological Resonance: 81
 - Visual Symbol: 33
-- Surface Vocabulary: 24
+- Surface Vocabulary: 30
 - Counter-Reading: 11
 
 Dedicated Synthesis Domains
 ---------------------------
-- Psychology And Human Behavior: 133
-- World Languages: 132
-- Global Text Traditions: 111
-- History And Memory: 104
-- Biblical Greek And Hebrew: 84
-- Politics And Justice: 79
-- Art And Beauty: 56
-- Health And Suffering: 55
-- Family And Community: 53
-- Education And Formation: 39
+- World Languages: 149
+- Psychology And Human Behavior: 136
+- Global Text Traditions: 116
+- History And Memory: 107
+- Biblical Greek And Hebrew: 96
+- Politics And Justice: 88
+- Art And Beauty: 57
+- Health And Suffering: 57
+- Family And Community: 54
+- Education And Formation: 43
 - Visual Art And Iconography: 34
-- Science And Discovery: 26
+- Science And Discovery: 31
 - Ecology And Creation Care: 13
-- Economics And Work: 11
+- Economics And Work: 12
 
 Language Family Coverage
 ------------------------
-- Afro-Asiatic: mapped (35)
-- Indo-European: mapped (48)
+- Afro-Asiatic: mapped (37)
+- Indo-European: mapped (52)
 - Sino-Tibetan: mapped (18)
 - Niger-Congo: mapped (16)
 - Austronesian: mapped (13)
@@ -71,52 +71,52 @@ Language Family Coverage
 Text Tradition Coverage
 -----------------------
 - Sacred Scripture: mapped (23)
-- Wisdom And Proverbs: mapped (28)
+- Wisdom And Proverbs: mapped (32)
 - Epic And Myth: mapped (11)
-- Philosophy And Ethics: mapped (13)
-- Law And Covenant: mapped (60)
-- Poetry And Lament: mapped (19)
-- Ritual And Liturgy: mapped (36)
-- History And Chronicle: mapped (27)
-- Oral Tradition And Folklore: mapped (56)
+- Philosophy And Ethics: mapped (15)
+- Law And Covenant: mapped (68)
+- Poetry And Lament: mapped (20)
+- Ritual And Liturgy: mapped (37)
+- History And Chronicle: mapped (28)
+- Oral Tradition And Folklore: mapped (57)
 - Commentary And Interpretation: mapped (21)
-- Modern Literature: mapped (9)
-- Human Story And Testimony: mapped (52)
+- Modern Literature: mapped (13)
+- Human Story And Testimony: mapped (55)
 
 Layer Convergence Across All Sources
 ------------------------------------
-- Physical Order: 2,777 (strong signal)
-- Mathematical Structure: 801 (moderate signal)
-- Quantum Probability: 102 (early signal)
-- Life And Consciousness: 5,762 (strong signal)
-- Meaning And Logos: 6,943 (strong signal)
-- Moral Response: 3,094 (strong signal)
-- Worship And Community: 1,919 (strong signal)
-- Transformation: 3,021 (strong signal)
+- Physical Order: 2,801 (strong signal)
+- Mathematical Structure: 815 (moderate signal)
+- Quantum Probability: 106 (early signal)
+- Life And Consciousness: 5,824 (strong signal)
+- Meaning And Logos: 7,048 (strong signal)
+- Moral Response: 3,171 (strong signal)
+- Worship And Community: 1,993 (strong signal)
+- Transformation: 3,119 (strong signal)
 
 Meaning Movement Across All Sources
 -----------------------------------
-- Creation And Order: 6,046
-- Alienation And Lament: 2,141
-- Desire And Longing: 3,343
-- Moral Confrontation: 3,437
-- Communal Practice: 2,530
-- Transformation And Hope: 3,756
+- Creation And Order: 6,122
+- Alienation And Lament: 2,150
+- Desire And Longing: 3,360
+- Moral Confrontation: 3,464
+- Communal Practice: 2,546
+- Transformation And Hope: 3,811
 
 Synthesis Depth Results
 -----------------------
-- cross-layer synthesis: 17
-- multi-lens understanding: 13
+- cross-layer synthesis: 19
+- multi-lens understanding: 14
 - contextual interpretation: 1
 - early synthesis signal: 1
 
 Comparative Validity Check
 --------------------------
 Comparative recurrence can support a broad human pattern of order, meaning, moral response, community, and transformation; it does not by itself validate the specifically Christian Trinitarian interpretation.
-- shared-human pattern signal: 6
+- shared-human pattern signal: 7
 - strong shared-human pattern; Trinitarian claim still needs Christian sources: 5
 - Comparative Trinitarian signal: thin but complete Trinitarian signal
-- Father: 36
+- Father: 40
 - Son: 21
 - Holy Spirit: 33
 
@@ -239,10 +239,21 @@ Synthesis questions:
 
 World Languages
 ---------------
-Files: 4
-Strongest lens: Language Semantics (31)
-Strongest layer: Meaning And Logos (88)
-Strongest meaning context: Creation And Order (19)
+Files: 5
+Strongest lens: Language Semantics (39)
+Strongest layer: Meaning And Logos (119)
+Strongest meaning context: Creation And Order (25)
+
+cross_cultural_translation_balance_notes.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 154
+Meaning confidence: context-supported pattern
+Synthesis depth: cross-layer synthesis
+Global coverage: starter global coverage map
+Synthesis questions:
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does the original-language evidence support the theological claim, or only suggest a possible reading?
 
 language_family_counterreading_map.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -288,10 +299,21 @@ Synthesis questions:
 
 Biblical Greek And Hebrew
 -------------------------
-Files: 4
-Strongest lens: Original-Language Witness (60)
-Strongest layer: Meaning And Logos (128)
-Strongest meaning context: Creation And Order (17)
+Files: 5
+Strongest lens: Original-Language Witness (69)
+Strongest layer: Meaning And Logos (146)
+Strongest meaning context: Transformation And Hope (27)
+
+expanded_lexeme_balance_notes.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 186
+Meaning confidence: context-supported pattern
+Synthesis depth: cross-layer synthesis
+Global coverage: starter global coverage map
+Synthesis questions:
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does the original-language evidence support the theological claim, or only suggest a possible reading?
 
 greek_hebrew_depth_checks.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -506,10 +528,23 @@ Comparative validity: shared-human pattern signal
 
 Modern Literature
 -----------------
-Files: 1
-Strongest lens: Language Semantics (2)
-Strongest layer: Worship And Community (10)
-Strongest meaning context: Creation And Order (8)
+Files: 2
+Strongest lens: Language Semantics (6)
+Strongest layer: Meaning And Logos (20)
+Strongest meaning context: Creation And Order (16)
+
+modern_literature_balance_cases.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 147
+Meaning confidence: plausible meaning pattern
+Synthesis depth: multi-lens understanding
+Global coverage: starter global coverage map
+Synthesis questions:
+Comparative validity: shared-human pattern signal
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
+- What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
 
 narrative_pattern_validation_notes.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

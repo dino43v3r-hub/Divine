@@ -89,18 +89,97 @@ Notice -> Name -> Discern -> Practice -> Transform
 
 Why this pattern is currently strongest:
 ----------------------------------------
+
+Top Five Divine Pattern Families
+--------------------------------
+
+1. Image Of God Pattern
+-----------------------
+Status: strong candidate
+Layer signal total: 17,344
+Layers present: 4/4
+Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
+Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
+Layer support:
+- Life And Consciousness: 5,711 (strong signal)
+- Meaning And Logos: 6,871 (strong signal)
+- Moral Response: 2,979 (strong signal)
+- Worship And Community: 1,783 (strong signal)
+Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
+Risk to avoid: Do not collapse the image of God into intelligence alone.
+
+2. Cross And Reversal Pattern
+-----------------------------
+Status: strong candidate
+Layer signal total: 12,674
+Layers present: 3/3
+Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
+Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
+Layer support:
+- Meaning And Logos: 6,871 (strong signal)
+- Moral Response: 2,979 (strong signal)
+- Transformation: 2,824 (strong signal)
+Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
+Risk to avoid: Do not romanticize suffering or ignore injustice.
+
+3. Providence And Contingency Pattern
+-------------------------------------
+Status: promising candidate
+Layer signal total: 15,257
+Layers present: 4/4
+Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
+Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
+Layer support:
+- Physical Order: 2,570 (strong signal)
+- Quantum Probability: 105 (early signal)
+- Life And Consciousness: 5,711 (strong signal)
+- Meaning And Logos: 6,871 (strong signal)
+Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
+Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
+
+4. Trinity-As-Behavior Pattern
+------------------------------
+Status: strong candidate
+Layer signal total: 12,265
+Layers present: 3/3
+Pattern: Father Creates -> Son Redeems -> Spirit Transforms
+Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
+Layer support:
+- Physical Order: 2,570 (strong signal)
+- Meaning And Logos: 6,871 (strong signal)
+- Transformation: 2,824 (strong signal)
+Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
+Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
+
+5. Creation-To-Consciousness Pattern
+------------------------------------
+Status: strong candidate
+Layer signal total: 13,043
+Layers present: 4/4
+Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
+Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
+Layer support:
+- Physical Order: 2,570 (strong signal)
+- Life And Consciousness: 5,711 (strong signal)
+- Moral Response: 2,979 (strong signal)
+- Worship And Community: 1,783 (strong signal)
+Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
+Risk to avoid: Avoid implying a simple linear proof from physics to worship.
+
+Top-five guardrail:
+- These are related but distinct candidate families. Do not treat the strongest one as the only divine pattern.
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,388
-- Son: 6,672
-- Holy Spirit: 1,817
+- Father: 3,412
+- Son: 6,681
+- Holy Spirit: 1,834
 
 Strongest research layers:
-- Meaning And Logos: 6,086
-- Life And Consciousness: 5,412
-- Physical Order: 2,460
-- Moral Response: 2,331
-- Transformation: 2,065
-- Worship And Community: 1,064
+- Meaning And Logos: 6,104
+- Life And Consciousness: 5,434
+- Physical Order: 2,463
+- Moral Response: 2,339
+- Transformation: 2,074
+- Worship And Community: 1,066
 
 Music-note science/math support:
 - Mathematical Structure: 129
@@ -117,26 +196,26 @@ Lyric meaning support:
 - Moral Confrontation: 12
 
 Cultural meaning support:
-- Communal Practice: 11
-- Creation And Order: 9
+- Creation And Order: 13
+- Moral Confrontation: 13
+- Communal Practice: 13
 - Desire And Longing: 9
-- Moral Confrontation: 9
-- Transformation And Hope: 6
+- Transformation And Hope: 7
 
 Cross-layer synthesis support:
-- Psychological Process: 125
-- Ethical Consequence: 108
-- Historical Context: 104
-- Embodied Practice: 102
-- Language Semantics: 99
-- Original-Language Witness: 79
-- Depth: cross-layer synthesis: 17
-- Depth: multi-lens understanding: 13
+- Psychological Process: 128
+- Ethical Consequence: 122
+- Language Semantics: 116
+- Historical Context: 107
+- Embodied Practice: 105
+- Original-Language Witness: 91
+- Depth: cross-layer synthesis: 19
+- Depth: multi-lens understanding: 14
 - Depth: contextual interpretation: 1
 - Depth: early synthesis signal: 1
 
 Comparative validity support:
-- shared-human pattern signal: 6
+- shared-human pattern signal: 7
 - strong shared-human pattern; Trinitarian claim still needs Christian sources: 5
 - Comparative recurrence supports a broad human pattern, not automatic proof of the Trinitarian claim.
 
@@ -148,25 +227,25 @@ Global language/text coverage:
 
 Cloud reference review:
 - Reviewed cloud-reference markers: 3
-- Unreviewed cloud-reference markers: 21
+- Unreviewed cloud-reference markers: 26
 - Treat cloud references as leads until checked against original sources, author expertise, date, publication venue, and counterarguments.
 
 Theologian pattern-design support:
-- Christology: 68
-- Theodicy And Suffering: 61
-- Creation: 54
-- Grace And Transformation: 47
-- Justice And Public Life: 31
-- Trinity: 30
+- Christology: 81
+- Theodicy And Suffering: 74
+- Creation: 65
+- Grace And Transformation: 54
+- Justice And Public Life: 37
+- Trinity: 36
 
 Pressure-test result:
 ---------------------
-- resilient under pressure: 17
+- resilient under pressure: 18
 - needs deeper review but still plausible: 3
 
 Hold-under-friction result:
 ---------------------------
-- pressure present but hold question is underdeveloped: 12
+- pressure present but hold question is underdeveloped: 13
 - provisionally holds; needs stronger review: 5
 - does not hold yet under this friction: 2
 - not enough friction to judge hold: 1
