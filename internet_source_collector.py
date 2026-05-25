@@ -10,6 +10,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
+from socket import timeout as SocketTimeoutError
 from urllib.error import HTTPError
 
 
@@ -201,6 +202,13 @@ def request_timeout_seconds():
         return max(1, int(os.getenv("SEARCH_REQUEST_TIMEOUT_SECONDS", "12")))
     except ValueError:
         return 12
+
+
+def arxiv_timeout_seconds():
+    try:
+        return max(5, int(os.getenv("ARXIV_REQUEST_TIMEOUT_SECONDS", "25")))
+    except ValueError:
+        return 25
 
 
 def provider_enabled(env_name: str, default: bool = True):
@@ -699,7 +707,7 @@ def search_arxiv(query: str, tag: str, limit: int = 5):
         "https://export.arxiv.org/api/query?"
         + urllib.parse.urlencode({"search_query": f"all:{query}", "start": "0", "max_results": str(limit)})
     )
-    text = fetch_text(url)
+    text = fetch_text(url, timeout=arxiv_timeout_seconds())
     root = ET.fromstring(text)
     ns = {"atom": "http://www.w3.org/2005/Atom"}
     results = []
@@ -1153,7 +1161,7 @@ def collect_sources():
                 collectors.append(search_pubmed)
             if provider_enabled("ENABLE_INTERNET_ARCHIVE"):
                 collectors.append(search_internet_archive)
-            if provider_enabled("ENABLE_SEMANTIC_SCHOLAR"):
+            if provider_enabled("ENABLE_SEMANTIC_SCHOLAR", default=bool(os.getenv("SEMANTIC_SCHOLAR_API_KEY"))):
                 collectors.append(search_semantic_scholar)
             if "quantum" in tag or "science" in tag or "music_math" in tag:
                 if provider_enabled("ENABLE_ARXIV"):
@@ -1193,6 +1201,8 @@ def collect_sources():
                         unavailable_collectors.add(collector.__name__)
                 except Exception as exc:
                     errors.append(f"{collector.__name__} failed for {tag}: {exc}")
+                    if isinstance(exc, (TimeoutError, SocketTimeoutError)) or "timed out" in str(exc).lower():
+                        unavailable_collectors.add(collector.__name__)
                 finally:
                     polite_delay()
 

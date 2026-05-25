@@ -75,8 +75,8 @@ Semantic Scholar
 arXiv
 ```
 
-These are free/keyless metadata sources in normal use. Semantic Scholar can
-also use a free API key for better rate limits:
+These are free/keyless metadata sources in normal use. Semantic Scholar is
+available when a key is configured, which avoids noisy anonymous rate limits:
 
 ```text
 SEMANTIC_SCHOLAR_API_KEY
@@ -129,6 +129,7 @@ To slow the collector down for free APIs, set:
 ```text
 SEARCH_DELAY_SECONDS
 SEARCH_REQUEST_TIMEOUT_SECONDS
+ARXIV_REQUEST_TIMEOUT_SECONDS
 ```
 
 Each provider can be toggled with `ENABLE_...` environment variables. For
