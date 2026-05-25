@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 import textwrap
 import urllib.parse
 import urllib.request
@@ -24,7 +25,19 @@ DAILY_EVALUATION_QUEUE_PATH = RESEARCH_DIR / "daily_evaluation_queue.md"
 BING_WEB_SEARCH_ENDPOINT = "https://api.bing.microsoft.com/v7.0/search"
 BRAVE_WEB_SEARCH_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
 DEFAULT_SEARXNG_BASE_URL = "https://search.mdosch.de"
+EUROPE_PMC_SEARCH_ENDPOINT = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+PUBMED_ESEARCH_ENDPOINT = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+PUBMED_ESUMMARY_ENDPOINT = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
+INTERNET_ARCHIVE_ADVANCED_SEARCH_ENDPOINT = "https://archive.org/advancedsearch.php"
+SEMANTIC_SCHOLAR_PAPER_SEARCH_ENDPOINT = "https://api.semanticscholar.org/graph/v1/paper/search"
 OPEN_WEB_PROVIDERS = {"Bing Web Search", "Brave Search", "SearXNG"}
+SCHOLARLY_METADATA_PROVIDERS = {
+    "Crossref",
+    "OpenAlex",
+    "Europe PMC",
+    "PubMed",
+    "Semantic Scholar",
+}
 
 TRUSTED_OPEN_WEB_DOMAINS = [
     ".edu",
@@ -181,7 +194,23 @@ def save_json(path: Path, payload):
     path.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
 
 
-def fetch_json(url: str, timeout: int = 30):
+def request_timeout_seconds():
+    try:
+        return max(1, int(os.getenv("SEARCH_REQUEST_TIMEOUT_SECONDS", "12")))
+    except ValueError:
+        return 12
+
+
+def provider_enabled(env_name: str, default: bool = True):
+    value = os.getenv(env_name)
+    if value is None:
+        return default
+
+    return value.strip().lower() not in {"0", "false", "no", "off"}
+
+
+def fetch_json(url: str, timeout: int | None = None):
+    timeout = request_timeout_seconds() if timeout is None else timeout
     request = urllib.request.Request(
         url,
         headers={
@@ -192,7 +221,8 @@ def fetch_json(url: str, timeout: int = 30):
         return json.loads(response.read().decode("utf-8", errors="replace"))
 
 
-def fetch_json_with_headers(url: str, headers: dict[str, str], timeout: int = 30):
+def fetch_json_with_headers(url: str, headers: dict[str, str], timeout: int | None = None):
+    timeout = request_timeout_seconds() if timeout is None else timeout
     request_headers = {
         "User-Agent": "DivinePatternResearchBot/0.1 (metadata-only research collector)"
     }
@@ -202,7 +232,8 @@ def fetch_json_with_headers(url: str, headers: dict[str, str], timeout: int = 30
         return json.loads(response.read().decode("utf-8", errors="replace"))
 
 
-def fetch_text(url: str, timeout: int = 30):
+def fetch_text(url: str, timeout: int | None = None):
+    timeout = request_timeout_seconds() if timeout is None else timeout
     request = urllib.request.Request(
         url,
         headers={
@@ -215,6 +246,27 @@ def fetch_text(url: str, timeout: int = 30):
 
 def searxng_base_url():
     return (os.getenv("SEARXNG_BASE_URL") or DEFAULT_SEARXNG_BASE_URL).rstrip("/")
+
+
+def searxng_base_urls():
+    configured = os.getenv("SEARXNG_BASE_URLS")
+    if configured:
+        return [url.strip().rstrip("/") for url in configured.split(",") if url.strip()]
+
+    return [searxng_base_url()] if searxng_base_url() else []
+
+
+def request_delay_seconds():
+    try:
+        return max(0.0, float(os.getenv("SEARCH_DELAY_SECONDS", "0.2")))
+    except ValueError:
+        return 0.2
+
+
+def polite_delay():
+    delay = request_delay_seconds()
+    if delay:
+        time.sleep(delay)
 
 
 def clean_text(value: str, limit: int = 700):
@@ -264,7 +316,7 @@ def source_quality(source: dict):
 
     if "arxiv" in provider.lower():
         return "scholarly preprint"
-    if "crossref" in provider.lower() or "openalex" in provider.lower():
+    if provider in SCHOLARLY_METADATA_PROVIDERS:
         return "scholarly metadata"
     if provider in {"Bing Web Search", "Brave Search", "SearXNG"}:
         return "open web result"
@@ -302,7 +354,7 @@ def count_corroborating_sources(source: dict, sources: list[dict]):
         other_key = other.get("id") or source_id(other)
         if other_key == source_key:
             continue
-        if not {"Crossref", "OpenAlex", "arXiv"}.intersection({other.get("provider", "")}):
+        if not (SCHOLARLY_METADATA_PROVIDERS | {"arXiv"}).intersection({other.get("provider", "")}):
             continue
 
         shared_tags = source_tags.intersection(other.get("tags", []))
@@ -324,7 +376,7 @@ def score_automated_evidence(source: dict, sources: list[dict]):
     citation_count = int(source.get("citation_count") or 0)
     corroborating = count_corroborating_sources(source, sources)
 
-    if provider in {"Crossref", "OpenAlex"}:
+    if provider in SCHOLARLY_METADATA_PROVIDERS:
         score += 2
         reasons.append("scholarly metadata provider")
     elif provider == "arXiv":
@@ -603,6 +655,218 @@ def search_arxiv(query: str, tag: str, limit: int = 5):
     return results
 
 
+def search_europe_pmc(query: str, tag: str, limit: int = 5):
+    url = EUROPE_PMC_SEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
+        {
+            "query": query,
+            "pageSize": str(limit),
+            "format": "json",
+            "resultType": "core",
+            "synonym": "true",
+        }
+    )
+    payload = fetch_json(url)
+    results = []
+
+    for item in payload.get("resultList", {}).get("result", []):
+        title = item.get("title", "")
+        if not title:
+            continue
+
+        authors = [
+            clean_text(author.strip(), 120)
+            for author in (item.get("authorString") or "").split(",")[:3]
+            if author.strip()
+        ]
+        full_text_urls = (item.get("fullTextUrlList") or {}).get("fullTextUrl") or [{}]
+        url = item.get("doi") and f"https://doi.org/{item.get('doi')}"
+        url = url or full_text_urls[0].get("url")
+        url = url or (item.get("pmid") and f"https://pubmed.ncbi.nlm.nih.gov/{item.get('pmid')}/")
+        url = url or item.get("id", "")
+
+        results.append(
+            {
+                "title": clean_text(title, 250),
+                "authors": authors,
+                "year": item.get("pubYear"),
+                "url": url,
+                "doi": item.get("doi", ""),
+                "provider": "Europe PMC",
+                "source_type": item.get("pubType", "scholarly metadata"),
+                "citation_count": item.get("citedByCount", 0),
+                "tags": [tag],
+                "summary": clean_text(item.get("abstractText", "")),
+                "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+                "review_status": "unreviewed_daily_candidate",
+                "evaluation_use": "candidate lead only until original source review and counterargument check",
+                "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+            }
+        )
+
+    return results
+
+
+def search_pubmed(query: str, tag: str, limit: int = 5):
+    search_url = PUBMED_ESEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
+        {
+            "db": "pubmed",
+            "term": query,
+            "retmax": str(limit),
+            "retmode": "json",
+            "sort": "relevance",
+        }
+    )
+    search_payload = fetch_json(search_url)
+    ids = search_payload.get("esearchresult", {}).get("idlist", [])
+    if not ids:
+        return []
+
+    polite_delay()
+    summary_url = PUBMED_ESUMMARY_ENDPOINT + "?" + urllib.parse.urlencode(
+        {
+            "db": "pubmed",
+            "id": ",".join(ids),
+            "retmode": "json",
+        }
+    )
+    summary_payload = fetch_json(summary_url)
+    results = []
+
+    for pmid in summary_payload.get("result", {}).get("uids", []):
+        item = summary_payload.get("result", {}).get(pmid, {})
+        title = item.get("title", "")
+        if not title:
+            continue
+
+        authors = [
+            clean_text(author.get("name", ""), 120)
+            for author in (item.get("authors") or [])[:3]
+            if author.get("name")
+        ]
+        article_ids = item.get("articleids") or []
+        doi = next((entry.get("value") for entry in article_ids if entry.get("idtype") == "doi"), "")
+        pub_types = item.get("pubtype") or ["scholarly metadata"]
+
+        results.append(
+            {
+                "title": clean_text(title, 250),
+                "authors": authors,
+                "year": (item.get("pubdate") or "")[:4] or None,
+                "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+                "doi": doi,
+                "provider": "PubMed",
+                "source_type": pub_types[0],
+                "tags": [tag],
+                "summary": clean_text(item.get("source", "")),
+                "copyright_note": "Metadata only; do not store full copyrighted text.",
+                "review_status": "unreviewed_daily_candidate",
+                "evaluation_use": "candidate lead only until original source review and counterargument check",
+                "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+            }
+        )
+
+    return results
+
+
+def search_internet_archive(query: str, tag: str, limit: int = 5):
+    url = INTERNET_ARCHIVE_ADVANCED_SEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
+        {
+            "q": query,
+            "fl[]": ["identifier", "title", "creator", "date", "description", "mediatype"],
+            "rows": str(limit),
+            "page": "1",
+            "output": "json",
+        },
+        doseq=True,
+    )
+    payload = fetch_json(url)
+    results = []
+
+    for item in payload.get("response", {}).get("docs", []):
+        title = item.get("title", "")
+        if isinstance(title, list):
+            title = " ".join(title)
+        if not title:
+            continue
+
+        creators = item.get("creator") or []
+        if isinstance(creators, str):
+            creators = [creators]
+        description = item.get("description", "")
+        if isinstance(description, list):
+            description = " ".join(str(part) for part in description)
+
+        publication_types = item.get("publicationTypes") or ["scholarly metadata"]
+        results.append(
+            {
+                "title": clean_text(title, 250),
+                "authors": [clean_text(author, 120) for author in creators[:3] if author],
+                "year": str(item.get("date", ""))[:4] or None,
+                "url": f"https://archive.org/details/{item.get('identifier')}",
+                "doi": "",
+                "provider": "Internet Archive",
+                "source_type": f"archive.org {item.get('mediatype', 'metadata')}",
+                "tags": [tag],
+                "summary": clean_text(description),
+                "copyright_note": "Archive metadata and short description only; review item rights before use.",
+                "review_status": "unreviewed_daily_candidate",
+                "evaluation_use": "candidate lead only until original source review and counterargument check",
+                "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+            }
+        )
+
+    return results
+
+
+def search_semantic_scholar(query: str, tag: str, limit: int = 5):
+    url = SEMANTIC_SCHOLAR_PAPER_SEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
+        {
+            "query": query,
+            "limit": str(limit),
+            "fields": "title,authors,year,url,abstract,citationCount,externalIds,publicationTypes",
+        }
+    )
+    headers = {}
+    api_key = os.getenv("SEMANTIC_SCHOLAR_API_KEY")
+    if api_key:
+        headers["x-api-key"] = api_key
+
+    payload = fetch_json_with_headers(url, headers) if headers else fetch_json(url)
+    results = []
+
+    for item in payload.get("data", []):
+        title = item.get("title", "")
+        if not title:
+            continue
+
+        external_ids = item.get("externalIds") or {}
+        doi = external_ids.get("DOI", "")
+        results.append(
+            {
+                "title": clean_text(title, 250),
+                "authors": [
+                    clean_text(author.get("name", ""), 120)
+                    for author in (item.get("authors") or [])[:3]
+                    if author.get("name")
+                ],
+                "year": item.get("year"),
+                "url": item.get("url", ""),
+                "doi": doi,
+                "provider": "Semantic Scholar",
+                "source_type": publication_types[0],
+                "citation_count": item.get("citationCount", 0),
+                "tags": [tag],
+                "summary": clean_text(item.get("abstract", "")),
+                "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+                "review_status": "unreviewed_daily_candidate",
+                "evaluation_use": "candidate lead only until original source review and counterargument check",
+                "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+            }
+        )
+
+    return results
+
+
 def web_source_from_result(result: dict, provider: str, tag: str):
     title = result.get("name") or result.get("title") or ""
     url = result.get("url") or result.get("link") or ""
@@ -682,8 +946,8 @@ def search_brave_web(query: str, tag: str, limit: int = 5):
     return results
 
 
-def search_searxng_web(query: str, tag: str, limit: int = 5):
-    base_url = searxng_base_url()
+def search_searxng_web(query: str, tag: str, limit: int = 5, base_url: str | None = None):
+    base_url = (base_url or searxng_base_url()).rstrip("/")
     if not base_url:
         return []
 
@@ -714,6 +978,30 @@ def search_searxng_web(query: str, tag: str, limit: int = 5):
     return results
 
 
+def search_searxng_web_all(query: str, tag: str, limit: int = 5):
+    results = []
+    errors = []
+
+    for base_url in searxng_base_urls():
+        try:
+            results.extend(search_searxng_web(query, tag, limit, base_url=base_url))
+            if len(results) >= limit:
+                return results[:limit]
+        except HTTPError as exc:
+            errors.append(f"{base_url}: {exc}")
+            if exc.code != 429:
+                continue
+        except Exception as exc:
+            errors.append(f"{base_url}: {exc}")
+        finally:
+            polite_delay()
+
+    if errors and not results:
+        raise RuntimeError("; ".join(errors))
+
+    return results[:limit]
+
+
 def collect_sources():
     existing = read_json(REFERENCES_PATH, {"sources": []})
     sources_by_id = {source_id(source): source for source in existing.get("sources", []) if source_id(source)}
@@ -725,21 +1013,37 @@ def collect_sources():
     run_provider_counts = {}
     new_provider_counts = {}
     broad_web_enabled = bool(
-        os.getenv("BING_SEARCH_API_KEY")
-        or os.getenv("BRAVE_SEARCH_API_KEY")
-        or searxng_base_url()
+        (provider_enabled("ENABLE_BING_WEB") and os.getenv("BING_SEARCH_API_KEY"))
+        or (provider_enabled("ENABLE_BRAVE_WEB") and os.getenv("BRAVE_SEARCH_API_KEY"))
+        or (provider_enabled("ENABLE_SEARXNG") and searxng_base_urls())
     )
-    searxng_available = bool(searxng_base_url())
 
     for tag, queries in QUERY_SETS.items():
         for query in queries:
-            collectors = [search_crossref, search_openalex]
+            collectors = []
+            if provider_enabled("ENABLE_CROSSREF"):
+                collectors.append(search_crossref)
+            if provider_enabled("ENABLE_OPENALEX"):
+                collectors.append(search_openalex)
+            if provider_enabled("ENABLE_EUROPE_PMC"):
+                collectors.append(search_europe_pmc)
+            if provider_enabled("ENABLE_PUBMED"):
+                collectors.append(search_pubmed)
+            if provider_enabled("ENABLE_INTERNET_ARCHIVE"):
+                collectors.append(search_internet_archive)
+            if provider_enabled("ENABLE_SEMANTIC_SCHOLAR"):
+                collectors.append(search_semantic_scholar)
             if "quantum" in tag or "science" in tag or "music_math" in tag:
-                collectors.append(search_arxiv)
+                if provider_enabled("ENABLE_ARXIV"):
+                    collectors.append(search_arxiv)
             if broad_web_enabled:
-                collectors.extend([search_bing_web, search_brave_web])
-                if searxng_available:
-                    collectors.append(search_searxng_web)
+                if provider_enabled("ENABLE_BING_WEB"):
+                    collectors.append(search_bing_web)
+                if provider_enabled("ENABLE_BRAVE_WEB"):
+                    collectors.append(search_brave_web)
+                if searxng_base_urls():
+                    if provider_enabled("ENABLE_SEARXNG"):
+                        collectors.append(search_searxng_web_all)
 
             for collector in collectors:
                 try:
@@ -753,10 +1057,10 @@ def collect_sources():
                             new_provider_counts[provider] = new_provider_counts.get(provider, 0) + 1
                 except HTTPError as exc:
                     errors.append(f"{collector.__name__} failed for {tag}: {exc}")
-                    if collector is search_searxng_web and exc.code == 429:
-                        searxng_available = False
                 except Exception as exc:
                     errors.append(f"{collector.__name__} failed for {tag}: {exc}")
+                finally:
+                    polite_delay()
 
     for source in sources_by_id.values():
         add_layer_routing(source)
@@ -861,16 +1165,26 @@ def write_reports(
     open_web_returned = sum(
         count for provider, count in run_provider_counts.items() if provider in OPEN_WEB_PROVIDERS
     )
-    if os.getenv("BING_SEARCH_API_KEY") or os.getenv("BRAVE_SEARCH_API_KEY") or searxng_base_url():
-        lines.append(f"- Broad web search attempted via SearXNG ({searxng_base_url()}) or configured search API keys.")
+    lines.append(
+        "- Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, Semantic Scholar, and arXiv for science/music queries."
+    )
+    if (
+        (provider_enabled("ENABLE_BING_WEB") and os.getenv("BING_SEARCH_API_KEY"))
+        or (provider_enabled("ENABLE_BRAVE_WEB") and os.getenv("BRAVE_SEARCH_API_KEY"))
+        or (provider_enabled("ENABLE_SEARXNG") and searxng_base_urls())
+    ):
+        lines.append(
+            "- Broad web search attempted via SearXNG "
+            + f"({', '.join(searxng_base_urls())}) or configured search API keys."
+        )
         if open_web_returned:
             lines.append(f"- Open-web candidates returned this run: {open_web_returned:,}.")
         elif searxng_errors:
-            lines.append("- Open-web candidates returned this run: 0; the public SearXNG endpoint rate-limited the request.")
+            lines.append("- Open-web candidates returned this run: 0; configured SearXNG endpoint(s) rate-limited or rejected the request.")
         else:
             lines.append("- Open-web candidates returned this run: 0.")
     else:
-        lines.append("- Broad web search not enabled; set SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.")
+        lines.append("- Broad web search not enabled; set SEARXNG_BASE_URLS, SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.")
 
     if run_provider_counts:
         lines.append("- Provider results returned this run:")

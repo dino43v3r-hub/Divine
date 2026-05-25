@@ -68,14 +68,26 @@ By default, the collector searches scholarly/indexed sources:
 ```text
 Crossref
 OpenAlex
+Europe PMC
+PubMed
+Internet Archive
+Semantic Scholar
 arXiv
 ```
 
+These are free/keyless metadata sources in normal use. Semantic Scholar can
+also use a free API key for better rate limits:
+
+```text
+SEMANTIC_SCHOLAR_API_KEY
+```
+
 It can also search the broader web when repository secrets are configured.
-The fully-free option is SearXNG:
+The fully-free broader-web option is SearXNG:
 
 ```text
 SEARXNG_BASE_URL
+SEARXNG_BASE_URLS
 ```
 
 By default, the collector uses:
@@ -88,6 +100,31 @@ https://search.mdosch.de
 instance with JSON results enabled, for example a self-hosted instance. Public
 instances may disable JSON or rate limit automation, so self-hosting is the most
 reliable free path.
+
+`SEARXNG_BASE_URLS` accepts a comma-separated list of SearXNG instances and
+tries them in order. This lets the collector keep working when one public
+instance returns rate limits:
+
+```powershell
+$env:SEARXNG_BASE_URLS="https://search.mdosch.de,https://your-searxng.example"
+python internet_source_collector.py
+```
+
+To slow the collector down for free APIs, set:
+
+```text
+SEARCH_DELAY_SECONDS
+SEARCH_REQUEST_TIMEOUT_SECONDS
+```
+
+Each provider can be toggled with `ENABLE_...` environment variables. For
+example, this keeps the free scholarly/archive sources running but skips broad
+SearXNG web search if public instances are rate-limiting:
+
+```powershell
+$env:ENABLE_SEARXNG="false"
+python internet_source_collector.py
+```
 
 Paid or free-credit API options can also be configured:
 

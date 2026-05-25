@@ -16,133 +16,133 @@ Candidate Rankings
 Image Of God Pattern
 --------------------
 Status: strong candidate
-Layer signal total: 14,561
+Layer signal total: 14,692
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 5,276 (strong signal)
-- Meaning And Logos: 5,977 (strong signal)
-- Moral Response: 2,242 (strong signal)
-- Worship And Community: 1,066 (strong signal)
+- Life And Consciousness: 5,353 (strong signal)
+- Meaning And Logos: 5,999 (strong signal)
+- Moral Response: 2,272 (strong signal)
+- Worship And Community: 1,068 (strong signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
 Providence And Contingency Pattern
 ----------------------------------
 Status: promising candidate
-Layer signal total: 13,856
+Layer signal total: 13,954
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 2,475 (strong signal)
-- Quantum Probability: 128 (early signal)
-- Life And Consciousness: 5,276 (strong signal)
-- Meaning And Logos: 5,977 (strong signal)
+- Physical Order: 2,479 (strong signal)
+- Quantum Probability: 123 (early signal)
+- Life And Consciousness: 5,353 (strong signal)
+- Meaning And Logos: 5,999 (strong signal)
 Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
 Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
 
 Creation-To-Consciousness Pattern
 ---------------------------------
 Status: strong candidate
-Layer signal total: 11,059
+Layer signal total: 11,172
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 2,475 (strong signal)
-- Life And Consciousness: 5,276 (strong signal)
-- Moral Response: 2,242 (strong signal)
-- Worship And Community: 1,066 (strong signal)
+- Physical Order: 2,479 (strong signal)
+- Life And Consciousness: 5,353 (strong signal)
+- Moral Response: 2,272 (strong signal)
+- Worship And Community: 1,068 (strong signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
 Trinity-As-Behavior Pattern
 ---------------------------
 Status: strong candidate
-Layer signal total: 10,503
+Layer signal total: 10,521
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 2,475 (strong signal)
-- Meaning And Logos: 5,977 (strong signal)
-- Transformation: 2,051 (strong signal)
+- Physical Order: 2,479 (strong signal)
+- Meaning And Logos: 5,999 (strong signal)
+- Transformation: 2,043 (strong signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
 Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
 
 Cross And Reversal Pattern
 --------------------------
 Status: strong candidate
-Layer signal total: 10,270
+Layer signal total: 10,314
 Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
 Layer support:
-- Meaning And Logos: 5,977 (strong signal)
-- Moral Response: 2,242 (strong signal)
-- Transformation: 2,051 (strong signal)
+- Meaning And Logos: 5,999 (strong signal)
+- Moral Response: 2,272 (strong signal)
+- Transformation: 2,043 (strong signal)
 Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
 Risk to avoid: Do not romanticize suffering or ignore injustice.
 
 Logos Pattern
 -------------
 Status: strong candidate
-Layer signal total: 9,026
+Layer signal total: 9,113
 Pattern: Order -> Intelligibility -> Word/Logos -> Meaning -> Revelation
 Interpretation: Reality is not merely structured; it is intelligible. Christian theology interprets this through Logos: the Word through whom creation is ordered and made knowable.
 Layer support:
-- Physical Order: 2,475 (strong signal)
-- Mathematical Structure: 574 (moderate signal)
-- Meaning And Logos: 5,977 (strong signal)
+- Physical Order: 2,479 (strong signal)
+- Mathematical Structure: 635 (moderate signal)
+- Meaning And Logos: 5,999 (strong signal)
 Evidence needed: Scripture on Logos and creation, early Christian Logos theology, philosophy of mathematics, and philosophy of science.
 Risk to avoid: Do not treat mathematical elegance as automatic proof of Christian doctrine.
 
 Moral Transformation Pattern
 ----------------------------
 Status: strong candidate
-Layer signal total: 5,359
+Layer signal total: 5,383
 Pattern: Sin -> Conviction -> Repentance -> Forgiveness -> New Life
 Interpretation: Christianity repeatedly frames human behavior as transformable, not fixed. The pattern is moral repair through grace.
 Layer support:
-- Moral Response: 2,242 (strong signal)
-- Transformation: 2,051 (strong signal)
-- Worship And Community: 1,066 (strong signal)
+- Moral Response: 2,272 (strong signal)
+- Transformation: 2,043 (strong signal)
+- Worship And Community: 1,068 (strong signal)
 Evidence needed: Scripture, Augustine, pastoral theology, moral psychology, forgiveness research, and spiritual formation studies.
 Risk to avoid: Do not reduce grace to self-improvement psychology.
 
 Worship Embodiment Pattern
 --------------------------
 Status: strong candidate
-Layer signal total: 5,359
+Layer signal total: 5,383
 Pattern: Belief -> Ritual -> Community -> Identity -> Practice
 Interpretation: Worship turns abstract belief into repeated embodied behavior. Prayer, sacrament, singing, confession, and gathering train identity.
 Layer support:
-- Worship And Community: 1,066 (strong signal)
-- Moral Response: 2,242 (strong signal)
-- Transformation: 2,051 (strong signal)
+- Worship And Community: 1,068 (strong signal)
+- Moral Response: 2,272 (strong signal)
+- Transformation: 2,043 (strong signal)
 Evidence needed: Liturgical theology, ritual studies, anthropology of religion, psychology of habit, and community formation research.
 Risk to avoid: Do not treat ritual as only social bonding; preserve theological meaning.
 
 Spirit Transformation Pattern
 -----------------------------
 Status: strong candidate
-Layer signal total: 5,359
+Layer signal total: 5,383
 Pattern: Presence -> Conviction -> Gifts -> Unity -> Sanctification
 Interpretation: The Holy Spirit pattern links divine presence to inner change and communal formation.
 Layer support:
-- Worship And Community: 1,066 (strong signal)
-- Moral Response: 2,242 (strong signal)
-- Transformation: 2,051 (strong signal)
+- Worship And Community: 1,068 (strong signal)
+- Moral Response: 2,272 (strong signal)
+- Transformation: 2,043 (strong signal)
 Evidence needed: Acts, Pauline letters, pneumatology, spiritual gifts, sanctification, and communal practice.
 Risk to avoid: Do not reduce the Spirit to emotion or group energy.
 
 Quantum Humility Pattern
 ------------------------
 Status: promising candidate
-Layer signal total: 3,177
+Layer signal total: 3,237
 Pattern: Law-Like Reality -> Probability -> Uncertainty -> Epistemic Humility
 Interpretation: Reality is structured but not fully controllable or reducible to simple mechanism. This supports humility, not mystical overclaiming.
 Layer support:
-- Physical Order: 2,475 (strong signal)
-- Mathematical Structure: 574 (moderate signal)
-- Quantum Probability: 128 (early signal)
+- Physical Order: 2,479 (strong signal)
+- Mathematical Structure: 635 (moderate signal)
+- Quantum Probability: 123 (early signal)
 Evidence needed: Physicist-authored quantum mechanics sources, philosophy of probability, and theology of providence.
 Risk to avoid: Never use quantum physics as vague proof of God, prayer, or consciousness.
 

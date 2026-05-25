@@ -3,28 +3,79 @@ Divine Pattern Summary Report
 
 Today's Development
 -------------------
-Daily collector updated: 2026-05-25T14:44:53.118179+00:00
-Brand-new candidate references this run: 0
+Daily collector updated: 2026-05-25T15:28:02.881481+00:00
+Brand-new candidate references this run: 222
 New candidate pattern movements:
-- No brand-new references were added in the latest collector run. The app re-evaluated the existing candidate set, but the summary should not claim new pattern growth today.
+- Theologian-source candidates grew today; review era, primary source, doctrine, disagreement, and pressure points.
+- Visual-art candidates grew today; examine actual form, composition, symbol, beauty, lament, and counter-reading.
+- History candidates grew today; test power, harm, reform, memory, consequence, and unfinished repair.
+- World-language candidates grew today; track translation range, metaphor, grammar, culture, and rival readings.
+- Biblical-language candidates grew today; check lemma, syntax, canonical context, and scholarly counter-readings.
+- Global and comparative text candidates grew today; respect each tradition's own meaning before comparing patterns.
+- Psychology or human-story candidates grew today; separate lived repair from overclaimed theological interpretation.
+- Deep-source candidates grew today; review qualified evidence and counterarguments before strengthening claims.
+- Pressure-test candidates grew today; name failure conditions and whether the pattern holds under friction.
+- Lament-to-hope material grew today; test whether hope is patient and non-coercive rather than a quick resolution.
+- Original-language and translation material grew today; check whether word-level claims survive syntax, genre, and semantic range.
+- Psychology and formation material grew today; compare spiritual transformation with habit, attachment, memory, and repair without reducing faith to mechanism.
+- Historical-memory material grew today; test whether the pattern can face power, harm, repair, and communal memory.
+- Global text-tradition material grew today; compare patterns across genre and culture before calling them universal.
+- Science-guardrail material grew today; keep any science analogy tied to qualified sources and stated limits.
+- Art and beauty material grew today; ask what visual or aesthetic form reveals before translating it into doctrine.
+- Strong scholarly candidates arrived today; use them only for claim-scoped confidence, not absolute proof.
 
 New material by lane:
-- No new lanes grew in the latest collector run.
+- music_math: 31
+- technology_ethics: 25
+- quantum_science_guardrails: 24
+- politics_justice: 21
+- art_beauty: 21
+- psychology_patterns: 21
+- trinity: 20
+- history_memory: 19
+- world_languages_translation: 17
+- global_text_traditions: 16
+- unresolved_suffering: 11
+- theologians_cross_era: 3
+- biblical_languages: 2
 
 New material by routed layer:
-- No routed layers grew in the latest collector run.
+- pattern_tests: 138
+- visual_art: 90
+- deep_sources: 79
+- history_inputs: 67
+- cultural_inputs: 66
+- all_texts: 57
+- psychology_inputs: 51
+- theologians: 48
+- human_stories: 35
+- music_notes: 31
+- modern_literature: 30
+- world_languages: 28
+- other_religious_texts: 27
+- research_documents: 20
+- biblical_languages: 6
+- research_documents/christian_sources: 5
 
 New material quality mix:
-- No new source-quality mix available for the latest run.
+- scholarly metadata: 141
+- reference metadata: 80
+- speculative-risk: 1
 
 New material automated evidence:
-- No new automated evidence scores available for the latest run.
+- strong_scholarly_candidate: 120
+- moderate_scholarly_candidate: 96
+- weak_scholarly_candidate: 6
 
 Newest sources to review:
-- No brand-new sources to review from the latest collector run.
-
-Collector warnings:
-- search_searxng_web failed for trinity: HTTP Error 429: TOO MANY REQUESTS
+- Disaster risk reduction and Evangelical Christianity: a case for pluriversality in practice. (2026) | tags: politics_justice, trinity | layers: cultural_inputs, history_inputs, pattern_tests, theologians, research_documents, visual_art | evidence: strong_scholarly_candidate (11)
+- Casting a Vision of Communal and Public Life of the Church for the Post-Pandemic Korean-American Churches: Focusing on Veli-Matti Kärkkäinen’s Communion and Public Ecclesiology (2023) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art | evidence: moderate_scholarly_candidate (9)
+- Physician Resilience and the Little Way. (2025) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art, all_texts | evidence: strong_scholarly_candidate (10)
+- Pentecostal spirituality in the context of faith and hope gospel (prosperity preaching): African Pentecostal response to the COVID-19 pandemic. (2022) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art, all_texts | evidence: strong_scholarly_candidate (11)
+- The Trilogy of Health Care: Caring and Healing of the Clinician. (2022) | tags: trinity | layers: theologians, research_documents, pattern_tests, history_inputs | evidence: strong_scholarly_candidate (10)
+- 420 One God 10: Christ’s Exaltation & Priestly Service (2021) | tags: trinity | layers: theologians, research_documents, pattern_tests, visual_art, psychology_inputs | evidence: moderate_scholarly_candidate (8)
+- Responsible grace : John Wesley's practical theology (1994) | tags: trinity | layers: theologians, research_documents, pattern_tests | evidence: moderate_scholarly_candidate (8)
+- 413 - Unpacking John 20:17 (2025) | tags: trinity | layers: theologians, research_documents, pattern_tests, all_texts, psychology_inputs | evidence: moderate_scholarly_candidate (8)
 
 Divine Pattern Found
 --------------------
@@ -43,17 +94,17 @@ Notice -> Name -> Discern -> Practice -> Transform
 Why this pattern is currently strongest:
 ----------------------------------------
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,428
-- Son: 6,681
-- Holy Spirit: 1,258
+- Father: 3,287
+- Son: 6,692
+- Holy Spirit: 1,252
 
 Strongest research layers:
-- Meaning And Logos: 5,977
-- Life And Consciousness: 5,276
-- Physical Order: 2,475
-- Moral Response: 2,242
-- Transformation: 2,051
-- Worship And Community: 1,066
+- Meaning And Logos: 5,999
+- Life And Consciousness: 5,353
+- Physical Order: 2,479
+- Moral Response: 2,272
+- Transformation: 2,043
+- Worship And Community: 1,068
 
 Music-note science/math support:
 - Mathematical Structure: 129

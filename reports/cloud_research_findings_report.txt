@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T14:44:53.129147+00:00
-Total references: 376
-New references this run: 0
+Updated: 2026-05-25T15:28:02.898443+00:00
+Total references: 598
+New references this run: 222
 
 Guardrails
 ----------
@@ -15,164 +15,302 @@ Guardrails
 Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
-- Broad web search attempted via SearXNG (https://search.mdosch.de) or configured search API keys.
-- Open-web candidates returned this run: 0; the public SearXNG endpoint rate-limited the request.
+- Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, Semantic Scholar, and arXiv for science/music queries.
+- Broad web search not enabled; set SEARXNG_BASE_URLS, SEARXNG_BASE_URL, BING_SEARCH_API_KEY, or BRAVE_SEARCH_API_KEY to include open WWW search results.
 - Provider results returned this run:
   - Crossref: 185
+  - Europe PMC: 134
+  - Internet Archive: 82
   - OpenAlex: 171
+  - PubMed: 24
   - arXiv: 30
-- Brand-new references added by provider: 0.
+- Brand-new references added by provider:
+  - Europe PMC: 119
+  - Internet Archive: 81
+  - PubMed: 22
 - Total stored references by provider:
   - Crossref: 191
+  - Europe PMC: 119
+  - Internet Archive: 81
   - OpenAlex: 159
+  - PubMed: 22
   - arXiv: 26
 
 Reference Tags
 --------------
-- art_beauty: 31
-- biblical_languages: 28
-- global_text_traditions: 29
-- history_memory: 29
-- music_math: 45
-- politics_justice: 20
-- psychology_patterns: 30
-- quantum_science_guardrails: 38
-- technology_ethics: 18
-- theologians_cross_era: 26
-- trinity: 30
-- unresolved_suffering: 32
-- world_languages_translation: 27
+- art_beauty: 52
+- biblical_languages: 30
+- global_text_traditions: 45
+- history_memory: 48
+- music_math: 76
+- politics_justice: 41
+- psychology_patterns: 51
+- quantum_science_guardrails: 62
+- technology_ethics: 43
+- theologians_cross_era: 29
+- trinity: 50
+- unresolved_suffering: 43
+- world_languages_translation: 44
 
 Layer Routes
 ------------
-- all_texts: 66
-- biblical_languages: 31
-- cultural_inputs: 69
-- deep_sources: 120
-- history_inputs: 58
-- human_stories: 63
-- modern_literature: 32
-- music_notes: 45
-- other_religious_texts: 37
-- pattern_tests: 199
-- psychology_inputs: 66
-- research_documents: 30
-- research_documents/christian_sources: 54
-- theologians: 90
-- visual_art: 74
-- world_languages: 56
+- all_texts: 123
+- biblical_languages: 37
+- cultural_inputs: 135
+- deep_sources: 199
+- history_inputs: 125
+- human_stories: 98
+- modern_literature: 62
+- music_notes: 76
+- other_religious_texts: 64
+- pattern_tests: 337
+- psychology_inputs: 117
+- research_documents: 50
+- research_documents/christian_sources: 59
+- theologians: 138
+- visual_art: 164
+- world_languages: 84
 
 Quality Counts
 --------------
-- scholarly metadata: 350
+- reference metadata: 80
+- scholarly metadata: 491
 - scholarly preprint: 26
+- speculative-risk: 1
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 147
-- strong_scholarly_candidate: 229
+- moderate_scholarly_candidate: 243
+- strong_scholarly_candidate: 349
+- weak_scholarly_candidate: 6
 
 New This Run By Tag
 -------------------
-- No brand-new references found this run; reports still re-evaluate the current candidate set.
+- art_beauty: 21
+- biblical_languages: 2
+- global_text_traditions: 16
+- history_memory: 19
+- music_math: 31
+- politics_justice: 21
+- psychology_patterns: 21
+- quantum_science_guardrails: 24
+- technology_ethics: 25
+- theologians_cross_era: 3
+- trinity: 20
+- unresolved_suffering: 11
+- world_languages_translation: 17
 
 New This Run By Layer Route
 ---------------------------
-- No brand-new layer routes this run.
+- all_texts: 57
+- biblical_languages: 6
+- cultural_inputs: 66
+- deep_sources: 79
+- history_inputs: 67
+- human_stories: 35
+- modern_literature: 30
+- music_notes: 31
+- other_religious_texts: 27
+- pattern_tests: 138
+- psychology_inputs: 51
+- research_documents: 20
+- research_documents/christian_sources: 5
+- theologians: 48
+- visual_art: 90
+- world_languages: 28
 
 Newest Additions This Run
 ------------------------
-- No new additions this run.
+- Disaster risk reduction and Evangelical Christianity: a case for pluriversality in practice. (2026)
+  Tags: politics_justice, trinity
+  Layer routes: cultural_inputs, history_inputs, pattern_tests, theologians, research_documents, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  URL: https://doi.org/10.1111/disa.70035
+- Casting a Vision of Communal and Public Life of the Church for the Post-Pandemic Korean-American Churches: Focusing on Veli-Matti Kärkkäinen’s Communion and Public Ecclesiology (2023)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10288205/?tool=EBI
+- Physician Resilience and the Little Way. (2025)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.1177/00243639231200621
+- Pentecostal spirituality in the context of faith and hope gospel (prosperity preaching): African Pentecostal response to the COVID-19 pandemic. (2022)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  URL: https://doi.org/10.1111/dial.12727
+- The Trilogy of Health Care: Caring and Healing of the Clinician. (2022)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, history_inputs
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.1177/00243639211055556
+- 420 One God 10: Christ’s Exaltation & Priestly Service (2021)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art, psychology_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Restitutio-420_one_god_10_christs_exaltation_priestly_service
+- Responsible grace : John Wesley's practical theology (1994)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/responsiblegrace0000madd
+- 413 - Unpacking John 20:17 (2025)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, all_texts, psychology_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-413a
+- Renovatio: rivista di teologia e cultura (1990)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, biblical_languages
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/siri-renovatio-1990-25-01
+- 64. Where We Stand (and Predictions) - Dale Tuggy (2022)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art, history_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Unitarian_Christian_Alliance-UCA_64_Where_We_Stand_and_Predictions___Dale_Tuggy
+- After we transgress God's values: relational spirituality as a paradigm for the Christian experience of reconciliation with God. (2025)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  URL: https://doi.org/10.3389/fpsyg.2025.1587704
+- Life, Information, Entropy, and Time: Vehicles for Semantic Inheritance. (2007)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, world_languages
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  URL: https://doi.org/10.1002/cplx.20180
+- The Experience of God - Trinity Sunday c 2022 (2022)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, history_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/leurhkmyht4bz481ynvkiggjcnk1wpywxkgsm3th
+- 363: The Council of Nicaea: Fact & Fiction (2025)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, history_inputs, all_texts, modern_literature
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_363_
+- Slaying The Trinitarian-Oneness Chimaera (2020)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/slayingthetrinitarianonenesschimaera_202001
+- Roman Catholic Church (2008)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/youtube-vs2sO-H42_Q
+- Who Proceeds from the Father and the Son (2021)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/210925-2237
+- Can the Communion of Saints Help the Search for Justice in Dying well (Enough), "In Abraham's Arms, Where Lazarus is Poor no Longer"? (2013)
+  Tags: global_text_traditions, trinity
+  Layer routes: all_texts, other_religious_texts, modern_literature, theologians, research_documents, pattern_tests, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.1179/2050854913y.0000000014
+- The claims of truth : John Owen's Trinitarian theology (1998)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art, history_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/claimsoftruthjoh0000true
+- Dogmatic Theology, William G T (2013)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests, visual_art, all_texts, deep_sources
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  URL: https://archive.org/details/dogmatic-theology-william-g-t
+- Black Pastors' Experiences of Occupational and Life Stress During COVID-19 in the USA. (2024)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.1007/s10943-023-01901-9
+- A Brief Pastoral Topography for Migrating People. (2022)
+  Tags: history_memory, unresolved_suffering
+  Layer routes: history_inputs, theologians, pattern_tests, deep_sources, psychology_inputs, human_stories, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.1007/s11089-022-01010-6
+- Recognizing the Role of Chaplaincy in Healthcare: Perspectives on the COVID-19 Pandemic. (2022)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.1177/15423050211064998
+- When Patients Talk Politics: Opportunities for Recontextualizing Ministerial Theory and Practice. (2022)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, history_inputs, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.1007/s11089-022-01013-3
+- Scared but Powerful: Healthcare Chaplains' Emotional Responses and Self-Care Modes during the SARS-Cov-19 Pandemic. (2021)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  URL: https://doi.org/10.1177/1542305021993761
+- A struggle for holy ground : reconciliation and the rites of parish closure (2004)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/struggleforholyg0000weld
+- Insight Into the Role of Protestant Christianity in the Experience of Living With a Suicidal Relative: A Constructivist Grounded Theory Study. (2025)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  URL: https://doi.org/10.1111/jpm.70025
+- Concepts of Mental Disorders Among Psychiatrists, Psychologists, and Theologians. (2024)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, theologians
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.3390/ejihpe14110185
+- Persistence and Innovation in the Greco-Roman Medical Tradition: The Reading and Writing Practices of a Tenth-Century Monk. (2025)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, visual_art, biblical_languages, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.1093/shm/hkaf032
+- Tipping Point: Pathogenic Stress and the Biopolitics of Euthanasia. (2025)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.1177/00243639241287918
 
 Recent Candidate Sources
 ------------------------
-- Towards a theology of Covid: providence and lament in past, present, and future trauma narratives (2021)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-  Automated evidence: strong_scholarly_candidate (11)
-  Authors: Melanie Harrington
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.1080/1756073x.2020.1861403
-- Unanswered Prayer (2014)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-  Automated evidence: moderate_scholarly_candidate (9)
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.4324/9781315808499-18
-- When faith does violence: Reimagining engagement between churches and LGBTI groups on homophobia in Africa (2016)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-  Automated evidence: strong_scholarly_candidate (11)
-  Authors: Gerald West, Charlene van der Walt, Kapya Kaoma
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.4102/hts.v72i1.3511
-- Why Animal Suffering Matters Morally (2013)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-  Automated evidence: strong_scholarly_candidate (10)
-  Authors: Andrew Linzey
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1093/acprof:oso/9780199351848.003.0002
-- “I Will Show You My Faith by My Works”: Addressing the Nexus between Philosophical Theodicy and Human Suffering and Loss in Contexts of ‘Natural’ Disaster (2019)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-  Automated evidence: strong_scholarly_candidate (11)
-  Authors: Roger P. Abbott
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.3390/rel10030213
-- “The wounded Beast?” - Single Women, Tradition, and the Bible in Zimbabwe (2021)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-  Automated evidence: strong_scholarly_candidate (11)
-  Authors: Kudzai Biri
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.20378/irb-48992
-- The Political Unconscious: Narrative as a Socially Symbolic Act (1983)
-  Tags: unresolved_suffering, world_languages_translation
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, world_languages, all_texts
-  Automated evidence: strong_scholarly_candidate (11)
-  Authors: Alice N. Benston, Fredric Jameson
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.2307/3684627
-- 7. Grammar, metaphor and ecology (2007)
+- Don't Uncover that Face! Covid-19 Masks and the Niqab: Ironic Transfigurations of the ECtHR's Intercultural Blindness. (2022)
   Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: moderate_scholarly_candidate (9)
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1075/dapsac.23.15gra
-- A Unifying Field in Logics: Neutrosophic Logic. Neutrosophy, Neutrosophic Set, Neutrosophic Probability (2008)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: moderate_scholarly_candidate (9)
-  Authors: Florentín Smarandache
-  Source: OpenAlex | scholarly metadata
-  URL: https://philpapers.org/rec/SMAAUF-2
-- APPENDIX 6: (n.d.)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: moderate_scholarly_candidate (8)
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.2307/j.ctv6gqs2k.28
-- Book Review: Sacred Languages and Sacred Texts (1999)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: strong_scholarly_candidate (10)
-  Authors: Richard Coggins
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1177/0040571x9910200613
-- Conceptual Metaphor in Cognitive Semantics (n.d.)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts, psychology_inputs
-  Automated evidence: moderate_scholarly_candidate (7)
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1163/2773-1952_hcso_com_0310
-- Critical discourse analysis and its critics (2015)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
+  Layer routes: world_languages, all_texts, other_religious_texts
   Automated evidence: strong_scholarly_candidate (11)
-  Authors: Ruth Breeze
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.1075/prag.21.4.01bre
+  Authors: Ricca M.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1007/s11196-020-09703-y
 - Embodiment as a Paradigm for Anthropology (2002)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -180,6 +318,20 @@ Recent Candidate Sources
   Authors: Thomas J. Csordas
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1007/978-1-137-08286-2_3
+- Folding and unfolding: A topological framework for understanding intangible cultural heritage tourism in urban villages - The case of chebei dragon boat scenery, Guangzhou, China. (2026)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art, modern_literature
+  Automated evidence: strong_scholarly_candidate (10)
+  Authors: Tang X, Li S.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1371/journal.pone.0339564
+- From Military to Civilian Context: Adaptation of the SOCOM Spiritual Fitness Scale and Its Associations with Positive Mental Health and Depression in Poland. (2026)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (11)
+  Authors: Mamcarz P, Alexander D.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1007/s10943-025-02518-w
 - Fundraising (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -200,6 +352,34 @@ Recent Candidate Sources
   Authors: Van Vree, Frank
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.5117/9789053563069
+- Holy Quran Kurdish Sorani translation dataset for language modelling. (2025)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, other_religious_texts
+  Automated evidence: strong_scholarly_candidate (11)
+  Authors: Bamoki M, Wady SH, Badawi S.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1016/j.dib.2025.111533
+- Hospital Care and the Conception of Death in the Hospitaller Order of Saint John of God in Sixteenth- and Seventeenth-Century Spain. (2025)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Automated evidence: strong_scholarly_candidate (10)
+  Authors: Muñoz Devesa A, Rico Becerra JI.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1111/nin.70042
+- Language of Religion, Religions as Languages. Introduction to the Special Issue 'Religions and Languages: A Polyphony of Faiths'. (2022)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art, modern_literature, deep_sources
+  Automated evidence: strong_scholarly_candidate (10)
+  Authors: Vestrucci A.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1007/s11841-022-00912-5
+- Niche construction, social cognition, and language: hypothesizing the human as the production of place. (2016)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, psychology_inputs, deep_sources
+  Automated evidence: strong_scholarly_candidate (11)
+  Authors: Davies O.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1007/s40167-016-0039-2
 - On spirit writing: materialities of language and the religious work of transduction (2013)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -207,6 +387,13 @@ Recent Candidate Sources
   Authors: Webb Keane
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1111/1467-9655.12000
+- Queer-religious symbol analysis (QRSA): A semiotic method for reframing Hindu iconography. (2025)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art, other_religious_texts
+  Automated evidence: strong_scholarly_candidate (10)
+  Authors: Ac PS, Gk C.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1016/j.mex.2025.103689
 - Reflections on metaphor and grammar (1996)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -214,6 +401,20 @@ Recent Candidate Sources
   Authors: George Lakoff
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1075/pbns.32.08lak
+- Relevance relations for the concept of reproducibility. (2014)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art, deep_sources
+  Automated evidence: strong_scholarly_candidate (11)
+  Authors: Atmanspacher H, Bezzola Lambert L, Folkers G
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1098/rsif.2013.1030
+- Resonance in recovery: group singing as a mechanism for collective narrative repair, emotional integration, and post-traumatic growth. (2025)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, psychology_inputs
+  Automated evidence: strong_scholarly_candidate (10)
+  Authors: Liu Y.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.3389/fpsyg.2025.1763648
 - SACRED LANGUAGES (2012)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -234,6 +435,13 @@ Recent Candidate Sources
   Authors: Andrew McKinnon
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1163/157006802760198776
+- Sri Sundara Kanda is nothing but Kundalini yoga : Seshendra Sharma (2024)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Automated evidence: moderate_scholarly_candidate (8)
+  Authors: Saatyaki S/o Seshendra Sharma
+  Source: Internet Archive | reference metadata
+  URL: https://archive.org/details/sri-sundara-kanda-is-nothing-but-kundalini-yoga-seshendra-sharma
 - Syntax, Semantics, and Grammar (2006)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -253,12 +461,26 @@ Recent Candidate Sources
   Authors: Dilyara Davletshina
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.2139/ssrn.6623278
+- The Genesis of Iconographic Exegesis. (2023)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Automated evidence: strong_scholarly_candidate (10)
+  Authors: Klein Cardoso S.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1177/1476993x221147925
 - The human factor (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: moderate_scholarly_candidate (8)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203290903_chapter_8
+- The intrinsic structure and interrelations of tea culture constructed from tea-related toponym texts: Evidence from China. (2026)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Automated evidence: strong_scholarly_candidate (10)
+  Authors: Xu Y, Wang R, Wu H.
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.1371/journal.pone.0347109
 - The nature and measurement of meaning. (1952)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -286,7 +508,3 @@ Recent Candidate Sources
   Authors: Ernst-August Gutt
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4324/9781315760018
-
-Collector Errors
-----------------
-- search_searxng_web failed for trinity: HTTP Error 429: TOO MANY REQUESTS
