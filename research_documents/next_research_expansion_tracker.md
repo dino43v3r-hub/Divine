@@ -28,7 +28,7 @@ These are active operating rules for the next phase, not merely future ideas:
 
 ## 1. Theologian Source Material Across Eras
 
-Status: second-pass expanded, needs primary-text checking.
+Status: third-pass expanded, primary-text disagreement matrix added.
 
 Current coverage:
 
@@ -39,6 +39,8 @@ Current coverage:
 - `theologians/source_specific_theologian_review_notes.md` adds source-specific
   review notes for Irenaeus, Athanasius, Basil, Augustine, Aquinas, Luther,
   Calvin, Barth, Bonhoeffer, Moltmann, Cone, Coakley, and Jennings.
+- `theologians/primary_text_disagreement_matrix.md` names primary text anchors,
+  allowed uses, and pressure points across eras.
 
 Next depth work:
 
@@ -49,7 +51,7 @@ Next depth work:
 
 ## 2. Cross-Layer Synthesis Notes
 
-Status: second-pass expanded across all requested lanes.
+Status: third-pass expanded across all requested lanes.
 
 Current coverage:
 
@@ -61,6 +63,13 @@ Current coverage:
 - Psychology: `psychology_inputs/trauma_attachment_repair_notes.md`
 - Added case-study and limits notes in visual art, history, world languages,
   biblical languages, all texts, and psychology.
+- Added source-specific/counter-reading expansions:
+  `visual_art/source_specific_cross_layer_case_notes.md`,
+  `history_inputs/source_specific_history_memory_cases.md`,
+  `world_languages/language_family_counterreading_map.md`,
+  `biblical_languages/source_specific_counterreadings.md`,
+  `all_texts/text_tradition_counterreading_map.md`, and
+  `psychology_inputs/source_specific_psychology_limits.md`.
 
 Next depth work:
 
@@ -69,7 +78,7 @@ Next depth work:
 
 ## 3. Language-Family And Text-Tradition Coverage
 
-Status: mapped and sampled, not universal.
+Status: mapped and sampled, explicitly not universal.
 
 Current coverage:
 
@@ -78,6 +87,9 @@ Current coverage:
   universality.
 - `world_languages/source_specific_language_sampling_notes.md` and
   `all_texts/comparative_text_case_notes.md` define the next sampling method.
+- `world_languages/language_family_counterreading_map.md` and
+  `all_texts/text_tradition_counterreading_map.md` add explicit counter-reading
+  rules.
 
 Next depth work:
 
@@ -87,7 +99,7 @@ Next depth work:
 
 ## 4. Harder Unresolved-Suffering Case Studies
 
-Status: expanded again.
+Status: expanded again with no-repair cases.
 
 Current coverage:
 
@@ -95,6 +107,9 @@ Current coverage:
 - Added moral-injury and ecological-loss pressure tests.
 - Existing tests cover child loss, chronic illness, spiritual abuse, injustice,
   unanswered prayer, and no-resolution suffering.
+- `pattern_tests/no_repair_case_studies_expansion.md` adds wrongful conviction,
+  protected abuse, permanent family separation, chronic pain without relief, and
+  environmental loss with absent repair.
 
 Next depth work:
 
@@ -103,7 +118,7 @@ Next depth work:
 
 ## 5. Qualified Quantum/Science References And Counterarguments
 
-Status: source-review map and counterargument matrix added, still needs deeper citation review.
+Status: source-review map, counterargument matrix, and source-pair limits added.
 
 Current coverage:
 
@@ -113,6 +128,8 @@ Current coverage:
   and counterarguments for order, mathematics, quantum theory, fine-tuning, and
   consciousness.
 - Reports mark science claims as source-supported but still not proof.
+- `deep_sources/quantum_claim_limits_source_pairs.md` pairs quantum/science
+  source areas with narrow allowed conclusions and counterarguments.
 
 Next depth work:
 
@@ -122,7 +139,7 @@ Next depth work:
 
 ## 6. Daily Cloud Reference Review
 
-Status: checklist added, routed daily triage active, automated evidence scoring active, first review log started.
+Status: checklist added, routed daily triage active, automated evidence scoring active, review log expanded.
 
 Current coverage:
 
@@ -146,6 +163,8 @@ Current coverage:
   before strengthening claims.
 - `research_documents/daily_cloud_reference_review_log.md` starts reviewing
   routed queue items with cautious labels.
+- The review log now includes a seven-item depth-pass batch for theologian,
+  quantum/science, suffering, and language/text routed candidates.
 
 Next depth work:
 
@@ -158,13 +177,15 @@ Next depth work:
 
 ## 7. Refine Only Where The Pattern Survives Pressure
 
-Status: active method.
+Status: active method with explicit revision rules.
 
 Current coverage:
 
 - Pressure-test reports now distinguish confidence from hold-under-friction.
 - Comparative validation distinguishes shared human recurrence from distinct
   Trinitarian claims.
+- `research_documents/pattern_revision_rules.md` defines weakening labels and
+  revision triggers for failed pressure tests.
 
 Next depth work:
 

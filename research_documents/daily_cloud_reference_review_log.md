@@ -91,3 +91,61 @@ claim scope, and counterarguments are checked.
   useful for Hebrew semantic review.
 - Small claim allowed: hesed requires narrative and covenant context.
 - Counterargument: a single lexical study cannot establish the full pattern.
+
+## Review Batch: Seven-Item Depth Pass
+
+### Trinity / Nicene / Patristic Routed Candidates
+
+- Queue route: theologians, research_documents, pattern_tests
+- Current label: reviewed_limited_evidence
+- Reason: Sources routed to the theologian lane may identify useful primary or
+  reception-history leads, but they must be checked against actual primary
+  texts, doctrinal context, and era-specific disagreement.
+- Small claim allowed: candidate sources can guide which theologians and
+  controversies to review next.
+- Counterargument: a search result about the Trinity is not itself evidence of
+  a coherent cross-era pattern.
+- Next action: convert only verified candidates into
+  `theologians/primary_text_disagreement_matrix.md` or source-specific notes.
+
+### Quantum / Measurement / Physics Routed Candidates
+
+- Queue route: deep_sources, pattern_tests
+- Current label: reviewed_limited_evidence
+- Reason: Technical metadata can help identify qualified science sources, but
+  arXiv/preprint or abstract-level material cannot support broad theological
+  claims.
+- Small claim allowed: quantum measurement, uncertainty, and physical law are
+  technical subjects requiring qualified sources and narrow wording.
+- Counterargument: science metadata does not support claims about divine action,
+  prayer, consciousness, or proof of God.
+- Next action: pair each candidate with an allowed conclusion and
+  counterargument in `deep_sources/quantum_claim_limits_source_pairs.md`.
+
+### Lament / Hope / Unresolved Suffering Routed Candidates
+
+- Queue route: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Current label: reviewed_limited_evidence
+- Reason: These candidates are useful only if they protect lament and avoid
+  forced repair.
+- Small claim allowed: some theological, psychological, and pastoral sources
+  study lament, hope, forgiveness, trauma, and moral repair.
+- Counterargument: hope language can become harmful when justice, diagnosis,
+  safety, or restoration remain absent.
+- Next action: add hard cases to
+  `pattern_tests/no_repair_case_studies_expansion.md` and keep unresolved cases
+  marked as unresolved.
+
+### Language / Text-Tradition Routed Candidates
+
+- Queue route: world_languages, biblical_languages, all_texts
+- Current label: candidate_lead_only
+- Reason: Routed candidates can broaden the map, but language-family or
+  tradition labels do not count as source coverage.
+- Small claim allowed: the project has mapped possible families, traditions,
+  genres, and translation questions.
+- Counterargument: mapped is not universal; translation choices and
+  counter-readings may overturn the apparent pattern.
+- Next action: use `world_languages/language_family_counterreading_map.md`,
+  `biblical_languages/source_specific_counterreadings.md`, and
+  `all_texts/text_tradition_counterreading_map.md` before strengthening claims.

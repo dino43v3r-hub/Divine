@@ -15,35 +15,35 @@ Status: source-supported
 Area signal: 16
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
-- Scripture/Theology: present (13)
+- Scripture/Theology: present (14)
 - Pastoral/Clinical: present (12)
 - Lived Case: present (8)
-- Counterargument: present (16)
+- Counterargument: present (23)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 74
+Area signal: 96
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
-- Physicist/Primary Science: present (26)
-- Peer-Reviewed/Academic: present (11)
-- Philosophy Of Science: present (37)
-- Counterargument: present (16)
+- Physicist/Primary Science: present (32)
+- Peer-Reviewed/Academic: present (13)
+- Philosophy Of Science: present (44)
+- Counterargument: present (23)
 
 All Source-Type Signals
 -----------------------
-- Philosophy Of Science: 37
-- Physicist/Primary Science: 26
-- Counterargument: 16
-- Scripture/Theology: 13
+- Philosophy Of Science: 44
+- Physicist/Primary Science: 32
+- Counterargument: 23
+- Scripture/Theology: 14
+- Peer-Reviewed/Academic: 13
 - Pastoral/Clinical: 12
-- Peer-Reviewed/Academic: 11
 - Lived Case: 8
 
 Quality And Risk Markers
 ------------------------
-- Scholarly Or Scientific Source: 18
+- Scholarly Or Scientific Source: 22
 - Practical Lived Source: 12
 - Speculative Source: 3
 - Primary Or Classical Source: 2
@@ -73,6 +73,18 @@ Source types:
 - Philosophy Of Science: 7
 - Physicist/Primary Science: 4
 - Counterargument: 2
+- Peer-Reviewed/Academic: 2
+- Scripture/Theology: 1
+
+quantum_claim_limits_source_pairs.md
+------------------------------------
+Words: 251
+Area scores:
+- Quantum And Science Claims: source-supported (22)
+Source types:
+- Counterargument: 7
+- Philosophy Of Science: 7
+- Physicist/Primary Science: 6
 - Peer-Reviewed/Academic: 2
 - Scripture/Theology: 1
 
