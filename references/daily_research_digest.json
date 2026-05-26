@@ -1,58 +1,60 @@
 {
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 443,
-    "strong_scholarly_candidate": 561,
-    "weak_scholarly_candidate": 23
+    "moderate_scholarly_candidate": 462,
+    "strong_scholarly_candidate": 564,
+    "weak_scholarly_candidate": 39
   },
   "errors": [],
   "layer_counts": {
-    "all_texts": 311,
-    "biblical_languages": 80,
-    "cultural_inputs": 234,
-    "deep_sources": 318,
-    "history_inputs": 247,
-    "human_stories": 262,
-    "modern_literature": 125,
+    "all_texts": 323,
+    "biblical_languages": 84,
+    "cultural_inputs": 251,
+    "deep_sources": 322,
+    "history_inputs": 260,
+    "human_stories": 264,
+    "modern_literature": 128,
     "music_notes": 78,
-    "other_religious_texts": 213,
-    "pattern_tests": 191,
-    "psychology_inputs": 255,
-    "research_documents": 116,
+    "other_religious_texts": 222,
+    "pattern_tests": 195,
+    "psychology_inputs": 259,
+    "research_documents": 121,
     "research_documents/christian_sources": 95,
-    "theologians": 243,
-    "visual_art": 304,
-    "world_languages": 188
+    "theologians": 256,
+    "visual_art": 325,
+    "world_languages": 192
   },
   "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 24,
-    "weak_scholarly_candidate": 1
+    "moderate_scholarly_candidate": 19,
+    "strong_scholarly_candidate": 3,
+    "weak_scholarly_candidate": 16
   },
-  "new_count": 25,
+  "new_count": 38,
   "new_layer_counts": {
-    "all_texts": 7,
-    "biblical_languages": 1,
-    "cultural_inputs": 12,
-    "deep_sources": 3,
-    "history_inputs": 7,
+    "all_texts": 12,
+    "biblical_languages": 4,
+    "cultural_inputs": 17,
+    "deep_sources": 4,
+    "history_inputs": 13,
     "human_stories": 2,
-    "modern_literature": 2,
+    "modern_literature": 3,
     "other_religious_texts": 9,
-    "pattern_tests": 3,
-    "psychology_inputs": 2,
-    "research_documents": 4,
-    "research_documents/christian_sources": 1,
-    "theologians": 7,
-    "visual_art": 15,
-    "world_languages": 5
+    "pattern_tests": 4,
+    "psychology_inputs": 4,
+    "research_documents": 5,
+    "theologians": 13,
+    "visual_art": 21,
+    "world_languages": 4
   },
   "new_provider_counts": {
-    "Crossref": 2,
-    "Internet Archive": 23
+    "Crossref": 1,
+    "Europe PMC": 2,
+    "Internet Archive": 20,
+    "Tavily Search": 15
   },
   "new_sources": [
     {
       "authors": [
-        "Restitutio"
+        "The Biblical Unitarian Podcast"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -65,40 +67,42 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 437,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 552,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/restitutio-489_early_church_history_9_early_church_orders",
+      "id": "https://archive.org/details/the_biblical_unitarian_podcast-episode_366_",
       "layer_review_prompts": [
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
         "Use as general research context until a more specific layer is reviewed.",
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
       ],
       "layer_routes": [
         "theologians",
         "research_documents",
         "visual_art",
-        "history_inputs"
+        "biblical_languages",
+        "all_texts"
       ],
       "primary_layer": "theologians",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "This is part 9 of the Early Church History class . How did Christians organize themselves in the first few centuries? We're taking a break from theology and switching to focus on practical matters of church offices, church governance, church discipline, conversion, and charity. As it turns out we have a surprising amount of information about how early Christians did church not only from scattered quotes, but from a series of church manuals that have survived. In some ways these church orders sound eerily familiar to modern ears and in other ways, utterly foreign. See what you think. Listen to this episode on Spotify or Apple Podcasts https://www.youtube.com/watch?v=v7tCjuTbHx8&list=PLN9jFDsS",
+      "summary": "What did Justin Martyr, the second-century Platonic philosopher who converted to a Christian apologist, believe about the Father, Son, and the Holy Spirit? Did Justin think that Jesus was the true God or that he was a second, lesser god whom the true God created? Were the Father, Son, and Spirit regarded within Justin's theology as coequal, or were they set in a hierarchy? Did Justin condemn Biblical Unitarian Christians, or did he tolerate their beliefs? This episode explores these crucial questions, looking directly at the Greek text in order to draw our conclusions. Visit Amazon to buy your copy of my book Wisdom Christology in the Gospel of John: https://a.co/d/6nFEbZg Please consider su",
       "tags": [
         "trinity"
       ],
-      "title": "489 Early Church History 9: Early Church Orders",
+      "title": "366: Was Justin Martyr a Trinitarian?",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Restitutio-489_early_church_history_9_early_church_orders",
-      "year": "2023"
+      "url": "https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_366_",
+      "year": "2025"
     },
     {
       "authors": [
-        "Richard Bennett"
+        "Elit-Media"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -110,80 +114,36 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 365,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 434,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/evangelicalsembarktopapalrome",
+      "id": "https://archive.org/details/sum3_5-10",
       "layer_review_prompts": [
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
         "Use as general research context until a more specific layer is reviewed.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
       ],
       "layer_routes": [
         "theologians",
         "research_documents",
-        "visual_art"
-      ],
-      "primary_layer": "theologians",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "An account of the drastic departure from true evangelicalism the Nottingham Conference 1977 to March 1994 and Evangelicals and Catholics Together and much more by Richard Bennett and Michael de Semlyen narrated by Brian Haskin. This presentation highlights all the major apostasies of modern times. It also clearly gives the Gospel of the Lord\u00e2s grace to His glory and for the salvation of souls. DVD107 http;//www.BereanBeacon.org",
-      "tags": [
-        "trinity"
-      ],
-      "title": "Evangelicals Embark to Papal Rome",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/EvangelicalsEmbarkToPapalRome",
-      "year": null
-    },
-    {
-      "authors": [
-        "Restitutio"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 505,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/restitutio-477_questioning_the_trinity_steven_nemes_2",
-      "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
-      ],
-      "layer_routes": [
-        "theologians",
-        "research_documents",
-        "history_inputs",
-        "all_texts"
+        "visual_art",
+        "other_religious_texts"
       ],
       "primary_layer": "theologians",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Dr. Steven Nemes is an analytic philosopher and theologian who uses a phenomenological approach to reading scripture and constructing theology. In this interview I ask him about his unique approach to evaluating doctrine, especially the Trinity, from a phenomenological perspective. We also discuss restorationism as a common ground and delve into Church history extensively. In the end Nemes argues for freedom rather than dogma when evaluating various doctrines related to the Trinity. Listen to this episode on Spotify or Apple Podcasts https://www.youtube.com/watch?v=MRVifpSTHek \u2014\u2014 Links \u2014\u2014 Check out Nemes' personal website , blog on substack , and YouTube channel Here is his interview with Da",
+      "summary": "The Bible Led Me to Islam Abdul Malik (Melvin) LeBlanc tells how he discovered Islam within the pages of Bible Source: International Edition Voice of Islam - November 1998, Page 25 During my Christian days there were many verses in the Bible that made me question the religion I was following (Christianity). There was one particular verse, 1 Thessalonians 5:17 which says; \"pray without ceasing,\" that lingered heavily in my mind. I often wondered how a person (Christian) was supposed to pray (be in a state of worship) without ceasing? Without any biblical or divine guidance, the only way I thought this to be possible was to always do good deeds and keep the remembrance of God on my tongue and ",
       "tags": [
         "trinity"
       ],
-      "title": "477 Questioning the Trinity (Steven Nemes)",
+      "title": "\u0627\u0644\u0645\u062c\u0645\u0648\u0639 - \u062f\u0648\u0644\u0629 \u0627\u0644\u0639\u0631\u0627\u0642 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u0629 - \u0635\u0648\u062a\u064a\u0627\u062a",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Restitutio-477_questioning_the_trinity_steven_nemes_2",
-      "year": "2023"
+      "url": "https://archive.org/details/sum3_5-10",
+      "year": null
     },
     {
       "authors": [
@@ -200,11 +160,59 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 224,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 465,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/the_biblical_unitarian_podcast-episode_197_",
+      "id": "https://archive.org/details/the_biblical_unitarian_podcast-418a",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "world_languages",
+        "biblical_languages",
+        "all_texts"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "In traditional Trinitarian language, the one being of God consists of three persons, as expressed in the Greek noun \"hypostasis.\" However, \"hypostasis\" does not mean \"person\" in the New Testament, nor in the Septuagint. This week's episode explores how the meaning of \"hypostasis\" changed over time in order to justify the post-biblical doctrine of a tri-personal God. To view the video version of this episode, go here: https://youtu.be/28sXUnm5hdw Visit Amazon to buy your copy of A Systematic Theology of the Early Church: https://amzn.to/47jldOc Visit Amazon to buy your copy of Wisdom Christology in the Gospel of John: https://amzn.to/3JBflHb Visit Amazon to buy your copy of The Son of God: Th",
+      "tags": [
+        "trinity"
+      ],
+      "title": "418: The Development of the Noun \"Hypostasis\"",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/The_Biblical_Unitarian_Podcast-418a",
+      "year": "2026"
+    },
+    {
+      "authors": [
+        "Fulgentius of Ruspe"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 225,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/sermons-and-refutations-on-the-trinity",
       "layer_review_prompts": [
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
         "Use as general research context until a more specific layer is reviewed."
@@ -218,18 +226,18 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "This episode explores the rebuttal phase of the recent debate entitled, \"Does the Old Testament Teach Unitarianism?\". I offer my insider strategies for preparing for a rebuttal as well as share my reactions to my opponent's attempt to rebut my opening statement. You can watch the debate in its entirety here: https://youtu.be/b0t90eJe0q4 Please consider supporting this Podcast and future projects by donating at: https://www.paypal.me/10mintruthtalks To view the notes from this episode please click the link below: https://docs.google.com/document/d/119vYZ5mCfNRxx9ICzxekfgK_4vi4nQ_bWup-emqDNAY/edit?usp=sharing Check out some of my videos on YouTube at: https://www.youtube.com/channel/UCG5H6oqEn",
+      "summary": "This audo material presents a pivotal theological debate between Fastidiosus the Arian and Fulgentius of Ruspe. Fastidiosus's sermon, \"Sermo Fastidiosi Ariani,\" challenges the orthodox views on the nature of the Trinity, questioning the indivisibility of the Father, Son, and Holy Spirit. His arguments are rooted in Arianism, which posits a hierarchy within the Trinity and asserts that the Son is not co-eternal with the Father. In response, Fulgentius of Ruspe's \"Contra sermonem Fastidiosi Ariani\" meticulously refutes these claims, defending the orthodox position that the Trinity is inseparable and co-equal in divinity. Fulgentius emphasizes the unity and consubstantiality of the Father, Son,",
       "tags": [
         "trinity"
       ],
-      "title": "197: Reacting to the Rebuttals In the Recent OT Debate",
+      "title": "Sermons And Refutations On The Trinity",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_197_",
-      "year": "2021"
+      "url": "https://archive.org/details/sermons-and-refutations-on-the-trinity",
+      "year": "0523"
     },
     {
       "authors": [
-        "CIA Reading Room"
+        "william victor newbold"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -242,38 +250,42 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 395,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 608,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r003200180001-7",
+      "id": "https://archive.org/details/2026-01-14-13-30-39-newbold-wvn-audio",
       "layer_review_prompts": [
         "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
         "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
       ],
       "layer_routes": [
         "deep_sources",
         "pattern_tests",
-        "visual_art"
+        "visual_art",
+        "all_texts",
+        "other_religious_texts"
       ],
       "primary_layer": "deep_sources",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Approved For Relle one12OOeory: O/ T08ar~ [~ePf9gf9( l?9RO032001800014g, 22 April 1994 Decision Decision Augmentation Theory: Toward a Model of Anomalous Mental Phenomena by Edwin C. May, Ph.D Science Applications International Corporation Menlo Park, CA Jessica M. Utts, Ph.D. University of California, Davis Department of Statistics Davis, CA and S. James P. Spottiswoode Science Applications International Corporation (Consultant) Menlo Park, CA Abstract Decision Augmentation Theory (DAT) holds that humans integrate information obtained by anoma- lous cognition into the usual decision process. The result is that, to a statistical degree, such decisions are biased toward volitional outcomes. W",
+      "source_type": "archive.org audio",
+      "summary": "Converging Horizons: Unified Causality, Buddhist Oneness, and Quantum Singularities I. Introduction: Bridging Ancient Wisdom and Modern Physics The human quest to comprehend the fundamental nature of reality has given rise to diverse yet sometimes strikingly resonant systems of thought. This report embarks on an exploration of the profound conceptual territories where Buddhist philosophy's sophisticated understanding of unified cause-and-effect and essential oneness intersects with the enigmatic nature of quantum singularities and related quantum phenomena, as encountered in modern theoretical physics. Such an endeavor seeks to unearth potential parallels and conceptual bridges between ancie",
       "tags": [
         "quantum_science_guardrails"
       ],
-      "title": "CIA Reading Room cia-rdp96-00789r003200180001-7: DECISION AUGMENTATION THEORY: TOWARD A MODEL OF ANOMALOUS MENTAL PHENOMENA",
+      "title": "max-obs 1",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r003200180001-7",
-      "year": "1994"
+      "url": "https://archive.org/details/2026-01-14-13-30-39-newbold-wvn-audio",
+      "year": "2026"
     },
     {
       "authors": [
-        "CIA Reading Room"
+        "The Institute of Art and Ideas"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -286,11 +298,11 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 286,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 287,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/cia-readingroom-document-00355733",
+      "id": "https://archive.org/details/youtube-qr6bzt-kola",
       "layer_review_prompts": [
         "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
         "Name the failure condition and whether the pattern holds, breaks, or needs revision."
@@ -303,19 +315,19 @@
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Scientific and Technical Intelligence Report Approved for Release: 2018/01/31 C00355733 N9 6 Major Developments in the SovBloc Cybernetics Programs in 1965 IPS FIU copy DO N01 REMOVE 25 OCT 1966 OSI\ufffdSTIR/66-29 3 October 1966 Directorate of Science and Technology Office of Scientific Intelligence Approved for Release: 2018/01/31 C00355733 Approved for Release: 2018/01/31 C00355733 WARNING Thi terial contains information affecting the National e of the United States within the meaning of the esp e laws, Title 18, USC, Secs. 793 and 794, the transm sn or revelation of which in any manner to an unau ed person is prohibited by law. GROUP 1 EXCLUDED FROM AUTOMATIC DOWNGRADING AND DECLASSIFICATION ",
+      "source_type": "archive.org movies",
+      "summary": "World-leading physicist Roger Penrose and world-leading philosopher Slavoj \u017di\u017eek thrash out the meaning of quantum mechanics for reality and consciousness. Does the measurement problem reveal a deeper structure of meaning beyond the calculable laws of physics, or the radical contingency of reality itself? This is an extract from the debate 'Quantum and the unknowable universe'. You can watch it now, with a free trial, at https://iai.tv/video/quantum-and-the-unknowable-universe?utm_source=YouTube&utm_medium=description&utm_campaign=h2h \"The more success the quantum theory has the sillier it looks\u201d, wrote Einstein in a letter in 1912. Since then, quantum physics has been verified by experiment",
       "tags": [
         "quantum_science_guardrails"
       ],
-      "title": "CIA Reading Room 00355733: MAJOR DEVELOPMENTS IN THE SOVBLOC CYBERNETICS PROGRAMS IN 1965",
+      "title": "Roger Penrose vs Slavoj \u017di\u017eek | What does quantum mechanics mean for consciousness and reality?",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/cia-readingroom-document-00355733",
-      "year": "1966"
+      "url": "https://archive.org/details/youtube-Qr6Bzt-kOlA",
+      "year": "2025"
     },
     {
       "authors": [
-        "CIA Reading Room"
+        "First UU of Austin"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -328,100 +340,54 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 433,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 329,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp06t00412r000606390001-6",
+      "id": "https://archive.org/details/first_uu_of_austin-2025_02_09_revolutionary_inclusion",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims.",
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
         "cultural_inputs",
         "history_inputs",
-        "visual_art",
-        "other_religious_texts"
+        "visual_art"
       ],
       "primary_layer": "cultural_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 X1 NESA 86-10049 December 1986 Copy 19 2 Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 Directorate of Intelligence Looking Ahead Islamic Fundamentalism in the Middle East and South Asia: A Research Paper Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 Declassified in Part - Sanitized Copy Approved for Release 2012/06/22 : CIA-RDP06T00412R000606390001-6 -- Directorate of Intellige",
+      "source_type": "archive.org audio",
+      "summary": "Rev Chris Jimmerson's sermon delivered on February 9, 2025. In the Sermon on the Mount, Jesus taught inclusion so rooted in love that it would become liberatory for all. Perhaps reclaiming the collective love and liberation that is at the heart of our UU Christian heritage is how we best counter an ideology of exclusion that has arisen in our state and our country.",
       "tags": [
         "politics_justice"
       ],
-      "title": "CIA Reading Room cia-rdp06t00412r000606390001-6: ISLAMIC FUNDAMENTALISM IN THE MIDDLE EAST AND SOUTH ASIA: LOOKING AHEAD",
+      "title": "Revolutionary Inclusion in the ways of Rabbi Jesus",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp06t00412r000606390001-6",
-      "year": "1986"
-    },
-    {
-      "authors": [
-        "CIA Reading Room"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 433,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp88t00096r000400460001-8",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "visual_art",
-        "other_religious_texts"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Declassified in Part - Sanitized Copy Approved for Release 2013/08/30: CIA-RDP88T00096R000400460001-8 R Next 1 Page(s) In Document Denied Declassified in Part - Sanitized Copy Approved for Release 2013/08/30: CIA-RDP88T00096R000400460001-8 25X1 Declassified in Part - Sanitized Copy Approved for Release 2013/08/30: CIA-RDP88T00096R000400460001-8 / Directorate of Intelligence n es 1.4-0,4 pal r P.1%f11.-...)11 f4r7: i#4.Y 1 iiU d prtryl Secret Islamic Fundamentalism in the Middle East and South Asia: Looking Ahead A Research Paper PROJECT NUMBER I W K PAGE NUMBERS /1/A3-74 TOTAL NUMBER OF COPIES '&gt;(0-5---DISSEM DATE a'770 /A5 7 EXTRA COPIES 02_ 0 ?^ /7 RECORD CENTER ,-// 61. ?36 7 JOB NUMBE",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "CIA Reading Room cia-rdp88t00096r000400460001-8: ISLAMIC FUNDAMENTALISM IN THE MIDDLE EAST AND SOUTH ASIA: LOOKING AHEAD",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp88t00096r000400460001-8",
-      "year": "1986"
+      "url": "https://archive.org/details/First_UU_of_Austin-2025_02_09_Revolutionary_Inclusion",
+      "year": "2025"
     },
     {
       "authors": [],
-      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_label": "weak_scholarly_candidate",
       "automated_evidence_reasons": [
         "trusted archive, university, government, museum, library, or public-domain domain",
         "publication year present",
         "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "speculative or overclaim language detected"
+      ],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 232,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 234,
+      "date_accessed": "2026-05-26",
       "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20200516_060000",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://archive.org/details/voa_global_english_20200517_040000",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims.",
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
@@ -433,65 +399,20 @@
       "primary_layer": "cultural_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "review_status": "machine_assessed_weak_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 U.s. President Donald Trump said Friday the u.s. 00:00:02 Government was working with other countries to develop 00:00:05 a covert $1000.00 vaccine at an accelerated pace while preparing to distribute 00:00:09 a vaccine once one is ready at an event in the White House Rose Garden Mr Trump 00:00:14 expressed hope that 00:00:15 a vaccine would be in place before the end of the year he said his administration 00:00:19 would mobilize its forces to get 00:00:21 a vaccine distributed once that one was in place he said it's risky it's expensive 00:00:26 but will be saving massive amounts of time will be saving years if we do this 00:00:31 properly and that's wha",
+      "summary": "Closed captions transcript: 00:00:00 Over governors in easing Kovan 1000 guidelines that prompted 10 u.s. 00:00:04 Senators to probe how sweeping Mr Trump believes as emergency powers are they want 00:00:09 to see this administration's presidential emergency action documents these little 00:00:14 known classified documents don't give 00:00:16 a president authority beyond what's in the Constitution but they outline what 00:00:21 powers 00:00:21 a president believes the Constitution allows him to exercise during national emergencies 00:00:27 a person who attended 00:00:28 a religious service on Mother's Day in Northern California has tested positive for 00:00:32 the corona virus possibly expos",
       "tags": [
         "politics_justice"
       ],
-      "title": "VOA [Voice of America] Global English : May 16, 2020 02:00AM-03:00AM EDT",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20200516_060000",
+      "title": "VOA [Voice of America] Global English : May 17, 2020 12:00AM-01:00AM EDT",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Global_English_20200517_040000",
       "year": "2020"
     },
     {
       "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 461,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/suratulmulkabdulazeezahmad",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "world_languages",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------- *~Suratul-Mulk~* \u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u0651\u064e\u0647\u0650 \u0627\u0644\u0631\u0651\u064e\u062d\u0652\u0645\u064e\u0640\u0670\u0646\u0650 \u0627\u0644\u0631\u0651\u064e\u062d\u0650\u064a\u0645\u0650 In the Name of Allah, the Most Gracious, the Most Merciful \u062a\u064e\u0628\u064e\u0627\u0631\u064e\u0643\u064e \u0627\u0644\u0651\u064e\u0630\u0650\u064a \u0628\u0650\u064a\u064e\u062f\u0650\u0647\u0650 \u0627\u0644\u0652\u0645\u064f\u0644\u0652\u0643\u064f \u0648\u064e\u0647\u064f\u0648\u064e \u0639\u064e\u0644\u064e\u0649\u0670 \u0643\u064f\u0644\u0650\u0651 \u0634\u064e\u064a\u0652\u0621\u064d \u0642\u064e\u062f\u0650\u064a\u0631\u064c 1. Blessed is He in Whose Hand is the dominion, and He is Able to do all things. \u0627\u0644\u0651\u064e\u0630\u0650\u064a \u062e\u064e\u0644\u064e\u0642\u064e \u0627\u0644\u0652\u0645\u064e\u0648\u0652\u062a\u064e \u0648\u064e\u0627\u0644\u0652\u062d\u064e\u064a\u064e\u0627\u0629\u064e \u0644\u0650\u064a\u064e\u0628\u0652\u0644\u064f\u0648\u064e\u0643\u064f\u0645\u0652 \u0623\u064e\u064a\u0651\u064f\u0643\u064f\u0645\u0652 \u0623\u064e\u062d\u0652\u0633\u064e\u0646\u064f \u0639\u064e\u0645\u064e\u0644\u064b\u0627 \u06da \u0648\u064e\u0647\u064f\u0648\u064e \u0627\u0644\u0652\u0639\u064e\u0632\u0650\u064a\u0632\u064f \u0627\u0644\u0652\u063a\u064e\u0641\u064f\u0648\u0631\u064f 2. Who has created death and life, that He m",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "The Ultimate Suratul-Mulk Audio Collection with English Translation (x100)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/SuratulMulkAbdulAzeezAhmad",
-      "year": null
-    },
-    {
-      "authors": [
-        "First Unitarian Society of Minneapolis"
+        "JUUst Breathe Live - A UU Podcast"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -504,11 +425,11 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 263,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 265,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/first_unitarian_society_of_minneapolis-2026_04_19_podcast",
+      "id": "https://archive.org/details/juust_breathe_live___a_uu_podcast-17916398_the_deeper_joy_of_whole_church",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims."
@@ -522,14 +443,14 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Everything grows from something. We can\u2019t always know just how the planting will turn out, but we can picture possibilities and envision what we will do together to shape them into something beautiful and flourishing. Rev. Chad Snyder \u2014 candidate to be the next settled minister at FUS \u2014 will share his hopes for what [\u2026]",
+      "summary": "Guest panelists and long time collaborators, Jennica Davis-Hockett and Joy Berry, meet with Ember to discuss why Unitarian Universalists are embracing a whole church religious education approach and are deepening community connections across generations through a new, amazing resource called Deeper Joy. Music: \"Where Do We Come From,\" by Brian Tate performed by Rev Christopher Lamb",
       "tags": [
         "art_beauty"
       ],
-      "title": "Podcast: Forest and Trees and Seeding the Possible",
+      "title": "The Deeper Joy of Whole Church",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/First_Unitarian_Society_of_Minneapolis-2026_04_19_Podcast",
-      "year": "2026"
+      "url": "https://archive.org/details/JUUst_Breathe_Live___A_UU_Podcast-17916398_the_deeper_joy_of_whole_church",
+      "year": "2025"
     },
     {
       "authors": [
@@ -545,85 +466,40 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 383,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 463,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/sheikhahmeddeedat-completeaudiocollection",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org image",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Biography: Ahmed Hoosen Deedat (Arabic: \u0627\u062d\u0645\u062f \u062d\u0633\u064a\u0646 \u062f\u064a\u062f\u0627\u062a\u200e July 1918 \u2013 8 August 2005) was a South African writer and public speaker of Indian descent. He was reverently known and called 'UNCLE' by those who hold him in high esteem and admiration. He was best known as a Muslim Da'ee (caller to Islaam) who held numerous inter-religious public debates with evangelical Christians, as well as video lectu",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Sheikh Ahmed Deedat (\u0627\u062d\u0645\u062f \u062d\u0633\u064a\u0646 \u062f\u064a\u062f\u0627\u062a - \u0631\u062d\u0645\u0647 \u0627\u0644\u0644\u0647) - Complete Audio Collection (150+)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/SheikhAhmedDeedat-CompleteAudioCollection",
-      "year": null
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 511,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/001alfaatiha_201510",
+      "id": "https://archive.org/details/002albaqarah_201403",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims.",
         "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
         "Read the tradition on its own terms; do not flatten it into Christian categories."
       ],
       "layer_routes": [
         "visual_art",
         "cultural_inputs",
         "world_languages",
-        "all_texts",
         "other_religious_texts"
       ],
       "primary_layer": "visual_art",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- The Noble Qur'aan - \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 Qari - Sa'ad al-Ghamdi Translation of the Meanings - Dr. Muhammad Muhsin Khan ------------------------------------------------------------------------------------------------------------------------------------------------------- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / Koran / Recital / Revelation / Scripture / Furqan / Criterion ---------------------",
+      "source_type": "archive.org audio",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------ The Noble Qur'aan - \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 Qari - Nadir al-Qallawi Translator - Mr. Phelps (Bilal Abdul-Karim) from USA Translation of the Meanings - Dr. Muhammad Muhsin Khan & Dr. Muhammad Taqi-ud-Din Al-Hilali ------------------------------------------------------------------------------------------------------------------------------------------------------- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / Koran / Recital /",
       "tags": [
         "art_beauty"
       ],
-      "title": "Complete Quran (114 Surahs) - Sa'ad al-Ghamdi (with English Translation)",
+      "title": "Complete Quran (114 Surahs) - Nadir al-Qallawi (with English Audio Translation)",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/001AlFaatiha_201510",
+      "url": "https://archive.org/details/002AlBaqarah_201403",
       "year": null
     },
     {
       "authors": [
-        "Beardsley, Monroe C"
+        "william victor newbold"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -636,38 +512,542 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 494,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 464,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/aestheticsfromcl0000bear_s1w1",
+      "id": "https://archive.org/details/set-90-videos-4-01-2025-06-10-21-09-29-045",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
       ],
       "layer_routes": [
         "visual_art",
         "cultural_inputs",
-        "theologians",
-        "history_inputs",
-        "modern_literature"
+        "deep_sources"
       ],
       "primary_layer": "visual_art",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "414 pages 21 cm Includes bibliographical references 1. First thoughts -- 2. Plato: Art and imitation ; Beauty ; Morality ; 3. Aristotle: The proper pleasure of tragedy ; Aristotle's answer to Plato ; 4. The later classical philosophers: Hellenism and Roman classicism ; Plotinus ; 5. The Middle Ages: St. Augustine ; St. Thomas Aquinas ; The theory of interpretation ; 6. The Renaissance: Neoplatonism ; Theory of painting ; Music and poetry ; 7. The Enlightenment: Cartesian rationalism: Poetics ; Theory of painting and music ; Toward a unified aesthetics ; 8. The Enlightenment: empiricism: Imagination and artistic creation ; The problem of taste: Shaftesbury to Hume ; The aesthetic qualities: H",
+      "source_type": "archive.org audio",
+      "summary": "The Architecture of Hope: Its Origins, Inspirations, and Transformative Power I. The Genesis and Nature of Hope: An Interdisciplinary Exploration The human experience is profoundly shaped by the presence or absence of hope. It is a concept that resonates across cultures and epochs, yet its precise nature remains a subject of rich inquiry. Understanding where hope comes from necessitates an exploration of its multifaceted character, drawing from psychological, philosophical, and theological perspectives, complemented by insights from neuroscience. A. Defining Hope: A Multifaceted Construct Hope is more than a fleeting emotion; it is a complex construct that has been defined and analyzed throu",
       "tags": [
         "art_beauty"
       ],
-      "title": "Aesthetics from classical Greece to the present; a short history",
+      "title": "Set 90 Videos 4 01 2025 till set 4 including 2, 3, 4b -90 video songs.",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/aestheticsfromcl0000bear_s1w1",
-      "year": "1966"
+      "url": "https://archive.org/details/set-90-videos-4-01-2025-06-10-21-09-29-045",
+      "year": "2025"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 265,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://robinmarkphillips.com/theology-art-importance-beauty",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99985576,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "The manifestation of what is beautiful in creation should be seen as an icon of Eternal Good, Truth, and Beauty, but it is only an icon.",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "The Theology of Art and the Importance of Beauty",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://robinmarkphillips.com/theology-art-importance-beauty",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 265,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "http://www2.flagstar.com/lwantz/2n9n343/114816250526/the_beauty__of-god_theology__and__the_arts.pdf",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9997017,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "These works demonstrate a conscious effort to embody theological concepts through artistic means ... meaning In conclusion, the beauty of God theology has.",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "[PDF] The Beauty Of God Theology And The Arts",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "http://www2.flagstar.com/lwantz/2N9N343/114816250526/the_beauty__of-god_theology__and__the_arts.pdf",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 329,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.modernreformation.org/resources/essays/theology-and-beauty-an-enquiry",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "history_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99948066,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "\u201cHow beautiful upon the mountains / are the feet of him who brings good news, / who publishes peace, who brings good news of happiness\u201d (Isa. 52:7).[1] The evangelists\u2019 feet are not beautiful on their own, but for the sake of the message they bring. There is a quality to the gospel message that brings joy and freedom to those who hear it.[2]. Above all, let\u2019s omit references to the beauty of a God who is mighty to save, such as this from Isaiah: \u201cIn that day the Lord of hosts will be a crown of glory, / and a diadem of beauty, to the remnant of his people, / and a spirit of justice to him who sits in judgment, / and strength to those who turn back the battle at the gate\u201d (Isa. 28:5\u20136). To le",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Theology and Beauty: An Enquiry | Modern Reformation",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.modernreformation.org/resources/essays/theology-and-beauty-an-enquiry",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 265,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.amazon.com/theological-aesthetics-god-imagination-beauty/dp/019512622x",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99993896,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "A theological exploration of how aesthetic experiences - through feeling, beauty, and art - serve as sources of divine revelation and understanding of God. See",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Theological Aesthetics: God in Imagination, Beauty, and Art",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.amazon.com/Theological-Aesthetics-God-Imagination-Beauty/dp/019512622X",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 265,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://academic.oup.com/book/3805",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9999039,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "This book explores the role of aesthetic experience in our perception and understanding of the holy. The book's goal is to articulate a theology of revelation,",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Theological Aesthetics: God in Imagination, Beauty, and Art",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://academic.oup.com/book/3805",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 265,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://philpapers.org/rec/viltag",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99982184,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "In this book, Richard Viladesau contrues Christian theology as a \"theological aesthetics\". He examines Christian revelation and its presuppositions in",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Theological Aesthetics: God in Imagination, Beauty, and Art.",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://philpapers.org/rec/VILTAG",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 329,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.youtube.com/watch?v=sfvtf8ae5au",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "history_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9993538,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "He has done for us and with the hope that we too will live with Him eternally. As we walk on our own paths, the Church gives us sign posts",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Iconography\u2014Memory and Hope in Visual Form (March 1, 2026)",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.youtube.com/watch?v=SfvTF8AE5aU",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 265,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://artandtheology.org/tag/lament",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99750805,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "There\u2019s much to look at in this painting. I want to focus on Jesus\u2019s grieving mother under the cross to our left. In Renaissance art of the Crucifixion, Mother Mary is often shown swooning, supported by John or by one of her female companions. Here she\u2019s with a group of four women\u2014the other Marys\u2014two of whom wrap an arm around her to bolster her up when her legs give out. This work was painted by Andrea Mantegna between 1457 and 1459 as the central element of the predella (base) of the high altarpiece at San Zeno#/media/File:Pala_di_San_Zeno_by_Andrea_Mantegna_-_San_Zeno_-_Verona_2016_(3).jpg) in Verona, Italy, a monumental work of art. In 1797, French Napoleonic forces plundered the altarpi",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "lament \u2013 Art & Theology",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://artandtheology.org/tag/lament",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 387,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://ca.thegospelcoalition.org/article/the-art-of-lament",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "pattern_tests"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.97754294,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "But how often do we practice this art of lament? Lament is a form of praise and prayer with the intent of drawing close to God in times of great suffering and pain. It ultimately is a wonderful gift to the children of God, because it presupposes a relationship with God and depends on it! Only those who can approach God in a covenantal relationship are able to lament because lament is pleading with God to act in accordance with His character and promises to us. The mere fact we are able to approach God in lament is a sign of intimacy and hope! Once we have unleashed the torrent of pain and anguish we feel, we now turn to Christ and remind ourselves of the great hope that is ours in Him. The C",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "The Art of Lament - The Gospel Coalition | Canada",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://ca.thegospelcoalition.org/article/the-art-of-lament",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 421,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.buzzsprout.com/2563200/episode_players/18665835-healing-historical-trauma-truth-telling-theological-reckoning-repair?client_source=large_player&referrer=https%3a%2f%2fwww.buzzsprout.com%2f2563200.js%3fcontainer_id%3dbuzzsprout-large-player",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Separate psychological/social process from theological interpretation and note clinical limits."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "psychology_inputs"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99884856,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Kenji brings deep insight into the legacies of historical trauma and the theological imperative for truth-telling and repair. He has served in",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Episode Player - Buzzsprout",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.buzzsprout.com/2563200/episode_players/18665835-healing-historical-trauma-truth-telling-theological-reckoning-repair?client_source=large_player&referrer=https%3A%2F%2Fwww.buzzsprout.com%2F2563200.js%3Fcontainer_id%3Dbuzzsprout-large-player",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 6,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 589,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.saet.ac.uk/christianity/traumatheology",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "visual_art",
+        "psychology_inputs",
+        "human_stories",
+        "pattern_tests"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99722075,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Trauma theology is a theological discipline that seeks to both do theological justice to traumatic experiences and also to reimagine theologies in the light of such experiences. Whilst suffering has always been of interest to Christian theology, trauma theology distinguishes between suffering and trauma, noting the specific impact trauma has on the embodied life of trauma survivors. Envisioning trauma experience as an earthquake that shatters theological landscapes, trauma theology sees its work as that of construction of reimagined theologies in the wake of these experiences. Trauma Body Bible Suffering Theodicy Cross Eucharist Pastoral Care The Christian Church. The trauma experience shatt",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Trauma Theology - St Andrews Encyclopaedia of Theology",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.saet.ac.uk/Christianity/TraumaTheology",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 421,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.christiancentury.org/critical-essay/how-christian-theology-and-practice-are-being-shaped-trauma-studies",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Separate psychological/social process from theological interpretation and note clinical limits."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "psychology_inputs"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9970879,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "The experience of trauma dismantles notions of theology as a fixer, a provider of solutions. A move to \u201cfix\u201d things may interfere rather than",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "How Christian theology and practice are being shaped by trauma ...",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.christiancentury.org/critical-essay/how-christian-theology-and-practice-are-being-shaped-trauma-studies",
+      "year": null
     },
     {
       "authors": [
@@ -683,11 +1063,11 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 556,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 557,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/9781722003067thecreationoflove",
+      "id": "https://archive.org/details/9781976472084thetreeoftheknowledge",
       "layer_review_prompts": [
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
@@ -709,14 +1089,59 @@
       "tags": [
         "history_memory"
       ],
-      "title": "The Creation of Love: Philosophical poems by Sorin Cerin",
+      "title": "The Tree of The Knowledge: Philosophical poems by Sorin Cerin",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/9781722003067Thecreationoflove",
+      "url": "https://archive.org/details/9781976472084Thetreeoftheknowledge",
       "year": null
     },
     {
       "authors": [
-        "Anchorage Unitarian Universalist Fellowship Forum Podcasts"
+        "Sorin Cerin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 557,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/9781537600321death",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "visual_art",
+        "all_texts"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard, philosopher,- the creator of Coaxialism, \u2013 compared to Schopenhauer, Nietzsche and Wittgenstein. Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in 14 volumes of thoughts previously published in various publishing houses, and then to be reunited under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity and international recognition, for which he is considered to be one of the most representative thinkers of the aphoris",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Death",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/9781537600321Death",
+      "year": null
+    },
+    {
+      "authors": [
+        "Sorin Cerin"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -729,53 +1154,184 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 445,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 557,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/anchorage_unitarian_universalist_fellowship_forum_podcasts-15797139_de_weaponizi",
+      "id": "https://archive.org/details/9781548279431angelsandimmortality",
       "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
       ],
       "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "other_religious_texts",
-        "visual_art"
+        "history_inputs",
+        "theologians",
+        "visual_art",
+        "all_texts"
       ],
-      "primary_layer": "world_languages",
+      "primary_layer": "history_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Rev. Matt Schultz graduated from Westminster College with a BA in Art in 1995. He is married to Rev. Elizabeth Schultz. Together, they attended Princeton Theological Seminary and are ordained as pastors in the Presbyterian Church (USA). They live in Anchorage, Alaska, where they go on wild adventures with their three beautiful children, two awesome dogs, and one average cat. Since 2013, Matt has been the pastor at First Presbyterian Church of Anchorage and also serves with Christians for Equa...",
+      "source_type": "archive.org texts",
+      "summary": "SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard, philosopher,- the creator of Coaxialism, \u2013 compared to Schopenhauer, Nietzsche and Wittgenstein. Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in 14 volumes of thoughts previously published in various publishing houses, and then to be reunited under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity and international recognition, for which he is considered to be one of the most representative thinkers of the aphoris",
       "tags": [
-        "world_language_source_sampling"
+        "history_memory"
       ],
-      "title": "De-weaponizing the Bible - Rev. Matt Schultz",
+      "title": "Angels and Immortality: Poems of Meditation by Sorin Cerin",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-15797139_de_weaponizi",
-      "year": "2024"
+      "url": "https://archive.org/details/9781548279431Angelsandimmortality",
+      "year": "2017"
     },
     {
       "authors": [],
       "automated_evidence_label": "weak_scholarly_candidate",
       "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 480,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.abc.net.au/religion/judaism-and-suffering-anxiety-and-collective-memory/13482460",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "all_texts",
+        "other_religious_texts"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9999145,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "A real aid in overcoming hopelessness, and embarking upon remedial action can be found in the spiritual and communal recognition of universalised human",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Existence, anxiety, and collective memory: Traditional Judaism's ...",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.abc.net.au/religion/judaism-and-suffering-anxiety-and-collective-memory/13482460",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
         "trusted archive, university, government, museum, library, or public-domain domain",
         "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
       "automated_evidence_score": 6,
       "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 338,
-      "date_accessed": "2026-05-25",
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 421,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://archive.org/details/experiencinggodthroughdeceitfulmysticism",
+      "id": "https://berkleycenter.georgetown.edu/responses/history-and-hope-collective-memory-group-identity-and-the-first-thanksgiving",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Separate psychological/social process from theological interpretation and note clinical limits."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "psychology_inputs"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9998859,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Nicholas Rowe explores the complicated place of the First Thanksgiving in American collective memory, highlighting the ways in which",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "History and Hope: Collective Memory, Group Identity, and the First ...",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://berkleycenter.georgetown.edu/responses/history-and-hope-collective-memory-group-identity-and-the-first-thanksgiving",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 292,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://academic.oup.com/book/61470/chapter/534852370",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9996673,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "The introduction proposes an approach to collective memory that puts the memory of hope center stage and thus offers an alternative to the",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Introduction | Remembering Hope: The Cultural Afterlife of Protest",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://academic.oup.com/book/61470/chapter/534852370",
+      "year": null
+    },
+    {
+      "authors": [
+        "Thurcaston, Randall Price, Rick Warren, beza, Faber, Lindsell, Burgon, , Riplinger, John Rice, John Calvin, Calvinus, Ca"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 338,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/biblicaltranslation-doestherevisedversionofwestcotthortchangethe",
       "layer_review_prompts": [
         "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
@@ -789,20 +1345,21 @@
       "primary_layer": "world_languages",
       "provider": "Internet Archive",
       "quality": "reference metadata",
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "\"Kundalini\" type spirits invading the church - http://www.youtube.com/watch?v=-RVAu1uGkew http://www.youtube.com/watch?v=eBpw2oQrvMM A subtle and dangerous shift in Christianity It seems everyone's practicing yoga meditation these days. Physicians recommend it to their patients which means it's beneficial...right? Meditation is said to relieve stress, anxiety, hypertension, acne and post-nasal drip, so go for it! Just tighten those abdominal muscles, inhale deeply and chant Maaaaaaaaa all in one breath and your concerns will drift away like a feather floating on the win........ http://www.newswithviews.com/West/marsha198.htm by Marsha West Professional deception and clever fraudulence are ru",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Biblical Translation - Does the Revised Version of Westcott-Hort Change the Word Meanings of the New Testament (AV - KJV) ? The original title of this is \u00e2Does the Revised Version affect the Teachings of the New Testament\u00e2, an \u00e2obvious\u00e2 title, IF you are among those who lived 100 years ago. The question that this author is asking, is: what is the impact of Westcott and Hort on the actual words and meaning of the New Testament, through the release of their version of the Bible ? The Revised Version was released around 1881/1882 by a group of translators who were nominally Anglican. However the Revised Version is largely perceived as having opened the floodgates to weak, inaccurate and mislead",
       "tags": [
         "world_language_source_sampling"
       ],
-      "title": "Experiencing God through Deceitful Mysticism",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://archive.org/details/ExperiencingGodThroughDeceitfulMysticism",
+      "title": "Biblical Translation - Does the Revised Version of Westcott Hort Change the Word Meanings of the New Testament (AV - KJV) ?",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/BiblicalTranslation-DoesTheRevisedVersionOfWestcottHortChangeThe",
       "year": null
     },
     {
       "authors": [
-        "Westminster Institute"
+        "Westcott, Brooke Foss, 1825-1901",
+        "Hort, Fenton John Anthony, 1828-1892"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -815,84 +1372,40 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 301,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 341,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/weak-points-in-the-ideology-of-jihad",
+      "id": "https://archive.org/details/newtestamentino00west",
       "layer_review_prompts": [
-        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
-        "Check Christian source context, doctrine, and source quality.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading."
       ],
       "layer_routes": [
-        "biblical_languages",
-        "research_documents/christian_sources",
+        "world_languages",
         "all_texts",
-        "world_languages"
+        "other_religious_texts",
+        "biblical_languages"
       ],
-      "primary_layer": "biblical_languages",
+      "primary_layer": "world_languages",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org texts",
-      "summary": "Weak Points in the Ideology of Jihad The Resilience of the Ideology Whether you like it or not, whether you consider it something too obscure to be bothered with, the ideology is the jihad\u2019s most effective and most enduring weapon. Ideology is the most important arm because it is the most resilient. It is going to remain long after Bin Laden is gone, long after the individual groups have vanished. If, and when, all the strategies and tactics of these cells have been wound up, the jihad as an ideology will stay and will go on to generate the next group, and the next. So how does the ideology provide this resilience? It frames the conflict, and justifies it. It gives the Mujahideen a grand mis",
+      "summary": "Added title-page: The New Testament ... translated out of the Greek, being the version set forth A.D. 1611 and revised A.D. 1881. Greek and English; paged in duplicate 52",
       "tags": [
-        "biblical_language_source_depth"
+        "world_language_source_sampling"
       ],
-      "title": "Weak Points In The Ideology Of Jihad",
+      "title": "The New Testament in the original Greek",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/weak-points-in-the-ideology-of-jihad",
-      "year": "2009"
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "DOI or stable scholarly identifier present",
-        "publication year present",
-        "recognized scholarly source type",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 9,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "corroborating_source_count": 472,
-      "date_accessed": "2026-05-25",
-      "doi": "10.1017/9781108558785.006",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "10.1017/9781108558785.006",
-      "layer_review_prompts": [
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
-      ],
-      "layer_routes": [
-        "psychology_inputs",
-        "pattern_tests",
-        "human_stories",
-        "deep_sources"
-      ],
-      "primary_layer": "psychology_inputs",
-      "provider": "Crossref",
-      "quality": "scholarly metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "book-chapter",
-      "summary": "",
-      "tags": [
-        "pattern_perception_divine_response"
-      ],
-      "title": "Religious Experience Psychologized",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://doi.org/10.1017/9781108558785.006",
-      "year": 2019
+      "url": "https://archive.org/details/newtestamentino00west",
+      "year": "1882"
     },
     {
       "authors": [
-        "content.uusf.org"
+        "uusf.org"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -905,78 +1418,259 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 423,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 314,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/content_uusf_org-20120226jkcomplete",
+      "id": "https://archive.org/details/uusf_org-20121111jksermon",
       "layer_review_prompts": [
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
         "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
       ],
       "layer_routes": [
         "all_texts",
         "other_religious_texts",
-        "modern_literature",
-        "visual_art"
+        "modern_literature"
       ],
       "primary_layer": "all_texts",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "The vilnius christian know: And forgetting you know they can be all sorts of things that could be an illness that we begin to identify with that then starts dictating how we live our life because we're struggling with the vilnius.",
+      "summary": "A unitarian universalist minister ina lineage holder american life: As a unitarian universalist minister ina lineage holder of some of the great prophetic religious traditions of america administer rooted in the mayflower compact the cambridge platform the spirit of revolution and the bonds of faith and charity and goodwill in this country as members of this historic congregation each of you are also lineage holders of this great american religious tradition that predates our country that profoundly helped to shape our notion of the american dream and that propelled this nation to some of its greatest achievements org today you are among friends.",
       "tags": [
         "global_text_traditions"
       ],
-      "title": "The vilnius christian know",
+      "title": "A unitarian universalist minister ina lineage holder american life",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/content_uusf_org-20120226JKComplete",
+      "url": "https://archive.org/details/uusf_org-20121111JKSermon",
       "year": "2022"
     },
     {
-      "authors": [],
+      "authors": [
+        "UUABQ Voice"
+      ],
       "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 342,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/uuabq_voice-hyperdeck_2501051012_0005",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "biblical_languages"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Why do ancient Greek and Roman gods belong to \u201cmythology,\u201d while other gods belong to \u201creligion?\u201d What\u2019s the difference? And if someone says all religion is myth, should UUs get mad?Music: Lydia Clark & Susan Peck",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "January 5, 2025: \u201cReligion vs. Myth\u201d The Rev. Angela Herrera Koren",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/UUABQ_Voice-HyperDeck_2501051012_0005",
+      "year": "2025"
+    },
+    {
+      "authors": [
+        "uusf.org"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 314,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/uusf_org-20120129sfcomplete",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "The second question hindu people: Our culture here in america is so focused on work that i think a lot of us are, yoga's or strive to be it's not true elsewhere but in this country the second question people ask one another.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "The second question hindu people",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/uusf_org-20120129SFComplete",
+      "year": "2022"
+    },
+    {
+      "authors": [
+        "Wesley Carr"
+      ],
+      "automated_evidence_label": "strong_scholarly_candidate",
       "automated_evidence_reasons": [
         "scholarly metadata provider",
         "DOI or stable scholarly identifier present",
+        "author metadata present",
         "publication year present",
         "recognized scholarly source type",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 9,
+      "automated_evidence_score": 10,
       "automated_evidence_warnings": [],
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "corroborating_source_count": 430,
-      "date_accessed": "2026-05-25",
-      "doi": "10.4324/9781315744605-13",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "10.4324/9781315744605-13",
+      "corroborating_source_count": 448,
+      "date_accessed": "2026-05-26",
+      "doi": "10.1177/0040571x9609900536",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "10.1177/0040571x9609900536",
       "layer_review_prompts": [
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+        "Use as general research context until a more specific layer is reviewed.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
       ],
       "layer_routes": [
-        "other_religious_texts",
-        "human_stories",
-        "theologians"
+        "research_documents",
+        "deep_sources",
+        "human_stories"
       ],
-      "primary_layer": "other_religious_texts",
+      "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "book-chapter",
+      "review_status": "machine_assessed_strong_scholarly_candidate",
+      "source_type": "journal-article",
       "summary": "",
       "tags": [
-        "interreligious_dream_testimony"
+        "general_research_methods"
       ],
-      "title": "Conclusion",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://doi.org/10.4324/9781315744605-13",
-      "year": 2015
+      "title": "Book Review: Theology and Pastoral Counseling",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://doi.org/10.1177/0040571x9609900536",
+      "year": 1996
+    },
+    {
+      "authors": [
+        "Wang P",
+        "Zhang K",
+        "Chen Y"
+      ],
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 10,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 149,
+      "date_accessed": "2026-05-26",
+      "doi": "10.2196/60551",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "10.2196/60551",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "cultural_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Europe PMC",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_strong_scholarly_candidate",
+      "source_type": "scholarly metadata",
+      "summary": "Background Telemedicine has rapidly expanded; however, standardized, telemedicine-specific patient-reported experience measures tailored to outpatient workflows are limited in many settings. Objective This study aimed to develop and psychometrically validate the Telemedicine Service Experience Questionnaire (TSEQ) for Chinese outpatients using telemedicine services. Methods We conducted a web-based survey among outpatients who completed a telemedicine consultation at Peking Union Medical College Hospital between July 1, 2021, to August 31, 2021, and who had used telemedicine services, using an adapted Chinese Patient Experience Questionnaire that encompasses 15 questions across 4 dimensions,",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "Telemedicine Service Experience Questionnaire for Chinese Outpatients: Development and Validation Study.",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://doi.org/10.2196/60551",
+      "year": "2026"
+    },
+    {
+      "authors": [
+        "Chitrapady S",
+        "Poojari PG",
+        "Rashid M"
+      ],
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 10,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 264,
+      "date_accessed": "2026-05-26",
+      "doi": "10.1371/journal.pone.0348519",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "10.1371/journal.pone.0348519",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "visual_art"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Europe PMC",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_strong_scholarly_candidate",
+      "source_type": "scholarly metadata",
+      "summary": "Introduction Acute febrile illnesses are significant clinical challenge in tropical regions due to overlapping symptomatology among infections such as dengue, scrub typhus, and leptospirosis. This diagnostic dilemma leads to delays in appropriate treatment and negatively impacted patient outcome due to limited diagnostic tool availability. Recent advancement in artificial intelligence (AI) application in healthcare help in developing diagnostic aiding tool in such clinical dilemma. Aims Study aimed to explore physicians' perspectives on diagnostic challenges of tropical Acute-febrile-illnesses and assess perceived utility of AI as a supportive tool in clinical decision-making. Methods A qual",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "A qualitative study to inform the design and implementation of AI-driven diagnosis: Challenges, barriers, and clinical insights of physicians.",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://doi.org/10.1371/journal.pone.0348519",
+      "year": "2026"
     },
     {
       "authors": [],
@@ -990,11 +1684,11 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 148,
-      "date_accessed": "2026-05-25",
+      "corroborating_source_count": 150,
+      "date_accessed": "2026-05-26",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_africa_20190528_160000",
+      "id": "https://archive.org/details/voa_global_english_20200614_230000",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims."
       ],
@@ -1006,140 +1700,14 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 For Takeoff vertical landing variant of the f. 00:00:02 $35.00 supersonic jet fighter in their remarks the 2 leaders did not mention China 00:00:08 by name but Abbay spoke of an increasingly severe security environment in the 00:00:13 region and Trump noted Japan is to purchase more than $100.00 additional f. 00:00:17 $35.00 stealth jets from the United States that will help our nations defend 00:00:21 against 00:00:22 a range of complex threats in the region and far beyond there has been nervousness 00:00:26 in Japan about America's long term commitment to the defense of the island nation 00:00:31 especially with the presidency of Trump who had a long ti",
+      "summary": "Closed captions transcript: 00:00:02 This is the news I'm Aretha Melton's Brazil has moved fast Britain to become the 00:00:08 country with the 2nd highest covert 19 death toll in the world just after the 00:00:13 United States the South American countries death tally early Sunday was 42720 00:00:20 according to the Johns Hopkins University Britain has lost 41747 people to 00:00:27 Kovan 1000 the United States has lost 115000 436 lives to the coronavirus 00:00:34 pandemic Johns Hopkins reports the number of Corona virus cases around the world is 00:00:39 steadily climbing toward the 8000000 mark the United States has more than 2000000 00:00:44 cases followed again by Brazil with more than 85",
       "tags": [
         "technology_ethics"
       ],
-      "title": "VOA [Voice of America] Africa : May 28, 2019 12:00PM-01:00PM EDT",
+      "title": "VOA [Voice of America] Global English : June 14, 2020 07:00PM-08:00PM EDT",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Africa_20190528_160000",
-      "year": "2019"
-    },
-    {
-      "authors": [
-        "CIA Reading Room"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 148,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp88g01116r000500570003-2",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims."
-      ],
-      "layer_routes": [
-        "cultural_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "25X1 Sanitized Copy Approved for Release 2011/04/12 : CIA-RDP88GO1116R000500570003-2 Next 2 Page(s) In Document Denied Sanitized Copy Approved for Release 2011/04/12 : CIA-RDP88GO1116R000500570003-2 Sanitized Copy Approved for Release 2011/04/12 : CIA-RDP88GO1116ROO0500570003-2 7 TO ECRET National Intelligence Council he Director of Central Intelligence Washington, D.C. 20505 7 May 1986 MEMORANDUM FOR: Director of Central Intelligence Deputy Director of Central Intelligence Acting National Intelligence Officer for Economics SUBJECT: Background for 8 May Cabinet Meeting on Economic Summit 1. This Memorandum is background for your 8 May meeting with the President on the Economic Summit. 2. Ove",
-      "tags": [
-        "technology_ethics"
-      ],
-      "title": "CIA Reading Room cia-rdp88g01116r000500570003-2: BACKGROUND FOR 8 MAY CABINET MEETING ON ECONOMIC SUMMIT",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp88g01116r000500570003-2",
-      "year": "1986"
-    },
-    {
-      "authors": [
-        "Barabeke"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 402,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/demianism",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "visual_art",
-        "psychology_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "In a time marked by unprecedented technological transformation and a deepening crisis of values, meaning, and identity, Demianism proposes a vision capable of recomposing what the modern world has torn apart \u2014 spirit and matter, individual and community, freedom and ethics, masculine and feminine, faith and reason, human and divine. Demianism is a strange hybrid between a religion and a cultural and political movement. A revealed doctrine founded on 13 axioms: three of a metaphysical nature \u2014 the cosmotheandric triad \u2014 and ten of an ethical, social, and political nature \u2014 the 2kTenCom. From these principles emerges an original vision that restores to humanity meaning, dignity, and a horizon ",
-      "tags": [
-        "technology_ethics"
-      ],
-      "title": "Demianism",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/demianism",
-      "year": "2026"
-    },
-    {
-      "authors": [
-        "Tao, Julia Lai Po-Wah, 1946-"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 263,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/springer_10.1007-978-94-017-1195-1",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "visual_art"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Cross-Cultural Perspectives on the (Im)Possibility of Global Bioethics Author: Julia Tao Lai Po-Wah Published by Springer Netherlands ISBN: 978-90-481-5969-7 DOI: 10.1007/978-94-017-1195-1 Table of Contents: Global Bioethics, Global Dialogue: Introduction Morality, Universality, and Particularity: Rethinking the Role of Community in the Foundations of Bioethics Is Just Caring Possible? Challenge to Bioethics in the New Century Living and Dying in a Post-Traditional World The Tension between Biomedical Technology and Confucian Values On Relational Paradigm in Bioethics The Ethics of Prenatal Screening and the Search for Global Bioethics Genetic Engineering and Social Justice: Towards a Global",
-      "tags": [
-        "technology_ethics"
-      ],
-      "title": "Cross-cultural perspectives on the (im)possibility of global bioethics",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/springer_10.1007-978-94-017-1195-1",
-      "year": "2011"
+      "url": "https://archive.org/details/VOA_Global_English_20200614_230000",
+      "year": "2020"
     }
   ],
   "opencitations_enriched_count": 25,
@@ -1149,7 +1717,8 @@
     "Internet Archive": 106,
     "OpenAlex": 288,
     "PubMed": 26,
+    "Tavily Search": 15,
     "arXiv": 30
   },
-  "updated_at": "2026-05-25T22:21:03.885110+00:00"
+  "updated_at": "2026-05-26T21:04:06.993209+00:00"
 }

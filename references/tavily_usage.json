@@ -35,6 +35,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-05-26": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "theology art beauty symbol meaning",
+          "searched_at": "2026-05-26T20:59:51.851209+00:00",
+          "tag": "art_beauty"
+        },
+        {
+          "credits_used": 1,
+          "query": "aesthetics theology beauty imagination",
+          "searched_at": "2026-05-26T20:59:57.352436+00:00",
+          "tag": "art_beauty"
+        },
+        {
+          "credits_used": 1,
+          "query": "visual theology iconography symbol lament hope",
+          "searched_at": "2026-05-26T21:00:02.793398+00:00",
+          "tag": "art_beauty"
+        },
+        {
+          "credits_used": 1,
+          "query": "historical theology memory trauma justice repair",
+          "searched_at": "2026-05-26T21:00:08.913879+00:00",
+          "tag": "history_memory"
+        },
+        {
+          "credits_used": 1,
+          "query": "religion history collective memory suffering hope",
+          "searched_at": "2026-05-26T21:00:18.750803+00:00",
+          "tag": "history_memory"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

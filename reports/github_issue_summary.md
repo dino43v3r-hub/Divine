@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-25T22:22:05.975437+00:00
+Generated: 2026-05-26T21:05:08.884844+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -101,7 +101,7 @@ Chapter One: What Is Growing Today?
 -----------------------------------
 This chapter summarizes the newest research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 513 lines. Open the linked report above to read everything._
+_Full report has 514 lines. Open the linked report above to read everything._
 ```
 
 ## reports/top_five_divine_patterns_report.txt
@@ -135,9 +135,9 @@ _Full report has 255 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T22:21:03.920362+00:00
-Total references: 1,027
-New references this run: 25
+Updated: 2026-05-26T21:04:07.030151+00:00
+Total references: 1,065
+New references this run: 38
 
 Guardrails
 ----------
@@ -151,7 +151,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 494 lines. Open the linked report above to read everything._
+_Full report has 524 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -170,13 +170,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 33
-Total analyzed words: 736,319
+Total analyzed words: 738,133
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 971 lines. Open the linked report above to read everything._
+_Full report has 973 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -391,15 +391,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### 489 Early Church History 9: Early Church Orders
+### 366: Was Justin Martyr a Trinitarian?
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: trinity
-- Layer routes: theologians, research_documents, visual_art, history_inputs
+- Layer routes: theologians, research_documents, visual_art, biblical_languages, all_texts
 - Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 876 lines. Open the linked report above to read everything._
+_Full report has 1,287 lines. Open the linked report above to read everything._
 ```

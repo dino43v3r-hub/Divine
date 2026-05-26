@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-25T22:21:03.920362+00:00
-Total references: 1,027
-New references this run: 25
+Updated: 2026-05-26T21:04:07.030151+00:00
+Total references: 1,065
+New references this run: 38
 
 Guardrails
 ----------
@@ -19,68 +19,71 @@ Online Collection Status
 - OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
 - Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
 - Tavily budget: 5/5 basic searches used today; 0 remaining.
-- Open-web candidates returned this run: 0.
+- Open-web candidates returned this run: 15.
 - Provider results returned this run:
   - Crossref: 305
   - Europe PMC: 223
   - Internet Archive: 106
   - OpenAlex: 288
   - PubMed: 26
+  - Tavily Search: 15
   - arXiv: 30
 - Brand-new references added by provider:
-  - Crossref: 2
-  - Internet Archive: 23
+  - Crossref: 1
+  - Europe PMC: 2
+  - Internet Archive: 20
+  - Tavily Search: 15
 - Total stored references by provider:
-  - Crossref: 307
-  - Europe PMC: 185
-  - Internet Archive: 225
+  - Crossref: 308
+  - Europe PMC: 187
+  - Internet Archive: 245
   - OpenAlex: 248
   - PubMed: 24
-  - Tavily Search: 12
+  - Tavily Search: 27
   - arXiv: 26
 
 Reference Tags
 --------------
-- art_beauty: 73
+- art_beauty: 85
 - biblical_language_source_depth: 41
 - biblical_languages: 30
 - cultural_practice_patterns: 48
-- general_research_methods: 44
-- global_text_traditions: 61
-- history_memory: 61
+- general_research_methods: 45
+- global_text_traditions: 64
+- history_memory: 70
 - holy_spirit_gifts_global: 30
 - interreligious_dream_testimony: 39
 - modern_literature_meaning: 47
 - music_math: 78
 - pattern_perception_divine_response: 42
-- politics_justice: 62
+- politics_justice: 64
 - psychology_patterns: 58
-- quantum_science_guardrails: 78
-- technology_ethics: 56
+- quantum_science_guardrails: 80
+- technology_ethics: 59
 - theologians_cross_era: 29
-- trinity: 73
+- trinity: 77
 - unresolved_suffering: 43
-- world_language_source_sampling: 54
+- world_language_source_sampling: 56
 - world_languages_translation: 44
 
 Layer Routes
 ------------
-- all_texts: 311
-- biblical_languages: 80
-- cultural_inputs: 234
-- deep_sources: 318
-- history_inputs: 247
-- human_stories: 262
-- modern_literature: 125
+- all_texts: 323
+- biblical_languages: 84
+- cultural_inputs: 251
+- deep_sources: 322
+- history_inputs: 260
+- human_stories: 264
+- modern_literature: 128
 - music_notes: 78
-- other_religious_texts: 213
-- pattern_tests: 191
-- psychology_inputs: 255
-- research_documents: 116
+- other_religious_texts: 222
+- pattern_tests: 195
+- psychology_inputs: 259
+- research_documents: 121
 - research_documents/christian_sources: 95
-- theologians: 243
-- visual_art: 304
-- world_languages: 188
+- theologians: 256
+- visual_art: 325
+- world_languages: 192
 
 Layer Balance Watch
 -------------------
@@ -89,202 +92,229 @@ Layer Balance Watch
 
 Quality Counts
 --------------
-- open web result: 12
-- reference metadata: 223
-- scholarly metadata: 764
+- open web result: 27
+- reference metadata: 243
+- scholarly metadata: 767
 - scholarly preprint: 26
 - speculative-risk: 2
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 443
-- strong_scholarly_candidate: 561
-- weak_scholarly_candidate: 23
+- moderate_scholarly_candidate: 462
+- strong_scholarly_candidate: 564
+- weak_scholarly_candidate: 39
 
 New This Run By Tag
 -------------------
-- art_beauty: 5
-- biblical_language_source_depth: 1
-- global_text_traditions: 1
-- history_memory: 1
-- interreligious_dream_testimony: 1
-- pattern_perception_divine_response: 1
-- politics_justice: 3
+- art_beauty: 12
+- general_research_methods: 1
+- global_text_traditions: 3
+- history_memory: 9
+- politics_justice: 2
 - quantum_science_guardrails: 2
-- technology_ethics: 4
+- technology_ethics: 3
 - trinity: 4
 - world_language_source_sampling: 2
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 7
-- biblical_languages: 1
-- cultural_inputs: 12
-- deep_sources: 3
-- history_inputs: 7
+- all_texts: 12
+- biblical_languages: 4
+- cultural_inputs: 17
+- deep_sources: 4
+- history_inputs: 13
 - human_stories: 2
-- modern_literature: 2
+- modern_literature: 3
 - other_religious_texts: 9
-- pattern_tests: 3
-- psychology_inputs: 2
-- research_documents: 4
-- research_documents/christian_sources: 1
-- theologians: 7
-- visual_art: 15
-- world_languages: 5
+- pattern_tests: 4
+- psychology_inputs: 4
+- research_documents: 5
+- theologians: 13
+- visual_art: 21
+- world_languages: 4
 
 Newest Additions This Run
 ------------------------
-- 489 Early Church History 9: Early Church Orders (2023)
+- 366: Was Justin Martyr a Trinitarian? (2025)
   Tags: trinity
-  Layer routes: theologians, research_documents, visual_art, history_inputs
+  Layer routes: theologians, research_documents, visual_art, biblical_languages, all_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-489_early_church_history_9_early_church_orders
-- Evangelicals Embark to Papal Rome (n.d.)
+  URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_366_
+- المجموع - دولة العراق الإسلامية - صوتيات (n.d.)
   Tags: trinity
-  Layer routes: theologians, research_documents, visual_art
+  Layer routes: theologians, research_documents, visual_art, other_religious_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/EvangelicalsEmbarkToPapalRome
-- 477 Questioning the Trinity (Steven Nemes) (2023)
+  URL: https://archive.org/details/sum3_5-10
+- 418: The Development of the Noun "Hypostasis" (2026)
   Tags: trinity
-  Layer routes: theologians, research_documents, history_inputs, all_texts
+  Layer routes: theologians, research_documents, world_languages, biblical_languages, all_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-477_questioning_the_trinity_steven_nemes_2
-- 197: Reacting to the Rebuttals In the Recent OT Debate (2021)
+  URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-418a
+- Sermons And Refutations On The Trinity (0523)
   Tags: trinity
   Layer routes: theologians, research_documents
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_197_
-- CIA Reading Room cia-rdp96-00789r003200180001-7: DECISION AUGMENTATION THEORY: TOWARD A MODEL OF ANOMALOUS MENTAL PHENOMENA (1994)
+  URL: https://archive.org/details/sermons-and-refutations-on-the-trinity
+- max-obs 1 (2026)
   Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests, visual_art
+  Layer routes: deep_sources, pattern_tests, visual_art, all_texts, other_religious_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r003200180001-7
-- CIA Reading Room 00355733: MAJOR DEVELOPMENTS IN THE SOVBLOC CYBERNETICS PROGRAMS IN 1965 (1966)
+  URL: https://archive.org/details/2026-01-14-13-30-39-newbold-wvn-audio
+- Roger Penrose vs Slavoj Žižek | What does quantum mechanics mean for consciousness and reality? (2025)
   Tags: quantum_science_guardrails
   Layer routes: deep_sources, pattern_tests
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/cia-readingroom-document-00355733
-- CIA Reading Room cia-rdp06t00412r000606390001-6: ISLAMIC FUNDAMENTALISM IN THE MIDDLE EAST AND SOUTH ASIA: LOOKING AHEAD (1986)
+  URL: https://archive.org/details/youtube-Qr6Bzt-kOlA
+- Revolutionary Inclusion in the ways of Rabbi Jesus (2025)
   Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art, other_religious_texts
+  Layer routes: cultural_inputs, history_inputs, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/cia-readingroom-document-cia-rdp06t00412r000606390001-6
-- CIA Reading Room cia-rdp88t00096r000400460001-8: ISLAMIC FUNDAMENTALISM IN THE MIDDLE EAST AND SOUTH ASIA: LOOKING AHEAD (1986)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/cia-readingroom-document-cia-rdp88t00096r000400460001-8
-- VOA [Voice of America] Global English : May 16, 2020 02:00AM-03:00AM EDT (2020)
+  URL: https://archive.org/details/First_UU_of_Austin-2025_02_09_Revolutionary_Inclusion
+- VOA [Voice of America] Global English : May 17, 2020 12:00AM-01:00AM EDT (2020)
   Tags: politics_justice
   Layer routes: cultural_inputs, history_inputs
   Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Global_English_20200516_060000
-- The Ultimate Suratul-Mulk Audio Collection with English Translation (x100) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, world_languages, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/SuratulMulkAbdulAzeezAhmad
-- Podcast: Forest and Trees and Seeding the Possible (2026)
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://archive.org/details/VOA_Global_English_20200517_040000
+- The Deeper Joy of Whole Church (2025)
   Tags: art_beauty
   Layer routes: visual_art, cultural_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/First_Unitarian_Society_of_Minneapolis-2026_04_19_Podcast
-- Sheikh Ahmed Deedat (احمد حسين ديدات - رحمه الله) - Complete Audio Collection (150+) (n.d.)
+  URL: https://archive.org/details/JUUst_Breathe_Live___A_UU_Podcast-17916398_the_deeper_joy_of_whole_church
+- Complete Quran (114 Surahs) - Nadir al-Qallawi (with English Audio Translation) (n.d.)
   Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
+  Layer routes: visual_art, cultural_inputs, world_languages, other_religious_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/SheikhAhmedDeedat-CompleteAudioCollection
-- Complete Quran (114 Surahs) - Sa'ad al-Ghamdi (with English Translation) (n.d.)
+  URL: https://archive.org/details/002AlBaqarah_201403
+- Set 90 Videos 4 01 2025 till set 4 including 2, 3, 4b -90 video songs. (2025)
   Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, world_languages, all_texts, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/001AlFaatiha_201510
-- Aesthetics from classical Greece to the present; a short history (1966)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, theologians, history_inputs, modern_literature
+  Layer routes: visual_art, cultural_inputs, deep_sources
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/aestheticsfromcl0000bear_s1w1
-- The Creation of Love: Philosophical poems by Sorin Cerin (n.d.)
+  URL: https://archive.org/details/set-90-videos-4-01-2025-06-10-21-09-29-045
+- The Theology of Art and the Importance of Beauty (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://robinmarkphillips.com/theology-art-importance-beauty
+- [PDF] The Beauty Of God Theology And The Arts (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: http://www2.flagstar.com/lwantz/2N9N343/114816250526/the_beauty__of-god_theology__and__the_arts.pdf
+- Theology and Beauty: An Enquiry | Modern Reformation (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, history_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.modernreformation.org/resources/essays/theology-and-beauty-an-enquiry
+- Theological Aesthetics: God in Imagination, Beauty, and Art (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.amazon.com/Theological-Aesthetics-God-Imagination-Beauty/dp/019512622X
+- Theological Aesthetics: God in Imagination, Beauty, and Art (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://academic.oup.com/book/3805
+- Theological Aesthetics: God in Imagination, Beauty, and Art. (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://philpapers.org/rec/VILTAG
+- Iconography—Memory and Hope in Visual Form (March 1, 2026) (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, history_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.youtube.com/watch?v=SfvTF8AE5aU
+- lament – Art & Theology (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://artandtheology.org/tag/lament
+- The Art of Lament - The Gospel Coalition | Canada (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, pattern_tests
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://ca.thegospelcoalition.org/article/the-art-of-lament
+- Episode Player - Buzzsprout (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, psychology_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.buzzsprout.com/2563200/episode_players/18665835-healing-historical-trauma-truth-telling-theological-reckoning-repair?client_source=large_player&referrer=https%3A%2F%2Fwww.buzzsprout.com%2F2563200.js%3Fcontainer_id%3Dbuzzsprout-large-player
+- Trauma Theology - St Andrews Encyclopaedia of Theology (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, visual_art, psychology_inputs, human_stories, pattern_tests
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  URL: https://www.saet.ac.uk/Christianity/TraumaTheology
+- How Christian theology and practice are being shaped by trauma ... (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, psychology_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.christiancentury.org/critical-essay/how-christian-theology-and-practice-are-being-shaped-trauma-studies
+- The Tree of The Knowledge: Philosophical poems by Sorin Cerin (n.d.)
   Tags: history_memory
   Layer routes: history_inputs, theologians, visual_art, all_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/9781722003067Thecreationoflove
-- De-weaponizing the Bible - Rev. Matt Schultz (2024)
-  Tags: world_language_source_sampling
-  Layer routes: world_languages, all_texts, other_religious_texts, visual_art
+  URL: https://archive.org/details/9781976472084Thetreeoftheknowledge
+- Death (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, visual_art, all_texts
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/9781537600321Death
+- Angels and Immortality: Poems of Meditation by Sorin Cerin (2017)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, visual_art, all_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-15797139_de_weaponizi
-- Experiencing God through Deceitful Mysticism (n.d.)
+  URL: https://archive.org/details/9781548279431Angelsandimmortality
+- Existence, anxiety, and collective memory: Traditional Judaism's ... (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, all_texts, other_religious_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.abc.net.au/religion/judaism-and-suffering-anxiety-and-collective-memory/13482460
+- History and Hope: Collective Memory, Group Identity, and the First ... (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, psychology_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  URL: https://berkleycenter.georgetown.edu/responses/history-and-hope-collective-memory-group-identity-and-the-first-thanksgiving
+- Introduction | Remembering Hope: The Cultural Afterlife of Protest (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://academic.oup.com/book/61470/chapter/534852370
+- Biblical Translation - Does the Revised Version of Westcott Hort Change the Word Meanings of the New Testament (AV - KJV) ? (n.d.)
   Tags: world_language_source_sampling
   Layer routes: world_languages, all_texts, other_religious_texts
   Source: Internet Archive | reference metadata
-  Automated evidence: weak_scholarly_candidate (6)
-  URL: https://archive.org/details/ExperiencingGodThroughDeceitfulMysticism
-- Weak Points In The Ideology Of Jihad (2009)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/weak-points-in-the-ideology-of-jihad
-- Religious Experience Psychologized (2019)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
-  Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  URL: https://doi.org/10.1017/9781108558785.006
-- The vilnius christian know (2022)
-  Tags: global_text_traditions
-  Layer routes: all_texts, other_religious_texts, modern_literature, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/content_uusf_org-20120226JKComplete
-- Conclusion (2015)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians
-  Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  URL: https://doi.org/10.4324/9781315744605-13
-- VOA [Voice of America] Africa : May 28, 2019 12:00PM-01:00PM EDT (2019)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs
-  Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Africa_20190528_160000
-- CIA Reading Room cia-rdp88g01116r000500570003-2: BACKGROUND FOR 8 MAY CABINET MEETING ON ECONOMIC SUMMIT (1986)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/cia-readingroom-document-cia-rdp88g01116r000500570003-2
-- Demianism (2026)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs, visual_art, psychology_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/demianism
-- Cross-cultural perspectives on the (im)possibility of global bioethics (2011)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/springer_10.1007-978-94-017-1195-1
+  URL: https://archive.org/details/BiblicalTranslation-DoesTheRevisedVersionOfWestcottHortChangeThe
 
 Recent Candidate Sources
 ------------------------
