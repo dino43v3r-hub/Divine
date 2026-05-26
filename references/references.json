@@ -1,5 +1,5 @@
 {
-  "source_count": 1065,
+  "source_count": 1076,
   "sources": [
     {
       "authors": [
@@ -324,6 +324,49 @@
       "title": "Al-Qur'\u0101n ul-Kareem - S\u016brah al-Kahf - #018 / Ab\u016b Bakr ash-Shatri (w/English Audio)",
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/018AlKahf_201711",
+      "year": null
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 385,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/amazingsonofadampbuh",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- WARNING: This is an old video that contains musical instruments which are Haraam (Islamically forbidden) in Islaam. They were initially included strictly for Da'wah purposes and not for the purpose of entertainment. Musical Instruments are no longer included in recent videos strictly because of its prohibition in Islaam. The Prophet \ufdfa said (which means), \"From among my followers there will be some",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Amazing Son of Adam (\u0627\u0644\u0645\u062f\u0647\u0634 \u0627\u0628\u0646 \u0622\u062f\u0645)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/AmazingSonOfAdampbuh",
       "year": null
     },
     {
@@ -9305,6 +9348,9 @@
         "modern_literature",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -9361,6 +9407,9 @@
         "deep_sources",
         "pattern_tests"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -9409,6 +9458,9 @@
         "history_inputs",
         "psychology_inputs"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -9462,6 +9514,9 @@
         "all_texts",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 5,
       "primary_layer": "cultural_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -9510,6 +9565,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -9553,6 +9611,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -9596,6 +9657,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -9647,6 +9711,9 @@
         "visual_art",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -9696,6 +9763,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -9724,10 +9794,12 @@
         "author metadata present",
         "publication year present",
         "summary or abstract metadata available",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 12,
+      "automated_evidence_score": 13,
       "automated_evidence_warnings": [],
+      "citation_count": 2,
       "copyright_note": "Metadata only; do not store full copyrighted text.",
       "corroborating_source_count": 307,
       "date_accessed": "2026-05-25",
@@ -9742,6 +9814,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 2,
+      "opencitations_reference_count": 32,
       "primary_layer": "research_documents",
       "provider": "PubMed",
       "quality": "scholarly metadata",
@@ -9791,6 +9866,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -9840,6 +9918,9 @@
         "deep_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -9885,6 +9966,9 @@
         "deep_sources",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -9910,10 +9994,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
+      "citation_count": 1,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 512,
       "date_accessed": "2026-05-25",
@@ -9930,6 +10016,9 @@
         "deep_sources",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 1,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -9976,6 +10065,9 @@
         "deep_sources",
         "pattern_tests"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -10015,6 +10107,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -10057,6 +10152,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -10083,10 +10181,12 @@
         "publication year present",
         "recognized scholarly source type",
         "summary or abstract metadata available",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 11,
+      "automated_evidence_score": 12,
       "automated_evidence_warnings": [],
+      "citation_count": 13,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 417,
       "date_accessed": "2026-05-25",
@@ -10103,6 +10203,9 @@
         "deep_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 13,
+      "opencitations_reference_count": 40,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -10152,6 +10255,9 @@
         "visual_art",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 5,
+      "opencitations_reference_count": 36,
       "primary_layer": "research_documents",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -10199,6 +10305,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 19,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -10246,6 +10355,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 1,
+      "opencitations_reference_count": 97,
       "primary_layer": "research_documents",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -10293,6 +10405,9 @@
         "research_documents",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -10340,6 +10455,9 @@
         "deep_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 29,
+      "opencitations_reference_count": 27,
       "primary_layer": "research_documents",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -10390,6 +10508,9 @@
         "visual_art",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 12,
+      "opencitations_reference_count": 50,
       "primary_layer": "research_documents",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -10417,11 +10538,13 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "some citation signal",
         "many routed corroborating candidates",
         "counterargument or limitation language present"
       ],
-      "automated_evidence_score": 11,
+      "automated_evidence_score": 12,
       "automated_evidence_warnings": [],
+      "citation_count": 3,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 323,
       "date_accessed": "2026-05-25",
@@ -10438,6 +10561,9 @@
         "deep_sources",
         "pattern_tests"
       ],
+      "opencitations_checked_at": "2026-05-26",
+      "opencitations_citation_count": 3,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -11449,6 +11575,54 @@
       "year": "2026"
     },
     {
+      "authors": [
+        "Restitutio"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 511,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/restitutio-558_courageous_baptist_seeks_biblical_truth_joshua_michael_smith",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "theologians",
+        "visual_art"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Joshua Michael Smith grew up in northern Florida in a Baptist church. In this interview he shares his journey of faith, including how came to Christ as well as how he ended up in ministry training at Word of Life before earning a bachelors at Tennessee Temple University in Chattanooga. While there, he began questioning his received doctrinal package based on the Bible. As a result, he came to discover the human Messiah of scripture and courageously embraced this new understanding despite the consequences. This is part one of his story. Listen to this episode on Spotify or Apple Podcasts \u2014\u2014 Links \u2014\u2014 Check out these other interviews about people leaving the Trinity to embrace a biblical unitar",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "558 Courageous Baptist Seeks Biblical Truth (Joshua Michael Smith)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Restitutio-558_courageous_baptist_seeks_biblical_truth_joshua_michael_smith",
+      "year": "2024"
+    },
+    {
       "authors": [],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -11943,6 +12117,52 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://doi.org/10.5040/9781472550194.ch-002",
       "year": null
+    },
+    {
+      "authors": [
+        "Kensington Unitarians UK"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 424,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/kensington_unitarians_uk-ku_janeb_davidc_hybrid_sermon_30_07_23",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "visual_art"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "A Sunday service led by Rev. Dr. Jane Blackall and David Carter: Getting to Grips with Growth. Featuring a reading given by Chloe Harewood and music performed by Abby Lorimier and Peter Crockford.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Getting to Grips with Growth",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Kensington_Unitarians_UK-KU_janeB_davidC_hybrid_sermon_30_07_23",
+      "year": "2023"
     },
     {
       "authors": [
@@ -14337,6 +14557,52 @@
       "year": "2019"
     },
     {
+      "authors": [
+        "First Unitarian Dallas Podcast"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 557,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/first_unitarian_dallas_podcast-podcast___3_16_25",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "visual_art",
+        "all_texts"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Some tell us \u201cYou are what you worship.\u201d We talk about what worship means and all it offers us as members of this community. This sermon is part of our Spiritual Practices to Light the Way series \u2013 Supported by the strong foundation of our living Unitarian Universalist faith and our vibrant church community, we are each called to deepen our spiritual lives so that we can have a positive and meaningful impact on the world around us. In this series, we\u2019ll explore the five spiritual practices that light the path forward as we work toward a more just and peaceful world. First Unitarian Church of Dallas is devoted to genuine inclusion, depth and joy, reason and spirit. We have been a voice of pro",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "03.16.25 Sermon - \u201cWeekly Worship\u201d - Rev. T.J. FitzGerald",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/First_Unitarian_Dallas_Podcast-Podcast___3_16_25",
+      "year": "2025"
+    },
+    {
       "authors": [],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -14376,6 +14642,48 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://doi.org/10.5040/9781472548825.ch-006",
       "year": null
+    },
+    {
+      "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 292,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20230514lscomplete",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\"A Sacred Choice: Reproductive Justice\" Sunday, May 14, 10:50 am On this day honoring mothers, what does it mean to truly support the choice to become a mother or not? What does the upcoming resolution call us as a congregation to do to support this choice? Rev. Laura Shennum, Minister of Congregational Life; Bree Shennum, Worship Associate; Reiko Oda Lane, Organist; UUSF Choir led by Mark Sumner, Music Director; Peg Lisi, Soloist Shulee Ong, Camera; Jonathan Silk, Communications Director; Amy Kelly, Flowers; Linda Messner, Head Usher",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "A Sacred Choice: Reproductive Justice",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20230514LSComplete",
+      "year": "2023"
     },
     {
       "authors": [],
@@ -16938,6 +17246,45 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/Unity_Temple_Unitarian_Universalist_Congregation-5_30_21_Trauma_and_Grace_Podcas",
       "year": "2021"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 292,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_africa_20190609_030000",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 During 00:00:00 a recent military confrontation with Pakistan so what effect will Modi's victory 00:00:05 have on India's sizeable Muslim community the b j p does not have 00:00:10 a single Muslim member of Parliament among its $303.00 lawmakers how will Modi 00:00:15 conduct relations with neighboring nuclear armed Pakistan Pakistani prime minister 00:00:20 Imran Khan was not invited to Modi's swearing in ceremony with us to analyze the 00:00:25 domestic and international ramifications of an around remote is victory in India 00:00:30 are 2 distinguished analysts Michael Kugel men is deputy director of the Asia 00:00:35 Program and senior associate for So",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "VOA [Voice of America] Africa : June 08, 2019 11:00PM-12:00AM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Africa_20190609_030000",
+      "year": "2019"
     },
     {
       "authors": [],
@@ -29969,6 +30316,47 @@
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
       "corroborating_source_count": 329,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_africa_20190502_190000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "visual_art"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 This is v.o.a. 00:00:02 News more than 100000000 people are in the path of Cyclon funny as it slowly 00:00:08 moves toward the eastern India state Indian state of Odisha 00:00:13 this the cyc lone generating winds have nearly 00:00:19 200 kilometers per hour is expected to make landfall early Friday Funny has 00:00:25 intensified significantly during the past couple of days prompting the India 00:00:29 meteorological department to refer to it as an extremely severe cyclonic storm 00:00:35 India has begun to evacuate hundreds of thousands of people as meteorologists 00:00:39 warned of a quote total destruction of thatched houses that's 00:00:44 a common dr",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "VOA [Voice of America] Africa : May 02, 2019 03:00PM-04:00PM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Africa_20190502_190000",
+      "year": "2019"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 329,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
@@ -33776,6 +34164,50 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/dorian_codex_protocol_for_ai_by_stefano_dorian_franco",
       "year": "2025"
+    },
+    {
+      "authors": [
+        "J.S. Freede"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 397,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/mary-shelley-9481497-2-raw",
+      "layer_review_prompts": [
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "deep_sources",
+        "pattern_tests",
+        "visual_art"
+      ],
+      "primary_layer": "deep_sources",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org image",
+      "summary": "The Brain Mechanism of Inspiration \"At first Sarah thought the tinkling of the bell was part of her dream. It sounded so sweet and soothing, and she was following it across a sunlit meadow as if it were a golden butterfly. But then the pounding started, and she knew this wasn't a dream at all. Dragging herself away from the meadow and out of the depths of sleep, she forced her reluctant eyelids open. Sure enough someone was pounding on her office door...\"- Thompson, V. (1999). How does the human brain erect such dreams? Read the following examples of dreams used in the creation of literature, and the effects they had on the dreamer's brain in the ontogeny of a new, potentially creative idea.",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Dreams and Creativity - The Ontogeny of a New Idea",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/mary-shelley-9481497-2-raw",
+      "year": "2026"
     },
     {
       "authors": [
@@ -38427,6 +38859,80 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/VOA_Africa_20190528_160000",
       "year": "2019"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 150,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_africa_20170913_190000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "cultural_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 The decision made of. Probably the head of state. Then Norm all 00:00:06 expectation is that there should be bitter I should be bitter 00:00:14 because I was made to answer the call of nature in those fellows then more true 00:00:21 I saluted. Two meters by two point five meters where I was spending sixteen hours 00:00:28 a day locked in there and to answer the call of nature both the urine fecal to use 00:00:34 a bucket and they re morning or took it out and emptied my so one 00:00:41 would say should be good I am not bitter there is not time 00:00:48 to be bitter because if we focus on bitterness then we fall 00:00:55 exactly in the same trap where we h",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "VOA [Voice of America] Africa : September 13, 2017 03:00PM-04:00PM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Africa_20170913_190000",
+      "year": "2017"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 150,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_global_english_20200227_030000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "cultural_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:05 This is v.o.a. 00:00:06 News I'm David 1st President Donald Trump says his administration is ready to 00:00:11 handle whatever level of outbreak of the coronavirus occurs in the United States as 00:00:17 A.P.'s Saager Magali reports the president is confident the country is ready for 00:00:22 whatever comes standing at the White House briefing room next to health authorities 00:00:26 the president said there is no reason for panic we're very very ready for this for 00:00:31 anything whether the threat gets worse or eases as he predicts it will but the 00:00:36 C.D.C.'s and shook it warns the nation must get ready for 00:00:40 a potential outbreak and this",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "VOA [Voice of America] Global English : February 26, 2020 10:00PM-11:00PM EST",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Global_English_20200227_030000",
+      "year": "2020"
     },
     {
       "authors": [],
@@ -43184,6 +43690,56 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://doi.org/10.5040/9780567677167.ch-008",
       "year": 2021
+    },
+    {
+      "authors": [
+        "Restitutio"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 559,
+      "date_accessed": "2026-05-26",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/restitutio-653_why_im_convinced_that_jesus_is_the_human_messiah_paul_robson",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "world_languages",
+        "all_texts",
+        "other_religious_texts",
+        "visual_art"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Paul Robson was an upstanding Christian leader in a Bible-believing church when his friend upended his world by revealing that he no longer believed the Trinity was biblically true. Although Robson initially reacted negatively to such a departure from the norm, he eventually came to change his mind based on a thorough study of Scripture. What happened next was both tragic and all too common\u2013he was asked the church where he was serving. Having left he is developing websites about doctrine and now has new Bible study app that can help you spot bias in translation. Listen on Spotify Listen on Apple Podcasts \u2014\u2014 Links \u2014\u2014 Support Restitutio by donating here Join our Facebook group, follow on X @Re",
+      "tags": [
+        "trinity",
+        "world_language_source_sampling"
+      ],
+      "title": "653. Why I\u2019m Convinced That Jesus Is the Human Messiah (Paul Robson)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Restitutio-653_why_im_convinced_that_jesus_is_the_human_messiah_paul_robson",
+      "year": "2026"
     },
     {
       "authors": [
@@ -48925,5 +49481,5 @@
       "year": 2014
     }
   ],
-  "updated_at": "2026-05-26T21:04:06.993209+00:00"
+  "updated_at": "2026-05-26T23:20:49.988954+00:00"
 }

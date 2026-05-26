@@ -7,103 +7,29 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### 366: Was Justin Martyr a Trinitarian?
+### 653. Why I’m Convinced That Jesus Is the Human Messiah (Paul Robson)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity
-- Layer routes: theologians, research_documents, visual_art, biblical_languages, all_texts
+- Tags: trinity, world_language_source_sampling
+- Layer routes: theologians, research_documents, world_languages, all_texts, other_religious_texts, visual_art
 - Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 552
-- Year: 2025
-- URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-Episode_366_
-
-What did Justin Martyr, the second-century Platonic philosopher who converted to a Christian
-apologist, believe about the Father, Son, and the Holy Spirit? Did Justin think that Jesus was the
-true God or that he was a second, lesser god whom the true God created? Were the Father, Son, and
-Spirit regarded within Justin's theology as coequal, or were they set in a hierarchy? Did Justin
-condemn Biblical Unitarian Christians, or did he tolerate their beliefs? This episode explores these
-crucial questions, looking directly at the Greek text in order to draw our conclusions. Visit Amazon
-to buy your copy of my book Wisdom Christology in the Gospel of John: https://a.co/d/6nFEbZg Please
-consider su
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Use as general research context until a more specific layer is reviewed.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### المجموع - دولة العراق الإسلامية - صوتيات
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity
-- Layer routes: theologians, research_documents, visual_art, other_religious_texts
-- Primary layer: theologians
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 434
-- Year: n.d.
-- URL: https://archive.org/details/sum3_5-10
-
-The Bible Led Me to Islam Abdul Malik (Melvin) LeBlanc tells how he discovered Islam within the
-pages of Bible Source: International Edition Voice of Islam - November 1998, Page 25 During my
-Christian days there were many verses in the Bible that made me question the religion I was
-following (Christianity). There was one particular verse, 1 Thessalonians 5:17 which says; "pray
-without ceasing," that lingered heavily in my mind. I often wondered how a person (Christian) was
-supposed to pray (be in a state of worship) without ceasing? Without any biblical or divine
-guidance, the only way I thought this to be possible was to always do good deeds and keep the
-remembrance of God on my tongue and
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Use as general research context until a more specific layer is reviewed.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### 418: The Development of the Noun "Hypostasis"
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity
-- Layer routes: theologians, research_documents, world_languages, biblical_languages, all_texts
-- Primary layer: theologians
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 465
+- Corroborating routed candidates: 559
 - Year: 2026
-- URL: https://archive.org/details/The_Biblical_Unitarian_Podcast-418a
+- URL: https://archive.org/details/Restitutio-653_why_im_convinced_that_jesus_is_the_human_messiah_paul_robson
 
-In traditional Trinitarian language, the one being of God consists of three persons, as expressed in
-the Greek noun "hypostasis." However, "hypostasis" does not mean "person" in the New Testament, nor
-in the Septuagint. This week's episode explores how the meaning of "hypostasis" changed over time in
-order to justify the post-biblical doctrine of a tri-personal God. To view the video version of this
-episode, go here: https://youtu.be/28sXUnm5hdw Visit Amazon to buy your copy of A Systematic
-Theology of the Early Church: https://amzn.to/47jldOc Visit Amazon to buy your copy of Wisdom
-Christology in the Gospel of John: https://amzn.to/3JBflHb Visit Amazon to buy your copy of The Son
-of God: Th
+Paul Robson was an upstanding Christian leader in a Bible-believing church when his friend upended
+his world by revealing that he no longer believed the Trinity was biblically true. Although Robson
+initially reacted negatively to such a departure from the norm, he eventually came to change his
+mind based on a thorough study of Scripture. What happened next was both tragic and all too
+common–he was asked the church where he was serving. Having left he is developing websites about
+doctrine and now has new Bible study app that can help you spot bias in translation. Listen on
+Spotify Listen on Apple Podcasts —— Links —— Support Restitutio by donating here Join our Facebook
+group, follow on X @Re
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -116,67 +42,32 @@ Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Use as general research context until a more specific layer is reviewed.
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### Sermons And Refutations On The Trinity
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity
-- Layer routes: theologians, research_documents
-- Primary layer: theologians
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 225
-- Year: 0523
-- URL: https://archive.org/details/sermons-and-refutations-on-the-trinity
-
-This audo material presents a pivotal theological debate between Fastidiosus the Arian and
-Fulgentius of Ruspe. Fastidiosus's sermon, "Sermo Fastidiosi Ariani," challenges the orthodox views
-on the nature of the Trinity, questioning the indivisibility of the Father, Son, and Holy Spirit.
-His arguments are rooted in Arianism, which posits a hierarchy within the Trinity and asserts that
-the Son is not co-eternal with the Father. In response, Fulgentius of Ruspe's "Contra sermonem
-Fastidiosi Ariani" meticulously refutes these claims, defending the orthodox position that the
-Trinity is inseparable and co-equal in divinity. Fulgentius emphasizes the unity and
-consubstantiality of the Father, Son,
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Use as general research context until a more specific layer is reviewed.
-
-### max-obs 1
+### Dreams and Creativity - The Ontogeny of a New Idea
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests, visual_art, all_texts, other_religious_texts
+- Layer routes: deep_sources, pattern_tests, visual_art
 - Primary layer: deep_sources
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 608
+- Corroborating routed candidates: 397
 - Year: 2026
-- URL: https://archive.org/details/2026-01-14-13-30-39-newbold-wvn-audio
+- URL: https://archive.org/details/mary-shelley-9481497-2-raw
 
-Converging Horizons: Unified Causality, Buddhist Oneness, and Quantum Singularities I. Introduction:
-Bridging Ancient Wisdom and Modern Physics The human quest to comprehend the fundamental nature of
-reality has given rise to diverse yet sometimes strikingly resonant systems of thought. This report
-embarks on an exploration of the profound conceptual territories where Buddhist philosophy's
-sophisticated understanding of unified cause-and-effect and essential oneness intersects with the
-enigmatic nature of quantum singularities and related quantum phenomena, as encountered in modern
-theoretical physics. Such an endeavor seeks to unearth potential parallels and conceptual bridges
-between ancie
+The Brain Mechanism of Inspiration "At first Sarah thought the tinkling of the bell was part of her
+dream. It sounded so sweet and soothing, and she was following it across a sunlit meadow as if it
+were a golden butterfly. But then the pounding started, and she knew this wasn't a dream at all.
+Dragging herself away from the meadow and out of the depths of sleep, she forced her reluctant
+eyelids open. Sure enough someone was pounding on her office door..."- Thompson, V. (1999). How does
+the human brain erect such dreams? Read the following examples of dreams used in the creation of
+literature, and the effects they had on the dreamer's brain in the ontogeny of a new, potentially
+creative idea.
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -189,45 +80,8 @@ Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### Roger Penrose vs Slavoj Žižek | What does quantum mechanics mean for consciousness and reality?
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests
-- Primary layer: deep_sources
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 287
-- Year: 2025
-- URL: https://archive.org/details/youtube-Qr6Bzt-kOlA
-
-World-leading physicist Roger Penrose and world-leading philosopher Slavoj Žižek thrash out the
-meaning of quantum mechanics for reality and consciousness. Does the measurement problem reveal a
-deeper structure of meaning beyond the calculable laws of physics, or the radical contingency of
-reality itself? This is an extract from the debate 'Quantum and the unknowable universe'. You can
-watch it now, with a free trial, at https://iai.tv/video/quantum-and-the-unknowable-
-universe?utm_source=YouTube&utm_medium=description&utm_campaign=h2h "The more success the quantum
-theory has the sillier it looks”, wrote Einstein in a letter in 1912. Since then, quantum physics
-has been verified by experiment
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Revolutionary Inclusion in the ways of Rabbi Jesus
+### VOA [Voice of America] Africa : May 02, 2019 03:00PM-04:00PM EDT
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -236,20 +90,23 @@ Layer review prompts:
 - Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
+- Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 329
-- Year: 2025
-- URL: https://archive.org/details/First_UU_of_Austin-2025_02_09_Revolutionary_Inclusion
+- Year: 2019
+- URL: https://archive.org/details/VOA_Africa_20190502_190000
 
-Rev Chris Jimmerson's sermon delivered on February 9, 2025. In the Sermon on the Mount, Jesus taught
-inclusion so rooted in love that it would become liberatory for all. Perhaps reclaiming the
-collective love and liberation that is at the heart of our UU Christian heritage is how we best
-counter an ideology of exclusion that has arisen in our state and our country.
+Closed captions transcript: 00:00:00 This is v.o.a. 00:00:02 News more than 100000000 people are in
+the path of Cyclon funny as it slowly 00:00:08 moves toward the eastern India state Indian state of
+Odisha 00:00:13 this the cyc lone generating winds have nearly 00:00:19 200 kilometers per hour is
+expected to make landfall early Friday Funny has 00:00:25 intensified significantly during the past
+couple of days prompting the India 00:00:29 meteorological department to refer to it as an extremely
+severe cyclonic storm 00:00:35 India has begun to evacuate hundreds of thousands of people as
+meteorologists 00:00:39 warned of a quote total destruction of thatched houses that's 00:00:44 a
+common dr
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
@@ -259,96 +116,29 @@ Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### VOA [Voice of America] Global English : May 17, 2020 12:00AM-01:00AM EDT
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs
-- Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 234
-- Year: 2020
-- URL: https://archive.org/details/VOA_Global_English_20200517_040000
-
-Closed captions transcript: 00:00:00 Over governors in easing Kovan 1000 guidelines that prompted 10
-u.s. 00:00:04 Senators to probe how sweeping Mr Trump believes as emergency powers are they want
-00:00:09 to see this administration's presidential emergency action documents these little 00:00:14
-known classified documents don't give 00:00:16 a president authority beyond what's in the
-Constitution but they outline what 00:00:21 powers 00:00:21 a president believes the Constitution
-allows him to exercise during national emergencies 00:00:27 a person who attended 00:00:28 a
-religious service on Mother's Day in Northern California has tested positive for 00:00:32 the corona
-virus possibly expos
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- speculative or overclaim language detected
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### The Deeper Joy of Whole Church
+### Amazing Son of Adam (المدهش ابن آدم)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 265
-- Year: 2025
-- URL: https://archive.org/details/JUUst_Breathe_Live___A_UU_Podcast-17916398_the_deeper_joy_of_whole_church
-
-Guest panelists and long time collaborators, Jennica Davis-Hockett and Joy Berry, meet with Ember to
-discuss why Unitarian Universalists are embracing a whole church religious education approach and
-are deepening community connections across generations through a new, amazing resource called Deeper
-Joy. Music: "Where Do We Come From," by Brian Tate performed by Rev Christopher Lamb
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### Complete Quran (114 Surahs) - Nadir al-Qallawi (with English Audio Translation)
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, world_languages, other_religious_texts
+- Layer routes: visual_art, cultural_inputs, other_religious_texts
 - Primary layer: visual_art
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 463
+- Corroborating routed candidates: 385
 - Year: n.d.
-- URL: https://archive.org/details/002AlBaqarah_201403
+- URL: https://archive.org/details/AmazingSonOfAdampbuh
 
 Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
 watch/listen/download more free Islamic files. -----------------------------------------------------
-------------------------------------------------------------------------- The Noble Qur'aan - القرآن
-الكريم Qari - Nadir al-Qallawi Translator - Mr. Phelps (Bilal Abdul-Karim) from USA Translation of
-the Meanings - Dr. Muhammad Muhsin Khan & Dr. Muhammad Taqi-ud-Din Al-Hilali -----------------------
-----------------------------------------------------------------------------------------------------
----------------------------- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / Koran / Recital /
+--------------------------------------------------------------------------------------------------
+WARNING: This is an old video that contains musical instruments which are Haraam (Islamically
+forbidden) in Islaam. They were initially included strictly for Da'wah purposes and not for the
+purpose of entertainment. Musical Instruments are no longer included in recent videos strictly
+because of its prohibition in Islaam. The Prophet ﷺ said (which means), "From among my followers
+there will be some
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -359,530 +149,31 @@ Automated evidence reasons:
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### Set 90 Videos 4 01 2025 till set 4 including 2, 3, 4b -90 video songs.
+### 03.16.25 Sermon - “Weekly Worship” - Rev. T.J. FitzGerald
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, deep_sources
-- Primary layer: visual_art
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, visual_art, all_texts
+- Primary layer: history_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 464
+- Corroborating routed candidates: 557
 - Year: 2025
-- URL: https://archive.org/details/set-90-videos-4-01-2025-06-10-21-09-29-045
-
-The Architecture of Hope: Its Origins, Inspirations, and Transformative Power I. The Genesis and
-Nature of Hope: An Interdisciplinary Exploration The human experience is profoundly shaped by the
-presence or absence of hope. It is a concept that resonates across cultures and epochs, yet its
-precise nature remains a subject of rich inquiry. Understanding where hope comes from necessitates
-an exploration of its multifaceted character, drawing from psychological, philosophical, and
-theological perspectives, complemented by insights from neuroscience. A. Defining Hope: A
-Multifaceted Construct Hope is more than a fleeting emotion; it is a complex construct that has been
-defined and analyzed throu
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-
-### The Theology of Art and the Importance of Beauty
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 265
-- Year: n.d.
-- URL: https://robinmarkphillips.com/theology-art-importance-beauty
-
-The manifestation of what is beautiful in creation should be seen as an icon of Eternal Good, Truth,
-and Beauty, but it is only an icon.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### [PDF] The Beauty Of God Theology And The Arts
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 265
-- Year: n.d.
-- URL: http://www2.flagstar.com/lwantz/2N9N343/114816250526/the_beauty__of-god_theology__and__the_arts.pdf
-
-These works demonstrate a conscious effort to embody theological concepts through artistic means ...
-meaning In conclusion, the beauty of God theology has.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### Theology and Beauty: An Enquiry | Modern Reformation
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, history_inputs
-- Primary layer: visual_art
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 329
-- Year: n.d.
-- URL: https://www.modernreformation.org/resources/essays/theology-and-beauty-an-enquiry
-
-“How beautiful upon the mountains / are the feet of him who brings good news, / who publishes peace,
-who brings good news of happiness” (Isa. 52:7).[1] The evangelists’ feet are not beautiful on their
-own, but for the sake of the message they bring. There is a quality to the gospel message that
-brings joy and freedom to those who hear it.[2]. Above all, let’s omit references to the beauty of a
-God who is mighty to save, such as this from Isaiah: “In that day the Lord of hosts will be a crown
-of glory, / and a diadem of beauty, to the remnant of his people, / and a spirit of justice to him
-who sits in judgment, / and strength to those who turn back the battle at the gate” (Isa. 28:5–6).
-To le
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### Theological Aesthetics: God in Imagination, Beauty, and Art
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 265
-- Year: n.d.
-- URL: https://www.amazon.com/Theological-Aesthetics-God-Imagination-Beauty/dp/019512622X
-
-A theological exploration of how aesthetic experiences - through feeling, beauty, and art - serve as
-sources of divine revelation and understanding of God. See
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### Theological Aesthetics: God in Imagination, Beauty, and Art
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 265
-- Year: n.d.
-- URL: https://academic.oup.com/book/3805
-
-This book explores the role of aesthetic experience in our perception and understanding of the holy.
-The book's goal is to articulate a theology of revelation,
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### Theological Aesthetics: God in Imagination, Beauty, and Art.
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 265
-- Year: n.d.
-- URL: https://philpapers.org/rec/VILTAG
-
-In this book, Richard Viladesau contrues Christian theology as a "theological aesthetics". He
-examines Christian revelation and its presuppositions in
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### Iconography—Memory and Hope in Visual Form (March 1, 2026)
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, history_inputs
-- Primary layer: visual_art
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 329
-- Year: n.d.
-- URL: https://www.youtube.com/watch?v=SfvTF8AE5aU
-
-He has done for us and with the hope that we too will live with Him eternally. As we walk on our own
-paths, the Church gives us sign posts
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### lament – Art & Theology
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 265
-- Year: n.d.
-- URL: https://artandtheology.org/tag/lament
-
-There’s much to look at in this painting. I want to focus on Jesus’s grieving mother under the cross
-to our left. In Renaissance art of the Crucifixion, Mother Mary is often shown swooning, supported
-by John or by one of her female companions. Here she’s with a group of four women—the other
-Marys—two of whom wrap an arm around her to bolster her up when her legs give out. This work was
-painted by Andrea Mantegna between 1457 and 1459 as the central element of the predella (base) of
-the high altarpiece at San Zeno#/media/File:Pala_di_San_Zeno_by_Andrea_Mantegna_-_San_Zeno_-
-_Verona_2016_(3).jpg) in Verona, Italy, a monumental work of art. In 1797, French Napoleonic forces
-plundered the altarpi
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### The Art of Lament - The Gospel Coalition | Canada
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, pattern_tests
-- Primary layer: visual_art
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 387
-- Year: n.d.
-- URL: https://ca.thegospelcoalition.org/article/the-art-of-lament
-
-But how often do we practice this art of lament? Lament is a form of praise and prayer with the
-intent of drawing close to God in times of great suffering and pain. It ultimately is a wonderful
-gift to the children of God, because it presupposes a relationship with God and depends on it! Only
-those who can approach God in a covenantal relationship are able to lament because lament is
-pleading with God to act in accordance with His character and promises to us. The mere fact we are
-able to approach God in lament is a sign of intimacy and hope! Once we have unleashed the torrent of
-pain and anguish we feel, we now turn to Christ and remind ourselves of the great hope that is ours
-in Him. The C
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Episode Player - Buzzsprout
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, psychology_inputs
-- Primary layer: history_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 421
-- Year: n.d.
-- URL: https://www.buzzsprout.com/2563200/episode_players/18665835-healing-historical-trauma-truth-telling-theological-reckoning-repair?client_source=large_player&referrer=https%3A%2F%2Fwww.buzzsprout.com%2F2563200.js%3Fcontainer_id%3Dbuzzsprout-large-player
-
-Kenji brings deep insight into the legacies of historical trauma and the theological imperative for
-truth-telling and repair. He has served in
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### Trauma Theology - St Andrews Encyclopaedia of Theology
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, psychology_inputs, human_stories, pattern_tests
-- Primary layer: history_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 589
-- Year: n.d.
-- URL: https://www.saet.ac.uk/Christianity/TraumaTheology
-
-Trauma theology is a theological discipline that seeks to both do theological justice to traumatic
-experiences and also to reimagine theologies in the light of such experiences. Whilst suffering has
-always been of interest to Christian theology, trauma theology distinguishes between suffering and
-trauma, noting the specific impact trauma has on the embodied life of trauma survivors. Envisioning
-trauma experience as an earthquake that shatters theological landscapes, trauma theology sees its
-work as that of construction of reimagined theologies in the wake of these experiences. Trauma Body
-Bible Suffering Theodicy Cross Eucharist Pastoral Care The Christian Church. The trauma experience
-shatt
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-
-### How Christian theology and practice are being shaped by trauma ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, psychology_inputs
-- Primary layer: history_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 421
-- Year: n.d.
-- URL: https://www.christiancentury.org/critical-essay/how-christian-theology-and-practice-are-being-shaped-trauma-studies
-
-The experience of trauma dismantles notions of theology as a fixer, a provider of solutions. A move
-to “fix” things may interfere rather than
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### The Tree of The Knowledge: Philosophical poems by Sorin Cerin
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, all_texts
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 557
-- Year: n.d.
-- URL: https://archive.org/details/9781976472084Thetreeoftheknowledge
-
-SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an
-important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard,
-philosopher,- the creator of Coaxialism, – compared to Schopenhauer, Nietzsche and Wittgenstein.
-Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in
-14 volumes of thoughts previously published in various publishing houses, and then to be reunited
-under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity
-and international recognition, for which he is considered to be one of the most representative
-thinkers of the aphoris
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### Death
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, all_texts
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 557
-- Year: n.d.
-- URL: https://archive.org/details/9781537600321Death
-
-SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an
-important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard,
-philosopher,- the creator of Coaxialism, – compared to Schopenhauer, Nietzsche and Wittgenstein.
-Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in
-14 volumes of thoughts previously published in various publishing houses, and then to be reunited
-under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity
-and international recognition, for which he is considered to be one of the most representative
-thinkers of the aphoris
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### Angels and Immortality: Poems of Meditation by Sorin Cerin
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, all_texts
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 557
-- Year: 2017
-- URL: https://archive.org/details/9781548279431Angelsandimmortality
-
-SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an
-important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard,
-philosopher,- the creator of Coaxialism, – compared to Schopenhauer, Nietzsche and Wittgenstein.
-Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in
-14 volumes of thoughts previously published in various publishing houses, and then to be reunited
-under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity
-and international recognition, for which he is considered to be one of the most representative
-thinkers of the aphoris
+- URL: https://archive.org/details/First_Unitarian_Dallas_Podcast-Podcast___3_16_25
+
+Some tell us “You are what you worship.” We talk about what worship means and all it offers us as
+members of this community. This sermon is part of our Spiritual Practices to Light the Way series –
+Supported by the strong foundation of our living Unitarian Universalist faith and our vibrant church
+community, we are each called to deepen our spiritual lives so that we can have a positive and
+meaningful impact on the world around us. In this series, we’ll explore the five spiritual practices
+that light the path forward as we work toward a more just and peaceful world. First Unitarian Church
+of Dallas is devoted to genuine inclusion, depth and joy, reason and spirit. We have been a voice of
+pro
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -897,185 +188,91 @@ Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### Existence, anxiety, and collective memory: Traditional Judaism's ...
+### A Sacred Choice: Reproductive Justice
 
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, all_texts, other_religious_texts
-- Primary layer: history_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 480
-- Year: n.d.
-- URL: https://www.abc.net.au/religion/judaism-and-suffering-anxiety-and-collective-memory/13482460
-
-A real aid in overcoming hopelessness, and embarking upon remedial action can be found in the
-spiritual and communal recognition of universalised human
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### History and Hope: Collective Memory, Group Identity, and the First ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, psychology_inputs
-- Primary layer: history_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 421
-- Year: n.d.
-- URL: https://berkleycenter.georgetown.edu/responses/history-and-hope-collective-memory-group-identity-and-the-first-thanksgiving
-
-Nicholas Rowe explores the complicated place of the First Thanksgiving in American collective
-memory, highlighting the ways in which
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### Introduction | Remembering Hope: The Cultural Afterlife of Protest
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
 - Layer routes: history_inputs, theologians
 - Primary layer: history_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 292
-- Year: n.d.
-- URL: https://academic.oup.com/book/61470/chapter/534852370
+- Year: 2023
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20230514LSComplete
 
-The introduction proposes an approach to collective memory that puts the memory of hope center stage
-and thus offers an alternative to the
+"A Sacred Choice: Reproductive Justice" Sunday, May 14, 10:50 am On this day honoring mothers, what
+does it mean to truly support the choice to become a mother or not? What does the upcoming
+resolution call us as a congregation to do to support this choice? Rev. Laura Shennum, Minister of
+Congregational Life; Bree Shennum, Worship Associate; Reiko Oda Lane, Organist; UUSF Choir led by
+Mark Sumner, Music Director; Peg Lisi, Soloist Shulee Ong, Camera; Jonathan Silk, Communications
+Director; Amy Kelly, Flowers; Linda Messner, Head Usher
 
 Automated evidence reasons:
-- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 
-### Biblical Translation - Does the Revised Version of Westcott Hort Change the Word Meanings of the New Testament (AV - KJV) ?
+### VOA [Voice of America] Africa : June 08, 2019 11:00PM-12:00AM EDT
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts
-- Primary layer: world_languages
+- Tags: history_memory
+- Layer routes: history_inputs, theologians
+- Primary layer: history_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 338
-- Year: n.d.
-- URL: https://archive.org/details/BiblicalTranslation-DoesTheRevisedVersionOfWestcottHortChangeThe
+- Corroborating routed candidates: 292
+- Year: 2019
+- URL: https://archive.org/details/VOA_Africa_20190609_030000
 
-Biblical Translation - Does the Revised Version of Westcott-Hort Change the Word Meanings of the New
-Testament (AV - KJV) ? The original title of this is âDoes the Revised Version affect the Teachings
-of the New Testamentâ, an âobviousâ title, IF you are among those who lived 100 years ago. The
-question that this author is asking, is: what is the impact of Westcott and Hort on the actual words
-and meaning of the New Testament, through the release of their version of the Bible ? The Revised
-Version was released around 1881/1882 by a group of translators who were nominally Anglican. However
-the Revised Version is largely perceived as having opened the floodgates to weak, inaccurate and
-mislead
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### The New Testament in the original Greek
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts, biblical_languages
-- Primary layer: world_languages
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 341
-- Year: 1882
-- URL: https://archive.org/details/newtestamentino00west
-
-Added title-page: The New Testament ... translated out of the Greek, being the version set forth
-A.D. 1611 and revised A.D. 1881. Greek and English; paged in duplicate 52
+Closed captions transcript: 00:00:00 During 00:00:00 a recent military confrontation with Pakistan
+so what effect will Modi's victory 00:00:05 have on India's sizeable Muslim community the b j p does
+not have 00:00:10 a single Muslim member of Parliament among its $303.00 lawmakers how will Modi
+00:00:15 conduct relations with neighboring nuclear armed Pakistan Pakistani prime minister 00:00:20
+Imran Khan was not invited to Modi's swearing in ceremony with us to analyze the 00:00:25 domestic
+and international ramifications of an around remote is victory in India 00:00:30 are 2 distinguished
+analysts Michael Kugel men is deputy director of the Asia 00:00:35 Program and senior associate for
+So
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 
-### A unitarian universalist minister ina lineage holder american life
+### Getting to Grips with Growth
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature
+- Layer routes: all_texts, other_religious_texts, modern_literature, visual_art
 - Primary layer: all_texts
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 314
-- Year: 2022
-- URL: https://archive.org/details/uusf_org-20121111JKSermon
+- Corroborating routed candidates: 424
+- Year: 2023
+- URL: https://archive.org/details/Kensington_Unitarians_UK-KU_janeB_davidC_hybrid_sermon_30_07_23
 
-A unitarian universalist minister ina lineage holder american life: As a unitarian universalist
-minister ina lineage holder of some of the great prophetic religious traditions of america
-administer rooted in the mayflower compact the cambridge platform the spirit of revolution and the
-bonds of faith and charity and goodwill in this country as members of this historic congregation
-each of you are also lineage holders of this great american religious tradition that predates our
-country that profoundly helped to shape our notion of the american dream and that propelled this
-nation to some of its greatest achievements org today you are among friends.
+A Sunday service led by Rev. Dr. Jane Blackall and David Carter: Getting to Grips with Growth.
+Featuring a reading given by Chloe Harewood and music performed by Abby Lorimier and Peter
+Crockford.
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -1088,25 +285,31 @@ Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### January 5, 2025: “Religion vs. Myth” The Rev. Angela Herrera Koren
+### 558 Courageous Baptist Seeks Biblical Truth (Joshua Michael Smith)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature, biblical_languages
+- Layer routes: all_texts, other_religious_texts, modern_literature, theologians, visual_art
 - Primary layer: all_texts
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 342
-- Year: 2025
-- URL: https://archive.org/details/UUABQ_Voice-HyperDeck_2501051012_0005
+- Corroborating routed candidates: 511
+- Year: 2024
+- URL: https://archive.org/details/Restitutio-558_courageous_baptist_seeks_biblical_truth_joshua_michael_smith
 
-Why do ancient Greek and Roman gods belong to “mythology,” while other gods belong to “religion?”
-What’s the difference? And if someone says all religion is myth, should UUs get mad?Music: Lydia
-Clark & Susan Peck
+Joshua Michael Smith grew up in northern Florida in a Baptist church. In this interview he shares
+his journey of faith, including how came to Christ as well as how he ended up in ministry training
+at Word of Life before earning a bachelors at Tennessee Temple University in Chattanooga. While
+there, he began questioning his received doctrinal package based on the Bible. As a result, he came
+to discover the human Messiah of scripture and courageously embraced this new understanding despite
+the consequences. This is part one of his story. Listen to this episode on Spotify or Apple Podcasts
+—— Links —— Check out these other interviews about people leaving the Trinity to embrace a biblical
+unitar
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -1119,97 +322,35 @@ Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### The second question hindu people
+### VOA [Voice of America] Africa : September 13, 2017 03:00PM-04:00PM EDT
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature
-- Primary layer: all_texts
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 314
-- Year: 2022
-- URL: https://archive.org/details/uusf_org-20120129SFComplete
-
-The second question hindu people: Our culture here in america is so focused on work that i think a
-lot of us are, yoga's or strive to be it's not true elsewhere but in this country the second
-question people ask one another.
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-
-### Book Review: Theology and Pastoral Counseling
-
-- Review status: machine_assessed_strong_scholarly_candidate
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: general_research_methods
-- Layer routes: research_documents, deep_sources, human_stories
-- Primary layer: research_documents
-- Provider: Crossref
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 448
-- Year: 1996
-- URL: https://doi.org/10.1177/0040571x9609900536
-
-No summary available in metadata.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- many routed corroborating candidates
-
-Layer review prompts:
-- Use as general research context until a more specific layer is reviewed.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-
-### Telemedicine Service Experience Questionnaire for Chinese Outpatients: Development and Validation Study.
-
-- Review status: machine_assessed_strong_scholarly_candidate
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: technology_ethics
 - Layer routes: cultural_inputs
 - Primary layer: cultural_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 149
-- Year: 2026
-- URL: https://doi.org/10.2196/60551
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 150
+- Year: 2017
+- URL: https://archive.org/details/VOA_Africa_20170913_190000
 
-Background Telemedicine has rapidly expanded; however, standardized, telemedicine-specific patient-
-reported experience measures tailored to outpatient workflows are limited in many settings.
-Objective This study aimed to develop and psychometrically validate the Telemedicine Service
-Experience Questionnaire (TSEQ) for Chinese outpatients using telemedicine services. Methods We
-conducted a web-based survey among outpatients who completed a telemedicine consultation at Peking
-Union Medical College Hospital between July 1, 2021, to August 31, 2021, and who had used
-telemedicine services, using an adapted Chinese Patient Experience Questionnaire that encompasses 15
-questions across 4 dimensions,
+Closed captions transcript: 00:00:00 The decision made of. Probably the head of state. Then Norm all
+00:00:06 expectation is that there should be bitter I should be bitter 00:00:14 because I was made
+to answer the call of nature in those fellows then more true 00:00:21 I saluted. Two meters by two
+point five meters where I was spending sixteen hours 00:00:28 a day locked in there and to answer
+the call of nature both the urine fecal to use 00:00:34 a bucket and they re morning or took it out
+and emptied my so one 00:00:41 would say should be good I am not bitter there is not time 00:00:48
+to be bitter because if we focus on bitterness then we fall 00:00:55 exactly in the same trap where
+we h
 
 Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
+- trusted archive, university, government, museum, library, or public-domain domain
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
@@ -1217,43 +358,7 @@ Automated evidence reasons:
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 
-### A qualitative study to inform the design and implementation of AI-driven diagnosis: Challenges, barriers, and clinical insights of physicians.
-
-- Review status: machine_assessed_strong_scholarly_candidate
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: technology_ethics
-- Layer routes: cultural_inputs, visual_art
-- Primary layer: cultural_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 264
-- Year: 2026
-- URL: https://doi.org/10.1371/journal.pone.0348519
-
-Introduction Acute febrile illnesses are significant clinical challenge in tropical regions due to
-overlapping symptomatology among infections such as dengue, scrub typhus, and leptospirosis. This
-diagnostic dilemma leads to delays in appropriate treatment and negatively impacted patient outcome
-due to limited diagnostic tool availability. Recent advancement in artificial intelligence (AI)
-application in healthcare help in developing diagnostic aiding tool in such clinical dilemma. Aims
-Study aimed to explore physicians' perspectives on diagnostic challenges of tropical Acute-febrile-
-illnesses and assess perceived utility of AI as a supportive tool in clinical decision-making.
-Methods A qual
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### VOA [Voice of America] Global English : June 14, 2020 07:00PM-08:00PM EDT
+### VOA [Voice of America] Global English : February 26, 2020 10:00PM-11:00PM EST
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -1266,16 +371,16 @@ Layer review prompts:
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 150
 - Year: 2020
-- URL: https://archive.org/details/VOA_Global_English_20200614_230000
+- URL: https://archive.org/details/VOA_Global_English_20200227_030000
 
-Closed captions transcript: 00:00:02 This is the news I'm Aretha Melton's Brazil has moved fast
-Britain to become the 00:00:08 country with the 2nd highest covert 19 death toll in the world just
-after the 00:00:13 United States the South American countries death tally early Sunday was 42720
-00:00:20 according to the Johns Hopkins University Britain has lost 41747 people to 00:00:27 Kovan
-1000 the United States has lost 115000 436 lives to the coronavirus 00:00:34 pandemic Johns Hopkins
-reports the number of Corona virus cases around the world is 00:00:39 steadily climbing toward the
-8000000 mark the United States has more than 2000000 00:00:44 cases followed again by Brazil with
-more than 85
+Closed captions transcript: 00:00:05 This is v.o.a. 00:00:06 News I'm David 1st President Donald
+Trump says his administration is ready to 00:00:11 handle whatever level of outbreak of the
+coronavirus occurs in the United States as 00:00:17 A.P.'s Saager Magali reports the president is
+confident the country is ready for 00:00:22 whatever comes standing at the White House briefing room
+next to health authorities 00:00:26 the president said there is no reason for panic we're very very
+ready for this for 00:00:31 anything whether the threat gets worse or eases as he predicts it will
+but the 00:00:36 C.D.C.'s and shook it warns the nation must get ready for 00:00:40 a potential
+outbreak and this
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
