@@ -4362,6 +4362,137 @@ def append_reviewed_source_packs_section(lines, pack_names):
         lines.append(f"- {pack_name}")
 
 
+def append_growth_plan_section(
+    lines,
+    digest,
+    ranked_patterns,
+    pressure_counts,
+    lane_records,
+    ledger,
+    pack_names,
+):
+    """Append concrete next steps for making the report and knowledge set stronger."""
+    priority_lanes = [
+        record
+        for record in lane_records
+        if record["status"].startswith("below minimum")
+        or record["status"].startswith("developing")
+    ]
+    capped_lanes = [
+        record for record in lane_records if record["status"].startswith("above review cap")
+    ]
+    top_patterns = [item["candidate"]["name"] for item in ranked_patterns[:5]]
+    new_sources = digest.get("new_sources", [])
+    new_layer_counts = Counter(digest.get("new_layer_counts", {}))
+    new_evidence_counts = Counter(digest.get("new_automated_evidence_counts", {}))
+    claim_status_counts = ledger.get("status_counts", Counter())
+    weak_claim_count = sum(
+        claim_status_counts.get(status, 0)
+        for status in [
+            "research_question_only",
+            "analogy_only",
+            "discernment_question",
+            "weakened_or_limited",
+        ]
+    )
+    strongest_new_layers = [layer for layer, _count in new_layer_counts.most_common(5)]
+    strongest_pressures = [
+        pressure for pressure, count in pressure_counts.most_common(5) if count > 0
+    ]
+
+    lines.extend(
+        [
+            "",
+            "What This Needs To Grow",
+            "-----------------------",
+            "The report gets stronger when it grows the knowledge set in a balanced way: more source review, harder pressure tests, clearer rival explanations, and better links between evidence and practical theology.",
+            "",
+            "Immediate next work:",
+        ]
+    )
+
+    if priority_lanes:
+        for record in priority_lanes[:6]:
+            needed = max(0, record["target"] - record["actual"])
+            lines.append(
+                f"- Grow {record['lane']}: add about {needed:,} more reviewed notes toward the target. Purpose: {record['purpose']}."
+            )
+    else:
+        lines.append(
+            "- Lane counts are not below target, so the next growth should be depth: reviewed sources, counterarguments, and claim-specific source packs."
+        )
+
+    if capped_lanes:
+        paused = ", ".join(record["lane"] for record in capped_lanes[:5])
+        lines.append(
+            f"- Slow down broad collection in overfull lanes ({paused}) until thinner lanes and source review catch up."
+        )
+
+    lines.extend(["", "Knowledge set it should build next:"])
+    if top_patterns:
+        lines.append(
+            "- Build one reviewed source pack for each leading pattern: "
+            + ", ".join(top_patterns)
+            + "."
+        )
+    if strongest_new_layers:
+        lines.append(
+            "- Turn the newest active lanes into reviewed evidence instead of leaving them as cloud candidates: "
+            + ", ".join(strongest_new_layers)
+            + "."
+        )
+    if new_sources:
+        lines.append(
+            f"- Review the {len(new_sources):,} newest candidate references by original source, author expertise, publication context, and counterargument before they affect confidence."
+        )
+    else:
+        lines.append(
+            "- Add new candidate references only where they answer a named research gap; do not collect more material just to make the report longer."
+        )
+
+    lines.extend(["", "What it needs to test harder:"])
+    if strongest_pressures:
+        lines.append(
+            "- Keep testing the leading patterns against the strongest current pressure areas: "
+            + ", ".join(strongest_pressures)
+            + "."
+        )
+    else:
+        lines.append("- Add explicit pressure tests before calling any pattern strong.")
+    lines.append(
+        "- Add rival explanations from psychology, sociology, history, textual criticism, comparative religion, and ordinary pattern perception."
+    )
+    lines.append(
+        "- Add failure conditions: name what evidence would weaken, revise, or reject each proposed divine pattern."
+    )
+
+    lines.extend(["", "What it needs to clarify before claiming a divine pattern:"])
+    lines.append(
+        "- Separate evidence, interpretation, discernment, analogy, and practical use in every major claim."
+    )
+    if weak_claim_count:
+        lines.append(
+            f"- Revisit {weak_claim_count:,} claim-ledger items that are still questions, analogies, discernment claims, or weakened claims."
+        )
+    else:
+        lines.append("- Keep the claim ledger current so weak claims do not quietly become conclusions.")
+    lines.append(
+        f"- Expand reviewed source packs from {len(pack_names):,} current packs toward one pack per major claim and one pack per top pattern."
+    )
+    if new_evidence_counts:
+        lines.append(
+            "- Convert automated evidence labels into human review decisions; machine scores should route attention, not settle truth."
+        )
+
+    lines.extend(
+        [
+            "",
+            "Growth rule: the next version should become less impressed by repeated signals and more disciplined about reviewed sources, counter-readings, and whether the pattern produces truthful love, justice, humility, worship, and repair.",
+            "",
+        ]
+    )
+
+
 def append_pattern_pressure_competition(lines, ranked_patterns, pressure_counts, limit=5):
     """Append top-pattern competition under shared pressure tests."""
     lines.extend(["", "Top-Five Pattern Competition", "----------------------------"])
@@ -5099,6 +5230,15 @@ def create_reader_book_report(
     append_reviewed_source_packs_section(lines, pack_names)
     append_cautious_confidence_section(lines)
     append_reader_guardrails(lines)
+    append_growth_plan_section(
+        lines,
+        daily_digest,
+        ranked_patterns,
+        pressure_counts,
+        lane_records,
+        ledger,
+        pack_names,
+    )
 
     lines.extend(
         [

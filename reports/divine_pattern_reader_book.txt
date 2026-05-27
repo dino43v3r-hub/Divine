@@ -353,6 +353,37 @@ Guardrails For A Careful Reader
 6. Do not strengthen a claim until weak source lanes have been developed.
 7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today.
 
+
+What This Needs To Grow
+-----------------------
+The report gets stronger when it grows the knowledge set in a balanced way: more source review, harder pressure tests, clearer rival explanations, and better links between evidence and practical theology.
+
+Immediate next work:
+- Grow biblical_languages: add about 25 more reviewed notes toward the target. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
+- Grow world_languages: add about 25 more reviewed notes toward the target. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
+- Grow all_texts: add about 46 more reviewed notes toward the target. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
+- Grow other_religious_texts: add about 46 more reviewed notes toward the target. Purpose: respectful comparison across traditions without flattening differences.
+- Grow theologians: add about 65 more reviewed notes toward the target. Purpose: primary-text theology and disagreements across eras.
+- Grow history_inputs: add about 46 more reviewed notes toward the target. Purpose: power, conflict, memory, reform, and consequences.
+
+Knowledge set it should build next:
+- Build one reviewed source pack for each leading pattern: Image Of God Pattern, Cross And Reversal Pattern, Providence And Contingency Pattern, Trinity-As-Behavior Pattern, Creation-To-Consciousness Pattern.
+- Turn the newest active lanes into reviewed evidence instead of leaving them as cloud candidates: visual_art, cultural_inputs, history_inputs, theologians, other_religious_texts.
+- Review the 16 newest candidate references by original source, author expertise, publication context, and counterargument before they affect confidence.
+
+What it needs to test harder:
+- Keep testing the leading patterns against the strongest current pressure areas: Suffering Without Resolution, Injustice And Corruption, Practical Case Study, Disconfirming Failure Condition, Science Guardrail.
+- Add rival explanations from psychology, sociology, history, textual criticism, comparative religion, and ordinary pattern perception.
+- Add failure conditions: name what evidence would weaken, revise, or reject each proposed divine pattern.
+
+What it needs to clarify before claiming a divine pattern:
+- Separate evidence, interpretation, discernment, analogy, and practical use in every major claim.
+- Revisit 3 claim-ledger items that are still questions, analogies, discernment claims, or weakened claims.
+- Expand reviewed source packs from 6 current packs toward one pack per major claim and one pack per top pattern.
+- Convert automated evidence labels into human review decisions; machine scores should route attention, not settle truth.
+
+Growth rule: the next version should become less impressed by repeated signals and more disciplined about reviewed sources, counter-readings, and whether the pattern produces truthful love, justice, humility, worship, and repair.
+
 Closing Practical Rule
 ----------------------
 If a pattern does not help a person become more truthful, loving, humble, just, worshipful, patient, and practically faithful, it has not yet become practical theology.
