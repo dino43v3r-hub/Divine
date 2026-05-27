@@ -23,6 +23,7 @@ DEEP_SOURCE_DIR = Path("deep_sources")
 THEOLOGIANS_DIR = Path("theologians")
 REPORTS_DIR = Path("reports")
 DAILY_DIGEST_PATH = Path("references") / "daily_research_digest.json"
+REFERENCES_PATH = Path("references") / "references.json"
 REPORT_PATH = REPORTS_DIR / "divine_pattern_research_report.txt"
 PATTERN_CANDIDATES_PATH = REPORTS_DIR / "divine_pattern_candidates_report.txt"
 DISCOVERED_PATTERNS_PATH = REPORTS_DIR / "discovered_patterns_report.txt"
@@ -5047,6 +5048,8 @@ def create_reader_book_report(
     layer_counts = combine_layer_counts(top_pattern_analyses)
     ranked_patterns = rank_divine_pattern_candidates(layer_counts)
     pressure_counts = combine_pressure_counts(test_analyses)
+    daily_digest = read_daily_research_digest()
+    reference_catalog_summary = read_reference_catalog_summary()
     ledger = parse_claim_ledger()
     pack_names = load_reviewed_source_pack_names()
     lane_records = create_lane_balance_records(
@@ -5066,11 +5069,14 @@ def create_reader_book_report(
         "------------------------------------------------------------",
         "",
     ]
+    append_latest_run_snapshot(lines, daily_digest, reference_catalog_summary)
+    append_learning_journal_entry(lines, daily_digest, ranked_patterns, pressure_counts)
     append_reader_preface(lines)
     append_how_to_read_this_book(lines)
     append_pattern_detection_to_formation(lines)
     append_everyday_pattern_story(lines)
     append_scholarly_spine(lines)
+    append_daily_development_chapter(lines, daily_digest)
     append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5)
     append_reader_case_studies(lines)
 
@@ -5078,13 +5084,15 @@ def create_reader_book_report(
         [
             "What The Research Currently Suggests",
             "------------------------------------",
-            f"The project has analyzed {len(all_analyses):,} documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.",
-            "The current corpus most visibly repeats patterns around image of God, cross and reversal, providence and contingency, Trinity-as-behavior, and creation-to-consciousness.",
+            f"The project has analyzed {len(all_analyses):,} local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.",
+            f"The daily collector has retained {reference_catalog_summary.get('source_count', 0):,} cloud candidate references, including {daily_digest.get('new_count', 0):,} brand-new candidates in the latest run.",
+            describe_visible_pattern_families(ranked_patterns),
             "These are best understood as chapters in an ongoing research book. They are not final proof claims.",
             "",
         ]
     )
 
+    append_daily_reference_movement(lines, daily_digest, reference_catalog_summary)
     append_pattern_pressure_competition(lines, ranked_patterns, pressure_counts, limit=5)
     append_claim_ledger_section(lines, ledger)
     append_lane_balance_section(lines, lane_records)
@@ -6492,6 +6500,224 @@ def read_daily_research_digest():
         }
 
 
+def read_reference_catalog_summary():
+    """Read retained cloud-reference catalog counts for reader-facing reports."""
+    if not REFERENCES_PATH.exists():
+        return {
+            "updated_at": "not available",
+            "source_count": 0,
+        }
+
+    try:
+        catalog = json.loads(REFERENCES_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {
+            "updated_at": "invalid catalog",
+            "source_count": 0,
+        }
+
+    return {
+        "updated_at": catalog.get("updated_at", "not available"),
+        "source_count": catalog.get("source_count", len(catalog.get("sources", []))),
+    }
+
+
+def describe_visible_pattern_families(ranked_patterns, limit=5):
+    """Create evidence-sensitive reader language for the current top patterns."""
+    names = [item["candidate"]["name"] for item in ranked_patterns[:limit]]
+    if not names:
+        return "The current corpus does not yet contain enough pattern evidence to name leading chapters."
+    if len(names) == 1:
+        pattern_text = names[0]
+    else:
+        pattern_text = ", ".join(names[:-1]) + f", and {names[-1]}"
+    return f"The current corpus most visibly repeats pattern families led by {pattern_text}."
+
+
+def format_counter_preview(values, limit=4):
+    """Format the strongest movement counts for compact reader-facing snapshots."""
+    counts = Counter(values or {})
+    if not counts:
+        return "none recorded"
+    return ", ".join(f"{name}: {count:,}" for name, count in counts.most_common(limit))
+
+
+def append_latest_run_snapshot(lines, digest, catalog_summary):
+    """Put new run information at the front so every generated preview shows movement."""
+    query_modifiers = digest.get("query_modifiers", [])
+    modifier_text = ", ".join(query_modifiers[:5]) if query_modifiers else "not recorded"
+
+    lines.extend(
+        [
+            "Latest Run Snapshot",
+            "-------------------",
+            f"Collector run: {digest.get('updated_at', 'not available')}",
+            f"Retained cloud candidate references: {catalog_summary.get('source_count', 0):,}",
+            f"Brand-new candidate references this run: {digest.get('new_count', 0):,}",
+            f"Top new routed layers: {format_counter_preview(digest.get('new_layer_counts', {}))}",
+            f"New evidence mix: {format_counter_preview(digest.get('new_automated_evidence_counts', {}))}",
+            f"New provider mix: {format_counter_preview(digest.get('new_provider_counts', {}))}",
+            f"Query modifiers used: {modifier_text}",
+            "",
+        ]
+    )
+
+
+def append_learning_journal_entry(lines, digest, ranked_patterns, pressure_counts):
+    """Write a reflective, evidence-bounded journal entry from the report's current state."""
+    tag_counts, layer_counts, quality_counts, developments = create_daily_pattern_developments(digest)
+    new_sources = digest.get("new_sources", [])
+    top_patterns = [item["candidate"]["name"] for item in ranked_patterns[:3]]
+    leading_pattern = top_patterns[0] if top_patterns else "no settled leading pattern"
+    supporting_patterns = ", ".join(top_patterns[1:]) if len(top_patterns) > 1 else "no clear secondary pattern yet"
+    leading_layer = layer_counts.most_common(1)[0][0] if layer_counts else "no single new layer"
+    leading_tag = tag_counts.most_common(1)[0][0] if tag_counts else "no dominant new tag"
+    strongest_quality = quality_counts.most_common(1)[0][0] if quality_counts else "unknown source quality"
+    pressure_name = pressure_counts.most_common(1)[0][0] if pressure_counts else "the standing pressure tests"
+
+    lines.extend(
+        [
+            "Journal Entry: What I Am Learning",
+            "---------------------------------",
+            "I am reading this run as a conversation between what just arrived and what the project already thinks it sees.",
+            f"The older pattern map still points first toward {leading_pattern}. Around it, I keep seeing related pressure from {supporting_patterns}.",
+            f"The newest material is pulling my attention toward {leading_layer}, especially around {leading_tag}. That does not overturn the older map, but it changes what I should ask next.",
+            f"My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is {strongest_quality}, so I should let them sharpen questions before I let them strengthen claims.",
+            f"I also notice that {pressure_name} remains a live test. If the pattern cannot survive that friction, then it is probably only an attractive idea, not a disciplined theological insight.",
+            "",
+            "What this run makes me wonder:",
+        ]
+    )
+
+    if developments:
+        for development in developments[:4]:
+            lines.append(f"- {development}")
+    else:
+        lines.append("- I do not yet see enough new movement to name a fresh question.")
+
+    lines.extend(["", "What I should do with this learning:"])
+    if new_sources:
+        lines.append("- Compare the newest source leads against the existing top patterns before changing confidence language.")
+        lines.append("- Look for counter-readings that explain the same signals without requiring a divine-pattern interpretation.")
+        lines.append("- Promote only reviewed sources from question-shaping material into claim-strengthening evidence.")
+    else:
+        lines.append("- Treat this as a maintenance run and avoid writing as though new evidence arrived.")
+
+    lines.extend(
+        [
+            "",
+            "Journal guardrail: this is a generated research reflection. It records what the current evidence seems to be teaching the project, not a final judgment.",
+            "",
+        ]
+    )
+
+
+def append_daily_development_chapter(lines, digest):
+    """Add reader-facing interpretation of the newest cloud material before stable chapters."""
+    tag_counts, layer_counts, quality_counts, developments = create_daily_pattern_developments(digest)
+    new_sources = digest.get("new_sources", [])
+
+    lines.extend(
+        [
+            "Chapter Zero: New Information In This Run",
+            "-----------------------------------------",
+            "This chapter changes with the latest collector digest. It names what newly arrived or newly re-evaluated cloud material should make the reader watch more carefully.",
+            "",
+            "Fresh research movements:",
+        ]
+    )
+
+    for development in developments[:8]:
+        lines.append(f"- {development}")
+
+    lines.extend(
+        [
+            "",
+            f"Most active new tags: {format_counter_preview(tag_counts)}",
+            f"Most active new layers: {format_counter_preview(layer_counts)}",
+            f"Newest source-quality mix: {format_counter_preview(quality_counts)}",
+            "",
+            "Fresh source leads to review first:",
+        ]
+    )
+
+    if new_sources:
+        ranked_sources = sorted(
+            new_sources,
+            key=lambda source: (
+                source.get("automated_evidence_score", 0),
+                source.get("citation_count", 0) or 0,
+                str(source.get("title", "")),
+            ),
+            reverse=True,
+        )
+        for source in ranked_sources[:6]:
+            routes = ", ".join(source.get("layer_routes", [])) or "unrouted"
+            lines.append(
+                f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'}) | {source.get('provider', 'unknown provider')} | layers: {routes} | review use: {source.get('evaluation_use', 'candidate lead only')}"
+            )
+    else:
+        lines.append("- No brand-new sources were added in the latest collector run.")
+
+    lines.extend(
+        [
+            "",
+            "Reader rule: this new material can change the questions immediately, but it should not strengthen a claim until the original source and counterarguments are reviewed.",
+            "",
+        ]
+    )
+
+
+def append_daily_reference_movement(lines, digest, catalog_summary):
+    """Append the latest retained-reference movement to the reader book."""
+    new_sources = digest.get("new_sources", [])
+    new_layer_counts = Counter(digest.get("new_layer_counts", {}))
+    new_evidence_counts = Counter(digest.get("new_automated_evidence_counts", {}))
+
+    lines.extend(
+        [
+            "What Changed In The Latest Collection",
+            "-------------------------------------",
+            f"Daily collector updated: {digest.get('updated_at', 'not available')}",
+            f"Retained cloud candidate references: {catalog_summary.get('source_count', 0):,}",
+            f"Brand-new candidate references this run: {digest.get('new_count', 0):,}",
+            "",
+            "Newest evidence movement by routed layer:",
+        ]
+    )
+
+    if new_layer_counts:
+        for layer, count in new_layer_counts.most_common(8):
+            lines.append(f"- {layer}: {count:,}")
+    else:
+        lines.append("- No routed layers grew in the latest collector run.")
+
+    lines.extend(["", "Newest automated evidence mix:"])
+    if new_evidence_counts:
+        for label, count in new_evidence_counts.most_common():
+            lines.append(f"- {label}: {count:,}")
+    else:
+        lines.append("- No new automated evidence scores available for the latest run.")
+
+    lines.extend(["", "Newest sources shaping today's questions:"])
+    if new_sources:
+        for source in new_sources[:5]:
+            routes = ", ".join(source.get("layer_routes", []))
+            lines.append(
+                f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'}) | layers: {routes} | evidence: {source.get('automated_evidence_label', 'not_scored')}"
+            )
+    else:
+        lines.append("- No brand-new sources were added in the latest collector run.")
+
+    lines.extend(
+        [
+            "",
+            "Reader note: cloud candidates change the research questions immediately, but they should strengthen conclusions only after source review.",
+            "",
+        ]
+    )
+
+
 def create_daily_pattern_developments(digest):
     """Turn new daily sources into evolving candidate pattern language."""
     new_sources = digest.get("new_sources", [])
@@ -6516,38 +6742,38 @@ def create_daily_pattern_developments(digest):
 
     developments = []
     if layer_counts.get("theologians", 0):
-        developments.append("Theologian-source candidates grew today; review era, primary source, doctrine, disagreement, and pressure points.")
+        developments.append("Theologian-source candidates grew in the latest collector run; review era, primary source, doctrine, disagreement, and pressure points.")
     if layer_counts.get("visual_art", 0):
-        developments.append("Visual-art candidates grew today; examine actual form, composition, symbol, beauty, lament, and counter-reading.")
+        developments.append("Visual-art candidates grew in the latest collector run; examine actual form, composition, symbol, beauty, lament, and counter-reading.")
     if layer_counts.get("history_inputs", 0):
-        developments.append("History candidates grew today; test power, harm, reform, memory, consequence, and unfinished repair.")
+        developments.append("History candidates grew in the latest collector run; test power, harm, reform, memory, consequence, and unfinished repair.")
     if layer_counts.get("world_languages", 0):
-        developments.append("World-language candidates grew today; track translation range, metaphor, grammar, culture, and rival readings.")
+        developments.append("World-language candidates grew in the latest collector run; track translation range, metaphor, grammar, culture, and rival readings.")
     if layer_counts.get("biblical_languages", 0):
-        developments.append("Biblical-language candidates grew today; check lemma, syntax, canonical context, and scholarly counter-readings.")
+        developments.append("Biblical-language candidates grew in the latest collector run; check lemma, syntax, canonical context, and scholarly counter-readings.")
     if layer_counts.get("all_texts", 0) or layer_counts.get("other_religious_texts", 0):
-        developments.append("Global and comparative text candidates grew today; respect each tradition's own meaning before comparing patterns.")
+        developments.append("Global and comparative text candidates grew in the latest collector run; respect each tradition's own meaning before comparing patterns.")
     if layer_counts.get("psychology_inputs", 0) or layer_counts.get("human_stories", 0):
-        developments.append("Psychology or human-story candidates grew today; separate lived repair from overclaimed theological interpretation.")
+        developments.append("Psychology or human-story candidates grew in the latest collector run; separate lived repair from overclaimed theological interpretation.")
     if layer_counts.get("deep_sources", 0):
-        developments.append("Deep-source candidates grew today; review qualified evidence and counterarguments before strengthening claims.")
+        developments.append("Deep-source candidates grew in the latest collector run; review qualified evidence and counterarguments before strengthening claims.")
     if layer_counts.get("pattern_tests", 0):
-        developments.append("Pressure-test candidates grew today; name failure conditions and whether the pattern holds under friction.")
+        developments.append("Pressure-test candidates grew in the latest collector run; name failure conditions and whether the pattern holds under friction.")
 
     if tag_counts.get("unresolved_suffering", 0) or any(term in text for term in ["lament", "grief", "trauma", "hope"]):
-        developments.append("Lament-to-hope material grew today; test whether hope is patient and non-coercive rather than a quick resolution.")
+        developments.append("Lament-to-hope material grew in the latest collector run; test whether hope is patient and non-coercive rather than a quick resolution.")
     if tag_counts.get("biblical_languages", 0) or any(term in text for term in ["hebrew", "greek", "hesed", "logos", "translation"]):
-        developments.append("Original-language and translation material grew today; check whether word-level claims survive syntax, genre, and semantic range.")
+        developments.append("Original-language and translation material grew in the latest collector run; check whether word-level claims survive syntax, genre, and semantic range.")
     if tag_counts.get("psychology_patterns", 0) or any(term in text for term in ["psychology", "attachment", "trauma", "forgiveness", "habit"]):
-        developments.append("Psychology and formation material grew today; compare spiritual transformation with habit, attachment, memory, and repair without reducing faith to mechanism.")
+        developments.append("Psychology and formation material grew in the latest collector run; compare spiritual transformation with habit, attachment, memory, and repair without reducing faith to mechanism.")
     if tag_counts.get("history_memory", 0) or any(term in text for term in ["history", "memory", "empire", "justice", "reparative"]):
-        developments.append("Historical-memory material grew today; test whether the pattern can face power, harm, repair, and communal memory.")
+        developments.append("Historical-memory material grew in the latest collector run; test whether the pattern can face power, harm, repair, and communal memory.")
     if tag_counts.get("global_text_traditions", 0) or any(term in text for term in ["wisdom", "myth", "oral", "scripture", "ritual"]):
-        developments.append("Global text-tradition material grew today; compare patterns across genre and culture before calling them universal.")
+        developments.append("Global text-tradition material grew in the latest collector run; compare patterns across genre and culture before calling them universal.")
     if tag_counts.get("quantum_science_guardrails", 0) or any(term in text for term in ["quantum", "physics", "probability", "measurement"]):
-        developments.append("Science-guardrail material grew today; keep any science analogy tied to qualified sources and stated limits.")
+        developments.append("Science-guardrail material grew in the latest collector run; keep any science analogy tied to qualified sources and stated limits.")
     if tag_counts.get("art_beauty", 0) or any(term in text for term in ["beauty", "art", "icon", "image", "aesthetic"]):
-        developments.append("Art and beauty material grew today; ask what visual or aesthetic form reveals before translating it into doctrine.")
+        developments.append("Art and beauty material grew in the latest collector run; ask what visual or aesthetic form reveals before translating it into doctrine.")
 
     if not developments and new_sources:
         developments.append("New candidate sources arrived today, but no dominant pattern family emerged yet. Review titles and summaries manually before increasing confidence.")
@@ -6649,12 +6875,12 @@ def create_divine_pattern_summary_report(
     append_how_to_read_this_book(lines)
     lines.extend(
         [
-        "Chapter One: What Is Growing Today?",
-        "-----------------------------------",
-        "This chapter summarizes the newest research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?",
+        "Chapter One: What Grew In The Latest Run?",
+        "-----------------------------------------",
+        "This chapter summarizes the newest retained research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?",
         "",
-        "Today's Development",
-        "-------------------",
+        "Latest Collector Development",
+        "----------------------------",
         f"Daily collector updated: {daily_digest.get('updated_at', 'not available')}",
         f"Brand-new candidate references this run: {daily_digest.get('new_count', 0):,}",
         "New candidate pattern movements:",
