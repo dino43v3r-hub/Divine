@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-27T14:17:08.748846+00:00
+Generated: 2026-05-27T21:22:31.092087+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -40,18 +40,18 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-05-27T14:16:07.158840+00:00
-Retained cloud candidate references: 1,126
-Brand-new candidate references this run: 7
-Top new routed layers: visual_art: 5, cultural_inputs: 3, theologians: 3, all_texts: 2
-New evidence mix: moderate_scholarly_candidate: 7
-New provider mix: Internet Archive: 7
+Collector run: 2026-05-27T21:21:28.585217+00:00
+Retained cloud candidate references: 1,144
+Brand-new candidate references this run: 18
+Top new routed layers: history_inputs: 7, theologians: 7, other_religious_texts: 6, visual_art: 6
+New evidence mix: moderate_scholarly_candidate: 14, strong_scholarly_candidate: 4
+New provider mix: Internet Archive: 10, Europe PMC: 7, Crossref: 1
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 
-_Full report has 390 lines. Open the linked report above to read everything._
+_Full report has 396 lines. Open the linked report above to read everything._
 ```
 
 ## reports/disciplined_theological_assistant_report.txt
@@ -76,7 +76,7 @@ From Pattern Search To Pattern Formation
 ----------------------------------------
 The search engine remains essential. It keeps scanning scripture, theology, culture, history, language, testimony, art, psychology, science, and pressure tests for recurring structures.
 
-_Full report has 390 lines. Open the linked report above to read everything._
+_Full report has 395 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_summary_report.txt
@@ -101,7 +101,7 @@ Chapter One: What Grew In The Latest Run?
 -----------------------------------------
 This chapter summarizes the newest retained research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 498 lines. Open the linked report above to read everything._
+_Full report has 520 lines. Open the linked report above to read everything._
 ```
 
 ## reports/top_five_divine_patterns_report.txt
@@ -135,9 +135,9 @@ _Full report has 255 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-27T14:16:07.197185+00:00
-Total references: 1,126
-New references this run: 7
+Updated: 2026-05-27T21:21:28.623073+00:00
+Total references: 1,144
+New references this run: 18
 
 Guardrails
 ----------
@@ -151,7 +151,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 372 lines. Open the linked report above to read everything._
+_Full report has 448 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -170,13 +170,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 33
-Total analyzed words: 733,004
+Total analyzed words: 736,621
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 964 lines. Open the linked report above to read everything._
+_Full report has 980 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -223,7 +223,7 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 Test Overview
 -------------
 Test documents analyzed: 22
-Test words analyzed: 2,545
+Test words analyzed: 2,673
 
 
 _Full report has 531 lines. Open the linked report above to read everything._
@@ -267,16 +267,16 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 10
-Total theologian words analyzed: 3,230
+Theologian documents analyzed: 11
+Total theologian words analyzed: 4,328
 
 Era Coverage
 ------------
-- Patristic: 37
-- Medieval: 22
-- Reformation: 16
+- Patristic: 51
+- Medieval: 32
+- Reformation: 25
 
-_Full report has 172 lines. Open the linked report above to read everything._
+_Full report has 183 lines. Open the linked report above to read everything._
 ```
 
 ## reports/cross_layer_reasoning_report.txt
@@ -295,13 +295,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 136
-Dedicated synthesis documents: 35
+Total documents across all lanes: 142
+Dedicated synthesis documents: 40
 Active divine-pattern layers: 8 of 8
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
 
-_Full report has 598 lines. Open the linked report above to read everything._
+_Full report has 661 lines. Open the linked report above to read everything._
 ```
 
 ## reports/music_note_patterns_report.txt
@@ -391,15 +391,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Maker of Heaven and Earth
+### The Unitarian Trinity | Ancestors of Faith Series | Rev. Dr. Daniel Kanter
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: trinity
-- Layer routes: theologians, research_documents, visual_art
+- Layer routes: theologians, research_documents
 - Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 245 lines. Open the linked report above to read everything._
+_Full report has 617 lines. Open the linked report above to read everything._
 ```

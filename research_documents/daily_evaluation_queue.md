@@ -7,22 +7,29 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Maker of Heaven and Earth
+### The Unitarian Trinity | Ancestors of Faith Series | Rev. Dr. Daniel Kanter
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: trinity
-- Layer routes: theologians, research_documents, visual_art
+- Layer routes: theologians, research_documents
 - Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 367
-- Year: 2021
-- URL: https://archive.org/details/210626-2235
+- Corroborating routed candidates: 229
+- Year: 2025
+- URL: https://archive.org/details/First_Unitarian_Dallas_Podcast-Podcast_10_05_25
 
-sermon given at Trinity Presbyterian Church, Havelock, NC; part of a series on the Nicene Creed
+This series honors those whose courage and conviction formed the soul of our tradition. They were
+not perfect, but they were faithful: to truth, to love, and to the possibility of a better world. In
+honoring these ancestors of faith, we ask: What do we inherit from them? What do we carry forward?
+We begin with the 4th-century Unitarians who challenged the prevailing Trinitarian view of Jesus,
+asking whether their bold theological ideas still speak to us today. We move to the 19th-century
+Transcendentalists, whose vision of the “transient” and the “permanent” in religion continues to
+offer clarity and guidance. We then honor those in our movement who have defied oppressive systems,
+reminding
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -34,31 +41,24 @@ Automated evidence reasons:
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Use as general research context until a more specific layer is reviewed.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### Origin of Personal and National Character
+### Lighting a Beacon – sermon by Rev. Nancy
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests, visual_art, history_inputs
-- Primary layer: deep_sources
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 497
-- Year: 2024
-- URL: https://archive.org/details/Spermatozoa
+- Corroborating routed candidates: 229
+- Year: 2023
+- URL: https://archive.org/details/Northlake_Unitarian_Universalist_Church-lighting_a_beacon_sermon_by_rev_nancy
 
-The Reality, Origins and Subsequent Changes in National Character "The hills are alive with the
-sound of music With songs, they have sung for a thousand years The hills fill my heart with the
-sound of music. My heart wants to sing every song it hears...." Richard Rogers In the early days of
-the study of heredity and ontogeny the idea existed that a little "person" known officially as the
-"homunculus" could be seen in microscopic preparations of spermatozoa; it was endowed with the
-ability to develop (enlarge) into an infant child to be born later. This idea is known as
-Preformation. Perhaps, the idea originated with the Biblical Adam who was thought to contain within
-himself all of the peopl
+The Northlake vision is that we light a beacon for love & justice. We will explore how the UUA faith
+is a beacon, and what we might do at Northlake to shine our light in the world.
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -68,12 +68,105 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+
+### “So Much Comes Up”: Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
+- Primary layer: pattern_tests
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 611
+- Year: 2026
+- URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13203355/?tool=EBI
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- many routed corroborating candidates
+
+Layer review prompts:
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### Dispersion Compensation and Multi-Beam Interference Correction Algorithm for Thickness Measurement of SiC Epitaxial Layer
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 291
+- Year: 2026
+- URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13210685/?tool=EBI
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- many routed corroborating candidates
+
+Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 
-### Imam Siraj Wahhaj - Complete Audio Collection (200+)
+### Complete Quran (114 Surahs) - Abu-Bakr ash-Shatri (with English Audio Translation)
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, world_languages, other_religious_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 468
+- Year: n.d.
+- URL: https://archive.org/details/001AlFaatiha_201404
+
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Islamic files. -----------------------------------------------------
+--------------------------------------------------------------------------------------------------
+The Noble Qur'aan - القرآن الكريم Qari - Abu Bakr ibn Muhammad ash-Shatree Translator - Kevan
+Brighting Translation of the Meanings - A Modern English Reading (Based on Dr. Muhammad Muhsin Khan)
+----------------------------------------------------------------------------------------------------
+--------------------------------------------------- Holy / Glorious / Noble / Quran / Qur'an /
+Qur'aan /
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### Virgin Mary: Mother of Jesus (عليهما السلام) - The True Narrative
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -84,18 +177,18 @@ Layer review prompts:
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 385
+- Corroborating routed candidates: 390
 - Year: n.d.
-- URL: https://archive.org/details/ImamSirajWahaj
+- URL: https://archive.org/details/VirginMary-MotherOfJesuspbut
 
 Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
 watch/listen/download more free Islamic files. -----------------------------------------------------
 --------------------------------------------------------------------------------------------------
-Imam Siraj Wahhaj: Early life Wahhaj was born as Jeffrey Kearse and raised in Brooklyn. His mother
-was a nurse and his father a hospital dietician. His brother is a writer and editor Gregory S.
-Kearse of Silver Spring, Maryland. He went to church religiously and went on to become a Sunday
-school teacher as a teenager in a Baptist church. Wahhaj then later went on to the New York
-University on a pa
+Virgin Mary: Mother of Jesus (عليهما السلام) - The True Narrative {And Mary the daughter of 'Imran,
+who guarded her chastity; and We breathed into (her body) of Our spirit; and she testified to the
+truth of the words of her Lord and of His Revelations, and was one of the devout (servants).} (al-
+Qur'aan; 66.12) Mary (مريم Maryam in Arabic), the mother of Jesus (عليه السلام), is one of the most
+righ
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -108,79 +201,101 @@ Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### Spirituality and Inner Freedom
+### Weekly Islamic Naseeha Collection (Facebook / WhatsApp / E-Mail / Text Message etc)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, all_texts
+- Layer routes: visual_art, cultural_inputs, other_religious_texts
 - Primary layer: visual_art
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
+- Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 440
-- Year: 2025
-- URL: https://archive.org/details/Complete_Service_First_Unitari-20250622Complete
+- Corroborating routed candidates: 390
+- Year: n.d.
+- URL: https://archive.org/details/XFridayNaseehaArchive1stYearX
 
-"Spirituality and Inner Freedom" Sunday, June 22, 2025 These days, as basic human rights and
-freedoms are under constant attack, the battle for our attention is relentless. What if the real
-locus of our freedom is within each of us? What if we put greater attention there? Our former senior
-minister returns to our pulpit to speak about the vital role of spiritual practice and discipline in
-renewing the progressive soul of America. Rev. John Buehrens, Preacher; Sam King, Worship Associate;
-Reiko Oda Lane, organist; Allen Biggs and Tommy Kesecker, percussionists; Nancy Munn, songleader
-Jonathan Silk, Communications Director; Kelvin Jones, Jose Matias Pineda, and Francisco Castellanos,
-Sextons;
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Islamic files. -----------------------------------------------------
+--------------------------------------------------------------------------------------------------
+[There are currently SIX document files to download]... The following is a list of over 4 year's
+supply of weekly Naseeha (plus: 'Special Islamic Occasions' & 'Bonus Material') carefully compiled
+from authentic sources to be forwarded every Friday via social media such as; E-mail, Facebook,
+WhatsApp, Text-Message etc. BarakAllaahu-Feekum Inshaa Allaah! : ) The Messenger of Allaah ( ﷺ )
+said; "He w
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
-- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### The consolations of Catholicism
+### From human to posthuman bias: mapping discrimination in futuristic societies through speculative fiction
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, theologians
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
+- Tags: history_memory, technology_ethics
+- Layer routes: history_inputs, theologians, cultural_inputs, modern_literature
+- Primary layer: history_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 413
-- Year: 1954
-- URL: https://archive.org/details/consolationsofca0000wood
+- Corroborating routed candidates: 434
+- Year: n.d.
+- URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13201184/?tool=EBI
 
-342 pages 21 cm OUR REFUGE AND STRENTH. Infinite God and finite man / Bede Jarrett ; Giovanni Bona
--- "The omnipresent God" / Frederick William Faber ; Joseph Rickaby -- The kingdom of God within us
-/ Francois Fenelon ; Blaise Pascal -- "Rich in mercy" / Sgt. Alphonsus Rodriguez ; John A. O'Brien
--- God's eternal love for man / St. Alphonsus de Liguori ; Fulton J. Sheen -- God's knowledge of
-each individual / John Henry Newman -- The patience of God ; Anscar Vonier -- The nearness of God /
-St. Augustine -- The eyes of God ; Vincent McNabb -- "Faith's sight of Him" / Frederick William
-Faber ; St. Augustine -- The hand of God / St. Augustine ; John Henry Newman -- Divine justice /
-Edward F. Ga
+No summary available in metadata.
 
 Automated evidence reasons:
+- scholarly metadata provider
 - trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
-- publication year present
-- summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 
-### Stories as Doorways
+### Islamic perspectives of spiritual needs in patients with breast cancer: A qualitative study
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, all_texts, other_religious_texts
+- Primary layer: history_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 483
+- Year: 2026
+- URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13199825/?tool=EBI
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- many routed corroborating candidates
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### Are We Normal?
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -191,14 +306,18 @@ Layer review prompts:
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 292
-- Year: 2021
-- URL: https://archive.org/details/River_Road_Unitarian_Universalist-May_9_2021_Stories_as_Doorways
+- Corroborating routed candidates: 295
+- Year: 2022
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20220925LSComplete
 
-How do the stories we tell shape the future? Is it possible that our stories can be portals or
-gateways into some new reality we haven’t yet created? Is a story a doorway between one version of
-the world and the next, and how are we going to choose the stories we tell about this time in our
-lives and in history?
+“Are We Normal?” Sunday, September 25, 10:50 am, Worship Service Livestream What is it about the
+human condition that is normal? And what is normal anyway? By taking lessons from our time in the
+pandemic, from my time as a hospital chaplain, and from our collective experiences as humans, we can
+explore how normal is not a concept to compare ourselves to others, but rather a way to build a
+shared understanding of what it means to be human. This shared understanding can then be the
+cornerstone to create a lifespan religious education program. Rev. Laura Shennum, Minister of
+Congregational Life; Rev. Vanessa Rush Southern, Senior Minister; Mari Magaloni Ramos, Worship
+Associate; Mark Sumner, Pi
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -211,7 +330,152 @@ Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 
-### Love is Love
+### Deep Time: Stories We Tell the Children, and the Work of Repair
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: history_memory
+- Layer routes: history_inputs, theologians
+- Primary layer: history_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 295
+- Year: 2021
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20210815MGComplete
+
+"Deep Time: Stories We Tell the Children, and the Work of Repair" (August 15, 2021) Worship Service
+A personal story about the journey to be a good ancestor. Rev. Mary McKinnon Ganz, Guest Minister;
+Carmen Barsody, Worship Associate; Alex Taite, tenor; My-Hoa Steger, accompanist; Brielle Marina
+Nielson, songleader Eric Shackelford, camera; Shulee Ong, camera; Jonathan Silk, OOS Design & sound;
+Joe Chapot, live chat moderator; Athena Papadakos, flowers; Alex Darr, Les James, Tom Brookshire,
+Zoom Coffee Hour Order of Service: https://bit.ly/20210815OS1 LIVESTREAM:
+https://youtu.be/Gr_uecb1Kqw
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### More Lonely - Philosophical poems by Sorin Cerin
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
+- Primary layer: history_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 567
+- Year: n.d.
+- URL: https://archive.org/details/9781091342187Morelonely
+
+SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is
+a mystic in his aphorisms, Sorin Cerin is a philosopher, the author of a new philosophical system
+called Coaxialism, an existentialist poet from the 21st century, essayist and novelist. Sorin Cerin
+is particularly sought after by the great public for the11,486 structured aphorisms in 14 volumes of
+thoughts previously published in various publishing houses, and then to be reunited under the aegis
+of a monumental volume called Wisdom Collection, a title that brought him celebrity and
+international recognition, for which he is considered to be one of the most representative thinkers
+of the aphori
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
+### 505 The Key of Truth: A Monument of Armenian Unitarianism
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: world_language_source_sampling
+- Layer routes: world_languages, all_texts, other_religious_texts, history_inputs
+- Primary layer: world_languages
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 451
+- Year: 2023
+- URL: https://archive.org/details/Restitutio-505_the_key_of_truth_a_monument_of_armenian_unitarianism
+
+The Key of Truth is a fascinating book, written by a sect of Armenian Unitarian Christians in the
+1700s. Originally under Muslim rule, this group of Christians migrated to Russian-controlled Armenia
+in the nineteenth century. Sadly, they faced investigation, persecution, fines, and probably exile
+at the hands of the Armenian Church authorities. Although lost to history, this group of twenty-five
+families lives on in their intriguing and bold surviving text--the Key of Truth . Translated into
+English by Frederick Cornwallis Conybeare, this book testifies to a biblical unitarian community
+trying to survive in a hostile environment. Here's the original paper (available to read online or
+to down
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### The dual correlations between core beliefs changes and emotion regulation among disaster-affected residents: the moderating role of religiousness orientation.
+
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, visual_art
+- Primary layer: psychology_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 424
+- Year: 2026
+- URL: https://doi.org/10.3389/fpsyg.2026.1710083
+
+Natural disasters not only cause material losses but also profoundly impact the psychological world
+of affected individuals, particularly their core belief systems. This study innovatively proposes
+the subjective perceptual concept of social capital sense, expanding the limitations of traditional
+objective measurements of social capital. Focusing on residents in the earthquake-stricken area of
+Shigatse, Tibet, China, on January 7, 2025, this research explores the dual relationships between
+core beliefs changes and emotion regulation. The study examines the relationships between core
+beliefs changes and post-traumatic growth, core beliefs changes and social capital sense, post-
+traumatic growt
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### Sabbath Redux
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -222,15 +486,18 @@ Layer review prompts:
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 314
-- Year: 2025
-- URL: https://archive.org/details/Sunnyhill_Unitarian_Universalist-17353070_love_is_love
+- Corroborating routed candidates: 317
+- Year: 2021
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20210321VRSComplete
 
-This service will be a celebration of the tenth anniversary of the U.S. Supreme Court’s decision
-affirming marriage equality. Having the right to marry (whether you choose to exercise that right or
-not) is an important step forward in the long struggle for LGBTQIA+ rights. At a time when many
-rights are in peril, it is especially important to celebrate and to affirm our support for those who
-have had to fight for freedoms many of us have taken for granted. www.sunnyhill.org
+"Sabbath Redux" (March 21, 2021) Worship Service One of the first sermons I preached here at UUSF
+was a sermon on the ancient idea of Sabbath. I think, strangely, it is time to preach it again as
+work and life merge even more than before and we need a way to reground and refresh spirit and body.
+Rev. Vanessa Rush Southern, Senior Minister Don Wiepert, Worship Associate Dolores Perez Heilbron
+and David Heilbron, Annual Operating Fund Campaign Reiko Oda Lane, organist Leandra Ramm, soprano
+Brielle Marina Neilson, alto Ben Rudiak-Gould, tenor Asher Davison, bass and conductor Wm. García
+Ganz, accompanist Eric Shackelford, camera Joe Chapot, Social Media Chat Support Alex Darr, Coffee
+Hour Zoom
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -243,3 +510,108 @@ Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
+### Dispute resolution in China: A test of black's theory of legal behavior.
+
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 399
+- Year: 2026
+- URL: https://doi.org/10.1371/journal.pone.0342190
+
+Since its introduction, Black's theory of legal behavior (BBL) has been widely applied in empirical
+studies to analyze legal decision-making and dispute resolution. However, its applicability in non-
+Western contexts remains underexplored. This study examines the extent to which Black's theory
+explains dispute resolution choices in China. Drawing on nationally representative data from the
+2013 Chinese General Social Survey (CGSS), this research systematically investigates how five social
+dimensions-stratification, morphology, culture, organization, and alternative social control-shape
+individuals' choices in resolving disputes. Conflict resolution strategies are categorized into four
+levels:
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Knowledge Transfer Exchange (KTE): The Challenge of Communicating Evidence-Based Information from Scientists to Citizens and Decision Makers—JDReAM’s Renewed Vision for Interdisciplinary Research in Science and Humanities for Health
+
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources
+- Primary layer: research_documents
+- Provider: Crossref
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 312
+- Year: 2025
+- URL: https://doi.org/10.3390/jdream6010001
+
+The current challenge for scientists, regardless of their research field or area of activity,
+consists in presenting the evidence emerging from studies carried out at the local, national, or
+even international level to the public and decision makers [...]
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Heroic Death: A Melancholic Existentialist Psychobiography of Jacques De Molay.
+
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources, visual_art
+- Primary layer: research_documents
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 423
+- Year: 2025
+- URL: https://doi.org/10.5964/ejop.17755
+
+This psychobiography aimed to reconstruct the life and death of Jacques de Molay (1243-1314), with
+particular focus upon his heroism as a mitigating psychological mechanism against the terror of
+death. Jacques de Molay was purposively sampled as subject. He was the Grand Master of the Knights
+Templar, an order of knighthood founded during the Crusades and dedicated to the mission of
+protecting Christian pilgrims and defending the Holy Land. He was confronted by betrayal; arrest;
+torture; confessions of heresy under duress; and public execution. Jacques de Molay's life offers an
+exemplary illustration of the melancholic existentialist theory of Ernest Becker, who posited that
+mortality create
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.

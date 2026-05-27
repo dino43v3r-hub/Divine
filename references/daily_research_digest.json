@@ -1,54 +1,59 @@
 {
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 508,
-    "strong_scholarly_candidate": 564,
+    "moderate_scholarly_candidate": 522,
+    "strong_scholarly_candidate": 568,
     "weak_scholarly_candidate": 54
   },
   "errors": [
-    "search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Too Many Requests",
-    "search_openalex failed for biblical_language_source_depth: The read operation timed out"
+    "search_arxiv failed for quantum_science_guardrails: The read operation timed out"
   ],
   "layer_counts": {
-    "all_texts": 347,
+    "all_texts": 352,
     "biblical_languages": 84,
-    "cultural_inputs": 274,
-    "deep_sources": 328,
-    "history_inputs": 284,
-    "human_stories": 265,
-    "modern_literature": 136,
+    "cultural_inputs": 279,
+    "deep_sources": 332,
+    "history_inputs": 291,
+    "human_stories": 267,
+    "modern_literature": 139,
     "music_notes": 78,
-    "other_religious_texts": 240,
-    "pattern_tests": 201,
-    "psychology_inputs": 261,
-    "research_documents": 127,
+    "other_religious_texts": 246,
+    "pattern_tests": 203,
+    "psychology_inputs": 264,
+    "research_documents": 131,
     "research_documents/christian_sources": 95,
-    "theologians": 277,
-    "visual_art": 361,
-    "world_languages": 208
+    "theologians": 284,
+    "visual_art": 367,
+    "world_languages": 210
   },
   "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 7
+    "moderate_scholarly_candidate": 14,
+    "strong_scholarly_candidate": 4
   },
-  "new_count": 7,
+  "new_count": 18,
   "new_layer_counts": {
-    "all_texts": 2,
-    "cultural_inputs": 3,
-    "deep_sources": 1,
-    "history_inputs": 2,
-    "modern_literature": 1,
-    "other_religious_texts": 2,
-    "pattern_tests": 1,
-    "research_documents": 1,
-    "theologians": 3,
-    "visual_art": 5
+    "all_texts": 5,
+    "cultural_inputs": 5,
+    "deep_sources": 4,
+    "history_inputs": 7,
+    "human_stories": 2,
+    "modern_literature": 3,
+    "other_religious_texts": 6,
+    "pattern_tests": 2,
+    "psychology_inputs": 3,
+    "research_documents": 4,
+    "theologians": 7,
+    "visual_art": 6,
+    "world_languages": 2
   },
   "new_provider_counts": {
-    "Internet Archive": 7
+    "Crossref": 1,
+    "Europe PMC": 7,
+    "Internet Archive": 10
   },
   "new_sources": [
     {
       "authors": [
-        "Rev. LaVera M. Parato"
+        "First Unitarian Dallas Podcast"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -61,38 +66,36 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 367,
+      "corroborating_source_count": 229,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/210626-2235",
+      "id": "https://archive.org/details/first_unitarian_dallas_podcast-podcast_10_05_25",
       "layer_review_prompts": [
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+        "Use as general research context until a more specific layer is reviewed."
       ],
       "layer_routes": [
         "theologians",
-        "research_documents",
-        "visual_art"
+        "research_documents"
       ],
       "primary_layer": "theologians",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "sermon given at Trinity Presbyterian Church, Havelock, NC; part of a series on the Nicene Creed",
+      "summary": "This series honors those whose courage and conviction formed the soul of our tradition. They were not perfect, but they were faithful: to truth, to love, and to the possibility of a better world. In honoring these ancestors of faith, we ask: What do we inherit from them? What do we carry forward? We begin with the 4th-century Unitarians who challenged the prevailing Trinitarian view of Jesus, asking whether their bold theological ideas still speak to us today. We move to the 19th-century Transcendentalists, whose vision of the \u201ctransient\u201d and the \u201cpermanent\u201d in religion continues to offer clarity and guidance. We then honor those in our movement who have defied oppressive systems, reminding ",
       "tags": [
         "trinity"
       ],
-      "title": "Maker of Heaven and Earth",
+      "title": "The Unitarian Trinity | Ancestors of Faith Series | Rev. Dr. Daniel Kanter",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/210626-2235",
-      "year": "2021"
+      "url": "https://archive.org/details/First_Unitarian_Dallas_Podcast-Podcast_10_05_25",
+      "year": "2025"
     },
     {
       "authors": [
-        "Maxwell Forteau"
+        "Northlake Unitarian Universalist Church"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -105,36 +108,128 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 497,
+      "corroborating_source_count": 229,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/spermatozoa",
+      "id": "https://archive.org/details/northlake_unitarian_universalist_church-lighting_a_beacon_sermon_by_rev_nancy",
       "layer_review_prompts": [
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed."
       ],
       "layer_routes": [
-        "deep_sources",
-        "pattern_tests",
-        "visual_art",
-        "history_inputs"
+        "theologians",
+        "research_documents"
       ],
-      "primary_layer": "deep_sources",
+      "primary_layer": "theologians",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org image",
-      "summary": "The Reality, Origins and Subsequent Changes in National Character \"The hills are alive with the sound of music With songs, they have sung for a thousand years The hills fill my heart with the sound of music. My heart wants to sing every song it hears....\" Richard Rogers In the early days of the study of heredity and ontogeny the idea existed that a little \"person\" known officially as the \"homunculus\" could be seen in microscopic preparations of spermatozoa; it was endowed with the ability to develop (enlarge) into an infant child to be born later. This idea is known as Preformation. Perhaps, the idea originated with the Biblical Adam who was thought to contain within himself all of the peopl",
+      "source_type": "archive.org audio",
+      "summary": "The Northlake vision is that we light a beacon for love & justice. We will explore how the UUA faith is a beacon, and what we might do at Northlake to shine our light in the world.",
+      "tags": [
+        "trinity"
+      ],
+      "title": "Lighting a Beacon \u2013 sermon by Rev. Nancy",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Northlake_Unitarian_Universalist_Church-lighting_a_beacon_sermon_by_rev_nancy",
+      "year": "2023"
+    },
+    {
+      "authors": [
+        "van Nieuw Amerongen J",
+        "van Stam C",
+        "Romkes-Bart A"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 9,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 611,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmc13203355/?tool=ebi",
+      "layer_review_prompts": [
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "pattern_tests",
+        "deep_sources",
+        "psychology_inputs",
+        "human_stories",
+        "all_texts"
+      ],
+      "primary_layer": "pattern_tests",
+      "provider": "Europe PMC",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "scholarly metadata",
+      "summary": "",
+      "tags": [
+        "unresolved_suffering"
+      ],
+      "title": "\u201cSo Much Comes Up\u201d: Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13203355/?tool=EBI",
+      "year": "2026"
+    },
+    {
+      "authors": [
+        "Liu L",
+        "Shi W",
+        "Xu S"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 9,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 291,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmc13210685/?tool=ebi",
+      "layer_review_prompts": [
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "deep_sources",
+        "pattern_tests"
+      ],
+      "primary_layer": "deep_sources",
+      "provider": "Europe PMC",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "scholarly metadata",
+      "summary": "",
       "tags": [
         "quantum_science_guardrails"
       ],
-      "title": "Origin of Personal and National Character",
+      "title": "Dispersion Compensation and Multi-Beam Interference Correction Algorithm for Thickness Measurement of SiC Epitaxial Layer",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Spermatozoa",
-      "year": "2024"
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13210685/?tool=EBI",
+      "year": "2026"
     },
     {
       "authors": [
@@ -150,11 +245,56 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 385,
+      "corroborating_source_count": 468,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/imamsirajwahaj",
+      "id": "https://archive.org/details/001alfaatiha_201404",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "world_languages",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- The Noble Qur'aan - \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 Qari - Abu Bakr ibn Muhammad ash-Shatree Translator - Kevan Brighting Translation of the Meanings - A Modern English Reading (Based on Dr. Muhammad Muhsin Khan) ------------------------------------------------------------------------------------------------------------------------------------------------------- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / ",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Complete Quran (114 Surahs) - Abu-Bakr ash-Shatri (with English Audio Translation)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/001AlFaatiha_201404",
+      "year": null
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 390,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/virginmary-motherofjesuspbut",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims.",
@@ -169,15 +309,155 @@
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Imam Siraj Wahhaj: Early life Wahhaj was born as Jeffrey Kearse and raised in Brooklyn. His mother was a nurse and his father a hospital dietician. His brother is a writer and editor Gregory S. Kearse of Silver Spring, Maryland. He went to church religiously and went on to become a Sunday school teacher as a teenager in a Baptist church. Wahhaj then later went on to the New York University on a pa",
+      "source_type": "archive.org movies",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Virgin Mary: Mother of Jesus (\u0639\u0644\u064a\u0647\u0645\u0627 \u0627\u0644\u0633\u0644\u0627\u0645) - The True Narrative {And Mary the daughter of 'Imran, who guarded her chastity; and We breathed into (her body) of Our spirit; and she testified to the truth of the words of her Lord and of His Revelations, and was one of the devout (servants).} (al-Qur'aan; 66.12) Mary (\u0645\u0631\u064a\u0645 Maryam in Arabic), the mother of Jesus (\u0639\u0644\u064a\u0647 \u0627\u0644\u0633\u0644\u0627\u0645), is one of the most righ",
       "tags": [
         "art_beauty"
       ],
-      "title": "Imam Siraj Wahhaj - Complete Audio Collection (200+)",
+      "title": "Virgin Mary: Mother of Jesus (\u0639\u0644\u064a\u0647\u0645\u0627 \u0627\u0644\u0633\u0644\u0627\u0645) - The True Narrative",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/ImamSirajWahaj",
+      "url": "https://archive.org/details/VirginMary-MotherOfJesuspbut",
       "year": null
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 390,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/xfridaynaseehaarchive1styearx",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- [There are currently SIX document files to download]... The following is a list of over 4 year's supply of weekly Naseeha (plus: 'Special Islamic Occasions' & 'Bonus Material') carefully compiled from authentic sources to be forwarded every Friday via social media such as; E-mail, Facebook, WhatsApp, Text-Message etc. BarakAllaahu-Feekum Inshaa Allaah! : ) The Messenger of Allaah ( \ufdfa ) said; \"He w",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Weekly Islamic Naseeha Collection (Facebook / WhatsApp / E-Mail / Text Message etc)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/XFridayNaseehaArchive1stYearX",
+      "year": null
+    },
+    {
+      "authors": [
+        "Singh R",
+        "Gibu Sabu M."
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 434,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmc13201184/?tool=ebi",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "cultural_inputs",
+        "modern_literature"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Europe PMC",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "scholarly metadata",
+      "summary": "",
+      "tags": [
+        "history_memory",
+        "technology_ethics"
+      ],
+      "title": "From human to posthuman bias: mapping discrimination in futuristic societies through speculative fiction",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13201184/?tool=EBI",
+      "year": null
+    },
+    {
+      "authors": [
+        "Rahayu D",
+        "Sukartini T",
+        "Bakar A"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 9,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 483,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmc13199825/?tool=ebi",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "all_texts",
+        "other_religious_texts"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Europe PMC",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "scholarly metadata",
+      "summary": "",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Islamic perspectives of spiritual needs in patients with breast cancer: A qualitative study",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13199825/?tool=EBI",
+      "year": "2026"
     },
     {
       "authors": [
@@ -194,99 +474,11 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 440,
+      "corroborating_source_count": 295,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/complete_service_first_unitari-20250622complete",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "all_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "\"Spirituality and Inner Freedom\" Sunday, June 22, 2025 These days, as basic human rights and freedoms are under constant attack, the battle for our attention is relentless. What if the real locus of our freedom is within each of us? What if we put greater attention there? Our former senior minister returns to our pulpit to speak about the vital role of spiritual practice and discipline in renewing the progressive soul of America. Rev. John Buehrens, Preacher; Sam King, Worship Associate; Reiko Oda Lane, organist; Allen Biggs and Tommy Kesecker, percussionists; Nancy Munn, songleader Jonathan Silk, Communications Director; Kelvin Jones, Jose Matias Pineda, and Francisco Castellanos, Sextons; ",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Spirituality and Inner Freedom",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Complete_Service_First_Unitari-20250622Complete",
-      "year": "2025"
-    },
-    {
-      "authors": [
-        "Woods, Ralph Louis, 1904-1989, editor"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 413,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/consolationsofca0000wood",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "theologians"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "342 pages 21 cm OUR REFUGE AND STRENTH. Infinite God and finite man / Bede Jarrett ; Giovanni Bona -- \"The omnipresent God\" / Frederick William Faber ; Joseph Rickaby -- The kingdom of God within us / Francois Fenelon ; Blaise Pascal -- \"Rich in mercy\" / Sgt. Alphonsus Rodriguez ; John A. O'Brien -- God's eternal love for man / St. Alphonsus de Liguori ; Fulton J. Sheen -- God's knowledge of each individual / John Henry Newman -- The patience of God ; Anscar Vonier -- The nearness of God / St. Augustine -- The eyes of God ; Vincent McNabb -- \"Faith's sight of Him\" / Frederick William Faber ; St. Augustine -- The hand of God / St. Augustine ; John Henry Newman -- Divine justice / Edward F. Ga",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "The consolations of Catholicism",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/consolationsofca0000wood",
-      "year": "1954"
-    },
-    {
-      "authors": [
-        "River Road Unitarian Universalist"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 292,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/river_road_unitarian_universalist-may_9_2021_stories_as_doorways",
+      "id": "https://archive.org/details/complete_service_first_unitari-20220925lscomplete",
       "layer_review_prompts": [
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
@@ -300,18 +492,18 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "How do the stories we tell shape the future? Is it possible that our stories can be portals or gateways into some new reality we haven\u2019t yet created? Is a story a doorway between one version of the world and the next, and how are we going to choose the stories we tell about this time in our lives and in history?",
+      "summary": "\u201cAre We Normal?\u201d Sunday, September 25, 10:50 am, Worship Service Livestream What is it about the human condition that is normal? And what is normal anyway? By taking lessons from our time in the pandemic, from my time as a hospital chaplain, and from our collective experiences as humans, we can explore how normal is not a concept to compare ourselves to others, but rather a way to build a shared understanding of what it means to be human. This shared understanding can then be the cornerstone to create a lifespan religious education program. Rev. Laura Shennum, Minister of Congregational Life; Rev. Vanessa Rush Southern, Senior Minister; Mari Magaloni Ramos, Worship Associate; Mark Sumner, Pi",
       "tags": [
         "history_memory"
       ],
-      "title": "Stories as Doorways",
+      "title": "Are We Normal?",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/River_Road_Unitarian_Universalist-May_9_2021_Stories_as_Doorways",
-      "year": "2021"
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20220925LSComplete",
+      "year": "2022"
     },
     {
       "authors": [
-        "Sunnyhill Unitarian Universalist"
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -324,11 +516,194 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 314,
+      "corroborating_source_count": 295,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/sunnyhill_unitarian_universalist-17353070_love_is_love",
+      "id": "https://archive.org/details/complete_service_first_unitari-20210815mgcomplete",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\"Deep Time: Stories We Tell the Children, and the Work of Repair\" (August 15, 2021) Worship Service A personal story about the journey to be a good ancestor. Rev. Mary McKinnon Ganz, Guest Minister; Carmen Barsody, Worship Associate; Alex Taite, tenor; My-Hoa Steger, accompanist; Brielle Marina Nielson, songleader Eric Shackelford, camera; Shulee Ong, camera; Jonathan Silk, OOS Design & sound; Joe Chapot, live chat moderator; Athena Papadakos, flowers; Alex Darr, Les James, Tom Brookshire, Zoom Coffee Hour Order of Service: https://bit.ly/20210815OS1 LIVESTREAM: https://youtu.be/Gr_uecb1Kqw",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Deep Time: Stories We Tell the Children, and the Work of Repair",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20210815MGComplete",
+      "year": "2021"
+    },
+    {
+      "authors": [
+        "Sorin Cerin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 567,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/9781091342187morelonely",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "visual_art",
+        "all_texts",
+        "modern_literature"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, the author of a new philosophical system called Coaxialism, an existentialist poet from the 21st century, essayist and novelist. Sorin Cerin is particularly sought after by the great public for the11,486 structured aphorisms in 14 volumes of thoughts previously published in various publishing houses, and then to be reunited under the aegis of a monumental volume called Wisdom Collection, a title that brought him celebrity and international recognition, for which he is considered to be one of the most representative thinkers of the aphori",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "More Lonely - Philosophical poems by Sorin Cerin",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/9781091342187Morelonely",
+      "year": null
+    },
+    {
+      "authors": [
+        "Restitutio"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 451,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/restitutio-505_the_key_of_truth_a_monument_of_armenian_unitarianism",
+      "layer_review_prompts": [
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "world_languages",
+        "all_texts",
+        "other_religious_texts",
+        "history_inputs"
+      ],
+      "primary_layer": "world_languages",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "The Key of Truth is a fascinating book, written by a sect of Armenian Unitarian Christians in the 1700s. Originally under Muslim rule, this group of Christians migrated to Russian-controlled Armenia in the nineteenth century. Sadly, they faced investigation, persecution, fines, and probably exile at the hands of the Armenian Church authorities. Although lost to history, this group of twenty-five families lives on in their intriguing and bold surviving text--the Key of Truth . Translated into English by Frederick Cornwallis Conybeare, this book testifies to a biblical unitarian community trying to survive in a hostile environment. Here's the original paper (available to read online or to down",
+      "tags": [
+        "world_language_source_sampling"
+      ],
+      "title": "505 The Key of Truth: A Monument of Armenian Unitarianism",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Restitutio-505_the_key_of_truth_a_monument_of_armenian_unitarianism",
+      "year": "2023"
+    },
+    {
+      "authors": [
+        "He Q",
+        "Zhang B."
+      ],
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates",
+        "counterargument or limitation language present"
+      ],
+      "automated_evidence_score": 11,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 424,
+      "date_accessed": "2026-05-27",
+      "doi": "10.3389/fpsyg.2026.1710083",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "10.3389/fpsyg.2026.1710083",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "human_stories",
+        "visual_art"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Europe PMC",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_strong_scholarly_candidate",
+      "source_type": "scholarly metadata",
+      "summary": "Natural disasters not only cause material losses but also profoundly impact the psychological world of affected individuals, particularly their core belief systems. This study innovatively proposes the subjective perceptual concept of social capital sense, expanding the limitations of traditional objective measurements of social capital. Focusing on residents in the earthquake-stricken area of Shigatse, Tibet, China, on January 7, 2025, this research explores the dual relationships between core beliefs changes and emotion regulation. The study examines the relationships between core beliefs changes and post-traumatic growth, core beliefs changes and social capital sense, post-traumatic growt",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "The dual correlations between core beliefs changes and emotion regulation among disaster-affected residents: the moderating role of religiousness orientation.",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1710083",
+      "year": "2026"
+    },
+    {
+      "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 317,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20210321vrscomplete",
       "layer_review_prompts": [
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
         "Read the tradition on its own terms; do not flatten it into Christian categories.",
@@ -344,13 +719,160 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "This service will be a celebration of the tenth anniversary of the U.S. Supreme Court\u2019s decision affirming marriage equality. Having the right to marry (whether you choose to exercise that right or not) is an important step forward in the long struggle for LGBTQIA+ rights. At a time when many rights are in peril, it is especially important to celebrate and to affirm our support for those who have had to fight for freedoms many of us have taken for granted. www.sunnyhill.org",
+      "summary": "\"Sabbath Redux\" (March 21, 2021) Worship Service One of the first sermons I preached here at UUSF was a sermon on the ancient idea of Sabbath. I think, strangely, it is time to preach it again as work and life merge even more than before and we need a way to reground and refresh spirit and body. Rev. Vanessa Rush Southern, Senior Minister Don Wiepert, Worship Associate Dolores Perez Heilbron and David Heilbron, Annual Operating Fund Campaign Reiko Oda Lane, organist Leandra Ramm, soprano Brielle Marina Neilson, alto Ben Rudiak-Gould, tenor Asher Davison, bass and conductor Wm. Garc\u00eda Ganz, accompanist Eric Shackelford, camera Joe Chapot, Social Media Chat Support Alex Darr, Coffee Hour Zoom ",
       "tags": [
         "global_text_traditions"
       ],
-      "title": "Love is Love",
+      "title": "Sabbath Redux",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Sunnyhill_Unitarian_Universalist-17353070_love_is_love",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20210321VRSComplete",
+      "year": "2021"
+    },
+    {
+      "authors": [
+        "Mao K",
+        "Xia Y."
+      ],
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 10,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 399,
+      "date_accessed": "2026-05-27",
+      "doi": "10.1371/journal.pone.0342190",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "10.1371/journal.pone.0342190",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Separate psychological/social process from theological interpretation and note clinical limits."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "psychology_inputs"
+      ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
+      "primary_layer": "cultural_inputs",
+      "provider": "Europe PMC",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_strong_scholarly_candidate",
+      "source_type": "scholarly metadata",
+      "summary": "Since its introduction, Black's theory of legal behavior (BBL) has been widely applied in empirical studies to analyze legal decision-making and dispute resolution. However, its applicability in non-Western contexts remains underexplored. This study examines the extent to which Black's theory explains dispute resolution choices in China. Drawing on nationally representative data from the 2013 Chinese General Social Survey (CGSS), this research systematically investigates how five social dimensions-stratification, morphology, culture, organization, and alternative social control-shape individuals' choices in resolving disputes. Conflict resolution strategies are categorized into four levels: ",
+      "tags": [
+        "cultural_practice_patterns"
+      ],
+      "title": "Dispute resolution in China: A test of black's theory of legal behavior.",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://doi.org/10.1371/journal.pone.0342190",
+      "year": "2026"
+    },
+    {
+      "authors": [
+        "Prisco Piscitelli",
+        "Michele Maffia"
+      ],
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "author metadata present",
+        "publication year present",
+        "recognized scholarly source type",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 11,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 312,
+      "date_accessed": "2026-05-27",
+      "doi": "10.3390/jdream6010001",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "10.3390/jdream6010001",
+      "layer_review_prompts": [
+        "Use as general research context until a more specific layer is reviewed.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "research_documents",
+        "deep_sources"
+      ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
+      "primary_layer": "research_documents",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_strong_scholarly_candidate",
+      "source_type": "journal-article",
+      "summary": "The current challenge for scientists, regardless of their research field or area of activity, consists in presenting the evidence emerging from studies carried out at the local, national, or even international level to the public and decision makers [...]",
+      "tags": [
+        "general_research_methods"
+      ],
+      "title": "Knowledge Transfer Exchange (KTE): The Challenge of Communicating Evidence-Based Information from Scientists to Citizens and Decision Makers\u2014JDReAM\u2019s Renewed Vision for Interdisciplinary Research in Science and Humanities for Health",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://doi.org/10.3390/jdream6010001",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Fouch\u00e9 PJP."
+      ],
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 10,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 423,
+      "date_accessed": "2026-05-27",
+      "doi": "10.5964/ejop.17755",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "10.5964/ejop.17755",
+      "layer_review_prompts": [
+        "Use as general research context until a more specific layer is reviewed.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "research_documents",
+        "deep_sources",
+        "visual_art"
+      ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
+      "primary_layer": "research_documents",
+      "provider": "Europe PMC",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_strong_scholarly_candidate",
+      "source_type": "scholarly metadata",
+      "summary": "This psychobiography aimed to reconstruct the life and death of Jacques de Molay (1243-1314), with particular focus upon his heroism as a mitigating psychological mechanism against the terror of death. Jacques de Molay was purposively sampled as subject. He was the Grand Master of the Knights Templar, an order of knighthood founded during the Crusades and dedicated to the mission of protecting Christian pilgrims and defending the Holy Land. He was confronted by betrayal; arrest; torture; confessions of heresy under duress; and public execution. Jacques de Molay's life offers an exemplary illustration of the melancholic existentialist theory of Ernest Becker, who posited that mortality create",
+      "tags": [
+        "general_research_methods"
+      ],
+      "title": "Heroic Death: A Melancholic Existentialist Psychobiography of Jacques De Molay.",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://doi.org/10.5964/ejop.17755",
       "year": "2025"
     }
   ],
@@ -359,8 +881,8 @@
     "Crossref": 305,
     "Europe PMC": 223,
     "Internet Archive": 106,
-    "OpenAlex": 141,
+    "OpenAlex": 288,
     "PubMed": 26
   },
-  "updated_at": "2026-05-27T14:16:07.158840+00:00"
+  "updated_at": "2026-05-27T21:21:28.585217+00:00"
 }
