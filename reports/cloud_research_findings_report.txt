@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-27T13:12:48.803702+00:00
-Total references: 1,119
-New references this run: 16
+Updated: 2026-05-27T14:16:07.197185+00:00
+Total references: 1,126
+New references this run: 7
 
 Guardrails
 ----------
@@ -24,15 +24,14 @@ Online Collection Status
   - Crossref: 305
   - Europe PMC: 223
   - Internet Archive: 106
-  - OpenAlex: 288
+  - OpenAlex: 141
   - PubMed: 26
 - Brand-new references added by provider:
-  - Crossref: 1
-  - Internet Archive: 15
+  - Internet Archive: 7
 - Total stored references by provider:
   - Crossref: 309
   - Europe PMC: 187
-  - Internet Archive: 283
+  - Internet Archive: 290
   - OpenAlex: 248
   - PubMed: 24
   - Tavily Search: 42
@@ -40,13 +39,13 @@ Online Collection Status
 
 Reference Tags
 --------------
-- art_beauty: 92
+- art_beauty: 95
 - biblical_language_source_depth: 41
 - biblical_languages: 30
 - cultural_practice_patterns: 48
 - general_research_methods: 45
-- global_text_traditions: 68
-- history_memory: 81
+- global_text_traditions: 69
+- history_memory: 82
 - holy_spirit_gifts_global: 30
 - interreligious_dream_testimony: 39
 - modern_literature_meaning: 47
@@ -54,31 +53,31 @@ Reference Tags
 - pattern_perception_divine_response: 43
 - politics_justice: 70
 - psychology_patterns: 58
-- quantum_science_guardrails: 82
+- quantum_science_guardrails: 83
 - technology_ethics: 66
 - theologians_cross_era: 29
-- trinity: 81
+- trinity: 83
 - unresolved_suffering: 43
 - world_language_source_sampling: 60
 - world_languages_translation: 53
 
 Layer Routes
 ------------
-- all_texts: 345
+- all_texts: 347
 - biblical_languages: 84
-- cultural_inputs: 271
-- deep_sources: 327
-- history_inputs: 282
+- cultural_inputs: 274
+- deep_sources: 328
+- history_inputs: 284
 - human_stories: 265
-- modern_literature: 135
+- modern_literature: 136
 - music_notes: 78
-- other_religious_texts: 238
-- pattern_tests: 200
+- other_religious_texts: 240
+- pattern_tests: 201
 - psychology_inputs: 261
-- research_documents: 125
+- research_documents: 127
 - research_documents/christian_sources: 95
-- theologians: 273
-- visual_art: 356
+- theologians: 277
+- visual_art: 361
 - world_languages: 208
 
 Layer Balance Watch
@@ -90,141 +89,82 @@ Layer Balance Watch
 Quality Counts
 --------------
 - open web result: 42
-- reference metadata: 281
+- reference metadata: 288
 - scholarly metadata: 768
 - scholarly preprint: 26
 - speculative-risk: 2
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 501
+- moderate_scholarly_candidate: 508
 - strong_scholarly_candidate: 564
 - weak_scholarly_candidate: 54
 
 New This Run By Tag
 -------------------
-- art_beauty: 4
-- history_memory: 3
-- pattern_perception_divine_response: 1
-- politics_justice: 3
+- art_beauty: 3
+- global_text_traditions: 1
+- history_memory: 1
 - quantum_science_guardrails: 1
-- technology_ethics: 1
-- trinity: 3
+- trinity: 1
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 3
-- cultural_inputs: 8
-- deep_sources: 2
-- history_inputs: 7
-- human_stories: 1
+- all_texts: 2
+- cultural_inputs: 3
+- deep_sources: 1
+- history_inputs: 2
 - modern_literature: 1
-- other_religious_texts: 4
-- pattern_tests: 3
-- psychology_inputs: 1
-- research_documents: 3
-- theologians: 6
-- visual_art: 11
-- world_languages: 2
+- other_religious_texts: 2
+- pattern_tests: 1
+- research_documents: 1
+- theologians: 3
+- visual_art: 5
 
 Newest Additions This Run
 ------------------------
-- 435-Holistic Biblical Unitarian Christianity (Theophilus Josiah) (2022)
+- Maker of Heaven and Earth (2021)
   Tags: trinity
-  Layer routes: theologians, research_documents, visual_art, pattern_tests
+  Layer routes: theologians, research_documents, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-435_holistic_biblical_unitarian_christianity_theophilus_josiah_3
-- 457 From Oneness to One (J. Dan Gill) (2022)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-457_from_oneness_to_one_j_dan_gill
-- Nicene Creed (2017)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/usccb_prayer_nicene_creed
-- CIA Reading Room cia-rdp96-00789r002200390001-5: ENHANCED HUMAN PERFORMANCE INVESTIGATION (1998)
+  URL: https://archive.org/details/210626-2235
+- Origin of Personal and National Character (2024)
   Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests
+  Layer routes: deep_sources, pattern_tests, visual_art, history_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r002200390001-5
-- CIA Reading Room cia-rdp80-00809a000700210211-8: POLITICAL-WAR CRIMINALS (1999)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art, world_languages
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/cia-readingroom-document-cia-rdp80-00809a000700210211-8
-- Sacred Guardians of This (2025)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20251026Complete
-- VOA [Voice of America] Global English : May 17, 2020 11:00AM-12:00PM EDT (2020)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Global_English_20200517_150000
-- Beautiful Islamic Revert Stories جميلة الإسلامية قصص المهتدين (n.d.)
+  URL: https://archive.org/details/Spermatozoa
+- Imam Siraj Wahhaj - Complete Audio Collection (200+) (n.d.)
   Tags: art_beauty
   Layer routes: visual_art, cultural_inputs, other_religious_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/BeautifulIslamicRevertStories
-- Jesus Christ (عليه السلام) in Islam - Last Lecture by Ahmed Deedat (رحمه الله) (n.d.)
+  URL: https://archive.org/details/ImamSirajWahaj
+- Spirituality and Inner Freedom (2025)
   Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, history_inputs, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/JesusChristpbuhInIslam
-- Complete Quran (114 Surahs) - Abdullah Basfer (with English Audio Translation) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, world_languages, all_texts, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/001AlFaatiha_20140318
-- Islam Worldwide - Global Impact (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/IslamWorldwideGlobalImpact
-- THE EVIL (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/SORINCERINTHEEVIL
-- SORIN CERIN - WISDOM COLLECTION (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/SorinCerin-WisdomCollection
-- Carols and Lessons. December 7, 2025 Chorealis (2025)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art
+  Layer routes: visual_art, cultural_inputs, all_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Unitarian_Church_of_Edmonton__UCE_-2225733437_user_189401827_carols_and_lessons_
-- The Religious Experience and Meaning-Making of Young Black Christians during the Rise of #BlackLivesMatter (2026)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
-  Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  URL: https://doi.org/10.5040/9781350874527.002
-- VOA [Voice of America] Global English : April 20, 2019 09:00PM-10:00PM EDT (2019)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs
+  URL: https://archive.org/details/Complete_Service_First_Unitari-20250622Complete
+- The consolations of Catholicism (1954)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, theologians
   Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Global_English_20190421_010000
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/consolationsofca0000wood
+- Stories as Doorways (2021)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/River_Road_Unitarian_Universalist-May_9_2021_Stories_as_Doorways
+- Love is Love (2025)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Sunnyhill_Unitarian_Universalist-17353070_love_is_love
 
 Recent Candidate Sources
 ------------------------
@@ -428,4 +368,5 @@ Recent Candidate Sources
 
 Collector Errors
 ----------------
-- search_arxiv failed for quantum_science_guardrails: The read operation timed out
+- search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Too Many Requests
+- search_openalex failed for biblical_language_source_depth: The read operation timed out

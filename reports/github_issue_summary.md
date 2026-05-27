@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-27T13:13:51.593948+00:00
+Generated: 2026-05-27T14:17:08.748846+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -40,18 +40,18 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-05-27T13:12:48.764555+00:00
-Retained cloud candidate references: 1,119
-Brand-new candidate references this run: 16
-Top new routed layers: visual_art: 11, cultural_inputs: 8, history_inputs: 7, theologians: 6
-New evidence mix: moderate_scholarly_candidate: 16
-New provider mix: Internet Archive: 15, Crossref: 1
+Collector run: 2026-05-27T14:16:07.158840+00:00
+Retained cloud candidate references: 1,126
+Brand-new candidate references this run: 7
+Top new routed layers: visual_art: 5, cultural_inputs: 3, theologians: 3, all_texts: 2
+New evidence mix: moderate_scholarly_candidate: 7
+New provider mix: Internet Archive: 7
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 
-_Full report has 359 lines. Open the linked report above to read everything._
+_Full report has 390 lines. Open the linked report above to read everything._
 ```
 
 ## reports/disciplined_theological_assistant_report.txt
@@ -101,7 +101,7 @@ Chapter One: What Grew In The Latest Run?
 -----------------------------------------
 This chapter summarizes the newest retained research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 509 lines. Open the linked report above to read everything._
+_Full report has 498 lines. Open the linked report above to read everything._
 ```
 
 ## reports/top_five_divine_patterns_report.txt
@@ -135,9 +135,9 @@ _Full report has 255 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-27T13:12:48.803702+00:00
-Total references: 1,119
-New references this run: 16
+Updated: 2026-05-27T14:16:07.197185+00:00
+Total references: 1,126
+New references this run: 7
 
 Guardrails
 ----------
@@ -151,7 +151,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 431 lines. Open the linked report above to read everything._
+_Full report has 372 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -170,13 +170,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 33
-Total analyzed words: 734,699
+Total analyzed words: 733,004
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 968 lines. Open the linked report above to read everything._
+_Full report has 964 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -391,15 +391,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### 435-Holistic Biblical Unitarian Christianity (Theophilus Josiah)
+### Maker of Heaven and Earth
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: trinity
-- Layer routes: theologians, research_documents, visual_art, pattern_tests
+- Layer routes: theologians, research_documents, visual_art
 - Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 572 lines. Open the linked report above to read everything._
+_Full report has 245 lines. Open the linked report above to read everything._
 ```

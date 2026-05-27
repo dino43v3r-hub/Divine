@@ -1,57 +1,54 @@
 {
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 501,
+    "moderate_scholarly_candidate": 508,
     "strong_scholarly_candidate": 564,
     "weak_scholarly_candidate": 54
   },
   "errors": [
-    "search_arxiv failed for quantum_science_guardrails: The read operation timed out"
+    "search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Too Many Requests",
+    "search_openalex failed for biblical_language_source_depth: The read operation timed out"
   ],
   "layer_counts": {
-    "all_texts": 345,
+    "all_texts": 347,
     "biblical_languages": 84,
-    "cultural_inputs": 271,
-    "deep_sources": 327,
-    "history_inputs": 282,
+    "cultural_inputs": 274,
+    "deep_sources": 328,
+    "history_inputs": 284,
     "human_stories": 265,
-    "modern_literature": 135,
+    "modern_literature": 136,
     "music_notes": 78,
-    "other_religious_texts": 238,
-    "pattern_tests": 200,
+    "other_religious_texts": 240,
+    "pattern_tests": 201,
     "psychology_inputs": 261,
-    "research_documents": 125,
+    "research_documents": 127,
     "research_documents/christian_sources": 95,
-    "theologians": 273,
-    "visual_art": 356,
+    "theologians": 277,
+    "visual_art": 361,
     "world_languages": 208
   },
   "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 16
+    "moderate_scholarly_candidate": 7
   },
-  "new_count": 16,
+  "new_count": 7,
   "new_layer_counts": {
-    "all_texts": 3,
-    "cultural_inputs": 8,
-    "deep_sources": 2,
-    "history_inputs": 7,
-    "human_stories": 1,
+    "all_texts": 2,
+    "cultural_inputs": 3,
+    "deep_sources": 1,
+    "history_inputs": 2,
     "modern_literature": 1,
-    "other_religious_texts": 4,
-    "pattern_tests": 3,
-    "psychology_inputs": 1,
-    "research_documents": 3,
-    "theologians": 6,
-    "visual_art": 11,
-    "world_languages": 2
+    "other_religious_texts": 2,
+    "pattern_tests": 1,
+    "research_documents": 1,
+    "theologians": 3,
+    "visual_art": 5
   },
   "new_provider_counts": {
-    "Crossref": 1,
-    "Internet Archive": 15
+    "Internet Archive": 7
   },
   "new_sources": [
     {
       "authors": [
-        "Restitutio"
+        "Rev. LaVera M. Parato"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -64,40 +61,38 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 480,
+      "corroborating_source_count": 367,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/restitutio-435_holistic_biblical_unitarian_christianity_theophilus_josiah_3",
+      "id": "https://archive.org/details/210626-2235",
       "layer_review_prompts": [
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
         "Use as general research context until a more specific layer is reviewed.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
         "theologians",
         "research_documents",
-        "visual_art",
-        "pattern_tests"
+        "visual_art"
       ],
       "primary_layer": "theologians",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Have you heard of the Integrity Syndicate ? No, not a crime syndicate, the Integrity Syndicate--the online ministry of Theophilus Josiah, my guest today. Abused and neglected by his parents and raised in a California orphanage, Josiah met God in his youth resulting in a new course for his life. Through a series of providential events, he went to college and became a mechanical engineer. His career included working on devices to aid hearts in their work to pump blood throughout the body. Now, he's bringing his analytic mind and passion to disseminate truth throughout the body of Christ via his 27 websites , his YouTube channel , and his conversations on Discord . Listen to this episode on Spo",
+      "summary": "sermon given at Trinity Presbyterian Church, Havelock, NC; part of a series on the Nicene Creed",
       "tags": [
         "trinity"
       ],
-      "title": "435-Holistic Biblical Unitarian Christianity (Theophilus Josiah)",
+      "title": "Maker of Heaven and Earth",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Restitutio-435_holistic_biblical_unitarian_christianity_theophilus_josiah_3",
-      "year": "2022"
+      "url": "https://archive.org/details/210626-2235",
+      "year": "2021"
     },
     {
       "authors": [
-        "Restitutio"
+        "Maxwell Forteau"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -110,162 +105,79 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 225,
+      "corroborating_source_count": 497,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/restitutio-457_from_oneness_to_one_j_dan_gill",
-      "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed."
-      ],
-      "layer_routes": [
-        "theologians",
-        "research_documents"
-      ],
-      "primary_layer": "theologians",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Have you heard of oneness theology? Also called \"Jesus only,\" this is the idea that Jesus is all there is. Jesus is the Father; Jesus is the Holy Spirit. Jesus has manifested himself in many ways over the years, but there is only one individual or self who is God. Although not exclusive to the Pentecostal movement, most oneness believers belong to charismatic (or apostolic) groups today. This is a classic message given by Pastor J. Dan Gill in the early 2000s. I remember sitting there in the audience listening to him share about his community's journey of faith and thinking to myself, \"Wow, he's my people!\" Whether you currently hold oneness theology or not, take a listen to Brother Gill's t",
-      "tags": [
-        "trinity"
-      ],
-      "title": "457 From Oneness to One (J. Dan Gill)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Restitutio-457_from_oneness_to_one_j_dan_gill",
-      "year": "2022"
-    },
-    {
-      "authors": [
-        "United States Conference of Catholic Bishops (USCCB)"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 225,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/usccb_prayer_nicene_creed",
-      "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed."
-      ],
-      "layer_routes": [
-        "theologians",
-        "research_documents"
-      ],
-      "primary_layer": "theologians",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "The Nicene Creed is the central profession of faith in the Catholic Church, recited at Mass and rooted in the Councils of Nicaea (325) and Constantinople (381). It proclaims belief in one God, the Father almighty, in Jesus Christ the Only Begotten Son of God, and in the Holy Spirit, the giver of life. The creed affirms the Incarnation, Passion, Resurrection, and Ascension of Christ, as well as the Church\u2019s apostolic nature, the forgiveness of sins, and the hope of resurrection and eternal life. This prayer unites Catholics worldwide in a shared confession of faith and is a cornerstone of Christian doctrine.",
-      "tags": [
-        "trinity"
-      ],
-      "title": "Nicene Creed",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/usccb_prayer_nicene_creed",
-      "year": "2017"
-    },
-    {
-      "authors": [
-        "CIA Reading Room"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 288,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r002200390001-5",
+      "id": "https://archive.org/details/spermatozoa",
       "layer_review_prompts": [
         "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
       ],
       "layer_routes": [
         "deep_sources",
-        "pattern_tests"
+        "pattern_tests",
+        "visual_art",
+        "history_inputs"
       ],
       "primary_layer": "deep_sources",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "For Release 2000/08/figEP96-00789R002200390001-5 Final Report Project 7408 December 1988 Covering the Period November 1983 to October 1985 11 ENHANCED HUMAN PERFORMANCE INVESTIGATIONS (U) By: EDWIN C. MAY Prepared for: JEAN V. SMITH CONTRACTING OFFICER SRI Project 7408 SG1A WARNING NOTICE RESTRICTED DISSEMINATION TO THOSE WITH VERIFIED ACCESS TO THE PROJECT Approved by: Copy A. of 3 Copies MURRAY J. BARON, Director This document consists 3 of pages Geoscience and Engineering Center SRI/GF-0284a CLASSIFIED BY: HQ, USAMRDC (SGRD-ZA) DECLASSIFY ON: OADR SECRET NOT RELEASABLE TO FOREIGN NATIONALS ved For R4i6'ati~ ~0/b/0g'0-dfi-9kbp D( ftM002200390001-5 Approved For Release 2000/OCIXDP96-00789R0",
+      "source_type": "archive.org image",
+      "summary": "The Reality, Origins and Subsequent Changes in National Character \"The hills are alive with the sound of music With songs, they have sung for a thousand years The hills fill my heart with the sound of music. My heart wants to sing every song it hears....\" Richard Rogers In the early days of the study of heredity and ontogeny the idea existed that a little \"person\" known officially as the \"homunculus\" could be seen in microscopic preparations of spermatozoa; it was endowed with the ability to develop (enlarge) into an infant child to be born later. This idea is known as Preformation. Perhaps, the idea originated with the Biblical Adam who was thought to contain within himself all of the peopl",
       "tags": [
         "quantum_science_guardrails"
       ],
-      "title": "CIA Reading Room cia-rdp96-00789r002200390001-5: ENHANCED HUMAN PERFORMANCE INVESTIGATION",
+      "title": "Origin of Personal and National Character",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r002200390001-5",
-      "year": "1998"
+      "url": "https://archive.org/details/Spermatozoa",
+      "year": "2024"
     },
     {
       "authors": [
-        "CIA Reading Room"
+        "Alzuridin"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "trusted archive, university, government, museum, library, or public-domain domain",
         "author metadata present",
-        "publication year present",
         "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 8,
+      "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 429,
+      "corroborating_source_count": 385,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp80-00809a000700210211-8",
+      "id": "https://archive.org/details/imamsirajwahaj",
       "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
       ],
       "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
         "visual_art",
-        "world_languages"
+        "cultural_inputs",
+        "other_religious_texts"
       ],
-      "primary_layer": "cultural_inputs",
+      "primary_layer": "visual_art",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Declassified in Part - Sanitized Copy Approved for Release 2012/09/27: CIA-RDP80-00809A000700210211-8 ruM 195Z ? CLASSIFICATION RESTRICTED SECURITY INFORMATION CENTRAL INTELLIGENCE AGENCY REPORT INFORMATION FROM FOREIGN DOCUMENTS OR RADIO BROADCASTS CD NO. COUNTRY Yugoslavia DATE OF INFORMATION 19119 SUBJECT Political - War criminals HOW PUBLISHED Handbook WHERE PUBLISHED Belgrade DATE PUBLISHED 19)49 LANGUAGE Serbian TmIS SOCURIENT CONTAINS INFOOMATION AFFCCTIMO INA RATION.. OE $$$$$ OT Too umistO srsies. 2I7mI01700IA4I00 or 7/71.5 Is SAVIORS TT] SAO TS/, or VOL U.S. CODE. Al AMISOLO. ITS 724510152(05 cot st?. LATIO4 Of ITS CONTENTS TO OR PUMP? er Aft WrAUTmOR/ItO PIOSOM IS ? Tka ??? ??? SO",
+      "source_type": "archive.org audio",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Imam Siraj Wahhaj: Early life Wahhaj was born as Jeffrey Kearse and raised in Brooklyn. His mother was a nurse and his father a hospital dietician. His brother is a writer and editor Gregory S. Kearse of Silver Spring, Maryland. He went to church religiously and went on to become a Sunday school teacher as a teenager in a Baptist church. Wahhaj then later went on to the New York University on a pa",
       "tags": [
-        "politics_justice"
+        "art_beauty"
       ],
-      "title": "CIA Reading Room cia-rdp80-00809a000700210211-8: POLITICAL-WAR CRIMINALS",
+      "title": "Imam Siraj Wahhaj - Complete Audio Collection (200+)",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp80-00809a000700210211-8",
-      "year": "1999"
+      "url": "https://archive.org/details/ImamSirajWahaj",
+      "year": null
     },
     {
       "authors": [
@@ -282,349 +194,38 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 329,
+      "corroborating_source_count": 440,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/complete_service_first_unitari-20251026complete",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "visual_art"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "\"Sacred Guardians of This\" Sunday, October 26, 2025, 10:50 am Through history a lot has changed. The building we have met in has changed a few times, how we have explained our theology has changed, how we have worship has changed a bit, what we sing has changed, what our ministers have looked like has gotten more diverse, and how people find us and even access our Sunday morning services has, for some, changed. There are a few things that haven't changed. And one role, in particular, that we play that I don't think gets talked about enough but matters greatly. See you for service, for the luncheon and celebration, and for the auction! Rev. Vanessa Rush Southern, Senior Minister; Rev. Laura S",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "Sacred Guardians of This",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Complete_Service_First_Unitari-20251026Complete",
-      "year": "2025"
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 329,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20200517_150000",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "visual_art"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 It's America. 00:00:09 This is v.o.a. 00:00:10 News fear remote I'm pleased health and 312000 people around the world have died as 00:00:15 a result of Kovac 19 while the number of confirmed infections exceeds 4600000 in 00:00:22 the us the number of deaths approaches 89000 while the number of confirmed 00:00:26 infections his well over 1400000 as state after u.s. 00:00:31 State begins to reopen local health departments charged with tracking down everyone 00:00:36 who has been in close contact with those who test positive for Krone virus are 00:00:41 still scrambling to hire enough people they are hundreds if not thousands of people 00:00:46 short of targ",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "VOA [Voice of America] Global English : May 17, 2020 11:00AM-12:00PM EDT",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20200517_150000",
-      "year": "2020"
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 385,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/beautifulislamicrevertstories",
+      "id": "https://archive.org/details/complete_service_first_unitari-20250622complete",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- A compilation of some of the many beautiful Islamic revert stories. Islaam is the world's fastest growing religion, especially in the West. These links may help you in your quest & journey to the Truth Inshaa Allaah!: 200 Islamic Websites: 1001Inventions.com (Muslim Heritage) 2Muslims.com 8thScroll.com 99AllahNames.com 99Islam.com Ahmed-Deedat.co.za AltMuslim.com AmbersDenyDarwin.com Answering-Ext",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Beautiful Islamic Revert Stories \u062c\u0645\u064a\u0644\u0629 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u0629 \u0642\u0635\u0635 \u0627\u0644\u0645\u0647\u062a\u062f\u064a\u0646",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/BeautifulIslamicRevertStories",
-      "year": null
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 435,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/jesuschristpbuhinislam",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "history_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- ~ Jesus (\u0639\u0644\u064a\u0647 \u0627\u0644\u0633\u0644\u0627\u0645) in Islam ~ Was Jesus God? Or was he sent by God? Who was the real historical Jesus? Jesus never calls himself God: The Bible contains many verses in which Jesus speaks of God as a separate person to himself. Here are just a few of them: When a man addressed Jesus as \"Good Teacher\", he replied \"Why do you call me good? No one is good except the One God.'' [Mark; 10.18] In anot",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Jesus Christ (\u0639\u0644\u064a\u0647 \u0627\u0644\u0633\u0644\u0627\u0645) in Islam - Last Lecture by Ahmed Deedat (\u0631\u062d\u0645\u0647 \u0627\u0644\u0644\u0647)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/JesusChristpbuhInIslam",
-      "year": null
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 513,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/001alfaatiha_20140318",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "world_languages",
-        "all_texts",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- The Noble Qur'aan - \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 Qari - Abdullah ibn 'Ali Basfar Translator - Ibrahim Walk Translation of the Meanings - Saheeh International ------------------------------------------------------------------------------------------------------------------------------------------------------- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / Koran / Recital / Revelation / Scripture / Furqan / ",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Complete Quran (114 Surahs) - Abdullah Basfer (with English Audio Translation)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/001AlFaatiha_20140318",
-      "year": null
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 385,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/islamworldwideglobalimpact",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Let's talk frankly. Almost never do non-Muslims study Islaam until they have first exhausted the religions of their exposure. Only after they have grown dissatisfied with the religions familiar to them, meaning Judaism, Christianity and all the fashionable \"-isms\"\u2014Buddhism, Taoism, Hinduism (and, as someone once added, \"tourism\")\u2014do they consider Islaam. Perhaps other religions do not answer the b",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Islam Worldwide - Global Impact",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/IslamWorldwideGlobalImpact",
-      "year": null
-    },
-    {
-      "authors": [
-        "Sorin Cerin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 557,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/sorincerintheevil",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
       ],
       "layer_routes": [
-        "history_inputs",
-        "theologians",
         "visual_art",
+        "cultural_inputs",
         "all_texts"
       ],
-      "primary_layer": "history_inputs",
+      "primary_layer": "visual_art",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard, philosopher,- the creator of Coaxialism, \u2013 compared to Schopenhauer, Nietzsche and Wittgenstein. Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in 14 volumes of thoughts previously published in various publishing houses, and then to be reunited under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity and international recognition, for which he is considered to be one of the most representative thinkers of the aphoris",
+      "source_type": "archive.org audio",
+      "summary": "\"Spirituality and Inner Freedom\" Sunday, June 22, 2025 These days, as basic human rights and freedoms are under constant attack, the battle for our attention is relentless. What if the real locus of our freedom is within each of us? What if we put greater attention there? Our former senior minister returns to our pulpit to speak about the vital role of spiritual practice and discipline in renewing the progressive soul of America. Rev. John Buehrens, Preacher; Sam King, Worship Associate; Reiko Oda Lane, organist; Allen Biggs and Tommy Kesecker, percussionists; Nancy Munn, songleader Jonathan Silk, Communications Director; Kelvin Jones, Jose Matias Pineda, and Francisco Castellanos, Sextons; ",
       "tags": [
-        "history_memory"
+        "art_beauty"
       ],
-      "title": "THE EVIL",
+      "title": "Spirituality and Inner Freedom",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/SORINCERINTHEEVIL",
-      "year": null
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20250622Complete",
+      "year": "2025"
     },
     {
       "authors": [
-        "Sorin Cerin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 561,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/sorincerin-wisdomcollection",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians",
-        "visual_art",
-        "all_texts",
-        "modern_literature"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Warning, this is the first edition of the Wisdom Collection, the last and the complete one you can find here: https://archive.org/details/9781499109979WisdomCollectionCompleteWorksofAphorismsReferenceEdition or here: https://books.google.ro/books?id=LMpYAwAAQBAJ&dq=wisdom+collection+complete+works+of+aphorisms&hl=ro&source=gbs_navlinks_s SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, the author of a new philosophical system called Coaxialism, an existentialist poet from the 21st century, essayist and novelist. Sorin Cerin is particularly sought after by the great public for the11,486",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "SORIN CERIN - WISDOM COLLECTION",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/SorinCerin-WisdomCollection",
-      "year": null
-    },
-    {
-      "authors": [
-        "Unitarian Church of Edmonton (UCE)"
+        "Woods, Ralph Louis, 1904-1989, editor"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -637,117 +238,120 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 409,
+      "corroborating_source_count": 413,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/unitarian_church_of_edmonton__uce_-2225733437_user_189401827_carols_and_lessons_",
+      "id": "https://archive.org/details/consolationsofca0000wood",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "theologians"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "342 pages 21 cm OUR REFUGE AND STRENTH. Infinite God and finite man / Bede Jarrett ; Giovanni Bona -- \"The omnipresent God\" / Frederick William Faber ; Joseph Rickaby -- The kingdom of God within us / Francois Fenelon ; Blaise Pascal -- \"Rich in mercy\" / Sgt. Alphonsus Rodriguez ; John A. O'Brien -- God's eternal love for man / St. Alphonsus de Liguori ; Fulton J. Sheen -- God's knowledge of each individual / John Henry Newman -- The patience of God ; Anscar Vonier -- The nearness of God / St. Augustine -- The eyes of God ; Vincent McNabb -- \"Faith's sight of Him\" / Frederick William Faber ; St. Augustine -- The hand of God / St. Augustine ; John Henry Newman -- Divine justice / Edward F. Ga",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "The consolations of Catholicism",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/consolationsofca0000wood",
+      "year": "1954"
+    },
+    {
+      "authors": [
+        "River Road Unitarian Universalist"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 292,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/river_road_unitarian_universalist-may_9_2021_stories_as_doorways",
       "layer_review_prompts": [
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
       ],
       "layer_routes": [
         "history_inputs",
-        "theologians",
-        "visual_art"
+        "theologians"
       ],
       "primary_layer": "history_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Order of Service Carols and Lessons December 7, 2025 Chorealis Service Leader: Karen Mills Get your holiday spirit in gear with songs and readings from Chorealis. You're invited to share inseasonal songs (one's a world premiere!), heartfelt readings and the warmth of community on this winter morn. Chimes Welcome and Announcements Land Acknowledgment Prelude Winter Lullaby \u2013 by Pinkzebra - Chorealis Opening Words We are in the Midst by Elizabeth M. Strong Chalice Lighting The Nights of Midwinter by D.C. Fortune Celebrating the Darkness by Jon VonRue read by Jeff Bisanz Hymn #55 Dark of Winter by Shirley J. Denham Reading: Joy by Jan K. Nielsen read by John Pater Lighting the Advent Candles Ma",
+      "summary": "How do the stories we tell shape the future? Is it possible that our stories can be portals or gateways into some new reality we haven\u2019t yet created? Is a story a doorway between one version of the world and the next, and how are we going to choose the stories we tell about this time in our lives and in history?",
       "tags": [
         "history_memory"
       ],
-      "title": "Carols and Lessons. December 7, 2025 Chorealis",
+      "title": "Stories as Doorways",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Unitarian_Church_of_Edmonton__UCE_-2225733437_user_189401827_carols_and_lessons_",
-      "year": "2025"
+      "url": "https://archive.org/details/River_Road_Unitarian_Universalist-May_9_2021_Stories_as_Doorways",
+      "year": "2021"
     },
     {
       "authors": [
-        "Montague R. Williams"
+        "Sunnyhill Unitarian Universalist"
       ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "DOI or stable scholarly identifier present",
-        "author metadata present",
-        "publication year present",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 9,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "corroborating_source_count": 474,
-      "date_accessed": "2026-05-27",
-      "doi": "10.5040/9781350874527.002",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "10.5040/9781350874527.002",
-      "layer_review_prompts": [
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
-      ],
-      "layer_routes": [
-        "psychology_inputs",
-        "pattern_tests",
-        "human_stories",
-        "deep_sources"
-      ],
-      "primary_layer": "psychology_inputs",
-      "provider": "Crossref",
-      "quality": "scholarly metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "other",
-      "summary": "",
-      "tags": [
-        "pattern_perception_divine_response"
-      ],
-      "title": "The Religious Experience and Meaning-Making of Young Black Christians during the Rise of #BlackLivesMatter",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://doi.org/10.5040/9781350874527.002",
-      "year": 2026
-    },
-    {
-      "authors": [],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
         "publication year present",
         "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 7,
+      "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 150,
+      "corroborating_source_count": 314,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20190421_010000",
+      "id": "https://archive.org/details/sunnyhill_unitarian_universalist-17353070_love_is_love",
       "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims."
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
       ],
       "layer_routes": [
-        "cultural_inputs"
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature"
       ],
-      "primary_layer": "cultural_inputs",
+      "primary_layer": "all_texts",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 Actually has details the men aged eighteen and nineteen Y. 00:00:03 Detained on the anti-terrorism legislation and taken to Belfast for questioning the 00:00:08 Police Service of Northern Ireland said the man haven't been identified or charged 00:00:14 on the key a twenty nine years old 00:00:15 a rising star of investigative journalism was shot and killed probably by 00:00:20 a stray bullet aimed at police during writing night police said the new IRA 00:00:26 descendant group was most likely responsible and called it 00:00:30 a terrorist act. As the keeper in Topeka Kansas was mauled Saturday by 00:00:36 a Sumatran tiger at the zoo zoo director Brendan W",
+      "summary": "This service will be a celebration of the tenth anniversary of the U.S. Supreme Court\u2019s decision affirming marriage equality. Having the right to marry (whether you choose to exercise that right or not) is an important step forward in the long struggle for LGBTQIA+ rights. At a time when many rights are in peril, it is especially important to celebrate and to affirm our support for those who have had to fight for freedoms many of us have taken for granted. www.sunnyhill.org",
       "tags": [
-        "technology_ethics"
+        "global_text_traditions"
       ],
-      "title": "VOA [Voice of America] Global English : April 20, 2019 09:00PM-10:00PM EDT",
+      "title": "Love is Love",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20190421_010000",
-      "year": "2019"
+      "url": "https://archive.org/details/Sunnyhill_Unitarian_Universalist-17353070_love_is_love",
+      "year": "2025"
     }
   ],
   "opencitations_enriched_count": 25,
@@ -755,8 +359,8 @@
     "Crossref": 305,
     "Europe PMC": 223,
     "Internet Archive": 106,
-    "OpenAlex": 288,
+    "OpenAlex": 141,
     "PubMed": 26
   },
-  "updated_at": "2026-05-27T13:12:48.764555+00:00"
+  "updated_at": "2026-05-27T14:16:07.158840+00:00"
 }

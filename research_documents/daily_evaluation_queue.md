@@ -7,29 +7,22 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### 435-Holistic Biblical Unitarian Christianity (Theophilus Josiah)
+### Maker of Heaven and Earth
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: trinity
-- Layer routes: theologians, research_documents, visual_art, pattern_tests
+- Layer routes: theologians, research_documents, visual_art
 - Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 480
-- Year: 2022
-- URL: https://archive.org/details/Restitutio-435_holistic_biblical_unitarian_christianity_theophilus_josiah_3
+- Corroborating routed candidates: 367
+- Year: 2021
+- URL: https://archive.org/details/210626-2235
 
-Have you heard of the Integrity Syndicate ? No, not a crime syndicate, the Integrity Syndicate--the
-online ministry of Theophilus Josiah, my guest today. Abused and neglected by his parents and raised
-in a California orphanage, Josiah met God in his youth resulting in a new course for his life.
-Through a series of providential events, he went to college and became a mechanical engineer. His
-career included working on devices to aid hearts in their work to pump blood throughout the body.
-Now, he's bringing his analytic mind and passion to disseminate truth throughout the body of Christ
-via his 27 websites , his YouTube channel , and his conversations on Discord . Listen to this
-episode on Spo
+sermon given at Trinity Presbyterian Church, Havelock, NC; part of a series on the Nicene Creed
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -42,100 +35,30 @@ Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Use as general research context until a more specific layer is reviewed.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### 457 From Oneness to One (J. Dan Gill)
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity
-- Layer routes: theologians, research_documents
-- Primary layer: theologians
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 225
-- Year: 2022
-- URL: https://archive.org/details/Restitutio-457_from_oneness_to_one_j_dan_gill
-
-Have you heard of oneness theology? Also called "Jesus only," this is the idea that Jesus is all
-there is. Jesus is the Father; Jesus is the Holy Spirit. Jesus has manifested himself in many ways
-over the years, but there is only one individual or self who is God. Although not exclusive to the
-Pentecostal movement, most oneness believers belong to charismatic (or apostolic) groups today. This
-is a classic message given by Pastor J. Dan Gill in the early 2000s. I remember sitting there in the
-audience listening to him share about his community's journey of faith and thinking to myself, "Wow,
-he's my people!" Whether you currently hold oneness theology or not, take a listen to Brother Gill's
-t
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Use as general research context until a more specific layer is reviewed.
-
-### Nicene Creed
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity
-- Layer routes: theologians, research_documents
-- Primary layer: theologians
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 225
-- Year: 2017
-- URL: https://archive.org/details/usccb_prayer_nicene_creed
-
-The Nicene Creed is the central profession of faith in the Catholic Church, recited at Mass and
-rooted in the Councils of Nicaea (325) and Constantinople (381). It proclaims belief in one God, the
-Father almighty, in Jesus Christ the Only Begotten Son of God, and in the Holy Spirit, the giver of
-life. The creed affirms the Incarnation, Passion, Resurrection, and Ascension of Christ, as well as
-the Church’s apostolic nature, the forgiveness of sins, and the hope of resurrection and eternal
-life. This prayer unites Catholics worldwide in a shared confession of faith and is a cornerstone of
-Christian doctrine.
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Use as general research context until a more specific layer is reviewed.
-
-### CIA Reading Room cia-rdp96-00789r002200390001-5: ENHANCED HUMAN PERFORMANCE INVESTIGATION
+### Origin of Personal and National Character
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests
+- Layer routes: deep_sources, pattern_tests, visual_art, history_inputs
 - Primary layer: deep_sources
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 288
-- Year: 1998
-- URL: https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r002200390001-5
+- Corroborating routed candidates: 497
+- Year: 2024
+- URL: https://archive.org/details/Spermatozoa
 
-For Release 2000/08/figEP96-00789R002200390001-5 Final Report Project 7408 December 1988 Covering
-the Period November 1983 to October 1985 11 ENHANCED HUMAN PERFORMANCE INVESTIGATIONS (U) By: EDWIN
-C. MAY Prepared for: JEAN V. SMITH CONTRACTING OFFICER SRI Project 7408 SG1A WARNING NOTICE
-RESTRICTED DISSEMINATION TO THOSE WITH VERIFIED ACCESS TO THE PROJECT Approved by: Copy A. of 3
-Copies MURRAY J. BARON, Director This document consists 3 of pages Geoscience and Engineering Center
-SRI/GF-0284a CLASSIFIED BY: HQ, USAMRDC (SGRD-ZA) DECLASSIFY ON: OADR SECRET NOT RELEASABLE TO
-FOREIGN NATIONALS ved For R4i6'ati~ ~0/b/0g'0-dfi-9kbp D( ftM002200390001-5 Approved For Release
-2000/OCIXDP96-00789R0
+The Reality, Origins and Subsequent Changes in National Character "The hills are alive with the
+sound of music With songs, they have sung for a thousand years The hills fill my heart with the
+sound of music. My heart wants to sing every song it hears...." Richard Rogers In the early days of
+the study of heredity and ontogeny the idea existed that a little "person" known officially as the
+"homunculus" could be seen in microscopic preparations of spermatozoa; it was endowed with the
+ability to develop (enlarge) into an infant child to be born later. This idea is known as
+Preformation. Perhaps, the idea originated with the Biblical Adam who was thought to contain within
+himself all of the peopl
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -147,67 +70,67 @@ Automated evidence reasons:
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 
-### CIA Reading Room cia-rdp80-00809a000700210211-8: POLITICAL-WAR CRIMINALS
+### Imam Siraj Wahhaj - Complete Audio Collection (200+)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs, visual_art, world_languages
-- Primary layer: cultural_inputs
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, other_religious_texts
+- Primary layer: visual_art
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
+- Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 429
-- Year: 1999
-- URL: https://archive.org/details/cia-readingroom-document-cia-rdp80-00809a000700210211-8
+- Corroborating routed candidates: 385
+- Year: n.d.
+- URL: https://archive.org/details/ImamSirajWahaj
 
-Declassified in Part - Sanitized Copy Approved for Release 2012/09/27: CIA-
-RDP80-00809A000700210211-8 ruM 195Z ? CLASSIFICATION RESTRICTED SECURITY INFORMATION CENTRAL
-INTELLIGENCE AGENCY REPORT INFORMATION FROM FOREIGN DOCUMENTS OR RADIO BROADCASTS CD NO. COUNTRY
-Yugoslavia DATE OF INFORMATION 19119 SUBJECT Political - War criminals HOW PUBLISHED Handbook WHERE
-PUBLISHED Belgrade DATE PUBLISHED 19)49 LANGUAGE Serbian TmIS SOCURIENT CONTAINS INFOOMATION
-AFFCCTIMO INA RATION.. OE $$$$$ OT Too umistO srsies. 2I7mI01700IA4I00 or 7/71.5 Is SAVIORS TT] SAO
-TS/, or VOL U.S. CODE. Al AMISOLO. ITS 724510152(05 cot st?. LATIO4 Of ITS CONTENTS TO OR PUMP? er
-Aft WrAUTmOR/ItO PIOSOM IS ? Tka ??? ??? SO
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Islamic files. -----------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Imam Siraj Wahhaj: Early life Wahhaj was born as Jeffrey Kearse and raised in Brooklyn. His mother
+was a nurse and his father a hospital dietician. His brother is a writer and editor Gregory S.
+Kearse of Silver Spring, Maryland. He went to church religiously and went on to become a Sunday
+school teacher as a teenager in a Baptist church. Wahhaj then later went on to the New York
+University on a pa
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
-- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### Sacred Guardians of This
+### Spirituality and Inner Freedom
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs, visual_art
-- Primary layer: cultural_inputs
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, all_texts
+- Primary layer: visual_art
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 329
+- Corroborating routed candidates: 440
 - Year: 2025
-- URL: https://archive.org/details/Complete_Service_First_Unitari-20251026Complete
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20250622Complete
 
-"Sacred Guardians of This" Sunday, October 26, 2025, 10:50 am Through history a lot has changed. The
-building we have met in has changed a few times, how we have explained our theology has changed, how
-we have worship has changed a bit, what we sing has changed, what our ministers have looked like has
-gotten more diverse, and how people find us and even access our Sunday morning services has, for
-some, changed. There are a few things that haven't changed. And one role, in particular, that we
-play that I don't think gets talked about enough but matters greatly. See you for service, for the
-luncheon and celebration, and for the auction! Rev. Vanessa Rush Southern, Senior Minister; Rev.
-Laura S
+"Spirituality and Inner Freedom" Sunday, June 22, 2025 These days, as basic human rights and
+freedoms are under constant attack, the battle for our attention is relentless. What if the real
+locus of our freedom is within each of us? What if we put greater attention there? Our former senior
+minister returns to our pulpit to speak about the vital role of spiritual practice and discipline in
+renewing the progressive soul of America. Rev. John Buehrens, Preacher; Sam King, Worship Associate;
+Reiko Oda Lane, organist; Allen Biggs and Tommy Kesecker, percussionists; Nancy Munn, songleader
+Jonathan Silk, Communications Director; Kelvin Jones, Jose Matias Pineda, and Francisco Castellanos,
+Sextons;
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -217,356 +140,106 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### VOA [Voice of America] Global English : May 17, 2020 11:00AM-12:00PM EDT
+### The consolations of Catholicism
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs, visual_art
-- Primary layer: cultural_inputs
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, theologians
+- Primary layer: visual_art
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
+- Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 329
-- Year: 2020
-- URL: https://archive.org/details/VOA_Global_English_20200517_150000
+- Corroborating routed candidates: 413
+- Year: 1954
+- URL: https://archive.org/details/consolationsofca0000wood
 
-Closed captions transcript: 00:00:00 It's America. 00:00:09 This is v.o.a. 00:00:10 News fear remote
-I'm pleased health and 312000 people around the world have died as 00:00:15 a result of Kovac 19
-while the number of confirmed infections exceeds 4600000 in 00:00:22 the us the number of deaths
-approaches 89000 while the number of confirmed 00:00:26 infections his well over 1400000 as state
-after u.s. 00:00:31 State begins to reopen local health departments charged with tracking down
-everyone 00:00:36 who has been in close contact with those who test positive for Krone virus are
-00:00:41 still scrambling to hire enough people they are hundreds if not thousands of people
-00:00:46 short of targ
+342 pages 21 cm OUR REFUGE AND STRENTH. Infinite God and finite man / Bede Jarrett ; Giovanni Bona
+-- "The omnipresent God" / Frederick William Faber ; Joseph Rickaby -- The kingdom of God within us
+/ Francois Fenelon ; Blaise Pascal -- "Rich in mercy" / Sgt. Alphonsus Rodriguez ; John A. O'Brien
+-- God's eternal love for man / St. Alphonsus de Liguori ; Fulton J. Sheen -- God's knowledge of
+each individual / John Henry Newman -- The patience of God ; Anscar Vonier -- The nearness of God /
+St. Augustine -- The eyes of God ; Vincent McNabb -- "Faith's sight of Him" / Frederick William
+Faber ; St. Augustine -- The hand of God / St. Augustine ; John Henry Newman -- Divine justice /
+Edward F. Ga
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### Beautiful Islamic Revert Stories جميلة الإسلامية قصص المهتدين
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, other_religious_texts
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 385
-- Year: n.d.
-- URL: https://archive.org/details/BeautifulIslamicRevertStories
-
-Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
-watch/listen/download more free Islamic files. -----------------------------------------------------
--------------------------------------------------------------------------------------------------- A
-compilation of some of the many beautiful Islamic revert stories. Islaam is the world's fastest
-growing religion, especially in the West. These links may help you in your quest & journey to the
-Truth Inshaa Allaah!: 200 Islamic Websites: 1001Inventions.com (Muslim Heritage) 2Muslims.com
-8thScroll.com 99AllahNames.com 99Islam.com Ahmed-Deedat.co.za AltMuslim.com AmbersDenyDarwin.com
-Answering-Ext
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 
-### Jesus Christ (عليه السلام) in Islam - Last Lecture by Ahmed Deedat (رحمه الله)
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, history_inputs, other_religious_texts
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 435
-- Year: n.d.
-- URL: https://archive.org/details/JesusChristpbuhInIslam
-
-Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
-watch/listen/download more free Islamic files. -----------------------------------------------------
--------------------------------------------------------------------------------------------------- ~
-Jesus (عليه السلام) in Islam ~ Was Jesus God? Or was he sent by God? Who was the real historical
-Jesus? Jesus never calls himself God: The Bible contains many verses in which Jesus speaks of God as
-a separate person to himself. Here are just a few of them: When a man addressed Jesus as "Good
-Teacher", he replied "Why do you call me good? No one is good except the One God.'' [Mark; 10.18] In
-anot
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Complete Quran (114 Surahs) - Abdullah Basfer (with English Audio Translation)
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, world_languages, all_texts, other_religious_texts
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 513
-- Year: n.d.
-- URL: https://archive.org/details/001AlFaatiha_20140318
-
-Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
-watch/listen/download more free Islamic files. -----------------------------------------------------
---------------------------------------------------------------------------------------------------
-The Noble Qur'aan - القرآن الكريم Qari - Abdullah ibn 'Ali Basfar Translator - Ibrahim Walk
-Translation of the Meanings - Saheeh International -------------------------------------------------
-----------------------------------------------------------------------------------------------------
--- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / Koran / Recital / Revelation / Scripture /
-Furqan /
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Islam Worldwide - Global Impact
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, other_religious_texts
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 385
-- Year: n.d.
-- URL: https://archive.org/details/IslamWorldwideGlobalImpact
-
-Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
-watch/listen/download more free Islamic files. -----------------------------------------------------
---------------------------------------------------------------------------------------------------
-Let's talk frankly. Almost never do non-Muslims study Islaam until they have first exhausted the
-religions of their exposure. Only after they have grown dissatisfied with the religions familiar to
-them, meaning Judaism, Christianity and all the fashionable "-isms"—Buddhism, Taoism, Hinduism (and,
-as someone once added, "tourism")—do they consider Islaam. Perhaps other religions do not answer the
-b
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### THE EVIL
+### Stories as Doorways
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, all_texts
+- Layer routes: history_inputs, theologians
 - Primary layer: history_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
+- Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 557
-- Year: n.d.
-- URL: https://archive.org/details/SORINCERINTHEEVIL
+- Corroborating routed candidates: 292
+- Year: 2021
+- URL: https://archive.org/details/River_Road_Unitarian_Universalist-May_9_2021_Stories_as_Doorways
 
-SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an
-important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard,
-philosopher,- the creator of Coaxialism, – compared to Schopenhauer, Nietzsche and Wittgenstein.
-Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in
-14 volumes of thoughts previously published in various publishing houses, and then to be reunited
-under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity
-and international recognition, for which he is considered to be one of the most representative
-thinkers of the aphoris
+How do the stories we tell shape the future? Is it possible that our stories can be portals or
+gateways into some new reality we haven’t yet created? Is a story a doorway between one version of
+the world and the next, and how are we going to choose the stories we tell about this time in our
+lives and in history?
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### SORIN CERIN - WISDOM COLLECTION
+### Love is Love
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
-- Primary layer: history_inputs
+- Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
+- Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 561
-- Year: n.d.
-- URL: https://archive.org/details/SorinCerin-WisdomCollection
+- Corroborating routed candidates: 314
+- Year: 2025
+- URL: https://archive.org/details/Sunnyhill_Unitarian_Universalist-17353070_love_is_love
 
-Warning, this is the first edition of the Wisdom Collection, the last and the complete one you can
-find here:
-https://archive.org/details/9781499109979WisdomCollectionCompleteWorksofAphorismsReferenceEdition or
-here: https://books.google.ro/books?id=LMpYAwAAQBAJ&dq=wisdom+collection+complete+works+of+aphorisms
-&hl=ro&source=gbs_navlinks_s SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia
-Mare , Romania ) If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, the author of a
-new philosophical system called Coaxialism, an existentialist poet from the 21st century, essayist
-and novelist. Sorin Cerin is particularly sought after by the great public for the11,486
+This service will be a celebration of the tenth anniversary of the U.S. Supreme Court’s decision
+affirming marriage equality. Having the right to marry (whether you choose to exercise that right or
+not) is an important step forward in the long struggle for LGBTQIA+ rights. At a time when many
+rights are in peril, it is especially important to celebrate and to affirm our support for those who
+have had to fight for freedoms many of us have taken for granted. www.sunnyhill.org
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-
-### Carols and Lessons. December 7, 2025 Chorealis
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 409
-- Year: 2025
-- URL: https://archive.org/details/Unitarian_Church_of_Edmonton__UCE_-2225733437_user_189401827_carols_and_lessons_
-
-Order of Service Carols and Lessons December 7, 2025 Chorealis Service Leader: Karen Mills Get your
-holiday spirit in gear with songs and readings from Chorealis. You're invited to share inseasonal
-songs (one's a world premiere!), heartfelt readings and the warmth of community on this winter morn.
-Chimes Welcome and Announcements Land Acknowledgment Prelude Winter Lullaby – by Pinkzebra -
-Chorealis Opening Words We are in the Midst by Elizabeth M. Strong Chalice Lighting The Nights of
-Midwinter by D.C. Fortune Celebrating the Darkness by Jon VonRue read by Jeff Bisanz Hymn #55 Dark
-of Winter by Shirley J. Denham Reading: Joy by Jan K. Nielsen read by John Pater Lighting the Advent
-Candles Ma
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### The Religious Experience and Meaning-Making of Young Black Christians during the Rise of #BlackLivesMatter
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: pattern_perception_divine_response
-- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
-- Primary layer: psychology_inputs
-- Provider: Crossref
-- Quality: scholarly metadata
-- Automated evidence: moderate_scholarly_candidate (9)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 474
-- Year: 2026
-- URL: https://doi.org/10.5040/9781350874527.002
-
-No summary available in metadata.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- many routed corroborating candidates
-
-Layer review prompts:
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-
-### VOA [Voice of America] Global English : April 20, 2019 09:00PM-10:00PM EDT
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: technology_ethics
-- Layer routes: cultural_inputs
-- Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 150
-- Year: 2019
-- URL: https://archive.org/details/VOA_Global_English_20190421_010000
-
-Closed captions transcript: 00:00:00 Actually has details the men aged eighteen and nineteen Y.
-00:00:03 Detained on the anti-terrorism legislation and taken to Belfast for questioning the
-00:00:08 Police Service of Northern Ireland said the man haven't been identified or charged 00:00:14
-on the key a twenty nine years old 00:00:15 a rising star of investigative journalism was shot and
-killed probably by 00:00:20 a stray bullet aimed at police during writing night police said the new
-IRA 00:00:26 descendant group was most likely responsible and called it 00:00:30 a terrorist act. As
-the keeper in Topeka Kansas was mauled Saturday by 00:00:36 a Sumatran tiger at the zoo zoo director
-Brendan W
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.

@@ -1,5 +1,5 @@
 {
-  "source_count": 1119,
+  "source_count": 1126,
   "sources": [
     {
       "authors": [
@@ -1668,6 +1668,49 @@
       "year": 2008
     },
     {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 385,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/imamsirajwahaj",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Imam Siraj Wahhaj: Early life Wahhaj was born as Jeffrey Kearse and raised in Brooklyn. His mother was a nurse and his father a hospital dietician. His brother is a writer and editor Gregory S. Kearse of Silver Spring, Maryland. He went to church religiously and went on to become a Sunday school teacher as a teenager in a Baptist church. Wahhaj then later went on to the New York University on a pa",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Imam Siraj Wahhaj - Complete Audio Collection (200+)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/ImamSirajWahaj",
+      "year": null
+    },
+    {
       "authors": [],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -2540,6 +2583,50 @@
     },
     {
       "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 440,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20250622complete",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "all_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\"Spirituality and Inner Freedom\" Sunday, June 22, 2025 These days, as basic human rights and freedoms are under constant attack, the battle for our attention is relentless. What if the real locus of our freedom is within each of us? What if we put greater attention there? Our former senior minister returns to our pulpit to speak about the vital role of spiritual practice and discipline in renewing the progressive soul of America. Rev. John Buehrens, Preacher; Sam King, Worship Associate; Reiko Oda Lane, organist; Allen Biggs and Tommy Kesecker, percussionists; Nancy Munn, songleader Jonathan Silk, Communications Director; Kelvin Jones, Jose Matias Pineda, and Francisco Castellanos, Sextons; ",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Spirituality and Inner Freedom",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20250622Complete",
+      "year": "2025"
+    },
+    {
+      "authors": [
         "Jerzy U\u015bcinowicz"
       ],
       "automated_evidence_label": "strong_scholarly_candidate",
@@ -3082,6 +3169,50 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/uusf_org-20091227JGWComplete",
       "year": "2022"
+    },
+    {
+      "authors": [
+        "Woods, Ralph Louis, 1904-1989, editor"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 413,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/consolationsofca0000wood",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "theologians"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "342 pages 21 cm OUR REFUGE AND STRENTH. Infinite God and finite man / Bede Jarrett ; Giovanni Bona -- \"The omnipresent God\" / Frederick William Faber ; Joseph Rickaby -- The kingdom of God within us / Francois Fenelon ; Blaise Pascal -- \"Rich in mercy\" / Sgt. Alphonsus Rodriguez ; John A. O'Brien -- God's eternal love for man / St. Alphonsus de Liguori ; Fulton J. Sheen -- God's knowledge of each individual / John Henry Newman -- The patience of God ; Anscar Vonier -- The nearness of God / St. Augustine -- The eyes of God ; Vincent McNabb -- \"Faith's sight of Him\" / Frederick William Faber ; St. Augustine -- The hand of God / St. Augustine ; John Henry Newman -- Divine justice / Edward F. Ga",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "The consolations of Catholicism",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/consolationsofca0000wood",
+      "year": "1954"
     },
     {
       "authors": [
@@ -12941,6 +13072,50 @@
     },
     {
       "authors": [
+        "Sunnyhill Unitarian Universalist"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 314,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/sunnyhill_unitarian_universalist-17353070_love_is_love",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "This service will be a celebration of the tenth anniversary of the U.S. Supreme Court\u2019s decision affirming marriage equality. Having the right to marry (whether you choose to exercise that right or not) is an important step forward in the long struggle for LGBTQIA+ rights. At a time when many rights are in peril, it is especially important to celebrate and to affirm our support for those who have had to fight for freedoms many of us have taken for granted. www.sunnyhill.org",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Love is Love",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Sunnyhill_Unitarian_Universalist-17353070_love_is_love",
+      "year": "2025"
+    },
+    {
+      "authors": [
         "Bertrand Russell"
       ],
       "automated_evidence_label": "strong_scholarly_candidate",
@@ -14863,6 +15038,9 @@
         "research_documents",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 61,
       "primary_layer": "all_texts",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -14915,6 +15093,9 @@
         "cultural_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "all_texts",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -15014,6 +15195,9 @@
         "modern_literature",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "all_texts",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -15064,6 +15248,9 @@
         "visual_art",
         "pattern_tests"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 2,
+      "opencitations_reference_count": 12,
       "primary_layer": "history_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -15151,6 +15338,9 @@
         "theologians",
         "pattern_tests"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -15258,10 +15448,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
+      "citation_count": 13,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 408,
       "date_accessed": "2026-05-15",
@@ -15278,6 +15470,9 @@
         "theologians",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 13,
+      "opencitations_reference_count": 19,
       "primary_layer": "history_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -15323,6 +15518,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -15408,6 +15606,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -15456,6 +15657,9 @@
         "visual_art",
         "psychology_inputs"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -15543,6 +15747,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -15590,6 +15797,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 6,
+      "opencitations_reference_count": 27,
       "primary_layer": "history_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -15722,6 +15932,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -15818,6 +16031,9 @@
         "all_texts",
         "modern_literature"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -15995,6 +16211,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -16040,6 +16259,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -16210,6 +16432,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -16276,11 +16501,12 @@
         "author metadata present",
         "publication year present",
         "summary or abstract metadata available",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
-      "citation_count": 0,
+      "citation_count": 4,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 366,
       "date_accessed": "2026-05-25",
@@ -16297,6 +16523,9 @@
         "theologians",
         "other_religious_texts"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 4,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -16345,6 +16574,9 @@
         "theologians",
         "other_religious_texts"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -16435,6 +16667,9 @@
         "all_texts",
         "modern_literature"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -16479,6 +16714,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -16566,6 +16804,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -16609,6 +16850,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -16653,6 +16897,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -16696,6 +16943,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -16784,6 +17034,9 @@
         "theologians",
         "pattern_tests"
       ],
+      "opencitations_checked_at": "2026-05-27",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "history_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -17463,6 +17716,48 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism",
       "year": null
+    },
+    {
+      "authors": [
+        "River Road Unitarian Universalist"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 292,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/river_road_unitarian_universalist-may_9_2021_stories_as_doorways",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "How do the stories we tell shape the future? Is it possible that our stories can be portals or gateways into some new reality we haven\u2019t yet created? Is a story a doorway between one version of the world and the next, and how are we going to choose the stories we tell about this time in our lives and in history?",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Stories as Doorways",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/River_Road_Unitarian_Universalist-May_9_2021_Stories_as_Doorways",
+      "year": "2021"
     },
     {
       "authors": [
@@ -35840,6 +36135,52 @@
     },
     {
       "authors": [
+        "Maxwell Forteau"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 497,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/spermatozoa",
+      "layer_review_prompts": [
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "deep_sources",
+        "pattern_tests",
+        "visual_art",
+        "history_inputs"
+      ],
+      "primary_layer": "deep_sources",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org image",
+      "summary": "The Reality, Origins and Subsequent Changes in National Character \"The hills are alive with the sound of music With songs, they have sung for a thousand years The hills fill my heart with the sound of music. My heart wants to sing every song it hears....\" Richard Rogers In the early days of the study of heredity and ontogeny the idea existed that a little \"person\" known officially as the \"homunculus\" could be seen in microscopic preparations of spermatozoa; it was endowed with the ability to develop (enlarge) into an infant child to be born later. This idea is known as Preformation. Perhaps, the idea originated with the Biblical Adam who was thought to contain within himself all of the peopl",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "Origin of Personal and National Character",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Spermatozoa",
+      "year": "2024"
+    },
+    {
+      "authors": [
         "Paul K. Feyerabend"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
@@ -40596,18 +40937,22 @@
       "automated_evidence_score": 6,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 402,
+      "corroborating_source_count": 583,
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "use as a lead or question generator, not strong evidence",
       "id": "https://archive.org/details/the_absolute_truth_about_muhammad_in_the_bible_with_arabic_subtitles",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
         "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
         "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
       ],
       "layer_routes": [
         "cultural_inputs",
+        "theologians",
+        "research_documents",
         "world_languages",
         "all_texts"
       ],
@@ -40619,6 +40964,7 @@
       "summary": "An English Documentary entitled \"The Absolute Truth About Muhammad in the Bible\" with Arabic Subtitles.",
       "tags": [
         "technology_ethics",
+        "trinity",
         "world_languages_translation"
       ],
       "title": "The_Absolute_Truth_About_Muhammad_in_the_Bible_With_Arabic_Subtitles",
@@ -43852,6 +44198,50 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1002/cplx.20180",
       "year": "2007"
+    },
+    {
+      "authors": [
+        "Rev. LaVera M. Parato"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 367,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/210626-2235",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "visual_art"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "sermon given at Trinity Presbyterian Church, Havelock, NC; part of a series on the Nicene Creed",
+      "tags": [
+        "trinity"
+      ],
+      "title": "Maker of Heaven and Earth",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/210626-2235",
+      "year": "2021"
     },
     {
       "authors": [
@@ -51501,5 +51891,5 @@
       "year": null
     }
   ],
-  "updated_at": "2026-05-27T13:12:48.764555+00:00"
+  "updated_at": "2026-05-27T14:16:07.158840+00:00"
 }
