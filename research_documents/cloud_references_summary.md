@@ -104,7 +104,7 @@ OpenAlex abstract metadata available.
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (14)
-- Corroborating routed candidates: 569
+- Corroborating routed candidates: 570
 - URL: https://doi.org/10.1111/padr.12283
 
 OpenAlex abstract metadata available.
@@ -156,7 +156,7 @@ No summary available in metadata.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
-- Corroborating routed candidates: 480
+- Corroborating routed candidates: 481
 - URL: https://doi.org/10.3389/fpsyg.2025.1575175
 
 Love of neighbor holds a prominent place in ethical and theological thinking across many cultures
@@ -441,7 +441,7 @@ A.D. 1611 and revised A.D. 1881. Greek and English; paged in duplicate 52
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
-- Corroborating routed candidates: 627
+- Corroborating routed candidates: 628
 - URL: https://doi.org/10.1007/s13280-025-02230-9
 
 The epistemological implications of species extinction remain widely underexplored. This theoretical
@@ -540,7 +540,7 @@ The temptation to godless conduct The tarnish to gospel credibility They Swindle
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
-- Corroborating routed candidates: 698
+- Corroborating routed candidates: 699
 - URL: https://hts.org.za/index.php/hts/article/view/10066/27697
 
 | * **Abstract** * **Introduction** * **Biblical basis for Christian translation** * **History of
@@ -593,7 +593,7 @@ No summary available in metadata.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
-- Corroborating routed candidates: 558
+- Corroborating routed candidates: 559
 - URL: https://doi.org/10.3389/fsoc.2025.1642404
 
 This narrative analysis paper explores how gender non-conforming individuals interact with faith
@@ -672,7 +672,7 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (7)
-- Corroborating routed candidates: 444
+- Corroborating routed candidates: 445
 - URL: https://doi.org/10.1163/2773-1952_hcso_com_0310
 
 No summary available in metadata.
@@ -731,7 +731,7 @@ OpenAlex abstract metadata available.
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
-- Corroborating routed candidates: 510
+- Corroborating routed candidates: 511
 - URL: https://www.aieti.eu/enti/religion_ENG/entry.html
 
 Introduction | The origin of religious translation | Towards a classification of religious
@@ -864,7 +864,7 @@ condition, rather than a literal account of
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
-- Corroborating routed candidates: 581
+- Corroborating routed candidates: 582
 - URL: https://doi.org/10.1007/s11841-022-00912-5
 
 Religions use linguistic and non-linguistic codes of meaning to express their contents: natural
@@ -884,7 +884,7 @@ expression accom
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
-- Corroborating routed candidates: 598
+- Corroborating routed candidates: 599
 - URL: https://doi.org/10.1007/s40167-016-0039-2
 
 New data is emerging from evolutionary anthropology and the neuroscience of social cognition on our
@@ -950,7 +950,7 @@ No summary available in metadata.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
-- Corroborating routed candidates: 579
+- Corroborating routed candidates: 580
 - URL: https://doi.org/10.1098/rsif.2013.1030
 
 The concept of reproducibility is widely considered a cornerstone of scientific methodology.
@@ -970,7 +970,7 @@ this reason, we pro
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
-- Corroborating routed candidates: 444
+- Corroborating routed candidates: 445
 - URL: https://doi.org/10.3389/fpsyg.2025.1763648
 
 Psychological trauma often disrupts both bodily regulation and personal narrative, making it hard
@@ -990,7 +990,7 @@ expression, sha
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
-- Corroborating routed candidates: 445
+- Corroborating routed candidates: 446
 - URL: https://www.jbe-platform.com/content/journals/10.1075/arcl.3.19brd?crawler=true&mimetype=application%2Fpdf
 
 The author takes the “linguistica ancilla theologiae”-perspective and argues for an asymmetrical

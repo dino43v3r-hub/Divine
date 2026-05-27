@@ -1,6 +1,6 @@
 {
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 485,
+    "moderate_scholarly_candidate": 501,
     "strong_scholarly_candidate": 564,
     "weak_scholarly_candidate": 54
   },
@@ -8,49 +8,50 @@
     "search_arxiv failed for quantum_science_guardrails: The read operation timed out"
   ],
   "layer_counts": {
-    "all_texts": 342,
+    "all_texts": 345,
     "biblical_languages": 84,
-    "cultural_inputs": 263,
-    "deep_sources": 325,
-    "history_inputs": 275,
-    "human_stories": 264,
-    "modern_literature": 134,
+    "cultural_inputs": 271,
+    "deep_sources": 327,
+    "history_inputs": 282,
+    "human_stories": 265,
+    "modern_literature": 135,
     "music_notes": 78,
-    "other_religious_texts": 234,
-    "pattern_tests": 197,
-    "psychology_inputs": 260,
-    "research_documents": 122,
+    "other_religious_texts": 238,
+    "pattern_tests": 200,
+    "psychology_inputs": 261,
+    "research_documents": 125,
     "research_documents/christian_sources": 95,
-    "theologians": 267,
-    "visual_art": 345,
-    "world_languages": 206
+    "theologians": 273,
+    "visual_art": 356,
+    "world_languages": 208
   },
   "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 12,
-    "weak_scholarly_candidate": 15
+    "moderate_scholarly_candidate": 16
   },
-  "new_count": 27,
+  "new_count": 16,
   "new_layer_counts": {
-    "all_texts": 15,
+    "all_texts": 3,
     "cultural_inputs": 8,
     "deep_sources": 2,
-    "history_inputs": 11,
-    "modern_literature": 4,
-    "other_religious_texts": 8,
-    "pattern_tests": 1,
+    "history_inputs": 7,
+    "human_stories": 1,
+    "modern_literature": 1,
+    "other_religious_texts": 4,
+    "pattern_tests": 3,
     "psychology_inputs": 1,
+    "research_documents": 3,
     "theologians": 6,
-    "visual_art": 13,
-    "world_languages": 13
+    "visual_art": 11,
+    "world_languages": 2
   },
   "new_provider_counts": {
-    "Internet Archive": 12,
-    "Tavily Search": 15
+    "Crossref": 1,
+    "Internet Archive": 15
   },
   "new_sources": [
     {
       "authors": [
-        "Ad-Durar Al-Bahiyyah"
+        "Restitutio"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -63,36 +64,297 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 234,
+      "corroborating_source_count": 480,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/ad_durar_al_bahiyyah-christian_talk_thaty_rocks_with_richie_l_ep_1_25_2023",
+      "id": "https://archive.org/details/restitutio-435_holistic_biblical_unitarian_christianity_theophilus_josiah_3",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "visual_art",
+        "pattern_tests"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Have you heard of the Integrity Syndicate ? No, not a crime syndicate, the Integrity Syndicate--the online ministry of Theophilus Josiah, my guest today. Abused and neglected by his parents and raised in a California orphanage, Josiah met God in his youth resulting in a new course for his life. Through a series of providential events, he went to college and became a mechanical engineer. His career included working on devices to aid hearts in their work to pump blood throughout the body. Now, he's bringing his analytic mind and passion to disseminate truth throughout the body of Christ via his 27 websites , his YouTube channel , and his conversations on Discord . Listen to this episode on Spo",
+      "tags": [
+        "trinity"
+      ],
+      "title": "435-Holistic Biblical Unitarian Christianity (Theophilus Josiah)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Restitutio-435_holistic_biblical_unitarian_christianity_theophilus_josiah_3",
+      "year": "2022"
+    },
+    {
+      "authors": [
+        "Restitutio"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 225,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/restitutio-457_from_oneness_to_one_j_dan_gill",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Have you heard of oneness theology? Also called \"Jesus only,\" this is the idea that Jesus is all there is. Jesus is the Father; Jesus is the Holy Spirit. Jesus has manifested himself in many ways over the years, but there is only one individual or self who is God. Although not exclusive to the Pentecostal movement, most oneness believers belong to charismatic (or apostolic) groups today. This is a classic message given by Pastor J. Dan Gill in the early 2000s. I remember sitting there in the audience listening to him share about his community's journey of faith and thinking to myself, \"Wow, he's my people!\" Whether you currently hold oneness theology or not, take a listen to Brother Gill's t",
+      "tags": [
+        "trinity"
+      ],
+      "title": "457 From Oneness to One (J. Dan Gill)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Restitutio-457_from_oneness_to_one_j_dan_gill",
+      "year": "2022"
+    },
+    {
+      "authors": [
+        "United States Conference of Catholic Bishops (USCCB)"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 225,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/usccb_prayer_nicene_creed",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "The Nicene Creed is the central profession of faith in the Catholic Church, recited at Mass and rooted in the Councils of Nicaea (325) and Constantinople (381). It proclaims belief in one God, the Father almighty, in Jesus Christ the Only Begotten Son of God, and in the Holy Spirit, the giver of life. The creed affirms the Incarnation, Passion, Resurrection, and Ascension of Christ, as well as the Church\u2019s apostolic nature, the forgiveness of sins, and the hope of resurrection and eternal life. This prayer unites Catholics worldwide in a shared confession of faith and is a cornerstone of Christian doctrine.",
+      "tags": [
+        "trinity"
+      ],
+      "title": "Nicene Creed",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/usccb_prayer_nicene_creed",
+      "year": "2017"
+    },
+    {
+      "authors": [
+        "CIA Reading Room"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 288,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r002200390001-5",
+      "layer_review_prompts": [
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "deep_sources",
+        "pattern_tests"
+      ],
+      "primary_layer": "deep_sources",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "For Release 2000/08/figEP96-00789R002200390001-5 Final Report Project 7408 December 1988 Covering the Period November 1983 to October 1985 11 ENHANCED HUMAN PERFORMANCE INVESTIGATIONS (U) By: EDWIN C. MAY Prepared for: JEAN V. SMITH CONTRACTING OFFICER SRI Project 7408 SG1A WARNING NOTICE RESTRICTED DISSEMINATION TO THOSE WITH VERIFIED ACCESS TO THE PROJECT Approved by: Copy A. of 3 Copies MURRAY J. BARON, Director This document consists 3 of pages Geoscience and Engineering Center SRI/GF-0284a CLASSIFIED BY: HQ, USAMRDC (SGRD-ZA) DECLASSIFY ON: OADR SECRET NOT RELEASABLE TO FOREIGN NATIONALS ved For R4i6'ati~ ~0/b/0g'0-dfi-9kbp D( ftM002200390001-5 Approved For Release 2000/OCIXDP96-00789R0",
+      "tags": [
+        "quantum_science_guardrails"
+      ],
+      "title": "CIA Reading Room cia-rdp96-00789r002200390001-5: ENHANCED HUMAN PERFORMANCE INVESTIGATION",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp96-00789r002200390001-5",
+      "year": "1998"
+    },
+    {
+      "authors": [
+        "CIA Reading Room"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 429,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp80-00809a000700210211-8",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
       ],
       "layer_routes": [
         "cultural_inputs",
-        "history_inputs"
+        "history_inputs",
+        "visual_art",
+        "world_languages"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Declassified in Part - Sanitized Copy Approved for Release 2012/09/27: CIA-RDP80-00809A000700210211-8 ruM 195Z ? CLASSIFICATION RESTRICTED SECURITY INFORMATION CENTRAL INTELLIGENCE AGENCY REPORT INFORMATION FROM FOREIGN DOCUMENTS OR RADIO BROADCASTS CD NO. COUNTRY Yugoslavia DATE OF INFORMATION 19119 SUBJECT Political - War criminals HOW PUBLISHED Handbook WHERE PUBLISHED Belgrade DATE PUBLISHED 19)49 LANGUAGE Serbian TmIS SOCURIENT CONTAINS INFOOMATION AFFCCTIMO INA RATION.. OE $$$$$ OT Too umistO srsies. 2I7mI01700IA4I00 or 7/71.5 Is SAVIORS TT] SAO TS/, or VOL U.S. CODE. Al AMISOLO. ITS 724510152(05 cot st?. LATIO4 Of ITS CONTENTS TO OR PUMP? er Aft WrAUTmOR/ItO PIOSOM IS ? Tka ??? ??? SO",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "CIA Reading Room cia-rdp80-00809a000700210211-8: POLITICAL-WAR CRIMINALS",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp80-00809a000700210211-8",
+      "year": "1999"
+    },
+    {
+      "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 329,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20251026complete",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "visual_art"
       ],
       "primary_layer": "cultural_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "On today's show, 1:06pm CT, 2:06pm ET: Documentgate: GOP Senators caution against Biden impeachment for classified docs - Penn Biden Center June event allowed attendees \u2018Unmonitored\u2019 building access - Rep. Comer reacts to National Archives blowing off Biden documents request - Run For The Border: 20 states announce plans to sue Biden Administration over unlawful migrant parole program - Dem. Rep. Henry Cuellar says migrants will 'keep coming' without consequences - making illegal immigration illegal again - we'll explore. Plus, Bombshell from grave! The late Pope Benedict, who is dead, unleashes on Catholics in posthumous book. And, 2nd Amendment debate heats up again after recent California",
+      "summary": "\"Sacred Guardians of This\" Sunday, October 26, 2025, 10:50 am Through history a lot has changed. The building we have met in has changed a few times, how we have explained our theology has changed, how we have worship has changed a bit, what we sing has changed, what our ministers have looked like has gotten more diverse, and how people find us and even access our Sunday morning services has, for some, changed. There are a few things that haven't changed. And one role, in particular, that we play that I don't think gets talked about enough but matters greatly. See you for service, for the luncheon and celebration, and for the auction! Rev. Vanessa Rush Southern, Senior Minister; Rev. Laura S",
       "tags": [
         "politics_justice"
       ],
-      "title": "Christian Talk Thaty Rocks with Richie L. Ep. 1/25/2023",
+      "title": "Sacred Guardians of This",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Ad_Durar_Al_Bahiyyah-christian_talk_thaty_rocks_with_richie_l_ep_1_25_2023",
-      "year": "2023"
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20251026Complete",
+      "year": "2025"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 329,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_global_english_20200517_150000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "visual_art"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 It's America. 00:00:09 This is v.o.a. 00:00:10 News fear remote I'm pleased health and 312000 people around the world have died as 00:00:15 a result of Kovac 19 while the number of confirmed infections exceeds 4600000 in 00:00:22 the us the number of deaths approaches 89000 while the number of confirmed 00:00:26 infections his well over 1400000 as state after u.s. 00:00:31 State begins to reopen local health departments charged with tracking down everyone 00:00:36 who has been in close contact with those who test positive for Krone virus are 00:00:41 still scrambling to hire enough people they are hundreds if not thousands of people 00:00:46 short of targ",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "VOA [Voice of America] Global English : May 17, 2020 11:00AM-12:00PM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Global_English_20200517_150000",
+      "year": "2020"
     },
     {
       "authors": [
-        "Liu Xiaobo"
+        "Alzuridin"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -104,35 +366,33 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 392,
+      "corroborating_source_count": 385,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/liu-xiaobo",
+      "id": "https://archive.org/details/beautifulislamicrevertstories",
       "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
       ],
       "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
         "visual_art",
-        "modern_literature"
+        "cultural_inputs",
+        "other_religious_texts"
       ],
-      "primary_layer": "cultural_inputs",
+      "primary_layer": "visual_art",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "1.9M (Asian American History & Culture) Belinda Kong - Tiananmen Fictions outside the Square_ The Chinese Literary Diaspora and the Politics of Global Culture-Temple University Press (2012).pdf download 102.1K Charter08.pdf download 255.0K Confession, Redemption, and Death: Liu Xiaobo and the - ConfessionRedemptionDeath.pdf download 17.5M How Chinese intellectual Liu Xiaobo spoke up for change, only to be jailed by Beijing | Hong Kong Free Press HKFP.pdf download 37.9M In Pictures: 'Political oppression' - Hong Kong activists call for release of Nobel winner Liu Xiaobo | Hong Kong Free Press HKFP.pdf download 1.3M Liao Yiwu - God Is Red_ The Secret Story of How Christianity Survived and Flou",
+      "source_type": "archive.org movies",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- A compilation of some of the many beautiful Islamic revert stories. Islaam is the world's fastest growing religion, especially in the West. These links may help you in your quest & journey to the Truth Inshaa Allaah!: 200 Islamic Websites: 1001Inventions.com (Muslim Heritage) 2Muslims.com 8thScroll.com 99AllahNames.com 99Islam.com Ahmed-Deedat.co.za AltMuslim.com AmbersDenyDarwin.com Answering-Ext",
       "tags": [
-        "politics_justice"
+        "art_beauty"
       ],
-      "title": "Liu Xiaobo",
+      "title": "Beautiful Islamic Revert Stories \u062c\u0645\u064a\u0644\u0629 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u0629 \u0642\u0635\u0635 \u0627\u0644\u0645\u0647\u062a\u062f\u064a\u0646",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/liu-xiaobo",
+      "url": "https://archive.org/details/BeautifulIslamicRevertStories",
       "year": null
     },
     {
@@ -153,7 +413,7 @@
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/islamfromkufrtoeemaandisbelieftocorrectfaith",
+      "id": "https://archive.org/details/jesuschristpbuhinislam",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims.",
@@ -171,13 +431,60 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- From Kufr to Eemaan \u0645\u0646 \u0627\u0644\u0643\u0641\u0631 \u0625\u0644\u0649 \u0627\u0644\u0625\u064a\u0645\u0627\u0646 What Are They Saying About: ISLAM? : \"Most Influential Person In History\" - Michael H. Hart \"My choice of Muhammad to lead the list of the world's most influential persons may surprise some readers and may be questioned by others, but he was the only man in history who was supremely successful on both the religious and secular level.\" [Michael H. Hart, THE ",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- ~ Jesus (\u0639\u0644\u064a\u0647 \u0627\u0644\u0633\u0644\u0627\u0645) in Islam ~ Was Jesus God? Or was he sent by God? Who was the real historical Jesus? Jesus never calls himself God: The Bible contains many verses in which Jesus speaks of God as a separate person to himself. Here are just a few of them: When a man addressed Jesus as \"Good Teacher\", he replied \"Why do you call me good? No one is good except the One God.'' [Mark; 10.18] In anot",
       "tags": [
         "art_beauty"
       ],
-      "title": "Islam: From Kufr to Eemaan (Disbelief to Correct Faith) \u0645\u0646 \u0627\u0644\u0643\u0641\u0631 \u0625\u0644\u0649 \u0627\u0644\u0625\u064a\u0645\u0627\u0646",
+      "title": "Jesus Christ (\u0639\u0644\u064a\u0647 \u0627\u0644\u0633\u0644\u0627\u0645) in Islam - Last Lecture by Ahmed Deedat (\u0631\u062d\u0645\u0647 \u0627\u0644\u0644\u0647)",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/IslamFromKufrToEemaandisbeliefToCorrectFaith",
+      "url": "https://archive.org/details/JesusChristpbuhInIslam",
+      "year": null
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 513,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/001alfaatiha_20140318",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "world_languages",
+        "all_texts",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- The Noble Qur'aan - \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 Qari - Abdullah ibn 'Ali Basfar Translator - Ibrahim Walk Translation of the Meanings - Saheeh International ------------------------------------------------------------------------------------------------------------------------------------------------------- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / Koran / Recital / Revelation / Scripture / Furqan / ",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Complete Quran (114 Surahs) - Abdullah Basfer (with English Audio Translation)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/001AlFaatiha_20140318",
       "year": null
     },
     {
@@ -198,7 +505,7 @@
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/ochristworshippers-apoembyibnqayyimal-jawziyyah",
+      "id": "https://archive.org/details/islamworldwideglobalimpact",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims.",
@@ -214,13 +521,58 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Sheikhul-Islaam at-Thanee al-Imaam Shamsudeen Muhammed Bin Aboo Bakr Bin al-Qayyim al-Jawzizhi ad-Dimishqee was from the greatest of the A'imah and the most notable of Sheikhul Islaam Ibn Taymiyyah's students whom he accompanied and studied under for sixteen years. In eulogizing Ibn Qayyim al-Jawziyyah, al-Hafidh Ibn Kathir stated: \"He acquired from such books what others could not acquire, and he",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- Let's talk frankly. Almost never do non-Muslims study Islaam until they have first exhausted the religions of their exposure. Only after they have grown dissatisfied with the religions familiar to them, meaning Judaism, Christianity and all the fashionable \"-isms\"\u2014Buddhism, Taoism, Hinduism (and, as someone once added, \"tourism\")\u2014do they consider Islaam. Perhaps other religions do not answer the b",
       "tags": [
         "art_beauty"
       ],
-      "title": "O Christ Worshippers! - A Poem by Ibn Qayyim al-Jawziyyah (\u0631\u062d\u0645\u0647 \u0627\u0644\u0644\u0647)",
+      "title": "Islam Worldwide - Global Impact",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/OChristWorshippers-APoemByIbnQayyimAl-jawziyyah",
+      "url": "https://archive.org/details/IslamWorldwideGlobalImpact",
+      "year": null
+    },
+    {
+      "authors": [
+        "Sorin Cerin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 557,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/sorincerintheevil",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "visual_art",
+        "all_texts"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard, philosopher,- the creator of Coaxialism, \u2013 compared to Schopenhauer, Nietzsche and Wittgenstein. Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in 14 volumes of thoughts previously published in various publishing houses, and then to be reunited under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity and international recognition, for which he is considered to be one of the most representative thinkers of the aphoris",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "THE EVIL",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/SORINCERINTHEEVIL",
       "year": null
     },
     {
@@ -241,7 +593,7 @@
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/thecoaxialismcompletereferenceedition",
+      "id": "https://archive.org/details/sorincerin-wisdomcollection",
       "layer_review_prompts": [
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
@@ -261,703 +613,18 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org texts",
-      "summary": "SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, author of a new philosophical system called Coaxialism, an existentialist poet from the 21st century, essayist and novelist. Sorin Cerin is particularly sought after by the great public for the11,486 structured aphorisms in 14 volumes of thoughts previously published in various publishing houses, and then to be reunited under the aegis of a monumental volume called Wisdom Collection, a title that brought him celebrity and international recognition, for which he is considered to be one of the most representative thinkers of the aphoristic",
+      "summary": "Warning, this is the first edition of the Wisdom Collection, the last and the complete one you can find here: https://archive.org/details/9781499109979WisdomCollectionCompleteWorksofAphorismsReferenceEdition or here: https://books.google.ro/books?id=LMpYAwAAQBAJ&dq=wisdom+collection+complete+works+of+aphorisms&hl=ro&source=gbs_navlinks_s SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, the author of a new philosophical system called Coaxialism, an existentialist poet from the 21st century, essayist and novelist. Sorin Cerin is particularly sought after by the great public for the11,486",
       "tags": [
         "history_memory"
       ],
-      "title": "The Coaxialism (complete reference edition)",
+      "title": "SORIN CERIN - WISDOM COLLECTION",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/TheCoaxialismcompleteReferenceEdition",
+      "url": "https://archive.org/details/SorinCerin-WisdomCollection",
       "year": null
     },
     {
       "authors": [
-        "Sorin Cerin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 409,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians",
-        "visual_art"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Sorin Cerin \u2013 books which can be viewed on Google Books, bibliography 2020 with literary and philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, author of a new philosophical system called Coaxialism, and an important 21st-century existentialist poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard. Sorin Cerin is especially sought after by the general public, both for his philosophical poems, which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms, structured in several ",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "Sorin Cerin \u2013 Books Biography And Bibliography With Literary And Philosophical Criticism 2020",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 433,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://reformedjournal.com/2025/08/20/colonialism-racism-and-empire",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians",
-        "pattern_tests"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.5345888,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Isaac's message is a theological reflection and a call for concrete action, urging Christians to speak out against injustice, advocate for a",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "Colonialism, Racism, and Empire - Reformed Journal",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://reformedjournal.com/2025/08/20/colonialism-racism-and-empire",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 292,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://papers.ssrn.com/sol3/delivery.cfm/ssrn_id4515359_code6032817.pdf?abstractid=4515359&mirid=1&type=2",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.21988183,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "It aims to analyze various aspects such as persecution, unity, theological controversies, mission, leadership, and cultural adaptation within the context of the.",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "[PDF] The Challenges and Impact of Church History in the Book of Acts for ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4515359_code6032817.pdf?abstractid=4515359&mirid=1&type=2",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 409,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://hts.org.za/index.php/hts/article/view/7846/23739",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians",
-        "visual_art"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.19516458,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "| * **Abstract** * **Introduction** * **Social justice is grounded in Reformed history** * **Social justice is central to Reformed theology** * **Reformed confessions** * **Social justice is in the heart of Reformed polity and structure** * **Conclusion** * **Acknowledgements** * **References** * **Footnotes** **About the Author(s)** Jerry Pillay Email symbolFaculty of Theology and Religion, University of Pretoria, Pretoria, South Africa **Citation** Pillay, J., 2022, \u2018The significance of social justice and *diakonia* in the Reformed tradition\u2019, *HTS Teologiese Studies/Theological Studies* 78(4), a7846. | The significance of social justice and *diakonia* in the Reformed tradition |. To be Re",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "The significance of social justice and diakonia in the Reformed tradition | Pillay | HTS Teologiese Studies / Theological Studies",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://hts.org.za/index.php/hts/article/view/7846/23739",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 395,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.academypublication.com/issues/past/jltr/vol04/03/11.pdf",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "visual_art"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.405567,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "These names are established in language and these metaphorical concepts naturally become part of cultural generality. Professor Liu Chongde defines literal translation as follows: \u201cIn the process of translation, literal translation takes sentences as basic units and at the same time takes the whole passage into consideration; a translator who attaches great importance to literal translation does his or her best to reproduce the ideas and writing style of the original work, retaining as many rhetorical devices and sentence structures as possible.\u201d Literal translation is thought by some scholars to be the most essential and the most commonly used method for JOURNAL OF LANGUAGE TEACHING AND RES",
-      "tags": [
-        "world_languages_translation"
-      ],
-      "title": "[PDF] Cultural Functions in the Translation of Metaphor",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.academypublication.com/issues/past/jltr/vol04/03/11.pdf",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 445,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.jbe-platform.com/content/journals/10.1075/arcl.3.19brd?crawler=true&mimetype=application%2fpdf",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "psychology_inputs"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.38345712,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "The author takes the \u201clinguistica ancilla theologiae\u201d-perspective and argues for an asymmetrical interdisciplinary approach by applying cognitive semantics,.",
-      "tags": [
-        "world_languages_translation"
-      ],
-      "title": "Review of \"The Bible through metaphor and translation: A cognitive ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.jbe-platform.com/content/journals/10.1075/arcl.3.19brd?crawler=true&mimetype=application%2Fpdf",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 395,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.euppublishing.com/doi/10.3366/tal.2011.0030",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "history_inputs"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.30922234,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "The introduction reviews highpoints in the long history of discussions of metaphor and translation, from the Platonic objection to metaphor as",
-      "tags": [
-        "world_languages_translation"
-      ],
-      "title": "Thinking Through Translation with Metaphors. Edited by James St ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.euppublishing.com/doi/10.3366/tal.2011.0030",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 510,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.aieti.eu/enti/religion_eng/entry.html",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "deep_sources"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.57723385,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Introduction | The origin of religious translation | Towards a classification of religious translation | The translation of the sacred scripture or holy book | Translation as a source of interreligious conflict | Translation as a source of intrareligious conflict | By way of conclusion| Research potential. The definition of the concept of \"monastic translation\" (Bueno 2007), which is inspired by polysystemic approaches, has been essential to address the translation of religion in a broader way and to study it from a multidisciplinary perspective. Translation in religious contexts is of interest to different sciences such as linguistics (in its different branches: sociolinguistics, lexicograp",
-      "tags": [
-        "world_languages_translation"
-      ],
-      "title": "Entry | Religion",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.aieti.eu/enti/religion_ENG/entry.html",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 395,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://brill.com/view/journals/me/26/4-5/article-p333_1.xml",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "visual_art"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.45885846,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "In introducing the following five articles on late medieval and early modern translations of Jewish, Christian, and Muslim sacred texts.",
-      "tags": [
-        "world_languages_translation"
-      ],
-      "title": "Translating Inspired Language, Transforming Sacred Texts - Brill",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://brill.com/view/journals/me/26/4-5/article-p333_1.xml",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 274,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.eurasiareview.com/24052021-the-translation-of-the-sacred-analysis",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.42348245,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "The translation of the sacred text raises multiple and formidable questions concerning the relationship of communities and peoples to their",
-      "tags": [
-        "world_languages_translation"
-      ],
-      "title": "The Translation Of The Sacred \u2013 Analysis - Eurasia Review",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.eurasiareview.com/24052021-the-translation-of-the-sacred-analysis",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 6,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 429,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "theologians"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.54753727,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Religious language amplifies this effect through beliefs that a deity or ultimate reality can influence readers by means of sacred texts (e.g. Augustine).",
-      "tags": [
-        "world_languages_translation"
-      ],
-      "title": "[PDF] Sensation and Metaphor in Ritual Performance",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 274,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.facebook.com/groups/2209644753/posts/10157385510304754",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.43338245,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "For example, the story of Adam and Eve in the Bible is often interpreted as a metaphor for the human condition, rather than a literal account of",
-      "tags": [
-        "world_languages_translation"
-      ],
-      "title": "How to understand metaphorical language in sacred texts?",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.facebook.com/groups/2209644753/posts/10157385510304754",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 274,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.quora.com/why-do-sacred-texts-often-speak-in-metaphor-and-what-happens-when-they-re-interpreted-literally",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.39824316,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "You don't interpret the original text, you translate it. An interpretation requires reading into what the text already says. Most translations",
-      "tags": [
-        "world_languages_translation"
-      ],
-      "title": "Why do sacred texts often speak in metaphor, and what happens ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.quora.com/Why-do-sacred-texts-often-speak-in-metaphor-and-what-happens-when-they-re-interpreted-literally",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 6,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 338,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.academia.edu/80379524/at_home_in_all_languages_and_cultures_bible_translation_and_world_christianity_in_the_twenty_first_century",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "other_religious_texts"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.9976949,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Bible translation enables the reception of the Gospel, empowers local cultures and languages, and furthers the rise of a World Christianity. Sanneh noted",
-      "tags": [
-        "world_language_source_sampling"
-      ],
-      "title": "(PDF) At Home in All Languages and Cultures: Bible Translation ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.academia.edu/80379524/At_Home_in_All_Languages_and_Cultures_Bible_Translation_and_World_Christianity_in_the_Twenty_First_Century",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 698,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://hts.org.za/index.php/hts/article/view/10066/27697",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "other_religious_texts",
-        "visual_art",
-        "history_inputs",
-        "deep_sources"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.99583375,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "| * **Abstract** * **Introduction** * **Biblical basis for Christian translation** * **History of Bible translation** * **Relevance of Christian translation to Christian missions** * **Conclusion** * **Acknowledgements** * **References** **About the Author(s)** Akinyemi O. Alawode Email symbolDepartment of Christian Spirituality, Church History and Missiology, College of Human Sciences, University of South Africa, Pretoria, South Africa **Citation** Alawode, A.O., 2024, \u2018Understanding Christian translation and its missiological relevance\u2019, *HTS Teologiese Studies/Theological Studies* 80(1), a10066. Alawode, A.O., 2024, \u2018Understanding Christian translation and its missiological relevance\u2019, *H",
-      "tags": [
-        "world_language_source_sampling"
-      ],
-      "title": "Understanding Christian translation and its missiological relevance | Alawode | HTS Teologiese Studies / Theological Studies",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://hts.org.za/index.php/hts/article/view/10066/27697",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 447,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://chinapartnership.org/blog/2020/07/christianity-amp-language-why-translation-is-important",
-      "layer_review_prompts": [
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "world_languages",
-        "all_texts",
-        "other_religious_texts",
-        "history_inputs"
-      ],
-      "primary_layer": "world_languages",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.9951325,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Translatability is at the core of Christian history, theology and experience; God became 'translated' into human form in Jesus Christ. In",
-      "tags": [
-        "world_language_source_sampling"
-      ],
-      "title": "Christianity & Language: Why Translation Is Important",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://chinapartnership.org/blog/2020/07/christianity-amp-language-why-translation-is-important",
-      "year": null
-    },
-    {
-      "authors": [
-        "Tupos"
+        "Unitarian Church of Edmonton (UCE)"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -970,84 +637,80 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 451,
+      "corroborating_source_count": 409,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/god-unveiled-unedited",
+      "id": "https://archive.org/details/unitarian_church_of_edmonton__uce_-2225733437_user_189401827_carols_and_lessons_",
       "layer_review_prompts": [
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
-      ],
-      "layer_routes": [
-        "all_texts",
-        "other_religious_texts",
-        "modern_literature",
-        "visual_art",
-        "world_languages"
-      ],
-      "primary_layer": "all_texts",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "In a nutshell Main Points Seven sayings of Jesus Time Times Half a Time Why the generation did not see end time Answers what is it for the reader Explains how to go about it to benefit the readers Sub Points Parables explained Metaphors disclosed Main queries explained Elevation of laws into flexibility, from justice to mercy Meaning of cross and the ways of cross sacrifice Progressive steps towards way of the Lord For those whose hearts longed and thirst for love and righteousness, this book covers the bible in simple terms, in a simple way, the Lord's ways. Make straight the ways of the Lord, and aligned with the scriptures, where His yoke is easy and burden is light. It is easier to chang",
-      "tags": [
-        "global_text_traditions"
-      ],
-      "title": "God Unveiled Unedited",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/god-unveiled-unedited",
-      "year": "2024"
-    },
-    {
-      "authors": [
-        "uusf.org"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 424,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/uusf_org-20120226jkcomplete",
-      "layer_review_prompts": [
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
-        "all_texts",
-        "other_religious_texts",
-        "modern_literature",
+        "history_inputs",
+        "theologians",
         "visual_art"
       ],
-      "primary_layer": "all_texts",
+      "primary_layer": "history_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "The vilnius christian know: And forgetting you know they can be all sorts of things that could be an illness that we begin to identify with that then starts dictating how we live our life because we're struggling with the vilnius.",
+      "summary": "Order of Service Carols and Lessons December 7, 2025 Chorealis Service Leader: Karen Mills Get your holiday spirit in gear with songs and readings from Chorealis. You're invited to share inseasonal songs (one's a world premiere!), heartfelt readings and the warmth of community on this winter morn. Chimes Welcome and Announcements Land Acknowledgment Prelude Winter Lullaby \u2013 by Pinkzebra - Chorealis Opening Words We are in the Midst by Elizabeth M. Strong Chalice Lighting The Nights of Midwinter by D.C. Fortune Celebrating the Darkness by Jon VonRue read by Jeff Bisanz Hymn #55 Dark of Winter by Shirley J. Denham Reading: Joy by Jan K. Nielsen read by John Pater Lighting the Advent Candles Ma",
       "tags": [
-        "global_text_traditions"
+        "history_memory"
       ],
-      "title": "The vilnius christian know",
+      "title": "Carols and Lessons. December 7, 2025 Chorealis",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/uusf_org-20120226JKComplete",
-      "year": "2022"
+      "url": "https://archive.org/details/Unitarian_Church_of_Edmonton__UCE_-2225733437_user_189401827_carols_and_lessons_",
+      "year": "2025"
+    },
+    {
+      "authors": [
+        "Montague R. Williams"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "author metadata present",
+        "publication year present",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 9,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 474,
+      "date_accessed": "2026-05-27",
+      "doi": "10.5040/9781350874527.002",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "10.5040/9781350874527.002",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "other",
+      "summary": "",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "The Religious Experience and Meaning-Making of Young Black Christians during the Rise of #BlackLivesMatter",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://doi.org/10.5040/9781350874527.002",
+      "year": 2026
     },
     {
       "authors": [],
@@ -1065,7 +728,7 @@
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20200227_060000",
+      "id": "https://archive.org/details/voa_global_english_20190421_010000",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims."
       ],
@@ -1077,133 +740,13 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:01 This is v.o.a. 00:00:02 News I'm Jim bird tell South Korea and China are reporting hundreds of new Corona 00:00:08 cases coronavirus cases today in Washington u.s. 00:00:11 President Donald Trump sought to reassure Americans that his administration has the 00:00:16 pathogen under control v.o.a. 00:00:19 White House correspondent Patti Wood has wara has 00:00:21 a story aware of hearings by President Donald Trump in the White House briefing 00:00:26 room the 2nd one since he came into office to tell Americans about federal efforts 00:00:31 against the coronavirus is administration is requesting to him to have 00:00:35 $1000000000.00 of funding from Congres",
+      "summary": "Closed captions transcript: 00:00:00 Actually has details the men aged eighteen and nineteen Y. 00:00:03 Detained on the anti-terrorism legislation and taken to Belfast for questioning the 00:00:08 Police Service of Northern Ireland said the man haven't been identified or charged 00:00:14 on the key a twenty nine years old 00:00:15 a rising star of investigative journalism was shot and killed probably by 00:00:20 a stray bullet aimed at police during writing night police said the new IRA 00:00:26 descendant group was most likely responsible and called it 00:00:30 a terrorist act. As the keeper in Topeka Kansas was mauled Saturday by 00:00:36 a Sumatran tiger at the zoo zoo director Brendan W",
       "tags": [
         "technology_ethics"
       ],
-      "title": "VOA [Voice of America] Global English : February 27, 2020 01:00AM-02:00AM EST",
+      "title": "VOA [Voice of America] Global English : April 20, 2019 09:00PM-10:00PM EDT",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20200227_060000",
-      "year": "2020"
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 265,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20190603_190000",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "visual_art"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 Shanahan said the U.S. 00:00:01 Would not ignore Chinese behavior which he says has threatened prosperity in the 00:00:06 region it's not about consular to start building. Security 00:00:13 China is infamous for its them other nations military and civilian technology I 00:00:19 don't like what intellectual property is stolen and we have really issues with 00:00:25 virtual property Sam cyber attacks there's 00:00:27 a host of issues that we we have to address experts say China has used this them to 00:00:34 narrow the gap between some critical American and Chinese military abilities 00:00:39 Michael O'Hanlon as 00:00:40 a defense analyst with the Brookings",
-      "tags": [
-        "technology_ethics"
-      ],
-      "title": "VOA [Voice of America] Global English : June 03, 2019 03:00PM-04:00PM EDT",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20190603_190000",
-      "year": "2019"
-    },
-    {
-      "authors": [
-        "Women's Environment & Development Organization, Women's International Policy Action Committee, Helene Rosenbluth Duplica"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 265,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/audiocassette0356-01_a",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "visual_art"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "These recordings are part of a series documenting the World Women\u2019s Congress for a Healthy Planet, which was held in Miami, Florida, from November 8-12, 1991. The conference was organized by the Women\u2019s International Policy Action Committee (IPAC), a committee established by the Women\u2019s Environment and Development Organization (WEDO). The series comprises 17 audio cassette tapes resulting in 34 individual recordings (Sides A and B of each cassette). All of these recordings are available on the Swarthmore College Peace Collection\u2019s Sound Recordings page . They have been separated according to topic, but all of the recording titles begin with \u201cWorld Women\u2019s Congress For A Healthy Planet.\u201d audi",
-      "tags": [
-        "technology_ethics"
-      ],
-      "title": "World Women\u2019s Congress For A Healthy Planet: Tribunal (Days 1, 2, and 3) [1 through 9 in a series of 17]",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/audiocassette0356-01_a",
-      "year": "1991"
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 298,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20190219_190000",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 Escalated since last week's suicide bombing of an Indian military of Indian 00:00:04 military forces that left four paramilitary personnel dead Indian leaders have 00:00:09 vowed to take punitive action against Islam about electing the militant group 00:00:13 behind the attack is tied to the neighboring countries spy agency charges Pakistan 00:00:18 rejects as baseless the Roman Catholic Church will hold 00:00:22 a four day summit at the Vatican this week on protection of minors that will focus 00:00:27 on the themes of responsibility accountability and transparency but many doubt 00:00:32 concrete results will emerge and Barrett Doyle of the group Bishop",
-      "tags": [
-        "technology_ethics"
-      ],
-      "title": "VOA [Voice of America] Global English : February 19, 2019 02:00PM-03:00PM EST",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20190219_190000",
+      "url": "https://archive.org/details/VOA_Global_English_20190421_010000",
       "year": "2019"
     }
   ],
@@ -1213,8 +756,7 @@
     "Europe PMC": 223,
     "Internet Archive": 106,
     "OpenAlex": 288,
-    "PubMed": 26,
-    "Tavily Search": 15
+    "PubMed": 26
   },
-  "updated_at": "2026-05-27T00:26:01.967771+00:00"
+  "updated_at": "2026-05-27T13:12:48.764555+00:00"
 }

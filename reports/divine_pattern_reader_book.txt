@@ -6,20 +6,20 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-05-26T23:05:19.898592+00:00
-Retained cloud candidate references: 1,297
-Brand-new candidate references this run: 295
-Top new routed layers: human_stories: 85, all_texts: 83, deep_sources: 83, psychology_inputs: 83
-New evidence mix: strong_scholarly_candidate: 232, moderate_scholarly_candidate: 63
-New provider mix: OpenAlex: 139, Europe PMC: 74, Crossref: 63, Internet Archive: 19
-Query modifiers used: 2026, bibliography, case study, counterargument, new research article
+Collector run: 2026-05-27T13:12:48.764555+00:00
+Retained cloud candidate references: 1,119
+Brand-new candidate references this run: 16
+Top new routed layers: visual_art: 11, cultural_inputs: 8, history_inputs: 7, theologians: 6
+New evidence mix: moderate_scholarly_candidate: 16
+New provider mix: Internet Archive: 15, Crossref: 1
+Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 I am reading this run as a conversation between what just arrived and what the project already thinks it sees.
 The older pattern map still points first toward Image Of God Pattern. Around it, I keep seeing related pressure from Cross And Reversal Pattern, Providence And Contingency Pattern.
-The newest material is pulling my attention toward human_stories, especially around world_language_source_sampling. That does not overturn the older map, but it changes what I should ask next.
-My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is scholarly metadata, so I should let them sharpen questions before I let them strengthen claims.
+The newest material is pulling my attention toward visual_art, especially around art_beauty. That does not overturn the older map, but it changes what I should ask next.
+My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is reference metadata, so I should let them sharpen questions before I let them strengthen claims.
 I also notice that Suffering Without Resolution remains a live test. If the pattern cannot survive that friction, then it is probably only an attractive idea, not a disciplined theological insight.
 
 What this run makes me wonder:
@@ -88,22 +88,22 @@ Fresh research movements:
 - Visual-art candidates grew in the latest collector run; examine actual form, composition, symbol, beauty, lament, and counter-reading.
 - History candidates grew in the latest collector run; test power, harm, reform, memory, consequence, and unfinished repair.
 - World-language candidates grew in the latest collector run; track translation range, metaphor, grammar, culture, and rival readings.
-- Biblical-language candidates grew in the latest collector run; check lemma, syntax, canonical context, and scholarly counter-readings.
 - Global and comparative text candidates grew in the latest collector run; respect each tradition's own meaning before comparing patterns.
 - Psychology or human-story candidates grew in the latest collector run; separate lived repair from overclaimed theological interpretation.
 - Deep-source candidates grew in the latest collector run; review qualified evidence and counterarguments before strengthening claims.
+- Pressure-test candidates grew in the latest collector run; name failure conditions and whether the pattern holds under friction.
 
-Most active new tags: world_language_source_sampling: 25, art_beauty: 23, politics_justice: 22, psychology_patterns: 22
-Most active new layers: human_stories: 85, all_texts: 83, deep_sources: 83, psychology_inputs: 83
-Newest source-quality mix: scholarly metadata: 276, reference metadata: 19
+Most active new tags: art_beauty: 4, trinity: 3, politics_justice: 3, history_memory: 3
+Most active new layers: visual_art: 11, cultural_inputs: 8, history_inputs: 7, theologians: 6
+Newest source-quality mix: reference metadata: 15, scholarly metadata: 1
 
 Fresh source leads to review first:
-- Psychosocial and Lifestyle Questionnaire 2006 - 2022 (2023) | OpenAlex | layers: psychology_inputs, pattern_tests, human_stories, deep_sources | review use: may increase confidence after claim-scope and counterargument checks
-- After God: Richard Kearney and the Religious Turn in Continental Philosophy (2006) | OpenAlex | layers: other_religious_texts, human_stories, theologians | review use: may increase confidence after claim-scope and counterargument checks
-- Recent developments in Geant4 (2016) | OpenAlex | layers: deep_sources, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
-- Rough sets (1995) | OpenAlex | layers: deep_sources, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
-- The Boundaries of the Firm Revisited (1998) | OpenAlex | layers: cultural_inputs, history_inputs, psychology_inputs | review use: may increase confidence after claim-scope and counterargument checks
-- Words, Images, Enemies: Securitization and International Politics (2003) | OpenAlex | layers: world_languages, all_texts | review use: may increase confidence after claim-scope and counterargument checks
+- The Religious Experience and Meaning-Making of Young Black Christians during the Rise of #BlackLivesMatter (2026) | Crossref | layers: psychology_inputs, pattern_tests, human_stories, deep_sources | review use: can support cautious working claims when corroborated
+- Sacred Guardians of This (2025) | Internet Archive | layers: cultural_inputs, history_inputs, visual_art | review use: can support cautious working claims when corroborated
+- Nicene Creed (2017) | Internet Archive | layers: theologians, research_documents | review use: can support cautious working claims when corroborated
+- Carols and Lessons. December 7, 2025 Chorealis (2025) | Internet Archive | layers: history_inputs, theologians, visual_art | review use: can support cautious working claims when corroborated
+- CIA Reading Room cia-rdp96-00789r002200390001-5: ENHANCED HUMAN PERFORMANCE INVESTIGATION (1998) | Internet Archive | layers: deep_sources, pattern_tests | review use: can support cautious working claims when corroborated
+- CIA Reading Room cia-rdp80-00809a000700210211-8: POLITICAL-WAR CRIMINALS (1999) | Internet Archive | layers: cultural_inputs, history_inputs, visual_art, world_languages | review use: can support cautious working claims when corroborated
 
 Reader rule: this new material can change the questions immediately, but it should not strengthen a claim until the original source and counterarguments are reviewed.
 
@@ -125,10 +125,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (5,824 signals)
-- Meaning And Logos: high internal signal (7,316 signals)
-- Moral Response: high internal signal (3,117 signals)
-- Worship And Community: high internal signal (1,988 signals)
+- Life And Consciousness: high internal signal (5,608 signals)
+- Meaning And Logos: high internal signal (6,734 signals)
+- Moral Response: high internal signal (2,930 signals)
+- Worship And Community: high internal signal (1,839 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -145,9 +145,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (7,316 signals)
-- Moral Response: high internal signal (3,117 signals)
-- Transformation: high internal signal (2,954 signals)
+- Meaning And Logos: high internal signal (6,734 signals)
+- Moral Response: high internal signal (2,930 signals)
+- Transformation: high internal signal (2,941 signals)
 
 Chapter 3: Providence And Contingency Pattern
 ---------------------------------------------
@@ -164,10 +164,10 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,662 signals)
-- Quantum Probability: early signal (130 signals)
-- Life And Consciousness: high internal signal (5,824 signals)
-- Meaning And Logos: high internal signal (7,316 signals)
+- Physical Order: high internal signal (2,629 signals)
+- Quantum Probability: early signal (102 signals)
+- Life And Consciousness: high internal signal (5,608 signals)
+- Meaning And Logos: high internal signal (6,734 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -184,9 +184,9 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,662 signals)
-- Meaning And Logos: high internal signal (7,316 signals)
-- Transformation: high internal signal (2,954 signals)
+- Physical Order: high internal signal (2,629 signals)
+- Meaning And Logos: high internal signal (6,734 signals)
+- Transformation: high internal signal (2,941 signals)
 
 Chapter 5: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -203,10 +203,10 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,662 signals)
-- Life And Consciousness: high internal signal (5,824 signals)
-- Moral Response: high internal signal (3,117 signals)
-- Worship And Community: high internal signal (1,988 signals)
+- Physical Order: high internal signal (2,629 signals)
+- Life And Consciousness: high internal signal (5,608 signals)
+- Moral Response: high internal signal (2,930 signals)
+- Worship And Community: high internal signal (1,839 signals)
 
 Everyday Case Studies
 ---------------------
@@ -222,37 +222,36 @@ Other religions and cultures: The pattern should compare respectfully. Christian
 
 What The Research Currently Suggests
 ------------------------------------
-The project has analyzed 432 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
-The daily collector has retained 1,297 cloud candidate references, including 295 brand-new candidates in the latest run.
+The project has analyzed 136 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
+The daily collector has retained 1,119 cloud candidate references, including 16 brand-new candidates in the latest run.
 The current corpus most visibly repeats pattern families led by Image Of God Pattern, Cross And Reversal Pattern, Providence And Contingency Pattern, Trinity-As-Behavior Pattern, and Creation-To-Consciousness Pattern.
 These are best understood as chapters in an ongoing research book. They are not final proof claims.
 
 What Changed In The Latest Collection
 -------------------------------------
-Daily collector updated: 2026-05-26T23:05:19.898592+00:00
-Retained cloud candidate references: 1,297
-Brand-new candidate references this run: 295
+Daily collector updated: 2026-05-27T13:12:48.764555+00:00
+Retained cloud candidate references: 1,119
+Brand-new candidate references this run: 16
 
 Newest evidence movement by routed layer:
-- human_stories: 85
-- all_texts: 83
-- deep_sources: 83
-- psychology_inputs: 83
-- visual_art: 78
-- cultural_inputs: 77
-- history_inputs: 77
-- other_religious_texts: 56
+- visual_art: 11
+- cultural_inputs: 8
+- history_inputs: 7
+- theologians: 6
+- other_religious_texts: 4
+- all_texts: 3
+- pattern_tests: 3
+- research_documents: 3
 
 Newest automated evidence mix:
-- strong_scholarly_candidate: 232
-- moderate_scholarly_candidate: 63
+- moderate_scholarly_candidate: 16
 
 Newest sources shaping today's questions:
-- Central Asian Monuments (2011) | layers: theologians, research_documents | evidence: strong_scholarly_candidate
-- Brains, Bodies, Selves, and Science: Anthropologies of Identity and the Resurrection of the Body (2002) | layers: theologians, research_documents, psychology_inputs, deep_sources | evidence: strong_scholarly_candidate
-- The Athanasian Creed (2010) | layers: theologians, research_documents | evidence: strong_scholarly_candidate
-- Life, information, entropy, and time: Vehicles for semantic inheritance (2007) | layers: theologians, research_documents | evidence: strong_scholarly_candidate
-- Trinity disruption (2021) | layers: theologians, research_documents | evidence: strong_scholarly_candidate
+- 435-Holistic Biblical Unitarian Christianity (Theophilus Josiah) (2022) | layers: theologians, research_documents, visual_art, pattern_tests | evidence: moderate_scholarly_candidate
+- 457 From Oneness to One (J. Dan Gill) (2022) | layers: theologians, research_documents | evidence: moderate_scholarly_candidate
+- Nicene Creed (2017) | layers: theologians, research_documents | evidence: moderate_scholarly_candidate
+- CIA Reading Room cia-rdp96-00789r002200390001-5: ENHANCED HUMAN PERFORMANCE INVESTIGATION (1998) | layers: deep_sources, pattern_tests | evidence: moderate_scholarly_candidate
+- CIA Reading Room cia-rdp80-00809a000700210211-8: POLITICAL-WAR CRIMINALS (1999) | layers: cultural_inputs, history_inputs, visual_art, world_languages | evidence: moderate_scholarly_candidate
 
 Reader note: cloud candidates change the research questions immediately, but they should strengthen conclusions only after source review.
 
@@ -322,7 +321,7 @@ The assistant should not strengthen broad claims while relevant lanes are thin.
 - modern_literature: 2 notes; target 12-30, review cap 60; below minimum - prioritize. Purpose: narrative recurrence and limits through literature summaries.
 - deep_sources: 9 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: math, statistics, science, suffering, and counterargument guardrails.
 - pattern_tests: 22 notes; target 20-45, review cap 75; developing toward target. Purpose: pressure tests that challenge claims without becoming the whole project.
-- research_documents: 329 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
+- research_documents: 33 notes; target 20-45, review cap 75; developing toward target. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
 Priority lanes before stronger claims: biblical_languages, world_languages, all_texts, other_religious_texts, theologians, history_inputs, visual_art, psychology_inputs.
 
 Reviewed Source Packs
