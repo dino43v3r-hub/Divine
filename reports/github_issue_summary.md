@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-26T23:21:51.761417+00:00
+Generated: 2026-05-27T00:27:03.445260+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -101,7 +101,7 @@ Chapter One: What Is Growing Today?
 -----------------------------------
 This chapter summarizes the newest research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 501 lines. Open the linked report above to read everything._
+_Full report has 505 lines. Open the linked report above to read everything._
 ```
 
 ## reports/top_five_divine_patterns_report.txt
@@ -135,9 +135,9 @@ _Full report has 255 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-26T23:20:50.026980+00:00
-Total references: 1,076
-New references this run: 11
+Updated: 2026-05-27T00:26:02.008987+00:00
+Total references: 1,103
+New references this run: 27
 
 Guardrails
 ----------
@@ -151,7 +151,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 402 lines. Open the linked report above to read everything._
+_Full report has 496 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -170,13 +170,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 33
-Total analyzed words: 733,953
+Total analyzed words: 736,228
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 970 lines. Open the linked report above to read everything._
+_Full report has 966 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -391,15 +391,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### 653. Why I’m Convinced That Jesus Is the Human Messiah (Paul Robson)
+### Christian Talk Thaty Rocks with Richie L. Ep. 1/25/2023
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity, world_language_source_sampling
-- Layer routes: theologians, research_documents, world_languages, all_texts, other_religious_texts, visual_art
-- Primary layer: theologians
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 392 lines. Open the linked report above to read everything._
+_Full report has 912 lines. Open the linked report above to read everything._
 ```

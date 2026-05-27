@@ -71,6 +71,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-05-27": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "church history reform empire injustice theological interpretation",
+          "searched_at": "2026-05-27T00:21:42.895978+00:00",
+          "tag": "history_memory"
+        },
+        {
+          "credits_used": 1,
+          "query": "translation semantics theology metaphor grammar culture",
+          "searched_at": "2026-05-27T00:21:49.377026+00:00",
+          "tag": "world_languages_translation"
+        },
+        {
+          "credits_used": 1,
+          "query": "comparative theology translation language semantics sacred texts",
+          "searched_at": "2026-05-27T00:21:54.624304+00:00",
+          "tag": "world_languages_translation"
+        },
+        {
+          "credits_used": 1,
+          "query": "world languages sacred texts translation meaning metaphor",
+          "searched_at": "2026-05-27T00:22:00.948881+00:00",
+          "tag": "world_languages_translation"
+        },
+        {
+          "credits_used": 1,
+          "query": "world Christianity translation local language theology source study",
+          "searched_at": "2026-05-27T00:22:06.854584+00:00",
+          "tag": "world_language_source_sampling"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

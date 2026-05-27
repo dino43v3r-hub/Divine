@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-26T23:20:50.026980+00:00
-Total references: 1,076
-New references this run: 11
+Updated: 2026-05-27T00:26:02.008987+00:00
+Total references: 1,103
+New references this run: 27
 
 Guardrails
 ----------
@@ -19,238 +19,280 @@ Online Collection Status
 - OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
 - Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
 - Tavily budget: 5/5 basic searches used today; 0 remaining.
-- Open-web candidates returned this run: 0.
+- Open-web candidates returned this run: 15.
 - Provider results returned this run:
   - Crossref: 305
   - Europe PMC: 223
   - Internet Archive: 106
   - OpenAlex: 288
   - PubMed: 26
-  - arXiv: 30
+  - Tavily Search: 15
 - Brand-new references added by provider:
-  - Internet Archive: 11
+  - Internet Archive: 12
+  - Tavily Search: 15
 - Total stored references by provider:
   - Crossref: 308
   - Europe PMC: 187
-  - Internet Archive: 256
+  - Internet Archive: 268
   - OpenAlex: 248
   - PubMed: 24
-  - Tavily Search: 27
+  - Tavily Search: 42
   - arXiv: 26
 
 Reference Tags
 --------------
-- art_beauty: 86
+- art_beauty: 88
 - biblical_language_source_depth: 41
 - biblical_languages: 30
 - cultural_practice_patterns: 48
 - general_research_methods: 45
-- global_text_traditions: 66
-- history_memory: 73
+- global_text_traditions: 68
+- history_memory: 78
 - holy_spirit_gifts_global: 30
 - interreligious_dream_testimony: 39
 - modern_literature_meaning: 47
 - music_math: 78
 - pattern_perception_divine_response: 42
-- politics_justice: 65
+- politics_justice: 67
 - psychology_patterns: 58
 - quantum_science_guardrails: 81
-- technology_ethics: 61
+- technology_ethics: 65
 - theologians_cross_era: 29
 - trinity: 78
 - unresolved_suffering: 43
-- world_language_source_sampling: 57
-- world_languages_translation: 44
+- world_language_source_sampling: 60
+- world_languages_translation: 53
 
 Layer Routes
 ------------
-- all_texts: 327
+- all_texts: 342
 - biblical_languages: 84
-- cultural_inputs: 255
-- deep_sources: 323
-- history_inputs: 264
+- cultural_inputs: 263
+- deep_sources: 325
+- history_inputs: 275
 - human_stories: 264
-- modern_literature: 130
+- modern_literature: 134
 - music_notes: 78
-- other_religious_texts: 226
-- pattern_tests: 196
-- psychology_inputs: 259
+- other_religious_texts: 234
+- pattern_tests: 197
+- psychology_inputs: 260
 - research_documents: 122
 - research_documents/christian_sources: 95
-- theologians: 261
-- visual_art: 332
-- world_languages: 193
+- theologians: 267
+- visual_art: 345
+- world_languages: 206
 
 Layer Balance Watch
 -------------------
 - These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
   - music_notes: 78
+  - biblical_languages: 84
 
 Quality Counts
 --------------
-- open web result: 27
-- reference metadata: 254
+- open web result: 42
+- reference metadata: 266
 - scholarly metadata: 767
 - scholarly preprint: 26
 - speculative-risk: 2
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 473
+- moderate_scholarly_candidate: 485
 - strong_scholarly_candidate: 564
-- weak_scholarly_candidate: 39
+- weak_scholarly_candidate: 54
 
 New This Run By Tag
 -------------------
-- art_beauty: 1
+- art_beauty: 2
 - global_text_traditions: 2
-- history_memory: 3
-- politics_justice: 1
-- quantum_science_guardrails: 1
-- technology_ethics: 2
-- trinity: 1
-- world_language_source_sampling: 1
+- history_memory: 5
+- politics_justice: 2
+- technology_ethics: 4
+- world_language_source_sampling: 3
+- world_languages_translation: 9
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 4
-- cultural_inputs: 4
-- deep_sources: 1
-- history_inputs: 4
-- modern_literature: 2
-- other_religious_texts: 4
+- all_texts: 15
+- cultural_inputs: 8
+- deep_sources: 2
+- history_inputs: 11
+- modern_literature: 4
+- other_religious_texts: 8
 - pattern_tests: 1
-- research_documents: 1
-- theologians: 5
-- visual_art: 7
-- world_languages: 1
+- psychology_inputs: 1
+- theologians: 6
+- visual_art: 13
+- world_languages: 13
 
 Newest Additions This Run
 ------------------------
-- 653. Why I’m Convinced That Jesus Is the Human Messiah (Paul Robson) (2026)
-  Tags: trinity, world_language_source_sampling
-  Layer routes: theologians, research_documents, world_languages, all_texts, other_religious_texts, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-653_why_im_convinced_that_jesus_is_the_human_messiah_paul_robson
-- Dreams and Creativity - The Ontogeny of a New Idea (2026)
-  Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/mary-shelley-9481497-2-raw
-- VOA [Voice of America] Africa : May 02, 2019 03:00PM-04:00PM EDT (2019)
+- Christian Talk Thaty Rocks with Richie L. Ep. 1/25/2023 (2023)
   Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art
+  Layer routes: cultural_inputs, history_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Ad_Durar_Al_Bahiyyah-christian_talk_thaty_rocks_with_richie_l_ep_1_25_2023
+- Liu Xiaobo (n.d.)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs, visual_art, modern_literature
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Africa_20190502_190000
-- Amazing Son of Adam (المدهش ابن آدم) (n.d.)
+  URL: https://archive.org/details/liu-xiaobo
+- Islam: From Kufr to Eemaan (Disbelief to Correct Faith) من الكفر إلى الإيمان (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, history_inputs, other_religious_texts
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/IslamFromKufrToEemaandisbeliefToCorrectFaith
+- O Christ Worshippers! - A Poem by Ibn Qayyim al-Jawziyyah (رحمه الله) (n.d.)
   Tags: art_beauty
   Layer routes: visual_art, cultural_inputs, other_religious_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/AmazingSonOfAdampbuh
-- 03.16.25 Sermon - “Weekly Worship” - Rev. T.J. FitzGerald (2025)
+  URL: https://archive.org/details/OChristWorshippers-APoemByIbnQayyimAl-jawziyyah
+- The Coaxialism (complete reference edition) (n.d.)
   Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/First_Unitarian_Dallas_Podcast-Podcast___3_16_25
-- A Sacred Choice: Reproductive Justice (2023)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20230514LSComplete
-- VOA [Voice of America] Africa : June 08, 2019 11:00PM-12:00AM EDT (2019)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians
+  Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Africa_20190609_030000
-- Getting to Grips with Growth (2023)
+  URL: https://archive.org/details/TheCoaxialismcompleteReferenceEdition
+- Sorin Cerin – Books Biography And Bibliography With Literary And Philosophical Criticism 2020 (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism
+- Colonialism, Racism, and Empire - Reformed Journal (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, pattern_tests
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://reformedjournal.com/2025/08/20/colonialism-racism-and-empire
+- [PDF] The Challenges and Impact of Church History in the Book of Acts for ... (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4515359_code6032817.pdf?abstractid=4515359&mirid=1&type=2
+- The significance of social justice and diakonia in the Reformed tradition | Pillay | HTS Teologiese Studies / Theological Studies (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://hts.org.za/index.php/hts/article/view/7846/23739
+- [PDF] Cultural Functions in the Translation of Metaphor (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.academypublication.com/issues/past/jltr/vol04/03/11.pdf
+- Review of "The Bible through metaphor and translation: A cognitive ... (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, psychology_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.jbe-platform.com/content/journals/10.1075/arcl.3.19brd?crawler=true&mimetype=application%2Fpdf
+- Thinking Through Translation with Metaphors. Edited by James St ... (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, history_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.euppublishing.com/doi/10.3366/tal.2011.0030
+- Entry | Religion (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, deep_sources
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.aieti.eu/enti/religion_ENG/entry.html
+- Translating Inspired Language, Transforming Sacred Texts - Brill (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://brill.com/view/journals/me/26/4-5/article-p333_1.xml
+- The Translation Of The Sacred – Analysis - Eurasia Review (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.eurasiareview.com/24052021-the-translation-of-the-sacred-analysis
+- [PDF] Sensation and Metaphor in Ritual Performance (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, theologians
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
+- How to understand metaphorical language in sacred texts? (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.facebook.com/groups/2209644753/posts/10157385510304754
+- Why do sacred texts often speak in metaphor, and what happens ... (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.quora.com/Why-do-sacred-texts-often-speak-in-metaphor-and-what-happens-when-they-re-interpreted-literally
+- (PDF) At Home in All Languages and Cultures: Bible Translation ... (n.d.)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  URL: https://www.academia.edu/80379524/At_Home_in_All_Languages_and_Cultures_Bible_Translation_and_World_Christianity_in_the_Twenty_First_Century
+- Understanding Christian translation and its missiological relevance | Alawode | HTS Teologiese Studies / Theological Studies (n.d.)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts, visual_art, history_inputs, deep_sources
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://hts.org.za/index.php/hts/article/view/10066/27697
+- Christianity & Language: Why Translation Is Important (n.d.)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts, history_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://chinapartnership.org/blog/2020/07/christianity-amp-language-why-translation-is-important
+- God Unveiled Unedited (2024)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature, visual_art, world_languages
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/god-unveiled-unedited
+- The vilnius christian know (2022)
   Tags: global_text_traditions
   Layer routes: all_texts, other_religious_texts, modern_literature, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Kensington_Unitarians_UK-KU_janeB_davidC_hybrid_sermon_30_07_23
-- 558 Courageous Baptist Seeks Biblical Truth (Joshua Michael Smith) (2024)
-  Tags: global_text_traditions
-  Layer routes: all_texts, other_religious_texts, modern_literature, theologians, visual_art
+  URL: https://archive.org/details/uusf_org-20120226JKComplete
+- VOA [Voice of America] Global English : February 27, 2020 01:00AM-02:00AM EST (2020)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/VOA_Global_English_20200227_060000
+- VOA [Voice of America] Global English : June 03, 2019 03:00PM-04:00PM EDT (2019)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/VOA_Global_English_20190603_190000
+- World Women’s Congress For A Healthy Planet: Tribunal (Days 1, 2, and 3) [1 through 9 in a series of 17] (1991)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-558_courageous_baptist_seeks_biblical_truth_joshua_michael_smith
-- VOA [Voice of America] Africa : September 13, 2017 03:00PM-04:00PM EDT (2017)
+  URL: https://archive.org/details/audiocassette0356-01_a
+- VOA [Voice of America] Global English : February 19, 2019 02:00PM-03:00PM EST (2019)
   Tags: technology_ethics
-  Layer routes: cultural_inputs
+  Layer routes: cultural_inputs, other_religious_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Africa_20170913_190000
-- VOA [Voice of America] Global English : February 26, 2020 10:00PM-11:00PM EST (2020)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Global_English_20200227_030000
+  URL: https://archive.org/details/VOA_Global_English_20190219_190000
 
 Recent Candidate Sources
 ------------------------
-- Critical discourse analysis and its critics (2015)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: strong_scholarly_candidate (11)
-  Authors: Ruth Breeze
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.1075/prag.21.4.01bre
-- Don't Uncover that Face! Covid-19 Masks and the Niqab: Ironic Transfigurations of the ECtHR's Intercultural Blindness. (2022)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts, other_religious_texts
-  Automated evidence: strong_scholarly_candidate (11)
-  Authors: Ricca M.
-  Source: Europe PMC | scholarly metadata
-  URL: https://doi.org/10.1007/s11196-020-09703-y
-- Embodiment as a Paradigm for Anthropology (2002)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: strong_scholarly_candidate (11)
-  Authors: Thomas J. Csordas
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.1007/978-1-137-08286-2_3
-- Folding and unfolding: A topological framework for understanding intangible cultural heritage tourism in urban villages - The case of chebei dragon boat scenery, Guangzhou, China. (2026)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts, visual_art, modern_literature
-  Automated evidence: strong_scholarly_candidate (10)
-  Authors: Tang X, Li S.
-  Source: Europe PMC | scholarly metadata
-  URL: https://doi.org/10.1371/journal.pone.0339564
-- From Military to Civilian Context: Adaptation of the SOCOM Spiritual Fitness Scale and Its Associations with Positive Mental Health and Depression in Poland. (2026)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: strong_scholarly_candidate (11)
-  Authors: Mamcarz P, Alexander D.
-  Source: Europe PMC | scholarly metadata
-  URL: https://doi.org/10.1007/s10943-025-02518-w
-- Fundraising (n.d.)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: moderate_scholarly_candidate (8)
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.4324/9780203290903_chapter_10
-- God's Invisible Traces: The Sacred in Fallen Language, Translation and Literariness (2009)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: strong_scholarly_candidate (10)
-  Authors: E. M. Loevlie
-  Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1093/litthe/frp043
-- History of Concepts : Comparative Perspectives (1998)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts, history_inputs
-  Automated evidence: strong_scholarly_candidate (11)
-  Authors: Van Vree, Frank
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.5117/9789053563069
 - Holy Quran Kurdish Sorani translation dataset for language modelling. (2025)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, other_religious_texts
@@ -258,6 +300,12 @@ Recent Candidate Sources
   Authors: Bamoki M, Wady SH, Badawi S.
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.1016/j.dib.2025.111533
+- How to understand metaphorical language in sacred texts? (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Automated evidence: weak_scholarly_candidate (4)
+  Source: Tavily Search | open web result
+  URL: https://www.facebook.com/groups/2209644753/posts/10157385510304754
 - Language of Religion, Religions as Languages. Introduction to the Special Issue 'Religions and Languages: A Polyphony of Faiths'. (2022)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, visual_art, modern_literature, deep_sources
@@ -307,6 +355,12 @@ Recent Candidate Sources
   Authors: Liu Y.
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.3389/fpsyg.2025.1763648
+- Review of "The Bible through metaphor and translation: A cognitive ... (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, psychology_inputs
+  Automated evidence: weak_scholarly_candidate (4)
+  Source: Tavily Search | open web result
+  URL: https://www.jbe-platform.com/content/journals/10.1075/arcl.3.19brd?crawler=true&mimetype=application%2Fpdf
 - SACRED LANGUAGES (2012)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -360,6 +414,12 @@ Recent Candidate Sources
   Authors: Klein Cardoso S.
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.1177/1476993x221147925
+- The Translation Of The Sacred – Analysis - Eurasia Review (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Automated evidence: weak_scholarly_candidate (4)
+  Source: Tavily Search | open web result
+  URL: https://www.eurasiareview.com/24052021-the-translation-of-the-sacred-analysis
 - The human factor (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -386,6 +446,18 @@ Recent Candidate Sources
   Automated evidence: moderate_scholarly_candidate (9)
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203102893-45
+- Thinking Through Translation with Metaphors. Edited by James St ... (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, history_inputs
+  Automated evidence: weak_scholarly_candidate (4)
+  Source: Tavily Search | open web result
+  URL: https://www.euppublishing.com/doi/10.3366/tal.2011.0030
+- Translating Inspired Language, Transforming Sacred Texts - Brill (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Automated evidence: weak_scholarly_candidate (4)
+  Source: Tavily Search | open web result
+  URL: https://brill.com/view/journals/me/26/4-5/article-p333_1.xml
 - Translation and Genre: Sacred Texts (2006)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -400,3 +472,25 @@ Recent Candidate Sources
   Authors: Ernst-August Gutt
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4324/9781315760018
+- Why do sacred texts often speak in metaphor, and what happens ... (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Automated evidence: weak_scholarly_candidate (4)
+  Source: Tavily Search | open web result
+  URL: https://www.quora.com/Why-do-sacred-texts-often-speak-in-metaphor-and-what-happens-when-they-re-interpreted-literally
+- [PDF] Cultural Functions in the Translation of Metaphor (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Automated evidence: weak_scholarly_candidate (4)
+  Source: Tavily Search | open web result
+  URL: https://www.academypublication.com/issues/past/jltr/vol04/03/11.pdf
+- [PDF] Sensation and Metaphor in Ritual Performance (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, theologians
+  Automated evidence: weak_scholarly_candidate (6)
+  Source: Tavily Search | open web result
+  URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
+
+Collector Errors
+----------------
+- search_arxiv failed for quantum_science_guardrails: The read operation timed out

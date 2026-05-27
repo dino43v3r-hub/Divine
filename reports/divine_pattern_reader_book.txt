@@ -66,10 +66,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (5,612 signals)
-- Meaning And Logos: high internal signal (6,725 signals)
-- Moral Response: high internal signal (2,930 signals)
-- Worship And Community: high internal signal (1,847 signals)
+- Life And Consciousness: high internal signal (5,605 signals)
+- Meaning And Logos: high internal signal (6,735 signals)
+- Moral Response: high internal signal (2,937 signals)
+- Worship And Community: high internal signal (1,845 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -86,9 +86,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (6,725 signals)
-- Moral Response: high internal signal (2,930 signals)
-- Transformation: high internal signal (2,935 signals)
+- Meaning And Logos: high internal signal (6,735 signals)
+- Moral Response: high internal signal (2,937 signals)
+- Transformation: high internal signal (2,934 signals)
 
 Chapter 3: Providence And Contingency Pattern
 ---------------------------------------------
@@ -105,10 +105,10 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,630 signals)
-- Quantum Probability: early signal (102 signals)
-- Life And Consciousness: high internal signal (5,612 signals)
-- Meaning And Logos: high internal signal (6,725 signals)
+- Physical Order: high internal signal (2,628 signals)
+- Quantum Probability: early signal (101 signals)
+- Life And Consciousness: high internal signal (5,605 signals)
+- Meaning And Logos: high internal signal (6,735 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -125,9 +125,9 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,630 signals)
-- Meaning And Logos: high internal signal (6,725 signals)
-- Transformation: high internal signal (2,935 signals)
+- Physical Order: high internal signal (2,628 signals)
+- Meaning And Logos: high internal signal (6,735 signals)
+- Transformation: high internal signal (2,934 signals)
 
 Chapter 5: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -144,10 +144,10 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,630 signals)
-- Life And Consciousness: high internal signal (5,612 signals)
-- Moral Response: high internal signal (2,930 signals)
-- Worship And Community: high internal signal (1,847 signals)
+- Physical Order: high internal signal (2,628 signals)
+- Life And Consciousness: high internal signal (5,605 signals)
+- Moral Response: high internal signal (2,937 signals)
+- Worship And Community: high internal signal (1,845 signals)
 
 Everyday Case Studies
 ---------------------

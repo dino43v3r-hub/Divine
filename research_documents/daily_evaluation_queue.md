@@ -7,106 +7,33 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### 653. Why I’m Convinced That Jesus Is the Human Messiah (Paul Robson)
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity, world_language_source_sampling
-- Layer routes: theologians, research_documents, world_languages, all_texts, other_religious_texts, visual_art
-- Primary layer: theologians
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 559
-- Year: 2026
-- URL: https://archive.org/details/Restitutio-653_why_im_convinced_that_jesus_is_the_human_messiah_paul_robson
-
-Paul Robson was an upstanding Christian leader in a Bible-believing church when his friend upended
-his world by revealing that he no longer believed the Trinity was biblically true. Although Robson
-initially reacted negatively to such a departure from the norm, he eventually came to change his
-mind based on a thorough study of Scripture. What happened next was both tragic and all too
-common–he was asked the church where he was serving. Having left he is developing websites about
-doctrine and now has new Bible study app that can help you spot bias in translation. Listen on
-Spotify Listen on Apple Podcasts —— Links —— Support Restitutio by donating here Join our Facebook
-group, follow on X @Re
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Use as general research context until a more specific layer is reviewed.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Dreams and Creativity - The Ontogeny of a New Idea
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests, visual_art
-- Primary layer: deep_sources
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 397
-- Year: 2026
-- URL: https://archive.org/details/mary-shelley-9481497-2-raw
-
-The Brain Mechanism of Inspiration "At first Sarah thought the tinkling of the bell was part of her
-dream. It sounded so sweet and soothing, and she was following it across a sunlit meadow as if it
-were a golden butterfly. But then the pounding started, and she knew this wasn't a dream at all.
-Dragging herself away from the meadow and out of the depths of sleep, she forced her reluctant
-eyelids open. Sure enough someone was pounding on her office door..."- Thompson, V. (1999). How does
-the human brain erect such dreams? Read the following examples of dreams used in the creation of
-literature, and the effects they had on the dreamer's brain in the ontogeny of a new, potentially
-creative idea.
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### VOA [Voice of America] Africa : May 02, 2019 03:00PM-04:00PM EDT
+### Christian Talk Thaty Rocks with Richie L. Ep. 1/25/2023
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs, visual_art
+- Layer routes: cultural_inputs, history_inputs
 - Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
+- Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 329
-- Year: 2019
-- URL: https://archive.org/details/VOA_Africa_20190502_190000
+- Corroborating routed candidates: 234
+- Year: 2023
+- URL: https://archive.org/details/Ad_Durar_Al_Bahiyyah-christian_talk_thaty_rocks_with_richie_l_ep_1_25_2023
 
-Closed captions transcript: 00:00:00 This is v.o.a. 00:00:02 News more than 100000000 people are in
-the path of Cyclon funny as it slowly 00:00:08 moves toward the eastern India state Indian state of
-Odisha 00:00:13 this the cyc lone generating winds have nearly 00:00:19 200 kilometers per hour is
-expected to make landfall early Friday Funny has 00:00:25 intensified significantly during the past
-couple of days prompting the India 00:00:29 meteorological department to refer to it as an extremely
-severe cyclonic storm 00:00:35 India has begun to evacuate hundreds of thousands of people as
-meteorologists 00:00:39 warned of a quote total destruction of thatched houses that's 00:00:44 a
-common dr
+On today's show, 1:06pm CT, 2:06pm ET: Documentgate: GOP Senators caution against Biden impeachment
+for classified docs - Penn Biden Center June event allowed attendees ‘Unmonitored’ building access -
+Rep. Comer reacts to National Archives blowing off Biden documents request - Run For The Border: 20
+states announce plans to sue Biden Administration over unlawful migrant parole program - Dem. Rep.
+Henry Cuellar says migrants will 'keep coming' without consequences - making illegal immigration
+illegal again - we'll explore. Plus, Bombshell from grave! The late Pope Benedict, who is dead,
+unleashes on Catholics in posthumous book. And, 2nd Amendment debate heats up again after recent
+California
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
@@ -114,9 +41,80 @@ Automated evidence reasons:
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### Amazing Son of Adam (المدهش ابن آدم)
+### Liu Xiaobo
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs, visual_art, modern_literature
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 392
+- Year: n.d.
+- URL: https://archive.org/details/liu-xiaobo
+
+1.9M (Asian American History & Culture) Belinda Kong - Tiananmen Fictions outside the Square_ The
+Chinese Literary Diaspora and the Politics of Global Culture-Temple University Press (2012).pdf
+download 102.1K Charter08.pdf download 255.0K Confession, Redemption, and Death: Liu Xiaobo and the
+- ConfessionRedemptionDeath.pdf download 17.5M How Chinese intellectual Liu Xiaobo spoke up for
+change, only to be jailed by Beijing | Hong Kong Free Press HKFP.pdf download 37.9M In Pictures:
+'Political oppression' - Hong Kong activists call for release of Nobel winner Liu Xiaobo | Hong Kong
+Free Press HKFP.pdf download 1.3M Liao Yiwu - God Is Red_ The Secret Story of How Christianity
+Survived and Flou
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
+### Islam: From Kufr to Eemaan (Disbelief to Correct Faith) من الكفر إلى الإيمان
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, history_inputs, other_religious_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 435
+- Year: n.d.
+- URL: https://archive.org/details/IslamFromKufrToEemaandisbeliefToCorrectFaith
+
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Islamic files. -----------------------------------------------------
+--------------------------------------------------------------------------------------------------
+From Kufr to Eemaan من الكفر إلى الإيمان What Are They Saying About: ISLAM? : "Most Influential
+Person In History" - Michael H. Hart "My choice of Muhammad to lead the list of the world's most
+influential persons may surprise some readers and may be questioned by others, but he was the only
+man in history who was supremely successful on both the religious and secular level." [Michael H.
+Hart, THE
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### O Christ Worshippers! - A Poem by Ibn Qayyim al-Jawziyyah (رحمه الله)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -129,16 +127,16 @@ Layer review prompts:
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 385
 - Year: n.d.
-- URL: https://archive.org/details/AmazingSonOfAdampbuh
+- URL: https://archive.org/details/OChristWorshippers-APoemByIbnQayyimAl-jawziyyah
 
 Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
 watch/listen/download more free Islamic files. -----------------------------------------------------
 --------------------------------------------------------------------------------------------------
-WARNING: This is an old video that contains musical instruments which are Haraam (Islamically
-forbidden) in Islaam. They were initially included strictly for Da'wah purposes and not for the
-purpose of entertainment. Musical Instruments are no longer included in recent videos strictly
-because of its prohibition in Islaam. The Prophet ﷺ said (which means), "From among my followers
-there will be some
+Sheikhul-Islaam at-Thanee al-Imaam Shamsudeen Muhammed Bin Aboo Bakr Bin al-Qayyim al-Jawzizhi ad-
+Dimishqee was from the greatest of the A'imah and the most notable of Sheikhul Islaam Ibn
+Taymiyyah's students whom he accompanied and studied under for sixteen years. In eulogizing Ibn
+Qayyim al-Jawziyyah, al-Hafidh Ibn Kathir stated: "He acquired from such books what others could not
+acquire, and he
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -151,34 +149,33 @@ Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### 03.16.25 Sermon - “Weekly Worship” - Rev. T.J. FitzGerald
+### The Coaxialism (complete reference edition)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, all_texts
+- Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
 - Primary layer: history_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
+- Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 557
-- Year: 2025
-- URL: https://archive.org/details/First_Unitarian_Dallas_Podcast-Podcast___3_16_25
+- Corroborating routed candidates: 561
+- Year: n.d.
+- URL: https://archive.org/details/TheCoaxialismcompleteReferenceEdition
 
-Some tell us “You are what you worship.” We talk about what worship means and all it offers us as
-members of this community. This sermon is part of our Spiritual Practices to Light the Way series –
-Supported by the strong foundation of our living Unitarian Universalist faith and our vibrant church
-community, we are each called to deepen our spiritual lives so that we can have a positive and
-meaningful impact on the world around us. In this series, we’ll explore the five spiritual practices
-that light the path forward as we work toward a more just and peaceful world. First Unitarian Church
-of Dallas is devoted to genuine inclusion, depth and joy, reason and spirit. We have been a voice of
-pro
+SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is
+a mystic in his aphorisms, Sorin Cerin is a philosopher, author of a new philosophical system called
+Coaxialism, an existentialist poet from the 21st century, essayist and novelist. Sorin Cerin is
+particularly sought after by the great public for the11,486 structured aphorisms in 14 volumes of
+thoughts previously published in various publishing houses, and then to be reunited under the aegis
+of a monumental volume called Wisdom Collection, a title that brought him celebrity and
+international recognition, for which he is considered to be one of the most representative thinkers
+of the aphoristic
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
-- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
@@ -187,28 +184,550 @@ Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 
-### A Sacred Choice: Reproductive Justice
+### Sorin Cerin – Books Biography And Bibliography With Literary And Philosophical Criticism 2020
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
+- Layer routes: history_inputs, theologians, visual_art
+- Primary layer: history_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 409
+- Year: n.d.
+- URL: https://archive.org/details/sorincerin-booksbiographyandbibliographywithliteraryandphilosophicalcriticism
+
+Sorin Cerin – books which can be viewed on Google Books, bibliography 2020 with literary and
+philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian
+philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher,
+author of a new philosophical system called Coaxialism, and an important 21st-century existentialist
+poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard.
+Sorin Cerin is especially sought after by the general public, both for his philosophical poems,
+which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms,
+structured in several
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### Colonialism, Racism, and Empire - Reformed Journal
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 433
+- Year: n.d.
+- URL: https://reformedjournal.com/2025/08/20/colonialism-racism-and-empire
+
+Isaac's message is a theological reflection and a call for concrete action, urging Christians to
+speak out against injustice, advocate for a
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
+### [PDF] The Challenges and Impact of Church History in the Book of Acts for ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: history_memory
 - Layer routes: history_inputs, theologians
 - Primary layer: history_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 292
+- Year: n.d.
+- URL: https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4515359_code6032817.pdf?abstractid=4515359&mirid=1&type=2
+
+It aims to analyze various aspects such as persecution, unity, theological controversies, mission,
+leadership, and cultural adaptation within the context of the.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### The significance of social justice and diakonia in the Reformed tradition | Pillay | HTS Teologiese Studies / Theological Studies
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, visual_art
+- Primary layer: history_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 409
+- Year: n.d.
+- URL: https://hts.org.za/index.php/hts/article/view/7846/23739
+
+| * **Abstract** * **Introduction** * **Social justice is grounded in Reformed history** * **Social
+justice is central to Reformed theology** * **Reformed confessions** * **Social justice is in the
+heart of Reformed polity and structure** * **Conclusion** * **Acknowledgements** * **References** *
+**Footnotes** **About the Author(s)** Jerry Pillay Email symbolFaculty of Theology and Religion,
+University of Pretoria, Pretoria, South Africa **Citation** Pillay, J., 2022, ‘The significance of
+social justice and *diakonia* in the Reformed tradition’, *HTS Teologiese Studies/Theological
+Studies* 78(4), a7846. | The significance of social justice and *diakonia* in the Reformed tradition
+|. To be Re
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### [PDF] Cultural Functions in the Translation of Metaphor
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, visual_art
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 395
+- Year: n.d.
+- URL: https://www.academypublication.com/issues/past/jltr/vol04/03/11.pdf
+
+These names are established in language and these metaphorical concepts naturally become part of
+cultural generality. Professor Liu Chongde defines literal translation as follows: “In the process
+of translation, literal translation takes sentences as basic units and at the same time takes the
+whole passage into consideration; a translator who attaches great importance to literal translation
+does his or her best to reproduce the ideas and writing style of the original work, retaining as
+many rhetorical devices and sentence structures as possible.” Literal translation is thought by some
+scholars to be the most essential and the most commonly used method for JOURNAL OF LANGUAGE TEACHING
+AND RES
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### Review of "The Bible through metaphor and translation: A cognitive ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, psychology_inputs
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 445
+- Year: n.d.
+- URL: https://www.jbe-platform.com/content/journals/10.1075/arcl.3.19brd?crawler=true&mimetype=application%2Fpdf
+
+The author takes the “linguistica ancilla theologiae”-perspective and argues for an asymmetrical
+interdisciplinary approach by applying cognitive semantics,.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Thinking Through Translation with Metaphors. Edited by James St ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, history_inputs
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 395
+- Year: n.d.
+- URL: https://www.euppublishing.com/doi/10.3366/tal.2011.0030
+
+The introduction reviews highpoints in the long history of discussions of metaphor and translation,
+from the Platonic objection to metaphor as
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Entry | Religion
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, deep_sources
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 510
+- Year: n.d.
+- URL: https://www.aieti.eu/enti/religion_ENG/entry.html
+
+Introduction | The origin of religious translation | Towards a classification of religious
+translation | The translation of the sacred scripture or holy book | Translation as a source of
+interreligious conflict | Translation as a source of intrareligious conflict | By way of conclusion|
+Research potential. The definition of the concept of "monastic translation" (Bueno 2007), which is
+inspired by polysystemic approaches, has been essential to address the translation of religion in a
+broader way and to study it from a multidisciplinary perspective. Translation in religious contexts
+is of interest to different sciences such as linguistics (in its different branches:
+sociolinguistics, lexicograp
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Translating Inspired Language, Transforming Sacred Texts - Brill
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, visual_art
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 395
+- Year: n.d.
+- URL: https://brill.com/view/journals/me/26/4-5/article-p333_1.xml
+
+In introducing the following five articles on late medieval and early modern translations of Jewish,
+Christian, and Muslim sacred texts.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### The Translation Of The Sacred – Analysis - Eurasia Review
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 274
+- Year: n.d.
+- URL: https://www.eurasiareview.com/24052021-the-translation-of-the-sacred-analysis
+
+The translation of the sacred text raises multiple and formidable questions concerning the
+relationship of communities and peoples to their
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### [PDF] Sensation and Metaphor in Ritual Performance
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, theologians
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (6)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 429
+- Year: n.d.
+- URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
+
+Religious language amplifies this effect through beliefs that a deity or ultimate reality can
+influence readers by means of sacred texts (e.g. Augustine).
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### How to understand metaphorical language in sacred texts?
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 274
+- Year: n.d.
+- URL: https://www.facebook.com/groups/2209644753/posts/10157385510304754
+
+For example, the story of Adam and Eve in the Bible is often interpreted as a metaphor for the human
+condition, rather than a literal account of
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### Why do sacred texts often speak in metaphor, and what happens ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 274
+- Year: n.d.
+- URL: https://www.quora.com/Why-do-sacred-texts-often-speak-in-metaphor-and-what-happens-when-they-re-interpreted-literally
+
+You don't interpret the original text, you translate it. An interpretation requires reading into
+what the text already says. Most translations
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### (PDF) At Home in All Languages and Cultures: Bible Translation ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_language_source_sampling
+- Layer routes: world_languages, all_texts, other_religious_texts
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (6)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 338
+- Year: n.d.
+- URL: https://www.academia.edu/80379524/At_Home_in_All_Languages_and_Cultures_Bible_Translation_and_World_Christianity_in_the_Twenty_First_Century
+
+Bible translation enables the reception of the Gospel, empowers local cultures and languages, and
+furthers the rise of a World Christianity. Sanneh noted
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### Understanding Christian translation and its missiological relevance | Alawode | HTS Teologiese Studies / Theological Studies
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_language_source_sampling
+- Layer routes: world_languages, all_texts, other_religious_texts, visual_art, history_inputs, deep_sources
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 698
+- Year: n.d.
+- URL: https://hts.org.za/index.php/hts/article/view/10066/27697
+
+| * **Abstract** * **Introduction** * **Biblical basis for Christian translation** * **History of
+Bible translation** * **Relevance of Christian translation to Christian missions** * **Conclusion**
+* **Acknowledgements** * **References** **About the Author(s)** Akinyemi O. Alawode Email
+symbolDepartment of Christian Spirituality, Church History and Missiology, College of Human
+Sciences, University of South Africa, Pretoria, South Africa **Citation** Alawode, A.O., 2024,
+‘Understanding Christian translation and its missiological relevance’, *HTS Teologiese
+Studies/Theological Studies* 80(1), a10066. Alawode, A.O., 2024, ‘Understanding Christian
+translation and its missiological relevance’, *H
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Christianity & Language: Why Translation Is Important
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_language_source_sampling
+- Layer routes: world_languages, all_texts, other_religious_texts, history_inputs
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 447
+- Year: n.d.
+- URL: https://chinapartnership.org/blog/2020/07/christianity-amp-language-why-translation-is-important
+
+Translatability is at the core of Christian history, theology and experience; God became
+'translated' into human form in Jesus Christ. In
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### God Unveiled Unedited
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature, visual_art, world_languages
+- Primary layer: all_texts
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 292
-- Year: 2023
-- URL: https://archive.org/details/Complete_Service_First_Unitari-20230514LSComplete
+- Corroborating routed candidates: 451
+- Year: 2024
+- URL: https://archive.org/details/god-unveiled-unedited
 
-"A Sacred Choice: Reproductive Justice" Sunday, May 14, 10:50 am On this day honoring mothers, what
-does it mean to truly support the choice to become a mother or not? What does the upcoming
-resolution call us as a congregation to do to support this choice? Rev. Laura Shennum, Minister of
-Congregational Life; Bree Shennum, Worship Associate; Reiko Oda Lane, Organist; UUSF Choir led by
-Mark Sumner, Music Director; Peg Lisi, Soloist Shulee Ong, Camera; Jonathan Silk, Communications
-Director; Amy Kelly, Flowers; Linda Messner, Head Usher
+In a nutshell Main Points Seven sayings of Jesus Time Times Half a Time Why the generation did not
+see end time Answers what is it for the reader Explains how to go about it to benefit the readers
+Sub Points Parables explained Metaphors disclosed Main queries explained Elevation of laws into
+flexibility, from justice to mercy Meaning of cross and the ways of cross sacrifice Progressive
+steps towards way of the Lord For those whose hearts longed and thirst for love and righteousness,
+this book covers the bible in simple terms, in a simple way, the Lord's ways. Make straight the ways
+of the Lord, and aligned with the scriptures, where His yoke is easy and burden is light. It is
+easier to chang
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -218,44 +737,13 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
 
-### VOA [Voice of America] Africa : June 08, 2019 11:00PM-12:00AM EDT
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 292
-- Year: 2019
-- URL: https://archive.org/details/VOA_Africa_20190609_030000
-
-Closed captions transcript: 00:00:00 During 00:00:00 a recent military confrontation with Pakistan
-so what effect will Modi's victory 00:00:05 have on India's sizeable Muslim community the b j p does
-not have 00:00:10 a single Muslim member of Parliament among its $303.00 lawmakers how will Modi
-00:00:15 conduct relations with neighboring nuclear armed Pakistan Pakistani prime minister 00:00:20
-Imran Khan was not invited to Modi's swearing in ceremony with us to analyze the 00:00:25 domestic
-and international ramifications of an around remote is victory in India 00:00:30 are 2 distinguished
-analysts Michael Kugel men is deputy director of the Asia 00:00:35 Program and senior associate for
-So
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-
-### Getting to Grips with Growth
+### The vilnius christian know
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -267,12 +755,12 @@ Layer review prompts:
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 424
-- Year: 2023
-- URL: https://archive.org/details/Kensington_Unitarians_UK-KU_janeB_davidC_hybrid_sermon_30_07_23
+- Year: 2022
+- URL: https://archive.org/details/uusf_org-20120226JKComplete
 
-A Sunday service led by Rev. Dr. Jane Blackall and David Carter: Getting to Grips with Growth.
-Featuring a reading given by Chloe Harewood and music performed by Abby Lorimier and Peter
-Crockford.
+The vilnius christian know: And forgetting you know they can be all sorts of things that could be an
+illness that we begin to identify with that then starts dictating how we live our life because we're
+struggling with the vilnius.
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -287,78 +775,7 @@ Layer review prompts:
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### 558 Courageous Baptist Seeks Biblical Truth (Joshua Michael Smith)
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature, theologians, visual_art
-- Primary layer: all_texts
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 511
-- Year: 2024
-- URL: https://archive.org/details/Restitutio-558_courageous_baptist_seeks_biblical_truth_joshua_michael_smith
-
-Joshua Michael Smith grew up in northern Florida in a Baptist church. In this interview he shares
-his journey of faith, including how came to Christ as well as how he ended up in ministry training
-at Word of Life before earning a bachelors at Tennessee Temple University in Chattanooga. While
-there, he began questioning his received doctrinal package based on the Bible. As a result, he came
-to discover the human Messiah of scripture and courageously embraced this new understanding despite
-the consequences. This is part one of his story. Listen to this episode on Spotify or Apple Podcasts
-—— Links —— Check out these other interviews about people leaving the Trinity to embrace a biblical
-unitar
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### VOA [Voice of America] Africa : September 13, 2017 03:00PM-04:00PM EDT
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: technology_ethics
-- Layer routes: cultural_inputs
-- Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 150
-- Year: 2017
-- URL: https://archive.org/details/VOA_Africa_20170913_190000
-
-Closed captions transcript: 00:00:00 The decision made of. Probably the head of state. Then Norm all
-00:00:06 expectation is that there should be bitter I should be bitter 00:00:14 because I was made
-to answer the call of nature in those fellows then more true 00:00:21 I saluted. Two meters by two
-point five meters where I was spending sixteen hours 00:00:28 a day locked in there and to answer
-the call of nature both the urine fecal to use 00:00:34 a bucket and they re morning or took it out
-and emptied my so one 00:00:41 would say should be good I am not bitter there is not time 00:00:48
-to be bitter because if we focus on bitterness then we fall 00:00:55 exactly in the same trap where
-we h
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### VOA [Voice of America] Global English : February 26, 2020 10:00PM-11:00PM EST
+### VOA [Voice of America] Global English : February 27, 2020 01:00AM-02:00AM EST
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -371,16 +788,16 @@ Layer review prompts:
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 150
 - Year: 2020
-- URL: https://archive.org/details/VOA_Global_English_20200227_030000
+- URL: https://archive.org/details/VOA_Global_English_20200227_060000
 
-Closed captions transcript: 00:00:05 This is v.o.a. 00:00:06 News I'm David 1st President Donald
-Trump says his administration is ready to 00:00:11 handle whatever level of outbreak of the
-coronavirus occurs in the United States as 00:00:17 A.P.'s Saager Magali reports the president is
-confident the country is ready for 00:00:22 whatever comes standing at the White House briefing room
-next to health authorities 00:00:26 the president said there is no reason for panic we're very very
-ready for this for 00:00:31 anything whether the threat gets worse or eases as he predicts it will
-but the 00:00:36 C.D.C.'s and shook it warns the nation must get ready for 00:00:40 a potential
-outbreak and this
+Closed captions transcript: 00:00:01 This is v.o.a. 00:00:02 News I'm Jim bird tell South Korea and
+China are reporting hundreds of new Corona 00:00:08 cases coronavirus cases today in Washington u.s.
+00:00:11 President Donald Trump sought to reassure Americans that his administration has the
+00:00:16 pathogen under control v.o.a. 00:00:19 White House correspondent Patti Wood has wara has
+00:00:21 a story aware of hearings by President Donald Trump in the White House briefing 00:00:26
+room the 2nd one since he came into office to tell Americans about federal efforts 00:00:31 against
+the coronavirus is administration is requesting to him to have 00:00:35 $1000000000.00 of funding
+from Congres
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -390,3 +807,106 @@ Automated evidence reasons:
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
+
+### VOA [Voice of America] Global English : June 03, 2019 03:00PM-04:00PM EDT
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: technology_ethics
+- Layer routes: cultural_inputs, visual_art
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 265
+- Year: 2019
+- URL: https://archive.org/details/VOA_Global_English_20190603_190000
+
+Closed captions transcript: 00:00:00 Shanahan said the U.S. 00:00:01 Would not ignore Chinese
+behavior which he says has threatened prosperity in the 00:00:06 region it's not about consular to
+start building. Security 00:00:13 China is infamous for its them other nations military and civilian
+technology I 00:00:19 don't like what intellectual property is stolen and we have really issues with
+00:00:25 virtual property Sam cyber attacks there's 00:00:27 a host of issues that we we have to
+address experts say China has used this them to 00:00:34 narrow the gap between some critical
+American and Chinese military abilities 00:00:39 Michael O'Hanlon as 00:00:40 a defense analyst with
+the Brookings
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### World Women’s Congress For A Healthy Planet: Tribunal (Days 1, 2, and 3) [1 through 9 in a series of 17]
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: technology_ethics
+- Layer routes: cultural_inputs, visual_art
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 265
+- Year: 1991
+- URL: https://archive.org/details/audiocassette0356-01_a
+
+These recordings are part of a series documenting the World Women’s Congress for a Healthy Planet,
+which was held in Miami, Florida, from November 8-12, 1991. The conference was organized by the
+Women’s International Policy Action Committee (IPAC), a committee established by the Women’s
+Environment and Development Organization (WEDO). The series comprises 17 audio cassette tapes
+resulting in 34 individual recordings (Sides A and B of each cassette). All of these recordings are
+available on the Swarthmore College Peace Collection’s Sound Recordings page . They have been
+separated according to topic, but all of the recording titles begin with “World Women’s Congress For
+A Healthy Planet.” audi
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### VOA [Voice of America] Global English : February 19, 2019 02:00PM-03:00PM EST
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: technology_ethics
+- Layer routes: cultural_inputs, other_religious_texts
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 298
+- Year: 2019
+- URL: https://archive.org/details/VOA_Global_English_20190219_190000
+
+Closed captions transcript: 00:00:00 Escalated since last week's suicide bombing of an Indian
+military of Indian 00:00:04 military forces that left four paramilitary personnel dead Indian
+leaders have 00:00:09 vowed to take punitive action against Islam about electing the militant group
+00:00:13 behind the attack is tied to the neighboring countries spy agency charges Pakistan 00:00:18
+rejects as baseless the Roman Catholic Church will hold 00:00:22 a four day summit at the Vatican
+this week on protection of minors that will focus 00:00:27 on the themes of responsibility
+accountability and transparency but many doubt 00:00:32 concrete results will emerge and Barrett
+Doyle of the group Bishop
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
