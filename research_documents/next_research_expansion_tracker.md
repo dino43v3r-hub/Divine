@@ -32,7 +32,43 @@ These are active operating rules for the next phase, not merely future ideas:
    pattern using psychology, cognition, statistics, fruit, and abuse-risk
    filters.
 10. Rebalance source coverage so underrepresented lanes receive direct notes and
-   search routes before high-count lanes keep expanding.
+    search routes before high-count lanes keep expanding.
+11. Build one reviewed source pack for each leading pattern: Image Of God
+    Pattern, Cross And Reversal Pattern, Providence And Contingency Pattern,
+    Trinity-As-Behavior Pattern, and Creation-To-Consciousness Pattern.
+12. Turn the newest active lanes into reviewed evidence instead of leaving them
+    as cloud candidates: visual_art, cultural_inputs, theologians, all_texts,
+    and history_inputs.
+13. Review the seven newest candidate references by original source, author
+    expertise, publication context, and counterargument before they affect
+    confidence.
+
+## Immediate Growth Quota For Next Version
+
+Status: active next-pass target.
+
+The next version should grow less by repeated internal signals and more by
+human-reviewed sources, counter-readings, and practical-theology fruit checks.
+
+Target additions:
+
+- biblical_languages: add about 25 reviewed notes toward the target.
+  Completed in `biblical_languages/reviewed_growth_batch_2026_05_27.md`.
+- world_languages: add about 25 reviewed notes toward the target.
+  Completed in `world_languages/reviewed_growth_batch_2026_05_27.md`.
+- all_texts: add about 46 reviewed notes toward the target.
+  Completed in `all_texts/reviewed_growth_batch_2026_05_27.md`.
+- other_religious_texts: add about 46 reviewed notes toward the target.
+  Completed in
+  `other_religious_texts/reviewed_growth_batch_2026_05_27.md`.
+- theologians: add about 65 reviewed notes toward the target.
+  Completed in `theologians/reviewed_growth_batch_2026_05_27.md`.
+- history_inputs: add about 46 reviewed notes toward the target.
+  Completed in `history_inputs/reviewed_growth_batch_2026_05_27.md`.
+
+Each added note should identify source, author or tradition context, publication
+or transmission context, smallest allowed claim, counter-reading, pressure area,
+and practical-theology boundary.
 
 ## 1. Theologian Source Material Across Eras
 
@@ -206,3 +242,33 @@ Next depth work:
 - Treat failures and underdeveloped hold assessments as revision points.
 - Keep adding rival explanations, misuse cases, unresolved suffering, and
   non-Christian comparisons before strengthening claims.
+
+## 8. Rival Explanations And Failure Conditions
+
+Status: active hardening rule.
+
+Every leading pattern needs rival explanations from psychology, sociology,
+history, textual criticism, comparative religion, and ordinary pattern
+perception before it may be strengthened. The project should name what each
+rival explains well and what it does not explain.
+
+Required pressure areas:
+
+- Suffering Without Resolution,
+- Injustice And Corruption,
+- Practical Case Study,
+- Disconfirming Failure Condition,
+- Science Guardrail.
+
+Failure-condition rule:
+
+- Image Of God Pattern weakens if dignity is tied to intelligence, ability,
+  productivity, beauty, tribe, status, or usefulness.
+- Cross And Reversal Pattern weakens if it protects harmful power or demands
+  suffering without truth, safety, and justice.
+- Providence And Contingency Pattern weakens if it explains tragedy too neatly,
+  claims prediction, blames victims, or ignores chance.
+- Trinity-As-Behavior Pattern weakens if it collapses doctrine into symbolism,
+  modalism, tritheism, generic spirituality, or spiritual control.
+- Creation-To-Consciousness Pattern weakens if it turns science into proof,
+  creates a ladder of worth, or ignores suffering in nature.

@@ -48,3 +48,22 @@ Examples:
 - A science claim cannot strengthen without deep-source guardrails and
   counterarguments.
 
+## Immediate Growth Quotas
+
+The next research pass should prioritize reviewed notes in the lanes that most
+directly affect original-language claims, comparative claims, historical
+pressure, and primary-text theology.
+
+| Lane | Add reviewed notes | Reason |
+| --- | ---: | --- |
+| biblical_languages | 25 | Build original-language depth before Greek, Hebrew, Aramaic, or translation claims are allowed to strengthen. |
+| world_languages | 25 | Add global translation, metaphor, oral tradition, and language-family breadth. |
+| all_texts | 46 | Broaden sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison. |
+| other_religious_texts | 46 | Preserve respectful comparison across traditions without flattening difference. |
+| theologians | 65 | Deepen primary-text theology and disagreements across eras. |
+| history_inputs | 46 | Test power, conflict, memory, reform, and consequences. |
+
+These quota notes must be reviewed source notes, not only candidate references
+or automated labels. Automated scores can route attention, but human review
+must decide whether a source may affect confidence.
+

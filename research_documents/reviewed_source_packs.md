@@ -110,3 +110,135 @@ Reviewed-source needs:
 Practical use: help the pattern become visible in daily love, work, grief,
 justice, creativity, worship, and community formation.
 
+## Pack 7: Image Of God Pattern
+
+Claim boundary: the Image Of God pattern may connect personhood, dignity,
+symbolic capacity, moral agency, relationship, vocation, and worship, but it
+must never reduce human worth to intelligence, productivity, social status, or
+visible ability.
+
+Reviewed-source needs:
+
+- Genesis 1-2, Psalm 8, New Testament renewal-in-Christ texts, and theological
+  anthropology,
+- biblical-language notes on image, likeness, breath, rule, vocation, body,
+  glory, and renewal,
+- patristic, medieval, Reformation, modern, disability-theology, and liberation
+  readings,
+- psychology and cognitive-science rival explanations for agency, personhood,
+  social cognition, and pattern recognition,
+- pressure cases involving disability, dementia, trauma, racism, caste,
+  poverty, exploitation, and dehumanizing institutions.
+
+Practical use: treat each person as bearing dignity before performance; practice
+listening, protection, patience, advocacy, and worship that includes the weak
+and overlooked.
+
+Failure condition: weaken or reject any version of the pattern that ranks
+persons by ability, beauty, productivity, tribe, intelligence, or usefulness.
+
+## Pack 8: Cross And Reversal Pattern
+
+Claim boundary: the Cross And Reversal pattern may describe the Christian claim
+that God is revealed through cruciform humility, mercy, forgiveness, judgment of
+violent power, and resurrection hope, but it must not romanticize suffering or
+protect abusers.
+
+Reviewed-source needs:
+
+- passion narratives, Isaiah's servant songs, Philippians 2, 1 Corinthians 1-2,
+  Romans 5-8, Hebrews, and resurrection witness,
+- atonement debates, martyrdom traditions, liberation theology, trauma theology,
+  and pastoral theology,
+- historical cases where sacrifice language was used for repair and cases where
+  it was used to preserve harm,
+- psychology and sociology of forgiveness, coercion, shame, violence, and moral
+  injury,
+- pressure cases involving abuse, state violence, unresolved grief, institutional
+  corruption, and demands for forgiveness without justice.
+
+Practical use: practice humility, truth-telling, forgiveness with boundaries,
+justice for victims, and hope that does not deny wounds.
+
+Failure condition: weaken or reject any version that asks harmed people to
+accept ongoing injury, hide truth, or surrender justice in the name of the cross.
+
+## Pack 9: Providence And Contingency Pattern
+
+Claim boundary: providence may be studied as a theological interpretation of a
+world that is ordered yet contingent and historically unfolding, but it must not
+be turned into prediction, control, or easy explanations for tragedy.
+
+Reviewed-source needs:
+
+- Joseph, Job, Esther, Psalms, wisdom literature, Jesus' providence teachings,
+  Acts, Romans 8, and groaning/hope texts,
+- classical, Reformation, modern, and contemporary debates about providence,
+  causality, chance, freedom, evil, and divine action,
+- history, complexity, probability, biology, and philosophy-of-science sources
+  with strict scope limits,
+- comparative readings of fate, karma, destiny, chance, ancestral guidance, and
+  wisdom traditions without treating them as identical,
+- pressure cases involving random loss, unanswered prayer, failed prediction,
+  survivor bias, and no-visible-repair suffering.
+
+Practical use: act faithfully inside uncertainty; pray, plan, serve, grieve, and
+choose wisdom without claiming to know every hidden cause.
+
+Failure condition: weaken or reject any version that explains every event too
+neatly, blames victims, treats correlation as providence, or ignores chance and
+evil.
+
+## Pack 10: Trinity-As-Behavior Pattern
+
+Claim boundary: Trinity-As-Behavior may describe how Christian doctrine forms
+practice through receiving creation as gift, following Christ, and testing
+Spirit-led transformation, but it must preserve Father, Son, and Holy Spirit as
+theological persons rather than mere symbols or psychological functions.
+
+Reviewed-source needs:
+
+- Matthew 28:19, John 14-17, Romans 8, 2 Corinthians 13:14, Ephesians, creeds,
+  baptismal/liturgical texts, and Trinitarian theology,
+- patristic, medieval, Reformation, modern, Pentecostal, Orthodox, Catholic, and
+  Protestant disagreements,
+- pneumatology, Christology, worship practice, spiritual formation, and global
+  church testimony,
+- rival explanations from sociology of religion, psychology of group formation,
+  ritual studies, and comparative religion,
+- pressure cases involving modalism, tritheism, vague symbolism, authoritarian
+  divine claims, spiritual abuse, and experiences without fruit.
+
+Practical use: receive life as gift, follow Christ in concrete obedience, and
+test Spirit-led change by love, holiness, humility, unity, justice, and service.
+
+Failure condition: weaken or reject any version that collapses the Trinity into
+one role, three separate gods, a generic force, or a tool for spiritual control.
+
+## Pack 11: Creation-To-Consciousness Pattern
+
+Claim boundary: Creation-To-Consciousness may explore layers from physical
+order, life, mind, moral awareness, and worship, but it must not imply a simple
+scientific proof of God or a hierarchy that devalues bodies, animals, disabled
+persons, or nonverbal forms of life.
+
+Reviewed-source needs:
+
+- Genesis, creation psalms, wisdom literature, John 1, Colossians 1, Romans 8,
+  doctrines of creation, image of God, vocation, and worship,
+- physics, biology, cognitive science, philosophy of mind, ecology, anthropology
+  of worship, and science-theology guardrails,
+- ecological theology, disability theology, animal studies, and critiques of
+  simplistic ladders from matter to worship,
+- comparative creation stories, ecological traditions, body practices, and
+  wisdom texts with tradition-specific differences preserved,
+- pressure cases involving evolution, suffering in nature, animal consciousness,
+  ecological loss, disability, dementia, and overclaimed science.
+
+Practical use: practice wonder, stewardship, embodied care, learning, humility,
+and worship that honors creation without confusing creation with the Creator.
+
+Failure condition: weaken or reject any version that treats science as a proof
+machine, turns consciousness into superiority, or ignores suffering and waste in
+creation.
+

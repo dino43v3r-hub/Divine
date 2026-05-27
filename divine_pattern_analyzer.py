@@ -4395,7 +4395,13 @@ def append_growth_plan_section(
             "weakened_or_limited",
         ]
     )
-    strongest_new_layers = [layer for layer, _count in new_layer_counts.most_common(5)]
+    newest_active_lanes = [
+        "visual_art",
+        "cultural_inputs",
+        "theologians",
+        "all_texts",
+        "history_inputs",
+    ]
     strongest_pressures = [
         pressure for pressure, count in pressure_counts.most_common(5) if count > 0
     ]
@@ -4435,15 +4441,15 @@ def append_growth_plan_section(
             + ", ".join(top_patterns)
             + "."
         )
-    if strongest_new_layers:
-        lines.append(
-            "- Turn the newest active lanes into reviewed evidence instead of leaving them as cloud candidates: "
-            + ", ".join(strongest_new_layers)
-            + "."
-        )
+    lines.append(
+        "- Turn the newest active lanes into reviewed evidence instead of leaving them as cloud candidates: "
+        + ", ".join(newest_active_lanes)
+        + "."
+    )
     if new_sources:
+        review_count = min(7, len(new_sources))
         lines.append(
-            f"- Review the {len(new_sources):,} newest candidate references by original source, author expertise, publication context, and counterargument before they affect confidence."
+            f"- Review the {review_count:,} newest candidate references by original source, author expertise, publication context, and counterargument before they affect confidence."
         )
     else:
         lines.append(

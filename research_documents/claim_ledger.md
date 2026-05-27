@@ -47,3 +47,18 @@ No claim moves to `reviewed_evidence` unless it has:
 - cautious confidence language,
 - a practical-theology boundary when applied to daily life.
 
+## Major-Claim Clarification Rule
+
+Every major claim must explicitly separate:
+
+- evidence: what a reviewed source actually supports,
+- interpretation: the Christian theological reading of that evidence,
+- discernment: what still requires prayerful, communal, accountable testing,
+- analogy: what illuminates without proving,
+- practical use: what the claim asks people to do in love, justice, humility,
+  worship, or repair.
+
+Claims currently marked as `research_question_only`, `analogy_only`,
+`discernment_question`, or `weakened_or_limited` should be revisited before any
+report treats them as conclusions.
+

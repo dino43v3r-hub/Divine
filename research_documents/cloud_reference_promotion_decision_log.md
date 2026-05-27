@@ -61,3 +61,23 @@ A cloud reference may strengthen a claim only when:
 
 No unreviewed daily candidate should be marked `reviewed_strong_evidence`.
 Strong labels require a human source note in the appropriate layer folder.
+
+## Seven-Newest Candidate Review Rule
+
+Before the next version changes confidence language, review the seven newest
+candidate references one by one.
+
+For each candidate record:
+
+- original source checked beyond title, abstract, or search metadata,
+- author expertise and institutional or tradition context,
+- publication, venue, date, edition, translation, or transmission context,
+- smallest claim the source actually supports,
+- counterargument or rival interpretation,
+- routed layer and leading pattern affected, if any,
+- decision: `candidate_lead_only`, `mapped_not_universal`,
+  `reviewed_limited_evidence`, `reviewed_limited_testimony`, or
+  `reviewed_strong_evidence`.
+
+Default decision remains conservative until the source has been converted into
+a human-reviewed note in the relevant lane folder.

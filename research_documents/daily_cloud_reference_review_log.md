@@ -149,3 +149,117 @@ claim scope, and counterarguments are checked.
 - Next action: use `world_languages/language_family_counterreading_map.md`,
   `biblical_languages/source_specific_counterreadings.md`, and
   `all_texts/text_tradition_counterreading_map.md` before strengthening claims.
+
+## Review Batch: Seven Newest Candidate References, 2026-05-27
+
+These seven reviews check the newest queue items as candidate references, not as
+settled evidence. Decisions are intentionally conservative.
+
+### 435-Holistic Biblical Unitarian Christianity (Theophilus Josiah)
+
+- Original source checked: Restitutio episode page and Internet Archive item
+  metadata.
+- Author / source context: Restitutio is a Biblical Unitarian podcast/ministry
+  context; Theophilus Josiah is presented as a ministry founder and witness, not
+  as a peer-reviewed historical theologian.
+- Publication context: 2022 podcast/audio item, routed to theologians and
+  Trinity pressure tests.
+- Smallest claim allowed: contemporary Biblical Unitarian voices provide a
+  real rival reading to Nicene Trinitarian synthesis.
+- Counterargument: a podcast testimony/interview cannot revise Trinitarian
+  doctrine or outweigh primary creedal, patristic, and biblical sources.
+- Affected pattern: Trinity-As-Behavior Pattern, as a doctrinal pressure test.
+- Decision: `candidate_lead_only`.
+
+### 457 From Oneness to One (J. Dan Gill)
+
+- Original source checked: Internet Archive item metadata and queue summary.
+- Author / source context: J. Dan Gill is presented through Restitutio as a
+  pastor moving from Oneness theology toward Biblical Unitarian theology.
+- Publication context: 2022 podcast/audio item; useful for mapping modern
+  non-Nicene and anti-modalist disagreement.
+- Smallest claim allowed: contemporary Oneness and Unitarian conversations show
+  that Trinity language remains contested and must not be reduced to behavioral
+  symbolism.
+- Counterargument: personal or pastoral narrative is not primary doctrinal
+  evidence and needs comparison with Oneness, Nicene, and Unitarian primary
+  sources.
+- Affected pattern: Trinity-As-Behavior Pattern, modalism failure condition.
+- Decision: `candidate_lead_only`.
+
+### Nicene Creed
+
+- Original source checked: USCCB Nicene Creed page and Internet Archive item
+  metadata.
+- Author / source context: USCCB is an institutional Catholic source presenting
+  the creed for liturgical and catechetical use.
+- Publication context: contemporary presentation of the Nicene-Constantinopolitan
+  confession rooted in the councils of Nicaea and Constantinople.
+- Smallest claim allowed: Nicene confession explicitly names Father, Son, and
+  Holy Spirit and is a strong doctrinal anchor for Trinitarian boundary-setting.
+- Counterargument: the USCCB prayer page is a received liturgical text, not a
+  historical-critical account of the fourth-century controversies; use with
+  patristic and council-history sources.
+- Affected pattern: Trinity-As-Behavior Pattern and reviewed source packs.
+- Decision: `reviewed_limited_evidence`.
+
+### CIA Reading Room cia-rdp96-00789r002200390001-5: ENHANCED HUMAN PERFORMANCE INVESTIGATION
+
+- Original source checked: Internet Archive copy of CIA Reading Room document.
+- Author / source context: declassified government/intelligence document,
+  including SRI-related psychoenergetics research material and recommendations.
+- Publication context: document released in CIA Reading Room archive; original
+  report material concerns 1980s remote-viewing/psychoenergetics research.
+- Smallest claim allowed: contested extraordinary human-performance claims
+  require protocol, controls, technical oversight, and skepticism before any
+  interpretive use.
+- Counterargument: this source does not support claims about God, prayer,
+  spiritual gifts, quantum consciousness, or reliable supernatural causation.
+- Affected pattern: Science Guardrail and Disconfirming Failure Condition.
+- Decision: `reviewed_limited_evidence`.
+
+### CIA Reading Room cia-rdp80-00809a000700210211-8: POLITICAL-WAR CRIMINALS
+
+- Original source checked: CIA Reading Room record and queue metadata.
+- Author / source context: declassified CIA foreign-document/radio-broadcast
+  style report concerning Yugoslavia and war-criminal/political violence claims.
+- Publication context: intelligence archive item; requires provenance caution,
+  ideological-context review, and corroboration.
+- Smallest claim allowed: history, memory, state power, propaganda, and justice
+  claims require source criticism before theological use.
+- Counterargument: intelligence records are not neutral memory; they may contain
+  translation errors, propaganda, fragmentary reporting, or political framing.
+- Affected pattern: Injustice And Corruption, Providence And Contingency, and
+  history_inputs.
+- Decision: `reviewed_limited_evidence`.
+
+### Sacred Guardians of This
+
+- Original source checked: queue and Internet Archive metadata only; direct
+  transcript/full source not reviewed.
+- Author / source context: First Unitarian Universalist Society of San Francisco
+  worship/service context, not a scholarly source.
+- Publication context: 2025 congregational audio item with institutional memory
+  and community-role language.
+- Smallest claim allowed: contemporary communities narrate continuity and change
+  through worship, leadership, and shared memory.
+- Counterargument: congregational self-description cannot support broad claims
+  about Christian doctrine, social repair, or divine pattern without transcript
+  review and corroboration.
+- Affected pattern: cultural_inputs and history_inputs as a weak case lead.
+- Decision: `candidate_lead_only`.
+
+### VOA Global English, May 17, 2020
+
+- Original source checked: queue and Internet Archive metadata only; news item
+  appears to concern COVID-19 deaths, reopening, and contact-tracing shortages.
+- Author / source context: Voice of America news broadcast/archive item.
+- Publication context: public news/audio archive from May 17, 2020, during early
+  COVID-19 crisis.
+- Smallest claim allowed: public-health crises expose translation, trust,
+  governance, fear, and neighbor-love pressures.
+- Counterargument: a news broadcast is not theological evidence and must be
+  corroborated with public-health, sociological, and pastoral sources.
+- Affected pattern: Practical Case Study, Injustice And Corruption, and
+  cultural/history lanes.
+- Decision: `candidate_lead_only`.
