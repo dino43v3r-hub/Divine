@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-27T21:21:28.623073+00:00
-Total references: 1,144
-New references this run: 18
+Updated: 2026-05-28T21:38:04.637973+00:00
+Total references: 1,170
+New references this run: 26
 
 Guardrails
 ----------
@@ -19,229 +19,285 @@ Online Collection Status
 - OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
 - Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
 - Tavily budget: 5/5 basic searches used today; 0 remaining.
-- Open-web candidates returned this run: 0.
+- Open-web candidates returned this run: 15.
 - Provider results returned this run:
   - Crossref: 305
   - Europe PMC: 223
   - Internet Archive: 106
   - OpenAlex: 288
   - PubMed: 26
+  - Tavily Search: 15
+  - arXiv: 30
 - Brand-new references added by provider:
   - Crossref: 1
-  - Europe PMC: 7
-  - Internet Archive: 10
+  - Europe PMC: 3
+  - Internet Archive: 5
+  - OpenAlex: 2
+  - Tavily Search: 15
 - Total stored references by provider:
-  - Crossref: 310
-  - Europe PMC: 194
-  - Internet Archive: 300
-  - OpenAlex: 248
+  - Crossref: 311
+  - Europe PMC: 197
+  - Internet Archive: 305
+  - OpenAlex: 250
   - PubMed: 24
-  - Tavily Search: 42
+  - Tavily Search: 57
   - arXiv: 26
 
 Reference Tags
 --------------
 - art_beauty: 98
 - biblical_language_source_depth: 41
-- biblical_languages: 30
-- cultural_practice_patterns: 49
-- general_research_methods: 47
-- global_text_traditions: 70
-- history_memory: 87
-- holy_spirit_gifts_global: 30
-- interreligious_dream_testimony: 39
+- biblical_languages: 39
+- cultural_practice_patterns: 50
+- general_research_methods: 48
+- global_text_traditions: 71
+- history_memory: 88
+- holy_spirit_gifts_global: 31
+- interreligious_dream_testimony: 40
 - modern_literature_meaning: 47
 - music_math: 78
-- pattern_perception_divine_response: 43
-- politics_justice: 70
-- psychology_patterns: 59
-- quantum_science_guardrails: 84
-- technology_ethics: 67
+- pattern_perception_divine_response: 44
+- politics_justice: 71
+- psychology_patterns: 61
+- quantum_science_guardrails: 85
+- technology_ethics: 69
 - theologians_cross_era: 29
-- trinity: 85
+- trinity: 87
 - unresolved_suffering: 44
-- world_language_source_sampling: 61
+- world_language_source_sampling: 68
 - world_languages_translation: 53
 
 Layer Routes
 ------------
-- all_texts: 352
-- biblical_languages: 84
-- cultural_inputs: 279
-- deep_sources: 332
-- history_inputs: 291
-- human_stories: 267
-- modern_literature: 139
+- all_texts: 365
+- biblical_languages: 93
+- cultural_inputs: 282
+- deep_sources: 335
+- history_inputs: 298
+- human_stories: 272
+- modern_literature: 140
 - music_notes: 78
-- other_religious_texts: 246
-- pattern_tests: 203
-- psychology_inputs: 264
-- research_documents: 131
-- research_documents/christian_sources: 95
-- theologians: 284
-- visual_art: 367
-- world_languages: 210
+- other_religious_texts: 257
+- pattern_tests: 205
+- psychology_inputs: 268
+- research_documents: 134
+- research_documents/christian_sources: 104
+- theologians: 291
+- visual_art: 374
+- world_languages: 226
 
 Layer Balance Watch
 -------------------
 - These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
   - music_notes: 78
-  - biblical_languages: 84
 
 Quality Counts
 --------------
-- open web result: 42
-- reference metadata: 298
-- scholarly metadata: 776
+- open web result: 57
+- reference metadata: 303
+- scholarly metadata: 782
 - scholarly preprint: 26
 - speculative-risk: 2
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 522
-- strong_scholarly_candidate: 568
-- weak_scholarly_candidate: 54
+- moderate_scholarly_candidate: 527
+- strong_scholarly_candidate: 574
+- weak_scholarly_candidate: 69
 
 New This Run By Tag
 -------------------
-- art_beauty: 3
+- biblical_languages: 9
 - cultural_practice_patterns: 1
-- general_research_methods: 2
+- general_research_methods: 1
 - global_text_traditions: 1
-- history_memory: 5
-- psychology_patterns: 1
+- history_memory: 1
+- holy_spirit_gifts_global: 1
+- interreligious_dream_testimony: 1
+- pattern_perception_divine_response: 1
+- politics_justice: 1
+- psychology_patterns: 2
 - quantum_science_guardrails: 1
 - technology_ethics: 1
 - trinity: 2
-- unresolved_suffering: 1
-- world_language_source_sampling: 1
+- world_language_source_sampling: 6
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 5
-- cultural_inputs: 5
-- deep_sources: 4
+- all_texts: 13
+- biblical_languages: 9
+- cultural_inputs: 3
+- deep_sources: 3
 - history_inputs: 7
-- human_stories: 2
-- modern_literature: 3
-- other_religious_texts: 6
+- human_stories: 5
+- modern_literature: 1
+- other_religious_texts: 10
 - pattern_tests: 2
-- psychology_inputs: 3
-- research_documents: 4
+- psychology_inputs: 4
+- research_documents: 3
+- research_documents/christian_sources: 9
 - theologians: 7
-- visual_art: 6
-- world_languages: 2
+- visual_art: 7
+- world_languages: 15
 
 Newest Additions This Run
 ------------------------
-- The Unitarian Trinity | Ancestors of Faith Series | Rev. Dr. Daniel Kanter (2025)
+- 72. Milk Without Manure? The Conflict Scooper - Alan Cain (Part 2) (2023)
+  Tags: trinity
+  Layer routes: theologians, research_documents, visual_art, all_texts
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Unitarian_Christian_Alliance-UCA_72_Milk_Without_Manure__The_Conflict_Scooper___
+- Trinitarian Mischief with Rev Dr. Fred Muir (2025)
   Tags: trinity
   Layer routes: theologians, research_documents
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/First_Unitarian_Dallas_Podcast-Podcast_10_05_25
-- Lighting a Beacon – sermon by Rev. Nancy (2023)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Northlake_Unitarian_Universalist_Church-lighting_a_beacon_sermon_by_rev_nancy
-- “So Much Comes Up”: Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes (2026)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13203355/?tool=EBI
-- Dispersion Compensation and Multi-Beam Interference Correction Algorithm for Thickness Measurement of SiC Epitaxial Layer (2026)
+  URL: https://archive.org/details/UU_Church_Anapolis_Maryland-Trinitarian_Mischief_06_29_2025
+- CIA Reading Room cia-rdp73-00475r000102320001-9: TECH ENGINEERING NONSENSE (1962)
   Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13210685/?tool=EBI
-- Complete Quran (114 Surahs) - Abu-Bakr ash-Shatri (with English Audio Translation) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, world_languages, other_religious_texts
+  Layer routes: deep_sources, pattern_tests, visual_art
   Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/001AlFaatiha_201404
-- Virgin Mary: Mother of Jesus (عليهما السلام) - The True Narrative (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VirginMary-MotherOfJesuspbut
-- Weekly Islamic Naseeha Collection (Facebook / WhatsApp / E-Mail / Text Message etc) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/XFridayNaseehaArchive1stYearX
-- From human to posthuman bias: mapping discrimination in futuristic societies through speculative fiction (n.d.)
-  Tags: history_memory, technology_ethics
-  Layer routes: history_inputs, theologians, cultural_inputs, modern_literature
-  Source: Europe PMC | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13201184/?tool=EBI
-- Islamic perspectives of spiritual needs in patients with breast cancer: A qualitative study (2026)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, all_texts, other_religious_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13199825/?tool=EBI
-- Are We Normal? (2022)
+  URL: https://archive.org/details/cia-readingroom-document-cia-rdp73-00475r000102320001-9
+- VOA [Voice of America] Global English : February 18, 2020 09:00AM-10:00AM EST (2020)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/VOA_Global_English_20200218_140000
+- The “The Paper They’re Written On” Edition (2024)
   Tags: history_memory
   Layer routes: history_inputs, theologians
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20220925LSComplete
-- Deep Time: Stories We Tell the Children, and the Work of Repair (2021)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20210815MGComplete
-- More Lonely - Philosophical poems by Sorin Cerin (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/9781091342187Morelonely
-- 505 The Key of Truth: A Monument of Armenian Unitarianism (2023)
+  URL: https://archive.org/details/UU_Santa_Fe-TPP_28_11_24
+- Indigenous Christianity - world-religions-wiki - GitHub (n.d.)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://github.com/nazdridoy/world-religions-wiki/blob/main/christianity/history/indigenous_christianity.md
+- An Indigenous Translation Of Scripture - YouTube (n.d.)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.youtube.com/watch?v=JYrtBEK2G4U
+- Dakota Goes Digital: Dakota Linguistics Live on from Oral Tradition ... (n.d.)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  URL: https://smallnotes.library.virginia.edu/2023/06/13/dakota-goes-digital
+- Amazing Asian, Latin American, and Black Theologians Who Write About Reformed Theology | Faithward.org (n.d.)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts, theologians, visual_art, history_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.faithward.org/amazing-asian-latin-american-and-black-theologians-who-write-about-reformed-theology
+- Rise of Christianity in Africa, Latin America, & Asia (n.d.)
   Tags: world_language_source_sampling
   Layer routes: world_languages, all_texts, other_religious_texts, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-505_the_key_of_truth_a_monument_of_armenian_unitarianism
-- The dual correlations between core beliefs changes and emotion regulation among disaster-affected residents: the moderating role of religiousness orientation. (2026)
-  Tags: psychology_patterns
-  Layer routes: psychology_inputs, human_stories, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.thirdwell.org/Rise-of-Christianity-in-Africa-Latin-America-Asia.html
+- Theology in Latin American Context: A Look at Soteriology - MDPI (n.d.)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.mdpi.com/2077-1444/12/10/839
+- Biblical Lexicology: Hebrew and Greek: Semantics - Exegesis (n.d.)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://dokumen.pub/biblical-lexicology-hebrew-and-greek-semantics-exegesis-translation-beihefte-zur-zeitschrift-fur-die-alttestamentliche-wissenschaft-443-3110312069-9783110312065.html
+- Greek vs Hebrew: A History of the Biblical Languages and ... (n.d.)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, history_inputs, world_languages
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://crossbible.com/blog/greek-vs-hebrew-a-history-of-the-biblical-languages-and-lexicography
+- Ancient Hebrew Bible translation resources - Facebook (n.d.)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.facebook.com/groups/110802328936325/posts/999722006711015
+- Septuagint - Wikipedia (n.d.)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, world_languages, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://en.wikipedia.org/wiki/Septuagint
+- The Semantics of Septuagint Language: Greek Comprehensibility ... (n.d.)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://brill.com/display/book/9789004465664/BP000020.xml?language=en
+- The Septuagint - The Bible translation that paved the way to Christianity. Prof. James Aitken (n.d.)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.youtube.com/watch?v=rl1Y7NijY1U
+- PG09658: Pathways in Biblical Spiritualities (n.d.)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, world_languages, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://sppu.ie/modules/pg09658-pathways-in-biblical-spiritualities
+- Mistranslated Series: Word 7 – Shalom - The Logos of Agape (n.d.)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://logosofagape.com/2025/07/19/mistranslated-series-word-7-shalom
+- What Is Love? The Unexpected Theology of Agape (n.d.)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, theologians, visual_art, world_languages
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.logos.com/grow/bsm-what-is-love-agape-theology
+- Traditional Islam in Kazakhstan: historical formation, state discourse, and contemporary challenges. (2026)
+  Tags: psychology_patterns, technology_ethics
+  Layer routes: psychology_inputs, human_stories, cultural_inputs, visual_art, history_inputs, other_religious_texts
   Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
-  URL: https://doi.org/10.3389/fpsyg.2026.1710083
-- Sabbath Redux (2021)
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.3389/fsoc.2026.1786903
+- Resonance across cultures and faiths: examining the violin music's role in emotional, psychological, and spiritual well-being for sustainable societies. (2026)
+  Tags: cultural_practice_patterns, general_research_methods, psychology_patterns
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs, research_documents, deep_sources, human_stories, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.3389/fpsyt.2026.1799971
+- From use to abuse: psychological, neurobiological, and spiritual pathways in relational harm and recovery. (2026)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.3389/fnbeh.2026.1805594
+- Muslims and climate change: How Islam, Muslim organizations, and religious leaders influence climate change perceptions and mitigation activities (2021)
   Tags: global_text_traditions
   Layer routes: all_texts, other_religious_texts, modern_literature
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20210321VRSComplete
-- Dispute resolution in China: A test of black's theory of legal behavior. (2026)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1371/journal.pone.0342190
-- Knowledge Transfer Exchange (KTE): The Challenge of Communicating Evidence-Based Information from Scientists to Citizens and Decision Makers—JDReAM’s Renewed Vision for Interdisciplinary Research in Science and Humanities for Health (2025)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (14)
+  URL: https://doi.org/10.1002/wcc.702
+- Introduction (2015)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians
   Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
-  URL: https://doi.org/10.3390/jdream6010001
-- Heroic Death: A Melancholic Existentialist Psychobiography of Jacques De Molay. (2025)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.5964/ejop.17755
+  Automated evidence: moderate_scholarly_candidate (9)
+  URL: https://doi.org/10.4324/9781315744605-7
+- SPIRITUAL DETERMINANTS AND SITUATIONAL CONTINGENCIES OF TRANSFORMATIONAL LEADERSHIP (2020)
+  Tags: holy_spirit_gifts_global
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, all_texts
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  URL: https://doi.org/10.18820/23099089/actat.sup30.3
 
 Recent Candidate Sources
 ------------------------
@@ -442,7 +498,3 @@ Recent Candidate Sources
   Automated evidence: weak_scholarly_candidate (6)
   Source: Tavily Search | open web result
   URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
-
-Collector Errors
-----------------
-- search_arxiv failed for quantum_science_guardrails: The read operation timed out

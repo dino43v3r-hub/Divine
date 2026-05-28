@@ -6,20 +6,20 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-05-27T21:21:28.585217+00:00
-Retained cloud candidate references: 1,144
-Brand-new candidate references this run: 18
-Top new routed layers: history_inputs: 7, theologians: 7, other_religious_texts: 6, visual_art: 6
-New evidence mix: moderate_scholarly_candidate: 14, strong_scholarly_candidate: 4
-New provider mix: Internet Archive: 10, Europe PMC: 7, Crossref: 1
+Collector run: 2026-05-28T21:38:04.593256+00:00
+Retained cloud candidate references: 1,170
+Brand-new candidate references this run: 26
+Top new routed layers: world_languages: 15, all_texts: 13, other_religious_texts: 10, biblical_languages: 9
+New evidence mix: weak_scholarly_candidate: 15, moderate_scholarly_candidate: 6, strong_scholarly_candidate: 5
+New provider mix: Tavily Search: 15, Internet Archive: 5, Europe PMC: 3, OpenAlex: 2
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 I am reading this run as a conversation between what just arrived and what the project already thinks it sees.
 The older pattern map still points first toward Image Of God Pattern. Around it, I keep seeing related pressure from Cross And Reversal Pattern, Creation-To-Consciousness Pattern.
-The newest material is pulling my attention toward history_inputs, especially around history_memory. That does not overturn the older map, but it changes what I should ask next.
-My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is reference metadata, so I should let them sharpen questions before I let them strengthen claims.
+The newest material is pulling my attention toward world_languages, especially around biblical_languages. That does not overturn the older map, but it changes what I should ask next.
+My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is open web result, so I should let them sharpen questions before I let them strengthen claims.
 I also notice that Suffering Without Resolution remains a live test. If the pattern cannot survive that friction, then it is probably only an attractive idea, not a disciplined theological insight.
 
 What this run makes me wonder:
@@ -88,22 +88,22 @@ Fresh research movements:
 - Visual-art candidates grew in the latest collector run; examine actual form, composition, symbol, beauty, lament, and counter-reading.
 - History candidates grew in the latest collector run; test power, harm, reform, memory, consequence, and unfinished repair.
 - World-language candidates grew in the latest collector run; track translation range, metaphor, grammar, culture, and rival readings.
+- Biblical-language candidates grew in the latest collector run; check lemma, syntax, canonical context, and scholarly counter-readings.
 - Global and comparative text candidates grew in the latest collector run; respect each tradition's own meaning before comparing patterns.
 - Psychology or human-story candidates grew in the latest collector run; separate lived repair from overclaimed theological interpretation.
 - Deep-source candidates grew in the latest collector run; review qualified evidence and counterarguments before strengthening claims.
-- Pressure-test candidates grew in the latest collector run; name failure conditions and whether the pattern holds under friction.
 
-Most active new tags: history_memory: 5, art_beauty: 3, trinity: 2, general_research_methods: 2
-Most active new layers: history_inputs: 7, theologians: 7, other_religious_texts: 6, visual_art: 6
-Newest source-quality mix: reference metadata: 10, scholarly metadata: 8
+Most active new tags: biblical_languages: 9, world_language_source_sampling: 6, trinity: 2, psychology_patterns: 2
+Most active new layers: world_languages: 15, all_texts: 13, other_religious_texts: 10, biblical_languages: 9
+Newest source-quality mix: open web result: 15, scholarly metadata: 6, reference metadata: 5
 
 Fresh source leads to review first:
-- The dual correlations between core beliefs changes and emotion regulation among disaster-affected residents: the moderating role of religiousness orientation. (2026) | Europe PMC | layers: psychology_inputs, human_stories, visual_art | review use: may increase confidence after claim-scope and counterargument checks
-- Knowledge Transfer Exchange (KTE): The Challenge of Communicating Evidence-Based Information from Scientists to Citizens and Decision Makers—JDReAM’s Renewed Vision for Interdisciplinary Research in Science and Humanities for Health (2025) | Crossref | layers: research_documents, deep_sources | review use: may increase confidence after claim-scope and counterargument checks
-- Heroic Death: A Melancholic Existentialist Psychobiography of Jacques De Molay. (2025) | Europe PMC | layers: research_documents, deep_sources, visual_art | review use: may increase confidence after claim-scope and counterargument checks
-- Dispute resolution in China: A test of black's theory of legal behavior. (2026) | Europe PMC | layers: cultural_inputs, history_inputs, psychology_inputs | review use: may increase confidence after claim-scope and counterargument checks
-- “So Much Comes Up”: Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes (2026) | Europe PMC | layers: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts | review use: can support cautious working claims when corroborated
-- Islamic perspectives of spiritual needs in patients with breast cancer: A qualitative study (2026) | Europe PMC | layers: history_inputs, theologians, all_texts, other_religious_texts | review use: can support cautious working claims when corroborated
+- Muslims and climate change: How Islam, Muslim organizations, and religious leaders influence climate change perceptions and mitigation activities (2021) | OpenAlex | layers: all_texts, other_religious_texts, modern_literature | review use: may increase confidence after claim-scope and counterargument checks
+- SPIRITUAL DETERMINANTS AND SITUATIONAL CONTINGENCIES OF TRANSFORMATIONAL LEADERSHIP (2020) | OpenAlex | layers: theologians, other_religious_texts, human_stories, psychology_inputs, all_texts | review use: may increase confidence after claim-scope and counterargument checks
+- Traditional Islam in Kazakhstan: historical formation, state discourse, and contemporary challenges. (2026) | Europe PMC | layers: psychology_inputs, human_stories, cultural_inputs, visual_art, history_inputs, other_religious_texts | review use: may increase confidence after claim-scope and counterargument checks
+- Resonance across cultures and faiths: examining the violin music's role in emotional, psychological, and spiritual well-being for sustainable societies. (2026) | Europe PMC | layers: cultural_inputs, history_inputs, psychology_inputs, research_documents, deep_sources, human_stories, all_texts | review use: may increase confidence after claim-scope and counterargument checks
+- From use to abuse: psychological, neurobiological, and spiritual pathways in relational harm and recovery. (2026) | Europe PMC | layers: psychology_inputs, pattern_tests, human_stories, deep_sources, all_texts | review use: may increase confidence after claim-scope and counterargument checks
+- Introduction (2015) | Crossref | layers: other_religious_texts, human_stories, theologians | review use: can support cautious working claims when corroborated
 
 Reader rule: this new material can change the questions immediately, but it should not strengthen a claim until the original source and counterarguments are reviewed.
 
@@ -125,10 +125,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (5,729 signals)
-- Meaning And Logos: high internal signal (7,082 signals)
-- Moral Response: high internal signal (3,292 signals)
-- Worship And Community: high internal signal (2,220 signals)
+- Life And Consciousness: high internal signal (5,728 signals)
+- Meaning And Logos: high internal signal (7,096 signals)
+- Moral Response: high internal signal (3,294 signals)
+- Worship And Community: high internal signal (2,221 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -145,8 +145,8 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (7,082 signals)
-- Moral Response: high internal signal (3,292 signals)
+- Meaning And Logos: high internal signal (7,096 signals)
+- Moral Response: high internal signal (3,294 signals)
 - Transformation: high internal signal (3,290 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
@@ -165,9 +165,9 @@ Daily-life practice: Practice wonder, stewardship, embodied care, learning, humi
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
 - Physical Order: high internal signal (2,764 signals)
-- Life And Consciousness: high internal signal (5,729 signals)
-- Moral Response: high internal signal (3,292 signals)
-- Worship And Community: high internal signal (2,220 signals)
+- Life And Consciousness: high internal signal (5,728 signals)
+- Moral Response: high internal signal (3,294 signals)
+- Worship And Community: high internal signal (2,221 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -185,7 +185,7 @@ Daily-life practice: Receive creation as gift, follow Christ in concrete obedien
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
 - Physical Order: high internal signal (2,764 signals)
-- Meaning And Logos: high internal signal (7,082 signals)
+- Meaning And Logos: high internal signal (7,096 signals)
 - Transformation: high internal signal (3,290 signals)
 
 Chapter 5: Providence And Contingency Pattern
@@ -204,9 +204,9 @@ Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, griev
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
 - Physical Order: high internal signal (2,764 signals)
-- Quantum Probability: early signal (106 signals)
-- Life And Consciousness: high internal signal (5,729 signals)
-- Meaning And Logos: high internal signal (7,082 signals)
+- Quantum Probability: early signal (105 signals)
+- Life And Consciousness: high internal signal (5,728 signals)
+- Meaning And Logos: high internal signal (7,096 signals)
 
 Everyday Case Studies
 ---------------------
@@ -223,36 +223,37 @@ Other religions and cultures: The pattern should compare respectfully. Christian
 What The Research Currently Suggests
 ------------------------------------
 The project has analyzed 142 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
-The daily collector has retained 1,144 cloud candidate references, including 18 brand-new candidates in the latest run.
+The daily collector has retained 1,170 cloud candidate references, including 26 brand-new candidates in the latest run.
 The current corpus most visibly repeats pattern families led by Image Of God Pattern, Cross And Reversal Pattern, Creation-To-Consciousness Pattern, Trinity-As-Behavior Pattern, and Providence And Contingency Pattern.
 These are best understood as chapters in an ongoing research book. They are not final proof claims.
 
 What Changed In The Latest Collection
 -------------------------------------
-Daily collector updated: 2026-05-27T21:21:28.585217+00:00
-Retained cloud candidate references: 1,144
-Brand-new candidate references this run: 18
+Daily collector updated: 2026-05-28T21:38:04.593256+00:00
+Retained cloud candidate references: 1,170
+Brand-new candidate references this run: 26
 
 Newest evidence movement by routed layer:
+- world_languages: 15
+- all_texts: 13
+- other_religious_texts: 10
+- biblical_languages: 9
+- research_documents/christian_sources: 9
 - history_inputs: 7
 - theologians: 7
-- other_religious_texts: 6
-- visual_art: 6
-- all_texts: 5
-- cultural_inputs: 5
-- deep_sources: 4
-- research_documents: 4
+- visual_art: 7
 
 Newest automated evidence mix:
-- moderate_scholarly_candidate: 14
-- strong_scholarly_candidate: 4
+- weak_scholarly_candidate: 15
+- moderate_scholarly_candidate: 6
+- strong_scholarly_candidate: 5
 
 Newest sources shaping today's questions:
-- The Unitarian Trinity | Ancestors of Faith Series | Rev. Dr. Daniel Kanter (2025) | layers: theologians, research_documents | evidence: moderate_scholarly_candidate
-- Lighting a Beacon – sermon by Rev. Nancy (2023) | layers: theologians, research_documents | evidence: moderate_scholarly_candidate
-- “So Much Comes Up”: Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes (2026) | layers: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts | evidence: moderate_scholarly_candidate
-- Dispersion Compensation and Multi-Beam Interference Correction Algorithm for Thickness Measurement of SiC Epitaxial Layer (2026) | layers: deep_sources, pattern_tests | evidence: moderate_scholarly_candidate
-- Complete Quran (114 Surahs) - Abu-Bakr ash-Shatri (with English Audio Translation) (n.d.) | layers: visual_art, cultural_inputs, world_languages, other_religious_texts | evidence: moderate_scholarly_candidate
+- 72. Milk Without Manure? The Conflict Scooper - Alan Cain (Part 2) (2023) | layers: theologians, research_documents, visual_art, all_texts | evidence: moderate_scholarly_candidate
+- Trinitarian Mischief with Rev Dr. Fred Muir (2025) | layers: theologians, research_documents | evidence: moderate_scholarly_candidate
+- CIA Reading Room cia-rdp73-00475r000102320001-9: TECH ENGINEERING NONSENSE (1962) | layers: deep_sources, pattern_tests, visual_art | evidence: moderate_scholarly_candidate
+- VOA [Voice of America] Global English : February 18, 2020 09:00AM-10:00AM EST (2020) | layers: cultural_inputs, history_inputs | evidence: moderate_scholarly_candidate
+- The “The Paper They’re Written On” Edition (2024) | layers: history_inputs, theologians | evidence: moderate_scholarly_candidate
 
 Reader note: cloud candidates change the research questions immediately, but they should strengthen conclusions only after source review.
 
