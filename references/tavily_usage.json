@@ -143,6 +143,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-05-29": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "biblical Hebrew ruach hesed shalom source context scholarly article",
+          "searched_at": "2026-05-29T21:20:48.621226+00:00",
+          "tag": "biblical_language_source_depth"
+        },
+        {
+          "credits_used": 1,
+          "query": "New Testament Greek pneuma logos agape source context scholarly article",
+          "searched_at": "2026-05-29T21:20:54.185405+00:00",
+          "tag": "biblical_language_source_depth"
+        },
+        {
+          "credits_used": 1,
+          "query": "Septuagint translation Hebrew Greek theological terms source study",
+          "searched_at": "2026-05-29T21:21:00.406503+00:00",
+          "tag": "biblical_language_source_depth"
+        },
+        {
+          "credits_used": 1,
+          "query": "psychology trauma attachment religion transformation hope",
+          "searched_at": "2026-05-29T21:21:06.051918+00:00",
+          "tag": "psychology_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "moral psychology forgiveness repentance habit formation",
+          "searched_at": "2026-05-29T21:21:11.043032+00:00",
+          "tag": "psychology_patterns"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

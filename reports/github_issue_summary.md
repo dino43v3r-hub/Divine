@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-28T21:39:06.703877+00:00
+Generated: 2026-05-29T21:24:45.326063+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -40,12 +40,12 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-05-28T21:38:04.593256+00:00
-Retained cloud candidate references: 1,170
-Brand-new candidate references this run: 26
-Top new routed layers: world_languages: 15, all_texts: 13, other_religious_texts: 10, biblical_languages: 9
-New evidence mix: weak_scholarly_candidate: 15, moderate_scholarly_candidate: 6, strong_scholarly_candidate: 5
-New provider mix: Tavily Search: 15, Internet Archive: 5, Europe PMC: 3, OpenAlex: 2
+Collector run: 2026-05-29T21:23:44.000037+00:00
+Retained cloud candidate references: 1,194
+Brand-new candidate references this run: 24
+Top new routed layers: all_texts: 14, visual_art: 12, world_languages: 11, biblical_languages: 8
+New evidence mix: weak_scholarly_candidate: 12, moderate_scholarly_candidate: 11, strong_scholarly_candidate: 1
+New provider mix: Tavily Search: 12, Internet Archive: 11, Europe PMC: 1
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
@@ -101,7 +101,7 @@ Chapter One: What Grew In The Latest Run?
 -----------------------------------------
 This chapter summarizes the newest retained research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 524 lines. Open the linked report above to read everything._
+_Full report has 515 lines. Open the linked report above to read everything._
 ```
 
 ## reports/top_five_divine_patterns_report.txt
@@ -135,9 +135,9 @@ _Full report has 255 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-28T21:38:04.637973+00:00
-Total references: 1,170
-New references this run: 26
+Updated: 2026-05-29T21:23:44.042980+00:00
+Total references: 1,194
+New references this run: 24
 
 Guardrails
 ----------
@@ -151,7 +151,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 500 lines. Open the linked report above to read everything._
+_Full report has 478 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -170,13 +170,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 33
-Total analyzed words: 737,621
+Total analyzed words: 737,511
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 979 lines. Open the linked report above to read everything._
+_Full report has 976 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -391,15 +391,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### 72. Milk Without Manure? The Conflict Scooper - Alan Cain (Part 2)
+### Christian Talk That Rocks with Richie L. Ep. 4/6/2023
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity
-- Layer routes: theologians, research_documents, visual_art, all_texts
-- Primary layer: theologians
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 885 lines. Open the linked report above to read everything._
+_Full report has 831 lines. Open the linked report above to read everything._
 ```
