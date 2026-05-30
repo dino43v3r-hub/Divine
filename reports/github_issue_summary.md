@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-05-29T21:24:45.326063+00:00
+Generated: 2026-05-30T17:50:18.920271+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -40,18 +40,18 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-05-29T21:23:44.000037+00:00
-Retained cloud candidate references: 1,194
-Brand-new candidate references this run: 24
-Top new routed layers: all_texts: 14, visual_art: 12, world_languages: 11, biblical_languages: 8
-New evidence mix: weak_scholarly_candidate: 12, moderate_scholarly_candidate: 11, strong_scholarly_candidate: 1
-New provider mix: Tavily Search: 12, Internet Archive: 11, Europe PMC: 1
+Collector run: 2026-05-30T17:49:17.093360+00:00
+Retained cloud candidate references: 1,215
+Brand-new candidate references this run: 21
+Top new routed layers: psychology_inputs: 12, deep_sources: 11, human_stories: 11, pattern_tests: 9
+New evidence mix: weak_scholarly_candidate: 13, moderate_scholarly_candidate: 8
+New provider mix: Tavily Search: 13, Internet Archive: 8
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 
-_Full report has 397 lines. Open the linked report above to read everything._
+_Full report has 396 lines. Open the linked report above to read everything._
 ```
 
 ## reports/disciplined_theological_assistant_report.txt
@@ -101,7 +101,7 @@ Chapter One: What Grew In The Latest Run?
 -----------------------------------------
 This chapter summarizes the newest retained research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 515 lines. Open the linked report above to read everything._
+_Full report has 511 lines. Open the linked report above to read everything._
 ```
 
 ## reports/top_five_divine_patterns_report.txt
@@ -135,9 +135,9 @@ _Full report has 255 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-29T21:23:44.042980+00:00
-Total references: 1,194
-New references this run: 24
+Updated: 2026-05-30T17:49:17.138260+00:00
+Total references: 1,215
+New references this run: 21
 
 Guardrails
 ----------
@@ -151,7 +151,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 478 lines. Open the linked report above to read everything._
+_Full report has 460 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -170,13 +170,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 33
-Total analyzed words: 737,511
+Total analyzed words: 736,850
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 976 lines. Open the linked report above to read everything._
+_Full report has 975 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -391,15 +391,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Christian Talk That Rocks with Richie L. Ep. 4/6/2023
+### First Godmakers Were Early Christians! - Collection 1
 
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs
-- Primary layer: cultural_inputs
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 831 lines. Open the linked report above to read everything._
+_Full report has 714 lines. Open the linked report above to read everything._
 ```

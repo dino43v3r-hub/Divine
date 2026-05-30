@@ -1,5 +1,5 @@
 {
-  "source_count": 1194,
+  "source_count": 1215,
   "sources": [
     {
       "authors": [
@@ -597,6 +597,50 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1080/1462317x.2018.1436511",
       "year": 2018
+    },
+    {
+      "authors": [
+        "Unity Church-Unitarian Sunday Services Podcast"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 423,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/unity_church_unitarian_sunday_services_podcast-broken_open_by_grief_rev__dr__osc",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "theologians"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\"No one ever told me that grief felt so like fear.\" C. S. Lewis's A Grief Observed, is a firsthand account of the months after his spouse's death. In it, the 20th century theologian grapples with what it means to feel truly lost, unable to depend on the beliefs and certainties that shaped his life. Moments of grief change us, creating a dividing line in our stories between the time before, and the time after loss. \u200b",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Broken Open by Grief, Rev. Dr. Oscar Sinclair, January 11, 2026",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Unity_Church_Unitarian_Sunday_Services_Podcast-Broken_Open_by_Grief_Rev__Dr__Osc",
+      "year": "2026"
     },
     {
       "authors": [
@@ -1774,6 +1818,49 @@
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
       "corroborating_source_count": 396,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/imamanwaral-awlaki",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org image",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------- Anwar al-Awlaki is a Muslim scholar of Yemeni heritage born in New Mexico, USA. His parents were from Yemen where he lived for 11 years and received the early part of his Islamic education. Imaam Anwar al-Awlaki has served as an Imaam in Colorado, California, and later in the Washington D.C. area where he headed the Dar al-Hijrah Islamic Center and was also the Muslim Chaplain at George Washington University. In 2004 he ",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Imam Anwar al-Awlaki (\u0623\u0646\u0648\u0627\u0631 \u0627\u0644\u0639\u0648\u0644\u0642\u064a - \u0631\u062d\u0645\u0647 \u0627\u0644\u0644\u0647) - Complete Audio Collection (200+)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/ImamAnwarAl-awlaki",
+      "year": null
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 396,
       "date_accessed": "2026-05-27",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
@@ -1844,6 +1931,49 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://doi.org/10.2307/jj.6230180.16",
       "year": 2023
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 396,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/islam-theonlyacceptedreligion",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- There is only ONE accepted religion in the sight of Allaah (the Creator): There is only ONE Straight Path to Jannah (the Garden [i.e. Paradise]) Therefore, there can only be ONE Truth... Allaah the All-Mighty Says: {This day have I perfected your religion for you and completed My favor upon you and have chosen for you Islaam (i.e. Submission to God Alone without associating any partners with Him) ",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Islam - The Only Accepted Religion \u0627\u0644\u0625\u0633\u0644\u0627\u0645 - \u062f\u064a\u0646 \u0627\u0644\u0648\u062d\u064a\u062f \u0627\u0644\u0645\u0642\u0628\u0648\u0644",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Islam-TheOnlyAcceptedReligion",
+      "year": null
     },
     {
       "authors": [
@@ -1931,51 +2061,6 @@
       "title": "Islam: From Kufr to Eemaan (Disbelief to Correct Faith) \u0645\u0646 \u0627\u0644\u0643\u0641\u0631 \u0625\u0644\u0649 \u0627\u0644\u0625\u064a\u0645\u0627\u0646",
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/IslamFromKufrToEemaandisbeliefToCorrectFaith",
-      "year": null
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 446,
-      "date_accessed": "2026-05-27",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/jesuschristpbuhinislam",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "history_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- ~ Jesus (\u0639\u0644\u064a\u0647 \u0627\u0644\u0633\u0644\u0627\u0645) in Islam ~ Was Jesus God? Or was he sent by God? Who was the real historical Jesus? Jesus never calls himself God: The Bible contains many verses in which Jesus speaks of God as a separate person to himself. Here are just a few of them: When a man addressed Jesus as \"Good Teacher\", he replied \"Why do you call me good? No one is good except the One God.'' [Mark; 10.18] In anot",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Jesus Christ (\u0639\u0644\u064a\u0647 \u0627\u0644\u0633\u0644\u0627\u0645) in Islam - Last Lecture by Ahmed Deedat (\u0631\u062d\u0645\u0647 \u0627\u0644\u0644\u0647)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/JesusChristpbuhInIslam",
       "year": null
     },
     {
@@ -4546,6 +4631,52 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1086/378613",
       "year": 2003
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 446,
+      "date_accessed": "2026-05-27",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/jesuschristpbuhinislam",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "history_inputs",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- ~ Jesus (\u0639\u0644\u064a\u0647 \u0627\u0644\u0633\u0644\u0627\u0645) in Islam ~ Was Jesus God? Or was he sent by God? Who was the real historical Jesus? Jesus never calls himself God: The Bible contains many verses in which Jesus speaks of God as a separate person to himself. Here are just a few of them: When a man addressed Jesus as \"Good Teacher\", he replied \"Why do you call me good? No one is good except the One God.'' [Mark; 10.18] In anot",
+      "tags": [
+        "art_beauty",
+        "politics_justice"
+      ],
+      "title": "Jesus Christ (\u0639\u0644\u064a\u0647 \u0627\u0644\u0633\u0644\u0627\u0645) in Islam - Last Lecture by Ahmed Deedat (\u0631\u062d\u0645\u0647 \u0627\u0644\u0644\u0647)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/JesusChristpbuhInIslam",
+      "year": null
     },
     {
       "authors": [
@@ -15453,6 +15584,52 @@
       "year": null
     },
     {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 6,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 547,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://sacred-texts.com/comp/index.htm",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Separate psychological/social process from theological interpretation and note clinical limits."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "visual_art",
+        "psychology_inputs"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.49392182,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Click here to learn more **Topics** Home Catalog African Age of Reason Alchemy Americana Ancient Near East Astrology Asia Atlantis Australia Basque Baha'i Bible Book of Shadows Buddhism Celtic Christianity Classics **Comparative** Confucianism DNA Earth Mysteries Egyptian England Esoteric/Occult Evil Fortean Freemasonry Gothic Gnosticism Grimoires Hinduism I Ching Islam Icelandic Jainism Journals Judaism Legends/Sagas Legendary Creatures LGBT Miscellaneous Mormonism Mysticism Native American Necronomicon New Thought Neopaganism/Wicca Nostradamus Oahspe Pacific Paleolithic Parapsychology Philosophy Piri Re'is Map Prophecy Roma Sacred Books of the East Sacred Sexuality Shakespeare Shamanism Sh",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Sacred Texts: Comparative Religion, Mythology and Folklore | Internet Sacred Text Archive",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://sacred-texts.com/comp/index.htm",
+      "year": null
+    },
+    {
       "authors": [
         "uusf.org"
       ],
@@ -16422,6 +16599,49 @@
       "year": null
     },
     {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 324,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.amazon.com/world-scripture-comparative-anthology-sacred/dp/0892261293",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.52115494,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "A curated collection of sacred texts from diverse religions, highlighting their shared wisdom and universal teachings.",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "World Scripture: A Comparative Anthology of Sacred Texts",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.amazon.com/World-Scripture-Comparative-Anthology-Sacred/dp/0892261293",
+      "year": null
+    },
+    {
       "authors": [
         "Charles Segal"
       ],
@@ -17234,6 +17454,48 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/First_Unitarian_Society_of_Denver_Podcast-6080215_autumn_remembrance",
       "year": "2020"
+    },
+    {
+      "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 299,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20210418mmcomplete",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\"Becoming Together\" (April 18, 2021) Worship Service Becoming ourselves is a lifelong process. And this practice of continual growth, of waking up to who we are, is one that cannot be done alone. Join Ministerial Intern Meg McGuire, Young Adult Coordinator Joe Chapot, members of the UU Theologies for Young Adults class, and friends, for a service exploring how we grow into ourselves, and how we grow together. Meg McGuire, Ministerial Intern Joe Chapot, Young Adult Coordinator Vanessa Vanderlaan, Worship Associate Alfie Jang, Worship Associate Aitana Sierra-Valdes, Worship Associate Sara Fread, Worship Associate Audrey McDougal, 8th Principle Testimonial Reiko Oda Lane, organist Mark Sumner, ",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Becoming Together",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20210418MMComplete",
+      "year": "2021"
     },
     {
       "authors": [
@@ -19312,6 +19574,48 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/SorinCerin-WisdomCollection",
       "year": null
+    },
+    {
+      "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 299,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20210613mmcomplete",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\"Saying Yes\" (June 13, 2021) Worship Service \u201cTeach us all you can by saying yes,\u201d Nancy Shaffer writes in a poem titled \u201cCalling.\u201d Rather than coming from some booming voice on high, the sort of calling that Shaffer describes is marked by the subtle work of learning to listen- and being willing to respond. Preaching for the last time as our ministerial intern (but not her last time in our pulpit) Meg McGuire reframes this notion of calling and reflects on what it might look like for this community going forward. Meg McGuire, Ministerial Intern Rev. Vanessa Rush Southern, Senior Minister Rev. Alyson Jacks, Associate Minister Richard Davis, Worship Associate Richard Davis-Lowell, Worship Asso",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Saying Yes",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20210613MMComplete",
+      "year": "2021"
     },
     {
       "authors": [
@@ -23627,21 +23931,23 @@
       "authors": [
         "Gina Messina-Dysert"
       ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_label": "strong_scholarly_candidate",
       "automated_evidence_reasons": [
         "scholarly metadata provider",
         "DOI or stable scholarly identifier present",
         "author metadata present",
         "publication year present",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 9,
+      "automated_evidence_score": 10,
       "automated_evidence_warnings": [],
+      "citation_count": 5,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 518,
       "date_accessed": "2026-05-25",
       "doi": "10.4324/9781315744605",
-      "evaluation_use": "can support cautious working claims when corroborated",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
       "id": "10.4324/9781315744605",
       "layer_review_prompts": [
         "Read the tradition on its own terms; do not flatten it into Christian categories.",
@@ -23655,17 +23961,20 @@
         "theologians",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 5,
+      "opencitations_reference_count": 0,
       "primary_layer": "other_religious_texts",
       "provider": "Crossref",
       "quality": "scholarly metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "review_status": "machine_assessed_strong_scholarly_candidate",
       "source_type": "monograph",
       "summary": "",
       "tags": [
         "interreligious_dream_testimony"
       ],
       "title": "Rape Culture and Spiritual Violence",
-      "truth_assessment": "moderate_scholarly_candidate",
+      "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.4324/9781315744605",
       "year": 2015
     },
@@ -23707,6 +24016,9 @@
         "theologians",
         "psychology_inputs"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "other_religious_texts",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -23756,6 +24068,9 @@
         "human_stories",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "other_religious_texts",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -23797,6 +24112,9 @@
         "human_stories",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "other_religious_texts",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -23840,6 +24158,9 @@
         "human_stories",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 1,
+      "opencitations_reference_count": 0,
       "primary_layer": "other_religious_texts",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -23888,6 +24209,9 @@
         "theologians",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 40,
       "primary_layer": "other_religious_texts",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -23938,6 +24262,9 @@
         "history_inputs",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "other_religious_texts",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -23964,10 +24291,12 @@
         "publication year present",
         "recognized scholarly source type",
         "summary or abstract metadata available",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 11,
+      "automated_evidence_score": 12,
       "automated_evidence_warnings": [],
+      "citation_count": 3,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 442,
       "date_accessed": "2026-05-25",
@@ -23984,6 +24313,9 @@
         "human_stories",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 3,
+      "opencitations_reference_count": 0,
       "primary_layer": "other_religious_texts",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -24038,6 +24370,9 @@
         "world_languages",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "other_religious_texts",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -24095,6 +24430,9 @@
         "all_texts",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "other_religious_texts",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -24144,6 +24482,9 @@
         "human_stories",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -24195,6 +24536,9 @@
         "human_stories",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -24244,6 +24588,9 @@
         "all_texts",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -24295,6 +24642,9 @@
         "all_texts",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -24348,6 +24698,9 @@
         "human_stories",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -24390,6 +24743,9 @@
         "all_texts",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -24491,6 +24847,9 @@
         "psychology_inputs",
         "pattern_tests"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -24541,6 +24900,9 @@
         "human_stories",
         "psychology_inputs"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 5,
       "primary_layer": "modern_literature",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -24588,6 +24950,9 @@
         "human_stories",
         "pattern_tests"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -24640,6 +25005,9 @@
         "psychology_inputs",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -24689,6 +25057,9 @@
         "all_texts",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -24740,6 +25111,9 @@
         "human_stories",
         "psychology_inputs"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -24785,6 +25159,9 @@
         "all_texts",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -24810,10 +25187,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
+      "citation_count": 1,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 419,
       "date_accessed": "2026-05-25",
@@ -24830,6 +25209,9 @@
         "all_texts",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 1,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -24871,6 +25253,9 @@
         "all_texts",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-05-30",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "modern_literature",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -29603,6 +29988,96 @@
       "year": null
     },
     {
+      "authors": [],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates",
+        "counterargument or limitation language present"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 486,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://www.academia.edu/38259406/on_the_nature_and_future_of_agency_detection_and_religion",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9995827,
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Agency detection remains a pivotal aspect of understanding religious beliefs. The text critiques Van Leeuwen and van Elk's approach to",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "(PDF) On the nature and future of agency detection and religion",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://www.academia.edu/38259406/On_the_nature_and_future_of_agency_detection_and_religion",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 486,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.researchgate.net/publication/282423764_priming_with_religion_and_supernatural_agency_enhances_the_perception_of_intentionality_in_natural_phenomena",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.22844079,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Cognitive theories of religion suggest that belief in supernatural agents finds a basis in the human tendency to (over) detect agency in the environment.",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "(PDF) Priming with Religion and Supernatural Agency Enhances the ...",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.researchgate.net/publication/282423764_Priming_with_Religion_and_Supernatural_Agency_Enhances_the_Perception_of_Intentionality_in_Natural_Phenomena",
+      "year": null
+    },
+    {
       "authors": [
         "V Villemagne",
         "S Burnham",
@@ -29758,6 +30233,98 @@
       "year": "2026"
     },
     {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 562,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.researchgate.net/publication/320467983_agency_detection_in_predictive_minds_a_virtual_reality_study",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources",
+        "visual_art"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9998535,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "The article offers a critical analysis of the cognitive science of religion (CSR) as applied to new and quasi-religious movements, and uncovers implicit",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "Agency detection in predictive minds: a virtual reality study",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.researchgate.net/publication/320467983_Agency_detection_in_predictive_minds_a_virtual_reality_study",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 486,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://en.wikipedia.org/wiki/agent_detection",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9991704,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "**Agent detection** is the inclination for animals, including humans, to presume the purposeful intervention of a sentient or intelligent agent \"Agency (philosophy)\") in situations that may or may not involve one. It is believed that humans evolved agent detection as a survival strategy. For example, if a human came across an indentation in the ground that might be a lion's footprint, it is advantageous to err on the side of caution and assume that the lion is present. Gray and Wegner assert that agent detection is likely to be a \"foundation for human belief in God\" but \"simple over attribution of agency cannot entirely account for the belief in God...\" because the human ability to form a th",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "Agent detection - Wikipedia",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://en.wikipedia.org/wiki/Agent_detection",
+      "year": null
+    },
+    {
       "authors": [
         "Riegel B",
         "Riegel B",
@@ -29807,6 +30374,141 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1097/ans.0000000000000594",
       "year": "2026"
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 486,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.psychologytoday.com/us/basics/apophenia",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9990073,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Apophenia is the mind's tendency to find meaning in randomness. It shapes creativity, emotion, and misunderstanding, reminding us to balance",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "Apophenia - Psychology Today",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.psychologytoday.com/us/basics/apophenia",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 486,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://en.wikipedia.org/wiki/apophenia",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99939764,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Apophenia has also come to describe a human propensity to unreasonably seek definite patterns in random information, which can occur in gambling.",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "Apophenia - Wikipedia",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://en.wikipedia.org/wiki/Apophenia",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 486,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.facebook.com/lawrencemkrauss/posts/apopheniaexperience-of-an-abnormal-meaningfulness-or-initially-experiencing-delu/10154892565318510?locale=es_la",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.99879336,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Apophenia:\"experience of an abnormal meaningfulness\" or \"initially experiencing delusion as revelation\"-a psychological tendency. Religion!",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "Apophenia:\"experience of an abnormal meaningfulness\" or \"initially ...",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.facebook.com/LawrenceMKrauss/posts/apopheniaexperience-of-an-abnormal-meaningfulness-or-initially-experiencing-delu/10154892565318510?locale=es_LA",
+      "year": null
     },
     {
       "authors": [
@@ -30990,6 +31692,51 @@
       "year": 2026
     },
     {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 486,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://bigthink.com/thinking/pattern-recognition-god",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.32524237,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "According to a new study from Georgetown University, it appears that humans endowed with this skill are more likely to believe in a god.",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "Pattern recognition influences religious belief, according to new study",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://bigthink.com/thinking/pattern-recognition-god",
+      "year": null
+    },
+    {
       "authors": [
         "Rachel H. Ellaway"
       ],
@@ -31035,6 +31782,54 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.4324/9781003543565-4",
       "year": 2024
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 676,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://en.wikipedia.org/wiki/psychology_of_religion",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "pattern_tests",
+        "human_stories",
+        "deep_sources",
+        "history_inputs",
+        "all_texts"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.35851082,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "# Psychology of religion. **Psychology of religion** consists of the application of psychological methods and interpretive frameworks to the diverse contents of religious traditions as well as to both religious and irreligious individuals. 2. explanation of the origins of religion, both in the history of the human race and in individual lives, taking into account a diversity of influences. In the last several decades, especially among clinical psychologists, a preference for the terms \"spirituality\" and \"spiritual\" has emerged, along with efforts to distinguish them from \"religion\" and \"religious.\" Especially in the United States, \"religion\" has for many become associated with sectarian inst",
+      "tags": [
+        "pattern_perception_divine_response"
+      ],
+      "title": "Psychology of religion - Wikipedia",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://en.wikipedia.org/wiki/Psychology_of_religion",
+      "year": null
     },
     {
       "authors": [
@@ -35054,6 +35849,49 @@
       "year": "2026"
     },
     {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 476,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://en.wikipedia.org/wiki/cognitive_science_of_religion",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "human_stories",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.998884,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "Cognitive science of religion is the study of religious thought, theory, and behavior from the perspective of the cognitive sciences.",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "Cognitive science of religion - Wikipedia",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://en.wikipedia.org/wiki/Cognitive_science_of_religion",
+      "year": null
+    },
+    {
       "authors": [
         "Peter C. Hill",
         "Kenneth II. Pargament",
@@ -36414,6 +37252,53 @@
       "title": "The Psychology of Repentance. Guilt, Shame & Behavioral Reset",
       "truth_assessment": "weak_scholarly_candidate",
       "url": "https://medium.com/illumination/the-psychology-of-repentance-03cf1399db2d",
+      "year": null
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 4,
+      "automated_evidence_warnings": [
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 664,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.tandfonline.com/doi/full/10.1080/2153599x.2025.2474404",
+      "layer_review_prompts": [
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "psychology_inputs",
+        "human_stories",
+        "visual_art",
+        "all_texts",
+        "deep_sources"
+      ],
+      "primary_layer": "psychology_inputs",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.9999076,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "open web result via Tavily",
+      "summary": "For instance, consider that practices like participation in shamanistic rituals translate into a sense of belonging to a community, or translate into a shared",
+      "tags": [
+        "psychology_patterns"
+      ],
+      "title": "The cognitive science of religion: past, present, and possible futures",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/2153599X.2025.2474404",
       "year": null
     },
     {
@@ -42457,6 +43342,48 @@
     },
     {
       "authors": [
+        "Barabeke"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 272,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/manifesto-demianism",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "visual_art"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Founding manifesto of Demianism, a revealed doctrine built on 13 axioms \u2014 three metaphysical (the \"cosmotheandric triad\") and ten ethical (the \"2kTenCom\"). Demianist culture proposes itself as a response to the destabilization brought about by the digital revolution and the cultural decline of the contemporary West. The manifesto translates the axioms of Demianism into concrete proposals for civilization, addressing topics ranging from family and sexuality to freedom of expression, from technology and artificial intelligence to economics, from decentralized community organization to the relationship with existing religions. Contents: THE SITUATION \u2014 Analysis of today's destabilization and de",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "Manifesto for a Demianist Civilization",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/manifesto-demianism",
+      "year": "2026"
+    },
+    {
+      "authors": [
         "Ndindeng AN"
       ],
       "automated_evidence_label": "strong_scholarly_candidate",
@@ -45884,6 +46811,48 @@
     },
     {
       "authors": [
+        "Restitutio"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 232,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/restitutio-654_the_plight_of_a_restorationist_matt_lovegrove",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Many Bible-believing churches are ridged keepers of tradition. They have a statement of faith, a historic confession, or old creeds that determine what people should and should not believe. There\u2019s very little space for people to genuinely ask questions, investigate competing doctrines, and honestly change their minds over time. Today I\u2019m speaking with Matt Lovegrove Read more about 654. The Plight of a Restorationist (Matt Lovegrove)[\u2026]",
+      "tags": [
+        "trinity"
+      ],
+      "title": "654. The Plight of a Restorationist (Matt Lovegrove)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Restitutio-654_the_plight_of_a_restorationist_matt_lovegrove",
+      "year": "2026"
+    },
+    {
+      "authors": [
         "Unitarian Christian Alliance"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
@@ -46665,6 +47634,44 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://doi.org/10.2307/j.ctt1tm7j2q.6",
       "year": 2017
+    },
+    {
+      "authors": [],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 6,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 232,
+      "date_accessed": "2026-05-30",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://archive.org/details/firstgodmakerswereearlychristians-collection1",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "This is a collection of commentaries, talks, radio shows, debates, polemical discussion on the early Christian doctrines of deification. Deification, theosis, Christian moral perfection, are the beliefs that humans can eventually become perfected, divine, and become gods, or goddesses. The early Christian writings are filled with different versions of these concepts that changed and were formed according to how the different early to later Christian sects understood what God & the resurrected Christ, debated over were said to be like. As these beliefs changed, so also did the beliefs as to what deification meant, also changed. Debates, such as the Nicene Creed debates, during the Council of ",
+      "tags": [
+        "trinity"
+      ],
+      "title": "First Godmakers Were Early Christians! - Collection 1",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://archive.org/details/FirstGodmakersWereEarlyChristians-Collection1",
+      "year": null
     },
     {
       "authors": [
@@ -55203,5 +56210,5 @@
       "year": null
     }
   ],
-  "updated_at": "2026-05-29T21:23:44.000037+00:00"
+  "updated_at": "2026-05-30T17:49:17.093360+00:00"
 }

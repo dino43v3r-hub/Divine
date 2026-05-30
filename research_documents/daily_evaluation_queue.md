@@ -7,58 +7,59 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Christian Talk That Rocks with Richie L. Ep. 4/6/2023
+### First Godmakers Were Early Christians! - Collection 1
 
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs
-- Primary layer: cultural_inputs
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 240
-- Year: 2023
-- URL: https://archive.org/details/The_Beneficial_Principles_In_T-christian_talk_that_rocks_with_richie_l_ep_4_6_20
+- Automated evidence: weak_scholarly_candidate (6)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 232
+- Year: n.d.
+- URL: https://archive.org/details/FirstGodmakersWereEarlyChristians-Collection1
 
-On today's show, 1:30 pm CT, 2:30 pm ET: Trumped Charges: Alan Dershowitz warns there's 'no chance'
-Trump gets acquitted in NYC, claims Judge, jurors 'don't have the courage' - Bragg violated Trump's
-6th Amendment rights in refusing to disclose underlying crime claims legal expert - O'Keefe captures
-N.Y. D.A. on hidden camera outside Trump hearing complaining about Constitution - FEC member claims
-Bragg's case against Trump contains 'not a violation of any kind' - we'll examine. Faith Under
-Pressure: Minneapolis sued for violating 1st Amendment with protest ban - 186 churches sue regional
-body for halting disaffiliation process - One in Four Anglican Churches no Longer Holding Regular
-Sunday
+This is a collection of commentaries, talks, radio shows, debates, polemical discussion on the early
+Christian doctrines of deification. Deification, theosis, Christian moral perfection, are the
+beliefs that humans can eventually become perfected, divine, and become gods, or goddesses. The
+early Christian writings are filled with different versions of these concepts that changed and were
+formed according to how the different early to later Christian sects understood what God & the
+resurrected Christ, debated over were said to be like. As these beliefs changed, so also did the
+beliefs as to what deification meant, also changed. Debates, such as the Nicene Creed debates,
+during the Council of
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
 
-### The Unsung Path of Agnosticism
+### 654. The Plight of a Restorationist (Matt Lovegrove)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 272
+- Corroborating routed candidates: 232
 - Year: 2026
-- URL: https://archive.org/details/Sunnyhill_Unitarian_Universalist-19176813_the_unsung_path_of_agnosticism
+- URL: https://archive.org/details/Restitutio-654_the_plight_of_a_restorationist_matt_lovegrove
 
-Much religious discussion focuses on the belief or disbelief in God or a higher power. Today, we
-shine the spotlight on “I don’t know,” the unsung path of agnosticism. www.sunnyhill.org
+Many Bible-believing churches are ridged keepers of tradition. They have a statement of faith, a
+historic confession, or old creeds that determine what people should and should not believe. There’s
+very little space for people to genuinely ask questions, investigate competing doctrines, and
+honestly change their minds over time. Today I’m speaking with Matt Lovegrove Read more about 654.
+The Plight of a Restorationist (Matt Lovegrove)[…]
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -68,10 +69,10 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
 
-### The Jinn (الجن)
+### Imam Anwar al-Awlaki (أنوار العولقي - رحمه الله) - Complete Audio Collection (200+)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -84,16 +85,16 @@ Layer review prompts:
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 396
 - Year: n.d.
-- URL: https://archive.org/details/TheJinn
+- URL: https://archive.org/details/ImamAnwarAl-awlaki
 
 Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
 watch/listen/download more free Islamic files. -----------------------------------------------------
---------------------------------------------------------------------------------------------------
-WARNING: This is an old video that contains musical instruments which are Haraam (Islamically
-forbidden) in Islaam. They were initially included strictly for Da'wah purposes and not for the
-purpose of entertainment. Musical Instruments are no longer included in recent videos strictly
-because of its prohibition in Islaam. The Prophet ﷺ said (which means), "From among my followers
-there will be some
+-------------------------------------------------------------------------- Anwar al-Awlaki is a
+Muslim scholar of Yemeni heritage born in New Mexico, USA. His parents were from Yemen where he
+lived for 11 years and received the early part of his Islamic education. Imaam Anwar al-Awlaki has
+served as an Imaam in Colorado, California, and later in the Washington D.C. area where he headed
+the Dar al-Hijrah Islamic Center and was also the Muslim Chaplain at George Washington University.
+In 2004 he
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -106,65 +107,29 @@ Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### Who's Afraid of Gender?
+### Islam - The Only Accepted Religion الإسلام - دين الوحيد المقبول
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, psychology_inputs
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 415
-- Year: 2024
-- URL: https://archive.org/details/UUCCI-https_3A_2F_2Fd3ctxlq1ktw2nl_cloudfront_net_2Fstaging_2F2024_7_22_2F385180
-
-In recent decades, understanding has increased surrounding the diversity of sexual orientations in
-society, including lesbian, gay, bisexual, heterosexual, etc. For many segments of society, however,
-topics related to gender expression and identity are less familiar. Because of this lack of
-understanding, two possible pathways forward are curiosity and fear, wherein the former leads to
-love and the latter to discrimination and violence. While a global anti-gender movement grows,we
-must ask ourselves, "who's afraid of gender?" and our answer should lead us to move faithfully
-toward curiosity and love. You can find the written service on Substack! Notes From Mt. Horeb by
-Rev. Nic Cable https:/
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### Complete Qur'an (114 Surahs) - 'Abdul-Basit 'Abdus-Samad (with English Audio Translation)
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, world_languages, all_texts, other_religious_texts
+- Layer routes: visual_art, cultural_inputs, other_religious_texts
 - Primary layer: visual_art
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 526
+- Corroborating routed candidates: 396
 - Year: n.d.
-- URL: https://archive.org/details/MuslimBoxers-IronMikeTyson-Part1Of3B
+- URL: https://archive.org/details/Islam-TheOnlyAcceptedReligion
 
 Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
 watch/listen/download more free Islamic files. -----------------------------------------------------
 --------------------------------------------------------------------------------------------------
-The Noble Qur'aan - القرآن الكريم Qari - 'Abdul-Baasit 'Abdus-Samad Translator - Naeem Sultan
-Translation of the Meanings - Muhammad Marmaduke Pickthall -----------------------------------------
-----------------------------------------------------------------------------------------------------
----------- Holy / Glorious / Noble / Quran / Qur'an / Qur'aan / Koran / Recital / Revelation /
-Scripture /
+There is only ONE accepted religion in the sight of Allaah (the Creator): There is only ONE Straight
+Path to Jannah (the Garden [i.e. Paradise]) Therefore, there can only be ONE Truth... Allaah the
+All-Mighty Says: {This day have I perfected your religion for you and completed My favor upon you
+and have chosen for you Islaam (i.e. Submission to God Alone without associating any partners with
+Him)
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -175,37 +140,31 @@ Automated evidence reasons:
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### Reader reception of translation strategies for Li Bai's "Yu Jie Yuan": Empirical evidence from a mixed-methods study.
+### Broken Open by Grief, Rev. Dr. Oscar Sinclair, January 11, 2026
 
-- Review status: machine_assessed_strong_scholarly_candidate
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: art_beauty, world_languages_translation
-- Layer routes: visual_art, cultural_inputs, world_languages, all_texts, modern_literature
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, theologians
 - Primary layer: visual_art
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 481
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 423
 - Year: 2026
-- URL: https://doi.org/10.1371/journal.pone.0348360
+- URL: https://archive.org/details/Unity_Church_Unitarian_Sunday_Services_Podcast-Broken_Open_by_Grief_Rev__Dr__Osc
 
-Classical Chinese poetry faces challenges in cross-cultural communication due to differences in
-rhythm, imagery, and poetic traditions. Although various translation strategies have been proposed,
-empirical research on how target readers evaluate them remains limited. This study adopted a mixed-
-methods approach to examine four English translations of Li Bai's "Yu Jie Yuan": prose translation,
-free verse translation, rhymed translation, and literal translation. A total of 403 American
-audiences were recruited through the Prolific platform and completed an online questionnaire on
-Qualtrics. The adapted Reader Response Questionnaire (RRQ) covered five dimensions: "content, theme,
-affective invol
+"No one ever told me that grief felt so like fear." C. S. Lewis's A Grief Observed, is a firsthand
+account of the months after his spouse's death. In it, the 20th century theologian grapples with
+what it means to feel truly lost, unable to depend on the beliefs and certainties that shaped his
+life. Moments of grief change us, creating a dividing line in our stories between the time before,
+and the time after loss. ​
 
 Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
+- trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
 - publication year present
 - summary or abstract metadata available
@@ -214,29 +173,31 @@ Automated evidence reasons:
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 
-### The district's suburban congregation san francisco church
+### Saying Yes
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art
+- Layer routes: history_inputs, theologians
 - Primary layer: history_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 419
-- Year: 2022
-- URL: https://archive.org/details/uusf_org-20111002SFComplete
+- Corroborating routed candidates: 299
+- Year: 2021
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20210613MMComplete
 
-The district's suburban congregation san francisco church: Psykosonik class at one of our you use
-summer institute the class was titled social action in the local congregation one of the
-participants carolyn with a strong unitarian-universalist from one of the district's suburban
-congregation.
+"Saying Yes" (June 13, 2021) Worship Service “Teach us all you can by saying yes,” Nancy Shaffer
+writes in a poem titled “Calling.” Rather than coming from some booming voice on high, the sort of
+calling that Shaffer describes is marked by the subtle work of learning to listen- and being willing
+to respond. Preaching for the last time as our ministerial intern (but not her last time in our
+pulpit) Meg McGuire reframes this notion of calling and reflects on what it might look like for this
+community going forward. Meg McGuire, Ministerial Intern Rev. Vanessa Rush Southern, Senior Minister
+Rev. Alyson Jacks, Associate Minister Richard Davis, Worship Associate Richard Davis-Lowell, Worship
+Asso
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -248,379 +209,59 @@ Automated evidence reasons:
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### Judges- Aphorisms
+### Becoming Together
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
+- Layer routes: history_inputs, theologians
 - Primary layer: history_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
+- Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 574
-- Year: n.d.
-- URL: https://archive.org/details/9781690654117judges
+- Corroborating routed candidates: 299
+- Year: 2021
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20210418MMComplete
 
-SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is
-a mystic in his aphorisms, Sorin Cerin is a philosopher, the author of a new philosophical system
-called Coaxialism, an existentialist poet from the 21st century, essayist and novelist. Sorin Cerin
-is particularly sought after by the great public for the11,486 structured aphorisms in 14 volumes of
-thoughts previously published in various publishing houses, and then to be reunited under the aegis
-of a monumental volume called Wisdom Collection, a title that brought him celebrity and
-international recognition, for which he is considered to be one of the most representative thinkers
-of the aphori
+"Becoming Together" (April 18, 2021) Worship Service Becoming ourselves is a lifelong process. And
+this practice of continual growth, of waking up to who we are, is one that cannot be done alone.
+Join Ministerial Intern Meg McGuire, Young Adult Coordinator Joe Chapot, members of the UU
+Theologies for Young Adults class, and friends, for a service exploring how we grow into ourselves,
+and how we grow together. Meg McGuire, Ministerial Intern Joe Chapot, Young Adult Coordinator
+Vanessa Vanderlaan, Worship Associate Alfie Jang, Worship Associate Aitana Sierra-Valdes, Worship
+Associate Sara Fread, Worship Associate Audrey McDougal, 8th Principle Testimonial Reiko Oda Lane,
+organist Mark Sumner,
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 
-### Wisdom Collection
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, world_languages, all_texts
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 592
-- Year: n.d.
-- URL: https://archive.org/details/WisdomCollection
-
-The famous Wisdom Collection, considered by experts one of the most important works of the century,
-contains a total of 7012 aphorisms, in his six volumes.Sorin Cerin has lately approached similar
-fundamental themes, in the genre of aphorisms. Creations that, through the language of literary
-theory, are part of the sapient creation, containing aphorisms, proverbs, maxims etc. which "sont
-les echos de l'experience", that makes you wonder how such a young author can have such a vast and
-varied life experience, transfigured with talent in hundreds of copies on genre of wisdom.As to
-fairly appreciate the sapient literature in this six volumes of Sorin Cerin, The so-called sapient
-genre knows a l
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### Hebrew Word of the Week —Ruach (רוּחַ) - The Breath of Life
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_language_source_depth
-- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 308
-- Year: n.d.
-- URL: https://www.beithallel-israel.org/hebrew-word-of-the-week_ruach_the-breath-of-life
-
-Biblical Context: “The Spirit (Ruach) of God has made me; the breath of the Almighty gives me life.”
-· Hebrew Meaning: The word ruach carries the idea of breath,
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### What is the meaning of the Hebrew word ruach? | GotQuestions.org
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_language_source_depth
-- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages, psychology_inputs
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 482
-- Year: n.d.
-- URL: https://www.gotquestions.org/meaning-ruach.html
-
-#### How to get right with God. Home Content Index Holy Spirit The Identity of the Holy Spirit
-Meaning ruach. # What is the meaning of the Hebrew word *ruach*? The Hebrew *ruach* means “wind,”
-“breath,” or “spirit.” The corresponding Greek word is *pneuma*. The word’s first use in the Bible
-appears in the second verse: “The Spirit of God [*Ruach Elohim*] was hovering over the waters”
-(Genesis 1:2). Often, when the Old Testament talks about the “Spirit of the Lord” or the “Spirit of
-God,” the word for “Spirit” is *Ruach*. Use of *ruach* as “spirit” when not linked with God usually
-is in reference to the human spirit. God’s *Ruach* is the source of life. The *Ruach* of God is the
-One who gives
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### If you've missed spotting the Holy Spirit in the Old Testament like I ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_language_source_depth
-- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 308
-- Year: n.d.
-- URL: https://www.facebook.com/margaretfeinberg/posts/if-youve-missed-spotting-the-holy-spirit-in-the-old-testament-like-i-did-dont-wo/1202435384670743
-
-The Hebrew word “ruach” means Spirit, but also breath and wind - appearing nearly 400 times
-throughout Scripture in various contexts.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### [PDF] The Holy Spirit: Person and Power. The Greek Article and Pneuma
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_language_source_depth
-- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, visual_art, world_languages
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 428
-- Year: n.d.
-- URL: https://translation.bible/wp-content/uploads/2024/06/swartz-1993-the-holy-spirit-person-and-power-the-greek-article-and-pneuma.pdf
-
-1.0 Introduction: the problem stated From the standpoint of a Bible translator who is concerned with
-sound exegesis and not from the standpoint of an exegetical scholar per se, I will address two
-questions in this article: First, what is the significance, if any, of the use or absence of the
-Greek article with pneuma where this term is used in reference to the Holy Spirit?' Second, what
-options are open for translators in their handling of pneuma in both its articular and anarthrous
-forms (that is, with and without the article)? I will also examine various activities which are
-ascribed to the Holy Spirit in Scripture, namely that of "indwelling," "sealing," "filling,"
-"baptizing" and "empowe
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### Pneuma - Wikipedia
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_language_source_depth
-- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, visual_art, world_languages, psychology_inputs
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 564
-- Year: n.d.
-- URL: https://en.wikipedia.org/wiki/Pneuma
-
-# *Pneuma*. Concept in Ancient Greek philosophy. ***Pneuma*** (Ancient Greek: πνεῦμα, romanized:
-*pneûma*) is an ancient Greek word for "breath", and in a religious context for "spirit "Spirit
-(animating force)")". It has various technical meanings for medical writers and philosophers of
-classical antiquity, particularly in regard to physiology, and is also used in Greek translations of
-*ruach* רוח in the Hebrew Bible, and in the Greek New Testament. In classical philosophy, it is
-distinguishable from *psyche#Etymology "Psyche (psychology)")* (Ancient Greek: ψυχή, romanized:
-*psūkhḗ*), which originally meant "breath of life", but is regularly translated as "spirit" or most
-often "soul". Move
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### I read John Wyckhof, “Pneuma and Logos: The Role of the Spirit in ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_language_source_depth
-- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 308
-- Year: n.d.
-- URL: https://www.facebook.com/davidkbernard.upci/posts/i-read-john-wyckhof-pneuma-and-logos-the-role-of-the-spirit-in-biblical-hermeneu/332835631531775?locale=ar_AR
-
-It was lead by a respected New Testament scholar. The theme was hermeneutics and the interpretation
-of scripture. The goal was to confirm our beliefs that the
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### Exegesis Resources: Septuagint Studies
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_language_source_depth
-- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 308
-- Year: n.d.
-- URL: https://guides.library.vts.edu/bible/septuagint
-
-This book provides equivalence lists for Greek-Hebrew-Aramaic terms. Useful for comparing OT
-versions across these languages. The Cambridge
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### 7 Questions about the Septuagint - Crossway
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_language_source_depth
-- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 308
-- Year: n.d.
-- URL: https://www.crossway.org/articles/7-questions-about-the-septuagint
-
-The “Septuagint” (often abbreviated LXX) is a catchall term that usually refers to the corpus of
-ancient Greek translations of the Hebrew Bible.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### Rebuilding a full life after walking away from organized religion
+### The cognitive science of religion: past, present, and possible futures
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
 - Tags: psychology_patterns
-- Layer routes: psychology_inputs, human_stories, visual_art, pattern_tests
+- Layer routes: psychology_inputs, human_stories, visual_art, all_texts, deep_sources
 - Primary layer: psychology_inputs
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 482
+- Corroborating routed candidates: 664
 - Year: n.d.
-- URL: https://www.apa.org/monitor/2025/06/meaningful-life-after-religion
+- URL: https://www.tandfonline.com/doi/full/10.1080/2153599X.2025.2474404
 
-Psychologists help them create a new sense of meaning in their lives. * Psychologists who specialize
-in faith deconstruction are helping people recover from religious trauma and create a new sense of
-meaning in their lives. Often, “religious dones,” or individuals departing from religion, choose to
-leave after experiencing mistreatment or abuse in the church or in the name of religion. “There can
-be a mismatch between a person’s identity or values and the values of their church,” said Daryl Van
-Tongeren, PhD, a professor of psychology at Hope College in Holland, Michigan, and author of *Done:
-How to Flourish After Leaving Religion*. Some psychologists—many of whom are formerly religious them
+For instance, consider that practices like participation in shamanistic rituals translate into a
+sense of belonging to a community, or translate into a shared
 
 Automated evidence reasons:
 - broad open-web search result
@@ -634,25 +275,96 @@ Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
 - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Cognitive science of religion - Wikipedia
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, deep_sources
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 476
+- Year: n.d.
+- URL: https://en.wikipedia.org/wiki/Cognitive_science_of_religion
+
+Cognitive science of religion is the study of religious thought, theory, and behavior from the
+perspective of the cognitive sciences.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Psychology of religion - Wikipedia
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, history_inputs, all_texts
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 676
+- Year: n.d.
+- URL: https://en.wikipedia.org/wiki/Psychology_of_religion
+
+# Psychology of religion. **Psychology of religion** consists of the application of psychological
+methods and interpretive frameworks to the diverse contents of religious traditions as well as to
+both religious and irreligious individuals. 2. explanation of the origins of religion, both in the
+history of the human race and in individual lives, taking into account a diversity of influences. In
+the last several decades, especially among clinical psychologists, a preference for the terms
+"spirituality" and "spiritual" has emerged, along with efforts to distinguish them from "religion"
+and "religious." Especially in the United States, "religion" has for many become associated with
+sectarian inst
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 
-### The Psychology of Repentance. Guilt, Shame & Behavioral Reset
+### Pattern recognition influences religious belief, according to new study
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: psychology_patterns
-- Layer routes: psychology_inputs, human_stories
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
 - Primary layer: psychology_inputs
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 310
+- Corroborating routed candidates: 486
 - Year: n.d.
-- URL: https://medium.com/illumination/the-psychology-of-repentance-03cf1399db2d
+- URL: https://bigthink.com/thinking/pattern-recognition-god
 
-Research in moral psychology shows that guilt, when processed properly, can lead to: Accountability;
-Repair behavior; Prosocial action; Long
+According to a new study from Georgetown University, it appears that humans endowed with this skill
+are more likely to believe in a god.
 
 Automated evidence reasons:
 - broad open-web search result
@@ -664,95 +376,298 @@ Automated evidence warnings:
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
 - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### [PDF] The Moral Psychology of Forgiveness - PhilArchive
+### (PDF) Priming with Religion and Supernatural Agency Enhances the ...
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: psychology_patterns
-- Layer routes: psychology_inputs, human_stories
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
 - Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 486
+- Year: n.d.
+- URL: https://www.researchgate.net/publication/282423764_Priming_with_Religion_and_Supernatural_Agency_Enhances_the_Perception_of_Intentionality_in_Natural_Phenomena
+
+Cognitive theories of religion suggest that belief in supernatural agents finds a basis in the human
+tendency to (over) detect agency in the environment.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Agency detection in predictive minds: a virtual reality study
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, visual_art
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 562
+- Year: n.d.
+- URL: https://www.researchgate.net/publication/320467983_Agency_detection_in_predictive_minds_a_virtual_reality_study
+
+The article offers a critical analysis of the cognitive science of religion (CSR) as applied to new
+and quasi-religious movements, and uncovers implicit
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### (PDF) On the nature and future of agency detection and religion
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 486
+- Year: n.d.
+- URL: https://www.academia.edu/38259406/On_the_nature_and_future_of_agency_detection_and_religion
+
+Agency detection remains a pivotal aspect of understanding religious beliefs. The text critiques Van
+Leeuwen and van Elk's approach to
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+- counterargument or limitation language present
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Agent detection - Wikipedia
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 486
+- Year: n.d.
+- URL: https://en.wikipedia.org/wiki/Agent_detection
+
+**Agent detection** is the inclination for animals, including humans, to presume the purposeful
+intervention of a sentient or intelligent agent "Agency (philosophy)") in situations that may or may
+not involve one. It is believed that humans evolved agent detection as a survival strategy. For
+example, if a human came across an indentation in the ground that might be a lion's footprint, it is
+advantageous to err on the side of caution and assume that the lion is present. Gray and Wegner
+assert that agent detection is likely to be a "foundation for human belief in God" but "simple over
+attribution of agency cannot entirely account for the belief in God..." because the human ability to
+form a th
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Apophenia - Wikipedia
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 486
+- Year: n.d.
+- URL: https://en.wikipedia.org/wiki/Apophenia
+
+Apophenia has also come to describe a human propensity to unreasonably seek definite patterns in
+random information, which can occur in gambling.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Apophenia - Psychology Today
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 486
+- Year: n.d.
+- URL: https://www.psychologytoday.com/us/basics/apophenia
+
+Apophenia is the mind's tendency to find meaning in randomness. It shapes creativity, emotion, and
+misunderstanding, reminding us to balance
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Apophenia:"experience of an abnormal meaningfulness" or "initially ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 486
+- Year: n.d.
+- URL: https://www.facebook.com/LawrenceMKrauss/posts/apopheniaexperience-of-an-abnormal-meaningfulness-or-initially-experiencing-delu/10154892565318510?locale=es_LA
+
+Apophenia:"experience of an abnormal meaningfulness" or "initially experiencing delusion as
+revelation"-a psychological tendency. Religion!
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### World Scripture: A Comparative Anthology of Sacred Texts
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 324
+- Year: n.d.
+- URL: https://www.amazon.com/World-Scripture-Comparative-Anthology-Sacred/dp/0892261293
+
+A curated collection of sacred texts from diverse religions, highlighting their shared wisdom and
+universal teachings.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
+### Sacred Texts: Comparative Religion, Mythology and Folklore | Internet Sacred Text Archive
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature, visual_art, psychology_inputs
+- Primary layer: all_texts
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (6)
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 310
+- Corroborating routed candidates: 547
 - Year: n.d.
-- URL: https://philarchive.org/archive/NORTMP-6
+- URL: https://sacred-texts.com/comp/index.htm
 
-How do our emotions influence our other mental states (perceptions, beliefs, motivations,
-intentions) and our behavior?
+Click here to learn more **Topics** Home Catalog African Age of Reason Alchemy Americana Ancient
+Near East Astrology Asia Atlantis Australia Basque Baha'i Bible Book of Shadows Buddhism Celtic
+Christianity Classics **Comparative** Confucianism DNA Earth Mysteries Egyptian England
+Esoteric/Occult Evil Fortean Freemasonry Gothic Gnosticism Grimoires Hinduism I Ching Islam
+Icelandic Jainism Journals Judaism Legends/Sagas Legendary Creatures LGBT Miscellaneous Mormonism
+Mysticism Native American Necronomicon New Thought Neopaganism/Wicca Nostradamus Oahspe Pacific
+Paleolithic Parapsychology Philosophy Piri Re'is Map Prophecy Roma Sacred Books of the East Sacred
+Sexuality Shakespeare Shamanism Sh
 
 Automated evidence reasons:
 - broad open-web search result
 - trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-
-### [PDF] The Psychology of Habit Formation and Christian Moral Wisdom on ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: psychology_patterns
-- Layer routes: psychology_inputs, human_stories, all_texts
-- Primary layer: psychology_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 456
-- Year: n.d.
-- URL: https://ojs.uclouvain.be/index.php/theologica/article/download/64333/63543/145503
-
-I argue that while there is surface discord between the contemporary psychology of habit formation
-and Christian moral wisdom, there is in fact a deep concord.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### I Sing the Body Electric
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature, visual_art
-- Primary layer: all_texts
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 436
-- Year: 2020
-- URL: https://archive.org/details/Complete_Service_First_Unitari-20201122VRSComplete
-
-“I Sing the Body Electric" (November 22, 2020) Worship Service There is so much to give thanks for,
-but what about this body that carries us through the world; the ones poets and scientists,
-photographers and even the Psalmists could not help but be astounded by. So, a little tribute to the
-gorgeous miracle and mystery and work of art -- the human body. Rev. Vanessa Rush Southern, Senior
-Minister Mari Magaloni, Reflection Reiko Oda Lane, organist Mark Sumner, director/piano Leandra
-Ramm, soprano Brielle Marina Neilson, alto Ben Rudiak-Gould, tenor Asher Davison, bass My-Hoa
-Steger, pianist Eric Shackelford, camera Shulee Ong, camera Joe Chapot, Social Media Chat Support
-Alex Darr, Coffee Hou
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
@@ -761,30 +676,31 @@ Layer review prompts:
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Separate psychological/social process from theological interpretation and note clinical limits.
 
-### CIA Reading Room cia-rdp90-00530r000601590004-2: POLYGRAPHS IN THE WORKPLACE
+### Manifesto for a Demianist Civilization
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: technology_ethics
-- Layer routes: cultural_inputs, pattern_tests
+- Layer routes: cultural_inputs, visual_art
 - Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 311
-- Year: 1987
-- URL: https://archive.org/details/cia-readingroom-document-cia-rdp90-00530r000601590004-2
+- Corroborating routed candidates: 272
+- Year: 2026
+- URL: https://archive.org/details/manifesto-demianism
 
-Declassified and Approved For Release 2013/01/02 : CIA-RDP90-00530R000601590004-2 ? ? S Y , 1 S.
-HRG. 100-185 'i. POLYGRAPHS IN THE WORKPLACE v HEARING BEFORE THE SGOIA04 COMMITTEE ON LABOR AND
-HUMAN RESOURCES S. UNITED STATES SENATE ONE HUNDREDTH CONGRESS FIRST SESSION ON REVIEWING THE USE
-AND ABUSE OF POLYGRAPH TESTING IN THE WORKPLACE JUNE 19, 1987 k OCT 08 195)7 ? - -- ? ? 1?.?-? LAM!
-Printed for the use of the Committee on Labor and Human Resources U.S. GOVERNMENT PRINTING OFFICE
-75-442 WASHINGTON : 1987 For sale by the Superintendent of Documents, Congressional Sales Office
-U.S. Government Printing Office, Washington, DC 20402 Declassified and and Approved For Release
-2013/01/02 : CIA-
+Founding manifesto of Demianism, a revealed doctrine built on 13 axioms — three metaphysical (the
+"cosmotheandric triad") and ten ethical (the "2kTenCom"). Demianist culture proposes itself as a
+response to the destabilization brought about by the digital revolution and the cultural decline of
+the contemporary West. The manifesto translates the axioms of Demianism into concrete proposals for
+civilization, addressing topics ranging from family and sexuality to freedom of expression, from
+technology and artificial intelligence to economics, from decentralized community organization to
+the relationship with existing religions. Contents: THE SITUATION — Analysis of today's
+destabilization and de
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -795,37 +711,4 @@ Automated evidence reasons:
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### VOA [Voice of America] Africa : November 23, 2019 11:00AM-12:00PM EST
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: technology_ethics
-- Layer routes: cultural_inputs
-- Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 155
-- Year: 2019
-- URL: https://archive.org/details/VOA_Africa_20191123_160000
-
-Closed captions transcript: 00:00:00 As in terms of over 20 years defense lawyers who wanted 10
-years say the government 00:00:05 never showed that the money came from China or that Lee ever
-carried out any plans 00:00:09 to deliver government secrets surely outlier Washington media reports
-in Australia 00:00:14 say 00:00:15 a self-confessed Chinese spy has given Australia's counter
-intelligence agency inside 00:00:20 intelligence on how Beijing conducts its interference operations
-abroad and reveal 00:00:24 the identities of China's senior military intelligence officers in Hong
-Kong 00:00:28 Australia structure is Josh Frydenberg the government makes no apologies for the
-00:00:34 strong mea
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.

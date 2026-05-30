@@ -47,14 +47,14 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 25 | religious/science corpus 2,479
-- Mathematical Structure: cultural inputs 24 | religious/science corpus 575
+- Physical Order: cultural inputs 25 | religious/science corpus 2,478
+- Mathematical Structure: cultural inputs 24 | religious/science corpus 574
 - Quantum Probability: cultural inputs 1 | religious/science corpus 95
-- Life And Consciousness: cultural inputs 46 | religious/science corpus 5,344
-- Meaning And Logos: cultural inputs 62 | religious/science corpus 5,953
-- Moral Response: cultural inputs 84 | religious/science corpus 2,260
-- Worship And Community: cultural inputs 69 | religious/science corpus 1,081
-- Transformation: cultural inputs 79 | religious/science corpus 2,100
+- Life And Consciousness: cultural inputs 46 | religious/science corpus 5,338
+- Meaning And Logos: cultural inputs 62 | religious/science corpus 5,935
+- Moral Response: cultural inputs 84 | religious/science corpus 2,263
+- Worship And Community: cultural inputs 69 | religious/science corpus 1,076
+- Transformation: cultural inputs 79 | religious/science corpus 2,071
 
 Per-Domain Findings
 -------------------

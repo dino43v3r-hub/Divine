@@ -179,6 +179,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-05-30": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "cognitive science religion ritual identity community transformation",
+          "searched_at": "2026-05-30T17:47:07.030284+00:00",
+          "tag": "psychology_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "psychology pattern perception religious meaning divine agency",
+          "searched_at": "2026-05-30T17:47:12.163025+00:00",
+          "tag": "pattern_perception_divine_response"
+        },
+        {
+          "credits_used": 1,
+          "query": "cognitive science religion pattern recognition agency detection",
+          "searched_at": "2026-05-30T17:47:16.137451+00:00",
+          "tag": "pattern_perception_divine_response"
+        },
+        {
+          "credits_used": 1,
+          "query": "apophenia meaning making religious experience psychology divine patterns",
+          "searched_at": "2026-05-30T17:47:20.183675+00:00",
+          "tag": "pattern_perception_divine_response"
+        },
+        {
+          "credits_used": 1,
+          "query": "sacred texts wisdom literature lament justice transformation comparative religion",
+          "searched_at": "2026-05-30T17:47:25.099753+00:00",
+          "tag": "global_text_traditions"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

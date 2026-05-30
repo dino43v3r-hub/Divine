@@ -6,19 +6,19 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-05-29T21:23:44.000037+00:00
-Retained cloud candidate references: 1,194
-Brand-new candidate references this run: 24
-Top new routed layers: all_texts: 14, visual_art: 12, world_languages: 11, biblical_languages: 8
-New evidence mix: weak_scholarly_candidate: 12, moderate_scholarly_candidate: 11, strong_scholarly_candidate: 1
-New provider mix: Tavily Search: 12, Internet Archive: 11, Europe PMC: 1
+Collector run: 2026-05-30T17:49:17.093360+00:00
+Retained cloud candidate references: 1,215
+Brand-new candidate references this run: 21
+Top new routed layers: psychology_inputs: 12, deep_sources: 11, human_stories: 11, pattern_tests: 9
+New evidence mix: weak_scholarly_candidate: 13, moderate_scholarly_candidate: 8
+New provider mix: Tavily Search: 13, Internet Archive: 8
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 I am reading this run as a conversation between what just arrived and what the project already thinks it sees.
 The older pattern map still points first toward Image Of God Pattern. Around it, I keep seeing related pressure from Cross And Reversal Pattern, Creation-To-Consciousness Pattern.
-The newest material is pulling my attention toward all_texts, especially around biblical_language_source_depth. That does not overturn the older map, but it changes what I should ask next.
+The newest material is pulling my attention toward psychology_inputs, especially around pattern_perception_divine_response. That does not overturn the older map, but it changes what I should ask next.
 My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is open web result, so I should let them sharpen questions before I let them strengthen claims.
 I also notice that Suffering Without Resolution remains a live test. If the pattern cannot survive that friction, then it is probably only an attractive idea, not a disciplined theological insight.
 
@@ -26,7 +26,7 @@ What this run makes me wonder:
 - Theologian-source candidates grew in the latest collector run; review era, primary source, doctrine, disagreement, and pressure points.
 - Visual-art candidates grew in the latest collector run; examine actual form, composition, symbol, beauty, lament, and counter-reading.
 - History candidates grew in the latest collector run; test power, harm, reform, memory, consequence, and unfinished repair.
-- World-language candidates grew in the latest collector run; track translation range, metaphor, grammar, culture, and rival readings.
+- Global and comparative text candidates grew in the latest collector run; respect each tradition's own meaning before comparing patterns.
 
 What I should do with this learning:
 - Compare the newest source leads against the existing top patterns before changing confidence language.
@@ -87,23 +87,23 @@ Fresh research movements:
 - Theologian-source candidates grew in the latest collector run; review era, primary source, doctrine, disagreement, and pressure points.
 - Visual-art candidates grew in the latest collector run; examine actual form, composition, symbol, beauty, lament, and counter-reading.
 - History candidates grew in the latest collector run; test power, harm, reform, memory, consequence, and unfinished repair.
-- World-language candidates grew in the latest collector run; track translation range, metaphor, grammar, culture, and rival readings.
-- Biblical-language candidates grew in the latest collector run; check lemma, syntax, canonical context, and scholarly counter-readings.
 - Global and comparative text candidates grew in the latest collector run; respect each tradition's own meaning before comparing patterns.
 - Psychology or human-story candidates grew in the latest collector run; separate lived repair from overclaimed theological interpretation.
+- Deep-source candidates grew in the latest collector run; review qualified evidence and counterarguments before strengthening claims.
 - Pressure-test candidates grew in the latest collector run; name failure conditions and whether the pattern holds under friction.
+- Lament-to-hope material grew in the latest collector run; test whether hope is patient and non-coercive rather than a quick resolution.
 
-Most active new tags: biblical_language_source_depth: 8, art_beauty: 5, psychology_patterns: 4, history_memory: 3
-Most active new layers: all_texts: 14, visual_art: 12, world_languages: 11, biblical_languages: 8
-Newest source-quality mix: open web result: 12, reference metadata: 11, scholarly metadata: 1
+Most active new tags: pattern_perception_divine_response: 9, art_beauty: 3, trinity: 2, history_memory: 2
+Most active new layers: psychology_inputs: 12, deep_sources: 11, human_stories: 11, pattern_tests: 9
+Newest source-quality mix: open web result: 13, reference metadata: 8
 
 Fresh source leads to review first:
-- Reader reception of translation strategies for Li Bai's "Yu Jie Yuan": Empirical evidence from a mixed-methods study. (2026) | Europe PMC | layers: visual_art, cultural_inputs, world_languages, all_texts, modern_literature | review use: may increase confidence after claim-scope and counterargument checks
-- Who's Afraid of Gender? (2024) | Internet Archive | layers: visual_art, cultural_inputs, psychology_inputs | review use: can support cautious working claims when corroborated
-- The district's suburban congregation san francisco church (2022) | Internet Archive | layers: history_inputs, theologians, visual_art | review use: can support cautious working claims when corroborated
-- The Unsung Path of Agnosticism (2026) | Internet Archive | layers: visual_art, cultural_inputs | review use: can support cautious working claims when corroborated
-- I Sing the Body Electric (2020) | Internet Archive | layers: all_texts, other_religious_texts, modern_literature, visual_art | review use: can support cautious working claims when corroborated
-- Christian Talk That Rocks with Richie L. Ep. 4/6/2023 (2023) | Internet Archive | layers: cultural_inputs, history_inputs | review use: can support cautious working claims when corroborated
+- Saying Yes (2021) | Internet Archive | layers: history_inputs, theologians | review use: can support cautious working claims when corroborated
+- Manifesto for a Demianist Civilization (2026) | Internet Archive | layers: cultural_inputs, visual_art | review use: can support cautious working claims when corroborated
+- Broken Open by Grief, Rev. Dr. Oscar Sinclair, January 11, 2026 (2026) | Internet Archive | layers: visual_art, cultural_inputs, theologians | review use: can support cautious working claims when corroborated
+- Becoming Together (2021) | Internet Archive | layers: history_inputs, theologians | review use: can support cautious working claims when corroborated
+- 654. The Plight of a Restorationist (Matt Lovegrove) (2026) | Internet Archive | layers: theologians, research_documents | review use: can support cautious working claims when corroborated
+- Islam - The Only Accepted Religion الإسلام - دين الوحيد المقبول (n.d.) | Internet Archive | layers: visual_art, cultural_inputs, other_religious_texts | review use: can support cautious working claims when corroborated
 
 Reader rule: this new material can change the questions immediately, but it should not strengthen a claim until the original source and counterarguments are reviewed.
 
@@ -125,10 +125,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (5,743 signals)
-- Meaning And Logos: high internal signal (7,109 signals)
-- Moral Response: high internal signal (3,298 signals)
-- Worship And Community: high internal signal (2,222 signals)
+- Life And Consciousness: high internal signal (5,737 signals)
+- Meaning And Logos: high internal signal (7,091 signals)
+- Moral Response: high internal signal (3,301 signals)
+- Worship And Community: high internal signal (2,217 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -145,9 +145,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (7,109 signals)
-- Moral Response: high internal signal (3,298 signals)
-- Transformation: high internal signal (3,317 signals)
+- Meaning And Logos: high internal signal (7,091 signals)
+- Moral Response: high internal signal (3,301 signals)
+- Transformation: high internal signal (3,288 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -164,10 +164,10 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,762 signals)
-- Life And Consciousness: high internal signal (5,743 signals)
-- Moral Response: high internal signal (3,298 signals)
-- Worship And Community: high internal signal (2,222 signals)
+- Physical Order: high internal signal (2,761 signals)
+- Life And Consciousness: high internal signal (5,737 signals)
+- Moral Response: high internal signal (3,301 signals)
+- Worship And Community: high internal signal (2,217 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -184,9 +184,9 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,762 signals)
-- Meaning And Logos: high internal signal (7,109 signals)
-- Transformation: high internal signal (3,317 signals)
+- Physical Order: high internal signal (2,761 signals)
+- Meaning And Logos: high internal signal (7,091 signals)
+- Transformation: high internal signal (3,288 signals)
 
 Chapter 5: Providence And Contingency Pattern
 ---------------------------------------------
@@ -203,10 +203,10 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,762 signals)
+- Physical Order: high internal signal (2,761 signals)
 - Quantum Probability: early signal (104 signals)
-- Life And Consciousness: high internal signal (5,743 signals)
-- Meaning And Logos: high internal signal (7,109 signals)
+- Life And Consciousness: high internal signal (5,737 signals)
+- Meaning And Logos: high internal signal (7,091 signals)
 
 Everyday Case Studies
 ---------------------
@@ -223,37 +223,36 @@ Other religions and cultures: The pattern should compare respectfully. Christian
 What The Research Currently Suggests
 ------------------------------------
 The project has analyzed 142 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
-The daily collector has retained 1,194 cloud candidate references, including 24 brand-new candidates in the latest run.
+The daily collector has retained 1,215 cloud candidate references, including 21 brand-new candidates in the latest run.
 The current corpus most visibly repeats pattern families led by Image Of God Pattern, Cross And Reversal Pattern, Creation-To-Consciousness Pattern, Trinity-As-Behavior Pattern, and Providence And Contingency Pattern.
 These are best understood as chapters in an ongoing research book. They are not final proof claims.
 
 What Changed In The Latest Collection
 -------------------------------------
-Daily collector updated: 2026-05-29T21:23:44.000037+00:00
-Retained cloud candidate references: 1,194
-Brand-new candidate references this run: 24
+Daily collector updated: 2026-05-30T17:49:17.093360+00:00
+Retained cloud candidate references: 1,215
+Brand-new candidate references this run: 21
 
 Newest evidence movement by routed layer:
-- all_texts: 14
-- visual_art: 12
-- world_languages: 11
-- biblical_languages: 8
-- cultural_inputs: 8
-- research_documents/christian_sources: 8
-- psychology_inputs: 7
-- history_inputs: 4
+- psychology_inputs: 12
+- deep_sources: 11
+- human_stories: 11
+- pattern_tests: 9
+- visual_art: 7
+- theologians: 5
+- all_texts: 4
+- cultural_inputs: 4
 
 Newest automated evidence mix:
-- weak_scholarly_candidate: 12
-- moderate_scholarly_candidate: 11
-- strong_scholarly_candidate: 1
+- weak_scholarly_candidate: 13
+- moderate_scholarly_candidate: 8
 
 Newest sources shaping today's questions:
-- Christian Talk That Rocks with Richie L. Ep. 4/6/2023 (2023) | layers: cultural_inputs, history_inputs | evidence: moderate_scholarly_candidate
-- The Unsung Path of Agnosticism (2026) | layers: visual_art, cultural_inputs | evidence: moderate_scholarly_candidate
-- The Jinn (الجن) (n.d.) | layers: visual_art, cultural_inputs, other_religious_texts | evidence: moderate_scholarly_candidate
-- Who's Afraid of Gender? (2024) | layers: visual_art, cultural_inputs, psychology_inputs | evidence: moderate_scholarly_candidate
-- Complete Qur'an (114 Surahs) - 'Abdul-Basit 'Abdus-Samad (with English Audio Translation) (n.d.) | layers: visual_art, cultural_inputs, world_languages, all_texts, other_religious_texts | evidence: moderate_scholarly_candidate
+- First Godmakers Were Early Christians! - Collection 1 (n.d.) | layers: theologians, research_documents | evidence: weak_scholarly_candidate
+- 654. The Plight of a Restorationist (Matt Lovegrove) (2026) | layers: theologians, research_documents | evidence: moderate_scholarly_candidate
+- Imam Anwar al-Awlaki (أنوار العولقي - رحمه الله) - Complete Audio Collection (200+) (n.d.) | layers: visual_art, cultural_inputs, other_religious_texts | evidence: moderate_scholarly_candidate
+- Islam - The Only Accepted Religion الإسلام - دين الوحيد المقبول (n.d.) | layers: visual_art, cultural_inputs, other_religious_texts | evidence: moderate_scholarly_candidate
+- Broken Open by Grief, Rev. Dr. Oscar Sinclair, January 11, 2026 (2026) | layers: visual_art, cultural_inputs, theologians | evidence: moderate_scholarly_candidate
 
 Reader note: cloud candidates change the research questions immediately, but they should strengthen conclusions only after source review.
 

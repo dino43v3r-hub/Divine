@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-29T21:23:44.042980+00:00
-Total references: 1,194
-New references this run: 24
+Updated: 2026-05-30T17:49:17.138260+00:00
+Total references: 1,215
+New references this run: 21
 
 Guardrails
 ----------
@@ -22,66 +22,64 @@ Online Collection Status
 - Open-web candidates returned this run: 15.
 - Provider results returned this run:
   - Crossref: 305
-  - Europe PMC: 223
-  - Internet Archive: 106
+  - Internet Archive: 107
   - OpenAlex: 288
   - PubMed: 26
   - Tavily Search: 15
   - arXiv: 30
 - Brand-new references added by provider:
-  - Europe PMC: 1
-  - Internet Archive: 11
-  - Tavily Search: 12
+  - Internet Archive: 8
+  - Tavily Search: 13
 - Total stored references by provider:
   - Crossref: 311
   - Europe PMC: 198
-  - Internet Archive: 316
+  - Internet Archive: 324
   - OpenAlex: 250
   - PubMed: 24
-  - Tavily Search: 69
+  - Tavily Search: 82
   - arXiv: 26
 
 Reference Tags
 --------------
-- art_beauty: 103
+- art_beauty: 106
 - biblical_language_source_depth: 50
 - biblical_languages: 39
 - cultural_practice_patterns: 50
 - general_research_methods: 48
-- global_text_traditions: 72
-- history_memory: 91
+- global_text_traditions: 74
+- history_memory: 93
 - holy_spirit_gifts_global: 31
 - interreligious_dream_testimony: 40
 - modern_literature_meaning: 47
 - music_math: 78
-- pattern_perception_divine_response: 44
-- politics_justice: 72
-- psychology_patterns: 65
+- pattern_perception_divine_response: 53
+- politics_justice: 73
+- psychology_patterns: 67
 - quantum_science_guardrails: 85
-- technology_ethics: 72
+- technology_ethics: 73
 - theologians_cross_era: 29
-- trinity: 87
+- trinity: 89
 - unresolved_suffering: 44
 - world_language_source_sampling: 68
 - world_languages_translation: 54
 
 Layer Routes
 ------------
-- all_texts: 379
+- all_texts: 383
 - biblical_languages: 101
-- cultural_inputs: 290
-- deep_sources: 335
-- history_inputs: 302
-- human_stories: 276
-- modern_literature: 143
+- cultural_inputs: 294
+- deep_sources: 346
+- history_inputs: 305
+- human_stories: 287
+- modern_literature: 145
 - music_notes: 78
-- other_religious_texts: 260
-- pattern_tests: 207
-- psychology_inputs: 275
-- research_documents: 134
+- other_religious_texts: 264
+- pattern_tests: 216
+- psychology_inputs: 287
+- research_documents: 136
 - research_documents/christian_sources: 112
-- theologians: 294
-- visual_art: 386
+- theologians: 299
+- visual_art: 393
 - world_languages: 237
 
 Layer Balance Watch
@@ -91,191 +89,171 @@ Layer Balance Watch
 
 Quality Counts
 --------------
-- open web result: 69
-- reference metadata: 314
+- open web result: 82
+- reference metadata: 322
 - scholarly metadata: 783
 - scholarly preprint: 26
 - speculative-risk: 2
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 538
-- strong_scholarly_candidate: 575
-- weak_scholarly_candidate: 81
+- moderate_scholarly_candidate: 545
+- strong_scholarly_candidate: 576
+- weak_scholarly_candidate: 94
 
 New This Run By Tag
 -------------------
-- art_beauty: 5
-- biblical_language_source_depth: 8
-- global_text_traditions: 1
-- history_memory: 3
-- politics_justice: 1
-- psychology_patterns: 4
-- technology_ethics: 2
-- world_languages_translation: 1
+- art_beauty: 3
+- global_text_traditions: 2
+- history_memory: 2
+- pattern_perception_divine_response: 9
+- psychology_patterns: 2
+- technology_ethics: 1
+- trinity: 2
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 14
-- biblical_languages: 8
-- cultural_inputs: 8
-- history_inputs: 4
-- human_stories: 4
-- modern_literature: 3
-- other_religious_texts: 3
-- pattern_tests: 2
-- psychology_inputs: 7
-- research_documents/christian_sources: 8
-- theologians: 3
-- visual_art: 12
-- world_languages: 11
+- all_texts: 4
+- cultural_inputs: 4
+- deep_sources: 11
+- history_inputs: 3
+- human_stories: 11
+- modern_literature: 2
+- other_religious_texts: 4
+- pattern_tests: 9
+- psychology_inputs: 12
+- research_documents: 2
+- theologians: 5
+- visual_art: 7
 
 Newest Additions This Run
 ------------------------
-- Christian Talk That Rocks with Richie L. Ep. 4/6/2023 (2023)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs
+- First Godmakers Were Early Christians! - Collection 1 (n.d.)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Internet Archive | reference metadata
+  Automated evidence: weak_scholarly_candidate (6)
+  URL: https://archive.org/details/FirstGodmakersWereEarlyChristians-Collection1
+- 654. The Plight of a Restorationist (Matt Lovegrove) (2026)
+  Tags: trinity
+  Layer routes: theologians, research_documents
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/The_Beneficial_Principles_In_T-christian_talk_that_rocks_with_richie_l_ep_4_6_20
-- The Unsung Path of Agnosticism (2026)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Sunnyhill_Unitarian_Universalist-19176813_the_unsung_path_of_agnosticism
-- The Jinn (الجن) (n.d.)
+  URL: https://archive.org/details/Restitutio-654_the_plight_of_a_restorationist_matt_lovegrove
+- Imam Anwar al-Awlaki (أنوار العولقي - رحمه الله) - Complete Audio Collection (200+) (n.d.)
   Tags: art_beauty
   Layer routes: visual_art, cultural_inputs, other_religious_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/TheJinn
-- Who's Afraid of Gender? (2024)
+  URL: https://archive.org/details/ImamAnwarAl-awlaki
+- Islam - The Only Accepted Religion الإسلام - دين الوحيد المقبول (n.d.)
   Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, psychology_inputs
+  Layer routes: visual_art, cultural_inputs, other_religious_texts
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/Islam-TheOnlyAcceptedReligion
+- Broken Open by Grief, Rev. Dr. Oscar Sinclair, January 11, 2026 (2026)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, theologians
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/UUCCI-https_3A_2F_2Fd3ctxlq1ktw2nl_cloudfront_net_2Fstaging_2F2024_7_22_2F385180
-- Complete Qur'an (114 Surahs) - 'Abdul-Basit 'Abdus-Samad (with English Audio Translation) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, world_languages, all_texts, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/MuslimBoxers-IronMikeTyson-Part1Of3B
-- Reader reception of translation strategies for Li Bai's "Yu Jie Yuan": Empirical evidence from a mixed-methods study. (2026)
-  Tags: art_beauty, world_languages_translation
-  Layer routes: visual_art, cultural_inputs, world_languages, all_texts, modern_literature
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1371/journal.pone.0348360
-- The district's suburban congregation san francisco church (2022)
+  URL: https://archive.org/details/Unity_Church_Unitarian_Sunday_Services_Podcast-Broken_Open_by_Grief_Rev__Dr__Osc
+- Saying Yes (2021)
   Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art
+  Layer routes: history_inputs, theologians
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/uusf_org-20111002SFComplete
-- Judges- Aphorisms (n.d.)
+  URL: https://archive.org/details/Complete_Service_First_Unitari-20210613MMComplete
+- Becoming Together (2021)
   Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
+  Layer routes: history_inputs, theologians
   Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Complete_Service_First_Unitari-20210418MMComplete
+- The cognitive science of religion: past, present, and possible futures (n.d.)
+  Tags: psychology_patterns
+  Layer routes: psychology_inputs, human_stories, visual_art, all_texts, deep_sources
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.tandfonline.com/doi/full/10.1080/2153599X.2025.2474404
+- Cognitive science of religion - Wikipedia (n.d.)
+  Tags: psychology_patterns
+  Layer routes: psychology_inputs, human_stories, deep_sources
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://en.wikipedia.org/wiki/Cognitive_science_of_religion
+- Psychology of religion - Wikipedia (n.d.)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, history_inputs, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://en.wikipedia.org/wiki/Psychology_of_religion
+- Pattern recognition influences religious belief, according to new study (n.d.)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://bigthink.com/thinking/pattern-recognition-god
+- (PDF) Priming with Religion and Supernatural Agency Enhances the ... (n.d.)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.researchgate.net/publication/282423764_Priming_with_Religion_and_Supernatural_Agency_Enhances_the_Perception_of_Intentionality_in_Natural_Phenomena
+- Agency detection in predictive minds: a virtual reality study (n.d.)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.researchgate.net/publication/320467983_Agency_detection_in_predictive_minds_a_virtual_reality_study
+- (PDF) On the nature and future of agency detection and religion (n.d.)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
+  Source: Tavily Search | open web result
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/9781690654117judges
-- Wisdom Collection (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, world_languages, all_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/WisdomCollection
-- Hebrew Word of the Week —Ruach (רוּחַ) - The Breath of Life (n.d.)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
+  URL: https://www.academia.edu/38259406/On_the_nature_and_future_of_agency_detection_and_religion
+- Agent detection - Wikipedia (n.d.)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.beithallel-israel.org/hebrew-word-of-the-week_ruach_the-breath-of-life
-- What is the meaning of the Hebrew word ruach? | GotQuestions.org (n.d.)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages, psychology_inputs
+  URL: https://en.wikipedia.org/wiki/Agent_detection
+- Apophenia - Wikipedia (n.d.)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.gotquestions.org/meaning-ruach.html
-- If you've missed spotting the Holy Spirit in the Old Testament like I ... (n.d.)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
+  URL: https://en.wikipedia.org/wiki/Apophenia
+- Apophenia - Psychology Today (n.d.)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.facebook.com/margaretfeinberg/posts/if-youve-missed-spotting-the-holy-spirit-in-the-old-testament-like-i-did-dont-wo/1202435384670743
-- [PDF] The Holy Spirit: Person and Power. The Greek Article and Pneuma (n.d.)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, visual_art, world_languages
+  URL: https://www.psychologytoday.com/us/basics/apophenia
+- Apophenia:"experience of an abnormal meaningfulness" or "initially ... (n.d.)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
-  URL: https://translation.bible/wp-content/uploads/2024/06/swartz-1993-the-holy-spirit-person-and-power-the-greek-article-and-pneuma.pdf
-- Pneuma - Wikipedia (n.d.)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, visual_art, world_languages, psychology_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://en.wikipedia.org/wiki/Pneuma
-- I read John Wyckhof, “Pneuma and Logos: The Role of the Spirit in ... (n.d.)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.facebook.com/davidkbernard.upci/posts/i-read-john-wyckhof-pneuma-and-logos-the-role-of-the-spirit-in-biblical-hermeneu/332835631531775?locale=ar_AR
-- Exegesis Resources: Septuagint Studies (n.d.)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  URL: https://guides.library.vts.edu/bible/septuagint
-- 7 Questions about the Septuagint - Crossway (n.d.)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.crossway.org/articles/7-questions-about-the-septuagint
-- Rebuilding a full life after walking away from organized religion (n.d.)
-  Tags: psychology_patterns
-  Layer routes: psychology_inputs, human_stories, visual_art, pattern_tests
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.apa.org/monitor/2025/06/meaningful-life-after-religion
-- The Psychology of Repentance. Guilt, Shame & Behavioral Reset (n.d.)
-  Tags: psychology_patterns
-  Layer routes: psychology_inputs, human_stories
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://medium.com/illumination/the-psychology-of-repentance-03cf1399db2d
-- [PDF] The Moral Psychology of Forgiveness - PhilArchive (n.d.)
-  Tags: psychology_patterns
-  Layer routes: psychology_inputs, human_stories
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  URL: https://philarchive.org/archive/NORTMP-6
-- [PDF] The Psychology of Habit Formation and Christian Moral Wisdom on ... (n.d.)
-  Tags: psychology_patterns
-  Layer routes: psychology_inputs, human_stories, all_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://ojs.uclouvain.be/index.php/theologica/article/download/64333/63543/145503
-- I Sing the Body Electric (2020)
+  URL: https://www.facebook.com/LawrenceMKrauss/posts/apopheniaexperience-of-an-abnormal-meaningfulness-or-initially-experiencing-delu/10154892565318510?locale=es_LA
+- World Scripture: A Comparative Anthology of Sacred Texts (n.d.)
   Tags: global_text_traditions
-  Layer routes: all_texts, other_religious_texts, modern_literature, visual_art
+  Layer routes: all_texts, other_religious_texts, modern_literature
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.amazon.com/World-Scripture-Comparative-Anthology-Sacred/dp/0892261293
+- Sacred Texts: Comparative Religion, Mythology and Folklore | Internet Sacred Text Archive (n.d.)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature, visual_art, psychology_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  URL: https://sacred-texts.com/comp/index.htm
+- Manifesto for a Demianist Civilization (2026)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20201122VRSComplete
-- CIA Reading Room cia-rdp90-00530r000601590004-2: POLYGRAPHS IN THE WORKPLACE (1987)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs, pattern_tests
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/cia-readingroom-document-cia-rdp90-00530r000601590004-2
-- VOA [Voice of America] Africa : November 23, 2019 11:00AM-12:00PM EST (2019)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Africa_20191123_160000
+  URL: https://archive.org/details/manifesto-demianism
 
 Recent Candidate Sources
 ------------------------
@@ -476,3 +454,7 @@ Recent Candidate Sources
   Automated evidence: weak_scholarly_candidate (6)
   Source: Tavily Search | open web result
   URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
+
+Collector Errors
+----------------
+- search_europe_pmc failed for trinity: The read operation timed out
