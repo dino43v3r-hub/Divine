@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-05-30T17:49:17.138260+00:00
-Total references: 1,215
-New references this run: 21
+Updated: 2026-05-31T17:49:21.020553+00:00
+Total references: 1,237
+New references this run: 22
 
 Guardrails
 ----------
@@ -22,6 +22,7 @@ Online Collection Status
 - Open-web candidates returned this run: 15.
 - Provider results returned this run:
   - Crossref: 305
+  - Europe PMC: 223
   - Internet Archive: 107
   - OpenAlex: 288
   - PubMed: 26
@@ -29,14 +30,14 @@ Online Collection Status
   - arXiv: 30
 - Brand-new references added by provider:
   - Internet Archive: 8
-  - Tavily Search: 13
+  - Tavily Search: 14
 - Total stored references by provider:
   - Crossref: 311
   - Europe PMC: 198
-  - Internet Archive: 324
+  - Internet Archive: 332
   - OpenAlex: 250
   - PubMed: 24
-  - Tavily Search: 82
+  - Tavily Search: 96
   - arXiv: 26
 
 Reference Tags
@@ -46,41 +47,41 @@ Reference Tags
 - biblical_languages: 39
 - cultural_practice_patterns: 50
 - general_research_methods: 48
-- global_text_traditions: 74
-- history_memory: 93
+- global_text_traditions: 80
+- history_memory: 96
 - holy_spirit_gifts_global: 31
 - interreligious_dream_testimony: 40
-- modern_literature_meaning: 47
+- modern_literature_meaning: 56
 - music_math: 78
 - pattern_perception_divine_response: 53
-- politics_justice: 73
+- politics_justice: 75
 - psychology_patterns: 67
 - quantum_science_guardrails: 85
-- technology_ethics: 73
+- technology_ethics: 74
 - theologians_cross_era: 29
-- trinity: 89
+- trinity: 90
 - unresolved_suffering: 44
 - world_language_source_sampling: 68
 - world_languages_translation: 54
 
 Layer Routes
 ------------
-- all_texts: 383
-- biblical_languages: 101
-- cultural_inputs: 294
+- all_texts: 399
+- biblical_languages: 102
+- cultural_inputs: 297
 - deep_sources: 346
-- history_inputs: 305
-- human_stories: 287
-- modern_literature: 145
+- history_inputs: 313
+- human_stories: 296
+- modern_literature: 161
 - music_notes: 78
-- other_religious_texts: 264
-- pattern_tests: 216
-- psychology_inputs: 287
-- research_documents: 136
+- other_religious_texts: 270
+- pattern_tests: 220
+- psychology_inputs: 288
+- research_documents: 137
 - research_documents/christian_sources: 112
-- theologians: 299
-- visual_art: 393
-- world_languages: 237
+- theologians: 303
+- visual_art: 402
+- world_languages: 239
 
 Layer Balance Watch
 -------------------
@@ -89,171 +90,177 @@ Layer Balance Watch
 
 Quality Counts
 --------------
-- open web result: 82
-- reference metadata: 322
+- open web result: 96
+- reference metadata: 330
 - scholarly metadata: 783
 - scholarly preprint: 26
 - speculative-risk: 2
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 545
+- moderate_scholarly_candidate: 553
 - strong_scholarly_candidate: 576
-- weak_scholarly_candidate: 94
+- weak_scholarly_candidate: 108
 
 New This Run By Tag
 -------------------
-- art_beauty: 3
-- global_text_traditions: 2
-- history_memory: 2
-- pattern_perception_divine_response: 9
-- psychology_patterns: 2
+- global_text_traditions: 6
+- history_memory: 3
+- modern_literature_meaning: 9
+- politics_justice: 2
 - technology_ethics: 1
-- trinity: 2
+- trinity: 1
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 4
-- cultural_inputs: 4
-- deep_sources: 11
-- history_inputs: 3
-- human_stories: 11
-- modern_literature: 2
-- other_religious_texts: 4
-- pattern_tests: 9
-- psychology_inputs: 12
-- research_documents: 2
-- theologians: 5
-- visual_art: 7
+- all_texts: 16
+- biblical_languages: 1
+- cultural_inputs: 3
+- history_inputs: 8
+- human_stories: 9
+- modern_literature: 16
+- other_religious_texts: 6
+- pattern_tests: 4
+- psychology_inputs: 1
+- research_documents: 1
+- theologians: 4
+- visual_art: 9
+- world_languages: 2
 
 Newest Additions This Run
 ------------------------
-- First Godmakers Were Early Christians! - Collection 1 (n.d.)
+- Tischendorf.II.Greek Old Testament. 10 Volumes.var.ed.1835-1880. (n.d.)
   Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Internet Archive | reference metadata
-  Automated evidence: weak_scholarly_candidate (6)
-  URL: https://archive.org/details/FirstGodmakersWereEarlyChristians-Collection1
-- 654. The Plight of a Restorationist (Matt Lovegrove) (2026)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Restitutio-654_the_plight_of_a_restorationist_matt_lovegrove
-- Imam Anwar al-Awlaki (أنوار العولقي - رحمه الله) - Complete Audio Collection (200+) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
+  Layer routes: theologians, research_documents, world_languages, biblical_languages
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/ImamAnwarAl-awlaki
-- Islam - The Only Accepted Religion الإسلام - دين الوحيد المقبول (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/Islam-TheOnlyAcceptedReligion
-- Broken Open by Grief, Rev. Dr. Oscar Sinclair, January 11, 2026 (2026)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, theologians
+  URL: https://archive.org/details/Tischendorf.ii.greekOldTestament.10Volumes.var.ed.1835-1880_220
+- BOOK READ WRITTEN BY IRAIARIGNAR (1990)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Unity_Church_Unitarian_Sunday_Services_Podcast-Broken_Open_by_Grief_Rev__Dr__Osc
-- Saying Yes (2021)
+  URL: https://archive.org/details/BookReadWrittenByIraiarignar
+- "The Universal Library Dr. Robert J. Wickenheiser" by Terrance Lindall (2026)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/img-20260527-132525
+- I LOVED YOU- Philosophical and love poems by Sorin Cerin (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/SORINCERINILOVEDYOU
+- WUU Service - "Hidden Figures: An MLK Remembrance" Rev. Jude Geiger, Minister (1/18/26) (2026)
   Tags: history_memory
   Layer routes: history_inputs, theologians
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20210613MMComplete
-- Becoming Together (2021)
+  URL: https://archive.org/details/Wavelengths__A_WUU_Podcast-wuuse0118_2026
+- The metaphoric process : connections between language and life (1995)
   Tags: history_memory
-  Layer routes: history_inputs, theologians
+  Layer routes: history_inputs, theologians, visual_art, world_languages
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20210418MMComplete
-- The cognitive science of religion: past, present, and possible futures (n.d.)
-  Tags: psychology_patterns
-  Layer routes: psychology_inputs, human_stories, visual_art, all_texts, deep_sources
+  URL: https://archive.org/details/metaphoricproces0000corr
+- Our monthly newsletter weekly flame austin world (2022)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/uusf_org-20110605JKSermon
+- Wisdom Through Suffering | Reformed Bible Studies & Devotionals ... (n.d.)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature, history_inputs, pattern_tests
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.tandfonline.com/doi/full/10.1080/2153599X.2025.2474404
-- Cognitive science of religion - Wikipedia (n.d.)
-  Tags: psychology_patterns
-  Layer routes: psychology_inputs, human_stories, deep_sources
+  URL: https://learn.ligonier.org/devotionals/wisdom-through-suffering
+- 30 Significant Bible Verses About Suffering - Essential Scriptures | Bible Study Tools (n.d.)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature, pattern_tests
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
-  URL: https://en.wikipedia.org/wiki/Cognitive_science_of_religion
-- Psychology of religion - Wikipedia (n.d.)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, history_inputs, all_texts
+  URL: https://www.biblestudytools.com/topical-verses/bible-verses-about-suffering
+- Oral tradition - Wikipedia (n.d.)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature, visual_art, history_inputs
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
-  URL: https://en.wikipedia.org/wiki/Psychology_of_religion
-- Pattern recognition influences religious belief, according to new study (n.d.)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
+  URL: https://en.wikipedia.org/wiki/Oral_tradition
+- Oral tradition | World Literature I Class Notes - Fiveable (n.d.)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature, history_inputs
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
-  URL: https://bigthink.com/thinking/pattern-recognition-god
-- (PDF) Priming with Religion and Supernatural Agency Enhances the ... (n.d.)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.researchgate.net/publication/282423764_Priming_with_Religion_and_Supernatural_Agency_Enhances_the_Perception_of_Intentionality_in_Natural_Phenomena
-- Agency detection in predictive minds: a virtual reality study (n.d.)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.researchgate.net/publication/320467983_Agency_detection_in_predictive_minds_a_virtual_reality_study
-- (PDF) On the nature and future of agency detection and religion (n.d.)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://www.academia.edu/38259406/On_the_nature_and_future_of_agency_detection_and_religion
-- Agent detection - Wikipedia (n.d.)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://en.wikipedia.org/wiki/Agent_detection
-- Apophenia - Wikipedia (n.d.)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://en.wikipedia.org/wiki/Apophenia
-- Apophenia - Psychology Today (n.d.)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.psychologytoday.com/us/basics/apophenia
-- Apophenia:"experience of an abnormal meaningfulness" or "initially ... (n.d.)
-  Tags: pattern_perception_divine_response
-  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.facebook.com/LawrenceMKrauss/posts/apopheniaexperience-of-an-abnormal-meaningfulness-or-initially-experiencing-delu/10154892565318510?locale=es_LA
-- World Scripture: A Comparative Anthology of Sacred Texts (n.d.)
+  URL: https://fiveable.me/world-literature-i/unit-1/oral-tradition/study-guide/8pMIyH8AezlHGKxd
+- [PDF] Complete Issue - Oral Tradition (n.d.)
   Tags: global_text_traditions
   Layer routes: all_texts, other_religious_texts, modern_literature
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.amazon.com/World-Scripture-Comparative-Anthology-Sacred/dp/0892261293
-- Sacred Texts: Comparative Religion, Mythology and Folklore | Internet Sacred Text Archive (n.d.)
-  Tags: global_text_traditions
-  Layer routes: all_texts, other_religious_texts, modern_literature, visual_art, psychology_inputs
+  URL: https://journal.oraltradition.org/wp-content/uploads/files/articles/7ii/7_2_complete.pdf
+- [PDF] Reflections on Contemporary Christian Theologies of Suffering and ... (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories, visual_art, psychology_inputs, pattern_tests
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://utoronto.scholaris.ca/bitstreams/597916d7-e127-469b-9199-a63118dfe5de/download
+- THE CONTEMPORARY NOVEL AS THEOLOGY: HOW NARRATIVES OF CONVERSION EXPERIENCE IN LITERATURE EXPOSE THE REALITY OF LIVED BELIEF (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories, visual_art
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (6)
-  URL: https://sacred-texts.com/comp/index.htm
-- Manifesto for a Demianist Civilization (2026)
+  URL: https://scholar.stjohns.edu/cgi/viewcontent.cgi?article=1635&context=theses_dissertations
+- [PDF] The Transformation of Conversion Narratives in English Literature (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://ttu-ir.tdl.org/bitstreams/cf89be3a-e4d3-40ad-84b7-62b4d2333761/download
+- Finding hope and meaning in suffering through literature - Facebook (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories, pattern_tests
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.facebook.com/groups/582665094325961/posts/978139411445192
+- Literature (including fiction, drama, poetry, and prose) – Introduction to Humanities II (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://mlpp.pressbooks.pub/introductiontohumanitiesv2/chapter/literature-including-fiction-drama-poetry-and-prose
+- Poetry and Drama (Atlantic Monthly, February 1951) - T. S. Eliot (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://tseliot.com/essays/poetry-and-drama
+- Circuitous Journeys: Modern Spiritual Autobiography (review) (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  URL: https://muse.jhu.edu/pub/5/article/5170/summary
+- When Nobodies Write Spiritual Memoirs | Church Life Journal | University of Notre Dame (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  URL: https://churchlifejournal.nd.edu/articles/when-nobodies-write-spiritual-memoirs
+- Imagining Ultimacy: Religious and Spiritual Experience in Literature (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://www.mdpi.com/journal/religions/special_issues/P448F97TKO
+- The Sacred in the West Wing, Rev Kimberley Debus, Guest Minister (2020)
   Tags: technology_ethics
   Layer routes: cultural_inputs, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/manifesto-demianism
+  URL: https://archive.org/details/UU_Congregation_at_Shelter_Rock_Services-5177407_the_sacred_in_the_west_wing_rev
 
 Recent Candidate Sources
 ------------------------
@@ -454,7 +461,3 @@ Recent Candidate Sources
   Automated evidence: weak_scholarly_candidate (6)
   Source: Tavily Search | open web result
   URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
-
-Collector Errors
-----------------
-- search_europe_pmc failed for trinity: The read operation timed out

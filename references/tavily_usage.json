@@ -215,6 +215,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-05-31": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "world scriptures wisdom traditions suffering justice hope",
+          "searched_at": "2026-05-31T17:47:01.502656+00:00",
+          "tag": "global_text_traditions"
+        },
+        {
+          "credits_used": 1,
+          "query": "oral tradition myth epic proverb ritual moral order comparative theology",
+          "searched_at": "2026-05-31T17:47:09.173505+00:00",
+          "tag": "global_text_traditions"
+        },
+        {
+          "credits_used": 1,
+          "query": "modern literature theology suffering grace conversion narrative scholarly",
+          "searched_at": "2026-05-31T17:47:15.064048+00:00",
+          "tag": "modern_literature_meaning"
+        },
+        {
+          "credits_used": 1,
+          "query": "novel drama poetry religious meaning suffering justice hope literary criticism",
+          "searched_at": "2026-05-31T17:47:20.418805+00:00",
+          "tag": "modern_literature_meaning"
+        },
+        {
+          "credits_used": 1,
+          "query": "modern memoir spiritual transformation religious experience literary study",
+          "searched_at": "2026-05-31T17:47:26.569634+00:00",
+          "tag": "modern_literature_meaning"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }
