@@ -1,5 +1,5 @@
 {
-  "source_count": 1278,
+  "source_count": 1279,
   "sources": [
     {
       "authors": [
@@ -42157,6 +42157,9 @@
         "history_inputs",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -42211,6 +42214,9 @@
         "cultural_inputs",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -42267,6 +42273,9 @@
         "history_inputs",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -42317,6 +42326,9 @@
         "cultural_inputs",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -42372,6 +42384,9 @@
         "history_inputs",
         "theologians"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -42422,6 +42437,9 @@
         "history_inputs",
         "other_religious_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -42526,6 +42544,9 @@
         "history_inputs",
         "pattern_tests"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -42627,6 +42648,9 @@
         "history_inputs",
         "psychology_inputs"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -42729,6 +42753,9 @@
         "history_inputs",
         "other_religious_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 7,
       "primary_layer": "cultural_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -43033,6 +43060,9 @@
         "cultural_inputs",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -43171,10 +43201,12 @@
         "author metadata present",
         "publication year present",
         "summary or abstract metadata available",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
+      "citation_count": 1,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 595,
@@ -43196,6 +43228,9 @@
         "visual_art",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 1,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -43305,6 +43340,9 @@
         "cultural_inputs",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -43363,6 +43401,9 @@
         "visual_art",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -43396,10 +43437,12 @@
         "publication year present",
         "recognized scholarly source type",
         "summary or abstract metadata available",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 11,
+      "automated_evidence_score": 12,
       "automated_evidence_warnings": [],
+      "citation_count": 1,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 336,
@@ -43417,6 +43460,9 @@
         "history_inputs",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 1,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -43466,6 +43512,9 @@
         "cultural_inputs",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -44453,6 +44502,9 @@
         "psychology_inputs",
         "modern_literature"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -44615,6 +44667,9 @@
         "research_documents",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "cultural_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -44713,6 +44768,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -44762,6 +44820,9 @@
         "human_stories",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -44919,6 +44980,9 @@
         "human_stories",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -44971,6 +45035,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -45027,6 +45094,9 @@
         "human_stories",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -45138,6 +45208,9 @@
         "visual_art",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -45251,6 +45324,9 @@
         "history_inputs",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -45354,6 +45430,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -53004,6 +53083,54 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://pubmed.ncbi.nlm.nih.gov/30463515/",
       "year": "2018"
+    },
+    {
+      "authors": [
+        "The Beneficial Principles In Tawheed, Fiqh, & 'Aqeedah - Abuu Rizq Mundhir Ibn Muhammad"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 155,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/the_beneficial_principles_in_t-christian_talk_that_rocks_with_richie_l_ep_12_12_",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "cultural_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "On today's show, 1:08 pm CT, 2:08 pm ET: Hating On The Jewish: Ivy League university leaders resign amid outrage over handling of campus antisemitism - US House Rep. Stefanik shreds Harvard over 'complete moral failure' after allowing Claudine Gay to remain president - Israeli official shuts down Joy Reid grilling him on Gaza deaths - Woman slams car into Israeli Christian protest in U.S. - we'll analyze. Bidenomics: Hasbro eliminating close to 20 percent of workforce as Biden economy hammers toy sales - Bidenomics Study shows low income families spend half their salary on housing - Kamala Harris tries to sell Biden to Texan Hispanics, they didn't buy it - we'll examine. Plus, Life With Big ",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "Christian Talk That Rocks with Richie L. Ep. 12/12/2023",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/The_Beneficial_Principles_In_T-christian_talk_that_rocks_with_richie_l_ep_12_12_",
+      "year": "2023"
     },
     {
       "authors": [
@@ -69710,5 +69837,5 @@
       "year": null
     }
   ],
-  "updated_at": "2026-06-01T18:13:34.778737+00:00"
+  "updated_at": "2026-06-01T18:44:26.841712+00:00"
 }

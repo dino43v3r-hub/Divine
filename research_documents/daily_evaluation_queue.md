@@ -7,178 +7,12 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### 518 Tried to Believe in the Trinity (Rick Naviello)
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity
-- Layer routes: theologians, research_documents, history_inputs
-- Primary layer: theologians
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 338
-- Year: 2023
-- URL: https://archive.org/details/Restitutio-518_tried_to_believe_in_the_trinity_rick_naviello
-
-Listen to this episode on Spotify or Apple Podcasts We've all heard plenty of stories of
-Trinitarians who begin questioning their received teaching and eventually become Unitarian. However,
-today, we're bringing you a story that's a little different. My guest is Rick Naviello who held a
-biblical unitarian view of Jesus for decades before attending evangelical churches and really trying
-to believe in the Trinity. He did everything he could to convince himself it was true. He thought he
-had succeeded until... Well, I don't want to give away the punchline, but let's just say he's more
-convinced of his biblical unitarian faith than ever. (And church history was involved.)
-https://www.youtube.com
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Use as general research context until a more specific layer is reviewed.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### Norbert Čapek: Flowers, Freedom & Faith
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs
-- Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 240
-- Year: 2020
-- URL: https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-10577340_norbert_cape
-
-Rev. Shelley Page
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### Puritanism and democracy
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs
-- Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 240
-- Year: 1944
-- URL: https://archive.org/details/puritanismdemocr0000perr_q3q2
-
-xvi, [2], 688 pages ; 22 cm The two ideals which the author believes have contributed most to
-America's heritage Includes bibliographical references (pages 643-678) and index Review of the past
-: Doubt and disillusionment : The formulation and reaffirmation of Americanism ; Flamboyant
-patriotism ; The swing toward disillusionment in literature ; Criticism ; Economic and political
-doubts ; The realistic rewriting of American history ; Decline of moral and religious belief -- The
-power of ideals : The two charges against ideals, as non-casual and non-verdical ; The alleged
-impotence of ideals. Epiphenomenalism ; Social efficacy of high-grade mentality ; Tradition. The
-social inheritance ; Cult
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### Sorin Cerin – Books Biography And Bibliography With Literary And Philosophical Criticism 2020
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 420
-- Year: n.d.
-- URL: https://archive.org/details/sorincerinbooksbibliography
-
-Sorin Cerin – books which can be viewed on Google Books, bibliography 2020 with literary and
-philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian
-philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher,
-author of a new philosophical system called Coaxialism, and an important 21st-century existentialist
-poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard.
-Sorin Cerin is especially sought after by the general public, both for his philosophical poems,
-which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms,
-structured in several
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- trusted open-web domain present
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### AI4Eq
+### Christian Talk That Rocks with Richie L. Ep. 12/12/2023
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: technology_ethics
-- Layer routes: cultural_inputs, visual_art, deep_sources
+- Layer routes: cultural_inputs
 - Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
@@ -187,18 +21,18 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 477
-- Year: 2021
-- URL: https://archive.org/details/ai4eq_202111
+- Corroborating routed candidates: 155
+- Year: 2023
+- URL: https://archive.org/details/The_Beneficial_Principles_In_T-christian_talk_that_rocks_with_richie_l_ep_12_12_
 
-Second International Workshop on Artificial Intelligence for Equity (AI4Eq) [Against Modern
-Indentured Servitude] In association with ISTAS 2021 Wednesday 27th October, 2021 (9.00am-5.00pm
-EDT) Hosted by University of Waterloo, Ontario (CA), Online at PheedLoop Scope of the Workshop The
-first International Workshop on Artificial Intelligence for Equity (AI4Eq) was held virtually and in
-Santiago de Compostela (Spain) in conjunction with ECAI2020. The focus of this workshop was to
-examine the role of AI science and technology in advancing towards the United Nations (UN)
-Sustainable Development Goals, particularly in the context of a mix of standard, policies,
-regulations, declaration and chart
+On today's show, 1:08 pm CT, 2:08 pm ET: Hating On The Jewish: Ivy League university leaders resign
+amid outrage over handling of campus antisemitism - US House Rep. Stefanik shreds Harvard over
+'complete moral failure' after allowing Claudine Gay to remain president - Israeli official shuts
+down Joy Reid grilling him on Gaza deaths - Woman slams car into Israeli Christian protest in U.S. -
+we'll analyze. Bidenomics: Hasbro eliminating close to 20 percent of workforce as Biden economy
+hammers toy sales - Bidenomics Study shows low income families spend half their salary on housing -
+Kamala Harris tries to sell Biden to Texan Hispanics, they didn't buy it - we'll examine. Plus, Life
+With Big
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -214,5 +48,3 @@ Auto approval reasons:
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.

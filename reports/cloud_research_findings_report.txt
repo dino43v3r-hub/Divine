@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-01T18:13:34.831539+00:00
-Total references: 1,278
-New references this run: 5
+Updated: 2026-06-01T18:44:26.894751+00:00
+Total references: 1,279
+New references this run: 1
 
 Guardrails
 ----------
@@ -28,11 +28,11 @@ Online Collection Status
   - PubMed: 26
   - arXiv: 30
 - Brand-new references added by provider:
-  - Internet Archive: 5
+  - Internet Archive: 1
 - Total stored references by provider:
   - Crossref: 312
   - Europe PMC: 199
-  - Internet Archive: 356
+  - Internet Archive: 357
   - OpenAlex: 250
   - PubMed: 24
   - Tavily Search: 111
@@ -55,7 +55,7 @@ Reference Tags
 - politics_justice: 77
 - psychology_patterns: 67
 - quantum_science_guardrails: 86
-- technology_ethics: 79
+- technology_ethics: 80
 - theologians_cross_era: 29
 - trinity: 93
 - unresolved_suffering: 45
@@ -66,7 +66,7 @@ Layer Routes
 ------------
 - all_texts: 406
 - biblical_languages: 103
-- cultural_inputs: 321
+- cultural_inputs: 322
 - deep_sources: 356
 - history_inputs: 332
 - human_stories: 297
@@ -90,14 +90,14 @@ Layer Balance Watch
 Quality Counts
 --------------
 - open web result: 111
-- reference metadata: 352
+- reference metadata: 353
 - scholarly metadata: 785
 - scholarly preprint: 26
 - speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 574
+- moderate_scholarly_candidate: 575
 - strong_scholarly_candidate: 579
 - weak_scholarly_candidate: 125
 
@@ -107,62 +107,26 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 1,126
+- approved_for_review_queue: 1,127
 - not_auto_approved: 152
 
 New This Run By Tag
 -------------------
-- history_memory: 1
-- politics_justice: 2
 - technology_ethics: 1
-- trinity: 1
 
 New This Run By Layer Route
 ---------------------------
-- cultural_inputs: 3
-- deep_sources: 1
-- history_inputs: 4
-- research_documents: 1
-- theologians: 2
-- visual_art: 2
+- cultural_inputs: 1
 
 Newest Additions This Run
 ------------------------
-- 518 Tried to Believe in the Trinity (Rick Naviello) (2023)
-  Tags: trinity
-  Layer routes: theologians, research_documents, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/Restitutio-518_tried_to_believe_in_the_trinity_rick_naviello
-- Norbert Čapek: Flowers, Freedom & Faith (2020)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-10577340_norbert_cape
-- Puritanism and democracy (1944)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/puritanismdemocr0000perr_q3q2
-- Sorin Cerin – Books Biography And Bibliography With Literary And Philosophical Criticism 2020 (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/sorincerinbooksbibliography
-- AI4Eq (2021)
+- Christian Talk That Rocks with Richie L. Ep. 12/12/2023 (2023)
   Tags: technology_ethics
-  Layer routes: cultural_inputs, visual_art, deep_sources
+  Layer routes: cultural_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/ai4eq_202111
+  URL: https://archive.org/details/The_Beneficial_Principles_In_T-christian_talk_that_rocks_with_richie_l_ep_12_12_
 
 Recent Candidate Sources
 ------------------------
