@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-01T15:29:29.288680+00:00
-Total references: 1,259
-New references this run: 22
+Updated: 2026-06-01T16:43:06.459998+00:00
+Total references: 1,267
+New references this run: 8
 
 Guardrails
 ----------
@@ -19,22 +19,21 @@ Online Collection Status
 - OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
 - Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
 - Tavily budget: 5/5 basic searches used today; 0 remaining.
-- Open-web candidates returned this run: 15.
+- Open-web candidates returned this run: 0.
 - Provider results returned this run:
   - Crossref: 305
   - Europe PMC: 223
   - Internet Archive: 107
   - OpenAlex: 288
   - PubMed: 26
-  - Tavily Search: 15
+  - arXiv: 5
 - Brand-new references added by provider:
-  - Crossref: 1
-  - Internet Archive: 6
-  - Tavily Search: 15
+  - Europe PMC: 1
+  - Internet Archive: 7
 - Total stored references by provider:
   - Crossref: 312
-  - Europe PMC: 198
-  - Internet Archive: 338
+  - Europe PMC: 199
+  - Internet Archive: 345
   - OpenAlex: 250
   - PubMed: 24
   - Tavily Search: 111
@@ -42,13 +41,13 @@ Online Collection Status
 
 Reference Tags
 --------------
-- art_beauty: 110
+- art_beauty: 113
 - biblical_language_source_depth: 50
 - biblical_languages: 39
 - cultural_practice_patterns: 59
 - general_research_methods: 54
 - global_text_traditions: 80
-- history_memory: 97
+- history_memory: 98
 - holy_spirit_gifts_global: 31
 - interreligious_dream_testimony: 40
 - modern_literature_meaning: 56
@@ -56,31 +55,31 @@ Reference Tags
 - pattern_perception_divine_response: 53
 - politics_justice: 75
 - psychology_patterns: 67
-- quantum_science_guardrails: 85
-- technology_ethics: 75
+- quantum_science_guardrails: 86
+- technology_ethics: 77
 - theologians_cross_era: 29
 - trinity: 91
-- unresolved_suffering: 44
+- unresolved_suffering: 45
 - world_language_source_sampling: 68
 - world_languages_translation: 54
 
 Layer Routes
 ------------
-- all_texts: 403
+- all_texts: 405
 - biblical_languages: 103
-- cultural_inputs: 311
-- deep_sources: 352
-- history_inputs: 323
-- human_stories: 296
-- modern_literature: 162
+- cultural_inputs: 316
+- deep_sources: 354
+- history_inputs: 325
+- human_stories: 297
+- modern_literature: 163
 - music_notes: 78
-- other_religious_texts: 273
-- pattern_tests: 220
-- psychology_inputs: 298
+- other_religious_texts: 275
+- pattern_tests: 222
+- psychology_inputs: 299
 - research_documents: 144
 - research_documents/christian_sources: 112
-- theologians: 307
-- visual_art: 410
+- theologians: 308
+- visual_art: 415
 - world_languages: 240
 
 Layer Balance Watch
@@ -91,175 +90,89 @@ Layer Balance Watch
 Quality Counts
 --------------
 - open web result: 111
-- reference metadata: 335
-- scholarly metadata: 784
+- reference metadata: 341
+- scholarly metadata: 785
 - scholarly preprint: 26
-- speculative-risk: 3
+- speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 557
-- strong_scholarly_candidate: 578
-- weak_scholarly_candidate: 124
+- moderate_scholarly_candidate: 563
+- strong_scholarly_candidate: 579
+- weak_scholarly_candidate: 125
 
 New This Run By Tag
 -------------------
-- art_beauty: 4
-- cultural_practice_patterns: 9
-- general_research_methods: 6
+- art_beauty: 3
 - history_memory: 1
-- technology_ethics: 1
-- trinity: 1
+- quantum_science_guardrails: 1
+- technology_ethics: 2
+- unresolved_suffering: 1
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 4
-- biblical_languages: 1
-- cultural_inputs: 14
-- deep_sources: 6
-- history_inputs: 10
+- all_texts: 2
+- cultural_inputs: 5
+- deep_sources: 2
+- history_inputs: 2
+- human_stories: 1
 - modern_literature: 1
-- other_religious_texts: 3
-- psychology_inputs: 10
-- research_documents: 7
-- theologians: 4
-- visual_art: 8
-- world_languages: 1
+- other_religious_texts: 2
+- pattern_tests: 2
+- psychology_inputs: 1
+- theologians: 1
+- visual_art: 5
 
 Newest Additions This Run
 ------------------------
-- Trinitarian Creation and Action (2010)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Crossref | scholarly metadata
+- "So Much Comes Up": Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes. (2026)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
+  Source: Europe PMC | scholarly metadata
   Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.1093/acprof:oso/9780199582211.003.0015
-- Medusa For CNC (3908289) (2019)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, biblical_languages, all_texts
+  URL: https://doi.org/10.3390/bs16050685
+- Heisenburg Uncertainty Principle – Prep 4 Uni Online (2025)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests, history_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/thingiverse-3908289
-- Da'wah Workshop Series (62 Episodes) - 'Abdur-Raheem Green (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/DawahWorkshopSeriesEP01
-- Big Love (2020)
+  URL: https://archive.org/details/httpsprep4uni.onlinestemsciencephysicsmodern-physicsquantum-mechanicsheisenbergs
+- EOTR - Blue Moon (2012)
   Tags: art_beauty
   Layer routes: visual_art, cultural_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20201004VRSComplete
-- Shahadah On Road - Streetz 2 Islam (الشوارع إلى الإسلام) (n.d.)
+  URL: https://archive.org/details/Eotr-BlueMoon
+- Shahadah Stories - Streets 2 Islam (n.d.)
   Tags: art_beauty
   Layer routes: visual_art, cultural_inputs, other_religious_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/ShahadahOnRoad-Streetz2Islam
-- SORIN CERIN - LOVE (n.d.)
+  URL: https://archive.org/details/ShahadahStoriesStreets2IslamLesserQuality
+- Yasir Qadhi - Complete Audio Collection (900+) (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, other_religious_texts
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/YasirQadhiCollection
+- I BELIEVED IN THE ETERNITY OF LOVE - Philosophical poems by SORIN CERIN (n.d.)
   Tags: history_memory
   Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/SorinCerin-Love_643
-- Everyday Islam: Interview with Arzoo Osanloo - Cultural Anthropology (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, other_religious_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://journal.culanth.org/index.php/ca/everyday-islam-arzoo-osanloo
-- Uniquely Human: Cultural Norms and Private Acts of Mercy in the ... (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://anthrosource.onlinelibrary.wiley.com/doi/10.1111/aman.12905
-- Rituals – Beliefs: An Open Invitation to the Anthropology of Magic ... (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://oer.pressbooks.pub/beliefs/chapter/rituals
-- To Right a Wrong: Theorizing and Guiding the Practice of Moral Repair (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://sim.aom.org/discussion/cfp-si-journal-of-business-ethics-to-right-a-wrong-theorizing-and-guiding-the-practice-of-moral-repair-1
-- Making Citizens, Reassembling Devices: On Gender and the ... (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  URL: https://read.dukeupress.edu/public-culture/article/26/1%20(72)/51/119943/Making-Citizens-Reassembling-Devices-On-Gender-and
-- Video: Leading Toward Justice: Intersections of Religion, Ethics, and Community Organizing | Religion and Public Life (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  URL: https://rpl.hds.harvard.edu/news/2023/4/8/video-leading-toward-justice-intersections-religion-ethics-and-community-organizing
-- [PDF] Cross-Culture Perceptions of Justice: A Comparative Study of ... (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://culturajournal.com/submissions/index.php/ijpca/article/download/1195/1011/3866
-- Exploring Cross-Cultural Perspectives on Morality, Religion, and ... (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.youtube.com/watch?v=ZJtUoGHwiq0
-- [PDF] Introducing Anthropology of Religion: Culture to the Ultimate (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, world_languages
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  URL: http://ndl.ethernet.edu.et/bitstream/123456789/18630/1/14.pdf.pdf
-- An interdisciplinary approach to theological studies in a public ... (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://scielo.org.za/scielo.php?script=sci_arttext&pid=S2074-77052024000100009
-- [PDF] Interdisciplinary Method in Christian Theology? (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, theologians, psychology_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: http://www.ntslibrary.com/PDF%20Books/Interdisciplinary%20Method%20in%20Christian%20Theology.pdf
-- [PDF] Book Review: Social Research Methods: For Students and Scholars ... (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, theologians
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  URL: https://place.asburyseminary.edu/cgi/viewcontent.cgi?article=1495&context=gcrj
-- Cornille, Catherine: Meaning and Method in Comparative Theology (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://journals.sagepub.com/doi/10.1177/0040563920986954d
-- Comparative Theology: An Alternative to Religious Studies or ... (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://www.mdpi.com/2077-1444/9/3/83
-- in defense of the comparative method robert a. segal - Brill (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://brill.com/downloadpdf/journals/nu/48/3/article-p339_7.pdf
-- VOA [Voice of America] Africa : November 28, 2019 10:00PM-11:00PM EST (2019)
+  URL: https://archive.org/details/SORINCERINIBELIEVEDINTHEETERNITYOFLOVE
+- VOA [Voice of America] Africa : May 28, 2019 02:00PM-03:00PM EDT (2019)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://archive.org/details/VOA_Africa_20190528_180000
+- VOA [Voice of America] Africa : November 29, 2019 01:00AM-02:00AM EST (2019)
   Tags: technology_ethics
   Layer routes: cultural_inputs, visual_art
   Source: Internet Archive | speculative-risk
   Automated evidence: weak_scholarly_candidate (4)
-  URL: https://archive.org/details/VOA_Africa_20191129_030000
+  URL: https://archive.org/details/VOA_Africa_20191129_060000
 
 Recent Candidate Sources
 ------------------------

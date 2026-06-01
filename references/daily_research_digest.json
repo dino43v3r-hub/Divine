@@ -1,60 +1,59 @@
 {
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 557,
-    "strong_scholarly_candidate": 578,
-    "weak_scholarly_candidate": 124
+    "moderate_scholarly_candidate": 563,
+    "strong_scholarly_candidate": 579,
+    "weak_scholarly_candidate": 125
   },
   "errors": [
     "search_arxiv failed for quantum_science_guardrails: The read operation timed out"
   ],
   "layer_counts": {
-    "all_texts": 403,
+    "all_texts": 405,
     "biblical_languages": 103,
-    "cultural_inputs": 311,
-    "deep_sources": 352,
-    "history_inputs": 323,
-    "human_stories": 296,
-    "modern_literature": 162,
+    "cultural_inputs": 316,
+    "deep_sources": 354,
+    "history_inputs": 325,
+    "human_stories": 297,
+    "modern_literature": 163,
     "music_notes": 78,
-    "other_religious_texts": 273,
-    "pattern_tests": 220,
-    "psychology_inputs": 298,
+    "other_religious_texts": 275,
+    "pattern_tests": 222,
+    "psychology_inputs": 299,
     "research_documents": 144,
     "research_documents/christian_sources": 112,
-    "theologians": 307,
-    "visual_art": 410,
+    "theologians": 308,
+    "visual_art": 415,
     "world_languages": 240
   },
   "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 5,
+    "moderate_scholarly_candidate": 6,
     "strong_scholarly_candidate": 1,
-    "weak_scholarly_candidate": 16
+    "weak_scholarly_candidate": 1
   },
-  "new_count": 22,
+  "new_count": 8,
   "new_layer_counts": {
-    "all_texts": 4,
-    "biblical_languages": 1,
-    "cultural_inputs": 14,
-    "deep_sources": 6,
-    "history_inputs": 10,
+    "all_texts": 2,
+    "cultural_inputs": 5,
+    "deep_sources": 2,
+    "history_inputs": 2,
+    "human_stories": 1,
     "modern_literature": 1,
-    "other_religious_texts": 3,
-    "psychology_inputs": 10,
-    "research_documents": 7,
-    "theologians": 4,
-    "visual_art": 8,
-    "world_languages": 1
+    "other_religious_texts": 2,
+    "pattern_tests": 2,
+    "psychology_inputs": 1,
+    "theologians": 1,
+    "visual_art": 5
   },
   "new_provider_counts": {
-    "Crossref": 1,
-    "Internet Archive": 6,
-    "Tavily Search": 15
+    "Europe PMC": 1,
+    "Internet Archive": 7
   },
   "new_sources": [
     {
       "authors": [
-        "Gilles Emery Op",
-        "Francesca Aran Murphy"
+        "van Nieuw Amerongen JC",
+        "van Stam C",
+        "Romkes-Bart AM"
       ],
       "automated_evidence_label": "strong_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -62,42 +61,49 @@
         "DOI or stable scholarly identifier present",
         "author metadata present",
         "publication year present",
-        "recognized scholarly source type",
+        "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
       "automated_evidence_score": 10,
       "automated_evidence_warnings": [],
+      "citation_count": 0,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "corroborating_source_count": 232,
+      "corroborating_source_count": 619,
       "date_accessed": "2026-06-01",
-      "doi": "10.1093/acprof:oso/9780199582211.003.0015",
+      "doi": "10.3390/bs16050685",
       "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "10.1093/acprof:oso/9780199582211.003.0015",
+      "id": "10.3390/bs16050685",
       "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed."
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
       ],
       "layer_routes": [
-        "theologians",
-        "research_documents"
+        "pattern_tests",
+        "deep_sources",
+        "psychology_inputs",
+        "human_stories",
+        "all_texts"
       ],
-      "primary_layer": "theologians",
-      "provider": "Crossref",
+      "primary_layer": "pattern_tests",
+      "provider": "Europe PMC",
       "quality": "scholarly metadata",
       "review_status": "machine_assessed_strong_scholarly_candidate",
-      "source_type": "book-chapter",
-      "summary": "",
+      "source_type": "scholarly metadata",
+      "summary": "Existential, spiritual, and religious themes often evoke strong emotions in therapy, yet little is known about how clients' emotion regulation relates to these aspects. Spiritual psychotherapy for inpatient residential and intensive treatment (SPIRIT) integrates meaning in life within a cognitive-behavioral treatment (CBT) framework in acute and intensive mental health care and provides an appropriate context for examining this. This qualitative study explores: (1) clients' beliefs about expressing, managing, or suppressing emotions related to meaning in life, spirituality, or religion (MSR); (2) how emotion regulation strategies (e.g., reappraisal, acceptance, and distress tolerance) are in",
       "tags": [
-        "trinity"
+        "unresolved_suffering"
       ],
-      "title": "Trinitarian Creation and Action",
+      "title": "\"So Much Comes Up\": Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes.",
       "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.1093/acprof:oso/9780199582211.003.0015",
-      "year": 2010
+      "url": "https://doi.org/10.3390/bs16050685",
+      "year": "2026"
     },
     {
       "authors": [
-        "CNC Models (cncmodels4you)"
+        "Jacob Gan"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -110,83 +116,38 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 477,
+      "corroborating_source_count": 433,
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/thingiverse-3908289",
+      "id": "https://archive.org/details/httpsprep4uni.onlinestemsciencephysicsmodern-physicsquantum-mechanicsheisenbergs",
       "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
       ],
       "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "biblical_languages",
-        "all_texts"
+        "deep_sources",
+        "pattern_tests",
+        "history_inputs"
       ],
-      "primary_layer": "visual_art",
+      "primary_layer": "deep_sources",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org data",
-      "summary": "Medusa From Wikipedia, the free encyclopedia Jump to navigationJump to search For other uses, see Medusa (disambiguation). Medusa Gorgona pushkin.jpg Classical Greek depiction of Medusa from the fourth century BC Personal information Children Pegasus and Chrysaor Parents Phorcys and Ceto Siblings The Hesperides, Stheno, Euryale, The Graea, Thoosa, Scylla, and Ladon Greek mythology Euboean amphora, c. 550 BCE, depicting the fight between Cadmus and a dragon Deities PrimordialTitansOlympiansNymphsSea-deitiesEarth-deities Heroes and heroism Heracles / Hercules LaborsAchillesHector Trojan WarOdysseus OdysseyJasonArgonauts Golden FleecePerseus MedusaGorgonOedipus SphinxOrpheus OrphismTheseus Mino",
+      "source_type": "archive.org texts",
+      "summary": "This comprehensive educational resource offers an in-depth exploration of Heisenberg\u2019s Uncertainty Principle, a cornerstone of quantum mechanics that redefines how we understand the limits of knowledge in the physical universe. The page covers its historical development by Werner Heisenberg, the mathematical formulation involving position and momentum, and the broader implications for non-commuting observables such as energy and time. Real-world applications are clearly illustrated through quantum computing, quantum cryptography, electron microscopy, and precision metrology, highlighting how uncertainty is not just a constraint but a catalyst for innovation. The resource also features intuit",
       "tags": [
-        "art_beauty"
+        "quantum_science_guardrails"
       ],
-      "title": "Medusa For CNC (3908289)",
+      "title": "Heisenburg Uncertainty Principle \u2013 Prep 4 Uni Online",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/thingiverse-3908289",
-      "year": "2019"
+      "url": "https://archive.org/details/httpsprep4uni.onlinestemsciencephysicsmodern-physicsquantum-mechanicsheisenbergs",
+      "year": "2025"
     },
     {
       "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 396,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/dawahworkshopseriesep01",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------ Da'wah Workshop Series (2013) (63 Episodes / MP3 audio) - 'Abdur-Raheem Green 1) Introduction 2) What is Da'wah? 3) Setting up a Da'wah team 4) Is Da'wah just about having a good character? 5) The first thing we invite towards 6) What does giving Da'wah require? 7) The Punishment of not giving Da'wah 8) The story of the Sabbath Breakers 9) The importance of Da'wah and who should we give Da'wah to? 10) Giving Da'wah to the",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Da'wah Workshop Series (62 Episodes) - 'Abdur-Raheem Green",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/DawahWorkshopSeriesEP01",
-      "year": null
-    },
-    {
-      "authors": [
-        "Complete Service-First Unitarian Universalist Society of San Francisco"
+        "EAR OF THE RAT"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -203,7 +164,7 @@
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/complete_service_first_unitari-20201004vrscomplete",
+      "id": "https://archive.org/details/eotr-bluemoon",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims."
@@ -217,14 +178,14 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "\u201cBig Love\" (October 4, 2020) Worship Service This week is the 250th anniversary of Universalism and the day the congregation votes on its next settled ministry. It is also a time of great upheaval. What's the way forward and what anchors us as we go? Rev. Vanessa Rush Southern, Senior Minister Meg McGuire, Ministerial Intern George Wiepert, Worship Associate Reiko Oda Lane, organist Mark Sumner, singing/conducting My-Hoa Steger, pianist Michele Kennedy, soloist Brielle Marina Neilson, soloist Ben Rudiak-Gould, soloist Asher Davison, soloist Eric Shackelford, camera Shulee Ong, camera Joe Chapot, Social Media Chat Support Jonathan Silk, OOS, Sound, Drums",
+      "summary": "EAR OF THE RAT is an on-going open source improvised sound recording project A 21st Century Un-band recorded live August 31, 2012 underneath a giant size, super full, bright blue moon in beautiful downtown St.Catharines thanks again to all the friends and listeners keep up to date with all yer rat news @ eotrnews.blogspot.ca Ear of the Rat records to one stereo digital track @48,000 hz using a ZOOM Handy Recorder H4n Post-production and dither down to 256kbps mp3 utilizing the open source powers of Audacity http://audacity.sourceforge.net/ \"Unlike other types of rock, home rock is big on friendly enthusiasm and those types of swinging rock sounds that can only be created in the comfort of le",
       "tags": [
         "art_beauty"
       ],
-      "title": "Big Love",
+      "title": "EOTR - Blue Moon",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Complete_Service_First_Unitari-20201004VRSComplete",
-      "year": "2020"
+      "url": "https://archive.org/details/Eotr-BlueMoon",
+      "year": "2012"
     },
     {
       "authors": [
@@ -244,7 +205,7 @@
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/shahadahonroad-streetz2islam",
+      "id": "https://archive.org/details/shahadahstoriesstreets2islamlesserquality",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims.",
@@ -264,9 +225,52 @@
       "tags": [
         "art_beauty"
       ],
-      "title": "Shahadah On Road - Streetz 2 Islam (\u0627\u0644\u0634\u0648\u0627\u0631\u0639 \u0625\u0644\u0649 \u0627\u0644\u0625\u0633\u0644\u0627\u0645)",
+      "title": "Shahadah Stories - Streets 2 Islam",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/ShahadahOnRoad-Streetz2Islam",
+      "url": "https://archive.org/details/ShahadahStoriesStreets2IslamLesserQuality",
+      "year": null
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 396,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/yasirqadhicollection",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "other_religious_texts"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Isl \u0101 mic files. ------------------------------------------------------------------------------------------------------------------------------ Yasir Qadhi is a lecturer and Islamic orator who has authored several books about Islam. He is a popular speaker in many Muslim circles in the United States, Canada, England and Australia. He is one of the few people who has combined a traditional seminary training with Western education. He was born in Houston, Texas, went to high school in Jeddah, Saudi Arabia, and worked for Dow Chemical on a short stint. He then dec",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Yasir Qadhi - Complete Audio Collection (900+)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/YasirQadhiCollection",
       "year": null
     },
     {
@@ -283,11 +287,11 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 575,
+      "corroborating_source_count": 576,
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/sorincerin-love_643",
+      "id": "https://archive.org/details/sorincerinibelievedintheeternityoflove",
       "layer_review_prompts": [
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
@@ -311,657 +315,47 @@
       "tags": [
         "history_memory"
       ],
-      "title": "SORIN CERIN - LOVE",
+      "title": "I BELIEVED IN THE ETERNITY OF LOVE - Philosophical poems by SORIN CERIN",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/SorinCerin-Love_643",
+      "url": "https://archive.org/details/SORINCERINIBELIEVEDINTHEETERNITYOFLOVE",
       "year": null
     },
     {
       "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 501,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://journal.culanth.org/index.php/ca/everyday-islam-arzoo-osanloo",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.9985104,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "An understanding of justice more deeply rooted in Islamic principles derived from the most reliable sources, however, would incorporate mercy, which includes",
-      "tags": [
-        "cultural_practice_patterns"
-      ],
-      "title": "Everyday Islam: Interview with Arzoo Osanloo - Cultural Anthropology",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://journal.culanth.org/index.php/ca/everyday-islam-arzoo-osanloo",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 473,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://anthrosource.onlinelibrary.wiley.com/doi/10.1111/aman.12905",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs",
-        "visual_art"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.99155444,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "This article presents evidence from human and nonhuman animal studies that war-zone mercy is a uniquely human form of empathy-produced altruism.",
-      "tags": [
-        "cultural_practice_patterns"
-      ],
-      "title": "Uniquely Human: Cultural Norms and Private Acts of Mercy in the ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://anthrosource.onlinelibrary.wiley.com/doi/10.1111/aman.12905",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 565,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://oer.pressbooks.pub/beliefs/chapter/rituals",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs",
-        "all_texts"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.9863631,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "In this course, we begin by defining rituals as an act or series of regularly repeated acts that embody the beliefs of a group of people.",
-      "tags": [
-        "cultural_practice_patterns"
-      ],
-      "title": "Rituals \u2013 Beliefs: An Open Invitation to the Anthropology of Magic ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://oer.pressbooks.pub/beliefs/chapter/rituals",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 565,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://sim.aom.org/discussion/cfp-si-journal-of-business-ethics-to-right-a-wrong-theorizing-and-guiding-the-practice-of-moral-repair-1",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs",
-        "all_texts"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.99690056,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "In what ways can spiritual, religious, or moral philosophical traditions contribute to ethical theorizing about moral repair in business",
-      "tags": [
-        "cultural_practice_patterns"
-      ],
-      "title": "To Right a Wrong: Theorizing and Guiding the Practice of Moral Repair",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://sim.aom.org/discussion/cfp-si-journal-of-business-ethics-to-right-a-wrong-theorizing-and-guiding-the-practice-of-moral-repair-1",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
         "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
         "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 6,
+      "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 405,
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 155,
       "date_accessed": "2026-06-01",
       "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://read.dukeupress.edu/public-culture/article/26/1%20(72)/51/119943/making-citizens-reassembling-devices-on-gender-and",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_africa_20190528_180000",
       "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
+        "Classify the cultural domain and practical consequences before making theological claims."
       ],
       "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs"
+        "cultural_inputs"
       ],
       "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.9964064,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Public sites of repair, such as the Fixit Clinic and the Repair Caf\u00e9, are community-supported events designed to help local residents fix and",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 Correspondent Charles Taylor Desmo reports and says it doesn't feel 00:00:03 a possible war with the u.s. 00:00:05 And claims that America has grown in power in recent years the latest tough talk 00:00:11 from Toronto amid escalating regional tensions and 00:00:14 a crisis with Washington speaking at 00:00:16 a press conference in Toronto the spokesman explained the guard doesn't supporting 00:00:21 gaging in any war while at the same time he doesn't fear the occurrence of 00:00:25 a war he said units of enough readiness to defend the country I think that Iran has 00:00:30 boosted its military power over the past 30 years I'm shells of that as the u.n. 00",
       "tags": [
-        "cultural_practice_patterns"
+        "technology_ethics"
       ],
-      "title": "Making Citizens, Reassembling Devices: On Gender and the ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://read.dukeupress.edu/public-culture/article/26/1%20(72)/51/119943/Making-Citizens-Reassembling-Devices-On-Gender-and",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 6,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 405,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://rpl.hds.harvard.edu/news/2023/4/8/video-leading-toward-justice-intersections-religion-ethics-and-community-organizing",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.98926485,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "SUSIE HAYWARD: It's great to be back for this fourth iteration of this series, where we're highlighting extraordinary alumnx who are working in different professions-- including in the past, we've hit up humanitarians, journalists, and policymakers. So as Chandra said, I'm with the Religion and Public Life Program at HDS. RPL, for those alumnx who are not aware, it's a newer program at HDS, just established in October of 2020, that seeks to advance the public understanding of religion in service of a just world at peace. And as well, our program also supports current HDS students who are studying religion here at the Divinity School, in preparation for going into these kinds of professions, ",
-      "tags": [
-        "cultural_practice_patterns"
-      ],
-      "title": "Video: Leading Toward Justice: Intersections of Religion, Ethics, and Community Organizing | Religion and Public Life",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://rpl.hds.harvard.edu/news/2023/4/8/video-leading-toward-justice-intersections-religion-ethics-and-community-organizing",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 405,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://culturajournal.com/submissions/index.php/ijpca/article/download/1195/1011/3866",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.44015694,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "International Journal of Philosophy of Culture and Axiology 22(3)/2025: 183-199 183 Cross-Culture Perceptions of Justice: A Comparative Study of Ethical Principles Emily J. Harrison Pacifica State University, USA emilyjharrison41@outlook.com Abstract: To comprehend how various ethical principles influence societal norms and practices across cultural boundaries, this research explores how different cultures see justice. For measuring the research study, the SPSS software result determined the comparative analysis between ethical principles related to the cross-culture perceptions of justice. The overall result also found a direct and significant link between ethical principles and cross-cultu",
-      "tags": [
-        "cultural_practice_patterns"
-      ],
-      "title": "[PDF] Cross-Culture Perceptions of Justice: A Comparative Study of ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://culturajournal.com/submissions/index.php/ijpca/article/download/1195/1011/3866",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 405,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.youtube.com/watch?v=zjtuoghwiq0",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.4362623,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "... cultural relevance of religious law, this video offers a unique take on how cultures from around the world view morality, religion, and justice.",
-      "tags": [
-        "cultural_practice_patterns"
-      ],
-      "title": "Exploring Cross-Cultural Perspectives on Morality, Religion, and ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.youtube.com/watch?v=ZJtUoGHwiq0",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 6,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 520,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "http://ndl.ethernet.edu.et/bitstream/123456789/18630/1/14.pdf.pdf",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs",
-        "world_languages"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.320407,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "This lively and readable survey covers all the traditional topics of anthropology of religion, including definitions and theories, beliefs, symbols and language",
-      "tags": [
-        "cultural_practice_patterns"
-      ],
-      "title": "[PDF] Introducing Anthropology of Religion: Culture to the Ultimate",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "http://ndl.ethernet.edu.et/bitstream/123456789/18630/1/14.pdf.pdf",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 429,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://scielo.org.za/scielo.php?script=sci_arttext&pid=s2074-77052024000100009",
-      "layer_review_prompts": [
-        "Use as general research context until a more specific layer is reviewed.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "research_documents",
-        "deep_sources",
-        "visual_art"
-      ],
-      "primary_layer": "research_documents",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.37202653,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "This article argues that theology needs to be done beyond theological disciplines through an interdisciplinary approach to increase its influence in a public",
-      "tags": [
-        "general_research_methods"
-      ],
-      "title": "An interdisciplinary approach to theological studies in a public ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://scielo.org.za/scielo.php?script=sci_arttext&pid=S2074-77052024000100009",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 544,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "http://www.ntslibrary.com/pdf%20books/interdisciplinary%20method%20in%20christian%20theology.pdf",
-      "layer_review_prompts": [
-        "Use as general research context until a more specific layer is reviewed.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
-      ],
-      "layer_routes": [
-        "research_documents",
-        "deep_sources",
-        "theologians",
-        "psychology_inputs"
-      ],
-      "primary_layer": "research_documents",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.35226917,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Introduction Christian theology is a complex enterprise involving a variety of activities. By the end of the twentieth-century the confusion produced by the multifariousness of Christian the-ologies gives Christian theologians an ambivalent sense of despair and hope. Recognizing that Christian theology is in crisis some theologians despair. Other theologians hope that the present crisis of identity and theological divisiveness can be overcome during the twenty-first century by way of an all-inclusive Ecumenical theology. The postmodern realiza-tion that we live \u201cbetween the times\u201d has generated a series of method-ological proposals.1 Not surprisingly, Christian theologians representing a bro",
-      "tags": [
-        "general_research_methods"
-      ],
-      "title": "[PDF] Interdisciplinary Method in Christian Theology?",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "http://www.ntslibrary.com/PDF%20Books/Interdisciplinary%20Method%20in%20Christian%20Theology.pdf",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 6,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 453,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://place.asburyseminary.edu/cgi/viewcontent.cgi?article=1495&context=gcrj",
-      "layer_review_prompts": [
-        "Use as general research context until a more specific layer is reviewed.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
-      ],
-      "layer_routes": [
-        "research_documents",
-        "deep_sources",
-        "theologians"
-      ],
-      "primary_layer": "research_documents",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.35226917,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Today, interdisciplinary research provides a unique opportunity for religious scholars and theologians to engage broader audiences. By.",
-      "tags": [
-        "general_research_methods"
-      ],
-      "title": "[PDF] Book Review: Social Research Methods: For Students and Scholars ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://place.asburyseminary.edu/cgi/viewcontent.cgi?article=1495&context=gcrj",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 316,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://journals.sagepub.com/doi/10.1177/0040563920986954d",
-      "layer_review_prompts": [
-        "Use as general research context until a more specific layer is reviewed.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
-      ],
-      "layer_routes": [
-        "research_documents",
-        "deep_sources"
-      ],
-      "primary_layer": "research_documents",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.9997198,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "In this book, Catherine Cornille provides readers with an overview of the field of comparative theology, skillfully describing its various forms.",
-      "tags": [
-        "general_research_methods"
-      ],
-      "title": "Cornille, Catherine: Meaning and Method in Comparative Theology",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://journals.sagepub.com/doi/10.1177/0040563920986954d",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 316,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.mdpi.com/2077-1444/9/3/83",
-      "layer_review_prompts": [
-        "Use as general research context until a more specific layer is reviewed.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
-      ],
-      "layer_routes": [
-        "research_documents",
-        "deep_sources"
-      ],
-      "primary_layer": "research_documents",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.99918324,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "This paper examines the relationship between Comparative Theology, Religious Studies and Theology of Religions and questions whether Comparative Theology is an",
-      "tags": [
-        "general_research_methods"
-      ],
-      "title": "Comparative Theology: An Alternative to Religious Studies or ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.mdpi.com/2077-1444/9/3/83",
-      "year": null
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 316,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://brill.com/downloadpdf/journals/nu/48/3/article-p339_7.pdf",
-      "layer_review_prompts": [
-        "Use as general research context until a more specific layer is reviewed.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
-      ],
-      "layer_routes": [
-        "research_documents",
-        "deep_sources"
-      ],
-      "primary_layer": "research_documents",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.99750805,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "The work of Frazer and Smith is deemed outdated less because of the views of religion and culture they espouse and more because of the way they reached them: by",
-      "tags": [
-        "general_research_methods"
-      ],
-      "title": "in defense of the comparative method robert a. segal - Brill",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://brill.com/downloadpdf/journals/nu/48/3/article-p339_7.pdf",
-      "year": null
+      "title": "VOA [Voice of America] Africa : May 28, 2019 02:00PM-03:00PM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Africa_20190528_180000",
+      "year": "2019"
     },
     {
       "authors": [],
@@ -981,7 +375,7 @@
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://archive.org/details/voa_africa_20191129_030000",
+      "id": "https://archive.org/details/voa_africa_20191129_060000",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims.",
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
@@ -995,13 +389,13 @@
       "quality": "speculative-risk",
       "review_status": "machine_assessed_weak_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 Deadline for the United States to offer more concessions installed nuclear talks 00:00:05 North Korea last month walked out of working level nuclear negotiations with the 00:00:09 United States it blamed Washington for the breakdown the North has since warned it 00:00:13 could restart nuclear or long range missile tests that's the ways Bill Gallow in 00:00:18 Seoul with not long to go before Election Day Britain's opposition parties took 00:00:22 swipes at Prime Minister Boris Johnson while polls suggest the u.k. 00:00:26 Leaders Conservative Party has 00:00:28 a substantial lead maybe Correspondent Karen Chamas Swenson leader of the 00:00:32 opposition L",
+      "summary": "Closed captions transcript: 00:00:00 A deadline for the United States to offer more concessions installed nuclear talks 00:00:05 North Korea last month walked out of working level nuclear negotiations with the 00:00:09 United States it blamed Washington for the breakdown in the north has since warned 00:00:13 it could restart nuclear or long range missile tests Vili's Bill Gallo and next 00:00:19 Polish president talks to the a.p. 00:00:20 About Hunter Biden and Greaseman maybe Correspondent Mike Rossi 00:00:25 a former president of Poland who is on the board of the Ukrainian gas company 00:00:28 Barisan is defending Hunter Biden this contribution to the Advisory Board Alexander 00:00:33 cau",
       "tags": [
         "technology_ethics"
       ],
-      "title": "VOA [Voice of America] Africa : November 28, 2019 10:00PM-11:00PM EST",
+      "title": "VOA [Voice of America] Africa : November 29, 2019 01:00AM-02:00AM EST",
       "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Africa_20191129_030000",
+      "url": "https://archive.org/details/VOA_Africa_20191129_060000",
       "year": "2019"
     }
   ],
@@ -1012,7 +406,7 @@
     "Internet Archive": 107,
     "OpenAlex": 288,
     "PubMed": 26,
-    "Tavily Search": 15
+    "arXiv": 5
   },
-  "updated_at": "2026-06-01T15:29:29.244784+00:00"
+  "updated_at": "2026-06-01T16:43:06.414546+00:00"
 }

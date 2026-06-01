@@ -7,58 +7,68 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Trinitarian Creation and Action
+### "So Much Comes Up": Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes.
 
 - Review status: machine_assessed_strong_scholarly_candidate
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: trinity
-- Layer routes: theologians, research_documents
-- Primary layer: theologians
-- Provider: Crossref
+- Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
+- Primary layer: pattern_tests
+- Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 232
-- Year: 2010
-- URL: https://doi.org/10.1093/acprof:oso/9780199582211.003.0015
+- Corroborating routed candidates: 619
+- Year: 2026
+- URL: https://doi.org/10.3390/bs16050685
 
-No summary available in metadata.
+Existential, spiritual, and religious themes often evoke strong emotions in therapy, yet little is
+known about how clients' emotion regulation relates to these aspects. Spiritual psychotherapy for
+inpatient residential and intensive treatment (SPIRIT) integrates meaning in life within a
+cognitive-behavioral treatment (CBT) framework in acute and intensive mental health care and
+provides an appropriate context for examining this. This qualitative study explores: (1) clients'
+beliefs about expressing, managing, or suppressing emotions related to meaning in life,
+spirituality, or religion (MSR); (2) how emotion regulation strategies (e.g., reappraisal,
+acceptance, and distress tolerance) are in
 
 Automated evidence reasons:
 - scholarly metadata provider
 - DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
-- recognized scholarly source type
+- summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Use as general research context until a more specific layer is reviewed.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### Medusa For CNC (3908289)
+### Heisenburg Uncertainty Principle – Prep 4 Uni Online
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, biblical_languages, all_texts
-- Primary layer: visual_art
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, history_inputs
+- Primary layer: deep_sources
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 477
-- Year: 2019
-- URL: https://archive.org/details/thingiverse-3908289
+- Corroborating routed candidates: 433
+- Year: 2025
+- URL: https://archive.org/details/httpsprep4uni.onlinestemsciencephysicsmodern-physicsquantum-mechanicsheisenbergs
 
-Medusa From Wikipedia, the free encyclopedia Jump to navigationJump to search For other uses, see
-Medusa (disambiguation). Medusa Gorgona pushkin.jpg Classical Greek depiction of Medusa from the
-fourth century BC Personal information Children Pegasus and Chrysaor Parents Phorcys and Ceto
-Siblings The Hesperides, Stheno, Euryale, The Graea, Thoosa, Scylla, and Ladon Greek mythology
-Euboean amphora, c. 550 BCE, depicting the fight between Cadmus and a dragon Deities
-PrimordialTitansOlympiansNymphsSea-deitiesEarth-deities Heroes and heroism Heracles / Hercules
-LaborsAchillesHector Trojan WarOdysseus OdysseyJasonArgonauts Golden FleecePerseus
-MedusaGorgonOedipus SphinxOrpheus OrphismTheseus Mino
+This comprehensive educational resource offers an in-depth exploration of Heisenberg’s Uncertainty
+Principle, a cornerstone of quantum mechanics that redefines how we understand the limits of
+knowledge in the physical universe. The page covers its historical development by Werner Heisenberg,
+the mathematical formulation involving position and momentum, and the broader implications for non-
+commuting observables such as energy and time. Real-world applications are clearly illustrated
+through quantum computing, quantum cryptography, electron microscopy, and precision metrology,
+highlighting how uncertainty is not just a constraint but a catalyst for innovation. The resource
+also features intuit
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -68,47 +78,11 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 
-### Da'wah Workshop Series (62 Episodes) - 'Abdur-Raheem Green
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, other_religious_texts
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 396
-- Year: n.d.
-- URL: https://archive.org/details/DawahWorkshopSeriesEP01
-
-Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
-watch/listen/download more free Islamic files. -----------------------------------------------------
-------------------------------------------------------------------------- Da'wah Workshop Series
-(2013) (63 Episodes / MP3 audio) - 'Abdur-Raheem Green 1) Introduction 2) What is Da'wah? 3) Setting
-up a Da'wah team 4) Is Da'wah just about having a good character? 5) The first thing we invite
-towards 6) What does giving Da'wah require? 7) The Punishment of not giving Da'wah 8) The story of
-the Sabbath Breakers 9) The importance of Da'wah and who should we give Da'wah to? 10) Giving Da'wah
-to the
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Big Love
+### EOTR - Blue Moon
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -120,16 +94,17 @@ Layer review prompts:
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 272
-- Year: 2020
-- URL: https://archive.org/details/Complete_Service_First_Unitari-20201004VRSComplete
+- Year: 2012
+- URL: https://archive.org/details/Eotr-BlueMoon
 
-“Big Love" (October 4, 2020) Worship Service This week is the 250th anniversary of Universalism and
-the day the congregation votes on its next settled ministry. It is also a time of great upheaval.
-What's the way forward and what anchors us as we go? Rev. Vanessa Rush Southern, Senior Minister Meg
-McGuire, Ministerial Intern George Wiepert, Worship Associate Reiko Oda Lane, organist Mark Sumner,
-singing/conducting My-Hoa Steger, pianist Michele Kennedy, soloist Brielle Marina Neilson, soloist
-Ben Rudiak-Gould, soloist Asher Davison, soloist Eric Shackelford, camera Shulee Ong, camera Joe
-Chapot, Social Media Chat Support Jonathan Silk, OOS, Sound, Drums
+EAR OF THE RAT is an on-going open source improvised sound recording project A 21st Century Un-band
+recorded live August 31, 2012 underneath a giant size, super full, bright blue moon in beautiful
+downtown St.Catharines thanks again to all the friends and listeners keep up to date with all yer
+rat news @ eotrnews.blogspot.ca Ear of the Rat records to one stereo digital track @48,000 hz using
+a ZOOM Handy Recorder H4n Post-production and dither down to 256kbps mp3 utilizing the open source
+powers of Audacity http://audacity.sourceforge.net/ "Unlike other types of rock, home rock is big on
+friendly enthusiasm and those types of swinging rock sounds that can only be created in the comfort
+of le
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -142,7 +117,7 @@ Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
 
-### Shahadah On Road - Streetz 2 Islam (الشوارع إلى الإسلام)
+### Shahadah Stories - Streets 2 Islam
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -155,7 +130,7 @@ Layer review prompts:
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 396
 - Year: n.d.
-- URL: https://archive.org/details/ShahadahOnRoad-Streetz2Islam
+- URL: https://archive.org/details/ShahadahStoriesStreets2IslamLesserQuality
 
 Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
 watch/listen/download more free Islamic files. -----------------------------------------------------
@@ -177,7 +152,42 @@ Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### SORIN CERIN - LOVE
+### Yasir Qadhi - Complete Audio Collection (900+)
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, other_religious_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 396
+- Year: n.d.
+- URL: https://archive.org/details/YasirQadhiCollection
+
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Isl ā mic files. ---------------------------------------------------
+--------------------------------------------------------------------------- Yasir Qadhi is a
+lecturer and Islamic orator who has authored several books about Islam. He is a popular speaker in
+many Muslim circles in the United States, Canada, England and Australia. He is one of the few people
+who has combined a traditional seminary training with Western education. He was born in Houston,
+Texas, went to high school in Jeddah, Saudi Arabia, and worked for Dow Chemical on a short stint. He
+then dec
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### I BELIEVED IN THE ETERNITY OF LOVE - Philosophical poems by SORIN CERIN
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -188,9 +198,9 @@ Layer review prompts:
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 575
+- Corroborating routed candidates: 576
 - Year: n.d.
-- URL: https://archive.org/details/SorinCerin-Love_643
+- URL: https://archive.org/details/SORINCERINIBELIEVEDINTHEETERNITYOFLOVE
 
 SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is
 a mystic in his aphorisms, Sorin Cerin is a philosopher, the author of a new philosophical system
@@ -214,485 +224,40 @@ Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 
-### Everyday Islam: Interview with Arzoo Osanloo - Cultural Anthropology
+### VOA [Voice of America] Africa : May 28, 2019 02:00PM-03:00PM EDT
 
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, other_religious_texts
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: technology_ethics
+- Layer routes: cultural_inputs
 - Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 501
-- Year: n.d.
-- URL: https://journal.culanth.org/index.php/ca/everyday-islam-arzoo-osanloo
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 155
+- Year: 2019
+- URL: https://archive.org/details/VOA_Africa_20190528_180000
 
-An understanding of justice more deeply rooted in Islamic principles derived from the most reliable
-sources, however, would incorporate mercy, which includes
+Closed captions transcript: 00:00:00 Correspondent Charles Taylor Desmo reports and says it doesn't
+feel 00:00:03 a possible war with the u.s. 00:00:05 And claims that America has grown in power in
+recent years the latest tough talk 00:00:11 from Toronto amid escalating regional tensions and
+00:00:14 a crisis with Washington speaking at 00:00:16 a press conference in Toronto the spokesman
+explained the guard doesn't supporting 00:00:21 gaging in any war while at the same time he doesn't
+fear the occurrence of 00:00:25 a war he said units of enough readiness to defend the country I
+think that Iran has 00:00:30 boosted its military power over the past 30 years I'm shells of that as
+the u.n. 00
 
 Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Uniquely Human: Cultural Norms and Private Acts of Mercy in the ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 473
-- Year: n.d.
-- URL: https://anthrosource.onlinelibrary.wiley.com/doi/10.1111/aman.12905
-
-This article presents evidence from human and nonhuman animal studies that war-zone mercy is a
-uniquely human form of empathy-produced altruism.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### Rituals – Beliefs: An Open Invitation to the Anthropology of Magic ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 565
-- Year: n.d.
-- URL: https://oer.pressbooks.pub/beliefs/chapter/rituals
-
-In this course, we begin by defining rituals as an act or series of regularly repeated acts that
-embody the beliefs of a group of people.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### To Right a Wrong: Theorizing and Guiding the Practice of Moral Repair
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 565
-- Year: n.d.
-- URL: https://sim.aom.org/discussion/cfp-si-journal-of-business-ethics-to-right-a-wrong-theorizing-and-guiding-the-practice-of-moral-repair-1
-
-In what ways can spiritual, religious, or moral philosophical traditions contribute to ethical
-theorizing about moral repair in business
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### Making Citizens, Reassembling Devices: On Gender and the ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 405
-- Year: n.d.
-- URL: https://read.dukeupress.edu/public-culture/article/26/1%20(72)/51/119943/Making-Citizens-Reassembling-Devices-On-Gender-and
-
-Public sites of repair, such as the Fixit Clinic and the Repair Café, are community-supported events
-designed to help local residents fix and
-
-Automated evidence reasons:
-- broad open-web search result
 - trusted archive, university, government, museum, library, or public-domain domain
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
 
-### Video: Leading Toward Justice: Intersections of Religion, Ethics, and Community Organizing | Religion and Public Life
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 405
-- Year: n.d.
-- URL: https://rpl.hds.harvard.edu/news/2023/4/8/video-leading-toward-justice-intersections-religion-ethics-and-community-organizing
-
-SUSIE HAYWARD: It's great to be back for this fourth iteration of this series, where we're
-highlighting extraordinary alumnx who are working in different professions-- including in the past,
-we've hit up humanitarians, journalists, and policymakers. So as Chandra said, I'm with the Religion
-and Public Life Program at HDS. RPL, for those alumnx who are not aware, it's a newer program at
-HDS, just established in October of 2020, that seeks to advance the public understanding of religion
-in service of a just world at peace. And as well, our program also supports current HDS students who
-are studying religion here at the Divinity School, in preparation for going into these kinds of
-professions,
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### [PDF] Cross-Culture Perceptions of Justice: A Comparative Study of ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 405
-- Year: n.d.
-- URL: https://culturajournal.com/submissions/index.php/ijpca/article/download/1195/1011/3866
-
-International Journal of Philosophy of Culture and Axiology 22(3)/2025: 183-199 183 Cross-Culture
-Perceptions of Justice: A Comparative Study of Ethical Principles Emily J. Harrison Pacifica State
-University, USA emilyjharrison41@outlook.com Abstract: To comprehend how various ethical principles
-influence societal norms and practices across cultural boundaries, this research explores how
-different cultures see justice. For measuring the research study, the SPSS software result
-determined the comparative analysis between ethical principles related to the cross-culture
-perceptions of justice. The overall result also found a direct and significant link between ethical
-principles and cross-cultu
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### Exploring Cross-Cultural Perspectives on Morality, Religion, and ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 405
-- Year: n.d.
-- URL: https://www.youtube.com/watch?v=ZJtUoGHwiq0
-
-... cultural relevance of religious law, this video offers a unique take on how cultures from around
-the world view morality, religion, and justice.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### [PDF] Introducing Anthropology of Religion: Culture to the Ultimate
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, world_languages
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 520
-- Year: n.d.
-- URL: http://ndl.ethernet.edu.et/bitstream/123456789/18630/1/14.pdf.pdf
-
-This lively and readable survey covers all the traditional topics of anthropology of religion,
-including definitions and theories, beliefs, symbols and language
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### An interdisciplinary approach to theological studies in a public ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: general_research_methods
-- Layer routes: research_documents, deep_sources, visual_art
-- Primary layer: research_documents
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 429
-- Year: n.d.
-- URL: https://scielo.org.za/scielo.php?script=sci_arttext&pid=S2074-77052024000100009
-
-This article argues that theology needs to be done beyond theological disciplines through an
-interdisciplinary approach to increase its influence in a public
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Use as general research context until a more specific layer is reviewed.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### [PDF] Interdisciplinary Method in Christian Theology?
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: general_research_methods
-- Layer routes: research_documents, deep_sources, theologians, psychology_inputs
-- Primary layer: research_documents
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 544
-- Year: n.d.
-- URL: http://www.ntslibrary.com/PDF%20Books/Interdisciplinary%20Method%20in%20Christian%20Theology.pdf
-
-Introduction Christian theology is a complex enterprise involving a variety of activities. By the
-end of the twentieth-century the confusion produced by the multifariousness of Christian the-ologies
-gives Christian theologians an ambivalent sense of despair and hope. Recognizing that Christian
-theology is in crisis some theologians despair. Other theologians hope that the present crisis of
-identity and theological divisiveness can be overcome during the twenty-first century by way of an
-all-inclusive Ecumenical theology. The postmodern realiza-tion that we live “between the times” has
-generated a series of method-ological proposals.1 Not surprisingly, Christian theologians
-representing a bro
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Use as general research context until a more specific layer is reviewed.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### [PDF] Book Review: Social Research Methods: For Students and Scholars ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: general_research_methods
-- Layer routes: research_documents, deep_sources, theologians
-- Primary layer: research_documents
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 453
-- Year: n.d.
-- URL: https://place.asburyseminary.edu/cgi/viewcontent.cgi?article=1495&context=gcrj
-
-Today, interdisciplinary research provides a unique opportunity for religious scholars and
-theologians to engage broader audiences. By.
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Use as general research context until a more specific layer is reviewed.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-
-### Cornille, Catherine: Meaning and Method in Comparative Theology
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: general_research_methods
-- Layer routes: research_documents, deep_sources
-- Primary layer: research_documents
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 316
-- Year: n.d.
-- URL: https://journals.sagepub.com/doi/10.1177/0040563920986954d
-
-In this book, Catherine Cornille provides readers with an overview of the field of comparative
-theology, skillfully describing its various forms.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Use as general research context until a more specific layer is reviewed.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-
-### Comparative Theology: An Alternative to Religious Studies or ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: general_research_methods
-- Layer routes: research_documents, deep_sources
-- Primary layer: research_documents
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 316
-- Year: n.d.
-- URL: https://www.mdpi.com/2077-1444/9/3/83
-
-This paper examines the relationship between Comparative Theology, Religious Studies and Theology of
-Religions and questions whether Comparative Theology is an
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Use as general research context until a more specific layer is reviewed.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-
-### in defense of the comparative method robert a. segal - Brill
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: general_research_methods
-- Layer routes: research_documents, deep_sources
-- Primary layer: research_documents
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 316
-- Year: n.d.
-- URL: https://brill.com/downloadpdf/journals/nu/48/3/article-p339_7.pdf
-
-The work of Frazer and Smith is deemed outdated less because of the views of religion and culture
-they espouse and more because of the way they reached them: by
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Use as general research context until a more specific layer is reviewed.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-
-### VOA [Voice of America] Africa : November 28, 2019 10:00PM-11:00PM EST
+### VOA [Voice of America] Africa : November 29, 2019 01:00AM-02:00AM EST
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
@@ -705,16 +270,16 @@ Layer review prompts:
 - Truth assessment: weak_scholarly_candidate
 - Corroborating routed candidates: 272
 - Year: 2019
-- URL: https://archive.org/details/VOA_Africa_20191129_030000
+- URL: https://archive.org/details/VOA_Africa_20191129_060000
 
-Closed captions transcript: 00:00:00 Deadline for the United States to offer more concessions
+Closed captions transcript: 00:00:00 A deadline for the United States to offer more concessions
 installed nuclear talks 00:00:05 North Korea last month walked out of working level nuclear
-negotiations with the 00:00:09 United States it blamed Washington for the breakdown the North has
-since warned it 00:00:13 could restart nuclear or long range missile tests that's the ways Bill
-Gallow in 00:00:18 Seoul with not long to go before Election Day Britain's opposition parties took
-00:00:22 swipes at Prime Minister Boris Johnson while polls suggest the u.k. 00:00:26 Leaders
-Conservative Party has 00:00:28 a substantial lead maybe Correspondent Karen Chamas Swenson leader
-of the 00:00:32 opposition L
+negotiations with the 00:00:09 United States it blamed Washington for the breakdown in the north has
+since warned 00:00:13 it could restart nuclear or long range missile tests Vili's Bill Gallo and
+next 00:00:19 Polish president talks to the a.p. 00:00:20 About Hunter Biden and Greaseman maybe
+Correspondent Mike Rossi 00:00:25 a former president of Poland who is on the board of the Ukrainian
+gas company 00:00:28 Barisan is defending Hunter Biden this contribution to the Advisory Board
+Alexander 00:00:33 cau
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
