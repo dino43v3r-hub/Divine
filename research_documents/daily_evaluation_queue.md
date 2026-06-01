@@ -7,62 +7,129 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Tischendorf.II.Greek Old Testament. 10 Volumes.var.ed.1835-1880.
+### Trinitarian Creation and Action
 
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: trinity
-- Layer routes: theologians, research_documents, world_languages, biblical_languages
+- Layer routes: theologians, research_documents
 - Primary layer: theologians
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 373
-- Year: n.d.
-- URL: https://archive.org/details/Tischendorf.ii.greekOldTestament.10Volumes.var.ed.1835-1880_220
+- Provider: Crossref
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 232
+- Year: 2010
+- URL: https://doi.org/10.1093/acprof:oso/9780199582211.003.0015
 
-Constantine Tischendorf's Old Testament Greek works, Vetus Testamentum Graece, Palaia Diatheke
-according to the LXX, Septuagint Version, translations and interpreters. Various manuscripts and
-codices, primary of the Sinaiticus, compared and various readings noted. As with his editions of the
-New Testament, the Old Testament editions are many. In these 10 volumes, set II, I have selected the
-better and latest, especially Nestle's edition.mjm,2010.
+No summary available in metadata.
 
 Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
 - author metadata present
-- summary or abstract metadata available
+- publication year present
+- recognized scholarly source type
 - many routed corroborating candidates
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Use as general research context until a more specific layer is reviewed.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
+### Medusa For CNC (3908289)
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, biblical_languages, all_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 477
+- Year: 2019
+- URL: https://archive.org/details/thingiverse-3908289
+
+Medusa From Wikipedia, the free encyclopedia Jump to navigationJump to search For other uses, see
+Medusa (disambiguation). Medusa Gorgona pushkin.jpg Classical Greek depiction of Medusa from the
+fourth century BC Personal information Children Pegasus and Chrysaor Parents Phorcys and Ceto
+Siblings The Hesperides, Stheno, Euryale, The Graea, Thoosa, Scylla, and Ladon Greek mythology
+Euboean amphora, c. 550 BCE, depicting the fight between Cadmus and a dragon Deities
+PrimordialTitansOlympiansNymphsSea-deitiesEarth-deities Heroes and heroism Heracles / Hercules
+LaborsAchillesHector Trojan WarOdysseus OdysseyJasonArgonauts Golden FleecePerseus
+MedusaGorgonOedipus SphinxOrpheus OrphismTheseus Mino
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
 - Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### BOOK READ WRITTEN BY IRAIARIGNAR
+### Da'wah Workshop Series (62 Episodes) - 'Abdur-Raheem Green
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs, visual_art
-- Primary layer: cultural_inputs
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, other_religious_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 396
+- Year: n.d.
+- URL: https://archive.org/details/DawahWorkshopSeriesEP01
+
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Islamic files. -----------------------------------------------------
+------------------------------------------------------------------------- Da'wah Workshop Series
+(2013) (63 Episodes / MP3 audio) - 'Abdur-Raheem Green 1) Introduction 2) What is Da'wah? 3) Setting
+up a Da'wah team 4) Is Da'wah just about having a good character? 5) The first thing we invite
+towards 6) What does giving Da'wah require? 7) The Punishment of not giving Da'wah 8) The story of
+the Sabbath Breakers 9) The importance of Da'wah and who should we give Da'wah to? 10) Giving Da'wah
+to the
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### Big Love
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs
+- Primary layer: visual_art
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 337
-- Year: 1990
-- URL: https://archive.org/details/BookReadWrittenByIraiarignar
+- Corroborating routed candidates: 272
+- Year: 2020
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20201004VRSComplete
 
-THEOLOGY: In the Name of God, Most Gracious, Most Merciful. ‘Praise be to God, The Cherisher and
-Sustainer of the Worlds’. May Peace and Blessings of God be upon app. 124thousand Prophets of God
-from Adam, Noah, Abraham, Ishmael, Isaac, Jacob, Joseph, Ayub, Idris, Zul-kifl, Job, Luqman, Salih,
-Suhaib, Lot, Jonah, Moses, Aaron, David, Solomon, Eliza, Zachariah, Elia’s (John) Jesus Christ and
-Muhammad (Sal). May Peace and Blessings of God be upon thee and thine family. “‘PEACE’ A WORD OF
-SALUTATION FROM THE LORD MOST MERCIFUL” R E A D . I read an article, ‘HOW TO READ A PERSON LIKE A
-BOOK.’ One should know, ‘How to read a book.’ R E A D : Means to understand the context of the
-paragraph or ver
+“Big Love" (October 4, 2020) Worship Service This week is the 250th anniversary of Universalism and
+the day the congregation votes on its next settled ministry. It is also a time of great upheaval.
+What's the way forward and what anchors us as we go? Rev. Vanessa Rush Southern, Senior Minister Meg
+McGuire, Ministerial Intern George Wiepert, Worship Associate Reiko Oda Lane, organist Mark Sumner,
+singing/conducting My-Hoa Steger, pianist Michele Kennedy, soloist Brielle Marina Neilson, soloist
+Ben Rudiak-Gould, soloist Asher Davison, soloist Eric Shackelford, camera Shulee Ong, camera Joe
+Chapot, Social Media Chat Support Jonathan Silk, OOS, Sound, Drums
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -72,47 +139,45 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
 
-### "The Universal Library Dr. Robert J. Wickenheiser" by Terrance Lindall
+### Shahadah On Road - Streetz 2 Islam (الشوارع إلى الإسلام)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs, visual_art
-- Primary layer: cultural_inputs
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, other_religious_texts
+- Primary layer: visual_art
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
+- Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 337
-- Year: 2026
-- URL: https://archive.org/details/img-20260527-132525
+- Corroborating routed candidates: 396
+- Year: n.d.
+- URL: https://archive.org/details/ShahadahOnRoad-Streetz2Islam
 
-THE UNIVERSAL LIBRARY Dr. Robert J. Wickenheiser by Sir Terrance Lindall, Williamsburg Art &
-Historical Center, Brooklyn, New York Art World Historical Contexts and Documentary🗽🇺🇸❤️Bookreader
-Item Preview Benedictine Monk and former president of St. Bonaventure University Dr. Robert J.
-Wickenheiser https://en.wikipedia.org/wiki/Robert_J. Wickenheiser with Publisher Dr. Carter Kaplan
-and Surrealmageddon Philosopher artist Bienvenido Bones Banez in THE UNIVERSAL LIBRARY. Bob
-Wickenheiser was put in charge of the library by St. Peter after his resurrection. Carter is
-obviously overwelmed by the beauty of the library, which comprises an enire solar system. Milton
-will visit the library to chart
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Islamic files. -----------------------------------------------------
+--------------------------------------------------------------------------------------------------
+WARNING: This is an old video that contains musical instruments which are Haraam (Islamically
+forbidden) in Islaam. They were initially included strictly for Da'wah purposes and not for the
+purpose of entertainment. Musical Instruments are no longer included in recent videos strictly
+because of its prohibition in Islaam. The Prophet ﷺ said (which means), "From among my followers
+there will be some
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
-- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### I LOVED YOU- Philosophical and love poems by Sorin Cerin
+### SORIN CERIN - LOVE
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -123,9 +188,9 @@ Layer review prompts:
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 574
+- Corroborating routed candidates: 575
 - Year: n.d.
-- URL: https://archive.org/details/SORINCERINILOVEDYOU
+- URL: https://archive.org/details/SorinCerin-Love_643
 
 SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is
 a mystic in his aphorisms, Sorin Cerin is a philosopher, the author of a new philosophical system
@@ -149,340 +214,283 @@ Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 
-### WUU Service - "Hidden Figures: An MLK Remembrance" Rev. Jude Geiger, Minister (1/18/26)
+### Everyday Islam: Interview with Arzoo Osanloo - Cultural Anthropology
 
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 299
-- Year: 2026
-- URL: https://archive.org/details/Wavelengths__A_WUU_Podcast-wuuse0118_2026
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, other_religious_texts
+- Primary layer: cultural_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 501
+- Year: n.d.
+- URL: https://journal.culanth.org/index.php/ca/everyday-islam-arzoo-osanloo
 
-Come listen to a WUU service! Rev. Jude Geiger, Minister Stephanie Letourneau, Worship Associate Liz
-Wiley, Worship Chair Heidi Sousa, piano Thank you for listening. For more information about the
-Williamsburg Unitarian Universalists, or to join us on Sunday mornings, visit www.wuu.org.
-Permission to reprint, podcast, and/or stream the music in this service obtained from ONE LICENSE
-with license #A-735438. All rights reserved.
+An understanding of justice more deeply rooted in Islamic principles derived from the most reliable
+sources, however, would incorporate mercy, which includes
 
 Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
+- broad open-web search result
 - summary or abstract metadata available
 - many routed corroborating candidates
 
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
 Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### The metaphoric process : connections between language and life
+### Uniquely Human: Cultural Norms and Private Acts of Mercy in the ...
 
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, world_languages
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 516
-- Year: 1995
-- URL: https://archive.org/details/metaphoricproces0000corr
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art
+- Primary layer: cultural_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 473
+- Year: n.d.
+- URL: https://anthrosource.onlinelibrary.wiley.com/doi/10.1111/aman.12905
 
-viii, 196 pages ; 24 cm Includes bibliographical references (pages 173-186) and index 1. Connections
-between language and life -- 2. The life of language -- 3. The interdigitation of fields -- 4. The
-oppositional metaphor -- 5. The maturation of knowledge -- 6. The relationship between digital and
-analogic styles -- 7. Detachment and participation -- 8. The awareness of metaphoric projections --
-9. The metaphoric function -- 10. Vicissitudes of self-formation
+This article presents evidence from human and nonhuman animal studies that war-zone mercy is a
+uniquely human form of empathy-produced altruism.
 
 Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
+- broad open-web search result
 - summary or abstract metadata available
 - many routed corroborating candidates
 
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
 Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Separate psychological/social process from theological interpretation and note clinical limits.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
 
-### Our monthly newsletter weekly flame austin world
+### Rituals – Beliefs: An Open Invitation to the Anthropology of Magic ...
 
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature
-- Primary layer: all_texts
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 324
-- Year: 2022
-- URL: https://archive.org/details/uusf_org-20110605JKSermon
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts
+- Primary layer: cultural_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 565
+- Year: n.d.
+- URL: https://oer.pressbooks.pub/beliefs/chapter/rituals
 
-Our monthly newsletter weekly flame austin world: While you're there check out our monthly
-newsletter weekly flame and much much more to all who are here this morning welcome home the work of
-this church in the world is realized through the generous financial support of all who call this
-place home along with the gifts and time and talent ours is a shared ministry you have a role to
-play here church membership is open to all for more information go to uusf..
+In this course, we begin by defining rituals as an act or series of regularly repeated acts that
+embody the beliefs of a group of people.
 
 Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### To Right a Wrong: Theorizing and Guiding the Practice of Moral Repair
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts
+- Primary layer: cultural_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 565
+- Year: n.d.
+- URL: https://sim.aom.org/discussion/cfp-si-journal-of-business-ethics-to-right-a-wrong-theorizing-and-guiding-the-practice-of-moral-repair-1
+
+In what ways can spiritual, religious, or moral philosophical traditions contribute to ethical
+theorizing about moral repair in business
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### Making Citizens, Reassembling Devices: On Gender and the ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (6)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 405
+- Year: n.d.
+- URL: https://read.dukeupress.edu/public-culture/article/26/1%20(72)/51/119943/Making-Citizens-Reassembling-Devices-On-Gender-and
+
+Public sites of repair, such as the Fixit Clinic and the Repair Café, are community-supported events
+designed to help local residents fix and
+
+Automated evidence reasons:
+- broad open-web search result
 - trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-
-### Wisdom Through Suffering | Reformed Bible Studies & Devotionals ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature, history_inputs, pattern_tests
-- Primary layer: all_texts
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 562
-- Year: n.d.
-- URL: https://learn.ligonier.org/devotionals/wisdom-through-suffering
-
-Though Scripture is clear that suffering in itself is painful, it is also plain that the Lord has a
-good purpose in our pain, using it for our good and His
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Classify the cultural domain and practical consequences before making theological claims.
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### 30 Significant Bible Verses About Suffering - Essential Scriptures | Bible Study Tools
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature, pattern_tests
-- Primary layer: all_texts
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 460
-- Year: n.d.
-- URL: https://www.biblestudytools.com/topical-verses/bible-verses-about-suffering
-
-It is evident that the world is full of suffering. The archetypal example of our suffering was Jesus
-Christ, who was persecuted and crucified by the Roman officials. Suffering will indeed come, but God
-can give us grace and power to overcome every trial and to fulfill our purpose and mission in His
-kingdom. The Bible gives counsel on the meaning of suffering and how we can best endure it. 14 But
-even if you should suffer for what is right, you are blessed. 10 And the God of all grace, who
-called you to his eternal glory in Christ, after you have suffered a little while, will himself
-restore you and make you strong, firm and steadfast. 24 Now I rejoice in what I am suffering for
-you, and I fi
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Oral tradition - Wikipedia
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature, visual_art, history_inputs
-- Primary layer: all_texts
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 522
-- Year: n.d.
-- URL: https://en.wikipedia.org/wiki/Oral_tradition
-
-# Oral tradition. **Oral tradition**, or **oral lore**, is a form of human communication in which
-knowledge, art, beliefs, ideas and culture are received, preserved, and transmitted orally from one
-generation to another. Oral tradition is a medium of communication "Media (communication)") for a
-society to transmit oral history, oral literature, oral law and other knowledge across generations
-without a writing system, or in parallel to a writing system. Religions such as Buddhism, Hinduism,
-Catholicism, and Jainism have used oral tradition, in parallel to writing, to transmit their
-canonical scriptures, rituals, hymns and mythologies. Oral tradition is memories, knowledge, and
-expression held
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### Oral tradition | World Literature I Class Notes - Fiveable
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature, history_inputs
-- Primary layer: all_texts
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 436
-- Year: n.d.
-- URL: https://fiveable.me/world-literature-i/unit-1/oral-tradition/study-guide/8pMIyH8AezlHGKxd
-
-Oral tradition functions as a community's collective memory. It stores moral values, social norms,
-and shared wisdom in narrative form. When a community tells
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### [PDF] Complete Issue - Oral Tradition
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature
-- Primary layer: all_texts
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 324
-- Year: n.d.
-- URL: https://journal.oraltradition.org/wp-content/uploads/files/articles/7ii/7_2_complete.pdf
-
-The oral traditional impulse is therefore strong in the modern African novel, which embodies these
-experiences, especially because the writers themselves are a product of both the oral tradition and
-literate education.5 Furthermore, a return-to-roots movement in African literature as a means of
-giving maximum authenticity to the writing made the writers look to their indigenous poetics to
-create works that will endure by drawing upon their living oral tradition to enrich forms,
-techniques, and styles received through literate education.6 One major aspect of this interplay of
-the oral and literary traditions in the African novel is the phenomenon of the-story-within-the-
-story, or the narrativ
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-
-### [PDF] Reflections on Contemporary Christian Theologies of Suffering and ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories, visual_art, psychology_inputs, pattern_tests
-- Primary layer: modern_literature
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 593
-- Year: n.d.
-- URL: https://utoronto.scholaris.ca/bitstreams/597916d7-e127-469b-9199-a63118dfe5de/download
-
-This chapter argues that literature, in particular the type of narrative recently dubbed “trauma
-fiction,” is an extremely useful theological companion for
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Separate psychological/social process from theological interpretation and note clinical limits.
 
-### THE CONTEMPORARY NOVEL AS THEOLOGY: HOW NARRATIVES OF CONVERSION EXPERIENCE IN LITERATURE EXPOSE THE REALITY OF LIVED BELIEF
+### Video: Leading Toward Justice: Intersections of Religion, Ethics, and Community Organizing | Religion and Public Life
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories, visual_art
-- Primary layer: modern_literature
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (6)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 405
+- Year: n.d.
+- URL: https://rpl.hds.harvard.edu/news/2023/4/8/video-leading-toward-justice-intersections-religion-ethics-and-community-organizing
+
+SUSIE HAYWARD: It's great to be back for this fourth iteration of this series, where we're
+highlighting extraordinary alumnx who are working in different professions-- including in the past,
+we've hit up humanitarians, journalists, and policymakers. So as Chandra said, I'm with the Religion
+and Public Life Program at HDS. RPL, for those alumnx who are not aware, it's a newer program at
+HDS, just established in October of 2020, that seeks to advance the public understanding of religion
+in service of a just world at peace. And as well, our program also supports current HDS students who
+are studying religion here at the Divinity School, in preparation for going into these kinds of
+professions,
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### [PDF] Cross-Culture Perceptions of Justice: A Comparative Study of ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 405
+- Year: n.d.
+- URL: https://culturajournal.com/submissions/index.php/ijpca/article/download/1195/1011/3866
+
+International Journal of Philosophy of Culture and Axiology 22(3)/2025: 183-199 183 Cross-Culture
+Perceptions of Justice: A Comparative Study of Ethical Principles Emily J. Harrison Pacifica State
+University, USA emilyjharrison41@outlook.com Abstract: To comprehend how various ethical principles
+influence societal norms and practices across cultural boundaries, this research explores how
+different cultures see justice. For measuring the research study, the SPSS software result
+determined the comparative analysis between ethical principles related to the cross-culture
+perceptions of justice. The overall result also found a direct and significant link between ethical
+principles and cross-cultu
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Exploring Cross-Cultural Perspectives on Morality, Religion, and ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 405
+- Year: n.d.
+- URL: https://www.youtube.com/watch?v=ZJtUoGHwiq0
+
+... cultural relevance of religious law, this video offers a unique take on how cultures from around
+the world view morality, religion, and justice.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### [PDF] Introducing Anthropology of Religion: Culture to the Ultimate
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, world_languages
+- Primary layer: cultural_inputs
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (6)
 - Truth assessment: weak_scholarly_candidate
 - Corroborating routed candidates: 520
 - Year: n.d.
-- URL: https://scholar.stjohns.edu/cgi/viewcontent.cgi?article=1635&context=theses_dissertations
+- URL: http://ndl.ethernet.edu.et/bitstream/123456789/18630/1/14.pdf.pdf
 
-# OF CONVERSION EXPERIENCE IN LITERATURE EXPOSE THE OF CONVERSION EXPERIENCE IN LITERATURE EXPOSE
-THE. THE CONTEMPORARY NOVEL AS THEOLOGY: HOW NARRATIVES OF CONVERSION EXPERIENCE IN LITERATURE
-EXPOSE THE REALITY OF LIVED BELIEF A thesis submitted in partial fulfillment of the requirements for
-the degree of MASTER OF ARTS to the faculty of the DEPARTMENT OF ENGLISH of ST. THE CONTEMPORARY
-NOVEL AS THEOLOGY: HOW NARRATIVES OF CONVERSION EXPERIENCE IN LITERATURE EXPOSE THE REALITY OF LIVED
-BELIEF. Elizabeth Ann Walker Thomae To think of the human life as a walking, talking, living and
-breathing poem radically changes the way we view our day-to-day experiences. In this thesis, I
-closely analyze
+This lively and readable survey covers all the traditional topics of anthropology of religion,
+including definitions and theories, beliefs, symbols and language
 
 Automated evidence reasons:
 - broad open-web search result
@@ -491,28 +499,65 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
+### An interdisciplinary approach to theological studies in a public ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources, visual_art
+- Primary layer: research_documents
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 429
+- Year: n.d.
+- URL: https://scielo.org.za/scielo.php?script=sci_arttext&pid=S2074-77052024000100009
+
+This article argues that theology needs to be done beyond theological disciplines through an
+interdisciplinary approach to increase its influence in a public
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### [PDF] The Transformation of Conversion Narratives in English Literature
+### [PDF] Interdisciplinary Method in Christian Theology?
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories
-- Primary layer: modern_literature
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources, theologians, psychology_inputs
+- Primary layer: research_documents
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 420
+- Corroborating routed candidates: 544
 - Year: n.d.
-- URL: https://ttu-ir.tdl.org/bitstreams/cf89be3a-e4d3-40ad-84b7-62b4d2333761/download
+- URL: http://www.ntslibrary.com/PDF%20Books/Interdisciplinary%20Method%20in%20Christian%20Theology.pdf
 
-In order to do so, I evaluate what qualifies a conversion narrative and how it functions within
-seventeenth and eighteenth-century, Victorian, and modern
+Introduction Christian theology is a complex enterprise involving a variety of activities. By the
+end of the twentieth-century the confusion produced by the multifariousness of Christian the-ologies
+gives Christian theologians an ambivalent sense of despair and hope. Recognizing that Christian
+theology is in crisis some theologians despair. Other theologians hope that the present crisis of
+identity and theological divisiveness can be overcome during the twenty-first century by way of an
+all-inclusive Ecumenical theology. The postmodern realiza-tion that we live “between the times” has
+generated a series of method-ological proposals.1 Not surprisingly, Christian theologians
+representing a bro
 
 Automated evidence reasons:
 - broad open-web search result
@@ -523,127 +568,28 @@ Automated evidence warnings:
 - open-web result: require corroboration before strengthening claims
 
 Layer review prompts:
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Separate psychological/social process from theological interpretation and note clinical limits.
 
-### Finding hope and meaning in suffering through literature - Facebook
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories, pattern_tests
-- Primary layer: modern_literature
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 486
-- Year: n.d.
-- URL: https://www.facebook.com/groups/582665094325961/posts/978139411445192
-
-The novel suggests that suffering can ultimately foster spiritual awakening and connection to
-others. 4. The Search for Meaning: The
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Literature (including fiction, drama, poetry, and prose) – Introduction to Humanities II
+### [PDF] Book Review: Social Research Methods: For Students and Scholars ...
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories
-- Primary layer: modern_literature
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 420
-- Year: n.d.
-- URL: https://mlpp.pressbooks.pub/introductiontohumanitiesv2/chapter/literature-including-fiction-drama-poetry-and-prose
-
-Want to create or adapt books like this? # 11 Literature (including fiction, drama, poetry, and
-prose). * How is literature like life? * What is literature supposed to do? * How does literature
-reveal the values of a given culture or time period? * What can a reader know about an author’s
-intentions based only on a reading of the text? * Why are there universal themes in literature–that
-is, themes that are of interest or concern to all cultures and societies? * How does what we know
-about the world shape the stories we tell? * Are there universal themes in literature that are of
-interest or concern to all cultures and societies? Poetry has traditionally been distinguished from
-prose by its b
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-
-### Poetry and Drama (Atlantic Monthly, February 1951) - T. S. Eliot
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories
-- Primary layer: modern_literature
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 420
-- Year: n.d.
-- URL: https://tseliot.com/essays/poetry-and-drama
-
-The poem can wait a little while; the approval of a few sympathetic and judicious critics is enough
-to begin with; and it is for future readers to meet the poet
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-
-### Circuitous Journeys: Modern Spiritual Autobiography (review)
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories
-- Primary layer: modern_literature
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources, theologians
+- Primary layer: research_documents
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (6)
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 420
+- Corroborating routed candidates: 453
 - Year: n.d.
-- URL: https://muse.jhu.edu/pub/5/article/5170/summary
+- URL: https://place.asburyseminary.edu/cgi/viewcontent.cgi?article=1495&context=gcrj
 
-David Leigh's study of twentieth century spiritual autobiographies is the second work in the Studies
-in Religion and Literature Series.
+Today, interdisciplinary research provides a unique opportunity for religious scholars and
+theologians to engage broader audiences. By.
 
 Automated evidence reasons:
 - broad open-web search result
@@ -652,63 +598,27 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 
-### When Nobodies Write Spiritual Memoirs | Church Life Journal | University of Notre Dame
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories, visual_art
-- Primary layer: modern_literature
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 520
-- Year: n.d.
-- URL: https://churchlifejournal.nd.edu/articles/when-nobodies-write-spiritual-memoirs
-
-That raises some questions of the would-be memoirist, such as: Who are all these nobodies writing
-memoirs?; What have you ever done to merit a memoir?; You’re writing a memoir? That is one of the
-risks you take, being told your life is not interesting enough to be read about; implying that it is
-one’s outward life and achievement that count, not the details of your inner journey through life.
-If you did not participate in or witness great events; if you did not become a celebrity or a famous
-scholar or writer—or have a Really Big Social Media Platform—then why would you write a memoir? On
-the other, I never quite know how to answer these questions, except to say that I like to write and
-it g
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### Imagining Ultimacy: Religious and Spiritual Experience in Literature
+### Cornille, Catherine: Meaning and Method in Comparative Theology
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories
-- Primary layer: modern_literature
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources
+- Primary layer: research_documents
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 420
+- Corroborating routed candidates: 316
 - Year: n.d.
-- URL: https://www.mdpi.com/journal/religions/special_issues/P448F97TKO
+- URL: https://journals.sagepub.com/doi/10.1177/0040563920986954d
 
-This Special Issue of Religions attends to the expansive range of religious and spiritual
-experiences either represented within or generated—presented—by
+In this book, Catherine Cornille provides readers with an overview of the field of comparative
+theology, skillfully describing its various forms.
 
 Automated evidence reasons:
 - broad open-web search result
@@ -719,38 +629,101 @@ Automated evidence warnings:
 - open-web result: require corroboration before strengthening claims
 
 Layer review prompts:
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### The Sacred in the West Wing, Rev Kimberley Debus, Guest Minister
+### Comparative Theology: An Alternative to Religious Studies or ...
 
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources
+- Primary layer: research_documents
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 316
+- Year: n.d.
+- URL: https://www.mdpi.com/2077-1444/9/3/83
+
+This paper examines the relationship between Comparative Theology, Religious Studies and Theology of
+Religions and questions whether Comparative Theology is an
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### in defense of the comparative method robert a. segal - Brill
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources
+- Primary layer: research_documents
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 316
+- Year: n.d.
+- URL: https://brill.com/downloadpdf/journals/nu/48/3/article-p339_7.pdf
+
+The work of Frazer and Smith is deemed outdated less because of the views of religion and culture
+they espouse and more because of the way they reached them: by
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### VOA [Voice of America] Africa : November 28, 2019 10:00PM-11:00PM EST
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
 - Tags: technology_ethics
 - Layer routes: cultural_inputs, visual_art
 - Primary layer: cultural_inputs
 - Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
+- Quality: speculative-risk
+- Automated evidence: weak_scholarly_candidate (4)
+- Truth assessment: weak_scholarly_candidate
 - Corroborating routed candidates: 272
-- Year: 2020
-- URL: https://archive.org/details/UU_Congregation_at_Shelter_Rock_Services-5177407_the_sacred_in_the_west_wing_rev
+- Year: 2019
+- URL: https://archive.org/details/VOA_Africa_20191129_030000
 
-On Sunday, August 16, 2020, Rev. Kimberley Debus, Guest Minister introduced the series, "The Sacred
-in the Profane: Media and Making Meaning." In this series, Rev. Debus examines some of the lessons
-popular culture has to teach us about our relationships to each other, our ethics, our communities,
-and our faith. In Part I, "The Sacred in the West Wing," she explains that while this popular
-political series has been off the air for 14 years, it continues to be a source of inspiration for
-many. This Service includes a look at some of the core lessons The West Wing teaches us.
+Closed captions transcript: 00:00:00 Deadline for the United States to offer more concessions
+installed nuclear talks 00:00:05 North Korea last month walked out of working level nuclear
+negotiations with the 00:00:09 United States it blamed Washington for the breakdown the North has
+since warned it 00:00:13 could restart nuclear or long range missile tests that's the ways Bill
+Gallow in 00:00:18 Seoul with not long to go before Election Day Britain's opposition parties took
+00:00:22 swipes at Prime Minister Boris Johnson while polls suggest the u.k. 00:00:26 Leaders
+Conservative Party has 00:00:28 a substantial lead maybe Correspondent Karen Chamas Swenson leader
+of the 00:00:32 opposition L
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
+
+Automated evidence warnings:
+- speculative or overclaim language detected
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.

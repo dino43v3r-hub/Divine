@@ -1272,7 +1272,7 @@ AND RES
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (6)
-- Corroborating routed candidates: 438
+- Corroborating routed candidates: 439
 - URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
 
 Religious language amplifies this effect through beliefs that a deity or ultimate reality can

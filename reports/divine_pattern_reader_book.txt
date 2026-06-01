@@ -6,27 +6,27 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-05-27T14:16:07.158840+00:00
-Retained cloud candidate references: 1,126
-Brand-new candidate references this run: 7
-Top new routed layers: visual_art: 5, cultural_inputs: 3, theologians: 3, all_texts: 2
-New evidence mix: moderate_scholarly_candidate: 7
-New provider mix: Internet Archive: 7
+Collector run: 2026-06-01T15:29:29.244784+00:00
+Retained cloud candidate references: 1,259
+Brand-new candidate references this run: 22
+Top new routed layers: cultural_inputs: 14, history_inputs: 10, psychology_inputs: 10, visual_art: 8
+New evidence mix: weak_scholarly_candidate: 16, moderate_scholarly_candidate: 5, strong_scholarly_candidate: 1
+New provider mix: Tavily Search: 15, Internet Archive: 6, Crossref: 1
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 I am reading this run as a conversation between what just arrived and what the project already thinks it sees.
 The older pattern map still points first toward Image Of God Pattern. Around it, I keep seeing related pressure from Cross And Reversal Pattern, Creation-To-Consciousness Pattern.
-The newest material is pulling my attention toward visual_art, especially around art_beauty. That does not overturn the older map, but it changes what I should ask next.
-My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is reference metadata, so I should let them sharpen questions before I let them strengthen claims.
+The newest material is pulling my attention toward cultural_inputs, especially around cultural_practice_patterns. That does not overturn the older map, but it changes what I should ask next.
+My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is open web result, so I should let them sharpen questions before I let them strengthen claims.
 I also notice that Suffering Without Resolution remains a live test. If the pattern cannot survive that friction, then it is probably only an attractive idea, not a disciplined theological insight.
 
 What this run makes me wonder:
 - Theologian-source candidates grew in the latest collector run; review era, primary source, doctrine, disagreement, and pressure points.
 - Visual-art candidates grew in the latest collector run; examine actual form, composition, symbol, beauty, lament, and counter-reading.
 - History candidates grew in the latest collector run; test power, harm, reform, memory, consequence, and unfinished repair.
-- Global and comparative text candidates grew in the latest collector run; respect each tradition's own meaning before comparing patterns.
+- World-language candidates grew in the latest collector run; track translation range, metaphor, grammar, culture, and rival readings.
 
 What I should do with this learning:
 - Compare the newest source leads against the existing top patterns before changing confidence language.
@@ -87,23 +87,23 @@ Fresh research movements:
 - Theologian-source candidates grew in the latest collector run; review era, primary source, doctrine, disagreement, and pressure points.
 - Visual-art candidates grew in the latest collector run; examine actual form, composition, symbol, beauty, lament, and counter-reading.
 - History candidates grew in the latest collector run; test power, harm, reform, memory, consequence, and unfinished repair.
+- World-language candidates grew in the latest collector run; track translation range, metaphor, grammar, culture, and rival readings.
+- Biblical-language candidates grew in the latest collector run; check lemma, syntax, canonical context, and scholarly counter-readings.
 - Global and comparative text candidates grew in the latest collector run; respect each tradition's own meaning before comparing patterns.
+- Psychology or human-story candidates grew in the latest collector run; separate lived repair from overclaimed theological interpretation.
 - Deep-source candidates grew in the latest collector run; review qualified evidence and counterarguments before strengthening claims.
-- Pressure-test candidates grew in the latest collector run; name failure conditions and whether the pattern holds under friction.
-- Historical-memory material grew in the latest collector run; test whether the pattern can face power, harm, repair, and communal memory.
-- Global text-tradition material grew in the latest collector run; compare patterns across genre and culture before calling them universal.
 
-Most active new tags: art_beauty: 3, trinity: 1, quantum_science_guardrails: 1, history_memory: 1
-Most active new layers: visual_art: 5, cultural_inputs: 3, theologians: 3, all_texts: 2
-Newest source-quality mix: reference metadata: 7
+Most active new tags: cultural_practice_patterns: 9, general_research_methods: 6, art_beauty: 4, trinity: 1
+Most active new layers: cultural_inputs: 14, history_inputs: 10, psychology_inputs: 10, visual_art: 8
+Newest source-quality mix: open web result: 15, reference metadata: 5, scholarly metadata: 1, speculative-risk: 1
 
 Fresh source leads to review first:
-- The consolations of Catholicism (1954) | Internet Archive | layers: visual_art, cultural_inputs, theologians | review use: can support cautious working claims when corroborated
-- Stories as Doorways (2021) | Internet Archive | layers: history_inputs, theologians | review use: can support cautious working claims when corroborated
-- Spirituality and Inner Freedom (2025) | Internet Archive | layers: visual_art, cultural_inputs, all_texts | review use: can support cautious working claims when corroborated
-- Origin of Personal and National Character (2024) | Internet Archive | layers: deep_sources, pattern_tests, visual_art, history_inputs | review use: can support cautious working claims when corroborated
-- Maker of Heaven and Earth (2021) | Internet Archive | layers: theologians, research_documents, visual_art | review use: can support cautious working claims when corroborated
-- Love is Love (2025) | Internet Archive | layers: all_texts, other_religious_texts, modern_literature | review use: can support cautious working claims when corroborated
+- Trinitarian Creation and Action (2010) | Crossref | layers: theologians, research_documents | review use: may increase confidence after claim-scope and counterargument checks
+- Medusa For CNC (3908289) (2019) | Internet Archive | layers: visual_art, cultural_inputs, biblical_languages, all_texts | review use: can support cautious working claims when corroborated
+- Big Love (2020) | Internet Archive | layers: visual_art, cultural_inputs | review use: can support cautious working claims when corroborated
+- Shahadah On Road - Streetz 2 Islam (الشوارع إلى الإسلام) (n.d.) | Internet Archive | layers: visual_art, cultural_inputs, other_religious_texts | review use: can support cautious working claims when corroborated
+- SORIN CERIN - LOVE (n.d.) | Internet Archive | layers: history_inputs, theologians, visual_art, all_texts, modern_literature | review use: can support cautious working claims when corroborated
+- Da'wah Workshop Series (62 Episodes) - 'Abdur-Raheem Green (n.d.) | Internet Archive | layers: visual_art, cultural_inputs, other_religious_texts | review use: can support cautious working claims when corroborated
 
 Reader rule: this new material can change the questions immediately, but it should not strengthen a claim until the original source and counterarguments are reviewed.
 
@@ -125,9 +125,9 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (5,722 signals)
-- Meaning And Logos: high internal signal (7,060 signals)
-- Moral Response: high internal signal (3,291 signals)
+- Life And Consciousness: high internal signal (5,723 signals)
+- Meaning And Logos: high internal signal (7,079 signals)
+- Moral Response: high internal signal (3,306 signals)
 - Worship And Community: high internal signal (2,210 signals)
 
 Chapter 2: Cross And Reversal Pattern
@@ -145,9 +145,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (7,060 signals)
-- Moral Response: high internal signal (3,291 signals)
-- Transformation: high internal signal (3,288 signals)
+- Meaning And Logos: high internal signal (7,079 signals)
+- Moral Response: high internal signal (3,306 signals)
+- Transformation: high internal signal (3,290 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -164,9 +164,9 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,762 signals)
-- Life And Consciousness: high internal signal (5,722 signals)
-- Moral Response: high internal signal (3,291 signals)
+- Physical Order: high internal signal (2,763 signals)
+- Life And Consciousness: high internal signal (5,723 signals)
+- Moral Response: high internal signal (3,306 signals)
 - Worship And Community: high internal signal (2,210 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
@@ -184,9 +184,9 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,762 signals)
-- Meaning And Logos: high internal signal (7,060 signals)
-- Transformation: high internal signal (3,288 signals)
+- Physical Order: high internal signal (2,763 signals)
+- Meaning And Logos: high internal signal (7,079 signals)
+- Transformation: high internal signal (3,290 signals)
 
 Chapter 5: Providence And Contingency Pattern
 ---------------------------------------------
@@ -203,10 +203,10 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (2,762 signals)
-- Quantum Probability: early signal (105 signals)
-- Life And Consciousness: high internal signal (5,722 signals)
-- Meaning And Logos: high internal signal (7,060 signals)
+- Physical Order: high internal signal (2,763 signals)
+- Quantum Probability: early signal (104 signals)
+- Life And Consciousness: high internal signal (5,723 signals)
+- Meaning And Logos: high internal signal (7,079 signals)
 
 Everyday Case Studies
 ---------------------
@@ -223,35 +223,37 @@ Other religions and cultures: The pattern should compare respectfully. Christian
 What The Research Currently Suggests
 ------------------------------------
 The project has analyzed 143 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
-The daily collector has retained 1,126 cloud candidate references, including 7 brand-new candidates in the latest run.
+The daily collector has retained 1,259 cloud candidate references, including 22 brand-new candidates in the latest run.
 The current corpus most visibly repeats pattern families led by Image Of God Pattern, Cross And Reversal Pattern, Creation-To-Consciousness Pattern, Trinity-As-Behavior Pattern, and Providence And Contingency Pattern.
 These are best understood as chapters in an ongoing research book. They are not final proof claims.
 
 What Changed In The Latest Collection
 -------------------------------------
-Daily collector updated: 2026-05-27T14:16:07.158840+00:00
-Retained cloud candidate references: 1,126
-Brand-new candidate references this run: 7
+Daily collector updated: 2026-06-01T15:29:29.244784+00:00
+Retained cloud candidate references: 1,259
+Brand-new candidate references this run: 22
 
 Newest evidence movement by routed layer:
-- visual_art: 5
-- cultural_inputs: 3
-- theologians: 3
-- all_texts: 2
-- history_inputs: 2
-- other_religious_texts: 2
-- deep_sources: 1
-- modern_literature: 1
+- cultural_inputs: 14
+- history_inputs: 10
+- psychology_inputs: 10
+- visual_art: 8
+- research_documents: 7
+- deep_sources: 6
+- all_texts: 4
+- theologians: 4
 
 Newest automated evidence mix:
-- moderate_scholarly_candidate: 7
+- weak_scholarly_candidate: 16
+- moderate_scholarly_candidate: 5
+- strong_scholarly_candidate: 1
 
 Newest sources shaping today's questions:
-- Maker of Heaven and Earth (2021) | layers: theologians, research_documents, visual_art | evidence: moderate_scholarly_candidate
-- Origin of Personal and National Character (2024) | layers: deep_sources, pattern_tests, visual_art, history_inputs | evidence: moderate_scholarly_candidate
-- Imam Siraj Wahhaj - Complete Audio Collection (200+) (n.d.) | layers: visual_art, cultural_inputs, other_religious_texts | evidence: moderate_scholarly_candidate
-- Spirituality and Inner Freedom (2025) | layers: visual_art, cultural_inputs, all_texts | evidence: moderate_scholarly_candidate
-- The consolations of Catholicism (1954) | layers: visual_art, cultural_inputs, theologians | evidence: moderate_scholarly_candidate
+- Trinitarian Creation and Action (2010) | layers: theologians, research_documents | evidence: strong_scholarly_candidate
+- Medusa For CNC (3908289) (2019) | layers: visual_art, cultural_inputs, biblical_languages, all_texts | evidence: moderate_scholarly_candidate
+- Da'wah Workshop Series (62 Episodes) - 'Abdur-Raheem Green (n.d.) | layers: visual_art, cultural_inputs, other_religious_texts | evidence: moderate_scholarly_candidate
+- Big Love (2020) | layers: visual_art, cultural_inputs | evidence: moderate_scholarly_candidate
+- Shahadah On Road - Streetz 2 Islam (الشوارع إلى الإسلام) (n.d.) | layers: visual_art, cultural_inputs, other_religious_texts | evidence: moderate_scholarly_candidate
 
 Reader note: cloud candidates change the research questions immediately, but they should strengthen conclusions only after source review.
 
