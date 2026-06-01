@@ -1,109 +1,49 @@
 {
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 563,
+    "moderate_scholarly_candidate": 569,
     "strong_scholarly_candidate": 579,
     "weak_scholarly_candidate": 125
   },
-  "errors": [
-    "search_arxiv failed for quantum_science_guardrails: The read operation timed out"
-  ],
+  "errors": [],
   "layer_counts": {
-    "all_texts": 405,
+    "all_texts": 406,
     "biblical_languages": 103,
-    "cultural_inputs": 316,
-    "deep_sources": 354,
-    "history_inputs": 325,
+    "cultural_inputs": 318,
+    "deep_sources": 355,
+    "history_inputs": 328,
     "human_stories": 297,
     "modern_literature": 163,
     "music_notes": 78,
-    "other_religious_texts": 275,
+    "other_religious_texts": 276,
     "pattern_tests": 222,
     "psychology_inputs": 299,
-    "research_documents": 144,
+    "research_documents": 145,
     "research_documents/christian_sources": 112,
-    "theologians": 308,
-    "visual_art": 415,
+    "theologians": 312,
+    "visual_art": 419,
     "world_languages": 240
   },
   "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 6,
-    "strong_scholarly_candidate": 1,
-    "weak_scholarly_candidate": 1
+    "moderate_scholarly_candidate": 6
   },
-  "new_count": 8,
+  "new_count": 6,
   "new_layer_counts": {
-    "all_texts": 2,
-    "cultural_inputs": 5,
-    "deep_sources": 2,
-    "history_inputs": 2,
-    "human_stories": 1,
-    "modern_literature": 1,
-    "other_religious_texts": 2,
-    "pattern_tests": 2,
-    "psychology_inputs": 1,
-    "theologians": 1,
-    "visual_art": 5
+    "all_texts": 1,
+    "cultural_inputs": 2,
+    "deep_sources": 1,
+    "history_inputs": 3,
+    "other_religious_texts": 1,
+    "research_documents": 1,
+    "theologians": 4,
+    "visual_art": 4
   },
   "new_provider_counts": {
-    "Europe PMC": 1,
-    "Internet Archive": 7
+    "Internet Archive": 6
   },
   "new_sources": [
     {
       "authors": [
-        "van Nieuw Amerongen JC",
-        "van Stam C",
-        "Romkes-Bart AM"
-      ],
-      "automated_evidence_label": "strong_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "DOI or stable scholarly identifier present",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 10,
-      "automated_evidence_warnings": [],
-      "citation_count": 0,
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "corroborating_source_count": 619,
-      "date_accessed": "2026-06-01",
-      "doi": "10.3390/bs16050685",
-      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "10.3390/bs16050685",
-      "layer_review_prompts": [
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
-      ],
-      "layer_routes": [
-        "pattern_tests",
-        "deep_sources",
-        "psychology_inputs",
-        "human_stories",
-        "all_texts"
-      ],
-      "primary_layer": "pattern_tests",
-      "provider": "Europe PMC",
-      "quality": "scholarly metadata",
-      "review_status": "machine_assessed_strong_scholarly_candidate",
-      "source_type": "scholarly metadata",
-      "summary": "Existential, spiritual, and religious themes often evoke strong emotions in therapy, yet little is known about how clients' emotion regulation relates to these aspects. Spiritual psychotherapy for inpatient residential and intensive treatment (SPIRIT) integrates meaning in life within a cognitive-behavioral treatment (CBT) framework in acute and intensive mental health care and provides an appropriate context for examining this. This qualitative study explores: (1) clients' beliefs about expressing, managing, or suppressing emotions related to meaning in life, spirituality, or religion (MSR); (2) how emotion regulation strategies (e.g., reappraisal, acceptance, and distress tolerance) are in",
-      "tags": [
-        "unresolved_suffering"
-      ],
-      "title": "\"So Much Comes Up\": Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes.",
-      "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.3390/bs16050685",
-      "year": "2026"
-    },
-    {
-      "authors": [
-        "Jacob Gan"
+        "St. Seraphim of Platina"
       ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
@@ -116,34 +56,38 @@
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 433,
+      "corroborating_source_count": 550,
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/httpsprep4uni.onlinestemsciencephysicsmodern-physicsquantum-mechanicsheisenbergs",
+      "id": "https://archive.org/details/gods-revelation-to-the-human-heart_202604",
       "layer_review_prompts": [
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
       ],
       "layer_routes": [
-        "deep_sources",
-        "pattern_tests",
-        "history_inputs"
+        "theologians",
+        "research_documents",
+        "visual_art",
+        "all_texts",
+        "other_religious_texts"
       ],
-      "primary_layer": "deep_sources",
+      "primary_layer": "theologians",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "This comprehensive educational resource offers an in-depth exploration of Heisenberg\u2019s Uncertainty Principle, a cornerstone of quantum mechanics that redefines how we understand the limits of knowledge in the physical universe. The page covers its historical development by Werner Heisenberg, the mathematical formulation involving position and momentum, and the broader implications for non-commuting observables such as energy and time. Real-world applications are clearly illustrated through quantum computing, quantum cryptography, electron microscopy, and precision metrology, highlighting how uncertainty is not just a constraint but a catalyst for innovation. The resource also features intuit",
+      "source_type": "archive.org audio",
+      "summary": "God's Revelation to the Human Heart Lecture of Fr. Seraphim Rose at the University of California, Santa Cruz May 15, 1981 Introduction by Hieromonk Damascene Fr. Seraphim Rose , God\u2019s Revelation to the Human Heart , St. Herman of Alaska Brotherhood, Platina, California, 2014, pp. 7-13 In the spring of 1981, less than a year and a half before his repose, Fr Seraphim Rose was invited to give a lecture at the University of California, Santa Cruz. His audience was to be comprised of students from a class on comparative religions, called \u201cWorld Religions in the U.S.\u201d [. . .] Santa Cruz had been a center for the nationwide spiritual quest that had reached its peak in the late 1960s and early 1970s",
       "tags": [
-        "quantum_science_guardrails"
+        "trinity"
       ],
-      "title": "Heisenburg Uncertainty Principle \u2013 Prep 4 Uni Online",
+      "title": "St. Seraphim of Platina - God's Revelation To The Human Heart. 1981",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/httpsprep4uni.onlinestemsciencephysicsmodern-physicsquantum-mechanicsheisenbergs",
-      "year": "2025"
+      "url": "https://archive.org/details/gods-revelation-to-the-human-heart_202604",
+      "year": "1981"
     },
     {
       "authors": [
@@ -164,7 +108,7 @@
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/eotr-bluemoon",
+      "id": "https://archive.org/details/eotr-happensautomagically1of2",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims."
@@ -178,100 +122,14 @@
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org audio",
-      "summary": "EAR OF THE RAT is an on-going open source improvised sound recording project A 21st Century Un-band recorded live August 31, 2012 underneath a giant size, super full, bright blue moon in beautiful downtown St.Catharines thanks again to all the friends and listeners keep up to date with all yer rat news @ eotrnews.blogspot.ca Ear of the Rat records to one stereo digital track @48,000 hz using a ZOOM Handy Recorder H4n Post-production and dither down to 256kbps mp3 utilizing the open source powers of Audacity http://audacity.sourceforge.net/ \"Unlike other types of rock, home rock is big on friendly enthusiasm and those types of swinging rock sounds that can only be created in the comfort of le",
+      "summary": "EAR OF THE RAT is an on-going open source improvised sound recording project A 21st Century Un-band recorded live January 18, 2013 in beautiful downtown St.Catharines thanks again to all the friends and listeners keep up to date with all yer rat news @ http://earoftheratnews.blogspot.ca Ear of the Rat records to two digital stereo tracks @48,000 hz using a ZOOM Handy Recorder H4n Post-production and dither down to 256kbps mp3 with a licensed version of REAPER http://www.reaper.fm/ EOTR streams live musical improvisations every friday night http://www.ustream.tv/channel/earoftherat if you miss a night you can catch up on youtube! http://youtu.be/BvHwfCoM9EE http://en.wiktionary.org/wiki/autom",
       "tags": [
         "art_beauty"
       ],
-      "title": "EOTR - Blue Moon",
+      "title": "EOTR - HAPPENS AUTOMAGICALLY (1 of 2)",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Eotr-BlueMoon",
-      "year": "2012"
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 396,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/shahadahstoriesstreets2islamlesserquality",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org movies",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Islamic files. ------------------------------------------------------------------------------------------------------------------------------------------------------- WARNING: This is an old video that contains musical instruments which are Haraam (Islamically forbidden) in Islaam. They were initially included strictly for Da'wah purposes and not for the purpose of entertainment. Musical Instruments are no longer included in recent videos strictly because of its prohibition in Islaam. The Prophet \ufdfa said (which means), \"From among my followers there will be some",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Shahadah Stories - Streets 2 Islam",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/ShahadahStoriesStreets2IslamLesserQuality",
-      "year": null
-    },
-    {
-      "authors": [
-        "Alzuridin"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 396,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/yasirqadhicollection",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "other_religious_texts"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Isl \u0101 mic files. ------------------------------------------------------------------------------------------------------------------------------ Yasir Qadhi is a lecturer and Islamic orator who has authored several books about Islam. He is a popular speaker in many Muslim circles in the United States, Canada, England and Australia. He is one of the few people who has combined a traditional seminary training with Western education. He was born in Houston, Texas, went to high school in Jeddah, Saudi Arabia, and worked for Dow Chemical on a short stint. He then dec",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Yasir Qadhi - Complete Audio Collection (900+)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/YasirQadhiCollection",
-      "year": null
+      "url": "https://archive.org/details/Eotr-HappensAutomagically1Of2",
+      "year": "2013"
     },
     {
       "authors": [
@@ -287,116 +145,162 @@
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 576,
+      "corroborating_source_count": 420,
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/sorincerinibelievedintheeternityoflove",
+      "id": "https://archive.org/details/bookswrittenbysorincerin2020",
       "layer_review_prompts": [
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
       ],
       "layer_routes": [
         "history_inputs",
         "theologians",
-        "visual_art",
-        "all_texts",
-        "modern_literature"
+        "visual_art"
       ],
       "primary_layer": "history_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
       "source_type": "archive.org texts",
-      "summary": "SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, the author of a new philosophical system called Coaxialism, an existentialist poet from the 21st century, essayist and novelist. Sorin Cerin is particularly sought after by the great public for the11,486 structured aphorisms in 14 volumes of thoughts previously published in various publishing houses, and then to be reunited under the aegis of a monumental volume called Wisdom Collection, a title that brought him celebrity and international recognition, for which he is considered to be one of the most representative thinkers of the aphori",
+      "summary": "Sorin Cerin \u2013 books which can be viewed on Google Books, bibliography 2020 with literary and philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, author of a new philosophical system called Coaxialism, and an important 21st-century existentialist poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard. Sorin Cerin is especially sought after by the general public, both for his philosophical poems, which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms, structured in several ",
       "tags": [
         "history_memory"
       ],
-      "title": "I BELIEVED IN THE ETERNITY OF LOVE - Philosophical poems by SORIN CERIN",
+      "title": "Books Written By Sorin Cerin 2020",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/SORINCERINIBELIEVEDINTHEETERNITYOFLOVE",
+      "url": "https://archive.org/details/bookswrittenbysorincerin2020",
       "year": null
     },
     {
-      "authors": [],
+      "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
         "publication year present",
         "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 7,
+      "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 155,
+      "corroborating_source_count": 300,
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_africa_20190528_180000",
+      "id": "https://archive.org/details/complete_service_first_unitari-20250105complete",
       "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims."
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
       ],
       "layer_routes": [
-        "cultural_inputs"
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\"The Stories We Tell\" Sunday, January 5, 2025, 10:50 am Humans are storytellers, and stories have the power to influence us, for better or worse. Our affiliated community minister, Rev. Mille Phillips, will address what stories we tell ourselves or others. Do they empower us or hold us back? Which do we need to rewrite or retell? What stories do we need in 2025? Rev. Millie Phillips, Affiliated Community Minister; Santana Gonzalez-Gomez, Worship Associate; Stephen Cox, pianist; Jon Silk, drummer; Akan\u00e9 Ota, songleader Shulee Ong; Eric Shackelford; Francisco Castellanos; Eli Boshears, Camera Operators; Jonathan Silk, Communications Director; Thomas Brown, Jose Matias Pineda, and Francisco Cas",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "The Stories We Tell",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20250105Complete",
+      "year": "2025"
+    },
+    {
+      "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 300,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20201101vrscomplete",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\u201cHealing and Hope\" (November 1, 2020) Worship Service In this lead up to this election, which for many of us feels like the very future of our nation, of its best self, lies in the balance, let\u2019s talk about what will be required of us on the other side. Let's talk about healing and hope. Rev. Vanessa Rush Southern, Senior Minister Rev. Alyson Jacks, Associate Minister Reiko Oda Lane, organist Mark Sumner, director VanNessa Hulme, soprano Brielle Marina Neilson, mezzo soprano Ben Rudiak-Gould, tenor Asher Davison, bass Wm. Garc\u00eda Ganz, accompanist Eric Shackelford, camera Shulee Ong, camera Joe Chapot, Social Media Chat Support Alex Darr, Coffee Hour Zoom Jonathan Silk, OOS, Sound, drums",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Healing and Hope",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20201101VRSComplete",
+      "year": "2020"
+    },
+    {
+      "authors": [
+        "Jeremy Pitt"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 477,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/ai4eq",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "visual_art",
+        "deep_sources"
       ],
       "primary_layer": "cultural_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 Correspondent Charles Taylor Desmo reports and says it doesn't feel 00:00:03 a possible war with the u.s. 00:00:05 And claims that America has grown in power in recent years the latest tough talk 00:00:11 from Toronto amid escalating regional tensions and 00:00:14 a crisis with Washington speaking at 00:00:16 a press conference in Toronto the spokesman explained the guard doesn't supporting 00:00:21 gaging in any war while at the same time he doesn't fear the occurrence of 00:00:25 a war he said units of enough readiness to defend the country I think that Iran has 00:00:30 boosted its military power over the past 30 years I'm shells of that as the u.n. 00",
+      "source_type": "archive.org movies",
+      "summary": "https://rppc.github.io/ai4eq/ Scope of the Workshop The first International Workshop on Artificial Intelligence for Equity (AI4Eq) was held virtually and in Santiago de Compostela (Spain) in conjunction with ECAI2020. The focus of this workshop was to examine the role of AI science and technology in advancing towards the United Nations (UN) Sustainable Development Goals, particularly in the context of a mix of standard, policies, regulations, declaration and charters on both the Ethics of AI, Machine Learning and Big Data, and on Human rights, including the UN's own Global Pulse Initiative, UN rapporteurs reports on extreme poverty, human rights and modern slavery, the IEEE Global Initiative",
       "tags": [
         "technology_ethics"
       ],
-      "title": "VOA [Voice of America] Africa : May 28, 2019 02:00PM-03:00PM EDT",
+      "title": "AI4Eq@ISTAS21 by Jeremy Pitt of ICL",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Africa_20190528_180000",
-      "year": "2019"
-    },
-    {
-      "authors": [],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "speculative or overclaim language detected"
-      ],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 272,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://archive.org/details/voa_africa_20191129_060000",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "visual_art"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "speculative-risk",
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 A deadline for the United States to offer more concessions installed nuclear talks 00:00:05 North Korea last month walked out of working level nuclear negotiations with the 00:00:09 United States it blamed Washington for the breakdown in the north has since warned 00:00:13 it could restart nuclear or long range missile tests Vili's Bill Gallo and next 00:00:19 Polish president talks to the a.p. 00:00:20 About Hunter Biden and Greaseman maybe Correspondent Mike Rossi 00:00:25 a former president of Poland who is on the board of the Ukrainian gas company 00:00:28 Barisan is defending Hunter Biden this contribution to the Advisory Board Alexander 00:00:33 cau",
-      "tags": [
-        "technology_ethics"
-      ],
-      "title": "VOA [Voice of America] Africa : November 29, 2019 01:00AM-02:00AM EST",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Africa_20191129_060000",
-      "year": "2019"
+      "url": "https://archive.org/details/ai4eq",
+      "year": "2021"
     }
   ],
   "opencitations_enriched_count": 25,
@@ -406,7 +310,7 @@
     "Internet Archive": 107,
     "OpenAlex": 288,
     "PubMed": 26,
-    "arXiv": 5
+    "arXiv": 30
   },
-  "updated_at": "2026-06-01T16:43:06.414546+00:00"
+  "updated_at": "2026-06-01T17:53:27.778610+00:00"
 }

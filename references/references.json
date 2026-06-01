@@ -1,5 +1,5 @@
 {
-  "source_count": 1267,
+  "source_count": 1273,
   "sources": [
     {
       "authors": [
@@ -1560,6 +1560,48 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/Eotr-BlueMoon",
       "year": "2012"
+    },
+    {
+      "authors": [
+        "EAR OF THE RAT"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 272,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/eotr-happensautomagically1of2",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "EAR OF THE RAT is an on-going open source improvised sound recording project A 21st Century Un-band recorded live January 18, 2013 in beautiful downtown St.Catharines thanks again to all the friends and listeners keep up to date with all yer rat news @ http://earoftheratnews.blogspot.ca Ear of the Rat records to two digital stereo tracks @48,000 hz using a ZOOM Handy Recorder H4n Post-production and dither down to 256kbps mp3 with a licensed version of REAPER http://www.reaper.fm/ EOTR streams live musical improvisations every friday night http://www.ustream.tv/channel/earoftherat if you miss a night you can catch up on youtube! http://youtu.be/BvHwfCoM9EE http://en.wiktionary.org/wiki/autom",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "EOTR - HAPPENS AUTOMAGICALLY (1 of 2)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Eotr-HappensAutomagically1Of2",
+      "year": "2013"
     },
     {
       "authors": [
@@ -18765,6 +18807,49 @@
     },
     {
       "authors": [
+        "Sorin Cerin"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 420,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/bookswrittenbysorincerin2020",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "visual_art"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Sorin Cerin \u2013 books which can be viewed on Google Books, bibliography 2020 with literary and philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, author of a new philosophical system called Coaxialism, and an important 21st-century existentialist poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard. Sorin Cerin is especially sought after by the general public, both for his philosophical poems, which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms, structured in several ",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Books Written By Sorin Cerin 2020",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/bookswrittenbysorincerin2020",
+      "year": null
+    },
+    {
+      "authors": [
         "Alimi T",
         "Antus EL",
         "Balthrop-Lewis A"
@@ -19316,6 +19401,48 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1086/696691",
       "year": 2018
+    },
+    {
+      "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 300,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20201101vrscomplete",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\u201cHealing and Hope\" (November 1, 2020) Worship Service In this lead up to this election, which for many of us feels like the very future of our nation, of its best self, lies in the balance, let\u2019s talk about what will be required of us on the other side. Let's talk about healing and hope. Rev. Vanessa Rush Southern, Senior Minister Rev. Alyson Jacks, Associate Minister Reiko Oda Lane, organist Mark Sumner, director VanNessa Hulme, soprano Brielle Marina Neilson, mezzo soprano Ben Rudiak-Gould, tenor Asher Davison, bass Wm. Garc\u00eda Ganz, accompanist Eric Shackelford, camera Shulee Ong, camera Joe Chapot, Social Media Chat Support Alex Darr, Coffee Hour Zoom Jonathan Silk, OOS, Sound, drums",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Healing and Hope",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20201101VRSComplete",
+      "year": "2020"
     },
     {
       "authors": [],
@@ -21428,6 +21555,48 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/9781548779504Thephilosophyofloveloveanddestiny",
       "year": null
+    },
+    {
+      "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 300,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20250105complete",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "\"The Stories We Tell\" Sunday, January 5, 2025, 10:50 am Humans are storytellers, and stories have the power to influence us, for better or worse. Our affiliated community minister, Rev. Mille Phillips, will address what stories we tell ourselves or others. Do they empower us or hold us back? Which do we need to rewrite or retell? What stories do we need in 2025? Rev. Millie Phillips, Affiliated Community Minister; Santana Gonzalez-Gomez, Worship Associate; Stephen Cox, pianist; Jon Silk, drummer; Akan\u00e9 Ota, songleader Shulee Ong; Eric Shackelford; Francisco Castellanos; Eli Boshears, Camera Operators; Jonathan Silk, Communications Director; Thomas Brown, Jose Matias Pineda, and Francisco Cas",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "The Stories We Tell",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20250105Complete",
+      "year": "2025"
     },
     {
       "authors": [],
@@ -31847,6 +32016,9 @@
         "music_notes",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "music_notes",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -32209,6 +32381,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -32236,10 +32411,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "high citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 13,
       "automated_evidence_warnings": [],
+      "citation_count": 129,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 523,
       "date_accessed": "2026-05-25",
@@ -32260,6 +32437,9 @@
         "deep_sources",
         "modern_literature"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 129,
+      "opencitations_reference_count": 26,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -32311,6 +32491,9 @@
         "deep_sources",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -32454,6 +32637,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 76,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -32640,6 +32826,9 @@
         "deep_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -32692,6 +32881,9 @@
         "deep_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -32744,6 +32936,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -32791,6 +32986,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -32843,6 +33041,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -32887,6 +33088,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -32939,6 +33143,9 @@
         "deep_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -32987,6 +33194,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -33034,6 +33244,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -33088,6 +33301,9 @@
         "deep_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -33115,10 +33331,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
+      "citation_count": 19,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 486,
       "date_accessed": "2026-05-25",
@@ -33137,6 +33355,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 19,
+      "opencitations_reference_count": 16,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -33187,6 +33408,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -33240,6 +33464,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -33266,10 +33493,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "moderate citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 12,
       "automated_evidence_warnings": [],
+      "citation_count": 26,
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 486,
       "date_accessed": "2026-05-25",
@@ -33288,6 +33517,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 26,
+      "opencitations_reference_count": 3,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -33337,6 +33569,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -33389,6 +33624,9 @@
         "deep_sources",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -33435,6 +33673,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -33481,6 +33722,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -33530,6 +33774,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 8,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -33582,6 +33829,9 @@
         "deep_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -44405,6 +44655,50 @@
     },
     {
       "authors": [
+        "Jeremy Pitt"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 477,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/ai4eq",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "visual_art",
+        "deep_sources"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org movies",
+      "summary": "https://rppc.github.io/ai4eq/ Scope of the Workshop The first International Workshop on Artificial Intelligence for Equity (AI4Eq) was held virtually and in Santiago de Compostela (Spain) in conjunction with ECAI2020. The focus of this workshop was to examine the role of AI science and technology in advancing towards the United Nations (UN) Sustainable Development Goals, particularly in the context of a mix of standard, policies, regulations, declaration and charters on both the Ethics of AI, Machine Learning and Big Data, and on Human rights, including the UN's own Global Pulse Initiative, UN rapporteurs reports on extreme poverty, human rights and modern slavery, the IEEE Global Initiative",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "AI4Eq@ISTAS21 by Jeremy Pitt of ICL",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/ai4eq",
+      "year": "2021"
+    },
+    {
+      "authors": [
         "T. S. M. Williams"
       ],
       "automated_evidence_label": "strong_scholarly_candidate",
@@ -50981,6 +51275,54 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/slayingthetrinitarianonenesschimaera_202001",
       "year": "2020"
+    },
+    {
+      "authors": [
+        "St. Seraphim of Platina"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 550,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/gods-revelation-to-the-human-heart_202604",
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Use as general research context until a more specific layer is reviewed.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents",
+        "visual_art",
+        "all_texts",
+        "other_religious_texts"
+      ],
+      "primary_layer": "theologians",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "archive.org audio",
+      "summary": "God's Revelation to the Human Heart Lecture of Fr. Seraphim Rose at the University of California, Santa Cruz May 15, 1981 Introduction by Hieromonk Damascene Fr. Seraphim Rose , God\u2019s Revelation to the Human Heart , St. Herman of Alaska Brotherhood, Platina, California, 2014, pp. 7-13 In the spring of 1981, less than a year and a half before his repose, Fr Seraphim Rose was invited to give a lecture at the University of California, Santa Cruz. His audience was to be comprised of students from a class on comparative religions, called \u201cWorld Religions in the U.S.\u201d [. . .] Santa Cruz had been a center for the nationwide spiritual quest that had reached its peak in the late 1960s and early 1970s",
+      "tags": [
+        "trinity"
+      ],
+      "title": "St. Seraphim of Platina - God's Revelation To The Human Heart. 1981",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/gods-revelation-to-the-human-heart_202604",
+      "year": "1981"
     },
     {
       "authors": [
@@ -58737,5 +59079,5 @@
       "year": null
     }
   ],
-  "updated_at": "2026-06-01T16:43:06.414546+00:00"
+  "updated_at": "2026-06-01T17:53:27.778610+00:00"
 }

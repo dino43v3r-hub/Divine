@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-06-01T16:44:10.686569+00:00
+Generated: 2026-06-01T17:54:33.708691+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -40,18 +40,18 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-06-01T16:43:06.414546+00:00
-Retained cloud candidate references: 1,267
-Brand-new candidate references this run: 8
-Top new routed layers: cultural_inputs: 5, visual_art: 5, all_texts: 2, deep_sources: 2
-New evidence mix: moderate_scholarly_candidate: 6, strong_scholarly_candidate: 1, weak_scholarly_candidate: 1
-New provider mix: Internet Archive: 7, Europe PMC: 1
+Collector run: 2026-06-01T17:53:27.778610+00:00
+Retained cloud candidate references: 1,273
+Brand-new candidate references this run: 6
+Top new routed layers: theologians: 4, visual_art: 4, history_inputs: 3, cultural_inputs: 2
+New evidence mix: moderate_scholarly_candidate: 6
+New provider mix: Internet Archive: 6
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 
-_Full report has 437 lines. Open the linked report above to read everything._
+_Full report has 435 lines. Open the linked report above to read everything._
 ```
 
 ## reports/disciplined_theological_assistant_report.txt
@@ -101,7 +101,7 @@ Chapter One: What Grew In The Latest Run?
 -----------------------------------------
 This chapter summarizes the newest retained research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 514 lines. Open the linked report above to read everything._
+_Full report has 497 lines. Open the linked report above to read everything._
 ```
 
 ## reports/top_five_divine_patterns_report.txt
@@ -135,9 +135,9 @@ _Full report has 255 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-01T16:43:06.459998+00:00
-Total references: 1,267
-New references this run: 8
+Updated: 2026-06-01T17:53:27.822981+00:00
+Total references: 1,273
+New references this run: 6
 
 Guardrails
 ----------
@@ -151,7 +151,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 379 lines. Open the linked report above to read everything._
+_Full report has 359 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -170,13 +170,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 33
-Total analyzed words: 734,865
+Total analyzed words: 734,519
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 1,048 lines. Open the linked report above to read everything._
+_Full report has 1,043 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -391,15 +391,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### "So Much Comes Up": Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes.
+### St. Seraphim of Platina - God's Revelation To The Human Heart. 1981
 
-- Review status: machine_assessed_strong_scholarly_candidate
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: unresolved_suffering
-- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
-- Primary layer: pattern_tests
-- Provider: Europe PMC
-- Quality: scholarly metadata
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: trinity
+- Layer routes: theologians, research_documents, visual_art, all_texts, other_religious_texts
+- Primary layer: theologians
+- Provider: Internet Archive
+- Quality: reference metadata
 
-_Full report has 295 lines. Open the linked report above to read everything._
+_Full report has 221 lines. Open the linked report above to read everything._
 ```

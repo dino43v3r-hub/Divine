@@ -7,68 +7,29 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### "So Much Comes Up": Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes.
-
-- Review status: machine_assessed_strong_scholarly_candidate
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: unresolved_suffering
-- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
-- Primary layer: pattern_tests
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 619
-- Year: 2026
-- URL: https://doi.org/10.3390/bs16050685
-
-Existential, spiritual, and religious themes often evoke strong emotions in therapy, yet little is
-known about how clients' emotion regulation relates to these aspects. Spiritual psychotherapy for
-inpatient residential and intensive treatment (SPIRIT) integrates meaning in life within a
-cognitive-behavioral treatment (CBT) framework in acute and intensive mental health care and
-provides an appropriate context for examining this. This qualitative study explores: (1) clients'
-beliefs about expressing, managing, or suppressing emotions related to meaning in life,
-spirituality, or religion (MSR); (2) how emotion regulation strategies (e.g., reappraisal,
-acceptance, and distress tolerance) are in
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### Heisenburg Uncertainty Principle – Prep 4 Uni Online
+### St. Seraphim of Platina - God's Revelation To The Human Heart. 1981
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests, history_inputs
-- Primary layer: deep_sources
+- Tags: trinity
+- Layer routes: theologians, research_documents, visual_art, all_texts, other_religious_texts
+- Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 433
-- Year: 2025
-- URL: https://archive.org/details/httpsprep4uni.onlinestemsciencephysicsmodern-physicsquantum-mechanicsheisenbergs
+- Corroborating routed candidates: 550
+- Year: 1981
+- URL: https://archive.org/details/gods-revelation-to-the-human-heart_202604
 
-This comprehensive educational resource offers an in-depth exploration of Heisenberg’s Uncertainty
-Principle, a cornerstone of quantum mechanics that redefines how we understand the limits of
-knowledge in the physical universe. The page covers its historical development by Werner Heisenberg,
-the mathematical formulation involving position and momentum, and the broader implications for non-
-commuting observables such as energy and time. Real-world applications are clearly illustrated
-through quantum computing, quantum cryptography, electron microscopy, and precision metrology,
-highlighting how uncertainty is not just a constraint but a catalyst for innovation. The resource
-also features intuit
+God's Revelation to the Human Heart Lecture of Fr. Seraphim Rose at the University of California,
+Santa Cruz May 15, 1981 Introduction by Hieromonk Damascene Fr. Seraphim Rose , God’s Revelation to
+the Human Heart , St. Herman of Alaska Brotherhood, Platina, California, 2014, pp. 7-13 In the
+spring of 1981, less than a year and a half before his repose, Fr Seraphim Rose was invited to give
+a lecture at the University of California, Santa Cruz. His audience was to be comprised of students
+from a class on comparative religions, called “World Religions in the U.S.” [. . .] Santa Cruz had
+been a center for the nationwide spiritual quest that had reached its peak in the late 1960s and
+early 1970s
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -78,11 +39,13 @@ Automated evidence reasons:
 - many routed corroborating candidates
 
 Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
 
-### EOTR - Blue Moon
+### EOTR - HAPPENS AUTOMAGICALLY (1 of 2)
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
@@ -94,17 +57,16 @@ Layer review prompts:
 - Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 272
-- Year: 2012
-- URL: https://archive.org/details/Eotr-BlueMoon
+- Year: 2013
+- URL: https://archive.org/details/Eotr-HappensAutomagically1Of2
 
 EAR OF THE RAT is an on-going open source improvised sound recording project A 21st Century Un-band
-recorded live August 31, 2012 underneath a giant size, super full, bright blue moon in beautiful
-downtown St.Catharines thanks again to all the friends and listeners keep up to date with all yer
-rat news @ eotrnews.blogspot.ca Ear of the Rat records to one stereo digital track @48,000 hz using
-a ZOOM Handy Recorder H4n Post-production and dither down to 256kbps mp3 utilizing the open source
-powers of Audacity http://audacity.sourceforge.net/ "Unlike other types of rock, home rock is big on
-friendly enthusiasm and those types of swinging rock sounds that can only be created in the comfort
-of le
+recorded live January 18, 2013 in beautiful downtown St.Catharines thanks again to all the friends
+and listeners keep up to date with all yer rat news @ http://earoftheratnews.blogspot.ca Ear of the
+Rat records to two digital stereo tracks @48,000 hz using a ZOOM Handy Recorder H4n Post-production
+and dither down to 256kbps mp3 with a licensed version of REAPER http://www.reaper.fm/ EOTR streams
+live musical improvisations every friday night http://www.ustream.tv/channel/earoftherat if you miss
+a night you can catch up on youtube! http://youtu.be/BvHwfCoM9EE http://en.wiktionary.org/wiki/autom
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -117,99 +79,29 @@ Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
 
-### Shahadah Stories - Streets 2 Islam
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, other_religious_texts
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 396
-- Year: n.d.
-- URL: https://archive.org/details/ShahadahStoriesStreets2IslamLesserQuality
-
-Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
-watch/listen/download more free Islamic files. -----------------------------------------------------
---------------------------------------------------------------------------------------------------
-WARNING: This is an old video that contains musical instruments which are Haraam (Islamically
-forbidden) in Islaam. They were initially included strictly for Da'wah purposes and not for the
-purpose of entertainment. Musical Instruments are no longer included in recent videos strictly
-because of its prohibition in Islaam. The Prophet ﷺ said (which means), "From among my followers
-there will be some
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Yasir Qadhi - Complete Audio Collection (900+)
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, other_religious_texts
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 396
-- Year: n.d.
-- URL: https://archive.org/details/YasirQadhiCollection
-
-Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
-watch/listen/download more free Isl ā mic files. ---------------------------------------------------
---------------------------------------------------------------------------- Yasir Qadhi is a
-lecturer and Islamic orator who has authored several books about Islam. He is a popular speaker in
-many Muslim circles in the United States, Canada, England and Australia. He is one of the few people
-who has combined a traditional seminary training with Western education. He was born in Houston,
-Texas, went to high school in Jeddah, Saudi Arabia, and worked for Dow Chemical on a short stint. He
-then dec
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### I BELIEVED IN THE ETERNITY OF LOVE - Philosophical poems by SORIN CERIN
+### Books Written By Sorin Cerin 2020
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
+- Layer routes: history_inputs, theologians, visual_art
 - Primary layer: history_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 576
+- Corroborating routed candidates: 420
 - Year: n.d.
-- URL: https://archive.org/details/SORINCERINIBELIEVEDINTHEETERNITYOFLOVE
+- URL: https://archive.org/details/bookswrittenbysorincerin2020
 
-SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) If Osho is
-a mystic in his aphorisms, Sorin Cerin is a philosopher, the author of a new philosophical system
-called Coaxialism, an existentialist poet from the 21st century, essayist and novelist. Sorin Cerin
-is particularly sought after by the great public for the11,486 structured aphorisms in 14 volumes of
-thoughts previously published in various publishing houses, and then to be reunited under the aegis
-of a monumental volume called Wisdom Collection, a title that brought him celebrity and
-international recognition, for which he is considered to be one of the most representative thinkers
-of the aphori
+Sorin Cerin – books which can be viewed on Google Books, bibliography 2020 with literary and
+philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian
+philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher,
+author of a new philosophical system called Coaxialism, and an important 21st-century existentialist
+poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard.
+Sorin Cerin is especially sought after by the general public, both for his philosophical poems,
+which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms,
+structured in several
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -221,75 +113,109 @@ Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 
-### VOA [Voice of America] Africa : May 28, 2019 02:00PM-03:00PM EDT
+### The Stories We Tell
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: history_memory
+- Layer routes: history_inputs, theologians
+- Primary layer: history_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 300
+- Year: 2025
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20250105Complete
+
+"The Stories We Tell" Sunday, January 5, 2025, 10:50 am Humans are storytellers, and stories have
+the power to influence us, for better or worse. Our affiliated community minister, Rev. Mille
+Phillips, will address what stories we tell ourselves or others. Do they empower us or hold us back?
+Which do we need to rewrite or retell? What stories do we need in 2025? Rev. Millie Phillips,
+Affiliated Community Minister; Santana Gonzalez-Gomez, Worship Associate; Stephen Cox, pianist; Jon
+Silk, drummer; Akané Ota, songleader Shulee Ong; Eric Shackelford; Francisco Castellanos; Eli
+Boshears, Camera Operators; Jonathan Silk, Communications Director; Thomas Brown, Jose Matias
+Pineda, and Francisco Cas
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### Healing and Hope
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: history_memory
+- Layer routes: history_inputs, theologians
+- Primary layer: history_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 300
+- Year: 2020
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20201101VRSComplete
+
+“Healing and Hope" (November 1, 2020) Worship Service In this lead up to this election, which for
+many of us feels like the very future of our nation, of its best self, lies in the balance, let’s
+talk about what will be required of us on the other side. Let's talk about healing and hope. Rev.
+Vanessa Rush Southern, Senior Minister Rev. Alyson Jacks, Associate Minister Reiko Oda Lane,
+organist Mark Sumner, director VanNessa Hulme, soprano Brielle Marina Neilson, mezzo soprano Ben
+Rudiak-Gould, tenor Asher Davison, bass Wm. García Ganz, accompanist Eric Shackelford, camera Shulee
+Ong, camera Joe Chapot, Social Media Chat Support Alex Darr, Coffee Hour Zoom Jonathan Silk, OOS,
+Sound, drums
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### AI4Eq@ISTAS21 by Jeremy Pitt of ICL
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: technology_ethics
-- Layer routes: cultural_inputs
+- Layer routes: cultural_inputs, visual_art, deep_sources
 - Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
+- Automated evidence: moderate_scholarly_candidate (8)
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 155
-- Year: 2019
-- URL: https://archive.org/details/VOA_Africa_20190528_180000
+- Corroborating routed candidates: 477
+- Year: 2021
+- URL: https://archive.org/details/ai4eq
 
-Closed captions transcript: 00:00:00 Correspondent Charles Taylor Desmo reports and says it doesn't
-feel 00:00:03 a possible war with the u.s. 00:00:05 And claims that America has grown in power in
-recent years the latest tough talk 00:00:11 from Toronto amid escalating regional tensions and
-00:00:14 a crisis with Washington speaking at 00:00:16 a press conference in Toronto the spokesman
-explained the guard doesn't supporting 00:00:21 gaging in any war while at the same time he doesn't
-fear the occurrence of 00:00:25 a war he said units of enough readiness to defend the country I
-think that Iran has 00:00:30 boosted its military power over the past 30 years I'm shells of that as
-the u.n. 00
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### VOA [Voice of America] Africa : November 29, 2019 01:00AM-02:00AM EST
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: technology_ethics
-- Layer routes: cultural_inputs, visual_art
-- Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: speculative-risk
-- Automated evidence: weak_scholarly_candidate (4)
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 272
-- Year: 2019
-- URL: https://archive.org/details/VOA_Africa_20191129_060000
-
-Closed captions transcript: 00:00:00 A deadline for the United States to offer more concessions
-installed nuclear talks 00:00:05 North Korea last month walked out of working level nuclear
-negotiations with the 00:00:09 United States it blamed Washington for the breakdown in the north has
-since warned 00:00:13 it could restart nuclear or long range missile tests Vili's Bill Gallo and
-next 00:00:19 Polish president talks to the a.p. 00:00:20 About Hunter Biden and Greaseman maybe
-Correspondent Mike Rossi 00:00:25 a former president of Poland who is on the board of the Ukrainian
-gas company 00:00:28 Barisan is defending Hunter Biden this contribution to the Advisory Board
-Alexander 00:00:33 cau
+https://rppc.github.io/ai4eq/ Scope of the Workshop The first International Workshop on Artificial
+Intelligence for Equity (AI4Eq) was held virtually and in Santiago de Compostela (Spain) in
+conjunction with ECAI2020. The focus of this workshop was to examine the role of AI science and
+technology in advancing towards the United Nations (UN) Sustainable Development Goals, particularly
+in the context of a mix of standard, policies, regulations, declaration and charters on both the
+Ethics of AI, Machine Learning and Big Data, and on Human rights, including the UN's own Global
+Pulse Initiative, UN rapporteurs reports on extreme poverty, human rights and modern slavery, the
+IEEE Global Initiative
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
-
-Automated evidence warnings:
-- speculative or overclaim language detected
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.

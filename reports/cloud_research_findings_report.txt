@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-01T16:43:06.459998+00:00
-Total references: 1,267
-New references this run: 8
+Updated: 2026-06-01T17:53:27.822981+00:00
+Total references: 1,273
+New references this run: 6
 
 Guardrails
 ----------
@@ -26,14 +26,13 @@ Online Collection Status
   - Internet Archive: 107
   - OpenAlex: 288
   - PubMed: 26
-  - arXiv: 5
+  - arXiv: 30
 - Brand-new references added by provider:
-  - Europe PMC: 1
-  - Internet Archive: 7
+  - Internet Archive: 6
 - Total stored references by provider:
   - Crossref: 312
   - Europe PMC: 199
-  - Internet Archive: 345
+  - Internet Archive: 351
   - OpenAlex: 250
   - PubMed: 24
   - Tavily Search: 111
@@ -41,13 +40,13 @@ Online Collection Status
 
 Reference Tags
 --------------
-- art_beauty: 113
+- art_beauty: 114
 - biblical_language_source_depth: 50
 - biblical_languages: 39
 - cultural_practice_patterns: 59
 - general_research_methods: 54
 - global_text_traditions: 80
-- history_memory: 98
+- history_memory: 101
 - holy_spirit_gifts_global: 31
 - interreligious_dream_testimony: 40
 - modern_literature_meaning: 56
@@ -56,123 +55,108 @@ Reference Tags
 - politics_justice: 75
 - psychology_patterns: 67
 - quantum_science_guardrails: 86
-- technology_ethics: 77
+- technology_ethics: 78
 - theologians_cross_era: 29
-- trinity: 91
+- trinity: 92
 - unresolved_suffering: 45
 - world_language_source_sampling: 68
 - world_languages_translation: 54
 
 Layer Routes
 ------------
-- all_texts: 405
+- all_texts: 406
 - biblical_languages: 103
-- cultural_inputs: 316
-- deep_sources: 354
-- history_inputs: 325
+- cultural_inputs: 318
+- deep_sources: 355
+- history_inputs: 328
 - human_stories: 297
 - modern_literature: 163
 - music_notes: 78
-- other_religious_texts: 275
+- other_religious_texts: 276
 - pattern_tests: 222
 - psychology_inputs: 299
-- research_documents: 144
+- research_documents: 145
 - research_documents/christian_sources: 112
-- theologians: 308
-- visual_art: 415
+- theologians: 312
+- visual_art: 419
 - world_languages: 240
 
 Layer Balance Watch
 -------------------
 - These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
   - music_notes: 78
+  - biblical_languages: 103
 
 Quality Counts
 --------------
 - open web result: 111
-- reference metadata: 341
+- reference metadata: 347
 - scholarly metadata: 785
 - scholarly preprint: 26
 - speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 563
+- moderate_scholarly_candidate: 569
 - strong_scholarly_candidate: 579
 - weak_scholarly_candidate: 125
 
 New This Run By Tag
 -------------------
-- art_beauty: 3
-- history_memory: 1
-- quantum_science_guardrails: 1
-- technology_ethics: 2
-- unresolved_suffering: 1
+- art_beauty: 1
+- history_memory: 3
+- technology_ethics: 1
+- trinity: 1
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 2
-- cultural_inputs: 5
-- deep_sources: 2
-- history_inputs: 2
-- human_stories: 1
-- modern_literature: 1
-- other_religious_texts: 2
-- pattern_tests: 2
-- psychology_inputs: 1
-- theologians: 1
-- visual_art: 5
+- all_texts: 1
+- cultural_inputs: 2
+- deep_sources: 1
+- history_inputs: 3
+- other_religious_texts: 1
+- research_documents: 1
+- theologians: 4
+- visual_art: 4
 
 Newest Additions This Run
 ------------------------
-- "So Much Comes Up": Emotion Regulation in Psychotherapy Addressing Existential, Spiritual and Religious Themes. (2026)
-  Tags: unresolved_suffering
-  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  URL: https://doi.org/10.3390/bs16050685
-- Heisenburg Uncertainty Principle – Prep 4 Uni Online (2025)
-  Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests, history_inputs
+- St. Seraphim of Platina - God's Revelation To The Human Heart. 1981 (1981)
+  Tags: trinity
+  Layer routes: theologians, research_documents, visual_art, all_texts, other_religious_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/httpsprep4uni.onlinestemsciencephysicsmodern-physicsquantum-mechanicsheisenbergs
-- EOTR - Blue Moon (2012)
+  URL: https://archive.org/details/gods-revelation-to-the-human-heart_202604
+- EOTR - HAPPENS AUTOMAGICALLY (1 of 2) (2013)
   Tags: art_beauty
   Layer routes: visual_art, cultural_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Eotr-BlueMoon
-- Shahadah Stories - Streets 2 Islam (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/ShahadahStoriesStreets2IslamLesserQuality
-- Yasir Qadhi - Complete Audio Collection (900+) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/YasirQadhiCollection
-- I BELIEVED IN THE ETERNITY OF LOVE - Philosophical poems by SORIN CERIN (n.d.)
+  URL: https://archive.org/details/Eotr-HappensAutomagically1Of2
+- Books Written By Sorin Cerin 2020 (n.d.)
   Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
+  Layer routes: history_inputs, theologians, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/SORINCERINIBELIEVEDINTHEETERNITYOFLOVE
-- VOA [Voice of America] Africa : May 28, 2019 02:00PM-03:00PM EDT (2019)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs
+  URL: https://archive.org/details/bookswrittenbysorincerin2020
+- The Stories We Tell (2025)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
   Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/VOA_Africa_20190528_180000
-- VOA [Voice of America] Africa : November 29, 2019 01:00AM-02:00AM EST (2019)
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Complete_Service_First_Unitari-20250105Complete
+- Healing and Hope (2020)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/Complete_Service_First_Unitari-20201101VRSComplete
+- AI4Eq@ISTAS21 by Jeremy Pitt of ICL (2021)
   Tags: technology_ethics
-  Layer routes: cultural_inputs, visual_art
-  Source: Internet Archive | speculative-risk
-  Automated evidence: weak_scholarly_candidate (4)
-  URL: https://archive.org/details/VOA_Africa_20191129_060000
+  Layer routes: cultural_inputs, visual_art, deep_sources
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/ai4eq
 
 Recent Candidate Sources
 ------------------------
@@ -373,7 +357,3 @@ Recent Candidate Sources
   Automated evidence: weak_scholarly_candidate (6)
   Source: Tavily Search | open web result
   URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
-
-Collector Errors
-----------------
-- search_arxiv failed for quantum_science_guardrails: The read operation timed out
