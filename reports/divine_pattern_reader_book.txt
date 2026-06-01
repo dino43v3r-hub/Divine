@@ -79,6 +79,46 @@ The project is built around several scholarly lenses.
 - Digital theology uses computational tools to map patterns, but it must remain accountable to human interpretation, source quality, and theological judgment.
 - Practical theology asks whether the pattern helps people live faithfully in grief, work, family, worship, justice, service, and community.
 
+At-A-Glance Layer Chart
+-----------------------
+This chart is a navigation aid, not a proof scale. Longer bars show where the current corpus has more internal signal; the guardrails still decide how much weight a signal should carry.
+
+Layer                         Signal                         Count     Reading
+-----                         ------                         -----     -------
+Physical Order                ###########.................    2,763  high internal signal
+Mathematical Structure        ###.........................      638  moderate internal signal
+Mathematical Theophany        #####.......................    1,321  high internal signal
+Quantum Probability           #...........................      104  early signal
+Life And Consciousness        #######################.....    5,723  high internal signal
+Meaning And Logos             ############################    7,079  high internal signal
+Moral Response                #############...............    3,306  high internal signal
+Worship And Community         #########...................    2,210  high internal signal
+Transformation                #############...............    3,290  high internal signal
+
+Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as possible signs of divine self-disclosure, while keeping alternative explanations visible.
+
+Chapter Map
+-----------
+Use this as the table of contents for the argument. Each chapter has a main movement, a live pressure test, and a signal level.
+
+No.  Pattern Family                 Signal   Status
+---  --------------                 ------   ------
+1    Image Of God Pattern            18,318  high internal signal; not proof
+     Movement: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
+     Test: Do not collapse the image of God into intelligence alone.
+2    Cross And Reversal Pattern      13,675  high internal signal; not proof
+     Movement: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
+     Test: Do not romanticize suffering or ignore injustice.
+3    Creation-To-Consciousness P...  14,002  high internal signal; not proof
+     Movement: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
+     Test: Avoid implying a simple linear proof from physics to worship.
+4    Trinity-As-Behavior Pattern     13,132  high internal signal; not proof
+     Movement: Father Creates -> Son Redeems -> Spirit Transforms
+     Test: Keep the Trinity theological and relational, not merely symbolic psychology.
+5    Providence And Contingency...   15,669  well-represented hypothesis;...
+     Movement: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
+     Test: Do not confuse providence with easy prediction or visible control of every event.
+
 Chapter Zero: New Information In This Run
 -----------------------------------------
 This chapter changes with the latest collector digest. It names what newly arrived or newly re-evaluated cloud material should make the reader watch more carefully.

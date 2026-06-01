@@ -4715,6 +4715,78 @@ def append_scholarly_spine(lines):
     )
 
 
+def shorten_for_table(text, width):
+    """Shorten text for fixed-width reader tables."""
+    if len(text) <= width:
+        return text
+    return text[: max(0, width - 3)].rstrip() + "..."
+
+
+def create_signal_bar(count, max_count, width=28):
+    """Create a compact ASCII signal bar for text reports."""
+    if max_count <= 0 or count <= 0:
+        filled = 0
+    else:
+        filled = max(1, round((count / max_count) * width))
+    return "#" * filled + "." * (width - filled)
+
+
+def append_reader_layer_chart(lines, layer_counts):
+    """Append a reader-facing chart of divine-pattern layer signal strength."""
+    max_count = max(layer_counts.values(), default=0)
+    lines.extend(
+        [
+            "At-A-Glance Layer Chart",
+            "-----------------------",
+            "This chart is a navigation aid, not a proof scale. Longer bars show where the current corpus has more internal signal; the guardrails still decide how much weight a signal should carry.",
+            "",
+            "Layer                         Signal                         Count     Reading",
+            "-----                         ------                         -----     -------",
+        ]
+    )
+
+    for layer in DIVINE_PATTERN_LAYERS:
+        count = layer_counts.get(layer, 0)
+        bar = create_signal_bar(count, max_count)
+        lines.append(
+            f"{layer:<29} {bar} {count:>8,}  {score_layer(count)}"
+        )
+
+    lines.extend(
+        [
+            "",
+            "Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as possible signs of divine self-disclosure, while keeping alternative explanations visible.",
+            "",
+        ]
+    )
+
+
+def append_reader_chapter_map(lines, ranked_patterns, layer_counts, limit=5):
+    """Append a compact chapter map before the longer reader chapters."""
+    lines.extend(
+        [
+            "Chapter Map",
+            "-----------",
+            "Use this as the table of contents for the argument. Each chapter has a main movement, a live pressure test, and a signal level.",
+            "",
+            "No.  Pattern Family                 Signal   Status",
+            "---  --------------                 ------   ------",
+        ]
+    )
+
+    for index, item in enumerate(ranked_patterns[:limit], start=1):
+        candidate = item["candidate"]
+        family = shorten_for_table(candidate["name"], 30)
+        support = sum(layer_counts.get(layer, 0) for layer in candidate["layers"])
+        lines.append(
+            f"{index:<4} {family:<30} {support:>7,}  {shorten_for_table(item['status'], 32)}"
+        )
+        lines.append(f"     Movement: {candidate['sequence']}")
+        lines.append(f"     Test: {candidate['risk']}")
+
+    lines.append("")
+
+
 def append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5):
     """Append top patterns as short reader-facing chapters."""
     lines.extend(["The Five Leading Pattern Chapters", "---------------------------------"])
@@ -5336,6 +5408,8 @@ def create_reader_book_report(
     append_pattern_detection_to_formation(lines)
     append_everyday_pattern_story(lines)
     append_scholarly_spine(lines)
+    append_reader_layer_chart(lines, layer_counts)
+    append_reader_chapter_map(lines, ranked_patterns, layer_counts, limit=5)
     append_daily_development_chapter(lines, daily_digest)
     append_reader_pattern_chapters(lines, ranked_patterns, layer_counts, limit=5)
     append_reader_case_studies(lines)
