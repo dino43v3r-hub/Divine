@@ -53,18 +53,29 @@ human-reviewed sources, counter-readings, and practical-theology fruit checks.
 Target additions:
 
 - biblical_languages: add about 25 reviewed notes toward the target.
-  Completed in `biblical_languages/reviewed_growth_batch_2026_05_27.md`.
+  Completed first pass in `biblical_languages/reviewed_growth_batch_2026_05_27.md`;
+  second pass added 24 more in
+  `biblical_languages/reviewed_growth_batch_2026_06_01.md`.
 - world_languages: add about 25 reviewed notes toward the target.
-  Completed in `world_languages/reviewed_growth_batch_2026_05_27.md`.
+  Completed first pass in `world_languages/reviewed_growth_batch_2026_05_27.md`;
+  second pass added 24 more in
+  `world_languages/reviewed_growth_batch_2026_06_01.md`.
 - all_texts: add about 46 reviewed notes toward the target.
-  Completed in `all_texts/reviewed_growth_batch_2026_05_27.md`.
+  Completed first pass in `all_texts/reviewed_growth_batch_2026_05_27.md`;
+  second pass added 45 more in `all_texts/reviewed_growth_batch_2026_06_01.md`.
 - other_religious_texts: add about 46 reviewed notes toward the target.
-  Completed in
-  `other_religious_texts/reviewed_growth_batch_2026_05_27.md`.
+  Completed first pass in
+  `other_religious_texts/reviewed_growth_batch_2026_05_27.md`; second pass
+  added 45 more in
+  `other_religious_texts/reviewed_growth_batch_2026_06_01.md`.
 - theologians: add about 65 reviewed notes toward the target.
-  Completed in `theologians/reviewed_growth_batch_2026_05_27.md`.
+  Completed first pass in `theologians/reviewed_growth_batch_2026_05_27.md`;
+  second pass added 64 more in
+  `theologians/reviewed_growth_batch_2026_06_01.md`.
 - history_inputs: add about 46 reviewed notes toward the target.
-  Completed in `history_inputs/reviewed_growth_batch_2026_05_27.md`.
+  Completed first pass in `history_inputs/reviewed_growth_batch_2026_05_27.md`;
+  second pass added 45 more in
+  `history_inputs/reviewed_growth_batch_2026_06_01.md`.
 
 Each added note should identify source, author or tradition context, publication
 or transmission context, smallest allowed claim, counter-reading, pressure area,
@@ -187,7 +198,7 @@ Next depth work:
 
 ## 6. Daily Cloud Reference Review
 
-Status: checklist added, routed daily triage active, automated evidence scoring active, review log expanded.
+Status: checklist added, routed daily triage active, automated evidence scoring active, review log expanded, newest candidate decision log added.
 
 Current coverage:
 
@@ -211,6 +222,9 @@ Current coverage:
   routed queue items with cautious labels.
 - The review log now includes a seven-item depth-pass batch for theologian,
   quantum/science, suffering, and language/text routed candidates.
+- `research_documents/reviewed_candidate_reference_decisions_2026_06_01.md`
+  reviews seven newest candidate leads by original-source status, author or
+  venue context, publication setting, counterargument, and confidence effect.
 
 Next depth work:
 

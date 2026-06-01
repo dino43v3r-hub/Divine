@@ -99,6 +99,32 @@ Open-web results are treated as weaker than scholarly results unless they come
 from trusted archives, universities, government, museums, libraries, or are
 corroborated by other routed sources.
 
+## Auto-Approve Review Queue
+
+The GitHub workflow now enables queue-only auto approval:
+
+```yaml
+AUTO_APPROVE_REVIEW_QUEUE: "true"
+AUTO_APPROVE_MIN_SCORE: "7"
+AUTO_APPROVE_OPEN_WEB: "false"
+AUTO_APPROVE_WITH_WARNINGS: "false"
+```
+
+This does **not** approve sources as strong evidence. It only marks low-risk
+machine-scored candidates as `auto_approved_for_review_queue` so they can move
+through routing and review faster. The collector still records:
+
+```text
+confidence_effect: none_until_human_review
+auto_review_approval_scope: routing_and_queue_only_not_claim_confidence
+```
+
+Keep `AUTO_APPROVE_OPEN_WEB` set to `false` unless you want trusted-domain
+open-web leads to be queue-approved automatically. Keep
+`AUTO_APPROVE_WITH_WARNINGS` set to `false` unless you want candidates with
+automated warnings to be queue-approved anyway. Neither setting should be used
+to bypass original-source review, author/context checks, or counterarguments.
+
 ## Option 3: Command Line Later
 
 If Git is installed later, run:

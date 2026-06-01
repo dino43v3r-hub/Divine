@@ -66,6 +66,20 @@ author/year metadata, source type, citation count when available, corroborating
 routed sources, counterargument language, and overclaim risk. They estimate
 evidence confidence; they do not declare absolute truth.
 
+The collector can also auto-approve low-risk candidates for review routing with:
+
+```text
+AUTO_APPROVE_REVIEW_QUEUE
+AUTO_APPROVE_MIN_SCORE
+AUTO_APPROVE_OPEN_WEB
+AUTO_APPROVE_WITH_WARNINGS
+```
+
+The GitHub workflow enables queue-only auto approval at score `7` and keeps
+open-web or warning-bearing sources manual by default. Auto approval means
+`auto_approved_for_review_queue`, not reviewed evidence; confidence remains
+`none_until_human_review`.
+
 ### Broad Web Search
 
 By default, the collector searches scholarly/indexed sources:

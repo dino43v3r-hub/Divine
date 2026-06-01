@@ -62,3 +62,22 @@ Claims currently marked as `research_question_only`, `analogy_only`,
 `discernment_question`, or `weakened_or_limited` should be revisited before any
 report treats them as conclusions.
 
+## 2026-06-01 Claim Revisit Notes
+
+These revisits clarify claims that remain questions, analogies, discernment
+claims, or limited claims. They do not promote any claim to final conclusion.
+
+| ID | Revisit decision | Evidence / interpretation / discernment / analogy / practical use separation |
+| --- | --- | --- |
+| DP-005 | Keep as `research_question_only` until global gifts evidence is reviewed source-by-source. | Evidence: Acts/Pauline texts and cross-cultural testimony can be logged. Interpretation: Christian pneumatology reads gifts through the Spirit. Discernment: communities must test love, truth, humility, and fruit. Analogy: other-religious experiences may illuminate human religious experience but cannot prove Christian gifts. Practical use: encourage service and accountability, not spectacle. |
+| DP-006 | Keep as `research_question_only` with stronger comparative-theology guardrails. | Evidence: other traditions have primary texts, practices, and testimonies that can be reviewed on their own terms. Interpretation: Christian theology may compare them with prevenient grace or human longing. Discernment: comparison requires humility, expert sources, and neighbor-love. Analogy: shared patterns are not identical doctrine. Practical use: respectful witness and learning without flattening difference. |
+| DP-008 | Keep as `analogy_only`; do not promote science or quantum material into proof. | Evidence: qualified physics and philosophy of science can support limits, probability, and humility. Interpretation: theology may reflect on providence and creaturely knowledge. Discernment: claims need source scope and counterarguments. Analogy: science analogies illuminate but do not prove God, prayer, or consciousness. Practical use: slow down overclaims and protect honest inquiry. |
+| DP-011 | Add new tracked claim: Mathematical order, symmetry, logic, infinity, and beauty may function as possible signs of divine self-disclosure. Current status: `discernment_question`. | Evidence: mathematics, aesthetics, philosophy, and theology can support intelligibility and wonder. Interpretation: Christian theology may read these as signs of creation, wisdom, or Logos. Discernment: rival explanations from Platonism, formalism, constructivism, cognition, culture, and naturalism must stay visible. Analogy: mathematical beauty is not revelation by itself. Practical use: wonder, humility, worship, and better reasoning. |
+
+## Failure-Condition Rule
+
+Every leading pattern must now name what would weaken, revise, or reject it.
+Failure conditions include unresolved suffering, injustice, corruption,
+practical case failure, science overclaim, rival explanations that fit the data
+better, and ordinary pattern perception mistaken for divine disclosure.
+

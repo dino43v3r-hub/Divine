@@ -10,38 +10,38 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 33
-Total analyzed words: 734,519
+Documents analyzed: 34
+Total analyzed words: 735,915
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
-- God and Divine Attributes: 25,256
-- Theology and Logos: 5,875
-- Creation and Order: 5,809
-- Jesus and Christology: 5,452
-- Philosophy and Meaning: 3,070
-- Physics and Natural Law: 3,042
-- Moral Transformation: 2,986
-- Spirituality and Worship: 1,333
-- Faith and Trust: 1,221
-- Holy Spirit and Pneumatology: 952
-- Anthropology and Culture: 812
-- Mathematics and Intelligibility: 797
-- Mathematical Theophany: 593
-- AI and Pattern Recognition: 355
-- Quantum Physics and Uncertainty: 80
-- Biology and Neuroscience: 70
+- God and Divine Attributes: 25,268
+- Theology and Logos: 5,906
+- Creation and Order: 5,829
+- Jesus and Christology: 5,455
+- Philosophy and Meaning: 3,082
+- Physics and Natural Law: 3,047
+- Moral Transformation: 2,991
+- Spirituality and Worship: 1,340
+- Faith and Trust: 1,236
+- Holy Spirit and Pneumatology: 956
+- Anthropology and Culture: 840
+- Mathematics and Intelligibility: 826
+- Mathematical Theophany: 633
+- AI and Pattern Recognition: 372
+- Quantum Physics and Uncertainty: 82
+- Biology and Neuroscience: 75
 
 Trinitarian Pattern Lens
 ------------------------
 Signal: strong Trinitarian signal
 The analyzer treats Father, Son, and Holy Spirit as distinct persons and one God. It looks for each person separately, then checks whether the corpus keeps them relationally connected.
-- Father: 3,416
+- Father: 3,453
   Role: Source, Creator, giver of being, providential care, and holy authority.
-- Son: 6,695
+- Son: 6,700
   Role: Word/Logos, revelation, incarnation, redemption, reconciliation, and resurrection.
-- Holy Spirit: 1,784
+- Holy Spirit: 1,792
   Role: Living presence, conviction, gifts, communion, sanctification, and transformation.
 
 Trinitarian Evidence Samples
@@ -79,21 +79,21 @@ Trinitarian Co-Presence Samples
 Meaning Guardrails
 ------------------
 The analyzer now checks whether a pattern has contextual movement, not only repeated vocabulary.
-- Creation And Order: 5,445
-- Transformation And Hope: 3,569
-- Desire And Longing: 3,290
-- Moral Confrontation: 3,011
-- Communal Practice: 2,374
-- Alienation And Lament: 2,013
+- Creation And Order: 5,475
+- Transformation And Hope: 3,584
+- Desire And Longing: 3,298
+- Moral Confrontation: 3,015
+- Communal Practice: 2,387
+- Alienation And Lament: 2,016
 
 Source Review Guardrails
 ------------------------
-- Scholarly Or Scientific Source: 358
-- Primary Or Classical Source: 305
-- Practical Lived Source: 214
+- Scholarly Or Scientific Source: 377
+- Primary Or Classical Source: 308
+- Practical Lived Source: 220
 - Speculative Source: 36
-- Unreviewed Cloud Reference: 31
-- Reviewed Cloud Reference: 3
+- Unreviewed Cloud Reference: 34
+- Reviewed Cloud Reference: 5
 - Cloud references are candidate leads until reviewed against the original source, author qualifications, publication context, and counterarguments.
 
 Divine Pattern Finder
@@ -102,23 +102,23 @@ Model: Physical Order -> Mathematical Structure -> Mathematical Theophany -> Qua
 The corpus contains evidence across every layer of the proposed model. This supports treating layered convergence as a serious research hypothesis, not as proof of divine reality.
 
 Layer Scores:
-- Physical Order: 2,478 (high internal signal)
+- Physical Order: 2,496 (high internal signal)
   Test: Is reality described as ordered, law-like, created, or providential?
-- Mathematical Structure: 575 (moderate internal signal)
+- Mathematical Structure: 591 (moderate internal signal)
   Test: Does the corpus connect reality with mathematical or logical intelligibility?
-- Mathematical Theophany: 949 (moderate internal signal)
+- Mathematical Theophany: 989 (moderate internal signal)
   Test: Can mathematical order, pattern, symmetry, logic, infinity, or beauty be read cautiously as possible signs of divine self-disclosure while rival explanations remain in view?
-- Quantum Probability: 95 (early signal)
+- Quantum Probability: 100 (early signal)
   Test: Does the corpus include disciplined uncertainty rather than simple determinism?
-- Life And Consciousness: 5,325 (high internal signal)
+- Life And Consciousness: 5,344 (high internal signal)
   Test: Does the corpus connect ordered reality with life, mind, or personhood?
-- Meaning And Logos: 5,906 (high internal signal)
+- Meaning And Logos: 5,918 (high internal signal)
   Test: Does the corpus connect intelligibility with meaning, Logos, wisdom, or truth?
-- Moral Response: 2,251 (high internal signal)
+- Moral Response: 2,255 (high internal signal)
   Test: Does the corpus connect meaning with moral accountability or response?
-- Worship And Community: 1,065 (high internal signal)
+- Worship And Community: 1,074 (high internal signal)
   Test: Does the corpus connect belief with embodied practice and community?
-- Transformation: 2,074 (high internal signal)
+- Transformation: 2,081 (high internal signal)
   Test: Does the corpus connect divine presence with personal or communal change?
 
 Layer Evidence Samples
@@ -180,18 +180,18 @@ Transformation
 
 Hypothesis Test Domains
 -----------------------
-- Historical Theology: 6,851 (strongly represented)
-- Scripture And Early Christian Logos: 3,181 (strongly represented)
-- Philosophy Of Science: 2,778 (strongly represented)
-- Physics And Quantum Mechanics: 1,343 (strongly represented)
-- History And Cultural Memory: 1,164 (strongly represented)
-- Visual Art And Symbol: 928 (strongly represented)
-- Cognitive Science: 918 (strongly represented)
-- Mathematical Theophany: 593 (strongly represented)
-- World Languages And Translation: 555 (strongly represented)
-- Philosophy Of Mathematics: 519 (strongly represented)
-- Anthropology And Psychology Of Worship: 440 (represented)
-- Biblical Greek And Hebrew: 427 (represented)
+- Historical Theology: 6,873 (strongly represented)
+- Scripture And Early Christian Logos: 3,201 (strongly represented)
+- Philosophy Of Science: 2,781 (strongly represented)
+- Physics And Quantum Mechanics: 1,350 (strongly represented)
+- History And Cultural Memory: 1,180 (strongly represented)
+- Visual Art And Symbol: 941 (strongly represented)
+- Cognitive Science: 934 (strongly represented)
+- Mathematical Theophany: 633 (strongly represented)
+- World Languages And Translation: 576 (strongly represented)
+- Philosophy Of Mathematics: 527 (strongly represented)
+- Anthropology And Psychology Of Worship: 457 (represented)
+- Biblical Greek And Hebrew: 429 (represented)
 
 Repeated Terms
 --------------
@@ -300,6 +300,8 @@ God and Divine Attributes
 - pattern_formation_framework.md: Practical response: what a person or community can practice today with    humility, truth, love, justice, worship, and hope.
 - practical_theology_pattern_use.md: It should help people engage faithfully with God, neighbor, self, creation, and community.
 - practical_theology_pattern_use.md: Does the response produce love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control, justice, truth, humility, and neighbor-love?
+- reviewed_candidate_reference_decisions_2026_06_01.md: | | NCR-004 | Big Love, First Unitarian Universalist Society of San Francisco, 2020, Internet Archive worship-service metadata | Keep as cultural/practical-theology comparison.
+- reviewed_candidate_reference_decisions_2026_06_01.md: Counterargument: love language may reflect liberal religious ethics rather than Christian Trinitarian formation.
 - reviewed_source_packs.md: ## Pack 3: Holy Spirit Gifts Across Peoples And Countries  Claim boundary: gifts of the Holy Spirit may be studied as signs of divine presence and service when tested by love, truth, humility, accountability, and fruit.
 - reviewed_source_packs.md: Practical use: turn gifts toward service, wisdom, courage, healing, mercy, truth, and community upbuilding rather than status or spectacle.
 - weakened_claims_register.md: ## Weakened Claim: Holy Ghost Gifts Are Valid Because They Are Spectacular  - Status: `weakened_by_pressure` - Reason: spectacle can be produced by fraud, charisma, trauma, group pressure,   or misinterpretation.
@@ -333,6 +335,7 @@ Faith and Trust
 - cloud_reference_review_checklist.md: Review each candidate before it increases confidence in the pattern.
 - cloud_reference_review_checklist.md: Confidence effect: mark whether the source can increase confidence, only    generate questions, or should be rejected.
 - cloud_reference_review_policy.md: Evidence rule:  Unreviewed cloud references can suggest research questions, but they should not increase confidence in a divine pattern.
+- cloud_reference_review_policy.md: It does not make the source reviewed evidence, does not increase confidence, and does not bypass original-source, author, publication-context, or counterargument checks.
 - cloud_references_summary.md: - Tags: world_languages_translation - Layer routes: world_languages, all_texts, visual_art, psychology_inputs, other_religious_texts - Primary layer: world_languages - Provider: Europe PMC - Quality: scholarly metadata - Automated evidence: strong_scholarly_candidate (10) - Corro
 - cross_layer_source_specific_casebook.md: - Pattern signal: suffering, love, injustice, witness, and hope converge.
 - daily_cloud_reference_review_log.md: ### There is Hope for a Tree: Lament and Hope in Conversation with Polydoxy  - Queue route: visual_art, cultural_inputs, history_inputs, all_texts - Current label: reviewed_limited_evidence - Reason: Abstract suggests contemporary theology, lament, hope, multiplicity,   apophatic
@@ -343,11 +346,13 @@ Faith and Trust
 - evidence_discernment_distinction.md: A disciplined theological assistant must separate what has been observed from how faith discerns and practices what has been observed.
 - evidence_discernment_distinction.md: It must become discernible in human life as truthful attention, moral response, community practice, spiritual formation, service, repair, lament, hope, or worship.
 - next_research_expansion_tracker.md: Review the seven newest candidate references by original source, author     expertise, publication context, and counterargument before they affect     confidence.
-- next_research_expansion_tracker.md: - Let automated labels shape confidence, but do not treat them as absolute   truth.
+- next_research_expansion_tracker.md: - `research_documents/reviewed_candidate_reference_decisions_2026_06_01.md`   reviews seven newest candidate leads by original-source status, author or   venue context, publication setting, counterargument, and confidence effect.
 - pattern_formation_framework.md: Practical response: what a person or community can practice today with    humility, truth, love, justice, worship, and hope.
 - pattern_revision_rules.md: - `do_not_strengthen_claim`: source or case should not increase confidence.
 - practical_theology_pattern_use.md: Look for order, beauty, disorder, pain, longing, conflict, gift, responsibility, or hope.
 - practical_theology_pattern_use.md: Grief and unresolved suffering: notice the pain without rushing it, name lament, discern the next faithful act, practice presence and care, review whether hope remains truthful rather than forced.
+- reviewed_candidate_reference_decisions_2026_06_01.md: Confidence effect: may increase confidence after source-specific reading.
+- reviewed_candidate_reference_decisions_2026_06_01.md: Confidence effect: no confidence increase.
 - reviewed_source_packs.md: Practical use: typology should form hope, humility, worship, and moral response, not speculative code-breaking.
 - reviewed_source_packs.md: Reviewed-source needs:  - biblical theology and canonical theology, - theologians across eras with disagreements, - lament and theodicy sources, - pastoral case studies where repair is incomplete, - communal practices of confession, reconciliation, care, and hope.
 - source_lane_balance_targets.md: Automated scores can route attention, but human review must decide whether a source may affect confidence.
@@ -470,6 +475,7 @@ Creation and Order
 - pattern_revision_rules.md: - A biblical-language note depends on a word outside its literary, canonical, or   historical context.
 - practical_theology_pattern_use.md: It should help people engage faithfully with God, neighbor, self, creation, and community.
 - practical_theology_pattern_use.md: Look for order, beauty, disorder, pain, longing, conflict, gift, responsibility, or hope.
+- reviewed_candidate_reference_decisions_2026_06_01.md: | ID | Candidate reference | Human review decision | | --- | --- | --- | | NCR-001 | Trinitarian Creation and Action, Gilles Emery OP and Francesca Aran Murphy, 2010, Crossref/DOI metadata | Promote to reviewed lead for Trinity-As-Behavior and Creation-To-Consciousness only after
 - reviewed_source_packs.md: Reviewed-source needs:  - primary texts: Genesis, Exodus, Psalms, Isaiah, Matthew, Luke, John, Romans,   1 Corinthians, Hebrews, Revelation, - Jewish and historical-critical counter-readings, - patristic and modern theological interpretation, - biblical-language notes on covenant
 - reviewed_source_packs.md: ## Pack 2: Redemptive Metanarrative And Practical Theology  Claim boundary: creation, fall, covenant, redemption, restoration, and new creation can serve as a Christian story-form for interpreting human life, but the pattern must not force unresolved grief into premature victory.
 - source_lane_balance_targets.md: ## Target Bands  Targets are not final truth.
@@ -506,6 +512,7 @@ Moral Transformation
 - pattern_formation_framework.md: Practical response: what a person or community can practice today with    humility, truth, love, justice, worship, and hope.
 - practical_theology_pattern_use.md: Pray, repent, reconcile, rest, serve, study, tell the truth, protect the vulnerable, create beauty, or seek counsel.
 - practical_theology_pattern_use.md: Does the response produce love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control, justice, truth, humility, and neighbor-love?
+- reviewed_candidate_reference_decisions_2026_06_01.md: Counterargument: justice and mercy in Islamic social life must be read on Islamic and ethnographic terms.
 - reviewed_source_packs.md: Practical use: help people locate their daily experience inside attention, truth-telling, lament, repentance, service, and patient hope.
 - reviewed_source_packs.md: Practical use: turn gifts toward service, wisdom, courage, healing, mercy, truth, and community upbuilding rather than status or spectacle.
 - weakened_claims_register.md: - Narrow allowed claim: faithful response may include lament, witness, care,   justice, and hope without claiming completed repair.
@@ -562,6 +569,8 @@ Theology and Logos
 - pattern_revision_rules.md: - A biblical-language note depends on a word outside its literary, canonical, or   historical context.
 - practical_theology_pattern_use.md: # Practical Theology Pattern Use  Type: practical theology guide Source status: active use guide  The Divine project should not only identify patterns.
 - practical_theology_pattern_use.md: It should help people engage faithfully with God, neighbor, self, creation, and community.
+- reviewed_candidate_reference_decisions_2026_06_01.md: | ID | Candidate reference | Human review decision | | --- | --- | --- | | NCR-001 | Trinitarian Creation and Action, Gilles Emery OP and Francesca Aran Murphy, 2010, Crossref/DOI metadata | Promote to reviewed lead for Trinity-As-Behavior and Creation-To-Consciousness only after
+- reviewed_candidate_reference_decisions_2026_06_01.md: Counterargument: classical imagery may show beauty, fear, and power, but it does not strengthen divine-pattern claims without art-historical context.
 - reviewed_source_packs.md: # Reviewed Source Packs  Type: reviewed evidence structure Source status: active source-pack template  Reviewed source packs keep the Divine project from relying on scattered references.
 - reviewed_source_packs.md: Reviewed-source needs:  - primary texts: Genesis, Exodus, Psalms, Isaiah, Matthew, Luke, John, Romans,   1 Corinthians, Hebrews, Revelation, - Jewish and historical-critical counter-readings, - patristic and modern theological interpretation, - biblical-language notes on covenant
 - source_lane_balance_targets.md: ## Target Bands  Targets are not final truth.
@@ -614,6 +623,8 @@ Spirituality and Worship
 - pattern_formation_framework.md: Practical response: what a person or community can practice today with    humility, truth, love, justice, worship, and hope.
 - practical_theology_pattern_use.md: Is this creation, lament, temptation, injustice, vocation, worship, reconciliation, repair, or waiting?
 - practical_theology_pattern_use.md: Discern: ask how scripture, prayer, conscience, community, wisdom, and pressure tests shape the faithful response.
+- reviewed_candidate_reference_decisions_2026_06_01.md: | | NCR-004 | Big Love, First Unitarian Universalist Society of San Francisco, 2020, Internet Archive worship-service metadata | Keep as cultural/practical-theology comparison.
+- reviewed_candidate_reference_decisions_2026_06_01.md: Original context is a UU worship service during institutional transition.
 - reviewed_source_packs.md: Practical use: typology should form hope, humility, worship, and moral response, not speculative code-breaking.
 - reviewed_source_packs.md: Practical use: help the pattern become visible in daily love, work, grief, justice, creativity, worship, and community formation.
 - source_lane_balance_targets.md: | | all_texts | 20 | 50 | 90 | Compare sacred, wisdom, legal, poetic, ritual, oral, and philosophical texts.
@@ -640,6 +651,7 @@ Biology and Neuroscience
 - science_math_physics_divine_pattern_model.md: ## Important Boundary  Quantum physics should not be used as a vague proof of God, miracles, consciousness, or prayer.
 - science_math_physics_divine_pattern_model.md: - Why can embodied minds understand physical reality at all?
 - claim_ledger.md: | | DP-008 | Quantum or science references may support humility about causality and knowledge, but they do not prove prayer, consciousness, or God.
+- claim_ledger.md: Analogy: science analogies illuminate but do not prove God, prayer, or consciousness.
 - cloud_references_summary.md: We argue for the relatively late evolution of advanced linguistic consciousness (ALC) (Hiscock in Biological Theory 9:27-41, 2014), as a reflexive system based on the 'in-between' or 'cognitive system' as reported by Vogeley et al.
 - cross_layer_source_specific_casebook.md: - Psychology lane: breath practices affect attention, emotion, and embodied   experience.
 - cross_layer_source_specific_casebook.md: - Pattern signal: life, presence, and transformation are often embodied.
@@ -651,6 +663,7 @@ Biology and Neuroscience
 - next_research_expansion_tracker.md: Build one reviewed source pack for each leading pattern: Image Of God     Pattern, Cross And Reversal Pattern, Providence And Contingency Pattern,     Trinity-As-Behavior Pattern, and Creation-To-Consciousness Pattern.
 - next_research_expansion_tracker.md: - `deep_sources/science_counterargument_matrix.md` defines allowed conclusions   and counterarguments for order, mathematics, quantum theory, fine-tuning, and   consciousness.
 - practical_theology_pattern_use.md: Practice: choose a small embodied act.
+- reviewed_candidate_reference_decisions_2026_06_01.md: | ID | Candidate reference | Human review decision | | --- | --- | --- | | NCR-001 | Trinitarian Creation and Action, Gilles Emery OP and Francesca Aran Murphy, 2010, Crossref/DOI metadata | Promote to reviewed lead for Trinity-As-Behavior and Creation-To-Consciousness only after
 - reviewed_source_packs.md: ## Pack 6: Art, History, Language, And Human Experience  Claim boundary: visual form, historical memory, language, literature, culture, and psychology can show how divine-pattern themes become embodied in human experience.
 - reviewed_source_packs.md: Reviewed-source needs:  - Joseph, Job, Esther, Psalms, wisdom literature, Jesus' providence teachings,   Acts, Romans 8, and groaning/hope texts, - classical, Reformation, modern, and contemporary debates about providence,   causality, chance, freedom, evil, and divine action, - 
 - weakened_claims_register.md: ## Weakened Claim: Quantum Physics Supports Prayer Or Consciousness Claims  - Status: `do_not_strengthen_claim` - Reason: quantum concepts are often misused outside their technical scale.
@@ -742,6 +755,8 @@ Mathematics and Intelligibility
 - pattern_revision_rules.md: The goal is not to protect the pattern from criticism; the goal is to make it truer, humbler, and more useful.
 - practical_theology_pattern_use.md: # Practical Theology Pattern Use  Type: practical theology guide Source status: active use guide  The Divine project should not only identify patterns.
 - practical_theology_pattern_use.md: Practical theology asks what the pattern does in lived experience.
+- reviewed_candidate_reference_decisions_2026_06_01.md: Counterargument: classical imagery may show beauty, fear, and power, but it does not strengthen divine-pattern claims without art-historical context.
+- reviewed_candidate_reference_decisions_2026_06_01.md: Counterargument: love, longing, and meaning language may reflect ordinary pattern perception or existential philosophy rather than divine self-disclosure.
 - reviewed_source_packs.md: # Reviewed Source Packs  Type: reviewed evidence structure Source status: active source-pack template  Reviewed source packs keep the Divine project from relying on scattered references.
 - reviewed_source_packs.md: ## Pack 2: Redemptive Metanarrative And Practical Theology  Claim boundary: creation, fall, covenant, redemption, restoration, and new creation can serve as a Christian story-form for interpreting human life, but the pattern must not force unresolved grief into premature victory.
 - source_lane_balance_targets.md: | | history_inputs | 20 | 50 | 90 | Test the pattern against power, memory, conflict, reform, and consequences.
@@ -805,6 +820,8 @@ Mathematical Theophany
 - pattern_revision_rules.md: The goal is not to protect the pattern from criticism; the goal is to make it truer, humbler, and more useful.
 - practical_theology_pattern_use.md: # Practical Theology Pattern Use  Type: practical theology guide Source status: active use guide  The Divine project should not only identify patterns.
 - practical_theology_pattern_use.md: Practical theology asks what the pattern does in lived experience.
+- reviewed_candidate_reference_decisions_2026_06_01.md: Counterargument: classical imagery may show beauty, fear, and power, but it does not strengthen divine-pattern claims without art-historical context.
+- reviewed_candidate_reference_decisions_2026_06_01.md: Counterargument: love, longing, and meaning language may reflect ordinary pattern perception or existential philosophy rather than divine self-disclosure.
 - reviewed_source_packs.md: ## Pack 2: Redemptive Metanarrative And Practical Theology  Claim boundary: creation, fall, covenant, redemption, restoration, and new creation can serve as a Christian story-form for interpreting human life, but the pattern must not force unresolved grief into premature victory.
 - reviewed_source_packs.md: ## Pack 5: Math, Statistics, Logic, And Science Guardrails  Claim boundary: math, logic, statistics, and physics help discipline pattern claims.
 - source_lane_balance_targets.md: | | history_inputs | 20 | 50 | 90 | Test the pattern against power, memory, conflict, reform, and consequences.
@@ -827,6 +844,7 @@ Quantum Physics and Uncertainty
 - science_math_physics_divine_pattern_model.md: # Science, Mathematics, Physics, And A Divine-Pattern Model  This note adds science, mathematics, physics, and quantum physics to the divine-pattern research project.
 - science_math_physics_divine_pattern_model.md: ## Sources Consulted  - Stanford Encyclopedia of Philosophy, "Laws of Nature": https://plato.stanford.edu/entries/laws-of-nature/ - Stanford Encyclopedia of Philosophy, "Indispensability Arguments in the Philosophy of Mathematics": https://plato.stanford.edu/entries/mathphil-indi
 - claim_ledger.md: | | DP-008 | Quantum or science references may support humility about causality and knowledge, but they do not prove prayer, consciousness, or God.
+- claim_ledger.md: | | DP-008 | Keep as `analogy_only`; do not promote science or quantum material into proof.
 - cloud_reference_promotion_decision_log.md: ### Science / Quantum Candidates  - Default decision: `research_question_only`.
 - cloud_reference_review_policy.md: Pair any science, quantum, language-family, text-tradition, or    unresolved-suffering claim with a counterargument or narrow allowed    conclusion.
 - cloud_references_summary.md: ## Love of neighbor assessment: validity, reliability, and a template for measurement.
@@ -894,6 +912,8 @@ Anthropology and Culture
 - pattern_revision_rules.md: - `shared_human_pattern`: recurring motif without Christian-specific proof.
 - practical_theology_pattern_use.md: It should help people engage faithfully with God, neighbor, self, creation, and community.
 - practical_theology_pattern_use.md: Discern: ask how scripture, prayer, conscience, community, wisdom, and pressure tests shape the faithful response.
+- reviewed_candidate_reference_decisions_2026_06_01.md: # Reviewed Candidate Reference Decisions, 2026-06-01  Source lane: research_documents Source status: human review decision log  These decisions convert machine-routed candidate references into human review decisions.
+- reviewed_candidate_reference_decisions_2026_06_01.md: | ID | Candidate reference | Human review decision | | --- | --- | --- | | NCR-001 | Trinitarian Creation and Action, Gilles Emery OP and Francesca Aran Murphy, 2010, Crossref/DOI metadata | Promote to reviewed lead for Trinity-As-Behavior and Creation-To-Consciousness only after
 - reviewed_source_packs.md: ## Pack 2: Redemptive Metanarrative And Practical Theology  Claim boundary: creation, fall, covenant, redemption, restoration, and new creation can serve as a Christian story-form for interpreting human life, but the pattern must not force unresolved grief into premature victory.
 - reviewed_source_packs.md: Reviewed-source needs:  - Acts, Romans 12, 1 Corinthians 12-14, Ephesians 4, Galatians 5, 1 Peter 4, - charismatic, Pentecostal, Orthodox, Catholic, Protestant, and cautious   cessationist readings, - cross-cultural testimony with safeguards against manipulation, - other-religiou
 - source_lane_balance_targets.md: A disciplined theological assistant needs a balanced body of sources: scripture and theologians, languages and history, art and culture, psychology and lived stories, other religious traditions, pressure tests, and methodological guardrails.
@@ -957,6 +977,8 @@ AI and Pattern Recognition
 - pattern_revision_rules.md: The goal is not to protect the pattern from criticism; the goal is to make it truer, humbler, and more useful.
 - practical_theology_pattern_use.md: # Practical Theology Pattern Use  Type: practical theology guide Source status: active use guide  The Divine project should not only identify patterns.
 - practical_theology_pattern_use.md: Practical theology asks what the pattern does in lived experience.
+- reviewed_candidate_reference_decisions_2026_06_01.md: The item appears to be a model or derivative visual object with mythological metadata, not a theological source.
+- reviewed_candidate_reference_decisions_2026_06_01.md: Counterargument: classical imagery may show beauty, fear, and power, but it does not strengthen divine-pattern claims without art-historical context.
 - reviewed_source_packs.md: ## Pack 2: Redemptive Metanarrative And Practical Theology  Claim boundary: creation, fall, covenant, redemption, restoration, and new creation can serve as a Christian story-form for interpreting human life, but the pattern must not force unresolved grief into premature victory.
 - reviewed_source_packs.md: ## Pack 4: Other Religious Traditions And Comparative Witness  Claim boundary: Christians may compare shared human patterns and possible prevenient or hidden grace across religious traditions, but other traditions must be studied on their own terms.
 - source_lane_balance_targets.md: | | history_inputs | 20 | 50 | 90 | Test the pattern against power, memory, conflict, reform, and consequences.
@@ -1007,6 +1029,8 @@ Philosophy and Meaning
 - pattern_formation_framework.md: Human problem: the ordinary human experience that makes the pattern matter.
 - pattern_formation_framework.md: Scholarly conversation: theologians, languages, history, psychology, science,    philosophy, and methodological questions that refine the claim.
 - practical_theology_pattern_use.md: Practical theology asks what the pattern does in lived experience.
+- reviewed_candidate_reference_decisions_2026_06_01.md: Counterargument: love language may reflect liberal religious ethics rather than Christian Trinitarian formation.
+- reviewed_candidate_reference_decisions_2026_06_01.md: | | NCR-006 | SORIN CERIN - LOVE, Internet Archive text metadata | Keep as modern-literature/philosophy candidate, not theology.
 - reviewed_source_packs.md: Practical use: help people locate their daily experience inside attention, truth-telling, lament, repentance, service, and patient hope.
 - reviewed_source_packs.md: They may support humility, intelligibility, and method, but they do not prove God by themselves.
 - source_lane_balance_targets.md: | Lane | Minimum | Healthy target | Review cap | Purpose | | --- | ---: | ---: | ---: | --- | | biblical_languages | 12 | 30 | 60 | Check Greek, Hebrew, Aramaic, syntax, translation range, and covenant language.

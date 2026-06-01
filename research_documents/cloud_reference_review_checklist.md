@@ -53,3 +53,18 @@ A routed daily reference can be promoted only when the reviewer can state:
   of the evidence label being strengthened.
 
 Automated labels help triage candidates. They do not override source review.
+
+## Auto-Approval Boundary
+
+`auto_approved_for_review_queue` means the collector judged the candidate
+eligible to move through the review queue without manual triage. It does not
+mean:
+
+- original source reviewed,
+- author/context verified,
+- counterargument recorded,
+- confidence increased,
+- claim strengthened.
+
+Auto-approved items still need the required checks above before they can become
+`reviewed_strong_evidence` or `reviewed_limited_evidence`.

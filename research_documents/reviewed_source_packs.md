@@ -242,3 +242,144 @@ Failure condition: weaken or reject any version that treats science as a proof
 machine, turns consciousness into superiority, or ignores suffering and waste in
 creation.
 
+## 2026-06-01 Leading Pattern Pack Addendum
+
+This addendum records the next source-pack growth pass. It does not replace the
+pack boundaries above. It adds reviewed-note targets, rival explanations, and
+failure conditions so each leading pattern can be tested harder before it is
+treated as a stronger claim.
+
+### Image Of God Pattern
+
+New reviewed-source growth:
+
+- biblical_languages: `tselem`, `demut`, breath, body, glory, vocation, renewal,
+  and post-violence dignity,
+- world_languages: personhood terms such as `ubuntu`, `utu`, `ori`, kinship,
+  land, and oral genealogy,
+- theologians: Irenaeus, Augustine, Aquinas, Zizioulas, Jennings, Oduyoye,
+  disability-theology and liberation-theology pressure.
+
+Rival explanations to add: cognitive science of agency, social cognition,
+political rights discourse, kinship systems, and cultural anthropology of
+personhood.
+
+Failure condition: weaken the pattern wherever it ranks people by rational
+ability, productivity, beauty, citizenship, race, caste, gender, disability, or
+religious usefulness.
+
+### Cross And Reversal Pattern
+
+New reviewed-source growth:
+
+- biblical_languages: Psalm 22, Isaiah servant language, passion vocabulary,
+  `kenosis`, reconciliation, and witness under empire,
+- history_inputs: Roman crucifixion, martyr memory, slavery, civil rights,
+  lynching, genocide, and institutional abuse,
+- theologians: Luther, Bonhoeffer, Cone, Williams, Sobrino, Romero, and trauma
+  theology.
+
+Rival explanations to add: social psychology of sacrifice, sociology of
+martyrdom, political uses of victimhood, literary reversal motifs, and moral
+injury research.
+
+Failure condition: reject any version that spiritualizes abuse, demands
+forgiveness without justice, treats victims as instruments, or praises suffering
+while protecting violent power.
+
+### Creation-To-Consciousness Pattern
+
+New reviewed-source growth:
+
+- biblical_languages: creation, wisdom, image, breath, creation praise, groaning
+  creation, and new creation,
+- all_texts: creation stories, ecological traditions, philosophical accounts of
+  mind, and policy/creation-care pressure,
+- deep_sources: science guardrails, probability, logic, mathematical theophany,
+  and ecological loss.
+
+Rival explanations to add: evolutionary biology, emergence, cognitive science,
+naturalistic philosophy of mind, ecological interdependence, and ordinary human
+wonder before complexity.
+
+Failure condition: weaken any version that turns science into proof, treats
+consciousness as superiority, ignores animal life, ranks disabled persons, or
+evades suffering and waste in nature.
+
+### Trinity-As-Behavior Pattern
+
+New reviewed-source growth:
+
+- biblical_languages: Matthew 28, John 14-16, Romans 8, Ephesians, baptismal
+  language, Spirit fruit, and gifts,
+- theologians: Tertullian, Nicaea, Gregory Nazianzen, Augustine, Aquinas,
+  LaCugna, Zizioulas, Rahner, and Pentecostal discernment,
+- history_inputs: councils, schism, worship practice, mission, abuse, and reform.
+
+Rival explanations to add: sociology of group identity, ritual studies,
+psychology of belonging, leadership dynamics, and comparative triadic symbols.
+
+Failure condition: reject any version that collapses Father, Son, and Spirit
+into one role, divides God into three gods, treats the Spirit as group energy, or
+uses divine authority to control people.
+
+### Providence And Contingency Pattern
+
+New reviewed-source growth:
+
+- biblical_languages: Esther, Job, Ecclesiastes, Romans 8, Hebrews 11, and
+  apocalyptic hope,
+- history_inputs: exile, war, genocide, public-health crises, diaspora,
+  migration, and failed prediction,
+- deep_sources: probability, causality, uncertainty, complexity, and science
+  scope limits.
+
+Rival explanations to add: chance, contingency, survivor bias, narrative
+retrospective meaning-making, trauma coping, social causation, and political
+myth-making.
+
+Failure condition: weaken any version that explains every event too neatly,
+blames victims, confuses correlation with providence, ignores evil, or claims
+access to hidden divine causes.
+
+## 2026-06-01 Active Lane Conversion Plan
+
+The newest active lanes should become reviewed evidence only through this path:
+
+1. visual_art: inspect actual form, composition, symbol, context, beauty, and
+   counter-reading before using it as evidence.
+2. cultural_inputs: identify practice, community, power, and consequence before
+   making theological claims.
+3. theologians: verify author, era, primary text, doctrine, disagreement, and
+   pressure point.
+4. all_texts: classify tradition, genre, community context, and whether
+   recurrence is broad or overfit.
+5. history_inputs: name power, harm, reform, memory, consequence, and unfinished
+   repair.
+
+## Pack 12: Mathematical Theophany Pattern
+
+Claim boundary: mathematical order, pattern, symmetry, logic, infinity, and
+beauty may be explored as possible signs of divine self-disclosure, but they
+must not be treated as proof or allowed to bypass rival explanations.
+
+Reviewed-source needs:
+
+- biblical and theological sources on creation, wisdom, Logos, beauty, and
+  revelation,
+- philosophy of mathematics, including Platonist, formalist, constructivist,
+  fictionalist, and naturalistic accounts,
+- aesthetics sources on beauty, elegance, proportion, sublimity, and cultural
+  formation,
+- logic and proof-boundary sources that separate formal proof from theological
+  interpretation,
+- pressure cases involving disorder, ugliness, randomness, suffering,
+  mathematically describable harm, and failed models.
+
+Practical use: cultivate wonder, humility, intellectual honesty, worship, and
+better reasoning while refusing to turn elegance into coercive proof.
+
+Failure condition: weaken or reject any version that treats subjective beauty as
+universal evidence, ignores suffering and disorder, confuses analogy with
+revelation, or fails to compare serious non-theistic explanations.
+

@@ -265,6 +265,25 @@ def opencitations_enrichment_limit():
         return 25
 
 
+def auto_approve_review_queue_enabled():
+    return provider_enabled("AUTO_APPROVE_REVIEW_QUEUE", default=False)
+
+
+def auto_approve_min_score():
+    try:
+        return max(0, int(os.getenv("AUTO_APPROVE_MIN_SCORE", "7")))
+    except ValueError:
+        return 7
+
+
+def auto_approve_open_web_enabled():
+    return provider_enabled("AUTO_APPROVE_OPEN_WEB", default=False)
+
+
+def auto_approve_warnings_enabled():
+    return provider_enabled("AUTO_APPROVE_WITH_WARNINGS", default=False)
+
+
 def provider_enabled(env_name: str, default: bool = True):
     value = os.getenv(env_name)
     if value is None:
@@ -641,6 +660,68 @@ def add_automated_evidence(source: dict, sources: list[dict]):
     source["automated_evidence_warnings"] = assessment["warnings"]
     source["evaluation_use"] = assessment["evaluation_use"]
     source["review_status"] = f"machine_assessed_{assessment['label']}"
+    return source
+
+
+def add_auto_review_approval(source: dict):
+    """Optionally auto-approve low-risk candidates for review routing only."""
+    source.pop("auto_review_approval", None)
+    source.pop("auto_review_approval_scope", None)
+    source.pop("auto_review_approval_reasons", None)
+    source.pop("auto_review_approval_warnings", None)
+    source.pop("confidence_effect", None)
+
+    if not auto_approve_review_queue_enabled():
+        return source
+
+    score = int(source.get("automated_evidence_score") or 0)
+    label = source.get("automated_evidence_label", "not_scored")
+    provider = source.get("provider", "")
+    warnings = source.get("automated_evidence_warnings", [])
+    is_open_web = provider in OPEN_WEB_PROVIDERS
+    trusted_open_web = is_trusted_open_web_source(source)
+    reasons = []
+    blockers = []
+
+    if score >= auto_approve_min_score():
+        reasons.append(f"automated score >= {auto_approve_min_score()}")
+    else:
+        blockers.append(f"automated score below {auto_approve_min_score()}")
+
+    if label in {"strong_scholarly_candidate", "moderate_scholarly_candidate"}:
+        reasons.append(f"label is {label}")
+    else:
+        blockers.append(f"label {label} is not eligible")
+
+    if source.get("doi"):
+        reasons.append("stable DOI present")
+    elif source.get("authors") and source.get("year"):
+        reasons.append("author and year metadata present")
+    elif trusted_open_web:
+        reasons.append("trusted open-web domain present")
+    else:
+        blockers.append("missing DOI or author/year metadata")
+
+    if warnings and not auto_approve_warnings_enabled():
+        blockers.append("automated warning present")
+
+    if is_open_web and not (auto_approve_open_web_enabled() and trusted_open_web):
+        blockers.append("open-web source requires manual review")
+
+    if blockers:
+        source["auto_review_approval"] = "not_auto_approved"
+        source["auto_review_approval_scope"] = "manual_review_required"
+        source["auto_review_approval_warnings"] = blockers[:6]
+        source["confidence_effect"] = "none_until_human_review"
+        return source
+
+    source["auto_review_approval"] = "approved_for_review_queue"
+    source["auto_review_approval_scope"] = (
+        "routing_and_queue_only_not_claim_confidence"
+    )
+    source["auto_review_approval_reasons"] = reasons[:6]
+    source["confidence_effect"] = "none_until_human_review"
+    source["review_status"] = "auto_approved_for_review_queue"
     return source
 
 
@@ -1276,6 +1357,7 @@ def collect_sources():
     opencitations_enriched_count = enrich_sources_with_opencitations(sources, errors)
     for source in sources:
         add_automated_evidence(source, sources)
+        add_auto_review_approval(source)
     for source in new_sources:
         source_key = source.get("id") or source_id(source)
         if source_key in sources_by_id:
@@ -1284,16 +1366,22 @@ def collect_sources():
     new_layer_counts = {}
     evidence_counts = {}
     new_evidence_counts = {}
+    auto_approval_counts = {}
+    new_auto_approval_counts = {}
     for source in sources:
         for layer in source.get("layer_routes", []):
             layer_counts[layer] = layer_counts.get(layer, 0) + 1
         label = source.get("automated_evidence_label", "not_scored")
         evidence_counts[label] = evidence_counts.get(label, 0) + 1
+        approval = source.get("auto_review_approval", "not_configured")
+        auto_approval_counts[approval] = auto_approval_counts.get(approval, 0) + 1
     for source in new_sources:
         for layer in source.get("layer_routes", []):
             new_layer_counts[layer] = new_layer_counts.get(layer, 0) + 1
         label = source.get("automated_evidence_label", "not_scored")
         new_evidence_counts[label] = new_evidence_counts.get(label, 0) + 1
+        approval = source.get("auto_review_approval", "not_configured")
+        new_auto_approval_counts[approval] = new_auto_approval_counts.get(approval, 0) + 1
     run_at = datetime.now(timezone.utc).isoformat()
     save_json(
         REFERENCES_PATH,
@@ -1313,6 +1401,15 @@ def collect_sources():
             "new_layer_counts": new_layer_counts,
             "automated_evidence_counts": evidence_counts,
             "new_automated_evidence_counts": new_evidence_counts,
+            "auto_review_approval_counts": auto_approval_counts,
+            "new_auto_review_approval_counts": new_auto_approval_counts,
+            "auto_review_approval_setup": {
+                "enabled": auto_approve_review_queue_enabled(),
+                "min_score": auto_approve_min_score(),
+                "open_web_allowed": auto_approve_open_web_enabled(),
+                "warnings_allowed": auto_approve_warnings_enabled(),
+                "scope": "routing_and_queue_only_not_claim_confidence",
+            },
             "run_provider_counts": run_provider_counts,
             "new_provider_counts": new_provider_counts,
             "opencitations_enriched_count": opencitations_enriched_count,
@@ -1338,6 +1435,7 @@ def write_reports(
     quality_counts = {}
     layer_counts = {}
     evidence_counts = {}
+    auto_approval_counts = {}
     for source in sources:
         for tag in source.get("tags", []):
             tag_counts[tag] = tag_counts.get(tag, 0) + 1
@@ -1347,6 +1445,8 @@ def write_reports(
         quality_counts[quality] = quality_counts.get(quality, 0) + 1
         evidence_label = source.get("automated_evidence_label", "not_scored")
         evidence_counts[evidence_label] = evidence_counts.get(evidence_label, 0) + 1
+        approval = source.get("auto_review_approval", "not_configured")
+        auto_approval_counts[approval] = auto_approval_counts.get(approval, 0) + 1
 
     lines = [
         "Cloud Research Findings Report",
@@ -1434,6 +1534,17 @@ def write_reports(
     lines.extend(f"- {quality}: {count:,}" for quality, count in sorted(quality_counts.items()))
     lines.extend(["", "Automated Evidence Counts", "-------------------------"])
     lines.extend(f"- {label}: {count:,}" for label, count in sorted(evidence_counts.items()))
+    lines.extend(["", "Auto Review Approval Counts", "---------------------------"])
+    if auto_approve_review_queue_enabled():
+        lines.append(
+            "- Auto approval is enabled for review queue/routing only; it does not increase pattern confidence."
+        )
+        lines.append(f"- Minimum score: {auto_approve_min_score():,}")
+        lines.append(f"- Open-web auto approval enabled: {auto_approve_open_web_enabled()}")
+        lines.append(f"- Warning-bearing source auto approval enabled: {auto_approve_warnings_enabled()}")
+    else:
+        lines.append("- Auto approval is disabled.")
+    lines.extend(f"- {label}: {count:,}" for label, count in sorted(auto_approval_counts.items()))
 
     new_tag_counts = {}
     new_layer_counts = {}
@@ -1467,6 +1578,9 @@ def write_reports(
             lines.append(
                 f"  Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})"
             )
+            lines.append(
+                f"  Auto review approval: {source.get('auto_review_approval', 'not_configured')} | confidence effect: {source.get('confidence_effect', 'none_until_human_review')}"
+            )
             if source.get("url"):
                 lines.append(f"  URL: {source['url']}")
     else:
@@ -1482,6 +1596,9 @@ def write_reports(
         lines.append(f"  Layer routes: {routes}")
         lines.append(
             f"  Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})"
+        )
+        lines.append(
+            f"  Auto review approval: {source.get('auto_review_approval', 'not_configured')} | confidence effect: {source.get('confidence_effect', 'none_until_human_review')}"
         )
         if authors:
             lines.append(f"  Authors: {authors}")
@@ -1515,6 +1632,9 @@ def write_reports(
                 f"- Provider: {source.get('provider')}",
                 f"- Quality: {source.get('quality')}",
                 f"- Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})",
+                f"- Auto review approval: {source.get('auto_review_approval', 'not_configured')}",
+                f"- Auto approval scope: {source.get('auto_review_approval_scope', 'manual_review_required')}",
+                f"- Confidence effect: {source.get('confidence_effect', 'none_until_human_review')}",
                 f"- Corroborating routed candidates: {source.get('corroborating_source_count', 0)}",
                 f"- URL: {source.get('url')}",
                 "",
@@ -1557,6 +1677,9 @@ def write_reports(
                 f"- Provider: {source.get('provider')}",
                 f"- Quality: {source.get('quality')}",
                 f"- Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})",
+                f"- Auto review approval: {source.get('auto_review_approval', 'not_configured')}",
+                f"- Auto approval scope: {source.get('auto_review_approval_scope', 'manual_review_required')}",
+                f"- Confidence effect: {source.get('confidence_effect', 'none_until_human_review')}",
                 f"- Truth assessment: {source.get('truth_assessment', 'not_scored')}",
                 f"- Corroborating routed candidates: {source.get('corroborating_source_count', 0)}",
                 f"- Year: {source.get('year') or 'n.d.'}",
@@ -1569,6 +1692,16 @@ def write_reports(
         )
         for reason in source.get("automated_evidence_reasons", [])[:6]:
             queue_lines.append(f"- {reason}")
+        if source.get("auto_review_approval_reasons"):
+            queue_lines.append("")
+            queue_lines.append("Auto approval reasons:")
+            for reason in source.get("auto_review_approval_reasons", [])[:6]:
+                queue_lines.append(f"- {reason}")
+        if source.get("auto_review_approval_warnings"):
+            queue_lines.append("")
+            queue_lines.append("Auto approval blockers:")
+            for warning in source.get("auto_review_approval_warnings", [])[:6]:
+                queue_lines.append(f"- {warning}")
         if source.get("automated_evidence_warnings"):
             queue_lines.append("")
             queue_lines.append("Automated evidence warnings:")

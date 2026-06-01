@@ -29,6 +29,14 @@ Unreviewed cloud references can suggest research questions, but they should not
 increase confidence in a divine pattern. Strong evidence requires original
 source review, source quality, context, and pressure testing.
 
+Auto-approval rule:
+
+When `AUTO_APPROVE_REVIEW_QUEUE=true`, the collector may mark low-risk
+machine-scored references as `auto_approved_for_review_queue`. This approval is
+only for routing and review workflow. It does not make the source reviewed
+evidence, does not increase confidence, and does not bypass original-source,
+author, publication-context, or counterargument checks.
+
 Pattern revision rule:
 
 When a pressure test shows that the pattern does not hold, the project should
