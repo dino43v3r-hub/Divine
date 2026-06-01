@@ -1,6 +1,17 @@
 {
+  "auto_review_approval_counts": {
+    "approved_for_review_queue": 1126,
+    "not_auto_approved": 152
+  },
+  "auto_review_approval_setup": {
+    "enabled": true,
+    "min_score": 7,
+    "open_web_allowed": false,
+    "scope": "routing_and_queue_only_not_claim_confidence",
+    "warnings_allowed": false
+  },
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 569,
+    "moderate_scholarly_candidate": 574,
     "strong_scholarly_candidate": 579,
     "weak_scholarly_candidate": 125
   },
@@ -8,43 +19,51 @@
   "layer_counts": {
     "all_texts": 406,
     "biblical_languages": 103,
-    "cultural_inputs": 318,
-    "deep_sources": 355,
-    "history_inputs": 328,
+    "cultural_inputs": 321,
+    "deep_sources": 356,
+    "history_inputs": 332,
     "human_stories": 297,
     "modern_literature": 163,
     "music_notes": 78,
     "other_religious_texts": 276,
     "pattern_tests": 222,
     "psychology_inputs": 299,
-    "research_documents": 145,
+    "research_documents": 146,
     "research_documents/christian_sources": 112,
-    "theologians": 312,
-    "visual_art": 419,
+    "theologians": 314,
+    "visual_art": 421,
     "world_languages": 240
   },
-  "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 6
+  "new_auto_review_approval_counts": {
+    "approved_for_review_queue": 5
   },
-  "new_count": 6,
+  "new_automated_evidence_counts": {
+    "moderate_scholarly_candidate": 5
+  },
+  "new_count": 5,
   "new_layer_counts": {
-    "all_texts": 1,
-    "cultural_inputs": 2,
+    "cultural_inputs": 3,
     "deep_sources": 1,
-    "history_inputs": 3,
-    "other_religious_texts": 1,
+    "history_inputs": 4,
     "research_documents": 1,
-    "theologians": 4,
-    "visual_art": 4
+    "theologians": 2,
+    "visual_art": 2
   },
   "new_provider_counts": {
-    "Internet Archive": 6
+    "Internet Archive": 5
   },
   "new_sources": [
     {
       "authors": [
-        "St. Seraphim of Platina"
+        "Restitutio"
       ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "trusted archive, university, government, museum, library, or public-domain domain",
@@ -55,44 +74,48 @@
       ],
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 550,
+      "corroborating_source_count": 338,
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/gods-revelation-to-the-human-heart_202604",
+      "id": "https://archive.org/details/restitutio-518_tried_to_believe_in_the_trinity_rick_naviello",
       "layer_review_prompts": [
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
         "Use as general research context until a more specific layer is reviewed.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Read the tradition on its own terms; do not flatten it into Christian categories."
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
       ],
       "layer_routes": [
         "theologians",
         "research_documents",
-        "visual_art",
-        "all_texts",
-        "other_religious_texts"
+        "history_inputs"
       ],
       "primary_layer": "theologians",
       "provider": "Internet Archive",
       "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "review_status": "auto_approved_for_review_queue",
       "source_type": "archive.org audio",
-      "summary": "God's Revelation to the Human Heart Lecture of Fr. Seraphim Rose at the University of California, Santa Cruz May 15, 1981 Introduction by Hieromonk Damascene Fr. Seraphim Rose , God\u2019s Revelation to the Human Heart , St. Herman of Alaska Brotherhood, Platina, California, 2014, pp. 7-13 In the spring of 1981, less than a year and a half before his repose, Fr Seraphim Rose was invited to give a lecture at the University of California, Santa Cruz. His audience was to be comprised of students from a class on comparative religions, called \u201cWorld Religions in the U.S.\u201d [. . .] Santa Cruz had been a center for the nationwide spiritual quest that had reached its peak in the late 1960s and early 1970s",
+      "summary": "Listen to this episode on Spotify or Apple Podcasts We've all heard plenty of stories of Trinitarians who begin questioning their received teaching and eventually become Unitarian. However, today, we're bringing you a story that's a little different. My guest is Rick Naviello who held a biblical unitarian view of Jesus for decades before attending evangelical churches and really trying to believe in the Trinity. He did everything he could to convince himself it was true. He thought he had succeeded until... Well, I don't want to give away the punchline, but let's just say he's more convinced of his biblical unitarian faith than ever. (And church history was involved.) https://www.youtube.com",
       "tags": [
         "trinity"
       ],
-      "title": "St. Seraphim of Platina - God's Revelation To The Human Heart. 1981",
+      "title": "518 Tried to Believe in the Trinity (Rick Naviello)",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/gods-revelation-to-the-human-heart_202604",
-      "year": "1981"
+      "url": "https://archive.org/details/Restitutio-518_tried_to_believe_in_the_trinity_rick_naviello",
+      "year": "2023"
     },
     {
       "authors": [
-        "EAR OF THE RAT"
+        "Anchorage Unitarian Universalist Fellowship Forum Podcasts"
       ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "trusted archive, university, government, museum, library, or public-domain domain",
@@ -103,38 +126,96 @@
       ],
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 272,
+      "corroborating_source_count": 240,
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/eotr-happensautomagically1of2",
+      "id": "https://archive.org/details/anchorage_unitarian_universalist_fellowship_forum_podcasts-10577340_norbert_cape",
       "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims."
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
       ],
       "layer_routes": [
-        "visual_art",
-        "cultural_inputs"
+        "cultural_inputs",
+        "history_inputs"
       ],
-      "primary_layer": "visual_art",
+      "primary_layer": "cultural_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "review_status": "auto_approved_for_review_queue",
       "source_type": "archive.org audio",
-      "summary": "EAR OF THE RAT is an on-going open source improvised sound recording project A 21st Century Un-band recorded live January 18, 2013 in beautiful downtown St.Catharines thanks again to all the friends and listeners keep up to date with all yer rat news @ http://earoftheratnews.blogspot.ca Ear of the Rat records to two digital stereo tracks @48,000 hz using a ZOOM Handy Recorder H4n Post-production and dither down to 256kbps mp3 with a licensed version of REAPER http://www.reaper.fm/ EOTR streams live musical improvisations every friday night http://www.ustream.tv/channel/earoftherat if you miss a night you can catch up on youtube! http://youtu.be/BvHwfCoM9EE http://en.wiktionary.org/wiki/autom",
+      "summary": "Rev. Shelley Page",
       "tags": [
-        "art_beauty"
+        "politics_justice"
       ],
-      "title": "EOTR - HAPPENS AUTOMAGICALLY (1 of 2)",
+      "title": "Norbert \u010capek: Flowers, Freedom & Faith",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Eotr-HappensAutomagically1Of2",
-      "year": "2013"
+      "url": "https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-10577340_norbert_cape",
+      "year": "2020"
+    },
+    {
+      "authors": [
+        "Perry, Ralph Barton, 1876-1957"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 240,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/puritanismdemocr0000perr_q3q2",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org texts",
+      "summary": "xvi, [2], 688 pages ; 22 cm The two ideals which the author believes have contributed most to America's heritage Includes bibliographical references (pages 643-678) and index Review of the past : Doubt and disillusionment : The formulation and reaffirmation of Americanism ; Flamboyant patriotism ; The swing toward disillusionment in literature ; Criticism ; Economic and political doubts ; The realistic rewriting of American history ; Decline of moral and religious belief -- The power of ideals : The two charges against ideals, as non-casual and non-verdical ; The alleged impotence of ideals. Epiphenomenalism ; Social efficacy of high-grade mentality ; Tradition. The social inheritance ; Cult",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "Puritanism and democracy",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/puritanismdemocr0000perr_q3q2",
+      "year": "1944"
     },
     {
       "authors": [
         "Sorin Cerin"
       ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "trusted open-web domain present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "trusted archive, university, government, museum, library, or public-domain domain",
@@ -144,12 +225,13 @@
       ],
       "automated_evidence_score": 7,
       "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
       "corroborating_source_count": 420,
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/bookswrittenbysorincerin2020",
+      "id": "https://archive.org/details/sorincerinbooksbibliography",
       "layer_review_prompts": [
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
@@ -163,21 +245,28 @@
       "primary_layer": "history_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "review_status": "auto_approved_for_review_queue",
       "source_type": "archive.org texts",
       "summary": "Sorin Cerin \u2013 books which can be viewed on Google Books, bibliography 2020 with literary and philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian philosopher, poet and essayist. If Osho is a mystic in his aphorisms, Sorin Cerin is a philosopher, author of a new philosophical system called Coaxialism, and an important 21st-century existentialist poet whose philosophical poems are cited by specialist critics alongside Sartre and Kierkegaard. Sorin Cerin is especially sought after by the general public, both for his philosophical poems, which mainly focus on Love, Existence, Illusion, Absurd or Death, as well as for the aphorisms, structured in several ",
       "tags": [
         "history_memory"
       ],
-      "title": "Books Written By Sorin Cerin 2020",
+      "title": "Sorin Cerin \u2013 Books Biography And Bibliography With Literary And Philosophical Criticism 2020",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/bookswrittenbysorincerin2020",
+      "url": "https://archive.org/details/sorincerinbooksbibliography",
       "year": null
     },
     {
       "authors": [
-        "Complete Service-First Unitarian Universalist Society of San Francisco"
+        "Jeremy Pitt, Maria Tzanou, Rui Cardoso"
       ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "trusted archive, university, government, museum, library, or public-domain domain",
@@ -188,96 +277,13 @@
       ],
       "automated_evidence_score": 8,
       "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 300,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/complete_service_first_unitari-20250105complete",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "\"The Stories We Tell\" Sunday, January 5, 2025, 10:50 am Humans are storytellers, and stories have the power to influence us, for better or worse. Our affiliated community minister, Rev. Mille Phillips, will address what stories we tell ourselves or others. Do they empower us or hold us back? Which do we need to rewrite or retell? What stories do we need in 2025? Rev. Millie Phillips, Affiliated Community Minister; Santana Gonzalez-Gomez, Worship Associate; Stephen Cox, pianist; Jon Silk, drummer; Akan\u00e9 Ota, songleader Shulee Ong; Eric Shackelford; Francisco Castellanos; Eli Boshears, Camera Operators; Jonathan Silk, Communications Director; Thomas Brown, Jose Matias Pineda, and Francisco Cas",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "The Stories We Tell",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Complete_Service_First_Unitari-20250105Complete",
-      "year": "2025"
-    },
-    {
-      "authors": [
-        "Complete Service-First Unitarian Universalist Society of San Francisco"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 300,
-      "date_accessed": "2026-06-01",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/complete_service_first_unitari-20201101vrscomplete",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "\u201cHealing and Hope\" (November 1, 2020) Worship Service In this lead up to this election, which for many of us feels like the very future of our nation, of its best self, lies in the balance, let\u2019s talk about what will be required of us on the other side. Let's talk about healing and hope. Rev. Vanessa Rush Southern, Senior Minister Rev. Alyson Jacks, Associate Minister Reiko Oda Lane, organist Mark Sumner, director VanNessa Hulme, soprano Brielle Marina Neilson, mezzo soprano Ben Rudiak-Gould, tenor Asher Davison, bass Wm. Garc\u00eda Ganz, accompanist Eric Shackelford, camera Shulee Ong, camera Joe Chapot, Social Media Chat Support Alex Darr, Coffee Hour Zoom Jonathan Silk, OOS, Sound, drums",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "Healing and Hope",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/Complete_Service_First_Unitari-20201101VRSComplete",
-      "year": "2020"
-    },
-    {
-      "authors": [
-        "Jeremy Pitt"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
       "corroborating_source_count": 477,
       "date_accessed": "2026-06-01",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/ai4eq",
+      "id": "https://archive.org/details/ai4eq_202111",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims.",
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
@@ -291,15 +297,15 @@
       "primary_layer": "cultural_inputs",
       "provider": "Internet Archive",
       "quality": "reference metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "review_status": "auto_approved_for_review_queue",
       "source_type": "archive.org movies",
-      "summary": "https://rppc.github.io/ai4eq/ Scope of the Workshop The first International Workshop on Artificial Intelligence for Equity (AI4Eq) was held virtually and in Santiago de Compostela (Spain) in conjunction with ECAI2020. The focus of this workshop was to examine the role of AI science and technology in advancing towards the United Nations (UN) Sustainable Development Goals, particularly in the context of a mix of standard, policies, regulations, declaration and charters on both the Ethics of AI, Machine Learning and Big Data, and on Human rights, including the UN's own Global Pulse Initiative, UN rapporteurs reports on extreme poverty, human rights and modern slavery, the IEEE Global Initiative",
+      "summary": "Second International Workshop on Artificial Intelligence for Equity (AI4Eq) [Against Modern Indentured Servitude] In association with ISTAS 2021 Wednesday 27th October, 2021 (9.00am-5.00pm EDT) Hosted by University of Waterloo, Ontario (CA), Online at PheedLoop Scope of the Workshop The first International Workshop on Artificial Intelligence for Equity (AI4Eq) was held virtually and in Santiago de Compostela (Spain) in conjunction with ECAI2020. The focus of this workshop was to examine the role of AI science and technology in advancing towards the United Nations (UN) Sustainable Development Goals, particularly in the context of a mix of standard, policies, regulations, declaration and chart",
       "tags": [
         "technology_ethics"
       ],
-      "title": "AI4Eq@ISTAS21 by Jeremy Pitt of ICL",
+      "title": "AI4Eq",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/ai4eq",
+      "url": "https://archive.org/details/ai4eq_202111",
       "year": "2021"
     }
   ],
@@ -312,5 +318,5 @@
     "PubMed": 26,
     "arXiv": 30
   },
-  "updated_at": "2026-06-01T17:53:27.778610+00:00"
+  "updated_at": "2026-06-01T18:13:34.778737+00:00"
 }

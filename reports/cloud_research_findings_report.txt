@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-01T17:53:27.822981+00:00
-Total references: 1,273
-New references this run: 6
+Updated: 2026-06-01T18:13:34.831539+00:00
+Total references: 1,278
+New references this run: 5
 
 Guardrails
 ----------
@@ -28,11 +28,11 @@ Online Collection Status
   - PubMed: 26
   - arXiv: 30
 - Brand-new references added by provider:
-  - Internet Archive: 6
+  - Internet Archive: 5
 - Total stored references by provider:
   - Crossref: 312
   - Europe PMC: 199
-  - Internet Archive: 351
+  - Internet Archive: 356
   - OpenAlex: 250
   - PubMed: 24
   - Tavily Search: 111
@@ -46,18 +46,18 @@ Reference Tags
 - cultural_practice_patterns: 59
 - general_research_methods: 54
 - global_text_traditions: 80
-- history_memory: 101
+- history_memory: 102
 - holy_spirit_gifts_global: 31
 - interreligious_dream_testimony: 40
 - modern_literature_meaning: 56
 - music_math: 78
 - pattern_perception_divine_response: 53
-- politics_justice: 75
+- politics_justice: 77
 - psychology_patterns: 67
 - quantum_science_guardrails: 86
-- technology_ethics: 78
+- technology_ethics: 79
 - theologians_cross_era: 29
-- trinity: 92
+- trinity: 93
 - unresolved_suffering: 45
 - world_language_source_sampling: 68
 - world_languages_translation: 54
@@ -66,19 +66,19 @@ Layer Routes
 ------------
 - all_texts: 406
 - biblical_languages: 103
-- cultural_inputs: 318
-- deep_sources: 355
-- history_inputs: 328
+- cultural_inputs: 321
+- deep_sources: 356
+- history_inputs: 332
 - human_stories: 297
 - modern_literature: 163
 - music_notes: 78
 - other_religious_texts: 276
 - pattern_tests: 222
 - psychology_inputs: 299
-- research_documents: 145
+- research_documents: 146
 - research_documents/christian_sources: 112
-- theologians: 312
-- visual_art: 419
+- theologians: 314
+- visual_art: 421
 - world_languages: 240
 
 Layer Balance Watch
@@ -90,73 +90,79 @@ Layer Balance Watch
 Quality Counts
 --------------
 - open web result: 111
-- reference metadata: 347
+- reference metadata: 352
 - scholarly metadata: 785
 - scholarly preprint: 26
 - speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 569
+- moderate_scholarly_candidate: 574
 - strong_scholarly_candidate: 579
 - weak_scholarly_candidate: 125
 
+Auto Review Approval Counts
+---------------------------
+- Auto approval is enabled for review queue/routing only; it does not increase pattern confidence.
+- Minimum score: 7
+- Open-web auto approval enabled: False
+- Warning-bearing source auto approval enabled: False
+- approved_for_review_queue: 1,126
+- not_auto_approved: 152
+
 New This Run By Tag
 -------------------
-- art_beauty: 1
-- history_memory: 3
+- history_memory: 1
+- politics_justice: 2
 - technology_ethics: 1
 - trinity: 1
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 1
-- cultural_inputs: 2
+- cultural_inputs: 3
 - deep_sources: 1
-- history_inputs: 3
-- other_religious_texts: 1
+- history_inputs: 4
 - research_documents: 1
-- theologians: 4
-- visual_art: 4
+- theologians: 2
+- visual_art: 2
 
 Newest Additions This Run
 ------------------------
-- St. Seraphim of Platina - God's Revelation To The Human Heart. 1981 (1981)
+- 518 Tried to Believe in the Trinity (Rick Naviello) (2023)
   Tags: trinity
-  Layer routes: theologians, research_documents, visual_art, all_texts, other_religious_texts
+  Layer routes: theologians, research_documents, history_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/gods-revelation-to-the-human-heart_202604
-- EOTR - HAPPENS AUTOMAGICALLY (1 of 2) (2013)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/Restitutio-518_tried_to_believe_in_the_trinity_rick_naviello
+- Norbert Čapek: Flowers, Freedom & Faith (2020)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Eotr-HappensAutomagically1Of2
-- Books Written By Sorin Cerin 2020 (n.d.)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-10577340_norbert_cape
+- Puritanism and democracy (1944)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/puritanismdemocr0000perr_q3q2
+- Sorin Cerin – Books Biography And Bibliography With Literary And Philosophical Criticism 2020 (n.d.)
   Tags: history_memory
   Layer routes: history_inputs, theologians, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
-  URL: https://archive.org/details/bookswrittenbysorincerin2020
-- The Stories We Tell (2025)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20250105Complete
-- Healing and Hope (2020)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/Complete_Service_First_Unitari-20201101VRSComplete
-- AI4Eq@ISTAS21 by Jeremy Pitt of ICL (2021)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/sorincerinbooksbibliography
+- AI4Eq (2021)
   Tags: technology_ethics
   Layer routes: cultural_inputs, visual_art, deep_sources
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
-  URL: https://archive.org/details/ai4eq
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/ai4eq_202111
 
 Recent Candidate Sources
 ------------------------
@@ -164,6 +170,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, other_religious_texts
   Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Bamoki M, Wady SH, Badawi S.
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.1016/j.dib.2025.111533
@@ -171,12 +178,14 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://www.facebook.com/groups/2209644753/posts/10157385510304754
 - Language of Religion, Religions as Languages. Introduction to the Special Issue 'Religions and Languages: A Polyphony of Faiths'. (2022)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, visual_art, modern_literature, deep_sources
   Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Vestrucci A.
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.1007/s11841-022-00912-5
@@ -184,6 +193,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, psychology_inputs, deep_sources
   Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Davies O.
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.1007/s40167-016-0039-2
@@ -191,6 +201,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Webb Keane
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1111/1467-9655.12000
@@ -198,6 +209,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, visual_art, other_religious_texts
   Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Ac PS, Gk C.
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.1016/j.mex.2025.103689
@@ -205,6 +217,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: George Lakoff
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1075/pbns.32.08lak
@@ -212,6 +225,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, visual_art, deep_sources
   Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Atmanspacher H, Bezzola Lambert L, Folkers G
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.1098/rsif.2013.1030
@@ -219,6 +233,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, psychology_inputs
   Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Liu Y.
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.3389/fpsyg.2025.1763648
@@ -226,18 +241,21 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, psychology_inputs
   Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://www.jbe-platform.com/content/journals/10.1075/arcl.3.19brd?crawler=true&mimetype=application%2Fpdf
 - SACRED LANGUAGES (2012)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203047750-8
 - Sacred Languages and Sacred Texts (2012)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: John Sawyer
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203047750
@@ -245,6 +263,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Andrew McKinnon
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1163/157006802760198776
@@ -252,6 +271,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, visual_art
   Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Saatyaki S/o Seshendra Sharma
   Source: Internet Archive | reference metadata
   URL: https://archive.org/details/sri-sundara-kanda-is-nothing-but-kundalini-yoga-seshendra-sharma
@@ -259,18 +279,21 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1515/9781552384671-026
 - TRANSLATION (2012)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203047750-11
 - Teaching the Translation of English-Language Color Terms in Political Texts: From Culture to Semantics (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Dilyara Davletshina
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.2139/ssrn.6623278
@@ -278,6 +301,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, visual_art
   Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Klein Cardoso S.
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.1177/1476993x221147925
@@ -285,18 +309,21 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://www.eurasiareview.com/24052021-the-translation-of-the-sacred-analysis
 - The human factor (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203290903_chapter_8
 - The intrinsic structure and interrelations of tea culture constructed from tea-related toponym texts: Evidence from China. (2026)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, visual_art
   Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Xu Y, Wang R, Wu H.
   Source: Europe PMC | scholarly metadata
   URL: https://doi.org/10.1371/journal.pone.0347109
@@ -304,6 +331,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Charles E. Osgood
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.1037/h0055737
@@ -311,24 +339,28 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203102893-45
 - Thinking Through Translation with Metaphors. Edited by James St ... (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, history_inputs
   Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://www.euppublishing.com/doi/10.3366/tal.2011.0030
 - Translating Inspired Language, Transforming Sacred Texts - Brill (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, visual_art
   Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://brill.com/view/journals/me/26/4-5/article-p333_1.xml
 - Translation and Genre: Sacred Texts (2006)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: A. Şerban
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.1016/b0-08-044854-2/00486-7
@@ -336,6 +368,7 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Authors: Ernst-August Gutt
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4324/9781315760018
@@ -343,17 +376,20 @@ Recent Candidate Sources
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://www.quora.com/Why-do-sacred-texts-often-speak-in-metaphor-and-what-happens-when-they-re-interpreted-literally
 - [PDF] Cultural Functions in the Translation of Metaphor (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, visual_art
   Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://www.academypublication.com/issues/past/jltr/vol04/03/11.pdf
 - [PDF] Sensation and Metaphor in Ritual Performance (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, theologians
   Automated evidence: weak_scholarly_candidate (6)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel

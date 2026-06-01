@@ -11,6 +11,9 @@ It stores summaries and citations only, not full copyrighted source text.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.1371/journal.pgph.0004489
 
@@ -31,6 +34,9 @@ Sweden. We used qualitative t
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (14)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.26530/oapen_626979
 
@@ -44,6 +50,9 @@ OpenAlex abstract metadata available.
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (14)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 583
 - URL: https://doi.org/10.1111/padr.12283
 
@@ -57,6 +66,9 @@ OpenAlex abstract metadata available.
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 348
 - URL: https://github.com/nazdridoy/world-religions-wiki/blob/main/christianity/history/indigenous_christianity.md
 
@@ -71,6 +83,9 @@ oral tradition frameworks; Cultural Resonance: Reading
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13060474/?tool=EBI
 
@@ -84,6 +99,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (7)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.1163/2211-2685_eco_l18
 
@@ -97,6 +115,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.1093/acref/9780195301731.013.42151
 
@@ -110,6 +131,9 @@ No summary available in metadata.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 493
 - URL: https://doi.org/10.3389/fpsyg.2025.1575175
 
@@ -130,6 +154,9 @@ compassionate love,
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 542
 - URL: https://doi.org/10.21236/ada597440
 
@@ -143,6 +170,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.4324/9781003139645-16
 
@@ -156,6 +186,9 @@ No summary available in metadata.
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (14)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.5962/bhl.title.68064
 
@@ -169,6 +202,9 @@ OpenAlex abstract metadata available.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 542
 - URL: https://doi.org/10.1093/oso/9780190681685.003.0001
 
@@ -189,6 +225,9 @@ particularly in regard to
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.3389/fpsyt.2025.1693657
 
@@ -209,6 +248,9 @@ extending earlier
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.1111/1468-4446.70061
 
@@ -229,6 +271,9 @@ Christian
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.1163/9789004355026_015
 
@@ -242,6 +287,9 @@ No summary available in metadata.
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 459
 - URL: https://www.thirdwell.org/Rise-of-Christianity-in-Africa-Latin-America-Asia.html
 
@@ -256,6 +304,9 @@ religion with many centers, each rooted in its own history
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 348
 - URL: https://archive.org/details/AliAtTamimi
 
@@ -276,6 +327,9 @@ amiable,
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (14)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.35293/srsa.v40i1.268
 
@@ -289,6 +343,9 @@ OpenAlex abstract metadata available.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.1093/oxfordhb/9780199755653.013.0004
 
@@ -302,6 +359,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.35271/cticen.2017..50.195
 
@@ -315,6 +375,9 @@ No summary available in metadata.
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 458
 - URL: https://archive.org/details/the-crucifix-on-meccas-front-porch
 
@@ -335,6 +398,9 @@ Excellence, he has ser
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 542
 - URL: https://doi.org/10.1093/oso/9780190681685.003.0002
 
@@ -355,6 +421,9 @@ and interview pr
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 458
 - URL: https://doi.org/10.1093/oso/9780190681685.003.0004
 
@@ -375,6 +444,9 @@ for understanding and
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 542
 - URL: https://doi.org/10.1093/oso/9780190681685.003.0008
 
@@ -395,6 +467,9 @@ concepts of oral sourc
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 351
 - URL: https://archive.org/details/newtestamentino00west
 
@@ -409,6 +484,9 @@ A.D. 1611 and revised A.D. 1881. Greek and English; paged in duplicate 52
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 642
 - URL: https://doi.org/10.1007/s13280-025-02230-9
 
@@ -426,6 +504,9 @@ preserve knowledge, community, and existential meaning.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 457
 - URL: https://doi.org/10.3366/swc.2025.0525
 
@@ -446,6 +527,9 @@ church.
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 458
 - URL: https://www.mdpi.com/2077-1444/12/10/839
 
@@ -460,6 +544,9 @@ its cultures, histories, and peoples.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.5040/9781350269125.ch-008
 
@@ -473,6 +560,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.1163/9789004388390_023
 
@@ -486,6 +576,9 @@ No summary available in metadata.
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 348
 - URL: https://archive.org/details/Translators_and_Translations_Riplinger
 
@@ -506,6 +599,9 @@ image, and Lucifer worship. The Men - Each p
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 348
 - URL: https://archive.org/details/Brainerd_Baptist_Church-20220911_Sanctuary_SermonAUDIO
 
@@ -522,6 +618,9 @@ The temptation to godless conduct The tarnish to gospel credibility They Swindle
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 715
 - URL: https://hts.org.za/index.php/hts/article/view/10066/27697
 
@@ -542,6 +641,9 @@ translation and its missiological relevance’, *H
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 457
 - URL: https://doi.org/10.3389/fsoc.2025.1559023
 
@@ -562,6 +664,9 @@ was de
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.1186/s12992-025-01170-z
 
@@ -575,6 +680,9 @@ No summary available in metadata.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 572
 - URL: https://doi.org/10.3389/fsoc.2025.1642404
 
@@ -595,6 +703,9 @@ ritual space, with man
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1075/dapsac.23.15gra
 
@@ -608,6 +719,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.2307/j.ctv6gqs2k.28
 
@@ -621,6 +735,9 @@ No summary available in metadata.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.20944/preprints202506.0686.v4
 
@@ -641,6 +758,9 @@ the disappearance of t
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1177/0040571x9910200613
 
@@ -654,6 +774,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (7)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 456
 - URL: https://doi.org/10.1163/2773-1952_hcso_com_0310
 
@@ -667,6 +790,9 @@ No summary available in metadata.
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1075/prag.21.4.01bre
 
@@ -680,6 +806,9 @@ OpenAlex abstract metadata available.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.1007/s11196-020-09703-y
 
@@ -700,6 +829,9 @@ with our faces
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1007/978-1-137-08286-2_3
 
@@ -713,6 +845,9 @@ OpenAlex abstract metadata available.
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 522
 - URL: https://www.aieti.eu/enti/religion_ENG/entry.html
 
@@ -733,6 +868,9 @@ sociolinguistics, lexicograp
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 411
 - URL: https://doi.org/10.1371/journal.pone.0339564
 
@@ -753,6 +891,9 @@ participant observation, and compre
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1007/s10943-025-02518-w
 
@@ -773,6 +914,9 @@ factorial clarity by eliminat
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.4324/9780203290903_chapter_10
 
@@ -786,6 +930,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1093/litthe/frp043
 
@@ -799,6 +946,9 @@ No summary available in metadata.
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 405
 - URL: https://doi.org/10.5117/9789053563069
 
@@ -812,6 +962,9 @@ OpenAlex abstract metadata available.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 347
 - URL: https://doi.org/10.1016/j.dib.2025.111533
 
@@ -832,6 +985,9 @@ Arabic text. The dataset comp
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 282
 - URL: https://www.facebook.com/groups/2209644753/posts/10157385510304754
 
@@ -846,6 +1002,9 @@ condition, rather than a literal account of
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 596
 - URL: https://doi.org/10.1007/s11841-022-00912-5
 
@@ -866,6 +1025,9 @@ expression accom
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 613
 - URL: https://doi.org/10.1007/s40167-016-0039-2
 
@@ -886,6 +1048,9 @@ as well as tool use
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1111/1467-9655.12000
 
@@ -899,6 +1064,9 @@ OpenAlex abstract metadata available.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 457
 - URL: https://doi.org/10.1016/j.mex.2025.103689
 
@@ -919,6 +1087,9 @@ Contextuali
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1075/pbns.32.08lak
 
@@ -932,6 +1103,9 @@ No summary available in metadata.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 593
 - URL: https://doi.org/10.1098/rsif.2013.1030
 
@@ -952,6 +1126,9 @@ this reason, we pro
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 456
 - URL: https://doi.org/10.3389/fpsyg.2025.1763648
 
@@ -972,6 +1149,9 @@ expression, sha
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 457
 - URL: https://www.jbe-platform.com/content/journals/10.1075/arcl.3.19brd?crawler=true&mimetype=application%2Fpdf
 
@@ -986,6 +1166,9 @@ interdisciplinary approach by applying cognitive semantics,.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.4324/9780203047750-8
 
@@ -999,6 +1182,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.4324/9780203047750
 
@@ -1012,6 +1198,9 @@ No summary available in metadata.
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1163/157006802760198776
 
@@ -1025,6 +1214,9 @@ OpenAlex abstract metadata available.
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 406
 - URL: https://archive.org/details/sri-sundara-kanda-is-nothing-but-kundalini-yoga-seshendra-sharma
 
@@ -1045,6 +1237,9 @@ Ramayana. Therefore, it became a sacred
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1515/9781552384671-026
 
@@ -1058,6 +1253,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.4324/9780203047750-11
 
@@ -1071,6 +1269,9 @@ No summary available in metadata.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.2139/ssrn.6623278
 
@@ -1091,6 +1292,9 @@ translation of
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 405
 - URL: https://doi.org/10.1177/1476993x221147925
 
@@ -1111,6 +1315,9 @@ and i
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 282
 - URL: https://www.eurasiareview.com/24052021-the-translation-of-the-sacred-analysis
 
@@ -1125,6 +1332,9 @@ relationship of communities and peoples to their
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.4324/9780203290903_chapter_8
 
@@ -1138,6 +1348,9 @@ No summary available in metadata.
 - Provider: Europe PMC
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 405
 - URL: https://doi.org/10.1371/journal.pone.0347109
 
@@ -1158,6 +1371,9 @@ relationships.
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1037/h0055737
 
@@ -1171,6 +1387,9 @@ OpenAlex abstract metadata available.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.4324/9780203102893-45
 
@@ -1184,6 +1403,9 @@ No summary available in metadata.
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 406
 - URL: https://www.euppublishing.com/doi/10.3366/tal.2011.0030
 
@@ -1198,6 +1420,9 @@ from the Platonic objection to metaphor as
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 406
 - URL: https://brill.com/view/journals/me/26/4-5/article-p333_1.xml
 
@@ -1212,6 +1437,9 @@ Christian, and Muslim sacred texts.
 - Provider: Crossref
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.1016/b0-08-044854-2/00486-7
 
@@ -1225,6 +1453,9 @@ No summary available in metadata.
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 281
 - URL: https://doi.org/10.4324/9781315760018
 
@@ -1238,6 +1469,9 @@ OpenAlex abstract metadata available.
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 282
 - URL: https://www.quora.com/Why-do-sacred-texts-often-speak-in-metaphor-and-what-happens-when-they-re-interpreted-literally
 
@@ -1252,6 +1486,9 @@ what the text already says. Most translations
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 406
 - URL: https://www.academypublication.com/issues/past/jltr/vol04/03/11.pdf
 
@@ -1272,6 +1509,9 @@ AND RES
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (6)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
 - Corroborating routed candidates: 440
 - URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
 

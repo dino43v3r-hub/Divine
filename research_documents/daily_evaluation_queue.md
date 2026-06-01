@@ -7,29 +7,32 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### St. Seraphim of Platina - God's Revelation To The Human Heart. 1981
+### 518 Tried to Believe in the Trinity (Rick Naviello)
 
-- Review status: machine_assessed_moderate_scholarly_candidate
+- Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: trinity
-- Layer routes: theologians, research_documents, visual_art, all_texts, other_religious_texts
+- Layer routes: theologians, research_documents, history_inputs
 - Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 550
-- Year: 1981
-- URL: https://archive.org/details/gods-revelation-to-the-human-heart_202604
+- Corroborating routed candidates: 338
+- Year: 2023
+- URL: https://archive.org/details/Restitutio-518_tried_to_believe_in_the_trinity_rick_naviello
 
-God's Revelation to the Human Heart Lecture of Fr. Seraphim Rose at the University of California,
-Santa Cruz May 15, 1981 Introduction by Hieromonk Damascene Fr. Seraphim Rose , God’s Revelation to
-the Human Heart , St. Herman of Alaska Brotherhood, Platina, California, 2014, pp. 7-13 In the
-spring of 1981, less than a year and a half before his repose, Fr Seraphim Rose was invited to give
-a lecture at the University of California, Santa Cruz. His audience was to be comprised of students
-from a class on comparative religions, called “World Religions in the U.S.” [. . .] Santa Cruz had
-been a center for the nationwide spiritual quest that had reached its peak in the late 1960s and
-early 1970s
+Listen to this episode on Spotify or Apple Podcasts We've all heard plenty of stories of
+Trinitarians who begin questioning their received teaching and eventually become Unitarian. However,
+today, we're bringing you a story that's a little different. My guest is Rick Naviello who held a
+biblical unitarian view of Jesus for decades before attending evangelical churches and really trying
+to believe in the Trinity. He did everything he could to convince himself it was true. He thought he
+had succeeded until... Well, I don't want to give away the punchline, but let's just say he's more
+convinced of his biblical unitarian faith than ever. (And church history was involved.)
+https://www.youtube.com
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -37,36 +40,36 @@ Automated evidence reasons:
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Use as general research context until a more specific layer is reviewed.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 
-### EOTR - HAPPENS AUTOMAGICALLY (1 of 2)
+### Norbert Čapek: Flowers, Freedom & Faith
 
-- Review status: machine_assessed_moderate_scholarly_candidate
+- Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 272
-- Year: 2013
-- URL: https://archive.org/details/Eotr-HappensAutomagically1Of2
+- Corroborating routed candidates: 240
+- Year: 2020
+- URL: https://archive.org/details/Anchorage_Unitarian_Universalist_Fellowship_Forum_Podcasts-10577340_norbert_cape
 
-EAR OF THE RAT is an on-going open source improvised sound recording project A 21st Century Un-band
-recorded live January 18, 2013 in beautiful downtown St.Catharines thanks again to all the friends
-and listeners keep up to date with all yer rat news @ http://earoftheratnews.blogspot.ca Ear of the
-Rat records to two digital stereo tracks @48,000 hz using a ZOOM Handy Recorder H4n Post-production
-and dither down to 256kbps mp3 with a licensed version of REAPER http://www.reaper.fm/ EOTR streams
-live musical improvisations every friday night http://www.ustream.tv/channel/earoftherat if you miss
-a night you can catch up on youtube! http://youtu.be/BvHwfCoM9EE http://en.wiktionary.org/wiki/autom
+Rev. Shelley Page
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -75,13 +78,61 @@ Automated evidence reasons:
 - summary or abstract metadata available
 - many routed corroborating candidates
 
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
 Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 
-### Books Written By Sorin Cerin 2020
+### Puritanism and democracy
 
-- Review status: machine_assessed_moderate_scholarly_candidate
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 240
+- Year: 1944
+- URL: https://archive.org/details/puritanismdemocr0000perr_q3q2
+
+xvi, [2], 688 pages ; 22 cm The two ideals which the author believes have contributed most to
+America's heritage Includes bibliographical references (pages 643-678) and index Review of the past
+: Doubt and disillusionment : The formulation and reaffirmation of Americanism ; Flamboyant
+patriotism ; The swing toward disillusionment in literature ; Criticism ; Economic and political
+doubts ; The realistic rewriting of American history ; Decline of moral and religious belief -- The
+power of ideals : The two charges against ideals, as non-casual and non-verdical ; The alleged
+impotence of ideals. Epiphenomenalism ; Social efficacy of high-grade mentality ; Tradition. The
+social inheritance ; Cult
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Sorin Cerin – Books Biography And Bibliography With Literary And Philosophical Criticism 2020
+
+- Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: history_memory
 - Layer routes: history_inputs, theologians, visual_art
@@ -89,10 +140,13 @@ Layer review prompts:
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (7)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 420
 - Year: n.d.
-- URL: https://archive.org/details/bookswrittenbysorincerin2020
+- URL: https://archive.org/details/sorincerinbooksbibliography
 
 Sorin Cerin – books which can be viewed on Google Books, bibliography 2020 with literary and
 philosophical criticism Sorin Cerin (born November 25, 1963, Baia Mare, Romania) is a Romanian
@@ -109,84 +163,19 @@ Automated evidence reasons:
 - summary or abstract metadata available
 - many routed corroborating candidates
 
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- trusted open-web domain present
+
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### The Stories We Tell
+### AI4Eq
 
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 300
-- Year: 2025
-- URL: https://archive.org/details/Complete_Service_First_Unitari-20250105Complete
-
-"The Stories We Tell" Sunday, January 5, 2025, 10:50 am Humans are storytellers, and stories have
-the power to influence us, for better or worse. Our affiliated community minister, Rev. Mille
-Phillips, will address what stories we tell ourselves or others. Do they empower us or hold us back?
-Which do we need to rewrite or retell? What stories do we need in 2025? Rev. Millie Phillips,
-Affiliated Community Minister; Santana Gonzalez-Gomez, Worship Associate; Stephen Cox, pianist; Jon
-Silk, drummer; Akané Ota, songleader Shulee Ong; Eric Shackelford; Francisco Castellanos; Eli
-Boshears, Camera Operators; Jonathan Silk, Communications Director; Thomas Brown, Jose Matias
-Pineda, and Francisco Cas
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-
-### Healing and Hope
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 300
-- Year: 2020
-- URL: https://archive.org/details/Complete_Service_First_Unitari-20201101VRSComplete
-
-“Healing and Hope" (November 1, 2020) Worship Service In this lead up to this election, which for
-many of us feels like the very future of our nation, of its best self, lies in the balance, let’s
-talk about what will be required of us on the other side. Let's talk about healing and hope. Rev.
-Vanessa Rush Southern, Senior Minister Rev. Alyson Jacks, Associate Minister Reiko Oda Lane,
-organist Mark Sumner, director VanNessa Hulme, soprano Brielle Marina Neilson, mezzo soprano Ben
-Rudiak-Gould, tenor Asher Davison, bass Wm. García Ganz, accompanist Eric Shackelford, camera Shulee
-Ong, camera Joe Chapot, Social Media Chat Support Alex Darr, Coffee Hour Zoom Jonathan Silk, OOS,
-Sound, drums
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-
-### AI4Eq@ISTAS21 by Jeremy Pitt of ICL
-
-- Review status: machine_assessed_moderate_scholarly_candidate
+- Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: technology_ethics
 - Layer routes: cultural_inputs, visual_art, deep_sources
@@ -194,19 +183,22 @@ Layer review prompts:
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 477
 - Year: 2021
-- URL: https://archive.org/details/ai4eq
+- URL: https://archive.org/details/ai4eq_202111
 
-https://rppc.github.io/ai4eq/ Scope of the Workshop The first International Workshop on Artificial
-Intelligence for Equity (AI4Eq) was held virtually and in Santiago de Compostela (Spain) in
-conjunction with ECAI2020. The focus of this workshop was to examine the role of AI science and
-technology in advancing towards the United Nations (UN) Sustainable Development Goals, particularly
-in the context of a mix of standard, policies, regulations, declaration and charters on both the
-Ethics of AI, Machine Learning and Big Data, and on Human rights, including the UN's own Global
-Pulse Initiative, UN rapporteurs reports on extreme poverty, human rights and modern slavery, the
-IEEE Global Initiative
+Second International Workshop on Artificial Intelligence for Equity (AI4Eq) [Against Modern
+Indentured Servitude] In association with ISTAS 2021 Wednesday 27th October, 2021 (9.00am-5.00pm
+EDT) Hosted by University of Waterloo, Ontario (CA), Online at PheedLoop Scope of the Workshop The
+first International Workshop on Artificial Intelligence for Equity (AI4Eq) was held virtually and in
+Santiago de Compostela (Spain) in conjunction with ECAI2020. The focus of this workshop was to
+examine the role of AI science and technology in advancing towards the United Nations (UN)
+Sustainable Development Goals, particularly in the context of a mix of standard, policies,
+regulations, declaration and chart
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -214,6 +206,11 @@ Automated evidence reasons:
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.

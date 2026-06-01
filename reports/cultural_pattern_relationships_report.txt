@@ -49,13 +49,13 @@ Shared Divine-Pattern Layers
 ----------------------------
 - Physical Order: cultural inputs 25 | religious/science corpus 2,496
 - Mathematical Structure: cultural inputs 24 | religious/science corpus 591
-- Mathematical Theophany: cultural inputs 9 | religious/science corpus 989
+- Mathematical Theophany: cultural inputs 9 | religious/science corpus 986
 - Quantum Probability: cultural inputs 1 | religious/science corpus 100
-- Life And Consciousness: cultural inputs 46 | religious/science corpus 5,344
-- Meaning And Logos: cultural inputs 62 | religious/science corpus 5,918
-- Moral Response: cultural inputs 84 | religious/science corpus 2,255
-- Worship And Community: cultural inputs 69 | religious/science corpus 1,074
-- Transformation: cultural inputs 79 | religious/science corpus 2,081
+- Life And Consciousness: cultural inputs 46 | religious/science corpus 5,423
+- Meaning And Logos: cultural inputs 62 | religious/science corpus 5,913
+- Moral Response: cultural inputs 84 | religious/science corpus 2,258
+- Worship And Community: cultural inputs 69 | religious/science corpus 1,072
+- Transformation: cultural inputs 79 | religious/science corpus 2,078
 
 Per-Domain Findings
 -------------------
