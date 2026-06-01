@@ -13,6 +13,11 @@ Son / Logos reveals meaning and redeems disorder.
 Holy Spirit makes redemption present through communion and transformation.
 ```
 
+The project also includes a mathematical theophany filter. It asks whether
+mathematical order, pattern, symmetry, logic, infinity, and beauty may function
+as cautious signs of divine self-disclosure, while requiring contrasting
+evidence and alternative interpretations before any claim is strengthened.
+
 ## Run
 
 ```powershell
@@ -201,6 +206,9 @@ auto-commit action. The analyzer itself still uses Python 3.12.
 - Treat patterns as research hypotheses, not proof.
 - Preserve the distinction and unity of Father, Son, and Holy Spirit.
 - Do not use quantum physics as vague proof of God.
+- Do not treat mathematical order, symmetry, logic, infinity, or beauty as proof
+  of divine self-disclosure; compare naturalistic, Platonist, formalist,
+  constructivist, cognitive, cultural, and suffering-based alternatives.
 - Do not rush unresolved suffering into easy resolution.
 - Use source quality, counterarguments, and practical application checks.
 - Treat language-family and text-tradition coverage as mapped, not universal,

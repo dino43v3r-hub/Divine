@@ -62,43 +62,45 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: lyrics 12 | religious corpus 2,480
-- Mathematical Structure: lyrics 2 | religious corpus 574
-- Quantum Probability: lyrics 0 | religious corpus 95
-- Life And Consciousness: lyrics 38 | religious corpus 5,341
-- Meaning And Logos: lyrics 47 | religious corpus 5,951
-- Moral Response: lyrics 62 | religious corpus 2,263
-- Worship And Community: lyrics 62 | religious corpus 1,084
-- Transformation: lyrics 57 | religious corpus 2,076
+- Physical Order: lyrics 12 | religious corpus 2,479
+- Mathematical Structure: lyrics 2 | religious corpus 575
+- Mathematical Theophany: lyrics 7 | religious corpus 955
+- Quantum Probability: lyrics 0 | religious corpus 96
+- Life And Consciousness: lyrics 38 | religious corpus 5,323
+- Meaning And Logos: lyrics 47 | religious corpus 5,904
+- Moral Response: lyrics 62 | religious corpus 2,253
+- Worship And Community: lyrics 62 | religious corpus 1,069
+- Transformation: lyrics 57 | religious corpus 2,071
 
 Shared Theme Signals
 --------------------
-- God and Divine Attributes: lyrics 12 | religious corpus 25,265
-- Faith and Trust: lyrics 8 | religious corpus 1,223
-- Jesus and Christology: lyrics 1 | religious corpus 5,459
-- Holy Spirit and Pneumatology: lyrics 4 | religious corpus 953
-- Creation and Order: lyrics 11 | religious corpus 5,841
-- Moral Transformation: lyrics 11 | religious corpus 2,999
-- Theology and Logos: lyrics 8 | religious corpus 5,915
-- Spirituality and Worship: lyrics 8 | religious corpus 1,348
+- God and Divine Attributes: lyrics 12 | religious corpus 25,273
+- Faith and Trust: lyrics 8 | religious corpus 1,220
+- Jesus and Christology: lyrics 1 | religious corpus 5,452
+- Holy Spirit and Pneumatology: lyrics 4 | religious corpus 952
+- Creation and Order: lyrics 11 | religious corpus 5,814
+- Moral Transformation: lyrics 11 | religious corpus 2,988
+- Theology and Logos: lyrics 8 | religious corpus 5,875
+- Spirituality and Worship: lyrics 8 | religious corpus 1,333
 - Biology and Neuroscience: lyrics 0 | religious corpus 70
 - Physics and Natural Law: lyrics 4 | religious corpus 3,044
-- Mathematics and Intelligibility: lyrics 6 | religious corpus 803
-- Quantum Physics and Uncertainty: lyrics 0 | religious corpus 80
-- Anthropology and Culture: lyrics 0 | religious corpus 880
-- AI and Pattern Recognition: lyrics 17 | religious corpus 353
-- Philosophy and Meaning: lyrics 0 | religious corpus 3,095
+- Mathematics and Intelligibility: lyrics 6 | religious corpus 799
+- Mathematical Theophany: lyrics 7 | religious corpus 598
+- Quantum Physics and Uncertainty: lyrics 0 | religious corpus 81
+- Anthropology and Culture: lyrics 0 | religious corpus 810
+- AI and Pattern Recognition: lyrics 17 | religious corpus 348
+- Philosophy and Meaning: lyrics 0 | religious corpus 3,068
 
 Most Aligned Lyric Files
 ------------------------
-- from_order_to_worship.md: score 115; strongest broad motif Love And Longing (5); strongest motif Creation And Wonder (4); strongest layer Worship And Community (14)
-- lament_to_hope.md: score 66; strongest broad motif Love And Longing (2); strongest motif Lament And Cry For Help (6); strongest layer Transformation (7)
-- spirit_and_transformation.md: score 56; strongest broad motif Community And Solidarity (4); strongest motif Spirit And Presence (6); strongest layer Worship And Community (7)
+- from_order_to_worship.md: score 119; strongest broad motif Love And Longing (5); strongest motif Creation And Wonder (4); strongest layer Worship And Community (14)
+- lament_to_hope.md: score 68; strongest broad motif Love And Longing (2); strongest motif Lament And Cry For Help (6); strongest layer Transformation (7)
+- spirit_and_transformation.md: score 58; strongest broad motif Community And Solidarity (4); strongest motif Spirit And Presence (6); strongest layer Worship And Community (7)
 - folk_journey_time.md: score 51; strongest broad motif Journey And Road (5); strongest motif Lament And Cry For Help (2); strongest layer Meaning And Logos (11)
 - pop_love_longing.md: score 43; strongest broad motif Love And Longing (5); strongest motif Wisdom And Truth (3); strongest layer Worship And Community (8)
-- classical_symphony_arc.md: score 38; strongest broad motif Journey And Road (2); strongest motif Wisdom And Truth (2); strongest layer Transformation (6)
+- classical_symphony_arc.md: score 40; strongest broad motif Journey And Road (2); strongest motif Wisdom And Truth (2); strongest layer Transformation (6)
 - dance_party_release.md: score 38; strongest broad motif Party And Release (6); strongest motif Spirit And Presence (1); strongest layer Worship And Community (11)
-- classical_requiem_memory.md: score 35; strongest broad motif Mortality And Time (3); strongest motif Creation And Wonder (2); strongest layer Life And Consciousness (4)
+- classical_requiem_memory.md: score 37; strongest broad motif Mortality And Time (3); strongest motif Creation And Wonder (2); strongest layer Life And Consciousness (4)
 - hiphop_work_status.md: score 34; strongest broad motif Work And Survival (6); strongest motif Lament And Cry For Help (0); strongest layer Moral Response (10)
 - rock_rebellion_resistance.md: score 34; strongest broad motif Rebellion And Resistance (6); strongest motif Justice And Mercy (1); strongest layer Moral Response (11)
 
@@ -109,7 +111,7 @@ from_order_to_worship.md
 ------------------------
 Lines: 27
 Words: 102
-Alignment score: 115
+Alignment score: 119
 Strongest theme: God and Divine Attributes (6)
 Strongest divine-pattern layer: Worship And Community (14)
 Strongest broad music motif: Love And Longing (5)
@@ -169,7 +171,7 @@ lament_to_hope.md
 -----------------
 Lines: 23
 Words: 73
-Alignment score: 66
+Alignment score: 68
 Strongest theme: Faith and Trust (6)
 Strongest divine-pattern layer: Transformation (7)
 Strongest broad music motif: Love And Longing (2)
@@ -221,7 +223,7 @@ spirit_and_transformation.md
 ----------------------------
 Lines: 23
 Words: 87
-Alignment score: 56
+Alignment score: 58
 Strongest theme: Holy Spirit and Pneumatology (3)
 Strongest divine-pattern layer: Worship And Community (7)
 Strongest broad music motif: Community And Solidarity (4)
@@ -353,7 +355,7 @@ classical_symphony_arc.md
 -------------------------
 Lines: 19
 Words: 87
-Alignment score: 38
+Alignment score: 40
 Strongest theme: Faith and Trust (1)
 Strongest divine-pattern layer: Transformation (6)
 Strongest broad music motif: Journey And Road (2)
@@ -435,7 +437,7 @@ classical_requiem_memory.md
 ---------------------------
 Lines: 13
 Words: 68
-Alignment score: 35
+Alignment score: 37
 Strongest theme: God and Divine Attributes (1)
 Strongest divine-pattern layer: Life And Consciousness (4)
 Strongest broad music motif: Mortality And Time (3)
@@ -589,7 +591,7 @@ classical_fugue_order.md
 ------------------------
 Lines: 14
 Words: 59
-Alignment score: 29
+Alignment score: 31
 Strongest theme: Creation and Order (2)
 Strongest divine-pattern layer: Worship And Community (4)
 Strongest broad music motif: Identity And Becoming (3)

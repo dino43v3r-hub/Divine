@@ -6,7 +6,7 @@ This note defines the first working model for finding divine-pattern candidates 
 
 The tool looks for layered convergence:
 
-Physical Order -> Mathematical Structure -> Quantum Probability -> Life And Consciousness -> Meaning And Logos -> Moral Response -> Worship And Community -> Transformation
+Physical Order -> Mathematical Structure -> Mathematical Theophany -> Quantum Probability -> Life And Consciousness -> Meaning And Logos -> Moral Response -> Worship And Community -> Transformation
 
 This is not a proof engine. It is a hypothesis finder.
 
@@ -53,4 +53,3 @@ It must not say that the pattern proves God.
 The proper claim is:
 
 AI can help compare these layers and generate research hypotheses about whether order, intelligibility, moral transformation, and worship form a coherent Christian pattern across reality and human life.
-

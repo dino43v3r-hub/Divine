@@ -62,8 +62,8 @@ Evidence Versus Discernment
 
 Current Corpus Shape
 --------------------
-Documents analyzed across all lanes: 142
-Top-pattern source documents: 115
+Documents analyzed across all lanes: 143
+Top-pattern source documents: 116
 Pressure-test documents: 22
 Theologian documents: 11
 Dedicated synthesis documents: 40
@@ -333,7 +333,7 @@ The assistant should not strengthen broad claims while relevant lanes are thin.
 - human_stories: 2 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: lived grief, repair, vocation, community, and transformation.
 - cultural_inputs: 10 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: politics, economics, technology, ecology, health, work, and education.
 - modern_literature: 2 notes; target 12-30, review cap 60; below minimum - prioritize. Purpose: narrative recurrence and limits through literature summaries.
-- deep_sources: 9 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: math, statistics, science, suffering, and counterargument guardrails.
+- deep_sources: 10 notes; target 20-50, review cap 90; below minimum - prioritize. Purpose: math, statistics, science, suffering, and counterargument guardrails.
 - pattern_tests: 22 notes; target 20-45, review cap 75; developing toward target. Purpose: pressure tests that challenge claims without becoming the whole project.
 - research_documents: 33 notes; target 20-45, review cap 75; developing toward target. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
 Priority lanes before stronger claims: biblical_languages, world_languages, all_texts, other_religious_texts, theologians, history_inputs, visual_art, psychology_inputs.
