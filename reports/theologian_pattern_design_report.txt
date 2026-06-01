@@ -8,46 +8,46 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 12
-Total theologian words analyzed: 5,473
+Theologian documents analyzed: 13
+Total theologian words analyzed: 6,400
 
 Era Coverage
 ------------
-- Patristic: 52
-- Medieval: 36
-- Reformation: 30
-- Modern: 46
-- Contemporary: 25
+- Patristic: 55
+- Medieval: 39
+- Reformation: 32
+- Modern: 47
+- Contemporary: 26
 
 Concept Coverage
 ----------------
-- Christology: 108
-- Creation: 94
-- Theodicy And Suffering: 87
-- Grace And Transformation: 75
-- Justice And Public Life: 54
-- Church And Practice: 52
-- Trinity: 49
-- Pneumatology: 43
+- Christology: 120
+- Creation: 102
+- Theodicy And Suffering: 90
+- Grace And Transformation: 83
+- Justice And Public Life: 61
+- Church And Practice: 59
+- Trinity: 53
+- Pneumatology: 45
 
 Trinitarian Lens
 ----------------
 Signal: moderate Trinitarian signal
-- Father: 136
-- Son: 129
-- Holy Spirit: 72
+- Father: 146
+- Son: 140
+- Holy Spirit: 77
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 94 | broader corpus 2,496
-- Mathematical Structure: theologians 3 | broader corpus 591
-- Mathematical Theophany: theologians 123 | broader corpus 986
-- Quantum Probability: theologians 0 | broader corpus 100
-- Life And Consciousness: theologians 39 | broader corpus 5,423
-- Meaning And Logos: theologians 77 | broader corpus 5,913
-- Moral Response: theologians 69 | broader corpus 2,258
-- Worship And Community: theologians 103 | broader corpus 1,072
-- Transformation: theologians 163 | broader corpus 2,078
+- Physical Order: theologians 102 | broader corpus 2,519
+- Mathematical Structure: theologians 3 | broader corpus 601
+- Mathematical Theophany: theologians 125 | broader corpus 1,022
+- Quantum Probability: theologians 0 | broader corpus 103
+- Life And Consciousness: theologians 41 | broader corpus 5,446
+- Meaning And Logos: theologians 85 | broader corpus 5,927
+- Moral Response: theologians 79 | broader corpus 2,268
+- Worship And Community: theologians 114 | broader corpus 1,087
+- Transformation: theologians 179 | broader corpus 2,099
 
 Per-Source Findings
 -------------------
@@ -172,6 +172,17 @@ Meaning arc:
 - Opening: Desire And Longing (4)
 - Middle: Communal Practice (8)
 - Ending: Moral Confrontation (9)
+
+reviewed_growth_batch_2026_06_01_followup.md
+--------------------------------------------
+Words: 927
+Strongest era signal: Patristic (3)
+Strongest concept signal: Christology (12)
+Meaning confidence: context-supported pattern
+Meaning arc:
+- Opening: Transformation And Hope (7)
+- Middle: Desire And Longing (6)
+- Ending: Transformation And Hope (7)
 
 source_specific_theologian_review_notes.md
 ------------------------------------------

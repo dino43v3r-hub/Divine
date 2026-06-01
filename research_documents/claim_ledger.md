@@ -81,3 +81,14 @@ Failure conditions include unresolved suffering, injustice, corruption,
 practical case failure, science overclaim, rival explanations that fit the data
 better, and ordinary pattern perception mistaken for divine disclosure.
 
+## 2026-06-01 Follow-Up Claim Revisit Notes
+
+These three additional revisits keep major claims from drifting upward in
+confidence merely because the corpus has more repeated signals.
+
+| ID | Revisit decision | Evidence / interpretation / discernment / analogy / practical use separation |
+| --- | --- | --- |
+| DP-001 | Keep as `developing_evidence`; typology needs Jewish and historical-critical counter-readings beside Christian canonical readings. | Evidence: primary texts and reception history can show correspondences. Interpretation: Christian theology may read fulfillment in Christ. Discernment: communities must ask whether the reading honors original context. Analogy: literary foreshadowing can illuminate but not prove divine intent. Practical use: hope and worship without code-breaking. |
+| DP-003 | Keep as `developing_evidence`; repeated motifs must not be mistaken for shared meaning. | Evidence: motifs appear across scripture, history, literature, art, psychology, and other traditions. Interpretation: Christian theology may organize them as divine-pattern hypotheses. Discernment: rival explanations from cognition, culture, genre, trauma, and social learning must be named. Analogy: recurrence can be pattern perception rather than revelation. Practical use: use motifs to ask better questions before strengthening claims. |
+| DP-011 | Keep as `discernment_question`; mathematical theophany remains a possible sign-reading, not evidence by itself. | Evidence: mathematical order, logic, infinity, and beauty can be documented. Interpretation: Christian theology may connect intelligibility with creation, wisdom, and Logos. Discernment: Platonist, formalist, constructivist, naturalistic, cognitive, and cultural alternatives must remain visible. Analogy: elegance is not revelation. Practical use: cultivate wonder, humility, and disciplined reasoning. |
+

@@ -55,27 +55,36 @@ Target additions:
 - biblical_languages: add about 25 reviewed notes toward the target.
   Completed first pass in `biblical_languages/reviewed_growth_batch_2026_05_27.md`;
   second pass added 24 more in
-  `biblical_languages/reviewed_growth_batch_2026_06_01.md`.
+  `biblical_languages/reviewed_growth_batch_2026_06_01.md`; follow-up pass
+  added 23 more in
+  `biblical_languages/reviewed_growth_batch_2026_06_01_followup.md`.
 - world_languages: add about 25 reviewed notes toward the target.
   Completed first pass in `world_languages/reviewed_growth_batch_2026_05_27.md`;
   second pass added 24 more in
-  `world_languages/reviewed_growth_batch_2026_06_01.md`.
+  `world_languages/reviewed_growth_batch_2026_06_01.md`; follow-up pass added
+  23 more in `world_languages/reviewed_growth_batch_2026_06_01_followup.md`.
 - all_texts: add about 46 reviewed notes toward the target.
   Completed first pass in `all_texts/reviewed_growth_batch_2026_05_27.md`;
-  second pass added 45 more in `all_texts/reviewed_growth_batch_2026_06_01.md`.
+  second pass added 45 more in `all_texts/reviewed_growth_batch_2026_06_01.md`;
+  follow-up pass added 44 more in
+  `all_texts/reviewed_growth_batch_2026_06_01_followup.md`.
 - other_religious_texts: add about 46 reviewed notes toward the target.
   Completed first pass in
   `other_religious_texts/reviewed_growth_batch_2026_05_27.md`; second pass
   added 45 more in
-  `other_religious_texts/reviewed_growth_batch_2026_06_01.md`.
+  `other_religious_texts/reviewed_growth_batch_2026_06_01.md`; follow-up pass
+  added 44 more in
+  `other_religious_texts/reviewed_growth_batch_2026_06_01_followup.md`.
 - theologians: add about 65 reviewed notes toward the target.
   Completed first pass in `theologians/reviewed_growth_batch_2026_05_27.md`;
   second pass added 64 more in
-  `theologians/reviewed_growth_batch_2026_06_01.md`.
+  `theologians/reviewed_growth_batch_2026_06_01.md`; follow-up pass added 63
+  more in `theologians/reviewed_growth_batch_2026_06_01_followup.md`.
 - history_inputs: add about 46 reviewed notes toward the target.
   Completed first pass in `history_inputs/reviewed_growth_batch_2026_05_27.md`;
   second pass added 45 more in
-  `history_inputs/reviewed_growth_batch_2026_06_01.md`.
+  `history_inputs/reviewed_growth_batch_2026_06_01.md`; follow-up pass added
+  44 more in `history_inputs/reviewed_growth_batch_2026_06_01_followup.md`.
 
 Each added note should identify source, author or tradition context, publication
 or transmission context, smallest allowed claim, counter-reading, pressure area,
@@ -225,6 +234,9 @@ Current coverage:
 - `research_documents/reviewed_candidate_reference_decisions_2026_06_01.md`
   reviews seven newest candidate leads by original-source status, author or
   venue context, publication setting, counterargument, and confidence effect.
+- `research_documents/reviewed_candidate_reference_decisions_2026_06_01_followup.md`
+  reviews five additional newest candidate leads and keeps them from increasing
+  confidence until original content is checked.
 
 Next depth work:
 

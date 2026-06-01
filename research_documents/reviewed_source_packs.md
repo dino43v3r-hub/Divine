@@ -383,3 +383,24 @@ Failure condition: weaken or reject any version that treats subjective beauty as
 universal evidence, ignores suffering and disorder, confuses analogy with
 revelation, or fails to compare serious non-theistic explanations.
 
+## 2026-06-01 Follow-Up Source-Pack Expansion
+
+Dedicated reviewed source-pack files now exist for each leading pattern:
+
+- `research_documents/source_packs/image_of_god_pattern_pack.md`
+- `research_documents/source_packs/cross_and_reversal_pattern_pack.md`
+- `research_documents/source_packs/creation_to_consciousness_pattern_pack.md`
+- `research_documents/source_packs/trinity_as_behavior_pattern_pack.md`
+- `research_documents/source_packs/providence_and_contingency_pattern_pack.md`
+
+These files separate evidence, interpretation, discernment, analogy, practical
+use, and failure conditions for each pattern. They should be expanded before any
+top pattern is merged into a master claim.
+
+Next source-pack targets:
+
+- one pack for every major claim in the claim ledger,
+- one pack for each active pressure area,
+- one pack for active rival explanations from psychology, sociology, history,
+  textual criticism, comparative religion, and ordinary pattern perception.
+
