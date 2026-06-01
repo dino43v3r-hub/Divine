@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-01T18:44:26.894751+00:00
-Total references: 1,279
-New references this run: 1
+Updated: 2026-06-01T22:42:57.048766+00:00
+Total references: 1,283
+New references this run: 4
 
 Guardrails
 ----------
@@ -22,17 +22,17 @@ Online Collection Status
 - Open-web candidates returned this run: 0.
 - Provider results returned this run:
   - Crossref: 305
-  - Europe PMC: 223
+  - Europe PMC: 132
   - Internet Archive: 107
   - OpenAlex: 288
   - PubMed: 26
   - arXiv: 30
 - Brand-new references added by provider:
-  - Internet Archive: 1
+  - Internet Archive: 4
 - Total stored references by provider:
   - Crossref: 312
   - Europe PMC: 199
-  - Internet Archive: 357
+  - Internet Archive: 361
   - OpenAlex: 250
   - PubMed: 24
   - Tavily Search: 111
@@ -40,22 +40,22 @@ Online Collection Status
 
 Reference Tags
 --------------
-- art_beauty: 114
+- art_beauty: 115
 - biblical_language_source_depth: 50
 - biblical_languages: 39
 - cultural_practice_patterns: 59
 - general_research_methods: 54
 - global_text_traditions: 80
-- history_memory: 102
+- history_memory: 103
 - holy_spirit_gifts_global: 31
 - interreligious_dream_testimony: 40
 - modern_literature_meaning: 56
 - music_math: 78
 - pattern_perception_divine_response: 53
-- politics_justice: 77
+- politics_justice: 78
 - psychology_patterns: 67
 - quantum_science_guardrails: 86
-- technology_ethics: 80
+- technology_ethics: 82
 - theologians_cross_era: 29
 - trinity: 93
 - unresolved_suffering: 45
@@ -64,11 +64,11 @@ Reference Tags
 
 Layer Routes
 ------------
-- all_texts: 406
+- all_texts: 407
 - biblical_languages: 103
-- cultural_inputs: 322
+- cultural_inputs: 325
 - deep_sources: 356
-- history_inputs: 332
+- history_inputs: 334
 - human_stories: 297
 - modern_literature: 163
 - music_notes: 78
@@ -77,9 +77,9 @@ Layer Routes
 - psychology_inputs: 299
 - research_documents: 146
 - research_documents/christian_sources: 112
-- theologians: 314
-- visual_art: 421
-- world_languages: 240
+- theologians: 315
+- visual_art: 423
+- world_languages: 241
 
 Layer Balance Watch
 -------------------
@@ -90,15 +90,15 @@ Layer Balance Watch
 Quality Counts
 --------------
 - open web result: 111
-- reference metadata: 353
+- reference metadata: 357
 - scholarly metadata: 785
 - scholarly preprint: 26
 - speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 575
-- strong_scholarly_candidate: 579
+- moderate_scholarly_candidate: 578
+- strong_scholarly_candidate: 580
 - weak_scholarly_candidate: 125
 
 Auto Review Approval Counts
@@ -107,26 +107,55 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 1,127
+- approved_for_review_queue: 1,131
 - not_auto_approved: 152
 
 New This Run By Tag
 -------------------
+- art_beauty: 1
+- history_memory: 1
+- politics_justice: 1
 - technology_ethics: 1
 
 New This Run By Layer Route
 ---------------------------
-- cultural_inputs: 1
+- all_texts: 1
+- cultural_inputs: 3
+- history_inputs: 2
+- theologians: 1
+- visual_art: 2
+- world_languages: 1
 
 Newest Additions This Run
 ------------------------
-- Christian Talk That Rocks with Richie L. Ep. 12/12/2023 (2023)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs
+- Reclaiming Religious Language: Sin | Rev. T. J. FitzGerald (2026)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs, world_languages, all_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/The_Beneficial_Principles_In_T-christian_talk_that_rocks_with_richie_l_ep_12_12_
+  URL: https://archive.org/details/First_Unitarian_Dallas_Podcast-02_22_26_podcast
+- EOTR - 151 Proof (2013)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/EOTR-151Proof
+- April 5, 2026: "Easter: Resurrection and Reincarnation" The Rev. Stacey Mitchell (2026)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/UUABQ_Voice-HyperDeck_2604051107_0001
+- VOA [Voice of America] Global English : May 16, 2017 07:00PM-08:00PM EDT (2017)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/VOA_Global_English_20170516_230000
 
 Recent Candidate Sources
 ------------------------
@@ -357,3 +386,7 @@ Recent Candidate Sources
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
+
+Collector Errors
+----------------
+- search_europe_pmc failed for pattern_perception_divine_response: The read operation timed out

@@ -7,12 +7,12 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Christian Talk That Rocks with Richie L. Ep. 12/12/2023
+### Reclaiming Religious Language: Sin | Rev. T. J. FitzGerald
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: technology_ethics
-- Layer routes: cultural_inputs
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs, world_languages, all_texts
 - Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
@@ -21,18 +21,18 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 155
-- Year: 2023
-- URL: https://archive.org/details/The_Beneficial_Principles_In_T-christian_talk_that_rocks_with_richie_l_ep_12_12_
+- Corroborating routed candidates: 470
+- Year: 2026
+- URL: https://archive.org/details/First_Unitarian_Dallas_Podcast-02_22_26_podcast
 
-On today's show, 1:08 pm CT, 2:08 pm ET: Hating On The Jewish: Ivy League university leaders resign
-amid outrage over handling of campus antisemitism - US House Rep. Stefanik shreds Harvard over
-'complete moral failure' after allowing Claudine Gay to remain president - Israeli official shuts
-down Joy Reid grilling him on Gaza deaths - Woman slams car into Israeli Christian protest in U.S. -
-we'll analyze. Bidenomics: Hasbro eliminating close to 20 percent of workforce as Biden economy
-hammers toy sales - Bidenomics Study shows low income families spend half their salary on housing -
-Kamala Harris tries to sell Biden to Texan Hispanics, they didn't buy it - we'll examine. Plus, Life
-With Big
+Too often, sin has been used to control, shame, or divide. Join us to explore how Unitarian
+Universalism can offer a different lens. Reclaiming Religious Language Series At the turning of the
+year, we pause to rediscover what matters most to us beneath the noise of daily life. Rooted in the
+Unitarian Universalist shared values, this series invites us into a spiritual homecoming in which we
+will reflect on the values that shape us. Through ritual, reflection, and community, we will release
+what no longer serves us, opening space for transformation. We will honor our pluralism, embrace our
+call to justice and equity, recognize our deep interdependence, and embody generosity as a way of
+being.
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -45,6 +45,131 @@ Auto approval reasons:
 - automated score >= 7
 - label is moderate_scholarly_candidate
 - author and year metadata present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### EOTR - 151 Proof
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 272
+- Year: 2013
+- URL: https://archive.org/details/EOTR-151Proof
+
+LISTEN DOWNLOAD REMIX AND SHARE! EAR OF THE RAT eotr.ca is an on-going open source improvised sound
+recording project A 21st Century Un-band recorded live June 7, 2013 in beautiful St.Catharines @ SB3
+thanks again to all the friends and listeners keep up to date with all yer rat news at eotr.ca Ear
+of the Rat records to two digital stereo tracks @48,000 hz using a ZOOM Handy Recorder H4n Post-
+production and dither down to 256kbps mp3 with a licensed version of REAPER http://www.reaper.fm/
+EOTR streams live musical improvisations every friday night
+http://www.ustream.tv/channel/earoftherat if you miss a night you can catch up on youtube!
+http://www.youtube.com/user/EOTR1 "Unlike other types o
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+
+### April 5, 2026: "Easter: Resurrection and Reincarnation" The Rev. Stacey Mitchell
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, visual_art
+- Primary layer: history_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 420
+- Year: 2026
+- URL: https://archive.org/details/UUABQ_Voice-HyperDeck_2604051107_0001
+
+A reflection for Easter on resurrection and reincarnation, through a look at Jesus, Buddhism, and
+the earth.Music: Susan Peck and Chalice Choir, with Lydia Clark, Vance Bass, Chris Paul.
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### VOA [Voice of America] Global English : May 16, 2017 07:00PM-08:00PM EDT
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: technology_ethics
+- Layer routes: cultural_inputs
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 155
+- Year: 2017
+- URL: https://archive.org/details/VOA_Global_English_20170516_230000
+
+Closed captions transcript: 00:00:00 Reporting Bush reports say Donald Trump the president of United
+States ask former 00:00:05 F.B.I. 00:00:05 Director James Comey to shut down investigation into
+Trump's ousted national security 00:00:10 advisor Michael Flynn's ties to Russia the White House
+denies the claims and says 00:00:15 the report is not truthful or accurate portrayal of 00:00:18 a
+conversation between the president and Mr Komi reports 00:00:22 a Trump made the request of
+Khomeini's during a February meeting according to 00:00:27 a memo that Komi wrote following the
+meeting the president said quote I hope you 00:00:31 can let this go unquote the details of commies
+notes were first re
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- trusted open-web domain present
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.

@@ -6,24 +6,27 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-06-01T18:44:26.841712+00:00
-Retained cloud candidate references: 1,279
-Brand-new candidate references this run: 1
-Top new routed layers: cultural_inputs: 1
-New evidence mix: moderate_scholarly_candidate: 1
-New provider mix: Internet Archive: 1
+Collector run: 2026-06-01T22:42:56.992808+00:00
+Retained cloud candidate references: 1,283
+Brand-new candidate references this run: 4
+Top new routed layers: cultural_inputs: 3, history_inputs: 2, visual_art: 2, all_texts: 1
+New evidence mix: moderate_scholarly_candidate: 4
+New provider mix: Internet Archive: 4
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 I am reading this run as a conversation between what just arrived and what the project already thinks it sees.
 The older pattern map still points first toward Image Of God Pattern. Around it, I keep seeing related pressure from Cross And Reversal Pattern, Creation-To-Consciousness Pattern.
-The newest material is pulling my attention toward cultural_inputs, especially around technology_ethics. That does not overturn the older map, but it changes what I should ask next.
+The newest material is pulling my attention toward cultural_inputs, especially around politics_justice. That does not overturn the older map, but it changes what I should ask next.
 My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is reference metadata, so I should let them sharpen questions before I let them strengthen claims.
 I also notice that Suffering Without Resolution remains a live test. If the pattern cannot survive that friction, then it is probably only an attractive idea, not a disciplined theological insight.
 
 What this run makes me wonder:
-- Global text-tradition material grew in the latest collector run; compare patterns across genre and culture before calling them universal.
+- Theologian-source candidates grew in the latest collector run; review era, primary source, doctrine, disagreement, and pressure points.
+- Visual-art candidates grew in the latest collector run; examine actual form, composition, symbol, beauty, lament, and counter-reading.
+- History candidates grew in the latest collector run; test power, harm, reform, memory, consequence, and unfinished repair.
+- World-language candidates grew in the latest collector run; track translation range, metaphor, grammar, culture, and rival readings.
 
 What I should do with this learning:
 - Compare the newest source leads against the existing top patterns before changing confidence language.
@@ -84,13 +87,13 @@ Layer                         Signal                         Count     Reading
 -----                         ------                         -----     -------
 Physical Order                ###########.................    2,926  high internal signal
 Mathematical Structure        ##..........................      680  moderate internal signal
-Mathematical Theophany        #####.......................    1,429  high internal signal
+Mathematical Theophany        #####.......................    1,432  high internal signal
 Quantum Probability           #...........................      115  early signal
-Life And Consciousness        ######################......    5,985  high internal signal
-Meaning And Logos             ############################    7,629  high internal signal
-Moral Response                ##############..............    3,863  high internal signal
-Worship And Community         ##########..................    2,855  high internal signal
-Transformation                ##############..............    3,880  high internal signal
+Life And Consciousness        ######################......    5,988  high internal signal
+Meaning And Logos             ############################    7,632  high internal signal
+Moral Response                ##############..............    3,866  high internal signal
+Worship And Community         ##########..................    2,858  high internal signal
+Transformation                ##############..............    3,884  high internal signal
 
 Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as possible signs of divine self-disclosure, while keeping alternative explanations visible.
 
@@ -100,19 +103,19 @@ Use this as the table of contents for the argument. Each chapter has a main move
 
 No.  Pattern Family                 Signal   Status
 ---  --------------                 ------   ------
-1    Image Of God Pattern            20,332  high internal signal; not proof
+1    Image Of God Pattern            20,344  high internal signal; not proof
      Movement: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
      Test: Do not collapse the image of God into intelligence alone.
-2    Cross And Reversal Pattern      15,372  high internal signal; not proof
+2    Cross And Reversal Pattern      15,382  high internal signal; not proof
      Movement: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
      Test: Do not romanticize suffering or ignore injustice.
-3    Creation-To-Consciousness P...  15,629  high internal signal; not proof
+3    Creation-To-Consciousness P...  15,638  high internal signal; not proof
      Movement: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
      Test: Avoid implying a simple linear proof from physics to worship.
-4    Trinity-As-Behavior Pattern     14,435  high internal signal; not proof
+4    Trinity-As-Behavior Pattern     14,442  high internal signal; not proof
      Movement: Father Creates -> Son Redeems -> Spirit Transforms
      Test: Keep the Trinity theological and relational, not merely symbolic psychology.
-5    Providence And Contingency...   16,655  well-represented hypothesis;...
+5    Providence And Contingency...   16,661  well-represented hypothesis;...
      Movement: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
      Test: Do not confuse providence with easy prediction or visible control of every event.
 
@@ -121,14 +124,24 @@ Chapter Zero: New Information In This Run
 This chapter changes with the latest collector digest. It names what newly arrived or newly re-evaluated cloud material should make the reader watch more carefully.
 
 Fresh research movements:
+- Theologian-source candidates grew in the latest collector run; review era, primary source, doctrine, disagreement, and pressure points.
+- Visual-art candidates grew in the latest collector run; examine actual form, composition, symbol, beauty, lament, and counter-reading.
+- History candidates grew in the latest collector run; test power, harm, reform, memory, consequence, and unfinished repair.
+- World-language candidates grew in the latest collector run; track translation range, metaphor, grammar, culture, and rival readings.
+- Global and comparative text candidates grew in the latest collector run; respect each tradition's own meaning before comparing patterns.
+- Lament-to-hope material grew in the latest collector run; test whether hope is patient and non-coercive rather than a quick resolution.
+- Historical-memory material grew in the latest collector run; test whether the pattern can face power, harm, repair, and communal memory.
 - Global text-tradition material grew in the latest collector run; compare patterns across genre and culture before calling them universal.
 
-Most active new tags: technology_ethics: 1
-Most active new layers: cultural_inputs: 1
-Newest source-quality mix: reference metadata: 1
+Most active new tags: politics_justice: 1, art_beauty: 1, history_memory: 1, technology_ethics: 1
+Most active new layers: cultural_inputs: 3, history_inputs: 2, visual_art: 2, all_texts: 1
+Newest source-quality mix: reference metadata: 4
 
 Fresh source leads to review first:
-- Christian Talk That Rocks with Richie L. Ep. 12/12/2023 (2023) | Internet Archive | layers: cultural_inputs | review use: can support cautious working claims when corroborated
+- Reclaiming Religious Language: Sin | Rev. T. J. FitzGerald (2026) | Internet Archive | layers: cultural_inputs, history_inputs, world_languages, all_texts | review use: can support cautious working claims when corroborated
+- EOTR - 151 Proof (2013) | Internet Archive | layers: visual_art, cultural_inputs | review use: can support cautious working claims when corroborated
+- April 5, 2026: "Easter: Resurrection and Reincarnation" The Rev. Stacey Mitchell (2026) | Internet Archive | layers: history_inputs, theologians, visual_art | review use: can support cautious working claims when corroborated
+- VOA [Voice of America] Global English : May 16, 2017 07:00PM-08:00PM EDT (2017) | Internet Archive | layers: cultural_inputs | review use: can support cautious working claims when corroborated
 
 Reader rule: this new material can change the questions immediately, but it should not strengthen a claim until the original source and counterarguments are reviewed.
 
@@ -150,10 +163,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (5,985 signals)
-- Meaning And Logos: high internal signal (7,629 signals)
-- Moral Response: high internal signal (3,863 signals)
-- Worship And Community: high internal signal (2,855 signals)
+- Life And Consciousness: high internal signal (5,988 signals)
+- Meaning And Logos: high internal signal (7,632 signals)
+- Moral Response: high internal signal (3,866 signals)
+- Worship And Community: high internal signal (2,858 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -170,9 +183,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (7,629 signals)
-- Moral Response: high internal signal (3,863 signals)
-- Transformation: high internal signal (3,880 signals)
+- Meaning And Logos: high internal signal (7,632 signals)
+- Moral Response: high internal signal (3,866 signals)
+- Transformation: high internal signal (3,884 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -190,9 +203,9 @@ Daily-life practice: Practice wonder, stewardship, embodied care, learning, humi
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
 - Physical Order: high internal signal (2,926 signals)
-- Life And Consciousness: high internal signal (5,985 signals)
-- Moral Response: high internal signal (3,863 signals)
-- Worship And Community: high internal signal (2,855 signals)
+- Life And Consciousness: high internal signal (5,988 signals)
+- Moral Response: high internal signal (3,866 signals)
+- Worship And Community: high internal signal (2,858 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -210,8 +223,8 @@ Daily-life practice: Receive creation as gift, follow Christ in concrete obedien
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
 - Physical Order: high internal signal (2,926 signals)
-- Meaning And Logos: high internal signal (7,629 signals)
-- Transformation: high internal signal (3,880 signals)
+- Meaning And Logos: high internal signal (7,632 signals)
+- Transformation: high internal signal (3,884 signals)
 
 Chapter 5: Providence And Contingency Pattern
 ---------------------------------------------
@@ -230,8 +243,8 @@ Scholarly note: strengthen this chapter only with reviewed sources, counter-read
 Layer support in brief:
 - Physical Order: high internal signal (2,926 signals)
 - Quantum Probability: early signal (115 signals)
-- Life And Consciousness: high internal signal (5,985 signals)
-- Meaning And Logos: high internal signal (7,629 signals)
+- Life And Consciousness: high internal signal (5,988 signals)
+- Meaning And Logos: high internal signal (7,632 signals)
 
 Everyday Case Studies
 ---------------------
@@ -248,24 +261,32 @@ Other religions and cultures: The pattern should compare respectfully. Christian
 What The Research Currently Suggests
 ------------------------------------
 The project has analyzed 164 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
-The daily collector has retained 1,279 cloud candidate references, including 1 brand-new candidates in the latest run.
+The daily collector has retained 1,283 cloud candidate references, including 4 brand-new candidates in the latest run.
 The current corpus most visibly repeats pattern families led by Image Of God Pattern, Cross And Reversal Pattern, Creation-To-Consciousness Pattern, Trinity-As-Behavior Pattern, and Providence And Contingency Pattern.
 These are best understood as chapters in an ongoing research book. They are not final proof claims.
 
 What Changed In The Latest Collection
 -------------------------------------
-Daily collector updated: 2026-06-01T18:44:26.841712+00:00
-Retained cloud candidate references: 1,279
-Brand-new candidate references this run: 1
+Daily collector updated: 2026-06-01T22:42:56.992808+00:00
+Retained cloud candidate references: 1,283
+Brand-new candidate references this run: 4
 
 Newest evidence movement by routed layer:
-- cultural_inputs: 1
+- cultural_inputs: 3
+- history_inputs: 2
+- visual_art: 2
+- all_texts: 1
+- theologians: 1
+- world_languages: 1
 
 Newest automated evidence mix:
-- moderate_scholarly_candidate: 1
+- moderate_scholarly_candidate: 4
 
 Newest sources shaping today's questions:
-- Christian Talk That Rocks with Richie L. Ep. 12/12/2023 (2023) | layers: cultural_inputs | evidence: moderate_scholarly_candidate
+- Reclaiming Religious Language: Sin | Rev. T. J. FitzGerald (2026) | layers: cultural_inputs, history_inputs, world_languages, all_texts | evidence: moderate_scholarly_candidate
+- EOTR - 151 Proof (2013) | layers: visual_art, cultural_inputs | evidence: moderate_scholarly_candidate
+- April 5, 2026: "Easter: Resurrection and Reincarnation" The Rev. Stacey Mitchell (2026) | layers: history_inputs, theologians, visual_art | evidence: moderate_scholarly_candidate
+- VOA [Voice of America] Global English : May 16, 2017 07:00PM-08:00PM EDT (2017) | layers: cultural_inputs | evidence: moderate_scholarly_candidate
 
 Reader note: cloud candidates change the research questions immediately, but they should strengthen conclusions only after source review.
 
@@ -389,7 +410,7 @@ Immediate next work:
 Knowledge set it should build next:
 - Build one reviewed source pack for each leading pattern: Image Of God Pattern, Cross And Reversal Pattern, Creation-To-Consciousness Pattern, Trinity-As-Behavior Pattern, Providence And Contingency Pattern.
 - Turn the newest active lanes into reviewed evidence instead of leaving them as cloud candidates: visual_art, cultural_inputs, theologians, all_texts, history_inputs.
-- Review the 1 newest candidate references by original source, author expertise, publication context, and counterargument before they affect confidence.
+- Review the 4 newest candidate references by original source, author expertise, publication context, and counterargument before they affect confidence.
 
 What it needs to test harder:
 - Keep testing the leading patterns against the strongest current pressure areas: Suffering Without Resolution, Injustice And Corruption, Disconfirming Failure Condition, Practical Case Study, Science Guardrail.

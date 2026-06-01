@@ -1,5 +1,5 @@
 {
-  "source_count": 1279,
+  "source_count": 1283,
   "sources": [
     {
       "authors": [
@@ -1782,6 +1782,56 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/First_Unitarian_Dallas_Podcast-Podcast___07_06_25",
       "year": "2025"
+    },
+    {
+      "authors": [
+        "EAR OF THE RAT"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 272,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/eotr-151proof",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "LISTEN DOWNLOAD REMIX AND SHARE! EAR OF THE RAT eotr.ca is an on-going open source improvised sound recording project A 21st Century Un-band recorded live June 7, 2013 in beautiful St.Catharines @ SB3 thanks again to all the friends and listeners keep up to date with all yer rat news at eotr.ca Ear of the Rat records to two digital stereo tracks @48,000 hz using a ZOOM Handy Recorder H4n Post-production and dither down to 256kbps mp3 with a licensed version of REAPER http://www.reaper.fm/ EOTR streams live musical improvisations every friday night http://www.ustream.tv/channel/earoftherat if you miss a night you can catch up on youtube! http://www.youtube.com/user/EOTR1 \"Unlike other types o",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "EOTR - 151 Proof",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/EOTR-151Proof",
+      "year": "2013"
     },
     {
       "authors": [
@@ -21789,6 +21839,58 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://doi.org/10.1017/9781839700675.012",
       "year": 2013
+    },
+    {
+      "authors": [
+        "UUABQ Voice"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 420,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/uuabq_voice-hyperdeck_2604051107_0001",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians",
+        "visual_art"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "A reflection for Easter on resurrection and reincarnation, through a look at Jesus, Buddhism, and the earth.Music: Susan Peck and Chalice Choir, with Lydia Clark, Vance Bass, Chris Paul.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "April 5, 2026: \"Easter: Resurrection and Reincarnation\" The Rev. Stacey Mitchell",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/UUABQ_Voice-HyperDeck_2604051107_0001",
+      "year": "2026"
     },
     {
       "authors": [
@@ -43025,6 +43127,60 @@
     },
     {
       "authors": [
+        "First Unitarian Dallas Podcast"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 470,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/first_unitarian_dallas_podcast-02_22_26_podcast",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "world_languages",
+        "all_texts"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "Too often, sin has been used to control, shame, or divide. Join us to explore how Unitarian Universalism can offer a different lens. Reclaiming Religious Language Series At the turning of the year, we pause to rediscover what matters most to us beneath the noise of daily life. Rooted in the Unitarian Universalist shared values, this series invites us into a spiritual homecoming in which we will reflect on the values that shape us. Through ritual, reflection, and community, we will release what no longer serves us, opening space for transformation. We will honor our pluralism, embrace our call to justice and equity, recognize our deep interdependence, and embody generosity as a way of being. ",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "Reclaiming Religious Language: Sin | Rev. T. J. FitzGerald",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/First_Unitarian_Dallas_Podcast-02_22_26_podcast",
+      "year": "2026"
+    },
+    {
+      "authors": [
         "Hennie L\u00f6tter"
       ],
       "auto_review_approval": "approved_for_review_queue",
@@ -43996,53 +44152,6 @@
       "date_accessed": "2026-05-25",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/voa_global_english_20200516_060000",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "archive.org audio",
-      "summary": "Closed captions transcript: 00:00:00 U.s. President Donald Trump said Friday the u.s. 00:00:02 Government was working with other countries to develop 00:00:05 a covert $1000.00 vaccine at an accelerated pace while preparing to distribute 00:00:09 a vaccine once one is ready at an event in the White House Rose Garden Mr Trump 00:00:14 expressed hope that 00:00:15 a vaccine would be in place before the end of the year he said his administration 00:00:19 would mobilize its forces to get 00:00:21 a vaccine distributed once that one was in place he said it's risky it's expensive 00:00:26 but will be saving massive amounts of time will be saving years if we do this 00:00:31 properly and that's wha",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "VOA [Voice of America] Global English : May 16, 2020 02:00AM-03:00AM EDT",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/VOA_Global_English_20200516_060000",
-      "year": "2020"
-    },
-    {
-      "authors": [],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is moderate_scholarly_candidate",
-        "trusted open-web domain present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 7,
-      "automated_evidence_warnings": [],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 240,
-      "date_accessed": "2026-05-25",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
       "id": "https://archive.org/details/voa_global_english_20200516_220000",
       "layer_review_prompts": [
         "Classify the cultural domain and practical consequences before making theological claims.",
@@ -44620,6 +44729,54 @@
       "title": "VOA [Voice of America] Global English : May 15, 2020 06:00PM-07:00PM EDT",
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/VOA_Global_English_20200515_220000",
+      "year": "2020"
+    },
+    {
+      "authors": [],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "trusted open-web domain present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 240,
+      "date_accessed": "2026-05-25",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_global_english_20200516_060000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 U.s. President Donald Trump said Friday the u.s. 00:00:02 Government was working with other countries to develop 00:00:05 a covert $1000.00 vaccine at an accelerated pace while preparing to distribute 00:00:09 a vaccine once one is ready at an event in the White House Rose Garden Mr Trump 00:00:14 expressed hope that 00:00:15 a vaccine would be in place before the end of the year he said his administration 00:00:19 would mobilize its forces to get 00:00:21 a vaccine distributed once that one was in place he said it's risky it's expensive 00:00:26 but will be saving massive amounts of time will be saving years if we do this 00:00:31 properly and that's wha",
+      "tags": [
+        "politics_justice",
+        "technology_ethics"
+      ],
+      "title": "VOA [Voice of America] Global English : May 16, 2020 02:00AM-03:00AM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Global_English_20200516_060000",
       "year": "2020"
     },
     {
@@ -45487,6 +45644,9 @@
         "human_stories",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -45508,26 +45668,28 @@
       "auto_review_approval": "approved_for_review_queue",
       "auto_review_approval_reasons": [
         "automated score >= 7",
-        "label is moderate_scholarly_candidate",
+        "label is strong_scholarly_candidate",
         "stable DOI present"
       ],
       "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_label": "strong_scholarly_candidate",
       "automated_evidence_reasons": [
         "scholarly metadata provider",
         "DOI or stable scholarly identifier present",
         "author metadata present",
         "publication year present",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 9,
+      "automated_evidence_score": 10,
       "automated_evidence_warnings": [],
+      "citation_count": 2,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 310,
       "date_accessed": "2026-05-15",
       "doi": "10.5040/9798881817091.ch-7",
-      "evaluation_use": "can support cautious working claims when corroborated",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
       "id": "10.5040/9798881817091.ch-7",
       "layer_review_prompts": [
         "Separate psychological/social process from theological interpretation and note clinical limits.",
@@ -45537,6 +45699,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 2,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -45547,7 +45712,7 @@
         "psychology_patterns"
       ],
       "title": "Forgiveness and Reconciliation",
-      "truth_assessment": "moderate_scholarly_candidate",
+      "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.5040/9798881817091.ch-7",
       "year": 2017
     },
@@ -45589,6 +45754,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -45686,6 +45854,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -45718,10 +45889,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
+      "citation_count": 13,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 476,
@@ -45739,6 +45912,9 @@
         "human_stories",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 13,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -45794,6 +45970,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 8,
+      "opencitations_reference_count": 44,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -45827,10 +46006,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "moderate citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 12,
       "automated_evidence_warnings": [],
+      "citation_count": 91,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 310,
@@ -45846,6 +46027,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 91,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -45893,6 +46077,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -45940,6 +46127,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -45993,6 +46183,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -46101,6 +46294,9 @@
         "human_stories",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -46200,6 +46396,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -46254,6 +46453,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -46361,6 +46563,9 @@
         "visual_art",
         "pattern_tests"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -46414,6 +46619,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -46468,6 +46676,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -46571,6 +46782,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -46623,6 +46837,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -46677,6 +46894,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -46729,6 +46949,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -46893,6 +47116,9 @@
         "human_stories",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -46948,6 +47174,9 @@
         "human_stories",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -47001,6 +47230,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "psychology_inputs",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -47058,6 +47290,9 @@
         "human_stories",
         "modern_literature"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 8,
+      "opencitations_reference_count": 44,
       "primary_layer": "psychology_inputs",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -47093,11 +47328,12 @@
         "publication year present",
         "recognized scholarly source type",
         "summary or abstract metadata available",
-        "many routed corroborating candidates",
-        "counterargument or limitation language present"
+        "some citation signal",
+        "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 12,
+      "automated_evidence_score": 13,
       "automated_evidence_warnings": [],
+      "citation_count": 3,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 664,
@@ -47119,6 +47355,9 @@
         "all_texts",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-01",
+      "opencitations_citation_count": 3,
+      "opencitations_reference_count": 21,
       "primary_layer": "psychology_inputs",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -55700,6 +55939,51 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/VOA_Global_English_20200504_160000",
       "year": "2020"
+    },
+    {
+      "authors": [],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "trusted open-web domain present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 155,
+      "date_accessed": "2026-06-01",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/voa_global_english_20170516_230000",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "cultural_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "Closed captions transcript: 00:00:00 Reporting Bush reports say Donald Trump the president of United States ask former 00:00:05 F.B.I. 00:00:05 Director James Comey to shut down investigation into Trump's ousted national security 00:00:10 advisor Michael Flynn's ties to Russia the White House denies the claims and says 00:00:15 the report is not truthful or accurate portrayal of 00:00:18 a conversation between the president and Mr Komi reports 00:00:22 a Trump made the request of Khomeini's during a February meeting according to 00:00:27 a memo that Komi wrote following the meeting the president said quote I hope you 00:00:31 can let this go unquote the details of commies notes were first re",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "VOA [Voice of America] Global English : May 16, 2017 07:00PM-08:00PM EDT",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/VOA_Global_English_20170516_230000",
+      "year": "2017"
     },
     {
       "authors": [
@@ -69837,5 +70121,5 @@
       "year": null
     }
   ],
-  "updated_at": "2026-06-01T18:44:26.841712+00:00"
+  "updated_at": "2026-06-01T22:42:56.992808+00:00"
 }
