@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-01T22:42:57.048766+00:00
-Total references: 1,283
-New references this run: 4
+Updated: 2026-06-02T22:33:56.014335+00:00
+Total references: 1,304
+New references this run: 21
 
 Guardrails
 ----------
@@ -19,23 +19,27 @@ Online Collection Status
 - OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
 - Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
 - Tavily budget: 5/5 basic searches used today; 0 remaining.
-- Open-web candidates returned this run: 0.
+- Open-web candidates returned this run: 15.
 - Provider results returned this run:
   - Crossref: 305
-  - Europe PMC: 132
+  - Europe PMC: 223
   - Internet Archive: 107
   - OpenAlex: 288
   - PubMed: 26
+  - Tavily Search: 15
   - arXiv: 30
 - Brand-new references added by provider:
-  - Internet Archive: 4
+  - Crossref: 1
+  - Europe PMC: 2
+  - Internet Archive: 3
+  - Tavily Search: 15
 - Total stored references by provider:
-  - Crossref: 312
-  - Europe PMC: 199
-  - Internet Archive: 361
+  - Crossref: 313
+  - Europe PMC: 201
+  - Internet Archive: 364
   - OpenAlex: 250
   - PubMed: 24
-  - Tavily Search: 111
+  - Tavily Search: 126
   - arXiv: 26
 
 Reference Tags
@@ -44,16 +48,16 @@ Reference Tags
 - biblical_language_source_depth: 50
 - biblical_languages: 39
 - cultural_practice_patterns: 59
-- general_research_methods: 54
+- general_research_methods: 58
 - global_text_traditions: 80
-- history_memory: 103
-- holy_spirit_gifts_global: 31
-- interreligious_dream_testimony: 40
+- history_memory: 105
+- holy_spirit_gifts_global: 34
+- interreligious_dream_testimony: 49
 - modern_literature_meaning: 56
 - music_math: 78
 - pattern_perception_divine_response: 53
-- politics_justice: 78
-- psychology_patterns: 67
+- politics_justice: 80
+- psychology_patterns: 69
 - quantum_science_guardrails: 86
 - technology_ethics: 82
 - theologians_cross_era: 29
@@ -64,42 +68,42 @@ Reference Tags
 
 Layer Routes
 ------------
-- all_texts: 407
-- biblical_languages: 103
-- cultural_inputs: 325
-- deep_sources: 356
-- history_inputs: 334
-- human_stories: 297
-- modern_literature: 163
+- all_texts: 413
+- biblical_languages: 104
+- cultural_inputs: 327
+- deep_sources: 360
+- history_inputs: 338
+- human_stories: 311
+- modern_literature: 164
 - music_notes: 78
-- other_religious_texts: 276
+- other_religious_texts: 288
 - pattern_tests: 222
-- psychology_inputs: 299
-- research_documents: 146
+- psychology_inputs: 305
+- research_documents: 150
 - research_documents/christian_sources: 112
-- theologians: 315
-- visual_art: 423
-- world_languages: 241
+- theologians: 329
+- visual_art: 432
+- world_languages: 243
 
 Layer Balance Watch
 -------------------
 - These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
   - music_notes: 78
-  - biblical_languages: 103
+  - biblical_languages: 104
 
 Quality Counts
 --------------
-- open web result: 111
-- reference metadata: 357
-- scholarly metadata: 785
+- open web result: 126
+- reference metadata: 360
+- scholarly metadata: 788
 - scholarly preprint: 26
 - speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 578
-- strong_scholarly_candidate: 580
-- weak_scholarly_candidate: 125
+- moderate_scholarly_candidate: 581
+- strong_scholarly_candidate: 583
+- weak_scholarly_candidate: 140
 
 Auto Review Approval Counts
 ---------------------------
@@ -107,55 +111,183 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 1,131
-- not_auto_approved: 152
+- approved_for_review_queue: 1,137
+- not_auto_approved: 167
 
 New This Run By Tag
 -------------------
-- art_beauty: 1
-- history_memory: 1
-- politics_justice: 1
-- technology_ethics: 1
+- general_research_methods: 4
+- history_memory: 2
+- holy_spirit_gifts_global: 3
+- interreligious_dream_testimony: 9
+- politics_justice: 2
+- psychology_patterns: 2
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 1
-- cultural_inputs: 3
-- history_inputs: 2
-- theologians: 1
-- visual_art: 2
-- world_languages: 1
+- all_texts: 6
+- biblical_languages: 1
+- cultural_inputs: 2
+- deep_sources: 4
+- history_inputs: 4
+- human_stories: 14
+- modern_literature: 1
+- other_religious_texts: 12
+- psychology_inputs: 6
+- research_documents: 4
+- theologians: 14
+- visual_art: 9
+- world_languages: 2
 
 Newest Additions This Run
 ------------------------
-- Reclaiming Religious Language: Sin | Rev. T. J. FitzGerald (2026)
+- Defragmenting The Old Operatin Part B (2005)
   Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, world_languages, all_texts
+  Layer routes: cultural_inputs, history_inputs, visual_art, all_texts, psychology_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/First_Unitarian_Dallas_Podcast-02_22_26_podcast
-- EOTR - 151 Proof (2013)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
+  URL: https://archive.org/details/defragmenting-the-old-operatin-part-b
+- Mothering on the edge: exploring maternal anger through feminist psychoanalysis and socio-ecological inequities of two mothers in urban India. (2026)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/EOTR-151Proof
-- April 5, 2026: "Easter: Resurrection and Reincarnation" The Rev. Stacey Mitchell (2026)
+  URL: https://doi.org/10.3389/fgwh.2026.1751532
+- The Illusion of Death: Philosophical poems by Sorin Cerin (n.d.)
   Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/UUABQ_Voice-HyperDeck_2604051107_0001
-- VOA [Voice of America] Global English : May 16, 2017 07:00PM-08:00PM EDT (2017)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs
+  Layer routes: history_inputs, theologians, visual_art, all_texts
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (7)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/VOA_Global_English_20170516_230000
+  URL: https://archive.org/details/SORINCERINTHEILLUSIONOFDEATH2
+- The Sin (n.d.)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/TheSin
+- Forgiveness and the Moral Psychology of Sadness (2017)
+  Tags: psychology_patterns
+  Layer routes: psychology_inputs, human_stories
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.5040/9798881817268.ch-6
+- Digital religion in platform societies: authority, mediation, and social cohesion in algorithmic publics (2010-2025). (2026)
+  Tags: general_research_methods, psychology_patterns
+  Layer routes: research_documents, deep_sources, psychology_inputs, human_stories, visual_art, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.3389/fsoc.2026.1802281
+- Methodology of Research in Religious Studies For an ... - resilience (n.d.)
+  Tags: general_research_methods
+  Layer routes: research_documents, deep_sources
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.resilience-ri.eu/news/methodology-of-research-in-religious-studies-for-an-interdisciplinary-approach
+- Interdisciplinary | INITIATIVE ON HEALTH, SPIRITUALITY, AND ... (n.d.)
+  Tags: general_research_methods
+  Layer routes: research_documents, deep_sources, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://rshm.hsites.harvard.edu/interdisciplinary-0
+- Benefits and obstacles of interdisciplinary research: Insights from members of the Young Academy at the Heidelberg Academy of Sciences and Humanities (n.d.)
+  Tags: general_research_methods
+  Layer routes: research_documents, deep_sources, visual_art, world_languages
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10767182
+- Academic Study of Supposed Evangelistic Dreams which lead ... (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.reddit.com/r/AcademicQuran/comments/1nqgv4q/academic_study_of_supposed_evangelistic_dreams
+- A 16 year study showed that 27% of Muslims who convert to ... (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.facebook.com/Tim.Pledger.69/posts/a-16-year-study-showed-that-27-of-muslims-who-convert-to-christianity-had-dreams/26529716019969688
+- An Evaluation of Muslim Dreams & Visions of Isa (Jesus) Part 1 (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://tottministries.org/an-evaluation-of-muslim-dreams-visions-of-isa-jesus-by-dennis-mcbride
+- Rediscovering the Spiritual in Religious Conversion Studies (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://journals.sagepub.com/doi/10.1177/23969393231181894
+- Muslims encountering Jesus in visions and in dreams. - Facebook (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.facebook.com/groups/SingleandSatisfiedBecauseofJesus/posts/1633965973298302
+- Global Muslim Awakening Part 1: Dreams and Visions | The Tide | The Tide (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.thetide.org/global-muslim-awakening-part-1-dreams-and-visions
+- Dreams and Visions - Kinship Radio (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://kinshipradio.org/home/dreams-and-visions
+- Tom Doyle | Ep 1285 - YouTube (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.youtube.com/watch?v=CELK9c6-mXc
+- The Role of Dreams and Visions in Muslims Coming to Faith in Christ (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://faithalone.org/blog/the-role-of-dreams-and-visions-in-muslims-coming-to-faith-in-christ
+- What Are the Charismatic Gifts? (n.d.)
+  Tags: holy_spirit_gifts_global
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, world_languages, biblical_languages
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://learn.ligonier.org/articles/what-are-charismatic-gifts
+- Description: Charismatic Christianity as a global culture (n.d.)
+  Tags: holy_spirit_gifts_global
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://ixtheo.de/Record/800753127
+- A Biblical Analysis of the Gifts of the Spirit in Pentecostalism (n.d.)
+  Tags: holy_spirit_gifts_global
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.prca.org/resources/articles/a-biblical-analysis-of-the-gifts-of-the-spirit-in-pentecostalism
 
 Recent Candidate Sources
 ------------------------
@@ -386,7 +518,3 @@ Recent Candidate Sources
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
-
-Collector Errors
-----------------
-- search_europe_pmc failed for pattern_perception_divine_response: The read operation timed out

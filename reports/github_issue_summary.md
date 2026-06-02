@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-06-01T22:44:02.380243+00:00
+Generated: 2026-06-02T22:35:01.140795+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -40,18 +40,18 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-06-01T22:42:56.992808+00:00
-Retained cloud candidate references: 1,283
-Brand-new candidate references this run: 4
-Top new routed layers: cultural_inputs: 3, history_inputs: 2, visual_art: 2, all_texts: 1
-New evidence mix: moderate_scholarly_candidate: 4
-New provider mix: Internet Archive: 4
+Collector run: 2026-06-02T22:33:55.956359+00:00
+Retained cloud candidate references: 1,304
+Brand-new candidate references this run: 21
+Top new routed layers: human_stories: 14, theologians: 14, other_religious_texts: 12, visual_art: 9
+New evidence mix: weak_scholarly_candidate: 15, moderate_scholarly_candidate: 4, strong_scholarly_candidate: 2
+New provider mix: Tavily Search: 15, Internet Archive: 3, Europe PMC: 2, Crossref: 1
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 
-_Full report has 431 lines. Open the linked report above to read everything._
+_Full report has 438 lines. Open the linked report above to read everything._
 ```
 
 ## reports/disciplined_theological_assistant_report.txt
@@ -101,7 +101,7 @@ Chapter One: What Grew In The Latest Run?
 -----------------------------------------
 This chapter summarizes the newest retained research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 497 lines. Open the linked report above to read everything._
+_Full report has 517 lines. Open the linked report above to read everything._
 ```
 
 ## reports/top_five_divine_patterns_report.txt
@@ -135,9 +135,9 @@ _Full report has 255 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-01T22:42:57.048766+00:00
-Total references: 1,283
-New references this run: 4
+Updated: 2026-06-02T22:33:56.014335+00:00
+Total references: 1,304
+New references this run: 21
 
 Guardrails
 ----------
@@ -151,7 +151,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 392 lines. Open the linked report above to read everything._
+_Full report has 520 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -170,13 +170,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 41
-Total analyzed words: 738,716
+Total analyzed words: 742,036
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 1,179 lines. Open the linked report above to read everything._
+_Full report has 1,183 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -391,15 +391,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Reclaiming Religious Language: Sin | Rev. T. J. FitzGerald
+### Defragmenting The Old Operatin Part B
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs, world_languages, all_texts
+- Layer routes: cultural_inputs, history_inputs, visual_art, all_texts, psychology_inputs
 - Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
 
-_Full report has 175 lines. Open the linked report above to read everything._
+_Full report has 903 lines. Open the linked report above to read everything._
 ```
