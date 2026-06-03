@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-02T22:33:56.014335+00:00
-Total references: 1,304
-New references this run: 21
+Updated: 2026-06-03T22:39:10.408139+00:00
+Total references: 1,342
+New references this run: 38
 
 Guardrails
 ----------
@@ -25,21 +25,22 @@ Online Collection Status
   - Europe PMC: 223
   - Internet Archive: 107
   - OpenAlex: 288
-  - PubMed: 26
+  - PubMed: 27
   - Tavily Search: 15
   - arXiv: 30
 - Brand-new references added by provider:
   - Crossref: 1
-  - Europe PMC: 2
+  - Europe PMC: 19
   - Internet Archive: 3
-  - Tavily Search: 15
+  - PubMed: 1
+  - Tavily Search: 14
 - Total stored references by provider:
-  - Crossref: 313
-  - Europe PMC: 201
-  - Internet Archive: 364
+  - Crossref: 314
+  - Europe PMC: 220
+  - Internet Archive: 367
   - OpenAlex: 250
-  - PubMed: 24
-  - Tavily Search: 126
+  - PubMed: 25
+  - Tavily Search: 140
   - arXiv: 26
 
 Reference Tags
@@ -47,63 +48,63 @@ Reference Tags
 - art_beauty: 115
 - biblical_language_source_depth: 50
 - biblical_languages: 39
-- cultural_practice_patterns: 59
-- general_research_methods: 58
-- global_text_traditions: 80
-- history_memory: 105
-- holy_spirit_gifts_global: 34
+- cultural_practice_patterns: 63
+- general_research_methods: 60
+- global_text_traditions: 82
+- history_memory: 108
+- holy_spirit_gifts_global: 40
 - interreligious_dream_testimony: 49
 - modern_literature_meaning: 56
-- music_math: 78
-- pattern_perception_divine_response: 53
-- politics_justice: 80
-- psychology_patterns: 69
-- quantum_science_guardrails: 86
-- technology_ethics: 82
-- theologians_cross_era: 29
-- trinity: 93
-- unresolved_suffering: 45
-- world_language_source_sampling: 68
-- world_languages_translation: 54
+- music_math: 80
+- pattern_perception_divine_response: 55
+- politics_justice: 82
+- psychology_patterns: 71
+- quantum_science_guardrails: 87
+- technology_ethics: 90
+- theologians_cross_era: 32
+- trinity: 95
+- unresolved_suffering: 48
+- world_language_source_sampling: 70
+- world_languages_translation: 57
 
 Layer Routes
 ------------
-- all_texts: 413
+- all_texts: 425
 - biblical_languages: 104
-- cultural_inputs: 327
-- deep_sources: 360
-- history_inputs: 338
-- human_stories: 311
-- modern_literature: 164
-- music_notes: 78
-- other_religious_texts: 288
-- pattern_tests: 222
-- psychology_inputs: 305
-- research_documents: 150
-- research_documents/christian_sources: 112
-- theologians: 329
-- visual_art: 432
-- world_languages: 243
+- cultural_inputs: 340
+- deep_sources: 373
+- history_inputs: 347
+- human_stories: 323
+- modern_literature: 166
+- music_notes: 80
+- other_religious_texts: 300
+- pattern_tests: 231
+- psychology_inputs: 322
+- research_documents: 154
+- research_documents/christian_sources: 115
+- theologians: 342
+- visual_art: 449
+- world_languages: 249
 
 Layer Balance Watch
 -------------------
 - These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
-  - music_notes: 78
+  - music_notes: 80
   - biblical_languages: 104
 
 Quality Counts
 --------------
-- open web result: 126
-- reference metadata: 360
-- scholarly metadata: 788
+- open web result: 140
+- reference metadata: 363
+- scholarly metadata: 809
 - scholarly preprint: 26
 - speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 581
-- strong_scholarly_candidate: 583
-- weak_scholarly_candidate: 140
+- moderate_scholarly_candidate: 586
+- strong_scholarly_candidate: 602
+- weak_scholarly_candidate: 154
 
 Auto Review Approval Counts
 ---------------------------
@@ -111,194 +112,261 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 1,137
-- not_auto_approved: 167
+- approved_for_review_queue: 1,161
+- not_auto_approved: 181
 
 New This Run By Tag
 -------------------
-- general_research_methods: 4
-- history_memory: 2
-- holy_spirit_gifts_global: 3
-- interreligious_dream_testimony: 9
+- cultural_practice_patterns: 4
+- general_research_methods: 2
+- global_text_traditions: 2
+- history_memory: 3
+- holy_spirit_gifts_global: 6
+- music_math: 2
+- pattern_perception_divine_response: 2
 - politics_justice: 2
 - psychology_patterns: 2
+- quantum_science_guardrails: 1
+- technology_ethics: 8
+- theologians_cross_era: 3
+- trinity: 2
+- unresolved_suffering: 3
+- world_language_source_sampling: 2
+- world_languages_translation: 3
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 6
-- biblical_languages: 1
-- cultural_inputs: 2
-- deep_sources: 4
-- history_inputs: 4
-- human_stories: 14
-- modern_literature: 1
+- all_texts: 12
+- cultural_inputs: 13
+- deep_sources: 13
+- history_inputs: 9
+- human_stories: 12
+- modern_literature: 2
+- music_notes: 2
 - other_religious_texts: 12
-- psychology_inputs: 6
+- pattern_tests: 9
+- psychology_inputs: 17
 - research_documents: 4
-- theologians: 14
-- visual_art: 9
-- world_languages: 2
+- research_documents/christian_sources: 3
+- theologians: 13
+- visual_art: 17
+- world_languages: 6
 
 Newest Additions This Run
 ------------------------
-- Defragmenting The Old Operatin Part B (2005)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art, all_texts, psychology_inputs
+- A Journey of Necessity: Moral Injury in Light of the Divine Comedy. (2026)
+  Tags: cultural_practice_patterns, global_text_traditions, history_memory, psychology_patterns, trinity, unresolved_suffering
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts, other_religious_texts, modern_literature, theologians, human_stories, research_documents, pattern_tests, deep_sources, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1007/s10943-026-02568-8
+- Exiles (Support for Suffering Sojourners) (2022)
+  Tags: trinity
+  Layer routes: theologians, research_documents, pattern_tests
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/defragmenting-the-old-operatin-part-b
-- Mothering on the edge: exploring maternal anger through feminist psychoanalysis and socio-ecological inequities of two mothers in urban India. (2026)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art
+  URL: https://archive.org/details/Brainerd_Baptist_Church-20220424_audioShaddix
+- A Qualitative Investigation into the Challenges and Support Needs of Baptist Pastors in Australia. (2026)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
   Source: Europe PMC | scholarly metadata
   Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.3389/fgwh.2026.1751532
-- The Illusion of Death: Philosophical poems by Sorin Cerin (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://doi.org/10.1007/s10943-025-02460-x
+- Widowed and displaced: Spiritual and religious coping in mental health recovery among Syrian refugee women in Türkiye. (2026)
+  Tags: unresolved_suffering
+  Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/SORINCERINTHEILLUSIONOFDEATH2
-- The Sin (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
+  URL: https://doi.org/10.1177/17455057261416249
+- Variable-Condition Operational Optimization of Oil and Gas Gathering Systems Considering Renewable Energy Accommodation: A Comprehensive Review and Future Perspectives. (2026)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/TheSin
-- Forgiveness and the Moral Psychology of Sadness (2017)
-  Tags: psychology_patterns
-  Layer routes: psychology_inputs, human_stories
-  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.1021/acsomega.6c00683
+- Music and awe: complex emotions evoked by tonal dissonance. (2026)
+  Tags: music_math
+  Layer routes: music_notes, deep_sources, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.3389/fpsyg.2026.1767623
+- Teaching activity design and psychological practice of music majors under a convolutional neural network and transformer module. (2026)
+  Tags: music_math
+  Layer routes: music_notes, deep_sources
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1038/s41598-026-45673-0
+- Integrating health humanities in medical education: a narrative scoping review of Mazandaran University of Medical Sciences and global perspectives. (2026)
+  Tags: cultural_practice_patterns, general_research_methods, politics_justice
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs, research_documents, deep_sources
+  Source: Europe PMC | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.5040/9798881817268.ch-6
-- Digital religion in platform societies: authority, mediation, and social cohesion in algorithmic publics (2010-2025). (2026)
-  Tags: general_research_methods, psychology_patterns
-  Layer routes: research_documents, deep_sources, psychology_inputs, human_stories, visual_art, all_texts
+  URL: https://doi.org/10.1186/s13010-026-00216-3
+- Occupational intersectionality: Introduction, contextualisation, and relevance to occupational therapy practice. (2026)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs
   Source: Europe PMC | scholarly metadata
   Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.3389/fsoc.2026.1802281
-- Methodology of Research in Religious Studies For an ... - resilience (n.d.)
+  URL: https://doi.org/10.1111/1440-1630.70094
+- Emotion-focused therapy and forgiveness in the older population: Protocol for a feasibility randomized controlled trial. (2026)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, visual_art, psychology_inputs
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1371/journal.pone.0345792
+- CIA Reading Room cia-rdp80m01009a001402450006-8: PRESIDENT'S ADDRESS GLOBAL STRATEGY DISCUSSIONS 4 JUNE 1956 (1956)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians, visual_art
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/cia-readingroom-document-cia-rdp80m01009a001402450006-8
+- Comprehensive feature evaluation of the main facades of Catholic churches in Sichuan-Chongqing region based on semantic difference method, 1840-1949. (2026)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1371/journal.pone.0348806
+- The unsung heroes of traditional healers in healing and traditional medicine in dementia care for Indigenous populations in North America: an exploration of a compassionate, community-led care model. (2026)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.3389/fpubh.2026.1800362
+- Sacred space in motion: geography, time, and texts in the historiography of Lingyan Temple. (2026)
+  Tags: psychology_patterns, world_languages_translation
+  Layer routes: psychology_inputs, human_stories, world_languages, all_texts, history_inputs, other_religious_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.3389/fsoc.2026.1720249
+- Mediating reconciliation with God: Exploring divine forgiveness experiences during confession among Catholic priests from four Spanish-speaking countries. (2026)
+  Tags: cultural_practice_patterns, world_language_source_sampling
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs, world_languages, all_texts, other_religious_texts, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1371/journal.pone.0347608
+- Religious and cultural influences on domestic violence attitudes and responses in UK ethnic minority and migrant communities: A qualitative inquiry. (2025)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts, visual_art, pattern_tests
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1177/26330024251391813
+- It takes a community to hope: development and validation of the HOPE-4 scale in an Arab-Islamic context. (2026)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, other_religious_texts
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.3389/fpsyg.2026.1798552
+- A collaborative approach to applying Natural Language Processing (NLP) to Domestic Homicide Reviews (DHRs): A study protocol. (2026)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, visual_art, world_languages
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1371/journal.pone.0348948
+- Bibliography (n.d.)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.5040/9781472550194.0008
+- A bibliometric and systematic study on public policy, health, and culture in the transformation of gender equity. (2026)
+  Tags: cultural_practice_patterns
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, deep_sources
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.3389/fsoc.2026.1800195
+- Global burden of enteric infectious diseases, diarrhoeal diseases, and corresponding aetiologies, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023. (2026)
   Tags: general_research_methods
   Layer routes: research_documents, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.resilience-ri.eu/news/methodology-of-research-in-religious-studies-for-an-interdisciplinary-approach
-- Interdisciplinary | INITIATIVE ON HEALTH, SPIRITUALITY, AND ... (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, all_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://rshm.hsites.harvard.edu/interdisciplinary-0
-- Benefits and obstacles of interdisciplinary research: Insights from members of the Young Academy at the Heidelberg Academy of Sciences and Humanities (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, visual_art, world_languages
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10767182
-- Academic Study of Supposed Evangelistic Dreams which lead ... (n.d.)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.reddit.com/r/AcademicQuran/comments/1nqgv4q/academic_study_of_supposed_evangelistic_dreams
-- A 16 year study showed that 27% of Muslims who convert to ... (n.d.)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.facebook.com/Tim.Pledger.69/posts/a-16-year-study-showed-that-27-of-muslims-who-convert-to-christianity-had-dreams/26529716019969688
-- An Evaluation of Muslim Dreams & Visions of Isa (Jesus) Part 1 (n.d.)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://tottministries.org/an-evaluation-of-muslim-dreams-visions-of-isa-jesus-by-dennis-mcbride
-- Rediscovering the Spiritual in Religious Conversion Studies (n.d.)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians, all_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://journals.sagepub.com/doi/10.1177/23969393231181894
-- Muslims encountering Jesus in visions and in dreams. - Facebook (n.d.)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.facebook.com/groups/SingleandSatisfiedBecauseofJesus/posts/1633965973298302
-- Global Muslim Awakening Part 1: Dreams and Visions | The Tide | The Tide (n.d.)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.thetide.org/global-muslim-awakening-part-1-dreams-and-visions
-- Dreams and Visions - Kinship Radio (n.d.)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://kinshipradio.org/home/dreams-and-visions
-- Tom Doyle | Ep 1285 - YouTube (n.d.)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.youtube.com/watch?v=CELK9c6-mXc
-- The Role of Dreams and Visions in Muslims Coming to Faith in Christ (n.d.)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://faithalone.org/blog/the-role-of-dreams-and-visions-in-muslims-coming-to-faith-in-christ
-- What Are the Charismatic Gifts? (n.d.)
+  Source: PubMed | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (13)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://pubmed.ncbi.nlm.nih.gov/42229499/
+- Spiritual Gifts in Cross-Cultural Service | PDF | Acts Of The Apostles (n.d.)
   Tags: holy_spirit_gifts_global
-  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, world_languages, biblical_languages
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, all_texts
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://learn.ligonier.org/articles/what-are-charismatic-gifts
-- Description: Charismatic Christianity as a global culture (n.d.)
+  URL: https://www.scribd.com/document/554271578/Outline-Version-the-Necessity-of-Spiritual-Gifts
+- GIFTS OF THE SPIRIT Vocal Gifts - Diverse tongues - Facebook (n.d.)
+  Tags: holy_spirit_gifts_global
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.facebook.com/groups/341865865854317/posts/1225915394116022
+- Do the Gifts of the Spirit, Including Speaking in Tongues, Still ... (n.d.)
   Tags: holy_spirit_gifts_global
   Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://ixtheo.de/Record/800753127
-- A Biblical Analysis of the Gifts of the Spirit in Pentecostalism (n.d.)
+  URL: https://forums.crosswalk.com/t/do-the-gifts-of-the-spirit-including-speaking-in-tongues-still-operate-today/8770?page=2
+- Have you ever witnessed genuine manifestations of charismatic gifts ... (n.d.)
   Tags: holy_spirit_gifts_global
   Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs
   Source: Tavily Search | open web result
   Automated evidence: weak_scholarly_candidate (4)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.prca.org/resources/articles/a-biblical-analysis-of-the-gifts-of-the-spirit-in-pentecostalism
+  URL: https://www.reddit.com/r/TrueChristian/comments/wlvu9m/have_you_ever_witnessed_genuine_manifestations_of
+- About Called & Gifted - Catherine of Siena Institute (n.d.)
+  Tags: holy_spirit_gifts_global
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://siena.org/called-gifted
+- Discerning and Using Spiritual Gifts - RAPT Interviews (n.d.)
+  Tags: holy_spirit_gifts_global
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://raptinterviews.com/articles/discerning-and-exercising-spiritual-gifts
+- Artificial intelligence and human dignity: ident… — Library of Science (n.d.)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs, visual_art, deep_sources
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://bibliotekanauki.pl/articles/64166057
+- Human Dignity and the Ethics of Artificial Intelligence: A Framework for Responsible Design and Use from the Perspective of Catholic Social Teaching | IEEE Conference Publication | IEEE Xplore (n.d.)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://ieeexplore.ieee.org/document/11098185
+- Human Dignity in the Digital Age | Journal of Ethics and Emerging Technologies (n.d.)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://jeet.ieet.org/index.php/home/article/view/165
 
 Recent Candidate Sources
 ------------------------
-- Holy Quran Kurdish Sorani translation dataset for language modelling. (2025)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts, other_religious_texts
-  Automated evidence: strong_scholarly_candidate (11)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  Authors: Bamoki M, Wady SH, Badawi S.
-  Source: Europe PMC | scholarly metadata
-  URL: https://doi.org/10.1016/j.dib.2025.111533
 - How to understand metaphorical language in sacred texts? (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -467,6 +535,14 @@ Recent Candidate Sources
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203102893-45
+- The unsung heroes of traditional healers in healing and traditional medicine in dementia care for Indigenous populations in North America: an exploration of a compassionate, community-led care model. (2026)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  Authors: Shrestha HL, Shrestha L, Rosich RM
+  Source: Europe PMC | scholarly metadata
+  URL: https://doi.org/10.3389/fpubh.2026.1800362
 - Thinking Through Translation with Metaphors. Edited by James St ... (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, history_inputs

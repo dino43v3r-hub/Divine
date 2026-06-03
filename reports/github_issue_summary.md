@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-06-02T22:35:01.140795+00:00
+Generated: 2026-06-03T22:40:17.558284+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -40,12 +40,12 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-06-02T22:33:55.956359+00:00
-Retained cloud candidate references: 1,304
-Brand-new candidate references this run: 21
-Top new routed layers: human_stories: 14, theologians: 14, other_religious_texts: 12, visual_art: 9
-New evidence mix: weak_scholarly_candidate: 15, moderate_scholarly_candidate: 4, strong_scholarly_candidate: 2
-New provider mix: Tavily Search: 15, Internet Archive: 3, Europe PMC: 2, Crossref: 1
+Collector run: 2026-06-03T22:39:10.353022+00:00
+Retained cloud candidate references: 1,342
+Brand-new candidate references this run: 38
+Top new routed layers: psychology_inputs: 17, visual_art: 17, cultural_inputs: 13, deep_sources: 13
+New evidence mix: strong_scholarly_candidate: 19, weak_scholarly_candidate: 14, moderate_scholarly_candidate: 5
+New provider mix: Europe PMC: 19, Tavily Search: 14, Internet Archive: 3, Crossref: 1
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
@@ -101,7 +101,7 @@ Chapter One: What Grew In The Latest Run?
 -----------------------------------------
 This chapter summarizes the newest retained research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 517 lines. Open the linked report above to read everything._
+_Full report has 530 lines. Open the linked report above to read everything._
 ```
 
 ## reports/top_five_divine_patterns_report.txt
@@ -135,9 +135,9 @@ _Full report has 255 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-02T22:33:56.014335+00:00
-Total references: 1,304
-New references this run: 21
+Updated: 2026-06-03T22:39:10.408139+00:00
+Total references: 1,342
+New references this run: 38
 
 Guardrails
 ----------
@@ -151,7 +151,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 520 lines. Open the linked report above to read everything._
+_Full report has 596 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -170,13 +170,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 41
-Total analyzed words: 742,036
+Total analyzed words: 745,949
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 1,183 lines. Open the linked report above to read everything._
+_Full report has 1,188 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -391,15 +391,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Defragmenting The Old Operatin Part B
+### A Journey of Necessity: Moral Injury in Light of the Divine Comedy.
 
 - Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs, visual_art, all_texts, psychology_inputs
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns, global_text_traditions, history_memory, psychology_patterns, trinity, unresolved_suffering
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts, other_religious_texts, modern_literature, theologians, human_stories, research_documents, pattern_tests, deep_sources, visual_art
 - Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
+- Provider: Europe PMC
+- Quality: scholarly metadata
 
-_Full report has 903 lines. Open the linked report above to read everything._
+_Full report has 1,667 lines. Open the linked report above to read everything._
 ```

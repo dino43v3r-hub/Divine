@@ -323,6 +323,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-06-03": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "spiritual gifts healing prophecy tongues discernment cross cultural Christianity",
+          "searched_at": "2026-06-03T22:37:59.642203+00:00",
+          "tag": "holy_spirit_gifts_global"
+        },
+        {
+          "credits_used": 1,
+          "query": "charismatic gifts world Christianity interreligious discernment spiritual experiences",
+          "searched_at": "2026-06-03T22:38:05.098264+00:00",
+          "tag": "holy_spirit_gifts_global"
+        },
+        {
+          "credits_used": 1,
+          "query": "AI ethics human dignity theology technology",
+          "searched_at": "2026-06-03T22:38:11.454733+00:00",
+          "tag": "technology_ethics"
+        },
+        {
+          "credits_used": 1,
+          "query": "technology ethics human dignity community",
+          "searched_at": "2026-06-03T22:38:18.189936+00:00",
+          "tag": "technology_ethics"
+        },
+        {
+          "credits_used": 1,
+          "query": "Athanasius Trinity Augustine Trinity Aquinas grace Luther theology Calvin church Barth revelation Bonhoeffer discipleship Moltmann hope",
+          "searched_at": "2026-06-03T22:38:24.728060+00:00",
+          "tag": "theologians_cross_era"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }
