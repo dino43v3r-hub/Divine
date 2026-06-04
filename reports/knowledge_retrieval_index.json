@@ -77,8 +77,13 @@
         },
         {
           "count": 3,
-          "score": 0.039904,
+          "score": 0.040149,
           "term": "lane"
+        },
+        {
+          "count": 1,
+          "score": 0.037303,
+          "term": "overfit"
         },
         {
           "count": 1,
@@ -87,13 +92,8 @@
         },
         {
           "count": 2,
-          "score": 0.036625,
+          "score": 0.03634,
           "term": "note"
-        },
-        {
-          "count": 1,
-          "score": 0.036132,
-          "term": "overfit"
         },
         {
           "count": 1,
@@ -183,12 +183,12 @@
         },
         {
           "count": 2,
-          "score": 0.032951,
+          "score": 0.033326,
           "term": "recurrence"
         },
         {
           "count": 2,
-          "score": 0.031556,
+          "score": 0.03189,
           "term": "genre"
         },
         {
@@ -334,7 +334,7 @@
         },
         {
           "count": 3,
-          "score": 0.031262,
+          "score": 0.031458,
           "term": "community"
         },
         {
@@ -455,7 +455,7 @@
         },
         {
           "count": 3,
-          "score": 0.039216,
+          "score": 0.039457,
           "term": "lane"
         },
         {
@@ -485,6 +485,127 @@
       },
       "title": "Active Lane Review Conversion Third Pass, 2026-06-04",
       "word_count": 166
+    },
+    {
+      "id": "research_documents_christian_sources_sources_md",
+      "keywords": [
+        {
+          "count": 6,
+          "score": 0.452495,
+          "term": "wikisource"
+        },
+        {
+          "count": 6,
+          "score": 0.362198,
+          "term": "gutenberg"
+        },
+        {
+          "count": 6,
+          "score": 0.349528,
+          "term": "https"
+        },
+        {
+          "count": 6,
+          "score": 0.312378,
+          "term": "org"
+        },
+        {
+          "count": 3,
+          "score": 0.226247,
+          "term": "wiki"
+        },
+        {
+          "count": 4,
+          "score": 0.213475,
+          "term": "creed"
+        },
+        {
+          "count": 3,
+          "score": 0.174764,
+          "term": "ebooks"
+        },
+        {
+          "count": 3,
+          "score": 0.164436,
+          "term": "www"
+        },
+        {
+          "count": 2,
+          "score": 0.139723,
+          "term": "hymnary"
+        },
+        {
+          "count": 2,
+          "score": 0.112851,
+          "term": "didache"
+        },
+        {
+          "count": 2,
+          "score": 0.109624,
+          "term": "apostles"
+        },
+        {
+          "count": 2,
+          "score": 0.104126,
+          "term": "nicene"
+        },
+        {
+          "count": 3,
+          "score": 0.090802,
+          "term": "project"
+        },
+        {
+          "count": 2,
+          "score": 0.083918,
+          "term": "augustine"
+        },
+        {
+          "count": 1,
+          "score": 0.075416,
+          "term": "libraries"
+        },
+        {
+          "count": 1,
+          "score": 0.075416,
+          "term": "downloaded"
+        },
+        {
+          "count": 1,
+          "score": 0.065921,
+          "term": "public-domain"
+        },
+        {
+          "count": 1,
+          "score": 0.062864,
+          "term": "theologica"
+        },
+        {
+          "count": 1,
+          "score": 0.062864,
+          "term": "openly"
+        },
+        {
+          "count": 2,
+          "score": 0.061569,
+          "term": "church"
+        }
+      ],
+      "lane": "research_documents",
+      "path": "research_documents/christian_sources/SOURCES.md",
+      "patterns": [],
+      "review_note_count": 0,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "title": "Christian Source Corpus",
+      "word_count": 65
     },
     {
       "id": "research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
@@ -546,7 +667,7 @@
         },
         {
           "count": 2,
-          "score": 0.153669,
+          "score": 0.154983,
           "term": "church"
         },
         {
@@ -617,7 +738,7 @@
         },
         {
           "count": 4257,
-          "score": 0.053733,
+          "score": 0.054701,
           "term": "which"
         },
         {
@@ -657,7 +778,7 @@
         },
         {
           "count": 2038,
-          "score": 0.026188,
+          "score": 0.026681,
           "term": "there"
         },
         {
@@ -697,7 +818,7 @@
         },
         {
           "count": 1937,
-          "score": 0.021088,
+          "score": 0.021363,
           "term": "its"
         },
         {
@@ -748,7 +869,7 @@
         },
         {
           "count": 1069,
-          "score": 0.054637,
+          "score": 0.055622,
           "term": "which"
         },
         {
@@ -818,7 +939,7 @@
         },
         {
           "count": 672,
-          "score": 0.022936,
+          "score": 0.023134,
           "term": "all"
         },
         {
@@ -913,14 +1034,14 @@
           "term": "jesus"
         },
         {
+          "count": 7,
+          "score": 0.033177,
+          "term": "christian"
+        },
+        {
           "count": 4,
           "score": 0.033041,
           "term": "father"
-        },
-        {
-          "count": 7,
-          "score": 0.032966,
-          "term": "christian"
         },
         {
           "count": 7,
@@ -1000,7 +1121,7 @@
         },
         {
           "count": 6,
-          "score": 0.079401,
+          "score": 0.082686,
           "term": "com"
         },
         {
@@ -1009,14 +1130,14 @@
           "term": "ante-nicene"
         },
         {
+          "count": 6,
+          "score": 0.072095,
+          "term": "www"
+        },
+        {
           "count": 8,
           "score": 0.07064,
           "term": "author"
-        },
-        {
-          "count": 6,
-          "score": 0.070197,
-          "term": "www"
         },
         {
           "count": 4,
@@ -1065,7 +1186,7 @@
         },
         {
           "count": 7,
-          "score": 0.046839,
+          "score": 0.04724,
           "term": "church"
         },
         {
@@ -1106,7 +1227,7 @@
         },
         {
           "count": 4,
-          "score": 0.076666,
+          "score": 0.07718,
           "term": "worship"
         },
         {
@@ -1121,7 +1242,7 @@
         },
         {
           "count": 3,
-          "score": 0.053873,
+          "score": 0.054218,
           "term": "christian"
         },
         {
@@ -1155,24 +1276,24 @@
           "term": "science"
         },
         {
+          "count": 1,
+          "score": 0.046732,
+          "term": "layers"
+        },
+        {
           "count": 2,
           "score": 0.045882,
           "term": "across"
         },
         {
-          "count": 1,
-          "score": 0.045264,
-          "term": "layers"
+          "count": 2,
+          "score": 0.04415,
+          "term": "life"
         },
         {
           "count": 1,
           "score": 0.04397,
           "term": "produced"
-        },
-        {
-          "count": 2,
-          "score": 0.04382,
-          "term": "life"
         },
         {
           "count": 2,
@@ -1243,7 +1364,7 @@
         },
         {
           "count": 5,
-          "score": 0.053597,
+          "score": 0.054001,
           "term": "life"
         },
         {
@@ -1294,17 +1415,17 @@
         {
           "count": 4,
           "score": 0.03776,
+          "term": "worship"
+        },
+        {
+          "count": 4,
+          "score": 0.03776,
           "term": "order"
         },
         {
           "count": 2,
           "score": 0.037532,
           "term": "hypothesis"
-        },
-        {
-          "count": 4,
-          "score": 0.037509,
-          "term": "worship"
         },
         {
           "count": 2,
@@ -1413,14 +1534,14 @@
           "term": "encyclopedia"
         },
         {
+          "count": 2,
+          "score": 0.036047,
+          "term": "www"
+        },
+        {
           "count": 3,
           "score": 0.035718,
           "term": "philosophy"
-        },
-        {
-          "count": 2,
-          "score": 0.035098,
-          "term": "www"
         },
         {
           "count": 2,
@@ -1470,22 +1591,22 @@
         },
         {
           "count": 10,
-          "score": 0.065229,
+          "score": 0.060425,
           "term": "nlm"
         },
         {
           "count": 10,
-          "score": 0.065229,
+          "score": 0.060425,
           "term": "nih"
         },
         {
           "count": 10,
-          "score": 0.065229,
+          "score": 0.060425,
           "term": "ncbi"
         },
         {
           "count": 10,
-          "score": 0.065229,
+          "score": 0.060425,
           "term": "gov"
         },
         {
@@ -1515,7 +1636,7 @@
         },
         {
           "count": 11,
-          "score": 0.031766,
+          "score": 0.032072,
           "term": "religion"
         },
         {
@@ -1539,11 +1660,6 @@
           "term": "belief"
         },
         {
-          "count": 9,
-          "score": 0.023173,
-          "term": "identity"
-        },
-        {
           "count": 8,
           "score": 0.023102,
           "term": "faith"
@@ -1552,6 +1668,11 @@
           "count": 12,
           "score": 0.023087,
           "term": "human"
+        },
+        {
+          "count": 9,
+          "score": 0.022985,
+          "term": "identity"
         },
         {
           "count": 4,
@@ -1722,7 +1843,7 @@
         },
         {
           "count": 5,
-          "score": 0.050219,
+          "score": 0.050872,
           "term": "how"
         },
         {
@@ -1877,14 +1998,14 @@
           "term": "conviction"
         },
         {
-          "count": 7,
-          "score": 0.030833,
-          "term": "christian"
+          "count": 3,
+          "score": 0.031503,
+          "term": "around"
         },
         {
-          "count": 3,
-          "score": 0.030733,
-          "term": "around"
+          "count": 7,
+          "score": 0.031031,
+          "term": "christian"
         },
         {
           "count": 6,
@@ -1994,7 +2115,7 @@
         },
         {
           "count": 4420,
-          "score": 0.03297,
+          "score": 0.033564,
           "term": "which"
         },
         {
@@ -2019,7 +2140,7 @@
         },
         {
           "count": 5637,
-          "score": 0.028079,
+          "score": 0.028321,
           "term": "all"
         },
         {
@@ -2110,7 +2231,7 @@
         },
         {
           "count": 6,
-          "score": 0.120795,
+          "score": 0.12245,
           "term": "first"
         },
         {
@@ -2308,127 +2429,6 @@
       "word_count": 1161
     },
     {
-      "id": "research_documents_christian_sources_sources_md",
-      "keywords": [
-        {
-          "count": 6,
-          "score": 0.452495,
-          "term": "wikisource"
-        },
-        {
-          "count": 6,
-          "score": 0.362198,
-          "term": "gutenberg"
-        },
-        {
-          "count": 6,
-          "score": 0.349528,
-          "term": "https"
-        },
-        {
-          "count": 6,
-          "score": 0.312378,
-          "term": "org"
-        },
-        {
-          "count": 3,
-          "score": 0.226247,
-          "term": "wiki"
-        },
-        {
-          "count": 4,
-          "score": 0.213475,
-          "term": "creed"
-        },
-        {
-          "count": 3,
-          "score": 0.174764,
-          "term": "ebooks"
-        },
-        {
-          "count": 3,
-          "score": 0.160106,
-          "term": "www"
-        },
-        {
-          "count": 2,
-          "score": 0.139723,
-          "term": "hymnary"
-        },
-        {
-          "count": 2,
-          "score": 0.112851,
-          "term": "didache"
-        },
-        {
-          "count": 2,
-          "score": 0.109624,
-          "term": "apostles"
-        },
-        {
-          "count": 2,
-          "score": 0.104126,
-          "term": "nicene"
-        },
-        {
-          "count": 3,
-          "score": 0.090802,
-          "term": "project"
-        },
-        {
-          "count": 2,
-          "score": 0.083918,
-          "term": "augustine"
-        },
-        {
-          "count": 1,
-          "score": 0.075416,
-          "term": "libraries"
-        },
-        {
-          "count": 1,
-          "score": 0.075416,
-          "term": "downloaded"
-        },
-        {
-          "count": 1,
-          "score": 0.065921,
-          "term": "public-domain"
-        },
-        {
-          "count": 1,
-          "score": 0.062864,
-          "term": "theologica"
-        },
-        {
-          "count": 1,
-          "score": 0.062864,
-          "term": "openly"
-        },
-        {
-          "count": 2,
-          "score": 0.061047,
-          "term": "church"
-        }
-      ],
-      "lane": "research_documents",
-      "path": "research_documents/christian_sources/SOURCES.md",
-      "patterns": [],
-      "review_note_count": 0,
-      "rules_present": {
-        "analogy": false,
-        "counter_reading": false,
-        "discernment": false,
-        "evidence": false,
-        "failure_condition": false,
-        "interpretation": false,
-        "machine_label_boundary": false,
-        "practical_use": false
-      },
-      "title": "Christian Source Corpus",
-      "word_count": 65
-    },
-    {
       "id": "research_documents_claim_ledger_md",
       "keywords": [
         {
@@ -2448,7 +2448,7 @@
         },
         {
           "count": 29,
-          "score": 0.039629,
+          "score": 0.03934,
           "term": "interpretation"
         },
         {
@@ -2473,12 +2473,12 @@
         },
         {
           "count": 24,
-          "score": 0.026966,
+          "score": 0.026797,
           "term": "may"
         },
         {
           "count": 23,
-          "score": 0.025681,
+          "score": 0.025843,
           "term": "theology"
         },
         {
@@ -2502,14 +2502,14 @@
           "term": "claims"
         },
         {
+          "count": 17,
+          "score": 0.019593,
+          "term": "christian"
+        },
+        {
           "count": 13,
           "score": 0.019478,
           "term": "science"
-        },
-        {
-          "count": 17,
-          "score": 0.019468,
-          "term": "christian"
         },
         {
           "count": 5,
@@ -2583,14 +2583,14 @@
           "term": "reason"
         },
         {
+          "count": 5,
+          "score": 0.044374,
+          "term": "need"
+        },
+        {
           "count": 3,
           "score": 0.044133,
           "term": "routed"
-        },
-        {
-          "count": 5,
-          "score": 0.043943,
-          "term": "need"
         },
         {
           "count": 5,
@@ -2770,7 +2770,7 @@
         },
         {
           "count": 2,
-          "score": 0.028939,
+          "score": 0.029541,
           "term": "search"
         }
       ],
@@ -2825,6 +2825,11 @@
           "term": "metadata"
         },
         {
+          "count": 2,
+          "score": 0.041292,
+          "term": "mark"
+        },
+        {
           "count": 4,
           "score": 0.041146,
           "term": "evidence"
@@ -2833,11 +2838,6 @@
           "count": 2,
           "score": 0.04059,
           "term": "strong"
-        },
-        {
-          "count": 2,
-          "score": 0.04059,
-          "term": "mark"
         },
         {
           "count": 2,
@@ -2917,102 +2917,102 @@
       "keywords": [
         {
           "count": 172,
-          "score": 0.109369,
+          "score": 0.11024,
           "term": "auto"
         },
         {
           "count": 160,
-          "score": 0.101739,
+          "score": 0.102549,
           "term": "approval"
         },
         {
           "count": 243,
-          "score": 0.0845,
+          "score": 0.085173,
           "term": "world"
         },
         {
           "count": 160,
-          "score": 0.078912,
+          "score": 0.079541,
           "term": "layer"
         },
         {
           "count": 219,
-          "score": 0.076923,
+          "score": 0.077535,
           "term": "languages"
         },
         {
-          "count": 142,
-          "score": 0.073068,
+          "count": 143,
+          "score": 0.074168,
           "term": "scholarly"
         },
         {
           "count": 136,
-          "score": 0.07162,
+          "score": 0.07219,
           "term": "queue"
         },
         {
           "count": 148,
-          "score": 0.056692,
+          "score": 0.057143,
           "term": "confidence"
         },
         {
           "count": 80,
-          "score": 0.056532,
+          "score": 0.056982,
           "term": "tags"
         },
         {
           "count": 80,
-          "score": 0.056532,
+          "score": 0.056982,
           "term": "corroborating"
         },
         {
           "count": 80,
-          "score": 0.053343,
+          "score": 0.053768,
           "term": "url"
         },
         {
           "count": 80,
-          "score": 0.053343,
+          "score": 0.053768,
           "term": "provider"
         },
         {
-          "count": 102,
-          "score": 0.047563,
+          "count": 103,
+          "score": 0.048411,
           "term": "metadata"
         },
         {
           "count": 80,
-          "score": 0.04714,
+          "score": 0.047515,
           "term": "https"
         },
         {
           "count": 80,
-          "score": 0.045659,
+          "score": 0.046023,
           "term": "routes"
         },
         {
           "count": 80,
-          "score": 0.045659,
+          "score": 0.046023,
           "term": "routed"
         },
         {
           "count": 80,
-          "score": 0.045659,
+          "score": 0.046023,
           "term": "quality"
         },
         {
           "count": 80,
-          "score": 0.045659,
+          "score": 0.046023,
           "term": "approved"
         },
         {
           "count": 80,
-          "score": 0.042129,
+          "score": 0.042465,
           "term": "none"
         },
         {
           "count": 80,
-          "score": 0.042129,
+          "score": 0.042465,
           "term": "automated"
         }
       ],
@@ -3031,14 +3031,14 @@
         "practical_use": true
       },
       "title": "Cloud References Summary",
-      "word_count": 8719
+      "word_count": 8633
     },
     {
       "id": "research_documents_cross_layer_source_specific_casebook_md",
       "keywords": [
         {
           "count": 20,
-          "score": 0.080019,
+          "score": 0.08051,
           "term": "lane"
         },
         {
@@ -3058,7 +3058,7 @@
         },
         {
           "count": 5,
-          "score": 0.038294,
+          "score": 0.038792,
           "term": "required"
         },
         {
@@ -3073,7 +3073,7 @@
         },
         {
           "count": 6,
-          "score": 0.035275,
+          "score": 0.034979,
           "term": "psychology"
         },
         {
@@ -3118,7 +3118,7 @@
         },
         {
           "count": 5,
-          "score": 0.026303,
+          "score": 0.026502,
           "term": "life"
         },
         {
@@ -3178,14 +3178,14 @@
           "term": "metadata"
         },
         {
+          "count": 12,
+          "score": 0.038749,
+          "term": "small"
+        },
+        {
           "count": 20,
           "score": 0.037862,
           "term": "sources"
-        },
-        {
-          "count": 12,
-          "score": 0.037862,
-          "term": "small"
         },
         {
           "count": 12,
@@ -3233,6 +3233,11 @@
           "term": "claim"
         },
         {
+          "count": 7,
+          "score": 0.027293,
+          "term": "unitarian"
+        },
+        {
           "count": 12,
           "score": 0.026948,
           "term": "reason"
@@ -3241,11 +3246,6 @@
           "count": 9,
           "score": 0.02669,
           "term": "checked"
-        },
-        {
-          "count": 7,
-          "score": 0.026208,
-          "term": "unitarian"
         },
         {
           "count": 7,
@@ -3281,104 +3281,104 @@
       "id": "research_documents_daily_evaluation_queue_md",
       "keywords": [
         {
-          "count": 20,
-          "score": 0.093084,
+          "count": 4,
+          "score": 0.070508,
+          "term": "arab"
+        },
+        {
+          "count": 4,
+          "score": 0.067239,
           "term": "auto"
         },
         {
-          "count": 15,
-          "score": 0.069813,
-          "term": "moderate"
+          "count": 3,
+          "score": 0.060498,
+          "term": "farouq"
         },
         {
-          "count": 15,
-          "score": 0.069813,
-          "term": "approval"
-        },
-        {
-          "count": 16,
-          "score": 0.066841,
-          "term": "approved"
-        },
-        {
-          "count": 19,
-          "score": 0.064848,
-          "term": "metadata"
-        },
-        {
-          "count": 16,
-          "score": 0.061673,
-          "term": "queue"
-        },
-        {
-          "count": 16,
-          "score": 0.061673,
-          "term": "archive"
-        },
-        {
-          "count": 16,
-          "score": 0.060261,
-          "term": "scholarly"
-        },
-        {
-          "count": 15,
-          "score": 0.057818,
-          "term": "automated"
-        },
-        {
-          "count": 17,
-          "score": 0.054379,
+          "count": 5,
+          "score": 0.057765,
           "term": "candidate"
         },
         {
-          "count": 13,
-          "score": 0.054308,
-          "term": "year"
-        },
-        {
-          "count": 15,
-          "score": 0.05415,
-          "term": "layer"
-        },
-        {
-          "count": 10,
-          "score": 0.051723,
-          "term": "corroborating"
-        },
-        {
-          "count": 10,
-          "score": 0.044693,
-          "term": "reasons"
-        },
-        {
-          "count": 14,
-          "score": 0.043491,
-          "term": "present"
-        },
-        {
-          "count": 10,
-          "score": 0.041775,
-          "term": "routed"
-        },
-        {
-          "count": 11,
-          "score": 0.04143,
-          "term": "candidates"
-        },
-        {
-          "count": 7,
-          "score": 0.036206,
+          "count": 3,
+          "score": 0.056043,
           "term": "evaluation"
         },
         {
-          "count": 9,
-          "score": 0.031271,
-          "term": "domain"
+          "count": 4,
+          "score": 0.055686,
+          "term": "queue"
         },
         {
-          "count": 6,
-          "score": 0.031034,
-          "term": "trusted"
+          "count": 5,
+          "score": 0.055319,
+          "term": "culture"
+        },
+        {
+          "count": 3,
+          "score": 0.050429,
+          "term": "moderate"
+        },
+        {
+          "count": 3,
+          "score": 0.050429,
+          "term": "approval"
+        },
+        {
+          "count": 4,
+          "score": 0.049308,
+          "term": "metadata"
+        },
+        {
+          "count": 3,
+          "score": 0.048426,
+          "term": "tribal"
+        },
+        {
+          "count": 3,
+          "score": 0.045264,
+          "term": "year"
+        },
+        {
+          "count": 3,
+          "score": 0.045264,
+          "term": "approved"
+        },
+        {
+          "count": 3,
+          "score": 0.041765,
+          "term": "automated"
+        },
+        {
+          "count": 3,
+          "score": 0.041765,
+          "term": "archive"
+        },
+        {
+          "count": 3,
+          "score": 0.040809,
+          "term": "scholarly"
+        },
+        {
+          "count": 3,
+          "score": 0.040809,
+          "term": "candidates"
+        },
+        {
+          "count": 2,
+          "score": 0.040332,
+          "term": "wael"
+        },
+        {
+          "count": 2,
+          "score": 0.040332,
+          "term": "identities"
+        },
+        {
+          "count": 2,
+          "score": 0.040332,
+          "term": "fatw"
         }
       ],
       "lane": "research_documents",
@@ -3393,10 +3393,10 @@
         "failure_condition": false,
         "interpretation": false,
         "machine_label_boundary": true,
-        "practical_use": true
+        "practical_use": false
       },
       "title": "Daily Evaluation Queue",
-      "word_count": 1307
+      "word_count": 367
     },
     {
       "id": "research_documents_divine_pattern_concept_md",
@@ -3423,7 +3423,7 @@
         },
         {
           "count": 2,
-          "score": 0.065857,
+          "score": 0.06464,
           "term": "analysis"
         },
         {
@@ -3483,7 +3483,7 @@
         },
         {
           "count": 3,
-          "score": 0.049363,
+          "score": 0.049694,
           "term": "worship"
         },
         {
@@ -3609,18 +3609,18 @@
         },
         {
           "count": 4,
-          "score": 0.028632,
+          "score": 0.028452,
           "term": "may"
         },
         {
           "count": 2,
-          "score": 0.027745,
+          "score": 0.027348,
           "term": "psychological"
         },
         {
           "count": 2,
           "score": 0.026254,
-          "term": "faithful"
+          "term": "how"
         }
       ],
       "lane": "research_documents",
@@ -3669,14 +3669,14 @@
           "term": "languages"
         },
         {
+          "count": 3,
+          "score": 0.041231,
+          "term": "broad"
+        },
+        {
           "count": 5,
           "score": 0.040962,
           "term": "notes"
-        },
-        {
-          "count": 3,
-          "score": 0.040737,
-          "term": "broad"
         },
         {
           "count": 5,
@@ -3695,7 +3695,7 @@
         },
         {
           "count": 3,
-          "score": 0.037295,
+          "score": 0.037683,
           "term": "modern"
         },
         {
@@ -3735,7 +3735,7 @@
         },
         {
           "count": 3,
-          "score": 0.03245,
+          "score": 0.032177,
           "term": "psychology"
         },
         {
@@ -3796,7 +3796,7 @@
         },
         {
           "count": 24,
-          "score": 0.032191,
+          "score": 0.032455,
           "term": "texts"
         },
         {
@@ -3805,14 +3805,14 @@
           "term": "documents"
         },
         {
+          "count": 15,
+          "score": 0.02944,
+          "term": "second"
+        },
+        {
           "count": 13,
           "score": 0.029394,
           "term": "next"
-        },
-        {
-          "count": 15,
-          "score": 0.029005,
-          "term": "second"
         },
         {
           "count": 14,
@@ -3826,7 +3826,7 @@
         },
         {
           "count": 16,
-          "score": 0.025763,
+          "score": 0.026036,
           "term": "more"
         },
         {
@@ -3851,7 +3851,7 @@
         },
         {
           "count": 16,
-          "score": 0.022375,
+          "score": 0.022568,
           "term": "all"
         },
         {
@@ -3861,7 +3861,7 @@
         },
         {
           "count": 13,
-          "score": 0.020933,
+          "score": 0.021154,
           "term": "theologians"
         }
       ],
@@ -3908,7 +3908,7 @@
         },
         {
           "count": 4,
-          "score": 0.059827,
+          "score": 0.060905,
           "term": "which"
         },
         {
@@ -4049,7 +4049,7 @@
         },
         {
           "count": 2,
-          "score": 0.039399,
+          "score": 0.039876,
           "term": "broad"
         },
         {
@@ -4069,7 +4069,7 @@
         },
         {
           "count": 2,
-          "score": 0.038056,
+          "score": 0.03849,
           "term": "recurrence"
         },
         {
@@ -4099,7 +4099,7 @@
         },
         {
           "count": 3,
-          "score": 0.034524,
+          "score": 0.034745,
           "term": "christian"
         },
         {
@@ -4150,7 +4150,7 @@
         },
         {
           "count": 8,
-          "score": 0.060418,
+          "score": 0.060874,
           "term": "whether"
         },
         {
@@ -4230,7 +4230,7 @@
         },
         {
           "count": 3,
-          "score": 0.020929,
+          "score": 0.021076,
           "term": "love"
         }
       ],
@@ -4306,7 +4306,7 @@
         },
         {
           "count": 5,
-          "score": 0.046184,
+          "score": 0.046835,
           "term": "islamic"
         },
         {
@@ -4321,7 +4321,7 @@
         },
         {
           "count": 3,
-          "score": 0.034868,
+          "score": 0.035742,
           "term": "islam"
         },
         {
@@ -4412,7 +4412,7 @@
         },
         {
           "count": 3,
-          "score": 0.054181,
+          "score": 0.059166,
           "term": "audio"
         },
         {
@@ -4458,6 +4458,11 @@
         {
           "count": 2,
           "score": 0.037615,
+          "term": "unitarian"
+        },
+        {
+          "count": 2,
+          "score": 0.037615,
           "term": "san"
         },
         {
@@ -4469,11 +4474,6 @@
           "count": 2,
           "score": 0.037615,
           "term": "francisco"
-        },
-        {
-          "count": 2,
-          "score": 0.036121,
-          "term": "unitarian"
         }
       ],
       "lane": "research_documents",
@@ -4537,11 +4537,6 @@
           "term": "confidence"
         },
         {
-          "count": 8,
-          "score": 0.061019,
-          "term": "metaphor"
-        },
-        {
           "count": 11,
           "score": 0.060866,
           "term": "translation"
@@ -4550,6 +4545,11 @@
           "count": 6,
           "score": 0.060625,
           "term": "academic"
+        },
+        {
+          "count": 8,
+          "score": 0.060194,
+          "term": "metaphor"
         },
         {
           "count": 8,
@@ -4593,7 +4593,7 @@
         },
         {
           "count": 5,
-          "score": 0.034116,
+          "score": 0.034505,
           "term": "sacred"
         }
       ],
@@ -4775,7 +4775,7 @@
         },
         {
           "count": 6,
-          "score": 0.068646,
+          "score": 0.067719,
           "term": "metaphor"
         },
         {
@@ -4940,14 +4940,14 @@
           "term": "romans"
         },
         {
-          "count": 11,
-          "score": 0.01538,
-          "term": "new"
-        },
-        {
           "count": 16,
           "score": 0.01529,
           "term": "practical"
+        },
+        {
+          "count": 11,
+          "score": 0.015227,
+          "term": "new"
         },
         {
           "count": 9,
@@ -5009,7 +5009,7 @@
         },
         {
           "count": 18,
-          "score": 0.071715,
+          "score": 0.072304,
           "term": "texts"
         },
         {
@@ -5019,18 +5019,18 @@
         },
         {
           "count": 9,
-          "score": 0.043047,
+          "score": 0.043502,
           "term": "theologians"
+        },
+        {
+          "count": 7,
+          "score": 0.040809,
+          "term": "second"
         },
         {
           "count": 13,
           "score": 0.040553,
           "term": "notes"
-        },
-        {
-          "count": 7,
-          "score": 0.040207,
-          "term": "second"
         },
         {
           "count": 6,
@@ -5054,12 +5054,12 @@
         },
         {
           "count": 8,
-          "score": 0.034726,
+          "score": 0.035044,
           "term": "biblical"
         },
         {
           "count": 8,
-          "score": 0.033231,
+          "score": 0.033518,
           "term": "all"
         },
         {
@@ -5145,7 +5145,7 @@
         },
         {
           "count": 7,
-          "score": 0.043076,
+          "score": 0.043401,
           "term": "life"
         },
         {
@@ -5195,7 +5195,7 @@
         },
         {
           "count": 7,
-          "score": 0.034641,
+          "score": 0.034424,
           "term": "may"
         },
         {
@@ -5206,7 +5206,7 @@
         {
           "count": 4,
           "score": 0.033738,
-          "term": "consciousness"
+          "term": "read"
         }
       ],
       "lane": "research_documents",
@@ -5328,7 +5328,7 @@
         },
         {
           "count": 6,
-          "score": 0.027953,
+          "score": 0.028129,
           "term": "theology"
         }
       ],
@@ -5371,7 +5371,7 @@
         },
         {
           "count": 3,
-          "score": 0.060214,
+          "score": 0.060766,
           "term": "service"
         },
         {
@@ -5381,7 +5381,7 @@
         },
         {
           "count": 2,
-          "score": 0.048397,
+          "score": 0.048996,
           "term": "courage"
         },
         {
@@ -5436,7 +5436,7 @@
         },
         {
           "count": 3,
-          "score": 0.041112,
+          "score": 0.040855,
           "term": "may"
         },
         {
@@ -5504,7 +5504,7 @@
         },
         {
           "count": 4,
-          "score": 0.040182,
+          "score": 0.0395,
           "term": "discourse"
         },
         {
@@ -5617,7 +5617,7 @@
         },
         {
           "count": 3,
-          "score": 0.049576,
+          "score": 0.049216,
           "term": "interpretation"
         },
         {
@@ -5652,7 +5652,7 @@
         },
         {
           "count": 3,
-          "score": 0.041546,
+          "score": 0.041812,
           "term": "christian"
         },
         {
@@ -5672,7 +5672,7 @@
         },
         {
           "count": 3,
-          "score": 0.040764,
+          "score": 0.040508,
           "term": "may"
         },
         {
@@ -5682,7 +5682,7 @@
         },
         {
           "count": 2,
-          "score": 0.038089,
+          "score": 0.038418,
           "term": "traditions"
         },
         {
@@ -5883,7 +5883,7 @@
         },
         {
           "count": 3,
-          "score": 0.049576,
+          "score": 0.049216,
           "term": "interpretation"
         },
         {
@@ -5938,7 +5938,7 @@
         },
         {
           "count": 3,
-          "score": 0.040764,
+          "score": 0.040508,
           "term": "may"
         },
         {
@@ -6009,7 +6009,7 @@
         },
         {
           "count": 4,
-          "score": 0.041646,
+          "score": 0.041385,
           "term": "may"
         },
         {
@@ -6034,7 +6034,7 @@
         },
         {
           "count": 3,
-          "score": 0.037987,
+          "score": 0.037711,
           "term": "interpretation"
         },
         {
@@ -6106,14 +6106,14 @@
           "term": "discernment"
         },
         {
+          "count": 6,
+          "score": 0.035713,
+          "term": "doctrine"
+        },
+        {
           "count": 5,
           "score": 0.035703,
           "term": "authority"
-        },
-        {
-          "count": 6,
-          "score": 0.035437,
-          "term": "doctrine"
         },
         {
           "count": 4,
@@ -6177,7 +6177,7 @@
         },
         {
           "count": 6,
-          "score": 0.027644,
+          "score": 0.027471,
           "term": "may"
         },
         {
@@ -6250,13 +6250,13 @@
         },
         {
           "count": 3,
-          "score": 0.040328,
-          "term": "strengthen"
+          "score": 0.040787,
+          "term": "recurrence"
         },
         {
           "count": 3,
           "score": 0.040328,
-          "term": "recurrence"
+          "term": "strengthen"
         },
         {
           "count": 2,
@@ -6335,14 +6335,14 @@
       "id": "biblical_languages_expanded_lexeme_balance_notes_md",
       "keywords": [
         {
-          "count": 5,
-          "score": 0.099046,
-          "term": "range"
-        },
-        {
           "count": 4,
           "score": 0.09866,
           "term": "relevance"
+        },
+        {
+          "count": 5,
+          "score": 0.097427,
+          "term": "range"
         },
         {
           "count": 4,
@@ -6356,7 +6356,7 @@
         },
         {
           "count": 4,
-          "score": 0.069525,
+          "score": 0.070429,
           "term": "required"
         },
         {
@@ -6386,7 +6386,7 @@
         },
         {
           "count": 4,
-          "score": 0.044115,
+          "score": 0.044424,
           "term": "love"
         },
         {
@@ -6411,7 +6411,7 @@
         },
         {
           "count": 4,
-          "score": 0.03632,
+          "score": 0.036543,
           "term": "justice"
         },
         {
@@ -6457,7 +6457,7 @@
       "keywords": [
         {
           "count": 4,
-          "score": 0.131643,
+          "score": 0.133205,
           "term": "hebrew"
         },
         {
@@ -6472,7 +6472,7 @@
         },
         {
           "count": 3,
-          "score": 0.08387,
+          "score": 0.084638,
           "term": "biblical"
         },
         {
@@ -6482,12 +6482,12 @@
         },
         {
           "count": 2,
-          "score": 0.078765,
+          "score": 0.077478,
           "term": "range"
         },
         {
           "count": 2,
-          "score": 0.077478,
+          "score": 0.076256,
           "term": "such"
         },
         {
@@ -6502,8 +6502,13 @@
         },
         {
           "count": 2,
-          "score": 0.061609,
+          "score": 0.062261,
           "term": "genre"
+        },
+        {
+          "count": 1,
+          "score": 0.060713,
+          "term": "lemma"
         },
         {
           "count": 2,
@@ -6512,13 +6517,8 @@
         },
         {
           "count": 2,
-          "score": 0.058591,
+          "score": 0.059165,
           "term": "terms"
-        },
-        {
-          "count": 1,
-          "score": 0.057288,
-          "term": "lemma"
         },
         {
           "count": 1,
@@ -6533,12 +6533,12 @@
         {
           "count": 1,
           "score": 0.052461,
-          "term": "sentence"
+          "term": "syntax"
         },
         {
           "count": 1,
-          "score": 0.050626,
-          "term": "syntax"
+          "score": 0.052461,
+          "term": "sentence"
         },
         {
           "count": 1,
@@ -6553,7 +6553,7 @@
         {
           "count": 1,
           "score": 0.049036,
-          "term": "grammar"
+          "term": "app"
         }
       ],
       "lane": "biblical_languages",
@@ -6583,7 +6583,7 @@
         },
         {
           "count": 3,
-          "score": 0.064793,
+          "score": 0.065562,
           "term": "hebrew"
         },
         {
@@ -6649,6 +6649,11 @@
         {
           "count": 1,
           "score": 0.039843,
+          "term": "lemma"
+        },
+        {
+          "count": 1,
+          "score": 0.039843,
           "term": "determines"
         },
         {
@@ -6663,18 +6668,13 @@
         },
         {
           "count": 2,
-          "score": 0.03845,
+          "score": 0.038827,
           "term": "terms"
         },
         {
           "count": 1,
           "score": 0.037595,
           "term": "tsedeq"
-        },
-        {
-          "count": 1,
-          "score": 0.037595,
-          "term": "lev"
         }
       ],
       "lane": "biblical_languages",
@@ -6719,7 +6719,7 @@
         },
         {
           "count": 6,
-          "score": 0.027326,
+          "score": 0.02765,
           "term": "hebrew"
         },
         {
@@ -6733,14 +6733,14 @@
           "term": "covenant"
         },
         {
+          "count": 9,
+          "score": 0.022621,
+          "term": "justice"
+        },
+        {
           "count": 4,
           "score": 0.022576,
           "term": "righteousness"
-        },
-        {
-          "count": 9,
-          "score": 0.022483,
-          "term": "justice"
         },
         {
           "count": 7,
@@ -6779,7 +6779,7 @@
         },
         {
           "count": 5,
-          "score": 0.015171,
+          "score": 0.015278,
           "term": "love"
         },
         {
@@ -6835,7 +6835,7 @@
         },
         {
           "count": 15,
-          "score": 0.074049,
+          "score": 0.074928,
           "term": "hebrew"
         },
         {
@@ -6961,7 +6961,7 @@
         },
         {
           "count": 5,
-          "score": 0.030854,
+          "score": 0.03122,
           "term": "hebrew"
         },
         {
@@ -7011,7 +7011,7 @@
         },
         {
           "count": 6,
-          "score": 0.019122,
+          "score": 0.019009,
           "term": "language"
         },
         {
@@ -7072,7 +7072,7 @@
         },
         {
           "count": 16,
-          "score": 0.079841,
+          "score": 0.080788,
           "term": "hebrew"
         },
         {
@@ -7097,7 +7097,7 @@
         },
         {
           "count": 9,
-          "score": 0.023196,
+          "score": 0.023058,
           "term": "language"
         },
         {
@@ -7188,7 +7188,7 @@
         },
         {
           "count": 17,
-          "score": 0.096305,
+          "score": 0.097447,
           "term": "hebrew"
         },
         {
@@ -7198,7 +7198,7 @@
         },
         {
           "count": 12,
-          "score": 0.037288,
+          "score": 0.037516,
           "term": "justice"
         },
         {
@@ -7264,12 +7264,12 @@
         {
           "count": 2,
           "score": 0.016881,
-          "term": "nations"
+          "term": "release"
         },
         {
           "count": 2,
-          "score": 0.016399,
-          "term": "release"
+          "score": 0.016881,
+          "term": "nations"
         },
         {
           "count": 3,
@@ -7314,7 +7314,7 @@
         },
         {
           "count": 10,
-          "score": 0.065047,
+          "score": 0.065819,
           "term": "hebrew"
         },
         {
@@ -7460,7 +7460,7 @@
         },
         {
           "count": 3,
-          "score": 0.05529,
+          "score": 0.055946,
           "term": "hebrew"
         },
         {
@@ -7571,7 +7571,7 @@
         },
         {
           "count": 3,
-          "score": 0.047122,
+          "score": 0.047681,
           "term": "hebrew"
         },
         {
@@ -7667,12 +7667,12 @@
       "keywords": [
         {
           "count": 5,
-          "score": 0.082028,
+          "score": 0.082831,
           "term": "terms"
         },
         {
           "count": 4,
-          "score": 0.065622,
+          "score": 0.066265,
           "term": "need"
         },
         {
@@ -7798,7 +7798,7 @@
         },
         {
           "count": 5,
-          "score": 0.069124,
+          "score": 0.069801,
           "term": "need"
         },
         {
@@ -7853,7 +7853,7 @@
         },
         {
           "count": 4,
-          "score": 0.036722,
+          "score": 0.036958,
           "term": "christian"
         },
         {
@@ -8070,12 +8070,12 @@
         },
         {
           "count": 4,
-          "score": 0.029662,
+          "score": 0.029057,
           "term": "arabic"
         },
         {
           "count": 4,
-          "score": 0.024657,
+          "score": 0.025004,
           "term": "islamic"
         },
         {
@@ -8115,7 +8115,7 @@
         },
         {
           "count": 6,
-          "score": 0.02001,
+          "score": 0.020138,
           "term": "christian"
         },
         {
@@ -8181,7 +8181,7 @@
         },
         {
           "count": 9,
-          "score": 0.028447,
+          "score": 0.02863,
           "term": "christian"
         },
         {
@@ -8191,7 +8191,7 @@
         },
         {
           "count": 4,
-          "score": 0.02478,
+          "score": 0.025176,
           "term": "latin"
         },
         {
@@ -8221,7 +8221,7 @@
         },
         {
           "count": 4,
-          "score": 0.019039,
+          "score": 0.019226,
           "term": "terms"
         },
         {
@@ -8241,7 +8241,7 @@
         },
         {
           "count": 3,
-          "score": 0.017527,
+          "score": 0.01729,
           "term": "metaphor"
         },
         {
@@ -8297,7 +8297,7 @@
         },
         {
           "count": 3,
-          "score": 0.029146,
+          "score": 0.028552,
           "term": "arabic"
         },
         {
@@ -8317,7 +8317,7 @@
         },
         {
           "count": 5,
-          "score": 0.021847,
+          "score": 0.021987,
           "term": "christian"
         },
         {
@@ -8357,7 +8357,7 @@
         },
         {
           "count": 2,
-          "score": 0.017127,
+          "score": 0.017401,
           "term": "latin"
         },
         {
@@ -8427,23 +8427,23 @@
           "term": "oral"
         },
         {
+          "count": 5,
+          "score": 0.021509,
+          "term": "comparative"
+        },
+        {
           "count": 6,
           "score": 0.021469,
           "term": "history"
         },
         {
-          "count": 5,
-          "score": 0.021319,
-          "term": "comparative"
-        },
-        {
           "count": 7,
-          "score": 0.021144,
+          "score": 0.02128,
           "term": "christian"
         },
         {
           "count": 8,
-          "score": 0.021114,
+          "score": 0.020989,
           "term": "language"
         },
         {
@@ -8458,7 +8458,7 @@
         },
         {
           "count": 6,
-          "score": 0.017671,
+          "score": 0.017782,
           "term": "theology"
         },
         {
@@ -8477,14 +8477,14 @@
           "term": "semitic"
         },
         {
-          "count": 3,
-          "score": 0.016749,
-          "term": "metaphor"
-        },
-        {
           "count": 5,
           "score": 0.01656,
           "term": "claims"
+        },
+        {
+          "count": 3,
+          "score": 0.016523,
+          "term": "metaphor"
         },
         {
           "count": 2,
@@ -8539,12 +8539,12 @@
         },
         {
           "count": 5,
-          "score": 0.03227,
+          "score": 0.031834,
           "term": "metaphor"
         },
         {
           "count": 9,
-          "score": 0.031426,
+          "score": 0.031627,
           "term": "christian"
         },
         {
@@ -8554,7 +8554,7 @@
         },
         {
           "count": 9,
-          "score": 0.027458,
+          "score": 0.027296,
           "term": "language"
         },
         {
@@ -8650,7 +8650,7 @@
         },
         {
           "count": 9,
-          "score": 0.033119,
+          "score": 0.032924,
           "term": "language"
         },
         {
@@ -8694,6 +8694,11 @@
           "term": "revival"
         },
         {
+          "count": 5,
+          "score": 0.020662,
+          "term": "theology"
+        },
+        {
           "count": 2,
           "score": 0.020625,
           "term": "hymn"
@@ -8702,11 +8707,6 @@
           "count": 2,
           "score": 0.020625,
           "term": "civic"
-        },
-        {
-          "count": 5,
-          "score": 0.020533,
-          "term": "theology"
         },
         {
           "count": 3,
@@ -8851,7 +8851,7 @@
         },
         {
           "count": 2,
-          "score": 0.037859,
+          "score": 0.03823,
           "term": "terms"
         }
       ],
@@ -8882,7 +8882,7 @@
         },
         {
           "count": 3,
-          "score": 0.127625,
+          "score": 0.125852,
           "term": "culture"
         },
         {
@@ -8892,7 +8892,7 @@
         },
         {
           "count": 2,
-          "score": 0.114418,
+          "score": 0.111146,
           "term": "grammar"
         },
         {
@@ -8902,7 +8902,7 @@
         },
         {
           "count": 2,
-          "score": 0.083901,
+          "score": 0.082767,
           "term": "metaphor"
         },
         {
@@ -9008,18 +9008,18 @@
         },
         {
           "count": 4,
-          "score": 0.062933,
+          "score": 0.063449,
           "term": "texts"
+        },
+        {
+          "count": 3,
+          "score": 0.050963,
+          "term": "comparative"
         },
         {
           "count": 3,
           "score": 0.050511,
           "term": "ritual"
-        },
-        {
-          "count": 3,
-          "score": 0.050511,
-          "term": "comparative"
         },
         {
           "count": 3,
@@ -9069,16 +9069,16 @@
         {
           "count": 2,
           "score": 0.034917,
-          "term": "law"
-        },
-        {
-          "count": 2,
-          "score": 0.034596,
           "term": "text"
         },
         {
+          "count": 2,
+          "score": 0.034917,
+          "term": "law"
+        },
+        {
           "count": 3,
-          "score": 0.034457,
+          "score": 0.034672,
           "term": "community"
         },
         {
@@ -9124,22 +9124,22 @@
         },
         {
           "count": 5,
-          "score": 0.03859,
+          "score": 0.038361,
           "term": "language"
         },
         {
           "count": 3,
-          "score": 0.036442,
+          "score": 0.036757,
           "term": "traditions"
         },
         {
           "count": 3,
-          "score": 0.033853,
+          "score": 0.034121,
           "term": "tradition"
         },
         {
           "count": 2,
-          "score": 0.030241,
+          "score": 0.030608,
           "term": "global"
         },
         {
@@ -9250,7 +9250,7 @@
         },
         {
           "count": 8,
-          "score": 0.020265,
+          "score": 0.020393,
           "term": "theology"
         },
         {
@@ -9265,12 +9265,12 @@
         },
         {
           "count": 7,
-          "score": 0.018186,
+          "score": 0.018303,
           "term": "christian"
         },
         {
           "count": 3,
-          "score": 0.017712,
+          "score": 0.018127,
           "term": "qur"
         },
         {
@@ -9300,12 +9300,12 @@
         },
         {
           "count": 6,
-          "score": 0.01501,
+          "score": 0.015104,
           "term": "community"
         },
         {
           "count": 5,
-          "score": 0.014641,
+          "score": 0.014743,
           "term": "love"
         },
         {
@@ -9320,7 +9320,7 @@
         },
         {
           "count": 6,
-          "score": 0.014465,
+          "score": 0.014553,
           "term": "justice"
         },
         {
@@ -9330,7 +9330,7 @@
         },
         {
           "count": 5,
-          "score": 0.013864,
+          "score": 0.013957,
           "term": "worship"
         },
         {
@@ -9376,7 +9376,7 @@
         },
         {
           "count": 9,
-          "score": 0.023234,
+          "score": 0.023383,
           "term": "christian"
         },
         {
@@ -9426,18 +9426,18 @@
         },
         {
           "count": 3,
-          "score": 0.013757,
+          "score": 0.013936,
           "term": "story"
+        },
+        {
+          "count": 2,
+          "score": 0.013923,
+          "term": "hadith"
         },
         {
           "count": 3,
           "score": 0.013584,
           "term": "legal"
-        },
-        {
-          "count": 2,
-          "score": 0.013436,
-          "term": "hadith"
         },
         {
           "count": 4,
@@ -9455,9 +9455,9 @@
           "term": "dead"
         },
         {
-          "count": 4,
-          "score": 0.012599,
-          "term": "mercy"
+          "count": 5,
+          "score": 0.012665,
+          "term": "theology"
         }
       ],
       "lane": "all_texts",
@@ -9492,7 +9492,7 @@
         },
         {
           "count": 8,
-          "score": 0.028549,
+          "score": 0.028775,
           "term": "tradition"
         },
         {
@@ -9502,7 +9502,7 @@
         },
         {
           "count": 9,
-          "score": 0.023329,
+          "score": 0.023472,
           "term": "justice"
         },
         {
@@ -9551,6 +9551,11 @@
           "term": "poetry"
         },
         {
+          "count": 3,
+          "score": 0.016687,
+          "term": "imagination"
+        },
+        {
           "count": 2,
           "score": 0.016452,
           "term": "surah"
@@ -9561,11 +9566,6 @@
           "term": "themes"
         },
         {
-          "count": 3,
-          "score": 0.016424,
-          "term": "imagination"
-        },
-        {
           "count": 4,
           "score": 0.015772,
           "term": "ritual"
@@ -9573,12 +9573,12 @@
         {
           "count": 3,
           "score": 0.015708,
-          "term": "frame"
+          "term": "stories"
         },
         {
-          "count": 2,
-          "score": 0.015689,
-          "term": "parables"
+          "count": 3,
+          "score": 0.015708,
+          "term": "frame"
         }
       ],
       "lane": "all_texts",
@@ -9643,7 +9643,7 @@
         },
         {
           "count": 6,
-          "score": 0.015257,
+          "score": 0.015377,
           "term": "tradition"
         },
         {
@@ -9668,12 +9668,12 @@
         },
         {
           "count": 4,
-          "score": 0.013164,
+          "score": 0.013314,
           "term": "sacred"
         },
         {
           "count": 4,
-          "score": 0.012607,
+          "score": 0.01274,
           "term": "genre"
         },
         {
@@ -9688,12 +9688,12 @@
         },
         {
           "count": 4,
-          "score": 0.011546,
+          "score": 0.011653,
           "term": "text"
         },
         {
           "count": 4,
-          "score": 0.011546,
+          "score": 0.011653,
           "term": "preserve"
         },
         {
@@ -9734,18 +9734,18 @@
         },
         {
           "count": 7,
-          "score": 0.024411,
+          "score": 0.02467,
           "term": "genre"
         },
         {
           "count": 6,
           "score": 0.019341,
-          "term": "law"
+          "term": "text"
         },
         {
           "count": 6,
-          "score": 0.019163,
-          "term": "text"
+          "score": 0.019341,
+          "term": "law"
         },
         {
           "count": 4,
@@ -9759,7 +9759,7 @@
         },
         {
           "count": 8,
-          "score": 0.016349,
+          "score": 0.016449,
           "term": "justice"
         },
         {
@@ -9870,7 +9870,7 @@
         },
         {
           "count": 10,
-          "score": 0.02326,
+          "score": 0.023407,
           "term": "theology"
         },
         {
@@ -9900,7 +9900,7 @@
         },
         {
           "count": 5,
-          "score": 0.017298,
+          "score": 0.017459,
           "term": "text"
         },
         {
@@ -10026,7 +10026,7 @@
         },
         {
           "count": 2,
-          "score": 0.033775,
+          "score": 0.03416,
           "term": "recurrence"
         },
         {
@@ -10061,7 +10061,7 @@
         },
         {
           "count": 3,
-          "score": 0.03064,
+          "score": 0.030837,
           "term": "christian"
         }
       ],
@@ -10092,7 +10092,7 @@
         },
         {
           "count": 4,
-          "score": 0.05759,
+          "score": 0.058046,
           "term": "tradition"
         },
         {
@@ -10142,7 +10142,7 @@
         },
         {
           "count": 2,
-          "score": 0.037269,
+          "score": 0.037693,
           "term": "sacred"
         },
         {
@@ -10213,27 +10213,27 @@
         },
         {
           "count": 4,
-          "score": 0.046098,
+          "score": 0.046496,
           "term": "traditions"
         },
         {
           "count": 3,
-          "score": 0.044097,
+          "score": 0.044656,
           "term": "own"
         },
         {
           "count": 5,
-          "score": 0.041901,
+          "score": 0.04217,
           "term": "christian"
         },
         {
           "count": 3,
-          "score": 0.041569,
+          "score": 0.042042,
           "term": "sacred"
         },
         {
           "count": 4,
-          "score": 0.040899,
+          "score": 0.041207,
           "term": "whether"
         },
         {
@@ -10253,13 +10253,13 @@
         },
         {
           "count": 2,
-          "score": 0.02869,
-          "term": "indigenous"
+          "score": 0.029038,
+          "term": "broad"
         },
         {
           "count": 2,
           "score": 0.02869,
-          "term": "broad"
+          "term": "indigenous"
         },
         {
           "count": 2,
@@ -10354,7 +10354,7 @@
         },
         {
           "count": 9,
-          "score": 0.034687,
+          "score": 0.034909,
           "term": "christian"
         },
         {
@@ -10373,14 +10373,14 @@
           "term": "long-term"
         },
         {
+          "count": 4,
+          "score": 0.02774,
+          "term": "story"
+        },
+        {
           "count": 3,
           "score": 0.027565,
           "term": "dream"
-        },
-        {
-          "count": 4,
-          "score": 0.027384,
-          "term": "story"
         },
         {
           "count": 3,
@@ -10389,7 +10389,7 @@
         },
         {
           "count": 5,
-          "score": 0.026501,
+          "score": 0.02673,
           "term": "traditions"
         },
         {
@@ -10418,14 +10418,14 @@
           "term": "conscience"
         },
         {
+          "count": 4,
+          "score": 0.023215,
+          "term": "religion"
+        },
+        {
           "count": 5,
           "score": 0.023165,
           "term": "religious"
-        },
-        {
-          "count": 3,
-          "score": 0.023024,
-          "term": "discipleship"
         }
       ],
       "lane": "other_religious_texts",
@@ -10455,7 +10455,7 @@
         },
         {
           "count": 8,
-          "score": 0.06917,
+          "score": 0.069614,
           "term": "christian"
         },
         {
@@ -10470,7 +10470,7 @@
         },
         {
           "count": 3,
-          "score": 0.045497,
+          "score": 0.046074,
           "term": "own"
         },
         {
@@ -10480,18 +10480,18 @@
         },
         {
           "count": 4,
-          "score": 0.044183,
+          "score": 0.044532,
           "term": "tradition"
-        },
-        {
-          "count": 5,
-          "score": 0.042417,
-          "term": "may"
         },
         {
           "count": 2,
           "score": 0.042342,
           "term": "conviction"
+        },
+        {
+          "count": 5,
+          "score": 0.042152,
+          "term": "may"
         },
         {
           "count": 2,
@@ -10591,17 +10591,17 @@
         },
         {
           "count": 4,
-          "score": 0.023174,
+          "score": 0.023717,
           "term": "qur"
         },
         {
           "count": 9,
-          "score": 0.022944,
+          "score": 0.023091,
           "term": "christian"
         },
         {
           "count": 7,
-          "score": 0.022798,
+          "score": 0.022978,
           "term": "tradition"
         },
         {
@@ -10627,12 +10627,12 @@
         {
           "count": 4,
           "score": 0.019114,
-          "term": "frame"
+          "term": "islamic"
         },
         {
           "count": 4,
-          "score": 0.018848,
-          "term": "islamic"
+          "score": 0.019114,
+          "term": "frame"
         },
         {
           "count": 5,
@@ -10641,12 +10641,12 @@
         },
         {
           "count": 5,
-          "score": 0.017993,
+          "score": 0.018154,
           "term": "comparative"
         },
         {
           "count": 5,
-          "score": 0.017529,
+          "score": 0.017681,
           "term": "traditions"
         },
         {
@@ -10702,7 +10702,7 @@
         },
         {
           "count": 13,
-          "score": 0.031755,
+          "score": 0.031958,
           "term": "christian"
         },
         {
@@ -10733,6 +10733,11 @@
         {
           "count": 3,
           "score": 0.017043,
+          "term": "qur"
+        },
+        {
+          "count": 3,
+          "score": 0.017043,
           "term": "passages"
         },
         {
@@ -10741,13 +10746,8 @@
           "term": "jewish"
         },
         {
-          "count": 3,
-          "score": 0.016653,
-          "term": "qur"
-        },
-        {
           "count": 4,
-          "score": 0.016155,
+          "score": 0.016339,
           "term": "sacred"
         },
         {
@@ -10843,12 +10843,12 @@
         },
         {
           "count": 10,
-          "score": 0.027801,
+          "score": 0.027975,
           "term": "community"
         },
         {
           "count": 9,
-          "score": 0.025985,
+          "score": 0.026151,
           "term": "christian"
         },
         {
@@ -10868,7 +10868,7 @@
         },
         {
           "count": 6,
-          "score": 0.024452,
+          "score": 0.024671,
           "term": "comparative"
         },
         {
@@ -10994,7 +10994,7 @@
         },
         {
           "count": 8,
-          "score": 0.015149,
+          "score": 0.015246,
           "term": "christian"
         },
         {
@@ -11024,13 +11024,13 @@
         },
         {
           "count": 5,
-          "score": 0.013364,
+          "score": 0.013484,
           "term": "comparative"
         },
         {
           "count": 3,
           "score": 0.013212,
-          "term": "gratitude"
+          "term": "qur"
         }
       ],
       "lane": "other_religious_texts",
@@ -11070,7 +11070,7 @@
         },
         {
           "count": 13,
-          "score": 0.035559,
+          "score": 0.035851,
           "term": "texts"
         },
         {
@@ -11095,13 +11095,18 @@
         },
         {
           "count": 10,
-          "score": 0.020738,
+          "score": 0.020871,
           "term": "christian"
         },
         {
           "count": 10,
-          "score": 0.02022,
+          "score": 0.020347,
           "term": "theology"
+        },
+        {
+          "count": 5,
+          "score": 0.019435,
+          "term": "islamic"
         },
         {
           "count": 4,
@@ -11109,9 +11114,9 @@
           "term": "accounts"
         },
         {
-          "count": 5,
-          "score": 0.019165,
-          "term": "islamic"
+          "count": 6,
+          "score": 0.017721,
+          "term": "comparative"
         },
         {
           "count": 4,
@@ -11122,11 +11127,6 @@
           "count": 6,
           "score": 0.017564,
           "term": "ritual"
-        },
-        {
-          "count": 6,
-          "score": 0.017564,
-          "term": "comparative"
         },
         {
           "count": 3,
@@ -11140,12 +11140,12 @@
         },
         {
           "count": 8,
-          "score": 0.015975,
+          "score": 0.016075,
           "term": "community"
         },
         {
           "count": 5,
-          "score": 0.014259,
+          "score": 0.014382,
           "term": "traditions"
         },
         {
@@ -11191,7 +11191,7 @@
         },
         {
           "count": 16,
-          "score": 0.052333,
+          "score": 0.052762,
           "term": "texts"
         },
         {
@@ -11201,18 +11201,18 @@
         },
         {
           "count": 6,
-          "score": 0.021002,
+          "score": 0.021189,
           "term": "comparative"
+        },
+        {
+          "count": 6,
+          "score": 0.018859,
+          "term": "doctrine"
         },
         {
           "count": 5,
           "score": 0.018854,
           "term": "authority"
-        },
-        {
-          "count": 6,
-          "score": 0.018713,
-          "term": "doctrine"
         },
         {
           "count": 4,
@@ -11247,6 +11247,11 @@
         {
           "count": 3,
           "score": 0.01589,
+          "term": "summaries"
+        },
+        {
+          "count": 3,
+          "score": 0.01589,
           "term": "hindu"
         },
         {
@@ -11258,11 +11263,6 @@
           "count": 3,
           "score": 0.015596,
           "term": "tradition-specific"
-        },
-        {
-          "count": 3,
-          "score": 0.015596,
-          "term": "summaries"
         },
         {
           "count": 2,
@@ -11337,7 +11337,7 @@
         },
         {
           "count": 5,
-          "score": 0.03748,
+          "score": 0.037721,
           "term": "christian"
         },
         {
@@ -11367,7 +11367,7 @@
         },
         {
           "count": 3,
-          "score": 0.030926,
+          "score": 0.031193,
           "term": "traditions"
         },
         {
@@ -11382,7 +11382,7 @@
         },
         {
           "count": 4,
-          "score": 0.02942,
+          "score": 0.029235,
           "term": "may"
         },
         {
@@ -11433,7 +11433,7 @@
         },
         {
           "count": 3,
-          "score": 0.02905,
+          "score": 0.029419,
           "term": "theologian"
         },
         {
@@ -11443,7 +11443,7 @@
         },
         {
           "count": 5,
-          "score": 0.027604,
+          "score": 0.027781,
           "term": "christian"
         },
         {
@@ -11513,7 +11513,7 @@
         },
         {
           "count": 3,
-          "score": 0.018667,
+          "score": 0.018798,
           "term": "love"
         }
       ],
@@ -11544,7 +11544,7 @@
         },
         {
           "count": 5,
-          "score": 0.112988,
+          "score": 0.111207,
           "term": "such"
         },
         {
@@ -11554,7 +11554,7 @@
         },
         {
           "count": 3,
-          "score": 0.046421,
+          "score": 0.046818,
           "term": "church"
         },
         {
@@ -11690,7 +11690,7 @@
         },
         {
           "count": 6,
-          "score": 0.036113,
+          "score": 0.036367,
           "term": "love"
         },
         {
@@ -11841,7 +11841,7 @@
         },
         {
           "count": 3,
-          "score": 0.034319,
+          "score": 0.034559,
           "term": "love"
         },
         {
@@ -11917,7 +11917,7 @@
         },
         {
           "count": 3,
-          "score": 0.056909,
+          "score": 0.055857,
           "term": "contemporary"
         },
         {
@@ -11966,6 +11966,11 @@
           "term": "evil"
         },
         {
+          "count": 4,
+          "score": 0.034856,
+          "term": "theology"
+        },
+        {
           "count": 2,
           "score": 0.034813,
           "term": "james"
@@ -11974,11 +11979,6 @@
           "count": 2,
           "score": 0.034813,
           "term": "costly"
-        },
-        {
-          "count": 4,
-          "score": 0.034638,
-          "term": "theology"
         },
         {
           "count": 2,
@@ -12154,7 +12154,7 @@
         },
         {
           "count": 17,
-          "score": 0.07514,
+          "score": 0.075964,
           "term": "disagreement"
         },
         {
@@ -12174,7 +12174,7 @@
         },
         {
           "count": 15,
-          "score": 0.059445,
+          "score": 0.059996,
           "term": "text"
         },
         {
@@ -12213,14 +12213,14 @@
           "term": "rather"
         },
         {
-          "count": 7,
-          "score": 0.016714,
-          "term": "language"
-        },
-        {
           "count": 4,
           "score": 0.016622,
           "term": "grace"
+        },
+        {
+          "count": 7,
+          "score": 0.016615,
+          "term": "language"
         },
         {
           "count": 3,
@@ -12230,12 +12230,12 @@
         {
           "count": 6,
           "score": 0.016087,
-          "term": "god"
+          "term": "theology"
         },
         {
           "count": 6,
-          "score": 0.015987,
-          "term": "theology"
+          "score": 0.016087,
+          "term": "god"
         },
         {
           "count": 3,
@@ -12280,7 +12280,7 @@
         },
         {
           "count": 16,
-          "score": 0.099041,
+          "score": 0.100127,
           "term": "disagreement"
         },
         {
@@ -12290,7 +12290,7 @@
         },
         {
           "count": 4,
-          "score": 0.031525,
+          "score": 0.030989,
           "term": "book"
         },
         {
@@ -12344,14 +12344,14 @@
           "term": "liberation"
         },
         {
+          "count": 4,
+          "score": 0.018818,
+          "term": "life"
+        },
+        {
           "count": 3,
           "score": 0.018774,
           "term": "christ"
-        },
-        {
-          "count": 4,
-          "score": 0.018677,
-          "term": "life"
         },
         {
           "count": 2,
@@ -12508,12 +12508,12 @@
         {
           "count": 12,
           "score": 0.022583,
-          "term": "god"
+          "term": "theology"
         },
         {
           "count": 12,
-          "score": 0.022441,
-          "term": "theology"
+          "score": 0.022583,
+          "term": "god"
         },
         {
           "count": 7,
@@ -12572,7 +12572,7 @@
         },
         {
           "count": 6,
-          "score": 0.014474,
+          "score": 0.014587,
           "term": "doctrine"
         },
         {
@@ -12597,7 +12597,7 @@
         },
         {
           "count": 6,
-          "score": 0.01297,
+          "score": 0.013061,
           "term": "love"
         },
         {
@@ -12658,7 +12658,7 @@
         },
         {
           "count": 7,
-          "score": 0.015863,
+          "score": 0.015986,
           "term": "doctrine"
         },
         {
@@ -12668,7 +12668,7 @@
         },
         {
           "count": 8,
-          "score": 0.014054,
+          "score": 0.014142,
           "term": "theology"
         },
         {
@@ -12688,12 +12688,12 @@
         },
         {
           "count": 8,
-          "score": 0.012594,
+          "score": 0.012519,
           "term": "language"
         },
         {
           "count": 5,
-          "score": 0.012283,
+          "score": 0.012388,
           "term": "church"
         },
         {
@@ -12754,7 +12754,7 @@
         },
         {
           "count": 14,
-          "score": 0.031821,
+          "score": 0.032022,
           "term": "theology"
         },
         {
@@ -12784,7 +12784,7 @@
         },
         {
           "count": 6,
-          "score": 0.017592,
+          "score": 0.017729,
           "term": "doctrine"
         },
         {
@@ -12804,12 +12804,12 @@
         },
         {
           "count": 4,
-          "score": 0.016155,
+          "score": 0.016355,
           "term": "courage"
         },
         {
           "count": 6,
-          "score": 0.015764,
+          "score": 0.015875,
           "term": "love"
         },
         {
@@ -12896,12 +12896,12 @@
         {
           "count": 13,
           "score": 0.017953,
-          "term": "god"
+          "term": "theology"
         },
         {
           "count": 13,
-          "score": 0.017841,
-          "term": "theology"
+          "score": 0.017953,
+          "term": "god"
         },
         {
           "count": 9,
@@ -13001,7 +13001,7 @@
         },
         {
           "count": 21,
-          "score": 0.031388,
+          "score": 0.031586,
           "term": "theology"
         },
         {
@@ -13021,7 +13021,7 @@
         },
         {
           "count": 9,
-          "score": 0.017353,
+          "score": 0.017488,
           "term": "doctrine"
         },
         {
@@ -13122,7 +13122,7 @@
         },
         {
           "count": 27,
-          "score": 0.047431,
+          "score": 0.04773,
           "term": "theology"
         },
         {
@@ -13238,13 +13238,13 @@
         },
         {
           "count": 13,
-          "score": 0.094694,
-          "term": "works"
+          "score": 0.0964,
+          "term": "point"
         },
         {
           "count": 13,
           "score": 0.094694,
-          "term": "point"
+          "term": "works"
         },
         {
           "count": 13,
@@ -13279,12 +13279,12 @@
         {
           "count": 6,
           "score": 0.020823,
-          "term": "god"
+          "term": "theology"
         },
         {
           "count": 6,
-          "score": 0.020693,
-          "term": "theology"
+          "score": 0.020823,
+          "term": "god"
         },
         {
           "count": 5,
@@ -13298,7 +13298,7 @@
         },
         {
           "count": 3,
-          "score": 0.018612,
+          "score": 0.018848,
           "term": "theologian"
         },
         {
@@ -13308,7 +13308,7 @@
         },
         {
           "count": 5,
-          "score": 0.017686,
+          "score": 0.017799,
           "term": "christian"
         },
         {
@@ -13747,7 +13747,7 @@
         },
         {
           "count": 7,
-          "score": 0.023455,
+          "score": 0.023655,
           "term": "church"
         },
         {
@@ -13777,7 +13777,7 @@
         },
         {
           "count": 7,
-          "score": 0.016772,
+          "score": 0.016878,
           "term": "theology"
         },
         {
@@ -13792,7 +13792,7 @@
         },
         {
           "count": 6,
-          "score": 0.014744,
+          "score": 0.014839,
           "term": "christian"
         },
         {
@@ -13860,7 +13860,7 @@
         },
         {
           "count": 7,
-          "score": 0.022971,
+          "score": 0.023168,
           "term": "church"
         },
         {
@@ -13890,7 +13890,7 @@
         },
         {
           "count": 9,
-          "score": 0.020099,
+          "score": 0.020222,
           "term": "justice"
         },
         {
@@ -13900,7 +13900,7 @@
         },
         {
           "count": 7,
-          "score": 0.016847,
+          "score": 0.016955,
           "term": "christian"
         },
         {
@@ -13915,7 +13915,7 @@
         },
         {
           "count": 4,
-          "score": 0.015086,
+          "score": 0.014933,
           "term": "political"
         },
         {
@@ -13971,7 +13971,7 @@
         },
         {
           "count": 8,
-          "score": 0.031328,
+          "score": 0.031596,
           "term": "church"
         },
         {
@@ -14021,7 +14021,7 @@
         },
         {
           "count": 4,
-          "score": 0.018003,
+          "score": 0.01782,
           "term": "political"
         },
         {
@@ -14112,12 +14112,12 @@
         },
         {
           "count": 7,
-          "score": 0.021624,
+          "score": 0.021405,
           "term": "political"
         },
         {
           "count": 11,
-          "score": 0.021142,
+          "score": 0.021275,
           "term": "theology"
         },
         {
@@ -14172,12 +14172,12 @@
         },
         {
           "count": 8,
-          "score": 0.01577,
+          "score": 0.015871,
           "term": "christian"
         },
         {
           "count": 4,
-          "score": 0.014779,
+          "score": 0.014994,
           "term": "politics"
         }
       ],
@@ -14223,7 +14223,7 @@
         },
         {
           "count": 8,
-          "score": 0.023579,
+          "score": 0.02378,
           "term": "church"
         },
         {
@@ -14253,7 +14253,7 @@
         },
         {
           "count": 9,
-          "score": 0.018968,
+          "score": 0.019088,
           "term": "theology"
         },
         {
@@ -14288,7 +14288,7 @@
         },
         {
           "count": 4,
-          "score": 0.014801,
+          "score": 0.01498,
           "term": "often"
         },
         {
@@ -14334,7 +14334,7 @@
         },
         {
           "count": 12,
-          "score": 0.037085,
+          "score": 0.037402,
           "term": "church"
         },
         {
@@ -14389,7 +14389,7 @@
         },
         {
           "count": 8,
-          "score": 0.017679,
+          "score": 0.017791,
           "term": "theology"
         },
         {
@@ -14404,7 +14404,7 @@
         },
         {
           "count": 4,
-          "score": 0.01653,
+          "score": 0.016757,
           "term": "first"
         },
         {
@@ -14494,14 +14494,14 @@
           "term": "contested"
         },
         {
+          "count": 2,
+          "score": 0.034798,
+          "term": "story"
+        },
+        {
           "count": 3,
           "score": 0.034364,
           "term": "history"
-        },
-        {
-          "count": 2,
-          "score": 0.034351,
-          "term": "story"
         },
         {
           "count": 2,
@@ -14534,14 +14534,14 @@
           "term": "doctrinal"
         },
         {
-          "count": 2,
-          "score": 0.030307,
-          "term": "political"
+          "count": 1,
+          "score": 0.030177,
+          "term": "uncompensated"
         },
         {
           "count": 1,
           "score": 0.030177,
-          "term": "uncompensated"
+          "term": "monuments"
         }
       ],
       "lane": "history_inputs",
@@ -14596,7 +14596,7 @@
         },
         {
           "count": 2,
-          "score": 0.052647,
+          "score": 0.054071,
           "term": "space"
         },
         {
@@ -15544,13 +15544,13 @@
         },
         {
           "count": 1,
-          "score": 0.132873,
-          "term": "separated"
+          "score": 0.13718,
+          "term": "information"
         },
         {
           "count": 1,
           "score": 0.132873,
-          "term": "information"
+          "term": "separated"
         },
         {
           "count": 1,
@@ -15624,7 +15624,7 @@
         },
         {
           "count": 1,
-          "score": 0.08347,
+          "score": 0.084354,
           "term": "more"
         },
         {
@@ -15670,7 +15670,7 @@
         },
         {
           "count": 3,
-          "score": 0.134874,
+          "score": 0.135718,
           "term": "community"
         },
         {
@@ -15750,7 +15750,7 @@
         },
         {
           "count": 1,
-          "score": 0.070309,
+          "score": 0.070998,
           "term": "need"
         }
       ],
@@ -15861,7 +15861,7 @@
         },
         {
           "count": 1,
-          "score": 0.083271,
+          "score": 0.084303,
           "term": "courage"
         },
         {
@@ -15897,7 +15897,7 @@
       "keywords": [
         {
           "count": 2,
-          "score": 0.157077,
+          "score": 0.159357,
           "term": "politics"
         },
         {
@@ -15972,7 +15972,7 @@
         },
         {
           "count": 2,
-          "score": 0.077762,
+          "score": 0.078239,
           "term": "justice"
         },
         {
@@ -15987,13 +15987,13 @@
         },
         {
           "count": 1,
-          "score": 0.066348,
-          "term": "requires"
+          "score": 0.067051,
+          "term": "more"
         },
         {
           "count": 1,
           "score": 0.066348,
-          "term": "more"
+          "term": "requires"
         }
       ],
       "lane": "cultural_inputs",
@@ -16285,7 +16285,7 @@
         },
         {
           "count": 3,
-          "score": 0.051028,
+          "score": 0.0506,
           "term": "psychology"
         },
         {
@@ -16471,7 +16471,7 @@
         },
         {
           "count": 3,
-          "score": 0.023512,
+          "score": 0.023677,
           "term": "love"
         },
         {
@@ -16507,7 +16507,7 @@
         },
         {
           "count": 4,
-          "score": 0.112821,
+          "score": 0.111874,
           "term": "psychology"
         },
         {
@@ -16517,7 +16517,7 @@
         },
         {
           "count": 2,
-          "score": 0.094015,
+          "score": 0.091989,
           "term": "process"
         },
         {
@@ -16592,7 +16592,7 @@
         },
         {
           "count": 2,
-          "score": 0.055016,
+          "score": 0.054568,
           "term": "identity"
         },
         {
@@ -16653,7 +16653,7 @@
         },
         {
           "count": 4,
-          "score": 0.05468,
+          "score": 0.054221,
           "term": "psychology"
         },
         {
@@ -16754,7 +16754,7 @@
         },
         {
           "count": 3,
-          "score": 0.065535,
+          "score": 0.064986,
           "term": "psychology"
         },
         {
@@ -16870,7 +16870,7 @@
         },
         {
           "count": 3,
-          "score": 0.083106,
+          "score": 0.084749,
           "term": "medical"
         },
         {
@@ -16880,7 +16880,7 @@
         },
         {
           "count": 3,
-          "score": 0.047472,
+          "score": 0.04783,
           "term": "whether"
         },
         {
@@ -16900,12 +16900,12 @@
         },
         {
           "count": 3,
-          "score": 0.037465,
+          "score": 0.037699,
           "term": "community"
         },
         {
           "count": 2,
-          "score": 0.037275,
+          "score": 0.037617,
           "term": "service"
         },
         {
@@ -16986,7 +16986,7 @@
       "keywords": [
         {
           "count": 5,
-          "score": 0.082526,
+          "score": 0.083689,
           "term": "stories"
         },
         {
@@ -17117,7 +17117,7 @@
         },
         {
           "count": 4,
-          "score": 0.07702,
+          "score": 0.077822,
           "term": "modern"
         },
         {
@@ -17142,7 +17142,7 @@
         },
         {
           "count": 4,
-          "score": 0.048222,
+          "score": 0.04792,
           "term": "may"
         },
         {
@@ -17233,12 +17233,12 @@
         },
         {
           "count": 5,
-          "score": 0.103263,
+          "score": 0.104338,
           "term": "modern"
         },
         {
           "count": 7,
-          "score": 0.090513,
+          "score": 0.089946,
           "term": "may"
         },
         {
@@ -17248,7 +17248,7 @@
         },
         {
           "count": 2,
-          "score": 0.056298,
+          "score": 0.05741,
           "term": "ambiguity"
         },
         {
@@ -17379,7 +17379,7 @@
         },
         {
           "count": 6,
-          "score": 0.036202,
+          "score": 0.03592,
           "term": "limits"
         },
         {
@@ -17495,7 +17495,7 @@
         },
         {
           "count": 9,
-          "score": 0.048108,
+          "score": 0.048471,
           "term": "whether"
         },
         {
@@ -17596,7 +17596,7 @@
         },
         {
           "count": 9,
-          "score": 0.056981,
+          "score": 0.056566,
           "term": "interpretation"
         },
         {
@@ -17611,7 +17611,7 @@
         },
         {
           "count": 9,
-          "score": 0.046852,
+          "score": 0.046558,
           "term": "may"
         },
         {
@@ -17651,7 +17651,7 @@
         },
         {
           "count": 3,
-          "score": 0.031695,
+          "score": 0.032222,
           "term": "logic"
         },
         {
@@ -17771,11 +17771,6 @@
           "term": "qualified"
         },
         {
-          "count": 3,
-          "score": 0.031314,
-          "term": "limits"
-        },
-        {
           "count": 2,
           "score": 0.031075,
           "term": "measurement"
@@ -17784,6 +17779,11 @@
           "count": 2,
           "score": 0.031075,
           "term": "mathematical"
+        },
+        {
+          "count": 3,
+          "score": 0.03107,
+          "term": "limits"
         },
         {
           "count": 2,
@@ -17807,7 +17807,7 @@
         },
         {
           "count": 3,
-          "score": 0.02925,
+          "score": 0.029037,
           "term": "interpretation"
         }
       ],
@@ -18211,7 +18211,7 @@
         },
         {
           "count": 8,
-          "score": 0.046847,
+          "score": 0.046506,
           "term": "interpretation"
         },
         {
@@ -18574,7 +18574,7 @@
         },
         {
           "count": 2,
-          "score": 0.063512,
+          "score": 0.06184,
           "term": "clinical"
         },
         {
@@ -18654,7 +18654,7 @@
         },
         {
           "count": 3,
-          "score": 0.037936,
+          "score": 0.038176,
           "term": "theology"
         }
       ],
@@ -18685,7 +18685,7 @@
         },
         {
           "count": 5,
-          "score": 0.06597,
+          "score": 0.066827,
           "term": "required"
         },
         {
@@ -18846,7 +18846,7 @@
         },
         {
           "count": 3,
-          "score": 0.051172,
+          "score": 0.050851,
           "term": "may"
         },
         {
@@ -19218,14 +19218,14 @@
           "term": "tension"
         },
         {
+          "count": 2,
+          "score": 0.080354,
+          "term": "life"
+        },
+        {
           "count": 1,
           "score": 0.080025,
           "term": "pray"
-        },
-        {
-          "count": 2,
-          "score": 0.079752,
-          "term": "life"
         },
         {
           "count": 1,
@@ -19345,18 +19345,18 @@
         },
         {
           "count": 3,
-          "score": 0.05659,
+          "score": 0.056235,
           "term": "may"
+        },
+        {
+          "count": 3,
+          "score": 0.055884,
+          "term": "community"
         },
         {
           "count": 2,
           "score": 0.055761,
           "term": "condition"
-        },
-        {
-          "count": 3,
-          "score": 0.055536,
-          "term": "community"
         },
         {
           "count": 1,
@@ -19375,7 +19375,7 @@
         },
         {
           "count": 2,
-          "score": 0.051133,
+          "score": 0.050716,
           "term": "identity"
         },
         {
@@ -19491,7 +19491,7 @@
         },
         {
           "count": 2,
-          "score": 0.032548,
+          "score": 0.032893,
           "term": "more"
         },
         {
@@ -19683,7 +19683,7 @@
         },
         {
           "count": 2,
-          "score": 0.038058,
+          "score": 0.03852,
           "term": "global"
         },
         {
@@ -19799,7 +19799,7 @@
         },
         {
           "count": 2,
-          "score": 0.102246,
+          "score": 0.103018,
           "term": "whether"
         },
         {
@@ -19850,12 +19850,12 @@
         {
           "count": 1,
           "score": 0.074427,
-          "term": "asks"
+          "term": "face"
         },
         {
           "count": 1,
-          "score": 0.073495,
-          "term": "face"
+          "score": 0.074427,
+          "term": "asks"
         },
         {
           "count": 1,
@@ -20011,7 +20011,7 @@
       "keywords": [
         {
           "count": 5,
-          "score": 0.072011,
+          "score": 0.074346,
           "term": "wherever"
         },
         {
@@ -20096,13 +20096,13 @@
         },
         {
           "count": 2,
-          "score": 0.020044,
-          "term": "resolution"
+          "score": 0.020298,
+          "term": "face"
         },
         {
           "count": 2,
           "score": 0.020044,
-          "term": "face"
+          "term": "resolution"
         },
         {
           "count": 2,
@@ -20163,7 +20163,7 @@
         },
         {
           "count": 3,
-          "score": 0.030608,
+          "score": 0.030298,
           "term": "political"
         },
         {
@@ -20407,12 +20407,12 @@
         },
         {
           "count": 3,
-          "score": 0.042359,
+          "score": 0.042896,
           "term": "face"
         },
         {
           "count": 5,
-          "score": 0.039492,
+          "score": 0.039245,
           "term": "may"
         },
         {
@@ -20532,14 +20532,14 @@
           "term": "failure"
         },
         {
+          "count": 3,
+          "score": 0.055135,
+          "term": "logic"
+        },
+        {
           "count": 6,
           "score": 0.054821,
           "term": "claim"
-        },
-        {
-          "count": 3,
-          "score": 0.054234,
-          "term": "logic"
         },
         {
           "count": 5,
@@ -20578,7 +20578,7 @@
         },
         {
           "count": 2,
-          "score": 0.038066,
+          "score": 0.038783,
           "term": "there"
         },
         {
@@ -20598,7 +20598,7 @@
         },
         {
           "count": 2,
-          "score": 0.034527,
+          "score": 0.035044,
           "term": "named"
         },
         {
@@ -20715,6 +20715,11 @@
         {
           "count": 1,
           "score": 0.046282,
+          "term": "years"
+        },
+        {
+          "count": 1,
+          "score": 0.046282,
           "term": "witnesses"
         },
         {
@@ -20726,11 +20731,6 @@
           "count": 1,
           "score": 0.046282,
           "term": "relief"
-        },
-        {
-          "count": 1,
-          "score": 0.046282,
-          "term": "ministry"
         }
       ],
       "lane": "pattern_tests",
@@ -20770,7 +20770,7 @@
         },
         {
           "count": 5,
-          "score": 0.058758,
+          "score": 0.059522,
           "term": "required"
         },
         {
@@ -20815,7 +20815,7 @@
         },
         {
           "count": 4,
-          "score": 0.025482,
+          "score": 0.025642,
           "term": "community"
         },
         {
@@ -20845,7 +20845,7 @@
         },
         {
           "count": 4,
-          "score": 0.023122,
+          "score": 0.022986,
           "term": "language"
         },
         {
@@ -20876,7 +20876,7 @@
       "keywords": [
         {
           "count": 4,
-          "score": 0.090798,
+          "score": 0.091583,
           "term": "traditions"
         },
         {
@@ -20916,7 +20916,7 @@
         },
         {
           "count": 3,
-          "score": 0.04952,
+          "score": 0.049837,
           "term": "christian"
         },
         {
@@ -21254,7 +21254,7 @@
         },
         {
           "count": 4,
-          "score": 0.069538,
+          "score": 0.069984,
           "term": "christian"
         },
         {
@@ -21396,6 +21396,11 @@
         {
           "count": 1,
           "score": 0.057288,
+          "term": "leader"
+        },
+        {
+          "count": 1,
+          "score": 0.057288,
           "term": "investigation"
         },
         {
@@ -21407,11 +21412,6 @@
           "count": 1,
           "score": 0.054632,
           "term": "wounded"
-        },
-        {
-          "count": 1,
-          "score": 0.054632,
-          "term": "leader"
         },
         {
           "count": 1,
@@ -21440,18 +21440,18 @@
         },
         {
           "count": 3,
-          "score": 0.050993,
+          "score": 0.050692,
           "term": "language"
+        },
+        {
+          "count": 1,
+          "score": 0.050626,
+          "term": "rush"
         },
         {
           "count": 2,
           "score": 0.049318,
           "term": "spiritual"
-        },
-        {
-          "count": 1,
-          "score": 0.049036,
-          "term": "rush"
         },
         {
           "count": 1,
@@ -21492,12 +21492,12 @@
         {
           "count": 3,
           "score": 0.04355,
-          "term": "ignores"
+          "term": "which"
         },
         {
           "count": 3,
-          "score": 0.042779,
-          "term": "which"
+          "score": 0.04355,
+          "term": "ignores"
         },
         {
           "count": 5,
@@ -21541,7 +21541,7 @@
         },
         {
           "count": 3,
-          "score": 0.028325,
+          "score": 0.028087,
           "term": "psychology"
         },
         {
@@ -21634,17 +21634,17 @@
         {
           "count": 1,
           "score": 0.088596,
+          "term": "room"
+        },
+        {
+          "count": 1,
+          "score": 0.088596,
           "term": "resolve"
         },
         {
           "count": 1,
           "score": 0.088596,
           "term": "receives"
-        },
-        {
-          "count": 1,
-          "score": 0.085814,
-          "term": "room"
         },
         {
           "count": 1,
@@ -21790,17 +21790,17 @@
         {
           "count": 1,
           "score": 0.050232,
+          "term": "years"
+        },
+        {
+          "count": 1,
+          "score": 0.050232,
           "term": "loses"
         },
         {
           "count": 2,
           "score": 0.048996,
           "term": "public"
-        },
-        {
-          "count": 1,
-          "score": 0.048796,
-          "term": "years"
         },
         {
           "count": 1,
@@ -21873,6 +21873,12 @@
       {
         "document_id": "research_documents_source_packs_trinity_as_behavior_pattern_pack_md",
         "score": 0.043965
+      }
+    ],
+    "academic": [
+      {
+        "document_id": "research_documents_reviewed_candidate_reference_decisions_2026_06_04_md",
+        "score": 0.060625
       }
     ],
     "access": [
@@ -22002,7 +22008,7 @@
     "ambiguity": [
       {
         "document_id": "modern_literature_narrative_pattern_validation_notes_md",
-        "score": 0.056298
+        "score": 0.05741
       }
     ],
     "analogy": [
@@ -22022,7 +22028,7 @@
     "analysis": [
       {
         "document_id": "research_documents_divine_pattern_concept_md",
-        "score": 0.065857
+        "score": 0.06464
       }
     ],
     "anchor": [
@@ -22126,17 +22132,11 @@
     "approval": [
       {
         "document_id": "research_documents_cloud_references_summary_md",
-        "score": 0.101739
+        "score": 0.102549
       },
       {
         "document_id": "research_documents_daily_evaluation_queue_md",
-        "score": 0.069813
-      }
-    ],
-    "approved": [
-      {
-        "document_id": "research_documents_daily_evaluation_queue_md",
-        "score": 0.066841
+        "score": 0.050429
       }
     ],
     "aquinas": [
@@ -22149,24 +22149,26 @@
         "score": 0.018236
       }
     ],
+    "arab": [
+      {
+        "document_id": "research_documents_daily_evaluation_queue_md",
+        "score": 0.070508
+      }
+    ],
     "arabic": [
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.029662
+        "score": 0.029057
       },
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.029146
+        "score": 0.028552
       }
     ],
     "archive": [
       {
         "document_id": "research_documents_daily_cloud_reference_review_log_md",
         "score": 0.032291
-      },
-      {
-        "document_id": "research_documents_daily_evaluation_queue_md",
-        "score": 0.061673
       },
       {
         "document_id": "research_documents_reviewed_candidate_reference_decisions_2026_06_01_md",
@@ -22268,7 +22270,7 @@
     "audio": [
       {
         "document_id": "research_documents_reviewed_candidate_reference_decisions_2026_06_01_followup_md",
-        "score": 0.054181
+        "score": 0.059166
       }
     ],
     "author": [
@@ -22322,17 +22324,11 @@
       },
       {
         "document_id": "research_documents_cloud_references_summary_md",
-        "score": 0.109369
+        "score": 0.11024
       },
       {
         "document_id": "research_documents_daily_evaluation_queue_md",
-        "score": 0.093084
-      }
-    ],
-    "automated": [
-      {
-        "document_id": "research_documents_daily_evaluation_queue_md",
-        "score": 0.057818
+        "score": 0.067239
       }
     ],
     "baha": [
@@ -22490,7 +22486,7 @@
     "biblical": [
       {
         "document_id": "biblical_languages_greek_hebrew_depth_checks_md",
-        "score": 0.08387
+        "score": 0.084638
       }
     ],
     "blesses": [
@@ -22526,7 +22522,7 @@
     "book": [
       {
         "document_id": "theologians_primary_text_reference_index_md",
-        "score": 0.031525
+        "score": 0.030989
       }
     ],
     "boundary": [
@@ -22630,11 +22626,15 @@
     "broad": [
       {
         "document_id": "research_documents_layer_balance_policy_md",
-        "score": 0.040737
+        "score": 0.041231
       },
       {
         "document_id": "research_documents_pattern_revision_rules_md",
-        "score": 0.039399
+        "score": 0.039876
+      },
+      {
+        "document_id": "other_religious_texts_comparative_sacred_text_notes_md",
+        "score": 0.029038
       }
     ],
     "buddhist": [
@@ -22674,7 +22674,7 @@
       },
       {
         "document_id": "research_documents_daily_evaluation_queue_md",
-        "score": 0.054379
+        "score": 0.057765
       },
       {
         "document_id": "research_documents_reviewed_candidate_reference_decisions_2026_06_01_md",
@@ -22894,75 +22894,75 @@
     "christian": [
       {
         "document_id": "research_documents_christian_sources_divine_pattern_candidates_md",
-        "score": 0.053873
+        "score": 0.054218
       },
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_06_01_md",
-        "score": 0.028447
+        "score": 0.02863
       },
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.021847
+        "score": 0.021987
       },
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_06_04_md",
-        "score": 0.021144
+        "score": 0.02128
       },
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.031426
+        "score": 0.031627
       },
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.018186
+        "score": 0.018303
       },
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_06_01_md",
-        "score": 0.023234
+        "score": 0.023383
       },
       {
         "document_id": "other_religious_texts_comparative_sacred_text_notes_md",
-        "score": 0.041901
+        "score": 0.04217
       },
       {
         "document_id": "other_religious_texts_interreligious_dreams_visions_testimony_notes_md",
-        "score": 0.034687
+        "score": 0.034909
       },
       {
         "document_id": "other_religious_texts_presence_without_explicit_naming_filter_md",
-        "score": 0.06917
+        "score": 0.069614
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.022944
+        "score": 0.023091
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_01_md",
-        "score": 0.031755
+        "score": 0.031958
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.025985
+        "score": 0.026151
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.020738
+        "score": 0.020871
       },
       {
         "document_id": "other_religious_texts_spiritual_gifts_comparative_discernment_md",
-        "score": 0.03748
+        "score": 0.037721
       },
       {
         "document_id": "theologians_cross_era_primary_source_expansion_md",
-        "score": 0.027604
+        "score": 0.027781
       },
       {
         "document_id": "pattern_tests_non_christian_comparison_test_md",
-        "score": 0.04952
+        "score": 0.049837
       },
       {
         "document_id": "pattern_tests_secular_transformation_comparison_test_md",
-        "score": 0.069538
+        "score": 0.069984
       }
     ],
     "chronic": [
@@ -22984,27 +22984,27 @@
     "church": [
       {
         "document_id": "theologians_cross_era_theologian_framework_md",
-        "score": 0.046421
+        "score": 0.046818
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.023455
+        "score": 0.023655
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_06_01_md",
-        "score": 0.022971
+        "score": 0.023168
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.031328
+        "score": 0.031596
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.023579
+        "score": 0.02378
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
-        "score": 0.037085
+        "score": 0.037402
       }
     ],
     "churches": [
@@ -23088,7 +23088,7 @@
     "clinical": [
       {
         "document_id": "deep_sources_unresolved_suffering_source_framework_md",
-        "score": 0.063512
+        "score": 0.06184
       }
     ],
     "cloud": [
@@ -23126,7 +23126,7 @@
     "com": [
       {
         "document_id": "research_documents_christian_sources_didache_wikisource_txt",
-        "score": 0.079401
+        "score": 0.082686
       }
     ],
     "combined": [
@@ -23162,29 +23162,29 @@
     "community": [
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.027801
+        "score": 0.027975
       },
       {
         "document_id": "cultural_inputs_family_community_belonging_md",
-        "score": 0.134874
+        "score": 0.135718
       },
       {
         "document_id": "human_stories_global_gifts_testimony_notes_md",
-        "score": 0.037465
+        "score": 0.037699
       }
     ],
     "comparative": [
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_06_04_md",
-        "score": 0.021319
+        "score": 0.021509
       },
       {
         "document_id": "all_texts_comparative_text_case_notes_md",
-        "score": 0.050511
+        "score": 0.050963
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
-        "score": 0.021002
+        "score": 0.021189
       }
     ],
     "compare": [
@@ -23302,7 +23302,7 @@
       },
       {
         "document_id": "research_documents_cloud_references_summary_md",
-        "score": 0.056692
+        "score": 0.057143
       },
       {
         "document_id": "research_documents_reviewed_candidate_reference_decisions_2026_06_01_md",
@@ -23404,7 +23404,7 @@
     "contemporary": [
       {
         "document_id": "theologians_modern_contemporary_source_notes_md",
-        "score": 0.056909
+        "score": 0.055857
       }
     ],
     "contested": [
@@ -23508,7 +23508,7 @@
     "corroborating": [
       {
         "document_id": "research_documents_cloud_references_summary_md",
-        "score": 0.056532
+        "score": 0.056982
       }
     ],
     "corruption": [
@@ -23732,7 +23732,7 @@
     "courage": [
       {
         "document_id": "research_documents_source_packs_holy_spirit_gifts_pattern_pack_md",
-        "score": 0.048397
+        "score": 0.048996
       }
     ],
     "covenant": [
@@ -23819,16 +23819,16 @@
     ],
     "creed": [
       {
+        "document_id": "research_documents_christian_sources_sources_md",
+        "score": 0.213475
+      },
+      {
         "document_id": "research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
         "score": 0.268684
       },
       {
         "document_id": "research_documents_christian_sources_nicene_creed_325_wikisource_txt",
         "score": 0.368532
-      },
-      {
-        "document_id": "research_documents_christian_sources_sources_md",
-        "score": 0.213475
       }
     ],
     "critique": [
@@ -23913,8 +23913,12 @@
     ],
     "culture": [
       {
+        "document_id": "research_documents_daily_evaluation_queue_md",
+        "score": 0.055319
+      },
+      {
         "document_id": "world_languages_translation_semantics_and_culture_md",
-        "score": 0.127625
+        "score": 0.125852
       }
     ],
     "cure": [
@@ -24091,12 +24095,12 @@
     ],
     "didache": [
       {
-        "document_id": "research_documents_christian_sources_didache_wikisource_txt",
-        "score": 0.185543
-      },
-      {
         "document_id": "research_documents_christian_sources_sources_md",
         "score": 0.112851
+      },
+      {
+        "document_id": "research_documents_christian_sources_didache_wikisource_txt",
+        "score": 0.185543
       }
     ],
     "differ": [
@@ -24196,11 +24200,11 @@
     "disagreement": [
       {
         "document_id": "theologians_primary_text_disagreement_matrix_md",
-        "score": 0.07514
+        "score": 0.075964
       },
       {
         "document_id": "theologians_primary_text_reference_index_md",
-        "score": 0.099041
+        "score": 0.100127
       }
     ],
     "discern": [
@@ -24270,7 +24274,7 @@
     "discourse": [
       {
         "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.040182
+        "score": 0.0395
       }
     ],
     "discovery": [
@@ -24334,23 +24338,23 @@
     "doctrine": [
       {
         "document_id": "research_documents_source_packs_trinity_as_behavior_pattern_pack_md",
-        "score": 0.035437
+        "score": 0.035713
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
-        "score": 0.018713
+        "score": 0.018859
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_01_md",
-        "score": 0.015863
+        "score": 0.015986
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.017592
+        "score": 0.017729
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.017353
+        "score": 0.017488
       }
     ],
     "documents": [
@@ -24377,12 +24381,6 @@
       {
         "document_id": "research_documents_reviewed_candidate_reference_decisions_2026_06_04_second_pass_md",
         "score": 0.061171
-      }
-    ],
-    "dream": [
-      {
-        "document_id": "other_religious_texts_interreligious_dreams_visions_testimony_notes_md",
-        "score": 0.027565
       }
     ],
     "dreams": [
@@ -24585,6 +24583,12 @@
         "score": 0.019359
       }
     ],
+    "evaluation": [
+      {
+        "document_id": "research_documents_daily_evaluation_queue_md",
+        "score": 0.056043
+      }
+    ],
     "event": [
       {
         "document_id": "pattern_tests_answered_prayer_ambiguity_test_md",
@@ -24772,7 +24776,7 @@
     "face": [
       {
         "document_id": "pattern_tests_leading_patterns_pressure_followup_2026_06_01_md",
-        "score": 0.042359
+        "score": 0.042896
       }
     ],
     "fade": [
@@ -24851,6 +24855,12 @@
       {
         "document_id": "pattern_tests_ecological_loss_no_restoration_test_md",
         "score": 0.074397
+      }
+    ],
+    "farouq": [
+      {
+        "document_id": "research_documents_daily_evaluation_queue_md",
+        "score": 0.060498
       }
     ],
     "father": [
@@ -24938,7 +24948,7 @@
     "first": [
       {
         "document_id": "research_documents_christian_sources_nicene_creed_325_wikisource_txt",
-        "score": 0.120795
+        "score": 0.12245
       }
     ],
     "flattens": [
@@ -25116,11 +25126,11 @@
     "genre": [
       {
         "document_id": "biblical_languages_greek_hebrew_depth_checks_md",
-        "score": 0.061609
+        "score": 0.062261
       },
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.024411
+        "score": 0.02467
       }
     ],
     "gesture": [
@@ -25190,11 +25200,11 @@
     "global": [
       {
         "document_id": "all_texts_global_text_exploration_framework_md",
-        "score": 0.030241
+        "score": 0.030608
       },
       {
         "document_id": "pattern_tests_holy_spirit_gifts_global_pressure_test_md",
-        "score": 0.038058
+        "score": 0.03852
       }
     ],
     "goal": [
@@ -25231,10 +25241,6 @@
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_04_md",
         "score": 0.017953
-      },
-      {
-        "document_id": "theologians_source_specific_theologian_review_notes_md",
-        "score": 0.020823
       }
     ],
     "god-concepts": [
@@ -25252,7 +25258,7 @@
     "gov": [
       {
         "document_id": "research_documents_christian_sources_god_and_human_behavior_science_synthesis_md",
-        "score": 0.065229
+        "score": 0.060425
       }
     ],
     "grace": [
@@ -25276,7 +25282,7 @@
     "grammar": [
       {
         "document_id": "world_languages_translation_semantics_and_culture_md",
-        "score": 0.114418
+        "score": 0.111146
       }
     ],
     "greek": [
@@ -25383,12 +25389,12 @@
     ],
     "gutenberg": [
       {
-        "document_id": "research_documents_christian_sources_faith_and_god_philosophy_notes_md",
-        "score": 0.079401
-      },
-      {
         "document_id": "research_documents_christian_sources_sources_md",
         "score": 0.362198
+      },
+      {
+        "document_id": "research_documents_christian_sources_faith_and_god_philosophy_notes_md",
+        "score": 0.079401
       }
     ],
     "habit": [
@@ -25476,43 +25482,43 @@
     "hebrew": [
       {
         "document_id": "biblical_languages_greek_hebrew_depth_checks_md",
-        "score": 0.131643
+        "score": 0.133205
       },
       {
         "document_id": "biblical_languages_greek_hebrew_source_expansion_notes_md",
-        "score": 0.064793
+        "score": 0.065562
       },
       {
         "document_id": "biblical_languages_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.027326
+        "score": 0.02765
       },
       {
         "document_id": "biblical_languages_reviewed_growth_batch_2026_06_01_md",
-        "score": 0.074049
+        "score": 0.074928
       },
       {
         "document_id": "biblical_languages_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.030854
+        "score": 0.03122
       },
       {
         "document_id": "biblical_languages_reviewed_growth_batch_2026_06_04_md",
-        "score": 0.079841
+        "score": 0.080788
       },
       {
         "document_id": "biblical_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.096305
+        "score": 0.097447
       },
       {
         "document_id": "biblical_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
-        "score": 0.065047
+        "score": 0.065819
       },
       {
         "document_id": "biblical_languages_source_specific_counterreadings_md",
-        "score": 0.05529
+        "score": 0.055946
       },
       {
         "document_id": "biblical_languages_source_specific_lexeme_review_notes_md",
-        "score": 0.047122
+        "score": 0.047681
       }
     ],
     "heroic": [
@@ -25718,7 +25724,7 @@
     "how": [
       {
         "document_id": "research_documents_christian_sources_hypothesis_test_framework_md",
-        "score": 0.050219
+        "score": 0.050872
       }
     ],
     "http": [
@@ -25729,16 +25735,16 @@
     ],
     "https": [
       {
+        "document_id": "research_documents_christian_sources_sources_md",
+        "score": 0.349528
+      },
+      {
         "document_id": "research_documents_christian_sources_faith_and_god_philosophy_notes_md",
         "score": 0.076623
       },
       {
         "document_id": "research_documents_christian_sources_god_and_human_behavior_science_synthesis_md",
         "score": 0.080618
-      },
-      {
-        "document_id": "research_documents_christian_sources_sources_md",
-        "score": 0.349528
       }
     ],
     "human-story": [
@@ -25789,12 +25795,12 @@
     ],
     "hymnary": [
       {
-        "document_id": "research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
-        "score": 0.351716
-      },
-      {
         "document_id": "research_documents_christian_sources_sources_md",
         "score": 0.139723
+      },
+      {
+        "document_id": "research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
+        "score": 0.351716
       }
     ],
     "hypervigilance": [
@@ -25985,12 +25991,6 @@
         "score": 0.033809
       }
     ],
-    "indigenous": [
-      {
-        "document_id": "other_religious_texts_comparative_sacred_text_notes_md",
-        "score": 0.02869
-      }
-    ],
     "inference": [
       {
         "document_id": "deep_sources_math_statistics_logic_congruence_filters_md",
@@ -26006,7 +26006,7 @@
     "information": [
       {
         "document_id": "cultural_inputs_education_formation_wisdom_md",
-        "score": 0.132873
+        "score": 0.13718
       }
     ],
     "injury": [
@@ -26108,23 +26108,23 @@
     "interpretation": [
       {
         "document_id": "research_documents_claim_ledger_md",
-        "score": 0.039629
+        "score": 0.03934
       },
       {
         "document_id": "research_documents_source_packs_other_religious_comparative_witness_pack_md",
-        "score": 0.049576
+        "score": 0.049216
       },
       {
         "document_id": "research_documents_source_packs_quantum_theory_guardrail_pack_md",
-        "score": 0.049576
+        "score": 0.049216
       },
       {
         "document_id": "deep_sources_mathematical_theophany_filter_md",
-        "score": 0.056981
+        "score": 0.056566
       },
       {
         "document_id": "deep_sources_reviewed_quantum_theory_guardrails_2026_06_04_md",
-        "score": 0.046847
+        "score": 0.046506
       }
     ],
     "introductory": [
@@ -26166,7 +26166,7 @@
     "islamic": [
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.024657
+        "score": 0.025004
       }
     ],
     "item": [
@@ -26201,10 +26201,6 @@
     ],
     "jewish": [
       {
-        "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_01_md",
-        "score": 0.016725
-      },
-      {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
         "score": 0.021299
       }
@@ -26234,19 +26230,19 @@
     "justice": [
       {
         "document_id": "biblical_languages_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.022483
+        "score": 0.022621
       },
       {
         "document_id": "biblical_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.037288
+        "score": 0.037516
       },
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.023329
+        "score": 0.023472
       },
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.016349
+        "score": 0.016449
       }
     ],
     "keep": [
@@ -26340,7 +26336,7 @@
     "lane": [
       {
         "document_id": "research_documents_cross_layer_source_specific_casebook_md",
-        "score": 0.080019
+        "score": 0.08051
       }
     ],
     "lanes": [
@@ -26352,19 +26348,19 @@
     "language": [
       {
         "document_id": "biblical_languages_reviewed_growth_batch_2026_06_04_md",
-        "score": 0.023196
+        "score": 0.023058
       },
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.027458
+        "score": 0.027296
       },
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
-        "score": 0.033119
+        "score": 0.032924
       },
       {
         "document_id": "all_texts_global_text_exploration_framework_md",
-        "score": 0.03859
+        "score": 0.038361
       }
     ],
     "language-family": [
@@ -26376,7 +26372,7 @@
     "languages": [
       {
         "document_id": "research_documents_cloud_references_summary_md",
-        "score": 0.076923
+        "score": 0.077535
       },
       {
         "document_id": "research_documents_layer_balance_policy_md",
@@ -26402,7 +26398,7 @@
     "latin": [
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_06_01_md",
-        "score": 0.02478
+        "score": 0.025176
       }
     ],
     "law": [
@@ -26424,7 +26420,13 @@
     "layer": [
       {
         "document_id": "research_documents_cloud_references_summary_md",
-        "score": 0.078912
+        "score": 0.079541
+      }
+    ],
+    "leader": [
+      {
+        "document_id": "pattern_tests_spiritual_abuse_and_injustice_test_md",
+        "score": 0.057288
       }
     ],
     "leaders": [
@@ -26482,11 +26484,11 @@
     "life": [
       {
         "document_id": "research_documents_christian_sources_divine_pattern_finder_design_md",
-        "score": 0.053597
+        "score": 0.054001
       },
       {
         "document_id": "research_documents_source_packs_creation_to_consciousness_pattern_pack_md",
-        "score": 0.043076
+        "score": 0.043401
       }
     ],
     "like": [
@@ -26532,7 +26534,7 @@
     "limits": [
       {
         "document_id": "deep_sources_math_physics_theorem_inventory_md",
-        "score": 0.036202
+        "score": 0.03592
       }
     ],
     "limp": [
@@ -26598,7 +26600,7 @@
     "logic": [
       {
         "document_id": "pattern_tests_math_statistics_logic_filter_test_md",
-        "score": 0.054234
+        "score": 0.055135
       }
     ],
     "logical": [
@@ -26676,7 +26678,7 @@
     "love": [
       {
         "document_id": "theologians_holy_spirit_gifts_global_framework_md",
-        "score": 0.036113
+        "score": 0.036367
       }
     ],
     "loves": [
@@ -26740,7 +26742,7 @@
     "mark": [
       {
         "document_id": "research_documents_cloud_reference_review_policy_md",
-        "score": 0.04059
+        "score": 0.041292
       }
     ],
     "markets": [
@@ -26796,35 +26798,35 @@
     "may": [
       {
         "document_id": "research_documents_claim_ledger_md",
-        "score": 0.026966
+        "score": 0.026797
       },
       {
         "document_id": "research_documents_source_packs_science_analogy_guardrail_pack_md",
-        "score": 0.041646
+        "score": 0.041385
       },
       {
         "document_id": "other_religious_texts_presence_without_explicit_naming_filter_md",
-        "score": 0.042417
+        "score": 0.042152
       },
       {
         "document_id": "modern_literature_modern_literature_balance_cases_md",
-        "score": 0.048222
+        "score": 0.04792
       },
       {
         "document_id": "modern_literature_narrative_pattern_validation_notes_md",
-        "score": 0.090513
+        "score": 0.089946
       },
       {
         "document_id": "deep_sources_mathematical_theophany_filter_md",
-        "score": 0.046852
+        "score": 0.046558
       },
       {
         "document_id": "pattern_tests_answered_prayer_ambiguity_test_md",
-        "score": 0.051172
+        "score": 0.050851
       },
       {
         "document_id": "pattern_tests_leading_patterns_pressure_followup_2026_06_01_md",
-        "score": 0.039492
+        "score": 0.039245
       }
     ],
     "meals": [
@@ -26872,7 +26874,7 @@
     "medical": [
       {
         "document_id": "human_stories_global_gifts_testimony_notes_md",
-        "score": 0.083106
+        "score": 0.084749
       }
     ],
     "medication": [
@@ -26966,7 +26968,7 @@
       },
       {
         "document_id": "research_documents_daily_evaluation_queue_md",
-        "score": 0.064848
+        "score": 0.049308
       },
       {
         "document_id": "research_documents_reviewed_candidate_reference_decisions_2026_06_01_md",
@@ -26987,20 +26989,16 @@
     ],
     "metaphor": [
       {
-        "document_id": "research_documents_reviewed_candidate_reference_decisions_2026_06_04_md",
-        "score": 0.061019
-      },
-      {
         "document_id": "research_documents_reviewed_candidate_reference_decisions_2026_06_04_third_pass_md",
-        "score": 0.068646
+        "score": 0.067719
       },
       {
         "document_id": "world_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.03227
+        "score": 0.031834
       },
       {
         "document_id": "world_languages_translation_semantics_and_culture_md",
-        "score": 0.083901
+        "score": 0.082767
       }
     ],
     "metaphysical": [
@@ -27060,17 +27058,17 @@
     "moderate": [
       {
         "document_id": "research_documents_daily_evaluation_queue_md",
-        "score": 0.069813
+        "score": 0.050429
       }
     ],
     "modern": [
       {
         "document_id": "modern_literature_modern_literature_balance_cases_md",
-        "score": 0.07702
+        "score": 0.077822
       },
       {
         "document_id": "modern_literature_narrative_pattern_validation_notes_md",
-        "score": 0.103263
+        "score": 0.104338
       }
     ],
     "moksha": [
@@ -27220,21 +27218,21 @@
     "ncbi": [
       {
         "document_id": "research_documents_christian_sources_god_and_human_behavior_science_synthesis_md",
-        "score": 0.065229
+        "score": 0.060425
       }
     ],
     "need": [
       {
         "document_id": "research_documents_cloud_reference_promotion_decision_log_md",
-        "score": 0.043943
+        "score": 0.044374
       },
       {
         "document_id": "world_languages_cross_cultural_translation_balance_notes_md",
-        "score": 0.065622
+        "score": 0.066265
       },
       {
         "document_id": "world_languages_language_family_counterreading_map_md",
-        "score": 0.069124
+        "score": 0.069801
       }
     ],
     "neighborhoods": [
@@ -27292,13 +27290,13 @@
     "nih": [
       {
         "document_id": "research_documents_christian_sources_god_and_human_behavior_science_synthesis_md",
-        "score": 0.065229
+        "score": 0.060425
       }
     ],
     "nlm": [
       {
         "document_id": "research_documents_christian_sources_god_and_human_behavior_science_synthesis_md",
-        "score": 0.065229
+        "score": 0.060425
       }
     ],
     "non-christian": [
@@ -27526,11 +27524,11 @@
     "own": [
       {
         "document_id": "other_religious_texts_comparative_sacred_text_notes_md",
-        "score": 0.044097
+        "score": 0.044656
       },
       {
         "document_id": "other_religious_texts_presence_without_explicit_naming_filter_md",
-        "score": 0.045497
+        "score": 0.046074
       }
     ],
     "pack": [
@@ -27816,7 +27814,7 @@
     "point": [
       {
         "document_id": "theologians_source_specific_theologian_review_notes_md",
-        "score": 0.094694
+        "score": 0.0964
       }
     ],
     "policing": [
@@ -27838,17 +27836,17 @@
     "political": [
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_06_04_md",
-        "score": 0.021624
+        "score": 0.021405
       },
       {
         "document_id": "pattern_tests_leading_patterns_pressure_2026_06_04_second_pass_md",
-        "score": 0.030608
+        "score": 0.030298
       }
     ],
     "politics": [
       {
         "document_id": "cultural_inputs_politics_justice_repair_md",
-        "score": 0.157077
+        "score": 0.159357
       }
     ],
     "portal": [
@@ -28098,7 +28096,7 @@
     "process": [
       {
         "document_id": "psychology_inputs_psychology_patterns_and_transformation_md",
-        "score": 0.094015
+        "score": 0.091989
       }
     ],
     "project": [
@@ -28234,23 +28232,23 @@
     "psychology": [
       {
         "document_id": "research_documents_cross_layer_source_specific_casebook_md",
-        "score": 0.035275
+        "score": 0.034979
       },
       {
         "document_id": "psychology_inputs_clinical_and_social_limits_notes_md",
-        "score": 0.051028
+        "score": 0.0506
       },
       {
         "document_id": "psychology_inputs_psychology_patterns_and_transformation_md",
-        "score": 0.112821
+        "score": 0.111874
       },
       {
         "document_id": "psychology_inputs_source_specific_psychology_limits_md",
-        "score": 0.05468
+        "score": 0.054221
       },
       {
         "document_id": "psychology_inputs_trauma_attachment_repair_notes_md",
-        "score": 0.065535
+        "score": 0.064986
       }
     ],
     "publication": [
@@ -28358,7 +28356,7 @@
       },
       {
         "document_id": "research_documents_cloud_references_summary_md",
-        "score": 0.07162
+        "score": 0.07219
       },
       {
         "document_id": "research_documents_daily_cloud_reference_review_log_md",
@@ -28366,17 +28364,21 @@
       },
       {
         "document_id": "research_documents_daily_evaluation_queue_md",
-        "score": 0.061673
+        "score": 0.055686
       }
     ],
     "qur": [
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.017712
+        "score": 0.018127
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.023174
+        "score": 0.023717
+      },
+      {
+        "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_01_md",
+        "score": 0.017043
       }
     ],
     "racism": [
@@ -28394,11 +28396,11 @@
     "range": [
       {
         "document_id": "biblical_languages_expanded_lexeme_balance_notes_md",
-        "score": 0.099046
+        "score": 0.097427
       },
       {
         "document_id": "biblical_languages_greek_hebrew_depth_checks_md",
-        "score": 0.078765
+        "score": 0.077478
       }
     ],
     "rarely": [
@@ -28536,7 +28538,7 @@
     "recurrence": [
       {
         "document_id": "research_documents_weakened_claims_register_md",
-        "score": 0.040328
+        "score": 0.040787
       }
     ],
     "redemption": [
@@ -28758,19 +28760,19 @@
     "required": [
       {
         "document_id": "research_documents_cross_layer_source_specific_casebook_md",
-        "score": 0.038294
+        "score": 0.038792
       },
       {
         "document_id": "biblical_languages_expanded_lexeme_balance_notes_md",
-        "score": 0.069525
+        "score": 0.070429
       },
       {
         "document_id": "pattern_tests_absent_repair_extreme_pressure_cases_md",
-        "score": 0.06597
+        "score": 0.066827
       },
       {
         "document_id": "pattern_tests_no_repair_case_studies_expansion_md",
-        "score": 0.058758
+        "score": 0.059522
       }
     ],
     "research": [
@@ -29026,7 +29028,7 @@
     "room": [
       {
         "document_id": "pattern_tests_unresolved_suffering_test_md",
-        "score": 0.085814
+        "score": 0.088596
       }
     ],
     "route": [
@@ -29092,7 +29094,7 @@
     "sacred": [
       {
         "document_id": "other_religious_texts_comparative_sacred_text_notes_md",
-        "score": 0.041569
+        "score": 0.042042
       }
     ],
     "sacrifice": [
@@ -29164,11 +29166,7 @@
     "scholarly": [
       {
         "document_id": "research_documents_cloud_references_summary_md",
-        "score": 0.073068
-      },
-      {
-        "document_id": "research_documents_daily_evaluation_queue_md",
-        "score": 0.060261
+        "score": 0.074168
       },
       {
         "document_id": "research_documents_pattern_formation_framework_md",
@@ -29248,11 +29246,11 @@
     "second": [
       {
         "document_id": "research_documents_next_research_expansion_tracker_md",
-        "score": 0.029005
+        "score": 0.02944
       },
       {
         "document_id": "research_documents_source_lane_balance_targets_md",
-        "score": 0.040207
+        "score": 0.040809
       }
     ],
     "secular": [
@@ -29308,11 +29306,11 @@
     "service": [
       {
         "document_id": "research_documents_source_packs_holy_spirit_gifts_pattern_pack_md",
-        "score": 0.060214
+        "score": 0.060766
       },
       {
         "document_id": "human_stories_global_gifts_testimony_notes_md",
-        "score": 0.037275
+        "score": 0.037617
       }
     ],
     "shadow": [
@@ -29470,7 +29468,7 @@
     "small": [
       {
         "document_id": "research_documents_daily_cloud_reference_review_log_md",
-        "score": 0.037862
+        "score": 0.038749
       }
     ],
     "sociology": [
@@ -29538,7 +29536,7 @@
     "space": [
       {
         "document_id": "visual_art_case_study_visual_art_notes_md",
-        "score": 0.052647
+        "score": 0.054071
       }
     ],
     "speech": [
@@ -29654,7 +29652,13 @@
     "stories": [
       {
         "document_id": "human_stories_lived_experience_validation_notes_md",
-        "score": 0.082526
+        "score": 0.083689
+      }
+    ],
+    "story": [
+      {
+        "document_id": "other_religious_texts_interreligious_dreams_visions_testimony_notes_md",
+        "score": 0.02774
       }
     ],
     "stranger": [
@@ -29730,11 +29734,11 @@
     "such": [
       {
         "document_id": "biblical_languages_greek_hebrew_depth_checks_md",
-        "score": 0.077478
+        "score": 0.076256
       },
       {
         "document_id": "theologians_cross_era_theologian_framework_md",
-        "score": 0.112988
+        "score": 0.111207
       }
     ],
     "suffering": [
@@ -29842,7 +29846,7 @@
     "tags": [
       {
         "document_id": "research_documents_cloud_references_summary_md",
-        "score": 0.056532
+        "score": 0.056982
       }
     ],
     "teaches": [
@@ -29892,7 +29896,7 @@
     "terms": [
       {
         "document_id": "world_languages_cross_cultural_translation_balance_notes_md",
-        "score": 0.082028
+        "score": 0.082831
       }
     ],
     "test": [
@@ -29944,33 +29948,33 @@
     "text": [
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.019163
+        "score": 0.019341
       },
       {
         "document_id": "theologians_primary_text_disagreement_matrix_md",
-        "score": 0.059445
+        "score": 0.059996
       }
     ],
     "texts": [
       {
         "document_id": "research_documents_next_research_expansion_tracker_md",
-        "score": 0.032191
+        "score": 0.032455
       },
       {
         "document_id": "research_documents_source_lane_balance_targets_md",
-        "score": 0.071715
+        "score": 0.072304
       },
       {
         "document_id": "all_texts_comparative_text_case_notes_md",
-        "score": 0.062933
+        "score": 0.063449
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.035559
+        "score": 0.035851
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
-        "score": 0.052333
+        "score": 0.052762
       }
     ],
     "textual": [
@@ -30002,13 +30006,13 @@
     "theologian": [
       {
         "document_id": "theologians_cross_era_primary_source_expansion_md",
-        "score": 0.02905
+        "score": 0.029419
       }
     ],
     "theologians": [
       {
         "document_id": "research_documents_source_lane_balance_targets_md",
-        "score": 0.043047
+        "score": 0.043502
       }
     ],
     "theological": [
@@ -30020,47 +30024,51 @@
     "theology": [
       {
         "document_id": "research_documents_claim_ledger_md",
-        "score": 0.025681
+        "score": 0.025843
       },
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.020265
+        "score": 0.020393
       },
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
-        "score": 0.02326
+        "score": 0.023407
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.02022
+        "score": 0.020347
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.022441
+        "score": 0.022583
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_01_md",
-        "score": 0.014054
+        "score": 0.014142
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.031821
+        "score": 0.032022
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_04_md",
-        "score": 0.017841
+        "score": 0.017953
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.031388
+        "score": 0.031586
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
-        "score": 0.047431
+        "score": 0.04773
+      },
+      {
+        "document_id": "theologians_source_specific_theologian_review_notes_md",
+        "score": 0.020823
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_06_04_md",
-        "score": 0.021142
+        "score": 0.021275
       }
     ],
     "theorem": [
@@ -30078,7 +30086,7 @@
     "there": [
       {
         "document_id": "research_documents_christian_sources_aquinas_summa_part_1_gutenberg_txt",
-        "score": 0.026188
+        "score": 0.026681
       }
     ],
     "therefore": [
@@ -30194,41 +30202,41 @@
     "tradition": [
       {
         "document_id": "all_texts_global_text_exploration_framework_md",
-        "score": 0.033853
+        "score": 0.034121
       },
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.028549
+        "score": 0.028775
       },
       {
         "document_id": "all_texts_reviewed_growth_batch_2026_06_04_md",
-        "score": 0.015257
+        "score": 0.015377
       },
       {
         "document_id": "all_texts_text_tradition_expansion_notes_md",
-        "score": 0.05759
+        "score": 0.058046
       },
       {
         "document_id": "other_religious_texts_presence_without_explicit_naming_filter_md",
-        "score": 0.044183
+        "score": 0.044532
       },
       {
         "document_id": "other_religious_texts_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.022798
+        "score": 0.022978
       }
     ],
     "traditions": [
       {
         "document_id": "all_texts_global_text_exploration_framework_md",
-        "score": 0.036442
+        "score": 0.036757
       },
       {
         "document_id": "other_religious_texts_comparative_sacred_text_notes_md",
-        "score": 0.046098
+        "score": 0.046496
       },
       {
         "document_id": "pattern_tests_non_christian_comparison_test_md",
-        "score": 0.090798
+        "score": 0.091583
       }
     ],
     "transformation": [
@@ -30726,51 +30734,51 @@
     "wherever": [
       {
         "document_id": "pattern_tests_leading_patterns_pressure_2026_06_04_md",
-        "score": 0.072011
+        "score": 0.074346
       }
     ],
     "whether": [
       {
         "document_id": "research_documents_practical_theology_pattern_use_md",
-        "score": 0.060418
+        "score": 0.060874
       },
       {
         "document_id": "other_religious_texts_comparative_sacred_text_notes_md",
-        "score": 0.040899
+        "score": 0.041207
       },
       {
         "document_id": "human_stories_global_gifts_testimony_notes_md",
-        "score": 0.047472
+        "score": 0.04783
       },
       {
         "document_id": "deep_sources_math_statistics_logic_congruence_filters_md",
-        "score": 0.048108
+        "score": 0.048471
       },
       {
         "document_id": "pattern_tests_injustice_corruption_test_md",
-        "score": 0.102246
+        "score": 0.103018
       }
     ],
     "which": [
       {
         "document_id": "research_documents_christian_sources_aquinas_summa_part_1_gutenberg_txt",
-        "score": 0.053733
+        "score": 0.054701
       },
       {
         "document_id": "research_documents_christian_sources_augustine_confessions_gutenberg_txt",
-        "score": 0.054637
+        "score": 0.055622
       },
       {
         "document_id": "research_documents_christian_sources_king_james_bible_gutenberg_txt",
-        "score": 0.03297
+        "score": 0.033564
       },
       {
         "document_id": "research_documents_pattern_formation_framework_md",
-        "score": 0.059827
+        "score": 0.060905
       },
       {
         "document_id": "pattern_tests_top_five_pattern_competition_matrix_md",
-        "score": 0.042779
+        "score": 0.04355
       }
     ],
     "who": [
@@ -30894,13 +30902,13 @@
     "world": [
       {
         "document_id": "research_documents_cloud_references_summary_md",
-        "score": 0.0845
+        "score": 0.085173
       }
     ],
     "worship": [
       {
         "document_id": "research_documents_christian_sources_divine_pattern_candidates_md",
-        "score": 0.076666
+        "score": 0.07718
       }
     ],
     "worth": [
@@ -30915,20 +30923,14 @@
         "score": 0.060636
       }
     ],
-    "wounded": [
-      {
-        "document_id": "pattern_tests_spiritual_abuse_and_injustice_test_md",
-        "score": 0.054632
-      }
-    ],
     "www": [
       {
-        "document_id": "research_documents_christian_sources_didache_wikisource_txt",
-        "score": 0.070197
+        "document_id": "research_documents_christian_sources_sources_md",
+        "score": 0.164436
       },
       {
-        "document_id": "research_documents_christian_sources_sources_md",
-        "score": 0.160106
+        "document_id": "research_documents_christian_sources_didache_wikisource_txt",
+        "score": 0.072095
       }
     ],
     "xin": [

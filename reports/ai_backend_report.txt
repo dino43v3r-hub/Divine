@@ -25,7 +25,7 @@ Corpus Summary
 --------------
 - Indexed documents: 180
 - Graph nodes: 212
-- Graph edges: 915
+- Graph edges: 914
 
 Lane Coverage
 -------------
@@ -62,7 +62,7 @@ Review Rule Mentions
 - interpretation: 26 documents
 - discernment: 151 documents
 - analogy: 45 documents
-- practical_use: 147 documents
+- practical_use: 146 documents
 - counter_reading: 138 documents
 - failure_condition: 87 documents
 - machine_label_boundary: 13 documents
