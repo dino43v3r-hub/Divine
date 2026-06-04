@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-06-04T21:41:11.063534+00:00
+Generated: 2026-06-04T21:51:22.960354+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -9,29 +9,55 @@ Full reports are committed in the repository under `reports/`.
 
 | Report | Read full file |
 | --- | --- |
-| `combined_web_article.html` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/combined_web_article.html) |
-| `ai_backend_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/ai_backend_report.txt) |
-| `divine_pattern_reader_book.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_reader_book.txt) |
-| `disciplined_theological_assistant_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/disciplined_theological_assistant_report.txt) |
-| `divine_pattern_summary_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_summary_report.txt) |
-| `top_five_divine_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/top_five_divine_patterns_report.txt) |
-| `cloud_research_findings_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cloud_research_findings_report.txt) |
-| `divine_pattern_research_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_research_report.txt) |
-| `divine_pattern_candidates_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_candidates_report.txt) |
-| `divine_pattern_test_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_test_report.txt) |
-| `deep_source_review_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/deep_source_review_report.txt) |
-| `theologian_pattern_design_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/theologian_pattern_design_report.txt) |
-| `cross_layer_reasoning_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cross_layer_reasoning_report.txt) |
-| `music_note_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_note_patterns_report.txt) |
-| `music_lyric_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_lyric_patterns_report.txt) |
-| `cultural_pattern_relationships_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cultural_pattern_relationships_report.txt) |
-| `daily_evaluation_queue.md` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/research_documents/daily_evaluation_queue.md) |
+| `combined_web_article.md` | [available](reports/combined_web_article.md) |
+| `combined_web_article.html` | [available](reports/combined_web_article.html) |
+| `ai_backend_report.txt` | [available](reports/ai_backend_report.txt) |
+| `divine_pattern_reader_book.txt` | [available](reports/divine_pattern_reader_book.txt) |
+| `disciplined_theological_assistant_report.txt` | [available](reports/disciplined_theological_assistant_report.txt) |
+| `divine_pattern_summary_report.txt` | [available](reports/divine_pattern_summary_report.txt) |
+| `top_five_divine_patterns_report.txt` | [available](reports/top_five_divine_patterns_report.txt) |
+| `cloud_research_findings_report.txt` | [available](reports/cloud_research_findings_report.txt) |
+| `divine_pattern_research_report.txt` | [available](reports/divine_pattern_research_report.txt) |
+| `divine_pattern_candidates_report.txt` | [available](reports/divine_pattern_candidates_report.txt) |
+| `divine_pattern_test_report.txt` | [available](reports/divine_pattern_test_report.txt) |
+| `deep_source_review_report.txt` | [available](reports/deep_source_review_report.txt) |
+| `theologian_pattern_design_report.txt` | [available](reports/theologian_pattern_design_report.txt) |
+| `cross_layer_reasoning_report.txt` | [available](reports/cross_layer_reasoning_report.txt) |
+| `music_note_patterns_report.txt` | [available](reports/music_note_patterns_report.txt) |
+| `music_lyric_patterns_report.txt` | [available](reports/music_lyric_patterns_report.txt) |
+| `cultural_pattern_relationships_report.txt` | [available](reports/cultural_pattern_relationships_report.txt) |
+| `daily_evaluation_queue.md` | [available](research_documents/daily_evaluation_queue.md) |
 
 ## Quick Highlights
 
 The sections below are only short previews. Use the links above for the full reports.
 
-## reports/combined_web_article.html
+## reports\combined_web_article.md
+
+```text
+# Divine Pattern Research
+
+_A GitHub-readable article drawn from the generated reports._
+
+Generated: `2026-06-04 21:49 UTC`
+
+## How To Read This Page
+
+This page is not meant to behave like a raw report dump. It is a guided reading of the project: what the system thinks it is seeing, what still needs review, and what kind of faithful response the evidence may invite.
+The core discipline is simple: retrieve sources before making claims, keep rival explanations visible, test every pattern against suffering and injustice, and refuse to let machine scores settle truth.
+The full generated reports remain available in each section, but they are folded away so the main article can be read in order.
+
+## Contents
+
+- [AI Knowledge Backend](#ai-knowledge-backend)
+- [Reader Book](#reader-book)
+- [Disciplined Theological Assistant](#disciplined-theological-assistant)
+- [Summary](#summary)
+
+_Full report has 6,869 lines. Open the linked report above to read everything._
+```
+
+## reports\combined_web_article.html
 
 ```text
 <!doctype html>
@@ -53,10 +79,10 @@ The sections below are only short previews. Use the links above for the full rep
     }
     * { box-sizing: border-box; }
 
-_Full report has 7,119 lines. Open the linked report above to read everything._
+_Full report has 7,361 lines. Open the linked report above to read everything._
 ```
 
-## reports/ai_backend_report.txt
+## reports\ai_backend_report.txt
 
 ```text
 AI Knowledge Backend Report
@@ -81,7 +107,7 @@ Generated Artifacts
 _Full report has 107 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_reader_book.txt
+## reports\divine_pattern_reader_book.txt
 
 ```text
 The Divine Pattern Reader
@@ -106,7 +132,7 @@ Journal Entry: What I Am Learning
 _Full report has 428 lines. Open the linked report above to read everything._
 ```
 
-## reports/disciplined_theological_assistant_report.txt
+## reports\disciplined_theological_assistant_report.txt
 
 ```text
 Disciplined Theological Assistant Report
@@ -131,7 +157,7 @@ The search engine remains essential. It keeps scanning scripture, theology, cult
 _Full report has 396 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_summary_report.txt
+## reports\divine_pattern_summary_report.txt
 
 ```text
 Divine Pattern Summary Report
@@ -156,7 +182,7 @@ This chapter summarizes the newest retained research movement. The details matte
 _Full report has 494 lines. Open the linked report above to read everything._
 ```
 
-## reports/top_five_divine_patterns_report.txt
+## reports\top_five_divine_patterns_report.txt
 
 ```text
 Top Five Divine Pattern Families Report
@@ -181,7 +207,7 @@ The Five Leading Pattern Chapters
 _Full report has 255 lines. Open the linked report above to read everything._
 ```
 
-## reports/cloud_research_findings_report.txt
+## reports\cloud_research_findings_report.txt
 
 ```text
 Cloud Research Findings Report
@@ -206,7 +232,7 @@ Online Collection Status
 _Full report has 396 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_research_report.txt
+## reports\divine_pattern_research_report.txt
 
 ```text
 Divine Pattern Research Report
@@ -231,7 +257,7 @@ Theme Signals
 _Full report has 1,323 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_candidates_report.txt
+## reports\divine_pattern_candidates_report.txt
 
 ```text
 Divine Pattern Candidates Report
@@ -256,7 +282,7 @@ Status: high internal signal; not proof
 _Full report has 96 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_test_report.txt
+## reports\divine_pattern_test_report.txt
 
 ```text
 Divine Pattern Pressure-Test Report
@@ -281,7 +307,7 @@ Test words analyzed: 3,726
 _Full report has 617 lines. Open the linked report above to read everything._
 ```
 
-## reports/deep_source_review_report.txt
+## reports\deep_source_review_report.txt
 
 ```text
 Deep Source Review Report
@@ -306,7 +332,7 @@ Required source types:
 _Full report has 335 lines. Open the linked report above to read everything._
 ```
 
-## reports/theologian_pattern_design_report.txt
+## reports\theologian_pattern_design_report.txt
 
 ```text
 Theologian Pattern Design Report
@@ -331,7 +357,7 @@ Era Coverage
 _Full report has 239 lines. Open the linked report above to read everything._
 ```
 
-## reports/cross_layer_reasoning_report.txt
+## reports\cross_layer_reasoning_report.txt
 
 ```text
 Cross-Layer Reasoning Report
@@ -356,7 +382,7 @@ Active synthesis lenses: 10 of 10
 _Full report has 972 lines. Open the linked report above to read everything._
 ```
 
-## reports/music_note_patterns_report.txt
+## reports\music_note_patterns_report.txt
 
 ```text
 Music Note Science And Math Pattern Report
@@ -381,7 +407,7 @@ Tension ratio: 31.01%
 _Full report has 204 lines. Open the linked report above to read everything._
 ```
 
-## reports/music_lyric_patterns_report.txt
+## reports\music_lyric_patterns_report.txt
 
 ```text
 Music And Lyric Pattern Alignment Report
@@ -406,7 +432,7 @@ Strongest Lyric Motifs
 _Full report has 666 lines. Open the linked report above to read everything._
 ```
 
-## reports/cultural_pattern_relationships_report.txt
+## reports\cultural_pattern_relationships_report.txt
 
 ```text
 Cultural Pattern Relationships Report
@@ -431,7 +457,7 @@ Cultural Domains
 _Full report has 311 lines. Open the linked report above to read everything._
 ```
 
-## research_documents/daily_evaluation_queue.md
+## research_documents\daily_evaluation_queue.md
 
 ```text
 # Daily Evaluation Queue

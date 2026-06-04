@@ -47,6 +47,7 @@ reports/knowledge_retrieval_index.json
 reports/knowledge_graph.json
 reports/review_rules_audit.json
 reports/ai_backend_report.txt
+reports/combined_web_article.md
 reports/combined_web_article.html
 ```
 
@@ -63,12 +64,15 @@ can use these artifacts by retrieving source notes first, walking the graph to
 related claims and pressure tests, then checking review-rule gaps before
 drafting or strengthening a claim.
 
-The combined web article merges the major generated reports into one readable
-HTML document with navigation:
+The combined report article merges the major generated reports into one readable
+GitHub Markdown document and one HTML document:
 
 ```powershell
 python build_combined_report_article.py
 ```
+
+Read `reports/combined_web_article.md` directly on GitHub. Use the HTML file
+when publishing through GitHub Pages or downloading locally.
 
 ## Cloud Reference Collection
 

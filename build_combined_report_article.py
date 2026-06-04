@@ -7,6 +7,7 @@ import re
 
 
 OUTPUT_PATH = Path("reports/combined_web_article.html")
+MARKDOWN_OUTPUT_PATH = Path("reports/combined_web_article.md")
 
 REPORTS = [
     {
@@ -81,6 +82,71 @@ REPORTS = [
     },
 ]
 
+ARTICLE_LEAD = [
+    "This page is not meant to behave like a raw report dump. It is a guided reading of the project: what the system thinks it is seeing, what still needs review, and what kind of faithful response the evidence may invite.",
+    "The core discipline is simple: retrieve sources before making claims, keep rival explanations visible, test every pattern against suffering and injustice, and refuse to let machine scores settle truth.",
+    "The full generated reports remain available in each section, but they are folded away so the main article can be read in order.",
+]
+
+SECTION_TAKEAWAYS = {
+    "AI Knowledge Backend": [
+        "The backend is now acting like a careful librarian: it retrieves, connects, and audits sources before an LLM drafts claims.",
+        "Its strongest contribution is restraint. It keeps asking whether a claim has evidence, interpretation, discernment, analogy, practical use, counter-reading, and a failure condition.",
+    ],
+    "Reader Book": [
+        "This is the most human-facing section. It frames the project as a field guide rather than a verdict.",
+        "Its best reading posture is practical: what pattern is being noticed, and what faithful action is being invited today?",
+    ],
+    "Disciplined Theological Assistant": [
+        "This section describes the assistant's character: cautious with sources, alert to harm, and unwilling to confuse repeated signals with truth.",
+        "It should be read as the operating conscience of the project.",
+    ],
+    "Summary": [
+        "The summary gives the current state of the corpus and the major claim controls.",
+        "Use it to see where the project is balanced, where it is overfull, and where it still needs source review.",
+    ],
+    "Top Five Pattern Families": [
+        "The leading patterns are hypotheses under pressure, not final conclusions.",
+        "The important question is not which pattern sounds most elegant, but which one survives suffering, injustice, rival explanations, and practical use.",
+    ],
+    "Research Report": [
+        "This is the broad technical sweep of the project.",
+        "Read it for signal, but let the review rules decide what deserves confidence.",
+    ],
+    "Pattern Candidates": [
+        "Candidate patterns are named possibilities that still need source packs, counter-readings, and failure conditions.",
+        "They are useful because they organize attention, not because they prove themselves.",
+    ],
+    "Pressure Tests": [
+        "This is where attractive ideas meet hard cases.",
+        "A pattern gets weaker if it cannot face unresolved suffering, injustice, practical failure, science limits, or better rival explanations.",
+    ],
+    "Deep Source Review": [
+        "This section carries the stricter guardrails, especially around science, quantum theory, and suffering.",
+        "Quantum language belongs here as a humility check, not as proof of divine action.",
+    ],
+    "Theologian Pattern Design": [
+        "The theologian lane adds depth across eras, but it also preserves disagreement.",
+        "A name or tradition is never enough by itself; primary texts, context, and misuse risks matter.",
+    ],
+    "Cross-Layer Reasoning": [
+        "This section asks whether patterns actually connect across lanes: text, history, language, art, psychology, culture, and practice.",
+        "The best cross-layer claims are modest, sourced, and aware of alternatives.",
+    ],
+    "Cultural Patterns": [
+        "Culture shows where theology becomes embodied in systems, habits, power, and repair.",
+        "The question is whether a pattern forms truthful love and justice in public life.",
+    ],
+    "Music Notes": [
+        "Music can illuminate pattern, tension, return, and resolution.",
+        "Musical beauty remains analogy unless it is connected carefully to evidence and practice.",
+    ],
+    "Music Lyrics": [
+        "The lyrics lane tracks motifs without copying copyrighted lyric collections.",
+        "Treat lyric signals as prompts for interpretation, not conclusions.",
+    ],
+}
+
 
 def slugify(text: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
@@ -91,6 +157,31 @@ def read_report(path: Path) -> str:
     if not path.exists():
         return f"{path} was not generated."
     return path.read_text(encoding="utf-8", errors="replace")
+
+
+def first_nonempty_lines(text: str, limit: int = 7) -> list[str]:
+    lines = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        if set(stripped) <= {"=", "-"}:
+            continue
+        lines.append(stripped)
+        if len(lines) >= limit:
+            break
+    return lines
+
+
+def render_inline_code(text: str) -> str:
+    parts = re.split(r"(`[^`]+`)", text)
+    rendered = []
+    for part in parts:
+        if part.startswith("`") and part.endswith("`"):
+            rendered.append(f"<code>{escape(part[1:-1])}</code>")
+        else:
+            rendered.append(escape(part))
+    return "".join(rendered)
 
 
 def classify_line(line: str) -> str:
@@ -150,7 +241,7 @@ def render_report_text(text: str) -> str:
                 html.append(f"<{tag}>")
                 pending_list = tag
             item = re.sub(r"^(\d+\.\s+|- )", "", stripped)
-            html.append(f"<li>{escape(item)}</li>")
+            html.append(f"<li>{render_inline_code(item)}</li>")
             continue
 
         close_list()
@@ -161,9 +252,9 @@ def render_report_text(text: str) -> str:
                 f"<p class=\"dialogue\"><strong>{escape(speaker)}:</strong>{escape(rest)}</p>"
             )
         elif kind == "label":
-            html.append(f"<p class=\"label\">{escape(stripped)}</p>")
+            html.append(f"<p class=\"label\">{render_inline_code(stripped)}</p>")
         else:
-            html.append(f"<p>{escape(stripped)}</p>")
+            html.append(f"<p>{render_inline_code(stripped)}</p>")
 
     close_list()
     return "\n".join(html)
@@ -179,16 +270,33 @@ def build_article() -> str:
         nav_items.append(
             f"<a href=\"#{section_id}\">{escape(report['title'])}</a>"
         )
-        body = render_report_text(read_report(report["path"]))
+        text = read_report(report["path"])
+        body = render_report_text(text)
+        takeaways = SECTION_TAKEAWAYS.get(report["title"], [])
+        takeaway_items = "\n".join(
+            f"<li>{escape(item)}</li>" for item in takeaways
+        )
+        preview_items = "\n".join(
+            f"<li>{render_inline_code(line)}</li>" for line in first_nonempty_lines(text)
+        )
         sections.append(
             f"""
             <section id="{section_id}" class="article-section">
               <p class="section-kicker">{escape(report['path'].as_posix())}</p>
               <h1>{escape(report['title'])}</h1>
               <p class="section-intro">{escape(report['intro'])}</p>
-              <div class="report-body">
-                {body}
+              <div class="reader-pass">
+                <h2>Why This Section Matters</h2>
+                <ul>{takeaway_items}</ul>
+                <h2>First Signals</h2>
+                <ul>{preview_items}</ul>
               </div>
+              <details class="full-report">
+                <summary>Open the full generated report</summary>
+                <div class="report-body">
+                  {body}
+                </div>
+              </details>
             </section>
             """
         )
@@ -372,6 +480,11 @@ def build_article() -> str:
     {nav}
   </nav>
   <main>
+    <section class="editor-note">
+      <p class="section-kicker">Reader's orientation</p>
+      <h1>How To Read This Page</h1>
+      {"".join(f"<p>{escape(paragraph)}</p>" for paragraph in ARTICLE_LEAD)}
+    </section>
     {section_html}
   </main>
 </body>
@@ -379,10 +492,79 @@ def build_article() -> str:
 """
 
 
+def markdown_code(text: str) -> str:
+    return text.replace("`", "\\`")
+
+
+def build_markdown_article() -> str:
+    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    lines = [
+        "# Divine Pattern Research",
+        "",
+        "_A GitHub-readable article drawn from the generated reports._",
+        "",
+        f"Generated: `{generated}`",
+        "",
+        "## How To Read This Page",
+        "",
+        *ARTICLE_LEAD,
+        "",
+        "## Contents",
+        "",
+    ]
+
+    for report in REPORTS:
+        lines.append(f"- [{report['title']}](#{slugify(report['title'])})")
+
+    for report in REPORTS:
+        text = read_report(report["path"])
+        takeaways = SECTION_TAKEAWAYS.get(report["title"], [])
+        preview = first_nonempty_lines(text)
+
+        lines.extend(
+            [
+                "",
+                f"## {report['title']}",
+                "",
+                f"_Source: `{report['path'].as_posix()}`_",
+                "",
+                report["intro"],
+                "",
+                "### Why This Section Matters",
+                "",
+            ]
+        )
+        for item in takeaways:
+            lines.append(f"- {item}")
+
+        lines.extend(["", "### First Signals", ""])
+        for item in preview:
+            lines.append(f"- {markdown_code(item)}")
+
+        lines.extend(
+            [
+                "",
+                "<details>",
+                f"<summary>Open the full generated report: {report['title']}</summary>",
+                "",
+                "```text",
+                text,
+                "```",
+                "",
+                "</details>",
+                "",
+            ]
+        )
+
+    return "\n".join(lines)
+
+
 def main() -> None:
     OUTPUT_PATH.parent.mkdir(exist_ok=True)
     OUTPUT_PATH.write_text(build_article(), encoding="utf-8")
+    MARKDOWN_OUTPUT_PATH.write_text(build_markdown_article(), encoding="utf-8")
     print(f"Combined report article saved to: {OUTPUT_PATH}")
+    print(f"GitHub-readable article saved to: {MARKDOWN_OUTPUT_PATH}")
 
 
 if __name__ == "__main__":
