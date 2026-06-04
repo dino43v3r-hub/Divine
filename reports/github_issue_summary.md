@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-06-04T16:13:41.854312+00:00
+Generated: 2026-06-04T17:12:13.254426+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -40,18 +40,18 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-06-04T16:12:37.245478+00:00
-Retained cloud candidate references: 1,372
-Brand-new candidate references this run: 30
-Top new routed layers: theologians: 17, research_documents: 11, visual_art: 11, all_texts: 7
-New evidence mix: weak_scholarly_candidate: 15, strong_scholarly_candidate: 8, moderate_scholarly_candidate: 7
-New provider mix: Tavily Search: 15, Europe PMC: 11, Internet Archive: 3, OpenAlex: 1
+Collector run: 2026-06-04T17:11:16.113779+00:00
+Retained cloud candidate references: 1,374
+Brand-new candidate references this run: 2
+Top new routed layers: cultural_inputs: 2, history_inputs: 2, human_stories: 1, visual_art: 1
+New evidence mix: moderate_scholarly_candidate: 2
+New provider mix: Crossref: 1, Internet Archive: 1
 Query modifiers used: not recorded
 
 Journal Entry: What I Am Learning
 ---------------------------------
 
-_Full report has 438 lines. Open the linked report above to read everything._
+_Full report has 422 lines. Open the linked report above to read everything._
 ```
 
 ## reports/disciplined_theological_assistant_report.txt
@@ -101,7 +101,7 @@ Chapter One: What Grew In The Latest Run?
 -----------------------------------------
 This chapter summarizes the newest retained research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 529 lines. Open the linked report above to read everything._
+_Full report has 489 lines. Open the linked report above to read everything._
 ```
 
 ## reports/top_five_divine_patterns_report.txt
@@ -135,9 +135,9 @@ _Full report has 255 lines. Open the linked report above to read everything._
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-04T16:12:37.299803+00:00
-Total references: 1,372
-New references this run: 30
+Updated: 2026-06-04T17:11:16.161543+00:00
+Total references: 1,374
+New references this run: 2
 
 Guardrails
 ----------
@@ -151,7 +151,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 
-_Full report has 594 lines. Open the linked report above to read everything._
+_Full report has 377 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_research_report.txt
@@ -169,14 +169,14 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 41
-Total analyzed words: 743,866
+Documents analyzed: 43
+Total analyzed words: 740,068
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 1,188 lines. Open the linked report above to read everything._
+_Full report has 1,207 lines. Open the linked report above to read everything._
 ```
 
 ## reports/divine_pattern_candidates_report.txt
@@ -222,11 +222,11 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 23
-Test words analyzed: 2,903
+Test documents analyzed: 24
+Test words analyzed: 3,218
 
 
-_Full report has 552 lines. Open the linked report above to read everything._
+_Full report has 573 lines. Open the linked report above to read everything._
 ```
 
 ## reports/deep_source_review_report.txt
@@ -267,16 +267,16 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 13
-Total theologian words analyzed: 6,400
+Theologian documents analyzed: 14
+Total theologian words analyzed: 7,739
 
 Era Coverage
 ------------
-- Patristic: 55
-- Medieval: 39
-- Reformation: 32
+- Patristic: 63
+- Medieval: 44
+- Reformation: 38
 
-_Full report has 206 lines. Open the linked report above to read everything._
+_Full report has 217 lines. Open the linked report above to read everything._
 ```
 
 ## reports/cross_layer_reasoning_report.txt
@@ -295,13 +295,13 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 164
-Dedicated synthesis documents: 50
+Total documents across all lanes: 173
+Dedicated synthesis documents: 55
 Active divine-pattern layers: 9 of 9
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
 
-_Full report has 786 lines. Open the linked report above to read everything._
+_Full report has 848 lines. Open the linked report above to read everything._
 ```
 
 ## reports/music_note_patterns_report.txt
@@ -346,7 +346,7 @@ Overview
 --------
 Lyric documents analyzed: 13
 Total lyric words analyzed: 794
-Religious research documents used for comparison: 41
+Religious research documents used for comparison: 43
 
 Strongest Lyric Motifs
 ---------------------
@@ -391,15 +391,15 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### 43. Good Anxiety, Good Doubt - Sean Finnegan
+### Resisting Oppression Together Shared Intentions and Unequal Agents
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: trinity
-- Layer routes: theologians, research_documents, visual_art, all_texts
-- Primary layer: theologians
-- Provider: Internet Archive
-- Quality: reference metadata
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
 
-_Full report has 1,266 lines. Open the linked report above to read everything._
+_Full report has 89 lines. Open the linked report above to read everything._
 ```

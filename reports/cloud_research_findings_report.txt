@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-04T16:12:37.299803+00:00
-Total references: 1,372
-New references this run: 30
+Updated: 2026-06-04T17:11:16.161543+00:00
+Total references: 1,374
+New references this run: 2
 
 Guardrails
 ----------
@@ -16,26 +16,24 @@ Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
-- OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
+- OpenCitations DOI enrichment checked 5 stored DOI source(s) this run.
 - Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
 - Tavily budget: 5/5 basic searches used today; 0 remaining.
-- Open-web candidates returned this run: 15.
+- Open-web candidates returned this run: 0.
 - Provider results returned this run:
   - Crossref: 305
   - Europe PMC: 223
   - Internet Archive: 107
   - OpenAlex: 288
   - PubMed: 27
-  - Tavily Search: 15
+  - arXiv: 10
 - Brand-new references added by provider:
-  - Europe PMC: 11
-  - Internet Archive: 3
-  - OpenAlex: 1
-  - Tavily Search: 15
+  - Crossref: 1
+  - Internet Archive: 1
 - Total stored references by provider:
-  - Crossref: 314
+  - Crossref: 315
   - Europe PMC: 231
-  - Internet Archive: 370
+  - Internet Archive: 371
   - OpenAlex: 251
   - PubMed: 25
   - Tavily Search: 155
@@ -43,7 +41,7 @@ Online Collection Status
 
 Reference Tags
 --------------
-- art_beauty: 116
+- art_beauty: 117
 - biblical_language_source_depth: 50
 - biblical_languages: 39
 - cultural_practice_patterns: 65
@@ -55,7 +53,7 @@ Reference Tags
 - modern_literature_meaning: 56
 - music_math: 80
 - pattern_perception_divine_response: 55
-- politics_justice: 84
+- politics_justice: 85
 - psychology_patterns: 71
 - quantum_science_guardrails: 90
 - technology_ethics: 92
@@ -69,10 +67,10 @@ Layer Routes
 ------------
 - all_texts: 432
 - biblical_languages: 106
-- cultural_inputs: 347
+- cultural_inputs: 349
 - deep_sources: 377
-- history_inputs: 354
-- human_stories: 324
+- history_inputs: 356
+- human_stories: 325
 - modern_literature: 168
 - music_notes: 80
 - other_religious_texts: 302
@@ -81,7 +79,7 @@ Layer Routes
 - research_documents: 165
 - research_documents/christian_sources: 121
 - theologians: 359
-- visual_art: 460
+- visual_art: 461
 - world_languages: 251
 
 Layer Balance Watch
@@ -93,14 +91,14 @@ Layer Balance Watch
 Quality Counts
 --------------
 - open web result: 155
-- reference metadata: 366
-- scholarly metadata: 821
+- reference metadata: 367
+- scholarly metadata: 822
 - scholarly preprint: 26
 - speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 593
+- moderate_scholarly_candidate: 595
 - strong_scholarly_candidate: 610
 - weak_scholarly_candidate: 169
 
@@ -110,253 +108,37 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 1,176
+- approved_for_review_queue: 1,178
 - not_auto_approved: 196
 
 New This Run By Tag
 -------------------
 - art_beauty: 1
-- cultural_practice_patterns: 2
-- general_research_methods: 1
-- history_memory: 1
-- politics_justice: 2
-- quantum_science_guardrails: 3
-- technology_ethics: 2
-- theologians_cross_era: 6
-- trinity: 10
-- world_language_source_sampling: 1
-- world_languages_translation: 1
+- politics_justice: 1
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 7
-- biblical_languages: 2
-- cultural_inputs: 7
-- deep_sources: 4
-- history_inputs: 7
+- cultural_inputs: 2
+- history_inputs: 2
 - human_stories: 1
-- modern_literature: 2
-- other_religious_texts: 2
-- pattern_tests: 3
-- psychology_inputs: 4
-- research_documents: 11
-- research_documents/christian_sources: 6
-- theologians: 17
-- visual_art: 11
-- world_languages: 2
+- visual_art: 1
 
 Newest Additions This Run
 ------------------------
-- 43. Good Anxiety, Good Doubt - Sean Finnegan (2022)
-  Tags: trinity
-  Layer routes: theologians, research_documents, visual_art, all_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/Unitarian_Christian_Alliance-UCA_42_Good_Anxiety_Good_Doubt___Sean_Finnegan
-- The very practical doctrine of the Trinity - GoThereFor.com (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://gotherefor.com/offer.php?intid=15193
-- The Trinity: Father, Son, Holy Spirit | Core Podcast Ep. 2 - YouTube (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.youtube.com/watch?v=5H7e6gyaK4U
-- Understanding the Trinity: A Christian Core Belief | Cru (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.cru.org/us/en/train-and-grow/spiritual-growth/core-christian-beliefs/understanding-the-trinity.html
-- Nicene Creed - Wikipedia (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://en.wikipedia.org/wiki/Nicene_Creed
-- [PDF] Topic: The Holy Trinity & Nicene Creed (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://ihmcfo.org/wp-content/uploads/2019/12/11-24-19-Holy-Trinity-Nicene-Creed.pdf
-- What the Nicene Creed tells us about the Holy Spirit (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://dio.org/catholic-times/what-the-nicene-creed-tells-us-about-the-holy-spirit
-- The relation between creation and salvation in the Trinitarian ... (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://hts.org.za/index.php/hts/article/view/1191/3244
-- Trinitarian Sanctification - Counseling One Another (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents, human_stories
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://counselingoneanother.com/2015/07/24/trinitarian-sanctification
-- “Through Whom All Things Were Made”: Creation in Christ | Articles (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.communio-icr.com/articles/view/through-whom-all-things-were-made
-- Conscious simultaneity with continuous motion: a measure-theoretic resolution of the hard problem (n.d.)
-  Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13229847/?tool=EBI
-- Whatever next? Predictive brains, situated agents, and the future of cognitive science (2013)
-  Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests, psychology_inputs
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (13)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1017/s0140525x12000477
-- Dispersion Compensation and Multi-Beam Interference Correction Algorithm for Thickness Measurement of SiC Epitaxial Layer. (2026)
-  Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.3390/s26102965
-- "Self-burning is the only way to show how painful women's lives are". A qualitative study of the social context of suicidal self-burning among Iraqi Kurdish women. (2026)
+- Resisting Oppression Together Shared Intentions and Unequal Agents (2018)
   Tags: politics_justice
   Layer routes: cultural_inputs, history_inputs
-  Source: Europe PMC | scholarly metadata
+  Source: Crossref | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1186/s12905-026-04397-z
-- “Imposed Motherhood, Interrupted Childhood”: child marriage, postpartum trauma, and the failure of SDG commitments in Chennai's inner city (n.d.)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art, psychology_inputs
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13229882/?tool=EBI
-- Dr. Zakir Naik - Complete Audio Collection (200+) (n.d.)
+  URL: https://doi.org/10.5040/9798881811983.ch-012
+- The cross of Christ: studies in the history of religion and the inner life of the church (1877)
   Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, all_texts, other_religious_texts
+  Layer routes: visual_art, cultural_inputs, history_inputs, human_stories
   Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/Dr.ZakirNaik1_201806
-- From human to posthuman bias: mapping discrimination in futuristic societies through speculative fiction. (2026)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.3389/fsoc.2026.1739758
-- Shifting the Overton Window: enhancing therapeutic outcomes for Māori experiencing Ngā Māuiui kai (eating disorders) through the integration of traditional Māori and Western healing systems in Aotearoa New Zealand. (2026)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.3389/fpsyt.2026.1795945
-- The Right to Development and disparities in healthcare access: Qualitative study from rural Ontario, Canada. (2026)
-  Tags: world_language_source_sampling
-  Layer routes: world_languages, all_texts, other_religious_texts, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1371/journal.pgph.0005758
-- A landscape analysis of psychedelic facilitation training in the US. (2026)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1371/journal.pone.0350037
-- Sexual and gender based violence in Nigeria tertiary institutions: exploring the roles of stakeholders and best practices. (2026)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.3389/fgwh.2026.1700008
-- Encountering pain: images as a tool for collaborative approaches to pain medicine. (2026)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1097/j.pain.0000000000003973
-- Ethical review key considerations for organoid applications in biomedical research—a systematic review (n.d.)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs
-  Source: Europe PMC | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13229853/?tool=EBI
-- VOA [Voice of America] Global English : March 18, 2020 01:00PM-02:00PM EDT (2020)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs, modern_literature
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/VOA_Global_English_20200318_170000
-- [PDF] 21 Trinity, Christology, and pneumatology (n.d.)
-  Tags: theologians_cross_era
-  Layer routes: theologians, research_documents/christian_sources, biblical_languages
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/BEEE26B7603ADFBA41E75841E3722F92/9780511975875c21_p365-380_CBO.pdf/trinity_christology_and_pneumatology.pdf
-- Exploring Pneumatology: Historical Insights & Modern Challenges (n.d.)
-  Tags: theologians_cross_era
-  Layer routes: theologians, research_documents/christian_sources, history_inputs, biblical_languages
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.cliffsnotes.com/study-notes/21910749
-- Patristic Theology - The Gospel Coalition (n.d.)
-  Tags: theologians_cross_era
-  Layer routes: theologians, research_documents/christian_sources, all_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.thegospelcoalition.org/essay/patristic-theology
-- Who, in your opinion, are the most brilliant, groundbreaking and ... (n.d.)
-  Tags: theologians_cross_era
-  Layer routes: theologians, research_documents/christian_sources, visual_art, history_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.facebook.com/groups/progressivecatholicseurope/posts/8951206311662462
-- Details for Fifty key Christian thinkers / › Lancaster Theological ... (n.d.)
-  Tags: theologians_cross_era
-  Layer routes: theologians, research_documents/christian_sources, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://lancasterlibrary.moravian.edu/bib/108299
-- [EPUB] The 40 Most Influential Christians Who Shaped What We Believe ... (n.d.)
-  Tags: theologians_cross_era
-  Layer routes: theologians, research_documents/christian_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://dokumen.pub/download/the-40-most-influential-christians-who-shaped-what-we-believe-today-9781441261564-1441261567.html
+  URL: https://archive.org/details/CrossOfChrist
 
 Recent Candidate Sources
 ------------------------
@@ -592,3 +374,4 @@ Recent Candidate Sources
 Collector Errors
 ----------------
 - search_arxiv failed for quantum_science_guardrails: The read operation timed out
+- OpenCitations enrichment failed for DOI 10.1016/S0140-6736(24)00367-2: The read operation timed out

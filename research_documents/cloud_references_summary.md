@@ -69,7 +69,7 @@ compassionate love,
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 569
+- Corroborating routed candidates: 570
 - URL: https://doi.org/10.21236/ada597440
 
 No summary available in metadata.
@@ -117,7 +117,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 569
+- Corroborating routed candidates: 570
 - URL: https://doi.org/10.1093/oso/9780190681685.003.0001
 
 Indigenous peoples think about oral history differently. This is the key assertion of this opening
@@ -225,7 +225,7 @@ No summary available in metadata.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 482
+- Corroborating routed candidates: 483
 - URL: https://www.thirdwell.org/Rise-of-Christianity-in-Africa-Latin-America-Asia.html
 
 The rise of Christianity in Africa, Latin America, and Asia ultimately represents the emergence of a
@@ -336,7 +336,7 @@ Excellence, he has ser
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 569
+- Corroborating routed candidates: 570
 - URL: https://doi.org/10.1093/oso/9780190681685.003.0002
 
 This chapter examines the evolution of oral history and oral tradition as two separate fields of
@@ -359,7 +359,7 @@ and interview pr
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 481
+- Corroborating routed candidates: 482
 - URL: https://doi.org/10.1093/oso/9780190681685.003.0004
 
 This chapter continues the examination of the form of oral sources, with a more explicit and
@@ -382,7 +382,7 @@ for understanding and
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 569
+- Corroborating routed candidates: 570
 - URL: https://doi.org/10.1093/oso/9780190681685.003.0008
 
 “Oral History in Indigenous Articulation” is the concluding chapter of the book. In summary, it
@@ -579,7 +579,7 @@ The temptation to godless conduct The tarnish to gospel credibility They Swindle
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 749
+- Corroborating routed candidates: 750
 - URL: https://hts.org.za/index.php/hts/article/view/10066/27697
 
 | * **Abstract** * **Introduction** * **Biblical basis for Christian translation** * **History of
@@ -930,7 +930,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 427
+- Corroborating routed candidates: 428
 - URL: https://doi.org/10.5117/9789053563069
 
 OpenAlex abstract metadata available.
@@ -1433,7 +1433,7 @@ Community-l
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 428
+- Corroborating routed candidates: 429
 - URL: https://www.euppublishing.com/doi/10.3366/tal.2011.0030
 
 The introduction reviews highpoints in the long history of discussions of metaphor and translation,
