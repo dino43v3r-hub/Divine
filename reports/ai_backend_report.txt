@@ -37,7 +37,7 @@ Corpus Summary
 --------------
 - Indexed documents: 180
 - Graph nodes: 212
-- Graph edges: 918
+- Graph edges: 916
 
 Reviewer: Where is the strongest reviewed-note weight right now?
 Backend: theologians (375 notes), all_texts (261 notes), history_inputs (261 notes), other_religious_texts (261 notes).
@@ -46,7 +46,7 @@ Reviewer: Which leading patterns are showing up most often?
 Backend: Image Of God Pattern (9), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
 
 Reviewer: Which review rules are most visible?
-Backend: discernment (152), practical_use (147), counter_reading (138), failure_condition (88).
+Backend: discernment (152), practical_use (147), counter_reading (138), failure_condition (87).
 
 Lane Coverage
 -------------
@@ -86,12 +86,12 @@ Reviewer: What do the review-rule counts tell us?
 Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.
 
 - evidence: 82 documents
-- interpretation: 27 documents
+- interpretation: 26 documents
 - discernment: 152 documents
 - analogy: 45 documents
 - practical_use: 147 documents
 - counter_reading: 138 documents
-- failure_condition: 88 documents
+- failure_condition: 87 documents
 - machine_label_boundary: 13 documents
 
 Practical-Theology Gate

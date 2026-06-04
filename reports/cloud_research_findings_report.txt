@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-04T21:18:53.093891+00:00
-Total references: 1,380
-New references this run: 0
+Updated: 2026-06-04T21:40:03.643122+00:00
+Total references: 1,385
+New references this run: 5
 
 Guardrails
 ----------
@@ -24,13 +24,14 @@ Online Collection Status
   - Crossref: 305
   - Europe PMC: 223
   - Internet Archive: 107
-  - OpenAlex: 288
+  - OpenAlex: 70
   - PubMed: 27
-- Brand-new references added by provider: 0.
+- Brand-new references added by provider:
+  - Internet Archive: 5
 - Total stored references by provider:
   - Crossref: 315
   - Europe PMC: 231
-  - Internet Archive: 377
+  - Internet Archive: 382
   - OpenAlex: 251
   - PubMed: 25
   - Tavily Search: 155
@@ -44,16 +45,16 @@ Reference Tags
 - cultural_practice_patterns: 65
 - general_research_methods: 61
 - global_text_traditions: 84
-- history_memory: 110
+- history_memory: 113
 - holy_spirit_gifts_global: 40
 - interreligious_dream_testimony: 49
 - modern_literature_meaning: 56
 - music_math: 80
 - pattern_perception_divine_response: 55
-- politics_justice: 88
+- politics_justice: 89
 - psychology_patterns: 71
 - quantum_science_guardrails: 90
-- technology_ethics: 92
+- technology_ethics: 93
 - theologians_cross_era: 38
 - trinity: 105
 - unresolved_suffering: 48
@@ -64,9 +65,9 @@ Layer Routes
 ------------
 - all_texts: 434
 - biblical_languages: 107
-- cultural_inputs: 354
+- cultural_inputs: 356
 - deep_sources: 377
-- history_inputs: 361
+- history_inputs: 365
 - human_stories: 325
 - modern_literature: 170
 - music_notes: 80
@@ -75,7 +76,7 @@ Layer Routes
 - psychology_inputs: 327
 - research_documents: 165
 - research_documents/christian_sources: 121
-- theologians: 360
+- theologians: 363
 - visual_art: 465
 - world_languages: 252
 
@@ -88,16 +89,16 @@ Layer Balance Watch
 Quality Counts
 --------------
 - open web result: 155
-- reference metadata: 373
+- reference metadata: 378
 - scholarly metadata: 822
 - scholarly preprint: 26
 - speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 600
+- moderate_scholarly_candidate: 604
 - strong_scholarly_candidate: 611
-- weak_scholarly_candidate: 169
+- weak_scholarly_candidate: 170
 
 Auto Review Approval Counts
 ---------------------------
@@ -105,20 +106,58 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 1,184
-- not_auto_approved: 196
+- approved_for_review_queue: 1,188
+- not_auto_approved: 197
 
 New This Run By Tag
 -------------------
-- No brand-new references found this run; reports still re-evaluate the current candidate set.
+- history_memory: 3
+- politics_justice: 1
+- technology_ethics: 1
 
 New This Run By Layer Route
 ---------------------------
-- No brand-new layer routes this run.
+- cultural_inputs: 2
+- history_inputs: 4
+- theologians: 3
 
 Newest Additions This Run
 ------------------------
-- No new additions this run.
+- The Catholic's ready answer; a popular vindication of Christian beliefs and practices against the attacks of modern criticism (1915)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/TheCatholicsReadyAnswer1914
+- Raindrops, Rivers, Oceans: An Annual In Gathering to Community (2025)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/First_Unitarian_Universalist_Society_of_San_Francisco-20250907Sermon
+- Our expanded worldview california wrong (2022)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/uusf_org-20110130AJComplete
+- The “Leaders We Got & Leaders We Need” Edition (2024)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/River_Road_Unitarian_Universalist-TPP_21_11_24
+- Diane Arbus (1923 - 1971) (n.d.)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: weak_scholarly_candidate (6)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://archive.org/details/SharewareOnSaleGiveawayAlfaEBooksManagerHub
 
 Recent Candidate Sources
 ------------------------
@@ -354,3 +393,4 @@ Recent Candidate Sources
 Collector Errors
 ----------------
 - search_arxiv failed for quantum_science_guardrails: The read operation timed out
+- search_openalex failed for art_beauty: The read operation timed out

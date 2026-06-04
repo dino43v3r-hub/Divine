@@ -1,5 +1,5 @@
 {
-  "source_count": 1380,
+  "source_count": 1385,
   "sources": [
     {
       "authors": [
@@ -25705,6 +25705,56 @@
     },
     {
       "authors": [
+        "uusf.org"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 314,
+      "date_accessed": "2026-06-04",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/uusf_org-20110130ajcomplete",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "Our expanded worldview california wrong: Our expanded worldview grows to include the world of external evidence which further shapes our ways of knowing and our sense of certainty about the world about how the world should work.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Our expanded worldview california wrong",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/uusf_org-20110130AJComplete",
+      "year": "2022"
+    },
+    {
+      "authors": [
         "Herbert Moyo"
       ],
       "auto_review_approval": "approved_for_review_queue",
@@ -25927,6 +25977,56 @@
       "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.5964/jspp.v3i1.103",
       "year": 2015
+    },
+    {
+      "authors": [
+        "First Unitarian Universalist Society of San Francisco"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 314,
+      "date_accessed": "2026-06-04",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/first_unitarian_universalist_society_of_san_francisco-20250907sermon",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "\"Raindrops, Rivers, Oceans: An Annual In Gathering to Community\" Sunday, September 7, 2025 We will be regathered into community for another year in our annual Water Communion Service this Sunday. Separateness is an illusion. We were meant to meet and merge and make a life together. And so we begin our new year. Bring your waters from your travels, your garden spigot, or the ocean around the corner, or use some of ours. Rev. Vanessa Rush Southern, Senior Minister; Rev. Laura Shennum, Minister of Congregational Life; Rev. Seanan Fong, Community Minister; Mark Caswell, Ministerial Intern; Galen Workman, Moderator, Board of Trustee; Reiko Oda Lane, organist; Morgen Warner, Kate Offer, soloists; ",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "Raindrops, Rivers, Oceans: An Annual In Gathering to Community",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/First_Unitarian_Universalist_Society_of_San_Francisco-20250907Sermon",
+      "year": "2025"
     },
     {
       "authors": [
@@ -27350,6 +27450,56 @@
       "truth_assessment": "moderate_scholarly_candidate",
       "url": "https://archive.org/details/uusf_org-20110320GSComplete",
       "year": "2022"
+    },
+    {
+      "authors": [
+        "River Road Unitarian Universalist"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 314,
+      "date_accessed": "2026-06-04",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/river_road_unitarian_universalist-tpp_21_11_24",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "Allison Kaplan Sommer, Noah Efron and Tova Cohen discuss two topics of incomparable importance and end with an anecdote about something in Israel that made them smile this week. Hear the Extra-Special, Special Extra Segment on Patreon \u2014\u201cHope Is Patience With the Lamp Lit\u201d (With Apologies to Tertullian)\u2014 A voice in the wilderness. Should we listen? \u2014\u201cCabinet of Wonders\u201d\u2014 Is Donald Trump\u2019s new cabinet more pro-Israel than most Israelis? \u2014Freshman Leninism at Berkeley\u2014 For our most unreasonably generous Patreon supporters, in our extra-special, special extra discussion: We talk about the fufera that developed over a Berkeley course description. We ask, \u201cWTF?\u201d Plus, Nir Oz votes to go home and E",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "The \u201cLeaders We Got & Leaders We Need\u201d Edition",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/River_Road_Unitarian_Universalist-TPP_21_11_24",
+      "year": "2024"
     },
     {
       "authors": [
@@ -46514,6 +46664,56 @@
     },
     {
       "authors": [
+        "Hill, Michael Peter, 1855-"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 257,
+      "date_accessed": "2026-06-04",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/thecatholicsreadyanswer1914",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org texts",
+      "summary": "The Catholic's Ready Answer: A Popular Vindication Of Christian Beliefs And Practices Against The Attacks Of Modern Criticism CONTENTS AGNOSTICISM An Agnostic Query - \"Why trouble ourselves about matters such as God's existence, of which, however important they may be, we do know nothing?\" (Huxley) 7 ANGLICANS See \"Religion, A Change of,\" and \"The Church of Christ - How to Find It.\" APES AND MEN The Ape Theory - Man bears so striking a resemblance to the ape that we are forced to conclude that he is descended from the ape 13 BIBLE HEROES Objection - The heroes of the Old Testament are represented as being special favorites of the Almighty. On the other hand, they seem to have had many vices.",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "The Catholic's ready answer; a popular vindication of Christian beliefs and practices against the attacks of modern criticism",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/TheCatholicsReadyAnswer1914",
+      "year": "1915"
+    },
+    {
+      "authors": [
         "Alex Tuckness",
         "John M. Parrish"
       ],
@@ -57444,6 +57644,49 @@
       "year": "2026"
     },
     {
+      "authors": [],
+      "auto_review_approval": "not_auto_approved",
+      "auto_review_approval_scope": "manual_review_required",
+      "auto_review_approval_warnings": [
+        "automated score below 7",
+        "label weak_scholarly_candidate is not eligible"
+      ],
+      "automated_evidence_label": "weak_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 6,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 169,
+      "date_accessed": "2026-06-04",
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://archive.org/details/sharewareonsalegiveawayalfaebooksmanagerhub",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "cultural_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "archive.org texts",
+      "summary": "Diane Arbus (/di\u02d0\u02c8\u00e6n \u02c8\u0251\u02d0rb\u0259s/; March 14, 1923 \u2013 July 26, 1971) was an American photographer. Arbus famously worked to normalize marginalized groups and highlight the importance of proper representation of all people. She worked with a wide range of subjects including members of the LGBTQ+ community, strippers, carnival performers, nudists, dwarves, children, mothers, couples, elderly people, and middle-class families.[5] She photographed her subjects in familiar settings: their homes, on the street, in the workplace, in the park\u2014celebrating imagery that seem to reflect our deepest fears and most private wish. \u201cShe is noted for expanding notions of acceptable subject matter and violates canon",
+      "tags": [
+        "technology_ethics"
+      ],
+      "title": "Diane Arbus (1923 - 1971)",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://archive.org/details/SharewareOnSaleGiveawayAlfaEBooksManagerHub",
+      "year": null
+    },
+    {
       "authors": [
         "Dzando G."
       ],
@@ -64802,6 +65045,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -65014,6 +65260,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -65119,6 +65368,9 @@
         "research_documents",
         "world_languages"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 43,
+      "opencitations_reference_count": 44,
       "primary_layer": "theologians",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -65426,6 +65678,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -65483,6 +65738,9 @@
         "visual_art",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 6,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -65539,6 +65797,9 @@
         "visual_art",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 10,
       "primary_layer": "theologians",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -65586,6 +65847,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -65950,6 +66214,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -66049,6 +66316,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -66147,6 +66417,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -66199,6 +66472,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -66251,6 +66527,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -66299,6 +66578,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -66350,6 +66632,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -66397,6 +66682,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -66430,11 +66718,12 @@
         "author metadata present",
         "publication year present",
         "summary or abstract metadata available",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
-      "citation_count": 0,
+      "citation_count": 1,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 354,
@@ -66452,6 +66741,9 @@
         "research_documents",
         "history_inputs"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 1,
+      "opencitations_reference_count": 13,
       "primary_layer": "theologians",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -66504,6 +66796,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -66691,10 +66986,12 @@
         "author metadata present",
         "publication year present",
         "recognized scholarly source type",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 10,
+      "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
+      "citation_count": 10,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 239,
@@ -66710,6 +67007,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 10,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -66916,6 +67216,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -67021,6 +67324,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -67485,6 +67791,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -67655,6 +67964,9 @@
         "visual_art",
         "other_religious_texts"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 31,
       "primary_layer": "pattern_tests",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -67715,6 +68027,9 @@
         "human_stories",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "pattern_tests",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -67772,6 +68087,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "pattern_tests",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -67827,6 +68145,9 @@
         "psychology_inputs",
         "human_stories"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "pattern_tests",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -75809,5 +76130,5 @@
       "year": null
     }
   ],
-  "updated_at": "2026-06-04T21:18:53.037011+00:00"
+  "updated_at": "2026-06-04T21:40:03.584567+00:00"
 }
