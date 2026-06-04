@@ -359,6 +359,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-06-04": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "Trinity Father Son Holy Spirit practical theology",
+          "searched_at": "2026-06-04T16:06:51.725501+00:00",
+          "tag": "trinity"
+        },
+        {
+          "credits_used": 1,
+          "query": "Nicene Creed Trinity Father Son Holy Spirit",
+          "searched_at": "2026-06-04T16:06:58.911883+00:00",
+          "tag": "trinity"
+        },
+        {
+          "credits_used": 1,
+          "query": "Trinitarian theology creation redemption sanctification",
+          "searched_at": "2026-06-04T16:07:03.682940+00:00",
+          "tag": "trinity"
+        },
+        {
+          "credits_used": 1,
+          "query": "patristic medieval reformation modern contemporary theologians Trinity creation Christology pneumatology",
+          "searched_at": "2026-06-04T16:11:52.301424+00:00",
+          "tag": "theologians_cross_era"
+        },
+        {
+          "credits_used": 1,
+          "query": "Irenaeus Athanasius Augustine Aquinas Luther Calvin Barth Bonhoeffer Moltmann theology",
+          "searched_at": "2026-06-04T16:11:58.593395+00:00",
+          "tag": "theologians_cross_era"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

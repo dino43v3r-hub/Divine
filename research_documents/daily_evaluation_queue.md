@@ -7,59 +7,12 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### A Journey of Necessity: Moral Injury in Light of the Divine Comedy.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: cultural_practice_patterns, global_text_traditions, history_memory, psychology_patterns, trinity, unresolved_suffering
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts, other_religious_texts, modern_literature, theologians, human_stories, research_documents, pattern_tests, deep_sources, visual_art
-- Primary layer: cultural_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 814
-- Year: 2026
-- URL: https://doi.org/10.1007/s10943-026-02568-8
-
-This article presents a parallel analysis of Dante Alighieri's Divine Comedy and contemporary
-literature on moral injury to explore how Dante's journey towards enlightenment can inform the path
-to healing from moral injury. Described as a soul wound by those affected, moral injury is a severe
-psychological and spiritual trauma resulting from ethical transgressions such as abuse, betrayal,
-war and tyranny. Although moral injury is arguably as old as human conflict itself, its scientific
-study is comparatively new. The Divine Comedy is widely regarded as one of the greatest works in
-world literature. In this poem, moral suffering appears as a disordering of the soul: the will
-estranged from re
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Exiles (Support for Suffering Sojourners)
+### 43. Good Anxiety, Good Doubt - Sean Finnegan
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: trinity
-- Layer routes: theologians, research_documents, pattern_tests
+- Layer routes: theologians, research_documents, visual_art, all_texts
 - Primary layer: theologians
 - Provider: Internet Archive
 - Quality: reference metadata
@@ -68,11 +21,18 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 391
+- Corroborating routed candidates: 570
 - Year: 2022
-- URL: https://archive.org/details/Brainerd_Baptist_Church-20220424_audioShaddix
+- URL: https://archive.org/details/Unitarian_Christian_Alliance-UCA_42_Good_Anxiety_Good_Doubt___Sean_Finnegan
 
-A sermon from Brainerd Baptist Church.
+A prolific restorationist podcaster describes his start, his hobbies, and how unease has fueled his
+exploration for truth. OPENING REMARKS Times of refreshing, #1 cult indicator, fear, and the many
+inquisitive truth seekers? RESOURCES Living Hope International Ministries Pearson Ensign sailboat
+Whiteface skiing mountain Risk board game Truth Matters radio show and podcast Words of Wisdom
+Podcast , host Jerry Wierwille Episode 57 God at Work in Kenya 1 (Maurice Chahilu) Edward Fudge
+Restitutio podcast 425 Hell Is the Fire That Consumes (Edward Fudge) Living Hope Community Church
+Compass Christian Church , Louisville Kentucky (new church plant) The story about Anna Brown‘s
+experience, “ All Th
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -89,101 +49,463 @@ Auto approval reasons:
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Use as general research context until a more specific layer is reviewed.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### A Qualitative Investigation into the Challenges and Support Needs of Baptist Pastors in Australia.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: unresolved_suffering
-- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-- Primary layer: pattern_tests
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 504
-- Year: 2026
-- URL: https://doi.org/10.1007/s10943-025-02460-x
-
-A qualitative study using semi-structured interviews analyzed with a phenomenological perspective
-explored the challenges faced by 10 Baptist pastors from a range of geographical and socioeconomic
-locations throughout Australia about their roles and sources of support. Four main challenges faced
-by pastors in their roles were: conflict in the church, setting boundaries, vicarious trauma, and
-living authentically. Three primary sources of support that pastors valued were: mentors, peers, and
-wives. Possible markers were identified for which churches might be more difficult to pastor, and
-suggestions given for how denominational support resources might be targeted.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-
-### Widowed and displaced: Spiritual and religious coping in mental health recovery among Syrian refugee women in Türkiye.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: unresolved_suffering
-- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories, all_texts
-- Primary layer: pattern_tests
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 640
-- Year: 2026
-- URL: https://doi.org/10.1177/17455057261416249
-
-Objectives Syrian refugee women in Türkiye face intertwined challenges, trauma, displacement,
-economic hardship, and sociocultural pressures that impact their mental health. This study aimed to
-explore the relationships among trauma symptoms, psychological distress, depression, resilience, and
-spirituality in widowed Syrian refugee women. It also examined how demographic and contextual
-factors-such as age, education, length of stay in Türkiye, and residency location-contribute to
-mental health outcomes. Methods A cross-sectional quantitative design was employed, utilizing both
-online and paper-based self-administered questionnaires. A total of 167 widowed Syrian refugee women
-residing in Tür
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### Variable-Condition Operational Optimization of Oil and Gas Gathering Systems Considering Renewable Energy Accommodation: A Comprehensive Review and Future Perspectives.
+### The very practical doctrine of the Trinity - GoThereFor.com
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 240
+- Year: n.d.
+- URL: https://gotherefor.com/offer.php?intid=15193
+
+The Trinity is a very 'practical' doctrine. It changes the way we worship, pray and relate to
+others. Certainly this has been my experience.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+
+### The Trinity: Father, Son, Holy Spirit | Core Podcast Ep. 2 - YouTube
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 240
+- Year: n.d.
+- URL: https://www.youtube.com/watch?v=5H7e6gyaK4U
+
+... Practical Christian Theology Book: https://a.co/d/03EgMh8L Tiny Theologians Podcast -
+https://tiny-theologia... Submit a Question We want to
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+
+### Understanding the Trinity: A Christian Core Belief | Cru
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 240
+- Year: n.d.
+- URL: https://www.cru.org/us/en/train-and-grow/spiritual-growth/core-christian-beliefs/understanding-the-trinity.html
+
+While we cannot fully understand everything about the Trinity (or anything else), it is possible to
+answer questions like these and come to a solid grasp of what it means for God to be three in one.
+The doctrine of the Trinity means that there is one God who eternally exists as three distinct
+Persons — the Father, Son, and Holy Spirit. ### The Father, Son, and Holy Spirit are distinct
+Persons. And in John 16:13-15 we see that although there is a close unity between them all, the Holy
+Spirit is also distinct from the Father and the Son. The fact that the Father, Son, and Holy Spirit
+are distinct Persons means, in other words, that the Father is not the Son, the Son is not the Holy
+Spirit, and
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+
+### Nicene Creed - Wikipedia
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 240
+- Year: n.d.
+- URL: https://en.wikipedia.org/wiki/Nicene_Creed
+
+The **Nicene Creed** is the defining statement of belief of Nicene Christianity and in those
+Christian denominations that adhere to it. The original Nicene Creed was first adopted at the First
+Council of Nicaea in 325. According to the traditional view, forwarded by the Council of Chalcedon
+of 451, the Creed was amended in 381 by the First Council of Constantinople as "consonant to the
+holy and great Synod of Nice". In the liturgical churches of Western Christianity, the Nicene Creed
+is in use alongside the less widespread Apostles' Creed and Athanasian Creed. The 381 revision of
+the creed at Constantinople (i.e., the Niceno-Constantinopolitan Creed), which is often simply
+referred to as the
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+
+### [PDF] Topic: The Holy Trinity & Nicene Creed
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents, visual_art
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 397
+- Year: n.d.
+- URL: https://ihmcfo.org/wp-content/uploads/2019/12/11-24-19-Holy-Trinity-Nicene-Creed.pdf
+
+(On the premise that you should know what you claim to be, and have become.) Our Core Beliefs: The
+Niceno-Constantinopolitan Creed • The “Nicene Creed” expresses 4 key doctrines: • Trinitarian faith
+in God the Father, God the Son, and God the Holy Spirit • Identifies Jesus’ birth, death,
+Resurrection, and Ascension as key events in our salvation • States the 4 “marks”/characteristics of
+the Church as being one, holy, catholic, and apostolic • Affirms belief in the resurrection of the
+dead and in the Last Judgment and communion of saints The Nicene Creed: I believe in one God, the
+Father almighty, maker of heaven and earth, of all things visible and invisible.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### What the Nicene Creed tells us about the Holy Spirit
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 240
+- Year: n.d.
+- URL: https://dio.org/catholic-times/what-the-nicene-creed-tells-us-about-the-holy-spirit
+
+Consubstantial with the Father and the Son, the Spirit is inseparable from them, in both the inner
+life of the Trinity and His gift of love for the world. In
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+
+### The relation between creation and salvation in the Trinitarian ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 240
+- Year: n.d.
+- URL: https://hts.org.za/index.php/hts/article/view/1191/3244
+
+... Trinitarian, narrative theology. The significance and importance of Jenson's theology lies in
+his unique Trinitarian 'accommodation' of creation and salvation.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+
+### Trinitarian Sanctification - Counseling One Another
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents, human_stories
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 413
+- Year: n.d.
+- URL: https://counselingoneanother.com/2015/07/24/trinitarian-sanctification
+
+All three members of the divine Godhead are involved in the work of rescuing sinners like you and me
+and gradually fashioning us into the image of Jesus.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+
+### “Through Whom All Things Were Made”: Creation in Christ | Articles
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: trinity
+- Layer routes: theologians, research_documents, visual_art
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 397
+- Year: n.d.
+- URL: https://www.communio-icr.com/articles/view/through-whom-all-things-were-made
+
+God the Father is the Creator; the Son, the Redeemer; and the Holy Spirit, the Sanctifier. This is
+the classic attribution of functions to the distinct persons
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### Conscious simultaneity with continuous motion: a measure-theoretic resolution of the hard problem
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 312
+- Year: n.d.
+- URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13229847/?tool=EBI
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- trusted open-web domain present
+
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
+### Whatever next? Predictive brains, situated agents, and the future of cognitive science
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, psychology_inputs
+- Primary layer: deep_sources
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (13)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 443
+- Year: 2013
+- URL: https://doi.org/10.1017/s0140525x12000477
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- high citation signal
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Dispersion Compensation and Multi-Beam Interference Correction Algorithm for Thickness Measurement of SiC Epitaxial Layer.
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -197,18 +519,18 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 308
+- Corroborating routed candidates: 312
 - Year: 2026
-- URL: https://doi.org/10.1021/acsomega.6c00683
+- URL: https://doi.org/10.3390/s26102965
 
-The accelerating global energy transition imposes a pressing need for decarbonizing upstream oil and
-gas production. Characterized by significant thermal-hydraulic inertia, gathering systems possess
-immense potential as "flexible loads" for accommodating local wind and solar energy. However, this
-potential is constrained by stringent Flow Assurance (FA) boundaries, primarily due to nonlinear
-rheological transitions and blockage risks during the variable-condition transport of high-water-cut
-waxy crude oil. Addressing this bottleneck, this review elucidates advances in utilizing crude oil-
-water blending as a pivotal physical control lever to synergize system safety and renewable
-accommodation
+To address the main challenges in thickness estimation of SiC epitaxial layers from infrared
+reflectance spectra, including refractive index dispersion, multi-beam interference, and spectral
+uncertainty, this study develops a physics-constrained inversion framework for reflectance spectrum-
+based analysis. For the measured spectra, Savitzky-Golay filtering is first used to suppress
+spectral noise, and Gaussian fitting is then employed to improve the localization of interference
+extrema. The Sellmeier equation is introduced to characterize refractive index dispersion, and the
+layer thickness is obtained together with the dispersion parameters through nonlinear least squares
+fitting. To account
 
 Automated evidence reasons:
 - scholarly metadata provider
@@ -227,101 +549,12 @@ Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### Music and awe: complex emotions evoked by tonal dissonance.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: music_math
-- Layer routes: music_notes, deep_sources, visual_art
-- Primary layer: music_notes
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 416
-- Year: 2026
-- URL: https://doi.org/10.3389/fpsyg.2026.1767623
-
-Although previous literature has established a strong connection between awe and music, the
-influence of consonance and dissonance in this relationship remains largely unexplored. In the
-present study, participants ( N = 50) rated consonant and dissonant musical excerpts on their
-experiences of pleasure, power, and awe. The results indicate that, while consonance tends to evoke
-pleasure, dissonance elicits stronger feelings of power and awe, up to a certain point. However,
-when dissonance becomes too pronounced, such as in a highly chromatic or atonal context, feelings of
-both pleasure and power decline. More dissonant music also significantly predicted increasing
-feelings of the following s
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Check musical structure directly before using it as analogy or theological support.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### Teaching activity design and psychological practice of music majors under a convolutional neural network and transformer module.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: music_math
-- Layer routes: music_notes, deep_sources
-- Primary layer: music_notes
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 290
-- Year: 2026
-- URL: https://doi.org/10.1038/s41598-026-45673-0
-
-The purpose of this study is to explore a new mode of teaching activity design and psychological
-practice for music majors supported by the concept of STEAM education. In this study, a personalized
-recommendation system based on a convolutional neural network (CNN) and a Transformer module is
-designed and implemented. The STEAM education concept is further introduced, which is combined with
-a personalized recommendation system to design music teaching activities to improve students'
-learning effect and comprehensive quality. Finally, the performance of the model is evaluated
-experimentally. The results show that the accuracy, recall, and F1 values of the personalized
-recommendation system de
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Check musical structure directly before using it as analogy or theological support.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-
-### Integrating health humanities in medical education: a narrative scoping review of Mazandaran University of Medical Sciences and global perspectives.
+### "Self-burning is the only way to show how painful women's lives are". A qualitative study of the social context of suicidal self-burning among Iraqi Kurdish women.
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: cultural_practice_patterns, general_research_methods, politics_justice
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, research_documents, deep_sources
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
 - Primary layer: cultural_inputs
 - Provider: Europe PMC
 - Quality: scholarly metadata
@@ -330,9 +563,9 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 613
+- Corroborating routed candidates: 255
 - Year: 2026
-- URL: https://doi.org/10.1186/s13010-026-00216-3
+- URL: https://doi.org/10.1186/s12905-026-04397-z
 
 No summary available in metadata.
 
@@ -351,145 +584,136 @@ Auto approval reasons:
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Use as general research context until a more specific layer is reviewed.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### Occupational intersectionality: Introduction, contextualisation, and relevance to occupational therapy practice.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs
-- Primary layer: cultural_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 249
-- Year: 2026
-- URL: https://doi.org/10.1111/1440-1630.70094
-
-Background Intersectionality asks professionals to consider the diverse sociocultural identities and
-positionings that may directly or indirectly impact the day-to-day occupational lives of
-individuals, families, collectives, and communities. Two or more identities or diversity factors may
-create compounding societal positions of marginalisation, discrimination, and oppression.
-Intersectionality and its outcomes, when viewed through a human occupation and occupational justice
-perspective, are termed 'occupational intersectionality'. As a critical practice perspective,
-occupational intersectionality offers occupational therapists a lens to identify identities and
-positionings that perpetuate
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### Emotion-focused therapy and forgiveness in the older population: Protocol for a feasibility randomized controlled trial.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, psychology_inputs
-- Primary layer: history_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 547
-- Year: 2026
-- URL: https://doi.org/10.1371/journal.pone.0345792
-
-Over recent decades, Emotion-Focused Therapy, aging, and forgiveness have garnered significant
-attention in the field of psychology. However, there is a lack of studies on Emotion-Focused Therapy
-and forgiveness specifically tailored for older adults. This article presents a protocol designed to
-assess the feasibility and acceptability of a randomized controlled trial of Emotion-Focused Therapy
-aimed at resolving emotional injuries in individuals aged 65 and older, within the context of
-interpersonal offenses. Feasibility will be evaluated through recruitment and retention rates, as
-well as adherence to the intervention protocol. Acceptability will be assessed based on perceived
-treatment cr
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### CIA Reading Room cia-rdp80m01009a001402450006-8: PRESIDENT'S ADDRESS GLOBAL STRATEGY DISCUSSIONS 4 JUNE 1956
+### “Imposed Motherhood, Interrupted Childhood”: child marriage, postpartum trauma, and the failure of SDG commitments in Chennai's inner city
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs, visual_art, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
 - Automated evidence: moderate_scholarly_candidate (8)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 435
-- Year: 1956
-- URL: https://archive.org/details/cia-readingroom-document-cia-rdp80m01009a001402450006-8
+- Corroborating routed candidates: 501
+- Year: n.d.
+- URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13229882/?tool=EBI
 
-Declassified and Approved For Release 2013/07/30: CIA-RDP80M01009A001402450006-8 PRESIDENT'S ADDRESS
-GLOBAL STRATEGY DISCUSSIONS 4 June 1956 In reviewing the world situation this morning I will deal
-generally at first with the political and economic aspects and will then give the military picture
-as we know it. Of course I well know -- in fact, we stress hate at the War College -- that the
-political and the military are so interrelated that they should not be thought of separately. This
-is particularly true in the day of tne nuclear weapon which certainly casts a heavy sliadovi on the
-whole political, and many other,situations. There is definitely a limit to he coverage I can give to
-the wor
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- trusted open-web domain present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Dr. Zakir Naik - Complete Audio Collection (200+)
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, all_texts, other_religious_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 529
+- Year: n.d.
+- URL: https://archive.org/details/Dr.ZakirNaik1_201806
+
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Isl ā mic files. ---------------------------------------------------
+--------------------------------------------------------------------------- DR ZAKIR NAIK Born on 18
+October 1965 A medical doctor by professional training, Dr Zakir Naik is renowned as a dynamic
+international orator on Islam and Comparative Religion. He is 4 9 years old. Dr Zakir clarifies
+Islamic viewpoints and clears misconceptions about Islam, using the Qur’an, authentic Hadith and
+other religious Scriptures as a basis, in conjunction with reason, logic and scientific facts. He is
+popular f
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
-- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
 - label is moderate_scholarly_candidate
-- author and year metadata present
+- trusted open-web domain present
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### From human to posthuman bias: mapping discrimination in futuristic societies through speculative fiction.
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, visual_art, all_texts, modern_literature
+- Primary layer: history_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 601
+- Year: 2026
+- URL: https://doi.org/10.3389/fsoc.2026.1739758
+
+This study investigates the morphologies of bias in speculative fiction that depict futures
+populated by augmented humans, artificial intelligences, sentient machines, other posthuman
+entities, and algorithmically governed societies. It maps how traditional vectors of discrimination,
+such as race, gender, class, color, creed, and species, are reimagined, displaced, or re-entrenched
+in these fictional worlds. The study addresses bias through three interrelated dimensions:
+ontological, epistemological, and ethical. Proceeding from the premise that technological
+advancement may alter both the lexicon and locus of discrimination, the research argues that the
+underlying logics of exclusion and hi
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
 
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 
-### Comprehensive feature evaluation of the main facades of Catholic churches in Sichuan-Chongqing region based on semantic difference method, 1840-1949.
+### Shifting the Overton Window: enhancing therapeutic outcomes for Māori experiencing Ngā Māuiui kai (eating disorders) through the integration of traditional Māori and Western healing systems in Aotearoa New Zealand.
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -503,18 +727,18 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 291
+- Corroborating routed candidates: 295
 - Year: 2026
-- URL: https://doi.org/10.1371/journal.pone.0348806
+- URL: https://doi.org/10.3389/fpsyt.2026.1795945
 
-The existing Catholic churches constructed in the Sichuan-Chongqing region between 1840 and 1949, as
-precious carriers of Sino-Western cultural integration, have been listed in the cultural heritage
-protection catalog. This study employs the semantic difference method to conduct a quantitative
-evaluation of the main facade characteristics of these churches across five dimensions,
-operationalized through six specific evaluation criteria: relationship with the environment, facade
-contour, facade style 1 (Chinese vs. Western), facade style 2 (Folk vs. Official), facade
-decoration, and religious expression. The correlation between these facade features was also
-analyzed. The findings reveal: (1)
+Ngā māuiui kai (eating disorders) are understood within a Māori worldview as a manifestation of
+imbalance across hinengaro (mind), tinana (body), wairua (spirit) and whānau (family or support
+system). Prevailing Western treatment, which prioritise biopsychosocial interventions, do not
+address the cultural and spiritual determinants of health for Māori, creating a gap in culturally
+responsive care for Māori. This gap is rooted in and sustained by the enduring impacts of
+colonisation, which marginalised mātauranga Māori (Māori knowledge) and disrupted traditional
+healing systems. This paper proposes that Specialist Supportive Clinical Management, a flexible,
+patient-centred psychotherapy, prov
 
 Automated evidence reasons:
 - scholarly metadata provider
@@ -533,151 +757,12 @@ Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### The unsung heroes of traditional healers in healing and traditional medicine in dementia care for Indigenous populations in North America: an exploration of a compassionate, community-led care model.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: world_languages_translation
-- Layer routes: world_languages, all_texts, visual_art
-- Primary layer: world_languages
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 421
-- Year: 2026
-- URL: https://doi.org/10.3389/fpubh.2026.1800362
-
-This paper explores the critical role, experience, and wisdom of traditional healers in providing
-culturally-safe dementia care for Indigenous populations in North America, particularly as the
-prevalence of dementia in these communities continues to rise. It highlights the varying perceptions
-of dementia across cultures; for instance, while Western medicine often views it as a disease, many
-Indigenous cultures interpret it as a spiritual transition within the life cycle. A literature
-review conducted from 2000 to 2025 indicates that the marginalization of traditional healers within
-formal healthcare systems significantly hinders the delivery of culturally sensitive dementia care.
-Community-l
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### Sacred space in motion: geography, time, and texts in the historiography of Lingyan Temple.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: psychology_patterns, world_languages_translation
-- Layer routes: psychology_inputs, human_stories, world_languages, all_texts, history_inputs, other_religious_texts
-- Primary layer: psychology_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 581
-- Year: 2026
-- URL: https://doi.org/10.3389/fsoc.2026.1720249
-
-This study examines the historiography of Lingyan Temple, a prominent Buddhist temple in Jinan,
-through an empirical and positivist lens. The study delineates the temple's historical evolution
-from the Eastern Jin dynasty to the present, employing a synthesis of geographical analysis,
-archaeological findings, epigraphic documentation, and bibliographic references. The analysis
-emphasizes three interrelated facets of Lingyan's historiography. The temple's prominent role in
-regional Buddhist networks was primarily influenced by its strategic location at the intersection of
-cultural and political routes in northern China. Second, the historical reconstruction of Lingyan's
-beginning, rise, fall,
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### Mediating reconciliation with God: Exploring divine forgiveness experiences during confession among Catholic priests from four Spanish-speaking countries.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: cultural_practice_patterns, world_language_source_sampling
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, world_languages, all_texts, other_religious_texts, visual_art
-- Primary layer: cultural_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 671
-- Year: 2026
-- URL: https://doi.org/10.1371/journal.pone.0347608
-
-Divine forgiveness (DF), the subjective experience of being forgiven by a higher power after a
-transgression, remains understudied in psychology, particularly across diverse cultural and
-religious contexts. This study examines priests' experiences and understandings of DF, both as
-confessors and penitents, in the Catholic Sacrament of Confession through semi-structured interviews
-with ten Spanish-speaking priests from Spain, Mexico, Peru, and Chile. Guided by a constructivist
-stance and a Christian-sensitive relational spirituality model of personal sin, we conducted a
-theory-informed framework analysis combining inductive coding with iterative matrix-based synthesis.
-Findings showed that 1)
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### Religious and cultural influences on domestic violence attitudes and responses in UK ethnic minority and migrant communities: A qualitative inquiry.
+### The Right to Development and disparities in healthcare access: Qualitative study from rural Ontario, Canada.
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts, visual_art, pattern_tests
+- Layer routes: world_languages, all_texts, other_religious_texts, visual_art
 - Primary layer: world_languages
 - Provider: Europe PMC
 - Quality: scholarly metadata
@@ -686,18 +771,18 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 585
-- Year: 2025
-- URL: https://doi.org/10.1177/26330024251391813
+- Corroborating routed candidates: 481
+- Year: 2026
+- URL: https://doi.org/10.1371/journal.pgph.0005758
 
-The current paper presents findings from qualitative research on domestic violence and abuse (DVA)
-with Christians and Muslims from Ethiopian, Eritrean, and Bangladeshi communities in the United
-Kingdom (UK). The study explored understandings of and attitudes toward DVA and responses that
-integrated cultural and religious institutions and resources. Qualitative research was conducted
-with the help of community-based researchers with existing links and relationships of trust in the
-respective communities. Three researchers conducted 16 interviews and one focus group discussion
-with eight participants (total n = 24). The study added to the existing evidence on barriers that
-DVA victims from et
+The Right to Development is the UN-recognised principle that frames development as a human right,
+emphasising equitable access to resources and opportunities. As enshrined in the UN Declaration on
+Human Rights, it affirms that all individuals should be able to participate in, contribute to, and
+benefit from development processes, including healthcare. This study examines how ethnic minorities
+in Oxford County, rural Ontario, perceive their healthcare access and identify barriers to their
+right to development. Using a qualitative interpretive approach, in-depth semi-structured interviews
+were conducted with 25 participants, 16 men and 9 women, between January and April 2025. Data were
+analyse
 
 Automated evidence reasons:
 - scholarly metadata provider
@@ -717,144 +802,13 @@ Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### It takes a community to hope: development and validation of the HOPE-4 scale in an Arab-Islamic context.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: pattern_perception_divine_response
-- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, other_religious_texts
-- Primary layer: psychology_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 581
-- Year: 2026
-- URL: https://doi.org/10.3389/fpsyg.2026.1798552
-
-Background Hope research has been constrained by Western-centric models that prioritize individual
-agency and pathways, often neglecting relational and transcendent dimensions prominent in
-collectivist and religious societies. Method Using a genetic algorithm, we developed and validated
-the HOPE-4 scale across two independent samples of Algerian adults (Study 1: N = 338; Study 2: N =
-290; total N = 628), comprising four facets: Willpower (agency), Waypower (pathways), Faith-Based
-Hope (transcendent trust), and Communal Hope (relational solidarity). Results Confirmatory factor
-analysis supported a hierarchical structure with excellent fit, high internal consistency ( α =
-0.93-0.95; ω = 0.96-0
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### A collaborative approach to applying Natural Language Processing (NLP) to Domestic Homicide Reviews (DHRs): A study protocol.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: pattern_perception_divine_response
-- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, visual_art, world_languages
-- Primary layer: psychology_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 681
-- Year: 2026
-- URL: https://doi.org/10.1371/journal.pone.0348948
-
-Since 2011, there has been a statutory requirement in England and Wales to conduct a Domestic
-Homicide Review (DHR) into any domestic abuse-related death: a multi-agency review into the death of
-a person aged 16 or over that appears resulting from violence, abuse or neglect from an intimate
-partner, family member or household member. However, analyses of large numbers of DHRs are rare. One
-of the core challenges is the time and effort required to analyse narrative text within reports.
-Doing so manually is both time-consuming and resource-intensive and is a primary reason why
-researchers typically focus on only a portion of the available data. Natural Language Processing
-(NLP)-a sub-branch of
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### Bibliography
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature
-- Primary layer: all_texts
-- Provider: Crossref
-- Quality: scholarly metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 334
-- Year: n.d.
-- URL: https://doi.org/10.5040/9781472550194.0008
-
-No summary available in metadata.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- recognized scholarly source type
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-
-### A bibliometric and systematic study on public policy, health, and culture in the transformation of gender equity.
+### A landscape analysis of psychedelic facilitation training in the US.
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, deep_sources
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, all_texts
 - Primary layer: cultural_inputs
 - Provider: Europe PMC
 - Quality: scholarly metadata
@@ -863,18 +817,64 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 612
+- Corroborating routed candidates: 594
 - Year: 2026
-- URL: https://doi.org/10.3389/fsoc.2026.1800195
+- URL: https://doi.org/10.1371/journal.pone.0350037
 
-Introduction Gender equity remains a central issue in contemporary research and public policy,
-shaped by structural, cultural, and institutional inequalities. Despite increased academic
-attention, the field continues to exhibit fragmentation across disciplines and persistent gaps,
-particularly in intersectional and Global South perspectives. This study aims to analyze the
-evolution, patterns, and thematic structure of scientific production on gender equity from an
-interdisciplinary perspective. Methods A bibliometric review complemented with systematic elements
-was conducted following PRISMA 2020 guidelines. A total of 835 records were identified from Scopus
-and Web of Science, of which 129
+Skilled interpersonal support and safety monitoring can enhance the therapeutic potential of
+psychedelic compounds and reduce the potential for harm. In the anticipation of legalized
+psychedelic care, and the recognition of ongoing psychedelic use across a variety of contexts,
+numerous training programs have been established to educate psychedelic facilitators in supporting
+individuals who take psychedelics. However, psychedelic facilitation training in the US has not been
+well characterized, making it difficult to appraise the strengths, needs, and gaps in this emerging
+discipline, especially with regard to the development of competencies in spiritually responsive
+care. This project used a
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### Sexual and gender based violence in Nigeria tertiary institutions: exploring the roles of stakeholders and best practices.
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art
+- Primary layer: cultural_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 501
+- Year: 2026
+- URL: https://doi.org/10.3389/fgwh.2026.1700008
+
+Sexual and Gender-Based Violence (SGBV) remains a major global public health and human rights
+concern with profound implications for women's safety, dignity, and quality of life. In Nigeria,
+SGBV is pervasive, particularly within tertiary institutions, where young women and adolescent girls
+face heightened vulnerability. This study explored the roles of key stakeholders and identified best
+practices in addressing SGBV within Nigerian higher education institutions to inform effective
+policies and interventions. A cross-sectional, sequential mixed-methods design was employed.
+Quantitative data were collected from 4,142 participants across tertiary institutions in Kaduna,
+Enugu, Osun, and the F
 
 Automated evidence reasons:
 - scholarly metadata provider
@@ -894,35 +894,41 @@ Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Separate psychological/social process from theological interpretation and note clinical limits.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### Global burden of enteric infectious diseases, diarrhoeal diseases, and corresponding aetiologies, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023.
+### Encountering pain: images as a tool for collaborative approaches to pain medicine.
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: general_research_methods
-- Layer routes: research_documents, deep_sources
+- Layer routes: research_documents, deep_sources, visual_art
 - Primary layer: research_documents
-- Provider: PubMed
+- Provider: Europe PMC
 - Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (13)
+- Automated evidence: strong_scholarly_candidate (11)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 328
+- Corroborating routed candidates: 456
 - Year: 2026
-- URL: https://pubmed.ncbi.nlm.nih.gov/42229499/
+- URL: https://doi.org/10.1097/j.pain.0000000000003973
 
-Lancet Infect Dis
+Abstract Chronic pain remains a multifactorial complex common condition, difficult for patients to
+communicate or fully understand. We argue the arts can raise public awareness, play a role in
+capturing patients' subjective narratives, improve wellbeing, and increase mutual understanding in
+the clinic. Through sharing findings from over 2 decades evidencing the value of photographic images
+as both assessment and communication tools, we demonstrate images can facilitate democratic and
+collaborative interaction, enabling patients to retain ownership of their illness experience. We
+describe how the cocreation of photographic images by a visual artist with chronic pain patients
+enabled individua
 
 Automated evidence reasons:
 - scholarly metadata provider
-- trusted archive, university, government, museum, library, or public-domain domain
 - DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
-- recognized scholarly source type
+- summary or abstract metadata available
+- some citation signal
 
 Auto approval reasons:
 - automated score >= 7
@@ -932,498 +938,48 @@ Auto approval reasons:
 Layer review prompts:
 - Use as general research context until a more specific layer is reviewed.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
-
-### Spiritual Gifts in Cross-Cultural Service | PDF | Acts Of The Apostles
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: holy_spirit_gifts_global
-- Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, all_texts
-- Primary layer: theologians
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 576
-- Year: n.d.
-- URL: https://www.scribd.com/document/554271578/Outline-Version-the-Necessity-of-Spiritual-Gifts
-
-The spiritual gifts, such as speaking in tongues, healing, and prophecy, provided what human
-strength could not; the means to break cultural, linguistic
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### GIFTS OF THE SPIRIT Vocal Gifts - Diverse tongues - Facebook
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: holy_spirit_gifts_global
-- Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, all_texts
-- Primary layer: theologians
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 576
-- Year: n.d.
-- URL: https://www.facebook.com/groups/341865865854317/posts/1225915394116022
-
-The gifts of the holy spirit include wisdom, knowledge, faith, healing, miracles, prophecy,
-discerning spirits, tongues, interpreting.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### Do the Gifts of the Spirit, Including Speaking in Tongues, Still ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: holy_spirit_gifts_global
-- Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs
-- Primary layer: theologians
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 511
-- Year: n.d.
-- URL: https://forums.crosswalk.com/t/do-the-gifts-of-the-spirit-including-speaking-in-tongues-still-operate-today/8770?page=2
-
-Tongues are not the center of our faith. Christ is. But if the Spirit still pours out tongues,
-prophecy, healing, and discernment, then who
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### Have you ever witnessed genuine manifestations of charismatic gifts ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: holy_spirit_gifts_global
-- Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs
-- Primary layer: theologians
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 511
-- Year: n.d.
-- URL: https://www.reddit.com/r/TrueChristian/comments/wlvu9m/have_you_ever_witnessed_genuine_manifestations_of
-
-By "charismatic gifts" I mean apostleship, prophecy, tongues, words of knowledge and the ability to
-heal and perform miracles.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### About Called & Gifted - Catherine of Siena Institute
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: holy_spirit_gifts_global
-- Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, all_texts
-- Primary layer: theologians
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 576
-- Year: n.d.
-- URL: https://siena.org/called-gifted
-
-This powerful discernment process helps Christians recognize the charisms—spiritual gifts—they've
-been given not just for their own sake, but to represent
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### Discerning and Using Spiritual Gifts - RAPT Interviews
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: holy_spirit_gifts_global
-- Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, all_texts
-- Primary layer: theologians
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 576
-- Year: n.d.
-- URL: https://raptinterviews.com/articles/discerning-and-exercising-spiritual-gifts
-
-A 'spiritual gift' is an ability that comes to you freely for the purpose of ministering to needs,
-so as to build up Christian community in size and depth.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### Artificial intelligence and human dignity: ident… — Library of Science
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: technology_ethics
-- Layer routes: cultural_inputs, visual_art, deep_sources
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 497
-- Year: n.d.
-- URL: https://bibliotekanauki.pl/articles/64166057
-
-PDF - Artificial intelligence and human dignity: identifying the main ethical issues. # Artificial
-intelligence and human dignity: identifying the main ethical issues. This study explores how the
-rapid development and use of AI affect the understanding and preservation of human dignity within
-the framework of Catholic moral theology. The research employs a qualitative literature-based
-methodology, drawing upon Vatican documents, publications from the Pontifical Academy for Life,
-academic journals, and policy papers to examine the moral implications of AI. The findings argue
-that the Church’s teaching on human dignity and the common good provides a necessary moral
-foundation for evaluating te
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-
-### Human Dignity and the Ethics of Artificial Intelligence: A Framework for Responsible Design and Use from the Perspective of Catholic Social Teaching | IEEE Conference Publication | IEEE Xplore
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: technology_ethics
-- Layer routes: cultural_inputs, visual_art
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 286
-- Year: n.d.
-- URL: https://ieeexplore.ieee.org/document/11098185
-
-Human Dignity and the Ethics of Artificial Intelligence: A Framework for Responsible Design and Use
-from the Perspective of Catholic Social Teaching | IEEE Conference Publication | IEEE Xplore. #
-Human Dignity and the Ethics of Artificial Intelligence: A Framework for Responsible Design and Use
-from the Perspective of Catholic Social Teaching. The increasing use of artificial intelligence (AI)
-has brought ethical issues into sharp focus, affecting generative AI, predictive AI, robotics and
-autonomous devices, a...Show More. In this paper, we examine AI ethical questions from the
-perspective of Catholic Social Teaching (CST), a framework with philosophical and theological
-foundations, governi
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### Human Dignity in the Digital Age | Journal of Ethics and Emerging Technologies
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: technology_ethics
-- Layer routes: cultural_inputs, visual_art
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 286
-- Year: n.d.
-- URL: https://jeet.ieet.org/index.php/home/article/view/165
-
-human dignity, digital ethics, Dignitas Infinita, Catholic Social Teaching, misinformation, digital
-violence, common-sense bias, imago Dei, Bernard Lonergan, synodal method. This article examines the
-theological and ethical implications of human dignity in the digital age, grounded in the
-magisterial declaration *Dignitas Infinita*. The study underscores the role of the Church in
-fostering ethical digital environments and proposes solutions informed by theological and
-philosophical traditions, grounded in the method of synodality. Steven Umbrello is currently the
-Managing Director at the Institute for Ethics and Emerging Technologies and a research fellow at the
-University of Turin. He is al
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### A Culturally Grounded Method for Dialogue Between Indigenous Peoples and Researchers on Emerging Technologies: Lessons from the Gene Drive Context.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: technology_ethics
-- Layer routes: cultural_inputs, visual_art
-- Primary layer: cultural_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 285
-- Year: 2026
-- URL: https://doi.org/10.12688/gatesopenres.16383.1
-
-This paper presents a participatory method for conducing a collaborative and culturally appropriate
-dialogue process between gene drive researchers and Indigenous Peoples and local communities.
-Coordinated by the Outreach Network for Gene Drive Research and representatives of the International
-Indigenous Forum on Biodiversity (IIFB), this dialogue aimed to build trust and facilitate mutual
-understanding and create a safe space for sharing traditional knowledge, rather than to reach
-decisions on the research or implementation of gene drive technology. Over a three-year period, the
-dialogue evolved through multiple formats, recognising the specific needs to establish a meaningful
-and culturall
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### Relational-temporal dignity at the end of life: Ethical foundations for the DiRePal model in the algorithmic age.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: technology_ethics
-- Layer routes: cultural_inputs, visual_art, psychology_inputs, pattern_tests
-- Primary layer: cultural_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 486
-- Year: 2026
-- URL: https://doi.org/10.1017/s1478951526102648
-
-Objectives The increasing presence of artificial intelligence (AI), electronic patient-reported
-outcomes (ePROMs), and digital infrastructures in palliative care is transforming how clinical
-encounters are organized and how suffering is interpreted. These technological shifts heighten the
-risk of relational compression and a reduction of dignity to measurable outputs. This paper proposes
-the DiRePal model (Relational-Temporal Dignity in Palliative Care) as a philosophical framework to
-re-examine dignity beyond coherent narrative identity or autonomy-centered ethics, emphasizing
-relational presence, temporal sensitivity, and structural conditions of care. Methods A
-philosophical-ethical analy
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### VOA [Voice of America] Africa : January 29, 2018 02:00PM-03:00PM EST
+### Ethical review key considerations for organoid applications in biomedical research—a systematic review
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: technology_ethics
 - Layer routes: cultural_inputs
+- Primary layer: cultural_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 167
+- Year: n.d.
+- URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13229853/?tool=EBI
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- trusted open-web domain present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+
+### VOA [Voice of America] Global English : March 18, 2020 01:00PM-02:00PM EDT
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: technology_ethics
+- Layer routes: cultural_inputs, modern_literature
 - Primary layer: cultural_inputs
 - Provider: Internet Archive
 - Quality: reference metadata
@@ -1432,18 +988,18 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 163
-- Year: 2018
-- URL: https://archive.org/details/VOA_Africa_20180129_190000
+- Corroborating routed candidates: 260
+- Year: 2020
+- URL: https://archive.org/details/VOA_Global_English_20200318_170000
 
-Closed captions transcript: 00:00:00 Often point to McCabe's wife's running for a state Senate seat
-last year as 00:00:04 a Democrat in Virginia and now here in the u.s. 00:00:07 Key Republicans have
-voiced strong support for special counsel Robert Muller's 00:00:12 handling of the investigation
-into Russian meddling in the 2016 presidential 00:00:17 election but split on whether Congress needs
-to approve legislation to block 00:00:22 President Trump from firing Robert Muller United States
-senator from South Carolina 00:00:27 Republican Lindsey Graham says he hopes the president does not
-fire model or die in 00:00:31 the White House knows it be the end of the president jobs presidency
-he fir
+Closed captions transcript: 00:00:01 In some countries seems to be out of control I'm Julie Walker
+00:00:04 a new study on the coded 1000 virus suggests the virus can remain infectious longer
+00:00:09 than 1st thought Reuters Ecker Goldman has more the highly contagious novel 00:00:14
+coronavirus that has exploded into 00:00:16 a global pandemic might be even more transmittable and
+resilient than previously 00:00:20 thought 00:00:21 a new study published Tuesday shows the virus
+can remain viable and infectious in 00:00:26 droplets in the air for hours and on surfaces up to
+days the tests published in The 00:00:31 New England Journal of Medicine Show that when the virus is
+released into the a
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -1458,97 +1014,14 @@ Auto approval reasons:
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 
-### Blog Post: AI, Work, and Human Dignity | News | News & Events | Ethics and the Common Good | University of Notre Dame
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: technology_ethics
-- Layer routes: cultural_inputs, deep_sources
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 437
-- Year: n.d.
-- URL: https://ethics.nd.edu/news-and-events/news/blog-post-ai-work-and-human-dignity
-
-4. Blog Post: AI, Work, and Human Dignity. *This is the seventh and final post in the “AI and the
-Future of Work” series hosted on the Notre Dame-IBM Technology Ethics Lab’s blog. In the *Groundwork
-of the Metaphysics of Morals*, Kant distinguishes between what has a *price*—and can therefore be
-exchanged for an equivalent—and what has *dignity*, which is "raised above all price and therefore
-admits of no equivalent." One Kantian formulation, the formula of humanity, requires treating
-persons "always at the same time as an end, never merely as a means." Applied to workplace AI, the
-operative word is “merely.” The violation occurs not when an AI system supports or coordinates work,
-but when i
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- open-web source requires manual review
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-
-### [PDF] Human Dignity and the Ethics of Artificial Intelligence
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: technology_ethics
-- Layer routes: cultural_inputs, visual_art
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 286
-- Year: n.d.
-- URL: https://www.wpunj.edu/cosh/macs-scholars-program/assets/Ethics.pdf
-
-Most recently, the Vatican’s 2025 document, Antiqua et Nova, addresses the ethical and
-anthropological challenges posed by AI, emphasizing the need for responsible development that aligns
-with human dignity and the common good. This shared ethical perspective can shape policy
-discussions, corporate AI strategies, and global governance efforts, ensuring that AI technologies
-reflect fundamental values that protect human dignity and the social fabric. V. CASE STUDIES AND
-IMPLEMENTATION ISSUES In this section, we analyze seven case studies from a CST perspective,
-illustrating how the CST principles outlined above align with fairness, transparency, and
-accountability in AI governance and developm
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- open-web source requires manual review
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### [EPUB] 'Whatever became of that earlier time of grace?' Luther, Bonhoeffer ...
+### [PDF] 21 Trinity, Christology, and pneumatology
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
 - Tags: theologians_cross_era
-- Layer routes: theologians, research_documents/christian_sources, visual_art
+- Layer routes: theologians, research_documents/christian_sources, biblical_languages
 - Primary layer: theologians
 - Provider: Tavily Search
 - Quality: open web result
@@ -1557,12 +1030,12 @@ Layer review prompts:
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 401
+- Corroborating routed candidates: 251
 - Year: n.d.
-- URL: https://hts.org.za/index.php/hts/article/view/4808/10929
+- URL: https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/BEEE26B7603ADFBA41E75841E3722F92/9780511975875c21_p365-380_CBO.pdf/trinity_christology_and_pneumatology.pdf
 
-In the third part, Dietrich Bonhoeffer's theology is brought into conversation with Luther. It is
-asked how Bonhoeffer received Luther's
+contemporary theology as the economic and immanent Trinity). Here is the intrinsic connection
+between the immanent and economic Trinity. It is through
 
 Automated evidence reasons:
 - broad open-web search result
@@ -1582,9 +1055,98 @@ Automated evidence warnings:
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Check Christian source context, doctrine, and source quality.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
 
-### The Greatest Christian Thinkers In History: Interview with Dr. Ken ...
+### Exploring Pneumatology: Historical Insights & Modern Challenges
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources, history_inputs, biblical_languages
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 364
+- Year: n.d.
+- URL: https://www.cliffsnotes.com/study-notes/21910749
+
+development of Pneumatology, describing the following stages: (1) Patristic; (2) Medieval; (3)
+Reformation; (4) Modern. In light of this
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+
+### Patristic Theology - The Gospel Coalition
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources, all_texts
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 448
+- Year: n.d.
+- URL: https://www.thegospelcoalition.org/essay/patristic-theology
+
+A study in the understanding of God, His revelation, and His work as expressed by thinkers in early
+centuries of the Church. The essence of patristic theology was true and sincere worship of the
+Triune God understood through the redemptive plan of God in Scripture centered on the incarnate Word
+of God. The theory that the church fathers were merely Platonizing philosophers seeking to blindly
+marry Hellenism to Scripture, a theory proposed in the nineteenth and early twentieth centuries,
+simply does not stack up against their biblically saturated writings. Theological reflection in the
+patristic tradition was intimately connected with true worship of God, which included the proper
+understandi
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### Who, in your opinion, are the most brilliant, groundbreaking and ...
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
@@ -1598,12 +1160,12 @@ Layer review prompts:
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 477
+- Corroborating routed candidates: 484
 - Year: n.d.
-- URL: https://www.youtube.com/watch?v=KKsZ9EObbv8
+- URL: https://www.facebook.com/groups/progressivecatholicseurope/posts/8951206311662462
 
-... Athanasius, Augustine, Anselm, Thomas Aquinas, Martin Luther, John Calvin, Blaise Pascal, and
-C.S. Lewis. Athanasius and the Arian
+The most influential theologians in church history are Augustine, Aquinas, Luther, Calvin, and
+Barth. Cresente Faustino ▻ C.H.A.R.M. PHILIPPINES.
 
 Automated evidence reasons:
 - broad open-web search result
@@ -1626,7 +1188,44 @@ Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 
-### 012 Contemporary Theologians - Reedings
+### Details for Fifty key Christian thinkers / › Lancaster Theological ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources, visual_art
+- Primary layer: theologians
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (6)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 406
+- Year: n.d.
+- URL: https://lancasterlibrary.moravian.edu/bib/108299
+
+Abelard -- Anselm -- Aquinas -- Arius -- Athanasius -- Augustine -- Baillie, John and Donald --
+Barth -- Boethius -- Bonhoeffer -- Brunner -- Bultmann -- Calvin
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- open-web source requires manual review
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### [EPUB] The 40 Most Influential Christians Who Shaped What We Believe ...
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
@@ -1640,12 +1239,12 @@ Layer review prompts:
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 247
+- Corroborating routed candidates: 248
 - Year: n.d.
-- URL: https://www.reedings.com/1992/04/012-contemporary-theologians
+- URL: https://dokumen.pub/download/the-40-most-influential-christians-who-shaped-what-we-believe-today-9781441261564-1441261567.html
 
-Though Bonhoeffer embraced his Lutheran tradition's emphasis on salvation through grace alone, he
-insisted Christ's grace must not be
+Irenaeus should be commended for creating “a prototype of Christian theology and what is probably
+(even if cumbersome) the most thorough of all the earliest
 
 Automated evidence reasons:
 - broad open-web search result
