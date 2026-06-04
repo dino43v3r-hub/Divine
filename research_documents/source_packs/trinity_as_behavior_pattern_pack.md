@@ -65,3 +65,12 @@ test authority, gifts, and communal emotion by fruit and accountability.
 Analogy from sociology and ritual studies remains helpful but insufficient.
 Failure condition: reject any use that turns Trinitarian language into vague
 symbolism or spiritual control.
+
+## 2026-06-04 Third-Pass Reviewed Decision
+
+Evidence should add council history, global church practice, Spirit-gift
+discernment, abuse-pressure cases, and ritual-studies rivals. Interpretation
+may connect doctrine to gift, Christ-following, and Spirit transformation while
+preserving Father, Son, and Spirit. Discernment asks whether practice produces
+love, holiness, humility, unity, justice, and service. Failure condition:
+reject any version that uses divine language to secure unaccountable authority.

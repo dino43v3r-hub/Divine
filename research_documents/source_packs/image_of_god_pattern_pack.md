@@ -64,3 +64,12 @@ people who cannot perform, speak, produce, or defend themselves. Analogy from
 rights discourse and psychology can illuminate dignity, but practical use must
 be protection, access, listening, and repair. Failure condition: weaken any
 version that makes vulnerable people prove their worth.
+
+## 2026-06-04 Third-Pass Reviewed Decision
+
+Evidence should add disability-rights texts, Dalit and Black theology, migration
+history, and language/personhood notes. Interpretation remains a Christian
+anthropological claim. Discernment must ask whether dignity protects people
+under poverty, disability, incarceration, caste, and racialization. Analogy from
+rights discourse and psychology remains secondary. Failure condition: weaken any
+version that treats personhood as earned status.

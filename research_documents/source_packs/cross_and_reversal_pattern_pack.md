@@ -63,3 +63,12 @@ hope, not a general theory that suffering is good. Discernment must ask whether
 truth, safety, justice, and repair are being protected. Analogy from martyr
 sociology and trauma coping remains secondary. Failure condition: reject any
 cross-language that requires victims to remain available for harm.
+
+## 2026-06-04 Third-Pass Reviewed Decision
+
+Evidence should add coerced-forgiveness cases, faith-healing scandals, martyr
+memory, abuse histories, and trauma theology. Interpretation remains cross and
+resurrection hope, not suffering-as-good. Discernment must ask whether safety,
+truth, accountability, and repair are protected. Analogy from moral injury and
+martyr sociology can illuminate but not prove. Failure condition: reject any
+version that turns harmed people into instruments.

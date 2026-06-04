@@ -64,3 +64,12 @@ inside contingency, not certainty about hidden causes. Discernment must ask
 whether chance, social causation, survivor bias, or retrospective meaning-making
 explains the case better. Practical use is faithful action under uncertainty.
 Failure condition: weaken any claim that turns tragedy into a tidy message.
+
+## 2026-06-04 Third-Pass Reviewed Decision
+
+Evidence should add quantum randomness guardrails, exile, war, disease, failed
+prediction, survivor-bias checks, and public-health history. Interpretation may
+speak of faithful trust under contingency, not certainty about hidden causes.
+Discernment must compare chance, social causation, complexity, trauma coping,
+and retrospective meaning-making. Failure condition: weaken any version that
+uses probability or quantum language as providence proof.

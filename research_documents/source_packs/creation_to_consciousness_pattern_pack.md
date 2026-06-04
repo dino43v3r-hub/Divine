@@ -63,3 +63,12 @@ Discernment must face waste, predation, dementia, nonverbal life, and failed
 science analogies. Analogy from emergence and cognitive science can explain
 many patterns. Failure condition: weaken any version that turns consciousness
 into a ladder of superiority.
+
+## 2026-06-04 Third-Pass Reviewed Decision
+
+Evidence should add quantum guardrails, ecology, animal suffering, disability,
+dementia, and philosophy-of-science notes. Interpretation may read creation as
+gift and vocation, not scientific proof. Discernment must separate physics,
+biology, mind, metaphor, and theology. Analogy from emergence, cognitive
+science, and quantum popularization must remain marked. Failure condition:
+weaken any version that uses science words to pressure belief.

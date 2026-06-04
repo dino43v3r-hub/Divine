@@ -1,6 +1,6 @@
 # Daily Cloud Research Results
 
-Generated: 2026-06-04T20:33:47.341064+00:00
+Generated: 2026-06-04T20:57:57.471759+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 Full reports are committed in the repository under `reports/`.
@@ -9,28 +9,28 @@ Full reports are committed in the repository under `reports/`.
 
 | Report | Read full file |
 | --- | --- |
-| `ai_backend_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/ai_backend_report.txt) |
-| `divine_pattern_reader_book.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_reader_book.txt) |
-| `disciplined_theological_assistant_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/disciplined_theological_assistant_report.txt) |
-| `divine_pattern_summary_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_summary_report.txt) |
-| `top_five_divine_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/top_five_divine_patterns_report.txt) |
-| `cloud_research_findings_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cloud_research_findings_report.txt) |
-| `divine_pattern_research_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_research_report.txt) |
-| `divine_pattern_candidates_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_candidates_report.txt) |
-| `divine_pattern_test_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/divine_pattern_test_report.txt) |
-| `deep_source_review_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/deep_source_review_report.txt) |
-| `theologian_pattern_design_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/theologian_pattern_design_report.txt) |
-| `cross_layer_reasoning_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cross_layer_reasoning_report.txt) |
-| `music_note_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_note_patterns_report.txt) |
-| `music_lyric_patterns_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/music_lyric_patterns_report.txt) |
-| `cultural_pattern_relationships_report.txt` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/reports/cultural_pattern_relationships_report.txt) |
-| `daily_evaluation_queue.md` | [available](https://github.com/dino43v3r-hub/Divine/blob/main/research_documents/daily_evaluation_queue.md) |
+| `ai_backend_report.txt` | [available](reports/ai_backend_report.txt) |
+| `divine_pattern_reader_book.txt` | [available](reports/divine_pattern_reader_book.txt) |
+| `disciplined_theological_assistant_report.txt` | [available](reports/disciplined_theological_assistant_report.txt) |
+| `divine_pattern_summary_report.txt` | [available](reports/divine_pattern_summary_report.txt) |
+| `top_five_divine_patterns_report.txt` | [available](reports/top_five_divine_patterns_report.txt) |
+| `cloud_research_findings_report.txt` | [available](reports/cloud_research_findings_report.txt) |
+| `divine_pattern_research_report.txt` | [available](reports/divine_pattern_research_report.txt) |
+| `divine_pattern_candidates_report.txt` | [available](reports/divine_pattern_candidates_report.txt) |
+| `divine_pattern_test_report.txt` | [available](reports/divine_pattern_test_report.txt) |
+| `deep_source_review_report.txt` | [available](reports/deep_source_review_report.txt) |
+| `theologian_pattern_design_report.txt` | [available](reports/theologian_pattern_design_report.txt) |
+| `cross_layer_reasoning_report.txt` | [available](reports/cross_layer_reasoning_report.txt) |
+| `music_note_patterns_report.txt` | [available](reports/music_note_patterns_report.txt) |
+| `music_lyric_patterns_report.txt` | [available](reports/music_lyric_patterns_report.txt) |
+| `cultural_pattern_relationships_report.txt` | [available](reports/cultural_pattern_relationships_report.txt) |
+| `daily_evaluation_queue.md` | [available](research_documents/daily_evaluation_queue.md) |
 
 ## Quick Highlights
 
 The sections below are only short previews. Use the links above for the full reports.
 
-## reports/ai_backend_report.txt
+## reports\ai_backend_report.txt
 
 ```text
 AI Knowledge Backend Report
@@ -52,10 +52,10 @@ How An LLM Should Use It
 ------------------------
 1. Retrieve source documents from the index before drafting claims.
 
-_Full report has 72 lines. Open the linked report above to read everything._
+_Full report has 89 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_reader_book.txt
+## reports\divine_pattern_reader_book.txt
 
 ```text
 The Divine Pattern Reader
@@ -80,7 +80,7 @@ Journal Entry: What I Am Learning
 _Full report has 435 lines. Open the linked report above to read everything._
 ```
 
-## reports/disciplined_theological_assistant_report.txt
+## reports\disciplined_theological_assistant_report.txt
 
 ```text
 Disciplined Theological Assistant Report
@@ -105,7 +105,7 @@ The search engine remains essential. It keeps scanning scripture, theology, cult
 _Full report has 396 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_summary_report.txt
+## reports\divine_pattern_summary_report.txt
 
 ```text
 Divine Pattern Summary Report
@@ -127,10 +127,10 @@ Chapter One: What Grew In The Latest Run?
 -----------------------------------------
 This chapter summarizes the newest retained research movement. The details matter, but the main question is simple: what new material helps the project understand God's pattern more carefully, and what still needs review?
 
-_Full report has 501 lines. Open the linked report above to read everything._
+_Full report has 503 lines. Open the linked report above to read everything._
 ```
 
-## reports/top_five_divine_patterns_report.txt
+## reports\top_five_divine_patterns_report.txt
 
 ```text
 Top Five Divine Pattern Families Report
@@ -155,7 +155,7 @@ The Five Leading Pattern Chapters
 _Full report has 255 lines. Open the linked report above to read everything._
 ```
 
-## reports/cloud_research_findings_report.txt
+## reports\cloud_research_findings_report.txt
 
 ```text
 Cloud Research Findings Report
@@ -180,7 +180,7 @@ Online Collection Status
 _Full report has 402 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_research_report.txt
+## reports\divine_pattern_research_report.txt
 
 ```text
 Divine Pattern Research Report
@@ -195,17 +195,17 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 48
-Total analyzed words: 742,256
+Documents analyzed: 51
+Total analyzed words: 743,483
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
 
-_Full report has 1,286 lines. Open the linked report above to read everything._
+_Full report has 1,326 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_candidates_report.txt
+## reports\divine_pattern_candidates_report.txt
 
 ```text
 Divine Pattern Candidates Report
@@ -230,7 +230,7 @@ Status: high internal signal; not proof
 _Full report has 96 lines. Open the linked report above to read everything._
 ```
 
-## reports/divine_pattern_test_report.txt
+## reports\divine_pattern_test_report.txt
 
 ```text
 Divine Pattern Pressure-Test Report
@@ -248,14 +248,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 25
-Test words analyzed: 3,483
+Test documents analyzed: 26
+Test words analyzed: 3,726
 
 
-_Full report has 595 lines. Open the linked report above to read everything._
+_Full report has 617 lines. Open the linked report above to read everything._
 ```
 
-## reports/deep_source_review_report.txt
+## reports\deep_source_review_report.txt
 
 ```text
 Deep Source Review Report
@@ -275,12 +275,12 @@ Status: source-supported
 Area signal: 18
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
-- Scripture/Theology: present (23)
+- Scripture/Theology: present (25)
 
-_Full report has 315 lines. Open the linked report above to read everything._
+_Full report has 335 lines. Open the linked report above to read everything._
 ```
 
-## reports/theologian_pattern_design_report.txt
+## reports\theologian_pattern_design_report.txt
 
 ```text
 Theologian Pattern Design Report
@@ -293,8 +293,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 15
-Total theologian words analyzed: 8,980
+Theologian documents analyzed: 16
+Total theologian words analyzed: 10,045
 
 Era Coverage
 ------------
@@ -302,10 +302,10 @@ Era Coverage
 - Medieval: 45
 - Reformation: 38
 
-_Full report has 228 lines. Open the linked report above to read everything._
+_Full report has 239 lines. Open the linked report above to read everything._
 ```
 
-## reports/cross_layer_reasoning_report.txt
+## reports\cross_layer_reasoning_report.txt
 
 ```text
 Cross-Layer Reasoning Report
@@ -321,16 +321,16 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 185
-Dedicated synthesis documents: 60
+Total documents across all lanes: 196
+Dedicated synthesis documents: 65
 Active divine-pattern layers: 9 of 9
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
 
-_Full report has 910 lines. Open the linked report above to read everything._
+_Full report has 972 lines. Open the linked report above to read everything._
 ```
 
-## reports/music_note_patterns_report.txt
+## reports\music_note_patterns_report.txt
 
 ```text
 Music Note Science And Math Pattern Report
@@ -355,7 +355,7 @@ Tension ratio: 31.01%
 _Full report has 204 lines. Open the linked report above to read everything._
 ```
 
-## reports/music_lyric_patterns_report.txt
+## reports\music_lyric_patterns_report.txt
 
 ```text
 Music And Lyric Pattern Alignment Report
@@ -372,7 +372,7 @@ Overview
 --------
 Lyric documents analyzed: 13
 Total lyric words analyzed: 794
-Religious research documents used for comparison: 48
+Religious research documents used for comparison: 51
 
 Strongest Lyric Motifs
 ---------------------
@@ -380,7 +380,7 @@ Strongest Lyric Motifs
 _Full report has 666 lines. Open the linked report above to read everything._
 ```
 
-## reports/cultural_pattern_relationships_report.txt
+## reports\cultural_pattern_relationships_report.txt
 
 ```text
 Cultural Pattern Relationships Report
@@ -405,7 +405,7 @@ Cultural Domains
 _Full report has 311 lines. Open the linked report above to read everything._
 ```
 
-## research_documents/daily_evaluation_queue.md
+## research_documents\daily_evaluation_queue.md
 
 ```text
 # Daily Evaluation Queue

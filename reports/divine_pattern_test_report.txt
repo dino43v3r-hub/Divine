@@ -13,18 +13,18 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 25
-Test words analyzed: 3,483
+Test documents analyzed: 26
+Test words analyzed: 3,726
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 59
-- Injustice And Corruption: 55
-- Disconfirming Failure Condition: 36
+- Suffering Without Resolution: 66
+- Injustice And Corruption: 62
+- Science Guardrail: 39
+- Disconfirming Failure Condition: 37
 - Practical Case Study: 34
-- Science Guardrail: 31
-- Counterexample Pressure: 18
-- Misuse And Weaponization: 18
+- Counterexample Pressure: 19
+- Misuse And Weaponization: 19
 - Rival Explanation: 13
 - Non-Christian Comparison: 11
 
@@ -37,12 +37,12 @@ Source Quality Markers
 
 Confidence Results
 ------------------
-- resilient under pressure: 22
+- resilient under pressure: 23
 - needs deeper review but still plausible: 3
 
 Hold Assessment
 ---------------
-- pressure present but hold question is underdeveloped: 14
+- pressure present but hold question is underdeveloped: 15
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
 - not enough friction to judge hold: 1
@@ -51,33 +51,55 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 73 | research corpus 3,582
-- Son: test set 25 | research corpus 6,729
-- Holy Spirit: test set 43 | research corpus 1,829
+- Father: test set 80 | research corpus 3,610
+- Son: test set 26 | research corpus 6,733
+- Holy Spirit: test set 44 | research corpus 1,835
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 45 | research corpus 2,546
-- Mathematical Structure: test set 17 | research corpus 612
-- Mathematical Theophany: test set 124 | research corpus 1,058
-- Quantum Probability: test set 13 | research corpus 115
-- Life And Consciousness: test set 39 | research corpus 5,482
-- Meaning And Logos: test set 33 | research corpus 5,956
-- Moral Response: test set 43 | research corpus 2,282
-- Worship And Community: test set 49 | research corpus 1,127
-- Transformation: test set 50 | research corpus 2,128
+- Physical Order: test set 51 | research corpus 2,558
+- Mathematical Structure: test set 18 | research corpus 621
+- Mathematical Theophany: test set 132 | research corpus 1,063
+- Quantum Probability: test set 22 | research corpus 163
+- Life And Consciousness: test set 44 | research corpus 5,496
+- Meaning And Logos: test set 34 | research corpus 5,961
+- Moral Response: test set 46 | research corpus 2,285
+- Worship And Community: test set 51 | research corpus 1,140
+- Transformation: test set 51 | research corpus 2,136
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 139
-- Communal Practice: 44
-- Alienation And Lament: 42
-- Transformation And Hope: 42
-- Moral Confrontation: 39
+- Creation And Order: 148
+- Alienation And Lament: 45
+- Communal Practice: 45
+- Transformation And Hope: 44
+- Moral Confrontation: 40
 - Desire And Longing: 15
 
 Per-Test Findings
 -----------------
+
+leading_patterns_pressure_2026_06_04_third_pass.md
+--------------------------------------------------
+Words: 243
+Meaning confidence: plausible meaning pattern
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Science Guardrail: 8
+- Suffering Without Resolution: 7
+- Injustice And Corruption: 7
+- Counterexample Pressure: 1
+- Misuse And Weaponization: 1
+- Disconfirming Failure Condition: 1
+Meaning arc:
+- Opening: Creation And Order (4)
+- Middle: Creation And Order (4)
+- Ending: Creation And Order (1)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Add rival natural, psychological, social, or comparative explanations.
 
 leading_patterns_pressure_2026_06_04.md
 ---------------------------------------

@@ -27,3 +27,12 @@ honest inquiry.
 Failure condition: reject any use that turns analogy into proof, invokes
 quantum language vaguely, ignores base rates, bypasses counterarguments, or
 uses science language to pressure belief.
+
+## 2026-06-04 Third-Pass Quantum Addition
+
+Quantum theory now has a dedicated guardrail pack and reviewed notes in
+`deep_sources/reviewed_quantum_theory_guardrails_2026_06_04.md`. These sources
+may support humility about probability, causality, measurement, and
+interpretation, but they do not strengthen claims about God, prayer,
+consciousness, providence, or miracles unless the claim is clearly marked as
+analogy or theological interpretation.

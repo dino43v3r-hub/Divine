@@ -101,3 +101,17 @@ These additions should make the corpus more balanced without treating repeated
 signals as confidence. Human review, counter-reading, and practical fruit remain
 the promotion gates.
 
+## 2026-06-04 Third-Pass Quota Progress
+
+| Lane | Added reviewed notes | File |
+| --- | ---: | --- |
+| biblical_languages | 20 | `biblical_languages/reviewed_growth_batch_2026_06_04_third_pass.md` |
+| world_languages | 20 | `world_languages/reviewed_growth_batch_2026_06_04_third_pass.md` |
+| all_texts | 41 | `all_texts/reviewed_growth_batch_2026_06_04_third_pass.md` |
+| other_religious_texts | 41 | `other_religious_texts/reviewed_growth_batch_2026_06_04_third_pass.md` |
+| theologians | 60 | `theologians/reviewed_growth_batch_2026_06_04_third_pass.md` |
+| history_inputs | 41 | `history_inputs/reviewed_growth_batch_2026_06_04_third_pass.md` |
+| deep_sources | 18 | `deep_sources/reviewed_quantum_theory_guardrails_2026_06_04.md` |
+
+The quantum addition is a guardrail expansion, not a confidence shortcut.
+

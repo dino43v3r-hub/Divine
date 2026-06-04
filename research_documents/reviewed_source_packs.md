@@ -434,3 +434,14 @@ pack per top pattern. The new packs are control structures: they separate
 evidence, interpretation, discernment, analogy, practical use, and failure
 condition before confidence may rise.
 
+## 2026-06-04 Third-Pass Source-Pack Expansion
+
+The five leading pattern packs received third-pass reviewed decisions, and a
+new quantum-theory guardrail pack was added:
+
+- `research_documents/source_packs/quantum_theory_guardrail_pack.md`
+
+Quantum theory is routed as science guardrail material. It may discipline
+claims about uncertainty, probability, causality, and model limits, but it must
+not be used as proof of God, prayer, consciousness, providence, or miracles.
+

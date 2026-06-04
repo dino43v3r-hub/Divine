@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 839,
+  "edge_count": 915,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -119,8 +119,38 @@
     },
     {
       "relation": "belongs_to_lane",
-      "source": "doc:research_documents_christian_sources_sources_md",
+      "source": "doc:research_documents_active_lane_review_conversion_2026_06_04_third_pass_md",
       "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_active_lane_review_conversion_2026_06_04_third_pass_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_active_lane_review_conversion_2026_06_04_third_pass_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_active_lane_review_conversion_2026_06_04_third_pass_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_active_lane_review_conversion_2026_06_04_third_pass_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_active_lane_review_conversion_2026_06_04_third_pass_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_active_lane_review_conversion_2026_06_04_third_pass_md",
+      "target": "rule:machine_label_boundary"
     },
     {
       "relation": "belongs_to_lane",
@@ -439,6 +469,11 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_christian_sources_sources_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_claim_ledger_md",
       "target": "lane:research_documents"
     },
@@ -965,6 +1000,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_04_second_pass_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_04_third_pass_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_04_third_pass_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_04_third_pass_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_04_third_pass_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_04_third_pass_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -1324,6 +1384,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_source_packs_quantum_theory_guardrail_pack_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_source_packs_quantum_theory_guardrail_pack_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_source_packs_quantum_theory_guardrail_pack_md",
+      "target": "rule:interpretation"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_source_packs_quantum_theory_guardrail_pack_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_source_packs_quantum_theory_guardrail_pack_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_source_packs_quantum_theory_guardrail_pack_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_source_packs_quantum_theory_guardrail_pack_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_source_packs_science_analogy_guardrail_pack_md",
       "target": "lane:research_documents"
     },
@@ -1634,6 +1729,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_source_specific_counterreadings_md",
       "target": "lane:biblical_languages"
     },
@@ -1850,6 +1975,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
       "target": "rule:counter_reading"
     },
     {
@@ -2074,6 +2229,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:all_texts_text_tradition_counterreading_map_md",
       "target": "lane:all_texts"
     },
@@ -2350,6 +2540,41 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "lane:other_religious_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
       "target": "rule:failure_condition"
     },
     {
@@ -2745,6 +2970,41 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_reviewed_growth_batch_2026_06_04_second_pass_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
       "target": "rule:failure_condition"
     },
     {
@@ -2980,6 +3240,41 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_second_pass_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
       "target": "rule:failure_condition"
     },
     {
@@ -3499,6 +3794,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_reviewed_quantum_theory_guardrails_2026_06_04_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_reviewed_quantum_theory_guardrails_2026_06_04_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_reviewed_quantum_theory_guardrails_2026_06_04_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_reviewed_quantum_theory_guardrails_2026_06_04_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_reviewed_quantum_theory_guardrails_2026_06_04_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_reviewed_quantum_theory_guardrails_2026_06_04_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_reviewed_quantum_theory_guardrails_2026_06_04_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_science_counterargument_matrix_md",
       "target": "lane:deep_sources"
     },
@@ -3900,6 +4230,56 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_second_pass_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "mentions_pattern",
+      "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
+      "target": "pattern:image_of_god_pattern"
+    },
+    {
+      "relation": "mentions_pattern",
+      "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
+      "target": "pattern:cross_and_reversal_pattern"
+    },
+    {
+      "relation": "mentions_pattern",
+      "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
+      "target": "pattern:creation_to_consciousness_pattern"
+    },
+    {
+      "relation": "mentions_pattern",
+      "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
+      "target": "pattern:trinity_as_behavior_pattern"
+    },
+    {
+      "relation": "mentions_pattern",
+      "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
+      "target": "pattern:providence_and_contingency_pattern"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
       "target": "rule:failure_condition"
     },
     {
@@ -4199,7 +4579,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 201,
+  "node_count": 212,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -4386,10 +4766,10 @@
       "type": "document"
     },
     {
-      "id": "doc:research_documents_christian_sources_sources_md",
-      "label": "Christian Source Corpus",
+      "id": "doc:research_documents_active_lane_review_conversion_2026_06_04_third_pass_md",
+      "label": "Active Lane Review Conversion Third Pass, 2026-06-04",
       "lane": "research_documents",
-      "path": "research_documents/christian_sources/SOURCES.md",
+      "path": "research_documents/active_lane_review_conversion_2026_06_04_third_pass.md",
       "review_note_count": 0,
       "type": "document"
     },
@@ -4510,6 +4890,14 @@
       "label": "Science, Mathematics, Physics, And A Divine-Pattern Model",
       "lane": "research_documents",
       "path": "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
+      "review_note_count": 0,
+      "type": "document"
+    },
+    {
+      "id": "doc:research_documents_christian_sources_sources_md",
+      "label": "Christian Source Corpus",
+      "lane": "research_documents",
+      "path": "research_documents/christian_sources/SOURCES.md",
       "review_note_count": 0,
       "type": "document"
     },
@@ -4666,6 +5054,14 @@
       "type": "document"
     },
     {
+      "id": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_04_third_pass_md",
+      "label": "Reviewed Candidate Reference Decisions Third Pass, 2026-06-04",
+      "lane": "research_documents",
+      "path": "research_documents/reviewed_candidate_reference_decisions_2026_06_04_third_pass.md",
+      "review_note_count": 0,
+      "type": "document"
+    },
+    {
       "id": "doc:research_documents_reviewed_source_packs_md",
       "label": "Reviewed Source Packs",
       "lane": "research_documents",
@@ -4726,6 +5122,14 @@
       "label": "Source Pack: Providence And Contingency Pattern",
       "lane": "research_documents",
       "path": "research_documents/source_packs/providence_and_contingency_pattern_pack.md",
+      "review_note_count": 0,
+      "type": "document"
+    },
+    {
+      "id": "doc:research_documents_source_packs_quantum_theory_guardrail_pack_md",
+      "label": "Source Pack: Quantum Theory Guardrail",
+      "lane": "research_documents",
+      "path": "research_documents/source_packs/quantum_theory_guardrail_pack.md",
       "review_note_count": 0,
       "type": "document"
     },
@@ -4818,6 +5222,14 @@
       "type": "document"
     },
     {
+      "id": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "label": "Reviewed Biblical-Language Growth Third Pass, 2026-06-04",
+      "lane": "biblical_languages",
+      "path": "biblical_languages/reviewed_growth_batch_2026_06_04_third_pass.md",
+      "review_note_count": 20,
+      "type": "document"
+    },
+    {
       "id": "doc:biblical_languages_source_specific_counterreadings_md",
       "label": "Source-Specific Biblical-Language Counter-Readings",
       "lane": "biblical_languages",
@@ -4898,6 +5310,14 @@
       "type": "document"
     },
     {
+      "id": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "label": "Reviewed World-Language Growth Third Pass, 2026-06-04",
+      "lane": "world_languages",
+      "path": "world_languages/reviewed_growth_batch_2026_06_04_third_pass.md",
+      "review_note_count": 20,
+      "type": "document"
+    },
+    {
       "id": "doc:world_languages_source_specific_language_sampling_notes_md",
       "label": "Source-Specific Language Sampling Notes",
       "lane": "world_languages",
@@ -4967,6 +5387,14 @@
       "lane": "all_texts",
       "path": "all_texts/reviewed_growth_batch_2026_06_04_second_pass.md",
       "review_note_count": 42,
+      "type": "document"
+    },
+    {
+      "id": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "label": "Reviewed All-Texts Growth Third Pass, 2026-06-04",
+      "lane": "all_texts",
+      "path": "all_texts/reviewed_growth_batch_2026_06_04_third_pass.md",
+      "review_note_count": 41,
       "type": "document"
     },
     {
@@ -5047,6 +5475,14 @@
       "lane": "other_religious_texts",
       "path": "other_religious_texts/reviewed_growth_batch_2026_06_04_second_pass.md",
       "review_note_count": 42,
+      "type": "document"
+    },
+    {
+      "id": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "label": "Reviewed Other-Religious-Texts Growth Third Pass, 2026-06-04",
+      "lane": "other_religious_texts",
+      "path": "other_religious_texts/reviewed_growth_batch_2026_06_04_third_pass.md",
+      "review_note_count": 41,
       "type": "document"
     },
     {
@@ -5170,6 +5606,14 @@
       "type": "document"
     },
     {
+      "id": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "label": "Reviewed Theologian Growth Third Pass, 2026-06-04",
+      "lane": "theologians",
+      "path": "theologians/reviewed_growth_batch_2026_06_04_third_pass.md",
+      "review_note_count": 60,
+      "type": "document"
+    },
+    {
       "id": "doc:theologians_source_specific_theologian_review_notes_md",
       "label": "Source-Specific Theologian Review Notes",
       "lane": "theologians",
@@ -5239,6 +5683,14 @@
       "lane": "history_inputs",
       "path": "history_inputs/reviewed_growth_batch_2026_06_04_second_pass.md",
       "review_note_count": 42,
+      "type": "document"
+    },
+    {
+      "id": "doc:history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "label": "Reviewed History-Inputs Growth Third Pass, 2026-06-04",
+      "lane": "history_inputs",
+      "path": "history_inputs/reviewed_growth_batch_2026_06_04_third_pass.md",
+      "review_note_count": 41,
       "type": "document"
     },
     {
@@ -5490,6 +5942,14 @@
       "type": "document"
     },
     {
+      "id": "doc:deep_sources_reviewed_quantum_theory_guardrails_2026_06_04_md",
+      "label": "Reviewed Quantum Theory Guardrails, 2026-06-04",
+      "lane": "deep_sources",
+      "path": "deep_sources/reviewed_quantum_theory_guardrails_2026_06_04.md",
+      "review_note_count": 18,
+      "type": "document"
+    },
+    {
       "id": "doc:deep_sources_science_counterargument_matrix_md",
       "label": "Science Counterargument Matrix",
       "lane": "deep_sources",
@@ -5614,6 +6074,14 @@
       "label": "Leading Patterns Pressure Test Second Pass, 2026-06-04",
       "lane": "pattern_tests",
       "path": "pattern_tests/leading_patterns_pressure_2026_06_04_second_pass.md",
+      "review_note_count": 0,
+      "type": "document"
+    },
+    {
+      "id": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
+      "label": "Leading Patterns Pressure Test Third Pass, 2026-06-04",
+      "lane": "pattern_tests",
+      "path": "pattern_tests/leading_patterns_pressure_2026_06_04_third_pass.md",
       "review_note_count": 0,
       "type": "document"
     },

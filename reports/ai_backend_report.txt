@@ -23,34 +23,34 @@ How An LLM Should Use It
 
 Corpus Summary
 --------------
-- Indexed documents: 169
-- Graph nodes: 201
-- Graph edges: 839
+- Indexed documents: 180
+- Graph nodes: 212
+- Graph edges: 915
 
 Lane Coverage
 -------------
-- all_texts: 9 documents; 220 declared reviewed notes
-- biblical_languages: 10 documents; 115 declared reviewed notes
+- all_texts: 10 documents; 261 declared reviewed notes
+- biblical_languages: 11 documents; 135 declared reviewed notes
 - cultural_inputs: 10 documents; 0 declared reviewed notes
-- deep_sources: 10 documents; 0 declared reviewed notes
-- history_inputs: 9 documents; 220 declared reviewed notes
+- deep_sources: 11 documents; 18 declared reviewed notes
+- history_inputs: 10 documents; 261 declared reviewed notes
 - human_stories: 2 documents; 0 declared reviewed notes
 - modern_literature: 2 documents; 0 declared reviewed notes
-- other_religious_texts: 9 documents; 220 declared reviewed notes
-- pattern_tests: 25 documents; 0 declared reviewed notes
+- other_religious_texts: 10 documents; 261 declared reviewed notes
+- pattern_tests: 26 documents; 0 declared reviewed notes
 - psychology_inputs: 5 documents; 0 declared reviewed notes
-- research_documents: 49 documents; 0 declared reviewed notes
-- theologians: 15 documents; 315 declared reviewed notes
+- research_documents: 52 documents; 0 declared reviewed notes
+- theologians: 16 documents; 375 declared reviewed notes
 - visual_art: 4 documents; 0 declared reviewed notes
-- world_languages: 10 documents; 115 declared reviewed notes
+- world_languages: 11 documents; 135 declared reviewed notes
 
 Pattern Mentions
 ----------------
-- Image Of God Pattern: 8 documents
-- Trinity-As-Behavior Pattern: 8 documents
-- Cross And Reversal Pattern: 7 documents
-- Creation-To-Consciousness Pattern: 7 documents
-- Providence And Contingency Pattern: 7 documents
+- Image Of God Pattern: 9 documents
+- Trinity-As-Behavior Pattern: 9 documents
+- Cross And Reversal Pattern: 8 documents
+- Creation-To-Consciousness Pattern: 8 documents
+- Providence And Contingency Pattern: 8 documents
 - Mathematical Theophany Pattern: 1 documents
 - Holy Spirit Gifts Pattern: 1 documents
 - Other Religious Comparative Witness: 1 documents
@@ -58,14 +58,14 @@ Pattern Mentions
 
 Review Rule Mentions
 --------------------
-- evidence: 72 documents
-- interpretation: 25 documents
-- discernment: 141 documents
-- analogy: 38 documents
-- practical_use: 137 documents
-- counter_reading: 128 documents
-- failure_condition: 77 documents
-- machine_label_boundary: 11 documents
+- evidence: 82 documents
+- interpretation: 26 documents
+- discernment: 151 documents
+- analogy: 45 documents
+- practical_use: 147 documents
+- counter_reading: 138 documents
+- failure_condition: 87 documents
+- machine_label_boundary: 13 documents
 
 Practical-Theology Gate
 -----------------------
