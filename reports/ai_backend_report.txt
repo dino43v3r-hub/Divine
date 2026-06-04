@@ -1,0 +1,72 @@
+AI Knowledge Backend Report
+===========================
+
+Backend Shape
+-------------
+This repository now has a local LLM-support backend made of retrieval, a knowledge graph, and review-rule audits.
+It does not replace human review and it does not turn repeated signals into truth.
+
+Generated Artifacts
+-------------------
+- Retrieval index: `reports/knowledge_retrieval_index.json`
+- Knowledge graph: `reports/knowledge_graph.json`
+- Review-rule audit: `reports/review_rules_audit.json`
+- Backend report: `reports/ai_backend_report.txt`
+
+How An LLM Should Use It
+------------------------
+1. Retrieve source documents from the index before drafting claims.
+2. Follow graph edges from documents to lanes, patterns, and review rules.
+3. Check the audit for missing counter-readings, failure conditions, and practical-use boundaries.
+4. Keep automated scores as routing signals only.
+5. Separate evidence, interpretation, discernment, analogy, and practical use in every major claim.
+
+Corpus Summary
+--------------
+- Indexed documents: 169
+- Graph nodes: 201
+- Graph edges: 840
+
+Lane Coverage
+-------------
+- all_texts: 9 documents; 220 declared reviewed notes
+- biblical_languages: 10 documents; 115 declared reviewed notes
+- cultural_inputs: 10 documents; 0 declared reviewed notes
+- deep_sources: 10 documents; 0 declared reviewed notes
+- history_inputs: 9 documents; 220 declared reviewed notes
+- human_stories: 2 documents; 0 declared reviewed notes
+- modern_literature: 2 documents; 0 declared reviewed notes
+- other_religious_texts: 9 documents; 220 declared reviewed notes
+- pattern_tests: 25 documents; 0 declared reviewed notes
+- psychology_inputs: 5 documents; 0 declared reviewed notes
+- research_documents: 49 documents; 0 declared reviewed notes
+- theologians: 15 documents; 315 declared reviewed notes
+- visual_art: 4 documents; 0 declared reviewed notes
+- world_languages: 10 documents; 115 declared reviewed notes
+
+Pattern Mentions
+----------------
+- Image Of God Pattern: 8 documents
+- Trinity-As-Behavior Pattern: 8 documents
+- Cross And Reversal Pattern: 7 documents
+- Creation-To-Consciousness Pattern: 7 documents
+- Providence And Contingency Pattern: 7 documents
+- Mathematical Theophany Pattern: 1 documents
+- Holy Spirit Gifts Pattern: 1 documents
+- Other Religious Comparative Witness: 1 documents
+- Science Analogy Guardrail: 1 documents
+
+Review Rule Mentions
+--------------------
+- evidence: 72 documents
+- interpretation: 25 documents
+- discernment: 142 documents
+- analogy: 38 documents
+- practical_use: 137 documents
+- counter_reading: 128 documents
+- failure_condition: 77 documents
+- machine_label_boundary: 11 documents
+
+Practical-Theology Gate
+-----------------------
+A pattern should not be strengthened unless it helps produce truthful love, justice, humility, worship, patience, repair, and faithful action.

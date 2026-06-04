@@ -26,6 +26,42 @@ python divine_pattern_analyzer.py
 
 Main reports are written to `reports/`.
 
+## AI Knowledge Backend
+
+The project now includes a first-pass backend shape for:
+
+```text
+LLM + retrieval + knowledge graph + review rules
+```
+
+Build it locally with:
+
+```powershell
+python ai_knowledge_backend.py
+```
+
+The backend writes:
+
+```text
+reports/knowledge_retrieval_index.json
+reports/knowledge_graph.json
+reports/review_rules_audit.json
+reports/ai_backend_report.txt
+```
+
+The retrieval index is a local TF-IDF-style source index for RAG-style prompts.
+The knowledge graph connects documents to source lanes, leading patterns, and
+review-rule concepts. The review audit checks whether documents mention core
+claim controls such as evidence, interpretation, discernment, analogy,
+practical use, counter-reading, failure condition, and the boundary that machine
+labels route attention rather than settle truth.
+
+This is intentionally not a GAN/VAE backend. The project needs disciplined
+reading and review more than synthetic pattern generation. A future LLM service
+can use these artifacts by retrieving source notes first, walking the graph to
+related claims and pressure tests, then checking review-rule gaps before
+drafting or strengthening a claim.
+
 ## Cloud Reference Collection
 
 ```powershell
@@ -181,8 +217,9 @@ The GitHub Actions workflow is in:
 ```
 
 It runs every day at 14:00 UTC, collects new reference metadata, updates the
-daily evaluation queue, reruns the analyzer, opens a GitHub notification issue,
-and commits updated reports back to the repository.
+daily evaluation queue, reruns the analyzer, rebuilds the AI knowledge backend,
+opens a GitHub notification issue, and commits updated reports back to the
+repository.
 
 The workflow opts JavaScript-based GitHub Actions into Node.js 24 with:
 
