@@ -113,6 +113,28 @@ Next depth work:
 - Track agreement, disagreement, and pressure points rather than flattening them
   into one voice.
 
+## 2026-06-04 Immediate Work Completion
+
+This pass added the requested reviewed growth batches:
+
+- `biblical_languages/reviewed_growth_batch_2026_06_04.md`: 22 notes.
+- `world_languages/reviewed_growth_batch_2026_06_04.md`: 22 notes.
+- `all_texts/reviewed_growth_batch_2026_06_04.md`: 43 notes.
+- `other_religious_texts/reviewed_growth_batch_2026_06_04.md`: 43 notes.
+- `theologians/reviewed_growth_batch_2026_06_04.md`: 62 notes.
+- `history_inputs/reviewed_growth_batch_2026_06_04.md`: 43 notes.
+
+It also added:
+
+- reviewed source-pack decisions for the five leading patterns,
+- `research_documents/active_lane_review_conversion_2026_06_04.md`,
+- `research_documents/reviewed_candidate_reference_decisions_2026_06_04.md`,
+- `pattern_tests/leading_patterns_pressure_2026_06_04.md`,
+- 2026-06-04 claim-ledger revisit notes for DP-005, DP-006, and DP-008.
+
+Machine labels remain routing tools only; human review decisions now govern
+whether these sources may affect confidence.
+
 ## 2. Cross-Layer Synthesis Notes
 
 Status: fourth-pass expanded across all requested lanes, with balance policy added.

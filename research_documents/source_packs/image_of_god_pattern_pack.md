@@ -31,3 +31,25 @@ and overlooked people in worship, and resist usefulness-based ranking.
 Failure condition: weaken or reject any version that ranks people by ability,
 beauty, race, gender, class, citizenship, cognition, productivity, or religious
 utility.
+
+## 2026-06-04 Reviewed Source-Pack Decisions
+
+Evidence: use Genesis image/breath texts, Genesis 9 after violence, Psalm 8,
+Christ-renewal texts, disability-rights history, slave narratives, and
+theologian notes from Irenaeus, Aquinas, Cone, Copeland, Jennings, Oduyoye, and
+disability theology.
+
+Interpretation: Christian theology may read dignity as gift and vocation, but
+the reviewed evidence does not permit ability-based hierarchy.
+
+Discernment: test every image claim against dementia, disability, racism,
+caste, poverty, migration, incarceration, and institutional dehumanization.
+
+Analogy: rights discourse, kinship language, cognitive science, and social
+personhood terms may illuminate dignity without proving imago Dei.
+
+Practical use: protect vulnerable people before using image language in
+argument.
+
+Failure condition: reject any use that makes dignity conditional on rational
+performance, productivity, social belonging, beauty, health, or usefulness.

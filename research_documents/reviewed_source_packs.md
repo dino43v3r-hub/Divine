@@ -404,3 +404,19 @@ Next source-pack targets:
 - one pack for active rival explanations from psychology, sociology, history,
   textual criticism, comparative religion, and ordinary pattern perception.
 
+## 2026-06-04 Leading Pattern Pack Review
+
+The five leading pattern packs received reviewed source-pack decisions in their
+dedicated files:
+
+- `research_documents/source_packs/image_of_god_pattern_pack.md`
+- `research_documents/source_packs/cross_and_reversal_pattern_pack.md`
+- `research_documents/source_packs/creation_to_consciousness_pattern_pack.md`
+- `research_documents/source_packs/trinity_as_behavior_pattern_pack.md`
+- `research_documents/source_packs/providence_and_contingency_pattern_pack.md`
+
+Each 2026-06-04 decision separates evidence, interpretation, discernment,
+analogy, practical use, and failure condition. These packs may route stronger
+future review, but they do not by themselves promote any major claim unless the
+claim ledger, lane balance, and pressure tests agree.
+

@@ -67,3 +67,19 @@ These quota notes must be reviewed source notes, not only candidate references
 or automated labels. Automated scores can route attention, but human review
 must decide whether a source may affect confidence.
 
+## 2026-06-04 Quota Progress
+
+The 2026-06-04 pass added reviewed notes toward the immediate quotas:
+
+| Lane | Added reviewed notes | File |
+| --- | ---: | --- |
+| biblical_languages | 22 | `biblical_languages/reviewed_growth_batch_2026_06_04.md` |
+| world_languages | 22 | `world_languages/reviewed_growth_batch_2026_06_04.md` |
+| all_texts | 43 | `all_texts/reviewed_growth_batch_2026_06_04.md` |
+| other_religious_texts | 43 | `other_religious_texts/reviewed_growth_batch_2026_06_04.md` |
+| theologians | 62 | `theologians/reviewed_growth_batch_2026_06_04.md` |
+| history_inputs | 43 | `history_inputs/reviewed_growth_batch_2026_06_04.md` |
+
+These additions are human-reviewed notes. Machine labels remain routing tools,
+not decisions.
+

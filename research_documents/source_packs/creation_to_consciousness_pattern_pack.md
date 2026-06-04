@@ -31,3 +31,25 @@ repentance, and worship that honors creation without confusing it with God.
 Failure condition: weaken any version that turns science into proof, ranks
 consciousness as superiority, ignores animal life, or evades suffering in
 creation.
+
+## 2026-06-04 Reviewed Source-Pack Decisions
+
+Evidence: use creation texts, Job, Psalm 8, John 1, Colossians 1, Romans 8,
+ecological history, disability-theology pressure, science guardrails, and
+comparative creation traditions.
+
+Interpretation: Christian theology may read creation, life, mind, moral
+awareness, and worship as gifts within creation, not as a scientific proof.
+
+Discernment: test the pattern against evolution, animal suffering, ecological
+loss, disability, dementia, nonverbal life, and failed science analogies.
+
+Analogy: emergence, cognitive science, ecological interdependence, and ordinary
+wonder may explain perceived ascent from matter to meaning.
+
+Practical use: wonder, care for bodies, ecological responsibility, learning,
+and worship without contempt for creaturely limits.
+
+Failure condition: weaken any version that uses science as proof, treats
+consciousness as superiority, devalues disabled persons, or ignores suffering in
+nature.

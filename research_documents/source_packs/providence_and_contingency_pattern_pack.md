@@ -32,3 +32,25 @@ pretending to know every hidden reason.
 Failure condition: weaken any version that explains every event too neatly,
 blames victims, confuses correlation with providence, ignores evil, or turns
 contingency into prediction.
+
+## 2026-06-04 Reviewed Source-Pack Decisions
+
+Evidence: use Joseph, Job, Ecclesiastes, Esther, Psalms, Jesus' providence
+teachings, Romans 8, exile and migration history, public-health crises,
+probability, complexity, and science-scope guardrails.
+
+Interpretation: Christian theology may read providence as trust in God's
+faithfulness amid contingency, not access to hidden causes.
+
+Discernment: test every providence claim against tragedy, failed prediction,
+survivor bias, political myth-making, trauma coping, and unresolved suffering.
+
+Analogy: chance, retrospectively made meaning, social causation, and narrative
+memory can explain perceived providence.
+
+Practical use: humility, gratitude, lament, wise action, risk awareness, and
+care for sufferers without explanation pressure.
+
+Failure condition: weaken any version that explains every event neatly, blames
+victims, confuses correlation with providence, denies chance, or claims certain
+knowledge of hidden divine causes.

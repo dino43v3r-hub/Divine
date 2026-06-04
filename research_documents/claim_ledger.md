@@ -81,6 +81,20 @@ Failure conditions include unresolved suffering, injustice, corruption,
 practical case failure, science overclaim, rival explanations that fit the data
 better, and ordinary pattern perception mistaken for divine disclosure.
 
+## 2026-06-04 Claim Revisit Notes
+
+These revisits keep claims marked as questions, analogies, discernment claims,
+or weakened claims from drifting into conclusions merely because the corpus has
+grown.
+
+| ID | Revisit decision | Evidence / interpretation / discernment / analogy / practical use separation |
+| --- | --- | --- |
+| DP-005 | Keep as `research_question_only`; global gifts claims need primary-text exegesis, denominational disagreement, cross-cultural testimony, and abuse safeguards before promotion. | Evidence: Acts, Pauline lists, global testimony, and fruit reports can be logged. Interpretation: Christian pneumatology may read gifts as Spirit-enabled service. Discernment: communities must test love, truth, humility, accountability, and harm history. Analogy: other religious experiences and psychology of charisma may illuminate without proving the Spirit's action. Practical use: service and accountability before spectacle. |
+| DP-006 | Keep as `research_question_only`; other traditions must be reviewed on their own terms before Christian comparison affects confidence. | Evidence: primary texts, ritual practice, community interpretation, and expert commentary can support comparison. Interpretation: Christian theology may ask about prevenient grace, longing, or witness, but only as theological reading. Discernment: interreligious claims require humility and counter-readings from within the tradition. Analogy: shared patterns may be human, cultural, or literary. Practical use: neighbor-love, learning, and respectful witness without flattening difference. |
+| DP-008 | Keep as `analogy_only`; science and quantum material remain guardrails and analogies, not proof of God, prayer, or consciousness. | Evidence: qualified science sources can support causality limits, probability, complexity, and humility. Interpretation: theology may reflect on creaturely knowledge and providence. Discernment: every technical claim needs scope and rival explanation. Analogy: beauty, uncertainty, and order illuminate but do not demonstrate. Practical use: slow overclaims and protect honest inquiry. |
+
+No 2026-06-04 revisit promotes a question or analogy to `reviewed_evidence`.
+
 ## 2026-06-01 Follow-Up Claim Revisit Notes
 
 These three additional revisits keep major claims from drifting upward in

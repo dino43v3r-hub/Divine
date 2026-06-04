@@ -33,3 +33,24 @@ Spirit-led change by accountable love and service.
 Failure condition: reject any version that collapses the Trinity into one role,
 divides God into three gods, treats the Spirit as group energy, or justifies
 spiritual control.
+
+## 2026-06-04 Reviewed Source-Pack Decisions
+
+Evidence: use Matthew 28, John 14-17, Romans 8, 2 Corinthians 13:14, baptismal
+and liturgical sources, Nicaea, Basil, Gregory Nazianzen, Augustine, LaCugna,
+Zizioulas, Pentecostal discernment, council history, and abuse-pressure cases.
+
+Interpretation: Christian theology may read creation, redemption, and
+sanctification as distinct but inseparable divine action.
+
+Discernment: test gifts, authority claims, worship practices, and community
+formation by love, truth, holiness, humility, unity, justice, and fruit.
+
+Analogy: group identity, ritual studies, belonging psychology, leadership
+dynamics, and triadic symbols may explain behavior without replacing doctrine.
+
+Practical use: receive life as gift, follow Christ concretely, and test
+Spirit-led change by accountable service.
+
+Failure condition: reject any version that collapses persons, divides God,
+treats the Spirit as group energy, or uses divine authority to control people.
