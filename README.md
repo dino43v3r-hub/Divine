@@ -49,6 +49,7 @@ reports/review_rules_audit.json
 reports/ai_backend_report.txt
 reports/combined_web_article.md
 reports/combined_web_article.html
+reports/published/final_book_report.md
 ```
 
 The retrieval index is a local TF-IDF-style source index for RAG-style prompts.
@@ -71,8 +72,9 @@ GitHub Markdown document and one HTML document:
 python build_combined_report_article.py
 ```
 
-Read `reports/combined_web_article.md` directly on GitHub. Use the HTML file
-when publishing through GitHub Pages or downloading locally.
+Read `reports/published/final_book_report.md` directly on GitHub. It is the
+published synthesis. The other report files are build inputs and audit trails,
+not the preferred reading experience.
 
 ## Cloud Reference Collection
 
