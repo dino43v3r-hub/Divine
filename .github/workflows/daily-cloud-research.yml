@@ -44,6 +44,9 @@ jobs:
       - name: Build AI knowledge backend
         run: python ai_knowledge_backend.py
 
+      - name: Build combined report article
+        run: python build_combined_report_article.py
+
       - name: Build GitHub issue summary
         run: python build_github_issue_summary.py
 
@@ -66,4 +69,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update daily cloud research evaluation set"
-          file_pattern: "references/*.json reports/*.txt reports/*.md reports/*.json research_documents/cloud_references_summary.md research_documents/daily_evaluation_queue.md"
+          file_pattern: "references/*.json reports/*.txt reports/*.md reports/*.json reports/*.html research_documents/cloud_references_summary.md research_documents/daily_evaluation_queue.md"

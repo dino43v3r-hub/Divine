@@ -487,127 +487,6 @@
       "word_count": 166
     },
     {
-      "id": "research_documents_christian_sources_sources_md",
-      "keywords": [
-        {
-          "count": 6,
-          "score": 0.452495,
-          "term": "wikisource"
-        },
-        {
-          "count": 6,
-          "score": 0.362198,
-          "term": "gutenberg"
-        },
-        {
-          "count": 6,
-          "score": 0.349528,
-          "term": "https"
-        },
-        {
-          "count": 6,
-          "score": 0.312378,
-          "term": "org"
-        },
-        {
-          "count": 3,
-          "score": 0.209584,
-          "term": "wiki"
-        },
-        {
-          "count": 4,
-          "score": 0.208252,
-          "term": "creed"
-        },
-        {
-          "count": 3,
-          "score": 0.174764,
-          "term": "ebooks"
-        },
-        {
-          "count": 3,
-          "score": 0.160106,
-          "term": "www"
-        },
-        {
-          "count": 2,
-          "score": 0.139723,
-          "term": "hymnary"
-        },
-        {
-          "count": 2,
-          "score": 0.112851,
-          "term": "didache"
-        },
-        {
-          "count": 2,
-          "score": 0.106737,
-          "term": "apostles"
-        },
-        {
-          "count": 2,
-          "score": 0.101742,
-          "term": "nicene"
-        },
-        {
-          "count": 3,
-          "score": 0.090048,
-          "term": "project"
-        },
-        {
-          "count": 2,
-          "score": 0.082752,
-          "term": "augustine"
-        },
-        {
-          "count": 1,
-          "score": 0.075416,
-          "term": "libraries"
-        },
-        {
-          "count": 1,
-          "score": 0.075416,
-          "term": "downloaded"
-        },
-        {
-          "count": 1,
-          "score": 0.065921,
-          "term": "public-domain"
-        },
-        {
-          "count": 1,
-          "score": 0.062864,
-          "term": "theologica"
-        },
-        {
-          "count": 1,
-          "score": 0.062864,
-          "term": "openly"
-        },
-        {
-          "count": 2,
-          "score": 0.061047,
-          "term": "church"
-        }
-      ],
-      "lane": "research_documents",
-      "path": "research_documents/christian_sources/SOURCES.md",
-      "patterns": [],
-      "review_note_count": 0,
-      "rules_present": {
-        "analogy": false,
-        "counter_reading": false,
-        "discernment": false,
-        "evidence": false,
-        "failure_condition": false,
-        "interpretation": false,
-        "machine_label_boundary": false,
-        "practical_use": false
-      },
-      "title": "Christian Source Corpus",
-      "word_count": 65
-    },
-    {
       "id": "research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
       "keywords": [
         {
@@ -2427,6 +2306,127 @@
       },
       "title": "Science, Mathematics, Physics, And A Divine-Pattern Model",
       "word_count": 1161
+    },
+    {
+      "id": "research_documents_christian_sources_sources_md",
+      "keywords": [
+        {
+          "count": 6,
+          "score": 0.452495,
+          "term": "wikisource"
+        },
+        {
+          "count": 6,
+          "score": 0.362198,
+          "term": "gutenberg"
+        },
+        {
+          "count": 6,
+          "score": 0.349528,
+          "term": "https"
+        },
+        {
+          "count": 6,
+          "score": 0.312378,
+          "term": "org"
+        },
+        {
+          "count": 3,
+          "score": 0.209584,
+          "term": "wiki"
+        },
+        {
+          "count": 4,
+          "score": 0.208252,
+          "term": "creed"
+        },
+        {
+          "count": 3,
+          "score": 0.174764,
+          "term": "ebooks"
+        },
+        {
+          "count": 3,
+          "score": 0.160106,
+          "term": "www"
+        },
+        {
+          "count": 2,
+          "score": 0.139723,
+          "term": "hymnary"
+        },
+        {
+          "count": 2,
+          "score": 0.112851,
+          "term": "didache"
+        },
+        {
+          "count": 2,
+          "score": 0.106737,
+          "term": "apostles"
+        },
+        {
+          "count": 2,
+          "score": 0.101742,
+          "term": "nicene"
+        },
+        {
+          "count": 3,
+          "score": 0.090048,
+          "term": "project"
+        },
+        {
+          "count": 2,
+          "score": 0.082752,
+          "term": "augustine"
+        },
+        {
+          "count": 1,
+          "score": 0.075416,
+          "term": "libraries"
+        },
+        {
+          "count": 1,
+          "score": 0.075416,
+          "term": "downloaded"
+        },
+        {
+          "count": 1,
+          "score": 0.065921,
+          "term": "public-domain"
+        },
+        {
+          "count": 1,
+          "score": 0.062864,
+          "term": "theologica"
+        },
+        {
+          "count": 1,
+          "score": 0.062864,
+          "term": "openly"
+        },
+        {
+          "count": 2,
+          "score": 0.061047,
+          "term": "church"
+        }
+      ],
+      "lane": "research_documents",
+      "path": "research_documents/christian_sources/SOURCES.md",
+      "patterns": [],
+      "review_note_count": 0,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "title": "Christian Source Corpus",
+      "word_count": 65
     },
     {
       "id": "research_documents_claim_ledger_md",
@@ -23809,16 +23809,16 @@
     ],
     "creed": [
       {
-        "document_id": "research_documents_christian_sources_sources_md",
-        "score": 0.208252
-      },
-      {
         "document_id": "research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
         "score": 0.26211
       },
       {
         "document_id": "research_documents_christian_sources_nicene_creed_325_wikisource_txt",
         "score": 0.359516
+      },
+      {
+        "document_id": "research_documents_christian_sources_sources_md",
+        "score": 0.208252
       }
     ],
     "critique": [
@@ -24077,12 +24077,12 @@
     ],
     "didache": [
       {
-        "document_id": "research_documents_christian_sources_sources_md",
-        "score": 0.112851
-      },
-      {
         "document_id": "research_documents_christian_sources_didache_wikisource_txt",
         "score": 0.185543
+      },
+      {
+        "document_id": "research_documents_christian_sources_sources_md",
+        "score": 0.112851
       }
     ],
     "differ": [
@@ -25347,12 +25347,12 @@
     ],
     "gutenberg": [
       {
-        "document_id": "research_documents_christian_sources_sources_md",
-        "score": 0.362198
-      },
-      {
         "document_id": "research_documents_christian_sources_faith_and_god_philosophy_notes_md",
         "score": 0.079401
+      },
+      {
+        "document_id": "research_documents_christian_sources_sources_md",
+        "score": 0.362198
       }
     ],
     "habit": [
@@ -25695,16 +25695,16 @@
     ],
     "https": [
       {
-        "document_id": "research_documents_christian_sources_sources_md",
-        "score": 0.349528
-      },
-      {
         "document_id": "research_documents_christian_sources_faith_and_god_philosophy_notes_md",
         "score": 0.076623
       },
       {
         "document_id": "research_documents_christian_sources_god_and_human_behavior_science_synthesis_md",
         "score": 0.080618
+      },
+      {
+        "document_id": "research_documents_christian_sources_sources_md",
+        "score": 0.349528
       }
     ],
     "human-story": [
@@ -25755,12 +25755,12 @@
     ],
     "hymnary": [
       {
-        "document_id": "research_documents_christian_sources_sources_md",
-        "score": 0.139723
-      },
-      {
         "document_id": "research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
         "score": 0.351716
+      },
+      {
+        "document_id": "research_documents_christian_sources_sources_md",
+        "score": 0.139723
       }
     ],
     "hypervigilance": [
@@ -30909,12 +30909,12 @@
     ],
     "www": [
       {
-        "document_id": "research_documents_christian_sources_sources_md",
-        "score": 0.160106
-      },
-      {
         "document_id": "research_documents_christian_sources_didache_wikisource_txt",
         "score": 0.070197
+      },
+      {
+        "document_id": "research_documents_christian_sources_sources_md",
+        "score": 0.160106
       }
     ],
     "xin": [

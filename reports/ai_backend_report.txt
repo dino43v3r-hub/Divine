@@ -1,10 +1,16 @@
 AI Knowledge Backend Report
 ===========================
 
-Backend Shape
--------------
-This repository now has a local LLM-support backend made of retrieval, a knowledge graph, and review-rule audits.
-It does not replace human review and it does not turn repeated signals into truth.
+Opening Conversation
+--------------------
+Reviewer: What did you build for this project?
+Backend: A local LLM-support system: retrieval for finding sources, a knowledge graph for connecting them, and review rules for slowing down overconfident claims.
+
+Reviewer: Are you deciding what is true?
+Backend: No. I route attention. Human review still decides whether a source can affect confidence.
+
+Reviewer: What should I be most careful about?
+Backend: Repeated signals can feel persuasive before they are disciplined. I keep asking for evidence, interpretation, discernment, analogy, practical use, counter-readings, and failure conditions.
 
 Generated Artifacts
 -------------------
@@ -15,11 +21,17 @@ Generated Artifacts
 
 How An LLM Should Use It
 ------------------------
-1. Retrieve source documents from the index before drafting claims.
-2. Follow graph edges from documents to lanes, patterns, and review rules.
-3. Check the audit for missing counter-readings, failure conditions, and practical-use boundaries.
-4. Keep automated scores as routing signals only.
-5. Separate evidence, interpretation, discernment, analogy, and practical use in every major claim.
+Reviewer: Suppose an LLM wants to write a claim. What happens first?
+Backend: It retrieves source documents before drafting. No source, no confident claim.
+
+Reviewer: Then what?
+Backend: It follows graph edges from documents to lanes, patterns, pressure tests, and review rules.
+
+Reviewer: And before the claim gets stronger?
+Backend: It checks the audit for missing counter-readings, failure conditions, and practical-use boundaries.
+
+Reviewer: What about automated evidence labels?
+Backend: They are triage lights, not verdicts. Green means review me, not believe me.
 
 Corpus Summary
 --------------
@@ -27,8 +39,18 @@ Corpus Summary
 - Graph nodes: 212
 - Graph edges: 918
 
+Reviewer: Where is the strongest reviewed-note weight right now?
+Backend: theologians (375 notes), all_texts (261 notes), history_inputs (261 notes), other_religious_texts (261 notes).
+
+Reviewer: Which leading patterns are showing up most often?
+Backend: Image Of God Pattern (9), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
+
+Reviewer: Which review rules are most visible?
+Backend: discernment (152), practical_use (147), counter_reading (138), failure_condition (88).
+
 Lane Coverage
 -------------
+Backend: Here is the lane map. High counts are invitations to review more carefully, not permission to overclaim.
 - all_texts: 10 documents; 261 declared reviewed notes
 - biblical_languages: 11 documents; 135 declared reviewed notes
 - cultural_inputs: 10 documents; 0 declared reviewed notes
@@ -46,6 +68,8 @@ Lane Coverage
 
 Pattern Mentions
 ----------------
+Reviewer: Do these counts prove the patterns?
+Backend: No. They show where the corpus is talking. Proof is not what this table does.
 - Image Of God Pattern: 9 documents
 - Trinity-As-Behavior Pattern: 9 documents
 - Cross And Reversal Pattern: 8 documents
@@ -58,6 +82,9 @@ Pattern Mentions
 
 Review Rule Mentions
 --------------------
+Reviewer: What do the review-rule counts tell us?
+Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.
+
 - evidence: 82 documents
 - interpretation: 27 documents
 - discernment: 152 documents
@@ -69,4 +96,12 @@ Review Rule Mentions
 
 Practical-Theology Gate
 -----------------------
-A pattern should not be strengthened unless it helps produce truthful love, justice, humility, worship, patience, repair, and faithful action.
+Reviewer: When does a pattern become useful?
+Backend: When it helps a person become more truthful, loving, humble, just, worshipful, patient, and practically faithful.
+
+Reviewer: And if it does not do that?
+Backend: Then it may still be an interesting pattern, but it has not yet become practical theology.
+
+Closing Question
+----------------
+Backend: What faithful response is being invited today?

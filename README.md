@@ -47,6 +47,7 @@ reports/knowledge_retrieval_index.json
 reports/knowledge_graph.json
 reports/review_rules_audit.json
 reports/ai_backend_report.txt
+reports/combined_web_article.html
 ```
 
 The retrieval index is a local TF-IDF-style source index for RAG-style prompts.
@@ -61,6 +62,13 @@ reading and review more than synthetic pattern generation. A future LLM service
 can use these artifacts by retrieving source notes first, walking the graph to
 related claims and pressure tests, then checking review-rule gaps before
 drafting or strengthening a claim.
+
+The combined web article merges the major generated reports into one readable
+HTML document with navigation:
+
+```powershell
+python build_combined_report_article.py
+```
 
 ## Cloud Reference Collection
 

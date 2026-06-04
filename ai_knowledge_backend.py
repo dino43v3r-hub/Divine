@@ -352,14 +352,39 @@ def create_backend_report(index, graph, audit):
             rule for rule, present in document["rules_present"].items() if present
         )
 
+    strongest_lanes = sorted(
+        audit["lane_totals"].items(),
+        key=lambda item: (item[1]["review_notes"], item[1]["documents"]),
+        reverse=True,
+    )[:4]
+    strongest_lane_text = ", ".join(
+        f"{lane} ({totals['review_notes']} notes)" for lane, totals in strongest_lanes
+    )
+
+    top_patterns = pattern_counts.most_common(5)
+    top_pattern_text = ", ".join(
+        f"{pattern} ({count})" for pattern, count in top_patterns
+    )
+
+    strongest_rules = rule_counts.most_common(4)
+    strongest_rule_text = ", ".join(
+        f"{rule} ({count})" for rule, count in strongest_rules
+    )
+
     lines = [
         "AI Knowledge Backend Report",
         "===========================",
         "",
-        "Backend Shape",
-        "-------------",
-        "This repository now has a local LLM-support backend made of retrieval, a knowledge graph, and review-rule audits.",
-        "It does not replace human review and it does not turn repeated signals into truth.",
+        "Opening Conversation",
+        "--------------------",
+        "Reviewer: What did you build for this project?",
+        "Backend: A local LLM-support system: retrieval for finding sources, a knowledge graph for connecting them, and review rules for slowing down overconfident claims.",
+        "",
+        "Reviewer: Are you deciding what is true?",
+        "Backend: No. I route attention. Human review still decides whether a source can affect confidence.",
+        "",
+        "Reviewer: What should I be most careful about?",
+        "Backend: Repeated signals can feel persuasive before they are disciplined. I keep asking for evidence, interpretation, discernment, analogy, practical use, counter-readings, and failure conditions.",
         "",
         "Generated Artifacts",
         "-------------------",
@@ -370,11 +395,17 @@ def create_backend_report(index, graph, audit):
         "",
         "How An LLM Should Use It",
         "------------------------",
-        "1. Retrieve source documents from the index before drafting claims.",
-        "2. Follow graph edges from documents to lanes, patterns, and review rules.",
-        "3. Check the audit for missing counter-readings, failure conditions, and practical-use boundaries.",
-        "4. Keep automated scores as routing signals only.",
-        "5. Separate evidence, interpretation, discernment, analogy, and practical use in every major claim.",
+        "Reviewer: Suppose an LLM wants to write a claim. What happens first?",
+        "Backend: It retrieves source documents before drafting. No source, no confident claim.",
+        "",
+        "Reviewer: Then what?",
+        "Backend: It follows graph edges from documents to lanes, patterns, pressure tests, and review rules.",
+        "",
+        "Reviewer: And before the claim gets stronger?",
+        "Backend: It checks the audit for missing counter-readings, failure conditions, and practical-use boundaries.",
+        "",
+        "Reviewer: What about automated evidence labels?",
+        "Backend: They are triage lights, not verdicts. Green means review me, not believe me.",
         "",
         "Corpus Summary",
         "--------------",
@@ -382,12 +413,24 @@ def create_backend_report(index, graph, audit):
         f"- Graph nodes: {graph['node_count']}",
         f"- Graph edges: {graph['edge_count']}",
         "",
+        "Reviewer: Where is the strongest reviewed-note weight right now?",
+        f"Backend: {strongest_lane_text or 'No reviewed-note lanes detected yet.'}.",
+        "",
+        "Reviewer: Which leading patterns are showing up most often?",
+        f"Backend: {top_pattern_text or 'No leading pattern mentions detected yet.'}.",
+        "",
+        "Reviewer: Which review rules are most visible?",
+        f"Backend: {strongest_rule_text or 'No review-rule mentions detected yet.'}.",
+        "",
         "Lane Coverage",
         "-------------",
+        "Backend: Here is the lane map. High counts are invitations to review more carefully, not permission to overclaim.",
         *lane_lines,
         "",
         "Pattern Mentions",
         "----------------",
+        "Reviewer: Do these counts prove the patterns?",
+        "Backend: No. They show where the corpus is talking. Proof is not what this table does.",
     ]
 
     if pattern_counts:
@@ -397,6 +440,13 @@ def create_backend_report(index, graph, audit):
         lines.append("- No leading pattern mentions detected.")
 
     lines.extend(["", "Review Rule Mentions", "--------------------"])
+    lines.extend(
+        [
+            "Reviewer: What do the review-rule counts tell us?",
+            "Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.",
+            "",
+        ]
+    )
     for rule in REVIEW_RULES:
         lines.append(f"- {rule}: {rule_counts.get(rule, 0)} documents")
 
@@ -405,7 +455,15 @@ def create_backend_report(index, graph, audit):
             "",
             "Practical-Theology Gate",
             "-----------------------",
-            "A pattern should not be strengthened unless it helps produce truthful love, justice, humility, worship, patience, repair, and faithful action.",
+            "Reviewer: When does a pattern become useful?",
+            "Backend: When it helps a person become more truthful, loving, humble, just, worshipful, patient, and practically faithful.",
+            "",
+            "Reviewer: And if it does not do that?",
+            "Backend: Then it may still be an interesting pattern, but it has not yet become practical theology.",
+            "",
+            "Closing Question",
+            "----------------",
+            "Backend: What faithful response is being invited today?",
             "",
         ]
     )

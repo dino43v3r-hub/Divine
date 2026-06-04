@@ -6,6 +6,7 @@ from pathlib import Path
 
 
 REPORT_PATHS = [
+    Path("reports/combined_web_article.html"),
     Path("reports/ai_backend_report.txt"),
     Path("reports/divine_pattern_reader_book.txt"),
     Path("reports/disciplined_theological_assistant_report.txt"),
