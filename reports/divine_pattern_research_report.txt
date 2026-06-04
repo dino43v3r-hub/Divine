@@ -10,38 +10,38 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 43
-Total analyzed words: 740,068
+Documents analyzed: 48
+Total analyzed words: 741,623
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
-- God and Divine Attributes: 25,293
-- Theology and Logos: 5,958
-- Creation and Order: 5,863
-- Jesus and Christology: 5,489
-- Philosophy and Meaning: 3,094
-- Physics and Natural Law: 3,052
-- Moral Transformation: 3,010
-- Faith and Trust: 1,422
-- Spirituality and Worship: 1,373
-- Holy Spirit and Pneumatology: 968
-- Anthropology and Culture: 962
-- Mathematics and Intelligibility: 876
-- Mathematical Theophany: 685
-- AI and Pattern Recognition: 407
-- Biology and Neuroscience: 85
-- Quantum Physics and Uncertainty: 85
+- God and Divine Attributes: 25,311
+- Theology and Logos: 5,979
+- Creation and Order: 5,882
+- Jesus and Christology: 5,492
+- Philosophy and Meaning: 3,102
+- Physics and Natural Law: 3,055
+- Moral Transformation: 3,021
+- Faith and Trust: 1,434
+- Spirituality and Worship: 1,385
+- Anthropology and Culture: 987
+- Holy Spirit and Pneumatology: 978
+- Mathematics and Intelligibility: 897
+- Mathematical Theophany: 701
+- AI and Pattern Recognition: 423
+- Quantum Physics and Uncertainty: 90
+- Biology and Neuroscience: 88
 
 Trinitarian Pattern Lens
 ------------------------
 Signal: strong Trinitarian signal
 The analyzer treats Father, Son, and Holy Spirit as distinct persons and one God. It looks for each person separately, then checks whether the corpus keeps them relationally connected.
-- Father: 3,542
+- Father: 3,581
   Role: Source, Creator, giver of being, providential care, and holy authority.
-- Son: 6,737
+- Son: 6,740
   Role: Word/Logos, revelation, incarnation, redemption, reconciliation, and resurrection.
-- Holy Spirit: 1,810
+- Holy Spirit: 1,829
   Role: Living presence, conviction, gifts, communion, sanctification, and transformation.
 
 Trinitarian Evidence Samples
@@ -79,20 +79,20 @@ Trinitarian Co-Presence Samples
 Meaning Guardrails
 ------------------
 The analyzer now checks whether a pattern has contextual movement, not only repeated vocabulary.
-- Creation And Order: 5,539
-- Transformation And Hope: 3,620
-- Desire And Longing: 3,303
-- Moral Confrontation: 3,033
-- Communal Practice: 2,414
-- Alienation And Lament: 2,022
+- Creation And Order: 5,564
+- Transformation And Hope: 3,636
+- Desire And Longing: 3,314
+- Moral Confrontation: 3,047
+- Communal Practice: 2,431
+- Alienation And Lament: 2,026
 
 Source Review Guardrails
 ------------------------
-- Scholarly Or Scientific Source: 438
-- Primary Or Classical Source: 305
-- Practical Lived Source: 241
-- Unreviewed Cloud Reference: 40
-- Speculative Source: 39
+- Scholarly Or Scientific Source: 467
+- Primary Or Classical Source: 306
+- Practical Lived Source: 258
+- Unreviewed Cloud Reference: 43
+- Speculative Source: 40
 - Reviewed Cloud Reference: 5
 - Cloud references are candidate leads until reviewed against the original source, author qualifications, publication context, and counterarguments.
 
@@ -102,23 +102,23 @@ Model: Physical Order -> Mathematical Structure -> Mathematical Theophany -> Qua
 The corpus contains evidence across every layer of the proposed model. This supports treating layered convergence as a serious research hypothesis, not as proof of divine reality.
 
 Layer Scores:
-- Physical Order: 2,534 (high internal signal)
+- Physical Order: 2,546 (high internal signal)
   Test: Is reality described as ordered, law-like, created, or providential?
-- Mathematical Structure: 604 (moderate internal signal)
+- Mathematical Structure: 611 (moderate internal signal)
   Test: Does the corpus connect reality with mathematical or logical intelligibility?
-- Mathematical Theophany: 1,041 (high internal signal)
+- Mathematical Theophany: 1,057 (high internal signal)
   Test: Can mathematical order, pattern, symmetry, logic, infinity, or beauty be read cautiously as possible signs of divine self-disclosure while rival explanations remain in view?
-- Quantum Probability: 107 (early signal)
+- Quantum Probability: 115 (early signal)
   Test: Does the corpus include disciplined uncertainty rather than simple determinism?
-- Life And Consciousness: 5,465 (high internal signal)
+- Life And Consciousness: 5,480 (high internal signal)
   Test: Does the corpus connect ordered reality with life, mind, or personhood?
-- Meaning And Logos: 5,937 (high internal signal)
+- Meaning And Logos: 5,951 (high internal signal)
   Test: Does the corpus connect intelligibility with meaning, Logos, wisdom, or truth?
-- Moral Response: 2,273 (high internal signal)
+- Moral Response: 2,282 (high internal signal)
   Test: Does the corpus connect meaning with moral accountability or response?
-- Worship And Community: 1,103 (high internal signal)
+- Worship And Community: 1,121 (high internal signal)
   Test: Does the corpus connect belief with embodied practice and community?
-- Transformation: 2,112 (high internal signal)
+- Transformation: 2,128 (high internal signal)
   Test: Does the corpus connect divine presence with personal or communal change?
 
 Layer Evidence Samples
@@ -163,8 +163,8 @@ Meaning And Logos
 Moral Response
 --------------
 - active_lane_review_conversion_2026_06_01_followup.md: | | cultural_inputs | Use only after identifying practice, community, power, consequence, and whether the example produces love, justice, humility, worship, or repair.
+- active_lane_review_conversion_2026_06_04_second_pass.md: | | cultural_inputs | Promote only after identifying practice, community, power, consequence, harmed/benefited groups, rival sociological explanation, and whether the practice forms truthful love, justice, humility, worship, or repair.
 - aquinas_summa_part_1_gutenberg.txt: The Justice and Mercy of God 22.
-- aquinas_summa_part_1_gutenberg.txt: The Malice of the Angels with Regard to Sin 64.
 
 Worship And Community
 ---------------------
@@ -180,23 +180,23 @@ Transformation
 
 Hypothesis Test Domains
 -----------------------
-- Historical Theology: 6,920 (strongly represented)
-- Scripture And Early Christian Logos: 3,250 (strongly represented)
-- Philosophy Of Science: 2,789 (strongly represented)
-- Physics And Quantum Mechanics: 1,360 (strongly represented)
-- History And Cultural Memory: 1,206 (strongly represented)
-- Cognitive Science: 962 (strongly represented)
-- Visual Art And Symbol: 952 (strongly represented)
-- Mathematical Theophany: 685 (strongly represented)
-- World Languages And Translation: 636 (strongly represented)
-- Philosophy Of Mathematics: 532 (strongly represented)
-- Anthropology And Psychology Of Worship: 504 (strongly represented)
+- Historical Theology: 6,931 (strongly represented)
+- Scripture And Early Christian Logos: 3,263 (strongly represented)
+- Philosophy Of Science: 2,794 (strongly represented)
+- Physics And Quantum Mechanics: 1,369 (strongly represented)
+- History And Cultural Memory: 1,228 (strongly represented)
+- Cognitive Science: 974 (strongly represented)
+- Visual Art And Symbol: 957 (strongly represented)
+- Mathematical Theophany: 701 (strongly represented)
+- World Languages And Translation: 652 (strongly represented)
+- Philosophy Of Mathematics: 535 (strongly represented)
+- Anthropology And Psychology Of Worship: 523 (strongly represented)
 - Biblical Greek And Hebrew: 431 (represented)
 
 Repeated Terms
 --------------
 - his: 10,553
-- god: 10,082
+- god: 10,079
 - they: 9,732
 - lord: 8,280
 - him: 7,086
@@ -228,6 +228,14 @@ Cross-Disciplinary Pattern Candidates
   Evidence: Recurrence across texts may be shared human pattern, literary genre, or overfit.
 - Themes: Creation and Order, Theology and Logos
   Evidence: They never settle truth.
+- Themes: God and Divine Attributes, Moral Transformation, Spirituality and Worship, Anthropology and Culture
+  Evidence: | | cultural_inputs | Promote only after identifying practice, community, power, consequence, harmed/benefited groups, rival sociological explanation, and whether the practice forms truthful love, justice, humility, worship, or repair.
+- Themes: Spirituality and Worship, Anthropology and Culture
+  Evidence: | | all_texts | Promote only after naming tradition, genre, transmission/translation history, community use, counter-reading, and whether recurrence is literary, cultural, ritual, philosophical, or theological.
+- Themes: Mathematics and Intelligibility, Mathematical Theophany, Anthropology and Culture, AI and Pattern Recognition
+  Evidence: | | history_inputs | Promote only after naming power, conflict, harmed community, memory dispute, reform attempt, unintended consequence, unfinished repair, and how the case pressures the pattern.
+- Themes: Faith and Trust, Anthropology and Culture
+  Evidence: Human decisions must still separate evidence, interpretation, discernment, analogy, practical use, and failure condition before a source affects confidence.
 - Themes: God and Divine Attributes, Creation and Order, Spirituality and Worship
   Evidence: Bedell  | translator =   | section    = The Apostles' Creed  | previous   = [[../The Law of God/]]  | next       = [[../The Lord's Prayer/]]  | year       = 1893  | notes      =  }}  <pages index="The Church hymnary (1893).djvu" from=10 to=10 tosection=s1 />
 - Themes: Creation and Order, Theology and Logos
@@ -240,14 +248,6 @@ Cross-Disciplinary Pattern Candidates
   Evidence: Of God's Knowledge 15.
 - Themes: Creation and Order, Theology and Logos
   Evidence: Of Truth 17.
-- Themes: God and Divine Attributes, Moral Transformation
-  Evidence: The Justice and Mercy of God 22.
-- Themes: Theology and Logos, Philosophy and Meaning
-  Evidence: The Knowledge of the Divine Persons 33.
-- Themes: Creation and Order, Theology and Logos
-  Evidence: The Mission of the Divine Persons  TREATISE ON THE CREATION  44.
-- Themes: Creation and Order, Theology and Logos
-  Evidence: Of the Production of the Angels in the Order of Natural Being 62.
 
 Evidence By Theme
 -----------------
@@ -255,6 +255,7 @@ Evidence By Theme
 God and Divine Attributes
 -------------------------
 - active_lane_review_conversion_2026_06_01_followup.md: | | cultural_inputs | Use only after identifying practice, community, power, consequence, and whether the example produces love, justice, humility, worship, or repair.
+- active_lane_review_conversion_2026_06_04_second_pass.md: | | cultural_inputs | Promote only after identifying practice, community, power, consequence, harmed/benefited groups, rival sociological explanation, and whether the practice forms truthful love, justice, humility, worship, or repair.
 - apostles_creed_church_hymnary_wikisource.txt: Bedell  | translator =   | section    = The Apostles' Creed  | previous   = [[../The Law of God/]]  | next       = [[../The Lord's Prayer/]]  | year       = 1893  | notes      =  }}  <pages index="The Church hymnary (1893).djvu" from=10 to=10 tosection=s1 />
 - aquinas_summa_part_1_gutenberg.txt: 2]  > Whether the Supreme Good, God, Is the Cause of Evil?
 - aquinas_summa_part_1_gutenberg.txt: For example, in Part I, Question 45, Article 2, the first sentence in the Benziger Brothers edition begins: "Not only is it impossible that anything should be created by God...." By reference to the Latin, "non solum _non_ est impossibile a Deo aliquid creari" (emphasis added), t
@@ -309,15 +310,22 @@ God and Divine Attributes
 - creation_to_consciousness_pattern_pack.md: Interpretation: Christian theology may read the movement from creation to life, mind, responsibility, and worship as a layered vocation under God.
 - cross_and_reversal_pattern_pack.md: # Source Pack: Cross And Reversal Pattern  Source status: reviewed source pack  Claim boundary: the Cross And Reversal pattern may describe God's revelation in cruciform humility, mercy, judgment of violent power, forgiveness, and resurrection hope.
 - cross_and_reversal_pattern_pack.md: Interpretation: Christian theology reads the cross as God's judgment on violent power and God's self-giving mercy, fulfilled in resurrection hope.
+- holy_spirit_gifts_pattern_pack.md: # Source Pack: Holy Spirit Gifts Pattern  Source status: reviewed source pack  Claim boundary: gifts of the Holy Spirit may be studied as practices of service, truth, wisdom, courage, healing, mercy, and communal upbuilding.
+- holy_spirit_gifts_pattern_pack.md: Discernment: every gift claim must be tested by love, truth, humility, accountability, holiness, justice, and fruit over time.
 - image_of_god_pattern_pack.md: # Source Pack: Image Of God Pattern  Source status: reviewed source pack  Claim boundary: the Image Of God pattern may connect dignity, vocation, embodiment, symbolic capacity, moral agency, relationship, and worship.
+- other_religious_comparative_witness_pack.md: # Source Pack: Other Religious Comparative Witness  Source status: reviewed source pack  Claim boundary: Christian theology may compare wisdom, longing, mercy, ritual, lament, moral practice, and possible prevenient grace across religious traditions, but other traditions must be 
+- other_religious_comparative_witness_pack.md: Interpretation: Christian theology may ask how shared human patterns relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof.
 - providence_and_contingency_pattern_pack.md: Interpretation: Christian theology may read faithful action inside contingency as trust in God's care without claiming access to hidden causes.
 - providence_and_contingency_pattern_pack.md: Interpretation: Christian theology may read providence as trust in God's faithfulness amid contingency, not access to hidden causes.
+- science_analogy_guardrail_pack.md: They must not be treated as proof of God, prayer, providence, or consciousness.
 - trinity_as_behavior_pattern_pack.md: It must preserve Father, Son, and Holy Spirit as theological persons, not interchangeable symbols.
 - trinity_as_behavior_pattern_pack.md: Discernment: experiences, gifts, authority claims, and communal practices must be tested by love, truth, holiness, humility, unity, justice, and fruit.
 - weakened_claims_register.md: ## Weakened Claim: Holy Ghost Gifts Are Valid Because They Are Spectacular  - Status: `weakened_by_pressure` - Reason: spectacle can be produced by fraud, charisma, trauma, group pressure,   or misinterpretation.
 
 Faith and Trust
 ---------------
+- active_lane_review_conversion_2026_06_04_second_pass.md: # Active Lane Review Conversion Second Pass, 2026-06-04  Source lane: research_documents Source status: reviewed lane-conversion note  This pass keeps the newest active lanes from becoming confidence-bearing evidence merely because automated labels found repeated signals.
+- active_lane_review_conversion_2026_06_04_second_pass.md: Human decisions must still separate evidence, interpretation, discernment, analogy, practical use, and failure condition before a source affects confidence.
 - aquinas_summa_part_1_gutenberg.txt: 1: Although those things which are beyond man's knowledge may not be sought for by man through his reason, nevertheless, once they are revealed by God, they must be accepted by faith.
 - aquinas_summa_part_1_gutenberg.txt: But sacred doctrine proceeds from articles of faith which are not self-evident, since their truth is not admitted by all: "For all men have not faith" (2 Thess.
 - augustine_confessions_gutenberg.txt: or how shall they believe without a preacher?
@@ -368,14 +376,18 @@ Faith and Trust
 - reviewed_candidate_reference_decisions_2026_06_01_followup.md: Confidence effect: question-shaping only until source-specific review.
 - reviewed_candidate_reference_decisions_2026_06_04.md: # Reviewed Candidate Reference Decisions, 2026-06-04  Source lane: research_documents Source status: human review decision log  These decisions review the seven newest candidate references from `references/references.json` by original-source status, author expertise, publication 
 - reviewed_candidate_reference_decisions_2026_06_04.md: Confidence effect: no increase until specific chapters are reviewed.
+- reviewed_candidate_reference_decisions_2026_06_04_second_pass.md: # Reviewed Candidate Reference Decisions Second Pass, 2026-06-04  Source lane: research_documents Source status: human review decision log  These decisions review the two newest candidate references from `references/daily_research_digest.json` by original-source status, author ex
+- reviewed_candidate_reference_decisions_2026_06_04_second_pass.md: Confidence effect: no increase until the actual chapters and primary-text anchors are reviewed.
 - reviewed_source_packs.md: Practical use: typology should form hope, humility, worship, and moral response, not speculative code-breaking.
 - reviewed_source_packs.md: Reviewed-source needs:  - biblical theology and canonical theology, - theologians across eras with disagreements, - lament and theodicy sources, - pastoral case studies where repair is incomplete, - communal practices of confession, reconciliation, care, and hope.
 - source_lane_balance_targets.md: Automated scores can route attention, but human review must decide whether a source may affect confidence.
+- source_lane_balance_targets.md: ## 2026-06-04 Second-Pass Quota Progress  The second 2026-06-04 pass added reviewed notes toward the next immediate quotas:  | Lane | Added reviewed notes | File | | --- | ---: | --- | | biblical_languages | 21 | `biblical_languages/reviewed_growth_batch_2026_06_04_second_pass.md
 - creation_to_consciousness_pattern_pack.md: Evidence:  - Genesis, creation psalms, Proverbs 8, John 1, Colossians 1, Romans 8, and   new-creation texts support creation, Logos, groaning, and hope.
 - cross_and_reversal_pattern_pack.md: # Source Pack: Cross And Reversal Pattern  Source status: reviewed source pack  Claim boundary: the Cross And Reversal pattern may describe God's revelation in cruciform humility, mercy, judgment of violent power, forgiveness, and resurrection hope.
 - cross_and_reversal_pattern_pack.md: Interpretation: Christian theology reads the cross as God's judgment on violent power and God's self-giving mercy, fulfilled in resurrection hope.
 - providence_and_contingency_pattern_pack.md: Evidence:  - Joseph, Job, Esther, Ecclesiastes, Psalms, Jesus' providence teaching,   Romans 8, Hebrews 11, and apocalyptic hope support providence under ambiguity.
 - providence_and_contingency_pattern_pack.md: Interpretation: Christian theology may read faithful action inside contingency as trust in God's care without claiming access to hidden causes.
+- science_analogy_guardrail_pack.md: Failure condition: reject any use that turns analogy into proof, invokes quantum language vaguely, ignores base rates, bypasses counterarguments, or uses science language to pressure belief.
 - weakened_claims_register.md: - Narrow allowed claim: recurrence can generate research questions and modest   confidence updates after statistical and comparison checks.
 - weakened_claims_register.md: - Narrow allowed claim: faithful response may include lament, witness, care,   justice, and hope without claiming completed repair.
 
@@ -421,6 +433,7 @@ Jesus and Christology
 - reviewed_source_packs.md: Reviewed-source needs:  - Acts, Romans 12, 1 Corinthians 12-14, Ephesians 4, Galatians 5, 1 Peter 4, - charismatic, Pentecostal, Orthodox, Catholic, Protestant, and cautious   cessationist readings, - cross-cultural testimony with safeguards against manipulation, - other-religiou
 - cross_and_reversal_pattern_pack.md: # Source Pack: Cross And Reversal Pattern  Source status: reviewed source pack  Claim boundary: the Cross And Reversal pattern may describe God's revelation in cruciform humility, mercy, judgment of violent power, forgiveness, and resurrection hope.
 - cross_and_reversal_pattern_pack.md: Evidence:  - Passion narratives, Isaiah servant songs, Psalm 22, Philippians 2,   1 Corinthians 1-2, Romans 5-8, Hebrews, and resurrection witness support the   Christian claim.
+- holy_spirit_gifts_pattern_pack.md: Interpretation: Christian theology may read gifts as Spirit-enabled service within the body of Christ.
 - image_of_god_pattern_pack.md: ## 2026-06-04 Reviewed Source-Pack Decisions  Evidence: use Genesis image/breath texts, Genesis 9 after violence, Psalm 8, Christ-renewal texts, disability-rights history, slave narratives, and theologian notes from Irenaeus, Aquinas, Cone, Copeland, Jennings, Oduyoye, and disabi
 - providence_and_contingency_pattern_pack.md: Evidence:  - Joseph, Job, Esther, Ecclesiastes, Psalms, Jesus' providence teaching,   Romans 8, Hebrews 11, and apocalyptic hope support providence under ambiguity.
 - providence_and_contingency_pattern_pack.md: ## 2026-06-04 Reviewed Source-Pack Decisions  Evidence: use Joseph, Job, Ecclesiastes, Esther, Psalms, Jesus' providence teachings, Romans 8, exile and migration history, public-health crises, probability, complexity, and science-scope guardrails.
@@ -459,6 +472,8 @@ Holy Spirit and Pneumatology
 - next_research_expansion_tracker.md: Add global gifts-of-the-Holy-Spirit discernment across countries, peoples,    churches, and religious backgrounds without collapsing every spiritual    phenomenon into the same source.
 - reviewed_source_packs.md: Reviewed-source needs:  - primary texts: Genesis, Exodus, Psalms, Isaiah, Matthew, Luke, John, Romans,   1 Corinthians, Hebrews, Revelation, - Jewish and historical-critical counter-readings, - patristic and modern theological interpretation, - biblical-language notes on covenant
 - reviewed_source_packs.md: ## Pack 3: Holy Spirit Gifts Across Peoples And Countries  Claim boundary: gifts of the Holy Spirit may be studied as signs of divine presence and service when tested by love, truth, humility, accountability, and fruit.
+- holy_spirit_gifts_pattern_pack.md: # Source Pack: Holy Spirit Gifts Pattern  Source status: reviewed source pack  Claim boundary: gifts of the Holy Spirit may be studied as practices of service, truth, wisdom, courage, healing, mercy, and communal upbuilding.
+- holy_spirit_gifts_pattern_pack.md: Interpretation: Christian theology may read gifts as Spirit-enabled service within the body of Christ.
 - trinity_as_behavior_pattern_pack.md: # Source Pack: Trinity-As-Behavior Pattern  Source status: reviewed source pack  Claim boundary: Trinity-As-Behavior may describe how Christian doctrine forms practice through receiving creation as gift, following Christ, and testing Spirit-led transformation.
 - trinity_as_behavior_pattern_pack.md: It must preserve Father, Son, and Holy Spirit as theological persons, not interchangeable symbols.
 
@@ -510,6 +525,7 @@ Creation and Order
 - practical_theology_pattern_use.md: It should help people engage faithfully with God, neighbor, self, creation, and community.
 - practical_theology_pattern_use.md: Look for order, beauty, disorder, pain, longing, conflict, gift, responsibility, or hope.
 - reviewed_candidate_reference_decisions_2026_06_01.md: | ID | Candidate reference | Human review decision | | --- | --- | --- | | NCR-001 | Trinitarian Creation and Action, Gilles Emery OP and Francesca Aran Murphy, 2010, Crossref/DOI metadata | Promote to reviewed lead for Trinity-As-Behavior and Creation-To-Consciousness only after
+- reviewed_candidate_reference_decisions_2026_06_04_second_pass.md: Counterargument: influence lists can confuse prominence with truth and may omit harmed-community, global, and dissenting voices.
 - reviewed_source_packs.md: Reviewed-source needs:  - primary texts: Genesis, Exodus, Psalms, Isaiah, Matthew, Luke, John, Romans,   1 Corinthians, Hebrews, Revelation, - Jewish and historical-critical counter-readings, - patristic and modern theological interpretation, - biblical-language notes on covenant
 - reviewed_source_packs.md: ## Pack 2: Redemptive Metanarrative And Practical Theology  Claim boundary: creation, fall, covenant, redemption, restoration, and new creation can serve as a Christian story-form for interpreting human life, but the pattern must not force unresolved grief into premature victory.
 - source_lane_balance_targets.md: ## Target Bands  Targets are not final truth.
@@ -518,13 +534,20 @@ Creation and Order
 - creation_to_consciousness_pattern_pack.md: Evidence:  - Genesis, creation psalms, Proverbs 8, John 1, Colossians 1, Romans 8, and   new-creation texts support creation, Logos, groaning, and hope.
 - cross_and_reversal_pattern_pack.md: Discernment: cross-language must be tested by whether it protects victims, tells truth, seeks justice, and refuses coercive forgiveness.
 - cross_and_reversal_pattern_pack.md: Practical use: practice truth-telling, humility, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
+- holy_spirit_gifts_pattern_pack.md: # Source Pack: Holy Spirit Gifts Pattern  Source status: reviewed source pack  Claim boundary: gifts of the Holy Spirit may be studied as practices of service, truth, wisdom, courage, healing, mercy, and communal upbuilding.
+- holy_spirit_gifts_pattern_pack.md: Discernment: every gift claim must be tested by love, truth, humility, accountability, holiness, justice, and fruit over time.
 - image_of_god_pattern_pack.md: - Biblical-language notes on `tselem`, `demut`, breath, glory, rule, heart, and   renewal keep word claims context-bound.
+- other_religious_comparative_witness_pack.md: # Source Pack: Other Religious Comparative Witness  Source status: reviewed source pack  Claim boundary: Christian theology may compare wisdom, longing, mercy, ritual, lament, moral practice, and possible prevenient grace across religious traditions, but other traditions must be 
+- other_religious_comparative_witness_pack.md: Interpretation: Christian theology may ask how shared human patterns relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof.
+- science_analogy_guardrail_pack.md: Interpretation: Christian theology may reflect on creation, intelligibility, providence, and creaturely knowing, but only after the technical source's scope is preserved.
+- science_analogy_guardrail_pack.md: Analogy: beauty, complexity, emergence, uncertainty, and order may illuminate theological reflection without demonstrating theology.
 - trinity_as_behavior_pattern_pack.md: # Source Pack: Trinity-As-Behavior Pattern  Source status: reviewed source pack  Claim boundary: Trinity-As-Behavior may describe how Christian doctrine forms practice through receiving creation as gift, following Christ, and testing Spirit-led transformation.
 - trinity_as_behavior_pattern_pack.md: Interpretation: Christian theology reads creation, redemption, and sanctification as distinct but inseparable divine action.
 
 Moral Transformation
 --------------------
 - active_lane_review_conversion_2026_06_01_followup.md: | | cultural_inputs | Use only after identifying practice, community, power, consequence, and whether the example produces love, justice, humility, worship, or repair.
+- active_lane_review_conversion_2026_06_04_second_pass.md: | | cultural_inputs | Promote only after identifying practice, community, power, consequence, harmed/benefited groups, rival sociological explanation, and whether the practice forms truthful love, justice, humility, worship, or repair.
 - aquinas_summa_part_1_gutenberg.txt: The Justice and Mercy of God 22.
 - aquinas_summa_part_1_gutenberg.txt: Of the Perfection of the Angels in the Order of Grace and of        Glory 63.
 - augustine_confessions_gutenberg.txt: And Thee would man praise; man, but a particle of Thy creation; man, that bears about him his mortality, the witness of his sin, the witness that Thou resistest the proud: yet would man praise Thee; he, but a particle of Thy creation.
@@ -551,8 +574,8 @@ Moral Transformation
 - daily_evaluation_queue.md: ## Newest Candidate Material  ### Resisting Oppression Together Shared Intentions and Unequal Agents  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: politics_justice - Layer routes: cultural_inputs, 
 - daily_evaluation_queue.md: - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 - evidence_discernment_distinction.md: Name the tension, gift, sin, beauty, longing, harm, or invitation.
+- next_research_expansion_tracker.md: Growth rule: the next version should become less impressed by repeated signals and more disciplined about reviewed sources, counter-readings, and whether the pattern produces truthful love, justice, humility, worship, and repair.
 - next_research_expansion_tracker.md: - Include pastoral, clinical, social, economic, and justice-centered readings.
-- next_research_expansion_tracker.md: - Cross And Reversal Pattern weakens if it protects harmful power or demands   suffering without truth, safety, and justice.
 - pattern_formation_framework.md: Practical response: what a person or community can practice today with    humility, truth, love, justice, worship, and hope.
 - practical_theology_pattern_use.md: Pray, repent, reconcile, rest, serve, study, tell the truth, protect the vulnerable, create beauty, or seek counsel.
 - practical_theology_pattern_use.md: Does the response produce love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control, justice, truth, humility, and neighbor-love?
@@ -562,6 +585,10 @@ Moral Transformation
 - creation_to_consciousness_pattern_pack.md: Practical use: practice wonder, stewardship, embodied care, learning, ecological repentance, and worship that honors creation without confusing it with God.
 - cross_and_reversal_pattern_pack.md: # Source Pack: Cross And Reversal Pattern  Source status: reviewed source pack  Claim boundary: the Cross And Reversal pattern may describe God's revelation in cruciform humility, mercy, judgment of violent power, forgiveness, and resurrection hope.
 - cross_and_reversal_pattern_pack.md: Interpretation: Christian theology reads the cross as God's judgment on violent power and God's self-giving mercy, fulfilled in resurrection hope.
+- holy_spirit_gifts_pattern_pack.md: # Source Pack: Holy Spirit Gifts Pattern  Source status: reviewed source pack  Claim boundary: gifts of the Holy Spirit may be studied as practices of service, truth, wisdom, courage, healing, mercy, and communal upbuilding.
+- holy_spirit_gifts_pattern_pack.md: Discernment: every gift claim must be tested by love, truth, humility, accountability, holiness, justice, and fruit over time.
+- other_religious_comparative_witness_pack.md: # Source Pack: Other Religious Comparative Witness  Source status: reviewed source pack  Claim boundary: Christian theology may compare wisdom, longing, mercy, ritual, lament, moral practice, and possible prevenient grace across religious traditions, but other traditions must be 
+- other_religious_comparative_witness_pack.md: Interpretation: Christian theology may ask how shared human patterns relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof.
 - providence_and_contingency_pattern_pack.md: Practical use: pray, plan, serve, grieve, repent, and act faithfully without pretending to know every hidden reason.
 - trinity_as_behavior_pattern_pack.md: Discernment: experiences, gifts, authority claims, and communal practices must be tested by love, truth, holiness, humility, unity, justice, and fruit.
 - trinity_as_behavior_pattern_pack.md: Discernment: test gifts, authority claims, worship practices, and community formation by love, truth, holiness, humility, unity, justice, and fruit.
@@ -626,6 +653,7 @@ Theology and Logos
 - reviewed_candidate_reference_decisions_2026_06_01_followup.md: Counterargument: improvisation, sound, and beauty may illustrate pattern perception but do not strengthen divine-pattern claims.
 - reviewed_candidate_reference_decisions_2026_06_04.md: Counterargument: metaphor translation theory can explain recurrence as linguistic/cognitive transfer rather than divine pattern.
 - reviewed_candidate_reference_decisions_2026_06_04.md: Counterargument: genre rules discipline claims but do not strengthen any divine pattern.
+- reviewed_candidate_reference_decisions_2026_06_04_second_pass.md: Counterargument: influence lists can confuse prominence with truth and may omit harmed-community, global, and dissenting voices.
 - reviewed_source_packs.md: # Reviewed Source Packs  Type: reviewed evidence structure Source status: active source-pack template  Reviewed source packs keep the Divine project from relying on scattered references.
 - reviewed_source_packs.md: Reviewed-source needs:  - primary texts: Genesis, Exodus, Psalms, Isaiah, Matthew, Luke, John, Romans,   1 Corinthians, Hebrews, Revelation, - Jewish and historical-critical counter-readings, - patristic and modern theological interpretation, - biblical-language notes on covenant
 - source_lane_balance_targets.md: ## Target Bands  Targets are not final truth.
@@ -634,9 +662,15 @@ Theology and Logos
 - creation_to_consciousness_pattern_pack.md: Evidence:  - Genesis, creation psalms, Proverbs 8, John 1, Colossians 1, Romans 8, and   new-creation texts support creation, Logos, groaning, and hope.
 - cross_and_reversal_pattern_pack.md: # Source Pack: Cross And Reversal Pattern  Source status: reviewed source pack  Claim boundary: the Cross And Reversal pattern may describe God's revelation in cruciform humility, mercy, judgment of violent power, forgiveness, and resurrection hope.
 - cross_and_reversal_pattern_pack.md: Discernment: cross-language must be tested by whether it protects victims, tells truth, seeks justice, and refuses coercive forgiveness.
+- holy_spirit_gifts_pattern_pack.md: # Source Pack: Holy Spirit Gifts Pattern  Source status: reviewed source pack  Claim boundary: gifts of the Holy Spirit may be studied as practices of service, truth, wisdom, courage, healing, mercy, and communal upbuilding.
+- holy_spirit_gifts_pattern_pack.md: Discernment: every gift claim must be tested by love, truth, humility, accountability, holiness, justice, and fruit over time.
 - image_of_god_pattern_pack.md: - Biblical-language notes on `tselem`, `demut`, breath, glory, rule, heart, and   renewal keep word claims context-bound.
+- other_religious_comparative_witness_pack.md: # Source Pack: Other Religious Comparative Witness  Source status: reviewed source pack  Claim boundary: Christian theology may compare wisdom, longing, mercy, ritual, lament, moral practice, and possible prevenient grace across religious traditions, but other traditions must be 
+- other_religious_comparative_witness_pack.md: Interpretation: Christian theology may ask how shared human patterns relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof.
 - providence_and_contingency_pattern_pack.md: Analogy: complexity, emergence, and narrative meaning can illuminate human experience without proving divine governance.
 - providence_and_contingency_pattern_pack.md: Analogy: chance, retrospectively made meaning, social causation, and narrative memory can explain perceived providence.
+- science_analogy_guardrail_pack.md: Interpretation: Christian theology may reflect on creation, intelligibility, providence, and creaturely knowing, but only after the technical source's scope is preserved.
+- science_analogy_guardrail_pack.md: Analogy: beauty, complexity, emergence, uncertainty, and order may illuminate theological reflection without demonstrating theology.
 - trinity_as_behavior_pattern_pack.md: # Source Pack: Trinity-As-Behavior Pattern  Source status: reviewed source pack  Claim boundary: Trinity-As-Behavior may describe how Christian doctrine forms practice through receiving creation as gift, following Christ, and testing Spirit-led transformation.
 - trinity_as_behavior_pattern_pack.md: Interpretation: Christian theology reads creation, redemption, and sanctification as distinct but inseparable divine action.
 - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin  - Status: `weakened_by_pressure` - Reason: recurrence can result from selection bias, shared human cognition,   social formation, broad religious motifs, or curated sources.
@@ -644,6 +678,8 @@ Theology and Logos
 Spirituality and Worship
 ------------------------
 - active_lane_review_conversion_2026_06_01_followup.md: | | cultural_inputs | Use only after identifying practice, community, power, consequence, and whether the example produces love, justice, humility, worship, or repair.
+- active_lane_review_conversion_2026_06_04_second_pass.md: | | cultural_inputs | Promote only after identifying practice, community, power, consequence, harmed/benefited groups, rival sociological explanation, and whether the practice forms truthful love, justice, humility, worship, or repair.
+- active_lane_review_conversion_2026_06_04_second_pass.md: | | all_texts | Promote only after naming tradition, genre, transmission/translation history, community use, counter-reading, and whether recurrence is literary, cultural, ritual, philosophical, or theological.
 - apostles_creed_church_hymnary_wikisource.txt: Bedell  | translator =   | section    = The Apostles' Creed  | previous   = [[../The Law of God/]]  | next       = [[../The Lord's Prayer/]]  | year       = 1893  | notes      =  }}  <pages index="The Church hymnary (1893).djvu" from=10 to=10 tosection=s1 />
 - aquinas_summa_part_1_gutenberg.txt: The Nature and Extent of Sacred Doctrine 2.
 - aquinas_summa_part_1_gutenberg.txt: Of Man Who Is Composed of a Spiritual and a Corporeal Substance:        and in the First Place, Concerning What Belongs to the Essence        of the Soul 76.
@@ -683,7 +719,7 @@ Spirituality and Worship
 - evidence_discernment_distinction.md: A disciplined theological assistant must separate what has been observed from how faith discerns and practices what has been observed.
 - evidence_discernment_distinction.md: It must become discernible in human life as truthful attention, moral response, community practice, spiritual formation, service, repair, lament, hope, or worship.
 - next_research_expansion_tracker.md: Add global gifts-of-the-Holy-Spirit discernment across countries, peoples,    churches, and religious backgrounds without collapsing every spiritual    phenomenon into the same source.
-- next_research_expansion_tracker.md: - Existing tests cover child loss, chronic illness, spiritual abuse, injustice,   unanswered prayer, and no-resolution suffering.
+- next_research_expansion_tracker.md: Growth rule: the next version should become less impressed by repeated signals and more disciplined about reviewed sources, counter-readings, and whether the pattern produces truthful love, justice, humility, worship, and repair.
 - pattern_formation_framework.md: Practical response: what a person or community can practice today with    humility, truth, love, justice, worship, and hope.
 - practical_theology_pattern_use.md: Is this creation, lament, temptation, injustice, vocation, worship, reconciliation, repair, or waiting?
 - practical_theology_pattern_use.md: Discern: ask how scripture, prayer, conscience, community, wisdom, and pressure tests shape the faithful response.
@@ -702,6 +738,10 @@ Spirituality and Worship
 - cross_and_reversal_pattern_pack.md: - Historical notes on Roman crucifixion, slavery, lynching, genocide, spiritual   abuse, and civil-rights witness keep the cross under victim-centered pressure.
 - image_of_god_pattern_pack.md: # Source Pack: Image Of God Pattern  Source status: reviewed source pack  Claim boundary: the Image Of God pattern may connect dignity, vocation, embodiment, symbolic capacity, moral agency, relationship, and worship.
 - image_of_god_pattern_pack.md: Practical use: protect vulnerable persons, listen before judging, include weak and overlooked people in worship, and resist usefulness-based ranking.
+- other_religious_comparative_witness_pack.md: # Source Pack: Other Religious Comparative Witness  Source status: reviewed source pack  Claim boundary: Christian theology may compare wisdom, longing, mercy, ritual, lament, moral practice, and possible prevenient grace across religious traditions, but other traditions must be 
+- other_religious_comparative_witness_pack.md: Evidence: primary texts, ritual practices, expert commentary, living-community interpretation, historical contact, testimony, and counter-readings from within each tradition.
+- science_analogy_guardrail_pack.md: They must not be treated as proof of God, prayer, providence, or consciousness.
+- science_analogy_guardrail_pack.md: Failure condition: reject any use that turns analogy into proof, invokes quantum language vaguely, ignores base rates, bypasses counterarguments, or uses science language to pressure belief.
 - trinity_as_behavior_pattern_pack.md: Evidence:  - Matthew 28:19, John 14-17, Romans 8, 2 Corinthians 13:14, Ephesians, baptismal   language, creeds, and worship texts support Trinitarian practice.
 - trinity_as_behavior_pattern_pack.md: Analogy: sociology of group identity, ritual studies, psychology of belonging, and comparative triadic symbols may illuminate behavior but cannot replace doctrine.
 - weakened_claims_register.md: ## Weakened Claim: Quantum Physics Supports Prayer Or Consciousness Claims  - Status: `do_not_strengthen_claim` - Reason: quantum concepts are often misused outside their technical scale.
@@ -744,6 +784,8 @@ Biology and Neuroscience
 - reviewed_source_packs.md: Reviewed-source needs:  - Joseph, Job, Esther, Psalms, wisdom literature, Jesus' providence teachings,   Acts, Romans 8, and groaning/hope texts, - classical, Reformation, modern, and contemporary debates about providence,   causality, chance, freedom, evil, and divine action, - 
 - creation_to_consciousness_pattern_pack.md: # Source Pack: Creation-To-Consciousness Pattern  Source status: reviewed source pack  Claim boundary: Creation-To-Consciousness may explore ordered creation, life, mind, moral awareness, responsibility, and worship.
 - creation_to_consciousness_pattern_pack.md: Discernment: the pattern must face evolution, animal consciousness, disability, ecological loss, waste, predation, and suffering in nature.
+- science_analogy_guardrail_pack.md: They must not be treated as proof of God, prayer, providence, or consciousness.
+- science_analogy_guardrail_pack.md: Evidence: qualified physics, biology, probability, statistics, logic, philosophy-of-science sources, counterarguments to quantum overclaiming, and case studies of failed scientific analogy.
 - weakened_claims_register.md: ## Weakened Claim: Quantum Physics Supports Prayer Or Consciousness Claims  - Status: `do_not_strengthen_claim` - Reason: quantum concepts are often misused outside their technical scale.
 
 Physics and Natural Law
@@ -777,7 +819,10 @@ Physics and Natural Law
 - reviewed_source_packs.md: ## Pack 5: Math, Statistics, Logic, And Science Guardrails  Claim boundary: math, logic, statistics, and physics help discipline pattern claims.
 - reviewed_source_packs.md: Reviewed-source needs:  - logic and inference rules, - statistics, base rates, comparison groups, and selection-bias checks, - qualified physics and philosophy-of-science sources, - counterarguments to quantum overclaiming, - clear labels for analogy, compatibility, and theologic
 - creation_to_consciousness_pattern_pack.md: Analogy: emergence, cognitive science, ecological interdependence, and ordinary wonder may explain perceived ascent from matter to meaning.
+- holy_spirit_gifts_pattern_pack.md: Discernment: every gift claim must be tested by love, truth, humility, accountability, holiness, justice, and fruit over time.
 - providence_and_contingency_pattern_pack.md: - Deep-source notes on probability, causality, uncertainty, complexity, and   science limits prevent overclaim.
+- science_analogy_guardrail_pack.md: # Source Pack: Science Analogy Guardrail  Source status: reviewed source pack  Claim boundary: science, mathematics, statistics, and philosophy of science may discipline pattern claims and support humility about causality, complexity, and knowledge.
+- science_analogy_guardrail_pack.md: Evidence: qualified physics, biology, probability, statistics, logic, philosophy-of-science sources, counterarguments to quantum overclaiming, and case studies of failed scientific analogy.
 - trinity_as_behavior_pattern_pack.md: Failure condition: reject any version that collapses the Trinity into one role, divides God into three gods, treats the Spirit as group energy, or justifies spiritual control.
 - trinity_as_behavior_pattern_pack.md: Failure condition: reject any version that collapses persons, divides God, treats the Spirit as group energy, or uses divine authority to control people.
 - weakened_claims_register.md: ## Weakened Claim: Quantum Physics Supports Prayer Or Consciousness Claims  - Status: `do_not_strengthen_claim` - Reason: quantum concepts are often misused outside their technical scale.
@@ -787,6 +832,7 @@ Mathematics and Intelligibility
 -------------------------------
 - active_lane_review_conversion_2026_06_04.md: | | cultural_inputs | Evidence only after naming the practice, community, power structure, harm/benefit, consequence, and fruit.
 - active_lane_review_conversion_2026_06_04.md: Recurrence across texts may be shared human pattern, literary genre, or overfit.
+- active_lane_review_conversion_2026_06_04_second_pass.md: | | history_inputs | Promote only after naming power, conflict, harmed community, memory dispute, reform attempt, unintended consequence, unfinished repair, and how the case pressures the pattern.
 - aquinas_summa_part_1_gutenberg.txt: Each article is now designated by part, question number, and article number in brackets, like this:  > SECOND ARTICLE [I, Q.
 - aquinas_summa_part_1_gutenberg.txt: For the astronomer and the physicist both may prove the same conclusion: that the earth, for instance, is round: the astronomer by means of mathematics (i.e.
 - augustine_confessions_gutenberg.txt: Whatever was written, either on rhetoric, or logic, geometry, music, and arithmetic, by myself without much difficulty or any instructor, I understood, Thou knowest, O Lord my God; because both quickness of understanding, and acuteness in discerning, is Thy gift: yet did I not th
@@ -853,9 +899,14 @@ Mathematics and Intelligibility
 - creation_to_consciousness_pattern_pack.md: - Science and deep-source guardrails support intelligibility, emergence,   ecology, probability, and limits without turning them into proof.
 - cross_and_reversal_pattern_pack.md: # Source Pack: Cross And Reversal Pattern  Source status: reviewed source pack  Claim boundary: the Cross And Reversal pattern may describe God's revelation in cruciform humility, mercy, judgment of violent power, forgiveness, and resurrection hope.
 - cross_and_reversal_pattern_pack.md: Analogy: literary reversal, martyr sociology, moral-injury repair, and social psychology of sacrifice can illuminate the pattern but cannot prove it.
+- holy_spirit_gifts_pattern_pack.md: # Source Pack: Holy Spirit Gifts Pattern  Source status: reviewed source pack  Claim boundary: gifts of the Holy Spirit may be studied as practices of service, truth, wisdom, courage, healing, mercy, and communal upbuilding.
 - image_of_god_pattern_pack.md: # Source Pack: Image Of God Pattern  Source status: reviewed source pack  Claim boundary: the Image Of God pattern may connect dignity, vocation, embodiment, symbolic capacity, moral agency, relationship, and worship.
+- image_of_god_pattern_pack.md: Discernment must ask whether the pattern protects people who cannot perform, speak, produce, or defend themselves.
+- other_religious_comparative_witness_pack.md: Analogy: shared practices may arise from common human needs, social formation, ritual stability, ecological conditions, memory, or ordinary pattern perception.
 - providence_and_contingency_pattern_pack.md: # Source Pack: Providence And Contingency Pattern  Source status: reviewed source pack  Claim boundary: Providence may be studied as a theological interpretation of a world that is ordered yet contingent and historically unfolding.
 - providence_and_contingency_pattern_pack.md: It must not be turned into prediction, control, victim-blaming, or easy explanation for tragedy.
+- science_analogy_guardrail_pack.md: # Source Pack: Science Analogy Guardrail  Source status: reviewed source pack  Claim boundary: science, mathematics, statistics, and philosophy of science may discipline pattern claims and support humility about causality, complexity, and knowledge.
+- science_analogy_guardrail_pack.md: Evidence: qualified physics, biology, probability, statistics, logic, philosophy-of-science sources, counterarguments to quantum overclaiming, and case studies of failed scientific analogy.
 - trinity_as_behavior_pattern_pack.md: # Source Pack: Trinity-As-Behavior Pattern  Source status: reviewed source pack  Claim boundary: Trinity-As-Behavior may describe how Christian doctrine forms practice through receiving creation as gift, following Christ, and testing Spirit-led transformation.
 - weakened_claims_register.md: # Weakened Claims Register  Type: pattern revision log Source status: active weakening register  This register names claims that must stay weakened until further source review, pressure testing, and counter-readings justify a narrower version.
 - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin  - Status: `weakened_by_pressure` - Reason: recurrence can result from selection bias, shared human cognition,   social formation, broad religious motifs, or curated sources.
@@ -865,6 +916,7 @@ Mathematical Theophany
 - active_lane_review_conversion_2026_06_01_followup.md: | Lane | Reviewed conversion decision | | --- | --- | | visual_art | Use only after inspecting actual form, composition, medium, symbol, context, beauty, lament, and rival reading.
 - active_lane_review_conversion_2026_06_04.md: | Lane | Reviewed conversion decision | | --- | --- | | visual_art | Evidence only after actual image/form review: composition, medium, gesture, color, iconography, patronage, reception, beauty, lament, and rival reading.
 - active_lane_review_conversion_2026_06_04.md: Recurrence across texts may be shared human pattern, literary genre, or overfit.
+- active_lane_review_conversion_2026_06_04_second_pass.md: | | history_inputs | Promote only after naming power, conflict, harmed community, memory dispute, reform attempt, unintended consequence, unfinished repair, and how the case pressures the pattern.
 - aquinas_summa_part_1_gutenberg.txt: The Infinity of God 8.
 - aquinas_summa_part_1_gutenberg.txt: 2: Further, it is the sign of a lower science to depend upon a higher; as music depends on arithmetic.
 - augustine_confessions_gutenberg.txt: For I even burnt in my youth heretofore, to be satiated in things below; and I dared to grow wild again, with these various and shadowy loves: my beauty consumed away, and I stank in Thine eyes; pleasing myself, and desirous to please in the eyes of men.
@@ -933,9 +985,13 @@ Mathematical Theophany
 - creation_to_consciousness_pattern_pack.md: Discernment: the pattern must face evolution, animal consciousness, disability, ecological loss, waste, predation, and suffering in nature.
 - cross_and_reversal_pattern_pack.md: # Source Pack: Cross And Reversal Pattern  Source status: reviewed source pack  Claim boundary: the Cross And Reversal pattern may describe God's revelation in cruciform humility, mercy, judgment of violent power, forgiveness, and resurrection hope.
 - cross_and_reversal_pattern_pack.md: Analogy: literary reversal, martyr sociology, moral-injury repair, and social psychology of sacrifice can illuminate the pattern but cannot prove it.
+- holy_spirit_gifts_pattern_pack.md: # Source Pack: Holy Spirit Gifts Pattern  Source status: reviewed source pack  Claim boundary: gifts of the Holy Spirit may be studied as practices of service, truth, wisdom, courage, healing, mercy, and communal upbuilding.
 - image_of_god_pattern_pack.md: # Source Pack: Image Of God Pattern  Source status: reviewed source pack  Claim boundary: the Image Of God pattern may connect dignity, vocation, embodiment, symbolic capacity, moral agency, relationship, and worship.
 - image_of_god_pattern_pack.md: It must not reduce personhood to intelligence, productivity, tribe, citizenship, beauty, health, or usefulness.
+- other_religious_comparative_witness_pack.md: Analogy: shared practices may arise from common human needs, social formation, ritual stability, ecological conditions, memory, or ordinary pattern perception.
 - providence_and_contingency_pattern_pack.md: # Source Pack: Providence And Contingency Pattern  Source status: reviewed source pack  Claim boundary: Providence may be studied as a theological interpretation of a world that is ordered yet contingent and historically unfolding.
+- science_analogy_guardrail_pack.md: # Source Pack: Science Analogy Guardrail  Source status: reviewed source pack  Claim boundary: science, mathematics, statistics, and philosophy of science may discipline pattern claims and support humility about causality, complexity, and knowledge.
+- science_analogy_guardrail_pack.md: Evidence: qualified physics, biology, probability, statistics, logic, philosophy-of-science sources, counterarguments to quantum overclaiming, and case studies of failed scientific analogy.
 - trinity_as_behavior_pattern_pack.md: # Source Pack: Trinity-As-Behavior Pattern  Source status: reviewed source pack  Claim boundary: Trinity-As-Behavior may describe how Christian doctrine forms practice through receiving creation as gift, following Christ, and testing Spirit-led transformation.
 - weakened_claims_register.md: # Weakened Claims Register  Type: pattern revision log Source status: active weakening register  This register names claims that must stay weakened until further source review, pressure testing, and counter-readings justify a narrower version.
 - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin  - Status: `weakened_by_pressure` - Reason: recurrence can result from selection bias, shared human cognition,   social formation, broad religious motifs, or curated sources.
@@ -968,6 +1024,9 @@ Quantum Physics and Uncertainty
 - reviewed_source_packs.md: Reviewed-source needs:  - logic and inference rules, - statistics, base rates, comparison groups, and selection-bias checks, - qualified physics and philosophy-of-science sources, - counterarguments to quantum overclaiming, - clear labels for analogy, compatibility, and theologic
 - reviewed_source_packs.md: Practical use: act faithfully inside uncertainty; pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 - providence_and_contingency_pattern_pack.md: - Deep-source notes on probability, causality, uncertainty, complexity, and   science limits prevent overclaim.
+- providence_and_contingency_pattern_pack.md: Practical use is faithful action under uncertainty.
+- science_analogy_guardrail_pack.md: Evidence: qualified physics, biology, probability, statistics, logic, philosophy-of-science sources, counterarguments to quantum overclaiming, and case studies of failed scientific analogy.
+- science_analogy_guardrail_pack.md: Analogy: beauty, complexity, emergence, uncertainty, and order may illuminate theological reflection without demonstrating theology.
 - weakened_claims_register.md: ## Weakened Claim: Quantum Physics Supports Prayer Or Consciousness Claims  - Status: `do_not_strengthen_claim` - Reason: quantum concepts are often misused outside their technical scale.
 - weakened_claims_register.md: - Narrow allowed claim: quantum theory supports humility about physical   prediction and requires qualified sources.
 
@@ -977,6 +1036,8 @@ Anthropology and Culture
 - active_lane_review_conversion_2026_06_01_followup.md: | | cultural_inputs | Use only after identifying practice, community, power, consequence, and whether the example produces love, justice, humility, worship, or repair.
 - active_lane_review_conversion_2026_06_04.md: | | cultural_inputs | Evidence only after naming the practice, community, power structure, harm/benefit, consequence, and fruit.
 - active_lane_review_conversion_2026_06_04.md: Cultural recurrence can be sociology before it is theology.
+- active_lane_review_conversion_2026_06_04_second_pass.md: Required fields: work, artist/tradition, date/context, medium, composition, gesture, symbol, patronage, reception, counter-reading, and practical-theology boundary.
+- active_lane_review_conversion_2026_06_04_second_pass.md: | | cultural_inputs | Promote only after identifying practice, community, power, consequence, harmed/benefited groups, rival sociological explanation, and whether the practice forms truthful love, justice, humility, worship, or repair.
 - aquinas_summa_part_1_gutenberg.txt: How the Human Soul Knows What Is Above Itself 89.
 - aquinas_summa_part_1_gutenberg.txt: 3:16): "All Scripture inspired of God is profitable to teach, to reprove, to correct, to instruct in justice." Now Scripture, inspired of God, is no part of philosophical science, which has been built up by human reason.
 - augustine_confessions_gutenberg.txt: Thus I exchanged with those about me these current signs of our wills, and so launched deeper into the stormy intercourse of human life, yet depending on parental authority and the beck of elders.
@@ -1034,12 +1095,17 @@ Anthropology and Culture
 - reviewed_candidate_reference_decisions_2026_06_01_followup.md: | ID | Candidate reference | Human review decision | | --- | --- | --- | | NCR-008 | St.
 - reviewed_candidate_reference_decisions_2026_06_04.md: # Reviewed Candidate Reference Decisions, 2026-06-04  Source lane: research_documents Source status: human review decision log  These decisions review the seven newest candidate references from `references/references.json` by original-source status, author expertise, publication 
 - reviewed_candidate_reference_decisions_2026_06_04.md: | ID | Candidate reference | Human review decision | | --- | --- | --- | | NCR-013 | `Thinking Through Translation with Metaphors`, review/notice for an edited volume, Edinburgh University Press DOI page metadata | Keep as world-languages lead for translation-metaphor method.
+- reviewed_candidate_reference_decisions_2026_06_04_second_pass.md: # Reviewed Candidate Reference Decisions Second Pass, 2026-06-04  Source lane: research_documents Source status: human review decision log  These decisions review the two newest candidate references from `references/daily_research_digest.json` by original-source status, author ex
+- reviewed_candidate_reference_decisions_2026_06_04_second_pass.md: | ID | Candidate reference | Human review decision | | --- | --- | --- | | NCR-020 | `Details for Fifty key Christian thinkers / Lancaster Theological ...`, Lancaster Theological/Moravian library catalog metadata | Keep as theologian-source routing lead only.
 - reviewed_source_packs.md: ## Pack 2: Redemptive Metanarrative And Practical Theology  Claim boundary: creation, fall, covenant, redemption, restoration, and new creation can serve as a Christian story-form for interpreting human life, but the pattern must not force unresolved grief into premature victory.
 - reviewed_source_packs.md: Reviewed-source needs:  - Acts, Romans 12, 1 Corinthians 12-14, Ephesians 4, Galatians 5, 1 Peter 4, - charismatic, Pentecostal, Orthodox, Catholic, Protestant, and cautious   cessationist readings, - cross-cultural testimony with safeguards against manipulation, - other-religiou
 - source_lane_balance_targets.md: A disciplined theological assistant needs a balanced body of sources: scripture and theologians, languages and history, art and culture, psychology and lived stories, other religious traditions, pressure tests, and methodological guardrails.
 - source_lane_balance_targets.md: | | world_languages | 12 | 30 | 60 | Test translation, metaphor, oral tradition, and language-family breadth.
+- holy_spirit_gifts_pattern_pack.md: Practical use: direct gifts toward service, courage, care, truth, wisdom, and community repair.
 - image_of_god_pattern_pack.md: Interpretation: Christian theology reads human dignity as gift before performance and vocation before domination.
 - image_of_god_pattern_pack.md: Analogy: psychology, rights discourse, kinship systems, and social cognition may illuminate personhood but cannot replace theological anthropology.
+- other_religious_comparative_witness_pack.md: Evidence: primary texts, ritual practices, expert commentary, living-community interpretation, historical contact, testimony, and counter-readings from within each tradition.
+- other_religious_comparative_witness_pack.md: Interpretation: Christian theology may ask how shared human patterns relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof.
 - providence_and_contingency_pattern_pack.md: Analogy: complexity, emergence, and narrative meaning can illuminate human experience without proving divine governance.
 - trinity_as_behavior_pattern_pack.md: # Source Pack: Trinity-As-Behavior Pattern  Source status: reviewed source pack  Claim boundary: Trinity-As-Behavior may describe how Christian doctrine forms practice through receiving creation as gift, following Christ, and testing Spirit-led transformation.
 - trinity_as_behavior_pattern_pack.md: Analogy: sociology of group identity, ritual studies, psychology of belonging, and comparative triadic symbols may illuminate behavior but cannot replace doctrine.
@@ -1049,6 +1115,7 @@ Anthropology and Culture
 AI and Pattern Recognition
 --------------------------
 - active_lane_review_conversion_2026_06_04.md: Recurrence across texts may be shared human pattern, literary genre, or overfit.
+- active_lane_review_conversion_2026_06_04_second_pass.md: | | history_inputs | Promote only after naming power, conflict, harmed community, memory dispute, reform attempt, unintended consequence, unfinished repair, and how the case pressures the pattern.
 - aquinas_summa_part_1_gutenberg.txt: 2: Further, all things are in God as their first model.
 - aquinas_summa_part_1_gutenberg.txt: But things modelled ought to conform to the model.
 - augustine_confessions_gutenberg.txt: But I, my God and my Glory, do hence also sing a hymn to Thee, and do consecrate praise to Him who consecrateth me, because those beautiful patterns which through men's souls are conveyed into their cunning hands, come from that Beauty, which is above our souls, which my soul day
@@ -1116,9 +1183,14 @@ AI and Pattern Recognition
 - creation_to_consciousness_pattern_pack.md: Discernment: the pattern must face evolution, animal consciousness, disability, ecological loss, waste, predation, and suffering in nature.
 - cross_and_reversal_pattern_pack.md: # Source Pack: Cross And Reversal Pattern  Source status: reviewed source pack  Claim boundary: the Cross And Reversal pattern may describe God's revelation in cruciform humility, mercy, judgment of violent power, forgiveness, and resurrection hope.
 - cross_and_reversal_pattern_pack.md: Analogy: literary reversal, martyr sociology, moral-injury repair, and social psychology of sacrifice can illuminate the pattern but cannot prove it.
+- holy_spirit_gifts_pattern_pack.md: # Source Pack: Holy Spirit Gifts Pattern  Source status: reviewed source pack  Claim boundary: gifts of the Holy Spirit may be studied as practices of service, truth, wisdom, courage, healing, mercy, and communal upbuilding.
 - image_of_god_pattern_pack.md: # Source Pack: Image Of God Pattern  Source status: reviewed source pack  Claim boundary: the Image Of God pattern may connect dignity, vocation, embodiment, symbolic capacity, moral agency, relationship, and worship.
+- image_of_god_pattern_pack.md: Discernment must ask whether the pattern protects people who cannot perform, speak, produce, or defend themselves.
+- other_religious_comparative_witness_pack.md: Interpretation: Christian theology may ask how shared human patterns relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof.
+- other_religious_comparative_witness_pack.md: Analogy: shared practices may arise from common human needs, social formation, ritual stability, ecological conditions, memory, or ordinary pattern perception.
 - providence_and_contingency_pattern_pack.md: # Source Pack: Providence And Contingency Pattern  Source status: reviewed source pack  Claim boundary: Providence may be studied as a theological interpretation of a world that is ordered yet contingent and historically unfolding.
 - providence_and_contingency_pattern_pack.md: Discernment: every providence claim must ask whether chance, trauma coping, survivor bias, social causation, or retrospective storytelling explains the data better.
+- science_analogy_guardrail_pack.md: # Source Pack: Science Analogy Guardrail  Source status: reviewed source pack  Claim boundary: science, mathematics, statistics, and philosophy of science may discipline pattern claims and support humility about causality, complexity, and knowledge.
 - trinity_as_behavior_pattern_pack.md: # Source Pack: Trinity-As-Behavior Pattern  Source status: reviewed source pack  Claim boundary: Trinity-As-Behavior may describe how Christian doctrine forms practice through receiving creation as gift, following Christ, and testing Spirit-led transformation.
 - weakened_claims_register.md: # Weakened Claims Register  Type: pattern revision log Source status: active weakening register  This register names claims that must stay weakened until further source review, pressure testing, and counter-readings justify a narrower version.
 - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin  - Status: `weakened_by_pressure` - Reason: recurrence can result from selection bias, shared human cognition,   social formation, broad religious motifs, or curated sources.
@@ -1173,8 +1245,11 @@ Philosophy and Meaning
 - source_lane_balance_targets.md: | Lane | Add reviewed notes | Reason | | --- | ---: | --- | | biblical_languages | 25 | Build original-language depth before Greek, Hebrew, Aramaic, or translation claims are allowed to strengthen.
 - creation_to_consciousness_pattern_pack.md: - Science and deep-source guardrails support intelligibility, emergence,   ecology, probability, and limits without turning them into proof.
 - creation_to_consciousness_pattern_pack.md: Analogy: emergence, cognitive science, ecology, and philosophy of mind may explain much of the pattern without requiring theological conclusions.
+- holy_spirit_gifts_pattern_pack.md: Analogy: psychology of charisma, group emotion, healing expectation, social cohesion, and other-religious experience may explain some phenomena without settling pneumatology.
 - providence_and_contingency_pattern_pack.md: Analogy: complexity, emergence, and narrative meaning can illuminate human experience without proving divine governance.
 - providence_and_contingency_pattern_pack.md: Practical use: pray, plan, serve, grieve, repent, and act faithfully without pretending to know every hidden reason.
+- science_analogy_guardrail_pack.md: # Source Pack: Science Analogy Guardrail  Source status: reviewed source pack  Claim boundary: science, mathematics, statistics, and philosophy of science may discipline pattern claims and support humility about causality, complexity, and knowledge.
+- science_analogy_guardrail_pack.md: Evidence: qualified physics, biology, probability, statistics, logic, philosophy-of-science sources, counterarguments to quantum overclaiming, and case studies of failed scientific analogy.
 - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin  - Status: `weakened_by_pressure` - Reason: recurrence can result from selection bias, shared human cognition,   social formation, broad religious motifs, or curated sources.
 - weakened_claims_register.md: ## Weakened Claim: Quantum Physics Supports Prayer Or Consciousness Claims  - Status: `do_not_strengthen_claim` - Reason: quantum concepts are often misused outside their technical scale.
 

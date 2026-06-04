@@ -54,3 +54,13 @@ care for sufferers without explanation pressure.
 Failure condition: weaken any version that explains every event neatly, blames
 victims, confuses correlation with providence, denies chance, or claims certain
 knowledge of hidden divine causes.
+
+## 2026-06-04 Second-Pass Reviewed Decision
+
+Evidence should now prioritize Job, Ecclesiastes, exile, migration, public
+health, genocide memory, failed prediction, probability, complexity, and
+trauma-coping counterarguments. Interpretation may speak of trust in God's care
+inside contingency, not certainty about hidden causes. Discernment must ask
+whether chance, social causation, survivor bias, or retrospective meaning-making
+explains the case better. Practical use is faithful action under uncertainty.
+Failure condition: weaken any claim that turns tragedy into a tidy message.

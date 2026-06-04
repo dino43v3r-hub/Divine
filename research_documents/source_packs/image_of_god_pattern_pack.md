@@ -53,3 +53,14 @@ argument.
 
 Failure condition: reject any use that makes dignity conditional on rational
 performance, productivity, social belonging, beauty, health, or usefulness.
+
+## 2026-06-04 Second-Pass Reviewed Decision
+
+Evidence should now prioritize disability inclusion, Dalit Christian history,
+migration, incarceration, slave narratives, and personhood language from
+world-language notes. Interpretation remains a Christian dignity claim, not a
+generic human-rights proof. Discernment must ask whether the pattern protects
+people who cannot perform, speak, produce, or defend themselves. Analogy from
+rights discourse and psychology can illuminate dignity, but practical use must
+be protection, access, listening, and repair. Failure condition: weaken any
+version that makes vulnerable people prove their worth.

@@ -53,3 +53,13 @@ and worship without contempt for creaturely limits.
 Failure condition: weaken any version that uses science as proof, treats
 consciousness as superiority, devalues disabled persons, or ignores suffering in
 nature.
+
+## 2026-06-04 Second-Pass Reviewed Decision
+
+Evidence should now prioritize Job, creation lament, ecology, animal suffering,
+disability theology, science-scope sources, and comparative creation texts.
+Interpretation may read creation as gift and vocation, but not as proof.
+Discernment must face waste, predation, dementia, nonverbal life, and failed
+science analogies. Analogy from emergence and cognitive science can explain
+many patterns. Failure condition: weaken any version that turns consciousness
+into a ladder of superiority.

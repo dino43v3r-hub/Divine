@@ -95,6 +95,21 @@ grown.
 
 No 2026-06-04 revisit promotes a question or analogy to `reviewed_evidence`.
 
+## 2026-06-04 Second-Pass Claim Revisit Notes
+
+These revisits keep the report less impressed by repeated signals and more
+disciplined about reviewed sources, counter-readings, and practical fruit.
+
+| ID | Revisit decision | Evidence / interpretation / discernment / analogy / practical use separation |
+| --- | --- | --- |
+| DP-005 | Keep as `research_question_only` even after the new Holy Spirit gifts source pack. | Evidence: scripture, global testimony, and historical practice can be reviewed. Interpretation: Christian pneumatology may identify gifts as Spirit-enabled service. Discernment: love, truth, humility, accountability, holiness, justice, and harm review are required. Analogy: charisma, group emotion, healing expectation, and other-religious experience may explain some phenomena. Practical use: gifts must serve truthful love and repair, not spectacle. |
+| DP-006 | Keep as `research_question_only` after the comparative-witness source pack. | Evidence: primary texts and practices from other traditions can support respectful comparison. Interpretation: Christian theology may ask about grace, longing, conscience, or witness. Discernment: internal counter-readings and living-community context are required. Analogy: shared practices may reflect human need, ritual, memory, or culture. Practical use: neighbor-love, humility, learning, and non-triumphal witness. |
+| DP-008 | Keep as `analogy_only` after the science-analogy guardrail pack. | Evidence: qualified science can support technical limits, probability, complexity, and humility. Interpretation: theology may reflect on creation and creaturely knowledge. Discernment: every source needs scope, expertise, and rival explanation. Analogy: order, beauty, emergence, and uncertainty illuminate but do not prove. Practical use: better reasoning and resistance to manipulation. |
+
+Closing practical rule: if a pattern does not help a person become more
+truthful, loving, humble, just, worshipful, patient, and practically faithful,
+it has not yet become practical theology.
+
 ## 2026-06-01 Follow-Up Claim Revisit Notes
 
 These three additional revisits keep major claims from drifting upward in

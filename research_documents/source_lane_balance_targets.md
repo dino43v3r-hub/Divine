@@ -83,3 +83,21 @@ The 2026-06-04 pass added reviewed notes toward the immediate quotas:
 These additions are human-reviewed notes. Machine labels remain routing tools,
 not decisions.
 
+## 2026-06-04 Second-Pass Quota Progress
+
+The second 2026-06-04 pass added reviewed notes toward the next immediate
+quotas:
+
+| Lane | Added reviewed notes | File |
+| --- | ---: | --- |
+| biblical_languages | 21 | `biblical_languages/reviewed_growth_batch_2026_06_04_second_pass.md` |
+| world_languages | 21 | `world_languages/reviewed_growth_batch_2026_06_04_second_pass.md` |
+| all_texts | 42 | `all_texts/reviewed_growth_batch_2026_06_04_second_pass.md` |
+| other_religious_texts | 42 | `other_religious_texts/reviewed_growth_batch_2026_06_04_second_pass.md` |
+| theologians | 61 | `theologians/reviewed_growth_batch_2026_06_04_second_pass.md` |
+| history_inputs | 42 | `history_inputs/reviewed_growth_batch_2026_06_04_second_pass.md` |
+
+These additions should make the corpus more balanced without treating repeated
+signals as confidence. Human review, counter-reading, and practical fruit remain
+the promotion gates.
+

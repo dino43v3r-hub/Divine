@@ -54,3 +54,14 @@ Spirit-led change by accountable service.
 
 Failure condition: reject any version that collapses persons, divides God,
 treats the Spirit as group energy, or uses divine authority to control people.
+
+## 2026-06-04 Second-Pass Reviewed Decision
+
+Evidence should now prioritize Matthew 28, John 14-17, Romans 8, creeds,
+liturgical practice, pneumatology, global church testimony, and abuse-pressure
+cases. Interpretation may connect doctrine to receiving, following, and
+Spirit-led transformation, while preserving divine persons. Discernment must
+test authority, gifts, and communal emotion by fruit and accountability.
+Analogy from sociology and ritual studies remains helpful but insufficient.
+Failure condition: reject any use that turns Trinitarian language into vague
+symbolism or spiritual control.

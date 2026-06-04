@@ -135,6 +135,34 @@ It also added:
 Machine labels remain routing tools only; human review decisions now govern
 whether these sources may affect confidence.
 
+## 2026-06-04 Second-Pass Immediate Work Completion
+
+This pass added the requested reviewed growth batches:
+
+- `biblical_languages/reviewed_growth_batch_2026_06_04_second_pass.md`: 21 notes.
+- `world_languages/reviewed_growth_batch_2026_06_04_second_pass.md`: 21 notes.
+- `all_texts/reviewed_growth_batch_2026_06_04_second_pass.md`: 42 notes.
+- `other_religious_texts/reviewed_growth_batch_2026_06_04_second_pass.md`: 42 notes.
+- `theologians/reviewed_growth_batch_2026_06_04_second_pass.md`: 61 notes.
+- `history_inputs/reviewed_growth_batch_2026_06_04_second_pass.md`: 42 notes.
+
+It also added:
+
+- second-pass reviewed decisions for the five leading pattern packs,
+- three new major-claim source packs,
+- `research_documents/active_lane_review_conversion_2026_06_04_second_pass.md`,
+- `research_documents/reviewed_candidate_reference_decisions_2026_06_04_second_pass.md`,
+- `pattern_tests/leading_patterns_pressure_2026_06_04_second_pass.md`,
+- second-pass claim-ledger revisit notes for DP-005, DP-006, and DP-008.
+
+Growth rule: the next version should become less impressed by repeated signals
+and more disciplined about reviewed sources, counter-readings, and whether the
+pattern produces truthful love, justice, humility, worship, and repair.
+
+Closing practical rule: if a pattern does not help a person become more
+truthful, loving, humble, just, worshipful, patient, and practically faithful,
+it has not yet become practical theology.
+
 ## 2. Cross-Layer Synthesis Notes
 
 Status: fourth-pass expanded across all requested lanes, with balance policy added.

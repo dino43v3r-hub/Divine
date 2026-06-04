@@ -420,3 +420,17 @@ analogy, practical use, and failure condition. These packs may route stronger
 future review, but they do not by themselves promote any major claim unless the
 claim ledger, lane balance, and pressure tests agree.
 
+## 2026-06-04 Second-Pass Source-Pack Expansion
+
+Three additional major-claim packs now exist:
+
+- `research_documents/source_packs/holy_spirit_gifts_pattern_pack.md`
+- `research_documents/source_packs/other_religious_comparative_witness_pack.md`
+- `research_documents/source_packs/science_analogy_guardrail_pack.md`
+
+The five leading pattern packs also received second-pass reviewed decisions.
+This expands the pack set from twelve toward one pack per major claim and one
+pack per top pattern. The new packs are control structures: they separate
+evidence, interpretation, discernment, analogy, practical use, and failure
+condition before confidence may rise.
+

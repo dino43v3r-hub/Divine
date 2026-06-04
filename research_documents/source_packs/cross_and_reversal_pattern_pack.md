@@ -53,3 +53,13 @@ Practical use: humility, truth, boundaries, justice, and patient hope.
 Failure condition: reject any application that spiritualizes abuse, praises
 suffering, hides violence, or treats victims as tools for someone else's
 redemption story.
+
+## 2026-06-04 Second-Pass Reviewed Decision
+
+Evidence should now prioritize abuse-crisis history, lynching memory, war
+trauma, coerced forgiveness cases, Delores Williams, James Cone, and moral
+injury sources. Interpretation remains cruciform revelation and resurrection
+hope, not a general theory that suffering is good. Discernment must ask whether
+truth, safety, justice, and repair are being protected. Analogy from martyr
+sociology and trauma coping remains secondary. Failure condition: reject any
+cross-language that requires victims to remain available for harm.
