@@ -7,49 +7,13 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Resisting Oppression Together Shared Intentions and Unequal Agents
+### CIA Reading Room cia-rdp87t00289r000200960001-2: LATIN AMERICA REVIEW
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
 - Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs
+- Layer routes: cultural_inputs, history_inputs, visual_art
 - Primary layer: cultural_inputs
-- Provider: Crossref
-- Quality: scholarly metadata
-- Automated evidence: moderate_scholarly_candidate (9)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 256
-- Year: 2018
-- URL: https://doi.org/10.5040/9798881811983.ch-012
-
-No summary available in metadata.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### The cross of Christ: studies in the history of religion and the inner life of the church
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, history_inputs, human_stories
-- Primary layer: visual_art
 - Provider: Internet Archive
 - Quality: reference metadata
 - Automated evidence: moderate_scholarly_candidate (8)
@@ -57,18 +21,18 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 549
-- Year: 1877
-- URL: https://archive.org/details/CrossOfChrist
+- Corroborating routed candidates: 361
+- Year: 1985
+- URL: https://archive.org/details/cia-readingroom-document-cia-rdp87t00289r000200960001-2
 
-CONTENTS. Author's Preface I v Translator's Preface ix Monogrammatic Literature On The Cross, And
-The Sign Of The Cross xvii Introduction xxvii Chap. I. The Cross in the pre-Christian and extra-
-Christian Religions: a. As the Symbol of Blessing 1 b. As the Symbol of the Curse 46 Chap. II. The
-Cross upon Calvary 85 a. According to the Declarations of the Gospels 88 b. According to the
-Testimony of the Apostolic Discourses and Writings 99 Chap. III. The Cross of Christ in the pre-
-Constantine Church and Theology 109 Chap. IV. Constantine's Vision of the Cross, as the starting-
-point for the sensuous-external adoration of the Cross in the Middle Ages 136 Chap. V. The Cross in
-the Church of the Mid
+Declassified in Part - Sanitized Copy Approved for Release 2012/03/02 : CIA-
+RDP87T00289R000200960001-2 Directorate of t?Seeret?M r. k a .-ts .", ,..., L Intelligence ? a vro LL
+U1 OnVAt? " EN fe 25X1 Latin America Review 20 December 1985 Secret ALA LAR 85-027 20 December 1985
+Copy 427 0 25X1 Declassified in Part - Sanitized Copy Approved for Release 2012/03/02 : CIA-
+RDP87T00289R000200960001-2 25X1 Declassified in Part - Sanitized Copy Approved for Release
+2012/03/02 : CIA-RDP87T00289R000200960001-2 Declassified in Part - Sanitized Copy Approved for
+Release 2012/03/02 : CIA-RDP87T00289R000200960001-2 Declassified in Part - Sanitized Copy Approved
+for Release 2012/03/02 : CIA-RDP87T00289R00020
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -83,7 +47,172 @@ Auto approval reasons:
 - author and year metadata present
 
 Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### The rochester first unitarian church the pacific northwest district church
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 257
+- Year: 2022
+- URL: https://archive.org/details/uusf_org-20120205SFComplete
+
+The rochester first unitarian church the pacific northwest district church: The call to worship need
+road building your own theology and the great social activist 33 years minister of the rochester
+first unitarian church.
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Dr. Zakir Naik - Complete Audio Collection (200+)
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, all_texts, other_religious_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (7)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 530
+- Year: n.d.
+- URL: https://archive.org/details/Dr.ZakirNaik1_201812
+
+Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
+watch/listen/download more free Isl ā mic files. ---------------------------------------------------
+--------------------------------------------------------------------------- DR ZAKIR NAIK Born on 18
+October 1965 A medical doctor by professional training, Dr Zakir Naik is renowned as a dynamic
+international orator on Islam and Comparative Religion. He is 4 9 years old. Dr Zakir clarifies
+Islamic viewpoints and clears misconceptions about Islam, using the Qur’an, authentic Hadith and
+other religious Scriptures as a basis, in conjunction with reason, logic and scientific facts. He is
+popular f
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- trusted open-web domain present
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### That Which Shelters All
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: history_memory
+- Layer routes: history_inputs, theologians
+- Primary layer: history_inputs
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 314
+- Year: 2022
+- URL: https://archive.org/details/UU_Congregation_at_Shelter_Rock_Services-11591781_that_which_shelters_all
+
+In a time when information is available to us in an instant, we often don't dwell in the
+uncomfortable space of the unknown. The truth is that there are limitless possibilities in 'not
+knowing'. Imagination thrives in the fertile grounds of mystery. There is something sacred in the
+secrets of the world around us. Listen to reflect on the courage required to be curious, to be
+contemplative, and to remain lost but seeking.
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### Jonah and the Big Fish
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature, biblical_languages
+- Primary layer: all_texts
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 367
+- Year: 2020
+- URL: https://archive.org/details/Complete_Service_First_Unitari-20200830VRSComplete
+
+"Jonah and the Big Fish" (August 30, 2020) I love stories and their power to teach or invite us to
+let them speak to us wherever we are. And I love the story in the Hebrew Scriptures of Jonah and his
+journey with that Big Fish. And what layers we might find for ourselves in it about how to face life
+and what it might insist on from us. Rev. Vanessa Rush Southern, Senior Minister Gregg Biggs,
+Worship Associate Reiko Oda Lane, organist Eric Hamilton, guitarist Mark Sumner, pianist Asher
+Davison, song leader Eric Shackelford, camera Joe Chapot, Social Media Chat Support Jonathan Silk,
+OOS, Sound, drums
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.

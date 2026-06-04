@@ -1,6 +1,6 @@
 {
   "auto_review_approval_counts": {
-    "approved_for_review_queue": 1178,
+    "approved_for_review_queue": 1183,
     "not_auto_approved": 196
   },
   "auto_review_approval_setup": {
@@ -11,7 +11,7 @@
     "warnings_allowed": false
   },
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 595,
+    "moderate_scholarly_candidate": 600,
     "strong_scholarly_candidate": 610,
     "weak_scholarly_candidate": 169
   },
@@ -20,98 +20,47 @@
     "OpenCitations enrichment failed for DOI 10.1016/S0140-6736(24)00367-2: The read operation timed out"
   ],
   "layer_counts": {
-    "all_texts": 432,
-    "biblical_languages": 106,
-    "cultural_inputs": 349,
+    "all_texts": 434,
+    "biblical_languages": 107,
+    "cultural_inputs": 352,
     "deep_sources": 377,
-    "history_inputs": 356,
+    "history_inputs": 359,
     "human_stories": 325,
-    "modern_literature": 168,
+    "modern_literature": 169,
     "music_notes": 80,
-    "other_religious_texts": 302,
+    "other_religious_texts": 304,
     "pattern_tests": 234,
     "psychology_inputs": 326,
     "research_documents": 165,
     "research_documents/christian_sources": 121,
-    "theologians": 359,
-    "visual_art": 461,
+    "theologians": 360,
+    "visual_art": 463,
     "world_languages": 251
   },
   "new_auto_review_approval_counts": {
-    "approved_for_review_queue": 2
+    "approved_for_review_queue": 5
   },
   "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 2
+    "moderate_scholarly_candidate": 5
   },
-  "new_count": 2,
+  "new_count": 5,
   "new_layer_counts": {
-    "cultural_inputs": 2,
-    "history_inputs": 2,
-    "human_stories": 1,
-    "visual_art": 1
+    "all_texts": 2,
+    "biblical_languages": 1,
+    "cultural_inputs": 3,
+    "history_inputs": 3,
+    "modern_literature": 1,
+    "other_religious_texts": 2,
+    "theologians": 1,
+    "visual_art": 2
   },
   "new_provider_counts": {
-    "Crossref": 1,
-    "Internet Archive": 1
+    "Internet Archive": 5
   },
   "new_sources": [
     {
       "authors": [
-        "Christina Friedlaender"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is moderate_scholarly_candidate",
-        "stable DOI present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "DOI or stable scholarly identifier present",
-        "author metadata present",
-        "publication year present",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 9,
-      "automated_evidence_warnings": [],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "corroborating_source_count": 256,
-      "date_accessed": "2026-06-04",
-      "doi": "10.5040/9798881811983.ch-012",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "10.5040/9798881811983.ch-012",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs"
-      ],
-      "opencitations_checked_at": "2026-06-04",
-      "opencitations_citation_count": 0,
-      "opencitations_reference_count": 0,
-      "primary_layer": "cultural_inputs",
-      "provider": "Crossref",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "other",
-      "summary": "",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "Resisting Oppression Together Shared Intentions and Unequal Agents",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://doi.org/10.5040/9798881811983.ch-012",
-      "year": 2018
-    },
-    {
-      "authors": [
-        "Z\u00f6ckler, Otto, 1833-1906",
-        "Evans, Maurice John, tr"
+        "CIA Reading Room"
       ],
       "auto_review_approval": "approved_for_review_queue",
       "auto_review_approval_reasons": [
@@ -132,46 +81,250 @@
       "automated_evidence_warnings": [],
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 549,
+      "corroborating_source_count": 361,
       "date_accessed": "2026-06-04",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/crossofchrist",
+      "id": "https://archive.org/details/cia-readingroom-document-cia-rdp87t00289r000200960001-2",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs",
+        "visual_art"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org texts",
+      "summary": "Declassified in Part - Sanitized Copy Approved for Release 2012/03/02 : CIA-RDP87T00289R000200960001-2 Directorate of t?Seeret?M r. k a .-ts .\", ,..., L Intelligence ? a vro LL U1 OnVAt? \" EN fe 25X1 Latin America Review 20 December 1985 Secret ALA LAR 85-027 20 December 1985 Copy 427 0 25X1 Declassified in Part - Sanitized Copy Approved for Release 2012/03/02 : CIA-RDP87T00289R000200960001-2 25X1 Declassified in Part - Sanitized Copy Approved for Release 2012/03/02 : CIA-RDP87T00289R000200960001-2 Declassified in Part - Sanitized Copy Approved for Release 2012/03/02 : CIA-RDP87T00289R000200960001-2 Declassified in Part - Sanitized Copy Approved for Release 2012/03/02 : CIA-RDP87T00289R00020",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "CIA Reading Room cia-rdp87t00289r000200960001-2: LATIN AMERICA REVIEW",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/cia-readingroom-document-cia-rdp87t00289r000200960001-2",
+      "year": "1985"
+    },
+    {
+      "authors": [
+        "uusf.org"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 257,
+      "date_accessed": "2026-06-04",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/uusf_org-20120205sfcomplete",
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "The rochester first unitarian church the pacific northwest district church: The call to worship need road building your own theology and the great social activist 33 years minister of the rochester first unitarian church.",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "The rochester first unitarian church the pacific northwest district church",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/uusf_org-20120205SFComplete",
+      "year": "2022"
+    },
+    {
+      "authors": [
+        "Alzuridin"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "trusted open-web domain present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 7,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 530,
+      "date_accessed": "2026-06-04",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/dr.zakirnaik1_201812",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
         "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories."
       ],
       "layer_routes": [
         "visual_art",
         "cultural_inputs",
-        "history_inputs",
-        "human_stories"
+        "all_texts",
+        "other_religious_texts"
       ],
       "primary_layer": "visual_art",
       "provider": "Internet Archive",
       "quality": "reference metadata",
       "review_status": "auto_approved_for_review_queue",
-      "source_type": "archive.org texts",
-      "summary": "CONTENTS. Author's Preface I v Translator's Preface ix Monogrammatic Literature On The Cross, And The Sign Of The Cross xvii Introduction xxvii Chap. I. The Cross in the pre-Christian and extra-Christian Religions: a. As the Symbol of Blessing 1 b. As the Symbol of the Curse 46 Chap. II. The Cross upon Calvary 85 a. According to the Declarations of the Gospels 88 b. According to the Testimony of the Apostolic Discourses and Writings 99 Chap. III. The Cross of Christ in the pre-Constantine Church and Theology 109 Chap. IV. Constantine's Vision of the Cross, as the starting-point for the sensuous-external adoration of the Cross in the Middle Ages 136 Chap. V. The Cross in the Church of the Mid",
+      "source_type": "archive.org audio",
+      "summary": "Please subscribe to - www.youtube.com/0nly1truth Type \"Alzuridin\" in the Archive search bar above to watch/listen/download more free Isl \u0101 mic files. ------------------------------------------------------------------------------------------------------------------------------ DR ZAKIR NAIK Born on 18 October 1965 A medical doctor by professional training, Dr Zakir Naik is renowned as a dynamic international orator on Islam and Comparative Religion. He is 4 9 years old. Dr Zakir clarifies Islamic viewpoints and clears misconceptions about Islam, using the Qur\u2019an, authentic Hadith and other religious Scriptures as a basis, in conjunction with reason, logic and scientific facts. He is popular f",
       "tags": [
         "art_beauty"
       ],
-      "title": "The cross of Christ: studies in the history of religion and the inner life of the church",
+      "title": "Dr. Zakir Naik - Complete Audio Collection (200+)",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/CrossOfChrist",
-      "year": "1877"
+      "url": "https://archive.org/details/Dr.ZakirNaik1_201812",
+      "year": null
+    },
+    {
+      "authors": [
+        "UU Congregation at Shelter Rock Services"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 314,
+      "date_accessed": "2026-06-04",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/uu_congregation_at_shelter_rock_services-11591781_that_which_shelters_all",
+      "layer_review_prompts": [
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
+      ],
+      "layer_routes": [
+        "history_inputs",
+        "theologians"
+      ],
+      "primary_layer": "history_inputs",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "In a time when information is available to us in an instant, we often don't dwell in the uncomfortable space of the unknown. The truth is that there are limitless possibilities in 'not knowing'. Imagination thrives in the fertile grounds of mystery. There is something sacred in the secrets of the world around us. Listen to reflect on the courage required to be curious, to be contemplative, and to remain lost but seeking.",
+      "tags": [
+        "history_memory"
+      ],
+      "title": "That Which Shelters All",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/UU_Congregation_at_Shelter_Rock_Services-11591781_that_which_shelters_all",
+      "year": "2022"
+    },
+    {
+      "authors": [
+        "Complete Service-First Unitarian Universalist Society of San Francisco"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Archive metadata and short description only; review item rights before use.",
+      "corroborating_source_count": 367,
+      "date_accessed": "2026-06-04",
+      "doi": "",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://archive.org/details/complete_service_first_unitari-20200830vrscomplete",
+      "layer_review_prompts": [
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading."
+      ],
+      "layer_routes": [
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature",
+        "biblical_languages"
+      ],
+      "primary_layer": "all_texts",
+      "provider": "Internet Archive",
+      "quality": "reference metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "archive.org audio",
+      "summary": "\"Jonah and the Big Fish\" (August 30, 2020) I love stories and their power to teach or invite us to let them speak to us wherever we are. And I love the story in the Hebrew Scriptures of Jonah and his journey with that Big Fish. And what layers we might find for ourselves in it about how to face life and what it might insist on from us. Rev. Vanessa Rush Southern, Senior Minister Gregg Biggs, Worship Associate Reiko Oda Lane, organist Eric Hamilton, guitarist Mark Sumner, pianist Asher Davison, song leader Eric Shackelford, camera Joe Chapot, Social Media Chat Support Jonathan Silk, OOS, Sound, drums",
+      "tags": [
+        "global_text_traditions"
+      ],
+      "title": "Jonah and the Big Fish",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://archive.org/details/Complete_Service_First_Unitari-20200830VRSComplete",
+      "year": "2020"
     }
   ],
-  "opencitations_enriched_count": 5,
+  "opencitations_enriched_count": 0,
   "run_provider_counts": {
     "Crossref": 305,
     "Europe PMC": 223,
     "Internet Archive": 107,
     "OpenAlex": 288,
-    "PubMed": 27,
-    "arXiv": 10
+    "PubMed": 27
   },
-  "updated_at": "2026-06-04T17:11:16.113779+00:00"
+  "updated_at": "2026-06-04T20:32:41.136089+00:00"
 }

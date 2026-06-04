@@ -73,6 +73,33 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "path": "research_documents/christian_sources/SOURCES.md",
+      "patterns": [],
+      "review_note_count": 0,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "title": "Christian Source Corpus"
+    },
+    {
+      "lane": "research_documents",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "practical_use",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
       "path": "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "patterns": [],
       "review_note_count": 0,
@@ -432,33 +459,6 @@
     {
       "lane": "research_documents",
       "missing_rules": [
-        "evidence",
-        "interpretation",
-        "discernment",
-        "analogy",
-        "practical_use",
-        "counter_reading",
-        "failure_condition",
-        "machine_label_boundary"
-      ],
-      "path": "research_documents/christian_sources/SOURCES.md",
-      "patterns": [],
-      "review_note_count": 0,
-      "rules_present": {
-        "analogy": false,
-        "counter_reading": false,
-        "discernment": false,
-        "evidence": false,
-        "failure_condition": false,
-        "interpretation": false,
-        "machine_label_boundary": false,
-        "practical_use": false
-      },
-      "title": "Christian Source Corpus"
-    },
-    {
-      "lane": "research_documents",
-      "missing_rules": [
         "machine_label_boundary"
       ],
       "path": "research_documents/claim_ledger.md",
@@ -618,6 +618,7 @@
       "lane": "research_documents",
       "missing_rules": [
         "interpretation",
+        "discernment",
         "analogy",
         "failure_condition"
       ],
@@ -627,7 +628,7 @@
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
-        "discernment": true,
+        "discernment": false,
         "evidence": true,
         "failure_condition": false,
         "interpretation": false,
@@ -2472,6 +2473,7 @@
     "analogy": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
       "research_documents/active_lane_review_conversion_2026_06_04_second_pass.md",
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
       "research_documents/christian_sources/didache_wikisource.txt",
@@ -2482,7 +2484,6 @@
       "research_documents/christian_sources/hypothesis_test_framework.md",
       "research_documents/christian_sources/jesus_and_holy_spirit_synthesis.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_reference_promotion_decision_log.md",
       "research_documents/cloud_reference_review_checklist.md",
       "research_documents/cloud_reference_review_policy.md",
@@ -2497,6 +2498,7 @@
       "research_documents/practical_theology_pattern_use.md"
     ],
     "counter_reading": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
@@ -2511,7 +2513,6 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/divine_pattern_concept.md",
       "research_documents/source_packs/image_of_god_pattern_pack.md",
       "biblical_languages/greek_hebrew_source_expansion_notes.md",
@@ -2524,12 +2525,13 @@
       "theologians/patristic_source_notes.md"
     ],
     "discernment": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/divine_pattern_finder_design.md",
       "research_documents/christian_sources/faith_and_god_philosophy_notes.md",
       "research_documents/christian_sources/hypothesis_review_rules.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
-      "research_documents/christian_sources/SOURCES.md",
+      "research_documents/daily_evaluation_queue.md",
       "research_documents/divine_pattern_concept.md",
       "research_documents/reviewed_candidate_reference_decisions_2026_06_01_followup.md",
       "research_documents/reviewed_candidate_reference_decisions_2026_06_04.md",
@@ -2547,10 +2549,10 @@
       "cultural_inputs/health_suffering_healing.md",
       "cultural_inputs/technology_ai_responsibility.md",
       "psychology_inputs/psychology_patterns_and_transformation.md",
-      "deep_sources/quantum_claim_limits_source_pairs.md",
-      "deep_sources/quantum_science_source_framework.md"
+      "deep_sources/quantum_claim_limits_source_pairs.md"
     ],
     "evidence": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
@@ -2563,7 +2565,6 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cross_layer_source_specific_casebook.md",
       "research_documents/daily_cloud_reference_review_log.md",
       "research_documents/divine_pattern_concept.md",
@@ -2578,6 +2579,7 @@
       "biblical_languages/source_specific_lexeme_review_notes.md"
     ],
     "failure_condition": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
       "research_documents/christian_sources/divine_pattern_candidates.md",
@@ -2587,7 +2589,6 @@
       "research_documents/christian_sources/hypothesis_test_framework.md",
       "research_documents/christian_sources/jesus_and_holy_spirit_synthesis.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_reference_promotion_decision_log.md",
       "research_documents/cross_layer_source_specific_casebook.md",
       "research_documents/daily_evaluation_queue.md",
@@ -2607,6 +2608,7 @@
     "interpretation": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
       "research_documents/active_lane_review_conversion_2026_06_04_second_pass.md",
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
@@ -2615,7 +2617,6 @@
       "research_documents/christian_sources/divine_pattern_finder_design.md",
       "research_documents/christian_sources/hypothesis_review_rules.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_reference_promotion_decision_log.md",
       "research_documents/cloud_reference_review_checklist.md",
       "research_documents/cloud_reference_review_policy.md",
@@ -2632,6 +2633,7 @@
       "research_documents/reviewed_candidate_reference_decisions_2026_06_01.md"
     ],
     "machine_label_boundary": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
@@ -2647,7 +2649,6 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/claim_ledger.md",
       "research_documents/cloud_reference_promotion_decision_log.md",
       "research_documents/cloud_reference_review_policy.md",
@@ -2659,11 +2660,11 @@
       "research_documents/pattern_formation_framework.md"
     ],
     "practical_use": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/didache_wikisource.txt",
       "research_documents/christian_sources/hypothesis_review_rules.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_reference_review_checklist.md",
       "research_documents/cloud_reference_review_policy.md",
       "research_documents/layer_balance_policy.md",

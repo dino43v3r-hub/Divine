@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-04T17:11:16.161543+00:00
-Total references: 1,374
-New references this run: 2
+Updated: 2026-06-04T20:32:41.196369+00:00
+Total references: 1,379
+New references this run: 5
 
 Guardrails
 ----------
@@ -16,7 +16,7 @@ Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
-- OpenCitations DOI enrichment checked 5 stored DOI source(s) this run.
+- OpenCitations DOI enrichment checked 0 stored DOI source(s) this run.
 - Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
 - Tavily budget: 5/5 basic searches used today; 0 remaining.
 - Open-web candidates returned this run: 0.
@@ -26,14 +26,12 @@ Online Collection Status
   - Internet Archive: 107
   - OpenAlex: 288
   - PubMed: 27
-  - arXiv: 10
 - Brand-new references added by provider:
-  - Crossref: 1
-  - Internet Archive: 1
+  - Internet Archive: 5
 - Total stored references by provider:
   - Crossref: 315
   - Europe PMC: 231
-  - Internet Archive: 371
+  - Internet Archive: 376
   - OpenAlex: 251
   - PubMed: 25
   - Tavily Search: 155
@@ -41,19 +39,19 @@ Online Collection Status
 
 Reference Tags
 --------------
-- art_beauty: 117
+- art_beauty: 118
 - biblical_language_source_depth: 50
 - biblical_languages: 39
 - cultural_practice_patterns: 65
 - general_research_methods: 61
-- global_text_traditions: 82
-- history_memory: 109
+- global_text_traditions: 83
+- history_memory: 110
 - holy_spirit_gifts_global: 40
 - interreligious_dream_testimony: 49
 - modern_literature_meaning: 56
 - music_math: 80
 - pattern_perception_divine_response: 55
-- politics_justice: 85
+- politics_justice: 87
 - psychology_patterns: 71
 - quantum_science_guardrails: 90
 - technology_ethics: 92
@@ -65,40 +63,40 @@ Reference Tags
 
 Layer Routes
 ------------
-- all_texts: 432
-- biblical_languages: 106
-- cultural_inputs: 349
+- all_texts: 434
+- biblical_languages: 107
+- cultural_inputs: 352
 - deep_sources: 377
-- history_inputs: 356
+- history_inputs: 359
 - human_stories: 325
-- modern_literature: 168
+- modern_literature: 169
 - music_notes: 80
-- other_religious_texts: 302
+- other_religious_texts: 304
 - pattern_tests: 234
 - psychology_inputs: 326
 - research_documents: 165
 - research_documents/christian_sources: 121
-- theologians: 359
-- visual_art: 461
+- theologians: 360
+- visual_art: 463
 - world_languages: 251
 
 Layer Balance Watch
 -------------------
 - These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
   - music_notes: 80
-  - biblical_languages: 106
+  - biblical_languages: 107
 
 Quality Counts
 --------------
 - open web result: 155
-- reference metadata: 367
+- reference metadata: 372
 - scholarly metadata: 822
 - scholarly preprint: 26
 - speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 595
+- moderate_scholarly_candidate: 600
 - strong_scholarly_candidate: 610
 - weak_scholarly_candidate: 169
 
@@ -108,37 +106,64 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 1,178
+- approved_for_review_queue: 1,183
 - not_auto_approved: 196
 
 New This Run By Tag
 -------------------
 - art_beauty: 1
-- politics_justice: 1
+- global_text_traditions: 1
+- history_memory: 1
+- politics_justice: 2
 
 New This Run By Layer Route
 ---------------------------
-- cultural_inputs: 2
-- history_inputs: 2
-- human_stories: 1
-- visual_art: 1
+- all_texts: 2
+- biblical_languages: 1
+- cultural_inputs: 3
+- history_inputs: 3
+- modern_literature: 1
+- other_religious_texts: 2
+- theologians: 1
+- visual_art: 2
 
 Newest Additions This Run
 ------------------------
-- Resisting Oppression Together Shared Intentions and Unequal Agents (2018)
+- CIA Reading Room cia-rdp87t00289r000200960001-2: LATIN AMERICA REVIEW (1985)
   Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs
-  Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.5040/9798881811983.ch-012
-- The cross of Christ: studies in the history of religion and the inner life of the church (1877)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, history_inputs, human_stories
+  Layer routes: cultural_inputs, history_inputs, visual_art
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/CrossOfChrist
+  URL: https://archive.org/details/cia-readingroom-document-cia-rdp87t00289r000200960001-2
+- The rochester first unitarian church the pacific northwest district church (2022)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/uusf_org-20120205SFComplete
+- Dr. Zakir Naik - Complete Audio Collection (200+) (n.d.)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, all_texts, other_religious_texts
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (7)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/Dr.ZakirNaik1_201812
+- That Which Shelters All (2022)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/UU_Congregation_at_Shelter_Rock_Services-11591781_that_which_shelters_all
+- Jonah and the Big Fish (2020)
+  Tags: global_text_traditions
+  Layer routes: all_texts, other_religious_texts, modern_literature, biblical_languages
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/Complete_Service_First_Unitari-20200830VRSComplete
 
 Recent Candidate Sources
 ------------------------
