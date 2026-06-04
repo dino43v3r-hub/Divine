@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 916,
+  "edge_count": 914,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -686,16 +686,6 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:evidence"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:discernment"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:practical_use"
     },
     {
       "relation": "satisfies_or_mentions_rule",

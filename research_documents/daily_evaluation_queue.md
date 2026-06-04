@@ -7,50 +7,7 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### The Catholic's ready answer; a popular vindication of Christian beliefs and practices against the attacks of modern criticism
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs
-- Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 257
-- Year: 1915
-- URL: https://archive.org/details/TheCatholicsReadyAnswer1914
-
-The Catholic's Ready Answer: A Popular Vindication Of Christian Beliefs And Practices Against The
-Attacks Of Modern Criticism CONTENTS AGNOSTICISM An Agnostic Query - "Why trouble ourselves about
-matters such as God's existence, of which, however important they may be, we do know nothing?"
-(Huxley) 7 ANGLICANS See "Religion, A Change of," and "The Church of Christ - How to Find It." APES
-AND MEN The Ape Theory - Man bears so striking a resemblance to the ape that we are forced to
-conclude that he is descended from the ape 13 BIBLE HEROES Objection - The heroes of the Old
-Testament are represented as being special favorites of the Almighty. On the other hand, they seem
-to have had many vices.
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### Raindrops, Rivers, Oceans: An Annual In Gathering to Community
+### Christian Talk That Rocks with Richie L. Ep. 11/1/2023
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
@@ -65,17 +22,17 @@ Layer review prompts:
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
 - Corroborating routed candidates: 314
-- Year: 2025
-- URL: https://archive.org/details/First_Unitarian_Universalist_Society_of_San_Francisco-20250907Sermon
+- Year: 2023
+- URL: https://archive.org/details/DIVINE_RADIO_ONLINE-christian_talk_that_rocks_with_richie_l_ep_11_1_2023
 
-"Raindrops, Rivers, Oceans: An Annual In Gathering to Community" Sunday, September 7, 2025 We will
-be regathered into community for another year in our annual Water Communion Service this Sunday.
-Separateness is an illusion. We were meant to meet and merge and make a life together. And so we
-begin our new year. Bring your waters from your travels, your garden spigot, or the ocean around the
-corner, or use some of ours. Rev. Vanessa Rush Southern, Senior Minister; Rev. Laura Shennum,
-Minister of Congregational Life; Rev. Seanan Fong, Community Minister; Mark Caswell, Ministerial
-Intern; Galen Workman, Moderator, Board of Trustee; Reiko Oda Lane, organist; Morgen Warner, Kate
-Offer, soloists;
+On today's show, 1:06 pm CT, 2:06 pm ET: Mid-East War: More than 500 Americans held hostage in Gaza
+- Hamas claims "We will repeat October 7 terror attack until Israel is annihilated - US State Dept.
+admits Hamas hording fuel and other humanitarian aid for its fighters, Secretary of State flat-out
+admits some U.S. aid to Gaza will end up in Hamas hands - Kirby rebuffs reporter for asking him to
+remove blame from Hamas for blocking Americans from leaving Gaza - we'll examine. Hey Joe: 82,000
+private Biden emails found with fake names - Joe Biden received $40K in 'laundered China money' from
+brother in 2017, Comer says - FBI director goes momentarily silent when asked if country 'safer'
+under
 
 Automated evidence reasons:
 - trusted archive, university, government, museum, library, or public-domain domain
@@ -92,123 +49,3 @@ Auto approval reasons:
 Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-
-### Our expanded worldview california wrong
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 314
-- Year: 2022
-- URL: https://archive.org/details/uusf_org-20110130AJComplete
-
-Our expanded worldview california wrong: Our expanded worldview grows to include the world of
-external evidence which further shapes our ways of knowing and our sense of certainty about the
-world about how the world should work.
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-
-### The “Leaders We Got & Leaders We Need” Edition
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 314
-- Year: 2024
-- URL: https://archive.org/details/River_Road_Unitarian_Universalist-TPP_21_11_24
-
-Allison Kaplan Sommer, Noah Efron and Tova Cohen discuss two topics of incomparable importance and
-end with an anecdote about something in Israel that made them smile this week. Hear the Extra-
-Special, Special Extra Segment on Patreon —“Hope Is Patience With the Lamp Lit” (With Apologies to
-Tertullian)— A voice in the wilderness. Should we listen? —“Cabinet of Wonders”— Is Donald Trump’s
-new cabinet more pro-Israel than most Israelis? —Freshman Leninism at Berkeley— For our most
-unreasonably generous Patreon supporters, in our extra-special, special extra discussion: We talk
-about the fufera that developed over a Berkeley course description. We ask, “WTF?” Plus, Nir Oz
-votes to go home and E
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-
-### Diane Arbus (1923 - 1971)
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: technology_ethics
-- Layer routes: cultural_inputs
-- Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: weak_scholarly_candidate (6)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 169
-- Year: n.d.
-- URL: https://archive.org/details/SharewareOnSaleGiveawayAlfaEBooksManagerHub
-
-Diane Arbus (/diːˈæn ˈɑːrbəs/; March 14, 1923 – July 26, 1971) was an American photographer. Arbus
-famously worked to normalize marginalized groups and highlight the importance of proper
-representation of all people. She worked with a wide range of subjects including members of the
-LGBTQ+ community, strippers, carnival performers, nudists, dwarves, children, mothers, couples,
-elderly people, and middle-class families.[5] She photographed her subjects in familiar settings:
-their homes, on the street, in the workplace, in the park—celebrating imagery that seem to reflect
-our deepest fears and most private wish. “She is noted for expanding notions of acceptable subject
-matter and violates canon
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.

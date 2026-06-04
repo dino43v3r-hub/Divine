@@ -1,6 +1,6 @@
 {
   "auto_review_approval_counts": {
-    "approved_for_review_queue": 1188,
+    "approved_for_review_queue": 1189,
     "not_auto_approved": 197
   },
   "auto_review_approval_setup": {
@@ -11,103 +11,50 @@
     "warnings_allowed": false
   },
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 604,
+    "moderate_scholarly_candidate": 605,
     "strong_scholarly_candidate": 611,
     "weak_scholarly_candidate": 170
   },
   "errors": [
     "search_arxiv failed for quantum_science_guardrails: The read operation timed out",
-    "search_openalex failed for art_beauty: The read operation timed out"
+    "search_openalex failed for world_languages_translation: The read operation timed out"
   ],
   "layer_counts": {
     "all_texts": 434,
     "biblical_languages": 107,
     "cultural_inputs": 356,
     "deep_sources": 377,
-    "history_inputs": 365,
+    "history_inputs": 366,
     "human_stories": 325,
     "modern_literature": 170,
     "music_notes": 80,
     "other_religious_texts": 305,
     "pattern_tests": 234,
     "psychology_inputs": 327,
-    "research_documents": 165,
+    "research_documents": 166,
     "research_documents/christian_sources": 121,
-    "theologians": 363,
+    "theologians": 365,
     "visual_art": 465,
     "world_languages": 252
   },
   "new_auto_review_approval_counts": {
-    "approved_for_review_queue": 4,
-    "not_auto_approved": 1
+    "approved_for_review_queue": 1
   },
   "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 4,
-    "weak_scholarly_candidate": 1
+    "moderate_scholarly_candidate": 1
   },
-  "new_count": 5,
+  "new_count": 1,
   "new_layer_counts": {
-    "cultural_inputs": 2,
-    "history_inputs": 4,
-    "theologians": 3
+    "history_inputs": 1,
+    "theologians": 1
   },
   "new_provider_counts": {
-    "Internet Archive": 5
+    "Internet Archive": 1
   },
   "new_sources": [
     {
       "authors": [
-        "Hill, Michael Peter, 1855-"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is moderate_scholarly_candidate",
-        "author and year metadata present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 257,
-      "date_accessed": "2026-06-04",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/thecatholicsreadyanswer1914",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "archive.org texts",
-      "summary": "The Catholic's Ready Answer: A Popular Vindication Of Christian Beliefs And Practices Against The Attacks Of Modern Criticism CONTENTS AGNOSTICISM An Agnostic Query - \"Why trouble ourselves about matters such as God's existence, of which, however important they may be, we do know nothing?\" (Huxley) 7 ANGLICANS See \"Religion, A Change of,\" and \"The Church of Christ - How to Find It.\" APES AND MEN The Ape Theory - Man bears so striking a resemblance to the ape that we are forced to conclude that he is descended from the ape 13 BIBLE HEROES Objection - The heroes of the Old Testament are represented as being special favorites of the Almighty. On the other hand, they seem to have had many vices.",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "The Catholic's ready answer; a popular vindication of Christian beliefs and practices against the attacks of modern criticism",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/TheCatholicsReadyAnswer1914",
-      "year": "1915"
-    },
-    {
-      "authors": [
-        "First Unitarian Universalist Society of San Francisco"
+        "DIVINE RADIO ONLINE"
       ],
       "auto_review_approval": "approved_for_review_queue",
       "auto_review_approval_reasons": [
@@ -132,7 +79,7 @@
       "date_accessed": "2026-06-04",
       "doi": "",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/first_unitarian_universalist_society_of_san_francisco-20250907sermon",
+      "id": "https://archive.org/details/divine_radio_online-christian_talk_that_rocks_with_richie_l_ep_11_1_2023",
       "layer_review_prompts": [
         "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
@@ -146,157 +93,14 @@
       "quality": "reference metadata",
       "review_status": "auto_approved_for_review_queue",
       "source_type": "archive.org audio",
-      "summary": "\"Raindrops, Rivers, Oceans: An Annual In Gathering to Community\" Sunday, September 7, 2025 We will be regathered into community for another year in our annual Water Communion Service this Sunday. Separateness is an illusion. We were meant to meet and merge and make a life together. And so we begin our new year. Bring your waters from your travels, your garden spigot, or the ocean around the corner, or use some of ours. Rev. Vanessa Rush Southern, Senior Minister; Rev. Laura Shennum, Minister of Congregational Life; Rev. Seanan Fong, Community Minister; Mark Caswell, Ministerial Intern; Galen Workman, Moderator, Board of Trustee; Reiko Oda Lane, organist; Morgen Warner, Kate Offer, soloists; ",
+      "summary": "On today's show, 1:06 pm CT, 2:06 pm ET: Mid-East War: More than 500 Americans held hostage in Gaza - Hamas claims \"We will repeat October 7 terror attack until Israel is annihilated - US State Dept. admits Hamas hording fuel and other humanitarian aid for its fighters, Secretary of State flat-out admits some U.S. aid to Gaza will end up in Hamas hands - Kirby rebuffs reporter for asking him to remove blame from Hamas for blocking Americans from leaving Gaza - we'll examine. Hey Joe: 82,000 private Biden emails found with fake names - Joe Biden received $40K in 'laundered China money' from brother in 2017, Comer says - FBI director goes momentarily silent when asked if country 'safer' under ",
       "tags": [
         "history_memory"
       ],
-      "title": "Raindrops, Rivers, Oceans: An Annual In Gathering to Community",
+      "title": "Christian Talk That Rocks with Richie L. Ep. 11/1/2023",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/First_Unitarian_Universalist_Society_of_San_Francisco-20250907Sermon",
-      "year": "2025"
-    },
-    {
-      "authors": [
-        "uusf.org"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is moderate_scholarly_candidate",
-        "author and year metadata present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 314,
-      "date_accessed": "2026-06-04",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/uusf_org-20110130ajcomplete",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "archive.org audio",
-      "summary": "Our expanded worldview california wrong: Our expanded worldview grows to include the world of external evidence which further shapes our ways of knowing and our sense of certainty about the world about how the world should work.",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "Our expanded worldview california wrong",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/uusf_org-20110130AJComplete",
-      "year": "2022"
-    },
-    {
-      "authors": [
-        "River Road Unitarian Universalist"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is moderate_scholarly_candidate",
-        "author and year metadata present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 314,
-      "date_accessed": "2026-06-04",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/river_road_unitarian_universalist-tpp_21_11_24",
-      "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians"
-      ],
-      "primary_layer": "history_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "archive.org audio",
-      "summary": "Allison Kaplan Sommer, Noah Efron and Tova Cohen discuss two topics of incomparable importance and end with an anecdote about something in Israel that made them smile this week. Hear the Extra-Special, Special Extra Segment on Patreon \u2014\u201cHope Is Patience With the Lamp Lit\u201d (With Apologies to Tertullian)\u2014 A voice in the wilderness. Should we listen? \u2014\u201cCabinet of Wonders\u201d\u2014 Is Donald Trump\u2019s new cabinet more pro-Israel than most Israelis? \u2014Freshman Leninism at Berkeley\u2014 For our most unreasonably generous Patreon supporters, in our extra-special, special extra discussion: We talk about the fufera that developed over a Berkeley course description. We ask, \u201cWTF?\u201d Plus, Nir Oz votes to go home and E",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "The \u201cLeaders We Got & Leaders We Need\u201d Edition",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/River_Road_Unitarian_Universalist-TPP_21_11_24",
-      "year": "2024"
-    },
-    {
-      "authors": [],
-      "auto_review_approval": "not_auto_approved",
-      "auto_review_approval_scope": "manual_review_required",
-      "auto_review_approval_warnings": [
-        "automated score below 7",
-        "label weak_scholarly_candidate is not eligible"
-      ],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 6,
-      "automated_evidence_warnings": [],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 169,
-      "date_accessed": "2026-06-04",
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://archive.org/details/sharewareonsalegiveawayalfaebooksmanagerhub",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims."
-      ],
-      "layer_routes": [
-        "cultural_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "archive.org texts",
-      "summary": "Diane Arbus (/di\u02d0\u02c8\u00e6n \u02c8\u0251\u02d0rb\u0259s/; March 14, 1923 \u2013 July 26, 1971) was an American photographer. Arbus famously worked to normalize marginalized groups and highlight the importance of proper representation of all people. She worked with a wide range of subjects including members of the LGBTQ+ community, strippers, carnival performers, nudists, dwarves, children, mothers, couples, elderly people, and middle-class families.[5] She photographed her subjects in familiar settings: their homes, on the street, in the workplace, in the park\u2014celebrating imagery that seem to reflect our deepest fears and most private wish. \u201cShe is noted for expanding notions of acceptable subject matter and violates canon",
-      "tags": [
-        "technology_ethics"
-      ],
-      "title": "Diane Arbus (1923 - 1971)",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://archive.org/details/SharewareOnSaleGiveawayAlfaEBooksManagerHub",
-      "year": null
+      "url": "https://archive.org/details/DIVINE_RADIO_ONLINE-christian_talk_that_rocks_with_richie_l_ep_11_1_2023",
+      "year": "2023"
     }
   ],
   "opencitations_enriched_count": 25,
@@ -304,8 +108,8 @@
     "Crossref": 305,
     "Europe PMC": 223,
     "Internet Archive": 107,
-    "OpenAlex": 70,
+    "OpenAlex": 99,
     "PubMed": 27
   },
-  "updated_at": "2026-06-04T21:40:03.584567+00:00"
+  "updated_at": "2026-06-04T22:11:03.303455+00:00"
 }
