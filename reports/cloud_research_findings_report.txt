@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-04T21:07:05.197020+00:00
+Updated: 2026-06-04T21:18:53.093891+00:00
 Total references: 1,380
-New references this run: 1
+New references this run: 0
 
 Guardrails
 ----------
@@ -26,8 +26,7 @@ Online Collection Status
   - Internet Archive: 107
   - OpenAlex: 288
   - PubMed: 27
-- Brand-new references added by provider:
-  - Internet Archive: 1
+- Brand-new references added by provider: 0.
 - Total stored references by provider:
   - Crossref: 315
   - Europe PMC: 231
@@ -96,8 +95,8 @@ Quality Counts
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 601
-- strong_scholarly_candidate: 610
+- moderate_scholarly_candidate: 600
+- strong_scholarly_candidate: 611
 - weak_scholarly_candidate: 169
 
 Auto Review Approval Counts
@@ -111,25 +110,15 @@ Auto Review Approval Counts
 
 New This Run By Tag
 -------------------
-- art_beauty: 1
+- No brand-new references found this run; reports still re-evaluate the current candidate set.
 
 New This Run By Layer Route
 ---------------------------
-- cultural_inputs: 1
-- history_inputs: 1
-- psychology_inputs: 1
-- visual_art: 1
-- world_languages: 1
+- No brand-new layer routes this run.
 
 Newest Additions This Run
 ------------------------
-- Arab Identities And Tribal Culture (2018)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, history_inputs, world_languages, psychology_inputs
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/arab-identities-and-tribal-culture
+- No new additions this run.
 
 Recent Candidate Sources
 ------------------------
@@ -364,4 +353,4 @@ Recent Candidate Sources
 
 Collector Errors
 ----------------
-- search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Unknown Error
+- search_arxiv failed for quantum_science_guardrails: The read operation timed out

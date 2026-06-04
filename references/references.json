@@ -61044,6 +61044,9 @@
         "theologians",
         "research_documents/christian_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61092,6 +61095,9 @@
         "theologians",
         "research_documents/christian_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61144,6 +61150,9 @@
         "theologians",
         "research_documents/christian_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -61194,6 +61203,9 @@
         "research_documents/christian_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61215,26 +61227,28 @@
       "auto_review_approval": "approved_for_review_queue",
       "auto_review_approval_reasons": [
         "automated score >= 7",
-        "label is moderate_scholarly_candidate",
+        "label is strong_scholarly_candidate",
         "stable DOI present"
       ],
       "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_label": "strong_scholarly_candidate",
       "automated_evidence_reasons": [
         "scholarly metadata provider",
         "DOI or stable scholarly identifier present",
         "author metadata present",
         "publication year present",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 9,
+      "automated_evidence_score": 10,
       "automated_evidence_warnings": [],
+      "citation_count": 3,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
       "corroborating_source_count": 247,
       "date_accessed": "2026-05-16",
       "doi": "10.1163/9789004474895",
-      "evaluation_use": "can support cautious working claims when corroborated",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
       "id": "10.1163/9789004474895",
       "layer_review_prompts": [
         "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
@@ -61244,6 +61258,9 @@
         "theologians",
         "research_documents/christian_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 3,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61254,7 +61271,7 @@
         "theologians_cross_era"
       ],
       "title": "Melanchthon and Patristic Thought: The Doctrines of Christ and Grace, the Trinity and the Creation",
-      "truth_assessment": "moderate_scholarly_candidate",
+      "truth_assessment": "strong_scholarly_candidate",
       "url": "https://doi.org/10.1163/9789004474895",
       "year": 1983
     },
@@ -61295,6 +61312,9 @@
         "theologians",
         "research_documents/christian_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61345,6 +61365,9 @@
         "research_documents/christian_sources",
         "deep_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61396,6 +61419,9 @@
         "theologians",
         "research_documents/christian_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 1,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61554,6 +61580,9 @@
         "research_documents/christian_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -61656,6 +61685,9 @@
         "research_documents/christian_sources",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61807,6 +61839,9 @@
         "theologians",
         "research_documents/christian_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61855,6 +61890,9 @@
         "theologians",
         "research_documents/christian_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61906,6 +61944,9 @@
         "theologians",
         "research_documents/christian_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -61958,6 +61999,9 @@
         "theologians",
         "research_documents/christian_sources"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -62114,6 +62158,9 @@
         "research_documents/christian_sources",
         "biblical_languages"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -62167,6 +62214,9 @@
         "research_documents/christian_sources",
         "biblical_languages"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 1,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -63761,6 +63811,9 @@
         "research_documents",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 1,
+      "opencitations_reference_count": 47,
       "primary_layer": "theologians",
       "provider": "Europe PMC",
       "quality": "scholarly metadata",
@@ -64020,6 +64073,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -64069,6 +64125,9 @@
         "research_documents",
         "all_texts"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -64120,6 +64179,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -64172,6 +64234,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -64219,6 +64284,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -64529,6 +64597,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -64577,6 +64648,9 @@
         "theologians",
         "research_documents"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "Crossref",
       "quality": "scholarly metadata",
@@ -64677,6 +64751,9 @@
         "research_documents",
         "visual_art"
       ],
+      "opencitations_checked_at": "2026-06-04",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "theologians",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
@@ -75732,5 +75809,5 @@
       "year": null
     }
   ],
-  "updated_at": "2026-06-04T21:07:05.140857+00:00"
+  "updated_at": "2026-06-04T21:18:53.037011+00:00"
 }

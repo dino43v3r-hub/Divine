@@ -25,7 +25,7 @@ Corpus Summary
 --------------
 - Indexed documents: 180
 - Graph nodes: 212
-- Graph edges: 914
+- Graph edges: 918
 
 Lane Coverage
 -------------
@@ -59,12 +59,12 @@ Pattern Mentions
 Review Rule Mentions
 --------------------
 - evidence: 82 documents
-- interpretation: 26 documents
-- discernment: 151 documents
+- interpretation: 27 documents
+- discernment: 152 documents
 - analogy: 45 documents
-- practical_use: 146 documents
+- practical_use: 147 documents
 - counter_reading: 138 documents
-- failure_condition: 87 documents
+- failure_condition: 88 documents
 - machine_label_boundary: 13 documents
 
 Practical-Theology Gate

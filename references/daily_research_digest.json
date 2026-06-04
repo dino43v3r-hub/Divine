@@ -11,12 +11,12 @@
     "warnings_allowed": false
   },
   "automated_evidence_counts": {
-    "moderate_scholarly_candidate": 601,
-    "strong_scholarly_candidate": 610,
+    "moderate_scholarly_candidate": 600,
+    "strong_scholarly_candidate": 611,
     "weak_scholarly_candidate": 169
   },
   "errors": [
-    "search_arxiv failed for quantum_science_guardrails: HTTP Error 429: Unknown Error"
+    "search_arxiv failed for quantum_science_guardrails: The read operation timed out"
   ],
   "layer_counts": {
     "all_texts": 434,
@@ -36,81 +36,12 @@
     "visual_art": 465,
     "world_languages": 252
   },
-  "new_auto_review_approval_counts": {
-    "approved_for_review_queue": 1
-  },
-  "new_automated_evidence_counts": {
-    "moderate_scholarly_candidate": 1
-  },
-  "new_count": 1,
-  "new_layer_counts": {
-    "cultural_inputs": 1,
-    "history_inputs": 1,
-    "psychology_inputs": 1,
-    "visual_art": 1,
-    "world_languages": 1
-  },
-  "new_provider_counts": {
-    "Internet Archive": 1
-  },
-  "new_sources": [
-    {
-      "authors": [
-        "Westminster Institute"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is moderate_scholarly_candidate",
-        "author and year metadata present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 599,
-      "date_accessed": "2026-06-04",
-      "doi": "",
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/arab-identities-and-tribal-culture",
-      "layer_review_prompts": [
-        "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
-      ],
-      "layer_routes": [
-        "visual_art",
-        "cultural_inputs",
-        "history_inputs",
-        "world_languages",
-        "psychology_inputs"
-      ],
-      "primary_layer": "visual_art",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "archive.org movies",
-      "summary": "Arab Identities and Tribal Culture (Wael Farouq, May 23, 2018) Transcript available below Watch his speaker playlist About the speaker In his new book, Egyptian scholar Wael Farouq addresses such issues as tribal culture in Arab identity, the invention of the Caliphate, and the history and the role of the fatw\u0101, including an analysis of what European Muslims are looking for as shown in their requests for fatw\u0101s today. Throughout, he examines the deeper roots of the perilous predicament of Arab reason revealed in the contemporary clash between religious and modernist discourse. Professor Farouq is currently professor of Arabic language, literature and culture at the Faculty of Political and S",
-      "tags": [
-        "art_beauty"
-      ],
-      "title": "Arab Identities And Tribal Culture",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/arab-identities-and-tribal-culture",
-      "year": "2018"
-    }
-  ],
+  "new_auto_review_approval_counts": {},
+  "new_automated_evidence_counts": {},
+  "new_count": 0,
+  "new_layer_counts": {},
+  "new_provider_counts": {},
+  "new_sources": [],
   "opencitations_enriched_count": 25,
   "run_provider_counts": {
     "Crossref": 305,
@@ -119,5 +50,5 @@
     "OpenAlex": 288,
     "PubMed": 27
   },
-  "updated_at": "2026-06-04T21:07:05.140857+00:00"
+  "updated_at": "2026-06-04T21:18:53.037011+00:00"
 }
