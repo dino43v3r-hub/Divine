@@ -19,6 +19,7 @@ REPORTS_DIR = Path("reports")
 RESEARCH_DIR = Path("research_documents")
 REFERENCES_PATH = REFERENCES_DIR / "references.json"
 DAILY_DIGEST_PATH = REFERENCES_DIR / "daily_research_digest.json"
+SEARCH_STRATEGY_PATH = REFERENCES_DIR / "next_search_strategy.json"
 TAVILY_USAGE_PATH = REFERENCES_DIR / "tavily_usage.json"
 FINDINGS_REPORT_PATH = REPORTS_DIR / "cloud_research_findings_report.txt"
 CLOUD_SUMMARY_PATH = RESEARCH_DIR / "cloud_references_summary.md"
@@ -430,6 +431,80 @@ def tavily_daily_query_keys():
 
     start = (datetime.now(timezone.utc).date().toordinal() * limit) % len(query_keys)
     return {query_keys[(start + offset) % len(query_keys)] for offset in range(min(limit, len(query_keys)))}
+
+
+def read_search_strategy():
+    strategy = read_json(
+        SEARCH_STRATEGY_PATH,
+        {
+            "priority_lanes": [],
+            "query_modifiers": [],
+            "suggested_queries": [],
+        },
+    )
+    if not isinstance(strategy, dict):
+        return {
+            "priority_lanes": [],
+            "query_modifiers": [],
+            "suggested_queries": [],
+        }
+    return strategy
+
+
+def clean_query_fragment(value: str, limit: int = 90):
+    value = re.sub(r"[^A-Za-z0-9 ,:/.'-]+", " ", value or "")
+    value = re.sub(r"\s+", " ", value).strip()
+    return value[:limit]
+
+
+def strategy_query_pairs(strategy: dict):
+    pairs = []
+    for item in strategy.get("suggested_queries", []):
+        if not isinstance(item, dict):
+            continue
+        tag = item.get("tag")
+        query = clean_query_fragment(item.get("query", ""), 180)
+        if tag in QUERY_SETS and query:
+            pairs.append((tag, query))
+    return pairs
+
+
+def expand_queries_with_strategy(strategy: dict):
+    query_map = {tag: list(queries) for tag, queries in QUERY_SETS.items()}
+    applied_modifiers = []
+    priority_lanes = [
+        clean_query_fragment(lane, 60)
+        for lane in strategy.get("priority_lanes", [])
+        if isinstance(lane, str)
+    ][:6]
+    modifiers = [
+        clean_query_fragment(modifier, 50)
+        for modifier in strategy.get("query_modifiers", [])
+        if isinstance(modifier, str)
+    ][:8]
+    modifiers = [modifier for modifier in modifiers if modifier]
+
+    if modifiers:
+        focus_tags = []
+        for tag, queries in QUERY_SETS.items():
+            if any(lane in TAG_LAYER_ROUTES.get(tag, []) for lane in priority_lanes):
+                focus_tags.append(tag)
+        if not focus_tags:
+            focus_tags = list(QUERY_SETS)[:6]
+
+        for tag in focus_tags[:8]:
+            base_query = query_map[tag][0]
+            for modifier in modifiers[:2]:
+                query = clean_query_fragment(f"{base_query} {modifier}", 180)
+                if query and query not in query_map[tag]:
+                    query_map[tag].append(query)
+                    applied_modifiers.append(modifier)
+
+    for tag, query in strategy_query_pairs(strategy):
+        if query not in query_map[tag]:
+            query_map[tag].insert(0, query)
+
+    return query_map, list(dict.fromkeys(applied_modifiers))
 
 
 def clean_text(value: str, limit: int = 700):
@@ -1286,6 +1361,9 @@ def collect_sources():
     run_provider_counts = {}
     new_provider_counts = {}
     opencitations_enriched_count = 0
+    search_strategy = read_search_strategy()
+    query_sets, applied_query_modifiers = expand_queries_with_strategy(search_strategy)
+    strategy_query_count = len(strategy_query_pairs(search_strategy))
     broad_web_enabled = bool(
         (provider_enabled("ENABLE_BING_WEB") and os.getenv("BING_SEARCH_API_KEY"))
         or (provider_enabled("ENABLE_BRAVE_WEB") and os.getenv("BRAVE_SEARCH_API_KEY"))
@@ -1294,7 +1372,7 @@ def collect_sources():
     )
     tavily_query_keys = tavily_daily_query_keys()
 
-    for tag, queries in QUERY_SETS.items():
+    for tag, queries in query_sets.items():
         for query in queries:
             collectors = []
             if provider_enabled("ENABLE_CROSSREF"):
@@ -1412,11 +1490,28 @@ def collect_sources():
             },
             "run_provider_counts": run_provider_counts,
             "new_provider_counts": new_provider_counts,
+            "query_modifiers": applied_query_modifiers,
+            "search_strategy": {
+                "path": SEARCH_STRATEGY_PATH.as_posix(),
+                "updated_at": search_strategy.get("updated_at", "not available"),
+                "priority_lanes": search_strategy.get("priority_lanes", [])[:8],
+                "suggested_query_count": strategy_query_count,
+            },
             "opencitations_enriched_count": opencitations_enriched_count,
             "errors": errors,
         },
     )
-    write_reports(sources, new_count, new_sources, errors, run_provider_counts, new_provider_counts, opencitations_enriched_count)
+    write_reports(
+        sources,
+        new_count,
+        new_sources,
+        errors,
+        run_provider_counts,
+        new_provider_counts,
+        opencitations_enriched_count,
+        applied_query_modifiers,
+        search_strategy,
+    )
 
 
 def write_reports(
@@ -1427,9 +1522,13 @@ def write_reports(
     run_provider_counts: dict[str, int],
     new_provider_counts: dict[str, int],
     opencitations_enriched_count: int = 0,
+    applied_query_modifiers: list[str] | None = None,
+    search_strategy: dict | None = None,
 ):
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     RESEARCH_DIR.mkdir(parents=True, exist_ok=True)
+    applied_query_modifiers = applied_query_modifiers or []
+    search_strategy = search_strategy or {}
 
     tag_counts = {}
     quality_counts = {}
@@ -1470,6 +1569,18 @@ def write_reports(
         lines.append("- Online scholarly/indexed metadata returned from provider APIs this run.")
     else:
         lines.append("- No online provider returned candidate metadata this run.")
+    if applied_query_modifiers:
+        lines.append(
+            "- Self-directed query modifiers used this run: "
+            + ", ".join(applied_query_modifiers[:8])
+            + "."
+        )
+    if search_strategy.get("priority_lanes"):
+        lines.append(
+            "- Search strategy priority lanes: "
+            + ", ".join(search_strategy.get("priority_lanes", [])[:8])
+            + "."
+        )
 
     searxng_errors = [error for error in errors if error.startswith("search_searxng_web")]
     open_web_returned = sum(

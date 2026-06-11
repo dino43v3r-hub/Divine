@@ -102,6 +102,19 @@ psychology, other religious texts, modern literature, human stories, deep
 sources, and pressure tests. These routes are triage hints, not evidence
 approval.
 
+The analyzer also writes the next collector search plan:
+
+```text
+references/next_search_strategy.json
+```
+
+This file turns the report's own growth recommendations into priority lanes,
+query modifiers, and suggested searches for the next daily run. The collector
+reads it before searching, records the applied modifiers in
+`references/daily_research_digest.json`, and uses it to pursue thinner lanes,
+counter-readings, source packs, and pressure-test gaps instead of only repeating
+the same broad query set.
+
 The collector also assigns automated evidence labels:
 
 ```text

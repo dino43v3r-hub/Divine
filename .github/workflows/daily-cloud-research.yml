@@ -72,4 +72,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update daily cloud research evaluation set"
-          file_pattern: "reports/published/*.md reports/github_issue_summary.md"
+          file_pattern: "references/*.json research_documents/cloud_references_summary.md research_documents/daily_evaluation_queue.md reports/*.txt reports/*.md reports/*.html reports/published/*.md"

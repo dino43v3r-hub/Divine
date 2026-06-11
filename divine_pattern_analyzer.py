@@ -1,4 +1,5 @@
 from collections import Counter, defaultdict
+from datetime import datetime, timezone
 import json
 import re
 from pathlib import Path
@@ -23,6 +24,7 @@ DEEP_SOURCE_DIR = Path("deep_sources")
 THEOLOGIANS_DIR = Path("theologians")
 REPORTS_DIR = Path("reports")
 DAILY_DIGEST_PATH = Path("references") / "daily_research_digest.json"
+SEARCH_STRATEGY_PATH = Path("references") / "next_search_strategy.json"
 REFERENCES_PATH = Path("references") / "references.json"
 REPORT_PATH = REPORTS_DIR / "divine_pattern_research_report.txt"
 PATTERN_CANDIDATES_PATH = REPORTS_DIR / "divine_pattern_candidates_report.txt"
@@ -4622,6 +4624,155 @@ def append_growth_plan_section(
     )
 
 
+LANE_SEARCH_TAGS = {
+    "biblical_languages": ["biblical_languages", "biblical_language_source_depth"],
+    "world_languages": ["world_languages_translation", "world_language_source_sampling"],
+    "all_texts": ["global_text_traditions"],
+    "other_religious_texts": ["global_text_traditions", "interreligious_dream_testimony"],
+    "theologians": ["theologians_cross_era", "trinity"],
+    "history_inputs": ["history_memory", "politics_justice"],
+    "visual_art": ["art_beauty"],
+    "psychology_inputs": ["psychology_patterns", "pattern_perception_divine_response"],
+    "human_stories": ["unresolved_suffering", "interreligious_dream_testimony"],
+    "cultural_inputs": ["cultural_practice_patterns", "technology_ethics", "politics_justice"],
+    "modern_literature": ["modern_literature_meaning"],
+    "deep_sources": ["quantum_science_guardrails", "general_research_methods"],
+    "pattern_tests": ["unresolved_suffering", "general_research_methods"],
+    "research_documents": ["general_research_methods", "trinity"],
+}
+
+
+PATTERN_SEARCH_FOCUS = {
+    "Image Of God Pattern": ["image of God dignity disability theology cognitive science"],
+    "Cross And Reversal Pattern": ["cross reversal suffering trauma theology liberation"],
+    "Providence And Contingency Pattern": ["providence contingency chance tragedy theology"],
+    "Trinity-As-Behavior Pattern": ["Trinity spiritual formation liturgy practical theology"],
+    "Creation-To-Consciousness Pattern": ["creation consciousness moral agency worship science theology"],
+}
+
+
+PRESSURE_SEARCH_FOCUS = {
+    "Suffering Without Resolution": "unresolved suffering lament pastoral theology no repair",
+    "Injustice And Corruption": "injustice corruption power repair theological ethics",
+    "Practical Case Study": "practical theology case study pastoral ethics daily life",
+    "Disconfirming Failure Condition": "failure condition falsification theological method counterargument",
+    "Science Guardrail": "science theology guardrail quantum overclaim philosophy science",
+}
+
+
+def build_next_search_strategy(
+    digest,
+    ranked_patterns,
+    pressure_counts,
+    lane_records,
+    ledger,
+    pack_names,
+):
+    """Convert analyzer recommendations into collector search inputs for the next run."""
+    priority_records = [
+        record
+        for record in lane_records
+        if record["status"].startswith("below minimum")
+        or record["status"].startswith("developing")
+    ]
+    priority_records = sorted(
+        priority_records,
+        key=lambda record: (record["actual"] >= record["target"], record["actual"]),
+    )
+    priority_lanes = [record["lane"] for record in priority_records[:8]]
+    paused_lanes = [
+        record["lane"]
+        for record in lane_records
+        if record["status"].startswith("above review cap")
+    ][:8]
+    top_patterns = [item["candidate"]["name"] for item in ranked_patterns[:5]]
+    weak_statuses = {
+        "research_question_only",
+        "analogy_only",
+        "discernment_question",
+        "weakened_or_limited",
+    }
+    weak_claim_count = sum(
+        ledger.get("status_counts", Counter()).get(status, 0)
+        for status in weak_statuses
+    )
+
+    modifiers = [
+        "primary source",
+        "counterargument",
+        "source review",
+        "case study",
+        "practical theology",
+    ]
+    if weak_claim_count:
+        modifiers.extend(["rival explanation", "failure condition"])
+    if not digest.get("new_sources"):
+        modifiers.extend(["recent review", "new evidence"])
+
+    suggested_queries = []
+    for lane in priority_lanes[:6]:
+        tags = LANE_SEARCH_TAGS.get(lane, ["general_research_methods"])
+        purpose = next(
+            (record["purpose"] for record in priority_records if record["lane"] == lane),
+            "source-specific review and counter-reading",
+        )
+        for tag in tags[:2]:
+            suggested_queries.append(
+                {
+                    "tag": tag,
+                    "query": f"{purpose} primary source counterargument",
+                    "reason": f"{lane} is a priority lane for the next collector run.",
+                }
+            )
+
+    for pattern in top_patterns[:5]:
+        for query in PATTERN_SEARCH_FOCUS.get(pattern, [])[:1]:
+            suggested_queries.append(
+                {
+                    "tag": "general_research_methods",
+                    "query": f"{query} source review counterargument",
+                    "reason": f"Build or improve reviewed source pack coverage for {pattern}.",
+                }
+            )
+
+    for pressure, count in pressure_counts.most_common(5):
+        query = PRESSURE_SEARCH_FOCUS.get(pressure)
+        if count and query:
+            suggested_queries.append(
+                {
+                    "tag": "general_research_methods",
+                    "query": query,
+                    "reason": f"Keep testing leading patterns against {pressure}.",
+                }
+            )
+
+    strategy = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "source": "divine_pattern_analyzer.py",
+        "purpose": "Feed report recommendations back into the next internet_source_collector.py run.",
+        "priority_lanes": priority_lanes,
+        "paused_lanes": paused_lanes,
+        "top_patterns": top_patterns,
+        "query_modifiers": list(dict.fromkeys(modifiers))[:10],
+        "suggested_queries": suggested_queries[:30],
+        "review_targets": {
+            "newest_candidate_reference_count": min(7, len(digest.get("new_sources", []))),
+            "weak_or_limited_claim_count": weak_claim_count,
+            "current_source_pack_count": len(pack_names),
+        },
+        "guardrail": "Use these searches to diversify candidate leads; do not strengthen claims until source review and counterarguments are recorded.",
+    }
+    return strategy
+
+
+def save_next_search_strategy(strategy):
+    SEARCH_STRATEGY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    SEARCH_STRATEGY_PATH.write_text(
+        json.dumps(strategy, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
+
+
 def append_pattern_pressure_competition(lines, ranked_patterns, pressure_counts, limit=5):
     """Append top-pattern competition under shared pressure tests."""
     lines.extend(["", "Top-Five Pattern Competition", "----------------------------"])
@@ -7604,6 +7755,28 @@ def main():
         theologian_analyses,
         synthesis_analyses,
     )
+    strategy_layer_counts = combine_layer_counts(
+        analyses
+        + synthesis_analyses
+        + pattern_test_analyses
+        + deep_source_analyses
+        + theologian_analyses
+    )
+    next_search_strategy = build_next_search_strategy(
+        read_daily_research_digest(),
+        rank_divine_pattern_candidates(strategy_layer_counts),
+        combine_pressure_counts(pattern_test_analyses),
+        create_lane_balance_records(
+            analyses,
+            cultural_analyses,
+            pattern_test_analyses,
+            deep_source_analyses,
+            theologian_analyses,
+            synthesis_analyses,
+        ),
+        parse_claim_ledger(),
+        load_reviewed_source_pack_names(),
+    )
     save_text(REPORT_PATH, report)
     save_text(PATTERN_CANDIDATES_PATH, candidates_report)
     save_text(DISCOVERED_PATTERNS_PATH, discovered_patterns_report)
@@ -7618,6 +7791,7 @@ def main():
     save_text(READER_BOOK_PATH, reader_book_report)
     save_text(DISCIPLINED_ASSISTANT_PATH, disciplined_assistant_report)
     save_text(SUMMARY_REPORT_PATH, divine_pattern_summary_report)
+    save_next_search_strategy(next_search_strategy)
 
     print("Divine pattern research analysis complete.")
     print(f"Report saved to: {REPORT_PATH}")
@@ -7634,6 +7808,7 @@ def main():
     print(f"Reader book report saved to: {READER_BOOK_PATH}")
     print(f"Disciplined assistant report saved to: {DISCIPLINED_ASSISTANT_PATH}")
     print(f"Summary report saved to: {SUMMARY_REPORT_PATH}")
+    print(f"Next search strategy saved to: {SEARCH_STRATEGY_PATH}")
 
 
 if __name__ == "__main__":

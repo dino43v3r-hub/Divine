@@ -1,0 +1,135 @@
+{
+  "guardrail": "Use these searches to diversify candidate leads; do not strengthen claims until source review and counterarguments are recorded.",
+  "paused_lanes": [],
+  "priority_lanes": [
+    "human_stories",
+    "modern_literature",
+    "visual_art",
+    "psychology_inputs",
+    "all_texts",
+    "other_religious_texts",
+    "history_inputs",
+    "cultural_inputs"
+  ],
+  "purpose": "Feed report recommendations back into the next internet_source_collector.py run.",
+  "query_modifiers": [
+    "primary source",
+    "counterargument",
+    "source review",
+    "case study",
+    "practical theology",
+    "rival explanation",
+    "failure condition"
+  ],
+  "review_targets": {
+    "current_source_pack_count": 12,
+    "newest_candidate_reference_count": 1,
+    "weak_or_limited_claim_count": 3
+  },
+  "source": "divine_pattern_analyzer.py",
+  "suggested_queries": [
+    {
+      "query": "lived grief, repair, vocation, community, and transformation primary source counterargument",
+      "reason": "human_stories is a priority lane for the next collector run.",
+      "tag": "unresolved_suffering"
+    },
+    {
+      "query": "lived grief, repair, vocation, community, and transformation primary source counterargument",
+      "reason": "human_stories is a priority lane for the next collector run.",
+      "tag": "interreligious_dream_testimony"
+    },
+    {
+      "query": "narrative recurrence and limits through literature summaries primary source counterargument",
+      "reason": "modern_literature is a priority lane for the next collector run.",
+      "tag": "modern_literature_meaning"
+    },
+    {
+      "query": "image, form, gesture, beauty, lament, glory, and iconography primary source counterargument",
+      "reason": "visual_art is a priority lane for the next collector run.",
+      "tag": "art_beauty"
+    },
+    {
+      "query": "pattern perception, attachment, trauma, habit, desire, identity, and repair primary source counterargument",
+      "reason": "psychology_inputs is a priority lane for the next collector run.",
+      "tag": "psychology_patterns"
+    },
+    {
+      "query": "pattern perception, attachment, trauma, habit, desire, identity, and repair primary source counterargument",
+      "reason": "psychology_inputs is a priority lane for the next collector run.",
+      "tag": "pattern_perception_divine_response"
+    },
+    {
+      "query": "sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison primary source counterargument",
+      "reason": "all_texts is a priority lane for the next collector run.",
+      "tag": "global_text_traditions"
+    },
+    {
+      "query": "respectful comparison across traditions without flattening differences primary source counterargument",
+      "reason": "other_religious_texts is a priority lane for the next collector run.",
+      "tag": "global_text_traditions"
+    },
+    {
+      "query": "respectful comparison across traditions without flattening differences primary source counterargument",
+      "reason": "other_religious_texts is a priority lane for the next collector run.",
+      "tag": "interreligious_dream_testimony"
+    },
+    {
+      "query": "image of God dignity disability theology cognitive science source review counterargument",
+      "reason": "Build or improve reviewed source pack coverage for Image Of God Pattern.",
+      "tag": "general_research_methods"
+    },
+    {
+      "query": "cross reversal suffering trauma theology liberation source review counterargument",
+      "reason": "Build or improve reviewed source pack coverage for Cross And Reversal Pattern.",
+      "tag": "general_research_methods"
+    },
+    {
+      "query": "creation consciousness moral agency worship science theology source review counterargument",
+      "reason": "Build or improve reviewed source pack coverage for Creation-To-Consciousness Pattern.",
+      "tag": "general_research_methods"
+    },
+    {
+      "query": "Trinity spiritual formation liturgy practical theology source review counterargument",
+      "reason": "Build or improve reviewed source pack coverage for Trinity-As-Behavior Pattern.",
+      "tag": "general_research_methods"
+    },
+    {
+      "query": "providence contingency chance tragedy theology source review counterargument",
+      "reason": "Build or improve reviewed source pack coverage for Providence And Contingency Pattern.",
+      "tag": "general_research_methods"
+    },
+    {
+      "query": "unresolved suffering lament pastoral theology no repair",
+      "reason": "Keep testing leading patterns against Suffering Without Resolution.",
+      "tag": "general_research_methods"
+    },
+    {
+      "query": "injustice corruption power repair theological ethics",
+      "reason": "Keep testing leading patterns against Injustice And Corruption.",
+      "tag": "general_research_methods"
+    },
+    {
+      "query": "science theology guardrail quantum overclaim philosophy science",
+      "reason": "Keep testing leading patterns against Science Guardrail.",
+      "tag": "general_research_methods"
+    },
+    {
+      "query": "failure condition falsification theological method counterargument",
+      "reason": "Keep testing leading patterns against Disconfirming Failure Condition.",
+      "tag": "general_research_methods"
+    },
+    {
+      "query": "practical theology case study pastoral ethics daily life",
+      "reason": "Keep testing leading patterns against Practical Case Study.",
+      "tag": "general_research_methods"
+    }
+  ],
+  "top_patterns": [
+    "Image Of God Pattern",
+    "Cross And Reversal Pattern",
+    "Creation-To-Consciousness Pattern",
+    "Trinity-As-Behavior Pattern",
+    "Providence And Contingency Pattern"
+  ],
+  "updated_at": "2026-06-11T16:35:25.289393+00:00"
+}
