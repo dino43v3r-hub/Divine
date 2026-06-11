@@ -211,7 +211,7 @@ analyse
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 984
+- Corroborating routed candidates: 986
 - URL: https://doi.org/10.1007/s13280-025-02230-9
 
 The epistemological implications of species extinction remain widely underexplored. This theoretical
@@ -361,7 +361,7 @@ The temptation to godless conduct The tarnish to gospel credibility They Swindle
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1098
+- Corroborating routed candidates: 1100
 - URL: https://hts.org.za/index.php/hts/article/view/10066/27697
 
 | * **Abstract** * **Introduction** * **Biblical basis for Christian translation** * **History of
@@ -657,7 +657,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 828
+- Corroborating routed candidates: 830
 - URL: https://www.aieti.eu/enti/religion_ENG/entry.html
 
 Introduction | The origin of religious translation | Towards a classification of religious
@@ -846,7 +846,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 930
+- Corroborating routed candidates: 932
 - URL: https://doi.org/10.1007/s11841-022-00912-5
 
 Religions use linguistic and non-linguistic codes of meaning to express their contents: natural
@@ -917,7 +917,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 945
+- Corroborating routed candidates: 947
 - URL: https://doi.org/10.1007/s40167-016-0039-2
 
 New data is emerging from evolutionary anthropology and the neuroscience of social cognition on our
@@ -995,7 +995,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 926
+- Corroborating routed candidates: 928
 - URL: https://doi.org/10.1098/rsif.2013.1030
 
 The concept of reproducibility is widely considered a cornerstone of scientific methodology.
