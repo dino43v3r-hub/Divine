@@ -395,6 +395,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-06-11": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "moral psychology forgiveness repentance habit formation",
+          "searched_at": "2026-06-11T16:51:56.096555+00:00",
+          "tag": "psychology_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "cognitive science religion ritual identity community transformation",
+          "searched_at": "2026-06-11T16:52:02.329018+00:00",
+          "tag": "psychology_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "psychology pattern perception religious meaning divine agency",
+          "searched_at": "2026-06-11T16:52:11.939706+00:00",
+          "tag": "pattern_perception_divine_response"
+        },
+        {
+          "credits_used": 1,
+          "query": "cognitive science religion pattern recognition agency detection",
+          "searched_at": "2026-06-11T16:52:17.348068+00:00",
+          "tag": "pattern_perception_divine_response"
+        },
+        {
+          "credits_used": 1,
+          "query": "apophenia meaning making religious experience psychology divine patterns",
+          "searched_at": "2026-06-11T16:52:22.174207+00:00",
+          "tag": "pattern_perception_divine_response"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }
