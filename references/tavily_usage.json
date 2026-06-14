@@ -503,6 +503,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-06-14": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "comparative theology methodology source review counterargument",
+          "searched_at": "2026-06-14T02:20:09.807270+00:00",
+          "tag": "general_research_methods"
+        },
+        {
+          "credits_used": 1,
+          "query": "religion science humanities interdisciplinary research method evidence",
+          "searched_at": "2026-06-14T02:20:15.763348+00:00",
+          "tag": "general_research_methods"
+        },
+        {
+          "credits_used": 1,
+          "query": "interreligious dreams visions Jesus conversion testimony scholarly study",
+          "searched_at": "2026-06-14T02:20:23.207718+00:00",
+          "tag": "interreligious_dream_testimony"
+        },
+        {
+          "credits_used": 1,
+          "query": "religious conversion dreams visions Jesus testimonies comparative religion research",
+          "searched_at": "2026-06-14T02:20:27.712463+00:00",
+          "tag": "interreligious_dream_testimony"
+        },
+        {
+          "credits_used": 1,
+          "query": "dreams visions conversion testimony Christianity anthropology religion",
+          "searched_at": "2026-06-14T02:20:32.098140+00:00",
+          "tag": "interreligious_dream_testimony"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

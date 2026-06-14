@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-13T15:30:50.230528+00:00
-Total references: 1,829
-New references this run: 21
+Updated: 2026-06-14T02:21:38.310733+00:00
+Total references: 1,862
+New references this run: 33
 
 Guardrails
 ----------
@@ -16,53 +16,54 @@ Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Self-directed query modifiers used this run: primary source, counterargument.
-- Search strategy priority lanes: human_stories, modern_literature, visual_art, psychology_inputs, all_texts, other_religious_texts, history_inputs, cultural_inputs.
+- Search strategy priority lanes: human_stories, modern_literature, visual_art, psychology_inputs, cultural_inputs, deep_sources, pattern_tests.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 - OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
 - Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
 - Tavily budget: 5/5 basic searches used today; 0 remaining.
 - Open-web candidates returned this run: 15.
 - Provider results returned this run:
-  - Crossref: 460
-  - Europe PMC: 293
+  - Crossref: 461
+  - Europe PMC: 266
   - Internet Archive: 124
-  - OpenAlex: 432
+  - OpenAlex: 429
   - PubMed: 27
   - Tavily Search: 15
-  - arXiv: 50
+  - arXiv: 55
 - Brand-new references added by provider:
-  - Crossref: 1
-  - Europe PMC: 5
-  - Internet Archive: 4
-  - OpenAlex: 1
-  - Tavily Search: 10
+  - Crossref: 7
+  - Europe PMC: 7
+  - Internet Archive: 1
+  - OpenAlex: 5
+  - Tavily Search: 8
+  - arXiv: 5
 - Total stored references by provider:
-  - Crossref: 399
-  - Europe PMC: 276
-  - Internet Archive: 401
-  - OpenAlex: 517
+  - Crossref: 406
+  - Europe PMC: 283
+  - Internet Archive: 402
+  - OpenAlex: 522
   - PubMed: 25
-  - Tavily Search: 184
-  - arXiv: 27
+  - Tavily Search: 192
+  - arXiv: 32
 
 Reference Tags
 --------------
-- art_beauty: 155
+- art_beauty: 157
 - biblical_language_source_depth: 54
 - biblical_languages: 43
-- cultural_practice_patterns: 90
-- general_research_methods: 177
+- cultural_practice_patterns: 103
+- general_research_methods: 186
 - global_text_traditions: 118
 - history_memory: 132
 - holy_spirit_gifts_global: 48
-- interreligious_dream_testimony: 79
+- interreligious_dream_testimony: 83
 - modern_literature_meaning: 90
 - music_math: 99
 - pattern_perception_divine_response: 88
-- politics_justice: 111
+- politics_justice: 112
 - psychology_patterns: 97
-- quantum_science_guardrails: 114
-- technology_ethics: 106
+- quantum_science_guardrails: 125
+- technology_ethics: 119
 - theologians_cross_era: 41
 - trinity: 132
 - unresolved_suffering: 71
@@ -71,22 +72,22 @@ Reference Tags
 
 Layer Routes
 ------------
-- all_texts: 560
+- all_texts: 562
 - biblical_languages: 116
-- cultural_inputs: 449
-- deep_sources: 592
-- history_inputs: 450
-- human_stories: 458
-- modern_literature: 246
+- cultural_inputs: 465
+- deep_sources: 607
+- history_inputs: 465
+- human_stories: 463
+- modern_literature: 249
 - music_notes: 99
-- other_religious_texts: 383
-- pattern_tests: 333
-- psychology_inputs: 436
-- research_documents: 304
+- other_religious_texts: 387
+- pattern_tests: 342
+- psychology_inputs: 449
+- research_documents: 313
 - research_documents/christian_sources: 131
-- theologians: 454
-- visual_art: 553
-- world_languages: 288
+- theologians: 459
+- visual_art: 562
+- world_languages: 290
 
 Layer Balance Watch
 -------------------
@@ -97,17 +98,17 @@ Layer Balance Watch
 
 Quality Counts
 --------------
-- open web result: 184
-- reference metadata: 397
-- scholarly metadata: 1,217
-- scholarly preprint: 27
+- open web result: 192
+- reference metadata: 398
+- scholarly metadata: 1,236
+- scholarly preprint: 32
 - speculative-risk: 4
 
 Automated Evidence Counts
 -------------------------
-- moderate_scholarly_candidate: 692
-- strong_scholarly_candidate: 938
-- weak_scholarly_candidate: 199
+- moderate_scholarly_candidate: 703
+- strong_scholarly_candidate: 952
+- weak_scholarly_candidate: 207
 
 Auto Review Approval Counts
 ---------------------------
@@ -115,189 +116,247 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 1,602
-- not_auto_approved: 227
+- approved_for_review_queue: 1,622
+- not_auto_approved: 240
 
 New This Run By Tag
 -------------------
 - art_beauty: 1
-- cultural_practice_patterns: 8
-- general_research_methods: 3
-- history_memory: 2
-- modern_literature_meaning: 2
-- pattern_perception_divine_response: 1
-- psychology_patterns: 1
-- quantum_science_guardrails: 1
-- technology_ethics: 1
-- world_language_source_sampling: 2
-- world_languages_translation: 2
+- cultural_practice_patterns: 12
+- general_research_methods: 9
+- interreligious_dream_testimony: 4
+- politics_justice: 1
+- quantum_science_guardrails: 9
+- technology_ethics: 12
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 10
-- biblical_languages: 1
-- cultural_inputs: 10
-- deep_sources: 5
-- history_inputs: 11
-- human_stories: 3
-- modern_literature: 2
-- other_religious_texts: 3
-- pattern_tests: 2
-- psychology_inputs: 11
-- research_documents: 3
-- theologians: 2
-- visual_art: 12
-- world_languages: 4
+- all_texts: 2
+- cultural_inputs: 15
+- deep_sources: 15
+- history_inputs: 14
+- human_stories: 5
+- modern_literature: 3
+- other_religious_texts: 4
+- pattern_tests: 9
+- psychology_inputs: 13
+- research_documents: 9
+- theologians: 5
+- visual_art: 8
+- world_languages: 2
 
 Newest Additions This Run
 ------------------------
-- Narratives of contingency as historical evidence for philosophical arguments of contingency: pathway decisions in the early development of molecular genetics. (2026)
-  Tags: quantum_science_guardrails
-  Layer routes: deep_sources, pattern_tests, visual_art, history_inputs
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1007/s40656-026-00738-1
-- Sheikh Feiz Muhammad - Complete Audio Collection (100+) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/SheikhFeizMuhammad
-- Sukkot ~ Aish Kodesh, October 4, 2012 (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/AishKodeshOctober42012Sukkas
-- The Parallel Mirrors of The Genesis- Philosophical poems by Sorin Cerin (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/9781976092312TheparallelMirrorsofthegenesis
-- Domestic ecologies of gender: Women, material life, and eco-folklore in Saudi proverbs. (2026)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1371/journal.pone.0348777
-- A theory-driven candidate annotation architecture for collective regulation under stress in human-centered computational psychiatry: early modern Iberia as a worked coding demonstration. (2026)
-  Tags: cultural_practice_patterns, world_languages_translation
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, world_languages, all_texts, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.3389/fpsyt.2026.1859236
-- The Body Politic: Leftist Humanitarianism in Latin American Social Medicine. (2026)
-  Tags: world_language_source_sampling
-  Layer routes: world_languages, all_texts, other_religious_texts, visual_art
-  Source: Europe PMC | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1177/00220094251401605
-- Theology in Translation: Latin American and Iranian Efforts (2024)
-  Tags: world_language_source_sampling
-  Layer routes: world_languages, all_texts, other_religious_texts, psychology_inputs
+- Counterargument (2022)
+  Tags: general_research_methods, quantum_science_guardrails
+  Layer routes: research_documents, deep_sources, pattern_tests
   Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
+  Automated evidence: strong_scholarly_candidate (11)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1093/acrefore/9780199340378.013.1027
-- Those Who Cannot Speak. Animals as Others in Ancient Greek Thought (2015)
-  Tags: general_research_methods, pattern_perception_divine_response, psychology_patterns
-  Layer routes: research_documents, deep_sources, psychology_inputs, pattern_tests, human_stories, biblical_languages
+  URL: https://doi.org/10.4324/9781003326328-4
+- Functionalist Counterargument Against Nonemergent Theories of Consciousness (Physicalism and Nonemergent Panprotopsychism) (2018)
+  Tags: general_research_methods, quantum_science_guardrails
+  Layer routes: research_documents, deep_sources, pattern_tests
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.14704/nq.2018.16.11.1127
+- Counterargument against China’s State Integrity Claim (2022)
+  Tags: general_research_methods, quantum_science_guardrails
+  Layer routes: research_documents, deep_sources, pattern_tests
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.5040/9781666990959.ch-3
+- Navigating the Conceptual Multiverse (2026)
+  Tags: general_research_methods, quantum_science_guardrails
+  Layer routes: research_documents, deep_sources, pattern_tests
   Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
+  Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://depot.ceon.pl/handle/123456789/6570
-- [PDF] The Nature of Spiritual Transformation - A Review of the Literature (n.d.)
-  Tags: modern_literature_meaning
-  Layer routes: modern_literature, all_texts, human_stories, psychology_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
+  URL: https://arxiv.org/abs/2604.17815
+- Analyzing complex functional brain networks: fusing statistics and network science to understand the brain (2013)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests, modern_literature
+  Source: arXiv | scholarly preprint
+  Automated evidence: moderate_scholarly_candidate (7)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: http://www.metanexus.net/archive/spiritualtransformationresearch/research/pdf/STSRP-LiteratureReview2-7.PDF
-- What is spiritual memoir? | Spiritual Memoir (n.d.)
-  Tags: modern_literature_meaning
-  Layer routes: modern_literature, all_texts, human_stories, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
+  URL: http://arxiv.org/abs/1302.5721v3
+- Knowledge-Enhanced Evidence Retrieval for Counterargument Generation (2021)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests, world_languages
+  Source: arXiv | scholarly preprint
+  Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.spiritualmemoir.com/spiritual-memoir/what-is-spiritual-memoir
-- The New Anthropology of Ritual | Journal for the Cognitive Science of Religion (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, all_texts, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
+  URL: http://arxiv.org/abs/2109.09057v1
+- Integrating computing in the statistics and data science curriculum: Creative structures, novel skills and habits, and ways to teach computational thinking (2020)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests, psychology_inputs, modern_literature
+  Source: arXiv | scholarly preprint
+  Automated evidence: moderate_scholarly_candidate (7)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://journal.equinoxpub.com/JCSR/article/view/25039
-- 13.4 Rituals of Transition and Conformity - Introduction to Anthropology | OpenStax (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, all_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
+  URL: http://arxiv.org/abs/2012.12144v1
+- Implementing version control with Git and GitHub as a learning objective in statistics and data science courses (2020)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests
+  Source: arXiv | scholarly preprint
+  Automated evidence: moderate_scholarly_candidate (7)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://openstax.org/books/introduction-anthropology/pages/13-4-rituals-of-transition-and-conformity
-- Multimodal repair in the semiotic landscape for social and political commentary. (2026)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  URL: http://arxiv.org/abs/2001.01988v3
+- Special section on statistics in the atmospheric sciences (2009)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests, visual_art
+  Source: arXiv | scholarly preprint
+  Automated evidence: moderate_scholarly_candidate (7)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: http://arxiv.org/abs/0901.3469v1
+- Defining a shift estimand on forgivingness without domesticating forgiveness: Comment on Cowden et al. (2026)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs
   Source: Europe PMC | scholarly metadata
   Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1177/26349795261449663
-- Institute for Religion, Culture and Public Life (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.ircpl.columbia.edu
-- The Study of Religion and Popular Culture - Scholars@Duke (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://scholars.duke.edu/display/pub1056944
-- [PDF] Credo, Cognition, and Culture: An Anthropology of Religion (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://diamond-oa.lib.cam.ac.uk/bitstreams/a770681f-ae76-4af9-b849-f9139c331798/download
-- IIARD | IJRCP – International Institute of Academic Research and Development (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.iiardjournals.org/journal.php?j=IJRCP
-- Qualitative Research or Theological Methodology? - Association of Practical Theology (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://practicaltheology.org/qualitative-research-or-theological-methodology
-- [PDF] RESEARCH METHODS IN SYSTEMATIC THEOLOGY (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, visual_art, all_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://ocw.danielinstitute.net/download/lecture-notes/507846133-16424465
-- Internet Archive Presents The John Perry Barlow Symposium (2018)
-  Tags: technology_ethics
-  Layer routes: cultural_inputs, visual_art
+  URL: https://doi.org/10.1016/j.ssmmh.2026.100646
+- Membership Sunday 8 June 2025 (2025)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs
   Source: Internet Archive | reference metadata
   Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/JohnPerryBarlowSymposium
+  URL: https://archive.org/details/UU_Church_of_Annapolis_Podcast-Membership_Sunday_8_June
+- The Implications of Piaget’s Work (2003)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.4324/9780203489185-71
+- Topic Work: Where Are We Now? (2003)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.4324/9780203489185-33
+- Introduction (2022)
+  Tags: cultural_practice_patterns
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1017/9781009258050.001
+- The Superiority of Economists (2015)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (14)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1257/jep.29.1.89
+- Social and Cognitive Aspects of the Vulnerability to Political Misinformation (2021)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (13)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1111/pops.12797
+- (Why) Is Misinformation a Problem? (2023)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (14)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1177/17456916221141344
+- The academic, economic and societal impacts of Open Access: an evidence-based review (2016)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (13)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.12688/f1000research.8460.3
+- Translating Science to Improve Health-a Report from the "Agriculture and Diet: Value Added for Nutrition, Translation, and Adaptation in a Global Ecology" (ADVANTAGE) Project Working Group 5. (2026)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs, world_languages, deep_sources
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1016/j.advnut.2025.100586
+- Educating Early Adolescents for a Sustainable Future With Digital Civic Learning: Moral Self-Concept as a Developmental Catalyst Linking Civic Competencies and Civic Purpose. (2026)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1111/desc.70203
+- Addressing Autonomy Risks in Generative Chatbots with the Socratic Method. (2025)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1007/s11948-025-00567-8
+- "Same principles, different decisions": A qualitative study exploring the attitudes of COVID-19 vaccination among school staff in Switzerland. (2025)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1080/21645515.2025.2569840
+- Assessing green innovation, energy transition and natural resources abundance for sustainable footprint in Paris club. (2025)
+  Tags: cultural_practice_patterns, technology_ethics
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, modern_literature
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1038/s41598-025-13874-8
+- A Matter of High Interest: How a Quiet Change to an Actuarial Assumption Turbocharges the Life Insurance Tax Shelter (2022)
+  Tags: general_research_methods
+  Layer routes: research_documents, deep_sources, visual_art
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2139/ssrn.4086903
+- Meaning and Method in Comparative Theology — Book Review (Cornille) (n.d.)
+  Tags: general_research_methods
+  Layer routes: research_documents, deep_sources, theologians, history_inputs, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://garrettham.com/meaning-and-method-in-comparative-theology
+- Comparative theology /preoccupations for sources in the ... - Reddit (n.d.)
+  Tags: general_research_methods
+  Layer routes: research_documents, deep_sources, all_texts
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.reddit.com/r/AcademicBiblical/comments/1dbb2ml/comparative_theology_preoccupations_for_sources
+- Comparative Theology: A Bibliographic Review - Areas of Study (n.d.)
+  Tags: general_research_methods
+  Layer routes: research_documents, deep_sources
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.bc.edu/bc-web/schools/morrissey/departments/theology/areas-of-study/comparative-theology/comparative-theology-a-bibliographic-review.html
+- Does Interdisciplinary Research Lead to Higher Faculty Performance? Evidence from an Accelerated Research University in China (n.d.)
+  Tags: general_research_methods
+  Layer routes: research_documents, deep_sources, visual_art, human_stories
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.mdpi.com/2071-1050/14/21/13977
+- (PDF) When Muslims Dream of Jesus - Academia.edu (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.academia.edu/36942639/When_Muslims_Dream_of_Jesus
+- Ex- Muslim Reveals Why so Many Are Turning to Christ - Facebook (n.d.)
+  Tags: interreligious_dream_testimony
+  Layer routes: other_religious_texts, human_stories, theologians
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.facebook.com/cbnnews/posts/seeing-jesus-in-dreams-and-visions-suddenly-questioning-everything-theyve-been-t/1519872953503382
 
 Recent Candidate Sources
 ------------------------
@@ -529,3 +588,17 @@ Recent Candidate Sources
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
+
+Collector Errors
+----------------
+- search_europe_pmc failed for unresolved_suffering: HTTP Error 502: Bad Gateway
+- search_europe_pmc failed for unresolved_suffering: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for unresolved_suffering: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for unresolved_suffering: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for quantum_science_guardrails: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for quantum_science_guardrails: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for quantum_science_guardrails: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for quantum_science_guardrails: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for quantum_science_guardrails: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for quantum_science_guardrails: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for music_math: HTTP Error 503: Service Temporarily Unavailable

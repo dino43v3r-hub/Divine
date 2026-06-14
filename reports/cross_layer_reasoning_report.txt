@@ -88,22 +88,22 @@ Layer Convergence Across All Sources
 ------------------------------------
 - Physical Order: 3,415 (high internal signal)
 - Mathematical Structure: 968 (moderate internal signal)
-- Mathematical Theophany: 1,583 (high internal signal)
-- Quantum Probability: 200 (early signal)
-- Life And Consciousness: 6,512 (high internal signal)
-- Meaning And Logos: 8,735 (high internal signal)
-- Moral Response: 5,010 (high internal signal)
-- Worship And Community: 4,052 (high internal signal)
-- Transformation: 5,026 (high internal signal)
+- Mathematical Theophany: 1,595 (high internal signal)
+- Quantum Probability: 209 (early signal)
+- Life And Consciousness: 6,524 (high internal signal)
+- Meaning And Logos: 8,755 (high internal signal)
+- Moral Response: 5,012 (high internal signal)
+- Worship And Community: 4,038 (high internal signal)
+- Transformation: 5,023 (high internal signal)
 
 Meaning Movement Across All Sources
 -----------------------------------
-- Creation And Order: 6,544
-- Alienation And Lament: 2,311
-- Desire And Longing: 3,608
-- Moral Confrontation: 3,595
-- Communal Practice: 2,976
-- Transformation And Hope: 4,146
+- Creation And Order: 6,547
+- Alienation And Lament: 2,308
+- Desire And Longing: 3,604
+- Moral Confrontation: 3,611
+- Communal Practice: 2,967
+- Transformation And Hope: 4,145
 
 Synthesis Depth Results
 -----------------------

@@ -7,352 +7,32 @@ Review rule: unreviewed daily candidates can shape research questions, but they 
 
 ## Newest Candidate Material
 
-### Narratives of contingency as historical evidence for philosophical arguments of contingency: pathway decisions in the early development of molecular genetics.
+### Counterargument
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests, visual_art, history_inputs
-- Primary layer: deep_sources
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 821
-- Year: 2026
-- URL: https://doi.org/10.1007/s40656-026-00738-1
-
-This article argues that philosophical arguments of contingency in the development of science can be
-advanced by starting from historical evidence produced through the framework of narratives of
-contingency. Narratives of contingency are conceptualized both as prospective narratives constructed
-by historical actors to navigate decisions at what they perceived as fork moments in the present and
-as an analytical framework for systematically reconstructing such decision-making processes from
-historical sources.The argument is developed in three steps. First, the article outlines three
-constraints that historical case studies must explicitly address in order to function as evidence
-for philosoph
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### Sheikh Feiz Muhammad - Complete Audio Collection (100+)
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, other_religious_texts
-- Primary layer: visual_art
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 590
-- Year: n.d.
-- URL: https://archive.org/details/SheikhFeizMuhammad
-
-Please subscribe to - www.youtube.com/0nly1truth Type "Alzuridin" in the Archive search bar above to
-watch/listen/download more free Islamic files. -----------------------------------------------------
---------------------------------------------------------------------------------------------------
-Sheikh Feiz Muhammad is of Lebanese origin, and was born in Sydney, Australia, in 1970. His father
-is from Lebanon. He is a former boxer, bodybuilder. He is of the Manhaj of as-Salaf us-Saalih. He
-spent the first part of his life in the field of sports. At the age of 17 he received a title in
-boxing and then at 19, he won the Australian bodybuilding championship. Sheikh Feiz lived most of
-his teen
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- trusted open-web domain present
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Sukkot ~ Aish Kodesh, October 4, 2012
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 447
-- Year: n.d.
-- URL: https://archive.org/details/AishKodeshOctober42012Sukkas
-
-Index of Rabbi Hoffman's Audio Files Aish Kodesh, October 4, 2012, Sukkot Why would anyone go into a
-sukkah in the Warsaw Ghetto? This is the time of our joy when everyone else is going into their
-homes and turning on the heat. Why are the crazy Jews in a hut without a roof? It was planned this
-way deliberately. In Israel it’s cooler and it has already rained. Israel is a place where we beg
-for rain. The four species are all water plants. I have to get some fresh willows by the creek
-tonight. These are myrtles. This is the palm frond and when we shake it, it sounds like rain. Last
-year’s etrog lasted all year and every week I said two brachas on it. If you observe something, you
-change it. T
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- trusted open-web domain present
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-
-### The Parallel Mirrors of The Genesis- Philosophical poems by Sorin Cerin
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: history_memory
-- Layer routes: history_inputs, theologians, visual_art, all_texts
-- Primary layer: history_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (7)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 844
-- Year: n.d.
-- URL: https://archive.org/details/9781976092312TheparallelMirrorsofthegenesis
-
-SORIN CERIN - BIBLIOGRAPHY Sorin Cerin ( Born : November 25, 1963, Baia Mare , Romania ) is an
-important existentialist poet from the 21st century, quoted next to Sartre or Kierkegaard,
-philosopher,- the creator of Coaxialism, – compared to Schopenhauer, Nietzsche and Wittgenstein.
-Sorin Cerin is particularly sought after by the great public for the 11,486 structured aphorisms in
-14 volumes of thoughts previously published in various publishing houses, and then to be reunited
-under the aegis of a monumental volume called Wisdom Collection , a title that brought him celebrity
-and international recognition, for which he is considered to be one of the most representative
-thinkers of the aphoris
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- trusted open-web domain present
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### Domestic ecologies of gender: Women, material life, and eco-folklore in Saudi proverbs.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: world_languages_translation
-- Layer routes: world_languages, all_texts, visual_art
-- Primary layer: world_languages
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 586
-- Year: 2026
-- URL: https://doi.org/10.1371/journal.pone.0348777
-
-This article advances an ecocritical reading of women-focused Saudi proverbs as a distinctive form
-of eco-folklore, where gendered norms are naturalized through domestic material and environmental
-imaginaries. Analyzing a corpus of 60 proverbs from the Saudi National Encyclopedia's regional
-archives, the study integrates feminist critical discourse analysis with material ecocriticism to
-reveal how proverbial discourse mobilizes everyday objects and processes bread and heat as emblems
-of maternal care, cooking vessels as symbols of household responsibility, pests like flies and
-scorpions as metaphors for moral contamination, and adornments such as kohl and henna as mechanisms
-of reputational
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### A theory-driven candidate annotation architecture for collective regulation under stress in human-centered computational psychiatry: early modern Iberia as a worked coding demonstration.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: cultural_practice_patterns, world_languages_translation
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, world_languages, all_texts, visual_art
-- Primary layer: cultural_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 925
-- Year: 2026
-- URL: https://doi.org/10.3389/fpsyt.2026.1859236
-
-Computational psychiatry has advanced formal accounts of individual prediction, affect regulation,
-and maladaptive rigidity, but it still has fewer clinically interpretable tools for representing
-social and institutional processes under collective stress. This Hypothesis and Theory article
-proposes a theory-driven candidate annotation architecture for this purpose. It defines five
-collective-process variables-defensive closure (DEF-C), collective anxiety load (ANX-C), integrative
-progression (PRO-C), punitive superegoic regulation (SUP-C), and moral frame rigidity (FRAME-C)-as
-theory-guided interpretive indicators for trained human annotation and later formal modeling.
-Drawing on Active Infe
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### The Body Politic: Leftist Humanitarianism in Latin American Social Medicine.
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts, visual_art
-- Primary layer: world_languages
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 662
-- Year: 2026
-- URL: https://doi.org/10.1177/00220094251401605
-
-This article examines the transnational network of Latin American Social Medicine, represented by
-the Latin American Social Medicine Association (ALAMES), as a distinctive form of leftist
-humanitarianism that emerged during the Cold War. Amid fierce state-sponsored campaigns of anti-
-communist terror aimed at leftist 'epistemicide', this intellectual community was targeted for its
-critical, politically active stance on health. The article argues that the very effort to destroy
-the network paradoxically spurred its transformation into a resilient South-South solidarity
-movement. Drawing on oral histories and archival research, it distinguishes ALAMES's humanitarianism
-from both traditional, im
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-
-### Theology in Translation: Latin American and Iranian Efforts
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts, psychology_inputs
-- Primary layer: world_languages
+- Tags: general_research_methods, quantum_science_guardrails
+- Layer routes: research_documents, deep_sources, pattern_tests
+- Primary layer: research_documents
 - Provider: Crossref
 - Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
+- Automated evidence: strong_scholarly_candidate (11)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 704
-- Year: 2024
-- URL: https://doi.org/10.1093/acrefore/9780199340378.013.1027
+- Corroborating routed candidates: 584
+- Year: 2022
+- URL: https://doi.org/10.4324/9781003326328-4
 
-Abstract “Turkish” migrants , in fact Ottoman Arab who entered the American continent with identity
-documents issued by the Ottoman authorities and traveled with their languages or dialects, arrived
-at the end of the 19th century and in the first decades of the 20th century. However, the migratory
-wave extended almost until the middle of the 20th century after going through a complex political,
-social, and cultural process that substantially modified various aspects of the migrants’ lives.
-Their religious lives were progressively hampered in terms of ritual practice because their faith of
-origin was in the minority with no adequate spaces for collective prayer. They encountered the
-increasin
+No summary available in metadata.
 
 Automated evidence reasons:
 - scholarly metadata provider
 - DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
-- summary or abstract metadata available
+- recognized scholarly source type
 - many routed corroborating candidates
 
 Auto approval reasons:
@@ -361,28 +41,102 @@ Auto approval reasons:
 - stable DOI present
 
 Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Separate psychological/social process from theological interpretation and note clinical limits.
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### Those Who Cannot Speak. Animals as Others in Ancient Greek Thought
+### Functionalist Counterargument Against Nonemergent Theories of Consciousness (Physicalism and Nonemergent Panprotopsychism)
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: general_research_methods, pattern_perception_divine_response, psychology_patterns
-- Layer routes: research_documents, deep_sources, psychology_inputs, pattern_tests, human_stories, biblical_languages
+- Tags: general_research_methods, quantum_science_guardrails
+- Layer routes: research_documents, deep_sources, pattern_tests
+- Primary layer: research_documents
+- Provider: Crossref
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 584
+- Year: 2018
+- URL: https://doi.org/10.14704/nq.2018.16.11.1127
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
+### Counterargument against China’s State Integrity Claim
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: general_research_methods, quantum_science_guardrails
+- Layer routes: research_documents, deep_sources, pattern_tests
+- Primary layer: research_documents
+- Provider: Crossref
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 584
+- Year: 2022
+- URL: https://doi.org/10.5040/9781666990959.ch-3
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- many routed corroborating candidates
+- counterargument or limitation language present
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
+### Navigating the Conceptual Multiverse
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: general_research_methods, quantum_science_guardrails
+- Layer routes: research_documents, deep_sources, pattern_tests
 - Primary layer: research_documents
 - Provider: OpenAlex
 - Quality: scholarly metadata
-- Automated evidence: strong_scholarly_candidate (10)
+- Automated evidence: moderate_scholarly_candidate (9)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 908
-- Year: 2015
-- URL: https://depot.ceon.pl/handle/123456789/6570
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 584
+- Year: 2026
+- URL: https://arxiv.org/abs/2604.17815
 
 OpenAlex abstract metadata available.
 
@@ -392,207 +146,641 @@ Automated evidence reasons:
 - publication year present
 - recognized scholarly source type
 - summary or abstract metadata available
-- some citation signal
+- many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
-- label is strong_scholarly_candidate
+- label is moderate_scholarly_candidate
 - author and year metadata present
 
 Layer review prompts:
 - Use as general research context until a more specific layer is reviewed.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Separate psychological/social process from theological interpretation and note clinical limits.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 
-### [PDF] The Nature of Spiritual Transformation - A Review of the Literature
+### Analyzing complex functional brain networks: fusing statistics and network science to understand the brain
 
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories, psychology_inputs
-- Primary layer: modern_literature
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, modern_literature
+- Primary layer: deep_sources
+- Provider: arXiv
+- Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 677
-- Year: n.d.
-- URL: http://www.metanexus.net/archive/spiritualtransformationresearch/research/pdf/STSRP-LiteratureReview2-7.PDF
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 668
+- Year: 2013
+- URL: http://arxiv.org/abs/1302.5721v3
 
-The term spiritual transformation is used throughout this study to denote what is understood widely
-in the psychology of religion literature as a “conversion
+Complex functional brain network analyses have exploded over the last eight years, gaining traction
+due to their profound clinical implications. The application of network science (an
+interdisciplinary offshoot of graph theory) has facilitated these analyses and enabled examining the
+brain as an integrated system that produces complex behaviors. While the field of statistics has
+been integral in advancing activation analyses and some connectivity analyses in functional
+neuroimaging research, it has yet to play a commensurate role in complex network analyses. Fusing
+novel statistical methods with network-based functional neuroimage analysis will engender powerful
+analytical tools that will ai
 
 Automated evidence reasons:
-- broad open-web search result
+- scholarly preprint provider
+- author metadata present
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
 - automated warning present
-- open-web source requires manual review
 
 Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
+- preprint status: use cautiously until peer-reviewed or corroborated
 
 Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Separate psychological/social process from theological interpretation and note clinical limits.
 
-### What is spiritual memoir? | Spiritual Memoir
+### Knowledge-Enhanced Evidence Retrieval for Counterargument Generation
 
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories, visual_art
-- Primary layer: modern_literature
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, world_languages
+- Primary layer: deep_sources
+- Provider: arXiv
+- Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (8)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 768
-- Year: n.d.
-- URL: https://www.spiritualmemoir.com/spiritual-memoir/what-is-spiritual-memoir
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 699
+- Year: 2021
+- URL: http://arxiv.org/abs/2109.09057v1
 
-Spiritual memoir, then, is a genre in which one's life is written with particular attention paid to
-the mysteries of that life.
+Finding counterevidence to statements is key to many tasks, including counterargument generation. We
+build a system that, given a statement, retrieves counterevidence from diverse sources on the Web.
+At the core of this system is a natural language inference (NLI) model that determines whether a
+candidate sentence is valid counterevidence or not. Most NLI models to date, however, lack proper
+reasoning abilities necessary to find counterevidence that involves complex inference. Thus, we
+present a knowledge-enhanced NLI model that aims to handle causality- and example-based inference by
+incorporating knowledge graphs. Our NLI model outperforms baselines for NLI tasks, especially for
+instances
 
 Automated evidence reasons:
-- broad open-web search result
+- scholarly preprint provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+- counterargument or limitation language present
+
+Auto approval blockers:
+- automated warning present
+
+Automated evidence warnings:
+- preprint status: use cautiously until peer-reviewed or corroborated
+
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
+### Integrating computing in the statistics and data science curriculum: Creative structures, novel skills and habits, and ways to teach computational thinking
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, psychology_inputs, modern_literature
+- Primary layer: deep_sources
+- Provider: arXiv
+- Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 832
+- Year: 2020
+- URL: http://arxiv.org/abs/2012.12144v1
+
+Nolan and Temple Lang (2010) argued for the fundamental role of computing in the statistics
+curriculum. In the intervening decade the statistics education community has acknowledged that
+computational skills are as important to statistics and data science practice as mathematics. There
+remains a notable gap, however, between our intentions and our actions. In this special issue of the
+*Journal of Statistics and Data Science Education* we have assembled a collection of papers that (1)
+suggest creative structures to integrate computing, (2) describe novel data science skills and
+habits, and (3) propose ways to teach computational thinking. We believe that it is critical for the
+community to re
+
+Automated evidence reasons:
+- scholarly preprint provider
+- author metadata present
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
 - automated warning present
-- open-web source requires manual review
 
 Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
+- preprint status: use cautiously until peer-reviewed or corroborated
 
 Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Separate psychological/social process from theological interpretation and note clinical limits.
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### The New Anthropology of Ritual | Journal for the Cognitive Science of Religion
+### Implementing version control with Git and GitHub as a learning objective in statistics and data science courses
 
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, all_texts, deep_sources
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
+- Provider: arXiv
+- Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 1124
-- Year: n.d.
-- URL: https://journal.equinoxpub.com/JCSR/article/view/25039
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 527
+- Year: 2020
+- URL: http://arxiv.org/abs/2001.01988v3
 
-# The New Anthropology of Ritual. It is therefore tempting to consider the power of rituals and how
-to harness them to address current sociocultural crises. However, as scholars of religion and human
-rights, we wish to concentrate further on the potential harmful impacts of rituals and attempts
-(perhaps by policymakers) to harness rituals for some envisioned benefits. In this article, we
-center our discussion around Dimitris Xygalatas’ new book, *Ritual: How Seemingly Senseless Acts
-Make Life Worth Living* (2022), which raises compelling evidence and methodologies for what we
-describe as the “new anthropology of ritual” but also intriguing arguments about the power of
-ritual. We argue that *
+A version control system records changes to a file or set of files over time so that changes can be
+tracked and specific versions of a file can be recalled later. As such, it is an essential element
+of a reproducible workflow that deserves due consideration among the learning objectives of
+statistics and data science courses. This paper describes experiences and implementation decisions
+of four contributing faculty who are teaching different courses at a variety of institutions. Each
+of these faculty have set version control as a learning objective and successfully integrated one
+such system (Git) into one or more statistics courses. The various approaches described in the paper
+span differe
 
 Automated evidence reasons:
-- broad open-web search result
+- scholarly preprint provider
+- author metadata present
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
 - automated warning present
-- open-web source requires manual review
 
 Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
+- preprint status: use cautiously until peer-reviewed or corroborated
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### 13.4 Rituals of Transition and Conformity - Introduction to Anthropology | OpenStax
+### Special section on statistics in the atmospheric sciences
 
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, all_texts
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests, visual_art
+- Primary layer: deep_sources
+- Provider: arXiv
+- Quality: scholarly preprint
+- Automated evidence: moderate_scholarly_candidate (7)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 898
-- Year: n.d.
-- URL: https://openstax.org/books/introduction-anthropology/pages/13-4-rituals-of-transition-and-conformity
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 681
+- Year: 2009
+- URL: http://arxiv.org/abs/0901.3469v1
 
-Introduction to Anthropology13.4 Rituals of Transition and Conformity. * Identify the stages of
-rites of passage. Even when performing a religious ritual alone, such as walking a labyrinth during
-meditation, the ritual itself, because it is learned as part of a larger body of religious
-practices, connects the individual to the larger community. There are many categories of ritual:
-commemoration feasts or rituals (e.g., Christmas or Hannukah), which are usually held over a
-calendrical cycle, usually a year; divinatory rites to find the causes of illness, ask for healing,
-or prophesy about the future, which usually occur on an as-needed basis; and rites of rebellion, in
-which social rules and
+With the possible exception of gambling, meteorology, particularly precipitation forecasting, may be
+the area with which the general public is most familiar with probabilistic assessments of
+uncertainty. Despite the heavy use of stochastic models and statistical methods in weather
+forecasting and other areas of the atmospheric sciences, papers in these areas have traditionally
+been somewhat uncommon in statistics journals. We see signs of this changing in recent years and we
+have sought to highlight some present research directions at the interface of statistics and the
+atmospheric sciences in this special section.
 
 Automated evidence reasons:
-- broad open-web search result
+- scholarly preprint provider
+- author metadata present
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
 - automated warning present
-- open-web source requires manual review
 
 Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
+- preprint status: use cautiously until peer-reviewed or corroborated
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### Multimodal repair in the semiotic landscape for social and political commentary.
+### Defining a shift estimand on forgivingness without domesticating forgiveness: Comment on Cowden et al.
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 375
+- Year: 2026
+- URL: https://doi.org/10.1016/j.ssmmh.2026.100646
+
+This commentary responds to Cowden et al.'s (2026) careful epidemiologic study of the population-
+wide changes in well-being that might follow from two explicitly defined "shift" scenarios applied
+to a three-item forgivingness measure. I value the paper's candor about its counterfactual aim: it
+is not asking whether forgiveness is good in the abstract, but what could plausibly happen if the
+distribution of measured forgivingness were moved in specified ways. I argue that Cowden et al.'s
+(2026) methodological clarity surfaces what remains ethically and theologically decisive. In
+Christian thought, forgiveness is not simply an emotion-regulation technique or a general prosocial
+disposition; it
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Membership Sunday 8 June 2025
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 420
+- Year: 2025
+- URL: https://archive.org/details/UU_Church_of_Annapolis_Podcast-Membership_Sunday_8_June
+
+What does membership mean, at first and through the decades? We want to honor the act of committing
+to a community of faith. Come welcome new members, hear several UUCA members share stories, music,
+and reflections about their journey with UUCA, and thank our Radical Hospitality Team. Led by Laura
+Shrank, and Melanie Keller. Wonder Box by Sarah With music by Mike Noonan
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Classify the cultural domain and practical consequences before making theological claims.
+
+### The Implications of Piaget’s Work
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: cultural_practice_patterns, technology_ethics
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 613
+- Year: 2003
+- URL: https://doi.org/10.4324/9780203489185-71
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Topic Work: Where Are We Now?
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: cultural_practice_patterns, technology_ethics
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 613
+- Year: 2003
+- URL: https://doi.org/10.4324/9780203489185-33
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Introduction
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 613
+- Year: 2022
+- URL: https://doi.org/10.1017/9781009258050.001
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### The Superiority of Economists
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns, technology_ethics
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (14)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 613
+- Year: 2015
+- URL: https://doi.org/10.1257/jep.29.1.89
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Social and Cognitive Aspects of the Vulnerability to Political Misinformation
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns, technology_ethics
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (13)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 613
+- Year: 2021
+- URL: https://doi.org/10.1111/pops.12797
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### (Why) Is Misinformation a Problem?
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns, technology_ethics
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (14)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 613
+- Year: 2023
+- URL: https://doi.org/10.1177/17456916221141344
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### The academic, economic and societal impacts of Open Access: an evidence-based review
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns, technology_ethics
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (13)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 613
+- Year: 2016
+- URL: https://doi.org/10.12688/f1000research.8460.3
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- high citation signal
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Translating Science to Improve Health-a Report from the "Agriculture and Diet: Value Added for Nutrition, Translation, and Adaptation in a Global Ecology" (ADVANTAGE) Project Working Group 5.
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns, technology_ethics
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, world_languages, deep_sources
+- Primary layer: cultural_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 1046
+- Year: 2026
+- URL: https://doi.org/10.1016/j.advnut.2025.100586
+
+Transforming food systems to improve health amidst accelerating climate and environmental change is
+a critical global challenge. This paper addresses the imperative and complexity of translating
+scientific evidence into actionable policies and practices at the climate-food-health nexus. We
+propose a conceptual and operational framework grounded in ecological systems thinking, highlighting
+the interdependencies across biological, social, and economic domains. Drawing on existing
+translational science models from public health, environmental health, and convergent food systems
+research, we distill 5 core principles for effective translation: 1) integration of
+transdisciplinary evidence across
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Educating Early Adolescents for a Sustainable Future With Digital Civic Learning: Moral Self-Concept as a Developmental Catalyst Linking Civic Competencies and Civic Purpose.
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns, technology_ethics
 - Layer routes: cultural_inputs, history_inputs, psychology_inputs
 - Primary layer: cultural_inputs
 - Provider: Europe PMC
@@ -602,18 +790,18 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 598
+- Corroborating routed candidates: 613
 - Year: 2026
-- URL: https://doi.org/10.1177/26349795261449663
+- URL: https://doi.org/10.1111/desc.70203
 
-In spoken interactions, repair-the process by which interactants identify and resolve communication
-trouble-has been studied extensively. Fewer studies have explored the inherently multimodal repair
-process in written interactions, and almost none have examined it within the semiotic landscape,
-that is, on publicly visible signs. From a corpus of around 5500 images collected in Germany and
-Iran, we present a qualitative analysis of six selected cases to examine the functions of multimodal
-repair in social and political commentary. Using ethnographic linguistic landscape analysis (ELLA)
-and geosemiotics, the analysis focuses on images from Mannheim, Cottbus, Leipzig, Tehran, and
-Zanjan. Resul
+Education for sustainable development (ESD) is increasingly recognized as a developmental imperative
+in a world facing ecological, social, and political challenges. While many approaches to ESD
+emphasize knowledge and competencies, emerging research suggests that sustainable action in youth
+requires the integration of cognitive, emotional, and identity-based developmental processes. We
+propose that Digital Civic Learning (DCL) serves as a developmentally appropriate educational
+approach that can scaffold this process in early adolescence. Using a sample of 149 4th and 5th
+graders in Mid-Western United States, we examined how civic competencies, namely civic knowledge,
+skills, and disposition
 
 Automated evidence reasons:
 - scholarly metadata provider
@@ -633,111 +821,45 @@ Layer review prompts:
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 - Separate psychological/social process from theological interpretation and note clinical limits.
 
-### Institute for Religion, Culture and Public Life
+### Addressing Autonomy Risks in Generative Chatbots with the Socratic Method.
 
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 599
-- Year: n.d.
-- URL: https://www.ircpl.columbia.edu
-
-The Institute for Religion, Culture and Public Life supports academic research, teaching, and
-scholarship on the study of religion, culture, and social
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- open-web source requires manual review
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### The Study of Religion and Popular Culture - Scholars@Duke
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs
-- Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 599
-- Year: n.d.
-- URL: https://scholars.duke.edu/display/pub1056944
-
-Between Sacred and Profane: Researching Religion and Popular Culture. The Study of Religion and
-Popular Culture: Prospects, Presuppositions, Procedures.
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- open-web source requires manual review
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### [PDF] Credo, Cognition, and Culture: An Anthropology of Religion
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns, technology_ethics
 - Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art
 - Primary layer: cultural_inputs
-- Provider: Tavily Search
-- Quality: open web result
-- Automated evidence: weak_scholarly_candidate (6)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 695
-- Year: n.d.
-- URL: https://diamond-oa.lib.cam.ac.uk/bitstreams/a770681f-ae76-4af9-b849-f9139c331798/download
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 711
+- Year: 2025
+- URL: https://doi.org/10.1007/s11948-025-00567-8
 
-This article aims to provide a full anthropological account of religion by equally involving a
-socio-cultural and ethnographic inquiry and insight into such
+Autonomy is a fundamental ethical principle in artificial intelligence (AI) ethics. Current
+discussions regarding autonomy-related risks in human-AI interaction, as well as potential
+mitigation strategies, have mainly focused on recommendation systems and algorithmic decision-making
+systems. However, systematic analyses of the autonomy issues posed by newly emerging generative AI
+or chatbots (such as ChatGPT) remain scarce. This paper aims to bridge this gap and proposes a
+Socratic method-based chatbot, herein designated SocrAI, as a potential countermeasure informed by
+recent technological advancements. We identify two primary forms of autonomy risk associated with
+generative chatbots-false
 
 Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- open-web source requires manual review
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
@@ -745,13 +867,151 @@ Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
 
-### IIARD | IJRCP – International Institute of Academic Research and Development
+### "Same principles, different decisions": A qualitative study exploring the attitudes of COVID-19 vaccination among school staff in Switzerland.
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns, technology_ethics
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art
+- Primary layer: cultural_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 711
+- Year: 2025
+- URL: https://doi.org/10.1080/21645515.2025.2569840
+
+During the COVID-19 pandemic, Switzerland prioritized vaccination for school staff to mitigate the
+economic and societal impacts of school closures. However, there is limited research on vaccine
+acceptance and hesitancy among school staff in Switzerland. This study aimed to explore the
+arguments used by school staff to justify COVID-19 vaccination decisions in public and private
+institutions across Switzerland's German-, French-, and Italian-speaking regions. Participants were
+recruited using purposive sampling from a national survey and through snowball techniques. Data were
+collected from interviews with 47 participants employed in nurseries, kindergartens, primary
+schools, middle schools,
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### Assessing green innovation, energy transition and natural resources abundance for sustainable footprint in Paris club.
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns, technology_ethics
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, modern_literature
+- Primary layer: cultural_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 821
+- Year: 2025
+- URL: https://doi.org/10.1038/s41598-025-13874-8
+
+Environmental difficulties have escalated due to global warming and climate change, posing
+substantial hazards to environmental quality. The member nations of the Paris club are particularly
+affected by these challenges due to their dependence on fossil fuels, resulting in increased carbon
+emissions. This study evaluates the influence of green innovation, energy transition, natural
+resource abundance, and economic growth on sustainable footprint in Paris Club countries-covering
+the years 1990 to 2022. This study has employed sophisticated novel econometric methods such as
+Augmented Mean Group and Canonical Cointegrtaion Regression for robustness. The finding discloses
+that green innovation a
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- some citation signal
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
+### A Matter of High Interest: How a Quiet Change to an Actuarial Assumption Turbocharges the Life Insurance Tax Shelter
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources, visual_art
+- Primary layer: research_documents
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 718
+- Year: 2022
+- URL: https://doi.org/10.2139/ssrn.4086903
+
+America’s lengthy income tax code and financial regulations are notoriously full of special
+treatment for the politically favored. Academics and policymakers argue the relative merits of
+different approaches to tax and regulatory policy. Given the complexity of economic life, should the
+law attempt to be highly tailored and specific? Or does the exacting approach risk getting lost in
+the weeds? This Article will showcase the limits of a highly technical approach to policy with the
+first analysis of an almost completely unnoticed sea change in life insurance tax law, one that
+engorges a tax shelter at a moment of great attention to laws that enable the wealthiest members of
+society to face lo
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### Meaning and Method in Comparative Theology — Book Review (Cornille)
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs
-- Primary layer: cultural_inputs
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources, theologians, history_inputs, all_texts
+- Primary layer: research_documents
 - Provider: Tavily Search
 - Quality: open web result
 - Automated evidence: weak_scholarly_candidate (4)
@@ -759,18 +1019,18 @@ Layer review prompts:
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 599
+- Corroborating routed candidates: 1122
 - Year: n.d.
-- URL: https://www.iiardjournals.org/journal.php?j=IJRCP
+- URL: https://garrettham.com/meaning-and-method-in-comparative-theology
 
-## INTERNATIONAL JOURNAL OF RELIGIOUS AND CULTURAL PRACTICE. The International Journal of Religious
-and Cultural Practice (IJRCP) is a reputable, open-access, international, peer-reviewed journal that
-is published monthly by the International Institute of Academic Research and Development (IIARD).
-The journal has a strong focus on the publication of high-quality, original research papers, case
-studies, literature reviews, and book reviews related to the field of religious and cultural
-practices. IJRCP publishes papers that cover a wide range of topics, including but not limited to
-the study of religions, cultural practices, religious beliefs, and customs. The journal is available
-in both onl
+# Meaning and Method in Comparative Theology. *In this post in my series “God and Man at Yale
+Divinity,” I share my reading discussion paper on Catherine Cornille’s Meaning and Method in
+Comparative Theology from my Theologies of Religious Pluralism class.*. In *Meaning and Method in
+Comparative Theology*, Catherine Cornille defines the purpose of the field. Cornille argues that
+comparative theology must involve more than merely a comparison of the sacred texts and historical
+backgrounds of different religions.1 Instead, to fully appreciate another religious context, the
+comparative theologian must additionally engage in the “ritual life and daily practice” of the
+alternative faith tradition
 
 Automated evidence reasons:
 - broad open-web search result
@@ -788,11 +1048,54 @@ Automated evidence warnings:
 - open-web result: require corroboration before strengthening claims
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### Qualitative Research or Theological Methodology? - Association of Practical Theology
+### Comparative theology /preoccupations for sources in the ... - Reddit
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources, all_texts
+- Primary layer: research_documents
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 873
+- Year: n.d.
+- URL: https://www.reddit.com/r/AcademicBiblical/comments/1dbb2ml/comparative_theology_preoccupations_for_sources
+
+And that P counters D by "giving far more weight to ritual and purity" while sharing the premise
+that "the exile was punishment for failure to
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### Comparative Theology: A Bibliographic Review - Areas of Study
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
@@ -801,49 +1104,45 @@ Layer review prompts:
 - Primary layer: research_documents
 - Provider: Tavily Search
 - Quality: open web result
-- Automated evidence: weak_scholarly_candidate (4)
+- Automated evidence: weak_scholarly_candidate (6)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 555
+- Corroborating routed candidates: 566
 - Year: n.d.
-- URL: https://practicaltheology.org/qualitative-research-or-theological-methodology
+- URL: https://www.bc.edu/bc-web/schools/morrissey/departments/theology/areas-of-study/comparative-theology/comparative-theology-a-bibliographic-review.html
 
-One helpful response to my earlier entry regarding qualitative research raised the challenges of the
-role or voice of theological studies/disciplines. To what extent do the more dominant disciplines in
-qualitative research integrate the meaning of “interdisciplinary” when working with theological
-studies. Even when working with methodology we face considerable struggles with constructing
-research projects that weave cohesive methods “interdisciplinarily.” For qualitative research,
-however, we must ask if theology is actually more dependent on the centrality of the human sciences,
-than of course they perceive their needs of theological methods of critical reflection. For research
-questions th
+As one of the theological disciplines, comparative theology is marked by its commitment to the
+detailed consideration of religious traditions other than one's own. Though one must be hesitant
+about using the term "theology" univocally in reference to many religious traditions (we tend to
+understand the word against its Christian background) it is useful to work with the hypothesis that
+comparative theology can be pursued from within any of the religious traditions of the world. In
+addition to Tracy's two interpretations, I suggest a third: comparative theology can also be thought
+of as truly constructive theology, distinguished by its sources and ways of proceeding, by its
+foundation in more
 
 Automated evidence reasons:
 - broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval blockers:
 - automated score below 7
 - label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
 - open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
 
 Layer review prompts:
 - Use as general research context until a more specific layer is reviewed.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### [PDF] RESEARCH METHODS IN SYSTEMATIC THEOLOGY
+### Does Interdisciplinary Research Lead to Higher Faculty Performance? Evidence from an Accelerated Research University in China
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
 - Tags: general_research_methods
-- Layer routes: research_documents, deep_sources, visual_art, all_texts
+- Layer routes: research_documents, deep_sources, visual_art, human_stories
 - Primary layer: research_documents
 - Provider: Tavily Search
 - Quality: open web result
@@ -852,18 +1151,18 @@ Layer review prompts:
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 960
+- Corroborating routed candidates: 898
 - Year: n.d.
-- URL: https://ocw.danielinstitute.net/download/lecture-notes/507846133-16424465
+- URL: https://www.mdpi.com/2071-1050/14/21/13977
 
-• Liberal Systematic Theology – Source and Standard from “norm” that particularly emphasizes
-individual freedom, universal human access to God and natural revelation and may or may not include
-insights from Scripture or Church tradition • Evangelical Systematic Theology – Source and Standard
-from the Bible 05/06/2023 Daniel Institute MASM; Dr Asumang 6 05/06/2023 4 05/06/2023 Daniel
-Institute MASM; Dr Asumang 7 Evangelical Systematic Theology Evangelical Systematic Theology The
-seminary discipline which is devoted to orderly organization, analyses, synthesis and evaluation of
-concepts from the Bible in order to generate a coherent, comprehensive and systematic system of
-thought with the goal
+The Sustainable Development and Strategic Approaches for Contemporary Higher Education. permission
+is required to reuse all or part of the article published by MDPI, including figures and tables.
+Feature papers represent the most advanced research with significant potential for high impact in
+the field. Editor’s Choice articles are based on recommendations by the scientific editors of MDPI
+journals from around the world. Employing data from faculty Curriculum Vitae and bibliometric
+records from a pilot accelerated research university in China, this study provides a case study to
+empirically quantify the impact of interdisciplinary research on 490 faculty’s performance,
+including research pro
 
 Automated evidence reasons:
 - broad open-web search result
@@ -884,47 +1183,201 @@ Layer review prompts:
 - Use as general research context until a more specific layer is reviewed.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 
-### Internet Archive Presents The John Perry Barlow Symposium
+### (PDF) When Muslims Dream of Jesus - Academia.edu
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: interreligious_dream_testimony
+- Layer routes: other_religious_texts, human_stories, theologians, visual_art
+- Primary layer: other_religious_texts
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (6)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 816
+- Year: n.d.
+- URL: https://www.academia.edu/36942639/When_Muslims_Dream_of_Jesus
+
+The paper discusses the phenomenon of Muslims experiencing dreams of Jesus as part of their
+conversion to Christianity. It highlights personal testimonies
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- open-web source requires manual review
+
+Layer review prompts:
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
+
+### Ex- Muslim Reveals Why so Many Are Turning to Christ - Facebook
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: interreligious_dream_testimony
+- Layer routes: other_religious_texts, human_stories, theologians
+- Primary layer: other_religious_texts
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 648
+- Year: n.d.
+- URL: https://www.facebook.com/cbnnews/posts/seeing-jesus-in-dreams-and-visions-suddenly-questioning-everything-theyve-been-t/1519872953503382
+
+A 16 year study showed that 27% of Muslims who convert to Christianity had dreams of Jesus prior to
+their conversion.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### Dreams and Visions: A Biblical Pattern of Divine Encounter for ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: interreligious_dream_testimony
+- Layer routes: other_religious_texts, human_stories, theologians
+- Primary layer: other_religious_texts
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 648
+- Year: n.d.
+- URL: https://missionexus.org/uncategorized/dreams-and-visions-a-biblical-pattern-of-divine-encounter-for-muslims
+
+The phenomenon of Muslim conversion to Christianity as a result of dreams and visions is now well
+documented and no longer hidden in long-lost personal diaries.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### Seeing Jesus in a dream and my testimony of conversion from Islam ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: interreligious_dream_testimony
+- Layer routes: other_religious_texts, human_stories, theologians
+- Primary layer: other_religious_texts
+- Provider: Tavily Search
+- Quality: open web result
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 648
+- Year: n.d.
+- URL: https://www.reddit.com/r/Christianity/comments/196ll83/seeing_jesus_in_a_dream_and_my_testimony_of
+
+I dreamed of Jesus Christ in a very difficult time of my life which resulted in my conversion to
+Christianity.
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### ADVANCES IN MANGANESE PRODUCTION TECHNOLOGY: A NEW SOURCE OF ECONOMIC AND ENVIRONMENTAL SECURITY FOR RUSSIA
 
 - Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: technology_ethics
-- Layer routes: cultural_inputs, visual_art
+- Layer routes: cultural_inputs
 - Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Automated evidence: moderate_scholarly_candidate (8)
+- Provider: Crossref
+- Quality: scholarly metadata
+- Automated evidence: strong_scholarly_candidate (10)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 403
-- Year: 2018
-- URL: https://archive.org/details/JohnPerryBarlowSymposium
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 259
+- Year: 2014
+- URL: https://doi.org/10.5593/sgem2014/b53/s21.002
 
-This is the complete video (including the music at the beginning, before the webcast started, in
-order to preserve the timecodes) of the John Perry Barlow Symposium that took place at the Internet
-Archive on April 7, 2018 from 2-6pm. Transcription by Lisa Rein (Co-founder Aaron Swartz Day &
-Creative Commons, and friend of John Perry Barlow). Lisa Rein used Teme to start - and then cleaned
-it up by comparing it to the video, over many days :) Corrections are very much appreciated-please
-send them to: lisa[@]lisarein.com. Comprehensive speaker list: Cindy Cohn, Brewster Kahle, Cory
-Doctorow, Anna Barlow, Amelia Barlow, Mitch Kapor, Pam Samuelson, Trevor Timm, Edward Snowden, John
-Gilmore, Shar
+No summary available in metadata.
 
 Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
-- summary or abstract metadata available
+- recognized scholarly source type
 - many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
-- label is moderate_scholarly_candidate
-- author and year metadata present
+- label is strong_scholarly_candidate
+- stable DOI present
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.
