@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 18
-Total theologian words analyzed: 10,326
+Theologian documents analyzed: 21
+Total theologian words analyzed: 10,792
 
 Era Coverage
 ------------
@@ -21,36 +21,58 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Christology: 155
+- Christology: 156
 - Creation: 144
-- Theodicy And Suffering: 143
+- Theodicy And Suffering: 144
 - Grace And Transformation: 102
+- Trinity: 85
 - Justice And Public Life: 84
 - Church And Practice: 80
-- Trinity: 74
-- Pneumatology: 53
+- Pneumatology: 57
 
 Trinitarian Lens
 ----------------
-Signal: moderate Trinitarian signal
-- Father: 210
-- Son: 176
-- Holy Spirit: 93
+Signal: strong Trinitarian signal
+- Father: 228
+- Son: 181
+- Holy Spirit: 103
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 145 | broader corpus 2,566
-- Mathematical Structure: theologians 4 | broader corpus 648
-- Mathematical Theophany: theologians 133 | broader corpus 1,270
-- Quantum Probability: theologians 2 | broader corpus 224
-- Life And Consciousness: theologians 64 | broader corpus 5,665
-- Meaning And Logos: theologians 101 | broader corpus 6,118
-- Moral Response: theologians 104 | broader corpus 2,325
-- Worship And Community: theologians 146 | broader corpus 1,160
-- Transformation: theologians 225 | broader corpus 2,144
+- Physical Order: theologians 145 | broader corpus 2,559
+- Mathematical Structure: theologians 4 | broader corpus 627
+- Mathematical Theophany: theologians 134 | broader corpus 1,159
+- Quantum Probability: theologians 2 | broader corpus 177
+- Life And Consciousness: theologians 72 | broader corpus 5,648
+- Meaning And Logos: theologians 101 | broader corpus 6,092
+- Moral Response: theologians 104 | broader corpus 2,318
+- Worship And Community: theologians 146 | broader corpus 1,154
+- Transformation: theologians 235 | broader corpus 2,148
 
 Per-Source Findings
 -------------------
+
+introduction_5eb1c80425a7.md
+----------------------------
+Words: 131
+Strongest era signal: Patristic (0)
+Strongest concept signal: Christology (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+introduction_c8ca83728d1d.md
+----------------------------
+Words: 139
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 pentecostalism_and_the_morality_of_money_prosperity_inequality_and_religious_soc_f71d4a6bbbee.md
 ------------------------------------------------------------------------------------------------
@@ -72,6 +94,17 @@ Meaning confidence: word-level signal only
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_trinitarian_pattern_of_redemption_in_richard_sibbes_1577_1635_e69677bc9aa6.md
+---------------------------------------------------------------------------------
+Words: 196
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (11)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Transformation And Hope (4)
+- Middle: Transformation And Hope (2)
 - Ending: Creation And Order (0)
 
 cross_era_primary_source_expansion.md

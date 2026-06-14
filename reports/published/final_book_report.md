@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-14 05:05 UTC_
+_Generated: 2026-06-14 15:45 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -32,40 +32,40 @@ The backend is useful, but it is not the judge. It retrieves and organizes. Huma
 
 ### Latest Cloud Discovery
 
-- Retained cloud candidate references: 5,931
-- Brand-new candidate references this run: 734
-- New provider mix: Crossref: 373, OpenAlex: 322, arXiv: 15, PubMed: 14, Europe PMC: 5, Internet Archive: 5
-- New routed layers: human_stories: 292, deep_sources: 255, pattern_tests: 212, psychology_inputs: 200, cultural_inputs: 187, theologians: 187
-- Media candidates this run: video: 33, podcast: 32, image: 18
-- Discovery pagination: run index 721 across 12 page window(s)
-- Latest collector update: 2026-06-14T05:04:45.149428+00:00
+- Retained cloud candidate references: 6,028
+- Brand-new candidate references this run: 97
+- New provider mix: Crossref: 70, OpenAlex: 25, Internet Archive: 2
+- New routed layers: deep_sources: 46, human_stories: 33, pattern_tests: 29, research_documents: 28, theologians: 22, all_texts: 21
+- Media candidates this run: video: 6, podcast: 5, image: 3
+- Discovery pagination: run index 731 across 12 page window(s)
+- Latest collector update: 2026-06-14T15:44:49.346284+00:00
 
 Newest cloud candidates:
 
-- The God of Jesus Christ (2003) | Crossref | tags: trinity | routes: theologians, research_documents
-- The Spirit and Jesus: (1) Martin Kähler Revisited. Variations on Hebrews 4.15 (2003) | Crossref | tags: trinity | routes: theologians, research_documents, visual_art, biblical_languages
-- A Global Perspective on the COVID 19 Crisis and an Ontological Theology Perspective (2021) | OpenAlex | tags: trinity | routes: theologians, research_documents
-- The Rise of Universities (2013) | OpenAlex | tags: trinity | routes: theologians, research_documents
-- ‘Do not quench the Spirit!’ The discourse of the Holy Spirit in earliest Christianity (2015) | OpenAlex | tags: trinity | routes: theologians, research_documents
+- Trinitarian Theology Today (1997) | Crossref | tags: trinity | routes: theologians, research_documents
+- The Trinitarian Pattern of Redemption in Richard Sibbes (1577–1635) (2019) | Crossref | tags: trinity | routes: theologians, research_documents, biblical_languages
+- The Ecstatic God (1997) | Crossref | tags: trinity | routes: theologians, research_documents
+- Whole school approach to guidance : a pilot project in a primary school (n.d.) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Introduction (2021) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
 
 ### Local Reviewed Corpus
 
-- Indexed documents: 254
-- Graph nodes: 286
-- Graph edges: 1313
-- Indexed text documents: 254
+- Indexed documents: 291
+- Graph nodes: 323
+- Graph edges: 1514
+- Indexed text documents: 291
 - Indexed media assets: 0
 - Multimodal assets needing review: {}
 
 The strongest reviewed-note weight currently sits in these lanes:
 
-- theologians: 18 documents; 387 declared reviewed notes
-- all_texts: 12 documents; 267 declared reviewed notes
-- other_religious_texts: 11 documents; 266 declared reviewed notes
+- theologians: 21 documents; 390 declared reviewed notes
+- all_texts: 14 documents; 269 declared reviewed notes
+- other_religious_texts: 13 documents; 268 declared reviewed notes
 - history_inputs: 14 documents; 269 declared reviewed notes
-- biblical_languages: 11 documents; 140 declared reviewed notes
-- world_languages: 21 documents; 150 declared reviewed notes
-- deep_sources: 25 documents; 42 declared reviewed notes
+- biblical_languages: 12 documents; 141 declared reviewed notes
+- world_languages: 24 documents; 153 declared reviewed notes
+- deep_sources: 27 documents; 44 declared reviewed notes
 
 This balance matters. A theological claim cannot grow simply because one lane is loud. It needs original-language depth, global translation awareness, theological disagreement, historical pressure, comparative humility, and practical fruit.
 
