@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 16
-Total theologian words analyzed: 10,045
+Theologian documents analyzed: 18
+Total theologian words analyzed: 10,326
 
 Era Coverage
 ------------
@@ -27,30 +27,52 @@ Concept Coverage
 - Grace And Transformation: 102
 - Justice And Public Life: 84
 - Church And Practice: 80
-- Trinity: 73
-- Pneumatology: 52
+- Trinity: 74
+- Pneumatology: 53
 
 Trinitarian Lens
 ----------------
 Signal: moderate Trinitarian signal
-- Father: 200
+- Father: 210
 - Son: 176
-- Holy Spirit: 91
+- Holy Spirit: 93
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 145 | broader corpus 2,589
-- Mathematical Structure: theologians 4 | broader corpus 635
-- Mathematical Theophany: theologians 133 | broader corpus 1,283
-- Quantum Probability: theologians 2 | broader corpus 340
-- Life And Consciousness: theologians 59 | broader corpus 5,629
-- Meaning And Logos: theologians 101 | broader corpus 6,102
-- Moral Response: theologians 103 | broader corpus 2,309
-- Worship And Community: theologians 146 | broader corpus 1,129
-- Transformation: theologians 224 | broader corpus 2,149
+- Physical Order: theologians 145 | broader corpus 2,566
+- Mathematical Structure: theologians 4 | broader corpus 648
+- Mathematical Theophany: theologians 133 | broader corpus 1,270
+- Quantum Probability: theologians 2 | broader corpus 224
+- Life And Consciousness: theologians 64 | broader corpus 5,665
+- Meaning And Logos: theologians 101 | broader corpus 6,118
+- Moral Response: theologians 104 | broader corpus 2,325
+- Worship And Community: theologians 146 | broader corpus 1,160
+- Transformation: theologians 225 | broader corpus 2,144
 
 Per-Source Findings
 -------------------
+
+pentecostalism_and_the_morality_of_money_prosperity_inequality_and_religious_soc_f71d4a6bbbee.md
+------------------------------------------------------------------------------------------------
+Words: 147
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_rise_of_universities_abf50bcee3f3.md
+----------------------------------------
+Words: 134
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 cross_era_primary_source_expansion.md
 -------------------------------------

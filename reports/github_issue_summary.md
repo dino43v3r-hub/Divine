@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-14T04:43:23.561381+00:00
+Generated: 2026-06-14T05:05:55.138458+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,11 +16,21 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-14 04:43 UTC_
+_Generated: 2026-06-14 05:05 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
-The short version: the research is getting stronger, but not because it has found a magic pattern. It is getting stronger because it is becoming harder to fool. It now asks for source review, rival explanations, pressure tests, failure conditions, and practical theology before a claim is allowed to grow.
+The short version: the research has not found one magic pattern that proves everything. It has found a recurring candidate shape: gift becomes responsibility, power is judged by humble love, suffering must face truth and repair, and every claim is tested by worship, justice, patience, and faithfulness.
+
+## Pattern Found So Far
+
+**Current candidate divine pattern:** God gives persons dignity before usefulness; the faithful response is truthful worship, humble love, justice for vulnerable people, patient repair, and faithful refusal to rank people by performance.
+
+The clearest movement currently looks like this:
+
+- Mind -> Symbol -> Moral Agency -> Relationship -> Worship
+
+Selection note: This wording is selected from the current retrieval index because Image Of God Pattern has the strongest pattern-support score in the analyzed corpus. This can change when future analyzed references shift the strongest reviewed pattern family or show that an integrated pattern is more honest.
 
 ## What Changed
 
@@ -36,40 +46,40 @@ The backend is useful, but it is not the judge. It retrieves and organizes. Huma
 
 ### Latest Cloud Discovery
 
-- Retained cloud candidate references: 5,197
-- Brand-new candidate references this run: 768
-- New provider mix: Crossref: 433, OpenAlex: 291, arXiv: 34, Internet Archive: 5, PubMed: 5
-- New routed layers: human_stories: 277, deep_sources: 271, pattern_tests: 235, theologians: 196, cultural_inputs: 183, psychology_inputs: 171
-- Media candidates this run: video: 39, podcast: 27, image: 20
-- Discovery pagination: run index 711 across 12 page window(s)
-- Latest collector update: 2026-06-14T04:42:23.635030+00:00
+- Retained cloud candidate references: 5,931
+- Brand-new candidate references this run: 734
+- New provider mix: Crossref: 373, OpenAlex: 322, arXiv: 15, PubMed: 14, Europe PMC: 5, Internet Archive: 5
+- New routed layers: human_stories: 292, deep_sources: 255, pattern_tests: 212, psychology_inputs: 200, cultural_inputs: 187, theologians: 187
+- Media candidates this run: video: 33, podcast: 32, image: 18
+- Discovery pagination: run index 721 across 12 page window(s)
+- Latest collector update: 2026-06-14T05:04:45.149428+00:00
 
 Newest cloud candidates:
 
-- IN THE NAME OF THE FATHER, SON, AND HOLY SPIRIT: TOWARD A TRANSCULTURAL TRINITARIAN WORLDVIEW (2010) | OpenAlex | tags: trinity | routes: theologians, research_documents
-- The Digital Trinity—Controllable Human Evolution—Implicit Everyday Religion (2022) | OpenAlex | tags: trinity | routes: theologians, research_documents
-- Commentary on Section 8 “By the Holy Spirit He Was Incarnate of the Virgin Mary and Became Man” (2025) | Crossref | tags: trinity | routes: theologians, research_documents
-- Francis Cheynell (2024) | Crossref | tags: trinity | routes: theologians, research_documents
-- The Father and the Son (2024) | Crossref | tags: trinity | routes: theologians, research_documents, world_languages
+- The God of Jesus Christ (2003) | Crossref | tags: trinity | routes: theologians, research_documents
+- The Spirit and Jesus: (1) Martin Kähler Revisited. Variations on Hebrews 4.15 (2003) | Crossref | tags: trinity | routes: theologians, research_documents, visual_art, biblical_languages
+- A Global Perspective on the COVID 19 Crisis and an Ontological Theology Perspective (2021) | OpenAlex | tags: trinity | routes: theologians, research_documents
+- The Rise of Universities (2013) | OpenAlex | tags: trinity | routes: theologians, research_documents
+- ‘Do not quench the Spirit!’ The discourse of the Holy Spirit in earliest Christianity (2015) | OpenAlex | tags: trinity | routes: theologians, research_documents
 
 ### Local Reviewed Corpus
 
-- Indexed documents: 214
-- Graph nodes: 246
-- Graph edges: 1103
-- Indexed text documents: 214
+- Indexed documents: 254
+- Graph nodes: 286
+- Graph edges: 1313
+- Indexed text documents: 254
 - Indexed media assets: 0
 - Multimodal assets needing review: {}
 
 The strongest reviewed-note weight currently sits in these lanes:
 
-- theologians: 16 documents; 385 declared reviewed notes
-- all_texts: 10 documents; 265 declared reviewed notes
+- theologians: 18 documents; 387 declared reviewed notes
+- all_texts: 12 documents; 267 declared reviewed notes
 - other_religious_texts: 11 documents; 266 declared reviewed notes
 - history_inputs: 14 documents; 269 declared reviewed notes
 - biblical_languages: 11 documents; 140 declared reviewed notes
-- world_languages: 16 documents; 145 declared reviewed notes
-- deep_sources: 18 documents; 35 declared reviewed notes
+- world_languages: 21 documents; 150 declared reviewed notes
+- deep_sources: 25 documents; 42 declared reviewed notes
 
 This balance matters. A theological claim cannot grow simply because one lane is loud. It needs original-language depth, global translation awareness, theological disagreement, historical pressure, comparative humility, and practical fruit.
 
@@ -83,15 +93,5 @@ A repeated signal is not proof. A beautiful analogy is not revelation. A scienti
 
 ### Image Of God Pattern
 
-**What it says:** Human dignity is treated as gift before performance.
-
-**Why it matters:** It is strongest where language, theology, history, and vulnerable communities all pressure the same claim: persons must not be ranked by usefulness, intelligence, status, race, caste, health, or productivity.
-
-**What would weaken it:** It weakens wherever dignity becomes conditional or where the project talks about humanity in the abstract while ignoring disability, poverty, migration, incarceration, or racialized harm.
-
-**Practical response:** The faithful response is protection: listen first, defend the vulnerable, make worship and community accessible, and refuse usefulness-based love.
-
-### Cross And Reversal Pattern
-
-_Full report has 156 lines. Open the linked report above to read everything._
+_Full report has 176 lines. Open the linked report above to read everything._
 ```
