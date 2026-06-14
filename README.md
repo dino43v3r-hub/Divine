@@ -31,7 +31,7 @@ Main reports are written to `reports/`.
 The project now includes a first-pass backend shape for:
 
 ```text
-LLM + retrieval + knowledge graph + review rules
+MLLM + retrieval + knowledge graph + review rules
 ```
 
 Build it locally with:
@@ -46,24 +46,34 @@ The backend writes:
 reports/knowledge_retrieval_index.json
 reports/knowledge_graph.json
 reports/review_rules_audit.json
+reports/multimodal_review_manifest.json
 reports/ai_backend_report.txt
 reports/combined_web_article.md
 reports/combined_web_article.html
 reports/published/final_book_report.md
 ```
 
-The retrieval index is a local TF-IDF-style source index for RAG-style prompts.
-The knowledge graph connects documents to source lanes, leading patterns, and
-review-rule concepts. The review audit checks whether documents mention core
-claim controls such as evidence, interpretation, discernment, analogy,
-practical use, counter-reading, failure condition, and the boundary that machine
-labels route attention rather than settle truth.
+The retrieval index is a local TF-IDF-style source index for RAG-style prompts
+over text, captions, transcripts, and review notes. The knowledge graph connects
+documents and media assets to source lanes, leading patterns, and review-rule
+concepts. The review audit checks whether sources mention core claim controls
+such as evidence, interpretation, discernment, analogy, practical use,
+counter-reading, failure condition, and the boundary that machine labels route
+attention rather than settle truth.
+
+The multimodal manifest makes the backend MLLM-ready for image, video, and
+audio assets. Media can enter the corpus directly, but uncaptioned or
+untranscribed media is marked as needing MLLM or human review before it can
+strengthen a claim. Sidecar files such as `image.jpg.md`, `image.md`,
+`video.mp4.txt`, or `video.txt` can provide captions, transcripts, observations,
+and reviewed-note counts.
 
 This is intentionally not a GAN/VAE backend. The project needs disciplined
-reading and review more than synthetic pattern generation. A future LLM service
-can use these artifacts by retrieving source notes first, walking the graph to
-related claims and pressure tests, then checking review-rule gaps before
-drafting or strengthening a claim.
+reading, viewing, listening, and review more than synthetic pattern generation.
+A future MLLM service can use these artifacts by retrieving source notes first,
+inspecting queued media when needed, walking the graph to related claims and
+pressure tests, then checking review-rule gaps before drafting or strengthening
+a claim.
 
 The combined report article merges the major generated reports into one readable
 GitHub Markdown document and one HTML document:

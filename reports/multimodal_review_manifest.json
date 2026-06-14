@@ -1,0 +1,8 @@
+{
+  "backend": "multimodal_review_manifest",
+  "media_asset_count": 0,
+  "media_assets": [],
+  "modality_counts": {},
+  "policy": "An MLLM may inspect media directly, but claims only strengthen after captions/transcripts, source metadata, counter-readings, and human review are available.",
+  "review_status_counts": {}
+}

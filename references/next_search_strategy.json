@@ -1,15 +1,22 @@
 {
   "guardrail": "Use these searches to diversify candidate leads; do not strengthen claims until source review and counterarguments are recorded.",
-  "paused_lanes": [],
+  "paused_lanes": [
+    "biblical_languages",
+    "world_languages",
+    "all_texts",
+    "other_religious_texts",
+    "theologians",
+    "history_inputs",
+    "research_documents"
+  ],
   "priority_lanes": [
     "human_stories",
     "modern_literature",
     "visual_art",
     "psychology_inputs",
-    "all_texts",
-    "other_religious_texts",
-    "history_inputs",
-    "cultural_inputs"
+    "cultural_inputs",
+    "deep_sources",
+    "pattern_tests"
   ],
   "purpose": "Feed report recommendations back into the next internet_source_collector.py run.",
   "query_modifiers": [
@@ -59,19 +66,24 @@
       "tag": "pattern_perception_divine_response"
     },
     {
-      "query": "sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison primary source counterargument",
-      "reason": "all_texts is a priority lane for the next collector run.",
-      "tag": "global_text_traditions"
+      "query": "politics, economics, technology, ecology, health, work, and education primary source counterargument",
+      "reason": "cultural_inputs is a priority lane for the next collector run.",
+      "tag": "cultural_practice_patterns"
     },
     {
-      "query": "respectful comparison across traditions without flattening differences primary source counterargument",
-      "reason": "other_religious_texts is a priority lane for the next collector run.",
-      "tag": "global_text_traditions"
+      "query": "politics, economics, technology, ecology, health, work, and education primary source counterargument",
+      "reason": "cultural_inputs is a priority lane for the next collector run.",
+      "tag": "technology_ethics"
     },
     {
-      "query": "respectful comparison across traditions without flattening differences primary source counterargument",
-      "reason": "other_religious_texts is a priority lane for the next collector run.",
-      "tag": "interreligious_dream_testimony"
+      "query": "math, statistics, science, suffering, and counterargument guardrails primary source counterargument",
+      "reason": "deep_sources is a priority lane for the next collector run.",
+      "tag": "quantum_science_guardrails"
+    },
+    {
+      "query": "math, statistics, science, suffering, and counterargument guardrails primary source counterargument",
+      "reason": "deep_sources is a priority lane for the next collector run.",
+      "tag": "general_research_methods"
     },
     {
       "query": "image of God dignity disability theology cognitive science source review counterargument",
@@ -131,5 +143,5 @@
     "Trinity-As-Behavior Pattern",
     "Providence And Contingency Pattern"
   ],
-  "updated_at": "2026-06-13T15:31:57.340801+00:00"
+  "updated_at": "2026-06-14T01:56:23.329356+00:00"
 }

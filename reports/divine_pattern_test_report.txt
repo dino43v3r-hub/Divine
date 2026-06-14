@@ -13,37 +13,37 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 26
-Test words analyzed: 3,726
+Test documents analyzed: 27
+Test words analyzed: 3,994
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 66
-- Injustice And Corruption: 62
-- Science Guardrail: 39
-- Disconfirming Failure Condition: 37
-- Practical Case Study: 34
+- Suffering Without Resolution: 71
+- Injustice And Corruption: 68
+- Science Guardrail: 41
+- Disconfirming Failure Condition: 38
+- Practical Case Study: 36
+- Misuse And Weaponization: 20
 - Counterexample Pressure: 19
-- Misuse And Weaponization: 19
-- Rival Explanation: 13
+- Rival Explanation: 14
 - Non-Christian Comparison: 11
 
 Source Quality Markers
 ----------------------
-- Practical Lived Source: 57
-- Scholarly Or Scientific Source: 29
+- Practical Lived Source: 62
+- Scholarly Or Scientific Source: 34
+- Primary Or Classical Source: 3
 - Speculative Source: 3
-- Primary Or Classical Source: 2
 
 Confidence Results
 ------------------
-- resilient under pressure: 23
+- resilient under pressure: 24
 - needs deeper review but still plausible: 3
 
 Hold Assessment
 ---------------
 - pressure present but hold question is underdeveloped: 15
-- provisionally holds; needs stronger review: 8
+- provisionally holds; needs stronger review: 9
 - does not hold yet under this friction: 2
 - not enough friction to judge hold: 1
 
@@ -51,30 +51,30 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 80 | research corpus 3,615
-- Son: test set 26 | research corpus 6,734
-- Holy Spirit: test set 44 | research corpus 1,835
+- Father: test set 91 | research corpus 3,620
+- Son: test set 27 | research corpus 6,734
+- Holy Spirit: test set 45 | research corpus 1,835
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 51 | research corpus 2,562
+- Physical Order: test set 52 | research corpus 2,562
 - Mathematical Structure: test set 18 | research corpus 621
-- Mathematical Theophany: test set 132 | research corpus 1,075
-- Quantum Probability: test set 22 | research corpus 163
-- Life And Consciousness: test set 44 | research corpus 5,522
-- Meaning And Logos: test set 34 | research corpus 5,983
-- Moral Response: test set 46 | research corpus 2,289
-- Worship And Community: test set 51 | research corpus 1,156
-- Transformation: test set 51 | research corpus 2,140
+- Mathematical Theophany: test set 137 | research corpus 1,076
+- Quantum Probability: test set 24 | research corpus 163
+- Life And Consciousness: test set 45 | research corpus 5,524
+- Meaning And Logos: test set 35 | research corpus 5,983
+- Moral Response: test set 47 | research corpus 2,289
+- Worship And Community: test set 54 | research corpus 1,156
+- Transformation: test set 52 | research corpus 2,140
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 148
-- Alienation And Lament: 45
-- Communal Practice: 45
-- Transformation And Hope: 44
-- Moral Confrontation: 40
-- Desire And Longing: 15
+- Creation And Order: 153
+- Communal Practice: 48
+- Alienation And Lament: 47
+- Transformation And Hope: 45
+- Moral Confrontation: 41
+- Desire And Longing: 16
 
 Per-Test Findings
 -----------------
@@ -119,6 +119,27 @@ Meaning arc:
 - Opening: Creation And Order (6)
 - Middle: Creation And Order (5)
 - Ending: Creation And Order (8)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+
+report_suggestion_pressure_followup_2026_06_12.md
+-------------------------------------------------
+Words: 268
+Meaning confidence: context-supported pattern
+Test confidence: resilient under pressure
+Hold assessment: provisionally holds; needs stronger review
+Pressure signals:
+- Injustice And Corruption: 6
+- Suffering Without Resolution: 5
+- Science Guardrail: 2
+- Practical Case Study: 2
+- Rival Explanation: 1
+- Misuse And Weaponization: 1
+- Disconfirming Failure Condition: 1
+Meaning arc:
+- Opening: Creation And Order (3)
+- Middle: Creation And Order (1)
+- Ending: Communal Practice (2)
 Recommendations:
 - Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
 

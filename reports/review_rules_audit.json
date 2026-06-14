@@ -3,13 +3,15 @@
   "documents": [
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy"
       ],
+      "modality": "text",
       "path": "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -20,14 +22,17 @@
         "machine_label_boundary": true,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Active Lane Review Conversion Follow-Up, 2026-06-01"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [],
+      "modality": "text",
       "path": "research_documents/active_lane_review_conversion_2026_06_04.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -38,17 +43,20 @@
         "machine_label_boundary": true,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Active Lane Review Conversion, 2026-06-04"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy"
       ],
+      "modality": "text",
       "path": "research_documents/active_lane_review_conversion_2026_06_04_second_pass.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -59,17 +67,20 @@
         "machine_label_boundary": true,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Active Lane Review Conversion Second Pass, 2026-06-04"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy"
       ],
+      "modality": "text",
       "path": "research_documents/active_lane_review_conversion_2026_06_04_third_pass.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -80,10 +91,12 @@
         "machine_label_boundary": true,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Active Lane Review Conversion Third Pass, 2026-06-04"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -94,36 +107,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
-      "path": "research_documents/christian_sources/SOURCES.md",
-      "patterns": [],
-      "review_note_count": 0,
-      "rules_present": {
-        "analogy": false,
-        "counter_reading": false,
-        "discernment": false,
-        "evidence": false,
-        "failure_condition": false,
-        "interpretation": false,
-        "machine_label_boundary": false,
-        "practical_use": false
-      },
-      "title": "Christian Source Corpus"
-    },
-    {
-      "lane": "research_documents",
-      "missing_rules": [
-        "evidence",
-        "interpretation",
-        "discernment",
-        "analogy",
-        "practical_use",
-        "counter_reading",
-        "failure_condition",
-        "machine_label_boundary"
-      ],
+      "modality": "text",
       "path": "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -134,18 +121,21 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Apostles Creed Church Hymnary Wikisource"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "counter_reading",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": false,
@@ -156,18 +146,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Aquinas Summa Part 1 Gutenberg"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -178,10 +171,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Augustine Confessions Gutenberg"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -190,9 +185,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/combined_trinitarian_god_model.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -203,10 +199,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Combined Christian Model Of God"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -215,9 +213,10 @@
         "counter_reading",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/didache_wikisource.txt",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -228,16 +227,19 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Didache Wikisource"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "counter_reading",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/divine_pattern_candidates.md",
       "patterns": [
         "Image Of God Pattern",
@@ -246,7 +248,7 @@
         "Trinity-As-Behavior Pattern",
         "Providence And Contingency Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": false,
@@ -257,10 +259,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Divine Pattern Candidates"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "discernment",
@@ -269,9 +273,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/divine_pattern_finder_design.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -282,10 +287,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Divine Pattern Finder Design"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "discernment",
@@ -294,9 +301,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/faith_and_god_philosophy_notes.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -307,10 +315,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Faith And God Philosophy Notes"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "analogy",
@@ -318,9 +328,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/god_and_human_behavior_science_synthesis.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -331,10 +342,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "God And Human Behavior: Source-Backed Synthesis"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "discernment",
@@ -343,9 +356,10 @@
         "counter_reading",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/hypothesis_review_rules.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -356,10 +370,12 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Hypothesis Review Rules"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "analogy",
@@ -367,9 +383,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/hypothesis_test_framework.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -380,10 +397,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Divine Pattern Hypothesis Test Framework"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "analogy",
@@ -391,9 +410,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/jesus_and_holy_spirit_synthesis.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -404,18 +424,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Jesus And The Holy Spirit: Source-Backed Synthesis"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "counter_reading",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": false,
@@ -426,10 +449,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "King James Bible Gutenberg"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -440,9 +465,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -453,18 +479,21 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Nicene Creed 325 Wikisource"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "counter_reading",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": false,
@@ -475,16 +504,49 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Science, Mathematics, Physics, And A Divine-Pattern Model"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "practical_use",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "research_documents/christian_sources/SOURCES.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Christian Source Corpus"
+    },
+    {
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/claim_ledger.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 26,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -495,19 +557,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Divine Pattern Claim Ledger"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
-        "failure_condition",
-        "machine_label_boundary"
+        "failure_condition"
       ],
+      "modality": "text",
       "path": "research_documents/cloud_reference_promotion_decision_log.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -515,21 +579,24 @@
         "evidence": true,
         "failure_condition": false,
         "interpretation": false,
-        "machine_label_boundary": false,
+        "machine_label_boundary": true,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Cloud Reference Promotion Decision Log"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "practical_use"
       ],
+      "modality": "text",
       "path": "research_documents/cloud_reference_review_checklist.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -540,19 +607,22 @@
         "machine_label_boundary": true,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Cloud Reference Review Checklist"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "practical_use",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/cloud_reference_review_policy.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -563,17 +633,20 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Cloud Reference Review Policy"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy"
       ],
+      "modality": "text",
       "path": "research_documents/cloud_references_summary.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -584,10 +657,12 @@
         "machine_label_boundary": true,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Cloud References Summary"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -595,9 +670,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/cross_layer_source_specific_casebook.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -608,21 +684,24 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Cross-Layer Source-Specific Casebook"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/daily_cloud_reference_review_log.md",
       "patterns": [
         "Trinity-As-Behavior Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -633,34 +712,36 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Daily Cloud Reference Review Log"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
-        "discernment",
-        "analogy",
-        "practical_use",
-        "failure_condition"
+        "analogy"
       ],
+      "modality": "text",
       "path": "research_documents/daily_evaluation_queue.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
-        "discernment": false,
+        "discernment": true,
         "evidence": true,
-        "failure_condition": false,
+        "failure_condition": true,
         "interpretation": false,
         "machine_label_boundary": true,
-        "practical_use": false
+        "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Daily Evaluation Queue"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -670,9 +751,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/divine_pattern_concept.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": false,
@@ -683,17 +765,20 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Divine Pattern Concept"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/evidence_discernment_distinction.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -704,10 +789,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Evidence And Discernment Distinction"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -716,9 +803,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/layer_balance_policy.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -729,13 +817,16 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Layer Balance Policy"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation"
       ],
+      "modality": "text",
       "path": "research_documents/next_research_expansion_tracker.md",
       "patterns": [
         "Image Of God Pattern",
@@ -744,7 +835,7 @@
         "Trinity-As-Behavior Pattern",
         "Providence And Contingency Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -755,18 +846,21 @@
         "machine_label_boundary": true,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Next Research Expansion Tracker"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/pattern_formation_framework.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -777,18 +871,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Pattern Formation Framework"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/pattern_revision_rules.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -799,10 +896,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Pattern Revision Rules"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -810,9 +909,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/practical_theology_pattern_use.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -823,19 +923,22 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Practical Theology Pattern Use"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "failure_condition"
       ],
+      "modality": "text",
       "path": "research_documents/reviewed_candidate_reference_decisions_2026_06_01.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 7,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -846,10 +949,12 @@
         "machine_label_boundary": true,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Candidate Reference Decisions, 2026-06-01"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "discernment",
@@ -857,9 +962,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/reviewed_candidate_reference_decisions_2026_06_01_followup.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 5,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -870,19 +976,22 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Candidate Reference Decisions Follow-Up, 2026-06-01"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "discernment",
         "analogy",
         "practical_use"
       ],
+      "modality": "text",
       "path": "research_documents/reviewed_candidate_reference_decisions_2026_06_04.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 7,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -893,19 +1002,22 @@
         "machine_label_boundary": true,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Reviewed Candidate Reference Decisions, 2026-06-04"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "discernment",
         "analogy",
         "practical_use"
       ],
+      "modality": "text",
       "path": "research_documents/reviewed_candidate_reference_decisions_2026_06_04_second_pass.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 2,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -916,19 +1028,22 @@
         "machine_label_boundary": true,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Reviewed Candidate Reference Decisions Second Pass, 2026-06-04"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "discernment",
         "analogy",
         "practical_use"
       ],
+      "modality": "text",
       "path": "research_documents/reviewed_candidate_reference_decisions_2026_06_04_third_pass.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 5,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -939,15 +1054,18 @@
         "machine_label_boundary": true,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Reviewed Candidate Reference Decisions Third Pass, 2026-06-04"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/reviewed_source_packs.md",
       "patterns": [
         "Image Of God Pattern",
@@ -957,7 +1075,7 @@
         "Providence And Contingency Pattern",
         "Mathematical Theophany Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -968,18 +1086,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Source Packs"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "failure_condition"
       ],
+      "modality": "text",
       "path": "research_documents/source_lane_balance_targets.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -990,18 +1111,21 @@
         "machine_label_boundary": true,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Source Lane Balance Targets"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/source_packs/creation_to_consciousness_pattern_pack.md",
       "patterns": [
         "Creation-To-Consciousness Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -1012,18 +1136,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Source Pack: Creation-To-Consciousness Pattern"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/source_packs/cross_and_reversal_pattern_pack.md",
       "patterns": [
         "Cross And Reversal Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -1034,18 +1161,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Source Pack: Cross And Reversal Pattern"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/source_packs/holy_spirit_gifts_pattern_pack.md",
       "patterns": [
         "Holy Spirit Gifts Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -1056,19 +1186,22 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Source Pack: Holy Spirit Gifts Pattern"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "counter_reading",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/source_packs/image_of_god_pattern_pack.md",
       "patterns": [
         "Image Of God Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": false,
@@ -1079,18 +1212,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Source Pack: Image Of God Pattern"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/source_packs/other_religious_comparative_witness_pack.md",
       "patterns": [
         "Other Religious Comparative Witness"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -1101,18 +1237,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Source Pack: Other Religious Comparative Witness"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/source_packs/providence_and_contingency_pattern_pack.md",
       "patterns": [
         "Providence And Contingency Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -1123,17 +1262,20 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Source Pack: Providence And Contingency Pattern"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "counter_reading",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/source_packs/quantum_theory_guardrail_pack.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": false,
@@ -1144,18 +1286,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Source Pack: Quantum Theory Guardrail"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/source_packs/science_analogy_guardrail_pack.md",
       "patterns": [
         "Science Analogy Guardrail"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -1166,18 +1311,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Source Pack: Science Analogy Guardrail"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/source_packs/trinity_as_behavior_pattern_pack.md",
       "patterns": [
         "Trinity-As-Behavior Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -1188,18 +1336,21 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Source Pack: Trinity-As-Behavior Pattern"
     },
     {
       "lane": "research_documents",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "research_documents/weakened_claims_register.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -1210,15 +1361,101 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Weakened Claims Register"
     },
     {
       "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "biblical_languages/expanded_lexeme_balance_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Expanded Lexeme Balance Notes"
+    },
+    {
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "practical_use",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "biblical_languages/greek_hebrew_depth_checks.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Biblical Greek And Hebrew: Depth Checks"
+    },
+    {
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "biblical_languages/greek_hebrew_source_expansion_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Greek Hebrew Source Expansion Notes"
+    },
+    {
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "biblical_languages/reviewed_growth_batch_2026_05_27.md",
       "patterns": [],
       "review_note_count": 25,
@@ -1232,16 +1469,19 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Biblical-Language Growth Batch, 2026-05-27"
     },
     {
       "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "biblical_languages/reviewed_growth_batch_2026_06_01.md",
       "patterns": [],
       "review_note_count": 24,
@@ -1255,15 +1495,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Biblical-Language Growth Batch, 2026-06-01"
     },
     {
       "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "biblical_languages/reviewed_growth_batch_2026_06_01_followup.md",
       "patterns": [],
       "review_note_count": 23,
@@ -1277,16 +1520,19 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Biblical-Language Growth Follow-Up, 2026-06-01"
     },
     {
       "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "biblical_languages/reviewed_growth_batch_2026_06_04.md",
       "patterns": [],
       "review_note_count": 22,
@@ -1300,15 +1546,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Biblical-Language Growth Batch, 2026-06-04"
     },
     {
       "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "biblical_languages/reviewed_growth_batch_2026_06_04_second_pass.md",
       "patterns": [],
       "review_note_count": 21,
@@ -1322,15 +1571,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Biblical-Language Growth Second Pass, 2026-06-04"
     },
     {
       "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "biblical_languages/reviewed_growth_batch_2026_06_04_third_pass.md",
       "patterns": [],
       "review_note_count": 20,
@@ -1344,16 +1596,158 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Biblical-Language Growth Third Pass, 2026-06-04"
     },
     {
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "biblical_languages/source_specific_counterreadings.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Source-Specific Biblical-Language Counter-Readings"
+    },
+    {
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "biblical_languages/source_specific_lexeme_review_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": true,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Source-Specific Lexeme Review Notes"
+    },
+    {
       "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "world_languages/cross_cultural_translation_balance_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Cross-Cultural Translation Balance Notes"
+    },
+    {
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "practical_use",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "world_languages/language_family_counterreading_map.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Language Family Counter-Reading Map"
+    },
+    {
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "world_languages/language_family_expansion_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Language Family Expansion Notes"
+    },
+    {
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "world_languages/reviewed_growth_batch_2026_05_27.md",
       "patterns": [],
       "review_note_count": 25,
@@ -1367,15 +1761,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed World-Language Growth Batch, 2026-05-27"
     },
     {
       "lane": "world_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "analogy",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "world_languages/reviewed_growth_batch_2026_06_01.md",
       "patterns": [],
       "review_note_count": 24,
@@ -1389,16 +1786,19 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed World-Language Growth Batch, 2026-06-01"
     },
     {
       "lane": "world_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "world_languages/reviewed_growth_batch_2026_06_01_followup.md",
       "patterns": [],
       "review_note_count": 23,
@@ -1412,15 +1812,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed World-Language Growth Follow-Up, 2026-06-01"
     },
     {
       "lane": "world_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "world_languages/reviewed_growth_batch_2026_06_04.md",
       "patterns": [],
       "review_note_count": 22,
@@ -1434,15 +1837,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed World-Language Growth Batch, 2026-06-04"
     },
     {
       "lane": "world_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "world_languages/reviewed_growth_batch_2026_06_04_second_pass.md",
       "patterns": [],
       "review_note_count": 21,
@@ -1456,15 +1862,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed World-Language Growth Second Pass, 2026-06-04"
     },
     {
       "lane": "world_languages",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "world_languages/reviewed_growth_batch_2026_06_04_third_pass.md",
       "patterns": [],
       "review_note_count": 20,
@@ -1478,16 +1887,129 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed World-Language Growth Third Pass, 2026-06-04"
     },
     {
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "world_languages/source_specific_language_sampling_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Source-Specific Language Sampling Notes"
+    },
+    {
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "practical_use",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "world_languages/translation_semantics_and_culture.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "World Languages: Translation, Semantics, And Culture"
+    },
+    {
       "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "all_texts/comparative_text_case_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Comparative Text Case Notes"
+    },
+    {
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "all_texts/global_text_exploration_framework.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Global Text Exploration Framework"
+    },
+    {
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "all_texts/reviewed_growth_batch_2026_05_27.md",
       "patterns": [],
       "review_note_count": 46,
@@ -1501,14 +2023,17 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed All-Texts Growth Batch, 2026-05-27"
     },
     {
       "lane": "all_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "all_texts/reviewed_growth_batch_2026_06_01.md",
       "patterns": [],
       "review_note_count": 45,
@@ -1522,15 +2047,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed All-Texts Growth Batch, 2026-06-01"
     },
     {
       "lane": "all_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "all_texts/reviewed_growth_batch_2026_06_01_followup.md",
       "patterns": [],
       "review_note_count": 44,
@@ -1544,15 +2072,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed All-Texts Growth Follow-Up, 2026-06-01"
     },
     {
       "lane": "all_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "all_texts/reviewed_growth_batch_2026_06_04.md",
       "patterns": [],
       "review_note_count": 43,
@@ -1566,15 +2097,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed All-Texts Growth Batch, 2026-06-04"
     },
     {
       "lane": "all_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "all_texts/reviewed_growth_batch_2026_06_04_second_pass.md",
       "patterns": [],
       "review_note_count": 42,
@@ -1588,14 +2122,17 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed All-Texts Growth Second Pass, 2026-06-04"
     },
     {
       "lane": "all_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "all_texts/reviewed_growth_batch_2026_06_04_third_pass.md",
       "patterns": [],
       "review_note_count": 41,
@@ -1609,14 +2146,148 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed All-Texts Growth Third Pass, 2026-06-04"
     },
     {
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "all_texts/text_tradition_counterreading_map.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Text-Tradition Counter-Reading Map"
+    },
+    {
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "all_texts/text_tradition_expansion_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Text Tradition Expansion Notes"
+    },
+    {
       "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "other_religious_texts/comparative_sacred_text_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Comparative Sacred Text Notes"
+    },
+    {
+      "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "other_religious_texts/interreligious_dreams_visions_testimony_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": true,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": true,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Interreligious Dreams, Visions, And Jesus Testimony Notes"
+    },
+    {
+      "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "other_religious_texts/presence_without_explicit_naming_filter.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": true,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": true,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Presence Without Explicit Naming Filter"
+    },
+    {
+      "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "other_religious_texts/reviewed_growth_batch_2026_05_27.md",
       "patterns": [],
       "review_note_count": 46,
@@ -1630,15 +2301,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Other-Religious-Texts Growth Batch, 2026-05-27"
     },
     {
       "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "analogy",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "other_religious_texts/reviewed_growth_batch_2026_06_01.md",
       "patterns": [],
       "review_note_count": 45,
@@ -1652,16 +2326,19 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Other-Religious-Texts Growth Batch, 2026-06-01"
     },
     {
       "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "other_religious_texts/reviewed_growth_batch_2026_06_01_followup.md",
       "patterns": [],
       "review_note_count": 44,
@@ -1675,14 +2352,17 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Other-Religious-Texts Growth Follow-Up, 2026-06-01"
     },
     {
       "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "other_religious_texts/reviewed_growth_batch_2026_06_04.md",
       "patterns": [],
       "review_note_count": 43,
@@ -1696,14 +2376,17 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Other-Religious-Texts Growth Batch, 2026-06-04"
     },
     {
       "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "other_religious_texts/reviewed_growth_batch_2026_06_04_second_pass.md",
       "patterns": [],
       "review_note_count": 42,
@@ -1717,14 +2400,17 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Other-Religious-Texts Growth Second Pass, 2026-06-04"
     },
     {
       "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "other_religious_texts/reviewed_growth_batch_2026_06_04_third_pass.md",
       "patterns": [],
       "review_note_count": 41,
@@ -1738,14 +2424,282 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Other-Religious-Texts Growth Third Pass, 2026-06-04"
     },
     {
+      "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "other_religious_texts/spiritual_gifts_comparative_discernment.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Spiritual Gifts And Comparative Discernment"
+    },
+    {
       "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "analogy",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "theologians/cross_era_primary_source_expansion.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": true,
+        "interpretation": true,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Cross-Era Primary Source Expansion"
+    },
+    {
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "theologians/cross_era_theologian_framework.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Cross Era Theologian Framework"
+    },
+    {
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "theologians/holy_spirit_gifts_global_framework.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": true,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Gifts Of The Holy Spirit Across Peoples And Nations"
+    },
+    {
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "theologians/medieval_source_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Medieval Source Notes"
+    },
+    {
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "theologians/modern_contemporary_source_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Modern And Contemporary Source Notes"
+    },
+    {
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "theologians/patristic_source_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Patristic Source Notes"
+    },
+    {
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "analogy",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "theologians/primary_text_disagreement_matrix.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": true,
+        "interpretation": true,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Primary Text Disagreement Matrix"
+    },
+    {
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "theologians/primary_text_reference_index.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": true,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Primary Text Reference Index"
+    },
+    {
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "theologians/reformation_source_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Reformation Source Notes"
+    },
+    {
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "theologians/reviewed_growth_batch_2026_05_27.md",
       "patterns": [],
       "review_note_count": 65,
@@ -1759,14 +2713,17 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Theologian Growth Batch, 2026-05-27"
     },
     {
       "lane": "theologians",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "theologians/reviewed_growth_batch_2026_06_01.md",
       "patterns": [],
       "review_note_count": 64,
@@ -1780,15 +2737,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Theologian Growth Batch, 2026-06-01"
     },
     {
       "lane": "theologians",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "theologians/reviewed_growth_batch_2026_06_01_followup.md",
       "patterns": [],
       "review_note_count": 63,
@@ -1802,14 +2762,17 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Theologian Growth Follow-Up, 2026-06-01"
     },
     {
       "lane": "theologians",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "theologians/reviewed_growth_batch_2026_06_04.md",
       "patterns": [],
       "review_note_count": 62,
@@ -1823,14 +2786,17 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Theologian Growth Batch, 2026-06-04"
     },
     {
       "lane": "theologians",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "theologians/reviewed_growth_batch_2026_06_04_second_pass.md",
       "patterns": [],
       "review_note_count": 61,
@@ -1844,14 +2810,17 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Theologian Growth Second Pass, 2026-06-04"
     },
     {
       "lane": "theologians",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "theologians/reviewed_growth_batch_2026_06_04_third_pass.md",
       "patterns": [],
       "review_note_count": 60,
@@ -1865,15 +2834,126 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Theologian Growth Third Pass, 2026-06-04"
     },
     {
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "theologians/source_specific_theologian_review_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": true,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Source-Specific Theologian Review Notes"
+    },
+    {
       "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "history_inputs/case_study_history_pressure_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Case Study History Pressure Notes"
+    },
+    {
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "history_inputs/empire_reform_memory_pressure_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Empire Reform Memory Pressure Notes"
+    },
+    {
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "history_inputs/history_memory_and_repair.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "History: Memory, Conflict, And Repair"
+    },
+    {
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "history_inputs/reviewed_growth_batch_2026_05_27.md",
       "patterns": [
         "Image Of God Pattern"
@@ -1889,15 +2969,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed History-Inputs Growth Batch, 2026-05-27"
     },
     {
       "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "history_inputs/reviewed_growth_batch_2026_06_01.md",
       "patterns": [],
       "review_note_count": 45,
@@ -1911,15 +2994,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed History Growth Batch, 2026-06-01"
     },
     {
       "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "history_inputs/reviewed_growth_batch_2026_06_01_followup.md",
       "patterns": [],
       "review_note_count": 44,
@@ -1933,15 +3019,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed History Growth Follow-Up, 2026-06-01"
     },
     {
       "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "history_inputs/reviewed_growth_batch_2026_06_04.md",
       "patterns": [],
       "review_note_count": 43,
@@ -1955,15 +3044,18 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed History-Inputs Growth Batch, 2026-06-04"
     },
     {
       "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "history_inputs/reviewed_growth_batch_2026_06_04_second_pass.md",
       "patterns": [],
       "review_note_count": 42,
@@ -1977,14 +3069,17 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed History-Inputs Growth Second Pass, 2026-06-04"
     },
     {
       "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "history_inputs/reviewed_growth_batch_2026_06_04_third_pass.md",
       "patterns": [],
       "review_note_count": 41,
@@ -1998,14 +3093,875 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed History-Inputs Growth Third Pass, 2026-06-04"
     },
     {
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "history_inputs/source_specific_history_memory_cases.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Source-Specific History And Memory Cases"
+    },
+    {
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "visual_art/case_study_visual_art_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Case Study Visual Art Notes"
+    },
+    {
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "visual_art/composition_symbol_pressure_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Composition Symbol Pressure Notes"
+    },
+    {
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "visual_art/icon_beauty_and_lament.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Visual Art: Beauty, Lament, And Hope"
+    },
+    {
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "visual_art/source_specific_cross_layer_case_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": true,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Source-Specific Visual Art Case Notes"
+    },
+    {
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/art_beauty_symbol.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Art Beauty Symbol"
+    },
+    {
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/cultural_practice_balance_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Cultural Practice Balance Notes"
+    },
+    {
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "practical_use",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/ecology_creation_care.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Ecology Creation Care"
+    },
+    {
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/economics_work_dignity.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Economics Work Dignity"
+    },
+    {
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "practical_use",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/education_formation_wisdom.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Education Formation Wisdom"
+    },
+    {
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/family_community_belonging.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Family Community Belonging"
+    },
+    {
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "practical_use",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/health_suffering_healing.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Health Suffering Healing"
+    },
+    {
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/politics_justice_repair.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Politics Justice Repair"
+    },
+    {
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "practical_use",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/science_order_humility.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Science Order Humility"
+    },
+    {
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "practical_use",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/technology_ai_responsibility.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Technology Ai Responsibility"
+    },
+    {
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "psychology_inputs/clinical_and_social_limits_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": true,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Clinical And Social Limits Notes"
+    },
+    {
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "psychology_inputs/pattern_perception_vs_divine_pattern_response.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Pattern Perception Versus Divine Pattern Response"
+    },
+    {
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "psychology_inputs/psychology_patterns_and_transformation.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": true,
+        "counter_reading": false,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Psychology: Human Process And Transformation"
+    },
+    {
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "psychology_inputs/source_specific_psychology_limits.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": true,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Source-Specific Psychology Limits"
+    },
+    {
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "psychology_inputs/trauma_attachment_repair_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Trauma Attachment Repair Notes"
+    },
+    {
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "counter_reading",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "human_stories/global_gifts_testimony_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": true,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Global Gifts Testimony Notes"
+    },
+    {
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "human_stories/lived_experience_validation_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Lived Experience Validation Notes"
+    },
+    {
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "modern_literature/modern_literature_balance_cases.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": true,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Modern Literature Balance Cases"
+    },
+    {
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "modern_literature/narrative_pattern_validation_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": true,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Modern Literature Pattern Validation Notes"
+    },
+    {
       "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "practical_use",
+        "counter_reading",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "deep_sources/math_physics_theorem_inventory.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": false,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Math And Physics Theorem Inventory For Pattern Testing"
+    },
+    {
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "deep_sources/math_statistics_logic_congruence_filters.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Math, Statistics, And Logic Congruence Filters"
+    },
+    {
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "analogy",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "deep_sources/mathematical_theophany_filter.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": true,
+        "interpretation": true,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Mathematical Theophany Filter"
+    },
+    {
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "practical_use",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "deep_sources/qualified_quantum_science_references.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Qualified Quantum And Science References"
+    },
+    {
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "practical_use",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "deep_sources/qualified_science_reference_review_notes.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Qualified Science Reference Review Notes"
+    },
+    {
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "practical_use",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "deep_sources/quantum_claim_limits_source_pairs.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Quantum And Science Claim-Limit Source Pairs"
+    },
+    {
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "discernment",
+        "analogy",
+        "practical_use",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "deep_sources/quantum_science_source_framework.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Quantum Science Source Framework"
+    },
+    {
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "interpretation",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "deep_sources/reviewed_quantum_theory_guardrails_2026_06_04.md",
       "patterns": [],
       "review_note_count": 18,
@@ -2019,19 +3975,104 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Reviewed Quantum Theory Guardrails, 2026-06-04"
     },
     {
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "practical_use",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "deep_sources/science_counterargument_matrix.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": true,
+        "counter_reading": true,
+        "discernment": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Science Counterargument Matrix"
+    },
+    {
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "deep_sources/science_counterarguments_and_limits.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Science Counterarguments And Limits"
+    },
+    {
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "interpretation",
+        "analogy",
+        "practical_use",
+        "failure_condition",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "deep_sources/unresolved_suffering_source_framework.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": false,
+        "failure_condition": false,
+        "interpretation": false,
+        "machine_label_boundary": false,
+        "practical_use": false
+      },
+      "sidecar_paths": [],
+      "title": "Unresolved Suffering Source Framework"
+    },
+    {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/absent_repair_extreme_pressure_cases.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2042,10 +4083,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Absent-Repair Extreme Pressure Cases"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -2053,9 +4096,10 @@
         "practical_use",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/answered_prayer_ambiguity_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2066,10 +4110,12 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Answered Prayer Ambiguity Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -2077,9 +4123,10 @@
         "practical_use",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/child_loss_lament_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2090,19 +4137,22 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Child Loss And Lament Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/chronic_illness_no_resolution_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2113,10 +4163,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Chronic Illness Without Resolution Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -2124,9 +4176,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/daily_life_case_study_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2137,10 +4190,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Daily Life Case Study Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -2148,9 +4203,10 @@
         "practical_use",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/dementia_identity_lament_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2161,19 +4217,22 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Dementia Identity Lament Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/divine_pattern_response_pressure_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2184,19 +4243,22 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Divine Pattern Response Pressure Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/ecological_loss_no_restoration_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2207,19 +4269,22 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Ecological Loss No Restoration Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/holy_spirit_gifts_global_pressure_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2230,10 +4295,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Holy Spirit Gifts Global Pressure Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -2241,9 +4308,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/injustice_corruption_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2254,19 +4322,22 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Injustice Corruption Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/institutional_success_moral_failure_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2277,16 +4348,19 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Institutional Success Moral Failure Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/leading_patterns_pressure_2026_06_04.md",
       "patterns": [
         "Image Of God Pattern",
@@ -2295,7 +4369,7 @@
         "Trinity-As-Behavior Pattern",
         "Providence And Contingency Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2306,16 +4380,19 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Leading Patterns Pressure Test, 2026-06-04"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/leading_patterns_pressure_2026_06_04_second_pass.md",
       "patterns": [
         "Image Of God Pattern",
@@ -2324,7 +4401,7 @@
         "Trinity-As-Behavior Pattern",
         "Providence And Contingency Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2335,16 +4412,19 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Leading Patterns Pressure Test Second Pass, 2026-06-04"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/leading_patterns_pressure_2026_06_04_third_pass.md",
       "patterns": [
         "Image Of God Pattern",
@@ -2353,7 +4433,7 @@
         "Trinity-As-Behavior Pattern",
         "Providence And Contingency Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2364,19 +4444,22 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Leading Patterns Pressure Test Third Pass, 2026-06-04"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/leading_patterns_pressure_followup_2026_06_01.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2387,19 +4470,22 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Leading Patterns Pressure Follow-Up, 2026-06-01"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "practical_use",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/math_statistics_logic_filter_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -2410,19 +4496,22 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Math, Statistics, And Logic Filter Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/moral_injury_no_clear_repair_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2433,19 +4522,22 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Moral Injury No Clear Repair Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/no_repair_case_studies_expansion.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2456,10 +4548,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "No-Repair Case Studies Expansion"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -2468,9 +4562,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/non_christian_comparison_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2481,19 +4576,22 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Non Christian Comparison Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/poverty_generational_pressure_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2504,10 +4602,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Poverty Generational Pressure Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -2516,9 +4616,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/quantum_science_guardrail_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2529,19 +4630,46 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Quantum Science Guardrail Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy"
+      ],
+      "modality": "text",
+      "path": "pattern_tests/report_suggestion_pressure_followup_2026_06_12.md",
+      "patterns": [],
+      "review_note_count": 5,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "evidence": true,
+        "failure_condition": true,
+        "interpretation": false,
+        "machine_label_boundary": true,
+        "practical_use": true
+      },
+      "sidecar_paths": [],
+      "title": "Report Suggestion Pressure Follow-Up, 2026-06-12"
+    },
+    {
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/secular_transformation_comparison_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2552,19 +4680,22 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Secular Transformation Comparison Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/spiritual_abuse_and_injustice_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2575,16 +4706,19 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Spiritual Abuse And Injustice Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/top_five_pattern_competition_matrix.md",
       "patterns": [
         "Image Of God Pattern",
@@ -2593,7 +4727,7 @@
         "Trinity-As-Behavior Pattern",
         "Providence And Contingency Pattern"
       ],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2604,10 +4738,12 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "Top Five Pattern Competition Matrix"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
@@ -2616,9 +4752,10 @@
         "failure_condition",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/unresolved_suffering_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2629,19 +4766,22 @@
         "machine_label_boundary": false,
         "practical_use": false
       },
+      "sidecar_paths": [],
       "title": "Unresolved Suffering Test"
     },
     {
       "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
         "interpretation",
         "analogy",
         "machine_label_boundary"
       ],
+      "modality": "text",
       "path": "pattern_tests/war_survivor_no_repair_test.md",
       "patterns": [],
-      "review_note_count": 0,
+      "review_note_count": 1,
       "rules_present": {
         "analogy": false,
         "counter_reading": true,
@@ -2652,65 +4792,94 @@
         "machine_label_boundary": false,
         "practical_use": true
       },
+      "sidecar_paths": [],
       "title": "War Survivor No Repair Test"
     }
   ],
   "lane_totals": {
     "all_texts": {
       "documents": 10,
-      "review_notes": 261
+      "media_assets": 0,
+      "review_notes": 265,
+      "text_documents": 10
     },
     "biblical_languages": {
       "documents": 11,
-      "review_notes": 135
+      "media_assets": 0,
+      "review_notes": 140,
+      "text_documents": 11
     },
     "cultural_inputs": {
       "documents": 10,
-      "review_notes": 0
+      "media_assets": 0,
+      "review_notes": 10,
+      "text_documents": 10
     },
     "deep_sources": {
       "documents": 11,
-      "review_notes": 18
+      "media_assets": 0,
+      "review_notes": 28,
+      "text_documents": 11
     },
     "history_inputs": {
       "documents": 10,
-      "review_notes": 261
+      "media_assets": 0,
+      "review_notes": 265,
+      "text_documents": 10
     },
     "human_stories": {
       "documents": 2,
-      "review_notes": 0
+      "media_assets": 0,
+      "review_notes": 2,
+      "text_documents": 2
     },
     "modern_literature": {
       "documents": 2,
-      "review_notes": 0
+      "media_assets": 0,
+      "review_notes": 2,
+      "text_documents": 2
     },
     "other_religious_texts": {
       "documents": 10,
-      "review_notes": 261
+      "media_assets": 0,
+      "review_notes": 265,
+      "text_documents": 10
     },
     "pattern_tests": {
-      "documents": 26,
-      "review_notes": 0
+      "documents": 27,
+      "media_assets": 0,
+      "review_notes": 31,
+      "text_documents": 27
     },
     "psychology_inputs": {
       "documents": 5,
-      "review_notes": 0
+      "media_assets": 0,
+      "review_notes": 5,
+      "text_documents": 5
     },
     "research_documents": {
       "documents": 52,
-      "review_notes": 0
+      "media_assets": 0,
+      "review_notes": 98,
+      "text_documents": 52
     },
     "theologians": {
       "documents": 16,
-      "review_notes": 375
+      "media_assets": 0,
+      "review_notes": 385,
+      "text_documents": 16
     },
     "visual_art": {
       "documents": 4,
-      "review_notes": 0
+      "media_assets": 0,
+      "review_notes": 4,
+      "text_documents": 4
     },
     "world_languages": {
       "documents": 11,
-      "review_notes": 135
+      "media_assets": 0,
+      "review_notes": 140,
+      "text_documents": 11
     }
   },
   "missing_rule_examples": {
@@ -2718,7 +4887,6 @@
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
       "research_documents/active_lane_review_conversion_2026_06_04_second_pass.md",
       "research_documents/active_lane_review_conversion_2026_06_04_third_pass.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
       "research_documents/christian_sources/didache_wikisource.txt",
@@ -2729,6 +4897,7 @@
       "research_documents/christian_sources/hypothesis_test_framework.md",
       "research_documents/christian_sources/jesus_and_holy_spirit_synthesis.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_reference_promotion_decision_log.md",
       "research_documents/cloud_reference_review_checklist.md",
       "research_documents/cloud_reference_review_policy.md",
@@ -2742,7 +4911,6 @@
       "research_documents/pattern_revision_rules.md"
     ],
     "counter_reading": [
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
@@ -2757,6 +4925,7 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/divine_pattern_concept.md",
       "research_documents/source_packs/image_of_god_pattern_pack.md",
       "research_documents/source_packs/quantum_theory_guardrail_pack.md",
@@ -2769,13 +4938,12 @@
       "theologians/modern_contemporary_source_notes.md"
     ],
     "discernment": [
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/divine_pattern_finder_design.md",
       "research_documents/christian_sources/faith_and_god_philosophy_notes.md",
       "research_documents/christian_sources/hypothesis_review_rules.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
-      "research_documents/daily_evaluation_queue.md",
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/divine_pattern_concept.md",
       "research_documents/reviewed_candidate_reference_decisions_2026_06_01_followup.md",
       "research_documents/reviewed_candidate_reference_decisions_2026_06_04.md",
@@ -2793,10 +4961,10 @@
       "cultural_inputs/education_formation_wisdom.md",
       "cultural_inputs/health_suffering_healing.md",
       "cultural_inputs/technology_ai_responsibility.md",
-      "psychology_inputs/psychology_patterns_and_transformation.md"
+      "psychology_inputs/psychology_patterns_and_transformation.md",
+      "deep_sources/quantum_claim_limits_source_pairs.md"
     ],
     "evidence": [
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
@@ -2809,6 +4977,7 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cross_layer_source_specific_casebook.md",
       "research_documents/daily_cloud_reference_review_log.md",
       "research_documents/divine_pattern_concept.md",
@@ -2823,7 +4992,6 @@
       "biblical_languages/source_specific_lexeme_review_notes.md"
     ],
     "failure_condition": [
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
       "research_documents/christian_sources/divine_pattern_candidates.md",
@@ -2833,9 +5001,9 @@
       "research_documents/christian_sources/hypothesis_test_framework.md",
       "research_documents/christian_sources/jesus_and_holy_spirit_synthesis.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_reference_promotion_decision_log.md",
       "research_documents/cross_layer_source_specific_casebook.md",
-      "research_documents/daily_evaluation_queue.md",
       "research_documents/divine_pattern_concept.md",
       "research_documents/layer_balance_policy.md",
       "research_documents/practical_theology_pattern_use.md",
@@ -2847,13 +5015,13 @@
       "biblical_languages/greek_hebrew_source_expansion_notes.md",
       "biblical_languages/reviewed_growth_batch_2026_05_27.md",
       "biblical_languages/reviewed_growth_batch_2026_06_01.md",
-      "biblical_languages/reviewed_growth_batch_2026_06_04.md"
+      "biblical_languages/reviewed_growth_batch_2026_06_04.md",
+      "biblical_languages/source_specific_counterreadings.md"
     ],
     "interpretation": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
       "research_documents/active_lane_review_conversion_2026_06_04_second_pass.md",
       "research_documents/active_lane_review_conversion_2026_06_04_third_pass.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
@@ -2862,6 +5030,7 @@
       "research_documents/christian_sources/divine_pattern_finder_design.md",
       "research_documents/christian_sources/hypothesis_review_rules.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_reference_promotion_decision_log.md",
       "research_documents/cloud_reference_review_checklist.md",
       "research_documents/cloud_reference_review_policy.md",
@@ -2877,7 +5046,6 @@
       "research_documents/practical_theology_pattern_use.md"
     ],
     "machine_label_boundary": [
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
@@ -2893,25 +5061,25 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/claim_ledger.md",
-      "research_documents/cloud_reference_promotion_decision_log.md",
       "research_documents/cloud_reference_review_policy.md",
       "research_documents/cross_layer_source_specific_casebook.md",
       "research_documents/daily_cloud_reference_review_log.md",
       "research_documents/divine_pattern_concept.md",
       "research_documents/evidence_discernment_distinction.md",
       "research_documents/layer_balance_policy.md",
-      "research_documents/pattern_formation_framework.md"
+      "research_documents/pattern_formation_framework.md",
+      "research_documents/pattern_revision_rules.md"
     ],
     "practical_use": [
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/didache_wikisource.txt",
       "research_documents/christian_sources/hypothesis_review_rules.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_reference_review_checklist.md",
       "research_documents/cloud_reference_review_policy.md",
-      "research_documents/daily_evaluation_queue.md",
       "research_documents/layer_balance_policy.md",
       "research_documents/reviewed_candidate_reference_decisions_2026_06_04.md",
       "research_documents/reviewed_candidate_reference_decisions_2026_06_04_second_pass.md",
@@ -2928,7 +5096,8 @@
       "deep_sources/qualified_quantum_science_references.md",
       "deep_sources/qualified_science_reference_review_notes.md",
       "deep_sources/quantum_claim_limits_source_pairs.md",
-      "deep_sources/quantum_science_source_framework.md"
+      "deep_sources/quantum_science_source_framework.md",
+      "deep_sources/science_counterargument_matrix.md"
     ]
   },
   "review_policy": "machine checks route attention; human review decides confidence"

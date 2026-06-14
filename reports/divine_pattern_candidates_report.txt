@@ -16,12 +16,12 @@ Candidate Rankings
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 14,950
+Layer signal total: 14,952
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 5,522 (high internal signal)
+- Life And Consciousness: 5,524 (high internal signal)
 - Meaning And Logos: 5,983 (high internal signal)
 - Moral Response: 2,289 (high internal signal)
 - Worship And Community: 1,156 (high internal signal)
@@ -31,14 +31,14 @@ Risk to avoid: Do not collapse the image of God into intelligence alone.
 2. Providence And Contingency Pattern
 -------------------------------------
 Status: well-represented hypothesis; needs review
-Layer signal total: 14,230
+Layer signal total: 14,232
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
 - Physical Order: 2,562 (high internal signal)
 - Quantum Probability: 163 (early signal)
-- Life And Consciousness: 5,522 (high internal signal)
+- Life And Consciousness: 5,524 (high internal signal)
 - Meaning And Logos: 5,983 (high internal signal)
 Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
 Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
@@ -60,13 +60,13 @@ Risk to avoid: Keep the Trinity theological and relational, not merely symbolic 
 4. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 11,529
+Layer signal total: 11,531
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
 - Physical Order: 2,562 (high internal signal)
-- Life And Consciousness: 5,522 (high internal signal)
+- Life And Consciousness: 5,524 (high internal signal)
 - Moral Response: 2,289 (high internal signal)
 - Worship And Community: 1,156 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.

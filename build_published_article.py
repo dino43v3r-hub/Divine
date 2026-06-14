@@ -42,8 +42,11 @@ def find_line(text: str, prefix: str) -> str:
 def extract_backend_stats(text: str) -> dict[str, str]:
     return {
         "indexed": find_line(text, "- Indexed documents:").replace("- ", ""),
+        "text_documents": find_line(text, "- Indexed text documents:").replace("- ", ""),
+        "media_assets": find_line(text, "- Indexed media assets:").replace("- ", ""),
         "nodes": find_line(text, "- Graph nodes:").replace("- ", ""),
         "edges": find_line(text, "- Graph edges:").replace("- ", ""),
+        "multimodal_review": find_line(text, "- Multimodal assets needing review:").replace("- ", ""),
         "strongest": find_line(text, "Backend: theologians"),
         "patterns": find_line(text, "Backend: Image Of God Pattern"),
         "rules": find_line(text, "Backend: discernment"),
@@ -142,6 +145,7 @@ def build_article() -> str:
         "## Current Corpus At A Glance",
         "",
         *bulletize([stats["indexed"], stats["nodes"], stats["edges"]]),
+        *bulletize([stats["text_documents"], stats["media_assets"], stats["multimodal_review"]]),
         "",
         "The strongest reviewed-note weight currently sits in these lanes:",
         "",

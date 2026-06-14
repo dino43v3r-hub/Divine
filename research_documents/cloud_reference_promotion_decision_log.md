@@ -81,3 +81,40 @@ For each candidate record:
 
 Default decision remains conservative until the source has been converted into
 a human-reviewed note in the relevant lane folder.
+
+## 2026-06-12 Report-Suggestion Action Pass
+
+The report asked the project to convert automated evidence labels into human
+review decisions and to review the newest candidate before it affects
+confidence. Current decision:
+
+- Candidate: `Christian Talk That Rocks with Richie L. Ep. 11/1/2023`.
+- Routed layers: history_inputs, theologians.
+- Automated label: moderate_scholarly_candidate.
+- Human decision: `candidate_lead_only`.
+- Original-source status: archive metadata and description were available, but
+  the audio itself has not been reviewed for content, source quality, factual
+  accuracy, or theological relevance.
+- Author or venue context: the listed creator is `DIVINE RADIO ONLINE`; this is
+  not enough by itself to establish scholarly, ecclesial, historical, or
+  theological authority.
+- Publication context: archive.org audio metadata for a political/religious
+  talk program. Treat as public-media source material, not as reviewed
+  scholarship.
+- Smallest allowed claim: this may help route attention to modern Christian
+  political-media rhetoric, memory, conflict, and public theology questions.
+- Counter-reading: talk-radio framing can amplify partisan urgency, incomplete
+  sourcing, or polemical claims; it may reveal discourse patterns without
+  validating the claims inside the broadcast.
+- Confidence effect: none. It may generate research questions for history,
+  politics, public theology, and media-rhetoric review, but it must not
+  strengthen any divine-pattern claim.
+
+Action for next collector/analyzer pass:
+
+- Prefer primary historical, theological, and media-studies sources over more
+  talk-radio or commentary metadata for this lane.
+- If open-web results keep returning low-review media items, route them to
+  `candidate_lead_only` unless original content and factual context are checked.
+- Use this candidate as a pressure case for public theology and political
+  rhetoric, not as evidence for theologian-source growth.

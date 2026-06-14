@@ -11,9 +11,14 @@ RESEARCH_DIR = Path("research_documents")
 INDEX_PATH = REPORTS_DIR / "knowledge_retrieval_index.json"
 GRAPH_PATH = REPORTS_DIR / "knowledge_graph.json"
 AUDIT_PATH = REPORTS_DIR / "review_rules_audit.json"
+MULTIMODAL_MANIFEST_PATH = REPORTS_DIR / "multimodal_review_manifest.json"
 REPORT_PATH = REPORTS_DIR / "ai_backend_report.txt"
 
-SUPPORTED_EXTENSIONS = {".md", ".txt"}
+TEXT_EXTENSIONS = {".md", ".txt"}
+IMAGE_EXTENSIONS = {".avif", ".bmp", ".gif", ".jpeg", ".jpg", ".png", ".tif", ".tiff", ".webp"}
+VIDEO_EXTENSIONS = {".avi", ".m4v", ".mkv", ".mov", ".mp4", ".mpeg", ".mpg", ".webm", ".wmv"}
+AUDIO_EXTENSIONS = {".aac", ".flac", ".m4a", ".mp3", ".ogg", ".wav", ".wma"}
+SUPPORTED_EXTENSIONS = TEXT_EXTENSIONS | IMAGE_EXTENSIONS | VIDEO_EXTENSIONS | AUDIO_EXTENSIONS
 
 SOURCE_LANES = {
     "research_documents": RESEARCH_DIR,
@@ -130,6 +135,11 @@ def iter_documents():
         for path in sorted(directory.rglob("*")):
             if path.suffix.lower() not in SUPPORTED_EXTENSIONS:
                 continue
+            if path.suffix.lower() in TEXT_EXTENSIONS and any(
+                path.name.endswith(f"{media_suffix}{path.suffix}")
+                for media_suffix in IMAGE_EXTENSIONS | VIDEO_EXTENSIONS | AUDIO_EXTENSIONS
+            ):
+                continue
             if path in seen:
                 continue
             seen.add(path)
@@ -146,6 +156,44 @@ def normalize_id(text):
     return value[:120] or "node"
 
 
+def media_modality(path):
+    suffix = path.suffix.lower()
+    if suffix in IMAGE_EXTENSIONS:
+        return "image"
+    if suffix in VIDEO_EXTENSIONS:
+        return "video"
+    if suffix in AUDIO_EXTENSIONS:
+        return "audio"
+    return "text"
+
+
+def media_sidecar_paths(path):
+    """Find human/MLLM captions, transcripts, or review notes beside a media file."""
+    candidates = []
+    for extension in TEXT_EXTENSIONS:
+        candidates.append(path.with_name(f"{path.name}{extension}"))
+        candidates.append(path.with_suffix(extension))
+
+    sidecars = []
+    seen = set()
+    for candidate in candidates:
+        if candidate == path or candidate in seen:
+            continue
+        seen.add(candidate)
+        if candidate.exists() and candidate.is_file():
+            sidecars.append(candidate)
+    return sidecars
+
+
+def read_media_review_text(path):
+    parts = []
+    for sidecar in media_sidecar_paths(path):
+        text = read_text(sidecar).strip()
+        if text:
+            parts.append(text)
+    return "\n\n".join(parts)
+
+
 def extract_title(path, text):
     for line in text.splitlines():
         stripped = line.strip()
@@ -156,7 +204,14 @@ def extract_title(path, text):
 
 def extract_review_note_count(text):
     match = re.search(r"Reviewed note count:\s*(\d+)", text)
-    return int(match.group(1)) if match else 0
+    if match:
+        return max(1, int(match.group(1)))
+
+    table_note_ids = re.findall(r"^\|\s*[A-Z]{2,}-\d+\s*\|", text, flags=re.MULTILINE)
+    if table_note_ids:
+        return len(table_note_ids)
+
+    return 1 if text.strip() else 0
 
 
 def detect_patterns(text):
@@ -179,11 +234,50 @@ def summarize_document(lane, path, text):
         "id": normalize_id(str(path.as_posix())),
         "path": path.as_posix(),
         "lane": lane,
+        "modality": "text",
+        "media_review_status": "text_reviewable",
+        "sidecar_paths": [],
         "title": extract_title(path, text),
         "word_count": len(re.findall(r"\S+", text)),
         "review_note_count": extract_review_note_count(text),
         "patterns": detect_patterns(text),
         "rules_present": detect_rules(text),
+        "top_terms": [term for term, _ in token_counts.most_common(12)],
+        "tokens": token_counts,
+    }
+
+
+def summarize_media_asset(lane, path):
+    modality = media_modality(path)
+    review_text = read_media_review_text(path)
+    if review_text:
+        searchable_text = review_text
+        review_status = f"{modality}_with_caption_or_transcript"
+    else:
+        searchable_text = (
+            f"{path.stem.replace('_', ' ').replace('-', ' ')} {lane} {modality} "
+            "needs multimodal review caption transcript visual observation audio observation "
+            "machine labels route attention not settle truth"
+        )
+        review_status = f"{modality}_needs_mllm_or_human_review"
+
+    tokens = tokenize(searchable_text)
+    token_counts = Counter(tokens)
+    rules_present = detect_rules(searchable_text)
+    rules_present["machine_label_boundary"] = True
+
+    return {
+        "id": normalize_id(str(path.as_posix())),
+        "path": path.as_posix(),
+        "lane": lane,
+        "modality": modality,
+        "media_review_status": review_status,
+        "sidecar_paths": [sidecar.as_posix() for sidecar in media_sidecar_paths(path)],
+        "title": extract_title(path, review_text) if review_text else path.stem.replace("_", " ").title(),
+        "word_count": len(re.findall(r"\S+", review_text)),
+        "review_note_count": extract_review_note_count(review_text) if review_text else 0,
+        "patterns": detect_patterns(searchable_text),
+        "rules_present": rules_present,
         "top_terms": [term for term, _ in token_counts.most_common(12)],
         "tokens": token_counts,
     }
@@ -217,6 +311,9 @@ def build_retrieval_index(documents):
             "id": document["id"],
             "path": document["path"],
             "lane": document["lane"],
+            "modality": document["modality"],
+            "media_review_status": document["media_review_status"],
+            "sidecar_paths": document["sidecar_paths"],
             "title": document["title"],
             "word_count": document["word_count"],
             "review_note_count": document["review_note_count"],
@@ -232,9 +329,11 @@ def build_retrieval_index(documents):
             )
 
     return {
-        "backend": "llm_retrieval_knowledge_graph_review_rules",
-        "retrieval_strategy": "local tf-idf keyword index; suitable for RAG prompts and source routing",
+        "backend": "mllm_retrieval_knowledge_graph_review_rules",
+        "retrieval_strategy": "local TF-IDF text/caption index plus MLLM review manifest for image, video, and audio assets",
         "document_count": doc_count,
+        "text_document_count": sum(1 for document in documents if document["modality"] == "text"),
+        "media_asset_count": sum(1 for document in documents if document["modality"] != "text"),
         "documents": index_documents,
         "inverted_index": dict(sorted(inverted_index.items())),
     }
@@ -269,9 +368,11 @@ def build_knowledge_graph(documents):
             nodes,
             doc_id,
             document["title"],
-            "document",
+            "document" if document["modality"] == "text" else "media_asset",
             path=document["path"],
             lane=document["lane"],
+            modality=document["modality"],
+            media_review_status=document["media_review_status"],
             review_note_count=document["review_note_count"],
         )
         add_edge(edges, doc_id, f"lane:{document['lane']}", "belongs_to_lane")
@@ -295,11 +396,15 @@ def build_knowledge_graph(documents):
 
 def build_review_audit(documents):
     audit_documents = []
-    lane_totals = defaultdict(lambda: Counter({"documents": 0, "review_notes": 0}))
+    lane_totals = defaultdict(lambda: Counter({"documents": 0, "text_documents": 0, "media_assets": 0, "review_notes": 0}))
     missing_by_rule = defaultdict(list)
 
     for document in documents:
         lane_totals[document["lane"]]["documents"] += 1
+        if document["modality"] == "text":
+            lane_totals[document["lane"]]["text_documents"] += 1
+        else:
+            lane_totals[document["lane"]]["media_assets"] += 1
         lane_totals[document["lane"]]["review_notes"] += document["review_note_count"]
 
         missing = [
@@ -318,6 +423,9 @@ def build_review_audit(documents):
                 {
                     "path": document["path"],
                     "lane": document["lane"],
+                    "modality": document["modality"],
+                    "media_review_status": document["media_review_status"],
+                    "sidecar_paths": document["sidecar_paths"],
                     "title": document["title"],
                     "review_note_count": document["review_note_count"],
                     "patterns": document["patterns"],
@@ -337,11 +445,51 @@ def build_review_audit(documents):
     }
 
 
-def create_backend_report(index, graph, audit):
+def build_multimodal_manifest(documents):
+    media_assets = []
+    review_status_counts = Counter()
+    modality_counts = Counter()
+
+    for document in documents:
+        if document["modality"] == "text":
+            continue
+        review_status_counts[document["media_review_status"]] += 1
+        modality_counts[document["modality"]] += 1
+        media_assets.append(
+            {
+                "id": document["id"],
+                "path": document["path"],
+                "lane": document["lane"],
+                "title": document["title"],
+                "modality": document["modality"],
+                "review_status": document["media_review_status"],
+                "sidecar_paths": document["sidecar_paths"],
+                "review_note_count": document["review_note_count"],
+                "patterns": document["patterns"],
+                "top_terms": document["top_terms"],
+            }
+        )
+
+    return {
+        "backend": "multimodal_review_manifest",
+        "policy": "An MLLM may inspect media directly, but claims only strengthen after captions/transcripts, source metadata, counter-readings, and human review are available.",
+        "media_asset_count": len(media_assets),
+        "modality_counts": dict(sorted(modality_counts.items())),
+        "review_status_counts": dict(sorted(review_status_counts.items())),
+        "media_assets": media_assets,
+    }
+
+
+def create_backend_report(index, graph, audit, multimodal_manifest):
     lane_lines = []
     for lane, totals in audit["lane_totals"].items():
+        media_suffix = (
+            f"; {totals['media_assets']} media assets"
+            if totals.get("media_assets", 0)
+            else ""
+        )
         lane_lines.append(
-            f"- {lane}: {totals['documents']} documents; {totals['review_notes']} declared reviewed notes"
+            f"- {lane}: {totals['documents']} documents; {totals['review_notes']} declared reviewed notes{media_suffix}"
         )
 
     pattern_counts = Counter()
@@ -378,7 +526,7 @@ def create_backend_report(index, graph, audit):
         "Opening Conversation",
         "--------------------",
         "Reviewer: What did you build for this project?",
-        "Backend: A local LLM-support system: retrieval for finding sources, a knowledge graph for connecting them, and review rules for slowing down overconfident claims.",
+        "Backend: A local MLLM-support system: retrieval for finding text, captions, and transcripts; a knowledge graph for connecting them; a multimodal review manifest for image/video/audio assets; and review rules for slowing down overconfident claims.",
         "",
         "Reviewer: Are you deciding what is true?",
         "Backend: No. I route attention. Human review still decides whether a source can affect confidence.",
@@ -391,12 +539,13 @@ def create_backend_report(index, graph, audit):
         f"- Retrieval index: `{INDEX_PATH.as_posix()}`",
         f"- Knowledge graph: `{GRAPH_PATH.as_posix()}`",
         f"- Review-rule audit: `{AUDIT_PATH.as_posix()}`",
+        f"- Multimodal review manifest: `{MULTIMODAL_MANIFEST_PATH.as_posix()}`",
         f"- Backend report: `{REPORT_PATH.as_posix()}`",
         "",
         "How An LLM Should Use It",
         "------------------------",
         "Reviewer: Suppose an LLM wants to write a claim. What happens first?",
-        "Backend: It retrieves source documents before drafting. No source, no confident claim.",
+        "Backend: It retrieves source documents, captions, transcripts, and media-review records before drafting. No source, no confident claim.",
         "",
         "Reviewer: Then what?",
         "Backend: It follows graph edges from documents to lanes, patterns, pressure tests, and review rules.",
@@ -407,11 +556,17 @@ def create_backend_report(index, graph, audit):
         "Reviewer: What about automated evidence labels?",
         "Backend: They are triage lights, not verdicts. Green means review me, not believe me.",
         "",
+        "Reviewer: What about images and videos?",
+        "Backend: Media assets now enter the index through captions, transcripts, sidecar notes, and a manifest for MLLM inspection. If an asset has no caption or transcript, it is queued for multimodal review rather than treated as understood.",
+        "",
         "Corpus Summary",
         "--------------",
         f"- Indexed documents: {index['document_count']}",
+        f"- Indexed text documents: {index['text_document_count']}",
+        f"- Indexed media assets: {index['media_asset_count']}",
         f"- Graph nodes: {graph['node_count']}",
         f"- Graph edges: {graph['edge_count']}",
+        f"- Multimodal assets needing review: {multimodal_manifest['review_status_counts']}",
         "",
         "Reviewer: Where is the strongest reviewed-note weight right now?",
         f"Backend: {strongest_lane_text or 'No reviewed-note lanes detected yet.'}.",
@@ -475,24 +630,33 @@ def main():
 
     documents = []
     for lane, path in iter_documents():
-        text = read_text(path)
-        if text.strip():
-            documents.append(summarize_document(lane, path, text))
+        if path.suffix.lower() in TEXT_EXTENSIONS:
+            text = read_text(path)
+            if text.strip():
+                documents.append(summarize_document(lane, path, text))
+        else:
+            documents.append(summarize_media_asset(lane, path))
 
     index = build_retrieval_index(documents)
     graph = build_knowledge_graph(documents)
     audit = build_review_audit(documents)
-    report = create_backend_report(index, graph, audit)
+    multimodal_manifest = build_multimodal_manifest(documents)
+    report = create_backend_report(index, graph, audit, multimodal_manifest)
 
     INDEX_PATH.write_text(json.dumps(index, indent=2, sort_keys=True), encoding="utf-8")
     GRAPH_PATH.write_text(json.dumps(graph, indent=2, sort_keys=True), encoding="utf-8")
     AUDIT_PATH.write_text(json.dumps(audit, indent=2, sort_keys=True), encoding="utf-8")
+    MULTIMODAL_MANIFEST_PATH.write_text(
+        json.dumps(multimodal_manifest, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
     REPORT_PATH.write_text(report, encoding="utf-8")
 
     print("AI knowledge backend build complete.")
     print(f"Retrieval index saved to: {INDEX_PATH}")
     print(f"Knowledge graph saved to: {GRAPH_PATH}")
     print(f"Review audit saved to: {AUDIT_PATH}")
+    print(f"Multimodal review manifest saved to: {MULTIMODAL_MANIFEST_PATH}")
     print(f"Backend report saved to: {REPORT_PATH}")
 
 

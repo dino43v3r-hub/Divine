@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-13 15:31 UTC_
+_Generated: 2026-06-14 01:56 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -20,19 +20,22 @@ The backend is useful, but it is not the judge. It retrieves and organizes. Huma
 
 ## Current Corpus At A Glance
 
-- Indexed documents: 180
-- Graph nodes: 212
-- Graph edges: 917
+- Indexed documents: 181
+- Graph nodes: 213
+- Graph edges: 925
+- Indexed text documents: 181
+- Indexed media assets: 0
+- Multimodal assets needing review: {}
 
 The strongest reviewed-note weight currently sits in these lanes:
 
-- theologians: 16 documents; 375 declared reviewed notes
-- all_texts: 10 documents; 261 declared reviewed notes
-- other_religious_texts: 10 documents; 261 declared reviewed notes
-- history_inputs: 10 documents; 261 declared reviewed notes
-- biblical_languages: 11 documents; 135 declared reviewed notes
-- world_languages: 11 documents; 135 declared reviewed notes
-- deep_sources: 11 documents; 18 declared reviewed notes
+- theologians: 16 documents; 385 declared reviewed notes
+- all_texts: 10 documents; 265 declared reviewed notes
+- other_religious_texts: 10 documents; 265 declared reviewed notes
+- history_inputs: 10 documents; 265 declared reviewed notes
+- biblical_languages: 11 documents; 140 declared reviewed notes
+- world_languages: 11 documents; 140 declared reviewed notes
+- deep_sources: 11 documents; 28 declared reviewed notes
 
 This balance matters. A theological claim cannot grow simply because one lane is loud. It needs original-language depth, global translation awareness, theological disagreement, historical pressure, comparative humility, and practical fruit.
 

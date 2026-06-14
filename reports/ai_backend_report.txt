@@ -4,7 +4,7 @@ AI Knowledge Backend Report
 Opening Conversation
 --------------------
 Reviewer: What did you build for this project?
-Backend: A local LLM-support system: retrieval for finding sources, a knowledge graph for connecting them, and review rules for slowing down overconfident claims.
+Backend: A local MLLM-support system: retrieval for finding text, captions, and transcripts; a knowledge graph for connecting them; a multimodal review manifest for image/video/audio assets; and review rules for slowing down overconfident claims.
 
 Reviewer: Are you deciding what is true?
 Backend: No. I route attention. Human review still decides whether a source can affect confidence.
@@ -17,12 +17,13 @@ Generated Artifacts
 - Retrieval index: `reports/knowledge_retrieval_index.json`
 - Knowledge graph: `reports/knowledge_graph.json`
 - Review-rule audit: `reports/review_rules_audit.json`
+- Multimodal review manifest: `reports/multimodal_review_manifest.json`
 - Backend report: `reports/ai_backend_report.txt`
 
 How An LLM Should Use It
 ------------------------
 Reviewer: Suppose an LLM wants to write a claim. What happens first?
-Backend: It retrieves source documents before drafting. No source, no confident claim.
+Backend: It retrieves source documents, captions, transcripts, and media-review records before drafting. No source, no confident claim.
 
 Reviewer: Then what?
 Backend: It follows graph edges from documents to lanes, patterns, pressure tests, and review rules.
@@ -33,38 +34,44 @@ Backend: It checks the audit for missing counter-readings, failure conditions, a
 Reviewer: What about automated evidence labels?
 Backend: They are triage lights, not verdicts. Green means review me, not believe me.
 
+Reviewer: What about images and videos?
+Backend: Media assets now enter the index through captions, transcripts, sidecar notes, and a manifest for MLLM inspection. If an asset has no caption or transcript, it is queued for multimodal review rather than treated as understood.
+
 Corpus Summary
 --------------
-- Indexed documents: 180
-- Graph nodes: 212
-- Graph edges: 917
+- Indexed documents: 181
+- Indexed text documents: 181
+- Indexed media assets: 0
+- Graph nodes: 213
+- Graph edges: 925
+- Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
-Backend: theologians (375 notes), all_texts (261 notes), history_inputs (261 notes), other_religious_texts (261 notes).
+Backend: theologians (385 notes), all_texts (265 notes), history_inputs (265 notes), other_religious_texts (265 notes).
 
 Reviewer: Which leading patterns are showing up most often?
 Backend: Image Of God Pattern (9), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
 
 Reviewer: Which review rules are most visible?
-Backend: discernment (152), practical_use (147), counter_reading (138), failure_condition (88).
+Backend: discernment (153), practical_use (148), counter_reading (139), failure_condition (89).
 
 Lane Coverage
 -------------
 Backend: Here is the lane map. High counts are invitations to review more carefully, not permission to overclaim.
-- all_texts: 10 documents; 261 declared reviewed notes
-- biblical_languages: 11 documents; 135 declared reviewed notes
-- cultural_inputs: 10 documents; 0 declared reviewed notes
-- deep_sources: 11 documents; 18 declared reviewed notes
-- history_inputs: 10 documents; 261 declared reviewed notes
-- human_stories: 2 documents; 0 declared reviewed notes
-- modern_literature: 2 documents; 0 declared reviewed notes
-- other_religious_texts: 10 documents; 261 declared reviewed notes
-- pattern_tests: 26 documents; 0 declared reviewed notes
-- psychology_inputs: 5 documents; 0 declared reviewed notes
-- research_documents: 52 documents; 0 declared reviewed notes
-- theologians: 16 documents; 375 declared reviewed notes
-- visual_art: 4 documents; 0 declared reviewed notes
-- world_languages: 11 documents; 135 declared reviewed notes
+- all_texts: 10 documents; 265 declared reviewed notes
+- biblical_languages: 11 documents; 140 declared reviewed notes
+- cultural_inputs: 10 documents; 10 declared reviewed notes
+- deep_sources: 11 documents; 28 declared reviewed notes
+- history_inputs: 10 documents; 265 declared reviewed notes
+- human_stories: 2 documents; 2 declared reviewed notes
+- modern_literature: 2 documents; 2 declared reviewed notes
+- other_religious_texts: 10 documents; 265 declared reviewed notes
+- pattern_tests: 27 documents; 31 declared reviewed notes
+- psychology_inputs: 5 documents; 5 declared reviewed notes
+- research_documents: 52 documents; 98 declared reviewed notes
+- theologians: 16 documents; 385 declared reviewed notes
+- visual_art: 4 documents; 4 declared reviewed notes
+- world_languages: 11 documents; 140 declared reviewed notes
 
 Pattern Mentions
 ----------------
@@ -85,14 +92,14 @@ Review Rule Mentions
 Reviewer: What do the review-rule counts tell us?
 Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.
 
-- evidence: 82 documents
+- evidence: 83 documents
 - interpretation: 26 documents
-- discernment: 152 documents
+- discernment: 153 documents
 - analogy: 45 documents
-- practical_use: 147 documents
-- counter_reading: 138 documents
-- failure_condition: 88 documents
-- machine_label_boundary: 13 documents
+- practical_use: 148 documents
+- counter_reading: 139 documents
+- failure_condition: 89 documents
+- machine_label_boundary: 15 documents
 
 Practical-Theology Gate
 -----------------------

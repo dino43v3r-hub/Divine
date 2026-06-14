@@ -2750,6 +2750,19 @@ def read_document(path):
     return path.read_text(encoding="utf-8-sig", errors="replace")
 
 
+def reviewed_note_count(text):
+    """Estimate how many reviewed notes a source file contributes."""
+    declared = re.search(r"Reviewed note count:\s*(\d+)", text, re.IGNORECASE)
+    if declared:
+        return max(1, int(declared.group(1)))
+
+    table_note_ids = re.findall(r"^\|\s*[A-Z]{2,}-\d+\s*\|", text, flags=re.MULTILINE)
+    if table_note_ids:
+        return len(table_note_ids)
+
+    return 1
+
+
 def normalize_title(text):
     """Convert a phrase into a clean pattern title."""
     cleaned = re.sub(r"[^a-zA-Z0-9\s-]", "", text).strip()
@@ -3715,6 +3728,7 @@ def analyze_document(path):
 
     return {
         "file_name": path.name,
+        "reviewed_note_count": reviewed_note_count(text),
         "characters": len(text),
         "sentences": len(sentences),
         "words": len(words),
@@ -3893,6 +3907,7 @@ def analyze_cultural_document(path):
 
     return {
         "file_name": path.name,
+        "reviewed_note_count": reviewed_note_count(text),
         "characters": len(text),
         "sentences": len(sentences),
         "words": len(words),
@@ -3937,6 +3952,7 @@ def analyze_synthesis_document(path, source_lane):
     return {
         "file_name": path.name,
         "source_lane": source_lane,
+        "reviewed_note_count": reviewed_note_count(text),
         "characters": len(text),
         "sentences": len(sentences),
         "words": len(words),
@@ -3993,6 +4009,7 @@ def analyze_pattern_test_document(path):
     meaning_arc = detect_meaning_arc(sentences)
     analysis = {
         "file_name": path.name,
+        "reviewed_note_count": reviewed_note_count(text),
         "characters": len(text),
         "sentences": len(sentences),
         "words": len([word for word in tokenize(text) if word not in STOP_WORDS]),
@@ -4037,6 +4054,7 @@ def analyze_deep_source_document(path):
 
     return {
         "file_name": path.name,
+        "reviewed_note_count": reviewed_note_count(text),
         "characters": len(text),
         "sentences": len(sentences),
         "words": len([word for word in tokenize(text) if word not in STOP_WORDS]),
@@ -4064,6 +4082,7 @@ def analyze_theologian_document(path):
 
     return {
         "file_name": path.name,
+        "reviewed_note_count": reviewed_note_count(text),
         "characters": len(text),
         "sentences": len(sentences),
         "words": len([word for word in tokenize(text) if word not in STOP_WORDS]),
@@ -4356,20 +4375,23 @@ def create_lane_balance_records(
     synthesis_analyses,
 ):
     """Compare analyzed source-lane counts with target bands."""
+    def count_notes(analyses):
+        return sum(analysis.get("reviewed_note_count", 1) for analysis in analyses)
+
     actuals = Counter(
         {
-            "research_documents": len(research_analyses),
-            "cultural_inputs": len(cultural_analyses),
-            "pattern_tests": len(test_analyses),
-            "deep_sources": len(deep_source_analyses),
-            "theologians": len(theologian_analyses),
+            "research_documents": count_notes(research_analyses),
+            "cultural_inputs": count_notes(cultural_analyses),
+            "pattern_tests": count_notes(test_analyses),
+            "deep_sources": count_notes(deep_source_analyses),
+            "theologians": count_notes(theologian_analyses),
         }
     )
 
     for analysis in synthesis_analyses:
         lane_key = SYNTHESIS_LANE_KEYS.get(analysis.get("source_lane"))
         if lane_key:
-            actuals[lane_key] += 1
+            actuals[lane_key] += analysis.get("reviewed_note_count", 1)
 
     records = []
     for lane, target in SOURCE_LANE_TARGETS.items():
