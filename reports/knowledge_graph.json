@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 925,
+  "edge_count": 1103,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -151,6 +151,86 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_active_lane_review_conversion_2026_06_04_third_pass_md",
       "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_a_bibliometric_analysis_of_quality_research_papers_in_islamic_finance_",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_a_bibliometric_analysis_of_quality_research_papers_in_islamic_finance_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_a_bibliometric_analysis_of_quality_research_papers_in_islamic_finance_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_a_bibliometric_analysis_of_quality_research_papers_in_islamic_finance_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_a_bibliometric_analysis_of_quality_research_papers_in_islamic_finance_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_progress_in_dark_tourism_and_thanatourism_research_an_uneasy_relations",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_progress_in_dark_tourism_and_thanatourism_research_an_uneasy_relations",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_progress_in_dark_tourism_and_thanatourism_research_an_uneasy_relations",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_progress_in_dark_tourism_and_thanatourism_research_an_uneasy_relations",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_progress_in_dark_tourism_and_thanatourism_research_an_uneasy_relations",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_conflict_of_the_faculties_perspectives_on_artistic_research_and_ac",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_conflict_of_the_faculties_perspectives_on_artistic_research_and_ac",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_conflict_of_the_faculties_perspectives_on_artistic_research_and_ac",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_conflict_of_the_faculties_perspectives_on_artistic_research_and_ac",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_conflict_of_the_faculties_perspectives_on_artistic_research_and_ac",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_christian_sources_sources_md",
+      "target": "lane:research_documents"
     },
     {
       "relation": "belongs_to_lane",
@@ -469,11 +549,6 @@
     },
     {
       "relation": "belongs_to_lane",
-      "source": "doc:research_documents_christian_sources_sources_md",
-      "target": "lane:research_documents"
-    },
-    {
-      "relation": "belongs_to_lane",
       "source": "doc:research_documents_claim_ledger_md",
       "target": "lane:research_documents"
     },
@@ -686,11 +761,6 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:evidence"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:interpretation"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -1814,6 +1884,131 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_relevance_theory_perspective_on_translating_the_implicit_information_in",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_relevance_theory_perspective_on_translating_the_implicit_information_in",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_relevance_theory_perspective_on_translating_the_implicit_information_in",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_relevance_theory_perspective_on_translating_the_implicit_information_in",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_relevance_theory_perspective_on_translating_the_implicit_information_in",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_ancient_traditions_of_the_virgin_mary_s_dormition_and_assumption_e06d29bc",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_ancient_traditions_of_the_virgin_mary_s_dormition_and_assumption_e06d29bc",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_ancient_traditions_of_the_virgin_mary_s_dormition_and_assumption_e06d29bc",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_ancient_traditions_of_the_virgin_mary_s_dormition_and_assumption_e06d29bc",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_ancient_traditions_of_the_virgin_mary_s_dormition_and_assumption_e06d29bc",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_from_conquest_to_constitutions_retrieving_a_latin_american_tradition_of_t",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_from_conquest_to_constitutions_retrieving_a_latin_american_tradition_of_t",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_from_conquest_to_constitutions_retrieving_a_latin_american_tradition_of_t",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_from_conquest_to_constitutions_retrieving_a_latin_american_tradition_of_t",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_from_conquest_to_constitutions_retrieving_a_latin_american_tradition_of_t",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_native_pacific_cultural_studies_on_the_edge_b01169306b78_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_native_pacific_cultural_studies_on_the_edge_b01169306b78_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_native_pacific_cultural_studies_on_the_edge_b01169306b78_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_native_pacific_cultural_studies_on_the_edge_b01169306b78_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_native_pacific_cultural_studies_on_the_edge_b01169306b78_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_emergence_and_trajectories_of_struggles_for_an_african_university_the",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_emergence_and_trajectories_of_struggles_for_an_african_university_the",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_emergence_and_trajectories_of_struggles_for_an_african_university_the",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_emergence_and_trajectories_of_struggles_for_an_african_university_the",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_emergence_and_trajectories_of_struggles_for_an_african_university_the",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_cross_cultural_translation_balance_notes_md",
       "target": "lane:world_languages"
     },
@@ -2316,6 +2511,36 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:all_texts_text_tradition_expansion_notes_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_dwelling_in_political_landscapes_contemporary_anthropological_persp",
+      "target": "lane:other_religious_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_dwelling_in_political_landscapes_contemporary_anthropological_persp",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_dwelling_in_political_landscapes_contemporary_anthropological_persp",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_dwelling_in_political_landscapes_contemporary_anthropological_persp",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_dwelling_in_political_landscapes_contemporary_anthropological_persp",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_dwelling_in_political_landscapes_contemporary_anthropological_persp",
+      "target": "rule:machine_label_boundary"
     },
     {
       "relation": "belongs_to_lane",
@@ -3046,6 +3271,106 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_source_specific_theologian_review_notes_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_a_history_of_booksellers_the_old_and_the_new_a03d6fe56f91_md",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_a_history_of_booksellers_the_old_and_the_new_a03d6fe56f91_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_a_history_of_booksellers_the_old_and_the_new_a03d6fe56f91_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_a_history_of_booksellers_the_old_and_the_new_a03d6fe56f91_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_a_history_of_booksellers_the_old_and_the_new_a03d6fe56f91_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_collective_soul_the_spirituality_of_an_interdisciplinary_palliative_care_t",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_collective_soul_the_spirituality_of_an_interdisciplinary_palliative_care_t",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_collective_soul_the_spirituality_of_an_interdisciplinary_palliative_care_t",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_collective_soul_the_spirituality_of_an_interdisciplinary_palliative_care_t",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_collective_soul_the_spirituality_of_an_interdisciplinary_palliative_care_t",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_doctrinal_controversy_and_the_church_economy_of_post_chalcedon_palestine_2",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_doctrinal_controversy_and_the_church_economy_of_post_chalcedon_palestine_2",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_doctrinal_controversy_and_the_church_economy_of_post_chalcedon_palestine_2",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_doctrinal_controversy_and_the_church_economy_of_post_chalcedon_palestine_2",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_doctrinal_controversy_and_the_church_economy_of_post_chalcedon_palestine_2",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_reframing_redress_a_social_healing_through_justice_approach_to_united_stat",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_reframing_redress_a_social_healing_through_justice_approach_to_united_stat",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_reframing_redress_a_social_healing_through_justice_approach_to_united_stat",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_reframing_redress_a_social_healing_through_justice_approach_to_united_stat",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_reframing_redress_a_social_healing_through_justice_approach_to_united_stat",
+      "target": "rule:machine_label_boundary"
     },
     {
       "relation": "belongs_to_lane",
@@ -3319,6 +3644,96 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_footwashing_in_john_13_and_the_johannine_community_0e8613419c25_md",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_footwashing_in_john_13_and_the_johannine_community_0e8613419c25_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_footwashing_in_john_13_and_the_johannine_community_0e8613419c25_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_footwashing_in_john_13_and_the_johannine_community_0e8613419c25_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_footwashing_in_john_13_and_the_johannine_community_0e8613419c25_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_footwashing_in_john_13_and_the_johannine_community_0e8613419c25_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_imperial_matter_ancient_persia_and_the_archaeology_of_empires_0ba1a9c73d32_md",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_imperial_matter_ancient_persia_and_the_archaeology_of_empires_0ba1a9c73d32_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_imperial_matter_ancient_persia_and_the_archaeology_of_empires_0ba1a9c73d32_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_imperial_matter_ancient_persia_and_the_archaeology_of_empires_0ba1a9c73d32_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_imperial_matter_ancient_persia_and_the_archaeology_of_empires_0ba1a9c73d32_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_imperial_matter_ancient_persia_and_the_archaeology_of_empires_0ba1a9c73d32_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reimagining_spain_transnational_entanglements_and_remembrance_of_the_spanish_c",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reimagining_spain_transnational_entanglements_and_remembrance_of_the_spanish_c",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reimagining_spain_transnational_entanglements_and_remembrance_of_the_spanish_c",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reimagining_spain_transnational_entanglements_and_remembrance_of_the_spanish_c",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reimagining_spain_transnational_entanglements_and_remembrance_of_the_spanish_c",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reimagining_spain_transnational_entanglements_and_remembrance_of_the_spanish_c",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_case_study_visual_art_notes_md",
       "target": "lane:visual_art"
     },
@@ -3401,6 +3816,131 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_art_beauty_symbol_md",
       "target": "rule:practical_use"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ai_ethics_and_higher_education_good_practice_and_guidance_for_educators_l",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ai_ethics_and_higher_education_good_practice_and_guidance_for_educators_l",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ai_ethics_and_higher_education_good_practice_and_guidance_for_educators_l",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ai_ethics_and_higher_education_good_practice_and_guidance_for_educators_l",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ai_ethics_and_higher_education_good_practice_and_guidance_for_educators_l",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_autistic_community_and_the_neurodiversity_movement_696454bb63c3_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_autistic_community_and_the_neurodiversity_movement_696454bb63c3_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_autistic_community_and_the_neurodiversity_movement_696454bb63c3_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_autistic_community_and_the_neurodiversity_movement_696454bb63c3_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_autistic_community_and_the_neurodiversity_movement_696454bb63c3_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_in_human_ai_teaming_principles_and_perspectives_8daa8b2b9bd0_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_in_human_ai_teaming_principles_and_perspectives_8daa8b2b9bd0_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_in_human_ai_teaming_principles_and_perspectives_8daa8b2b9bd0_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_in_human_ai_teaming_principles_and_perspectives_8daa8b2b9bd0_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_in_human_ai_teaming_principles_and_perspectives_8daa8b2b9bd0_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_support_for_european_integration_c4216a468c86_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_support_for_european_integration_c4216a468c86_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_support_for_european_integration_c4216a468c86_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_support_for_european_integration_c4216a468c86_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_support_for_european_integration_c4216a468c86_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_using_the_new_acm_code_of_ethics_in_decision_making_31815a037064_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_using_the_new_acm_code_of_ethics_in_decision_making_31815a037064_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_using_the_new_acm_code_of_ethics_in_decision_making_31815a037064_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_using_the_new_acm_code_of_ethics_in_decision_making_31815a037064_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_using_the_new_acm_code_of_ethics_in_decision_making_31815a037064_md",
+      "target": "rule:machine_label_boundary"
     },
     {
       "relation": "belongs_to_lane",
@@ -3494,6 +4034,116 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_comprehensive_survey_on_machine_learning_approaches_for_fake_news_det",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_comprehensive_survey_on_machine_learning_approaches_for_fake_news_det",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_comprehensive_survey_on_machine_learning_approaches_for_fake_news_det",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_comprehensive_survey_on_machine_learning_approaches_for_fake_news_det",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_comprehensive_survey_on_machine_learning_approaches_for_fake_news_det",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_comprehensive_survey_on_machine_learning_approaches_for_fake_news_det",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_an_ontology_of_psychedelic_entity_experiences_in_evolutionary_psycholog",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_an_ontology_of_psychedelic_entity_experiences_in_evolutionary_psycholog",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_an_ontology_of_psychedelic_entity_experiences_in_evolutionary_psycholog",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_an_ontology_of_psychedelic_entity_experiences_in_evolutionary_psycholog",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_an_ontology_of_psychedelic_entity_experiences_in_evolutionary_psycholog",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_an_ontology_of_psychedelic_entity_experiences_in_evolutionary_psycholog",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_existential_transformational_game_design_harnessing_the_psychomagic_of_",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_existential_transformational_game_design_harnessing_the_psychomagic_of_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_existential_transformational_game_design_harnessing_the_psychomagic_of_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_existential_transformational_game_design_harnessing_the_psychomagic_of_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_existential_transformational_game_design_harnessing_the_psychomagic_of_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_religious_identity_in_the_workplace_a_systematic_review_research_agenda",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_religious_identity_in_the_workplace_a_systematic_review_research_agenda",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_religious_identity_in_the_workplace_a_systematic_review_research_agenda",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_religious_identity_in_the_workplace_a_systematic_review_research_agenda",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_religious_identity_in_the_workplace_a_systematic_review_research_agenda",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:psychology_inputs_clinical_and_social_limits_notes_md",
       "target": "lane:psychology_inputs"
     },
@@ -3681,6 +4331,216 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:modern_literature_narrative_pattern_validation_notes_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_practical_guide_to_risk_management_869cf85ffcb3_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_practical_guide_to_risk_management_869cf85ffcb3_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_practical_guide_to_risk_management_869cf85ffcb3_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_practical_guide_to_risk_management_869cf85ffcb3_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_practical_guide_to_risk_management_869cf85ffcb3_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_practical_guide_to_risk_management_869cf85ffcb3_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_precipice_below_which_lies_absurdity_theories_without_a_spacetime_and_scie",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_precipice_below_which_lies_absurdity_theories_without_a_spacetime_and_scie",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_precipice_below_which_lies_absurdity_theories_without_a_spacetime_and_scie",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_precipice_below_which_lies_absurdity_theories_without_a_spacetime_and_scie",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_precipice_below_which_lies_absurdity_theories_without_a_spacetime_and_scie",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_a_precipice_below_which_lies_absurdity_theories_without_a_spacetime_and_scie",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_bias_against_novelty_in_science_a_cautionary_tale_for_users_of_bibliometric_",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_bias_against_novelty_in_science_a_cautionary_tale_for_users_of_bibliometric_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_bias_against_novelty_in_science_a_cautionary_tale_for_users_of_bibliometric_",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_bias_against_novelty_in_science_a_cautionary_tale_for_users_of_bibliometric_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_bias_against_novelty_in_science_a_cautionary_tale_for_users_of_bibliometric_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_bias_against_novelty_in_science_a_cautionary_tale_for_users_of_bibliometric_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_deterministic_quantum_mechanics_the_mathematical_equations_9bfa5bed54c1_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_deterministic_quantum_mechanics_the_mathematical_equations_9bfa5bed54c1_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_deterministic_quantum_mechanics_the_mathematical_equations_9bfa5bed54c1_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_deterministic_quantum_mechanics_the_mathematical_equations_9bfa5bed54c1_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_deterministic_quantum_mechanics_the_mathematical_equations_9bfa5bed54c1_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_deterministic_quantum_mechanics_the_mathematical_equations_9bfa5bed54c1_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_ipcc_ar5_guidance_note_on_consistent_treatment_of_uncertainties_a_common",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_ipcc_ar5_guidance_note_on_consistent_treatment_of_uncertainties_a_common",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_ipcc_ar5_guidance_note_on_consistent_treatment_of_uncertainties_a_common",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_ipcc_ar5_guidance_note_on_consistent_treatment_of_uncertainties_a_common",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_ipcc_ar5_guidance_note_on_consistent_treatment_of_uncertainties_a_common",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_ipcc_ar5_guidance_note_on_consistent_treatment_of_uncertainties_a_common",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_third_generation_of_gravitational_wave_observatories_and_their_science_r",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_third_generation_of_gravitational_wave_observatories_and_their_science_r",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_third_generation_of_gravitational_wave_observatories_and_their_science_r",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_third_generation_of_gravitational_wave_observatories_and_their_science_r",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_third_generation_of_gravitational_wave_observatories_and_their_science_r",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_third_generation_of_gravitational_wave_observatories_and_their_science_r",
+      "target": "rule:machine_label_boundary"
     },
     {
       "relation": "belongs_to_lane",
@@ -3941,6 +4801,36 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_answered_prayer_ambiguity_test_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_early_franciscan_theology_between_authority_and_innovation_829dc47ac420_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_early_franciscan_theology_between_authority_and_innovation_829dc47ac420_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_early_franciscan_theology_between_authority_and_innovation_829dc47ac420_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_early_franciscan_theology_between_authority_and_innovation_829dc47ac420_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_early_franciscan_theology_between_authority_and_innovation_829dc47ac420_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_early_franciscan_theology_between_authority_and_innovation_829dc47ac420_md",
+      "target": "rule:machine_label_boundary"
     },
     {
       "relation": "belongs_to_lane",
@@ -4629,7 +5519,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 213,
+  "node_count": 246,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -4832,6 +5722,46 @@
       "type": "document"
     },
     {
+      "id": "doc:research_documents_auto_imported_cloud_candidates_a_bibliometric_analysis_of_quality_research_papers_in_islamic_finance_",
+      "label": "A bibliometric analysis of quality research papers in Islamic finance: evidence from Web of Science",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/a_bibliometric_analysis_of_quality_research_papers_in_islamic_finance_evidence_f_3b09e3cc57b0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:research_documents_auto_imported_cloud_candidates_progress_in_dark_tourism_and_thanatourism_research_an_uneasy_relations",
+      "label": "Progress in dark tourism and thanatourism research: An uneasy relationship with heritage tourism",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/progress_in_dark_tourism_and_thanatourism_research_an_uneasy_relationship_with_h_a56e561f71ba.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:research_documents_auto_imported_cloud_candidates_the_conflict_of_the_faculties_perspectives_on_artistic_research_and_ac",
+      "label": "The Conflict of the Faculties. Perspectives on Artistic Research and Academia",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/the_conflict_of_the_faculties_perspectives_on_artistic_research_and_academia_cbafb6952a51.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:research_documents_christian_sources_sources_md",
+      "label": "Christian Source Corpus",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/christian_sources/SOURCES.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
       "id": "doc:research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
       "label": "Apostles Creed Church Hymnary Wikisource",
       "lane": "research_documents",
@@ -4978,16 +5908,6 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
-      "review_note_count": 1,
-      "type": "document"
-    },
-    {
-      "id": "doc:research_documents_christian_sources_sources_md",
-      "label": "Christian Source Corpus",
-      "lane": "research_documents",
-      "media_review_status": "text_reviewable",
-      "modality": "text",
-      "path": "research_documents/christian_sources/SOURCES.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -5422,6 +6342,56 @@
       "type": "document"
     },
     {
+      "id": "doc:world_languages_auto_imported_cloud_candidates_a_relevance_theory_perspective_on_translating_the_implicit_information_in",
+      "label": "A Relevance Theory Perspective on Translating the Implicit Information in Literary Texts",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/a_relevance_theory_perspective_on_translating_the_implicit_information_in_litera_74cfb3868d68.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:world_languages_auto_imported_cloud_candidates_ancient_traditions_of_the_virgin_mary_s_dormition_and_assumption_e06d29bc",
+      "label": "Ancient Traditions of the Virgin Mary's Dormition and Assumption",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/ancient_traditions_of_the_virgin_mary_s_dormition_and_assumption_e06d29bc9019.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:world_languages_auto_imported_cloud_candidates_from_conquest_to_constitutions_retrieving_a_latin_american_tradition_of_t",
+      "label": "From Conquest to Constitutions: Retrieving a Latin American Tradition of the Idea of Human Rights",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/from_conquest_to_constitutions_retrieving_a_latin_american_tradition_of_the_idea_5d222b4587c5.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:world_languages_auto_imported_cloud_candidates_native_pacific_cultural_studies_on_the_edge_b01169306b78_md",
+      "label": "Native Pacific Cultural Studies on the Edge",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/native_pacific_cultural_studies_on_the_edge_b01169306b78.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:world_languages_auto_imported_cloud_candidates_the_emergence_and_trajectories_of_struggles_for_an_african_university_the",
+      "label": "The emergence and trajectories of struggles for an 'African university': The case of unfinished business of African epistemic decolonisation",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/the_emergence_and_trajectories_of_struggles_for_an_african_university_the_case_o_d31ed4655505.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
       "id": "doc:world_languages_cross_cultural_translation_balance_notes_md",
       "label": "Cross-Cultural Translation Balance Notes",
       "lane": "world_languages",
@@ -5628,6 +6598,16 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "all_texts/text_tradition_expansion_notes.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:other_religious_texts_auto_imported_cloud_candidates_dwelling_in_political_landscapes_contemporary_anthropological_persp",
+      "label": "Dwelling in Political Landscapes: Contemporary Anthropological Perspectives",
+      "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "other_religious_texts/auto_imported_cloud_candidates/dwelling_in_political_landscapes_contemporary_anthropological_perspectives_df55b8f152a9.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -5892,6 +6872,46 @@
       "type": "document"
     },
     {
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_a_history_of_booksellers_the_old_and_the_new_a03d6fe56f91_md",
+      "label": "A History of Booksellers, the Old and the New",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/a_history_of_booksellers_the_old_and_the_new_a03d6fe56f91.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_collective_soul_the_spirituality_of_an_interdisciplinary_palliative_care_t",
+      "label": "Collective soul: The spirituality of an interdisciplinary palliative care team",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/collective_soul_the_spirituality_of_an_interdisciplinary_palliative_care_team_2d93a4ef026a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_doctrinal_controversy_and_the_church_economy_of_post_chalcedon_palestine_2",
+      "label": "Doctrinal Controversy and the Church Economy of Post-Chalcedon Palestine",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/doctrinal_controversy_and_the_church_economy_of_post_chalcedon_palestine_2236531f8266.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_reframing_redress_a_social_healing_through_justice_approach_to_united_stat",
+      "label": "Reframing Redress: A \"Social Healing Through Justice\" Approach to United States-Native Hawaiian and Japan-Ainu Reconciliation Initiatives",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/reframing_redress_a_social_healing_through_justice_approach_to_united_states_nat_d5d8bfec15de.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
       "id": "doc:history_inputs_case_study_history_pressure_notes_md",
       "label": "Case Study History Pressure Notes",
       "lane": "history_inputs",
@@ -5992,6 +7012,36 @@
       "type": "document"
     },
     {
+      "id": "doc:visual_art_auto_imported_cloud_candidates_footwashing_in_john_13_and_the_johannine_community_0e8613419c25_md",
+      "label": "Footwashing in John 13 and the Johannine Community",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/footwashing_in_john_13_and_the_johannine_community_0e8613419c25.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:visual_art_auto_imported_cloud_candidates_imperial_matter_ancient_persia_and_the_archaeology_of_empires_0ba1a9c73d32_md",
+      "label": "Imperial Matter: Ancient Persia and the Archaeology of Empires",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/imperial_matter_ancient_persia_and_the_archaeology_of_empires_0ba1a9c73d32.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:visual_art_auto_imported_cloud_candidates_reimagining_spain_transnational_entanglements_and_remembrance_of_the_spanish_c",
+      "label": "Reimagining Spain : transnational entanglements and remembrance of the Spanish Civil War since 1989",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/reimagining_spain_transnational_entanglements_and_remembrance_of_the_spanish_civ_8c95dabc7c7c.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
       "id": "doc:visual_art_case_study_visual_art_notes_md",
       "label": "Case Study Visual Art Notes",
       "lane": "visual_art",
@@ -6038,6 +7088,56 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/art_beauty_symbol.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ai_ethics_and_higher_education_good_practice_and_guidance_for_educators_l",
+      "label": "AI ethics and higher education : good practice and guidance for educators, learners, and institutions",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/ai_ethics_and_higher_education_good_practice_and_guidance_for_educators_learners_777627686e09.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_autistic_community_and_the_neurodiversity_movement_696454bb63c3_md",
+      "label": "Autistic Community and the Neurodiversity Movement",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/autistic_community_and_the_neurodiversity_movement_696454bb63c3.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_in_human_ai_teaming_principles_and_perspectives_8daa8b2b9bd0_md",
+      "label": "Ethics in human\u2013AI teaming: principles and perspectives",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/ethics_in_human_ai_teaming_principles_and_perspectives_8daa8b2b9bd0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_public_support_for_european_integration_c4216a468c86_md",
+      "label": "Public Support for European Integration",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/public_support_for_european_integration_c4216a468c86.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_using_the_new_acm_code_of_ethics_in_decision_making_31815a037064_md",
+      "label": "Using the new ACM code of ethics in decision making",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/using_the_new_acm_code_of_ethics_in_decision_making_31815a037064.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -6132,6 +7232,46 @@
       "type": "document"
     },
     {
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_a_comprehensive_survey_on_machine_learning_approaches_for_fake_news_det",
+      "label": "A comprehensive survey on machine learning approaches for fake news detection",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/a_comprehensive_survey_on_machine_learning_approaches_for_fake_news_detection_10e01d133bdc.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_an_ontology_of_psychedelic_entity_experiences_in_evolutionary_psycholog",
+      "label": "An ontology of psychedelic entity experiences in evolutionary psychology and neurophenomenology",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/an_ontology_of_psychedelic_entity_experiences_in_evolutionary_psychology_and_neu_d5768ca57e06.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_existential_transformational_game_design_harnessing_the_psychomagic_of_",
+      "label": "Existential Transformational Game Design: Harnessing the \u201cPsychomagic\u201d of Symbolic Enactment",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/existential_transformational_game_design_harnessing_the_psychomagic_of_symbolic_f31bfc1ad8fc.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_religious_identity_in_the_workplace_a_systematic_review_research_agenda",
+      "label": "Religious identity in the workplace: A systematic review, research agenda, and practical implications",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/religious_identity_in_the_workplace_a_systematic_review_research_agenda_and_prac_d021644b94db.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
       "id": "doc:psychology_inputs_clinical_and_social_limits_notes_md",
       "label": "Clinical And Social Limits Notes",
       "lane": "psychology_inputs",
@@ -6218,6 +7358,76 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "modern_literature/narrative_pattern_validation_notes.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_a_practical_guide_to_risk_management_869cf85ffcb3_md",
+      "label": "A Practical Guide to Risk Management",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/a_practical_guide_to_risk_management_869cf85ffcb3.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_a_precipice_below_which_lies_absurdity_theories_without_a_spacetime_and_scie",
+      "label": "A precipice below which lies absurdity? Theories without a spacetime and scientific understanding",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/a_precipice_below_which_lies_absurdity_theories_without_a_spacetime_and_scientif_19b480dd8dbd.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_bias_against_novelty_in_science_a_cautionary_tale_for_users_of_bibliometric_",
+      "label": "Bias against novelty in science: A cautionary tale for users of bibliometric indicators",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/bias_against_novelty_in_science_a_cautionary_tale_for_users_of_bibliometric_indi_17faa4e669f4.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_deterministic_quantum_mechanics_the_mathematical_equations_9bfa5bed54c1_md",
+      "label": "Deterministic Quantum Mechanics: The Mathematical Equations",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/deterministic_quantum_mechanics_the_mathematical_equations_9bfa5bed54c1.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_",
+      "label": "Promoting novelty, rigor, and style in energy social science: Towards codes of practice for appropriate methods and research design",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_prac_773155b36f64.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_the_ipcc_ar5_guidance_note_on_consistent_treatment_of_uncertainties_a_common",
+      "label": "The IPCC AR5 guidance note on consistent treatment of uncertainties: a common approach across the working groups",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/the_ipcc_ar5_guidance_note_on_consistent_treatment_of_uncertainties_a_common_app_f8068aa63074.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_the_third_generation_of_gravitational_wave_observatories_and_their_science_r",
+      "label": "The third generation of gravitational wave observatories and their science reach",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/the_third_generation_of_gravitational_wave_observatories_and_their_science_reach_888e61b9ffe5.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -6348,6 +7558,16 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/answered_prayer_ambiguity_test.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_early_franciscan_theology_between_authority_and_innovation_829dc47ac420_md",
+      "label": "Early Franciscan Theology: Between Authority and Innovation",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/early_franciscan_theology_between_authority_and_innovation_829dc47ac420.md",
       "review_note_count": 1,
       "type": "document"
     },

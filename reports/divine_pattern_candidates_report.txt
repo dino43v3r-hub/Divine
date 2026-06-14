@@ -16,73 +16,73 @@ Candidate Rankings
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 15,175
+Layer signal total: 15,169
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 5,626 (high internal signal)
-- Meaning And Logos: 6,106 (high internal signal)
-- Moral Response: 2,313 (high internal signal)
-- Worship And Community: 1,130 (high internal signal)
+- Life And Consciousness: 5,629 (high internal signal)
+- Meaning And Logos: 6,102 (high internal signal)
+- Moral Response: 2,309 (high internal signal)
+- Worship And Community: 1,129 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
 2. Providence And Contingency Pattern
 -------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 14,628
+Layer signal total: 14,660
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 2,585 (high internal signal)
-- Quantum Probability: 311 (moderate internal signal)
-- Life And Consciousness: 5,626 (high internal signal)
-- Meaning And Logos: 6,106 (high internal signal)
+- Physical Order: 2,589 (high internal signal)
+- Quantum Probability: 340 (moderate internal signal)
+- Life And Consciousness: 5,629 (high internal signal)
+- Meaning And Logos: 6,102 (high internal signal)
 Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
 Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
 
 3. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 10,855
+Layer signal total: 10,840
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 2,585 (high internal signal)
-- Meaning And Logos: 6,106 (high internal signal)
-- Transformation: 2,164 (high internal signal)
+- Physical Order: 2,589 (high internal signal)
+- Meaning And Logos: 6,102 (high internal signal)
+- Transformation: 2,149 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
 Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
 
 4. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 11,654
+Layer signal total: 11,656
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 2,585 (high internal signal)
-- Life And Consciousness: 5,626 (high internal signal)
-- Moral Response: 2,313 (high internal signal)
-- Worship And Community: 1,130 (high internal signal)
+- Physical Order: 2,589 (high internal signal)
+- Life And Consciousness: 5,629 (high internal signal)
+- Moral Response: 2,309 (high internal signal)
+- Worship And Community: 1,129 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
 5. Cross And Reversal Pattern
 -----------------------------
 Status: high internal signal; not proof
-Layer signal total: 10,583
+Layer signal total: 10,560
 Layers present: 3/3
 Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
 Layer support:
-- Meaning And Logos: 6,106 (high internal signal)
-- Moral Response: 2,313 (high internal signal)
-- Transformation: 2,164 (high internal signal)
+- Meaning And Logos: 6,102 (high internal signal)
+- Moral Response: 2,309 (high internal signal)
+- Transformation: 2,149 (high internal signal)
 Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
 Risk to avoid: Do not romanticize suffering or ignore injustice.
 

@@ -15,8 +15,8 @@
     "visual_art",
     "psychology_inputs",
     "cultural_inputs",
-    "deep_sources",
-    "pattern_tests"
+    "pattern_tests",
+    "deep_sources"
   ],
   "purpose": "Feed report recommendations back into the next internet_source_collector.py run.",
   "query_modifiers": [
@@ -84,13 +84,13 @@
       "tag": "technology_ethics"
     },
     {
-      "query": "math, statistics, science, suffering, and counterargument guardrails primary source counterargument",
-      "reason": "deep_sources is a priority lane for the next collector run.",
-      "tag": "quantum_science_guardrails"
+      "query": "pressure tests that challenge claims without becoming the whole project primary source counterargument",
+      "reason": "pattern_tests is a priority lane for the next collector run.",
+      "tag": "unresolved_suffering"
     },
     {
-      "query": "math, statistics, science, suffering, and counterargument guardrails primary source counterargument",
-      "reason": "deep_sources is a priority lane for the next collector run.",
+      "query": "pressure tests that challenge claims without becoming the whole project primary source counterargument",
+      "reason": "pattern_tests is a priority lane for the next collector run.",
       "tag": "general_research_methods"
     },
     {
@@ -166,5 +166,5 @@
     "Trinity-As-Behavior Pattern",
     "Providence And Contingency Pattern"
   ],
-  "updated_at": "2026-06-14T04:13:24.297300+00:00"
+  "updated_at": "2026-06-14T04:43:22.144629+00:00"
 }
