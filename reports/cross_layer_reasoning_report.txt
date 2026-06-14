@@ -93,7 +93,7 @@ Layer Convergence Across All Sources
 - Life And Consciousness: 6,614 (high internal signal)
 - Meaning And Logos: 8,858 (high internal signal)
 - Moral Response: 5,034 (high internal signal)
-- Worship And Community: 4,025 (high internal signal)
+- Worship And Community: 4,026 (high internal signal)
 - Transformation: 5,050 (high internal signal)
 
 Meaning Movement Across All Sources
@@ -102,7 +102,7 @@ Meaning Movement Across All Sources
 - Alienation And Lament: 2,330
 - Desire And Longing: 3,586
 - Moral Confrontation: 3,753
-- Communal Practice: 2,959
+- Communal Practice: 2,960
 - Transformation And Hope: 4,141
 
 Synthesis Depth Results

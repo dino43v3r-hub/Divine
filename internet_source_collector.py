@@ -712,7 +712,8 @@ def render_auto_imported_candidate_note(source: dict, run_at: str):
         "- Check the original source beyond title, abstract, snippet, or search metadata.",
         "- Identify author expertise, venue, date, publication context, and source type.",
         "- Write the smallest claim the source actually supports.",
-        "- Name at least one counter-reading or rival explanation.",
+        "- Name at least one serious rival counter-reading, not only a weak or convenient objection.",
+        "- If this becomes a practical claim, answer: does this help people become more truthful, loving, humble, just, worshipful, patient, and faithful?",
         "- Keep confidence effect as none until this note is manually reviewed.",
     ]
 

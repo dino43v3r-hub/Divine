@@ -69,7 +69,7 @@ Shared Divine-Pattern Layers
 - Life And Consciousness: lyrics 38 | religious corpus 5,626
 - Meaning And Logos: lyrics 47 | religious corpus 6,106
 - Moral Response: lyrics 62 | religious corpus 2,313
-- Worship And Community: lyrics 62 | religious corpus 1,129
+- Worship And Community: lyrics 62 | religious corpus 1,130
 - Transformation: lyrics 57 | religious corpus 2,164
 
 Shared Theme Signals
@@ -87,7 +87,7 @@ Shared Theme Signals
 - Mathematics and Intelligibility: lyrics 6 | religious corpus 1,148
 - Mathematical Theophany: lyrics 7 | religious corpus 932
 - Quantum Physics and Uncertainty: lyrics 0 | religious corpus 272
-- Anthropology and Culture: lyrics 0 | religious corpus 1,140
+- Anthropology and Culture: lyrics 0 | religious corpus 1,142
 - AI and Pattern Recognition: lyrics 17 | religious corpus 653
 - Philosophy and Meaning: lyrics 0 | religious corpus 3,119
 

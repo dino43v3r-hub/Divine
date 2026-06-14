@@ -43,7 +43,7 @@ Corpus Summary
 - Indexed text documents: 181
 - Indexed media assets: 0
 - Graph nodes: 213
-- Graph edges: 924
+- Graph edges: 925
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
@@ -53,7 +53,7 @@ Reviewer: Which leading patterns are showing up most often?
 Backend: Image Of God Pattern (9), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
 
 Reviewer: Which review rules are most visible?
-Backend: discernment (153), practical_use (148), counter_reading (138), failure_condition (88).
+Backend: discernment (153), practical_use (149), counter_reading (138), failure_condition (88).
 
 Lane Coverage
 -------------
@@ -96,7 +96,7 @@ Backend: They tell us where the project is learning caution. Missing rules mark 
 - interpretation: 27 documents
 - discernment: 153 documents
 - analogy: 45 documents
-- practical_use: 148 documents
+- practical_use: 149 documents
 - counter_reading: 138 documents
 - failure_condition: 88 documents
 - machine_label_boundary: 15 documents

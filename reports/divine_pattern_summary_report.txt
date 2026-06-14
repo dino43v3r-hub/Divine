@@ -167,7 +167,7 @@ Layer support in brief:
 - Life And Consciousness: high internal signal (6,471 signals)
 - Meaning And Logos: high internal signal (8,632 signals)
 - Moral Response: high internal signal (4,785 signals)
-- Worship And Community: high internal signal (3,732 signals)
+- Worship And Community: high internal signal (3,733 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -206,7 +206,7 @@ Layer support in brief:
 - Physical Order: high internal signal (3,127 signals)
 - Life And Consciousness: high internal signal (6,471 signals)
 - Moral Response: high internal signal (4,785 signals)
-- Worship And Community: high internal signal (3,732 signals)
+- Worship And Community: high internal signal (3,733 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -254,7 +254,7 @@ Research Detail For The Five Patterns
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 23,620
+Layer signal total: 23,621
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
@@ -262,7 +262,7 @@ Layer support:
 - Life And Consciousness: 6,471 (high internal signal)
 - Meaning And Logos: 8,632 (high internal signal)
 - Moral Response: 4,785 (high internal signal)
-- Worship And Community: 3,732 (high internal signal)
+- Worship And Community: 3,733 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
@@ -283,7 +283,7 @@ Risk to avoid: Do not romanticize suffering or ignore injustice.
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 18,115
+Layer signal total: 18,116
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
@@ -291,7 +291,7 @@ Layer support:
 - Physical Order: 3,127 (high internal signal)
 - Life And Consciousness: 6,471 (high internal signal)
 - Moral Response: 4,785 (high internal signal)
-- Worship And Community: 3,732 (high internal signal)
+- Worship And Community: 3,733 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
@@ -432,7 +432,7 @@ Practice loop:
 - Review: look for fruit over time: love, truth, humility, justice, patience, and hope.
 Use it for family conflict, work, grief, spiritual gifts, interreligious encounter, justice, creativity, and pattern perception; review the fruit before strengthening the claim.
 - Trinitarian signal: strong Trinitarian signal
-- Father: 3,724
+- Father: 3,725
 - Son: 6,740
 - Holy Spirit: 1,857
 

@@ -560,6 +560,11 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_cloud_reference_review_checklist_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_cloud_reference_review_checklist_md",
       "target": "rule:counter_reading"
     },
     {
@@ -616,16 +621,6 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_cloud_references_summary_md",
       "target": "rule:practical_use"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_cloud_references_summary_md",
-      "target": "rule:counter_reading"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_cloud_references_summary_md",
-      "target": "rule:failure_condition"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -691,6 +686,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:interpretation"
     },
     {
       "relation": "satisfies_or_mentions_rule",

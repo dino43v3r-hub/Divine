@@ -179,6 +179,11 @@ These generated files are written under each candidate's primary lane in an
 is explicitly `auto-imported cloud candidate; not human-reviewed evidence`.
 They should still be manually reviewed before they strengthen a claim.
 
+Before any candidate strengthens a claim, the review must include serious rival
+counter-readings. For practical claims, the review must answer: does this help
+people become more truthful, loving, humble, just, worshipful, patient, and
+faithful?
+
 ### Broad Web Search
 
 By default, the collector searches scholarly/indexed sources:

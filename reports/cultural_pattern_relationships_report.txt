@@ -54,7 +54,7 @@ Shared Divine-Pattern Layers
 - Life And Consciousness: cultural inputs 46 | religious/science corpus 5,626
 - Meaning And Logos: cultural inputs 62 | religious/science corpus 6,106
 - Moral Response: cultural inputs 84 | religious/science corpus 2,313
-- Worship And Community: cultural inputs 69 | religious/science corpus 1,129
+- Worship And Community: cultural inputs 69 | religious/science corpus 1,130
 - Transformation: cultural inputs 79 | religious/science corpus 2,164
 
 Per-Domain Findings

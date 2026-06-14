@@ -54,7 +54,7 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Evidence Versus Discernment
 ---------------------------
 - Evidence: source-located support from texts, history, languages, art, psychology, statistics, theology, testimony, or pressure tests.
-- Reviewed evidence: evidence checked against source quality, counter-readings, lane balance, and claim boundaries.
+- Reviewed evidence: evidence checked against source quality, serious rival counter-readings, lane balance, and claim boundaries.
 - Theological interpretation: a Christian reading shaped by scripture, doctrine, tradition, reason, and worship.
 - Discernment: prayerful, communal, morally accountable interpretation for faithful response.
 - Practical theology: the pattern tested in ordinary life by fruit, love, justice, truth, humility, and care.
@@ -91,7 +91,7 @@ Layer support in brief:
 - Life And Consciousness: high internal signal (6,530 signals)
 - Meaning And Logos: high internal signal (8,733 signals)
 - Moral Response: high internal signal (4,888 signals)
-- Worship And Community: high internal signal (3,878 signals)
+- Worship And Community: high internal signal (3,879 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -130,7 +130,7 @@ Layer support in brief:
 - Physical Order: high internal signal (3,272 signals)
 - Life And Consciousness: high internal signal (6,530 signals)
 - Moral Response: high internal signal (4,888 signals)
-- Worship And Community: high internal signal (3,878 signals)
+- Worship And Community: high internal signal (3,879 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -191,7 +191,7 @@ Guardrails For A Careful Reader
 4. Do not flatten other religions into Christian language without listening to their own claims.
 5. Do not call something the Holy Spirit if it produces coercion, pride, fear, or harm.
 6. Do not strengthen a claim until weak source lanes have been developed.
-7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today.
+7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today, and whether the practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.
 
 
 Research Detail: Pattern Families
@@ -200,7 +200,7 @@ Research Detail: Pattern Families
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 24,029
+Layer signal total: 24,030
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
@@ -208,7 +208,7 @@ Layer support:
 - Life And Consciousness: 6,530 (high internal signal)
 - Meaning And Logos: 8,733 (high internal signal)
 - Moral Response: 4,888 (high internal signal)
-- Worship And Community: 3,878 (high internal signal)
+- Worship And Community: 3,879 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
@@ -229,7 +229,7 @@ Risk to avoid: Do not romanticize suffering or ignore injustice.
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 18,568
+Layer signal total: 18,569
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
@@ -237,7 +237,7 @@ Layer support:
 - Physical Order: 3,272 (high internal signal)
 - Life And Consciousness: 6,530 (high internal signal)
 - Moral Response: 4,888 (high internal signal)
-- Worship And Community: 3,878 (high internal signal)
+- Worship And Community: 3,879 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
@@ -390,6 +390,7 @@ Assistant Behavior Rules
 5. Keep gifts of the Holy Spirit accountable to love, truth, humility, community, and fruit.
 6. Keep math, statistics, logic, and physics as discipline filters, not shortcuts to proof.
 7. Translate patterns into practice only with safeguards against control, denial, abuse, and spiritual bypass.
+8. Every practical claim must answer: does this help people become truthful, loving, humble, just, worshipful, patient, and faithful?
 
 One-Sentence Operating Summary
 ------------------------------

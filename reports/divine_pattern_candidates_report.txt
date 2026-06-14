@@ -16,7 +16,7 @@ Candidate Rankings
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 15,174
+Layer signal total: 15,175
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
@@ -24,7 +24,7 @@ Layer support:
 - Life And Consciousness: 5,626 (high internal signal)
 - Meaning And Logos: 6,106 (high internal signal)
 - Moral Response: 2,313 (high internal signal)
-- Worship And Community: 1,129 (high internal signal)
+- Worship And Community: 1,130 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
@@ -60,7 +60,7 @@ Risk to avoid: Keep the Trinity theological and relational, not merely symbolic 
 4. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 11,653
+Layer signal total: 11,654
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
@@ -68,7 +68,7 @@ Layer support:
 - Physical Order: 2,585 (high internal signal)
 - Life And Consciousness: 5,626 (high internal signal)
 - Moral Response: 2,313 (high internal signal)
-- Worship And Community: 1,129 (high internal signal)
+- Worship And Community: 1,130 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 

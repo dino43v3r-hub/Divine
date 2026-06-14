@@ -4640,7 +4640,7 @@ def append_growth_plan_section(
     lines.extend(
         [
             "",
-            "Growth rule: the next version should become less impressed by repeated signals and more disciplined about reviewed sources, counter-readings, and whether the pattern produces truthful love, justice, humility, worship, and repair.",
+            "Growth rule: the next version should become less impressed by repeated signals and more disciplined about reviewed sources, serious rival counter-readings, and whether every practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.",
             "",
         ]
     )
@@ -5075,7 +5075,7 @@ def append_reader_guardrails(lines):
             "4. Do not flatten other religions into Christian language without listening to their own claims.",
             "5. Do not call something the Holy Spirit if it produces coercion, pride, fear, or harm.",
             "6. Do not strengthen a claim until weak source lanes have been developed.",
-            "7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today.",
+            "7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today, and whether the practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.",
             "",
         ]
     )
@@ -5485,7 +5485,7 @@ def create_disciplined_theological_assistant_report(
         "Evidence Versus Discernment",
         "---------------------------",
         "- Evidence: source-located support from texts, history, languages, art, psychology, statistics, theology, testimony, or pressure tests.",
-        "- Reviewed evidence: evidence checked against source quality, counter-readings, lane balance, and claim boundaries.",
+        "- Reviewed evidence: evidence checked against source quality, serious rival counter-readings, lane balance, and claim boundaries.",
         "- Theological interpretation: a Christian reading shaped by scripture, doctrine, tradition, reason, and worship.",
         "- Discernment: prayerful, communal, morally accountable interpretation for faithful response.",
         "- Practical theology: the pattern tested in ordinary life by fruit, love, justice, truth, humility, and care.",
@@ -5536,6 +5536,7 @@ def create_disciplined_theological_assistant_report(
             "5. Keep gifts of the Holy Spirit accountable to love, truth, humility, community, and fruit.",
             "6. Keep math, statistics, logic, and physics as discipline filters, not shortcuts to proof.",
             "7. Translate patterns into practice only with safeguards against control, denial, abuse, and spiritual bypass.",
+            "8. Every practical claim must answer: does this help people become truthful, loving, humble, just, worshipful, patient, and faithful?",
             "",
             "One-Sentence Operating Summary",
             "------------------------------",

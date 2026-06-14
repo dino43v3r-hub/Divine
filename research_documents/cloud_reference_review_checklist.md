@@ -14,7 +14,10 @@ candidate before it increases confidence in the pattern.
 3. Source type: classify as primary source, peer-reviewed scholarship, book,
    public theology, pastoral source, news, search result, or speculative source.
 4. Claim scope: write the smallest claim the source actually supports.
-5. Counterargument: name at least one rival reading or limitation.
+5. Counterargument: name at least one serious rival reading or limitation,
+   preferably from a qualified critic, another tradition, historical-critical
+   reading, scientific explanation, psychology/sociology, trauma-informed
+   reading, or harmed-community perspective.
 6. Tradition and context: note religious tradition, language, era, genre, and
    community context.
 7. Copyright safety: store metadata, summaries, and short notes rather than
@@ -25,6 +28,9 @@ candidate before it increases confidence in the pattern.
    before the candidate can shape synthesis.
 10. Pressure-test effect: record whether this source survives, complicates,
     weakens, or breaks the current pattern claim.
+11. Practical-fruit question: if the source is used for a practical claim,
+    answer directly: does this help people become more truthful, loving,
+    humble, just, worshipful, patient, and faithful?
 
 ## Review Labels
 
@@ -46,9 +52,11 @@ A routed daily reference can be promoted only when the reviewer can state:
 
 - The source has been checked beyond search metadata.
 - The claim being supported is narrow and source-specific.
-- At least one counter-reading or limitation has been recorded.
+- At least one serious rival counter-reading or limitation has been recorded.
 - Any relevant unresolved-suffering, science, language, tradition, or historical
   pressure test has been considered.
+- Any practical claim has answered the truthful/loving/humble/just/worshipful/
+  patient/faithful fruit question.
 - If the pressure test does not hold, the pattern is revised or weakened instead
   of the evidence label being strengthened.
 

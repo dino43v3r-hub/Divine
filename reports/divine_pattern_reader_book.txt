@@ -92,7 +92,7 @@ Quantum Probability           #...........................      347  moderate in
 Life And Consciousness        #####################.......    6,530  high internal signal
 Meaning And Logos             ############################    8,733  high internal signal
 Moral Response                ################............    4,888  high internal signal
-Worship And Community         ############................    3,878  high internal signal
+Worship And Community         ############................    3,879  high internal signal
 Transformation                ################............    4,874  high internal signal
 
 Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as possible signs of divine self-disclosure, while keeping alternative explanations visible.
@@ -103,13 +103,13 @@ Use this as the table of contents for the argument. Each chapter has a main move
 
 No.  Pattern Family                 Signal   Status
 ---  --------------                 ------   ------
-1    Image Of God Pattern            24,029  high internal signal; not proof
+1    Image Of God Pattern            24,030  high internal signal; not proof
      Movement: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
      Test: Do not collapse the image of God into intelligence alone.
 2    Cross And Reversal Pattern      18,495  high internal signal; not proof
      Movement: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
      Test: Do not romanticize suffering or ignore injustice.
-3    Creation-To-Consciousness P...  18,568  high internal signal; not proof
+3    Creation-To-Consciousness P...  18,569  high internal signal; not proof
      Movement: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
      Test: Avoid implying a simple linear proof from physics to worship.
 4    Trinity-As-Behavior Pattern     16,879  high internal signal; not proof
@@ -168,7 +168,7 @@ Layer support in brief:
 - Life And Consciousness: high internal signal (6,530 signals)
 - Meaning And Logos: high internal signal (8,733 signals)
 - Moral Response: high internal signal (4,888 signals)
-- Worship And Community: high internal signal (3,878 signals)
+- Worship And Community: high internal signal (3,879 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -207,7 +207,7 @@ Layer support in brief:
 - Physical Order: high internal signal (3,272 signals)
 - Life And Consciousness: high internal signal (6,530 signals)
 - Moral Response: high internal signal (4,888 signals)
-- Worship And Community: high internal signal (3,878 signals)
+- Worship And Community: high internal signal (3,879 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -398,7 +398,7 @@ Guardrails For A Careful Reader
 4. Do not flatten other religions into Christian language without listening to their own claims.
 5. Do not call something the Holy Spirit if it produces coercion, pride, fear, or harm.
 6. Do not strengthen a claim until weak source lanes have been developed.
-7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today.
+7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today, and whether the practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.
 
 
 What This Needs To Grow
@@ -430,7 +430,7 @@ What it needs to clarify before claiming a divine pattern:
 - Expand reviewed source packs from 12 current packs toward one pack per major claim and one pack per top pattern.
 - Convert automated evidence labels into human review decisions; machine scores should route attention, not settle truth.
 
-Growth rule: the next version should become less impressed by repeated signals and more disciplined about reviewed sources, counter-readings, and whether the pattern produces truthful love, justice, humility, worship, and repair.
+Growth rule: the next version should become less impressed by repeated signals and more disciplined about reviewed sources, serious rival counter-readings, and whether every practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.
 
 Closing Practical Rule
 ----------------------

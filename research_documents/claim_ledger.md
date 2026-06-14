@@ -41,11 +41,16 @@ theological interpretation, discernment, analogy, and practical use.
 No claim moves to `reviewed_evidence` unless it has:
 
 - source-specific notes,
-- at least one counter-reading,
+- at least one serious rival counter-reading,
 - lane balance checks,
 - a pressure-test result,
 - cautious confidence language,
 - a practical-theology boundary when applied to daily life.
+
+Any practical claim must also answer this question before strengthening:
+
+Does this help people become more truthful, loving, humble, just, worshipful,
+patient, and faithful?
 
 ## Major-Claim Clarification Rule
 

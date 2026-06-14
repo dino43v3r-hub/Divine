@@ -59,16 +59,16 @@ Shared Divine-Pattern Layers
 - Life And Consciousness: music notes 0 | religious/science corpus 5,626
 - Meaning And Logos: music notes 16 | religious/science corpus 6,106
 - Moral Response: music notes 0 | religious/science corpus 2,313
-- Worship And Community: music notes 16 | religious/science corpus 1,129
+- Worship And Community: music notes 16 | religious/science corpus 1,130
 - Transformation: music notes 40 | religious/science corpus 2,164
 
 Relevant Research Domains
 -------------------------
 - Philosophy Of Mathematics: corpus signal 544
 - Physics And Quantum Mechanics: corpus signal 1,599
-- Philosophy Of Science: corpus signal 2,804
+- Philosophy Of Science: corpus signal 2,805
 - Cognitive Science: corpus signal 993
-- Anthropology And Psychology Of Worship: corpus signal 565
+- Anthropology And Psychology Of Worship: corpus signal 567
 
 Per-Composition Findings
 ------------------------
