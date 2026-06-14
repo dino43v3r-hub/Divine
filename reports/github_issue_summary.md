@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-14T03:40:45.026508+00:00
+Generated: 2026-06-14T03:59:56.239353+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,7 +16,7 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-14 03:40 UTC_
+_Generated: 2026-06-14 03:59 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -34,9 +34,29 @@ The backend is useful, but it is not the judge. It retrieves and organizes. Huma
 
 ## Current Corpus At A Glance
 
+### Latest Cloud Discovery
+
+- Retained cloud candidate references: 4,429
+- Brand-new candidate references this run: 768
+- New provider mix: Crossref: 413, OpenAlex: 308, arXiv: 30, PubMed: 10, Internet Archive: 7
+- New routed layers: deep_sources: 272, human_stories: 267, pattern_tests: 230, theologians: 193, psychology_inputs: 188, cultural_inputs: 185
+- Media candidates this run: video: 39, podcast: 34, image: 22
+- Discovery pagination: run index 691 across 12 page window(s)
+- Latest collector update: 2026-06-14T03:59:01.979443+00:00
+
+Newest cloud candidates:
+
+- Preliminary Material (2024) | Crossref | tags: trinity | routes: theologians, research_documents
+- Infinite Simplicity (2024) | Crossref | tags: trinity | routes: theologians, research_documents
+- Political Theology and the Theology of Politics: Carl Schmitt and Medieval Political Thought (2007) | OpenAlex | tags: trinity | routes: theologians, research_documents
+- A missional hermeneutic for the transformation of theological education in Africa (2019) | OpenAlex | tags: trinity | routes: theologians, research_documents
+- George Grant and the theology of the cross : the Christian foundations of his thought (1997) | OpenAlex | tags: art_beauty, history_memory, trinity | routes: visual_art, cultural_inputs, history_inputs, theologians, research_documents
+
+### Local Reviewed Corpus
+
 - Indexed documents: 181
 - Graph nodes: 213
-- Graph edges: 923
+- Graph edges: 924
 - Indexed text documents: 181
 - Indexed media assets: 0
 - Multimodal assets needing review: {}
@@ -73,25 +93,5 @@ A repeated signal is not proof. A beautiful analogy is not revelation. A scienti
 
 ### Cross And Reversal Pattern
 
-**What it says:** The cross is read as God's judgment on violent power and God's mercy for wounded people.
-
-**Why it matters:** It is strongest when passion texts, trauma theology, liberation theology, martyr memory, and abuse-pressure cases are read together.
-
-**What would weaken it:** It collapses if suffering is romanticized, if victims are asked to forgive without justice, or if cross-language protects perpetrators.
-
-**Practical response:** The faithful response is truth with boundaries: name harm, protect victims, seek repair, and let hope arrive without silencing lament.
-
-### Creation-To-Consciousness Pattern
-
-**What it says:** Creation, life, mind, moral awareness, and worship are explored as layered gifts.
-
-**Why it matters:** It is strongest when creation texts, ecology, disability theology, philosophy of mind, and science guardrails are held together.
-
-**What would weaken it:** It weakens if science becomes proof, consciousness becomes superiority, animal suffering is ignored, or disabled people are treated as lesser images of God.
-
-**Practical response:** The faithful response is wonder without domination: care for bodies, honor creaturely limits, protect creation, and worship without contempt for weakness.
-
-### Trinity-As-Behavior Pattern
-
-_Full report has 136 lines. Open the linked report above to read everything._
+_Full report has 156 lines. Open the linked report above to read everything._
 ```
