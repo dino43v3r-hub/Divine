@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-14T02:53:06.910666+00:00
+Generated: 2026-06-14T03:26:01.649793+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,7 +16,7 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-14 02:53 UTC_
+_Generated: 2026-06-14 03:26 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -36,7 +36,7 @@ The backend is useful, but it is not the judge. It retrieves and organizes. Huma
 
 - Indexed documents: 181
 - Graph nodes: 213
-- Graph edges: 926
+- Graph edges: 925
 - Indexed text documents: 181
 - Indexed media assets: 0
 - Multimodal assets needing review: {}

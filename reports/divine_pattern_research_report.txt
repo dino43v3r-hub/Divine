@@ -11,37 +11,37 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Overview
 --------
 Documents analyzed: 51
-Total analyzed words: 768,896
+Total analyzed words: 761,940
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Theme Signals
 -------------
-- God and Divine Attributes: 25,328
-- Theology and Logos: 6,238
-- Creation and Order: 6,132
-- Jesus and Christology: 5,491
-- Moral Transformation: 3,163
-- Philosophy and Meaning: 3,117
-- Physics and Natural Law: 3,066
-- Faith and Trust: 1,656
-- Anthropology and Culture: 1,542
-- Spirituality and Worship: 1,445
-- Mathematics and Intelligibility: 1,248
-- Mathematical Theophany: 1,096
-- Holy Spirit and Pneumatology: 984
-- AI and Pattern Recognition: 907
-- Quantum Physics and Uncertainty: 130
-- Biology and Neuroscience: 95
+- God and Divine Attributes: 25,344
+- Theology and Logos: 6,157
+- Creation and Order: 6,052
+- Jesus and Christology: 5,493
+- Philosophy and Meaning: 3,115
+- Physics and Natural Law: 3,080
+- Moral Transformation: 3,066
+- Faith and Trust: 1,742
+- Spirituality and Worship: 1,400
+- Anthropology and Culture: 1,160
+- Mathematics and Intelligibility: 1,131
+- Holy Spirit and Pneumatology: 1,005
+- Mathematical Theophany: 926
+- AI and Pattern Recognition: 661
+- Quantum Physics and Uncertainty: 270
+- Biology and Neuroscience: 94
 
 Trinitarian Pattern Lens
 ------------------------
 Signal: strong Trinitarian signal
 The analyzer treats Father, Son, and Holy Spirit as distinct persons and one God. It looks for each person separately, then checks whether the corpus keeps them relationally connected.
-- Father: 3,909
+- Father: 3,729
   Role: Source, Creator, giver of being, providential care, and holy authority.
-- Son: 6,740
+- Son: 6,743
   Role: Word/Logos, revelation, incarnation, redemption, reconciliation, and resurrection.
-- Holy Spirit: 1,837
+- Holy Spirit: 1,861
   Role: Living presence, conviction, gifts, communion, sanctification, and transformation.
 
 Trinitarian Evidence Samples
@@ -79,20 +79,20 @@ Trinitarian Co-Presence Samples
 Meaning Guardrails
 ------------------
 The analyzer now checks whether a pattern has contextual movement, not only repeated vocabulary.
-- Creation And Order: 5,979
-- Transformation And Hope: 3,660
-- Moral Confrontation: 3,417
-- Desire And Longing: 3,316
-- Communal Practice: 2,451
-- Alienation And Lament: 2,089
+- Creation And Order: 5,801
+- Transformation And Hope: 3,659
+- Desire And Longing: 3,311
+- Moral Confrontation: 3,250
+- Communal Practice: 2,435
+- Alienation And Lament: 2,051
 
 Source Review Guardrails
 ------------------------
-- Scholarly Or Scientific Source: 929
-- Primary Or Classical Source: 388
-- Practical Lived Source: 330
+- Scholarly Or Scientific Source: 875
+- Primary Or Classical Source: 345
+- Practical Lived Source: 270
 - Unreviewed Cloud Reference: 46
-- Speculative Source: 42
+- Speculative Source: 45
 - Reviewed Cloud Reference: 5
 - Cloud references are candidate leads until reviewed against the original source, author qualifications, publication context, and counterarguments.
 
@@ -102,23 +102,23 @@ Model: Physical Order -> Mathematical Structure -> Mathematical Theophany -> Qua
 The corpus contains evidence across every layer of the proposed model. This supports treating layered convergence as a serious research hypothesis, not as proof of divine reality.
 
 Layer Scores:
-- Physical Order: 2,563 (high internal signal)
+- Physical Order: 2,576 (high internal signal)
   Test: Is reality described as ordered, law-like, created, or providential?
-- Mathematical Structure: 620 (moderate internal signal)
+- Mathematical Structure: 627 (moderate internal signal)
   Test: Does the corpus connect reality with mathematical or logical intelligibility?
-- Mathematical Theophany: 1,452 (high internal signal)
+- Mathematical Theophany: 1,283 (high internal signal)
   Test: Can mathematical order, pattern, symmetry, logic, infinity, or beauty be read cautiously as possible signs of divine self-disclosure while rival explanations remain in view?
-- Quantum Probability: 162 (early signal)
+- Quantum Probability: 303 (moderate internal signal)
   Test: Does the corpus include disciplined uncertainty rather than simple determinism?
-- Life And Consciousness: 5,789 (high internal signal)
+- Life And Consciousness: 5,646 (high internal signal)
   Test: Does the corpus connect ordered reality with life, mind, or personhood?
-- Meaning And Logos: 6,199 (high internal signal)
+- Meaning And Logos: 6,119 (high internal signal)
   Test: Does the corpus connect intelligibility with meaning, Logos, wisdom, or truth?
-- Moral Response: 2,419 (high internal signal)
+- Moral Response: 2,324 (high internal signal)
   Test: Does the corpus connect meaning with moral accountability or response?
-- Worship And Community: 1,157 (high internal signal)
+- Worship And Community: 1,129 (high internal signal)
   Test: Does the corpus connect belief with embodied practice and community?
-- Transformation: 2,144 (high internal signal)
+- Transformation: 2,163 (high internal signal)
   Test: Does the corpus connect divine presence with personal or communal change?
 
 Layer Evidence Samples
@@ -180,18 +180,18 @@ Transformation
 
 Hypothesis Test Domains
 -----------------------
-- Historical Theology: 6,943 (strongly represented)
-- Scripture And Early Christian Logos: 3,276 (strongly represented)
-- Philosophy Of Science: 2,801 (strongly represented)
-- Physics And Quantum Mechanics: 1,417 (strongly represented)
-- History And Cultural Memory: 1,348 (strongly represented)
-- Visual Art And Symbol: 1,300 (strongly represented)
-- Mathematical Theophany: 1,096 (strongly represented)
-- Cognitive Science: 1,002 (strongly represented)
-- World Languages And Translation: 880 (strongly represented)
-- Anthropology And Psychology Of Worship: 608 (strongly represented)
-- Philosophy Of Mathematics: 537 (strongly represented)
-- Biblical Greek And Hebrew: 431 (represented)
+- Historical Theology: 7,019 (strongly represented)
+- Scripture And Early Christian Logos: 3,275 (strongly represented)
+- Philosophy Of Science: 2,807 (strongly represented)
+- Physics And Quantum Mechanics: 1,567 (strongly represented)
+- History And Cultural Memory: 1,263 (strongly represented)
+- Visual Art And Symbol: 1,015 (strongly represented)
+- Cognitive Science: 993 (strongly represented)
+- Mathematical Theophany: 926 (strongly represented)
+- World Languages And Translation: 762 (strongly represented)
+- Anthropology And Psychology Of Worship: 580 (strongly represented)
+- Philosophy Of Mathematics: 542 (strongly represented)
+- Biblical Greek And Hebrew: 430 (represented)
 
 Repeated Terms
 --------------
@@ -292,8 +292,8 @@ God and Divine Attributes
 - cross_layer_source_specific_casebook.md: ## Case 4: Gifts Of The Holy Ghost Across Cultures  - Theologian lane: gifts must be ordered by love, fruit, doctrine, and communal   discernment.
 - daily_cloud_reference_review_log.md: - Counterargument: technical quantum work does not support vague claims about   prayer, consciousness, or God.
 - daily_cloud_reference_review_log.md: ### Melanchthon and Patristic Thought  - Queue route: theologians, christian sources - Current label: candidate_lead_only - Reason: Metadata suggests relevance to Reformation reception of patristic   Christ, grace, Trinity, and creation themes, but no summary was available.
-- daily_evaluation_queue.md: - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests, history_inputs, all_texts, other_religio
-- daily_evaluation_queue.md: ### The Theology of the Arts  - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_stories, cultural_inputs, pattern_test
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### Father, Son and the Holy Spirit  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians 
+- daily_evaluation_queue.md: ### “Father, Son, and Holy Spirit”  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians - Provider: Crossref - Quality:
 - divine_pattern_concept.md: The broader vision is not about creating a digital god.
 - evidence_discernment_distinction.md: It asks what the pattern may mean before God and how a person or community should respond.
 - evidence_discernment_distinction.md: It may say, for example, that Christians interpret order, Logos, moral response, and transformation through Father, Son, and Holy Spirit.
@@ -360,13 +360,13 @@ Faith and Trust
 - cloud_reference_review_checklist.md: Confidence effect: mark whether the source can increase confidence, only    generate questions, or should be rejected.
 - cloud_reference_review_policy.md: Evidence rule:  Unreviewed cloud references can suggest research questions, but they should not increase confidence in a divine pattern.
 - cloud_reference_review_policy.md: It does not make the source reviewed evidence, does not increase confidence, and does not bypass original-source, author, publication-context, or counterargument checks.
-- cloud_references_summary.md: ## The African American Christian Tradition  - Tags: world_language_source_sampling - Layer routes: world_languages, all_texts, other_religious_texts - Primary layer: world_languages - Provider: Crossref - Quality: scholarly metadata - Media kind: none - Requires multimodal revie
-- cloud_references_summary.md: - Tags: world_language_source_sampling - Layer routes: world_languages, all_texts, other_religious_texts, visual_art - Primary layer: world_languages - Provider: Europe PMC - Quality: scholarly metadata - Media kind: none - Requires multimodal review: False - Automated evidence: 
+- cloud_references_summary.md: ## Conceptual Metaphor in Cognitive Semantics  - Tags: world_languages_translation - Layer routes: world_languages, all_texts, psychology_inputs - Primary layer: world_languages - Provider: Crossref - Quality: scholarly metadata - Media kind: none - Requires multimodal review: Fa
+- cloud_references_summary.md: ## Conceptual metaphor as exegetical tool in the Psalter: a case study of Psalm 74  - Tags: world_languages_translation - Layer routes: world_languages, all_texts, human_stories - Primary layer: world_languages - Provider: OpenAlex - Quality: scholarly metadata - Media kind: none
 - cross_layer_source_specific_casebook.md: - Pattern signal: suffering, love, injustice, witness, and hope converge.
 - daily_cloud_reference_review_log.md: ### There is Hope for a Tree: Lament and Hope in Conversation with Polydoxy  - Queue route: visual_art, cultural_inputs, history_inputs, all_texts - Current label: reviewed_limited_evidence - Reason: Abstract suggests contemporary theology, lament, hope, multiplicity,   apophatic
 - daily_cloud_reference_review_log.md: - Small claim allowed: some contemporary theological sources connect lament,   hope, and ecological pressure.
 - daily_evaluation_queue.md: Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
-- daily_evaluation_queue.md: - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests - Primary layer: visual_art 
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### Father, Son and the Holy Spirit  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians 
 - divine_pattern_concept.md: It is about using AI as an analytical tool to explore connections between science, faith, and human experience.
 - evidence_discernment_distinction.md: A disciplined theological assistant must separate what has been observed from how faith discerns and practices what has been observed.
 - evidence_discernment_distinction.md: It must become discernible in human life as truthful attention, moral response, community practice, spiritual formation, service, repair, lament, hope, or worship.
@@ -423,14 +423,13 @@ Jesus and Christology
 - claim_ledger.md: | | DP-004 | Father creates and sustains, Son/Logos reveals and redeems, Holy Spirit makes redemption present through communion and transformation.
 - claim_ledger.md: | Pneumatology and practice | research_question_only | Acts, Pauline texts, charismatic and non-charismatic theology, cross-cultural case notes, abuse safeguards.
 - cloud_reference_promotion_decision_log.md: - Promotion need: Christ-centered fruit, love, service, justice, community   accountability, and protection from coercion.
-- cloud_references_summary.md: The Message - The emerging 'new' Christianty---with its substitution of riches for righteous, a crown for a cross, and an imitation for a new creation---is shown to be a direct result of the wording in the new versions.
-- cloud_references_summary.md: Jim Shaddix  - Tags: world_language_source_sampling - Layer routes: world_languages, all_texts, other_religious_texts - Primary layer: world_languages - Provider: Internet Archive - Quality: reference metadata - Media kind: podcast - Requires multimodal review: True - Automated e
+- cloud_references_summary.md: Method A mixed- method, cross-  ## Digital access for language and culture in First Nations communities  - Tags: world_languages_translation - Layer routes: world_languages, all_texts - Primary layer: world_languages - Provider: OpenAlex - Quality: scholarly metadata - Media kind
 - cross_layer_source_specific_casebook.md: # Cross-Layer Source-Specific Casebook  Type: cross-layer synthesis notes Source status: source-specific case expansion  This casebook links concrete source lanes across visual art, history, language, biblical-language study, all-texts comparison, and psychology.
 - cross_layer_source_specific_casebook.md: - Biblical-language lane: cross, suffering, witness, Spirit, and resurrection   vocabulary must be read in context.
 - daily_cloud_reference_review_log.md: ### Melanchthon and Patristic Thought  - Queue route: theologians, christian sources - Current label: candidate_lead_only - Reason: Metadata suggests relevance to Reformation reception of patristic   Christ, grace, Trinity, and creation themes, but no summary was available.
 - daily_cloud_reference_review_log.md: - Small claim allowed: possible source for cross-era theologian continuity.
-- daily_evaluation_queue.md: The two types of gar-dens are identified: architectural (Castelo Branco, Bom Jesus do Monte in Braga) and land-scaping (Bomarzo, Cetinale, Esztergom, Buçaco, Kuks, Valsanzibio).
-- daily_evaluation_queue.md: ### The Theology of the Arts  - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_stories, cultural_inputs, pattern_test
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### Father, Son and the Holy Spirit  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians 
+- daily_evaluation_queue.md: ### “Father, Son, and Holy Spirit”  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians - Provider: Crossref - Quality:
 - evidence_discernment_distinction.md: It may say, for example, that Christians interpret order, Logos, moral response, and transformation through Father, Son, and Holy Spirit.
 - next_research_expansion_tracker.md: Keep adding source-specific visual art, history, language,    biblical-language, all-texts, and psychology notes for cross-layer synthesis.
 - next_research_expansion_tracker.md: Build one reviewed source pack for each leading pattern: Image Of God     Pattern, Cross And Reversal Pattern, Providence And Contingency Pattern,     Trinity-As-Behavior Pattern, and Creation-To-Consciousness Pattern.
@@ -471,14 +470,14 @@ Holy Spirit and Pneumatology
 - science_math_physics_divine_pattern_model.md: Christian theology interprets this layered order through creation, Logos, incarnation, Spirit, and redemption.
 - claim_ledger.md: | | DP-004 | Father creates and sustains, Son/Logos reveals and redeems, Holy Spirit makes redemption present through communion and transformation.
 - claim_ledger.md: | | DP-005 | Gifts of the Holy Spirit should be studied globally as discernible practices of service, truth, healing, courage, wisdom, and communal upbuilding.
-- cloud_references_summary.md: (in: Interdisziplinäre anthropologie, Heidelberg, Springer, 2014) of face-to-face social cognition, as well as tool use  ## On spirit writing: materialities of language and the religious work of transduction  - Tags: world_languages_translation - Layer routes: world_languages, al
+- cloud_references_summary.md: ## On spirit writing: materialities of language and the religious work of transduction  - Tags: world_languages_translation - Layer routes: world_languages, all_texts - Primary layer: world_languages - Provider: OpenAlex - Quality: scholarly metadata - Media kind: none - Requires
 - cloud_references_summary.md: - Tags: world_languages_translation - Layer routes: world_languages, all_texts - Primary layer: world_languages - Provider: Europe PMC - Quality: scholarly metadata - Media kind: none - Requires multimodal review: False - Automated evidence: strong_scholarly_candidate (10) - Auto
 - cross_layer_source_specific_casebook.md: - Biblical-language lane: cross, suffering, witness, Spirit, and resurrection   vocabulary must be read in context.
 - cross_layer_source_specific_casebook.md: ## Case 2: Translation Of Spirit / Breath / Wind  - World-language lane: terms for breath, wind, life, spirit, and divine agency   differ across languages.
 - daily_cloud_reference_review_log.md: ### Dwelling Amid Ruins: Hope, Lament, and Necropolitics  - Queue route: visual_art, cultural_inputs - Current label: candidate_lead_only - Reason: Metadata suggests lament, hope, ruins, and necropolitics, but no   summary was available.
 - daily_cloud_reference_review_log.md: - Smallest claim allowed: Nicene confession explicitly names Father, Son, and   Holy Spirit and is a strong doctrinal anchor for Trinitarian boundary-setting.
-- daily_evaluation_queue.md: ### Sacred Art Between Tradition and Personal Expression: The Orthodox Icon and Artistical Transgressions of the Canon  - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visu
-- daily_evaluation_queue.md: ### Priesthood, prophethood and spirit-led community : a practical-prophetic Pentecostal ecclesiology  - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: video_teaching_patter
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### Father, Son and the Holy Spirit  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians 
+- daily_evaluation_queue.md: ### “Father, Son, and Holy Spirit”  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians - Provider: Crossref - Quality:
 - evidence_discernment_distinction.md: It may say, for example, that Christians interpret order, Logos, moral response, and transformation through Father, Son, and Holy Spirit.
 - next_research_expansion_tracker.md: Add global gifts-of-the-Holy-Spirit discernment across countries, peoples,    churches, and religious backgrounds without collapsing every spiritual    phenomenon into the same source.
 - reviewed_source_packs.md: Reviewed-source needs:  - primary texts: Genesis, Exodus, Psalms, Isaiah, Matthew, Luke, John, Romans,   1 Corinthians, Hebrews, Revelation, - Jewish and historical-critical counter-readings, - patristic and modern theological interpretation, - biblical-language notes on covenant
@@ -518,14 +517,14 @@ Creation and Order
 - claim_ledger.md: | | DP-002 | The broad Christian story can be read as creation, fall, covenant, redemption, restoration, and new creation.
 - claim_ledger.md: | | DP-004 | Father creates and sustains, Son/Logos reveals and redeems, Holy Spirit makes redemption present through communion and transformation.
 - cloud_reference_promotion_decision_log.md: - Author or venue context: the listed creator is `DIVINE RADIO ONLINE`; this is   not enough by itself to establish scholarly, ecclesial, historical, or   theological authority.
-- cloud_references_summary.md: In addition to the previous chapter, “The Dynamics of Indigenous Oral Sources” examines how oral history sources are living accounts passed on in dynamic forms, with their own attendant cultural frames of reference essential for understanding and  ## The Indigenous Truth of Oral 
-- cloud_references_summary.md: The Message - The emerging 'new' Christianty---with its substitution of riches for righteous, a crown for a cross, and an imitation for a new creation---is shown to be a direct result of the wording in the new versions.
+- cloud_references_summary.md: Do natural languages modify themselves in order to convey a divine message?
+- cloud_references_summary.md: The core cases considered incude principles of semantic computation, the realisation of arguments and the place of truth and reference, especially with respect to anaphora.
 - cross_layer_source_specific_casebook.md: ## Case 3: Wisdom Across Traditions  - All-texts lane: wisdom literature, proverbs, philosophy, and moral teaching.
 - cross_layer_source_specific_casebook.md: - Language lane: wisdom terms carry different social and theological fields.
 - daily_cloud_reference_review_log.md: - Small claim allowed: historical sources may connect music theory, cosmology,   and mathematical order.
 - daily_cloud_reference_review_log.md: - Counterargument: perception research does not prove divine order.
-- daily_evaluation_queue.md: - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests - Primary layer: visual_art 
-- daily_evaluation_queue.md: The paper then turns to “sacred mountains” created in the foothills of Italian Alps as a symbolic barrier at the bor-der of Protestant lands.
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### Father, Son and the Holy Spirit  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians 
+- daily_evaluation_queue.md: ### “Father, Son, and Holy Spirit”  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians - Provider: Crossref - Quality:
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - divine_pattern_concept.md: Research areas include theological concepts of divine order and Logos, genetic and neurological research related to spirituality, anthropological patterns in worship and religious behavior, and AI systems capable of large-scale pattern recognition across disciplines.
 - evidence_discernment_distinction.md: It may say, for example, that Christians interpret order, Logos, moral response, and transformation through Father, Son, and Holy Spirit.
@@ -641,14 +640,14 @@ Theology and Logos
 - cloud_reference_promotion_decision_log.md: - Author or venue context: the listed creator is `DIVINE RADIO ONLINE`; this is   not enough by itself to establish scholarly, ecclesial, historical, or   theological authority.
 - cloud_reference_promotion_decision_log.md: It may generate research questions for history,   politics, public theology, and media-rhetoric review, but it must not   strengthen any divine-pattern claim.
 - cloud_reference_review_policy.md: Evidence rule:  Unreviewed cloud references can suggest research questions, but they should not increase confidence in a divine pattern.
-- cloud_references_summary.md: In addition to the previous chapter, “The Dynamics of Indigenous Oral Sources” examines how oral history sources are living accounts passed on in dynamic forms, with their own attendant cultural frames of reference essential for understanding and  ## The Indigenous Truth of Oral 
-- cloud_references_summary.md: Highlighting the profound and irreversible losses of extinction, this article argues for conservation as a vital strategy to preserve knowledge, community, and existential meaning.
+- cloud_references_summary.md: - Tags: world_languages_translation - Layer routes: world_languages, all_texts, visual_art, modern_literature, deep_sources - Primary layer: world_languages - Provider: Europe PMC - Quality: scholarly metadata - Media kind: none - Requires multimodal review: False - Automated evi
+- cloud_references_summary.md: Do natural languages modify themselves in order to convey a divine message?
 - cross_layer_source_specific_casebook.md: ## Case 2: Translation Of Spirit / Breath / Wind  - World-language lane: terms for breath, wind, life, spirit, and divine agency   differ across languages.
 - cross_layer_source_specific_casebook.md: ## Case 3: Wisdom Across Traditions  - All-texts lane: wisdom literature, proverbs, philosophy, and moral teaching.
 - daily_cloud_reference_review_log.md: - Small claim allowed: historical sources may connect music theory, cosmology,   and mathematical order.
 - daily_cloud_reference_review_log.md: - Counterargument: perception research does not prove divine order.
 - daily_evaluation_queue.md: Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
-- daily_evaluation_queue.md: - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests - Primary layer: visual_art 
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### Father, Son and the Holy Spirit  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians 
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - evidence_discernment_distinction.md: # Evidence And Discernment Distinction  Type: theological method rule Source status: active discipline rule  The Divine project should investigate recurring structures, archetypes, and narrative motifs without turning every recurrence into proof.
@@ -728,12 +727,12 @@ Spirituality and Worship
 - claim_ledger.md: - `discernment_question`: useful for prayer, pastoral reflection, and communal   testing, but not yet a conclusion.
 - claim_ledger.md: | Trinitarian interpretation | theological_interpretation | Creeds, scripture, theologians across eras, worship practice, and disagreements.
 - cloud_reference_promotion_decision_log.md: - Promotion need: public ethical testimony, comparative-religion context,   psychology/anthropology counter-reading, long-term fruit, and Trinitarian   discernment.
-- cloud_references_summary.md: Their religious lives were progressively hampered in terms of ritual practice because their faith of origin was in the minority with no adequate spaces for collective prayer.
-- cloud_references_summary.md: Documented are the thousands of words, verses, and doctrines by which new versions will prepare the aspostate churches of these last days to accept the religion of the Antichrist--even his mark, image, and Lucifer worship.
+- cloud_references_summary.md: ## Entry | Religion  - Tags: world_languages_translation - Layer routes: world_languages, all_texts, deep_sources - Primary layer: world_languages - Provider: Tavily Search - Quality: open web result - Media kind: none - Requires multimodal review: False - Automated evidence: wea
+- cloud_references_summary.md: The definition of the concept of "monastic translation" (Bueno 2007), which is inspired by polysystemic approaches, has been essential to address the translation of religion in a broader way and to study it from a multidisciplinary perspective.
 - daily_cloud_reference_review_log.md: - Counterargument: technical quantum work does not support vague claims about   prayer, consciousness, or God.
 - daily_cloud_reference_review_log.md: - Counterargument: science metadata does not support claims about divine action,   prayer, consciousness, or proof of God.
-- daily_evaluation_queue.md: The paper then turns to “sacred mountains” created in the foothills of Italian Alps as a symbolic barrier at the bor-der of Protestant lands.
-- daily_evaluation_queue.md: ### Islamic Televangelism: Religion, Media and Visuality in Contemporary Egypt  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_s
+- daily_evaluation_queue.md: ### Confraternal religion: from liberation theology to political reversal  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, research_documents - Prim
+- daily_evaluation_queue.md: ### Music as "Sacramental": Foundations for a Theology of Music in the Spiritual Life  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: unresolved_suffering - Layer routes: pattern_tests, deep_sources,
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - divine_pattern_concept.md: It is about using AI as an analytical tool to explore connections between science, faith, and human experience.
 - evidence_discernment_distinction.md: A disciplined theological assistant must separate what has been observed from how faith discerns and practices what has been observed.
@@ -796,7 +795,6 @@ Biology and Neuroscience
 - cross_layer_source_specific_casebook.md: - Pattern signal: life, presence, and transformation are often embodied.
 - daily_cloud_reference_review_log.md: - Counterargument: technical quantum work does not support vague claims about   prayer, consciousness, or God.
 - daily_cloud_reference_review_log.md: - Counterargument: science metadata does not support claims about divine action,   prayer, consciousness, or proof of God.
-- daily_evaluation_queue.md: ### Pedagogies of Wholeness: Cultivating Critical Healing Literacies with Students of Color in an Embodied English Classroom  - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - evidence_discernment_distinction.md: Practice a small embodied response.
@@ -836,12 +834,12 @@ Physics and Natural Law
 - claim_ledger.md: | | DP-007 | Mathematics, logic, statistics, and physics can provide filters for disciplined reasoning about patterns.
 - claim_ledger.md: | | DP-008 | Quantum or science references may support humility about causality and knowledge, but they do not prove prayer, consciousness, or God.
 - cloud_reference_promotion_decision_log.md: - Reason: testimony can matter deeply without functioning as statistical proof.
-- cloud_references_summary.md: They encountered the increasin  ## Time for united action on depression: a Lancet–World Psychiatric Association Commission  - Tags: world_language_source_sampling - Layer routes: world_languages, all_texts, other_religious_texts - Primary layer: world_languages - Provider: OpenAl
-- cloud_references_summary.md: The participants recount experiences of conversion therapy, spiritual correction, and ostracization from ritual space, with man  ## 7.
+- cloud_references_summary.md: In Indonesia, one in three women aged 15-64 has experienced physical and/or sexual violence, often resulting in post-traumatic stress disorder (PTSD).
+- cloud_references_summary.md: More specifically, it will address the question of why the pandemic has changed the proxemics of public spaces and the grammar of 'living together.' For some time-and it is not possible to foresee how much-in many countries people cannot go out, or enter any public places, withou
 - daily_cloud_reference_review_log.md: ### Quantum / Measurement / Physics Routed Candidates  - Queue route: deep_sources, pattern_tests - Current label: reviewed_limited_evidence - Reason: Technical metadata can help identify qualified science sources, but   arXiv/preprint or abstract-level material cannot support br
 - daily_cloud_reference_review_log.md: - Small claim allowed: quantum measurement, uncertainty, and physical law are   technical subjects requiring qualified sources and narrow wording.
 - daily_evaluation_queue.md: # Daily Evaluation Queue  This file is generated by internet_source_collector.py every time the daily cloud research workflow runs.
-- daily_evaluation_queue.md: ### Why documentaries matter  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests - Primary l
+- daily_evaluation_queue.md: How might we take seriously what Levinas calls “the temptation of theodicy” and, at the same time, take seriously the ways that engaging in theodicy might be a vital part of how someone navigates her own suffering?
 - next_research_expansion_tracker.md: Current coverage:  - `deep_sources/qualified_science_reference_review_notes.md` names qualified   physics, quantum, philosophy-of-science, and counterargument sources.
 - pattern_formation_framework.md: Human problem: the ordinary human experience that makes the pattern matter.
 - practical_theology_pattern_use.md: Review: look for fruit over time.
@@ -896,13 +894,13 @@ Mathematics and Intelligibility
 - cloud_reference_review_policy.md: Evidence rule:  Unreviewed cloud references can suggest research questions, but they should not increase confidence in a divine pattern.
 - cloud_reference_review_policy.md: Pattern revision rule:  When a pressure test shows that the pattern does not hold, the project should revise, narrow, or weaken the pattern.
 - cloud_references_summary.md: # Cloud References Summary  This file is generated by internet_source_collector.py so the main analyzer can include reference metadata in pattern analysis.
-- cloud_references_summary.md: The text critiques the collapse of moral resonance, human connection, and spiritual meaning, portraying this collapse as a descent into a "Moral Black Hole"—a symbolic structure that embodies not only existential collapse but a gravitational pull toward cultural numbness, metaphy
+- cloud_references_summary.md: Study 1 (N = 1,145; 59.7% female; Mage = 37.64) employed exploratory and confirmatory factor analyses, revealing that while the three-factor structure was maintained, empirical refinement from 17 to 14 items improved factorial clarity by eliminat  ## Fundraising  - Tags: world_la
 - cross_layer_source_specific_casebook.md: - Pattern signal: suffering, love, injustice, witness, and hope converge.
 - cross_layer_source_specific_casebook.md: - Pattern signal: life, presence, and transformation are often embodied.
 - daily_cloud_reference_review_log.md: - Small claim allowed: historical sources may connect music theory, cosmology,   and mathematical order.
 - daily_cloud_reference_review_log.md: ### Quantum continuous measurements  - Queue route: deep_sources, pattern_tests - Current label: reviewed_limited_evidence - Reason: arXiv preprint appears technical and relevant to measurement and   stochastic quantum descriptions.
 - daily_evaluation_queue.md: Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
-- daily_evaluation_queue.md: - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests - Primary layer: visual_art 
+- daily_evaluation_queue.md: Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - evidence_discernment_distinction.md: Evidence can show that a pattern appears, that it appears across lanes, that it has been interpreted by named sources, or that it survives a pressure test.
@@ -992,7 +990,7 @@ Mathematical Theophany
 - daily_cloud_reference_review_log.md: - Small claim allowed: historical sources may connect music theory, cosmology,   and mathematical order.
 - daily_cloud_reference_review_log.md: ### Quantum continuous measurements  - Queue route: deep_sources, pattern_tests - Current label: reviewed_limited_evidence - Reason: arXiv preprint appears technical and relevant to measurement and   stochastic quantum descriptions.
 - daily_evaluation_queue.md: Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
-- daily_evaluation_queue.md: - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests - Primary layer: visual_art 
+- daily_evaluation_queue.md: Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: Research areas include theological concepts of divine order and Logos, genetic and neurological research related to spirituality, anthropological patterns in worship and religious behavior, and AI systems capable of large-scale pattern recognition across disciplines.
 - evidence_discernment_distinction.md: Evidence can show that a pattern appears, that it appears across lanes, that it has been interpreted by named sources, or that it survives a pressure test.
@@ -1055,6 +1053,8 @@ Quantum Physics and Uncertainty
 - cloud_references_summary.md: ## The nature and measurement of meaning.
 - daily_cloud_reference_review_log.md: ### Quantum continuous measurements  - Queue route: deep_sources, pattern_tests - Current label: reviewed_limited_evidence - Reason: arXiv preprint appears technical and relevant to measurement and   stochastic quantum descriptions.
 - daily_cloud_reference_review_log.md: - Small claim allowed: quantum measurement is technical and should be handled   through qualified sources.
+- daily_evaluation_queue.md: ### CRISIS IN JAPAN AND THE WAY OUT: A COUNTERARGUMENT TO PESSIMISTIC VIEWS  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: quantum_science_guardrails - Layer routes: deep_sources, pat
+- daily_evaluation_queue.md: ### Large Language Models Are Better Logical Fallacy Reasoners with Counterargument, Explanation, and Goal-Aware Prompt Formulation  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: quan
 - evidence_discernment_distinction.md: Quantum uncertainty, mathematical beauty, narrative recurrence, or psychological pattern recognition may be compatible with a theological reading without proving it.
 - next_research_expansion_tracker.md: Keep qualified quantum/science references paired with counterarguments and    narrow allowed conclusions.
 - next_research_expansion_tracker.md: Qualified Quantum/Science References And Counterarguments  Status: source-review map, counterargument matrix, and source-pair limits added.
@@ -1111,14 +1111,14 @@ Anthropology and Culture
 - cloud_reference_review_checklist.md: Tradition and context: note religious tradition, language, era, genre, and    community context.
 - cloud_reference_review_checklist.md: - Any relevant unresolved-suffering, science, language, tradition, or historical   pressure test has been considered.
 - cloud_reference_review_policy.md: Pair any science, quantum, language-family, text-tradition, or    unresolved-suffering claim with a counterargument or narrow allowed    conclusion.
-- cloud_references_summary.md: ## The African American Christian Tradition  - Tags: world_language_source_sampling - Layer routes: world_languages, all_texts, other_religious_texts - Primary layer: world_languages - Provider: Crossref - Quality: scholarly metadata - Media kind: none - Requires multimodal revie
-- cloud_references_summary.md: - Tags: world_language_source_sampling - Layer routes: world_languages, all_texts, other_religious_texts, visual_art - Primary layer: world_languages - Provider: Europe PMC - Quality: scholarly metadata - Media kind: none - Requires multimodal review: False - Automated evidence: 
+- cloud_references_summary.md: ## Conceptual Metaphor in Cognitive Semantics  - Tags: world_languages_translation - Layer routes: world_languages, all_texts, psychology_inputs - Primary layer: world_languages - Provider: Crossref - Quality: scholarly metadata - Media kind: none - Requires multimodal review: Fa
+- cloud_references_summary.md: ## Conceptual metaphor as exegetical tool in the Psalter: a case study of Psalm 74  - Tags: world_languages_translation - Layer routes: world_languages, all_texts, human_stories - Primary layer: world_languages - Provider: OpenAlex - Quality: scholarly metadata - Media kind: none
 - cross_layer_source_specific_casebook.md: - Counter-reading: shared wisdom may reflect human social learning rather than   direct Trinitarian evidence.
 - cross_layer_source_specific_casebook.md: - Required revision: label broad recurrence as shared human pattern unless   Christian sources carry the distinct claim.
 - daily_cloud_reference_review_log.md: # Daily Cloud Reference Review Log  Type: cloud-reference review Source status: human review log  This log starts reviewing routed daily cloud candidates.
 - daily_cloud_reference_review_log.md: ### There is Hope for a Tree: Lament and Hope in Conversation with Polydoxy  - Queue route: visual_art, cultural_inputs, history_inputs, all_texts - Current label: reviewed_limited_evidence - Reason: Abstract suggests contemporary theology, lament, hope, multiplicity,   apophatic
 - daily_evaluation_queue.md: Media rule: videos, podcasts, and images can be found and queued, but they cannot strengthen a claim until a caption/transcript or direct human/MLLM observation note records what is actually present in the media.
-- daily_evaluation_queue.md: Sources, interpretation, cultural context.
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### Father, Son and the Holy Spirit  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologians 
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - evidence_discernment_distinction.md: It asks what the pattern may mean before God and how a person or community should respond.
@@ -1196,13 +1196,13 @@ AI and Pattern Recognition
 - cloud_reference_review_policy.md: Evidence rule:  Unreviewed cloud references can suggest research questions, but they should not increase confidence in a divine pattern.
 - cloud_reference_review_policy.md: Pattern revision rule:  When a pressure test shows that the pattern does not hold, the project should revise, narrow, or weaken the pattern.
 - cloud_references_summary.md: # Cloud References Summary  This file is generated by internet_source_collector.py so the main analyzer can include reference metadata in pattern analysis.
-- cloud_references_summary.md: Data were analyse  ## The epistemological implications of species extinction: An overview.
+- cloud_references_summary.md: ## Constructing the national image of "China" in press conference interpreting: a corpus-based critical metaphor analysis.
 - cross_layer_source_specific_casebook.md: - Pattern signal: suffering, love, injustice, witness, and hope converge.
 - cross_layer_source_specific_casebook.md: - Pattern signal: life, presence, and transformation are often embodied.
 - daily_cloud_reference_review_log.md: ### Quantum continuous measurements  - Queue route: deep_sources, pattern_tests - Current label: reviewed_limited_evidence - Reason: arXiv preprint appears technical and relevant to measurement and   stochastic quantum descriptions.
 - daily_cloud_reference_review_log.md: ### Mere Christian Forgiveness  - Queue route: psychology_inputs, human_stories, pattern_tests - Current label: reviewed_limited_evidence - Reason: Metadata suggests forgiveness is treated through stress-and-coping   theory, which is useful for psychology/theology boundaries.
 - daily_evaluation_queue.md: Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
-- daily_evaluation_queue.md: - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests - Primary layer: visual_art 
+- daily_evaluation_queue.md: Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - evidence_discernment_distinction.md: Evidence can show that a pattern appears, that it appears across lanes, that it has been interpreted by named sources, or that it survives a pressure test.
@@ -1273,14 +1273,14 @@ Philosophy and Meaning
 - claim_ledger.md: | | DP-008 | Quantum or science references may support humility about causality and knowledge, but they do not prove prayer, consciousness, or God.
 - cloud_reference_promotion_decision_log.md: - Reason: theology search results often point to useful works, but the pattern   must not treat metadata as doctrine.
 - cloud_reference_promotion_decision_log.md: - Reason: science sources can discipline claims, but they do not prove God.
-- cloud_references_summary.md: In summary, it highlights how existing oral history theory, politics, methods, and ethics may be largely different, but are not without some resonance to indigenous perspectives.
-- cloud_references_summary.md: This chapter emphasizes the importance of rethinking oral history and tradition with the inclusion of indigenous knowledges regarding the form of oral sources, culturally relevant and appropriate methods, theories, and ethics.
+- cloud_references_summary.md: ## Investigations into Information Semantics and Ethics of Computing  - Tags: world_languages_translation - Layer routes: world_languages, all_texts - Primary layer: world_languages - Provider: OpenAlex - Quality: scholarly metadata - Media kind: none - Requires multimodal review
+- cloud_references_summary.md: - Tags: world_languages_translation - Layer routes: world_languages, all_texts, visual_art, modern_literature, deep_sources - Primary layer: world_languages - Provider: Europe PMC - Quality: scholarly metadata - Media kind: none - Requires multimodal review: False - Automated evi
 - cross_layer_source_specific_casebook.md: - Psychology lane: breath practices affect attention, emotion, and embodied   experience.
 - cross_layer_source_specific_casebook.md: ## Case 3: Wisdom Across Traditions  - All-texts lane: wisdom literature, proverbs, philosophy, and moral teaching.
 - daily_cloud_reference_review_log.md: ## Review Batch: 2026-05-22 Routed Queue  ### MUSICA MUNDANA, ARISTOTELIAN NATURAL PHILOSOPHY AND PTOLEMAIC ASTRONOMY  - Queue route: music_notes, deep_sources - Current label: reviewed_limited_evidence - Reason: Scholarly metadata points to music, natural philosophy, and astrono
 - daily_cloud_reference_review_log.md: ### Simultaneous consonance in music perception and composition  - Queue route: music_notes, deep_sources - Current label: reviewed_limited_evidence - Reason: Psychology/perception scholarship may help test claims about   consonance, perception, and music cognition.
-- daily_evaluation_queue.md: The article firstly frames an overview of current knowledge on corpisanti more broadly against cases in Livonia and the Grand Duchy.
-- daily_evaluation_queue.md: ### Forgiveness and the Conference Experience  - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: podcast_testimony_patterns - Layer routes: human_stories, psychology_inputs, 
+- daily_evaluation_queue.md: ### The Self-Exhibition of Reason: Hegel on Intuition and Logical Content  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, research_documents - Prim
+- daily_evaluation_queue.md: ### UNDER AN UNSTARRY SKY: KANTIAN ETHICS AND RADICAL EVIL  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theo
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - divine_pattern_concept.md: It is about using AI as an analytical tool to explore connections between science, faith, and human experience.
 - evidence_discernment_distinction.md: Theological interpretation connects evidence and discernment through Christian doctrine, scripture, tradition, reason, and lived practice.
