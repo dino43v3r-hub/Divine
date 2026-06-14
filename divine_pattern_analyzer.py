@@ -4653,13 +4653,13 @@ LANE_SEARCH_TAGS = {
     "other_religious_texts": ["global_text_traditions", "interreligious_dream_testimony"],
     "theologians": ["theologians_cross_era", "trinity"],
     "history_inputs": ["history_memory", "politics_justice"],
-    "visual_art": ["art_beauty"],
+    "visual_art": ["art_beauty", "visual_media_patterns"],
     "psychology_inputs": ["psychology_patterns", "pattern_perception_divine_response"],
-    "human_stories": ["unresolved_suffering", "interreligious_dream_testimony"],
+    "human_stories": ["unresolved_suffering", "interreligious_dream_testimony", "podcast_testimony_patterns"],
     "cultural_inputs": ["cultural_practice_patterns", "technology_ethics", "politics_justice"],
     "modern_literature": ["modern_literature_meaning"],
     "deep_sources": ["quantum_science_guardrails", "general_research_methods"],
-    "pattern_tests": ["unresolved_suffering", "general_research_methods"],
+    "pattern_tests": ["unresolved_suffering", "general_research_methods", "video_teaching_patterns"],
     "research_documents": ["general_research_methods", "trinity"],
 }
 
@@ -4725,6 +4725,11 @@ def build_next_search_strategy(
         "source review",
         "case study",
         "practical theology",
+        "video",
+        "podcast",
+        "image archive",
+        "transcript",
+        "caption",
     ]
     if weak_claim_count:
         modifiers.extend(["rival explanation", "failure condition"])
@@ -4768,6 +4773,25 @@ def build_next_search_strategy(
                 }
             )
 
+    media_queries = [
+        {
+            "tag": "visual_media_patterns",
+            "query": "religious art image archive iconography visual theology source context counter-reading",
+            "reason": "Find graphics/images for multimodal divine-pattern review.",
+        },
+        {
+            "tag": "podcast_testimony_patterns",
+            "query": "podcast testimony grief repair transformation faith transcript counterargument",
+            "reason": "Find podcast/audio testimony candidates for multimodal review.",
+        },
+        {
+            "tag": "video_teaching_patterns",
+            "query": "video lecture documentary theology suffering justice spiritual formation transcript",
+            "reason": "Find video candidates for multimodal review.",
+        },
+    ]
+    suggested_queries.extend(media_queries)
+
     strategy = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "source": "divine_pattern_analyzer.py",
@@ -4782,7 +4806,7 @@ def build_next_search_strategy(
             "weak_or_limited_claim_count": weak_claim_count,
             "current_source_pack_count": len(pack_names),
         },
-        "guardrail": "Use these searches to diversify candidate leads; do not strengthen claims until source review and counterarguments are recorded.",
+        "guardrail": "Use these searches to diversify candidate leads, including videos, podcasts, and images; do not strengthen claims until source review, captions/transcripts or direct media observations, and counterarguments are recorded.",
     }
     return strategy
 

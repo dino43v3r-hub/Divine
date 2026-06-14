@@ -68,6 +68,13 @@ strengthen a claim. Sidecar files such as `image.jpg.md`, `image.md`,
 `video.mp4.txt`, or `video.txt` can provide captions, transcripts, observations,
 and reviewed-note counts.
 
+The internet collector is also allowed to find videos, podcasts/audio, and
+images/graphics as candidate leads for divine-pattern evaluation. These media
+sources route into visual art, human stories, cultural inputs, theologians, and
+pressure tests where appropriate. They remain `none_until_caption_transcript_or_human_review`
+until a caption, transcript, direct image/video/audio observation, source
+context, rights status, and counter-reading are recorded.
+
 This is intentionally not a GAN/VAE backend. The project needs disciplined
 reading, viewing, listening, and review more than synthetic pattern generation.
 A future MLLM service can use these artifacts by retrieving source notes first,
@@ -111,6 +118,11 @@ visual art, history, world languages, biblical languages, all texts,
 psychology, other religious texts, modern literature, human stories, deep
 sources, and pressure tests. These routes are triage hints, not evidence
 approval.
+
+Media candidates are routed the same way. A podcast episode, video lecture,
+documentary, interview, image archive, icon, painting, photograph, or museum
+object may be queued for review, but the project must evaluate the actual media
+before using it to strengthen a divine-pattern claim.
 
 The analyzer also writes the next collector search plan:
 

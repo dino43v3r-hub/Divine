@@ -1,5 +1,5 @@
 {
-  "guardrail": "Use these searches to diversify candidate leads; do not strengthen claims until source review and counterarguments are recorded.",
+  "guardrail": "Use these searches to diversify candidate leads, including videos, podcasts, and images; do not strengthen claims until source review, captions/transcripts or direct media observations, and counterarguments are recorded.",
   "paused_lanes": [
     "biblical_languages",
     "world_languages",
@@ -25,8 +25,11 @@
     "source review",
     "case study",
     "practical theology",
-    "rival explanation",
-    "failure condition"
+    "video",
+    "podcast",
+    "image archive",
+    "transcript",
+    "caption"
   ],
   "review_targets": {
     "current_source_pack_count": 12,
@@ -54,6 +57,11 @@
       "query": "image, form, gesture, beauty, lament, glory, and iconography primary source counterargument",
       "reason": "visual_art is a priority lane for the next collector run.",
       "tag": "art_beauty"
+    },
+    {
+      "query": "image, form, gesture, beauty, lament, glory, and iconography primary source counterargument",
+      "reason": "visual_art is a priority lane for the next collector run.",
+      "tag": "visual_media_patterns"
     },
     {
       "query": "pattern perception, attachment, trauma, habit, desire, identity, and repair primary source counterargument",
@@ -134,6 +142,21 @@
       "query": "practical theology case study pastoral ethics daily life",
       "reason": "Keep testing leading patterns against Practical Case Study.",
       "tag": "general_research_methods"
+    },
+    {
+      "query": "religious art image archive iconography visual theology source context counter-reading",
+      "reason": "Find graphics/images for multimodal divine-pattern review.",
+      "tag": "visual_media_patterns"
+    },
+    {
+      "query": "podcast testimony grief repair transformation faith transcript counterargument",
+      "reason": "Find podcast/audio testimony candidates for multimodal review.",
+      "tag": "podcast_testimony_patterns"
+    },
+    {
+      "query": "video lecture documentary theology suffering justice spiritual formation transcript",
+      "reason": "Find video candidates for multimodal review.",
+      "tag": "video_teaching_patterns"
     }
   ],
   "top_patterns": [
@@ -143,5 +166,5 @@
     "Trinity-As-Behavior Pattern",
     "Providence And Contingency Pattern"
   ],
-  "updated_at": "2026-06-14T02:22:45.600737+00:00"
+  "updated_at": "2026-06-14T02:38:46.066489+00:00"
 }

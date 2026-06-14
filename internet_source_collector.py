@@ -62,7 +62,45 @@ TRUSTED_OPEN_WEB_DOMAINS = [
     "ccel.org",
     "sacred-texts.com",
     "gutenberg.org",
+    "youtube.com",
+    "youtu.be",
+    "vimeo.com",
+    "soundcloud.com",
+    "spotify.com",
+    "podcasts.apple.com",
 ]
+
+MEDIA_SOURCE_MARKERS = {
+    "video": [
+        "video",
+        "youtube.com",
+        "youtu.be",
+        "vimeo.com",
+        "lecture recording",
+        "documentary",
+        "interview video",
+    ],
+    "podcast": [
+        "podcast",
+        "audio",
+        "episode",
+        "spotify.com",
+        "podcasts.apple.com",
+        "soundcloud.com",
+        "sermon audio",
+    ],
+    "image": [
+        "image",
+        "photo",
+        "photograph",
+        "painting",
+        "icon",
+        "iconography",
+        "gallery",
+        "museum object",
+        "visual archive",
+    ],
+}
 
 
 QUERY_SETS = {
@@ -94,6 +132,21 @@ QUERY_SETS = {
         "theology art beauty symbol meaning",
         "aesthetics theology beauty imagination",
         "visual theology iconography symbol lament hope",
+    ],
+    "visual_media_patterns": [
+        "religious art images iconography visual theology image archive",
+        "museum collection sacred art icon lament beauty theology",
+        "photography documentary faith suffering justice visual testimony",
+    ],
+    "podcast_testimony_patterns": [
+        "podcast faith testimony grief repair transformation episode",
+        "Christian podcast suffering justice forgiveness testimony interview",
+        "religion podcast conversion spiritual experience discernment transcript",
+    ],
+    "video_teaching_patterns": [
+        "video lecture theology suffering justice practical theology",
+        "documentary faith grief justice repair Christian theology video",
+        "sermon video spiritual formation Holy Spirit discernment transcript",
     ],
     "history_memory": [
         "historical theology memory trauma justice repair",
@@ -179,6 +232,9 @@ TAG_LAYER_ROUTES = {
     "music_math": ["music_notes", "deep_sources"],
     "politics_justice": ["cultural_inputs", "history_inputs"],
     "art_beauty": ["visual_art", "cultural_inputs"],
+    "visual_media_patterns": ["visual_art", "human_stories", "cultural_inputs", "pattern_tests"],
+    "podcast_testimony_patterns": ["human_stories", "psychology_inputs", "theologians", "pattern_tests"],
+    "video_teaching_patterns": ["theologians", "human_stories", "cultural_inputs", "pattern_tests"],
     "history_memory": ["history_inputs", "theologians"],
     "world_languages_translation": ["world_languages", "all_texts"],
     "world_language_source_sampling": ["world_languages", "all_texts", "other_religious_texts"],
@@ -199,7 +255,7 @@ TAG_LAYER_ROUTES = {
 
 TEXT_LAYER_ROUTES = {
     "theologians": ["athanasius", "augustine", "aquinas", "luther", "calvin", "barth", "bonhoeffer", "moltmann", "theologian", "trinity"],
-    "visual_art": ["art", "beauty", "aesthetic", "icon", "iconography", "visual"],
+    "visual_art": ["art", "beauty", "aesthetic", "icon", "iconography", "visual", "image", "photo", "gallery", "museum"],
     "history_inputs": ["history", "historical", "memory", "empire", "reform", "chronicle"],
     "world_languages": ["translation", "language", "semantics", "metaphor", "grammar"],
     "biblical_languages": ["hebrew", "greek", "septuagint", "logos", "pneuma", "ruach", "hesed"],
@@ -207,7 +263,7 @@ TEXT_LAYER_ROUTES = {
     "psychology_inputs": ["psychology", "trauma", "attachment", "habit", "cognitive", "identity"],
     "other_religious_texts": ["comparative religion", "quran", "hindu", "buddhist", "islam", "judaism"],
     "modern_literature": ["modern literature", "novel", "fiction", "poetry", "drama", "memoir"],
-    "human_stories": ["case study", "testimony", "lived experience", "pastoral", "counseling"],
+    "human_stories": ["case study", "testimony", "lived experience", "pastoral", "counseling", "podcast", "interview", "documentary"],
     "deep_sources": ["quantum", "physics", "science", "peer review", "counterargument"],
     "pattern_tests": ["suffering", "injustice", "overclaim", "unanswered", "abuse", "counterargument"],
 }
@@ -215,7 +271,7 @@ TEXT_LAYER_ROUTES = {
 
 LAYER_REVIEW_PROMPTS = {
     "theologians": "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-    "visual_art": "Review actual image/form, composition, symbol, context, beauty, lament, and counter-reading.",
+    "visual_art": "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.",
     "history_inputs": "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
     "world_languages": "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
     "biblical_languages": "Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.",
@@ -231,6 +287,34 @@ LAYER_REVIEW_PROMPTS = {
     "research_documents": "Use as general research context until a more specific layer is reviewed.",
     "research_documents/christian_sources": "Check Christian source context, doctrine, and source quality.",
 }
+
+
+def detect_media_kind(source: dict):
+    text = source_text(source)
+    url = (source.get("url") or "").lower()
+    combined = f"{text} {url}"
+    for kind, markers in MEDIA_SOURCE_MARKERS.items():
+        if any(marker in combined for marker in markers):
+            return kind
+    return ""
+
+
+def add_media_review_fields(source: dict):
+    media_kind = detect_media_kind(source)
+    if not media_kind:
+        return source
+
+    source["media_kind"] = media_kind
+    source["requires_multimodal_review"] = True
+    source["confidence_effect"] = "none_until_caption_transcript_or_human_review"
+    source["media_review_prompt"] = (
+        "Evaluate the actual media, not only the title/snippet. Capture a short "
+        "caption or transcript note, source context, rights status, smallest "
+        "allowed claim, and at least one counter-reading before strengthening a pattern."
+    )
+    if source.get("source_type") in {"open web result", "open web result via Tavily", "open web result via SearXNG"}:
+        source["source_type"] = f"{media_kind} candidate"
+    return source
 
 
 def read_json(path: Path, default):
@@ -523,11 +607,13 @@ def add_source(sources_by_id: dict, source: dict):
     if not key:
         return False
 
+    add_media_review_fields(source)
     if key in sources_by_id:
         existing = sources_by_id[key]
         existing_tags = set(existing.get("tags", []))
         existing_tags.update(source.get("tags", []))
         existing["tags"] = sorted(existing_tags)
+        add_media_review_fields(existing)
         add_layer_routing(existing)
         return False
 
@@ -692,6 +778,11 @@ def score_automated_evidence(source: dict, sources: list[dict]):
         score -= 3
         warnings.append("speculative or overclaim language detected")
 
+    if source.get("requires_multimodal_review"):
+        warnings.append("media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims")
+        if provider in OPEN_WEB_PROVIDERS:
+            score -= 1
+
     if source.get("is_retracted"):
         score -= 8
         warnings.append("source metadata indicates retraction")
@@ -726,6 +817,7 @@ def score_automated_evidence(source: dict, sources: list[dict]):
 
 
 def add_automated_evidence(source: dict, sources: list[dict]):
+    add_media_review_fields(source)
     assessment = score_automated_evidence(source, sources)
     source["automated_evidence_score"] = assessment["score"]
     source["automated_evidence_label"] = assessment["label"]
@@ -801,6 +893,7 @@ def add_auto_review_approval(source: dict):
 
 
 def route_layers_for_source(source: dict):
+    add_media_review_fields(source)
     routes = []
 
     for tag in source.get("tags", []):
@@ -1140,7 +1233,7 @@ def web_source_from_result(result: dict, provider: str, tag: str):
     if not title or not url:
         return None
 
-    return {
+    source = {
         "title": clean_text(title, 250),
         "authors": [],
         "year": None,
@@ -1155,6 +1248,8 @@ def web_source_from_result(result: dict, provider: str, tag: str):
         "evaluation_use": "open web lead only until corroborated by scholarly or trusted sources",
         "date_accessed": datetime.now(timezone.utc).date().isoformat(),
     }
+    add_media_review_fields(source)
+    return source
 
 
 def search_bing_web(query: str, tag: str, limit: int = 5):
@@ -1353,6 +1448,7 @@ def collect_sources():
     existing = read_json(REFERENCES_PATH, {"sources": []})
     sources_by_id = {source_id(source): source for source in existing.get("sources", []) if source_id(source)}
     for source in sources_by_id.values():
+        add_media_review_fields(source)
         add_layer_routing(source)
     new_count = 0
     new_sources = []
@@ -1410,6 +1506,7 @@ def collect_sources():
 
                 try:
                     for source in collector(query, tag):
+                        add_media_review_fields(source)
                         provider = source.get("provider") or collector.__name__
                         run_provider_counts[provider] = run_provider_counts.get(provider, 0) + 1
                         source["quality"] = source_quality(source)
@@ -1429,6 +1526,7 @@ def collect_sources():
                     polite_delay()
 
     for source in sources_by_id.values():
+        add_media_review_fields(source)
         add_layer_routing(source)
 
     sources = sorted(sources_by_id.values(), key=lambda item: (item.get("tags", []), item.get("title", "")))
@@ -1446,6 +1544,8 @@ def collect_sources():
     new_evidence_counts = {}
     auto_approval_counts = {}
     new_auto_approval_counts = {}
+    media_counts = {}
+    new_media_counts = {}
     for source in sources:
         for layer in source.get("layer_routes", []):
             layer_counts[layer] = layer_counts.get(layer, 0) + 1
@@ -1453,6 +1553,9 @@ def collect_sources():
         evidence_counts[label] = evidence_counts.get(label, 0) + 1
         approval = source.get("auto_review_approval", "not_configured")
         auto_approval_counts[approval] = auto_approval_counts.get(approval, 0) + 1
+        media_kind = source.get("media_kind")
+        if media_kind:
+            media_counts[media_kind] = media_counts.get(media_kind, 0) + 1
     for source in new_sources:
         for layer in source.get("layer_routes", []):
             new_layer_counts[layer] = new_layer_counts.get(layer, 0) + 1
@@ -1460,6 +1563,9 @@ def collect_sources():
         new_evidence_counts[label] = new_evidence_counts.get(label, 0) + 1
         approval = source.get("auto_review_approval", "not_configured")
         new_auto_approval_counts[approval] = new_auto_approval_counts.get(approval, 0) + 1
+        media_kind = source.get("media_kind")
+        if media_kind:
+            new_media_counts[media_kind] = new_media_counts.get(media_kind, 0) + 1
     run_at = datetime.now(timezone.utc).isoformat()
     save_json(
         REFERENCES_PATH,
@@ -1481,6 +1587,8 @@ def collect_sources():
             "new_automated_evidence_counts": new_evidence_counts,
             "auto_review_approval_counts": auto_approval_counts,
             "new_auto_review_approval_counts": new_auto_approval_counts,
+            "media_candidate_counts": media_counts,
+            "new_media_candidate_counts": new_media_counts,
             "auto_review_approval_setup": {
                 "enabled": auto_approve_review_queue_enabled(),
                 "min_score": auto_approve_min_score(),
@@ -1535,6 +1643,7 @@ def write_reports(
     layer_counts = {}
     evidence_counts = {}
     auto_approval_counts = {}
+    media_counts = {}
     for source in sources:
         for tag in source.get("tags", []):
             tag_counts[tag] = tag_counts.get(tag, 0) + 1
@@ -1546,6 +1655,9 @@ def write_reports(
         evidence_counts[evidence_label] = evidence_counts.get(evidence_label, 0) + 1
         approval = source.get("auto_review_approval", "not_configured")
         auto_approval_counts[approval] = auto_approval_counts.get(approval, 0) + 1
+        media_kind = source.get("media_kind")
+        if media_kind:
+            media_counts[media_kind] = media_counts.get(media_kind, 0) + 1
 
     lines = [
         "Cloud Research Findings Report",
@@ -1559,6 +1671,7 @@ def write_reports(
         "----------",
         "- Store metadata, source links, summaries, and short allowed snippets only.",
         "- Do not copy full copyrighted articles, books, or song lyrics.",
+        "- Videos, podcasts, and images are candidate evidence only after the actual media is reviewed through captions, transcripts, source context, rights status, and counter-readings.",
         "- Treat search results as candidate references until reviewed.",
         "- Keep quantum/science claims tied to qualified sources and stated limits.",
         "",
@@ -1643,6 +1756,11 @@ def write_reports(
         lines.extend(f"  - {layer}: {count:,}" for layer, count in thin_layers)
     lines.extend(["", "Quality Counts", "--------------"])
     lines.extend(f"- {quality}: {count:,}" for quality, count in sorted(quality_counts.items()))
+    lines.extend(["", "Media Candidate Counts", "----------------------"])
+    if media_counts:
+        lines.extend(f"- {kind}: {count:,}" for kind, count in sorted(media_counts.items()))
+    else:
+        lines.append("- No video, podcast/audio, or image candidates detected yet.")
     lines.extend(["", "Automated Evidence Counts", "-------------------------"])
     lines.extend(f"- {label}: {count:,}" for label, count in sorted(evidence_counts.items()))
     lines.extend(["", "Auto Review Approval Counts", "---------------------------"])
@@ -1659,11 +1777,15 @@ def write_reports(
 
     new_tag_counts = {}
     new_layer_counts = {}
+    new_media_counts = {}
     for source in new_sources:
         for tag in source.get("tags", []):
             new_tag_counts[tag] = new_tag_counts.get(tag, 0) + 1
         for layer in source.get("layer_routes", []):
             new_layer_counts[layer] = new_layer_counts.get(layer, 0) + 1
+        media_kind = source.get("media_kind")
+        if media_kind:
+            new_media_counts[media_kind] = new_media_counts.get(media_kind, 0) + 1
 
     lines.extend(["", "New This Run By Tag", "-------------------"])
     if new_tag_counts:
@@ -1677,6 +1799,12 @@ def write_reports(
     else:
         lines.append("- No brand-new layer routes this run.")
 
+    lines.extend(["", "New Media Candidates", "--------------------"])
+    if new_media_counts:
+        lines.extend(f"- {kind}: {count:,}" for kind, count in sorted(new_media_counts.items()))
+    else:
+        lines.append("- No brand-new video, podcast/audio, or image candidates detected this run.")
+
     lines.extend(["", "Newest Additions This Run", "------------------------"])
     if new_sources:
         for source in new_sources[:30]:
@@ -1686,6 +1814,8 @@ def write_reports(
             lines.append(f"  Tags: {tags}")
             lines.append(f"  Layer routes: {routes}")
             lines.append(f"  Source: {source.get('provider')} | {source.get('quality')}")
+            if source.get("media_kind"):
+                lines.append(f"  Media candidate: {source.get('media_kind')} | review required before confidence change")
             lines.append(
                 f"  Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})"
             )
@@ -1714,6 +1844,8 @@ def write_reports(
         if authors:
             lines.append(f"  Authors: {authors}")
         lines.append(f"  Source: {source.get('provider')} | {source.get('quality')}")
+        if source.get("media_kind"):
+            lines.append(f"  Media candidate: {source.get('media_kind')} | review required before confidence change")
         if source.get("url"):
             lines.append(f"  URL: {source['url']}")
 
@@ -1742,6 +1874,8 @@ def write_reports(
                 f"- Primary layer: {source.get('primary_layer', 'research_documents')}",
                 f"- Provider: {source.get('provider')}",
                 f"- Quality: {source.get('quality')}",
+                f"- Media kind: {source.get('media_kind', 'none')}",
+                f"- Requires multimodal review: {source.get('requires_multimodal_review', False)}",
                 f"- Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})",
                 f"- Auto review approval: {source.get('auto_review_approval', 'not_configured')}",
                 f"- Auto approval scope: {source.get('auto_review_approval_scope', 'manual_review_required')}",
@@ -1763,6 +1897,7 @@ def write_reports(
         "It is an evaluation set of candidate material, not a set of approved conclusions.",
         "",
         "Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.",
+        "Media rule: videos, podcasts, and images can be found and queued, but they cannot strengthen a claim until a caption/transcript or direct human/MLLM observation note records what is actually present in the media.",
         "",
         "## Newest Candidate Material",
         "",
@@ -1787,6 +1922,8 @@ def write_reports(
                 f"- Primary layer: {source.get('primary_layer', 'research_documents')}",
                 f"- Provider: {source.get('provider')}",
                 f"- Quality: {source.get('quality')}",
+                f"- Media kind: {source.get('media_kind', 'none')}",
+                f"- Requires multimodal review: {source.get('requires_multimodal_review', False)}",
                 f"- Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})",
                 f"- Auto review approval: {source.get('auto_review_approval', 'not_configured')}",
                 f"- Auto approval scope: {source.get('auto_review_approval_scope', 'manual_review_required')}",
@@ -1818,6 +1955,10 @@ def write_reports(
             queue_lines.append("Automated evidence warnings:")
             for warning in source.get("automated_evidence_warnings", [])[:4]:
                 queue_lines.append(f"- {warning}")
+        if source.get("media_review_prompt"):
+            queue_lines.append("")
+            queue_lines.append("Media review prompt:")
+            queue_lines.append(f"- {source.get('media_review_prompt')}")
         queue_lines.extend(
             [
                 "",
