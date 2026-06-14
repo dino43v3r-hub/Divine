@@ -25,6 +25,7 @@ TAVILY_USAGE_PATH = REFERENCES_DIR / "tavily_usage.json"
 FINDINGS_REPORT_PATH = REPORTS_DIR / "cloud_research_findings_report.txt"
 CLOUD_SUMMARY_PATH = RESEARCH_DIR / "cloud_references_summary.md"
 DAILY_EVALUATION_QUEUE_PATH = RESEARCH_DIR / "daily_evaluation_queue.md"
+AUTO_IMPORTED_CANDIDATE_DIR = "auto_imported_cloud_candidates"
 
 BING_WEB_SEARCH_ENDPOINT = "https://api.bing.microsoft.com/v7.0/search"
 BRAVE_WEB_SEARCH_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
@@ -370,6 +371,17 @@ def auto_approve_warnings_enabled():
     return provider_enabled("AUTO_APPROVE_WITH_WARNINGS", default=False)
 
 
+def auto_import_cloud_candidates_enabled():
+    return provider_enabled("AUTO_IMPORT_CLOUD_CANDIDATES", default=False)
+
+
+def auto_import_cloud_candidate_limit():
+    try:
+        return max(0, int(os.getenv("AUTO_IMPORT_CLOUD_CANDIDATE_LIMIT", "40")))
+    except ValueError:
+        return 40
+
+
 def provider_enabled(env_name: str, default: bool = True):
     value = os.getenv(env_name)
     if value is None:
@@ -639,6 +651,104 @@ def clean_text(value: str, limit: int = 700):
 def source_id(source: dict):
     raw = source.get("doi") or source.get("url") or source.get("title", "")
     return re.sub(r"\s+", " ", raw.strip().lower())
+
+
+def slugify_filename(value: str, limit: int = 80):
+    slug = re.sub(r"[^a-z0-9]+", "_", (value or "").lower()).strip("_")
+    return (slug[:limit].strip("_") or "cloud_candidate")
+
+
+def lane_import_directory(source: dict):
+    route = source.get("primary_layer") or "research_documents"
+    route = route.replace("\\", "/").strip("/")
+    if not route or route.startswith(".") or ".." in route.split("/"):
+        route = "research_documents"
+    return Path(route) / AUTO_IMPORTED_CANDIDATE_DIR
+
+
+def cloud_candidate_note_path(source: dict):
+    key = source.get("id") or source_id(source)
+    digest = hashlib.sha256(key.encode("utf-8")).hexdigest()[:12]
+    title_slug = slugify_filename(source.get("title", "cloud candidate"))
+    return lane_import_directory(source) / f"{title_slug}_{digest}.md"
+
+
+def render_auto_imported_candidate_note(source: dict, run_at: str):
+    summary = source.get("summary") or "No summary available in metadata."
+    tags = ", ".join(source.get("tags", [])) or "untagged"
+    routes = ", ".join(source.get("layer_routes", [])) or "unrouted"
+    warnings = source.get("automated_evidence_warnings", [])
+    blockers = source.get("auto_review_approval_warnings", [])
+
+    lines = [
+        f"# {source.get('title', 'Untitled Cloud Candidate')}",
+        "",
+        "Source status: auto-imported cloud candidate; not human-reviewed evidence",
+        "Reviewed note count: 1",
+        f"Imported at: {run_at}",
+        "",
+        "## Candidate Metadata",
+        "",
+        f"- Provider: {source.get('provider', 'unknown')}",
+        f"- Source type: {source.get('source_type', 'unknown')}",
+        f"- Year: {source.get('year') or 'n.d.'}",
+        f"- URL: {source.get('url') or 'not available'}",
+        f"- DOI: {source.get('doi') or 'none'}",
+        f"- Tags: {tags}",
+        f"- Layer routes: {routes}",
+        f"- Primary layer: {source.get('primary_layer', 'research_documents')}",
+        f"- Media kind: {source.get('media_kind', 'none')}",
+        f"- Requires multimodal review: {source.get('requires_multimodal_review', False)}",
+        f"- Automated evidence: {source.get('automated_evidence_label', 'not_scored')} ({source.get('automated_evidence_score', 0)})",
+        f"- Auto review approval: {source.get('auto_review_approval', 'not_configured')}",
+        f"- Confidence effect: {source.get('confidence_effect', 'none_until_human_review')}",
+        "",
+        "## Metadata Summary",
+        "",
+        textwrap.fill(summary, width=100),
+        "",
+        "## Required Review Before Claim Strengthening",
+        "",
+        "- Check the original source beyond title, abstract, snippet, or search metadata.",
+        "- Identify author expertise, venue, date, publication context, and source type.",
+        "- Write the smallest claim the source actually supports.",
+        "- Name at least one counter-reading or rival explanation.",
+        "- Keep confidence effect as none until this note is manually reviewed.",
+    ]
+
+    if source.get("media_review_prompt"):
+        lines.extend(["", "## Media Review Prompt", "", f"- {source.get('media_review_prompt')}"])
+    if warnings:
+        lines.extend(["", "## Automated Evidence Warnings", ""])
+        lines.extend(f"- {warning}" for warning in warnings[:6])
+    if blockers:
+        lines.extend(["", "## Auto Approval Blockers", ""])
+        lines.extend(f"- {warning}" for warning in blockers[:6])
+
+    return "\n".join(lines) + "\n"
+
+
+def auto_import_cloud_candidate_notes(new_sources: list[dict], run_at: str):
+    if not auto_import_cloud_candidates_enabled() or not new_sources:
+        return []
+
+    eligible = sorted(
+        new_sources,
+        key=lambda source: (
+            source.get("auto_review_approval") != "approved_for_review_queue",
+            -int(source.get("automated_evidence_score") or 0),
+            source.get("title", ""),
+        ),
+    )
+    imported = []
+    for source in eligible[: auto_import_cloud_candidate_limit()]:
+        path = cloud_candidate_note_path(source)
+        if path.exists():
+            continue
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(render_auto_imported_candidate_note(source, run_at), encoding="utf-8")
+        imported.append(path.as_posix())
+    return imported
 
 
 def add_source(sources_by_id: dict, source: dict):
@@ -1618,6 +1728,8 @@ def collect_sources():
         source_key = source.get("id") or source_id(source)
         if source_key in sources_by_id:
             source.update(sources_by_id[source_key])
+    run_at = datetime.now(timezone.utc).isoformat()
+    auto_imported_note_paths = auto_import_cloud_candidate_notes(new_sources, run_at)
     layer_counts = {}
     new_layer_counts = {}
     evidence_counts = {}
@@ -1646,7 +1758,6 @@ def collect_sources():
         media_kind = source.get("media_kind")
         if media_kind:
             new_media_counts[media_kind] = new_media_counts.get(media_kind, 0) + 1
-    run_at = datetime.now(timezone.utc).isoformat()
     save_json(
         REFERENCES_PATH,
         {
@@ -1669,12 +1780,19 @@ def collect_sources():
             "new_auto_review_approval_counts": new_auto_approval_counts,
             "media_candidate_counts": media_counts,
             "new_media_candidate_counts": new_media_counts,
+            "auto_imported_local_note_count": len(auto_imported_note_paths),
+            "auto_imported_local_note_paths": auto_imported_note_paths[:80],
             "auto_review_approval_setup": {
                 "enabled": auto_approve_review_queue_enabled(),
                 "min_score": auto_approve_min_score(),
                 "open_web_allowed": auto_approve_open_web_enabled(),
                 "warnings_allowed": auto_approve_warnings_enabled(),
                 "scope": "routing_and_queue_only_not_claim_confidence",
+            },
+            "auto_import_setup": {
+                "enabled": auto_import_cloud_candidates_enabled(),
+                "limit": auto_import_cloud_candidate_limit(),
+                "scope": "local_lane_candidate_notes_not_human_reviewed_evidence",
             },
             "run_provider_counts": run_provider_counts,
             "new_provider_counts": new_provider_counts,
@@ -1779,6 +1897,12 @@ def write_reports(
     lines.append(
         f"- Discovery pagination: rotating across {discovery_window_pages():,} page(s) with run index {discovery_run_index():,}, so repeated runs do not keep rereading page one."
     )
+    if auto_import_cloud_candidates_enabled():
+        lines.append(
+            f"- Auto-import to local lane notes is enabled for up to {auto_import_cloud_candidate_limit():,} new candidate(s) per run. These notes are candidate notes, not human-reviewed evidence."
+        )
+    else:
+        lines.append("- Auto-import to local lane notes is disabled.")
 
     searxng_errors = [error for error in errors if error.startswith("search_searxng_web")]
     open_web_returned = sum(

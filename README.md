@@ -165,6 +165,20 @@ open-web or warning-bearing sources manual by default. Auto approval means
 `auto_approved_for_review_queue`, not reviewed evidence; confidence remains
 `none_until_human_review`.
 
+The GitHub workflow can also auto-import new cloud candidates into local lane
+folders so the Local Reviewed Corpus grows each run:
+
+```text
+AUTO_IMPORT_CLOUD_CANDIDATES
+AUTO_IMPORT_CLOUD_CANDIDATE_LIMIT
+```
+
+These generated files are written under each candidate's primary lane in an
+`auto_imported_cloud_candidates/` subfolder. They include `Reviewed note count:
+1` so the analyzer can see them as local corpus notes, but their source status
+is explicitly `auto-imported cloud candidate; not human-reviewed evidence`.
+They should still be manually reviewed before they strengthen a claim.
+
 ### Broad Web Search
 
 By default, the collector searches scholarly/indexed sources:

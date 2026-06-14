@@ -22,6 +22,8 @@ env:
   AUTO_APPROVE_MIN_SCORE: "7"
   AUTO_APPROVE_OPEN_WEB: "false"
   AUTO_APPROVE_WITH_WARNINGS: "false"
+  AUTO_IMPORT_CLOUD_CANDIDATES: "true"
+  AUTO_IMPORT_CLOUD_CANDIDATE_LIMIT: "40"
 
 jobs:
   collect-and-analyze:
@@ -73,4 +75,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update daily cloud research evaluation set"
-          file_pattern: "references/*.json research_documents/cloud_references_summary.md research_documents/daily_evaluation_queue.md reports/*.txt reports/*.md reports/*.html reports/published/*.md"
+          file_pattern: "references/*.json research_documents/**/*.md theologians/**/*.md visual_art/**/*.md history_inputs/**/*.md world_languages/**/*.md biblical_languages/**/*.md all_texts/**/*.md psychology_inputs/**/*.md other_religious_texts/**/*.md modern_literature/**/*.md human_stories/**/*.md deep_sources/**/*.md pattern_tests/**/*.md cultural_inputs/**/*.md music_notes/**/*.md reports/*.txt reports/*.md reports/*.html reports/published/*.md"
