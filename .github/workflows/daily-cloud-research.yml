@@ -75,4 +75,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update daily cloud research evaluation set"
-          file_pattern: "references/*.json research_documents/**/*.md theologians/**/*.md visual_art/**/*.md history_inputs/**/*.md world_languages/**/*.md biblical_languages/**/*.md all_texts/**/*.md psychology_inputs/**/*.md other_religious_texts/**/*.md modern_literature/**/*.md human_stories/**/*.md deep_sources/**/*.md pattern_tests/**/*.md cultural_inputs/**/*.md music_notes/**/*.md reports/*.txt reports/*.md reports/*.html reports/published/*.md"
+          file_pattern: "references research_documents theologians visual_art history_inputs world_languages biblical_languages all_texts psychology_inputs other_religious_texts modern_literature human_stories deep_sources pattern_tests cultural_inputs music_notes reports"
