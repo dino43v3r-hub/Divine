@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-06-14T03:24:53.065636+00:00
-Total references: 2,860
-New references this run: 866
+Updated: 2026-06-14T03:39:36.765780+00:00
+Total references: 3,661
+New references this run: 801
 
 Guardrails
 ----------
@@ -18,7 +18,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Self-directed query modifiers used this run: primary source, counterargument.
 - Search strategy priority lanes: human_stories, modern_literature, visual_art, psychology_inputs, cultural_inputs, deep_sources, pattern_tests.
-- Discovery pagination: rotating across 12 page(s) with run index 671, so repeated runs do not keep rereading page one.
+- Discovery pagination: rotating across 12 page(s) with run index 681, so repeated runs do not keep rereading page one.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 - OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
 - Broad web search attempted via SearXNG (not configured), Tavily, or configured search API keys.
@@ -26,98 +26,98 @@ Online Collection Status
 - Open-web candidates returned this run: 0.
 - Provider results returned this run:
   - Crossref: 530
-  - Europe PMC: 333
-  - Internet Archive: 48
-  - OpenAlex: 427
-  - PubMed: 15
+  - Europe PMC: 295
+  - Internet Archive: 41
+  - OpenAlex: 440
+  - PubMed: 10
   - arXiv: 55
 - Brand-new references added by provider:
-  - Crossref: 470
-  - Internet Archive: 3
-  - OpenAlex: 336
-  - PubMed: 15
-  - arXiv: 42
+  - Crossref: 424
+  - Internet Archive: 9
+  - OpenAlex: 324
+  - PubMed: 10
+  - arXiv: 34
 - Total stored references by provider:
-  - Crossref: 930
+  - Crossref: 1,354
   - Europe PMC: 305
-  - Internet Archive: 417
-  - OpenAlex: 902
-  - PubMed: 40
+  - Internet Archive: 426
+  - OpenAlex: 1,226
+  - PubMed: 50
   - Tavily Search: 192
-  - arXiv: 74
+  - arXiv: 108
 
 Reference Tags
 --------------
-- art_beauty: 200
-- biblical_language_source_depth: 74
-- biblical_languages: 68
-- cultural_practice_patterns: 142
-- general_research_methods: 285
-- global_text_traditions: 140
-- history_memory: 159
-- holy_spirit_gifts_global: 76
-- interreligious_dream_testimony: 114
-- modern_literature_meaning: 128
-- music_math: 161
-- pattern_perception_divine_response: 112
-- podcast_testimony_patterns: 80
-- politics_justice: 150
-- psychology_patterns: 126
-- quantum_science_guardrails: 205
-- technology_ethics: 154
-- theologians_cross_era: 61
-- trinity: 172
-- unresolved_suffering: 114
-- video_teaching_patterns: 93
-- visual_media_patterns: 92
-- world_language_source_sampling: 109
-- world_languages_translation: 101
+- art_beauty: 247
+- biblical_language_source_depth: 95
+- biblical_languages: 93
+- cultural_practice_patterns: 181
+- general_research_methods: 377
+- global_text_traditions: 164
+- history_memory: 191
+- holy_spirit_gifts_global: 101
+- interreligious_dream_testimony: 142
+- modern_literature_meaning: 163
+- music_math: 212
+- pattern_perception_divine_response: 143
+- podcast_testimony_patterns: 95
+- politics_justice: 172
+- psychology_patterns: 159
+- quantum_science_guardrails: 266
+- technology_ethics: 189
+- theologians_cross_era: 76
+- trinity: 215
+- unresolved_suffering: 148
+- video_teaching_patterns: 128
+- visual_media_patterns: 136
+- world_language_source_sampling: 132
+- world_languages_translation: 128
 
 Layer Routes
 ------------
-- all_texts: 757
-- biblical_languages: 165
-- cultural_inputs: 780
-- deep_sources: 921
-- history_inputs: 603
-- human_stories: 965
-- modern_literature: 320
-- music_notes: 161
-- other_religious_texts: 506
-- pattern_tests: 755
-- psychology_inputs: 704
-- research_documents: 452
-- research_documents/christian_sources: 192
-- theologians: 773
-- visual_art: 786
-- world_languages: 399
+- all_texts: 930
+- biblical_languages: 214
+- cultural_inputs: 1,002
+- deep_sources: 1,194
+- history_inputs: 719
+- human_stories: 1,245
+- modern_literature: 384
+- music_notes: 212
+- other_religious_texts: 619
+- pattern_tests: 987
+- psychology_inputs: 887
+- research_documents: 586
+- research_documents/christian_sources: 250
+- theologians: 966
+- visual_art: 949
+- world_languages: 499
 
 Layer Balance Watch
 -------------------
 - These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
-  - music_notes: 161
-  - biblical_languages: 165
-  - research_documents/christian_sources: 192
+  - music_notes: 212
+  - biblical_languages: 214
+  - research_documents/christian_sources: 250
 
 Quality Counts
 --------------
 - open web result: 192
-- reference metadata: 413
-- scholarly metadata: 2,177
-- scholarly preprint: 74
+- reference metadata: 422
+- scholarly metadata: 2,935
+- scholarly preprint: 108
 - speculative-risk: 4
 
 Media Candidate Counts
 ----------------------
-- image: 101
-- podcast: 263
-- video: 190
+- image: 129
+- podcast: 284
+- video: 232
 
 Automated Evidence Counts
 -------------------------
 - do_not_strengthen_claim: 5
-- moderate_scholarly_candidate: 1,037
-- strong_scholarly_candidate: 1,615
+- moderate_scholarly_candidate: 1,313
+- strong_scholarly_candidate: 2,140
 - weak_scholarly_candidate: 203
 
 Auto Review Approval Counts
@@ -126,319 +126,283 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 2,062
-- not_auto_approved: 798
+- approved_for_review_queue: 2,742
+- not_auto_approved: 919
 
 New This Run By Tag
 -------------------
-- art_beauty: 42
-- biblical_language_source_depth: 17
+- art_beauty: 45
+- biblical_language_source_depth: 18
 - biblical_languages: 24
 - cultural_practice_patterns: 38
-- general_research_methods: 96
-- global_text_traditions: 22
-- history_memory: 25
-- holy_spirit_gifts_global: 27
-- interreligious_dream_testimony: 30
-- modern_literature_meaning: 38
-- music_math: 62
-- pattern_perception_divine_response: 24
-- podcast_testimony_patterns: 29
-- politics_justice: 37
-- psychology_patterns: 29
-- quantum_science_guardrails: 79
-- technology_ethics: 33
-- theologians_cross_era: 20
+- general_research_methods: 87
+- global_text_traditions: 24
+- history_memory: 29
+- holy_spirit_gifts_global: 24
+- interreligious_dream_testimony: 28
+- modern_literature_meaning: 32
+- music_math: 51
+- pattern_perception_divine_response: 30
+- podcast_testimony_patterns: 15
+- politics_justice: 21
+- psychology_patterns: 32
+- quantum_science_guardrails: 60
+- technology_ethics: 34
+- theologians_cross_era: 15
 - trinity: 39
-- unresolved_suffering: 43
-- video_teaching_patterns: 38
-- visual_media_patterns: 29
-- world_language_source_sampling: 27
-- world_languages_translation: 28
+- unresolved_suffering: 33
+- video_teaching_patterns: 35
+- visual_media_patterns: 43
+- world_language_source_sampling: 23
+- world_languages_translation: 27
 
 New This Run By Layer Route
 ---------------------------
 - all_texts: 168
 - biblical_languages: 49
 - cultural_inputs: 216
-- deep_sources: 309
-- history_inputs: 127
-- human_stories: 295
-- modern_literature: 69
-- music_notes: 62
-- other_religious_texts: 114
-- pattern_tests: 259
-- psychology_inputs: 199
-- research_documents: 135
-- research_documents/christian_sources: 61
-- theologians: 217
-- visual_art: 144
-- world_languages: 105
+- deep_sources: 269
+- history_inputs: 112
+- human_stories: 278
+- modern_literature: 62
+- music_notes: 51
+- other_religious_texts: 112
+- pattern_tests: 230
+- psychology_inputs: 181
+- research_documents: 126
+- research_documents/christian_sources: 57
+- theologians: 190
+- visual_art: 161
+- world_languages: 100
 
 New Media Candidates
 --------------------
-- image: 26
-- podcast: 33
-- video: 45
+- image: 28
+- podcast: 21
+- video: 42
 
 Newest Additions This Run
 ------------------------
-- Father, Son and the Holy Spirit (2003)
+- God the Father, the Son, His Mother, and the Holy Spirit (2013)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.21313/hawaii/9780824836863.003.0011
+- Wyclif’s Mother (2026)
   Tags: trinity
   Layer routes: theologians, research_documents
   Source: Crossref | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.5040/9780567690289
-- “Father, Son, and Holy Spirit” (2007)
+  URL: https://doi.org/10.1017/9781009766272.005
+- 1. The Holy Spirit in the Communion of the Holy Trinity (2023)
   Tags: trinity
   Layer routes: theologians, research_documents
   Source: Crossref | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.2307/j.ctvpj7b4h.10
-- Creation: (2) The Spirit Moved Over the Face of the Waters. The Holy Spirit and the Created Order (2003)
+  URL: https://doi.org/10.13109/9783666500213.15
+- Christian Perfecting in Holy Scripture (2013)
+  Tags: trinity
+  Layer routes: theologians, research_documents, all_texts
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2307/j.ctt1cgf0sz.6
+- Bibliography (2013)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2307/j.ctt1cgf0sz.14
+- Language, Canonization and Holy Foolishness : Studies in Postsoviet Russian Culture and the Orthodox Tradition (2009)
+  Tags: trinity
+  Layer routes: theologians, research_documents, world_languages
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-35211
+- Thy Word Is Still Truth: Essential Writings on the Doctrine of Scripture from the Reformation to Today (2013)
+  Tags: trinity
+  Layer routes: theologians, research_documents, history_inputs, all_texts
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (13)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://digitalcommons.cedarville.edu/alum_books/305
+- As we were or seeking what we ought to be? A practical theological rethinking of the communio sanctorum in the light of COVID-19 (2021)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.4102/ve.v42i1.2331
+- The ecclesiastical difficulty of Ephesians 4:1–6 in view of the different perspectives on the baptism in the Holy Spirit and the gifts of the Holy Spirit (2020)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.4102/ids.v54i1.2641
+- I Believe in the Holy Spirit (2024)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2307/jj.22992794.12
+- Creation: (1) Creation and Mediation in the Theology of Robert W. Jenson. An Encounter and a Convergence (2003)
   Tags: trinity
   Layer routes: theologians, research_documents
   Source: Crossref | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.5040/9780567690289.ch-007
-- Trinity and mission: challenges to a reformed witness in Africa today (2004)
+  URL: https://doi.org/10.5040/9780567690289.ch-006
+- 50. A Petition to Father and Son and Holy Ghost (1939)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1093/oseo/instance.00252803
+- father-son &amp; holy (2021)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2307/j.ctv1txdfxg.17
+- Father Dumitru Stăniloae’s Contribution to Deepening the Teachings about the Communion Relations in the Holy Trinity About the Holy Spirit’s Resting and Shinning in and through the Son (2018)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.29302/ar.2018.2.1
+- From confession to creed (2026)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.17570/stj.2025.v11n1.nic1
+- Justification by Faith: a Patristic Doctrine (2006)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (13)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1017/s0022046906008207
+- CONFESSING THE ONE FAITH: THEOLOGICAL RESONANCE BETWEEN THE CREED OF NICEA (325 AD) AND THE CONFESSION OF BELHAR (1982 AD) (2013)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.7833/85-0-935
+- Eusebius of Caesarea’s Christology and The Nicene Confession (2024)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: http://doi.org/10.55997/2001pslix179a1
+- Redemption, justification, and sanctification (2009)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.5040/9781350993952.ch.002
+- The Purpose of Creation: (2022)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2307/j.ctv25wxbdq.11
+- Book Review: Creation, Grace and Redemption (2009)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1177/0040571x0911200311
+- Creation (2017)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.5040/9780567677839.ch-007
+- Is the Creation under Destruction?: Abraham Kuyper and Herman Bavinck on New Creation (2020)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.36421/veritas.v19i2.394
+- Friendship as a Theological Model: Bonhoeffer, Moltmann and the Trinity (2019)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.4102/ids.v53i1.2333
+- Demarcating Deification and the Indwelling of the Holy Spirit in Reformed Theology (2020)
   Tags: trinity
   Layer routes: theologians, research_documents, history_inputs
   Source: OpenAlex | scholarly metadata
   Automated evidence: strong_scholarly_candidate (12)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4102/ve.v25i2.298
-- Panentheism in the context of the theology and science dialogue (2014)
-  Tags: trinity
-  Layer routes: theologians, research_documents, deep_sources
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.2478/opth-2014-0001
-- Migration Crisis and Christian Response: From Daniel De Groody’s Image of God Theological Prism in Migration Theology to a Migration Practical Theology Ministerial Approach and Operative Ecclesiology (2018)
-  Tags: trinity
-  Layer routes: theologians, research_documents, visual_art
-  Source: OpenAlex | scholarly metadata
-  Media candidate: image | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4102/hts.v74i1.4876
-- THEOLOGICAL ANTHROPOLOGY AND GENDER RELATIONS (2013)
+  URL: https://doi.org/10.2478/perc-2020-0005
+- Economy of Condescension: John Henry Newman's Trinitarian Theology (2020)
   Tags: trinity
   Layer routes: theologians, research_documents
   Source: OpenAlex | scholarly metadata
   Automated evidence: strong_scholarly_candidate (12)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.7833/86-0-948
-- Trinity, Number and Image. The Christian Origins of the Concept of Person (2021)
+  URL: https://ecommons.luc.edu/luc_diss/3800
+- The holy spirit and the trinity (1951)
   Tags: trinity
-  Layer routes: theologians, research_documents, visual_art
-  Source: OpenAlex | scholarly metadata
-  Media candidate: image | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1007/s11196-021-09835-9
-- Father, Son, and Holy Spirit in the New Testament (2017)
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1177/004057365100800106
+- The Holy Spirit (2024)
   Tags: trinity
   Layer routes: theologians, research_documents
   Source: Crossref | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.2307/j.ctt1tm7j2q.7
-- The Written Trinity (2024)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1163/9789004688018_005
-- Gnosticism, church unity and the Nicene Creed (2008)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4102/ids.v42i2.264
-- The Council of Ariminum (359) and the Rise of the Neo-Nicenes (2020)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1017/9781108613200.014
-- Trinity, Subordination, and Heresy: A Reply to Mark Edwards (2020)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.14428/thl.v4i2.52323
-- One God, the Father (2022)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.14428/thl.v6i2.67603
-- Bibliography (1971)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1163/9789004266032_008
-- Christ, Creation, and Divine Possibilities—‘Sheltered within’ the Trinity (2016)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1093/acprof:oso/9780198744603.003.0011
-- Following the Cracks of Trinitarian Theology (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1057/9781137464781.0008
-- Possibilities of a Material Trinitarian Theology (n.d.)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1057/9781137464781.0004
-- Insights from complex systems: contingency and trinitarian divine action in creation (2015)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.18638/dialogo.2015.2.1.31
-- Trinitarian Anthropology (2008)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4102/ve.v29i1.14
-- Divine Presence in the Eucharistic Theology of Nicholas Cabasilas (2010)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://erepo.uef.fi/handle/123456789/9690
-- The ancestors and Zulu family transitions: a Bowen theory and practical theological interpretation (2009)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: http://hdl.handle.net/10500/1629
-- A Pilgrim Blessing – an Alluring Folklore or Expression of Piety? Theological Insights from the Camino de Santiago (2020)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.34291/bv2020/03/roszak
-- THAT THERE ARE BUT THREE PERSONS IN DIVINITY: (1975)
+  URL: https://doi.org/10.2307/jj.19948938.8
+- Relationship of Father, Son and Holy Spirit (2020)
   Tags: trinity
   Layer routes: theologians, research_documents
   Source: Crossref | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.2307/j.ctvpg842h.30
-- Conclusion (2024)
+  URL: https://doi.org/10.2307/j.ctv138wrs6.10
+- The Triune God: Father, Son and Holy Spirit (2013)
   Tags: trinity
   Layer routes: theologians, research_documents
   Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
+  Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1163/9789004688018_009
-- In the Name of the Father and the Son and the Holy Spirit (2016)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.5040/9781350070059.ch-005
-- Introduction (2024)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1163/9789004688018_002
-- When I Say God, I Mean Father, Son and Holy Spirit: On the Ecumenical Baptismal Formula (1997)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1177/106385129700600309
-- Why is Simeon Dancing? The Unity of Exegesis, Theology and Devotion in the Work of Bonaventure (2019)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1353/scs.2019.0031
-- Confraternal religion: from liberation theology to political reversal (2003)
-  Tags: trinity
-  Layer routes: theologians, research_documents
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1080/0275720032000156488
+  URL: https://doi.org/10.4324/9780203085134-17
 
 Recent Candidate Sources
 ------------------------
-- Semantics in Universal Grammar (2016)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts, visual_art
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  Authors: George Tsoulas
-  Source: Crossref | scholarly metadata
-  Media candidate: image | review required before confidence change
-  URL: https://doi.org/10.1093/oxfordhb/9780199573776.013.9
-- Shifting the Overton Window: enhancing therapeutic outcomes for Māori experiencing Ngā Māuiui kai (eating disorders) through the integration of traditional Māori and Western healing systems in Aotearoa New Zealand. (2026)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  Authors: Clark MTR, Clark RT, Jordan J
-  Source: Europe PMC | scholarly metadata
-  URL: https://doi.org/10.3389/fpsyt.2026.1795945
-- Sociological definitions, language games, and the "essence" of religion (2002)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Automated evidence: strong_scholarly_candidate (11)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  Authors: Andrew McKinnon
-  Source: OpenAlex | scholarly metadata
-  URL: https://doi.org/10.1163/157006802760198776
-- Sri Sundara Kanda is nothing but Kundalini yoga : Seshendra Sharma (2024)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts, visual_art
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  Authors: Saatyaki S/o Seshendra Sharma
-  Source: Internet Archive | reference metadata
-  Media candidate: image | review required before confidence change
-  URL: https://archive.org/details/sri-sundara-kanda-is-nothing-but-kundalini-yoga-seshendra-sharma
-- Syntax, Semantics, and Grammar (2006)
+- THE LANGUAGE SITUATION (2012)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Source: Crossref | scholarly metadata
-  URL: https://doi.org/10.1515/9781552384671-026
+  URL: https://doi.org/10.4324/9780203047750-7
 - THE SACRED POLIC: LANGUAGE AS SYNACTIC EVENT (1994)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -454,6 +418,14 @@ Recent Candidate Sources
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
   Source: Crossref | scholarly metadata
   URL: https://doi.org/10.4324/9780203047750-11
+- Talanoa Research Methodology: A Developing Position on Pacific Research (2016)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (14)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  Authors: Timote Masima Vaioleti
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.15663/wje.v12i1.296
 - Teaching the Translation of English-Language Color Terms in Political Texts: From Culture to Semantics (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -479,6 +451,13 @@ Recent Candidate Sources
   Authors: Helge Wendt
   Source: OpenAlex | scholarly metadata
   URL: https://www.doabooks.org/doab?func=search&query=rid:20550
+- The Grammar of Visual Metaphor (2023)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.5040/9781350073869.ch-004
 - The Hymns of Zoroaster(The Gāthās) (2010)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -586,6 +565,14 @@ Recent Candidate Sources
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
   Source: Tavily Search | open web result
   URL: https://www.euppublishing.com/doi/10.3366/tal.2011.0030
+- Threefold translation of the body of Christ: concepts of the Eucharist and the body translated in the early modern missionary context (2020)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  Authors: Antje Flüchter, G. Nardini
+  Source: OpenAlex | scholarly metadata
+  URL: https://doi.org/10.1057/s41599-020-00566-z
 - Translating Inspired Language, Transforming Sacred Texts - Brill (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts, visual_art
@@ -609,6 +596,13 @@ Recent Candidate Sources
   Authors: Ernst-August Gutt
   Source: OpenAlex | scholarly metadata
   URL: https://doi.org/10.4324/9781315760018
+- Translation by Evidence: A Form-based Approach to the Translation of Sacred Texts (2024)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts, visual_art, other_religious_texts
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  Source: Crossref | scholarly metadata
+  URL: https://doi.org/10.47012/jjmll.16.2.1
 - Why do sacred texts often speak in metaphor, and what happens ... (n.d.)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
@@ -633,4 +627,16 @@ Recent Candidate Sources
 
 Collector Errors
 ----------------
-- search_europe_pmc failed for holy_spirit_gifts_global: The read operation timed out
+- search_europe_pmc failed for psychology_patterns: HTTP Error 502: Bad Gateway
+- search_europe_pmc failed for psychology_patterns: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for psychology_patterns: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for psychology_patterns: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for pattern_perception_divine_response: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for pattern_perception_divine_response: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for pattern_perception_divine_response: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for pattern_perception_divine_response: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for global_text_traditions: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for global_text_traditions: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for global_text_traditions: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for modern_literature_meaning: HTTP Error 503: Service Temporarily Unavailable
+- search_europe_pmc failed for modern_literature_meaning: HTTP Error 503: Service Temporarily Unavailable
