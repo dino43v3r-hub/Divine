@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import time
@@ -448,6 +449,44 @@ def polite_delay():
     delay = request_delay_seconds()
     if delay:
         time.sleep(delay)
+
+
+def discovery_window_pages():
+    try:
+        return max(1, int(os.getenv("DISCOVERY_WINDOW_PAGES", "12")))
+    except ValueError:
+        return 12
+
+
+def discovery_run_index():
+    explicit = os.getenv("DISCOVERY_RUN_INDEX")
+    if explicit:
+        try:
+            return int(explicit)
+        except ValueError:
+            pass
+
+    github_run = os.getenv("GITHUB_RUN_NUMBER")
+    github_attempt = os.getenv("GITHUB_RUN_ATTEMPT", "1")
+    if github_run:
+        try:
+            return (int(github_run) * 10) + int(github_attempt)
+        except ValueError:
+            pass
+
+    return datetime.now(timezone.utc).date().toordinal()
+
+
+def discovery_page(query: str, tag: str, provider: str):
+    """Rotate deterministic provider pages so daily runs do not keep rereading page one."""
+    window = discovery_window_pages()
+    digest = hashlib.sha256(f"{provider}|{tag}|{query}".encode("utf-8")).hexdigest()
+    seed = int(digest[:8], 16)
+    return ((seed + discovery_run_index()) % window) + 1
+
+
+def discovery_offset(query: str, tag: str, provider: str, limit: int):
+    return (discovery_page(query, tag, provider) - 1) * max(1, limit)
 
 
 def tavily_daily_limit():
@@ -934,9 +973,17 @@ def add_layer_routing(source: dict):
 
 
 def search_crossref(query: str, tag: str, limit: int = 5):
+    offset = discovery_offset(query, tag, "Crossref", limit)
     url = (
         "https://api.crossref.org/works?"
-        + urllib.parse.urlencode({"query": query, "rows": str(limit), "select": "DOI,title,author,published-print,published-online,URL,abstract,type"})
+        + urllib.parse.urlencode(
+            {
+                "query": query,
+                "rows": str(limit),
+                "offset": str(offset),
+                "select": "DOI,title,author,published-print,published-online,URL,abstract,type",
+            }
+        )
     )
     payload = fetch_json(url)
     results = []
@@ -971,6 +1018,8 @@ def search_crossref(query: str, tag: str, limit: int = 5):
                 "review_status": "unreviewed_daily_candidate",
                 "evaluation_use": "candidate lead only until original source review and counterargument check",
                 "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+                "discovery_page": discovery_page(query, tag, "Crossref"),
+                "discovery_offset": offset,
             }
         )
 
@@ -978,9 +1027,10 @@ def search_crossref(query: str, tag: str, limit: int = 5):
 
 
 def search_openalex(query: str, tag: str, limit: int = 5):
+    page = discovery_page(query, tag, "OpenAlex")
     url = (
         "https://api.openalex.org/works?"
-        + urllib.parse.urlencode({"search": query, "per-page": str(limit)})
+        + urllib.parse.urlencode({"search": query, "per-page": str(limit), "page": str(page)})
     )
     payload = fetch_json(url)
     results = []
@@ -1015,6 +1065,8 @@ def search_openalex(query: str, tag: str, limit: int = 5):
                 "review_status": "unreviewed_daily_candidate",
                 "evaluation_use": "candidate lead only until original source review and counterargument check",
                 "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+                "discovery_page": page,
+                "discovery_offset": (page - 1) * max(1, limit),
             }
         )
 
@@ -1022,9 +1074,10 @@ def search_openalex(query: str, tag: str, limit: int = 5):
 
 
 def search_arxiv(query: str, tag: str, limit: int = 5):
+    offset = discovery_offset(query, tag, "arXiv", limit)
     url = (
         "https://export.arxiv.org/api/query?"
-        + urllib.parse.urlencode({"search_query": f"all:{query}", "start": "0", "max_results": str(limit)})
+        + urllib.parse.urlencode({"search_query": f"all:{query}", "start": str(offset), "max_results": str(limit)})
     )
     text = fetch_text(url, timeout=arxiv_timeout_seconds())
     root = ET.fromstring(text)
@@ -1058,6 +1111,8 @@ def search_arxiv(query: str, tag: str, limit: int = 5):
                 "review_status": "unreviewed_daily_candidate",
                 "evaluation_use": "candidate lead only until original source review and counterargument check",
                 "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+                "discovery_page": discovery_page(query, tag, "arXiv"),
+                "discovery_offset": offset,
             }
         )
 
@@ -1065,10 +1120,12 @@ def search_arxiv(query: str, tag: str, limit: int = 5):
 
 
 def search_europe_pmc(query: str, tag: str, limit: int = 5):
+    page = discovery_page(query, tag, "Europe PMC")
     url = EUROPE_PMC_SEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
         {
             "query": query,
             "pageSize": str(limit),
+            "page": str(page),
             "format": "json",
             "resultType": "core",
             "synonym": "true",
@@ -1109,6 +1166,8 @@ def search_europe_pmc(query: str, tag: str, limit: int = 5):
                 "review_status": "unreviewed_daily_candidate",
                 "evaluation_use": "candidate lead only until original source review and counterargument check",
                 "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+                "discovery_page": page,
+                "discovery_offset": (page - 1) * max(1, limit),
             }
         )
 
@@ -1116,11 +1175,13 @@ def search_europe_pmc(query: str, tag: str, limit: int = 5):
 
 
 def search_pubmed(query: str, tag: str, limit: int = 5):
+    offset = discovery_offset(query, tag, "PubMed", limit)
     search_url = PUBMED_ESEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
         {
             "db": "pubmed",
             "term": query,
             "retmax": str(limit),
+            "retstart": str(offset),
             "retmode": "json",
             "sort": "relevance",
         }
@@ -1171,6 +1232,8 @@ def search_pubmed(query: str, tag: str, limit: int = 5):
                 "review_status": "unreviewed_daily_candidate",
                 "evaluation_use": "candidate lead only until original source review and counterargument check",
                 "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+                "discovery_page": discovery_page(query, tag, "PubMed"),
+                "discovery_offset": offset,
             }
         )
 
@@ -1178,12 +1241,13 @@ def search_pubmed(query: str, tag: str, limit: int = 5):
 
 
 def search_internet_archive(query: str, tag: str, limit: int = 5):
+    page = discovery_page(query, tag, "Internet Archive")
     url = INTERNET_ARCHIVE_ADVANCED_SEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
         {
             "q": query,
             "fl[]": ["identifier", "title", "creator", "date", "description", "mediatype"],
             "rows": str(limit),
-            "page": "1",
+            "page": str(page),
             "output": "json",
         },
         doseq=True,
@@ -1220,6 +1284,8 @@ def search_internet_archive(query: str, tag: str, limit: int = 5):
                 "review_status": "unreviewed_daily_candidate",
                 "evaluation_use": "candidate lead only until original source review and counterargument check",
                 "date_accessed": datetime.now(timezone.utc).date().isoformat(),
+                "discovery_page": page,
+                "discovery_offset": (page - 1) * max(1, limit),
             }
         )
 
@@ -1257,10 +1323,12 @@ def search_bing_web(query: str, tag: str, limit: int = 5):
     if not api_key:
         return []
 
+    offset = discovery_offset(query, tag, "Bing Web Search", limit)
     url = BING_WEB_SEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
         {
             "q": query,
             "count": str(limit),
+            "offset": str(offset),
             "responseFilter": "Webpages",
             "safeSearch": "Moderate",
             "textFormat": "Raw",
@@ -1272,6 +1340,8 @@ def search_bing_web(query: str, tag: str, limit: int = 5):
     for item in payload.get("webPages", {}).get("value", []):
         source = web_source_from_result(item, "Bing Web Search", tag)
         if source:
+            source["discovery_page"] = discovery_page(query, tag, "Bing Web Search")
+            source["discovery_offset"] = offset
             results.append(source)
 
     return results
@@ -1282,10 +1352,12 @@ def search_brave_web(query: str, tag: str, limit: int = 5):
     if not api_key:
         return []
 
+    offset = discovery_offset(query, tag, "Brave Search", limit)
     url = BRAVE_WEB_SEARCH_ENDPOINT + "?" + urllib.parse.urlencode(
         {
             "q": query,
             "count": str(limit),
+            "offset": str(offset),
             "safesearch": "moderate",
             "text_decorations": "false",
         }
@@ -1302,6 +1374,8 @@ def search_brave_web(query: str, tag: str, limit: int = 5):
     for item in payload.get("web", {}).get("results", []):
         source = web_source_from_result(item, "Brave Search", tag)
         if source:
+            source["discovery_page"] = discovery_page(query, tag, "Brave Search")
+            source["discovery_offset"] = offset
             results.append(source)
 
     return results
@@ -1340,6 +1414,8 @@ def search_tavily_web(query: str, tag: str, limit: int = 5):
         )
         if source:
             source["source_type"] = "open web result via Tavily"
+            source["discovery_page"] = 1
+            source["discovery_offset"] = 0
             if item.get("score") is not None:
                 source["relevance_score"] = item.get("score")
             results.append(source)
@@ -1352,11 +1428,13 @@ def search_searxng_web(query: str, tag: str, limit: int = 5, base_url: str | Non
     if not base_url:
         return []
 
+    page = discovery_page(query, tag, "SearXNG")
     url = base_url + "/search?" + urllib.parse.urlencode(
         {
             "q": query,
             "format": "json",
             "categories": "general",
+            "pageno": str(page),
         }
     )
     payload = fetch_json(url)
@@ -1374,6 +1452,8 @@ def search_searxng_web(query: str, tag: str, limit: int = 5, base_url: str | Non
         )
         if source:
             source["source_type"] = "open web result via SearXNG"
+            source["discovery_page"] = page
+            source["discovery_offset"] = (page - 1) * max(1, limit)
             results.append(source)
 
     return results
@@ -1604,6 +1684,8 @@ def collect_sources():
                 "updated_at": search_strategy.get("updated_at", "not available"),
                 "priority_lanes": search_strategy.get("priority_lanes", [])[:8],
                 "suggested_query_count": strategy_query_count,
+                "discovery_window_pages": discovery_window_pages(),
+                "discovery_run_index": discovery_run_index(),
             },
             "opencitations_enriched_count": opencitations_enriched_count,
             "errors": errors,
@@ -1694,6 +1776,9 @@ def write_reports(
             + ", ".join(search_strategy.get("priority_lanes", [])[:8])
             + "."
         )
+    lines.append(
+        f"- Discovery pagination: rotating across {discovery_window_pages():,} page(s) with run index {discovery_run_index():,}, so repeated runs do not keep rereading page one."
+    )
 
     searxng_errors = [error for error in errors if error.startswith("search_searxng_web")]
     open_web_returned = sum(

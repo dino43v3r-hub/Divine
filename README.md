@@ -207,6 +207,19 @@ references/tavily_usage.json
 The five Tavily queries rotate across the research query set over time so one
 topic does not consume the whole monthly allowance.
 
+To avoid re-reading the same first-page results on every scheduled run, the
+collector also rotates provider result pages with:
+
+```text
+DISCOVERY_WINDOW_PAGES
+DISCOVERY_RUN_INDEX
+```
+
+In GitHub Actions, the run number is used automatically as the run index. This
+means repeated manual runs and scheduled runs page through Crossref, OpenAlex,
+Europe PMC, PubMed, Internet Archive, arXiv, Bing, Brave, and SearXNG results
+instead of only asking for page one. Tavily still rotates by query budget.
+
 The fully-free broader-web software option is SearXNG:
 
 ```text
