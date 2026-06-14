@@ -2,11 +2,21 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-14 04:43 UTC_
+_Generated: 2026-06-14 04:49 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
-The short version: the research is getting stronger, but not because it has found a magic pattern. It is getting stronger because it is becoming harder to fool. It now asks for source review, rival explanations, pressure tests, failure conditions, and practical theology before a claim is allowed to grow.
+The short version: the research has not found one magic pattern that proves everything. It has found a recurring candidate shape: gift becomes responsibility, power is judged by humble love, suffering must face truth and repair, and every claim is tested by worship, justice, patience, and faithfulness.
+
+## Pattern Found So Far
+
+**Candidate divine pattern:** God gives life, dignity, order, mercy, and transformation as gifts; human beings are invited to answer those gifts with truthful worship, humble love, justice, repair, patience, and faithful action.
+
+The clearest movement currently looks like this:
+
+- Gift -> Recognition -> Responsibility -> Sacrificial Love -> Repair -> Worshipful Faithfulness
+
+That pattern is strongest when it appears through several narrower pattern families rather than as one overconfident master key.
 
 ## What Changed
 
@@ -69,6 +79,8 @@ A repeated signal is not proof. A beautiful analogy is not revelation. A scienti
 
 ### Image Of God Pattern
 
+**Pattern movement:** Mind -> Symbol -> Moral Agency -> Relationship -> Worship
+
 **What it says:** Human dignity is treated as gift before performance.
 
 **Why it matters:** It is strongest where language, theology, history, and vulnerable communities all pressure the same claim: persons must not be ranked by usefulness, intelligence, status, race, caste, health, or productivity.
@@ -78,6 +90,8 @@ A repeated signal is not proof. A beautiful analogy is not revelation. A scienti
 **Practical response:** The faithful response is protection: listen first, defend the vulnerable, make worship and community accessible, and refuse usefulness-based love.
 
 ### Cross And Reversal Pattern
+
+**Pattern movement:** Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 
 **What it says:** The cross is read as God's judgment on violent power and God's mercy for wounded people.
 
@@ -89,6 +103,8 @@ A repeated signal is not proof. A beautiful analogy is not revelation. A scienti
 
 ### Creation-To-Consciousness Pattern
 
+**Pattern movement:** Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
+
 **What it says:** Creation, life, mind, moral awareness, and worship are explored as layered gifts.
 
 **Why it matters:** It is strongest when creation texts, ecology, disability theology, philosophy of mind, and science guardrails are held together.
@@ -99,6 +115,8 @@ A repeated signal is not proof. A beautiful analogy is not revelation. A scienti
 
 ### Trinity-As-Behavior Pattern
 
+**Pattern movement:** Father Creates -> Son Redeems -> Spirit Transforms
+
 **What it says:** Doctrine is tested by practice: receiving life as gift, following Christ, and discerning Spirit-led transformation.
 
 **Why it matters:** It is strongest when Scripture, creeds, worship, global church testimony, and abuse safeguards all remain visible.
@@ -108,6 +126,8 @@ A repeated signal is not proof. A beautiful analogy is not revelation. A scienti
 **Practical response:** The faithful response is accountable love: test every practice by holiness, humility, justice, unity, service, and fruit over time.
 
 ### Providence And Contingency Pattern
+
+**Pattern movement:** Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 
 **What it says:** Providence is treated as trust inside contingency, not certainty about hidden causes.
 

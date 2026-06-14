@@ -88,33 +88,38 @@ def compact_lane_table(backend_text: str) -> list[str]:
     return [line for lane in lanes if (line := extract_lane_line(backend_text, lane))]
 
 
-def pattern_section(name: str) -> tuple[str, str, str, str]:
+def pattern_section(name: str) -> tuple[str, str, str, str, str]:
     sections = {
         "Image Of God Pattern": (
+            "Mind -> Symbol -> Moral Agency -> Relationship -> Worship",
             "Human dignity is treated as gift before performance.",
             "It is strongest where language, theology, history, and vulnerable communities all pressure the same claim: persons must not be ranked by usefulness, intelligence, status, race, caste, health, or productivity.",
             "It weakens wherever dignity becomes conditional or where the project talks about humanity in the abstract while ignoring disability, poverty, migration, incarceration, or racialized harm.",
             "The faithful response is protection: listen first, defend the vulnerable, make worship and community accessible, and refuse usefulness-based love.",
         ),
         "Cross And Reversal Pattern": (
+            "Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection",
             "The cross is read as God's judgment on violent power and God's mercy for wounded people.",
             "It is strongest when passion texts, trauma theology, liberation theology, martyr memory, and abuse-pressure cases are read together.",
             "It collapses if suffering is romanticized, if victims are asked to forgive without justice, or if cross-language protects perpetrators.",
             "The faithful response is truth with boundaries: name harm, protect victims, seek repair, and let hope arrive without silencing lament.",
         ),
         "Creation-To-Consciousness Pattern": (
+            "Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship",
             "Creation, life, mind, moral awareness, and worship are explored as layered gifts.",
             "It is strongest when creation texts, ecology, disability theology, philosophy of mind, and science guardrails are held together.",
             "It weakens if science becomes proof, consciousness becomes superiority, animal suffering is ignored, or disabled people are treated as lesser images of God.",
             "The faithful response is wonder without domination: care for bodies, honor creaturely limits, protect creation, and worship without contempt for weakness.",
         ),
         "Trinity-As-Behavior Pattern": (
+            "Father Creates -> Son Redeems -> Spirit Transforms",
             "Doctrine is tested by practice: receiving life as gift, following Christ, and discerning Spirit-led transformation.",
             "It is strongest when Scripture, creeds, worship, global church testimony, and abuse safeguards all remain visible.",
             "It fails if Father, Son, and Spirit become vague symbols, group energy, three separate gods, or a tool for spiritual control.",
             "The faithful response is accountable love: test every practice by holiness, humility, justice, unity, service, and fruit over time.",
         ),
         "Providence And Contingency Pattern": (
+            "Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History",
             "Providence is treated as trust inside contingency, not certainty about hidden causes.",
             "It is strongest when Job, Ecclesiastes, exile, migration, probability, history, and public suffering are allowed to complicate easy explanations.",
             "It weakens when tragedy is explained too neatly, victims are blamed, chance is denied, or quantum language is used as a shortcut to divine action.",
@@ -198,7 +203,17 @@ def build_article() -> str:
         "",
         "This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.",
         "",
-        "The short version: the research is getting stronger, but not because it has found a magic pattern. It is getting stronger because it is becoming harder to fool. It now asks for source review, rival explanations, pressure tests, failure conditions, and practical theology before a claim is allowed to grow.",
+        "The short version: the research has not found one magic pattern that proves everything. It has found a recurring candidate shape: gift becomes responsibility, power is judged by humble love, suffering must face truth and repair, and every claim is tested by worship, justice, patience, and faithfulness.",
+        "",
+        "## Pattern Found So Far",
+        "",
+        "**Candidate divine pattern:** God gives life, dignity, order, mercy, and transformation as gifts; human beings are invited to answer those gifts with truthful worship, humble love, justice, repair, patience, and faithful action.",
+        "",
+        "The clearest movement currently looks like this:",
+        "",
+        "- Gift -> Recognition -> Responsibility -> Sacrificial Love -> Repair -> Worshipful Faithfulness",
+        "",
+        "That pattern is strongest when it appears through several narrower pattern families rather than as one overconfident master key.",
         "",
         "## What Changed",
         "",
@@ -242,10 +257,12 @@ def build_article() -> str:
     ]
 
     for name in TOP_PATTERN_NAMES:
-        thesis, why, risk, response = pattern_section(name)
+        movement, thesis, why, risk, response = pattern_section(name)
         lines.extend(
             [
                 f"### {name}",
+                "",
+                f"**Pattern movement:** {movement}",
                 "",
                 f"**What it says:** {thesis}",
                 "",
