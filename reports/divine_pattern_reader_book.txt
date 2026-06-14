@@ -6,19 +6,19 @@ A Book-Style Guide For Everyday Readers And Careful Students
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-06-14T02:21:38.230605+00:00
-Retained cloud candidate references: 1,862
-Brand-new candidate references this run: 33
-Top new routed layers: cultural_inputs: 15, deep_sources: 15, history_inputs: 14, psychology_inputs: 13
-New evidence mix: strong_scholarly_candidate: 14, moderate_scholarly_candidate: 11, weak_scholarly_candidate: 8
-New provider mix: Tavily Search: 8, Crossref: 7, Europe PMC: 7, OpenAlex: 5
+Collector run: 2026-06-14T02:52:06.843888+00:00
+Retained cloud candidate references: 1,994
+Brand-new candidate references this run: 132
+Top new routed layers: human_stories: 130, pattern_tests: 130, theologians: 89, cultural_inputs: 88
+New evidence mix: strong_scholarly_candidate: 72, moderate_scholarly_candidate: 59, weak_scholarly_candidate: 1
+New provider mix: Crossref: 54, OpenAlex: 44, Europe PMC: 22, Internet Archive: 12
 Query modifiers used: primary source, counterargument
 
 Journal Entry: What I Am Learning
 ---------------------------------
 I am reading this run as a conversation between what just arrived and what the project already thinks it sees.
 The older pattern map still points first toward Image Of God Pattern. Around it, I keep seeing related pressure from Cross And Reversal Pattern, Creation-To-Consciousness Pattern.
-The newest material is pulling my attention toward cultural_inputs, especially around cultural_practice_patterns. That does not overturn the older map, but it changes what I should ask next.
+The newest material is pulling my attention toward human_stories, especially around podcast_testimony_patterns. That does not overturn the older map, but it changes what I should ask next.
 My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is scholarly metadata, so I should let them sharpen questions before I let them strengthen claims.
 I also notice that Suffering Without Resolution remains a live test. If the pattern cannot survive that friction, then it is probably only an attractive idea, not a disciplined theological insight.
 
@@ -85,15 +85,15 @@ This chart is a navigation aid, not a proof scale. Longer bars show where the cu
 
 Layer                         Signal                         Count     Reading
 -----                         ------                         -----     -------
-Physical Order                ###########.................    3,249  high internal signal
-Mathematical Structure        ##..........................      768  moderate internal signal
-Mathematical Theophany        #####.......................    1,579  high internal signal
-Quantum Probability           #...........................      208  early signal
-Life And Consciousness        #####################.......    6,440  high internal signal
-Meaning And Logos             ############################    8,630  high internal signal
-Moral Response                ################............    4,866  high internal signal
-Worship And Community         #############...............    3,891  high internal signal
-Transformation                ################............    4,847  high internal signal
+Physical Order                ##########..................    3,250  high internal signal
+Mathematical Structure        ##..........................      767  moderate internal signal
+Mathematical Theophany        ######......................    1,943  high internal signal
+Quantum Probability           #...........................      198  early signal
+Life And Consciousness        #####################.......    6,693  high internal signal
+Meaning And Logos             ############################    8,826  high internal signal
+Moral Response                ################............    4,994  high internal signal
+Worship And Community         ############................    3,906  high internal signal
+Transformation                ###############.............    4,854  high internal signal
 
 Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as possible signs of divine self-disclosure, while keeping alternative explanations visible.
 
@@ -103,19 +103,19 @@ Use this as the table of contents for the argument. Each chapter has a main move
 
 No.  Pattern Family                 Signal   Status
 ---  --------------                 ------   ------
-1    Image Of God Pattern            23,827  high internal signal; not proof
+1    Image Of God Pattern            24,419  high internal signal; not proof
      Movement: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
      Test: Do not collapse the image of God into intelligence alone.
-2    Cross And Reversal Pattern      18,343  high internal signal; not proof
+2    Cross And Reversal Pattern      18,674  high internal signal; not proof
      Movement: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
      Test: Do not romanticize suffering or ignore injustice.
-3    Creation-To-Consciousness P...  18,446  high internal signal; not proof
+3    Creation-To-Consciousness P...  18,843  high internal signal; not proof
      Movement: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
      Test: Avoid implying a simple linear proof from physics to worship.
-4    Trinity-As-Behavior Pattern     16,726  high internal signal; not proof
+4    Trinity-As-Behavior Pattern     16,930  high internal signal; not proof
      Movement: Father Creates -> Son Redeems -> Spirit Transforms
      Test: Keep the Trinity theological and relational, not merely symbolic psychology.
-5    Providence And Contingency...   18,527  well-represented hypothesis;...
+5    Providence And Contingency...   18,967  well-represented hypothesis;...
      Movement: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
      Test: Do not confuse providence with easy prediction or visible control of every event.
 
@@ -133,17 +133,17 @@ Fresh research movements:
 - Deep-source candidates grew in the latest collector run; review qualified evidence and counterarguments before strengthening claims.
 - Pressure-test candidates grew in the latest collector run; name failure conditions and whether the pattern holds under friction.
 
-Most active new tags: cultural_practice_patterns: 12, technology_ethics: 12, general_research_methods: 9, quantum_science_guardrails: 9
-Most active new layers: cultural_inputs: 15, deep_sources: 15, history_inputs: 14, psychology_inputs: 13
-Newest source-quality mix: scholarly metadata: 19, open web result: 8, scholarly preprint: 5, reference metadata: 1
+Most active new tags: podcast_testimony_patterns: 48, visual_media_patterns: 45, video_teaching_patterns: 44, history_memory: 1
+Most active new layers: human_stories: 130, pattern_tests: 130, theologians: 89, cultural_inputs: 88
+Newest source-quality mix: scholarly metadata: 120, reference metadata: 12
 
 Fresh source leads to review first:
-- The Superiority of Economists (2015) | OpenAlex | layers: cultural_inputs, history_inputs, psychology_inputs | review use: may increase confidence after claim-scope and counterargument checks
-- (Why) Is Misinformation a Problem? (2023) | OpenAlex | layers: cultural_inputs, history_inputs, psychology_inputs | review use: may increase confidence after claim-scope and counterargument checks
-- The academic, economic and societal impacts of Open Access: an evidence-based review (2016) | OpenAlex | layers: cultural_inputs, history_inputs, psychology_inputs | review use: may increase confidence after claim-scope and counterargument checks
-- Social and Cognitive Aspects of the Vulnerability to Political Misinformation (2021) | OpenAlex | layers: cultural_inputs, history_inputs, psychology_inputs | review use: may increase confidence after claim-scope and counterargument checks
-- Assessing green innovation, energy transition and natural resources abundance for sustainable footprint in Paris club. (2025) | Europe PMC | layers: cultural_inputs, history_inputs, psychology_inputs, visual_art, modern_literature | review use: may increase confidence after claim-scope and counterargument checks
-- Functionalist Counterargument Against Nonemergent Theories of Consciousness (Physicalism and Nonemergent Panprotopsychism) (2018) | Crossref | layers: research_documents, deep_sources, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
+- The Visual Dimension in Organizing, Organization, and Organization Research: Core Ideas, Current Developments, and Promising Avenues (2013) | OpenAlex | layers: visual_art, human_stories, cultural_inputs, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
+- Voices in Concert: Communication Ethnography of Pentecostal Worship (2012) | OpenAlex | layers: human_stories, psychology_inputs, theologians, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
+- Islamic Televangelism: Religion, Media and Visuality in Contemporary Egypt (2010) | OpenAlex | layers: visual_art, human_stories, cultural_inputs, pattern_tests, other_religious_texts | review use: may increase confidence after claim-scope and counterargument checks
+- Hindu Pluralism: Religion and the Public Sphere in Early Modern South India (2017) | OpenAlex | layers: visual_art, human_stories, cultural_inputs, pattern_tests, other_religious_texts | review use: may increase confidence after claim-scope and counterargument checks
+- A People Passing Rude: British Responses to Russian Culture (2012) | OpenAlex | layers: visual_art, human_stories, cultural_inputs, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
+- Images from the Region of the Pueblo Indians of North America (2017) | OpenAlex | layers: visual_art, human_stories, cultural_inputs, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
 
 Reader rule: this new material can change the questions immediately, but it should not strengthen a claim until the original source and counterarguments are reviewed.
 
@@ -165,10 +165,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (6,440 signals)
-- Meaning And Logos: high internal signal (8,630 signals)
-- Moral Response: high internal signal (4,866 signals)
-- Worship And Community: high internal signal (3,891 signals)
+- Life And Consciousness: high internal signal (6,693 signals)
+- Meaning And Logos: high internal signal (8,826 signals)
+- Moral Response: high internal signal (4,994 signals)
+- Worship And Community: high internal signal (3,906 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -185,9 +185,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (8,630 signals)
-- Moral Response: high internal signal (4,866 signals)
-- Transformation: high internal signal (4,847 signals)
+- Meaning And Logos: high internal signal (8,826 signals)
+- Moral Response: high internal signal (4,994 signals)
+- Transformation: high internal signal (4,854 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -204,10 +204,10 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,249 signals)
-- Life And Consciousness: high internal signal (6,440 signals)
-- Moral Response: high internal signal (4,866 signals)
-- Worship And Community: high internal signal (3,891 signals)
+- Physical Order: high internal signal (3,250 signals)
+- Life And Consciousness: high internal signal (6,693 signals)
+- Moral Response: high internal signal (4,994 signals)
+- Worship And Community: high internal signal (3,906 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -224,9 +224,9 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,249 signals)
-- Meaning And Logos: high internal signal (8,630 signals)
-- Transformation: high internal signal (4,847 signals)
+- Physical Order: high internal signal (3,250 signals)
+- Meaning And Logos: high internal signal (8,826 signals)
+- Transformation: high internal signal (4,854 signals)
 
 Chapter 5: Providence And Contingency Pattern
 ---------------------------------------------
@@ -243,10 +243,10 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,249 signals)
-- Quantum Probability: early signal (208 signals)
-- Life And Consciousness: high internal signal (6,440 signals)
-- Meaning And Logos: high internal signal (8,630 signals)
+- Physical Order: high internal signal (3,250 signals)
+- Quantum Probability: early signal (198 signals)
+- Life And Consciousness: high internal signal (6,693 signals)
+- Meaning And Logos: high internal signal (8,826 signals)
 
 Everyday Case Studies
 ---------------------
@@ -263,37 +263,37 @@ Other religions and cultures: The pattern should compare respectfully. Christian
 What The Research Currently Suggests
 ------------------------------------
 The project has analyzed 197 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
-The daily collector has retained 1,862 cloud candidate references, including 33 brand-new candidates in the latest run.
+The daily collector has retained 1,994 cloud candidate references, including 132 brand-new candidates in the latest run.
 The current corpus most visibly repeats pattern families led by Image Of God Pattern, Cross And Reversal Pattern, Creation-To-Consciousness Pattern, Trinity-As-Behavior Pattern, and Providence And Contingency Pattern.
 These are best understood as chapters in an ongoing research book. They are not final proof claims.
 
 What Changed In The Latest Collection
 -------------------------------------
-Daily collector updated: 2026-06-14T02:21:38.230605+00:00
-Retained cloud candidate references: 1,862
-Brand-new candidate references this run: 33
+Daily collector updated: 2026-06-14T02:52:06.843888+00:00
+Retained cloud candidate references: 1,994
+Brand-new candidate references this run: 132
 
 Newest evidence movement by routed layer:
-- cultural_inputs: 15
-- deep_sources: 15
-- history_inputs: 14
-- psychology_inputs: 13
-- pattern_tests: 9
-- research_documents: 9
-- visual_art: 8
-- human_stories: 5
+- human_stories: 130
+- pattern_tests: 130
+- theologians: 89
+- cultural_inputs: 88
+- visual_art: 58
+- psychology_inputs: 52
+- all_texts: 22
+- history_inputs: 8
 
 Newest automated evidence mix:
-- strong_scholarly_candidate: 14
-- moderate_scholarly_candidate: 11
-- weak_scholarly_candidate: 8
+- strong_scholarly_candidate: 72
+- moderate_scholarly_candidate: 59
+- weak_scholarly_candidate: 1
 
 Newest sources shaping today's questions:
-- Counterargument (2022) | layers: research_documents, deep_sources, pattern_tests | evidence: strong_scholarly_candidate
-- Functionalist Counterargument Against Nonemergent Theories of Consciousness (Physicalism and Nonemergent Panprotopsychism) (2018) | layers: research_documents, deep_sources, pattern_tests | evidence: strong_scholarly_candidate
-- Counterargument against China’s State Integrity Claim (2022) | layers: research_documents, deep_sources, pattern_tests | evidence: moderate_scholarly_candidate
-- Navigating the Conceptual Multiverse (2026) | layers: research_documents, deep_sources, pattern_tests | evidence: moderate_scholarly_candidate
-- Analyzing complex functional brain networks: fusing statistics and network science to understand the brain (2013) | layers: deep_sources, pattern_tests, modern_literature | evidence: moderate_scholarly_candidate
+- Religious iconography and topography in the garden art of Early Modern Europe. Sources, interpretation, cultural context. (2024) | layers: visual_art, human_stories, cultural_inputs, pattern_tests | evidence: strong_scholarly_candidate
+- Towards a Theology of the Holocaust Image (n.d.) | layers: visual_art, human_stories, cultural_inputs, pattern_tests | evidence: moderate_scholarly_candidate
+- Introduction (n.d.) | layers: visual_art, human_stories, cultural_inputs, pattern_tests | evidence: moderate_scholarly_candidate
+- Reading Devotion: (2014) | layers: visual_art, human_stories, cultural_inputs, pattern_tests | evidence: strong_scholarly_candidate
+- Notes (n.d.) | layers: visual_art, human_stories, cultural_inputs, pattern_tests | evidence: moderate_scholarly_candidate
 
 Reader note: cloud candidates change the research questions immediately, but they should strengthen conclusions only after source review.
 

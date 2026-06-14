@@ -43,7 +43,7 @@ Corpus Summary
 - Indexed text documents: 181
 - Indexed media assets: 0
 - Graph nodes: 213
-- Graph edges: 925
+- Graph edges: 926
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
@@ -93,7 +93,7 @@ Reviewer: What do the review-rule counts tell us?
 Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.
 
 - evidence: 83 documents
-- interpretation: 26 documents
+- interpretation: 27 documents
 - discernment: 153 documents
 - analogy: 45 documents
 - practical_use: 148 documents

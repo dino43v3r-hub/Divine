@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-14 02:39 UTC_
+_Generated: 2026-06-14 02:53 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -22,7 +22,7 @@ The backend is useful, but it is not the judge. It retrieves and organizes. Huma
 
 - Indexed documents: 181
 - Graph nodes: 213
-- Graph edges: 925
+- Graph edges: 926
 - Indexed text documents: 181
 - Indexed media assets: 0
 - Multimodal assets needing review: {}
