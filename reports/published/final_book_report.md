@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-14 03:40 UTC_
+_Generated: 2026-06-14 03:45 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -19,6 +19,26 @@ The project now has three layers working together:
 The backend is useful, but it is not the judge. It retrieves and organizes. Human review still decides whether a source should affect confidence.
 
 ## Current Corpus At A Glance
+
+### Latest Cloud Discovery
+
+- Retained cloud candidate references: 3,661
+- Brand-new candidate references this run: 801
+- New provider mix: Crossref: 424, OpenAlex: 324, arXiv: 34, PubMed: 10, Internet Archive: 9
+- New routed layers: human_stories: 278, deep_sources: 269, pattern_tests: 230, cultural_inputs: 216, theologians: 190, psychology_inputs: 181
+- Media candidates this run: video: 42, image: 28, podcast: 21
+- Discovery pagination: run index 681 across 12 page window(s)
+- Latest collector update: 2026-06-14T03:39:36.582286+00:00
+
+Newest cloud candidates:
+
+- God the Father, the Son, His Mother, and the Holy Spirit (2013) | Crossref | tags: trinity | routes: theologians, research_documents
+- Wyclif’s Mother (2026) | Crossref | tags: trinity | routes: theologians, research_documents
+- 1. The Holy Spirit in the Communion of the Holy Trinity (2023) | Crossref | tags: trinity | routes: theologians, research_documents
+- Christian Perfecting in Holy Scripture (2013) | Crossref | tags: trinity | routes: theologians, research_documents, all_texts
+- Bibliography (2013) | Crossref | tags: trinity | routes: theologians, research_documents
+
+### Local Reviewed Corpus
 
 - Indexed documents: 181
 - Graph nodes: 213

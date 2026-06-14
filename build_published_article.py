@@ -1,11 +1,14 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
+import json
 from pathlib import Path
 import re
 
 
 OUTPUT_PATH = Path("reports/published/final_book_report.md")
+REFERENCES_PATH = Path("references/references.json")
+DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
 
 SOURCE_REPORTS = {
     "backend": Path("reports/ai_backend_report.txt"),
@@ -30,6 +33,16 @@ def read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8", errors="replace")
+
+
+def read_json(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    return payload if isinstance(payload, dict) else {}
 
 
 def find_line(text: str, prefix: str) -> str:
@@ -115,9 +128,64 @@ def bulletize(lines: list[str]) -> list[str]:
     return [f"- {line}" for line in lines if line]
 
 
+def format_counts(counts: dict, limit: int = 6) -> str:
+    if not counts:
+        return "none recorded"
+    items = sorted(counts.items(), key=lambda item: (-int(item[1] or 0), item[0]))[:limit]
+    return ", ".join(f"{name}: {int(count):,}" for name, count in items)
+
+
+def latest_cloud_discovery_lines(digest: dict, reference_catalog: dict) -> list[str]:
+    source_count = reference_catalog.get("source_count")
+    if source_count is None:
+        source_count = len(reference_catalog.get("sources", []))
+
+    search_strategy = digest.get("search_strategy", {})
+    lines = [
+        f"Retained cloud candidate references: {int(source_count or 0):,}",
+        f"Brand-new candidate references this run: {int(digest.get('new_count', 0) or 0):,}",
+        f"New provider mix: {format_counts(digest.get('new_provider_counts', {}))}",
+        f"New routed layers: {format_counts(digest.get('new_layer_counts', {}))}",
+        f"Media candidates this run: {format_counts(digest.get('new_media_candidate_counts', {}))}",
+    ]
+
+    if search_strategy:
+        run_index = search_strategy.get("discovery_run_index")
+        page_window = search_strategy.get("discovery_window_pages")
+        if run_index or page_window:
+            lines.append(
+                f"Discovery pagination: run index {run_index or 'not recorded'} across {page_window or 'unknown'} page window(s)"
+            )
+
+    updated_at = digest.get("updated_at")
+    if updated_at:
+        lines.append(f"Latest collector update: {updated_at}")
+
+    return lines
+
+
+def newest_source_lines(digest: dict, limit: int = 5) -> list[str]:
+    sources = digest.get("new_sources", [])
+    if not sources:
+        return ["- No brand-new sources were added in the latest collector run."]
+
+    lines = []
+    for source in sources[:limit]:
+        tags = ", ".join(source.get("tags", [])) or "untagged"
+        routes = ", ".join(source.get("layer_routes", [])) or "unrouted"
+        media = source.get("media_kind")
+        media_note = f"; media: {media}" if media else ""
+        lines.append(
+            f"- {source.get('title', 'Untitled')} ({source.get('year') or 'n.d.'}) | {source.get('provider', 'unknown provider')} | tags: {tags} | routes: {routes}{media_note}"
+        )
+    return lines
+
+
 def build_article() -> str:
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     texts = {name: read(path) for name, path in SOURCE_REPORTS.items()}
+    digest = read_json(DAILY_DIGEST_PATH)
+    reference_catalog = read_json(REFERENCES_PATH)
     stats = extract_backend_stats(texts["backend"])
     lane_lines = compact_lane_table(texts["backend"])
 
@@ -143,6 +211,16 @@ def build_article() -> str:
         "The backend is useful, but it is not the judge. It retrieves and organizes. Human review still decides whether a source should affect confidence.",
         "",
         "## Current Corpus At A Glance",
+        "",
+        "### Latest Cloud Discovery",
+        "",
+        *bulletize(latest_cloud_discovery_lines(digest, reference_catalog)),
+        "",
+        "Newest cloud candidates:",
+        "",
+        *newest_source_lines(digest),
+        "",
+        "### Local Reviewed Corpus",
         "",
         *bulletize([stats["indexed"], stats["nodes"], stats["edges"]]),
         *bulletize([stats["text_documents"], stats["media_assets"], stats["multimodal_review"]]),
