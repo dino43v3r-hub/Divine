@@ -9,6 +9,7 @@ import re
 OUTPUT_PATH = Path("reports/published/final_book_report.md")
 REFERENCES_PATH = Path("references/references.json")
 DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
+KNOWLEDGE_INDEX_PATH = Path("reports/knowledge_retrieval_index.json")
 
 SOURCE_REPORTS = {
     "backend": Path("reports/ai_backend_report.txt"),
@@ -28,6 +29,42 @@ TOP_PATTERN_NAMES = [
     "Providence And Contingency Pattern",
 ]
 
+PATTERN_PROFILES = {
+    "Image Of God Pattern": {
+        "movement": "Mind -> Symbol -> Moral Agency -> Relationship -> Worship",
+        "thesis": "Human dignity is treated as gift before performance.",
+        "candidate": "God gives persons dignity before usefulness; the faithful response is truthful worship, humble love, justice for vulnerable people, patient repair, and faithful refusal to rank people by performance.",
+    },
+    "Cross And Reversal Pattern": {
+        "movement": "Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection",
+        "thesis": "The cross is read as God's judgment on violent power and God's mercy for wounded people.",
+        "candidate": "God reveals holy love by reversing coercive power through the cross; the faithful response is truth-telling, humble repentance, justice for harmed people, patient repair, and faithful mercy without denial.",
+    },
+    "Creation-To-Consciousness Pattern": {
+        "movement": "Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship",
+        "thesis": "Creation, life, mind, moral awareness, and worship are explored as layered gifts.",
+        "candidate": "God gives ordered creation, life, consciousness, and moral awareness as gifts; the faithful response is humble wonder, truthful stewardship, just care for bodies and creation, patient learning, and worshipful faithfulness.",
+    },
+    "Trinity-As-Behavior Pattern": {
+        "movement": "Father Creates -> Son Redeems -> Spirit Transforms",
+        "thesis": "Doctrine is tested by practice: receiving life as gift, following Christ, and discerning Spirit-led transformation.",
+        "candidate": "God's triune work appears as creation received, redemption followed, and Spirit-led transformation tested by truth, love, humility, justice, worship, patience, and faithfulness.",
+    },
+    "Providence And Contingency Pattern": {
+        "movement": "Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History",
+        "thesis": "Providence is treated as trust inside contingency, not certainty about hidden causes.",
+        "candidate": "God's providence is discerned as faithful trust inside lawful but contingent history; the faithful response is truthful humility, just action, patient endurance, worship, and faithfulness without pretending to know every cause.",
+    },
+}
+
+DEFAULT_CANDIDATE_PATTERN = {
+    "name": "Integrated Gift-And-Faithfulness Pattern",
+    "movement": "Gift -> Recognition -> Responsibility -> Sacrificial Love -> Repair -> Worshipful Faithfulness",
+    "candidate": "God gives life, dignity, order, mercy, and transformation as gifts; human beings are invited to answer those gifts with truthful worship, humble love, justice, repair, patience, and faithful action.",
+    "basis": "No single pattern family clearly outranks the others in the current analyzed corpus, so the report presents an integrated candidate pattern.",
+    "counts": {},
+}
+
 
 def read(path: Path) -> str:
     if not path.exists():
@@ -43,6 +80,50 @@ def read_json(path: Path) -> dict:
     except json.JSONDecodeError:
         return {}
     return payload if isinstance(payload, dict) else {}
+
+
+def current_candidate_pattern(index: dict) -> dict:
+    counts = {name: {"documents": 0, "review_notes": 0, "score": 0} for name in TOP_PATTERN_NAMES}
+    for document in index.get("documents", []):
+        patterns = set(document.get("patterns", []))
+        for name in TOP_PATTERN_NAMES:
+            if name not in patterns:
+                continue
+            review_notes = int(document.get("review_note_count") or 0)
+            counts[name]["documents"] += 1
+            counts[name]["review_notes"] += review_notes
+            counts[name]["score"] += 1 + min(review_notes, 25)
+
+    ranked = sorted(
+        counts.items(),
+        key=lambda item: (item[1]["score"], item[1]["documents"], item[1]["review_notes"], item[0]),
+        reverse=True,
+    )
+    if not ranked or ranked[0][1]["score"] == 0:
+        return dict(DEFAULT_CANDIDATE_PATTERN)
+
+    top_name, top_counts = ranked[0]
+    second_score = ranked[1][1]["score"] if len(ranked) > 1 else 0
+    if second_score and top_counts["score"] < second_score * 1.25:
+        result = dict(DEFAULT_CANDIDATE_PATTERN)
+        result["basis"] = (
+            "The current analyzed corpus is balanced across several pattern families, "
+            "so the report keeps the broader integrated candidate rather than forcing one winner."
+        )
+        result["counts"] = counts
+        return result
+
+    profile = PATTERN_PROFILES[top_name]
+    return {
+        "name": top_name,
+        "movement": profile["movement"],
+        "candidate": profile["candidate"],
+        "basis": (
+            f"This wording is selected from the current retrieval index because {top_name} "
+            f"has the strongest pattern-support score in the analyzed corpus."
+        ),
+        "counts": counts,
+    }
 
 
 def find_line(text: str, prefix: str) -> str:
@@ -91,36 +172,36 @@ def compact_lane_table(backend_text: str) -> list[str]:
 def pattern_section(name: str) -> tuple[str, str, str, str, str]:
     sections = {
         "Image Of God Pattern": (
-            "Mind -> Symbol -> Moral Agency -> Relationship -> Worship",
-            "Human dignity is treated as gift before performance.",
+            PATTERN_PROFILES["Image Of God Pattern"]["movement"],
+            PATTERN_PROFILES["Image Of God Pattern"]["thesis"],
             "It is strongest where language, theology, history, and vulnerable communities all pressure the same claim: persons must not be ranked by usefulness, intelligence, status, race, caste, health, or productivity.",
             "It weakens wherever dignity becomes conditional or where the project talks about humanity in the abstract while ignoring disability, poverty, migration, incarceration, or racialized harm.",
             "The faithful response is protection: listen first, defend the vulnerable, make worship and community accessible, and refuse usefulness-based love.",
         ),
         "Cross And Reversal Pattern": (
-            "Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection",
-            "The cross is read as God's judgment on violent power and God's mercy for wounded people.",
+            PATTERN_PROFILES["Cross And Reversal Pattern"]["movement"],
+            PATTERN_PROFILES["Cross And Reversal Pattern"]["thesis"],
             "It is strongest when passion texts, trauma theology, liberation theology, martyr memory, and abuse-pressure cases are read together.",
             "It collapses if suffering is romanticized, if victims are asked to forgive without justice, or if cross-language protects perpetrators.",
             "The faithful response is truth with boundaries: name harm, protect victims, seek repair, and let hope arrive without silencing lament.",
         ),
         "Creation-To-Consciousness Pattern": (
-            "Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship",
-            "Creation, life, mind, moral awareness, and worship are explored as layered gifts.",
+            PATTERN_PROFILES["Creation-To-Consciousness Pattern"]["movement"],
+            PATTERN_PROFILES["Creation-To-Consciousness Pattern"]["thesis"],
             "It is strongest when creation texts, ecology, disability theology, philosophy of mind, and science guardrails are held together.",
             "It weakens if science becomes proof, consciousness becomes superiority, animal suffering is ignored, or disabled people are treated as lesser images of God.",
             "The faithful response is wonder without domination: care for bodies, honor creaturely limits, protect creation, and worship without contempt for weakness.",
         ),
         "Trinity-As-Behavior Pattern": (
-            "Father Creates -> Son Redeems -> Spirit Transforms",
-            "Doctrine is tested by practice: receiving life as gift, following Christ, and discerning Spirit-led transformation.",
+            PATTERN_PROFILES["Trinity-As-Behavior Pattern"]["movement"],
+            PATTERN_PROFILES["Trinity-As-Behavior Pattern"]["thesis"],
             "It is strongest when Scripture, creeds, worship, global church testimony, and abuse safeguards all remain visible.",
             "It fails if Father, Son, and Spirit become vague symbols, group energy, three separate gods, or a tool for spiritual control.",
             "The faithful response is accountable love: test every practice by holiness, humility, justice, unity, service, and fruit over time.",
         ),
         "Providence And Contingency Pattern": (
-            "Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History",
-            "Providence is treated as trust inside contingency, not certainty about hidden causes.",
+            PATTERN_PROFILES["Providence And Contingency Pattern"]["movement"],
+            PATTERN_PROFILES["Providence And Contingency Pattern"]["thesis"],
             "It is strongest when Job, Ecclesiastes, exile, migration, probability, history, and public suffering are allowed to complicate easy explanations.",
             "It weakens when tragedy is explained too neatly, victims are blamed, chance is denied, or quantum language is used as a shortcut to divine action.",
             "The faithful response is humble action: pray, plan, serve, grieve, repent, and act faithfully without pretending to know every reason.",
@@ -191,6 +272,8 @@ def build_article() -> str:
     texts = {name: read(path) for name, path in SOURCE_REPORTS.items()}
     digest = read_json(DAILY_DIGEST_PATH)
     reference_catalog = read_json(REFERENCES_PATH)
+    knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
+    candidate_pattern = current_candidate_pattern(knowledge_index)
     stats = extract_backend_stats(texts["backend"])
     lane_lines = compact_lane_table(texts["backend"])
 
@@ -207,13 +290,13 @@ def build_article() -> str:
         "",
         "## Pattern Found So Far",
         "",
-        "**Candidate divine pattern:** God gives life, dignity, order, mercy, and transformation as gifts; human beings are invited to answer those gifts with truthful worship, humble love, justice, repair, patience, and faithful action.",
+        f"**Current candidate divine pattern:** {candidate_pattern['candidate']}",
         "",
         "The clearest movement currently looks like this:",
         "",
-        "- Gift -> Recognition -> Responsibility -> Sacrificial Love -> Repair -> Worshipful Faithfulness",
+        f"- {candidate_pattern['movement']}",
         "",
-        "That pattern is strongest when it appears through several narrower pattern families rather than as one overconfident master key.",
+        f"Selection note: {candidate_pattern['basis']} This can change when future analyzed references shift the strongest reviewed pattern family or show that an integrated pattern is more honest.",
         "",
         "## What Changed",
         "",

@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-14 04:49 UTC_
+_Generated: 2026-06-14 04:53 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -10,13 +10,13 @@ The short version: the research has not found one magic pattern that proves ever
 
 ## Pattern Found So Far
 
-**Candidate divine pattern:** God gives life, dignity, order, mercy, and transformation as gifts; human beings are invited to answer those gifts with truthful worship, humble love, justice, repair, patience, and faithful action.
+**Current candidate divine pattern:** God gives persons dignity before usefulness; the faithful response is truthful worship, humble love, justice for vulnerable people, patient repair, and faithful refusal to rank people by performance.
 
 The clearest movement currently looks like this:
 
-- Gift -> Recognition -> Responsibility -> Sacrificial Love -> Repair -> Worshipful Faithfulness
+- Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 
-That pattern is strongest when it appears through several narrower pattern families rather than as one overconfident master key.
+Selection note: This wording is selected from the current retrieval index because Image Of God Pattern has the strongest pattern-support score in the analyzed corpus. This can change when future analyzed references shift the strongest reviewed pattern family or show that an integrated pattern is more honest.
 
 ## What Changed
 
