@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-14T15:45:57.833313+00:00
+Generated: 2026-06-15T18:29:32.890162+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,7 +16,7 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-14 15:45 UTC_
+_Generated: 2026-06-15 18:29 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -46,40 +46,40 @@ The backend is useful, but it is not the judge. It retrieves and organizes. Huma
 
 ### Latest Cloud Discovery
 
-- Retained cloud candidate references: 6,028
-- Brand-new candidate references this run: 97
-- New provider mix: Crossref: 70, OpenAlex: 25, Internet Archive: 2
-- New routed layers: deep_sources: 46, human_stories: 33, pattern_tests: 29, research_documents: 28, theologians: 22, all_texts: 21
-- Media candidates this run: video: 6, podcast: 5, image: 3
-- Discovery pagination: run index 731 across 12 page window(s)
-- Latest collector update: 2026-06-14T15:44:49.346284+00:00
+- Retained cloud candidate references: 6,104
+- Brand-new candidate references this run: 76
+- New provider mix: Crossref: 66, Internet Archive: 5, Tavily Search: 4, PubMed: 1
+- New routed layers: deep_sources: 34, visual_art: 25, human_stories: 24, research_documents: 21, theologians: 18, pattern_tests: 17
+- Media candidates this run: podcast: 5, image: 4, video: 1
+- Discovery pagination: run index 741 across 12 page window(s)
+- Latest collector update: 2026-06-15T18:28:24.277995+00:00
 
 Newest cloud candidates:
 
-- Trinitarian Theology Today (1997) | Crossref | tags: trinity | routes: theologians, research_documents
-- The Trinitarian Pattern of Redemption in Richard Sibbes (1577–1635) (2019) | Crossref | tags: trinity | routes: theologians, research_documents, biblical_languages
-- The Ecstatic God (1997) | Crossref | tags: trinity | routes: theologians, research_documents
-- Whole school approach to guidance : a pilot project in a primary school (n.d.) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-- Introduction (2021) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Front Matter (2013) | Crossref | tags: trinity | routes: theologians, research_documents
+- Understanding of the Procession of the Holy Spirit from the Son: Focusing on the Doctrine of Trinity of Thomas Aquinas (2015) | Crossref | tags: trinity | routes: theologians, research_documents
+- Fear and Primordial Trust (2021) | Crossref | tags: general_research_methods, unresolved_suffering | routes: research_documents, deep_sources, pattern_tests, psychology_inputs, human_stories
+- Aligning Teams and Steering the Journey (2017) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Kirby Muxloe Primary School: The Shakespeare Project – A Whole-School Approach (n.d.) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
 
 ### Local Reviewed Corpus
 
-- Indexed documents: 291
-- Graph nodes: 323
-- Graph edges: 1514
-- Indexed text documents: 291
+- Indexed documents: 331
+- Graph nodes: 363
+- Graph edges: 1724
+- Indexed text documents: 331
 - Indexed media assets: 0
 - Multimodal assets needing review: {}
 
 The strongest reviewed-note weight currently sits in these lanes:
 
-- theologians: 21 documents; 390 declared reviewed notes
-- all_texts: 14 documents; 269 declared reviewed notes
-- other_religious_texts: 13 documents; 268 declared reviewed notes
-- history_inputs: 14 documents; 269 declared reviewed notes
-- biblical_languages: 12 documents; 141 declared reviewed notes
-- world_languages: 24 documents; 153 declared reviewed notes
-- deep_sources: 27 documents; 44 declared reviewed notes
+- theologians: 24 documents; 393 declared reviewed notes
+- all_texts: 15 documents; 270 declared reviewed notes
+- other_religious_texts: 14 documents; 269 declared reviewed notes
+- history_inputs: 16 documents; 271 declared reviewed notes
+- biblical_languages: 14 documents; 143 declared reviewed notes
+- world_languages: 25 documents; 154 declared reviewed notes
+- deep_sources: 29 documents; 46 declared reviewed notes
 
 This balance matters. A theological claim cannot grow simply because one lane is loud. It needs original-language depth, global translation awareness, theological disagreement, historical pressure, comparative humility, and practical fruit.
 
