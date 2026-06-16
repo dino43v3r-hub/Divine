@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-15T18:29:32.890162+00:00
+Generated: 2026-06-16T18:35:26.993262+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,7 +16,7 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-15 18:29 UTC_
+_Generated: 2026-06-16 18:35 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -46,40 +46,40 @@ The backend is useful, but it is not the judge. It retrieves and organizes. Huma
 
 ### Latest Cloud Discovery
 
-- Retained cloud candidate references: 6,104
-- Brand-new candidate references this run: 76
-- New provider mix: Crossref: 66, Internet Archive: 5, Tavily Search: 4, PubMed: 1
-- New routed layers: deep_sources: 34, visual_art: 25, human_stories: 24, research_documents: 21, theologians: 18, pattern_tests: 17
-- Media candidates this run: podcast: 5, image: 4, video: 1
-- Discovery pagination: run index 741 across 12 page window(s)
-- Latest collector update: 2026-06-15T18:28:24.277995+00:00
+- Retained cloud candidate references: 6,216
+- Brand-new candidate references this run: 112
+- New provider mix: Crossref: 76, OpenAlex: 18, Internet Archive: 10, Tavily Search: 6, PubMed: 1, arXiv: 1
+- New routed layers: human_stories: 46, pattern_tests: 43, deep_sources: 41, cultural_inputs: 30, psychology_inputs: 28, visual_art: 28
+- Media candidates this run: podcast: 15, video: 5, image: 2
+- Discovery pagination: run index 751 across 12 page window(s)
+- Latest collector update: 2026-06-16T18:34:17.358174+00:00
 
 Newest cloud candidates:
 
-- Front Matter (2013) | Crossref | tags: trinity | routes: theologians, research_documents
-- Understanding of the Procession of the Holy Spirit from the Son: Focusing on the Doctrine of Trinity of Thomas Aquinas (2015) | Crossref | tags: trinity | routes: theologians, research_documents
-- Fear and Primordial Trust (2021) | Crossref | tags: general_research_methods, unresolved_suffering | routes: research_documents, deep_sources, pattern_tests, psychology_inputs, human_stories
-- Aligning Teams and Steering the Journey (2017) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-- Kirby Muxloe Primary School: The Shakespeare Project – A Whole-School Approach (n.d.) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- The Nicene-Constantinopolitan Dogma (2023) | Crossref | tags: trinity | routes: theologians, research_documents
+- P. Nemeshegi : Father, Son and Holy Spirit-The Trinity (1971) | Crossref | tags: trinity | routes: theologians, research_documents
+- Conflict and Conversation (2017) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- What Is Leadership? (2017) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Leaders Are Human Too (2017) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
 
 ### Local Reviewed Corpus
 
-- Indexed documents: 331
-- Graph nodes: 363
-- Graph edges: 1724
-- Indexed text documents: 331
+- Indexed documents: 371
+- Graph nodes: 403
+- Graph edges: 1942
+- Indexed text documents: 371
 - Indexed media assets: 0
 - Multimodal assets needing review: {}
 
 The strongest reviewed-note weight currently sits in these lanes:
 
-- theologians: 24 documents; 393 declared reviewed notes
+- theologians: 26 documents; 395 declared reviewed notes
 - all_texts: 15 documents; 270 declared reviewed notes
 - other_religious_texts: 14 documents; 269 declared reviewed notes
-- history_inputs: 16 documents; 271 declared reviewed notes
-- biblical_languages: 14 documents; 143 declared reviewed notes
-- world_languages: 25 documents; 154 declared reviewed notes
-- deep_sources: 29 documents; 46 declared reviewed notes
+- history_inputs: 19 documents; 274 declared reviewed notes
+- biblical_languages: 15 documents; 144 declared reviewed notes
+- world_languages: 27 documents; 156 declared reviewed notes
+- deep_sources: 32 documents; 49 declared reviewed notes
 
 This balance matters. A theological claim cannot grow simply because one lane is loud. It needs original-language depth, global translation awareness, theological disagreement, historical pressure, comparative humility, and practical fruit.
 

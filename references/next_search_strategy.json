@@ -12,10 +12,9 @@
   "priority_lanes": [
     "human_stories",
     "modern_literature",
-    "visual_art",
     "psychology_inputs",
+    "visual_art",
     "cultural_inputs",
-    "pattern_tests",
     "deep_sources"
   ],
   "purpose": "Feed report recommendations back into the next internet_source_collector.py run.",
@@ -54,16 +53,6 @@
       "tag": "modern_literature_meaning"
     },
     {
-      "query": "image, form, gesture, beauty, lament, glory, and iconography primary source counterargument",
-      "reason": "visual_art is a priority lane for the next collector run.",
-      "tag": "art_beauty"
-    },
-    {
-      "query": "image, form, gesture, beauty, lament, glory, and iconography primary source counterargument",
-      "reason": "visual_art is a priority lane for the next collector run.",
-      "tag": "visual_media_patterns"
-    },
-    {
       "query": "pattern perception, attachment, trauma, habit, desire, identity, and repair primary source counterargument",
       "reason": "psychology_inputs is a priority lane for the next collector run.",
       "tag": "psychology_patterns"
@@ -72,6 +61,16 @@
       "query": "pattern perception, attachment, trauma, habit, desire, identity, and repair primary source counterargument",
       "reason": "psychology_inputs is a priority lane for the next collector run.",
       "tag": "pattern_perception_divine_response"
+    },
+    {
+      "query": "image, form, gesture, beauty, lament, glory, and iconography primary source counterargument",
+      "reason": "visual_art is a priority lane for the next collector run.",
+      "tag": "art_beauty"
+    },
+    {
+      "query": "image, form, gesture, beauty, lament, glory, and iconography primary source counterargument",
+      "reason": "visual_art is a priority lane for the next collector run.",
+      "tag": "visual_media_patterns"
     },
     {
       "query": "politics, economics, technology, ecology, health, work, and education primary source counterargument",
@@ -84,13 +83,13 @@
       "tag": "technology_ethics"
     },
     {
-      "query": "pressure tests that challenge claims without becoming the whole project primary source counterargument",
-      "reason": "pattern_tests is a priority lane for the next collector run.",
-      "tag": "unresolved_suffering"
+      "query": "math, statistics, science, suffering, and counterargument guardrails primary source counterargument",
+      "reason": "deep_sources is a priority lane for the next collector run.",
+      "tag": "quantum_science_guardrails"
     },
     {
-      "query": "pressure tests that challenge claims without becoming the whole project primary source counterargument",
-      "reason": "pattern_tests is a priority lane for the next collector run.",
+      "query": "math, statistics, science, suffering, and counterargument guardrails primary source counterargument",
+      "reason": "deep_sources is a priority lane for the next collector run.",
       "tag": "general_research_methods"
     },
     {
@@ -124,23 +123,18 @@
       "tag": "general_research_methods"
     },
     {
-      "query": "injustice corruption power repair theological ethics",
-      "reason": "Keep testing leading patterns against Injustice And Corruption.",
-      "tag": "general_research_methods"
-    },
-    {
       "query": "science theology guardrail quantum overclaim philosophy science",
       "reason": "Keep testing leading patterns against Science Guardrail.",
       "tag": "general_research_methods"
     },
     {
-      "query": "failure condition falsification theological method counterargument",
-      "reason": "Keep testing leading patterns against Disconfirming Failure Condition.",
+      "query": "injustice corruption power repair theological ethics",
+      "reason": "Keep testing leading patterns against Injustice And Corruption.",
       "tag": "general_research_methods"
     },
     {
-      "query": "practical theology case study pastoral ethics daily life",
-      "reason": "Keep testing leading patterns against Practical Case Study.",
+      "query": "failure condition falsification theological method counterargument",
+      "reason": "Keep testing leading patterns against Disconfirming Failure Condition.",
       "tag": "general_research_methods"
     },
     {
@@ -166,5 +160,5 @@
     "Trinity-As-Behavior Pattern",
     "Providence And Contingency Pattern"
   ],
-  "updated_at": "2026-06-15T18:29:31.220109+00:00"
+  "updated_at": "2026-06-16T18:35:25.269009+00:00"
 }

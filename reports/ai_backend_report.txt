@@ -39,39 +39,39 @@ Backend: Media assets now enter the index through captions, transcripts, sidecar
 
 Corpus Summary
 --------------
-- Indexed documents: 331
-- Indexed text documents: 331
+- Indexed documents: 371
+- Indexed text documents: 371
 - Indexed media assets: 0
-- Graph nodes: 363
-- Graph edges: 1724
+- Graph nodes: 403
+- Graph edges: 1942
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
-Backend: theologians (393 notes), history_inputs (271 notes), all_texts (270 notes), other_religious_texts (269 notes).
+Backend: theologians (395 notes), history_inputs (274 notes), all_texts (270 notes), other_religious_texts (269 notes).
 
 Reviewer: Which leading patterns are showing up most often?
 Backend: Image Of God Pattern (9), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
 
 Reviewer: Which review rules are most visible?
-Backend: practical_use (299), counter_reading (288), evidence (233), discernment (201).
+Backend: practical_use (339), counter_reading (328), evidence (273), discernment (219).
 
 Lane Coverage
 -------------
 Backend: Here is the lane map. High counts are invitations to review more carefully, not permission to overclaim.
 - all_texts: 15 documents; 270 declared reviewed notes
-- biblical_languages: 14 documents; 143 declared reviewed notes
-- cultural_inputs: 35 documents; 35 declared reviewed notes
-- deep_sources: 29 documents; 46 declared reviewed notes
-- history_inputs: 16 documents; 271 declared reviewed notes
+- biblical_languages: 15 documents; 144 declared reviewed notes
+- cultural_inputs: 38 documents; 38 declared reviewed notes
+- deep_sources: 32 documents; 49 declared reviewed notes
+- history_inputs: 19 documents; 274 declared reviewed notes
 - human_stories: 2 documents; 2 declared reviewed notes
-- modern_literature: 3 documents; 3 declared reviewed notes
+- modern_literature: 4 documents; 4 declared reviewed notes
 - other_religious_texts: 14 documents; 269 declared reviewed notes
-- pattern_tests: 37 documents; 41 declared reviewed notes
-- psychology_inputs: 18 documents; 18 declared reviewed notes
-- research_documents: 81 documents; 127 declared reviewed notes
-- theologians: 24 documents; 393 declared reviewed notes
-- visual_art: 18 documents; 18 declared reviewed notes
-- world_languages: 25 documents; 154 declared reviewed notes
+- pattern_tests: 45 documents; 49 declared reviewed notes
+- psychology_inputs: 21 documents; 21 declared reviewed notes
+- research_documents: 89 documents; 135 declared reviewed notes
+- theologians: 26 documents; 395 declared reviewed notes
+- visual_art: 24 documents; 24 declared reviewed notes
+- world_languages: 27 documents; 156 declared reviewed notes
 
 Pattern Mentions
 ----------------
@@ -92,14 +92,14 @@ Review Rule Mentions
 Reviewer: What do the review-rule counts tell us?
 Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.
 
-- evidence: 233 documents
+- evidence: 273 documents
 - interpretation: 27 documents
-- discernment: 201 documents
+- discernment: 219 documents
 - analogy: 45 documents
-- practical_use: 299 documents
-- counter_reading: 288 documents
+- practical_use: 339 documents
+- counter_reading: 328 documents
 - failure_condition: 89 documents
-- machine_label_boundary: 165 documents
+- machine_label_boundary: 205 documents
 
 Practical-Theology Gate
 -----------------------
