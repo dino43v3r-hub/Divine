@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-17T17:50:49.826262+00:00
+Generated: 2026-06-17T19:08:32.904189+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,11 +16,15 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## Short Book Report
 
-_Generated: 2026-06-17 17:50 UTC_
+_Generated: 2026-06-17 19:08 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
 This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.
+
+![Daily pattern image](daily_pattern_image.svg)
+
+_Daily visual generated from the current leading finding: Image Of God Pattern._
 
 ## Short Answer
 
@@ -52,21 +56,26 @@ Read the focused pattern report here:
 
 ## Evidence Status
 
-- candidate lead only: 112
-- developing evidence: 339
-- ready for human confidence review: 1
+- candidate lead only: 114
+- developing evidence: 379
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 29 present; 423 missing of 452
-- analogy: 47 present; 405 missing of 452
-- failure_condition: 94 present; 358 missing of 452
-- machine_label_boundary: 282 present; 170 missing of 452
-- discernment: 245 present; 207 missing of 452
+- interpretation: 28 explicit; 2 machine-drafted; 463 still missing of 493
+- analogy: 50 explicit; 0 machine-drafted; 443 still missing of 493
+- failure_condition: 95 explicit; 1 machine-drafted; 397 still missing of 493
+- machine_label_boundary: 321 explicit; 2 machine-drafted; 170 still missing of 493
+- discernment: 256 explicit; 0 machine-drafted; 237 still missing of 493
 
-The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions.
+The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.
+
+The system now writes a gap-fill queue here:
+
+- `reports/review_gap_queue.md`
+
+That queue explains why fields are missing and lists the highest-priority sources that need structured companion reviews.
 
 ## Theological Boundary
 
@@ -74,24 +83,15 @@ The main gap is not source volume. The main gap is clearer separation between ev
 
 The project keeps this order: Scripture and revelation first, Christ and creedal guardrails next, then source quality, rival explanations, harm checks, mystery, and only then provisional confidence.
 
+## Priestly Discernment Gate
+
+A pattern may organize attention, but it must not guide souls unless it leads toward Christ, protects the vulnerable, honors the Church's discernment, and produces truthful love.
+
+Before public, devotional, or pastoral use, the project now asks whether a claim would be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority.
+
+It also asks what ecclesial review is needed and how the claim remains accountable to baptism, Eucharist, confession, anointing, funerals, the church year, and daily prayer without reducing worship to symbolism.
+
 ## What This Does Not Prove
 
-State clear limits so Divine Pattern research does not overclaim.
-
-### Patterns do not mathematically prove God.
-
-**Why:** Pattern recognition can support wonder, interpretation, and inquiry, but proof-language must not exceed source scope.
-
-### Patterns do not replace Scripture or revelation.
-
-**Why:** Christian doctrine is grounded in God's self-disclosure, not in human pattern detection.
-
-### Patterns do not erase mystery.
-
-**Why:** Trinity, incarnation, providence, suffering, and new creation exceed full creaturely explanation.
-
-
-## Science And Quantum Guardrail
-
-_Full report has 131 lines. Open the linked report above to read everything._
+_Full report has 149 lines. Open the linked report above to read everything._
 ```
