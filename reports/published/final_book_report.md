@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-17 11:53 UTC_
+_Generated: 2026-06-17 12:24 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -32,40 +32,40 @@ The backend is useful, but it is not the judge. It retrieves and organizes. Huma
 
 ### Latest Cloud Discovery
 
-- Retained cloud candidate references: 6,216
-- Brand-new candidate references this run: 112
-- New provider mix: Crossref: 76, OpenAlex: 18, Internet Archive: 10, Tavily Search: 6, PubMed: 1, arXiv: 1
-- New routed layers: human_stories: 46, pattern_tests: 43, deep_sources: 41, cultural_inputs: 30, psychology_inputs: 28, visual_art: 28
-- Media candidates this run: podcast: 15, video: 5, image: 2
-- Discovery pagination: run index 751 across 12 page window(s)
-- Latest collector update: 2026-06-16T18:34:17.358174+00:00
+- Retained cloud candidate references: 6,923
+- Brand-new candidate references this run: 707
+- New provider mix: Crossref: 377, OpenAlex: 283, arXiv: 25, PubMed: 10, Tavily Search: 7, Internet Archive: 5
+- New routed layers: human_stories: 276, deep_sources: 220, pattern_tests: 210, theologians: 195, cultural_inputs: 182, psychology_inputs: 181
+- Media candidates this run: video: 42, podcast: 24, image: 18
+- Discovery pagination: run index 761 across 12 page window(s)
+- Latest collector update: 2026-06-17T12:23:28.879884+00:00
 
 Newest cloud candidates:
 
-- The Nicene-Constantinopolitan Dogma (2023) | Crossref | tags: trinity | routes: theologians, research_documents
-- P. Nemeshegi : Father, Son and Holy Spirit-The Trinity (1971) | Crossref | tags: trinity | routes: theologians, research_documents
-- Conflict and Conversation (2017) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-- What Is Leadership? (2017) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-- Leaders Are Human Too (2017) | Crossref | tags: unresolved_suffering | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Christian Holiness and the Holy Trinity (2013) | Crossref | tags: trinity | routes: theologians, research_documents
+- Paraphrase and the Doctrine of the Trinity (2019) | OpenAlex | tags: trinity | routes: theologians, research_documents
+- The Epistemological Significance of the Inner Witness of the Holy Spirit (1990) | OpenAlex | tags: trinity | routes: theologians, research_documents
+- The Word is life: African theology as biblical and contextual theology (2006) | OpenAlex | tags: trinity | routes: theologians, research_documents
+- CAN OUR CREEDS SPEAK A GENDERED TRUTH? A FEMINIST READING OF THE NICENE CREED AND THE BELHAR CONFESSION (2013) | OpenAlex | tags: trinity | routes: theologians, research_documents
 
 ### Local Reviewed Corpus
 
-- Indexed documents: 371
-- Graph nodes: 403
-- Graph edges: 1942
-- Indexed text documents: 371
+- Indexed documents: 410
+- Graph nodes: 442
+- Graph edges: 2144
+- Indexed text documents: 410
 - Indexed media assets: 0
 - Multimodal assets needing review: {}
 
 The strongest reviewed-note weight currently sits in these lanes:
 
-- theologians: 26 documents; 395 declared reviewed notes
+- theologians: 28 documents; 397 declared reviewed notes
 - all_texts: 15 documents; 270 declared reviewed notes
 - other_religious_texts: 14 documents; 269 declared reviewed notes
-- history_inputs: 19 documents; 274 declared reviewed notes
+- history_inputs: 21 documents; 276 declared reviewed notes
 - biblical_languages: 15 documents; 144 declared reviewed notes
-- world_languages: 27 documents; 156 declared reviewed notes
-- deep_sources: 32 documents; 49 declared reviewed notes
+- world_languages: 33 documents; 162 declared reviewed notes
+- deep_sources: 37 documents; 54 declared reviewed notes
 
 This balance matters. A theological claim cannot grow simply because one lane is loud. It needs original-language depth, global translation awareness, theological disagreement, historical pressure, comparative humility, and practical fruit.
 

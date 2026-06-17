@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 26
-Total theologian words analyzed: 11,626
+Theologian documents analyzed: 28
+Total theologian words analyzed: 11,915
 
 Era Coverage
 ------------
@@ -25,32 +25,54 @@ Concept Coverage
 - Theodicy And Suffering: 147
 - Creation: 145
 - Grace And Transformation: 102
-- Trinity: 89
+- Trinity: 90
 - Justice And Public Life: 84
 - Church And Practice: 83
-- Pneumatology: 59
+- Pneumatology: 60
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 253
+- Father: 263
 - Son: 186
-- Holy Spirit: 107
+- Holy Spirit: 109
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 146 | broader corpus 2,566
-- Mathematical Structure: theologians 4 | broader corpus 629
-- Mathematical Theophany: theologians 134 | broader corpus 1,234
-- Quantum Probability: theologians 2 | broader corpus 180
-- Life And Consciousness: theologians 84 | broader corpus 5,722
-- Meaning And Logos: theologians 101 | broader corpus 6,131
-- Moral Response: theologians 105 | broader corpus 2,345
-- Worship And Community: theologians 149 | broader corpus 1,170
-- Transformation: theologians 238 | broader corpus 2,142
+- Physical Order: theologians 146 | broader corpus 2,594
+- Mathematical Structure: theologians 4 | broader corpus 672
+- Mathematical Theophany: theologians 134 | broader corpus 1,275
+- Quantum Probability: theologians 2 | broader corpus 292
+- Life And Consciousness: theologians 89 | broader corpus 5,710
+- Meaning And Logos: theologians 101 | broader corpus 6,112
+- Moral Response: theologians 105 | broader corpus 2,315
+- Worship And Community: theologians 149 | broader corpus 1,135
+- Transformation: theologians 239 | broader corpus 2,156
 
 Per-Source Findings
 -------------------
+
+cultivating_christian_civil_society_fundamentalist_christianity_politics_and_gov_51108495c923.md
+------------------------------------------------------------------------------------------------
+Words: 150
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+hobbes_s_challenge_to_descartes_bramhall_and_boyle_a_corporeal_god_acf6ac21d665.md
+----------------------------------------------------------------------------------
+Words: 139
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 introduction_5eb1c80425a7.md
 ----------------------------
