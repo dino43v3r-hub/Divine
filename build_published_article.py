@@ -13,6 +13,7 @@ REFERENCES_PATH = Path("references/references.json")
 DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
 KNOWLEDGE_INDEX_PATH = Path("reports/knowledge_retrieval_index.json")
 REVIEW_AUDIT_PATH = Path("reports/review_rules_audit.json")
+REVIEW_GAP_QUEUE_PATH = Path("reports/review_gap_queue.json")
 FRICTION_LAYERS_PATH = Path("research_documents/friction_layers.json")
 THEOLOGICAL_FOUNDATIONS_PATH = Path("research_documents/theological_foundations.json")
 PATTERN_DISTORTION_PATH = Path("research_documents/pattern_distortion_layer.json")
@@ -390,6 +391,85 @@ def rule_coverage_lines(audit: dict) -> list[str]:
             f"- {rule}: {int(values.get('present', 0)):,} explicit; {int(values.get('machine_drafted', 0)):,} machine-drafted; {int(values.get('missing', 0)):,} still missing of {int(values.get('total', 0)):,}"
         )
     return lines or ["- No promotion-rule coverage values found."]
+
+
+def rule_gap_summary(audit: dict, limit: int = 5) -> list[tuple[str, int, int, int]]:
+    coverage = audit.get("rule_coverage", {}) if audit else {}
+    rows = []
+    for rule, values in coverage.items():
+        missing = int(values.get("missing", 0) or 0)
+        machine_drafted = int(values.get("machine_drafted", 0) or 0)
+        present = int(values.get("present", 0) or 0)
+        if missing or machine_drafted:
+            rows.append((rule, missing, machine_drafted, present))
+    rows.sort(key=lambda item: (item[1], item[2], -item[3], item[0]), reverse=True)
+    return rows[:limit]
+
+
+def next_step_lines(audit: dict, queue_payload: dict, candidate_pattern: dict) -> list[str]:
+    totals = audit.get("confidence_tier_totals", {}) if audit else {}
+    ready = int(totals.get("reviewed_evidence_ready", 0) or 0)
+    developing = int(totals.get("developing_evidence", 0) or 0)
+    candidate_leads = int(totals.get("candidate_lead", 0) or 0)
+    queue_items = queue_payload.get("items", []) if queue_payload else []
+    gaps = rule_gap_summary(audit, limit=4)
+
+    lines = [
+        "The report is strongest when it tells you exactly where confidence is blocked. Based on the current audit, the next work should be:",
+        "",
+    ]
+
+    if ready == 0 and developing:
+        lines.extend(
+            [
+                "1. Move one source from `developing_evidence` to `reviewed_evidence_ready`.",
+                f"   Right now the project has {developing:,} developing-evidence records and {ready:,} ready-for-review records. Pick one important source connected to `{candidate_pattern.get('name', 'the leading pattern')}` and complete every required control by hand.",
+                "",
+            ]
+        )
+    else:
+        lines.extend(
+            [
+                "1. Re-check the strongest ready-for-review source.",
+                "   Confirm that its evidence, interpretation, counter-reading, failure condition, and pastoral safety are source-specific rather than generic.",
+                "",
+            ]
+        )
+
+    if gaps:
+        gap_text = ", ".join(f"`{rule}` ({missing:,} missing)" for rule, missing, _, _ in gaps)
+        lines.extend(
+            [
+                "2. Fill the largest explicit review gaps.",
+                f"   The current biggest gaps are {gap_text}. These are the places where the report most needs clearer human judgment.",
+                "",
+            ]
+        )
+
+    if queue_items:
+        top = queue_items[0]
+        missing = ", ".join(top.get("missing_rules", [])[:5]) or "review controls"
+        lines.extend(
+            [
+                "3. Start with the top item in the review queue.",
+                f"   First queued source: `{top.get('path', '')}`. Add source-checked companion notes for: {missing}.",
+                "",
+            ]
+        )
+
+    lines.extend(
+        [
+            "4. Strengthen the leading pattern with one hard counter-reading.",
+            f"   The current leading pattern is `{candidate_pattern.get('name', 'the current candidate pattern')}`. Add a serious rival explanation from psychology, sociology, history, disability studies, trauma studies, comparative religion, or philosophy, then state what would weaken the pattern.",
+            "",
+            "5. Add one pastoral use case and one pastoral rejection case.",
+            "   Write a short case where the pattern helps faithful practice, and another where it would become unsafe, glib, coercive, or overconfident. This keeps the report priestly instead of merely impressive.",
+            "",
+            "6. Source-check machine-drafted companions before trusting them.",
+            f"   The project currently has {candidate_leads:,} candidate leads. Machine drafts can organize the work, but they should not raise confidence until the source has been directly checked.",
+        ]
+    )
+    return lines
 
 
 def excluded_report_lines() -> list[str]:
@@ -1274,6 +1354,7 @@ def build_short_article() -> str:
     reference_catalog = read_json(REFERENCES_PATH)
     knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
     review_audit = read_json(REVIEW_AUDIT_PATH)
+    review_gap_queue = read_json(REVIEW_GAP_QUEUE_PATH)
     candidate_pattern = current_candidate_pattern(knowledge_index)
     daily_image = generate_daily_pattern_image(candidate_pattern, digest, review_audit, generated_at)
     findings_text = read(Path("reports/divine_pattern_findings.md"))
@@ -1387,7 +1468,7 @@ def build_short_article() -> str:
         "",
         "## What You Need To Do",
         "",
-        "Nothing technical. Read `reports/divine_pattern_findings.md` when you want the current patterns. Your role is simply to evaluate whether the patterns seem true, faithful, useful, or weak.",
+        *next_step_lines(review_audit, review_gap_queue, candidate_pattern),
         "",
         "## Current Corpus Snapshot",
         "",

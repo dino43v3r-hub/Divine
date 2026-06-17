@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-17 19:08 UTC_
+_Generated: 2026-06-17 19:15 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -111,7 +111,25 @@ Quantum theory, mathematics, neuroscience, and AI pattern recognition may suppor
 
 ## What You Need To Do
 
-Nothing technical. Read `reports/divine_pattern_findings.md` when you want the current patterns. Your role is simply to evaluate whether the patterns seem true, faithful, useful, or weak.
+The report is strongest when it tells you exactly where confidence is blocked. Based on the current audit, the next work should be:
+
+1. Move one source from `developing_evidence` to `reviewed_evidence_ready`.
+   Right now the project has 340 developing-evidence records and 0 ready-for-review records. Pick one important source connected to `Image Of God Pattern` and complete every required control by hand.
+
+2. Fill the largest explicit review gaps.
+   The current biggest gaps are `interpretation` (423 missing), `analogy` (404 missing), `failure_condition` (358 missing), `discernment` (207 missing). These are the places where the report most needs clearer human judgment.
+
+3. Start with the top item in the review queue.
+   First queued source: `research_documents/reviewed_source_packs.md`. Add source-checked companion notes for: interpretation, analogy, machine_label_boundary.
+
+4. Strengthen the leading pattern with one hard counter-reading.
+   The current leading pattern is `Image Of God Pattern`. Add a serious rival explanation from psychology, sociology, history, disability studies, trauma studies, comparative religion, or philosophy, then state what would weaken the pattern.
+
+5. Add one pastoral use case and one pastoral rejection case.
+   Write a short case where the pattern helps faithful practice, and another where it would become unsafe, glib, coercive, or overconfident. This keeps the report priestly instead of merely impressive.
+
+6. Source-check machine-drafted companions before trusting them.
+   The project currently has 114 candidate leads. Machine drafts can organize the work, but they should not raise confidence until the source has been directly checked.
 
 ## Current Corpus Snapshot
 
