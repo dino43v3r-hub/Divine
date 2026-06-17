@@ -10,7 +10,7 @@
     {
       "id": "marcus-aurelius-stoicism",
       "title": "Marcus Aurelius and Stoic Virtue",
-      "domain": "Philosophy \u2194 Theology",
+      "domain": "Philosophy ↔ Theology",
       "observation": "Humans recognize the need for virtue, discipline, and self-control.",
       "pattern": "Character shapes the direction of the soul and life.",
       "friction_point": "Human beings often recognize virtue but fail to fully live by it.",
@@ -41,12 +41,16 @@
         "Marcus Aurelius, Meditations",
         "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_01.md",
         "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_04.md"
-      ]
+      ],
+      "evidence_value": 2,
+      "insight_value": 3,
+      "resolution_status": "resolved_with_christian_resolution",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "epictetus-agency-and-limits",
       "title": "Epictetus and Agency Under Limits",
-      "domain": "Philosophy \u2194 Theology",
+      "domain": "Philosophy ↔ Theology",
       "observation": "Humans experience a real difference between what they can control and what they cannot control.",
       "pattern": "Moral agency grows when a person learns responsibility without pretending to control all outcomes.",
       "friction_point": "Acceptance can become wisdom, but it can also become resignation when suffering or injustice should be resisted.",
@@ -78,12 +82,16 @@
         "Epictetus, Enchiridion",
         "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_01.md",
         "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_04.md"
-      ]
+      ],
+      "evidence_value": 1,
+      "insight_value": 2,
+      "resolution_status": "partially_resolved",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "plato-justice-and-the-ordered-soul",
       "title": "Plato and the Ordered Soul",
-      "domain": "Philosophy \u2194 Theology",
+      "domain": "Philosophy ↔ Theology",
       "observation": "Humans recognize that justice requires order within the person and the community.",
       "pattern": "The shape of the soul affects the shape of public life.",
       "friction_point": "A vision of order can become coercive when it ranks people by function, knowledge, or social usefulness.",
@@ -115,12 +123,16 @@
         "Plato, Republic",
         "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_01.md",
         "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_04.md"
-      ]
+      ],
+      "evidence_value": 1,
+      "insight_value": 2,
+      "resolution_status": "partially_resolved",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "aristotle-virtue-and-formation",
       "title": "Aristotle and Virtue Formation",
-      "domain": "Philosophy \u2194 Theology",
+      "domain": "Philosophy ↔ Theology",
       "observation": "Humans become shaped by repeated habits, practices, loves, and communities.",
       "pattern": "Formation turns moral insight into embodied character.",
       "friction_point": "Virtue can be treated as achievement, social polish, or excellence without grace for failure and repair.",
@@ -149,12 +161,16 @@
       ],
       "sources": [
         "Aristotle, Nicomachean Ethics"
-      ]
+      ],
+      "evidence_value": 2,
+      "insight_value": 3,
+      "resolution_status": "resolved_with_christian_resolution",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "kant-duty-and-moral-law",
       "title": "Kant and Moral Duty",
-      "domain": "Philosophy \u2194 Theology",
+      "domain": "Philosophy ↔ Theology",
       "observation": "Humans recognize a moral law that calls them beyond preference, appetite, and convenience.",
       "pattern": "Duty reveals that moral life has a claim on the self.",
       "friction_point": "Moral duty can identify obligation without healing the divided will or restoring the person after failure.",
@@ -183,12 +199,16 @@
       ],
       "sources": [
         "Immanuel Kant, Groundwork of the Metaphysics of Morals"
-      ]
+      ],
+      "evidence_value": 2,
+      "insight_value": 3,
+      "resolution_status": "resolved_with_christian_resolution",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "nietzsche-power-and-moral-critique",
       "title": "Nietzsche and the Critique of Moral Weakness",
-      "domain": "Philosophy \u2194 Theology",
+      "domain": "Philosophy ↔ Theology",
       "observation": "Humans can use moral language to hide fear, resentment, domination, or weakness.",
       "pattern": "Moral claims must be tested by what they produce in real character and community.",
       "friction_point": "Christian language can be misused as a mask for passivity, control, or resentment rather than cruciform love.",
@@ -217,12 +237,16 @@
       ],
       "sources": [
         "Friedrich Nietzsche, On the Genealogy of Morality"
-      ]
+      ],
+      "evidence_value": 0,
+      "insight_value": 2,
+      "resolution_status": "partially_resolved",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "hume-reason-passion-and-moral-sentiment",
       "title": "Hume and Moral Sentiment",
-      "domain": "Philosophy \u2194 Theology",
+      "domain": "Philosophy ↔ Theology",
       "observation": "Humans often make moral judgments through sympathy, feeling, habit, and social experience rather than pure reason alone.",
       "pattern": "Moral perception involves the whole person, not detached intellect only.",
       "friction_point": "If morality is grounded only in sentiment, it can struggle to name an authority beyond preference, culture, or shared feeling.",
@@ -251,12 +275,16 @@
       ],
       "sources": [
         "David Hume, An Enquiry Concerning the Principles of Morals"
-      ]
+      ],
+      "evidence_value": 1,
+      "insight_value": 2,
+      "resolution_status": "partially_resolved",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "marx-religion-and-material-conditions",
       "title": "Marx and Religion as Social Critique",
-      "domain": "Politics / Economics \u2194 Theology",
+      "domain": "Politics / Economics ↔ Theology",
       "observation": "Religion can be used to comfort suffering people without changing the unjust material conditions that harm them.",
       "pattern": "Claims about meaning must be tested by whether they produce justice, repair, and truthful attention to the poor.",
       "friction_point": "A Divine Pattern claim can become ideology if it spiritualizes suffering while leaving exploitation intact.",
@@ -287,12 +315,16 @@
       "sources": [
         "Karl Marx, Contribution to the Critique of Hegel's Philosophy of Right",
         "Karl Marx and Friedrich Engels, The German Ideology"
-      ]
+      ],
+      "evidence_value": -1,
+      "insight_value": 2,
+      "resolution_status": "unresolved",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "freud-religion-wish-and-illusion",
       "title": "Freud and Religion as Wish-Fulfillment",
-      "domain": "Psychology \u2194 Theology",
+      "domain": "Psychology ↔ Theology",
       "observation": "Human beings can create religious ideas that satisfy longing for protection, meaning, authority, or parental care.",
       "pattern": "Spiritual interpretation must be tested against projection, fear, desire, and psychological need.",
       "friction_point": "The Divine Pattern may be explained as human wish, coping mechanism, or unconscious projection rather than divine disclosure.",
@@ -321,12 +353,16 @@
       ],
       "sources": [
         "Sigmund Freud, The Future of an Illusion"
-      ]
+      ],
+      "evidence_value": -1,
+      "insight_value": 2,
+      "resolution_status": "unresolved",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "feuerbach-projection-and-theology",
       "title": "Feuerbach and Theology as Projection",
-      "domain": "Philosophy \u2194 Theology",
+      "domain": "Philosophy ↔ Theology",
       "observation": "Human beings may project their highest ideals outward and then call those ideals God.",
       "pattern": "Claims about God must be tested against human self-projection and idealized anthropology.",
       "friction_point": "The Divine Pattern may be read as humanity discovering itself rather than encountering God.",
@@ -354,12 +390,16 @@
       ],
       "sources": [
         "Ludwig Feuerbach, The Essence of Christianity"
-      ]
+      ],
+      "evidence_value": -1,
+      "insight_value": 2,
+      "resolution_status": "unresolved",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "camus-absurd-suffering-and-silence",
       "title": "Camus and the Absurd",
-      "domain": "Existentialism \u2194 Theology",
+      "domain": "Existentialism ↔ Theology",
       "observation": "Human beings long for meaning, but the world often appears silent, unjust, and resistant to final explanation.",
       "pattern": "Meaning claims must survive suffering without pretending that every wound has an obvious explanation.",
       "friction_point": "The Divine Pattern can become morally shallow if it explains suffering too quickly or turns tragedy into neat resolution.",
@@ -389,12 +429,16 @@
       "sources": [
         "Albert Camus, The Myth of Sisyphus",
         "Albert Camus, The Plague"
-      ]
+      ],
+      "evidence_value": -1,
+      "insight_value": 2,
+      "resolution_status": "unresolved",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "sartre-freedom-and-godless-responsibility",
       "title": "Sartre and Godless Responsibility",
-      "domain": "Existentialism \u2194 Theology",
+      "domain": "Existentialism ↔ Theology",
       "observation": "Human beings experience radical responsibility and cannot avoid choosing what they become.",
       "pattern": "Freedom requires responsibility, but responsibility can become crushing without grace or given identity.",
       "friction_point": "A Christian account of created purpose can be challenged as an evasion of radical freedom and human responsibility.",
@@ -424,12 +468,16 @@
       "sources": [
         "Jean-Paul Sartre, Existentialism Is a Humanism",
         "Jean-Paul Sartre, Being and Nothingness"
-      ]
+      ],
+      "evidence_value": 0,
+      "insight_value": 2,
+      "resolution_status": "partially_resolved",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     },
     {
       "id": "darwin-natural-selection-and-apparent-design",
       "title": "Darwin and Natural Selection",
-      "domain": "Science \u2194 Theology",
+      "domain": "Science ↔ Theology",
       "observation": "Complex life can arise through natural processes involving variation, inheritance, selection, adaptation, contingency, and deep time.",
       "pattern": "Claims about creation must account for natural history without forcing biological complexity into simple proof of design.",
       "friction_point": "Natural selection challenges easy design arguments and any Divine Pattern claim that depends on biological complexity being inexplicable by natural causes.",
@@ -460,12 +508,16 @@
       "sources": [
         "Charles Darwin, On the Origin of Species",
         "Charles Darwin, The Descent of Man"
-      ]
+      ],
+      "evidence_value": -1,
+      "insight_value": 2,
+      "resolution_status": "unresolved",
+      "source_review_note": "Add qualified science-source review, avoid gaps-based reasoning, and identify the theological claim that remains after natural explanation is honored."
     },
     {
       "id": "foucault-power-knowledge-and-discipline",
       "title": "Foucault and Power-Knowledge",
-      "domain": "Culture / Politics \u2194 Theology",
+      "domain": "Culture / Politics ↔ Theology",
       "observation": "Institutions can produce truth-claims that discipline bodies, normalize behavior, and protect power.",
       "pattern": "Truth claims must be tested by how they shape people, especially vulnerable bodies and communities.",
       "friction_point": "The Divine Pattern framework can become a tool of classification and control if it names patterns without checking power.",
@@ -495,7 +547,11 @@
       "sources": [
         "Michel Foucault, Discipline and Punish",
         "Michel Foucault, The History of Sexuality"
-      ]
+      ],
+      "evidence_value": -1,
+      "insight_value": 2,
+      "resolution_status": "unresolved",
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
     }
   ]
 }

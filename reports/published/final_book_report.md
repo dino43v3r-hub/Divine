@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-17 12:45 UTC_
+_Generated: 2026-06-17 12:49 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -164,8 +164,24 @@ This layer records where philosophy, science, culture, or theology creates produ
 - Diagnostic or unresolved friction: 2
 - Currently weakening or unresolved challenge records: 6
 - Net provisional evidence score: 3
+- Total insight value: 31
 
 Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.
+
+### Domain Rollup
+
+- Culture / Politics: 1 record(s), evidence -1, insight 2
+- Existentialism: 2 record(s), evidence -1, insight 4
+- Philosophy: 8 record(s), evidence 8, insight 19
+- Politics / Economics: 1 record(s), evidence -1, insight 2
+- Psychology: 1 record(s), evidence -1, insight 2
+- Science: 1 record(s), evidence -1, insight 2
+
+### Resolution Status Rollup
+
+- partially_resolved: 5
+- resolved_with_christian_resolution: 3
+- unresolved: 6
 
 ### Marcus Aurelius and Stoic Virtue
 
@@ -173,9 +189,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** moderate_support_after_christian_resolution
 
+**Evidence Value:** 2
+
+**Insight Value:** 3
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** resolved_with_christian_resolution
 
 **Domain:** Philosophy ↔ Theology
 
@@ -193,6 +215,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not treat Stoic virtue as identical with Christian transformation or grace.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Image of God Pattern, Moral Response, Transformation, Logos / Meaning
 
 **Tags:** Marcus Aurelius, Stoicism, philosophy, virtue, self-control, friction, theology
@@ -203,9 +227,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** modest_support_with_caution
 
+**Evidence Value:** 1
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** partially_resolved
 
 **Domain:** Philosophy ↔ Theology
 
@@ -223,6 +253,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not let acceptance of limits become passivity before injustice or avoidable harm.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Image of God Pattern, Moral Response, Providence And Contingency Pattern, Transformation
 
 **Tags:** Epictetus, Stoicism, agency, acceptance, control, suffering, friction, theology
@@ -233,9 +265,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** modest_support_with_significant_power_risk
 
+**Evidence Value:** 1
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** partially_resolved
 
 **Domain:** Philosophy ↔ Theology
 
@@ -253,6 +291,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not baptize hierarchy, philosopher-rule, or social ranking as divine order.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Image of God Pattern, Moral Response, Worship And Community, Logos / Meaning
 
 **Tags:** Plato, Republic, justice, soul, order, philosophy, friction, theology
@@ -263,9 +303,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** moderate_support_after_christian_resolution
 
+**Evidence Value:** 2
+
+**Insight Value:** 3
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** resolved_with_christian_resolution
 
 **Domain:** Philosophy ↔ Theology
 
@@ -283,6 +329,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not reduce Christian sanctification to self-cultivation or moral excellence by training alone.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Moral Response, Transformation, Worship And Community, Image of God Pattern
 
 **Tags:** Aristotle, virtue ethics, formation, habit, practical wisdom, friction, theology
@@ -293,9 +341,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** moderate_support_after_christian_resolution
 
+**Evidence Value:** 2
+
+**Insight Value:** 3
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** resolved_with_christian_resolution
 
 **Domain:** Philosophy ↔ Theology
 
@@ -313,6 +367,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not make moral law alone do the work of forgiveness, healing, and transformation.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Moral Response, Logos / Meaning, Transformation, Image of God Pattern
 
 **Tags:** Immanuel Kant, duty, moral law, reason, autonomy, friction, theology
@@ -323,9 +379,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** diagnostic_challenge_that_purifies_claims
 
+**Evidence Value:** 0
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** partially_resolved
 
 **Domain:** Philosophy ↔ Theology
 
@@ -343,6 +405,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not use Nietzsche as support; use the critique to test whether Christian moral language has become resentment, control, or weakness.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Cross And Reversal Pattern, Moral Response, Transformation, Worship And Community
 
 **Tags:** Friedrich Nietzsche, moral critique, power, resentment, self-overcoming, friction, theology
@@ -353,9 +417,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** modest_support_with_authority_question
 
+**Evidence Value:** 1
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** partially_resolved
 
 **Domain:** Philosophy ↔ Theology
 
@@ -373,6 +443,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not ground moral authority only in shared feeling, sympathy, or cultural habit.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Life And Consciousness, Moral Response, Transformation, Logos / Meaning
 
 **Tags:** David Hume, moral sentiment, reason, sympathy, ethics, friction, theology
@@ -383,9 +455,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** serious_unresolved_challenge_to_practical_fruit
 
+**Evidence Value:** -1
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** unresolved
 
 **Domain:** Politics / Economics ↔ Theology
 
@@ -403,6 +481,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not use spiritual language to bypass material injustice, poverty, labor exploitation, or institutional harm.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Moral Response, Worship And Community, Cross And Reversal Pattern, Transformation
 
 **Tags:** Karl Marx, religion, ideology, class, poverty, justice, friction, theology
@@ -413,9 +493,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** serious_unresolved_challenge_to_psychological_explanation
 
+**Evidence Value:** -1
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** unresolved
 
 **Domain:** Psychology ↔ Theology
 
@@ -433,6 +519,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not treat longing, consolation, or religious experience as evidence without projection and wish-fulfillment checks.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Life And Consciousness, Meaning And Logos, Moral Response, Transformation
 
 **Tags:** Sigmund Freud, psychoanalysis, wish-fulfillment, illusion, projection, friction, theology
@@ -443,9 +531,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** serious_unresolved_challenge_to_projection_risk
 
+**Evidence Value:** -1
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** unresolved
 
 **Domain:** Philosophy ↔ Theology
 
@@ -463,6 +557,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not confuse human ideals, moral longing, or beauty with independent evidence of divine self-disclosure.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Image of God Pattern, Meaning And Logos, Moral Response, Transformation
 
 **Tags:** Ludwig Feuerbach, projection, anthropology, religion, theology, friction
@@ -473,9 +569,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** serious_unresolved_challenge_to_suffering_resolution
 
+**Evidence Value:** -1
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** unresolved
 
 **Domain:** Existentialism ↔ Theology
 
@@ -493,6 +595,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not turn absurdity, grief, or innocent suffering into a tidy apologetic pattern.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Cross And Reversal Pattern, Moral Response, Transformation, Meaning And Logos
 
 **Tags:** Albert Camus, absurd, suffering, meaning, revolt, friction, theology
@@ -503,9 +607,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** diagnostic_challenge_to_freedom_and_vocation
 
+**Evidence Value:** 0
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** partially_resolved
 
 **Domain:** Existentialism ↔ Theology
 
@@ -523,6 +633,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not use divine purpose to erase human agency, responsibility, or the terror of real choice.
 
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
+
 **Related Layers:** Image of God Pattern, Moral Response, Meaning And Logos, Transformation
 
 **Tags:** Jean-Paul Sartre, existentialism, freedom, responsibility, authenticity, friction, theology
@@ -533,9 +645,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** serious_challenge_to_simple_design_arguments
 
+**Evidence Value:** -1
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_science_source_review
+
+**Resolution Status:** unresolved
 
 **Domain:** Science ↔ Theology
 
@@ -553,6 +671,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Failure Risk:** Do not use gaps in evolutionary explanation as evidence for the Divine Pattern.
 
+**Source Review Note:** Add qualified science-source review, avoid gaps-based reasoning, and identify the theological claim that remains after natural explanation is honored.
+
 **Related Layers:** Physical Order, Life And Consciousness, Providence And Contingency Pattern, Moral Response
 
 **Tags:** Charles Darwin, evolution, natural selection, biology, design, science, friction, theology
@@ -563,9 +683,15 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Evidence Effect:** serious_unresolved_challenge_to_power_and_method
 
+**Evidence Value:** -1
+
+**Insight Value:** 2
+
 **Confidence:** provisional
 
 **Review Status:** needs_primary_source_review
+
+**Resolution Status:** unresolved
 
 **Domain:** Culture / Politics ↔ Theology
 
@@ -582,6 +708,8 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Divine Pattern Insight:** The pattern must audit its own power effects; truth without humility and repair can become domination.
 
 **Failure Risk:** Do not let pattern recognition become surveillance, labeling, normalization, or institutional self-protection.
+
+**Source Review Note:** Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 
 **Related Layers:** Cross And Reversal Pattern, Moral Response, Worship And Community, Transformation
 

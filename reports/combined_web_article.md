@@ -2,7 +2,7 @@
 
 _A GitHub-readable article drawn from the generated reports._
 
-Generated: `2026-06-17 12:45 UTC`
+Generated: `2026-06-17 12:49 UTC`
 
 ## How To Read This Page
 
@@ -10119,15 +10119,34 @@ Friction is not evidence of failure. Friction is evidence that a pattern has rea
 - Diagnostic or unresolved friction: 2
 - Currently weakening or unresolved challenge records: 6
 - Net provisional evidence score: 3
+- Total insight value: 31
 
 Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.
+
+### Domain Rollup
+
+- Culture / Politics: 1 record(s), evidence -1, insight 2
+- Existentialism: 2 record(s), evidence -1, insight 4
+- Philosophy: 8 record(s), evidence 8, insight 19
+- Politics / Economics: 1 record(s), evidence -1, insight 2
+- Psychology: 1 record(s), evidence -1, insight 2
+- Science: 1 record(s), evidence -1, insight 2
+
+### Resolution Status Rollup
+
+- partially_resolved: 5
+- resolved_with_christian_resolution: 3
+- unresolved: 6
 
 ### Marcus Aurelius and Stoic Virtue
 
 - Evidence Score: 2
 - Evidence Effect: moderate_support_after_christian_resolution
+- Evidence Value: 2
+- Insight Value: 3
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: resolved_with_christian_resolution
 - Domain: Philosophy ↔ Theology
 - Observation: Humans recognize the need for virtue, discipline, and self-control.
 - Pattern: Character shapes the direction of the soul and life.
@@ -10136,14 +10155,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity emphasizes grace, redemption through Christ, and transformation by the Holy Spirit.
 - Divine Pattern Insight: Human reason can recognize moral order, but restoration after failure requires a deeper resolution.
 - Failure Risk: Do not treat Stoic virtue as identical with Christian transformation or grace.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Marcus Aurelius, Stoicism, philosophy, virtue, self-control, friction, theology
 
 ### Epictetus and Agency Under Limits
 
 - Evidence Score: 1
 - Evidence Effect: modest_support_with_caution
+- Evidence Value: 1
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: partially_resolved
 - Domain: Philosophy ↔ Theology
 - Observation: Humans experience a real difference between what they can control and what they cannot control.
 - Pattern: Moral agency grows when a person learns responsibility without pretending to control all outcomes.
@@ -10152,14 +10175,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity emphasizes faithful agency before God, prayerful dependence, patient endurance, and justice-seeking love.
 - Divine Pattern Insight: Human agency is real but finite; the deeper resolution joins responsibility with dependence on grace and hope beyond visible control.
 - Failure Risk: Do not let acceptance of limits become passivity before injustice or avoidable harm.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Epictetus, Stoicism, agency, acceptance, control, suffering, friction, theology
 
 ### Plato and the Ordered Soul
 
 - Evidence Score: 1
 - Evidence Effect: modest_support_with_significant_power_risk
+- Evidence Value: 1
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: partially_resolved
 - Domain: Philosophy ↔ Theology
 - Observation: Humans recognize that justice requires order within the person and the community.
 - Pattern: The shape of the soul affects the shape of public life.
@@ -10168,14 +10195,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity emphasizes created dignity, servant leadership, repentance, grace, and justice for vulnerable people.
 - Divine Pattern Insight: Reason can perceive that the soul and society need order, but Christian resolution tests order by love, humility, and the dignity of every person.
 - Failure Risk: Do not baptize hierarchy, philosopher-rule, or social ranking as divine order.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Plato, Republic, justice, soul, order, philosophy, friction, theology
 
 ### Aristotle and Virtue Formation
 
 - Evidence Score: 2
 - Evidence Effect: moderate_support_after_christian_resolution
+- Evidence Value: 2
+- Insight Value: 3
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: resolved_with_christian_resolution
 - Domain: Philosophy ↔ Theology
 - Observation: Humans become shaped by repeated habits, practices, loves, and communities.
 - Pattern: Formation turns moral insight into embodied character.
@@ -10184,14 +10215,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity emphasizes spiritual formation, grace, repentance, sanctification, and love that is not limited to the socially excellent.
 - Divine Pattern Insight: Habit matters deeply, but Christian transformation requires more than training; it requires grace that reforms desire and restores failed persons.
 - Failure Risk: Do not reduce Christian sanctification to self-cultivation or moral excellence by training alone.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Aristotle, virtue ethics, formation, habit, practical wisdom, friction, theology
 
 ### Kant and Moral Duty
 
 - Evidence Score: 2
 - Evidence Effect: moderate_support_after_christian_resolution
+- Evidence Value: 2
+- Insight Value: 3
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: resolved_with_christian_resolution
 - Domain: Philosophy ↔ Theology
 - Observation: Humans recognize a moral law that calls them beyond preference, appetite, and convenience.
 - Pattern: Duty reveals that moral life has a claim on the self.
@@ -10200,14 +10235,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity emphasizes moral accountability together with grace, forgiveness, union with Christ, and transformation by the Holy Spirit.
 - Divine Pattern Insight: Moral law can expose responsibility, but the deeper resolution must address guilt, weakness, forgiveness, and renewal.
 - Failure Risk: Do not make moral law alone do the work of forgiveness, healing, and transformation.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Immanuel Kant, duty, moral law, reason, autonomy, friction, theology
 
 ### Nietzsche and the Critique of Moral Weakness
 
 - Evidence Score: 0
 - Evidence Effect: diagnostic_challenge_that_purifies_claims
+- Evidence Value: 0
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: partially_resolved
 - Domain: Philosophy ↔ Theology
 - Observation: Humans can use moral language to hide fear, resentment, domination, or weakness.
 - Pattern: Moral claims must be tested by what they produce in real character and community.
@@ -10216,14 +10255,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity emphasizes the cross as power made humble, repentance from false righteousness, and Spirit-formed love that is neither domination nor resentment.
 - Divine Pattern Insight: A serious critique of moral hypocrisy can purify the pattern by forcing Christian claims to show truthful humility, courage, mercy, and costly love.
 - Failure Risk: Do not use Nietzsche as support; use the critique to test whether Christian moral language has become resentment, control, or weakness.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Friedrich Nietzsche, moral critique, power, resentment, self-overcoming, friction, theology
 
 ### Hume and Moral Sentiment
 
 - Evidence Score: 1
 - Evidence Effect: modest_support_with_authority_question
+- Evidence Value: 1
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: partially_resolved
 - Domain: Philosophy ↔ Theology
 - Observation: Humans often make moral judgments through sympathy, feeling, habit, and social experience rather than pure reason alone.
 - Pattern: Moral perception involves the whole person, not detached intellect only.
@@ -10232,14 +10275,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity affirms embodied moral perception while grounding goodness in God's character, revelation, love, and the formation of rightly ordered desire.
 - Divine Pattern Insight: Moral feeling is a real part of human response, but the deeper resolution asks how desire is healed, trained, and accountable to truth.
 - Failure Risk: Do not ground moral authority only in shared feeling, sympathy, or cultural habit.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: David Hume, moral sentiment, reason, sympathy, ethics, friction, theology
 
 ### Marx and Religion as Social Critique
 
 - Evidence Score: -1
 - Evidence Effect: serious_unresolved_challenge_to_practical_fruit
+- Evidence Value: -1
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: unresolved
 - Domain: Politics / Economics ↔ Theology
 - Observation: Religion can be used to comfort suffering people without changing the unjust material conditions that harm them.
 - Pattern: Claims about meaning must be tested by whether they produce justice, repair, and truthful attention to the poor.
@@ -10248,14 +10295,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity emphasizes good news to the poor, repentance from unjust power, concrete mercy, economic justice, and hope that is not reducible to material conditions.
 - Divine Pattern Insight: The pattern weakens wherever it comforts injustice; it strengthens only when worship and theology become truth-telling, mercy, justice, and repair.
 - Failure Risk: Do not use spiritual language to bypass material injustice, poverty, labor exploitation, or institutional harm.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Karl Marx, religion, ideology, class, poverty, justice, friction, theology
 
 ### Freud and Religion as Wish-Fulfillment
 
 - Evidence Score: -1
 - Evidence Effect: serious_unresolved_challenge_to_psychological_explanation
+- Evidence Value: -1
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: unresolved
 - Domain: Psychology ↔ Theology
 - Observation: Human beings can create religious ideas that satisfy longing for protection, meaning, authority, or parental care.
 - Pattern: Spiritual interpretation must be tested against projection, fear, desire, and psychological need.
@@ -10264,14 +10315,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity can acknowledge projection and false religion while testing faith through revelation, repentance, truth, costly love, and transformation that resists mere wish-fulfillment.
 - Divine Pattern Insight: The pattern must distinguish genuine divine encounter from psychological projection; desire alone cannot count as evidence.
 - Failure Risk: Do not treat longing, consolation, or religious experience as evidence without projection and wish-fulfillment checks.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Sigmund Freud, psychoanalysis, wish-fulfillment, illusion, projection, friction, theology
 
 ### Feuerbach and Theology as Projection
 
 - Evidence Score: -1
 - Evidence Effect: serious_unresolved_challenge_to_projection_risk
+- Evidence Value: -1
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: unresolved
 - Domain: Philosophy ↔ Theology
 - Observation: Human beings may project their highest ideals outward and then call those ideals God.
 - Pattern: Claims about God must be tested against human self-projection and idealized anthropology.
@@ -10280,14 +10335,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity must answer projection by grounding claims in revelation, the cross, repentance, communal transformation, and a God who judges as well as fulfills human ideals.
 - Divine Pattern Insight: A pattern is weak if it only mirrors human aspiration; it must also confront, correct, and transform the human subject.
 - Failure Risk: Do not confuse human ideals, moral longing, or beauty with independent evidence of divine self-disclosure.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Ludwig Feuerbach, projection, anthropology, religion, theology, friction
 
 ### Camus and the Absurd
 
 - Evidence Score: -1
 - Evidence Effect: serious_unresolved_challenge_to_suffering_resolution
+- Evidence Value: -1
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: unresolved
 - Domain: Existentialism ↔ Theology
 - Observation: Human beings long for meaning, but the world often appears silent, unjust, and resistant to final explanation.
 - Pattern: Meaning claims must survive suffering without pretending that every wound has an obvious explanation.
@@ -10296,14 +10355,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity emphasizes lament, the cross, resurrection hope, patient solidarity, and refusal to explain away innocent suffering.
 - Divine Pattern Insight: The pattern strengthens only when it can remain truthful in lament and avoid premature resolution.
 - Failure Risk: Do not turn absurdity, grief, or innocent suffering into a tidy apologetic pattern.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Albert Camus, absurd, suffering, meaning, revolt, friction, theology
 
 ### Sartre and Godless Responsibility
 
 - Evidence Score: 0
 - Evidence Effect: diagnostic_challenge_to_freedom_and_vocation
+- Evidence Value: 0
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: partially_resolved
 - Domain: Existentialism ↔ Theology
 - Observation: Human beings experience radical responsibility and cannot avoid choosing what they become.
 - Pattern: Freedom requires responsibility, but responsibility can become crushing without grace or given identity.
@@ -10312,14 +10375,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity emphasizes created identity, responsible freedom, repentance, vocation, grace, and transformation without denying moral agency.
 - Divine Pattern Insight: The pattern must preserve real human responsibility while showing why freedom is gift and vocation, not mere self-invention.
 - Failure Risk: Do not use divine purpose to erase human agency, responsibility, or the terror of real choice.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Jean-Paul Sartre, existentialism, freedom, responsibility, authenticity, friction, theology
 
 ### Darwin and Natural Selection
 
 - Evidence Score: -1
 - Evidence Effect: serious_challenge_to_simple_design_arguments
+- Evidence Value: -1
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_science_source_review
+- Resolution Status: unresolved
 - Domain: Science ↔ Theology
 - Observation: Complex life can arise through natural processes involving variation, inheritance, selection, adaptation, contingency, and deep time.
 - Pattern: Claims about creation must account for natural history without forcing biological complexity into simple proof of design.
@@ -10328,14 +10395,18 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity can treat creation as sustained gift and providence without denying natural mechanisms, contingency, creaturely suffering, or scientific explanation.
 - Divine Pattern Insight: The pattern must not compete with biology; it must ask theological questions at the level of gift, order, contingency, vocation, and creaturely care.
 - Failure Risk: Do not use gaps in evolutionary explanation as evidence for the Divine Pattern.
+- Source Review Note: Add qualified science-source review, avoid gaps-based reasoning, and identify the theological claim that remains after natural explanation is honored.
 - Tags: Charles Darwin, evolution, natural selection, biology, design, science, friction, theology
 
 ### Foucault and Power-Knowledge
 
 - Evidence Score: -1
 - Evidence Effect: serious_unresolved_challenge_to_power_and_method
+- Evidence Value: -1
+- Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Resolution Status: unresolved
 - Domain: Culture / Politics ↔ Theology
 - Observation: Institutions can produce truth-claims that discipline bodies, normalize behavior, and protect power.
 - Pattern: Truth claims must be tested by how they shape people, especially vulnerable bodies and communities.
@@ -10344,4 +10415,5 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Christian Resolution: Christianity emphasizes truth joined to humility, repentance, protection of the vulnerable, servant authority, and the cross as judgment on coercive power.
 - Divine Pattern Insight: The pattern must audit its own power effects; truth without humility and repair can become domination.
 - Failure Risk: Do not let pattern recognition become surveillance, labeling, normalization, or institutional self-protection.
+- Source Review Note: Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.
 - Tags: Michel Foucault, power, knowledge, discipline, institutions, friction, theology

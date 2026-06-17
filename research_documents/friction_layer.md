@@ -21,9 +21,13 @@ the strongest non-Christian reading before naming a Christian resolution.
 - divine_pattern_insight
 - evidence_score
 - evidence_effect
+- evidence_value
+- insight_value
 - confidence
 - review_status
+- resolution_status
 - failure_risk
+- source_review_note
 - related_layers
 - tags
 - sources
@@ -35,6 +39,20 @@ the strongest non-Christian reading before naming a Christian resolution.
 - 0: diagnostic friction; neither support nor rejection yet
 - 1: modest support with caution
 - 2: moderate support after Christian resolution
+
+## Evidence Versus Insight
+
+Evidence value and insight value are intentionally separate. A thinker may
+weaken the Divine Pattern as evidence while still offering high insight value
+because the critique exposes projection, power, suffering, ideology, or
+methodological overclaiming. The layer should not hide those challenges.
+
+Resolution statuses:
+
+- resolved_with_christian_resolution
+- partially_resolved
+- unresolved
+- deep_challenge
 
 ## Philosopher Records
 

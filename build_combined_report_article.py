@@ -285,8 +285,11 @@ def render_friction_layer_html(records: list[dict]) -> str:
         fields = [
             ("Evidence Score", str(record.get("evidence_score", "unrated"))),
             ("Evidence Effect", record.get("evidence_effect", "unrated")),
+            ("Evidence Value", str(record.get("evidence_value", "unrated"))),
+            ("Insight Value", str(record.get("insight_value", "unrated"))),
             ("Confidence", record.get("confidence", "unrated")),
             ("Review Status", record.get("review_status", "unreviewed")),
+            ("Resolution Status", record.get("resolution_status", "unrated")),
             ("Domain", record.get("domain", "")),
             ("Observation", record.get("observation", "")),
             ("Pattern", record.get("pattern", "")),
@@ -295,6 +298,7 @@ def render_friction_layer_html(records: list[dict]) -> str:
             ("Christian Resolution", record.get("christian_resolution", "")),
             ("Divine Pattern Insight", record.get("divine_pattern_insight", "")),
             ("Failure Risk", record.get("failure_risk", "")),
+            ("Source Review Note", record.get("source_review_note", "")),
         ]
         field_html = "\n".join(
             f"<p><strong>{escape(label)}:</strong> {escape(value)}</p>"
@@ -322,13 +326,44 @@ def friction_summary_items(records: list[dict]) -> list[str]:
     diagnostic = sum(1 for record in rated if record["evidence_score"] == 0)
     challenging = sum(1 for record in rated if record["evidence_score"] < 0)
     total_score = sum(record["evidence_score"] for record in rated)
+    total_insight = sum(record.get("insight_value", 0) for record in records)
     return [
         f"Rated records: {len(rated)}",
         f"Supportive after caution/resolution: {supportive}",
         f"Diagnostic or unresolved friction: {diagnostic}",
         f"Currently weakening or unresolved challenge records: {challenging}",
         f"Net provisional evidence score: {total_score}",
+        f"Total insight value: {total_insight}",
     ]
+
+
+def friction_domain_rollup_items(records: list[dict]) -> list[str]:
+    if not records:
+        return ["No domains recorded yet."]
+
+    rollups: dict[str, dict[str, int]] = {}
+    for record in records:
+        domain = record.get("domain", "Unspecified").split("↔")[0].strip()
+        rollup = rollups.setdefault(domain, {"count": 0, "evidence": 0, "insight": 0})
+        rollup["count"] += 1
+        rollup["evidence"] += int(record.get("evidence_value", record.get("evidence_score", 0)) or 0)
+        rollup["insight"] += int(record.get("insight_value", 0) or 0)
+
+    return [
+        f"{domain}: {values['count']} record(s), evidence {values['evidence']}, insight {values['insight']}"
+        for domain, values in sorted(rollups.items())
+    ]
+
+
+def friction_resolution_rollup_items(records: list[dict]) -> list[str]:
+    if not records:
+        return ["No resolution statuses recorded yet."]
+
+    counts: dict[str, int] = {}
+    for record in records:
+        status = record.get("resolution_status", "unrated")
+        counts[status] = counts.get(status, 0) + 1
+    return [f"{status}: {count}" for status, count in sorted(counts.items())]
 
 
 def build_article() -> str:
@@ -338,6 +373,12 @@ def build_article() -> str:
     friction_layers = read_friction_layers()
     friction_summary = "".join(
         f"<li>{escape(item)}</li>" for item in friction_summary_items(friction_layers)
+    )
+    friction_domains = "".join(
+        f"<li>{escape(item)}</li>" for item in friction_domain_rollup_items(friction_layers)
+    )
+    friction_resolutions = "".join(
+        f"<li>{escape(item)}</li>" for item in friction_resolution_rollup_items(friction_layers)
     )
 
     for report in REPORTS:
@@ -389,6 +430,10 @@ def build_article() -> str:
             <h2>Provisional Evidence Summary</h2>
             <ul>{friction_summary}</ul>
             <p>Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.</p>
+            <h2>Domain Rollup</h2>
+            <ul>{friction_domains}</ul>
+            <h2>Resolution Status Rollup</h2>
+            <ul>{friction_resolutions}</ul>
           </div>
           <div class="friction-grid">
             {render_friction_layer_html(friction_layers)}
@@ -707,6 +752,24 @@ def build_markdown_article() -> str:
             "",
             "Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.",
             "",
+            "### Domain Rollup",
+            "",
+        ]
+    )
+    for item in friction_domain_rollup_items(friction_layers):
+        lines.append(f"- {item}")
+    lines.extend(
+        [
+            "",
+            "### Resolution Status Rollup",
+            "",
+        ]
+    )
+    for item in friction_resolution_rollup_items(friction_layers):
+        lines.append(f"- {item}")
+    lines.extend(
+        [
+            "",
         ]
     )
     if not friction_layers:
@@ -719,8 +782,11 @@ def build_markdown_article() -> str:
                 "",
                 f"- Evidence Score: {record.get('evidence_score', 'unrated')}",
                 f"- Evidence Effect: {record.get('evidence_effect', 'unrated')}",
+                f"- Evidence Value: {record.get('evidence_value', 'unrated')}",
+                f"- Insight Value: {record.get('insight_value', 'unrated')}",
                 f"- Confidence: {record.get('confidence', 'unrated')}",
                 f"- Review Status: {record.get('review_status', 'unreviewed')}",
+                f"- Resolution Status: {record.get('resolution_status', 'unrated')}",
                 f"- Domain: {record.get('domain', 'Unspecified')}",
                 f"- Observation: {record.get('observation', '')}",
                 f"- Pattern: {record.get('pattern', '')}",
@@ -729,6 +795,7 @@ def build_markdown_article() -> str:
                 f"- Christian Resolution: {record.get('christian_resolution', '')}",
                 f"- Divine Pattern Insight: {record.get('divine_pattern_insight', '')}",
                 f"- Failure Risk: {record.get('failure_risk', '')}",
+                f"- Source Review Note: {record.get('source_review_note', '')}",
                 f"- Tags: {tags}",
                 "",
             ]

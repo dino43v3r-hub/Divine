@@ -291,9 +291,15 @@ def friction_layer_lines(records: list[dict]) -> list[str]:
                 "",
                 f"**Evidence Effect:** {record.get('evidence_effect', 'unrated')}",
                 "",
+                f"**Evidence Value:** {record.get('evidence_value', 'unrated')}",
+                "",
+                f"**Insight Value:** {record.get('insight_value', 'unrated')}",
+                "",
                 f"**Confidence:** {record.get('confidence', 'unrated')}",
                 "",
                 f"**Review Status:** {record.get('review_status', 'unreviewed')}",
+                "",
+                f"**Resolution Status:** {record.get('resolution_status', 'unrated')}",
                 "",
                 f"**Domain:** {record.get('domain', 'Unspecified')}",
                 "",
@@ -310,6 +316,8 @@ def friction_layer_lines(records: list[dict]) -> list[str]:
                 f"**Divine Pattern Insight:** {record.get('divine_pattern_insight', '')}",
                 "",
                 f"**Failure Risk:** {record.get('failure_risk', '')}",
+                "",
+                f"**Source Review Note:** {record.get('source_review_note', '')}",
                 "",
                 f"**Related Layers:** {related_layers}",
                 "",
@@ -329,13 +337,44 @@ def friction_summary_lines(records: list[dict]) -> list[str]:
     diagnostic = sum(1 for record in rated if record["evidence_score"] == 0)
     challenging = sum(1 for record in rated if record["evidence_score"] < 0)
     total_score = sum(record["evidence_score"] for record in rated)
+    total_insight = sum(record.get("insight_value", 0) for record in records)
     return [
         f"Rated records: {len(rated)}",
         f"Supportive after caution/resolution: {supportive}",
         f"Diagnostic or unresolved friction: {diagnostic}",
         f"Currently weakening or unresolved challenge records: {challenging}",
         f"Net provisional evidence score: {total_score}",
+        f"Total insight value: {total_insight}",
     ]
+
+
+def friction_domain_rollup_lines(records: list[dict]) -> list[str]:
+    if not records:
+        return ["No domains recorded yet."]
+
+    rollups: dict[str, dict[str, int]] = {}
+    for record in records:
+        domain = record.get("domain", "Unspecified").split("↔")[0].strip()
+        rollup = rollups.setdefault(domain, {"count": 0, "evidence": 0, "insight": 0})
+        rollup["count"] += 1
+        rollup["evidence"] += int(record.get("evidence_value", record.get("evidence_score", 0)) or 0)
+        rollup["insight"] += int(record.get("insight_value", 0) or 0)
+
+    return [
+        f"{domain}: {values['count']} record(s), evidence {values['evidence']}, insight {values['insight']}"
+        for domain, values in sorted(rollups.items())
+    ]
+
+
+def friction_resolution_rollup_lines(records: list[dict]) -> list[str]:
+    if not records:
+        return ["No resolution statuses recorded yet."]
+
+    counts: dict[str, int] = {}
+    for record in records:
+        status = record.get("resolution_status", "unrated")
+        counts[status] = counts.get(status, 0) + 1
+    return [f"{status}: {count}" for status, count in sorted(counts.items())]
 
 
 def build_article() -> str:
@@ -457,6 +496,14 @@ def build_article() -> str:
             *bulletize(friction_summary_lines(friction_layers)),
             "",
             "Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.",
+            "",
+            "### Domain Rollup",
+            "",
+            *bulletize(friction_domain_rollup_lines(friction_layers)),
+            "",
+            "### Resolution Status Rollup",
+            "",
+            *bulletize(friction_resolution_rollup_lines(friction_layers)),
             "",
             *friction_layer_lines(friction_layers),
             "## What Would Make The Project Better",
