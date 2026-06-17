@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from datetime import datetime, timezone
 from html import escape
@@ -16,6 +16,10 @@ CHRISTOLOGICAL_LAYER_PATH = Path("research_documents/christological_layer.json")
 HISTORICAL_WITNESSES_PATH = Path("research_documents/historical_witnesses.json")
 MYSTERY_LAYER_PATH = Path("research_documents/mystery_layer.json")
 PROJECT_ARCHITECTURE_PATH = Path("research_documents/project_architecture.json")
+THEOLOGICAL_METHOD_PATH = Path("research_documents/theological_method_guardrails.json")
+CREEDAL_GUARDRAILS_PATH = Path("research_documents/creedal_guardrails.json")
+NEGATIVE_CASES_PATH = Path("research_documents/negative_case_records.json")
+ETHICAL_HARM_AUDIT_PATH = Path("research_documents/ethical_harm_audit.json")
 
 REPORTS = [
     {
@@ -306,9 +310,13 @@ def render_friction_layer_html(records: list[dict]) -> str:
             ("Confidence", record.get("confidence", "unrated")),
             ("Review Status", record.get("review_status", "unreviewed")),
             ("Resolution Status", record.get("resolution_status", "unrated")),
+            ("Claim Classification", record.get("claim_classification", "")),
             ("Domain", record.get("domain", "")),
             ("Observation", record.get("observation", "")),
             ("Pattern", record.get("pattern", "")),
+            ("Scripture Anchor", ", ".join(record.get("scripture_anchor", []))),
+            ("Interpretive Status", record.get("interpretive_status", "")),
+            ("Canonical Context", record.get("canonical_context", "")),
             ("Distortion", record.get("distortion", "")),
             ("Friction Point", record.get("friction_point", "")),
             ("Alternative Explanations", ", ".join(record.get("alternative_explanations", []))),
@@ -316,6 +324,8 @@ def render_friction_layer_html(records: list[dict]) -> str:
             ("Christian Resolution", record.get("christian_resolution", "")),
             ("Transformation Result", record.get("transformation_result", "")),
             ("Divine Pattern Insight", record.get("divine_pattern_insight", "")),
+            ("Theological Caution", record.get("theological_caution", "")),
+            ("Harm Audit", record.get("harm_audit", "")),
             ("Failure Risk", record.get("failure_risk", "")),
             ("Source Review Note", record.get("source_review_note", "")),
         ]
@@ -377,6 +387,54 @@ def render_architecture_html(layer: dict) -> str:
     return "\n".join(blocks)
 
 
+def render_method_html(layer: dict) -> str:
+    if not layer:
+        return "<p>Theological method guardrails layer is missing.</p>"
+    cards = [
+        simple_card_html(
+            item.get("category", "Category"),
+            [
+                ("Question", item.get("question", "")),
+                ("Required Action", item.get("required_action", "")),
+            ],
+        )
+        for item in layer.get("evidence_categories", [])
+    ]
+    rules = "".join(f"<li>{escape(item)}</li>" for item in layer.get("confidence_rules", []))
+    scoring = "".join(
+        f"<li><strong>{escape(score)}:</strong> {escape(meaning)}</li>"
+        for score, meaning in layer.get("scoring_interpretation", {}).items()
+    )
+    fields = "".join(f"<li>{escape(item)}</li>" for item in layer.get("required_record_fields", []))
+    cards.extend(
+        [
+            f"<article class=\"friction-card\"><h3>Core Rule</h3><p>{escape(layer.get('core_rule', ''))}</p></article>",
+            f"<article class=\"friction-card\"><h3>Confidence Rules</h3><ul>{rules}</ul></article>",
+            f"<article class=\"friction-card\"><h3>Scoring Interpretation</h3><ul>{scoring}</ul></article>",
+            f"<article class=\"friction-card\"><h3>Required Record Fields</h3><ul>{fields}</ul></article>",
+        ]
+    )
+    return "\n".join(cards)
+
+
+def render_creedal_html(layer: dict) -> str:
+    if not layer:
+        return "<p>Creedal guardrails layer is missing.</p>"
+    cards = [
+        simple_card_html(
+            record.get("doctrine", "Doctrine"),
+            [
+                ("Guardrail", record.get("guardrail", "")),
+                ("Sources", ", ".join(record.get("sources", []))),
+            ],
+        )
+        for record in layer.get("core_commitments", [])
+    ]
+    rejection_rules = "".join(f"<li>{escape(item)}</li>" for item in layer.get("rejection_rules", []))
+    cards.append(f"<article class=\"friction-card\"><h3>Rejection Rules</h3><ul>{rejection_rules}</ul></article>")
+    return "\n".join(cards)
+
+
 def render_distortion_html(layer: dict) -> str:
     return "\n".join(
         simple_card_html(
@@ -415,6 +473,7 @@ def render_historical_html(layer: dict) -> str:
             record.get("name", "Witness"),
             [
                 ("Era", record.get("era", "")),
+                ("Tradition", record.get("tradition", "")),
                 ("Key Themes", ", ".join(record.get("key_themes", []))),
                 ("Relevant Patterns", ", ".join(record.get("relevant_patterns", []))),
                 ("Agreements", record.get("agreements", "")),
@@ -436,10 +495,44 @@ def render_mystery_html(layer: dict) -> str:
                 ("What Remains Mysterious", record.get("what_remains_mysterious", "")),
                 ("Supporting Scriptures", ", ".join(record.get("supporting_scriptures", []))),
                 ("Theological Notes", record.get("theological_notes", "")),
+                ("Reduction Guardrail", record.get("reduction_guardrail", "")),
+                ("Research Use", record.get("research_use", "")),
             ],
         )
         for record in layer.get("records", [])
     ) or "<p>No mystery records yet.</p>"
+
+
+def render_negative_cases_html(layer: dict) -> str:
+    return "\n".join(
+        simple_card_html(
+            record.get("title", "Negative Case"),
+            [
+                ("Pattern Claim Under Test", record.get("pattern_claim_under_test", "")),
+                ("Why It Fails Or Weakens", record.get("why_it_fails_or_weakens", "")),
+                ("Theological Boundary", record.get("theological_boundary", "")),
+                ("Scripture Anchor", ", ".join(record.get("scripture_anchor", []))),
+                ("Required Revision", record.get("required_revision", "")),
+                ("Pastoral Warning", record.get("pastoral_warning", "")),
+            ],
+        )
+        for record in layer.get("records", [])
+    ) or "<p>No negative case records yet.</p>"
+
+
+def render_ethical_harm_html(layer: dict) -> str:
+    if not layer:
+        return "<p>Ethical harm audit layer is missing.</p>"
+    questions = "".join(f"<li>{escape(item)}</li>" for item in layer.get("audit_questions", []))
+    triggers = "".join(f"<li>{escape(item)}</li>" for item in layer.get("downgrade_triggers", []))
+    fruit = ", ".join(layer.get("required_fruit", []))
+    return "\n".join(
+        [
+            f"<article class=\"friction-card\"><h3>Audit Questions</h3><ul>{questions}</ul></article>",
+            f"<article class=\"friction-card\"><h3>Downgrade Triggers</h3><ul>{triggers}</ul></article>",
+            f"<article class=\"friction-card\"><h3>Required Fruit</h3><p>{escape(fruit)}</p></article>",
+        ]
+    )
 
 
 def friction_summary_items(records: list[dict]) -> list[str]:
@@ -468,7 +561,7 @@ def friction_domain_rollup_items(records: list[dict]) -> list[str]:
 
     rollups: dict[str, dict[str, int]] = {}
     for record in records:
-        domain = record.get("domain", "Unspecified").split("↔")[0].strip()
+        domain = record.get("domain", "Unspecified").replace("<->", "|").split("|")[0].strip()
         rollup = rollups.setdefault(domain, {"count": 0, "evidence": 0, "insight": 0})
         rollup["count"] += 1
         rollup["evidence"] += int(record.get("evidence_value", record.get("evidence_score", 0)) or 0)
@@ -502,6 +595,10 @@ def build_article() -> str:
     christological_layer = read_json_layer(CHRISTOLOGICAL_LAYER_PATH)
     historical_witnesses = read_json_layer(HISTORICAL_WITNESSES_PATH)
     mystery_layer = read_json_layer(MYSTERY_LAYER_PATH)
+    theological_method = read_json_layer(THEOLOGICAL_METHOD_PATH)
+    creedal_guardrails = read_json_layer(CREEDAL_GUARDRAILS_PATH)
+    negative_cases = read_json_layer(NEGATIVE_CASES_PATH)
+    ethical_harm_audit = read_json_layer(ETHICAL_HARM_AUDIT_PATH)
     friction_summary = "".join(
         f"<li>{escape(item)}</li>" for item in friction_summary_items(friction_layers)
     )
@@ -526,6 +623,20 @@ def build_article() -> str:
             PROJECT_ARCHITECTURE_PATH,
             "The project is organized around foundation, patterns, distortions, friction, Christology, historical witnesses, and mystery.",
             render_architecture_html(project_architecture),
+        ),
+        (
+            "theological-method",
+            "Theological Method And Research Guardrails",
+            THEOLOGICAL_METHOD_PATH,
+            theological_method.get("purpose", ""),
+            render_method_html(theological_method),
+        ),
+        (
+            "creedal-guardrails",
+            "Creedal And Rule Of Faith Guardrails",
+            CREEDAL_GUARDRAILS_PATH,
+            creedal_guardrails.get("purpose", ""),
+            render_creedal_html(creedal_guardrails),
         ),
         (
             "pattern-distortion-layer",
@@ -554,6 +665,20 @@ def build_article() -> str:
             MYSTERY_LAYER_PATH,
             mystery_layer.get("purpose", ""),
             render_mystery_html(mystery_layer),
+        ),
+        (
+            "negative-case-records",
+            "Negative Case And Failed Pattern Records",
+            NEGATIVE_CASES_PATH,
+            negative_cases.get("purpose", ""),
+            render_negative_cases_html(negative_cases),
+        ),
+        (
+            "ethical-harm-audit",
+            "Pastoral And Ethical Harm Audit",
+            ETHICAL_HARM_AUDIT_PATH,
+            ethical_harm_audit.get("purpose", ""),
+            render_ethical_harm_html(ethical_harm_audit),
         ),
     ]
 
@@ -878,6 +1003,10 @@ def markdown_foundations_lines(layer: dict) -> list[str]:
         lines.append(f"- {name}: {definition}")
     lines.extend(["", "### Interpretive Order", ""])
     lines.extend(f"- {item}" for item in layer.get("interpretive_order", []))
+    checks = layer.get("required_claim_checks", [])
+    if checks:
+        lines.extend(["", "### Required Claim Checks", ""])
+        lines.extend(f"- {item}" for item in checks)
     return lines
 
 
@@ -912,6 +1041,60 @@ def markdown_records_lines(layer: dict, title_key: str, fields: list[tuple[str, 
     return lines
 
 
+def markdown_method_lines(layer: dict) -> list[str]:
+    if not layer:
+        return ["Theological method guardrails layer is missing."]
+    lines = [layer.get("purpose", ""), "", f"Core rule: {layer.get('core_rule', '')}", ""]
+    for item in layer.get("evidence_categories", []):
+        lines.extend(
+            [
+                f"### {item.get('category', 'Category')}",
+                "",
+                f"- Question: {item.get('question', '')}",
+                f"- Required Action: {item.get('required_action', '')}",
+                "",
+            ]
+        )
+    lines.extend(["### Confidence Rules", ""])
+    lines.extend(f"- {item}" for item in layer.get("confidence_rules", []))
+    lines.extend(["", "### Scoring Interpretation", ""])
+    for score, meaning in layer.get("scoring_interpretation", {}).items():
+        lines.append(f"- {score}: {meaning}")
+    lines.extend(["", "### Required Record Fields", ""])
+    lines.extend(f"- {item}" for item in layer.get("required_record_fields", []))
+    return lines
+
+
+def markdown_creedal_lines(layer: dict) -> list[str]:
+    if not layer:
+        return ["Creedal guardrails layer is missing."]
+    lines = [layer.get("purpose", ""), ""]
+    for record in layer.get("core_commitments", []):
+        lines.extend(
+            [
+                f"### {record.get('doctrine', 'Doctrine')}",
+                "",
+                f"- Guardrail: {record.get('guardrail', '')}",
+                f"- Sources: {', '.join(record.get('sources', []))}",
+                "",
+            ]
+        )
+    lines.extend(["### Rejection Rules", ""])
+    lines.extend(f"- {item}" for item in layer.get("rejection_rules", []))
+    return lines
+
+
+def markdown_ethical_harm_lines(layer: dict) -> list[str]:
+    if not layer:
+        return ["Ethical harm audit layer is missing."]
+    lines = [layer.get("purpose", ""), "", "### Audit Questions", ""]
+    lines.extend(f"- {item}" for item in layer.get("audit_questions", []))
+    lines.extend(["", "### Downgrade Triggers", ""])
+    lines.extend(f"- {item}" for item in layer.get("downgrade_triggers", []))
+    lines.extend(["", f"Required fruit: {', '.join(layer.get('required_fruit', []))}"])
+    return lines
+
+
 def build_markdown_article() -> str:
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     friction_layers = read_friction_layers()
@@ -921,6 +1104,10 @@ def build_markdown_article() -> str:
     christological_layer = read_json_layer(CHRISTOLOGICAL_LAYER_PATH)
     historical_witnesses = read_json_layer(HISTORICAL_WITNESSES_PATH)
     mystery_layer = read_json_layer(MYSTERY_LAYER_PATH)
+    theological_method = read_json_layer(THEOLOGICAL_METHOD_PATH)
+    creedal_guardrails = read_json_layer(CREEDAL_GUARDRAILS_PATH)
+    negative_cases = read_json_layer(NEGATIVE_CASES_PATH)
+    ethical_harm_audit = read_json_layer(ETHICAL_HARM_AUDIT_PATH)
     lines = [
         "# Divine Pattern Research",
         "",
@@ -939,6 +1126,8 @@ def build_markdown_article() -> str:
     theological_markdown_sections = [
         ("Theological Foundations", THEOLOGICAL_FOUNDATIONS_PATH, markdown_foundations_lines(theological_foundations)),
         ("Project Architecture", PROJECT_ARCHITECTURE_PATH, markdown_architecture_lines(project_architecture)),
+        ("Theological Method And Research Guardrails", THEOLOGICAL_METHOD_PATH, markdown_method_lines(theological_method)),
+        ("Creedal And Rule Of Faith Guardrails", CREEDAL_GUARDRAILS_PATH, markdown_creedal_lines(creedal_guardrails)),
         (
             "Pattern Distortion Layer",
             PATTERN_DISTORTION_PATH,
@@ -977,6 +1166,7 @@ def build_markdown_article() -> str:
                 "name",
                 [
                     ("Era", "era"),
+                    ("Tradition", "tradition"),
                     ("Key Themes", "key_themes"),
                     ("Relevant Patterns", "relevant_patterns"),
                     ("Agreements", "agreements"),
@@ -997,9 +1187,28 @@ def build_markdown_article() -> str:
                     ("What Remains Mysterious", "what_remains_mysterious"),
                     ("Supporting Scriptures", "supporting_scriptures"),
                     ("Theological Notes", "theological_notes"),
+                    ("Reduction Guardrail", "reduction_guardrail"),
+                    ("Research Use", "research_use"),
                 ],
             ),
         ),
+        (
+            "Negative Case And Failed Pattern Records",
+            NEGATIVE_CASES_PATH,
+            markdown_records_lines(
+                negative_cases,
+                "title",
+                [
+                    ("Pattern Claim Under Test", "pattern_claim_under_test"),
+                    ("Why It Fails Or Weakens", "why_it_fails_or_weakens"),
+                    ("Theological Boundary", "theological_boundary"),
+                    ("Scripture Anchor", "scripture_anchor"),
+                    ("Required Revision", "required_revision"),
+                    ("Pastoral Warning", "pastoral_warning"),
+                ],
+            ),
+        ),
+        ("Pastoral And Ethical Harm Audit", ETHICAL_HARM_AUDIT_PATH, markdown_ethical_harm_lines(ethical_harm_audit)),
     ]
 
     for title, _, _ in theological_markdown_sections:
@@ -1108,9 +1317,13 @@ def build_markdown_article() -> str:
                 f"- Confidence: {record.get('confidence', 'unrated')}",
                 f"- Review Status: {record.get('review_status', 'unreviewed')}",
                 f"- Resolution Status: {record.get('resolution_status', 'unrated')}",
+                f"- Claim Classification: {record.get('claim_classification', '')}",
                 f"- Domain: {record.get('domain', 'Unspecified')}",
                 f"- Observation: {record.get('observation', '')}",
                 f"- Pattern: {record.get('pattern', '')}",
+                f"- Scripture Anchor: {', '.join(record.get('scripture_anchor', []))}",
+                f"- Interpretive Status: {record.get('interpretive_status', '')}",
+                f"- Canonical Context: {record.get('canonical_context', '')}",
                 f"- Distortion: {record.get('distortion', '')}",
                 f"- Friction Point: {record.get('friction_point', '')}",
                 f"- Alternative Explanations: {', '.join(record.get('alternative_explanations', []))}",
@@ -1118,6 +1331,8 @@ def build_markdown_article() -> str:
                 f"- Christian Resolution: {record.get('christian_resolution', '')}",
                 f"- Transformation Result: {record.get('transformation_result', '')}",
                 f"- Divine Pattern Insight: {record.get('divine_pattern_insight', '')}",
+                f"- Theological Caution: {record.get('theological_caution', '')}",
+                f"- Harm Audit: {record.get('harm_audit', '')}",
                 f"- Failure Risk: {record.get('failure_risk', '')}",
                 f"- Source Review Note: {record.get('source_review_note', '')}",
                 f"- Tags: {tags}",

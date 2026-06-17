@@ -1,0 +1,59 @@
+{
+  "section": "Theological Method and Research Guardrails",
+  "purpose": "Define how Divine Pattern claims are evaluated so the project can remain Christian, research-aware, source-grounded, and cautious.",
+  "core_rule": "Pattern recognition may support or clarify a claim, but it cannot create doctrine, replace Scripture, or erase unresolved friction.",
+  "evidence_categories": [
+    {
+      "category": "Scriptural Anchor",
+      "question": "Is the claim grounded in Scripture, and is the interpretation direct, inferred, analogical, or disputed?",
+      "required_action": "Record Scripture references and interpretive status before raising confidence."
+    },
+    {
+      "category": "Creedal Boundary",
+      "question": "Does the claim preserve orthodox teaching about God, Christ, creation, sin, grace, resurrection, and new creation?",
+      "required_action": "Reject or weaken any claim that reduces Christ, collapses Creator and creation, or treats doctrine as a mere symbol."
+    },
+    {
+      "category": "Source Quality",
+      "question": "Is the claim based on primary sources, qualified secondary sources, or only summary-level interpretation?",
+      "required_action": "Keep confidence provisional until direct source review is complete."
+    },
+    {
+      "category": "Rival Explanation",
+      "question": "Can psychology, sociology, biology, politics, culture, or literary pattern explain the observation without a divine-pattern claim?",
+      "required_action": "Name serious alternatives and avoid gaps-based reasoning."
+    },
+    {
+      "category": "Friction Test",
+      "question": "Where does the claim meet suffering, injustice, hypocrisy, scientific explanation, moral failure, or mystery?",
+      "required_action": "Preserve unresolved tension instead of forcing premature resolution."
+    },
+    {
+      "category": "Pastoral Fruit",
+      "question": "Does the claim form truth, love, humility, justice, repentance, repair, worship, patience, and faithfulness?",
+      "required_action": "Downgrade claims that become coercive, sentimental, triumphalist, or harmful."
+    }
+  ],
+  "confidence_rules": [
+    "Provisional means useful for exploration but not yet mature enough to carry strong theological weight.",
+    "Confidence may rise only after Scripture anchoring, primary-source review, counter-reading, and harm audit.",
+    "Confidence must fall when a claim depends on weak analogy, ignored counterevidence, coercive use, or unresolved suffering.",
+    "Evidence scores describe research pressure, not spiritual certainty."
+  ],
+  "scoring_interpretation": {
+    "0": "The record is diagnostic and purifies the framework without supporting or rejecting it yet.",
+    "1": "The record gives modest support with stated caution and rival explanations still visible.",
+    "2": "The record gives moderate support after Christian resolution, while remaining subordinate to Scripture and source review.",
+    "-2": "The record weakens or contradicts the Divine Pattern claim unless the claim is substantially revised.",
+    "-1": "The record creates a serious unresolved challenge that must remain visible."
+  },
+  "required_record_fields": [
+    "scripture_anchor",
+    "interpretive_status",
+    "canonical_context",
+    "theological_caution",
+    "alternative_explanations",
+    "failure_risk",
+    "source_review_note"
+  ]
+}

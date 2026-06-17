@@ -5,83 +5,333 @@
     {
       "name": "Irenaeus",
       "era": "Patristic",
-      "key_themes": ["recapitulation", "creation", "incarnation", "apostolic faith"],
-      "relevant_patterns": ["Christological Layer", "Creation-To-Consciousness Pattern", "Transformation"],
+      "key_themes": [
+        "recapitulation",
+        "creation",
+        "incarnation",
+        "apostolic faith"
+      ],
+      "relevant_patterns": [
+        "Christological Layer",
+        "Creation-To-Consciousness Pattern",
+        "Transformation"
+      ],
       "agreements": "Supports Christ as the one who recapitulates and restores creation.",
       "disagreements": "Requires guarding the project from speculative systems detached from apostolic teaching.",
-      "citations": ["Against Heresies"]
+      "citations": [
+        "Against Heresies"
+      ],
+      "tradition": "Patristic / catholic"
     },
     {
       "name": "Justin Martyr",
       "era": "Patristic",
-      "key_themes": ["Logos", "philosophy", "witness", "fulfillment"],
-      "relevant_patterns": ["Logos Pattern", "Friction Layer", "Christological Layer"],
+      "key_themes": [
+        "Logos",
+        "philosophy",
+        "witness",
+        "fulfillment"
+      ],
+      "relevant_patterns": [
+        "Logos Pattern",
+        "Friction Layer",
+        "Christological Layer"
+      ],
       "agreements": "Supports careful engagement with philosophy under Christ the Logos.",
       "disagreements": "Philosophical parallels must remain subordinate to revelation in Christ.",
-      "citations": ["First Apology", "Second Apology"]
+      "citations": [
+        "First Apology",
+        "Second Apology"
+      ],
+      "tradition": "Patristic / apologetic"
     },
     {
       "name": "Athanasius",
       "era": "Patristic",
-      "key_themes": ["incarnation", "creation", "redemption", "deification"],
-      "relevant_patterns": ["Christological Layer", "Transformation", "Image Of God Pattern"],
+      "key_themes": [
+        "incarnation",
+        "creation",
+        "redemption",
+        "deification"
+      ],
+      "relevant_patterns": [
+        "Christological Layer",
+        "Transformation",
+        "Image Of God Pattern"
+      ],
       "agreements": "Supports the claim that creation and restoration are interpreted through the incarnate Son.",
       "disagreements": "The project must preserve Nicene Christology and avoid reducing Christ to a pattern symbol.",
-      "citations": ["On the Incarnation"]
+      "citations": [
+        "On the Incarnation"
+      ],
+      "tradition": "Patristic / Nicene"
     },
     {
       "name": "Augustine",
       "era": "Patristic",
-      "key_themes": ["restless heart", "sin", "grace", "ordered love"],
-      "relevant_patterns": ["Pattern Distortion Layer", "Moral Response", "Transformation"],
+      "key_themes": [
+        "restless heart",
+        "sin",
+        "grace",
+        "ordered love"
+      ],
+      "relevant_patterns": [
+        "Pattern Distortion Layer",
+        "Moral Response",
+        "Transformation"
+      ],
       "agreements": "Supports distortion through disordered love and restoration through grace.",
       "disagreements": "Warns against trusting human observation without grace and illumination.",
-      "citations": ["Confessions", "City of God"]
+      "citations": [
+        "Confessions",
+        "City of God"
+      ],
+      "tradition": "Latin patristic"
     },
     {
       "name": "Thomas Aquinas",
       "era": "Medieval",
-      "key_themes": ["natural theology", "grace and nature", "virtue", "analogy"],
-      "relevant_patterns": ["General Revelation", "Moral Response", "Mystery Layer"],
+      "key_themes": [
+        "natural theology",
+        "grace and nature",
+        "virtue",
+        "analogy"
+      ],
+      "relevant_patterns": [
+        "General Revelation",
+        "Moral Response",
+        "Mystery Layer"
+      ],
       "agreements": "Supports ordered creation and reason while distinguishing nature and grace.",
       "disagreements": "Requires careful limits on analogy and strong distinction between creature and Creator.",
-      "citations": ["Summa Theologiae"]
+      "citations": [
+        "Summa Theologiae"
+      ],
+      "tradition": "Medieval Catholic"
     },
     {
       "name": "Martin Luther",
       "era": "Reformation",
-      "key_themes": ["justification", "cross", "law and gospel", "grace"],
-      "relevant_patterns": ["Cross And Reversal Pattern", "Friction Layer", "Transformation"],
+      "key_themes": [
+        "justification",
+        "cross",
+        "law and gospel",
+        "grace"
+      ],
+      "relevant_patterns": [
+        "Cross And Reversal Pattern",
+        "Friction Layer",
+        "Transformation"
+      ],
       "agreements": "Supports centering grace and the cross over human moral achievement.",
       "disagreements": "Challenges any version of the project that makes patterns into a ladder to God.",
-      "citations": ["Heidelberg Disputation", "Freedom of a Christian"]
+      "citations": [
+        "Heidelberg Disputation",
+        "Freedom of a Christian"
+      ],
+      "tradition": "Reformation / Lutheran"
     },
     {
       "name": "John Calvin",
       "era": "Reformation",
-      "key_themes": ["Scripture", "providence", "sovereignty", "human fallenness"],
-      "relevant_patterns": ["Theological Foundations", "Providence And Contingency Pattern", "Mystery Layer"],
+      "key_themes": [
+        "Scripture",
+        "providence",
+        "sovereignty",
+        "human fallenness"
+      ],
+      "relevant_patterns": [
+        "Theological Foundations",
+        "Providence And Contingency Pattern",
+        "Mystery Layer"
+      ],
       "agreements": "Supports Scripture's authority, providence, and serious doctrine of sin.",
       "disagreements": "Warns that fallen perception can turn creation patterns into idolatry.",
-      "citations": ["Institutes of the Christian Religion"]
+      "citations": [
+        "Institutes of the Christian Religion"
+      ],
+      "tradition": "Reformation / Reformed"
     },
     {
       "name": "C.S. Lewis",
       "era": "Modern",
-      "key_themes": ["desire", "moral law", "imagination", "myth become fact"],
-      "relevant_patterns": ["Moral Response", "Friction Layer", "Christological Layer"],
+      "key_themes": [
+        "desire",
+        "moral law",
+        "imagination",
+        "myth become fact"
+      ],
+      "relevant_patterns": [
+        "Moral Response",
+        "Friction Layer",
+        "Christological Layer"
+      ],
       "agreements": "Supports moral law, longing, and imagination as pointers when tested by Christian revelation.",
       "disagreements": "Longing and imagination are signs, not independent authorities.",
-      "citations": ["Mere Christianity", "Surprised by Joy"]
+      "citations": [
+        "Mere Christianity",
+        "Surprised by Joy"
+      ],
+      "tradition": "Modern Anglican"
     },
     {
       "name": "G.K. Chesterton",
       "era": "Modern",
-      "key_themes": ["wonder", "orthodoxy", "paradox", "creation"],
-      "relevant_patterns": ["Creation", "Mystery Layer", "Friction Layer"],
+      "key_themes": [
+        "wonder",
+        "orthodoxy",
+        "paradox",
+        "creation"
+      ],
+      "relevant_patterns": [
+        "Creation",
+        "Mystery Layer",
+        "Friction Layer"
+      ],
       "agreements": "Supports wonder, paradox, and gratitude as Christian responses to creation.",
       "disagreements": "Poetic pattern recognition still needs doctrinal discipline.",
-      "citations": ["Orthodoxy", "The Everlasting Man"]
+      "citations": [
+        "Orthodoxy",
+        "The Everlasting Man"
+      ],
+      "tradition": "Modern Catholic"
+    },
+    {
+      "name": "Basil of Caesarea",
+      "era": "Patristic",
+      "tradition": "Eastern / Cappadocian",
+      "key_themes": [
+        "Trinity",
+        "creation",
+        "Spirit",
+        "care for the poor"
+      ],
+      "relevant_patterns": [
+        "Creedal Guardrails",
+        "Mystery Layer",
+        "Community",
+        "Justice And Mercy"
+      ],
+      "agreements": "Supports Nicene trinitarian grammar and practical care for vulnerable people as theological fruit.",
+      "disagreements": "Pattern language must not replace doctrinal precision about Father, Son, and Holy Spirit.",
+      "citations": [
+        "On the Holy Spirit",
+        "Hexaemeron"
+      ]
+    },
+    {
+      "name": "Maximus the Confessor",
+      "era": "Patristic / Byzantine",
+      "tradition": "Eastern Orthodox",
+      "key_themes": [
+        "Logos",
+        "creation",
+        "Christology",
+        "deification"
+      ],
+      "relevant_patterns": [
+        "Logos Pattern",
+        "Christological Layer",
+        "Mystery Layer"
+      ],
+      "agreements": "Supports creation as ordered toward Christ while preserving Christological depth.",
+      "disagreements": "The project must avoid reducing participation in God to generic self-improvement or cosmic symbolism.",
+      "citations": [
+        "Ambigua",
+        "Chapters on Love"
+      ]
+    },
+    {
+      "name": "Teresa of Avila",
+      "era": "Early modern",
+      "tradition": "Catholic mystical theology",
+      "key_themes": [
+        "prayer",
+        "transformation",
+        "humility",
+        "discernment"
+      ],
+      "relevant_patterns": [
+        "Transformation",
+        "Mystery Layer",
+        "Pastoral Fruit"
+      ],
+      "agreements": "Supports transformation as grace-shaped communion rather than technique or performance.",
+      "disagreements": "Mystical pattern language must remain accountable to humility, obedience, and discernment.",
+      "citations": [
+        "Interior Castle",
+        "The Way of Perfection"
+      ]
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "era": "Modern",
+      "tradition": "Lutheran",
+      "key_themes": [
+        "discipleship",
+        "costly grace",
+        "community",
+        "resistance"
+      ],
+      "relevant_patterns": [
+        "Cross And Reversal Pattern",
+        "Moral Response",
+        "Community"
+      ],
+      "agreements": "Supports grace as costly transformation and Christian witness under political pressure.",
+      "disagreements": "The project must resist abstract pattern claims that avoid obedience, risk, and public truth.",
+      "citations": [
+        "Discipleship",
+        "Life Together",
+        "Letters and Papers from Prison"
+      ]
+    },
+    {
+      "name": "James H. Cone",
+      "era": "Contemporary",
+      "tradition": "Black liberation theology",
+      "key_themes": [
+        "cross",
+        "liberation",
+        "race",
+        "suffering",
+        "justice"
+      ],
+      "relevant_patterns": [
+        "Cross And Reversal Pattern",
+        "Historical Memory",
+        "Justice And Mercy"
+      ],
+      "agreements": "Pressures the project to connect the cross with real histories of racial terror, liberation, and truth-telling.",
+      "disagreements": "Any divine-pattern claim that ignores racialized suffering or treats justice as optional should be weakened.",
+      "citations": [
+        "The Cross and the Lynching Tree",
+        "A Black Theology of Liberation"
+      ]
+    },
+    {
+      "name": "Emmanuel Katongole",
+      "era": "Contemporary",
+      "tradition": "African Catholic / public theology",
+      "key_themes": [
+        "lament",
+        "reconciliation",
+        "politics",
+        "hope",
+        "Africa"
+      ],
+      "relevant_patterns": [
+        "Community",
+        "Repair",
+        "Historical Witnesses",
+        "Friction Layer"
+      ],
+      "agreements": "Supports hope and reconciliation only when lament, history, violence, and political reality remain visible.",
+      "disagreements": "The project must not turn reconciliation into a slogan that bypasses grief, truth, and costly repair.",
+      "citations": [
+        "Born from Lament",
+        "The Sacrifice of Africa"
+      ]
     }
   ]
 }

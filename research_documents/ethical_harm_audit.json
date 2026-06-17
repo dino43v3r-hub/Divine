@@ -1,0 +1,30 @@
+{
+  "section": "Pastoral and Ethical Harm Audit",
+  "purpose": "Test whether pattern claims produce truthful love, justice, humility, repentance, repair, and protection of vulnerable people.",
+  "audit_questions": [
+    "Could this claim be used to excuse abuse, coercion, passivity, or neglect?",
+    "Does this claim protect victims and vulnerable people before defending a system?",
+    "Does this claim make room for lament without forcing resolution?",
+    "Does this claim preserve human dignity apart from usefulness, productivity, health, race, class, gender, or status?",
+    "Does this claim encourage repentance and repair where harm has occurred?",
+    "Does this claim distinguish forgiveness from denial, reconciliation from unsafe return, and sacrifice from exploitation?"
+  ],
+  "downgrade_triggers": [
+    "The claim is more useful to the powerful than to the vulnerable.",
+    "The claim explains suffering without listening to sufferers.",
+    "The claim makes a beautiful analogy do the work of Scripture or source review.",
+    "The claim treats justice as optional or secondary.",
+    "The claim cannot name what would falsify, weaken, or revise it."
+  ],
+  "required_fruit": [
+    "truth",
+    "love",
+    "humility",
+    "justice",
+    "repentance",
+    "repair",
+    "worship",
+    "patience",
+    "faithfulness"
+  ]
+}

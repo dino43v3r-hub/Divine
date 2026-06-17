@@ -1,12 +1,72 @@
 {
   "section": "Project Architecture",
   "architecture": {
-    "FOUNDATION": ["Scripture", "Revelation", "Creation"],
-    "PATTERNS": ["Image of God", "Logos", "Order", "Consciousness", "Community", "Transformation"],
-    "DISTORTIONS": ["Pride", "Idolatry", "Corruption", "Rebellion"],
-    "FRICTION": ["Philosophy <-> Theology", "Science <-> Theology", "Justice <-> Mercy", "Logic <-> Mystery"],
-    "CHRISTOLOGICAL": ["Incarnation", "Cross", "Resurrection", "Restoration"],
-    "HISTORICAL WITNESSES": ["Church Fathers", "Medieval Thinkers", "Reformers", "Modern Thinkers"],
-    "MYSTERY": ["Trinity", "Sovereignty", "Eternity"]
+    "FOUNDATION": [
+      "Scripture",
+      "Revelation",
+      "Creation"
+    ],
+    "PATTERNS": [
+      "Image of God",
+      "Logos",
+      "Order",
+      "Consciousness",
+      "Community",
+      "Transformation"
+    ],
+    "DISTORTIONS": [
+      "Pride",
+      "Idolatry",
+      "Corruption",
+      "Rebellion"
+    ],
+    "FRICTION": [
+      "Philosophy <-> Theology",
+      "Science <-> Theology",
+      "Justice <-> Mercy",
+      "Logic <-> Mystery"
+    ],
+    "CHRISTOLOGICAL": [
+      "Incarnation",
+      "Cross",
+      "Resurrection",
+      "Restoration"
+    ],
+    "HISTORICAL WITNESSES": [
+      "Church Fathers",
+      "Medieval Thinkers",
+      "Reformers",
+      "Modern Thinkers"
+    ],
+    "MYSTERY": [
+      "Trinity",
+      "Sovereignty",
+      "Eternity"
+    ],
+    "METHOD": [
+      "Research Guardrails",
+      "Evidence Scoring",
+      "Source Quality",
+      "Failure Conditions"
+    ],
+    "CREEDAL": [
+      "Trinity",
+      "Incarnation",
+      "Creation",
+      "Sin And Grace",
+      "Resurrection And New Creation"
+    ],
+    "NEGATIVE CASES": [
+      "Unresolved Suffering",
+      "Institutional Moral Failure",
+      "Science Gap Shortcuts"
+    ],
+    "ETHICAL AUDIT": [
+      "Harm Risk",
+      "Victim Protection",
+      "Justice",
+      "Repair",
+      "Pastoral Fruit"
+    ]
   }
 }

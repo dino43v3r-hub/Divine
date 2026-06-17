@@ -1,0 +1,50 @@
+{
+  "section": "Negative Case and Failed Pattern Records",
+  "purpose": "Record cases where a Divine Pattern claim should be weakened, rejected, or held unresolved because the evidence, theology, or pastoral fruit does not support it.",
+  "use_rule": "A failed pattern is not an embarrassment. It protects the project from overclaiming and teaches where a better, humbler account is needed.",
+  "records": [
+    {
+      "id": "unresolved-suffering-no-clear-repair",
+      "title": "Unresolved Suffering Without Visible Repair",
+      "pattern_claim_under_test": "Suffering moves toward redemption or visible restoration.",
+      "why_it_fails_or_weakens": "Many people experience grief, trauma, illness, violence, or loss without visible repair in this life.",
+      "theological_boundary": "Christian hope may confess resurrection and new creation, but it must not explain away grief or demand premature resolution.",
+      "scripture_anchor": [
+        "Job 2:11-13",
+        "Psalm 22",
+        "Romans 8:18-25",
+        "Revelation 21:1-5"
+      ],
+      "required_revision": "Speak of lament, endurance, presence, justice, and eschatological hope instead of claiming every suffering resolves now.",
+      "pastoral_warning": "Never use this pattern to silence lament, blame victims, or rush forgiveness."
+    },
+    {
+      "id": "institutional-success-moral-failure",
+      "title": "Institutional Success With Moral Failure",
+      "pattern_claim_under_test": "Growth, order, influence, or effectiveness indicates divine alignment.",
+      "why_it_fails_or_weakens": "Institutions can grow while protecting abuse, pride, racism, coercion, greed, or false teaching.",
+      "theological_boundary": "Fruit must be tested by holiness, justice, truth, humility, repentance, and love, not size or influence alone.",
+      "scripture_anchor": [
+        "Matthew 7:15-23",
+        "1 Corinthians 13:1-3",
+        "Revelation 2:1-7"
+      ],
+      "required_revision": "Separate visible success from faithful fruit and require harm audits for public claims.",
+      "pastoral_warning": "Do not confuse platform, efficiency, or cultural power with faithfulness."
+    },
+    {
+      "id": "science-gap-design-shortcut",
+      "title": "Scientific Gap Used As Design Proof",
+      "pattern_claim_under_test": "Unexplained complexity directly proves divine action.",
+      "why_it_fails_or_weakens": "Natural explanations may later account for the phenomenon, and gaps-based arguments can make theology depend on scientific ignorance.",
+      "theological_boundary": "Creation can be confessed as sustained gift without denying natural mechanisms or scientific explanation.",
+      "scripture_anchor": [
+        "Psalm 104",
+        "Colossians 1:15-20",
+        "Hebrews 1:1-3"
+      ],
+      "required_revision": "Use science as a humility and wonder lane, not as a shortcut proof lane.",
+      "pastoral_warning": "Do not make faith depend on a current lack of explanation."
+    }
+  ]
+}

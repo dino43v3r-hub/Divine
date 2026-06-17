@@ -10,7 +10,11 @@
       "distortion": "Order becomes control, legalism, or abstraction detached from love.",
       "fulfillment_in_christ": "Christ as Logos, through whom and for whom all things were created.",
       "restoration_through_christ": "Order is restored as truthful love, wise discipleship, and peace under Christ's lordship.",
-      "supporting_scriptures": ["John 1:1-5", "Colossians 1:15-20", "Hebrews 1:1-3"]
+      "supporting_scriptures": [
+        "John 1:1-5",
+        "Colossians 1:15-20",
+        "Hebrews 1:1-3"
+      ]
     },
     {
       "pattern_name": "Sacrifice",
@@ -19,7 +23,12 @@
       "distortion": "Sacrifice becomes abuse, manipulation, or romanticized suffering.",
       "fulfillment_in_christ": "The Cross reveals God's self-giving love and judgment on sin.",
       "restoration_through_christ": "Sacrifice becomes cruciform love, never denial of truth or protection for abusers.",
-      "supporting_scriptures": ["Mark 10:45", "John 15:13", "Philippians 2:5-11", "1 Peter 2:24"]
+      "supporting_scriptures": [
+        "Mark 10:45",
+        "John 15:13",
+        "Philippians 2:5-11",
+        "1 Peter 2:24"
+      ]
     },
     {
       "pattern_name": "Community",
@@ -28,7 +37,11 @@
       "distortion": "Community becomes tribalism, exclusion, control, or identity without truth.",
       "fulfillment_in_christ": "Christ forms one body across dividing walls.",
       "restoration_through_christ": "Community is restored through reconciliation, spiritual gifts, mutual service, and communion.",
-      "supporting_scriptures": ["Ephesians 2:13-22", "1 Corinthians 12:12-27", "John 17:20-23"]
+      "supporting_scriptures": [
+        "Ephesians 2:13-22",
+        "1 Corinthians 12:12-27",
+        "John 17:20-23"
+      ]
     },
     {
       "pattern_name": "Transformation",
@@ -37,7 +50,110 @@
       "distortion": "Transformation becomes self-invention, performance, or denial of ongoing weakness.",
       "fulfillment_in_christ": "Christ gives new life through death and resurrection.",
       "restoration_through_christ": "The Spirit conforms believers to Christ through sanctification, repentance, and hope.",
-      "supporting_scriptures": ["Romans 6:4", "2 Corinthians 3:18", "Galatians 5:22-25", "Titus 3:5"]
+      "supporting_scriptures": [
+        "Romans 6:4",
+        "2 Corinthians 3:18",
+        "Galatians 5:22-25",
+        "Titus 3:5"
+      ]
+    },
+    {
+      "pattern_name": "Incarnation",
+      "appearance_in_creation": "Created life is embodied, located, vulnerable, and dependent.",
+      "appearance_in_humanity": "Humans seek meaning that enters ordinary life rather than remaining abstract.",
+      "distortion": "Embodiment can be despised, exploited, spiritualized away, or reduced to appetite and control.",
+      "fulfillment_in_christ": "The eternal Son becomes flesh and dwells among us without ceasing to be God.",
+      "restoration_through_christ": "Bodies, places, weakness, and ordinary life become sites of grace, truth, service, and redemption.",
+      "supporting_scriptures": [
+        "John 1:14",
+        "Luke 2:7",
+        "Philippians 2:5-11",
+        "Hebrews 2:14-18"
+      ]
+    },
+    {
+      "pattern_name": "Resurrection",
+      "appearance_in_creation": "Creation contains cycles of seed, death, renewal, and unexpected life, though these remain analogies.",
+      "appearance_in_humanity": "Humans long for life stronger than death, justice stronger than violence, and hope stronger than despair.",
+      "distortion": "Resurrection hope can be flattened into optimism, denial of grief, or vague spiritual survival.",
+      "fulfillment_in_christ": "Christ is bodily raised as firstfruits of new creation.",
+      "restoration_through_christ": "Hope becomes embodied, truthful, patient, and resistant to death-dealing powers.",
+      "supporting_scriptures": [
+        "Luke 24:36-43",
+        "John 20:24-29",
+        "1 Corinthians 15:20-28",
+        "1 Peter 1:3"
+      ]
+    },
+    {
+      "pattern_name": "Ascension and Lordship",
+      "appearance_in_creation": "Human communities seek trustworthy authority, judgment, and peace.",
+      "appearance_in_humanity": "Humans fear corrupt power but still need wise rule and accountable justice.",
+      "distortion": "Authority becomes domination, celebrity, nationalism, clerical control, or institutional self-protection.",
+      "fulfillment_in_christ": "The risen Christ reigns as Lord who rules through cruciform authority.",
+      "restoration_through_christ": "Power is judged and reordered toward service, truth, intercession, and protection of the vulnerable.",
+      "supporting_scriptures": [
+        "Matthew 28:18-20",
+        "Acts 1:9-11",
+        "Ephesians 1:20-23",
+        "Hebrews 4:14-16"
+      ]
+    },
+    {
+      "pattern_name": "Pentecost and Spirit",
+      "appearance_in_creation": "Life depends on breath, gift, communication, and shared participation.",
+      "appearance_in_humanity": "Humans long for empowered transformation, unity across difference, and gifts that build community.",
+      "distortion": "Spiritual language can become manipulation, spectacle, superiority, or escape from discernment.",
+      "fulfillment_in_christ": "The exalted Christ gives the Holy Spirit to form witness, holiness, unity, gifts, and love.",
+      "restoration_through_christ": "Transformation becomes communal, discerning, embodied, missional, and tested by fruit.",
+      "supporting_scriptures": [
+        "Acts 2:1-21",
+        "Romans 8:1-17",
+        "1 Corinthians 12:4-13",
+        "Galatians 5:22-25"
+      ]
+    },
+    {
+      "pattern_name": "Kingdom of God",
+      "appearance_in_creation": "Human societies seek justice, peace, belonging, and rightly ordered life.",
+      "appearance_in_humanity": "Humans build institutions and cultures that can either serve life or protect domination.",
+      "distortion": "Kingdom language can become nationalism, utopian politics, withdrawal, or triumphalism.",
+      "fulfillment_in_christ": "Christ announces and embodies God's reign through mercy, judgment, healing, forgiveness, and justice.",
+      "restoration_through_christ": "Public life is tested by good news to the poor, humility, peacemaking, repentance, and repair.",
+      "supporting_scriptures": [
+        "Mark 1:14-15",
+        "Luke 4:18-21",
+        "Matthew 5:3-12",
+        "Romans 14:17"
+      ]
+    },
+    {
+      "pattern_name": "Judgment and Mercy",
+      "appearance_in_creation": "Moral order presses toward accountability, repair, and truth after harm.",
+      "appearance_in_humanity": "Humans long for wrongs to be named and for mercy that does not deny truth.",
+      "distortion": "Judgment becomes vengeance or shame; mercy becomes denial, cheap forgiveness, or protection for abusers.",
+      "fulfillment_in_christ": "At the cross, God judges sin and reveals mercy without surrendering truth.",
+      "restoration_through_christ": "Accountability and mercy are held together through repentance, forgiveness, justice, and reconciliation where truth permits.",
+      "supporting_scriptures": [
+        "Romans 3:21-26",
+        "James 2:13",
+        "John 8:1-11",
+        "2 Corinthians 5:18-21"
+      ]
+    },
+    {
+      "pattern_name": "New Creation",
+      "appearance_in_creation": "Creation groans, heals, and waits for restoration beyond partial repair.",
+      "appearance_in_humanity": "Humans long for home, justice, healed bodies, reconciled communities, and creation made whole.",
+      "distortion": "Future hope can become escapism, apathy toward justice, or contempt for the present world.",
+      "fulfillment_in_christ": "The risen Christ is the beginning of new creation and the pledge of final restoration.",
+      "restoration_through_christ": "Faithful action becomes a sign of coming restoration without pretending to complete it by human power.",
+      "supporting_scriptures": [
+        "Romans 8:18-25",
+        "2 Corinthians 5:17",
+        "Colossians 1:19-20",
+        "Revelation 21:1-5"
+      ]
     }
   ]
 }

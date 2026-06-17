@@ -43,11 +43,19 @@ framework and asks whether a deeper resolution is needed.
 Additional theological architecture files are stored in `research_documents/`:
 
 - `theological_foundations.json`
+- `theological_method_guardrails.json`
+- `creedal_guardrails.json`
 - `pattern_distortion_layer.json`
 - `christological_layer.json`
 - `historical_witnesses.json`
 - `mystery_layer.json`
+- `negative_case_records.json`
+- `ethical_harm_audit.json`
 - `project_architecture.json`
+
+The method and guardrail layers define how pattern claims are weighed. They keep
+Scripture, Christ, creedal doctrine, source quality, rival explanations, mystery,
+and pastoral harm checks ahead of scoring or pattern elegance.
 
 ## AI Knowledge Backend
 

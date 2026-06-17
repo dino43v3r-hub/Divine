@@ -1,27 +1,40 @@
 {
   "section": "Theological Foundations",
-  "purpose": "Establish Scripture and divine revelation as primary, with pattern recognition as secondary and supportive.",
+  "purpose": "Establish Scripture and divine revelation as primary, with pattern recognition as secondary, fallible, and supportive.",
   "mission_statement": "The Divine Pattern Project explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.",
-  "authority_boundary": "Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority.",
+  "authority_boundary": "Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority. No pattern claim may override Scripture, Christ, or core Christian doctrine.",
   "principles": [
     "God exists independently of human observation.",
-    "Creation reflects its Creator.",
-    "Patterns do not create truth. Patterns reveal truth.",
-    "Human observation is limited and fallible.",
+    "Creation reflects its Creator while remaining distinct from the Creator.",
+    "Patterns do not create truth. Patterns may disclose, illuminate, or pressure-test truth, but they are interpreted fallibly.",
+    "Human observation is limited and affected by sin, finitude, culture, desire, and power.",
     "Scripture remains the highest authority.",
     "Pattern analysis is subordinate to Scripture and should never override biblical revelation.",
-    "General Revelation and Special Revelation should be distinguished."
+    "General Revelation and Special Revelation should be distinguished.",
+    "Christ is the center and judge of Christian pattern interpretation.",
+    "Mystery prevents overclaiming where God has not given exhaustive explanation."
   ],
   "definitions": {
     "General Revelation": "Knowledge of God available through creation, order, conscience, beauty, morality, and existence itself.",
     "Special Revelation": "Knowledge of God revealed through Scripture, Christ, and divine self-disclosure."
   },
   "interpretive_order": [
-    "Revelation before observation",
+    "Scripture and divine revelation",
+    "Creedal Christian guardrails",
     "Christ-centered interpretation",
-    "Sin and distortion",
+    "Sin, distortion, and noetic limits",
     "Friction and competing explanations",
-    "Historical theology",
-    "The role of mystery"
+    "Historical theology and ecumenical witness",
+    "Pastoral and ethical harm audit",
+    "The role of mystery",
+    "Provisional research confidence"
+  ],
+  "required_claim_checks": [
+    "Does this claim have a Scripture anchor or a stated reason why it is only an analogy?",
+    "Does this claim preserve the Creator-creature distinction?",
+    "Does this claim remain consistent with Nicene and Chalcedonian Christianity?",
+    "Does this claim name rival explanations and possible failure conditions?",
+    "Could this claim be used to excuse harm, control, abuse, or passivity?",
+    "What would lower the confidence score?"
   ]
 }

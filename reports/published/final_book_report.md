@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-17 16:27 UTC_
+_Generated: 2026-06-17 16:52 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -14,28 +14,41 @@ Patterns are treated as evidence, observations, and hypotheses to be tested, not
 
 **Mission:** The Divine Pattern Project explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.
 
-**Authority boundary:** Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority.
+**Authority boundary:** Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority. No pattern claim may override Scripture, Christ, or core Christian doctrine.
 
 Principles:
 - God exists independently of human observation.
-- Creation reflects its Creator.
-- Patterns do not create truth. Patterns reveal truth.
-- Human observation is limited and fallible.
+- Creation reflects its Creator while remaining distinct from the Creator.
+- Patterns do not create truth. Patterns may disclose, illuminate, or pressure-test truth, but they are interpreted fallibly.
+- Human observation is limited and affected by sin, finitude, culture, desire, and power.
 - Scripture remains the highest authority.
 - Pattern analysis is subordinate to Scripture and should never override biblical revelation.
 - General Revelation and Special Revelation should be distinguished.
+- Christ is the center and judge of Christian pattern interpretation.
+- Mystery prevents overclaiming where God has not given exhaustive explanation.
 
 Definitions:
 - **General Revelation:** Knowledge of God available through creation, order, conscience, beauty, morality, and existence itself.
 - **Special Revelation:** Knowledge of God revealed through Scripture, Christ, and divine self-disclosure.
 
 Interpretive order:
-- Revelation before observation
+- Scripture and divine revelation
+- Creedal Christian guardrails
 - Christ-centered interpretation
-- Sin and distortion
+- Sin, distortion, and noetic limits
 - Friction and competing explanations
-- Historical theology
+- Historical theology and ecumenical witness
+- Pastoral and ethical harm audit
 - The role of mystery
+- Provisional research confidence
+
+Required claim checks:
+- Does this claim have a Scripture anchor or a stated reason why it is only an analogy?
+- Does this claim preserve the Creator-creature distinction?
+- Does this claim remain consistent with Nicene and Chalcedonian Christianity?
+- Does this claim name rival explanations and possible failure conditions?
+- Could this claim be used to excuse harm, control, abuse, or passivity?
+- What would lower the confidence score?
 
 ## Project Architecture
 
@@ -88,6 +101,140 @@ Interpretive order:
 - Sovereignty
 - Eternity
 
+### METHOD
+
+- Research Guardrails
+- Evidence Scoring
+- Source Quality
+- Failure Conditions
+
+### CREEDAL
+
+- Trinity
+- Incarnation
+- Creation
+- Sin And Grace
+- Resurrection And New Creation
+
+### NEGATIVE CASES
+
+- Unresolved Suffering
+- Institutional Moral Failure
+- Science Gap Shortcuts
+
+### ETHICAL AUDIT
+
+- Harm Risk
+- Victim Protection
+- Justice
+- Repair
+- Pastoral Fruit
+
+
+## Theological Method And Research Guardrails
+
+Define how Divine Pattern claims are evaluated so the project can remain Christian, research-aware, source-grounded, and cautious.
+
+**Core Rule:** Pattern recognition may support or clarify a claim, but it cannot create doctrine, replace Scripture, or erase unresolved friction.
+
+Evidence categories:
+### Scriptural Anchor
+
+**Question:** Is the claim grounded in Scripture, and is the interpretation direct, inferred, analogical, or disputed?
+
+**Required Action:** Record Scripture references and interpretive status before raising confidence.
+
+### Creedal Boundary
+
+**Question:** Does the claim preserve orthodox teaching about God, Christ, creation, sin, grace, resurrection, and new creation?
+
+**Required Action:** Reject or weaken any claim that reduces Christ, collapses Creator and creation, or treats doctrine as a mere symbol.
+
+### Source Quality
+
+**Question:** Is the claim based on primary sources, qualified secondary sources, or only summary-level interpretation?
+
+**Required Action:** Keep confidence provisional until direct source review is complete.
+
+### Rival Explanation
+
+**Question:** Can psychology, sociology, biology, politics, culture, or literary pattern explain the observation without a divine-pattern claim?
+
+**Required Action:** Name serious alternatives and avoid gaps-based reasoning.
+
+### Friction Test
+
+**Question:** Where does the claim meet suffering, injustice, hypocrisy, scientific explanation, moral failure, or mystery?
+
+**Required Action:** Preserve unresolved tension instead of forcing premature resolution.
+
+### Pastoral Fruit
+
+**Question:** Does the claim form truth, love, humility, justice, repentance, repair, worship, patience, and faithfulness?
+
+**Required Action:** Downgrade claims that become coercive, sentimental, triumphalist, or harmful.
+
+Confidence rules:
+- Provisional means useful for exploration but not yet mature enough to carry strong theological weight.
+- Confidence may rise only after Scripture anchoring, primary-source review, counter-reading, and harm audit.
+- Confidence must fall when a claim depends on weak analogy, ignored counterevidence, coercive use, or unresolved suffering.
+- Evidence scores describe research pressure, not spiritual certainty.
+
+Scoring interpretation:
+- **0:** The record is diagnostic and purifies the framework without supporting or rejecting it yet.
+- **1:** The record gives modest support with stated caution and rival explanations still visible.
+- **2:** The record gives moderate support after Christian resolution, while remaining subordinate to Scripture and source review.
+- **-2:** The record weakens or contradicts the Divine Pattern claim unless the claim is substantially revised.
+- **-1:** The record creates a serious unresolved challenge that must remain visible.
+
+Required record fields:
+- scripture_anchor
+- interpretive_status
+- canonical_context
+- theological_caution
+- alternative_explanations
+- failure_risk
+- source_review_note
+
+## Creedal And Rule Of Faith Guardrails
+
+Protect the Divine Pattern project from drifting into vague spirituality, private speculation, or pattern language that undermines core Christian confession.
+
+### Trinity
+
+**Guardrail:** God is one God in three persons: Father, Son, and Holy Spirit. Patterns may analogically echo relational unity, but they must not replace Nicene doctrine.
+
+**Sources:** Matthew 28:19, John 1:1-18, 2 Corinthians 13:14, Nicene Creed
+
+### Incarnation
+
+**Guardrail:** Jesus Christ is truly God and truly human. Christ fulfills and judges patterns; Christ is not a mere example of a universal pattern.
+
+**Sources:** John 1:14, Philippians 2:5-11, Colossians 2:9, Chalcedonian Definition
+
+### Creation
+
+**Guardrail:** Creation reflects God but is not God. Pattern language must preserve the Creator-creature distinction and avoid pantheism.
+
+**Sources:** Genesis 1:1, Psalm 19:1-4, Romans 1:20
+
+### Sin and Grace
+
+**Guardrail:** Human beings can recognize moral order while also distorting truth through sin, desire, fear, pride, and power. Restoration requires grace, not insight alone.
+
+**Sources:** Romans 3:23-24, Ephesians 2:8-10, Titus 3:5
+
+### Resurrection and New Creation
+
+**Guardrail:** Christian hope is not merely symbolic renewal. The resurrection of Christ grounds embodied hope, judgment, mercy, and final restoration.
+
+**Sources:** 1 Corinthians 15:12-28, Romans 8:18-25, Revelation 21:1-5
+
+Rejection rules:
+- Reject pattern claims that reduce God to human consciousness, nature, culture, mathematics, or moral aspiration.
+- Reject pattern claims that turn Christ into only a symbol, archetype, or teacher detached from incarnation, cross, resurrection, and lordship.
+- Reject pattern claims that justify abuse, fatalism, domination, racial hierarchy, antisemitism, contempt for the poor, or indifference to suffering.
+- Reject pattern claims that treat scientific gaps as proof of God.
 
 ## Pattern Found So Far
 
@@ -301,6 +448,104 @@ Core status: primary_interpretive_layer
 
 **Supporting Scriptures:** Romans 6:4, 2 Corinthians 3:18, Galatians 5:22-25, Titus 3:5
 
+### Incarnation
+
+**Appearance In Creation:** Created life is embodied, located, vulnerable, and dependent.
+
+**Appearance In Humanity:** Humans seek meaning that enters ordinary life rather than remaining abstract.
+
+**Distortion:** Embodiment can be despised, exploited, spiritualized away, or reduced to appetite and control.
+
+**Fulfillment In Christ:** The eternal Son becomes flesh and dwells among us without ceasing to be God.
+
+**Restoration Through Christ:** Bodies, places, weakness, and ordinary life become sites of grace, truth, service, and redemption.
+
+**Supporting Scriptures:** John 1:14, Luke 2:7, Philippians 2:5-11, Hebrews 2:14-18
+
+### Resurrection
+
+**Appearance In Creation:** Creation contains cycles of seed, death, renewal, and unexpected life, though these remain analogies.
+
+**Appearance In Humanity:** Humans long for life stronger than death, justice stronger than violence, and hope stronger than despair.
+
+**Distortion:** Resurrection hope can be flattened into optimism, denial of grief, or vague spiritual survival.
+
+**Fulfillment In Christ:** Christ is bodily raised as firstfruits of new creation.
+
+**Restoration Through Christ:** Hope becomes embodied, truthful, patient, and resistant to death-dealing powers.
+
+**Supporting Scriptures:** Luke 24:36-43, John 20:24-29, 1 Corinthians 15:20-28, 1 Peter 1:3
+
+### Ascension and Lordship
+
+**Appearance In Creation:** Human communities seek trustworthy authority, judgment, and peace.
+
+**Appearance In Humanity:** Humans fear corrupt power but still need wise rule and accountable justice.
+
+**Distortion:** Authority becomes domination, celebrity, nationalism, clerical control, or institutional self-protection.
+
+**Fulfillment In Christ:** The risen Christ reigns as Lord who rules through cruciform authority.
+
+**Restoration Through Christ:** Power is judged and reordered toward service, truth, intercession, and protection of the vulnerable.
+
+**Supporting Scriptures:** Matthew 28:18-20, Acts 1:9-11, Ephesians 1:20-23, Hebrews 4:14-16
+
+### Pentecost and Spirit
+
+**Appearance In Creation:** Life depends on breath, gift, communication, and shared participation.
+
+**Appearance In Humanity:** Humans long for empowered transformation, unity across difference, and gifts that build community.
+
+**Distortion:** Spiritual language can become manipulation, spectacle, superiority, or escape from discernment.
+
+**Fulfillment In Christ:** The exalted Christ gives the Holy Spirit to form witness, holiness, unity, gifts, and love.
+
+**Restoration Through Christ:** Transformation becomes communal, discerning, embodied, missional, and tested by fruit.
+
+**Supporting Scriptures:** Acts 2:1-21, Romans 8:1-17, 1 Corinthians 12:4-13, Galatians 5:22-25
+
+### Kingdom of God
+
+**Appearance In Creation:** Human societies seek justice, peace, belonging, and rightly ordered life.
+
+**Appearance In Humanity:** Humans build institutions and cultures that can either serve life or protect domination.
+
+**Distortion:** Kingdom language can become nationalism, utopian politics, withdrawal, or triumphalism.
+
+**Fulfillment In Christ:** Christ announces and embodies God's reign through mercy, judgment, healing, forgiveness, and justice.
+
+**Restoration Through Christ:** Public life is tested by good news to the poor, humility, peacemaking, repentance, and repair.
+
+**Supporting Scriptures:** Mark 1:14-15, Luke 4:18-21, Matthew 5:3-12, Romans 14:17
+
+### Judgment and Mercy
+
+**Appearance In Creation:** Moral order presses toward accountability, repair, and truth after harm.
+
+**Appearance In Humanity:** Humans long for wrongs to be named and for mercy that does not deny truth.
+
+**Distortion:** Judgment becomes vengeance or shame; mercy becomes denial, cheap forgiveness, or protection for abusers.
+
+**Fulfillment In Christ:** At the cross, God judges sin and reveals mercy without surrendering truth.
+
+**Restoration Through Christ:** Accountability and mercy are held together through repentance, forgiveness, justice, and reconciliation where truth permits.
+
+**Supporting Scriptures:** Romans 3:21-26, James 2:13, John 8:1-11, 2 Corinthians 5:18-21
+
+### New Creation
+
+**Appearance In Creation:** Creation groans, heals, and waits for restoration beyond partial repair.
+
+**Appearance In Humanity:** Humans long for home, justice, healed bodies, reconciled communities, and creation made whole.
+
+**Distortion:** Future hope can become escapism, apathy toward justice, or contempt for the present world.
+
+**Fulfillment In Christ:** The risen Christ is the beginning of new creation and the pledge of final restoration.
+
+**Restoration Through Christ:** Faithful action becomes a sign of coming restoration without pretending to complete it by human power.
+
+**Supporting Scriptures:** Romans 8:18-25, 2 Corinthians 5:17, Colossians 1:19-20, Revelation 21:1-5
+
 ## Historical Witnesses
 
 Compare Divine Pattern findings with major Christian thinkers throughout church history for theological grounding, not automatic agreement.
@@ -308,6 +553,8 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 ### Irenaeus
 
 **Era:** Patristic
+
+**Tradition:** Patristic / catholic
 
 **Key Themes:** recapitulation, creation, incarnation, apostolic faith
 
@@ -323,6 +570,8 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 
 **Era:** Patristic
 
+**Tradition:** Patristic / apologetic
+
 **Key Themes:** Logos, philosophy, witness, fulfillment
 
 **Relevant Patterns:** Logos Pattern, Friction Layer, Christological Layer
@@ -336,6 +585,8 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 ### Athanasius
 
 **Era:** Patristic
+
+**Tradition:** Patristic / Nicene
 
 **Key Themes:** incarnation, creation, redemption, deification
 
@@ -351,6 +602,8 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 
 **Era:** Patristic
 
+**Tradition:** Latin patristic
+
 **Key Themes:** restless heart, sin, grace, ordered love
 
 **Relevant Patterns:** Pattern Distortion Layer, Moral Response, Transformation
@@ -364,6 +617,8 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 ### Thomas Aquinas
 
 **Era:** Medieval
+
+**Tradition:** Medieval Catholic
 
 **Key Themes:** natural theology, grace and nature, virtue, analogy
 
@@ -379,6 +634,8 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 
 **Era:** Reformation
 
+**Tradition:** Reformation / Lutheran
+
 **Key Themes:** justification, cross, law and gospel, grace
 
 **Relevant Patterns:** Cross And Reversal Pattern, Friction Layer, Transformation
@@ -392,6 +649,8 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 ### John Calvin
 
 **Era:** Reformation
+
+**Tradition:** Reformation / Reformed
 
 **Key Themes:** Scripture, providence, sovereignty, human fallenness
 
@@ -407,6 +666,8 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 
 **Era:** Modern
 
+**Tradition:** Modern Anglican
+
 **Key Themes:** desire, moral law, imagination, myth become fact
 
 **Relevant Patterns:** Moral Response, Friction Layer, Christological Layer
@@ -421,6 +682,8 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 
 **Era:** Modern
 
+**Tradition:** Modern Catholic
+
 **Key Themes:** wonder, orthodoxy, paradox, creation
 
 **Relevant Patterns:** Creation, Mystery Layer, Friction Layer
@@ -430,6 +693,102 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 **Disagreements:** Poetic pattern recognition still needs doctrinal discipline.
 
 **Citations:** Orthodoxy, The Everlasting Man
+
+### Basil of Caesarea
+
+**Era:** Patristic
+
+**Tradition:** Eastern / Cappadocian
+
+**Key Themes:** Trinity, creation, Spirit, care for the poor
+
+**Relevant Patterns:** Creedal Guardrails, Mystery Layer, Community, Justice And Mercy
+
+**Agreements:** Supports Nicene trinitarian grammar and practical care for vulnerable people as theological fruit.
+
+**Disagreements:** Pattern language must not replace doctrinal precision about Father, Son, and Holy Spirit.
+
+**Citations:** On the Holy Spirit, Hexaemeron
+
+### Maximus the Confessor
+
+**Era:** Patristic / Byzantine
+
+**Tradition:** Eastern Orthodox
+
+**Key Themes:** Logos, creation, Christology, deification
+
+**Relevant Patterns:** Logos Pattern, Christological Layer, Mystery Layer
+
+**Agreements:** Supports creation as ordered toward Christ while preserving Christological depth.
+
+**Disagreements:** The project must avoid reducing participation in God to generic self-improvement or cosmic symbolism.
+
+**Citations:** Ambigua, Chapters on Love
+
+### Teresa of Avila
+
+**Era:** Early modern
+
+**Tradition:** Catholic mystical theology
+
+**Key Themes:** prayer, transformation, humility, discernment
+
+**Relevant Patterns:** Transformation, Mystery Layer, Pastoral Fruit
+
+**Agreements:** Supports transformation as grace-shaped communion rather than technique or performance.
+
+**Disagreements:** Mystical pattern language must remain accountable to humility, obedience, and discernment.
+
+**Citations:** Interior Castle, The Way of Perfection
+
+### Dietrich Bonhoeffer
+
+**Era:** Modern
+
+**Tradition:** Lutheran
+
+**Key Themes:** discipleship, costly grace, community, resistance
+
+**Relevant Patterns:** Cross And Reversal Pattern, Moral Response, Community
+
+**Agreements:** Supports grace as costly transformation and Christian witness under political pressure.
+
+**Disagreements:** The project must resist abstract pattern claims that avoid obedience, risk, and public truth.
+
+**Citations:** Discipleship, Life Together, Letters and Papers from Prison
+
+### James H. Cone
+
+**Era:** Contemporary
+
+**Tradition:** Black liberation theology
+
+**Key Themes:** cross, liberation, race, suffering, justice
+
+**Relevant Patterns:** Cross And Reversal Pattern, Historical Memory, Justice And Mercy
+
+**Agreements:** Pressures the project to connect the cross with real histories of racial terror, liberation, and truth-telling.
+
+**Disagreements:** Any divine-pattern claim that ignores racialized suffering or treats justice as optional should be weakened.
+
+**Citations:** The Cross and the Lynching Tree, A Black Theology of Liberation
+
+### Emmanuel Katongole
+
+**Era:** Contemporary
+
+**Tradition:** African Catholic / public theology
+
+**Key Themes:** lament, reconciliation, politics, hope, Africa
+
+**Relevant Patterns:** Community, Repair, Historical Witnesses, Friction Layer
+
+**Agreements:** Supports hope and reconciliation only when lament, history, violence, and political reality remain visible.
+
+**Disagreements:** The project must not turn reconciliation into a slogan that bypasses grief, truth, and costly repair.
+
+**Citations:** Born from Lament, The Sacrifice of Africa
 
 ## Mystery Layer
 
@@ -448,6 +807,10 @@ Categories: Fully Knowable, Partially Knowable, Ultimately Mysterious
 
 **Theological Notes:** Pattern language may reflect relational unity, but it must never replace Nicene doctrine.
 
+**Reduction Guardrail:** Do not reduce this doctrine to a pattern, analogy, mechanism, or psychological experience.
+
+**Research Use:** Use this mystery as a boundary that teaches humility, not as a shortcut to explanation.
+
 ### Incarnation
 
 **Category:** Ultimately Mysterious
@@ -459,6 +822,10 @@ Categories: Fully Knowable, Partially Knowable, Ultimately Mysterious
 **Supporting Scriptures:** John 1:14, Philippians 2:5-11, Colossians 2:9
 
 **Theological Notes:** Christ fulfills patterns, but Christ is not reducible to a pattern.
+
+**Reduction Guardrail:** Do not reduce this doctrine to a pattern, analogy, mechanism, or psychological experience.
+
+**Research Use:** Use this mystery as a boundary that teaches humility, not as a shortcut to explanation.
 
 ### Divine Sovereignty
 
@@ -472,6 +839,10 @@ Categories: Fully Knowable, Partially Knowable, Ultimately Mysterious
 
 **Theological Notes:** Providence should be confessed with humility, not used to explain every event.
 
+**Reduction Guardrail:** Do not reduce this doctrine to a pattern, analogy, mechanism, or psychological experience.
+
+**Research Use:** Use this mystery as a boundary that teaches humility, not as a shortcut to explanation.
+
 ### Eternity
 
 **Category:** Partially Knowable
@@ -483,6 +854,10 @@ Categories: Fully Knowable, Partially Knowable, Ultimately Mysterious
 **Supporting Scriptures:** Psalm 90:2, Isaiah 57:15, 2 Peter 3:8
 
 **Theological Notes:** Mathematical or philosophical analogies may help, but they remain analogies.
+
+**Reduction Guardrail:** Do not reduce this doctrine to a pattern, analogy, mechanism, or psychological experience.
+
+**Research Use:** Use this mystery as a boundary that teaches humility, not as a shortcut to explanation.
 
 ### Omnipresence
 
@@ -496,6 +871,78 @@ Categories: Fully Knowable, Partially Knowable, Ultimately Mysterious
 
 **Theological Notes:** Presence patterns must avoid pantheism and preserve Creator-creature distinction.
 
+**Reduction Guardrail:** Do not reduce this doctrine to a pattern, analogy, mechanism, or psychological experience.
+
+**Research Use:** Use this mystery as a boundary that teaches humility, not as a shortcut to explanation.
+
+## Negative Case And Failed Pattern Records
+
+Record cases where a Divine Pattern claim should be weakened, rejected, or held unresolved because the evidence, theology, or pastoral fruit does not support it.
+
+**Use Rule:** A failed pattern is not an embarrassment. It protects the project from overclaiming and teaches where a better, humbler account is needed.
+
+### Unresolved Suffering Without Visible Repair
+
+**Pattern Claim Under Test:** Suffering moves toward redemption or visible restoration.
+
+**Why It Fails Or Weakens:** Many people experience grief, trauma, illness, violence, or loss without visible repair in this life.
+
+**Theological Boundary:** Christian hope may confess resurrection and new creation, but it must not explain away grief or demand premature resolution.
+
+**Scripture Anchor:** Job 2:11-13, Psalm 22, Romans 8:18-25, Revelation 21:1-5
+
+**Required Revision:** Speak of lament, endurance, presence, justice, and eschatological hope instead of claiming every suffering resolves now.
+
+**Pastoral Warning:** Never use this pattern to silence lament, blame victims, or rush forgiveness.
+
+### Institutional Success With Moral Failure
+
+**Pattern Claim Under Test:** Growth, order, influence, or effectiveness indicates divine alignment.
+
+**Why It Fails Or Weakens:** Institutions can grow while protecting abuse, pride, racism, coercion, greed, or false teaching.
+
+**Theological Boundary:** Fruit must be tested by holiness, justice, truth, humility, repentance, and love, not size or influence alone.
+
+**Scripture Anchor:** Matthew 7:15-23, 1 Corinthians 13:1-3, Revelation 2:1-7
+
+**Required Revision:** Separate visible success from faithful fruit and require harm audits for public claims.
+
+**Pastoral Warning:** Do not confuse platform, efficiency, or cultural power with faithfulness.
+
+### Scientific Gap Used As Design Proof
+
+**Pattern Claim Under Test:** Unexplained complexity directly proves divine action.
+
+**Why It Fails Or Weakens:** Natural explanations may later account for the phenomenon, and gaps-based arguments can make theology depend on scientific ignorance.
+
+**Theological Boundary:** Creation can be confessed as sustained gift without denying natural mechanisms or scientific explanation.
+
+**Scripture Anchor:** Psalm 104, Colossians 1:15-20, Hebrews 1:1-3
+
+**Required Revision:** Use science as a humility and wonder lane, not as a shortcut proof lane.
+
+**Pastoral Warning:** Do not make faith depend on a current lack of explanation.
+
+## Pastoral And Ethical Harm Audit
+
+Test whether pattern claims produce truthful love, justice, humility, repentance, repair, and protection of vulnerable people.
+
+Audit questions:
+- Could this claim be used to excuse abuse, coercion, passivity, or neglect?
+- Does this claim protect victims and vulnerable people before defending a system?
+- Does this claim make room for lament without forcing resolution?
+- Does this claim preserve human dignity apart from usefulness, productivity, health, race, class, gender, or status?
+- Does this claim encourage repentance and repair where harm has occurred?
+- Does this claim distinguish forgiveness from denial, reconciliation from unsafe return, and sacrifice from exploitation?
+
+Downgrade triggers:
+- The claim is more useful to the powerful than to the vulnerable.
+- The claim explains suffering without listening to sufferers.
+- The claim makes a beautiful analogy do the work of Scripture or source review.
+- The claim treats justice as optional or secondary.
+- The claim cannot name what would falsify, weaken, or revise it.
+
+Required fruit: truth, love, humility, justice, repentance, repair, worship, patience, faithfulness
 ## The Five Leading Pattern Families
 
 ### Image Of God Pattern
@@ -620,11 +1067,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** resolved_with_christian_resolution
 
-**Domain:** Philosophy ↔ Theology
+**Claim Classification:** supportive_with_caution
+
+**Domain:** Philosophy <-> Theology
 
 **Observation:** Humans recognize the need for virtue, discipline, and self-control.
 
 **Pattern:** Character shapes the direction of the soul and life.
+
+**Scripture Anchor:** Romans 7:15-25, Galatians 5:22-25, Titus 3:5
+
+**Interpretive Status:** inferred theological interpretation
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** Human beings often recognize virtue but fail to fully live by it.
 
@@ -639,6 +1094,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** Renewal through grace, Christ-centered formation, and the work of the Holy Spirit.
 
 **Divine Pattern Insight:** Human reason can recognize moral order, but restoration after failure requires a deeper resolution.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not treat Stoic virtue as identical with Christian transformation or grace.
 
@@ -664,11 +1123,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** partially_resolved
 
-**Domain:** Philosophy ↔ Theology
+**Claim Classification:** supportive_with_caution
+
+**Domain:** Philosophy <-> Theology
 
 **Observation:** Humans experience a real difference between what they can control and what they cannot control.
 
 **Pattern:** Moral agency grows when a person learns responsibility without pretending to control all outcomes.
+
+**Scripture Anchor:** James 4:13-17, Philippians 4:11-13, Romans 8:18-25
+
+**Interpretive Status:** inferred theological interpretation
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** Acceptance can become wisdom, but it can also become resignation when suffering or injustice should be resisted.
 
@@ -683,6 +1150,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The pattern is clarified through Christian resolution while remaining provisional until source review is complete.
 
 **Divine Pattern Insight:** Human agency is real but finite; the deeper resolution joins responsibility with dependence on grace and hope beyond visible control.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not let acceptance of limits become passivity before injustice or avoidable harm.
 
@@ -708,11 +1179,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** partially_resolved
 
-**Domain:** Philosophy ↔ Theology
+**Claim Classification:** supportive_with_caution
+
+**Domain:** Philosophy <-> Theology
 
 **Observation:** Humans recognize that justice requires order within the person and the community.
 
 **Pattern:** The shape of the soul affects the shape of public life.
+
+**Scripture Anchor:** Micah 6:8, Matthew 23:11-12, Philippians 2:5-11
+
+**Interpretive Status:** inferred theological interpretation
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** A vision of order can become coercive when it ranks people by function, knowledge, or social usefulness.
 
@@ -727,6 +1206,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The pattern is clarified through Christian resolution while remaining provisional until source review is complete.
 
 **Divine Pattern Insight:** Reason can perceive that the soul and society need order, but Christian resolution tests order by love, humility, and the dignity of every person.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not baptize hierarchy, philosopher-rule, or social ranking as divine order.
 
@@ -752,11 +1235,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** resolved_with_christian_resolution
 
-**Domain:** Philosophy ↔ Theology
+**Claim Classification:** supportive_with_caution
+
+**Domain:** Philosophy <-> Theology
 
 **Observation:** Humans become shaped by repeated habits, practices, loves, and communities.
 
 **Pattern:** Formation turns moral insight into embodied character.
+
+**Scripture Anchor:** 1 Corinthians 13:1-13, Galatians 5:22-25, Ephesians 2:8-10
+
+**Interpretive Status:** inferred theological interpretation
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** Virtue can be treated as achievement, social polish, or excellence without grace for failure and repair.
 
@@ -771,6 +1262,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The pattern is clarified through Christian resolution while remaining provisional until source review is complete.
 
 **Divine Pattern Insight:** Habit matters deeply, but Christian transformation requires more than training; it requires grace that reforms desire and restores failed persons.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not reduce Christian sanctification to self-cultivation or moral excellence by training alone.
 
@@ -796,11 +1291,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** resolved_with_christian_resolution
 
-**Domain:** Philosophy ↔ Theology
+**Claim Classification:** supportive_with_caution
+
+**Domain:** Philosophy <-> Theology
 
 **Observation:** Humans recognize a moral law that calls them beyond preference, appetite, and convenience.
 
 **Pattern:** Duty reveals that moral life has a claim on the self.
+
+**Scripture Anchor:** Romans 2:14-16, Matthew 22:37-40, Ephesians 2:8-10
+
+**Interpretive Status:** inferred theological interpretation
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** Moral duty can identify obligation without healing the divided will or restoring the person after failure.
 
@@ -815,6 +1318,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** Renewal through grace, Christ-centered formation, and the work of the Holy Spirit.
 
 **Divine Pattern Insight:** Moral law can expose responsibility, but the deeper resolution must address guilt, weakness, forgiveness, and renewal.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not make moral law alone do the work of forgiveness, healing, and transformation.
 
@@ -840,11 +1347,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** partially_resolved
 
-**Domain:** Philosophy ↔ Theology
+**Claim Classification:** diagnostic_friction
+
+**Domain:** Philosophy <-> Theology
 
 **Observation:** Humans can use moral language to hide fear, resentment, domination, or weakness.
 
 **Pattern:** Moral claims must be tested by what they produce in real character and community.
+
+**Scripture Anchor:** Matthew 23:1-36, 1 Corinthians 1:18-31, Philippians 2:5-11
+
+**Interpretive Status:** diagnostic or unresolved theological pressure
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** Christian language can be misused as a mask for passivity, control, or resentment rather than cruciform love.
 
@@ -859,6 +1374,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** Renewal through grace, Christ-centered formation, and the work of the Holy Spirit.
 
 **Divine Pattern Insight:** A serious critique of moral hypocrisy can purify the pattern by forcing Christian claims to show truthful humility, courage, mercy, and costly love.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not use Nietzsche as support; use the critique to test whether Christian moral language has become resentment, control, or weakness.
 
@@ -884,11 +1403,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** partially_resolved
 
-**Domain:** Philosophy ↔ Theology
+**Claim Classification:** supportive_with_caution
+
+**Domain:** Philosophy <-> Theology
 
 **Observation:** Humans often make moral judgments through sympathy, feeling, habit, and social experience rather than pure reason alone.
 
 **Pattern:** Moral perception involves the whole person, not detached intellect only.
+
+**Scripture Anchor:** Romans 12:1-2, Hebrews 5:14, 1 John 4:7-12
+
+**Interpretive Status:** inferred theological interpretation
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** If morality is grounded only in sentiment, it can struggle to name an authority beyond preference, culture, or shared feeling.
 
@@ -903,6 +1430,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The pattern is clarified through Christian resolution while remaining provisional until source review is complete.
 
 **Divine Pattern Insight:** Moral feeling is a real part of human response, but the deeper resolution asks how desire is healed, trained, and accountable to truth.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not ground moral authority only in shared feeling, sympathy, or cultural habit.
 
@@ -928,11 +1459,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** unresolved
 
-**Domain:** Politics / Economics ↔ Theology
+**Claim Classification:** challenge_or_negative_pressure
+
+**Domain:** Politics / Economics <-> Theology
 
 **Observation:** Religion can be used to comfort suffering people without changing the unjust material conditions that harm them.
 
 **Pattern:** Claims about meaning must be tested by whether they produce justice, repair, and truthful attention to the poor.
+
+**Scripture Anchor:** Luke 4:18-21, James 5:1-6, Isaiah 58:6-12
+
+**Interpretive Status:** diagnostic or unresolved theological pressure
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** A Divine Pattern claim can become ideology if it spiritualizes suffering while leaving exploitation intact.
 
@@ -947,6 +1486,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** The pattern weakens wherever it comforts injustice; it strengthens only when worship and theology become truth-telling, mercy, justice, and repair.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not use spiritual language to bypass material injustice, poverty, labor exploitation, or institutional harm.
 
@@ -972,11 +1515,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** unresolved
 
-**Domain:** Psychology ↔ Theology
+**Claim Classification:** challenge_or_negative_pressure
+
+**Domain:** Psychology <-> Theology
 
 **Observation:** Human beings can create religious ideas that satisfy longing for protection, meaning, authority, or parental care.
 
 **Pattern:** Spiritual interpretation must be tested against projection, fear, desire, and psychological need.
+
+**Scripture Anchor:** Psalm 139:23-24, Jeremiah 17:9-10, John 4:23-24
+
+**Interpretive Status:** diagnostic or unresolved theological pressure
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** The Divine Pattern may be explained as human wish, coping mechanism, or unconscious projection rather than divine disclosure.
 
@@ -991,6 +1542,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** The pattern must distinguish genuine divine encounter from psychological projection; desire alone cannot count as evidence.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not treat longing, consolation, or religious experience as evidence without projection and wish-fulfillment checks.
 
@@ -1016,11 +1571,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** unresolved
 
-**Domain:** Philosophy ↔ Theology
+**Claim Classification:** challenge_or_negative_pressure
+
+**Domain:** Philosophy <-> Theology
 
 **Observation:** Human beings may project their highest ideals outward and then call those ideals God.
 
 **Pattern:** Claims about God must be tested against human self-projection and idealized anthropology.
+
+**Scripture Anchor:** Romans 1:21-25, John 1:14-18, Acts 17:22-31
+
+**Interpretive Status:** diagnostic or unresolved theological pressure
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** The Divine Pattern may be read as humanity discovering itself rather than encountering God.
 
@@ -1035,6 +1598,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** A pattern is weak if it only mirrors human aspiration; it must also confront, correct, and transform the human subject.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not confuse human ideals, moral longing, or beauty with independent evidence of divine self-disclosure.
 
@@ -1060,11 +1627,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** unresolved
 
-**Domain:** Existentialism ↔ Theology
+**Claim Classification:** challenge_or_negative_pressure
+
+**Domain:** Existentialism <-> Theology
 
 **Observation:** Human beings long for meaning, but the world often appears silent, unjust, and resistant to final explanation.
 
 **Pattern:** Meaning claims must survive suffering without pretending that every wound has an obvious explanation.
+
+**Scripture Anchor:** Job 38:1-7, Psalm 22, Romans 8:18-25
+
+**Interpretive Status:** diagnostic or unresolved theological pressure
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** The Divine Pattern can become morally shallow if it explains suffering too quickly or turns tragedy into neat resolution.
 
@@ -1079,6 +1654,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** The pattern strengthens only when it can remain truthful in lament and avoid premature resolution.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not turn absurdity, grief, or innocent suffering into a tidy apologetic pattern.
 
@@ -1104,11 +1683,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** partially_resolved
 
-**Domain:** Existentialism ↔ Theology
+**Claim Classification:** diagnostic_friction
+
+**Domain:** Existentialism <-> Theology
 
 **Observation:** Human beings experience radical responsibility and cannot avoid choosing what they become.
 
 **Pattern:** Freedom requires responsibility, but responsibility can become crushing without grace or given identity.
+
+**Scripture Anchor:** Genesis 1:26-28, Deuteronomy 30:19-20, Galatians 5:13
+
+**Interpretive Status:** diagnostic or unresolved theological pressure
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** A Christian account of created purpose can be challenged as an evasion of radical freedom and human responsibility.
 
@@ -1123,6 +1710,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The pattern is clarified through Christian resolution while remaining provisional until source review is complete.
 
 **Divine Pattern Insight:** The pattern must preserve real human responsibility while showing why freedom is gift and vocation, not mere self-invention.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not use divine purpose to erase human agency, responsibility, or the terror of real choice.
 
@@ -1148,11 +1739,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** unresolved
 
-**Domain:** Science ↔ Theology
+**Claim Classification:** challenge_or_negative_pressure
+
+**Domain:** Science <-> Theology
 
 **Observation:** Complex life can arise through natural processes involving variation, inheritance, selection, adaptation, contingency, and deep time.
 
 **Pattern:** Claims about creation must account for natural history without forcing biological complexity into simple proof of design.
+
+**Scripture Anchor:** Genesis 1:1, Psalm 104, Colossians 1:15-20
+
+**Interpretive Status:** diagnostic or unresolved theological pressure
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** Natural selection challenges easy design arguments and any Divine Pattern claim that depends on biological complexity being inexplicable by natural causes.
 
@@ -1167,6 +1766,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** The pattern must not compete with biology; it must ask theological questions at the level of gift, order, contingency, vocation, and creaturely care.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not use gaps in evolutionary explanation as evidence for the Divine Pattern.
 
@@ -1192,11 +1795,19 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Resolution Status:** unresolved
 
-**Domain:** Culture / Politics ↔ Theology
+**Claim Classification:** challenge_or_negative_pressure
+
+**Domain:** Culture / Politics <-> Theology
 
 **Observation:** Institutions can produce truth-claims that discipline bodies, normalize behavior, and protect power.
 
 **Pattern:** Truth claims must be tested by how they shape people, especially vulnerable bodies and communities.
+
+**Scripture Anchor:** Mark 10:42-45, Matthew 23:1-12, 1 Peter 5:1-4
+
+**Interpretive Status:** diagnostic or unresolved theological pressure
+
+**Canonical Context:** Read through creation, sin, Christ, Spirit-led transformation, judgment, mercy, and new creation; do not isolate one text from the broader canon.
 
 **Distortion:** The Divine Pattern framework can become a tool of classification and control if it names patterns without checking power.
 
@@ -1211,6 +1822,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** The pattern must audit its own power effects; truth without humility and repair can become domination.
+
+**Theological Caution:** This record may clarify or pressure-test a pattern, but it cannot establish doctrine apart from Scripture, Christ, and source review.
+
+**Harm Audit:** Check whether this claim could be used to excuse control, passivity, contempt, abuse, anti-intellectualism, or indifference to suffering.
 
 **Failure Risk:** Do not let pattern recognition become surveillance, labeling, normalization, or institutional self-protection.
 

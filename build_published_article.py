@@ -17,6 +17,10 @@ CHRISTOLOGICAL_LAYER_PATH = Path("research_documents/christological_layer.json")
 HISTORICAL_WITNESSES_PATH = Path("research_documents/historical_witnesses.json")
 MYSTERY_LAYER_PATH = Path("research_documents/mystery_layer.json")
 PROJECT_ARCHITECTURE_PATH = Path("research_documents/project_architecture.json")
+THEOLOGICAL_METHOD_PATH = Path("research_documents/theological_method_guardrails.json")
+CREEDAL_GUARDRAILS_PATH = Path("research_documents/creedal_guardrails.json")
+NEGATIVE_CASES_PATH = Path("research_documents/negative_case_records.json")
+ETHICAL_HARM_AUDIT_PATH = Path("research_documents/ethical_harm_audit.json")
 
 SOURCE_REPORTS = {
     "backend": Path("reports/ai_backend_report.txt"),
@@ -311,11 +315,19 @@ def friction_layer_lines(records: list[dict]) -> list[str]:
                 "",
                 f"**Resolution Status:** {record.get('resolution_status', 'unrated')}",
                 "",
+                f"**Claim Classification:** {record.get('claim_classification', '')}",
+                "",
                 f"**Domain:** {record.get('domain', 'Unspecified')}",
                 "",
                 f"**Observation:** {record.get('observation', '')}",
                 "",
                 f"**Pattern:** {record.get('pattern', '')}",
+                "",
+                f"**Scripture Anchor:** {', '.join(record.get('scripture_anchor', []))}",
+                "",
+                f"**Interpretive Status:** {record.get('interpretive_status', '')}",
+                "",
+                f"**Canonical Context:** {record.get('canonical_context', '')}",
                 "",
                 f"**Distortion:** {record.get('distortion', '')}",
                 "",
@@ -330,6 +342,10 @@ def friction_layer_lines(records: list[dict]) -> list[str]:
                 f"**Transformation Result:** {record.get('transformation_result', '')}",
                 "",
                 f"**Divine Pattern Insight:** {record.get('divine_pattern_insight', '')}",
+                "",
+                f"**Theological Caution:** {record.get('theological_caution', '')}",
+                "",
+                f"**Harm Audit:** {record.get('harm_audit', '')}",
                 "",
                 f"**Failure Risk:** {record.get('failure_risk', '')}",
                 "",
@@ -362,6 +378,104 @@ def theological_foundations_lines(layer: dict) -> list[str]:
         lines.append(f"- **{name}:** {definition}")
     lines.extend(["", "Interpretive order:"])
     lines.extend(f"- {item}" for item in layer.get("interpretive_order", []))
+    checks = layer.get("required_claim_checks", [])
+    if checks:
+        lines.extend(["", "Required claim checks:"])
+        lines.extend(f"- {item}" for item in checks)
+    return lines
+
+
+def theological_method_lines(layer: dict) -> list[str]:
+    if not layer:
+        return ["Theological method guardrails layer is missing."]
+
+    lines = [
+        layer.get("purpose", ""),
+        "",
+        f"**Core Rule:** {layer.get('core_rule', '')}",
+        "",
+        "Evidence categories:",
+    ]
+    for item in layer.get("evidence_categories", []):
+        lines.extend(
+            [
+                f"### {item.get('category', 'Category')}",
+                "",
+                f"**Question:** {item.get('question', '')}",
+                "",
+                f"**Required Action:** {item.get('required_action', '')}",
+                "",
+            ]
+        )
+    lines.extend(["Confidence rules:"])
+    lines.extend(f"- {item}" for item in layer.get("confidence_rules", []))
+    lines.extend(["", "Scoring interpretation:"])
+    for score, meaning in layer.get("scoring_interpretation", {}).items():
+        lines.append(f"- **{score}:** {meaning}")
+    lines.extend(["", "Required record fields:"])
+    lines.extend(f"- {item}" for item in layer.get("required_record_fields", []))
+    return lines
+
+
+def creedal_guardrail_lines(layer: dict) -> list[str]:
+    records = layer.get("core_commitments", []) if layer else []
+    if not records:
+        return ["Creedal guardrails layer is missing."]
+
+    lines = [layer.get("purpose", ""), ""]
+    for record in records:
+        lines.extend(
+            [
+                f"### {record.get('doctrine', 'Doctrine')}",
+                "",
+                f"**Guardrail:** {record.get('guardrail', '')}",
+                "",
+                f"**Sources:** {', '.join(record.get('sources', []))}",
+                "",
+            ]
+        )
+    lines.extend(["Rejection rules:"])
+    lines.extend(f"- {item}" for item in layer.get("rejection_rules", []))
+    return lines
+
+
+def negative_case_lines(layer: dict) -> list[str]:
+    records = layer.get("records", []) if layer else []
+    if not records:
+        return ["No negative case records yet."]
+
+    lines = [layer.get("purpose", ""), "", f"**Use Rule:** {layer.get('use_rule', '')}", ""]
+    for record in records:
+        lines.extend(
+            [
+                f"### {record.get('title', 'Negative Case')}",
+                "",
+                f"**Pattern Claim Under Test:** {record.get('pattern_claim_under_test', '')}",
+                "",
+                f"**Why It Fails Or Weakens:** {record.get('why_it_fails_or_weakens', '')}",
+                "",
+                f"**Theological Boundary:** {record.get('theological_boundary', '')}",
+                "",
+                f"**Scripture Anchor:** {', '.join(record.get('scripture_anchor', []))}",
+                "",
+                f"**Required Revision:** {record.get('required_revision', '')}",
+                "",
+                f"**Pastoral Warning:** {record.get('pastoral_warning', '')}",
+                "",
+            ]
+        )
+    return lines
+
+
+def ethical_harm_audit_lines(layer: dict) -> list[str]:
+    if not layer:
+        return ["Ethical harm audit layer is missing."]
+
+    lines = [layer.get("purpose", ""), "", "Audit questions:"]
+    lines.extend(f"- {item}" for item in layer.get("audit_questions", []))
+    lines.extend(["", "Downgrade triggers:"])
+    lines.extend(f"- {item}" for item in layer.get("downgrade_triggers", []))
+    lines.extend(["", f"Required fruit: {', '.join(layer.get('required_fruit', []))}"])
     return lines
 
 
@@ -443,6 +557,8 @@ def historical_witness_lines(layer: dict) -> list[str]:
                 "",
                 f"**Era:** {record.get('era', '')}",
                 "",
+                f"**Tradition:** {record.get('tradition', '')}",
+                "",
                 f"**Key Themes:** {', '.join(record.get('key_themes', []))}",
                 "",
                 f"**Relevant Patterns:** {', '.join(record.get('relevant_patterns', []))}",
@@ -479,6 +595,10 @@ def mystery_layer_lines(layer: dict) -> list[str]:
                 "",
                 f"**Theological Notes:** {record.get('theological_notes', '')}",
                 "",
+                f"**Reduction Guardrail:** {record.get('reduction_guardrail', '')}",
+                "",
+                f"**Research Use:** {record.get('research_use', '')}",
+                "",
             ]
         )
     return lines
@@ -510,7 +630,7 @@ def friction_domain_rollup_lines(records: list[dict]) -> list[str]:
 
     rollups: dict[str, dict[str, int]] = {}
     for record in records:
-        domain = record.get("domain", "Unspecified").split("↔")[0].strip()
+        domain = record.get("domain", "Unspecified").replace("<->", "|").split("|")[0].strip()
         rollup = rollups.setdefault(domain, {"count": 0, "evidence": 0, "insight": 0})
         rollup["count"] += 1
         rollup["evidence"] += int(record.get("evidence_value", record.get("evidence_score", 0)) or 0)
@@ -549,6 +669,10 @@ def build_article() -> str:
     historical_witnesses = read_layer(HISTORICAL_WITNESSES_PATH)
     mystery_layer = read_layer(MYSTERY_LAYER_PATH)
     project_architecture = read_layer(PROJECT_ARCHITECTURE_PATH)
+    theological_method = read_layer(THEOLOGICAL_METHOD_PATH)
+    creedal_guardrails = read_layer(CREEDAL_GUARDRAILS_PATH)
+    negative_cases = read_layer(NEGATIVE_CASES_PATH)
+    ethical_harm_audit = read_layer(ETHICAL_HARM_AUDIT_PATH)
 
     lines = [
         "# Divine Pattern Research",
@@ -570,6 +694,14 @@ def build_article() -> str:
         "## Project Architecture",
         "",
         *architecture_lines(project_architecture),
+        "",
+        "## Theological Method And Research Guardrails",
+        "",
+        *theological_method_lines(theological_method),
+        "",
+        "## Creedal And Rule Of Faith Guardrails",
+        "",
+        *creedal_guardrail_lines(creedal_guardrails),
         "",
         "## Pattern Found So Far",
         "",
@@ -630,6 +762,12 @@ def build_article() -> str:
         "## Mystery Layer",
         "",
         *mystery_layer_lines(mystery_layer),
+        "## Negative Case And Failed Pattern Records",
+        "",
+        *negative_case_lines(negative_cases),
+        "## Pastoral And Ethical Harm Audit",
+        "",
+        *ethical_harm_audit_lines(ethical_harm_audit),
         "## The Five Leading Pattern Families",
         "",
     ]
