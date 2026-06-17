@@ -55,7 +55,10 @@ def build_queue(audit: dict) -> list[dict]:
     documents = audit.get("documents", [])
     queue = []
     for document in documents:
-        missing = document.get("missing_rules", [])
+        machine_drafted = set(document.get("machine_drafted_rules", []))
+        missing = [
+            rule for rule in document.get("missing_rules", []) if rule not in machine_drafted
+        ]
         if not missing:
             continue
         queue.append(
@@ -67,6 +70,7 @@ def build_queue(audit: dict) -> list[dict]:
                 "patterns": document.get("patterns", []),
                 "review_note_count": int(document.get("review_note_count") or 0),
                 "missing_rules": missing,
+                "machine_drafted_rules": sorted(machine_drafted),
                 "fill_prompts": {
                     rule: RULE_PROMPTS.get(rule, f"Fill missing review control: {rule}")
                     for rule in missing
@@ -112,13 +116,22 @@ def build_markdown(audit: dict, queue: list[dict]) -> str:
         "- Failure condition",
         "- Machine-label boundary",
         "",
-        "The system can draft these fields, but it should label them as machine-drafted until the source is directly checked.",
+        "The system can draft these fields, but it labels them as machine-drafted until the source is directly checked.",
         "",
         "## Missing Field Counts In This Queue",
         "",
     ]
     for rule in PRIORITY_RULES:
         lines.append(f"- {rule}: {missing_counts.get(rule, 0)}")
+
+    coverage = audit.get("rule_coverage", {})
+    if coverage:
+        lines.extend(["", "## Machine-Drafted Coverage Already Created", ""])
+        for rule in PRIORITY_RULES:
+            values = coverage.get(rule, {})
+            lines.append(
+                f"- {rule}: {int(values.get('machine_drafted', 0)):,} machine-drafted; {int(values.get('missing', 0)):,} still missing"
+            )
 
     lines.extend(
         [
@@ -127,6 +140,14 @@ def build_markdown(audit: dict, queue: list[dict]) -> str:
             "",
         ]
     )
+
+    if not queue:
+        lines.extend(
+            [
+                "No still-missing review fields remain. Existing gaps are covered by machine-drafted companions and should be source-checked over time if confidence needs to rise.",
+                "",
+            ]
+        )
 
     for index, item in enumerate(queue[:40], 1):
         patterns = ", ".join(item["patterns"]) or "none detected"

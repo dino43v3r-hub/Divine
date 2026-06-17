@@ -1359,11 +1359,6 @@
     },
     {
       "relation": "belongs_to_lane",
-      "source": "doc:research_documents_christian_sources_sources_md",
-      "target": "lane:research_documents"
-    },
-    {
-      "relation": "belongs_to_lane",
       "source": "doc:research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
       "target": "lane:research_documents"
     },
@@ -1676,6 +1671,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_christian_sources_science_math_physics_divine_pattern_model_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_christian_sources_sources_md",
+      "target": "lane:research_documents"
     },
     {
       "relation": "belongs_to_lane",
@@ -12604,17 +12604,6 @@
     },
     {
       "confidence_tier": "candidate_lead",
-      "id": "doc:research_documents_christian_sources_sources_md",
-      "label": "Christian Source Corpus",
-      "lane": "research_documents",
-      "media_review_status": "text_reviewable",
-      "modality": "text",
-      "path": "research_documents/christian_sources/SOURCES.md",
-      "review_note_count": 1,
-      "type": "document"
-    },
-    {
-      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
       "label": "Apostles Creed Church Hymnary Wikisource",
       "lane": "research_documents",
@@ -12775,6 +12764,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "candidate_lead",
+      "id": "doc:research_documents_christian_sources_sources_md",
+      "label": "Christian Source Corpus",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/christian_sources/SOURCES.md",
       "review_note_count": 1,
       "type": "document"
     },

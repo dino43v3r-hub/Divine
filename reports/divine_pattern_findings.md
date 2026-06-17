@@ -1,6 +1,6 @@
 # Divine Patterns Found
 
-_Generated: 2026-06-17 17:56 UTC_
+_Generated: 2026-06-17 18:04 UTC_
 
 This report is intentionally simple: it shows the divine-pattern signals the system currently finds, explains why they surfaced, and leaves evaluation to you.
 
@@ -14,25 +14,25 @@ It is designed to change day to day when the collector, analyzer, and backend di
 
 ## What Changed In The Latest Discovery Run
 
-- new candidate references: 707
-- new routed layers: human_stories: 276, deep_sources: 220, pattern_tests: 210, theologians: 195, cultural_inputs: 182, psychology_inputs: 181
-- new provider mix: Crossref: 377, OpenAlex: 283, arXiv: 25, PubMed: 10, Tavily Search: 7, Internet Archive: 5
-- new media candidates: video: 42, podcast: 24, image: 18
-- new evidence labels: strong_scholarly_candidate: 469, moderate_scholarly_candidate: 231, weak_scholarly_candidate: 6, do_not_strengthen_claim: 1
-- latest collector update: 2026-06-17T12:23:28.879884+00:00
+- new candidate references: 87
+- new routed layers: human_stories: 29, deep_sources: 27, cultural_inputs: 24, pattern_tests: 24, psychology_inputs: 24, theologians: 23
+- new provider mix: Crossref: 59, OpenAlex: 23, Internet Archive: 5
+- new media candidates: podcast: 8, video: 5, image: 3
+- new evidence labels: strong_scholarly_candidate: 60, moderate_scholarly_candidate: 27
+- latest collector update: 2026-06-17T17:49:38.704534+00:00
 
 Newest source leads:
 
-- Christian Holiness and the Holy Trinity (2013) | Crossref | moderate_scholarly_candidate | routes: theologians, research_documents
-- Paraphrase and the Doctrine of the Trinity (2019) | OpenAlex | strong_scholarly_candidate | routes: theologians, research_documents
-- The Epistemological Significance of the Inner Witness of the Holy Spirit (1990) | OpenAlex | strong_scholarly_candidate | routes: theologians, research_documents
-- The Word is life: African theology as biblical and contextual theology (2006) | OpenAlex | strong_scholarly_candidate | routes: theologians, research_documents
-- CAN OUR CREEDS SPEAK A GENDERED TRUTH? A FEMINIST READING OF THE NICENE CREED AND THE BELHAR CONFESSION (2013) | OpenAlex | strong_scholarly_candidate | routes: theologians, research_documents
+- A reformed perspective on taking mission and missiology to the heart of theological training (2012) | OpenAlex | strong_scholarly_candidate | routes: theologians, research_documents, visual_art, history_inputs
+- THE HOLY SPIRIT AND THE NICENE CREED (2020) | Crossref | moderate_scholarly_candidate | routes: theologians, research_documents
+- The Human Creation: Towards a renewal of the doctrine of the Imago Dei (1997) | Crossref | moderate_scholarly_candidate | routes: theologians, research_documents
+- Creation and Evolution (2024) | Crossref | strong_scholarly_candidate | routes: theologians, research_documents
+- Boll Weevil’s Theodicy (2023) | Crossref | strong_scholarly_candidate | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
 
 ## Current Evidence Mix
 
 - candidate leads: 112
-- developing evidence: 301
+- developing evidence: 339
 - ready for your evaluation: 1
 
 ## Pattern Findings

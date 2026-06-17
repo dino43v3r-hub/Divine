@@ -18,6 +18,7 @@ Generated Artifacts
 - Knowledge graph: `reports/knowledge_graph.json`
 - Review-rule audit: `reports/review_rules_audit.json`
 - Multimodal review manifest: `reports/multimodal_review_manifest.json`
+- Machine-drafted review companions: `research_documents/machine_drafted_review_companions.json`
 - Backend report: `reports/ai_backend_report.txt`
 
 How An LLM Should Use It
@@ -84,14 +85,14 @@ Backend: No. They sort review work. Only source-specific human decisions can pro
 Promotion Rule Coverage
 -----------------------
 Backend: These counts show where the next review pass should focus before sources strengthen claims.
-- evidence: 351 present; 101 missing of 452
-- interpretation: 29 present; 423 missing of 452
-- discernment: 245 present; 207 missing of 452
-- analogy: 47 present; 405 missing of 452
-- practical_use: 420 present; 32 missing of 452
-- counter_reading: 408 present; 44 missing of 452
-- failure_condition: 94 present; 358 missing of 452
-- machine_label_boundary: 282 present; 170 missing of 452
+- evidence: 351 explicit; 101 machine-drafted; 0 still missing of 452
+- interpretation: 29 explicit; 423 machine-drafted; 0 still missing of 452
+- discernment: 245 explicit; 207 machine-drafted; 0 still missing of 452
+- analogy: 47 explicit; 405 machine-drafted; 0 still missing of 452
+- practical_use: 420 explicit; 32 machine-drafted; 0 still missing of 452
+- counter_reading: 408 explicit; 44 machine-drafted; 0 still missing of 452
+- failure_condition: 94 explicit; 358 machine-drafted; 0 still missing of 452
+- machine_label_boundary: 282 explicit; 170 machine-drafted; 0 still missing of 452
 
 Promotion Blockers
 ------------------

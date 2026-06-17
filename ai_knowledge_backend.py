@@ -13,12 +13,18 @@ GRAPH_PATH = REPORTS_DIR / "knowledge_graph.json"
 AUDIT_PATH = REPORTS_DIR / "review_rules_audit.json"
 MULTIMODAL_MANIFEST_PATH = REPORTS_DIR / "multimodal_review_manifest.json"
 REPORT_PATH = REPORTS_DIR / "ai_backend_report.txt"
+MACHINE_DRAFTED_COMPANIONS_PATH = RESEARCH_DIR / "machine_drafted_review_companions.json"
+MACHINE_DRAFTED_COMPANIONS_MD_PATH = RESEARCH_DIR / "machine_drafted_review_companions.md"
 
 TEXT_EXTENSIONS = {".md", ".txt"}
 IMAGE_EXTENSIONS = {".avif", ".bmp", ".gif", ".jpeg", ".jpg", ".png", ".tif", ".tiff", ".webp"}
 VIDEO_EXTENSIONS = {".avi", ".m4v", ".mkv", ".mov", ".mp4", ".mpeg", ".mpg", ".webm", ".wmv"}
 AUDIO_EXTENSIONS = {".aac", ".flac", ".m4a", ".mp3", ".ogg", ".wav", ".wma"}
 SUPPORTED_EXTENSIONS = TEXT_EXTENSIONS | IMAGE_EXTENSIONS | VIDEO_EXTENSIONS | AUDIO_EXTENSIONS
+EXCLUDED_INDEX_PATHS = {
+    MACHINE_DRAFTED_COMPANIONS_PATH,
+    MACHINE_DRAFTED_COMPANIONS_MD_PATH,
+}
 
 SOURCE_LANES = {
     "research_documents": RESEARCH_DIR,
@@ -153,12 +159,39 @@ def read_text(path):
     return path.read_text(encoding="utf-8", errors="ignore")
 
 
+def read_json(path):
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def load_machine_drafted_companions():
+    payload = read_json(MACHINE_DRAFTED_COMPANIONS_PATH)
+    companions = {}
+    for item in payload.get("companions", []):
+        path = item.get("path")
+        fields = item.get("machine_drafted_fields", {})
+        if path and isinstance(fields, dict):
+            companions[path] = {
+                "draft_status": item.get("draft_status", "machine_drafted_not_source_checked"),
+                "confidence_effect": item.get("confidence_effect", "does_not_raise_confidence"),
+                "fields": fields,
+            }
+    return companions
+
+
 def iter_documents():
     seen = set()
     for lane, directory in SOURCE_LANES.items():
         if not directory.exists():
             continue
         for path in sorted(directory.rglob("*")):
+            if path in EXCLUDED_INDEX_PATHS:
+                continue
             if path.suffix.lower() not in SUPPORTED_EXTENSIONS:
                 continue
             if path.suffix.lower() in TEXT_EXTENSIONS and any(
@@ -279,9 +312,11 @@ def promotion_blockers(document):
     ]
 
 
-def summarize_document(lane, path, text):
+def summarize_document(lane, path, text, machine_drafts=None):
     tokens = tokenize(text)
     token_counts = Counter(tokens)
+    draft = (machine_drafts or {}).get(path.as_posix(), {})
+    machine_drafted_rules = sorted((draft.get("fields") or {}).keys())
     document = {
         "id": normalize_id(str(path.as_posix())),
         "path": path.as_posix(),
@@ -294,6 +329,9 @@ def summarize_document(lane, path, text):
         "review_note_count": extract_review_note_count(text),
         "patterns": detect_patterns(text),
         "rules_present": detect_rules(text),
+        "machine_drafted_rules": machine_drafted_rules,
+        "machine_drafted_status": draft.get("draft_status", ""),
+        "machine_drafted_confidence_effect": draft.get("confidence_effect", ""),
         "top_terms": [term for term, _ in token_counts.most_common(12)],
         "tokens": token_counts,
     }
@@ -302,7 +340,7 @@ def summarize_document(lane, path, text):
     return document
 
 
-def summarize_media_asset(lane, path):
+def summarize_media_asset(lane, path, machine_drafts=None):
     modality = media_modality(path)
     review_text = read_media_review_text(path)
     if review_text:
@@ -320,6 +358,8 @@ def summarize_media_asset(lane, path):
     token_counts = Counter(tokens)
     rules_present = detect_rules(searchable_text)
     rules_present["machine_label_boundary"] = True
+    draft = (machine_drafts or {}).get(path.as_posix(), {})
+    machine_drafted_rules = sorted((draft.get("fields") or {}).keys())
 
     document = {
         "id": normalize_id(str(path.as_posix())),
@@ -333,6 +373,9 @@ def summarize_media_asset(lane, path):
         "review_note_count": extract_review_note_count(review_text) if review_text else 0,
         "patterns": detect_patterns(searchable_text),
         "rules_present": rules_present,
+        "machine_drafted_rules": machine_drafted_rules,
+        "machine_drafted_status": draft.get("draft_status", ""),
+        "machine_drafted_confidence_effect": draft.get("confidence_effect", ""),
         "top_terms": [term for term, _ in token_counts.most_common(12)],
         "tokens": token_counts,
     }
@@ -379,6 +422,9 @@ def build_retrieval_index(documents):
             "rules_present": document["rules_present"],
             "confidence_tier": document["confidence_tier"],
             "promotion_blockers": document["promotion_blockers"],
+            "machine_drafted_rules": document["machine_drafted_rules"],
+            "machine_drafted_status": document["machine_drafted_status"],
+            "machine_drafted_confidence_effect": document["machine_drafted_confidence_effect"],
             "keywords": keywords,
         }
         index_documents.append(slim)
@@ -460,6 +506,7 @@ def build_review_audit(documents):
     lane_totals = defaultdict(lambda: Counter({"documents": 0, "text_documents": 0, "media_assets": 0, "review_notes": 0}))
     missing_by_rule = defaultdict(list)
     rule_coverage = Counter()
+    machine_drafted_coverage = Counter()
     tier_totals = Counter()
     blockers = defaultdict(list)
 
@@ -478,6 +525,7 @@ def build_review_audit(documents):
         rule_coverage.update(
             rule for rule, present in document["rules_present"].items() if present
         )
+        machine_drafted_coverage.update(document.get("machine_drafted_rules", []))
         for rule in missing:
             if len(missing_by_rule[rule]) < 25:
                 missing_by_rule[rule].append(document["path"])
@@ -504,6 +552,9 @@ def build_review_audit(documents):
                     "missing_rules": missing,
                     "confidence_tier": document["confidence_tier"],
                     "promotion_blockers": document["promotion_blockers"],
+                    "machine_drafted_rules": document["machine_drafted_rules"],
+                    "machine_drafted_status": document["machine_drafted_status"],
+                    "machine_drafted_confidence_effect": document["machine_drafted_confidence_effect"],
                 }
             )
 
@@ -520,7 +571,15 @@ def build_review_audit(documents):
         "rule_coverage": {
             rule: {
                 "present": int(rule_coverage.get(rule, 0)),
-                "missing": int(document_count - rule_coverage.get(rule, 0)),
+                "machine_drafted": int(machine_drafted_coverage.get(rule, 0)),
+                "missing": int(
+                    max(
+                        0,
+                        document_count
+                        - rule_coverage.get(rule, 0)
+                        - machine_drafted_coverage.get(rule, 0),
+                    )
+                ),
                 "total": int(document_count),
             }
             for rule in PROMOTION_REQUIRED_RULES
@@ -617,7 +676,7 @@ def create_backend_report(index, graph, audit, multimodal_manifest):
     coverage_lines = []
     for rule, values in audit.get("rule_coverage", {}).items():
         coverage_lines.append(
-            f"- {rule}: {values['present']} present; {values['missing']} missing of {values['total']}"
+            f"- {rule}: {values['present']} explicit; {values.get('machine_drafted', 0)} machine-drafted; {values['missing']} still missing of {values['total']}"
         )
     blocker_lines = []
     for blocker, paths in audit.get("promotion_blocker_examples", {}).items():
@@ -644,6 +703,7 @@ def create_backend_report(index, graph, audit, multimodal_manifest):
         f"- Knowledge graph: `{GRAPH_PATH.as_posix()}`",
         f"- Review-rule audit: `{AUDIT_PATH.as_posix()}`",
         f"- Multimodal review manifest: `{MULTIMODAL_MANIFEST_PATH.as_posix()}`",
+        f"- Machine-drafted review companions: `{MACHINE_DRAFTED_COMPANIONS_PATH.as_posix()}`",
         f"- Backend report: `{REPORT_PATH.as_posix()}`",
         "",
         "How An LLM Should Use It",
@@ -747,15 +807,16 @@ def create_backend_report(index, graph, audit, multimodal_manifest):
 
 def main():
     REPORTS_DIR.mkdir(exist_ok=True)
+    machine_drafts = load_machine_drafted_companions()
 
     documents = []
     for lane, path in iter_documents():
         if path.suffix.lower() in TEXT_EXTENSIONS:
             text = read_text(path)
             if text.strip():
-                documents.append(summarize_document(lane, path, text))
+                documents.append(summarize_document(lane, path, text, machine_drafts))
         else:
-            documents.append(summarize_media_asset(lane, path))
+            documents.append(summarize_media_asset(lane, path, machine_drafts))
 
     index = build_retrieval_index(documents)
     graph = build_knowledge_graph(documents)

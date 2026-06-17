@@ -241,7 +241,7 @@ def rule_coverage_lines(audit: dict) -> list[str]:
         if not values:
             continue
         lines.append(
-            f"- {rule}: {int(values.get('present', 0)):,} present; {int(values.get('missing', 0)):,} missing of {int(values.get('total', 0)):,}"
+            f"- {rule}: {int(values.get('present', 0)):,} explicit; {int(values.get('machine_drafted', 0)):,} machine-drafted; {int(values.get('missing', 0)):,} still missing of {int(values.get('total', 0)):,}"
         )
     return lines or ["- No promotion-rule coverage values found."]
 
@@ -1164,7 +1164,7 @@ def build_short_article() -> str:
         "",
         *rule_coverage_lines(review_audit)[:5],
         "",
-        "The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions.",
+        "The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.",
         "",
         "The system now writes a gap-fill queue here:",
         "",

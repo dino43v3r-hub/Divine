@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-17 17:59 UTC_
+_Generated: 2026-06-17 18:04 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -46,13 +46,13 @@ These labels are reading aids, not commands. `candidate_lead` means interesting 
 
 ## Biggest Current Gaps
 
-- interpretation: 29 present; 423 missing of 452
-- analogy: 47 present; 405 missing of 452
-- failure_condition: 94 present; 358 missing of 452
-- machine_label_boundary: 282 present; 170 missing of 452
-- discernment: 245 present; 207 missing of 452
+- interpretation: 29 explicit; 423 machine-drafted; 0 still missing of 452
+- analogy: 47 explicit; 405 machine-drafted; 0 still missing of 452
+- failure_condition: 94 explicit; 358 machine-drafted; 0 still missing of 452
+- machine_label_boundary: 282 explicit; 170 machine-drafted; 0 still missing of 452
+- discernment: 245 explicit; 207 machine-drafted; 0 still missing of 452
 
-The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions.
+The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.
 
 The system now writes a gap-fill queue here:
 
