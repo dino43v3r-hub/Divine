@@ -7,6 +7,12 @@ This ledger keeps the project from speaking with one level of certainty about
 different kinds of claims. It separates source-supported observations from
 theological interpretation, discernment, analogy, and practical use.
 
+Structured claim connections are now tracked in
+`research_documents/claim_ledger_connections.json`. That file links selected
+claims to Scripture anchors, evidence files, friction records, tradition labels,
+confidence status, and weakening conditions. Source-review progress is tracked
+in `research_documents/source_review_status.json`.
+
 ## Status Key
 
 - `reviewed_evidence`: enough source-specific support exists for cautious use.

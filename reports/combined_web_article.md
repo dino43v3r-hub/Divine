@@ -2,7 +2,7 @@
 
 _A GitHub-readable article drawn from the generated reports._
 
-Generated: `2026-06-17 16:52 UTC`
+Generated: `2026-06-17 17:13 UTC`
 
 ## How To Read This Page
 
@@ -16,12 +16,17 @@ The full generated reports remain available in each section, but they are folded
 - [Project Architecture](#project-architecture)
 - [Theological Method And Research Guardrails](#theological-method-and-research-guardrails)
 - [Creedal And Rule Of Faith Guardrails](#creedal-and-rule-of-faith-guardrails)
+- [Claim Ledger Connections](#claim-ledger-connections)
+- [Tradition And Doctrine Labels](#tradition-and-doctrine-labels)
+- [Source Review Status](#source-review-status)
+- [What This Does Not Prove](#what-this-does-not-prove)
 - [Pattern Distortion Layer](#pattern-distortion-layer)
 - [Christological Layer](#christological-layer)
 - [Historical Witnesses](#historical-witnesses)
 - [Mystery Layer](#mystery-layer)
 - [Negative Case And Failed Pattern Records](#negative-case-and-failed-pattern-records)
 - [Pastoral And Ethical Harm Audit](#pastoral-and-ethical-harm-audit)
+- [Science Guardrail Layer](#science-guardrail-layer)
 - [AI Knowledge Backend](#ai-knowledge-backend)
 - [Reader Book](#reader-book)
 - [Disciplined Theological Assistant](#disciplined-theological-assistant)
@@ -167,6 +172,35 @@ _Source: `research_documents/project_architecture.json`_
 - Repair
 - Pastoral Fruit
 
+### CLAIM LEDGER
+
+- Claim Connections
+- Tradition Labels
+- Confidence Status
+- Weakening Conditions
+
+### SOURCE REVIEW
+
+- Review Status
+- Primary Sources
+- Counter-Readings
+- Promotion Readiness
+
+### DOES NOT PROVE
+
+- No Mathematical Proof
+- No Replacement For Scripture
+- No Erasure Of Mystery
+- No Defeat Of Every Rival Explanation
+
+### SCIENCE GUARDRAILS
+
+- Evolution
+- Cosmology
+- Neuroscience
+- Quantum Language
+- AI Pattern Recognition
+
 
 
 ## Theological Method And Research Guardrails
@@ -270,6 +304,172 @@ Protect the Divine Pattern project from drifting into vague spirituality, privat
 - Reject pattern claims that turn Christ into only a symbol, archetype, or teacher detached from incarnation, cross, resurrection, and lordship.
 - Reject pattern claims that justify abuse, fatalism, domination, racial hierarchy, antisemitism, contempt for the poor, or indifference to suffering.
 - Reject pattern claims that treat scientific gaps as proof of God.
+
+
+## Claim Ledger Connections
+
+_Source: `research_documents/claim_ledger_connections.json`_
+
+Connect major Divine Pattern claims to evidence, Scripture anchors, friction records, confidence levels, and weakening conditions.
+
+Connection rule: Every major claim should be auditable from claim to source, Scripture, friction, confidence, and failure condition.
+
+### DP-001
+
+- Claim: Scripture contains recurring typological correspondences that Christians read as divinely intended.
+- Tradition Label: broad_christian_with_interpretive_disagreement
+- Scripture Anchor: Luke 24:27, John 5:39, 1 Corinthians 10:1-11, Hebrews 10:1
+- Evidence Links: claim_ledger.md, theologians/patristic_source_notes.md, biblical_languages/source_specific_counterreadings.md
+- Friction Links: hume-reason-passion-and-moral-sentiment, foucault-power-knowledge-and-discipline
+- Confidence: developing_evidence
+- What Would Weaken It: Typological readings that ignore original context, Jewish interpretation, historical setting, or genre should be narrowed or rejected.
+
+### DP-004
+
+- Claim: Father creates and sustains, Son/Logos reveals and redeems, Holy Spirit makes redemption present through communion and transformation.
+- Tradition Label: nicene_core_with_pattern_caution
+- Scripture Anchor: Matthew 28:19, John 1:1-18, 2 Corinthians 13:14, Colossians 1:15-20
+- Evidence Links: research_documents/creedal_guardrails.json, research_documents/mystery_layer.json, research_documents/christological_layer.json
+- Friction Links: feuerbach-projection-and-theology, foucault-power-knowledge-and-discipline
+- Confidence: theological_interpretation
+- What Would Weaken It: Any pattern rendering that collapses the persons of the Trinity, treats Christ as a symbol, or turns the Spirit into generic energy must be rejected.
+
+### DP-008
+
+- Claim: Quantum or science references may support humility about causality and knowledge, but they do not prove prayer, consciousness, or God.
+- Tradition Label: method_guardrail
+- Scripture Anchor: Job 38:1-7, Psalm 19:1-4, Colossians 1:15-20
+- Evidence Links: deep_sources/qualified_science_reference_review_notes.md, research_documents/science_guardrail_layer.json
+- Friction Links: darwin-natural-selection-and-apparent-design
+- Confidence: analogy_only
+- What Would Weaken It: Any claim that uses technical science language outside its source scope must be downgraded.
+
+### DP-009
+
+- Claim: A divine pattern must become practical theology: attention, repentance, lament, vocation, community, justice, and hope in daily life.
+- Tradition Label: practical_theology_use
+- Scripture Anchor: Micah 6:8, Matthew 22:37-40, James 1:22-27, Galatians 5:22-25
+- Evidence Links: research_documents/ethical_harm_audit.json, research_documents/practical_theology_pattern_use.md
+- Friction Links: marx-religion-and-material-conditions, foucault-power-knowledge-and-discipline, camus-absurd-suffering-and-silence
+- Confidence: practical_theology_use
+- What Would Weaken It: If a pattern produces control, denial, injustice, or bypassing lament, it has failed as practical theology.
+
+
+
+## Tradition And Doctrine Labels
+
+_Source: `research_documents/tradition_claim_labels.json`_
+
+Mark whether a claim belongs to core Christian confession, broad Christian agreement, contested doctrine, practical theology, analogy, or speculative research.
+
+### nicene_core
+
+- Meaning: Belongs to core Trinitarian and Christological confession shared by historic Nicene Christianity.
+- Examples: Trinity, Incarnation, Christ's lordship, resurrection
+
+### broad_christian_agreement
+
+- Meaning: Widely affirmed across many Christian traditions, while details may differ.
+- Examples: creation, sin, grace, judgment, new creation
+
+### contested_christian_doctrine
+
+- Meaning: Christian traditions disagree on formulation, scope, or application.
+- Examples: providence and freedom, spiritual gifts, sanctification models, church authority
+
+### practical_theology_use
+
+- Meaning: Safe for disciplined practice when bounded by Scripture, community, humility, and harm safeguards.
+- Examples: lament practices, repentance and repair, justice and mercy discernment
+
+### analogy_only
+
+- Meaning: Illuminating comparison that must not be treated as proof.
+- Examples: music resolution, science analogy, mathematical beauty
+
+### speculative_research_hypothesis
+
+- Meaning: Possible research direction that needs sources, counter-readings, and pressure tests before theological use.
+- Examples: new cross-cultural pattern candidates, emerging AI or consciousness parallels
+
+
+
+## Source Review Status
+
+_Source: `research_documents/source_review_status.json`_
+
+Track whether friction records and major claims have moved beyond provisional summary into source-specific review.
+
+Promotion rule: No friction record or major claim should rise above provisional confidence until primary-source review, counter-reading, and harm audit are complete.
+
+### Status Order
+
+- not_started
+- summary_mapped
+- primary_source_reviewed
+- counter_reading_added
+- ready_for_confidence_review
+
+### marcus-aurelius-stoicism
+
+- Target Type: friction_record
+- Current Status: summary_mapped
+- Next Review Step: Add selected passages from Meditations and at least one Stoic studies counter-reading.
+- Review Note: Useful for virtue and self-control, but must not be treated as identical with Christian sanctification.
+
+### nietzsche-power-and-moral-critique
+
+- Target Type: friction_record
+- Current Status: summary_mapped
+- Next Review Step: Add primary passages from Nietzsche on resentment, weakness, power, and critique of Christian morality.
+- Review Note: Use as diagnostic pressure, not as support for the Divine Pattern claim.
+
+### darwin-natural-selection-and-apparent-design
+
+- Target Type: friction_record
+- Current Status: summary_mapped
+- Next Review Step: Review Darwin plus qualified evolutionary biology and philosophy-of-science sources.
+- Review Note: Keep science claims out of gaps-based design proof.
+
+### DP-008
+
+- Target Type: claim_ledger_entry
+- Current Status: counter_reading_added
+- Next Review Step: Keep quantum and science references in analogy or guardrail status unless source scope changes.
+- Review Note: Science may teach humility and limits; it does not prove God, prayer, or consciousness.
+
+
+
+## What This Does Not Prove
+
+_Source: `research_documents/does_not_prove_boundaries.json`_
+
+State clear limits so Divine Pattern research does not overclaim.
+
+### Patterns do not mathematically prove God.
+
+- Why: Pattern recognition can support wonder, interpretation, and inquiry, but proof-language must not exceed source scope.
+
+### Patterns do not replace Scripture or revelation.
+
+- Why: Christian doctrine is grounded in God's self-disclosure, not in human pattern detection.
+
+### Patterns do not erase mystery.
+
+- Why: Trinity, incarnation, providence, suffering, and new creation exceed full creaturely explanation.
+
+### Patterns do not defeat every rival explanation.
+
+- Why: Psychology, sociology, biology, culture, politics, and literary form may explain many repeated signals.
+
+### Patterns do not make suffering easy to explain.
+
+- Why: The project must preserve lament, protest, patience, justice, and eschatological hope without premature closure.
+
+### Patterns do not certify institutions, leaders, or movements as faithful.
+
+- Why: Visible growth, order, or influence can coexist with corruption and harm.
+
 
 
 ## Pattern Distortion Layer
@@ -599,6 +799,66 @@ Compare Divine Pattern findings with major Christian thinkers throughout church 
 - Disagreements: The project must not turn reconciliation into a slogan that bypasses grief, truth, and costly repair.
 - Citations: Born from Lament, The Sacrifice of Africa
 
+### V. S. Azariah
+
+- Era: Modern
+- Tradition: Indian Anglican
+- Key Themes: mission, friendship, colonial critique, church unity
+- Relevant Patterns: Community, Historical Witnesses, Friction Layer
+- Agreements: Pressures Christian witness to be marked by friendship, humility, and freedom from colonial superiority.
+- Disagreements: Pattern claims about mission must be tested against power imbalance and cultural domination.
+- Citations: The Problem of Co-operation Between Foreign and Native Workers
+
+### Kosuke Koyama
+
+- Era: Contemporary
+- Tradition: Japanese Protestant
+- Key Themes: slow theology, mission, suffering, neighbor-love
+- Relevant Patterns: Practical Theology, Cross And Reversal Pattern, Pastoral Fruit
+- Agreements: Supports patient, neighbor-centered theology that resists triumphalist speed and abstraction.
+- Disagreements: The project must not turn pattern recognition into hurried certainty.
+- Citations: Waterbuffalo Theology, Three Mile an Hour God
+
+### Mercy Amba Oduyoye
+
+- Era: Contemporary
+- Tradition: African feminist theology
+- Key Themes: African women, community, liberation, culture, church
+- Relevant Patterns: Image Of God Pattern, Community, Ethical Harm Audit
+- Agreements: Pressures the project to test dignity, community, and justice through the lived experience of African women.
+- Disagreements: Claims that ignore gendered harm, exclusion, or cultural misuse should be downgraded.
+- Citations: Introducing African Women's Theology, Daughters of Anowa
+
+### Gustavo Gutierrez
+
+- Era: Contemporary
+- Tradition: Latin American Catholic liberation theology
+- Key Themes: liberation, poor, justice, praxis, hope
+- Relevant Patterns: Justice And Mercy, Practical Theology, Friction Layer
+- Agreements: Supports theology as reflection joined to concrete love for the poor and oppressed.
+- Disagreements: Pattern claims must not spiritualize poverty or treat justice as an optional application.
+- Citations: A Theology of Liberation, We Drink from Our Own Wells
+
+### Sergius Bulgakov
+
+- Era: Modern
+- Tradition: Eastern Orthodox
+- Key Themes: Sophia, creation, incarnation, beauty, economy
+- Relevant Patterns: Creation-To-Consciousness Pattern, Mystery Layer, Christological Layer
+- Agreements: Offers Orthodox resources for creation, beauty, and incarnation while keeping mystery visible.
+- Disagreements: Speculative metaphysical language requires careful doctrinal review and tradition-specific context.
+- Citations: The Lamb of God, The Comforter
+
+### Howard Thurman
+
+- Era: Modern
+- Tradition: Black church / mystic theology
+- Key Themes: Jesus, oppressed, inward life, nonviolence, dignity
+- Relevant Patterns: Image Of God Pattern, Cross And Reversal Pattern, Pastoral Fruit
+- Agreements: Pressures Christian pattern language to address fear, deception, hatred, and survival under oppression.
+- Disagreements: Claims about peace or reconciliation must not ignore conditions faced by the disinherited.
+- Citations: Jesus and the Disinherited
+
 
 
 ## Mystery Layer
@@ -718,6 +978,56 @@ Test whether pattern claims produce truthful love, justice, humility, repentance
 - The claim cannot name what would falsify, weaken, or revise it.
 
 Required fruit: truth, love, humility, justice, repentance, repair, worship, patience, faithfulness
+
+
+## Science Guardrail Layer
+
+_Source: `research_documents/science_guardrail_layer.json`_
+
+Keep scientific material useful, qualified, and protected from gaps-based theological overclaiming.
+
+Core rule: Science can pressure-test, clarify, and humble Divine Pattern claims, but it should not be used as a shortcut proof of God.
+
+### Evolution and Creation
+
+- Scientific Domain: Biology
+- Guardrail: Honor natural selection, common descent, and biological mechanisms without making faith depend on gaps in explanation.
+- Theological Use: Creation may be confessed as sustained gift and providence while respecting scientific accounts of creaturely processes.
+- Misuse Risk: Using unexplained complexity as proof or treating evolution as automatically anti-Christian.
+- Needed Sources: qualified evolutionary biology, philosophy of biology, theology of creation
+
+### Cosmology and Finitude
+
+- Scientific Domain: Cosmology / Physics
+- Guardrail: Do not turn cosmological models into simplistic proof-texts.
+- Theological Use: Cosmology can invite wonder about contingency, intelligibility, and creaturely limits.
+- Misuse Risk: Forcing God into model gaps or ignoring scientific uncertainty.
+- Needed Sources: qualified cosmology, philosophy of science, doctrine of creation
+
+### Neuroscience and Consciousness
+
+- Scientific Domain: Neuroscience / Philosophy of Mind
+- Guardrail: Respect embodied cognition and brain science without reducing persons to mechanisms or using consciousness as a quick proof of God.
+- Theological Use: Supports humility about embodiment, personhood, agency, disability, and the mystery of mind.
+- Misuse Risk: Ignoring trauma, disability, mental illness, or ordinary biological explanation.
+- Needed Sources: neuroscience, philosophy of mind, theological anthropology, disability theology
+
+### Quantum Language
+
+- Scientific Domain: Quantum Physics
+- Guardrail: Use quantum theory only within qualified source scope; do not use it to prove prayer, miracles, consciousness, or mystical connection.
+- Theological Use: May support humility about measurement, probability, causality, and interpretation.
+- Misuse Risk: Popular quantum mysticism or metaphor promoted to evidence.
+- Needed Sources: qualified quantum physics, philosophy of physics, science communication
+
+### AI and Pattern Recognition
+
+- Scientific Domain: Computer Science / AI
+- Guardrail: Machine pattern detection can organize evidence but cannot settle truth, doctrine, or spiritual discernment.
+- Theological Use: Useful for retrieval, comparison, review queues, and humility about false positives.
+- Misuse Risk: Treating model output as authority or confusing correlation with revelation.
+- Needed Sources: AI evaluation, epistemology, theological method, ethics
+
 
 
 ## AI Knowledge Backend
@@ -10838,6 +11148,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 3
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: resolved_with_christian_resolution
 - Claim Classification: supportive_with_caution
 - Domain: Philosophy <-> Theology
@@ -10867,6 +11181,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: partially_resolved
 - Claim Classification: supportive_with_caution
 - Domain: Philosophy <-> Theology
@@ -10896,6 +11214,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: partially_resolved
 - Claim Classification: supportive_with_caution
 - Domain: Philosophy <-> Theology
@@ -10925,6 +11247,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 3
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: resolved_with_christian_resolution
 - Claim Classification: supportive_with_caution
 - Domain: Philosophy <-> Theology
@@ -10954,6 +11280,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 3
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: resolved_with_christian_resolution
 - Claim Classification: supportive_with_caution
 - Domain: Philosophy <-> Theology
@@ -10983,6 +11313,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: partially_resolved
 - Claim Classification: diagnostic_friction
 - Domain: Philosophy <-> Theology
@@ -11012,6 +11346,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: partially_resolved
 - Claim Classification: supportive_with_caution
 - Domain: Philosophy <-> Theology
@@ -11041,6 +11379,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: unresolved
 - Claim Classification: challenge_or_negative_pressure
 - Domain: Politics / Economics <-> Theology
@@ -11070,6 +11412,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: unresolved
 - Claim Classification: challenge_or_negative_pressure
 - Domain: Psychology <-> Theology
@@ -11099,6 +11445,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: unresolved
 - Claim Classification: challenge_or_negative_pressure
 - Domain: Philosophy <-> Theology
@@ -11128,6 +11478,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: unresolved
 - Claim Classification: challenge_or_negative_pressure
 - Domain: Existentialism <-> Theology
@@ -11157,6 +11511,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: partially_resolved
 - Claim Classification: diagnostic_friction
 - Domain: Existentialism <-> Theology
@@ -11186,6 +11544,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_science_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: unresolved
 - Claim Classification: challenge_or_negative_pressure
 - Domain: Science <-> Theology
@@ -11215,6 +11577,10 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 - Insight Value: 2
 - Confidence: provisional
 - Review Status: needs_primary_source_review
+- Source Review Stage: summary_mapped
+- Primary Source Review: pending
+- Counter-Reading Status: pending
+- Confidence Review Ready: False
 - Resolution Status: unresolved
 - Claim Classification: challenge_or_negative_pressure
 - Domain: Culture / Politics <-> Theology

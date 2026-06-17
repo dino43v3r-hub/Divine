@@ -1,0 +1,36 @@
+{
+  "section": "Tradition and Doctrine Labels",
+  "purpose": "Mark whether a claim belongs to core Christian confession, broad Christian agreement, contested doctrine, practical theology, analogy, or speculative research.",
+  "labels": [
+    {
+      "id": "nicene_core",
+      "meaning": "Belongs to core Trinitarian and Christological confession shared by historic Nicene Christianity.",
+      "examples": ["Trinity", "Incarnation", "Christ's lordship", "resurrection"]
+    },
+    {
+      "id": "broad_christian_agreement",
+      "meaning": "Widely affirmed across many Christian traditions, while details may differ.",
+      "examples": ["creation", "sin", "grace", "judgment", "new creation"]
+    },
+    {
+      "id": "contested_christian_doctrine",
+      "meaning": "Christian traditions disagree on formulation, scope, or application.",
+      "examples": ["providence and freedom", "spiritual gifts", "sanctification models", "church authority"]
+    },
+    {
+      "id": "practical_theology_use",
+      "meaning": "Safe for disciplined practice when bounded by Scripture, community, humility, and harm safeguards.",
+      "examples": ["lament practices", "repentance and repair", "justice and mercy discernment"]
+    },
+    {
+      "id": "analogy_only",
+      "meaning": "Illuminating comparison that must not be treated as proof.",
+      "examples": ["music resolution", "science analogy", "mathematical beauty"]
+    },
+    {
+      "id": "speculative_research_hypothesis",
+      "meaning": "Possible research direction that needs sources, counter-readings, and pressure tests before theological use.",
+      "examples": ["new cross-cultural pattern candidates", "emerging AI or consciousness parallels"]
+    }
+  ]
+}

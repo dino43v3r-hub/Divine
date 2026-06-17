@@ -45,12 +45,17 @@ Additional theological architecture files are stored in `research_documents/`:
 - `theological_foundations.json`
 - `theological_method_guardrails.json`
 - `creedal_guardrails.json`
+- `claim_ledger_connections.json`
+- `tradition_claim_labels.json`
+- `source_review_status.json`
+- `does_not_prove_boundaries.json`
 - `pattern_distortion_layer.json`
 - `christological_layer.json`
 - `historical_witnesses.json`
 - `mystery_layer.json`
 - `negative_case_records.json`
 - `ethical_harm_audit.json`
+- `science_guardrail_layer.json`
 - `project_architecture.json`
 
 The method and guardrail layers define how pattern claims are weighed. They keep

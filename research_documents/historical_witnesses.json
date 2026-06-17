@@ -332,6 +332,140 @@
         "Born from Lament",
         "The Sacrifice of Africa"
       ]
+    },
+    {
+      "name": "V. S. Azariah",
+      "era": "Modern",
+      "tradition": "Indian Anglican",
+      "key_themes": [
+        "mission",
+        "friendship",
+        "colonial critique",
+        "church unity"
+      ],
+      "relevant_patterns": [
+        "Community",
+        "Historical Witnesses",
+        "Friction Layer"
+      ],
+      "agreements": "Pressures Christian witness to be marked by friendship, humility, and freedom from colonial superiority.",
+      "disagreements": "Pattern claims about mission must be tested against power imbalance and cultural domination.",
+      "citations": [
+        "The Problem of Co-operation Between Foreign and Native Workers"
+      ]
+    },
+    {
+      "name": "Kosuke Koyama",
+      "era": "Contemporary",
+      "tradition": "Japanese Protestant",
+      "key_themes": [
+        "slow theology",
+        "mission",
+        "suffering",
+        "neighbor-love"
+      ],
+      "relevant_patterns": [
+        "Practical Theology",
+        "Cross And Reversal Pattern",
+        "Pastoral Fruit"
+      ],
+      "agreements": "Supports patient, neighbor-centered theology that resists triumphalist speed and abstraction.",
+      "disagreements": "The project must not turn pattern recognition into hurried certainty.",
+      "citations": [
+        "Waterbuffalo Theology",
+        "Three Mile an Hour God"
+      ]
+    },
+    {
+      "name": "Mercy Amba Oduyoye",
+      "era": "Contemporary",
+      "tradition": "African feminist theology",
+      "key_themes": [
+        "African women",
+        "community",
+        "liberation",
+        "culture",
+        "church"
+      ],
+      "relevant_patterns": [
+        "Image Of God Pattern",
+        "Community",
+        "Ethical Harm Audit"
+      ],
+      "agreements": "Pressures the project to test dignity, community, and justice through the lived experience of African women.",
+      "disagreements": "Claims that ignore gendered harm, exclusion, or cultural misuse should be downgraded.",
+      "citations": [
+        "Introducing African Women's Theology",
+        "Daughters of Anowa"
+      ]
+    },
+    {
+      "name": "Gustavo Gutierrez",
+      "era": "Contemporary",
+      "tradition": "Latin American Catholic liberation theology",
+      "key_themes": [
+        "liberation",
+        "poor",
+        "justice",
+        "praxis",
+        "hope"
+      ],
+      "relevant_patterns": [
+        "Justice And Mercy",
+        "Practical Theology",
+        "Friction Layer"
+      ],
+      "agreements": "Supports theology as reflection joined to concrete love for the poor and oppressed.",
+      "disagreements": "Pattern claims must not spiritualize poverty or treat justice as an optional application.",
+      "citations": [
+        "A Theology of Liberation",
+        "We Drink from Our Own Wells"
+      ]
+    },
+    {
+      "name": "Sergius Bulgakov",
+      "era": "Modern",
+      "tradition": "Eastern Orthodox",
+      "key_themes": [
+        "Sophia",
+        "creation",
+        "incarnation",
+        "beauty",
+        "economy"
+      ],
+      "relevant_patterns": [
+        "Creation-To-Consciousness Pattern",
+        "Mystery Layer",
+        "Christological Layer"
+      ],
+      "agreements": "Offers Orthodox resources for creation, beauty, and incarnation while keeping mystery visible.",
+      "disagreements": "Speculative metaphysical language requires careful doctrinal review and tradition-specific context.",
+      "citations": [
+        "The Lamb of God",
+        "The Comforter"
+      ]
+    },
+    {
+      "name": "Howard Thurman",
+      "era": "Modern",
+      "tradition": "Black church / mystic theology",
+      "key_themes": [
+        "Jesus",
+        "oppressed",
+        "inward life",
+        "nonviolence",
+        "dignity"
+      ],
+      "relevant_patterns": [
+        "Image Of God Pattern",
+        "Cross And Reversal Pattern",
+        "Pastoral Fruit"
+      ],
+      "agreements": "Pressures Christian pattern language to address fear, deception, hatred, and survival under oppression.",
+      "disagreements": "Claims about peace or reconciliation must not ignore conditions faced by the disinherited.",
+      "citations": [
+        "Jesus and the Disinherited"
+      ]
     }
   ]
 }

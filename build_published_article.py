@@ -21,6 +21,11 @@ THEOLOGICAL_METHOD_PATH = Path("research_documents/theological_method_guardrails
 CREEDAL_GUARDRAILS_PATH = Path("research_documents/creedal_guardrails.json")
 NEGATIVE_CASES_PATH = Path("research_documents/negative_case_records.json")
 ETHICAL_HARM_AUDIT_PATH = Path("research_documents/ethical_harm_audit.json")
+SOURCE_REVIEW_STATUS_PATH = Path("research_documents/source_review_status.json")
+CLAIM_LEDGER_CONNECTIONS_PATH = Path("research_documents/claim_ledger_connections.json")
+TRADITION_LABELS_PATH = Path("research_documents/tradition_claim_labels.json")
+DOES_NOT_PROVE_PATH = Path("research_documents/does_not_prove_boundaries.json")
+SCIENCE_GUARDRAIL_PATH = Path("research_documents/science_guardrail_layer.json")
 
 SOURCE_REPORTS = {
     "backend": Path("reports/ai_backend_report.txt"),
@@ -313,6 +318,14 @@ def friction_layer_lines(records: list[dict]) -> list[str]:
                 "",
                 f"**Review Status:** {record.get('review_status', 'unreviewed')}",
                 "",
+                f"**Source Review Stage:** {record.get('source_review_stage', '')}",
+                "",
+                f"**Primary Source Review:** {record.get('primary_source_review', '')}",
+                "",
+                f"**Counter-Reading Status:** {record.get('counter_reading_status', '')}",
+                "",
+                f"**Confidence Review Ready:** {record.get('confidence_review_ready', '')}",
+                "",
                 f"**Resolution Status:** {record.get('resolution_status', 'unrated')}",
                 "",
                 f"**Claim Classification:** {record.get('claim_classification', '')}",
@@ -476,6 +489,127 @@ def ethical_harm_audit_lines(layer: dict) -> list[str]:
     lines.extend(["", "Downgrade triggers:"])
     lines.extend(f"- {item}" for item in layer.get("downgrade_triggers", []))
     lines.extend(["", f"Required fruit: {', '.join(layer.get('required_fruit', []))}"])
+    return lines
+
+
+def source_review_status_lines(layer: dict) -> list[str]:
+    records = layer.get("records", []) if layer else []
+    if not records:
+        return ["No source review status records yet."]
+
+    lines = [layer.get("purpose", ""), "", f"**Promotion Rule:** {layer.get('promotion_rule', '')}", ""]
+    lines.extend(["Status order:"])
+    lines.extend(f"- {item}" for item in layer.get("status_order", []))
+    lines.append("")
+    for record in records:
+        lines.extend(
+            [
+                f"### {record.get('target_id', 'Target')}",
+                "",
+                f"**Target Type:** {record.get('target_type', '')}",
+                "",
+                f"**Current Status:** {record.get('current_status', '')}",
+                "",
+                f"**Next Review Step:** {record.get('next_review_step', '')}",
+                "",
+                f"**Review Note:** {record.get('review_note', '')}",
+                "",
+            ]
+        )
+    return lines
+
+
+def claim_ledger_connection_lines(layer: dict) -> list[str]:
+    claims = layer.get("claims", []) if layer else []
+    if not claims:
+        return ["No claim ledger connections yet."]
+
+    lines = [layer.get("purpose", ""), "", f"**Connection Rule:** {layer.get('connection_rule', '')}", ""]
+    for claim in claims:
+        lines.extend(
+            [
+                f"### {claim.get('id', 'Claim')}",
+                "",
+                f"**Claim:** {claim.get('claim', '')}",
+                "",
+                f"**Tradition Label:** {claim.get('tradition_label', '')}",
+                "",
+                f"**Scripture Anchor:** {', '.join(claim.get('scripture_anchor', []))}",
+                "",
+                f"**Evidence Links:** {', '.join(claim.get('evidence_links', []))}",
+                "",
+                f"**Friction Links:** {', '.join(claim.get('friction_links', []))}",
+                "",
+                f"**Confidence:** {claim.get('confidence', '')}",
+                "",
+                f"**What Would Weaken It:** {claim.get('what_would_weaken_it', '')}",
+                "",
+            ]
+        )
+    return lines
+
+
+def tradition_label_lines(layer: dict) -> list[str]:
+    labels = layer.get("labels", []) if layer else []
+    if not labels:
+        return ["No tradition labels yet."]
+
+    lines = [layer.get("purpose", ""), ""]
+    for label in labels:
+        lines.extend(
+            [
+                f"### {label.get('id', 'label')}",
+                "",
+                f"**Meaning:** {label.get('meaning', '')}",
+                "",
+                f"**Examples:** {', '.join(label.get('examples', []))}",
+                "",
+            ]
+        )
+    return lines
+
+
+def does_not_prove_lines(layer: dict) -> list[str]:
+    boundaries = layer.get("boundaries", []) if layer else []
+    if not boundaries:
+        return ["No boundary records yet."]
+
+    lines = [layer.get("purpose", ""), ""]
+    for boundary in boundaries:
+        lines.extend(
+            [
+                f"### {boundary.get('claim_limit', 'Limit')}",
+                "",
+                f"**Why:** {boundary.get('why', '')}",
+                "",
+            ]
+        )
+    return lines
+
+
+def science_guardrail_lines(layer: dict) -> list[str]:
+    records = layer.get("records", []) if layer else []
+    if not records:
+        return ["No science guardrail records yet."]
+
+    lines = [layer.get("purpose", ""), "", f"**Core Rule:** {layer.get('core_rule', '')}", ""]
+    for record in records:
+        lines.extend(
+            [
+                f"### {record.get('topic', 'Science Topic')}",
+                "",
+                f"**Scientific Domain:** {record.get('scientific_domain', '')}",
+                "",
+                f"**Guardrail:** {record.get('guardrail', '')}",
+                "",
+                f"**Theological Use:** {record.get('theological_use', '')}",
+                "",
+                f"**Misuse Risk:** {record.get('misuse_risk', '')}",
+                "",
+                f"**Needed Sources:** {', '.join(record.get('needed_sources', []))}",
+                "",
+            ]
+        )
     return lines
 
 
@@ -673,6 +807,11 @@ def build_article() -> str:
     creedal_guardrails = read_layer(CREEDAL_GUARDRAILS_PATH)
     negative_cases = read_layer(NEGATIVE_CASES_PATH)
     ethical_harm_audit = read_layer(ETHICAL_HARM_AUDIT_PATH)
+    source_review_status = read_layer(SOURCE_REVIEW_STATUS_PATH)
+    claim_ledger_connections = read_layer(CLAIM_LEDGER_CONNECTIONS_PATH)
+    tradition_labels = read_layer(TRADITION_LABELS_PATH)
+    does_not_prove = read_layer(DOES_NOT_PROVE_PATH)
+    science_guardrail = read_layer(SCIENCE_GUARDRAIL_PATH)
 
     lines = [
         "# Divine Pattern Research",
@@ -702,6 +841,22 @@ def build_article() -> str:
         "## Creedal And Rule Of Faith Guardrails",
         "",
         *creedal_guardrail_lines(creedal_guardrails),
+        "",
+        "## Claim Ledger Connections",
+        "",
+        *claim_ledger_connection_lines(claim_ledger_connections),
+        "",
+        "## Tradition And Doctrine Labels",
+        "",
+        *tradition_label_lines(tradition_labels),
+        "",
+        "## Source Review Status",
+        "",
+        *source_review_status_lines(source_review_status),
+        "",
+        "## What This Does Not Prove",
+        "",
+        *does_not_prove_lines(does_not_prove),
         "",
         "## Pattern Found So Far",
         "",
@@ -768,6 +923,9 @@ def build_article() -> str:
         "## Pastoral And Ethical Harm Audit",
         "",
         *ethical_harm_audit_lines(ethical_harm_audit),
+        "## Science Guardrail Layer",
+        "",
+        *science_guardrail_lines(science_guardrail),
         "## The Five Leading Pattern Families",
         "",
     ]

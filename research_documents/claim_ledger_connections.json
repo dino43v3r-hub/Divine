@@ -1,0 +1,47 @@
+{
+  "section": "Claim Ledger Connections",
+  "purpose": "Connect major Divine Pattern claims to evidence, Scripture anchors, friction records, confidence levels, and weakening conditions.",
+  "connection_rule": "Every major claim should be auditable from claim to source, Scripture, friction, confidence, and failure condition.",
+  "claims": [
+    {
+      "id": "DP-001",
+      "claim": "Scripture contains recurring typological correspondences that Christians read as divinely intended.",
+      "tradition_label": "broad_christian_with_interpretive_disagreement",
+      "scripture_anchor": ["Luke 24:27", "John 5:39", "1 Corinthians 10:1-11", "Hebrews 10:1"],
+      "evidence_links": ["claim_ledger.md", "theologians/patristic_source_notes.md", "biblical_languages/source_specific_counterreadings.md"],
+      "friction_links": ["hume-reason-passion-and-moral-sentiment", "foucault-power-knowledge-and-discipline"],
+      "confidence": "developing_evidence",
+      "what_would_weaken_it": "Typological readings that ignore original context, Jewish interpretation, historical setting, or genre should be narrowed or rejected."
+    },
+    {
+      "id": "DP-004",
+      "claim": "Father creates and sustains, Son/Logos reveals and redeems, Holy Spirit makes redemption present through communion and transformation.",
+      "tradition_label": "nicene_core_with_pattern_caution",
+      "scripture_anchor": ["Matthew 28:19", "John 1:1-18", "2 Corinthians 13:14", "Colossians 1:15-20"],
+      "evidence_links": ["research_documents/creedal_guardrails.json", "research_documents/mystery_layer.json", "research_documents/christological_layer.json"],
+      "friction_links": ["feuerbach-projection-and-theology", "foucault-power-knowledge-and-discipline"],
+      "confidence": "theological_interpretation",
+      "what_would_weaken_it": "Any pattern rendering that collapses the persons of the Trinity, treats Christ as a symbol, or turns the Spirit into generic energy must be rejected."
+    },
+    {
+      "id": "DP-008",
+      "claim": "Quantum or science references may support humility about causality and knowledge, but they do not prove prayer, consciousness, or God.",
+      "tradition_label": "method_guardrail",
+      "scripture_anchor": ["Job 38:1-7", "Psalm 19:1-4", "Colossians 1:15-20"],
+      "evidence_links": ["deep_sources/qualified_science_reference_review_notes.md", "research_documents/science_guardrail_layer.json"],
+      "friction_links": ["darwin-natural-selection-and-apparent-design"],
+      "confidence": "analogy_only",
+      "what_would_weaken_it": "Any claim that uses technical science language outside its source scope must be downgraded."
+    },
+    {
+      "id": "DP-009",
+      "claim": "A divine pattern must become practical theology: attention, repentance, lament, vocation, community, justice, and hope in daily life.",
+      "tradition_label": "practical_theology_use",
+      "scripture_anchor": ["Micah 6:8", "Matthew 22:37-40", "James 1:22-27", "Galatians 5:22-25"],
+      "evidence_links": ["research_documents/ethical_harm_audit.json", "research_documents/practical_theology_pattern_use.md"],
+      "friction_links": ["marx-religion-and-material-conditions", "foucault-power-knowledge-and-discipline", "camus-absurd-suffering-and-silence"],
+      "confidence": "practical_theology_use",
+      "what_would_weaken_it": "If a pattern produces control, denial, injustice, or bypassing lament, it has failed as practical theology."
+    }
+  ]
+}

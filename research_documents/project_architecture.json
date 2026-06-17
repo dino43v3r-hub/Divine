@@ -67,6 +67,31 @@
       "Justice",
       "Repair",
       "Pastoral Fruit"
+    ],
+    "CLAIM LEDGER": [
+      "Claim Connections",
+      "Tradition Labels",
+      "Confidence Status",
+      "Weakening Conditions"
+    ],
+    "SOURCE REVIEW": [
+      "Review Status",
+      "Primary Sources",
+      "Counter-Readings",
+      "Promotion Readiness"
+    ],
+    "DOES NOT PROVE": [
+      "No Mathematical Proof",
+      "No Replacement For Scripture",
+      "No Erasure Of Mystery",
+      "No Defeat Of Every Rival Explanation"
+    ],
+    "SCIENCE GUARDRAILS": [
+      "Evolution",
+      "Cosmology",
+      "Neuroscience",
+      "Quantum Language",
+      "AI Pattern Recognition"
     ]
   }
 }

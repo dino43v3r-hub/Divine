@@ -1,0 +1,42 @@
+{
+  "section": "Source Review Status",
+  "purpose": "Track whether friction records and major claims have moved beyond provisional summary into source-specific review.",
+  "status_order": [
+    "not_started",
+    "summary_mapped",
+    "primary_source_reviewed",
+    "counter_reading_added",
+    "ready_for_confidence_review"
+  ],
+  "promotion_rule": "No friction record or major claim should rise above provisional confidence until primary-source review, counter-reading, and harm audit are complete.",
+  "records": [
+    {
+      "target_id": "marcus-aurelius-stoicism",
+      "target_type": "friction_record",
+      "current_status": "summary_mapped",
+      "next_review_step": "Add selected passages from Meditations and at least one Stoic studies counter-reading.",
+      "review_note": "Useful for virtue and self-control, but must not be treated as identical with Christian sanctification."
+    },
+    {
+      "target_id": "nietzsche-power-and-moral-critique",
+      "target_type": "friction_record",
+      "current_status": "summary_mapped",
+      "next_review_step": "Add primary passages from Nietzsche on resentment, weakness, power, and critique of Christian morality.",
+      "review_note": "Use as diagnostic pressure, not as support for the Divine Pattern claim."
+    },
+    {
+      "target_id": "darwin-natural-selection-and-apparent-design",
+      "target_type": "friction_record",
+      "current_status": "summary_mapped",
+      "next_review_step": "Review Darwin plus qualified evolutionary biology and philosophy-of-science sources.",
+      "review_note": "Keep science claims out of gaps-based design proof."
+    },
+    {
+      "target_id": "DP-008",
+      "target_type": "claim_ledger_entry",
+      "current_status": "counter_reading_added",
+      "next_review_step": "Keep quantum and science references in analogy or guardrail status unless source scope changes.",
+      "review_note": "Science may teach humility and limits; it does not prove God, prayer, or consciousness."
+    }
+  ]
+}

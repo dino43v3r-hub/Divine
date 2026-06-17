@@ -1,0 +1,52 @@
+{
+  "section": "Science Guardrail Layer",
+  "purpose": "Keep scientific material useful, qualified, and protected from gaps-based theological overclaiming.",
+  "core_rule": "Science can pressure-test, clarify, and humble Divine Pattern claims, but it should not be used as a shortcut proof of God.",
+  "records": [
+    {
+      "id": "evolution-and-creation",
+      "topic": "Evolution and Creation",
+      "scientific_domain": "Biology",
+      "guardrail": "Honor natural selection, common descent, and biological mechanisms without making faith depend on gaps in explanation.",
+      "theological_use": "Creation may be confessed as sustained gift and providence while respecting scientific accounts of creaturely processes.",
+      "misuse_risk": "Using unexplained complexity as proof or treating evolution as automatically anti-Christian.",
+      "needed_sources": ["qualified evolutionary biology", "philosophy of biology", "theology of creation"]
+    },
+    {
+      "id": "cosmology-and-finitude",
+      "topic": "Cosmology and Finitude",
+      "scientific_domain": "Cosmology / Physics",
+      "guardrail": "Do not turn cosmological models into simplistic proof-texts.",
+      "theological_use": "Cosmology can invite wonder about contingency, intelligibility, and creaturely limits.",
+      "misuse_risk": "Forcing God into model gaps or ignoring scientific uncertainty.",
+      "needed_sources": ["qualified cosmology", "philosophy of science", "doctrine of creation"]
+    },
+    {
+      "id": "neuroscience-and-consciousness",
+      "topic": "Neuroscience and Consciousness",
+      "scientific_domain": "Neuroscience / Philosophy of Mind",
+      "guardrail": "Respect embodied cognition and brain science without reducing persons to mechanisms or using consciousness as a quick proof of God.",
+      "theological_use": "Supports humility about embodiment, personhood, agency, disability, and the mystery of mind.",
+      "misuse_risk": "Ignoring trauma, disability, mental illness, or ordinary biological explanation.",
+      "needed_sources": ["neuroscience", "philosophy of mind", "theological anthropology", "disability theology"]
+    },
+    {
+      "id": "quantum-language",
+      "topic": "Quantum Language",
+      "scientific_domain": "Quantum Physics",
+      "guardrail": "Use quantum theory only within qualified source scope; do not use it to prove prayer, miracles, consciousness, or mystical connection.",
+      "theological_use": "May support humility about measurement, probability, causality, and interpretation.",
+      "misuse_risk": "Popular quantum mysticism or metaphor promoted to evidence.",
+      "needed_sources": ["qualified quantum physics", "philosophy of physics", "science communication"]
+    },
+    {
+      "id": "ai-pattern-recognition",
+      "topic": "AI and Pattern Recognition",
+      "scientific_domain": "Computer Science / AI",
+      "guardrail": "Machine pattern detection can organize evidence but cannot settle truth, doctrine, or spiritual discernment.",
+      "theological_use": "Useful for retrieval, comparison, review queues, and humility about false positives.",
+      "misuse_risk": "Treating model output as authority or confusing correlation with revelation.",
+      "needed_sources": ["AI evaluation", "epistemology", "theological method", "ethics"]
+    }
+  ]
+}
