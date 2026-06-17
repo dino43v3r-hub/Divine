@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-17 17:34 UTC_
+_Generated: 2026-06-17 17:50 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -39,18 +39,18 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 112
-- developing evidence: 301
+- developing evidence: 339
 - ready for human confidence review: 1
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 28 present; 386 missing of 414
-- analogy: 47 present; 367 missing of 414
-- failure_condition: 93 present; 321 missing of 414
-- machine_label_boundary: 244 present; 170 missing of 414
-- discernment: 233 present; 181 missing of 414
+- interpretation: 29 present; 423 missing of 452
+- analogy: 47 present; 405 missing of 452
+- failure_condition: 94 present; 358 missing of 452
+- machine_label_boundary: 282 present; 170 missing of 452
+- discernment: 245 present; 207 missing of 452
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions.
 
@@ -98,10 +98,10 @@ Nothing technical. Read `reports/divine_pattern_findings.md` when you want the c
 
 ## Current Corpus Snapshot
 
-- Retained cloud candidate references: 6,923
-- Brand-new candidate references this run: 707
-- New provider mix: Crossref: 377, OpenAlex: 283, arXiv: 25, PubMed: 10, Tavily Search: 7, Internet Archive: 5
-- New candidate references in latest discovery run: 707
+- Retained cloud candidate references: 7,010
+- Brand-new candidate references this run: 87
+- New provider mix: Crossref: 59, OpenAlex: 23, Internet Archive: 5
+- New candidate references in latest discovery run: 87
 
 - Rated records: 14
 - Supportive after caution/resolution: 6

@@ -16,7 +16,7 @@ It stores summaries and citations only, not full copyrighted source text.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1075/pbns.32.08lak
 
 No summary available in metadata.
@@ -34,7 +34,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 4411
+- Corroborating routed candidates: 4466
 - URL: https://doi.org/10.1098/rsif.2013.1030
 
 The concept of reproducibility is widely considered a cornerstone of scientific methodology.
@@ -59,7 +59,7 @@ this reason, we pro
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2985
+- Corroborating routed candidates: 3027
 - URL: https://lirias.kuleuven.be/handle/123456789/261821
 
 OpenAlex abstract metadata available.
@@ -77,7 +77,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.25236/icclah.18.020
 
 No summary available in metadata.
@@ -95,7 +95,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2640
+- Corroborating routed candidates: 2672
 - URL: https://doi.org/10.22425/jul.2025.26.1.69
 
 OpenAlex abstract metadata available.
@@ -113,7 +113,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2985
+- Corroborating routed candidates: 3027
 - URL: https://doi.org/10.3389/fpsyg.2025.1763648
 
 Psychological trauma often disrupts both bodily regulation and personal narrative, making it hard
@@ -138,7 +138,7 @@ expression, sha
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2986
+- Corroborating routed candidates: 3028
 - URL: https://www.jbe-platform.com/content/journals/10.1075/arcl.3.19brd?crawler=true&mimetype=application%2Fpdf
 
 The author takes the “linguistica ancilla theologiae”-perspective and argues for an asymmetrical
@@ -157,7 +157,7 @@ interdisciplinary approach by applying cognitive semantics,.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1177/14634996221130834
 
 OpenAlex abstract metadata available.
@@ -175,7 +175,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9780203047750-8
 
 No summary available in metadata.
@@ -193,7 +193,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9780203290903
 
 No summary available in metadata.
@@ -211,7 +211,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9780203047750-14
 
 No summary available in metadata.
@@ -229,7 +229,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1057/9780230378926_6
 
 No summary available in metadata.
@@ -247,7 +247,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9780203047750
 
 No summary available in metadata.
@@ -265,7 +265,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1353/earl.2000.0026
 
 No summary available in metadata.
@@ -283,7 +283,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1002/9781119234661.ch2
 
 No summary available in metadata.
@@ -301,7 +301,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.5325/j.ctv1bxgzv8.15
 
 No summary available in metadata.
@@ -319,26 +319,8 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1093/acprof:oso/9780199344697.003.0006
-
-No summary available in metadata.
-
-## Sacred Texts and Sacred Traditions
-
-- Tags: world_languages_translation
-- Layer routes: world_languages, all_texts
-- Primary layer: world_languages
-- Provider: Crossref
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: moderate_scholarly_candidate (9)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
-- URL: https://doi.org/10.2307/j.ctvz0hc5f.7
 
 No summary available in metadata.
 
@@ -355,7 +337,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.24043/isj.19
 
 OpenAlex abstract metadata available.
@@ -373,7 +355,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1111/j.1467-9647.2011.00738.x
 
 No summary available in metadata.
@@ -391,7 +373,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1109/access.2022.3152266
 
 OpenAlex abstract metadata available.
@@ -409,8 +391,26 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9781315760483-3
+
+No summary available in metadata.
+
+## Semantics and grammar I
+
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts
+- Primary layer: world_languages
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Corroborating routed candidates: 1653
+- URL: https://doi.org/10.1017/cbo9780511620614.003
 
 No summary available in metadata.
 
@@ -427,7 +427,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1017/cbo9780511620614.005
 
 No summary available in metadata.
@@ -445,7 +445,7 @@ No summary available in metadata.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2640
+- Corroborating routed candidates: 2672
 - URL: https://doi.org/10.1093/oxfordhb/9780199573776.013.9
 
 This chapter considers the part semantics plays in Universal Grammar. The core cases considered
@@ -468,7 +468,7 @@ also the ways in which they are taken apart in derivations again by Merge (self-
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1080/21692327.2023.2169743
 
 No summary available in metadata.
@@ -486,7 +486,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2640
+- Corroborating routed candidates: 2672
 - URL: https://doi.org/10.46586/er.10.2019.8365
 
 Rituals obviously utilize the human senses. Theological and mystical interpretations frequently
@@ -511,7 +511,7 @@ ritual the
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 3020
+- Corroborating routed candidates: 3059
 - URL: https://doi.org/10.1057/s41599-024-04181-0
 
 OpenAlex abstract metadata available.
@@ -529,7 +529,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.3389/fpsyt.2026.1795945
 
 Ngā māuiui kai (eating disorders) are understood within a Māori worldview as a manifestation of
@@ -554,7 +554,7 @@ patient-centred psychotherapy, prov
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1017/s0047404511000480
 
 OpenAlex abstract metadata available.
@@ -572,7 +572,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1163/157006802760198776
 
 OpenAlex abstract metadata available.
@@ -590,7 +590,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2641
+- Corroborating routed candidates: 2673
 - URL: https://archive.org/details/sri-sundara-kanda-is-nothing-but-kundalini-yoga-seshendra-sharma
 
 Sri Sundara Kanda is nothing but Kundalini yoga - 1 ( Shodasi : Secrets of the Ramayana ) From “
@@ -615,7 +615,7 @@ Ramayana. Therefore, it became a sacred
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1515/9781552384671-026
 
 No summary available in metadata.
@@ -633,7 +633,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9780203047750-7
 
 No summary available in metadata.
@@ -651,7 +651,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1093/litthe/8.4.367
 
 No summary available in metadata.
@@ -669,7 +669,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.24044/sph.2017.1.12
 
 No summary available in metadata.
@@ -687,7 +687,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9780203047750-11
 
 No summary available in metadata.
@@ -705,7 +705,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.15663/wje.v12i1.296
 
 OpenAlex abstract metadata available.
@@ -723,7 +723,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: http://hdl.handle.net/10500/1944
 
 OpenAlex abstract metadata available.
@@ -741,7 +741,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.2139/ssrn.6623278
 
 The aim of this study is to develop an approach (methodology) for teaching the translation of color
@@ -766,7 +766,7 @@ translation of
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4102/hts.v68i1.1204
 
 OpenAlex abstract metadata available.
@@ -784,7 +784,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 3020
+- Corroborating routed candidates: 3059
 - URL: https://doi.org/10.1163/016627410x12608581119713
 
 Abstract One of the most popular Christian holy days is Christmas, the celebration of the birth of
@@ -809,7 +809,7 @@ these texts
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2640
+- Corroborating routed candidates: 2672
 - URL: https://doi.org/10.1177/1476993x221147925
 
 The article presents the genealogy and maps Iconographic Exegesis or Biblische Ikonographie . From
@@ -834,7 +834,7 @@ and i
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://www.doabooks.org/doab?func=search&query=rid:20550
 
 OpenAlex abstract metadata available.
@@ -852,7 +852,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2640
+- Corroborating routed candidates: 2672
 - URL: https://doi.org/10.5040/9781350073869.ch-004
 
 No summary available in metadata.
@@ -870,7 +870,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.5040/9780755625437
 
 No summary available in metadata.
@@ -888,7 +888,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.5040/9780755625437.ch-001
 
 No summary available in metadata.
@@ -906,7 +906,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 3712
+- Corroborating routed candidates: 3757
 - URL: https://doi.org/10.4148/biyclc.v3i0.16
 
 OpenAlex abstract metadata available.
@@ -924,7 +924,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: http://hdl.handle.net/11858/00-001M-0000-0012-0515-B
 
 OpenAlex abstract metadata available.
@@ -942,7 +942,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1525/luminos.2
 
 OpenAlex abstract metadata available.
@@ -960,7 +960,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://hdl.handle.net/2027.42/149463
 
 OpenAlex abstract metadata available.
@@ -978,7 +978,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.20415/rhiz/029.e04
 
 OpenAlex abstract metadata available.
@@ -996,7 +996,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.26530/oapen_425733
 
 OpenAlex abstract metadata available.
@@ -1014,7 +1014,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.15215/aupress/9781897425084.01
 
 OpenAlex abstract metadata available.
@@ -1032,7 +1032,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1633
+- Corroborating routed candidates: 1654
 - URL: https://www.eurasiareview.com/24052021-the-translation-of-the-sacred-analysis
 
 The translation of the sacred text raises multiple and formidable questions concerning the
@@ -1051,7 +1051,7 @@ relationship of communities and peoples to their
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1177/014610797500500305
 
 No summary available in metadata.
@@ -1069,7 +1069,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.7591/cornell/9780801451157.001.0001
 
 OpenAlex abstract metadata available.
@@ -1087,7 +1087,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1093/bmb/ldh006
 
 OpenAlex abstract metadata available.
@@ -1105,7 +1105,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9780203290903_chapter_8
 
 No summary available in metadata.
@@ -1123,7 +1123,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2640
+- Corroborating routed candidates: 2672
 - URL: https://doi.org/10.1371/journal.pone.0347109
 
 Tea culture is an important part of the regional culture and intangible cultural heritage that is
@@ -1148,7 +1148,7 @@ relationships.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1037/h0055737
 
 OpenAlex abstract metadata available.
@@ -1166,7 +1166,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1016/j.dcm.2020.100418
 
 No summary available in metadata.
@@ -1184,7 +1184,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1017/cbo9781139173865.006
 
 No summary available in metadata.
@@ -1202,7 +1202,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9780203102893-45
 
 No summary available in metadata.
@@ -1220,7 +1220,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9780203102893.ch34
 
 No summary available in metadata.
@@ -1238,7 +1238,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2640
+- Corroborating routed candidates: 2672
 - URL: https://doi.org/10.3389/fpubh.2026.1800362
 
 This paper explores the critical role, experience, and wisdom of traditional healers in providing
@@ -1263,7 +1263,7 @@ Community-l
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2640
+- Corroborating routed candidates: 2672
 - URL: https://doi.org/10.3390/rel9010007
 
 OpenAlex abstract metadata available.
@@ -1281,7 +1281,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2452
+- Corroborating routed candidates: 2487
 - URL: https://www.euppublishing.com/doi/10.3366/tal.2011.0030
 
 The introduction reviews highpoints in the long history of discussions of metaphor and translation,
@@ -1300,7 +1300,7 @@ from the Platonic objection to metaphor as
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1057/s41599-020-00566-z
 
 OpenAlex abstract metadata available.
@@ -1318,7 +1318,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2640
+- Corroborating routed candidates: 2672
 - URL: https://doi.org/10.1111/j.1468-2400.2004.00116.x
 
 Abstract: Having defined ‘tradition’ and ‘sacred texts’, this article traces the developing Roman
@@ -1343,7 +1343,7 @@ that they have gr
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2641
+- Corroborating routed candidates: 2673
 - URL: https://brill.com/view/journals/me/26/4-5/article-p333_1.xml
 
 In introducing the following five articles on late medieval and early modern translations of Jewish,
@@ -1362,7 +1362,7 @@ Christian, and Muslim sacred texts.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1666
+- Corroborating routed candidates: 1688
 - URL: https://doi.org/10.5842/33-0-24
 
 OpenAlex abstract metadata available.
@@ -1380,7 +1380,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1016/b0-08-044854-2/00486-7
 
 No summary available in metadata.
@@ -1398,7 +1398,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9781315760018
 
 OpenAlex abstract metadata available.
@@ -1416,7 +1416,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 3020
+- Corroborating routed candidates: 3059
 - URL: https://doi.org/10.47012/jjmll.16.2.1
 
 This study suggests a form-based approach to the translation of sacred texts, particularly the Holy
@@ -1441,7 +1441,7 @@ sugge
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1633
+- Corroborating routed candidates: 1654
 - URL: https://www.quora.com/Why-do-sacred-texts-often-speak-in-metaphor-and-what-happens-when-they-re-interpreted-literally
 
 You don't interpret the original text, you translate it. An interpretation requires reading into
@@ -1460,7 +1460,7 @@ what the text already says. Most translations
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.4324/9781315443485-12
 
 No summary available in metadata.
@@ -1478,7 +1478,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.5040/9780755625437.ch-005
 
 No summary available in metadata.
@@ -1496,7 +1496,7 @@ No summary available in metadata.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 2641
+- Corroborating routed candidates: 2673
 - URL: https://www.academypublication.com/issues/past/jltr/vol04/03/11.pdf
 
 These names are established in language and these metaphorical concepts naturally become part of
@@ -1521,7 +1521,7 @@ AND RES
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 3025
+- Corroborating routed candidates: 3066
 - URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
 
 Religious language amplifies this effect through beliefs that a deity or ultimate reality can
@@ -1540,7 +1540,7 @@ influence readers by means of sacred texts (e.g. Augustine).
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 1632
+- Corroborating routed candidates: 1653
 - URL: https://doi.org/10.1075/sihols.116
 
 OpenAlex abstract metadata available.
