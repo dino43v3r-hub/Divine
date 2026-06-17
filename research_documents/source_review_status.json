@@ -37,6 +37,27 @@
       "current_status": "counter_reading_added",
       "next_review_step": "Keep quantum and science references in analogy or guardrail status unless source scope changes.",
       "review_note": "Science may teach humility and limits; it does not prove God, prayer, or consciousness."
+    },
+    {
+      "target_id": "research_governance_workflow",
+      "target_type": "research_method_protocol",
+      "current_status": "ready_for_confidence_review",
+      "next_review_step": "Use this workflow as the promotion gate for every major claim and update it after outside reviewer feedback.",
+      "review_note": "Defines confidence tiers, anti-confirmation-bias checks, failure conditions, suffering and abuse tests, source promotion steps, and report-language rules."
+    },
+    {
+      "target_id": "gold_standard_corpus_plan",
+      "target_type": "research_operations_plan",
+      "current_status": "summary_mapped",
+      "next_review_step": "Select the first 25 to 40 high-quality sources and fill the review template source by source.",
+      "review_note": "Shifts growth from source volume toward direct adjudication of Scripture, theology, suffering, comparative religion, science, and practical theology sources."
+    },
+    {
+      "target_id": "external_review_protocol",
+      "target_type": "peer_review_protocol",
+      "current_status": "summary_mapped",
+      "next_review_step": "Invite role-specific reviewers and record their strongest objection, missing counter-reading, harm risk, and recommended confidence change.",
+      "review_note": "Creates external pressure from biblical scholarship, theology, science/philosophy, comparative religion, and pastoral/trauma ethics."
     }
   ]
 }

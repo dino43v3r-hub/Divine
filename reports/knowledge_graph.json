@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 2144,
+  "edge_count": 2171,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -1119,11 +1119,6 @@
     },
     {
       "relation": "belongs_to_lane",
-      "source": "doc:research_documents_christian_sources_sources_md",
-      "target": "lane:research_documents"
-    },
-    {
-      "relation": "belongs_to_lane",
       "source": "doc:research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
       "target": "lane:research_documents"
     },
@@ -1439,6 +1434,11 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_christian_sources_sources_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_claim_ledger_md",
       "target": "lane:research_documents"
     },
@@ -1724,6 +1724,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_external_review_protocol_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_external_review_protocol_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_external_review_protocol_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_external_review_protocol_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_external_review_protocol_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_friction_layer_md",
       "target": "lane:research_documents"
     },
@@ -1731,6 +1756,76 @@
       "relation": "mentions_pattern",
       "source": "doc:research_documents_friction_layer_md",
       "target": "pattern:image_of_god_pattern"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_friction_layer_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_friction_layer_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_friction_layer_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_friction_layer_source_review_queue_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_friction_layer_source_review_queue_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_friction_layer_source_review_queue_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_gold_standard_corpus_plan_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_gold_standard_corpus_plan_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_gold_standard_corpus_plan_md",
+      "target": "rule:interpretation"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_gold_standard_corpus_plan_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_gold_standard_corpus_plan_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_gold_standard_corpus_plan_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_gold_standard_corpus_plan_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_gold_standard_corpus_plan_md",
+      "target": "rule:failure_condition"
     },
     {
       "relation": "belongs_to_lane",
@@ -1891,6 +1986,46 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_practical_theology_pattern_use_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:machine_label_boundary"
     },
     {
       "relation": "belongs_to_lane",
@@ -10724,7 +10859,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 442,
+  "node_count": 446,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -10887,6 +11022,7 @@
       "type": "pattern"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_active_lane_review_conversion_2026_06_01_followup_md",
       "label": "Active Lane Review Conversion Follow-Up, 2026-06-01",
       "lane": "research_documents",
@@ -10897,6 +11033,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "reviewed_evidence_ready",
       "id": "doc:research_documents_active_lane_review_conversion_2026_06_04_md",
       "label": "Active Lane Review Conversion, 2026-06-04",
       "lane": "research_documents",
@@ -10907,6 +11044,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_active_lane_review_conversion_2026_06_04_second_pass_md",
       "label": "Active Lane Review Conversion Second Pass, 2026-06-04",
       "lane": "research_documents",
@@ -10917,6 +11055,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_active_lane_review_conversion_2026_06_04_third_pass_md",
       "label": "Active Lane Review Conversion Third Pass, 2026-06-04",
       "lane": "research_documents",
@@ -10927,6 +11066,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_a_bibliometric_analysis_of_quality_research_papers_in_islamic_finance_",
       "label": "A bibliometric analysis of quality research papers in Islamic finance: evidence from Web of Science",
       "lane": "research_documents",
@@ -10937,6 +11077,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_a_logic_based_typology_of_science_and_theology_31977c29359f_md",
       "label": "A Logic-Based Typology of Science and Theology",
       "lane": "research_documents",
@@ -10947,6 +11088,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_a_response_to_stephen_pattison_pastoral_care_integral_to_mission_38842",
       "label": "A Response to Stephen Pattison: Pastoral Care Integral to Mission",
       "lane": "research_documents",
@@ -10957,6 +11099,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_astrology_in_the_service_of_the_empire_knowledge_prognostication_and_p",
       "label": "Astrology in the Service of the Empire: Knowledge, Prognostication, and Politics at the Ottoman Court, 1450s\u20131550s",
       "lane": "research_documents",
@@ -10967,6 +11110,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_becoming_a_more_effective_instructor_using_primary_source_projects_ed4",
       "label": "Becoming a More Effective Instructor Using Primary Source Projects",
       "lane": "research_documents",
@@ -10977,6 +11121,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_black_gold_trustworthiness_in_artistic_research_seen_from_the_sideline",
       "label": "Black gold: trustworthiness in artistic research (seen from the sidelines of arts and health)",
       "lane": "research_documents",
@@ -10987,6 +11132,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_book_review_christian_ethics_in_health_care_6c08a304d9b8_md",
       "label": "Book Review: Christian Ethics in Health Care",
       "lane": "research_documents",
@@ -10997,6 +11143,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_book_review_god_against_religion_rethinking_christian_theology_through",
       "label": "Book Review: God Against Religion: Rethinking Christian Theology through Worship",
       "lane": "research_documents",
@@ -11007,6 +11154,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_book_review_new_perspectives_on_worship_today_27880b0d1133_md",
       "label": "Book Review: New Perspectives on Worship Today",
       "lane": "research_documents",
@@ -11017,6 +11165,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_book_review_on_the_perception_of_worship_the_ethnography_of_worship_in",
       "label": "Book Review: On the Perception of Worship : The Ethnography of Worship in Four Christian Congregations in Manchester",
       "lane": "research_documents",
@@ -11027,6 +11176,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f_md",
       "label": "Book Review: Pastoral Care and Liberation Theology",
       "lane": "research_documents",
@@ -11037,6 +11187,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_book_review_theology_after_vedanta_an_experiment_in_comparative_theolo",
       "label": "Book Review: \"Theology After Vedanta: An Experiment in Comparative Theology\"",
       "lane": "research_documents",
@@ -11047,6 +11198,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_book_review_truth_and_method_ad281438fd07_md",
       "label": "Book Review: Truth and Method",
       "lane": "research_documents",
@@ -11057,6 +11209,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_brain_body_and_culture_a_biocultural_theory_of_religion_d2b6ee8b4893_m",
       "label": "Brain, Body and Culture: A Biocultural Theory of Religion",
       "lane": "research_documents",
@@ -11067,6 +11220,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_building_on_strengths_a95da0c8dd61_md",
       "label": "Building on Strengths",
       "lane": "research_documents",
@@ -11077,6 +11231,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_cities_vs_states_should_urban_citizenship_be_emancipated_from_national",
       "label": "Cities vs States: Should Urban Citizenship Be Emancipated from Nationality?",
       "lane": "research_documents",
@@ -11087,6 +11242,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_cognitive_science_and_the_naturalness_of_religion_3b8690c4623e_md",
       "label": "Cognitive Science and the Naturalness of Religion",
       "lane": "research_documents",
@@ -11097,6 +11253,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_computational_social_science_and_sociology_3c2350d65c7e_md",
       "label": "Computational Social Science and Sociology",
       "lane": "research_documents",
@@ -11107,6 +11264,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_creating_a_greater_whole_f53fbb6d72c7_md",
       "label": "Creating a Greater Whole",
       "lane": "research_documents",
@@ -11117,6 +11275,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_cultural_additivity_behavioural_insights_from_the_interaction_of_confu",
       "label": "Cultural additivity: behavioural insights from the interaction of Confucianism, Buddhism and Taoism in folktales",
       "lane": "research_documents",
@@ -11127,6 +11286,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_divine_providence_in_the_clockwork_universe_5664578878ec_md",
       "label": "Divine Providence in the Clockwork Universe",
       "lane": "research_documents",
@@ -11137,6 +11297,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_ethics_and_revolution_some_theses_on_power_authority_and_violence_afdc",
       "label": "Ethics and Revolution: Some Theses on Power, Authority and Violence",
       "lane": "research_documents",
@@ -11147,6 +11308,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_failure_analysis_of_cable_accessories_using_finite_element_method_magn",
       "label": "Failure analysis of cable accessories using Finite Element Method Magnetics (FEMM) software",
       "lane": "research_documents",
@@ -11157,6 +11319,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_fiscal_devaluation_and_fiscal_consolidation_the_vat_in_troubled_times_",
       "label": "'Fiscal Devaluation' and Fiscal Consolidation: The VAT in Troubled Times",
       "lane": "research_documents",
@@ -11167,6 +11330,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_five_pathways_to_wholeness_explorations_in_pastoral_care_and_counselli",
       "label": "Five Pathways to Wholeness: Explorations in Pastoral Care and Counselling",
       "lane": "research_documents",
@@ -11177,6 +11341,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_focus_and_motivation_4d517f592521_md",
       "label": "Focus and Motivation",
       "lane": "research_documents",
@@ -11187,6 +11352,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_from_becoming_an_ego_to_becoming_whole_selectively_integrating_the_who",
       "label": "From becoming an ego to becoming Whole (selectively integrating the Wholly Other into this world)",
       "lane": "research_documents",
@@ -11197,6 +11363,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_identification_and_self_identification_of_creative_personality_as_an_o",
       "label": "IDENTIFICATION AND SELF-IDENTIFICATION OF CREATIVE PERSONALITY AS AN OBJECT OF INTERDISCIPLINARY RESEARCH",
       "lane": "research_documents",
@@ -11207,6 +11374,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_immunological_tests_from_the_microscope_to_whole_genome_analysis_e31c6",
       "label": "Immunological Tests \u2013 from the Microscope to Whole Genome Analysis",
       "lane": "research_documents",
@@ -11217,6 +11385,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_individual_privacy_institutional_accountability_the_challenge_of_elect",
       "label": "Individual Privacy, Institutional Accountability: The Challenge of Electronic Records",
       "lane": "research_documents",
@@ -11227,6 +11396,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_interdisciplinarity_recon_gurations_of_the_social_and_natural_sciences",
       "label": "Interdisciplinarity: Recon\ufb01 gurations of the social and natural sciences",
       "lane": "research_documents",
@@ -11237,6 +11407,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_language_learning_as_faith_formation_6ee73decb8d4_md",
       "label": "Language learning as faith formation",
       "lane": "research_documents",
@@ -11247,6 +11418,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_learning_to_teach_elementary_school_science_as_argument_f8783fe388f4_m",
       "label": "Learning to teach elementary school science as argument",
       "lane": "research_documents",
@@ -11257,6 +11429,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_migration_policymaking_in_europe_the_dynamics_of_actors_and_contexts_i",
       "label": "Migration Policymaking in Europe : The Dynamics of Actors and Contexts in Past and Present",
       "lane": "research_documents",
@@ -11267,6 +11440,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_muslima_theology_as_comparative_feminist_theology_4355c06905f2_md",
       "label": "Muslima Theology as Comparative Feminist Theology",
       "lane": "research_documents",
@@ -11277,6 +11451,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_newman_theology_and_the_crisis_of_liberal_education_3038b907e600_md",
       "label": "Newman, Theology and the Crisis of Liberal Education",
       "lane": "research_documents",
@@ -11287,6 +11462,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_progress_in_dark_tourism_and_thanatourism_research_an_uneasy_relations",
       "label": "Progress in dark tourism and thanatourism research: An uneasy relationship with heritage tourism",
       "lane": "research_documents",
@@ -11297,6 +11473,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_the_conflict_of_the_faculties_perspectives_on_artistic_research_and_ac",
       "label": "The Conflict of the Faculties. Perspectives on Artistic Research and Academia",
       "lane": "research_documents",
@@ -11307,16 +11484,7 @@
       "type": "document"
     },
     {
-      "id": "doc:research_documents_christian_sources_sources_md",
-      "label": "Christian Source Corpus",
-      "lane": "research_documents",
-      "media_review_status": "text_reviewable",
-      "modality": "text",
-      "path": "research_documents/christian_sources/SOURCES.md",
-      "review_note_count": 1,
-      "type": "document"
-    },
-    {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
       "label": "Apostles Creed Church Hymnary Wikisource",
       "lane": "research_documents",
@@ -11327,6 +11495,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_aquinas_summa_part_1_gutenberg_txt",
       "label": "Aquinas Summa Part 1 Gutenberg",
       "lane": "research_documents",
@@ -11337,6 +11506,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_augustine_confessions_gutenberg_txt",
       "label": "Augustine Confessions Gutenberg",
       "lane": "research_documents",
@@ -11347,6 +11517,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_combined_trinitarian_god_model_md",
       "label": "Combined Christian Model Of God",
       "lane": "research_documents",
@@ -11357,6 +11528,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_didache_wikisource_txt",
       "label": "Didache Wikisource",
       "lane": "research_documents",
@@ -11367,6 +11539,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_divine_pattern_candidates_md",
       "label": "Divine Pattern Candidates",
       "lane": "research_documents",
@@ -11377,6 +11550,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_divine_pattern_finder_design_md",
       "label": "Divine Pattern Finder Design",
       "lane": "research_documents",
@@ -11387,6 +11561,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_faith_and_god_philosophy_notes_md",
       "label": "Faith And God Philosophy Notes",
       "lane": "research_documents",
@@ -11397,6 +11572,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_god_and_human_behavior_science_synthesis_md",
       "label": "God And Human Behavior: Source-Backed Synthesis",
       "lane": "research_documents",
@@ -11407,6 +11583,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_hypothesis_review_rules_md",
       "label": "Hypothesis Review Rules",
       "lane": "research_documents",
@@ -11417,6 +11594,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_hypothesis_test_framework_md",
       "label": "Divine Pattern Hypothesis Test Framework",
       "lane": "research_documents",
@@ -11427,6 +11605,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_jesus_and_holy_spirit_synthesis_md",
       "label": "Jesus And The Holy Spirit: Source-Backed Synthesis",
       "lane": "research_documents",
@@ -11437,6 +11616,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_king_james_bible_gutenberg_txt",
       "label": "King James Bible Gutenberg",
       "lane": "research_documents",
@@ -11447,6 +11627,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_nicene_creed_325_wikisource_txt",
       "label": "Nicene Creed 325 Wikisource",
       "lane": "research_documents",
@@ -11457,6 +11638,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_christian_sources_science_math_physics_divine_pattern_model_md",
       "label": "Science, Mathematics, Physics, And A Divine-Pattern Model",
       "lane": "research_documents",
@@ -11467,6 +11649,18 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
+      "id": "doc:research_documents_christian_sources_sources_md",
+      "label": "Christian Source Corpus",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/christian_sources/SOURCES.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_claim_ledger_md",
       "label": "Divine Pattern Claim Ledger",
       "lane": "research_documents",
@@ -11477,6 +11671,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_cloud_reference_promotion_decision_log_md",
       "label": "Cloud Reference Promotion Decision Log",
       "lane": "research_documents",
@@ -11487,6 +11682,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_cloud_reference_review_checklist_md",
       "label": "Cloud Reference Review Checklist",
       "lane": "research_documents",
@@ -11497,6 +11693,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_cloud_reference_review_policy_md",
       "label": "Cloud Reference Review Policy",
       "lane": "research_documents",
@@ -11507,6 +11704,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_cloud_references_summary_md",
       "label": "Cloud References Summary",
       "lane": "research_documents",
@@ -11517,6 +11715,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_cross_layer_source_specific_casebook_md",
       "label": "Cross-Layer Source-Specific Casebook",
       "lane": "research_documents",
@@ -11527,6 +11726,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_daily_cloud_reference_review_log_md",
       "label": "Daily Cloud Reference Review Log",
       "lane": "research_documents",
@@ -11537,6 +11737,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_daily_evaluation_queue_md",
       "label": "Daily Evaluation Queue",
       "lane": "research_documents",
@@ -11547,6 +11748,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_divine_pattern_concept_md",
       "label": "Divine Pattern Concept",
       "lane": "research_documents",
@@ -11557,6 +11759,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_evidence_discernment_distinction_md",
       "label": "Evidence And Discernment Distinction",
       "lane": "research_documents",
@@ -11567,6 +11770,18 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
+      "id": "doc:research_documents_external_review_protocol_md",
+      "label": "External Review Protocol",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/external_review_protocol.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_friction_layer_md",
       "label": "Friction Layer",
       "lane": "research_documents",
@@ -11577,6 +11792,29 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
+      "id": "doc:research_documents_friction_layer_source_review_queue_md",
+      "label": "Friction Layer Source Review Queue",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/friction_layer_source_review_queue.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_gold_standard_corpus_plan_md",
+      "label": "Gold Standard Corpus Plan",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/gold_standard_corpus_plan.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_layer_balance_policy_md",
       "label": "Layer Balance Policy",
       "lane": "research_documents",
@@ -11587,6 +11825,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_next_research_expansion_tracker_md",
       "label": "Next Research Expansion Tracker",
       "lane": "research_documents",
@@ -11597,6 +11836,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_pattern_formation_framework_md",
       "label": "Pattern Formation Framework",
       "lane": "research_documents",
@@ -11607,6 +11847,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_pattern_revision_rules_md",
       "label": "Pattern Revision Rules",
       "lane": "research_documents",
@@ -11617,6 +11858,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_practical_theology_pattern_use_md",
       "label": "Practical Theology Pattern Use",
       "lane": "research_documents",
@@ -11627,6 +11869,18 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_research_governance_workflow_md",
+      "label": "Research Governance Workflow",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/research_governance_workflow.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_01_md",
       "label": "Reviewed Candidate Reference Decisions, 2026-06-01",
       "lane": "research_documents",
@@ -11637,6 +11891,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_01_followup_md",
       "label": "Reviewed Candidate Reference Decisions Follow-Up, 2026-06-01",
       "lane": "research_documents",
@@ -11647,6 +11902,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_04_md",
       "label": "Reviewed Candidate Reference Decisions, 2026-06-04",
       "lane": "research_documents",
@@ -11657,6 +11913,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_04_second_pass_md",
       "label": "Reviewed Candidate Reference Decisions Second Pass, 2026-06-04",
       "lane": "research_documents",
@@ -11667,6 +11924,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_04_third_pass_md",
       "label": "Reviewed Candidate Reference Decisions Third Pass, 2026-06-04",
       "lane": "research_documents",
@@ -11677,6 +11935,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_reviewed_source_packs_md",
       "label": "Reviewed Source Packs",
       "lane": "research_documents",
@@ -11687,6 +11946,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_source_lane_balance_targets_md",
       "label": "Source Lane Balance Targets",
       "lane": "research_documents",
@@ -11697,6 +11957,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_source_packs_creation_to_consciousness_pattern_pack_md",
       "label": "Source Pack: Creation-To-Consciousness Pattern",
       "lane": "research_documents",
@@ -11707,6 +11968,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_source_packs_cross_and_reversal_pattern_pack_md",
       "label": "Source Pack: Cross And Reversal Pattern",
       "lane": "research_documents",
@@ -11717,6 +11979,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_source_packs_holy_spirit_gifts_pattern_pack_md",
       "label": "Source Pack: Holy Spirit Gifts Pattern",
       "lane": "research_documents",
@@ -11727,6 +11990,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_source_packs_image_of_god_pattern_pack_md",
       "label": "Source Pack: Image Of God Pattern",
       "lane": "research_documents",
@@ -11737,6 +12001,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_source_packs_other_religious_comparative_witness_pack_md",
       "label": "Source Pack: Other Religious Comparative Witness",
       "lane": "research_documents",
@@ -11747,6 +12012,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_source_packs_providence_and_contingency_pattern_pack_md",
       "label": "Source Pack: Providence And Contingency Pattern",
       "lane": "research_documents",
@@ -11757,6 +12023,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:research_documents_source_packs_quantum_theory_guardrail_pack_md",
       "label": "Source Pack: Quantum Theory Guardrail",
       "lane": "research_documents",
@@ -11767,6 +12034,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_source_packs_science_analogy_guardrail_pack_md",
       "label": "Source Pack: Science Analogy Guardrail",
       "lane": "research_documents",
@@ -11777,6 +12045,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_source_packs_trinity_as_behavior_pattern_pack_md",
       "label": "Source Pack: Trinity-As-Behavior Pattern",
       "lane": "research_documents",
@@ -11787,6 +12056,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_weakened_claims_register_md",
       "label": "Weakened Claims Register",
       "lane": "research_documents",
@@ -11797,6 +12067,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_auto_imported_cloud_candidates_10_the_annunciation_and_the_senses_ruach_pneuma_odour_b1bcc53db3e5_md",
       "label": "10 The Annunciation and the Senses: Ruach, Pneuma, Odour",
       "lane": "biblical_languages",
@@ -11807,6 +12078,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_auto_imported_cloud_candidates_5_items_in_structures_521e7f37ffeb_md",
       "label": "5 \u1f41-Items in \u03bc\u1f72\u03bd . . . \u03b4\u1f72 Structures",
       "lane": "biblical_languages",
@@ -11817,6 +12089,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_auto_imported_cloud_candidates_amanda_witmer_jesus_the_galilean_exorcist_his_exorcisms_in_social_and_",
       "label": "Amanda Witmer, Jesus the Galilean Exorcist: His Exorcisms in Social and Political Context, Library of New Testament Studies 459, Library of the Historical Jesus Studies vol. 10 (New York/London: T&amp;T Clark International, 2012). x + 247 pp., $ 120",
       "lane": "biblical_languages",
@@ -11827,6 +12100,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_auto_imported_cloud_candidates_greek_word_order_and_clause_structure_a_comparative_study_of_some_new_",
       "label": "Greek Word Order and Clause Structure: A Comparative Study of Some New Testament Corpora",
       "lane": "biblical_languages",
@@ -11837,6 +12111,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:biblical_languages_expanded_lexeme_balance_notes_md",
       "label": "Expanded Lexeme Balance Notes",
       "lane": "biblical_languages",
@@ -11847,6 +12122,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:biblical_languages_greek_hebrew_depth_checks_md",
       "label": "Biblical Greek And Hebrew: Depth Checks",
       "lane": "biblical_languages",
@@ -11857,6 +12133,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:biblical_languages_greek_hebrew_source_expansion_notes_md",
       "label": "Greek Hebrew Source Expansion Notes",
       "lane": "biblical_languages",
@@ -11867,6 +12144,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_reviewed_growth_batch_2026_05_27_md",
       "label": "Reviewed Biblical-Language Growth Batch, 2026-05-27",
       "lane": "biblical_languages",
@@ -11877,6 +12155,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_reviewed_growth_batch_2026_06_01_md",
       "label": "Reviewed Biblical-Language Growth Batch, 2026-06-01",
       "lane": "biblical_languages",
@@ -11887,6 +12166,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_reviewed_growth_batch_2026_06_01_followup_md",
       "label": "Reviewed Biblical-Language Growth Follow-Up, 2026-06-01",
       "lane": "biblical_languages",
@@ -11897,6 +12177,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_md",
       "label": "Reviewed Biblical-Language Growth Batch, 2026-06-04",
       "lane": "biblical_languages",
@@ -11907,6 +12188,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
       "label": "Reviewed Biblical-Language Growth Second Pass, 2026-06-04",
       "lane": "biblical_languages",
@@ -11917,6 +12199,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
       "label": "Reviewed Biblical-Language Growth Third Pass, 2026-06-04",
       "lane": "biblical_languages",
@@ -11927,6 +12210,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:biblical_languages_source_specific_counterreadings_md",
       "label": "Source-Specific Biblical-Language Counter-Readings",
       "lane": "biblical_languages",
@@ -11937,6 +12221,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:biblical_languages_source_specific_lexeme_review_notes_md",
       "label": "Source-Specific Lexeme Review Notes",
       "lane": "biblical_languages",
@@ -11947,6 +12232,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_a_public_practical_theological_theory_for_religious_education_of_seculari",
       "label": "A public practical theological theory for religious education of secularised youth",
       "lane": "world_languages",
@@ -11957,6 +12243,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_a_relevance_theory_perspective_on_translating_the_implicit_information_in",
       "label": "A Relevance Theory Perspective on Translating the Implicit Information in Literary Texts",
       "lane": "world_languages",
@@ -11967,6 +12254,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_a_theoretical_account_of_translation_without_a_translation_theory_be82f4a",
       "label": "A Theoretical Account of Translation - Without a Translation Theory",
       "lane": "world_languages",
@@ -11977,6 +12265,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_an_analysis_of_material_consumption_culture_in_the_muslim_world_72bc73f7f",
       "label": "An analysis of material consumption culture in the Muslim world",
       "lane": "world_languages",
@@ -11987,6 +12276,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_ancient_traditions_of_the_virgin_mary_s_dormition_and_assumption_e06d29bc",
       "label": "Ancient Traditions of the Virgin Mary's Dormition and Assumption",
       "lane": "world_languages",
@@ -11997,6 +12287,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_asian_american_evangelicals_in_multiracial_church_ministry_52705f63e7eb_m",
       "label": "Asian American Evangelicals in Multiracial Church Ministry",
       "lane": "world_languages",
@@ -12007,6 +12298,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_aztec_philosophy_understanding_a_world_in_motion_888be6286328_md",
       "label": "Aztec Philosophy: Understanding a World in Motion",
       "lane": "world_languages",
@@ -12017,6 +12309,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_calvinist_public_theology_in_urban_china_today_37fff00bb844_md",
       "label": "Calvinist Public Theology in Urban China Today",
       "lane": "world_languages",
@@ -12027,6 +12320,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_christianity_islam_and_ori_a_religion_three_traditions_in_comparison_and_",
       "label": "Christianity, Islam, and Ori\u1e63a Religion: Three Traditions in Comparison and Interaction",
       "lane": "world_languages",
@@ -12037,6 +12331,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_corpora_and_the_semantics_of_metaphor_34a71c085c98_md",
       "label": "Corpora and the Semantics of Metaphor",
       "lane": "world_languages",
@@ -12047,6 +12342,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_cultural_remnants_of_the_indigenous_peoples_in_the_buddhist_scriptures_43",
       "label": "Cultural Remnants of the Indigenous Peoples in the Buddhist Scriptures",
       "lane": "world_languages",
@@ -12057,6 +12353,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_disarming_words_empire_and_the_seductions_of_translation_in_egypt_05590bb",
       "label": "Disarming Words: Empire and the Seductions of Translation in Egypt",
       "lane": "world_languages",
@@ -12067,6 +12364,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_from_conquest_to_constitutions_retrieving_a_latin_american_tradition_of_t",
       "label": "From Conquest to Constitutions: Retrieving a Latin American Tradition of the Idea of Human Rights",
       "lane": "world_languages",
@@ -12077,6 +12375,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_have_we_been_thinking_upside_down_the_contemporary_emergence_of_pacific_t",
       "label": "Have We Been Thinking Upside-Down?: The Contemporary Emergence of Pacific Theoretical Thought",
       "lane": "world_languages",
@@ -12087,6 +12386,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_how_comparative_is_semantics_a_unified_parametrictheory_of_bare_nouns_and",
       "label": "How Comparative is Semantics? A Unified ParametricTheory of Bare Nouns and Proper Names",
       "lane": "world_languages",
@@ -12097,6 +12397,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_humanity_from_african_naissance_to_coming_millennia_49b84bf71f1d_md",
       "label": "Humanity from African Naissance to Coming Millennia",
       "lane": "world_languages",
@@ -12107,6 +12408,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_language_planning_and_language_revival_a1b7d62a7d29_md",
       "label": "Language Planning and Language Revival",
       "lane": "world_languages",
@@ -12117,6 +12419,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_language_units_with_sacred_semantics_linguoculturological_and_lexicograph",
       "label": "LANGUAGE UNITS WITH SACRED SEMANTICS: LINGUOCULTUROLOGICAL AND LEXICOGRAPHIC ASPECTS",
       "lane": "world_languages",
@@ -12127,6 +12430,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_leprosy_and_leviticus_a_problem_of_semantics_and_translation_4ba18cb34c54",
       "label": "Leprosy and Leviticus: A Problem of Semantics and Translation",
       "lane": "world_languages",
@@ -12137,6 +12441,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_native_pacific_cultural_studies_on_the_edge_b01169306b78_md",
       "label": "Native Pacific Cultural Studies on the Edge",
       "lane": "world_languages",
@@ -12147,6 +12452,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_the_emergence_and_trajectories_of_struggles_for_an_african_university_the",
       "label": "The emergence and trajectories of struggles for an 'African university': The case of unfinished business of African epistemic decolonisation",
       "lane": "world_languages",
@@ -12157,6 +12463,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_the_theory_and_practice_of_online_learning_bf81ea1140df_md",
       "label": "The Theory and Practice of Online Learning",
       "lane": "world_languages",
@@ -12167,6 +12474,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:world_languages_cross_cultural_translation_balance_notes_md",
       "label": "Cross-Cultural Translation Balance Notes",
       "lane": "world_languages",
@@ -12177,6 +12485,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:world_languages_language_family_counterreading_map_md",
       "label": "Language Family Counter-Reading Map",
       "lane": "world_languages",
@@ -12187,6 +12496,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:world_languages_language_family_expansion_notes_md",
       "label": "Language Family Expansion Notes",
       "lane": "world_languages",
@@ -12197,6 +12507,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_reviewed_growth_batch_2026_05_27_md",
       "label": "Reviewed World-Language Growth Batch, 2026-05-27",
       "lane": "world_languages",
@@ -12207,6 +12518,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_reviewed_growth_batch_2026_06_01_md",
       "label": "Reviewed World-Language Growth Batch, 2026-06-01",
       "lane": "world_languages",
@@ -12217,6 +12529,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_reviewed_growth_batch_2026_06_01_followup_md",
       "label": "Reviewed World-Language Growth Follow-Up, 2026-06-01",
       "lane": "world_languages",
@@ -12227,6 +12540,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_reviewed_growth_batch_2026_06_04_md",
       "label": "Reviewed World-Language Growth Batch, 2026-06-04",
       "lane": "world_languages",
@@ -12237,6 +12551,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
       "label": "Reviewed World-Language Growth Second Pass, 2026-06-04",
       "lane": "world_languages",
@@ -12247,6 +12562,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
       "label": "Reviewed World-Language Growth Third Pass, 2026-06-04",
       "lane": "world_languages",
@@ -12257,6 +12573,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_source_specific_language_sampling_notes_md",
       "label": "Source-Specific Language Sampling Notes",
       "lane": "world_languages",
@@ -12267,6 +12584,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:world_languages_translation_semantics_and_culture_md",
       "label": "World Languages: Translation, Semantics, And Culture",
       "lane": "world_languages",
@@ -12277,6 +12595,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_ancient_chinese_medical_ethics_and_the_four_principles_of_biomedical_ethics_0f2",
       "label": "Ancient Chinese medical ethics and the four principles of biomedical ethics.",
       "lane": "all_texts",
@@ -12287,6 +12606,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_gender_justice_law_and_religion_in_zimbabwe_an_evaluation_of_the_role_of_sacred",
       "label": "Gender justice, law and religion in Zimbabwe: An evaluation of the role of sacred texts",
       "lane": "all_texts",
@@ -12297,6 +12617,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_ibn_taymiyya_s_theodicy_of_perpetual_optimism_63e7b6b73a5a_md",
       "label": "Ibn Taymiyya's Theodicy of Perpetual Optimism",
       "lane": "all_texts",
@@ -12307,6 +12628,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_in_the_matter_of_race_memory_and_transformation_the_use_of_sacred_sites_to_teac",
       "label": "In the Matter of Race, Memory and Transformation: The Use of Sacred Sites to Teach Social Justice",
       "lane": "all_texts",
@@ -12317,6 +12639,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_seven_seas_and_an_ocean_of_wisdom_cff05b233da8_md",
       "label": "Seven seas and an ocean of wisdom",
       "lane": "all_texts",
@@ -12327,6 +12650,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:all_texts_comparative_text_case_notes_md",
       "label": "Comparative Text Case Notes",
       "lane": "all_texts",
@@ -12337,6 +12661,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:all_texts_global_text_exploration_framework_md",
       "label": "Global Text Exploration Framework",
       "lane": "all_texts",
@@ -12347,6 +12672,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_reviewed_growth_batch_2026_05_27_md",
       "label": "Reviewed All-Texts Growth Batch, 2026-05-27",
       "lane": "all_texts",
@@ -12357,6 +12683,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_reviewed_growth_batch_2026_06_01_md",
       "label": "Reviewed All-Texts Growth Batch, 2026-06-01",
       "lane": "all_texts",
@@ -12367,6 +12694,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_reviewed_growth_batch_2026_06_01_followup_md",
       "label": "Reviewed All-Texts Growth Follow-Up, 2026-06-01",
       "lane": "all_texts",
@@ -12377,6 +12705,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_reviewed_growth_batch_2026_06_04_md",
       "label": "Reviewed All-Texts Growth Batch, 2026-06-04",
       "lane": "all_texts",
@@ -12387,6 +12716,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
       "label": "Reviewed All-Texts Growth Second Pass, 2026-06-04",
       "lane": "all_texts",
@@ -12397,6 +12727,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
       "label": "Reviewed All-Texts Growth Third Pass, 2026-06-04",
       "lane": "all_texts",
@@ -12407,6 +12738,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:all_texts_text_tradition_counterreading_map_md",
       "label": "Text-Tradition Counter-Reading Map",
       "lane": "all_texts",
@@ -12417,6 +12749,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:all_texts_text_tradition_expansion_notes_md",
       "label": "Text Tradition Expansion Notes",
       "lane": "all_texts",
@@ -12427,6 +12760,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_auto_imported_cloud_candidates_anthropological_practices_inter_group_conflicts_and_shared_colonial",
       "label": "Anthropological practices, inter-group conflicts and shared colonial experiences in a regional context of the Lower Amazon",
       "lane": "other_religious_texts",
@@ -12437,6 +12771,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_auto_imported_cloud_candidates_christianity_and_religion_in_africa_0c96ed84d155_md",
       "label": "Christianity and Religion in Africa",
       "lane": "other_religious_texts",
@@ -12447,6 +12782,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_auto_imported_cloud_candidates_dreaming_in_the_contact_zone_zulu_dreams_visions_and_religion_in_ni",
       "label": "Dreaming in the Contact Zone: Zulu Dreams, Visions, and Religion in Nineteenth-Century South Africa",
       "lane": "other_religious_texts",
@@ -12457,6 +12793,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_auto_imported_cloud_candidates_dwelling_in_political_landscapes_contemporary_anthropological_persp",
       "label": "Dwelling in Political Landscapes: Contemporary Anthropological Perspectives",
       "lane": "other_religious_texts",
@@ -12467,6 +12804,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:other_religious_texts_comparative_sacred_text_notes_md",
       "label": "Comparative Sacred Text Notes",
       "lane": "other_religious_texts",
@@ -12477,6 +12815,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:other_religious_texts_interreligious_dreams_visions_testimony_notes_md",
       "label": "Interreligious Dreams, Visions, And Jesus Testimony Notes",
       "lane": "other_religious_texts",
@@ -12487,6 +12826,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:other_religious_texts_presence_without_explicit_naming_filter_md",
       "label": "Presence Without Explicit Naming Filter",
       "lane": "other_religious_texts",
@@ -12497,6 +12837,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_reviewed_growth_batch_2026_05_27_md",
       "label": "Reviewed Other-Religious-Texts Growth Batch, 2026-05-27",
       "lane": "other_religious_texts",
@@ -12507,6 +12848,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_reviewed_growth_batch_2026_06_01_md",
       "label": "Reviewed Other-Religious-Texts Growth Batch, 2026-06-01",
       "lane": "other_religious_texts",
@@ -12517,6 +12859,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_reviewed_growth_batch_2026_06_01_followup_md",
       "label": "Reviewed Other-Religious-Texts Growth Follow-Up, 2026-06-01",
       "lane": "other_religious_texts",
@@ -12527,6 +12870,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_md",
       "label": "Reviewed Other-Religious-Texts Growth Batch, 2026-06-04",
       "lane": "other_religious_texts",
@@ -12537,6 +12881,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
       "label": "Reviewed Other-Religious-Texts Growth Second Pass, 2026-06-04",
       "lane": "other_religious_texts",
@@ -12547,6 +12892,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
       "label": "Reviewed Other-Religious-Texts Growth Third Pass, 2026-06-04",
       "lane": "other_religious_texts",
@@ -12557,6 +12903,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:other_religious_texts_spiritual_gifts_comparative_discernment_md",
       "label": "Spiritual Gifts And Comparative Discernment",
       "lane": "other_religious_texts",
@@ -12567,6 +12914,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_cultivating_christian_civil_society_fundamentalist_christianity_politics_and_",
       "label": "Cultivating Christian civil society: fundamentalist Christianity, politics and governance in Papua New Guinea",
       "lane": "theologians",
@@ -12577,6 +12925,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_hobbes_s_challenge_to_descartes_bramhall_and_boyle_a_corporeal_god_acf6ac21d6",
       "label": "Hobbes's Challenge to Descartes, Bramhall and Boyle: A Corporeal God",
       "lane": "theologians",
@@ -12587,6 +12936,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_introduction_5eb1c80425a7_md",
       "label": "Introduction",
       "lane": "theologians",
@@ -12597,6 +12947,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_introduction_c8ca83728d1d_md",
       "label": "Introduction:",
       "lane": "theologians",
@@ -12607,6 +12958,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_pastoral_evaluation_on_the_basotho_s_view_of_sexuality_revisiting_the_views_o",
       "label": "Pastoral evaluation on the Basotho\u2019s view of sexuality: Revisiting the views on sexuality of Augustine, Thomas Aquinas, Martin Luther and John Calvin",
       "lane": "theologians",
@@ -12617,6 +12969,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_pentecostalism_and_the_morality_of_money_prosperity_inequality_and_religious_",
       "label": "Pentecostalism and the morality of money: prosperity, inequality, and religious sociality on the Zambian Copperbelt",
       "lane": "theologians",
@@ -12627,6 +12980,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_postscript_the_modern_legacy_of_coptic_christology_cf161a7a1bd1_md",
       "label": "Postscript The Modern Legacy of Coptic Christology",
       "lane": "theologians",
@@ -12637,6 +12991,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_the_gravity_of_sin_augustine_luther_and_barth_on_homo_incurvatus_in_se_by_mat",
       "label": "The Gravity of Sin: Augustine, Luther and Barth on Homo Incurvatus in se \u2013 By Matt Jenson",
       "lane": "theologians",
@@ -12647,6 +13002,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_the_rise_of_universities_abf50bcee3f3_md",
       "label": "The Rise of Universities",
       "lane": "theologians",
@@ -12657,6 +13013,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_the_trinitarian_pattern_of_redemption_in_richard_sibbes_1577_1635_e69677bc9aa",
       "label": "The Trinitarian Pattern of Redemption in Richard Sibbes (1577\u20131635)",
       "lane": "theologians",
@@ -12667,6 +13024,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_tolowa_indian_shakers_5953cc214ae3_md",
       "label": "TOLOWA INDIAN SHAKERS:",
       "lane": "theologians",
@@ -12677,6 +13035,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_understanding_of_the_procession_of_the_holy_spirit_from_the_son_focusing_on_t",
       "label": "Understanding of the Procession of the Holy Spirit from the Son: Focusing on the Doctrine of Trinity of Thomas Aquinas",
       "lane": "theologians",
@@ -12687,6 +13046,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:theologians_cross_era_primary_source_expansion_md",
       "label": "Cross-Era Primary Source Expansion",
       "lane": "theologians",
@@ -12697,6 +13057,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:theologians_cross_era_theologian_framework_md",
       "label": "Cross Era Theologian Framework",
       "lane": "theologians",
@@ -12707,6 +13068,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:theologians_holy_spirit_gifts_global_framework_md",
       "label": "Gifts Of The Holy Spirit Across Peoples And Nations",
       "lane": "theologians",
@@ -12717,6 +13079,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:theologians_medieval_source_notes_md",
       "label": "Medieval Source Notes",
       "lane": "theologians",
@@ -12727,6 +13090,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:theologians_modern_contemporary_source_notes_md",
       "label": "Modern And Contemporary Source Notes",
       "lane": "theologians",
@@ -12737,6 +13101,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:theologians_patristic_source_notes_md",
       "label": "Patristic Source Notes",
       "lane": "theologians",
@@ -12747,6 +13112,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_primary_text_disagreement_matrix_md",
       "label": "Primary Text Disagreement Matrix",
       "lane": "theologians",
@@ -12757,6 +13123,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_primary_text_reference_index_md",
       "label": "Primary Text Reference Index",
       "lane": "theologians",
@@ -12767,6 +13134,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:theologians_reformation_source_notes_md",
       "label": "Reformation Source Notes",
       "lane": "theologians",
@@ -12777,6 +13145,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_reviewed_growth_batch_2026_05_27_md",
       "label": "Reviewed Theologian Growth Batch, 2026-05-27",
       "lane": "theologians",
@@ -12787,6 +13156,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_reviewed_growth_batch_2026_06_01_md",
       "label": "Reviewed Theologian Growth Batch, 2026-06-01",
       "lane": "theologians",
@@ -12797,6 +13167,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_reviewed_growth_batch_2026_06_01_followup_md",
       "label": "Reviewed Theologian Growth Follow-Up, 2026-06-01",
       "lane": "theologians",
@@ -12807,6 +13178,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_reviewed_growth_batch_2026_06_04_md",
       "label": "Reviewed Theologian Growth Batch, 2026-06-04",
       "lane": "theologians",
@@ -12817,6 +13189,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_reviewed_growth_batch_2026_06_04_second_pass_md",
       "label": "Reviewed Theologian Growth Second Pass, 2026-06-04",
       "lane": "theologians",
@@ -12827,6 +13200,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
       "label": "Reviewed Theologian Growth Third Pass, 2026-06-04",
       "lane": "theologians",
@@ -12837,6 +13211,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:theologians_source_specific_theologian_review_notes_md",
       "label": "Source-Specific Theologian Review Notes",
       "lane": "theologians",
@@ -12847,6 +13222,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_a_history_of_booksellers_the_old_and_the_new_a03d6fe56f91_md",
       "label": "A History of Booksellers, the Old and the New",
       "lane": "history_inputs",
@@ -12857,6 +13233,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_collective_soul_the_spirituality_of_an_interdisciplinary_palliative_care_t",
       "label": "Collective soul: The spirituality of an interdisciplinary palliative care team",
       "lane": "history_inputs",
@@ -12867,6 +13244,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_disciplined_wonder_on_the_evangelical_possibility_of_reflecting_theologica",
       "label": "\u2018Disciplined wonder\u2019: on the evangelical possibility of reflecting theologically on very good things, as well as the bad and the ugly",
       "lane": "history_inputs",
@@ -12877,6 +13255,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_doctrinal_controversy_and_the_church_economy_of_post_chalcedon_palestine_2",
       "label": "Doctrinal Controversy and the Church Economy of Post-Chalcedon Palestine",
       "lane": "history_inputs",
@@ -12887,6 +13266,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_domesticating_the_reformation_material_culture_memory_and_confessional_ide",
       "label": "Domesticating the Reformation: Material Culture, Memory, and Confessional Identity in Early Modern England",
       "lane": "history_inputs",
@@ -12897,6 +13277,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_feeling_as_knowing_trans_phenomenology_and_epistemic_justice_cf627bfe386f_",
       "label": "Feeling as Knowing: Trans Phenomenology and Epistemic Justice",
       "lane": "history_inputs",
@@ -12907,6 +13288,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_providential_empire_the_established_church_of_england_and_the_nineteenth_c",
       "label": "Providential Empire? The Established Church of England and the Nineteenth-Century British Empire in India",
       "lane": "history_inputs",
@@ -12917,6 +13299,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_reframing_redress_a_social_healing_through_justice_approach_to_united_stat",
       "label": "Reframing Redress: A \"Social Healing Through Justice\" Approach to United States-Native Hawaiian and Japan-Ainu Reconciliation Initiatives",
       "lane": "history_inputs",
@@ -12927,6 +13310,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_refugee_memories_and_asian_american_critique_adc551dd9f30_md",
       "label": "Refugee Memories and Asian American Critique",
       "lane": "history_inputs",
@@ -12937,6 +13321,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_the_new_westminster_dictionary_of_church_history_6075650785a9_md",
       "label": "The New Westminster Dictionary of Church History",
       "lane": "history_inputs",
@@ -12947,6 +13332,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_to_trust_is_to_survive_toward_a_developmental_model_of_moral_injury_7e9b98",
       "label": "To Trust is to Survive: Toward a Developmental Model of Moral Injury",
       "lane": "history_inputs",
@@ -12957,6 +13343,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:history_inputs_case_study_history_pressure_notes_md",
       "label": "Case Study History Pressure Notes",
       "lane": "history_inputs",
@@ -12967,6 +13354,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:history_inputs_empire_reform_memory_pressure_notes_md",
       "label": "Empire Reform Memory Pressure Notes",
       "lane": "history_inputs",
@@ -12977,6 +13365,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:history_inputs_history_memory_and_repair_md",
       "label": "History: Memory, Conflict, And Repair",
       "lane": "history_inputs",
@@ -12987,6 +13376,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_reviewed_growth_batch_2026_05_27_md",
       "label": "Reviewed History-Inputs Growth Batch, 2026-05-27",
       "lane": "history_inputs",
@@ -12997,6 +13387,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_reviewed_growth_batch_2026_06_01_md",
       "label": "Reviewed History Growth Batch, 2026-06-01",
       "lane": "history_inputs",
@@ -13007,6 +13398,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_reviewed_growth_batch_2026_06_01_followup_md",
       "label": "Reviewed History Growth Follow-Up, 2026-06-01",
       "lane": "history_inputs",
@@ -13017,6 +13409,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_reviewed_growth_batch_2026_06_04_md",
       "label": "Reviewed History-Inputs Growth Batch, 2026-06-04",
       "lane": "history_inputs",
@@ -13027,6 +13420,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_reviewed_growth_batch_2026_06_04_second_pass_md",
       "label": "Reviewed History-Inputs Growth Second Pass, 2026-06-04",
       "lane": "history_inputs",
@@ -13037,6 +13431,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
       "label": "Reviewed History-Inputs Growth Third Pass, 2026-06-04",
       "lane": "history_inputs",
@@ -13047,6 +13442,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_source_specific_history_memory_cases_md",
       "label": "Source-Specific History And Memory Cases",
       "lane": "history_inputs",
@@ -13057,6 +13453,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_a_plea_for_the_sublime_in_science_0ba20631ad01_md",
       "label": "A Plea for the Sublime in Science",
       "lane": "visual_art",
@@ -13067,6 +13464,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_acknowledgements_d49b452109d8_md",
       "label": "Acknowledgements",
       "lane": "visual_art",
@@ -13077,6 +13475,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_acknowledgments_0c27f9457ddb_md",
       "label": "Acknowledgments",
       "lane": "visual_art",
@@ -13087,6 +13486,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_an_exploration_of_the_theological_tensions_in_the_use_of_churches_for_events_8",
       "label": "An Exploration of the Theological Tensions in the Use of Churches for Events",
       "lane": "visual_art",
@@ -13097,6 +13497,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_art_research_philosophy_edition_1_6fce66be291a_md",
       "label": "Art, Research, Philosophy (Edition 1)",
       "lane": "visual_art",
@@ -13107,6 +13508,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_blurring_the_boundaries_0321596d4aac_md",
       "label": "Blurring the Boundaries:",
       "lane": "visual_art",
@@ -13117,6 +13519,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_book_review_spirit_and_beauty_af5b19544383_md",
       "label": "Book Review: Spirit and Beauty",
       "lane": "visual_art",
@@ -13127,6 +13530,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_commentary_5776643f0e52_md",
       "label": "Commentary",
       "lane": "visual_art",
@@ -13137,6 +13541,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_cultures_of_anti_racism_in_latin_america_and_the_caribbean_8341af32a294_md",
       "label": "Cultures of Anti-Racism in Latin America and the Caribbean",
       "lane": "visual_art",
@@ -13147,6 +13552,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_discord_71e77e9ad02a_md",
       "label": "Discord",
       "lane": "visual_art",
@@ -13157,6 +13563,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_emmanuel_katongole_born_from_lament_the_theology_and_politics_of_hope_in_afric",
       "label": "Emmanuel Katongole, Born from Lament: The Theology and Politics of Hope in Africa , Grand Rapids, Michigan: William B. Eerdmans Publishing, 2017, 294 pp., ISBN 9780802874244, $30.",
       "lane": "visual_art",
@@ -13167,6 +13574,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_footwashing_in_john_13_and_the_johannine_community_0e8613419c25_md",
       "label": "Footwashing in John 13 and the Johannine Community",
       "lane": "visual_art",
@@ -13177,6 +13585,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_free_play_and_true_well_being_herder_s_critique_of_kant_s_aesthetics_6ab379709",
       "label": "Free Play and True Well-Being: Herder's Critique of Kant's Aesthetics",
       "lane": "visual_art",
@@ -13187,6 +13596,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_imperial_matter_ancient_persia_and_the_archaeology_of_empires_0ba1a9c73d32_md",
       "label": "Imperial Matter: Ancient Persia and the Archaeology of Empires",
       "lane": "visual_art",
@@ -13197,6 +13607,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_index_5540f3e764a1_md",
       "label": "Index",
       "lane": "visual_art",
@@ -13207,6 +13618,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_objects_of_veneration_music_and_materiality_in_the_composer_cults_of_germany_a",
       "label": "Objects of Veneration: Music and Materiality in the Composer-Cults of Germany and Austria,1870-1930",
       "lane": "visual_art",
@@ -13217,6 +13629,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_pride_pomp_and_circumstance_palace_court_and_household_in_assyria_879_612_bce_",
       "label": "Pride, Pomp And Circumstance: Palace, Court And Household In Assyria 879\u2013612 BCE",
       "lane": "visual_art",
@@ -13227,6 +13640,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_reimagining_spain_transnational_entanglements_and_remembrance_of_the_spanish_c",
       "label": "Reimagining Spain : transnational entanglements and remembrance of the Spanish Civil War since 1989",
       "lane": "visual_art",
@@ -13237,6 +13651,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_searching_for_god_theology_imagination_beauty_and_the_arts_b255f5d6a48d_md",
       "label": "SEARCHING FOR GOD: THEOLOGY, IMAGINATION, BEAUTY AND THE ARTS",
       "lane": "visual_art",
@@ -13247,6 +13662,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_sin_and_the_hacker_ethic_the_tragedy_of_techno_utopian_ideology_in_cyberspace_",
       "label": "Sin and the Hacker Ethic: The Tragedy of Techno-Utopian Ideology in Cyberspace Business Cultures",
       "lane": "visual_art",
@@ -13257,6 +13673,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_the_aesthetics_of_atheism_9caae505cc4d_md",
       "label": "The Aesthetics of Atheism",
       "lane": "visual_art",
@@ -13267,6 +13684,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_the_idea_of_the_labyrinth_from_classical_antiquity_through_the_middle_ages_38c",
       "label": "The Idea of the Labyrinth from Classical Antiquity through the Middle Ages",
       "lane": "visual_art",
@@ -13277,6 +13695,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_the_people_paradox_self_esteem_striving_immortality_ideologies_and_human_respo",
       "label": "The People Paradox: Self-Esteem Striving, Immortality Ideologies, and Human Response to Climate Change",
       "lane": "visual_art",
@@ -13287,6 +13706,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_the_role_of_art_and_the_meaning_of_the_symbol_in_the_formation_of_sacred_space",
       "label": "THE ROLE OF ART AND THE MEANING OF THE SYMBOL IN THE FORMATION OF SACRED SPACE",
       "lane": "visual_art",
@@ -13297,6 +13717,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_the_west_and_beyond_new_perspectives_on_an_imagined_region_0352e58085b4_md",
       "label": "The West and Beyond: New Perspectives on an Imagined Region",
       "lane": "visual_art",
@@ -13307,6 +13728,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:visual_art_case_study_visual_art_notes_md",
       "label": "Case Study Visual Art Notes",
       "lane": "visual_art",
@@ -13317,6 +13739,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:visual_art_composition_symbol_pressure_notes_md",
       "label": "Composition Symbol Pressure Notes",
       "lane": "visual_art",
@@ -13327,6 +13750,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:visual_art_icon_beauty_and_lament_md",
       "label": "Visual Art: Beauty, Lament, And Hope",
       "lane": "visual_art",
@@ -13337,6 +13761,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:visual_art_source_specific_cross_layer_case_notes_md",
       "label": "Source-Specific Visual Art Case Notes",
       "lane": "visual_art",
@@ -13347,6 +13772,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:cultural_inputs_art_beauty_symbol_md",
       "label": "Art Beauty Symbol",
       "lane": "cultural_inputs",
@@ -13357,6 +13783,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_1848_in_1998_the_politics_of_commemoration_in_hungary_romania_and_slovaki",
       "label": "1848 in 1998: The Politics of Commemoration in Hungary, Romania, and Slovakia",
       "lane": "cultural_inputs",
@@ -13367,6 +13794,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_addressing_the_critical_challenge_of_ai_bias_through_empathy_46e0c3c3bc65",
       "label": "Addressing the Critical Challenge of AI Bias Through Empathy",
       "lane": "cultural_inputs",
@@ -13377,6 +13805,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_addressing_vulnerability_building_resilience_community_based_adaptation_t",
       "label": "Addressing vulnerability, building resilience: community-based adaptation to vector-borne diseases in the context of global change",
       "lane": "cultural_inputs",
@@ -13387,6 +13816,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ai_ethics_and_higher_education_good_practice_and_guidance_for_educators_l",
       "label": "AI ethics and higher education : good practice and guidance for educators, learners, and institutions",
       "lane": "cultural_inputs",
@@ -13397,6 +13827,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_an_agency_based_capability_theory_of_justice_8606b65e39c3_md",
       "label": "An Agency\u2010Based Capability Theory of Justice",
       "lane": "cultural_inputs",
@@ -13407,6 +13838,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_anthropology_of_security_and_security_in_anthropology_cases_of_counterter",
       "label": "Anthropology of security and security in anthropology: Cases of counterterrorism in the United States",
       "lane": "cultural_inputs",
@@ -13417,6 +13849,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_artificial_intelligence_ethics_guidelines_for_developers_and_users_clarif",
       "label": "Artificial intelligence ethics guidelines for developers and users: clarifying their content and normative implications",
       "lane": "cultural_inputs",
@@ -13427,6 +13860,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_autistic_community_and_the_neurodiversity_movement_696454bb63c3_md",
       "label": "Autistic Community and the Neurodiversity Movement",
       "lane": "cultural_inputs",
@@ -13437,6 +13871,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_beyond_comparison_histoire_crois_e_and_the_challenge_of_reflexivity_1_92a",
       "label": "BEYOND COMPARISON: HISTOIRE CROIS\u00c9E AND THE CHALLENGE OF REFLEXIVITY 1",
       "lane": "cultural_inputs",
@@ -13447,6 +13882,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_beyond_the_asylum_walls_tracing_the_tapestry_of_mental_health_interventio",
       "label": "Beyond the Asylum Walls: Tracing the Tapestry of Mental Health Interventions Across Eras and Cultures.",
       "lane": "cultural_inputs",
@@ -13457,6 +13893,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_bodies_in_transition_ethics_in_xenotransplantation_research_109391e97236_",
       "label": "Bodies in Transition: Ethics in Xenotransplantation Research.",
       "lane": "cultural_inputs",
@@ -13467,6 +13904,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_book_review_on_human_dignity_political_theology_and_ethics_2ceb76ad00ea_m",
       "label": "Book Review: On Human Dignity: Political Theology and Ethics",
       "lane": "cultural_inputs",
@@ -13477,6 +13915,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_bounded_justice_and_the_limits_of_health_equity_ce268e81c7b3_md",
       "label": "Bounded Justice and the Limits of Health Equity",
       "lane": "cultural_inputs",
@@ -13487,6 +13926,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_collection_and_use_of_human_materials_during_tb_clinical_research_a_revie",
       "label": "Collection and use of human materials during TB clinical research; a review of practices.",
       "lane": "cultural_inputs",
@@ -13497,6 +13937,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_community_based_mpox_and_sexually_transmitted_disease_surveillance_using_",
       "label": "Community-based mpox and sexually transmitted disease surveillance using discarded condoms in the global south.",
       "lane": "cultural_inputs",
@@ -13507,6 +13948,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_community_genetics_and_community_medicine_d1623afbac20_md",
       "label": "Community genetics and community medicine.",
       "lane": "cultural_inputs",
@@ -13517,6 +13959,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_constitutional_conscience_criminal_justice_and_public_interest_ethics_87d",
       "label": "Constitutional conscience: Criminal justice and public interest ethics",
       "lane": "cultural_inputs",
@@ -13527,6 +13970,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_covid_19_pandemia_and_public_and_global_mental_health_from_the_perspectiv",
       "label": "COVID-19 PANDEMIA AND PUBLIC AND GLOBAL MENTAL HEALTH FROM THE PERSPECTIVE OF GLOBAL HEALTH SECURITY",
       "lane": "cultural_inputs",
@@ -13537,6 +13981,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_cross_cultural_biblical_interpretation_groups_the_approach_in_practice_11",
       "label": "Cross-Cultural Biblical Interpretation Groups: the Approach in Practice",
       "lane": "cultural_inputs",
@@ -13547,6 +13992,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_cultural_group_selection_plays_an_essential_role_in_explaining_human_coop",
       "label": "Cultural group selection plays an essential role in explaining human cooperation: A sketch of the evidence",
       "lane": "cultural_inputs",
@@ -13557,6 +14003,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_disability_in_a_human_rights_context_e156a2e323f1_md",
       "label": "Disability in a Human Rights Context",
       "lane": "cultural_inputs",
@@ -13567,6 +14014,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_at_the_centre_of_global_and_local_challenges_thoughts_on_the_futur",
       "label": "Ethics at the Centre of Global and Local Challenges: Thoughts on the Future of Business Ethics",
       "lane": "cultural_inputs",
@@ -13577,6 +14025,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_in_human_ai_teaming_principles_and_perspectives_8daa8b2b9bd0_md",
       "label": "Ethics in human\u2013AI teaming: principles and perspectives",
       "lane": "cultural_inputs",
@@ -13587,6 +14036,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_in_international_health_research_a_perspective_from_the_developing",
       "label": "Ethics in international health research: a perspective from the developing world.",
       "lane": "cultural_inputs",
@@ -13597,6 +14047,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_of_the_attention_economy_the_problem_of_social_media_addiction_50e",
       "label": "Ethics of the Attention Economy: The Problem of Social Media Addiction",
       "lane": "cultural_inputs",
@@ -13607,6 +14058,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_geography_in_educational_system_of_primary_school_teacher_education_in_cr",
       "label": "GEOGRAPHY IN EDUCATIONAL SYSTEM OF PRIMARY SCHOOL TEACHER EDUCATION IN CROATIA",
       "lane": "cultural_inputs",
@@ -13617,6 +14069,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_goodbye_dolly_the_ethics_of_human_cloning_e1ba76645d3a_md",
       "label": "\"Goodbye Dolly?\" The ethics of human cloning.",
       "lane": "cultural_inputs",
@@ -13627,6 +14080,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_honey_as_a_source_of_essential_microelements_95b559f7d92d_md",
       "label": "HONEY AS A SOURCE OF ESSENTIAL MICROELEMENTS",
       "lane": "cultural_inputs",
@@ -13637,6 +14091,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_human_dignity_found_in_religious_community_5fba4220e640_md",
       "label": "HUMAN DIGNITY FOUND IN RELIGIOUS COMMUNITY",
       "lane": "cultural_inputs",
@@ -13647,6 +14102,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_indigenous_storytelling_truth_telling_and_community_approaches_to_reconci",
       "label": "Indigenous Storytelling, Truth-telling, and Community Approaches to Reconciliation",
       "lane": "cultural_inputs",
@@ -13657,6 +14113,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_novel_neurorights_from_nonsense_to_substance_cfa4ed3b98e0_md",
       "label": "Novel Neurorights: From Nonsense to Substance",
       "lane": "cultural_inputs",
@@ -13667,6 +14124,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_plague_quarantines_and_geopolitics_in_the_ottoman_empire_6ccd4032135a_md",
       "label": "Plague, Quarantines and Geopolitics in the Ottoman Empire",
       "lane": "cultural_inputs",
@@ -13677,6 +14135,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_privacy_poverty_and_big_data_a_matrix_of_vulnerabilities_for_poor_america",
       "label": "Privacy, Poverty and Big Data: A Matrix of Vulnerabilities for Poor Americans",
       "lane": "cultural_inputs",
@@ -13687,6 +14146,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_public_support_for_european_integration_c4216a468c86_md",
       "label": "Public Support for European Integration",
       "lane": "cultural_inputs",
@@ -13697,6 +14157,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_religion_and_social_values_for_sustainability_e1fda3a0907f_md",
       "label": "Religion and social values for sustainability",
       "lane": "cultural_inputs",
@@ -13707,6 +14168,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_states_and_ontological_security_a_historical_rethinking_e7cc28c5fffa_md",
       "label": "States and ontological security: A historical rethinking",
       "lane": "cultural_inputs",
@@ -13717,6 +14179,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_talking_it_through_responses_to_sorcery_and_witchcraft_beliefs_and_practi",
       "label": "Talking it Through: Responses to Sorcery and Witchcraft Beliefs and Practices in Melanesia",
       "lane": "cultural_inputs",
@@ -13727,6 +14190,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_the_devil_s_handwriting_precolonial_discourse_ethnographic_acuity_and_cro",
       "label": "\u201cThe Devil's Handwriting\u201d: Precolonial Discourse, Ethnographic Acuity, and Cross-Identification in German Colonialism",
       "lane": "cultural_inputs",
@@ -13737,6 +14201,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_the_individual_and_society_in_the_middle_ages_a4f0c1fccd29_md",
       "label": "The Individual and Society in the Middle Ages",
       "lane": "cultural_inputs",
@@ -13747,6 +14212,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_topographies_of_tolerance_and_intolerance_d2d423bf40dc_md",
       "label": "Topographies of Tolerance and Intolerance",
       "lane": "cultural_inputs",
@@ -13757,6 +14223,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_using_the_new_acm_code_of_ethics_in_decision_making_31815a037064_md",
       "label": "Using the new ACM code of ethics in decision making",
       "lane": "cultural_inputs",
@@ -13767,6 +14234,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:cultural_inputs_cultural_practice_balance_notes_md",
       "label": "Cultural Practice Balance Notes",
       "lane": "cultural_inputs",
@@ -13777,6 +14245,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:cultural_inputs_ecology_creation_care_md",
       "label": "Ecology Creation Care",
       "lane": "cultural_inputs",
@@ -13787,6 +14256,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:cultural_inputs_economics_work_dignity_md",
       "label": "Economics Work Dignity",
       "lane": "cultural_inputs",
@@ -13797,6 +14267,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:cultural_inputs_education_formation_wisdom_md",
       "label": "Education Formation Wisdom",
       "lane": "cultural_inputs",
@@ -13807,6 +14278,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:cultural_inputs_family_community_belonging_md",
       "label": "Family Community Belonging",
       "lane": "cultural_inputs",
@@ -13817,6 +14289,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:cultural_inputs_health_suffering_healing_md",
       "label": "Health Suffering Healing",
       "lane": "cultural_inputs",
@@ -13827,6 +14300,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:cultural_inputs_politics_justice_repair_md",
       "label": "Politics Justice Repair",
       "lane": "cultural_inputs",
@@ -13837,6 +14311,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:cultural_inputs_science_order_humility_md",
       "label": "Science Order Humility",
       "lane": "cultural_inputs",
@@ -13847,6 +14322,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:cultural_inputs_technology_ai_responsibility_md",
       "label": "Technology Ai Responsibility",
       "lane": "cultural_inputs",
@@ -13857,6 +14333,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_18_adaptation_and_identity_building_among_the_ethnic_chinese_communitie",
       "label": "18 Adaptation and Identity Building Among the Ethnic Chinese Communities in Vietnam: A View from Ritual Transformation in Popular Religion",
       "lane": "psychology_inputs",
@@ -13867,6 +14344,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_a_comprehensive_survey_on_machine_learning_approaches_for_fake_news_det",
       "label": "A comprehensive survey on machine learning approaches for fake news detection",
       "lane": "psychology_inputs",
@@ -13877,6 +14355,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_agency_attribution_in_infancy_evidence_for_a_negativity_bias_cc3c4869f6",
       "label": "Agency Attribution in Infancy: Evidence for a Negativity Bias",
       "lane": "psychology_inputs",
@@ -13887,6 +14366,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_an_ontology_of_psychedelic_entity_experiences_in_evolutionary_psycholog",
       "label": "An ontology of psychedelic entity experiences in evolutionary psychology and neurophenomenology",
       "lane": "psychology_inputs",
@@ -13897,6 +14377,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_animal_agency_in_the_age_of_the_modern_synthesis_w_h_thorpe_s_example_8",
       "label": "Animal agency in the age of the Modern Synthesis: W.H. Thorpe's example",
       "lane": "psychology_inputs",
@@ -13907,6 +14388,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_belief_in_divine_control_coping_and_race_ethnicity_among_older_women_wi",
       "label": "Belief in Divine Control, Coping, and Race/Ethnicity among Older Women with Breast Cancer",
       "lane": "psychology_inputs",
@@ -13917,6 +14399,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_cm_ccl_collaborative_multi_scale_concept_cognitive_learning_for_knowled",
       "label": "CM-CCL: Collaborative multi-scale concept-cognitive learning for knowledge discovery",
       "lane": "psychology_inputs",
@@ -13927,6 +14410,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_connectedness_as_a_core_conservation_concern_an_interdisciplinary_revie",
       "label": "Connectedness as a Core Conservation Concern: An Interdisciplinary Review of Theory and a Call for Practice",
       "lane": "psychology_inputs",
@@ -13937,6 +14421,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_conversion_and_attachment_insecurity_among_orthodox_jews_198cebea0cfb_m",
       "label": "Conversion and Attachment Insecurity Among Orthodox Jews",
       "lane": "psychology_inputs",
@@ -13947,6 +14432,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_corner_detection_bd0c454e4c14_md",
       "label": "Corner detection",
       "lane": "psychology_inputs",
@@ -13957,6 +14443,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_eco_anxiety_and_environmental_education_7d988a32c38f_md",
       "label": "Eco-Anxiety and Environmental Education",
       "lane": "psychology_inputs",
@@ -13967,6 +14454,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_existential_transformational_game_design_harnessing_the_psychomagic_of_",
       "label": "Existential Transformational Game Design: Harnessing the \u201cPsychomagic\u201d of Symbolic Enactment",
       "lane": "psychology_inputs",
@@ -13977,6 +14465,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_how_ritual_an_animal_harvey_whitehouse_on_ritual_trust_and_cooperation_",
       "label": "How Ritual an Animal? Harvey Whitehouse on Ritual, Trust, and Cooperation",
       "lane": "psychology_inputs",
@@ -13987,6 +14476,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_is_critique_secular_blasphemy_injury_and_free_speech_f496116618f6_md",
       "label": "Is Critique Secular? Blasphemy, Injury, and Free Speech",
       "lane": "psychology_inputs",
@@ -13997,6 +14487,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_lane_detection_with_versatile_atrousformer_and_local_semantic_guidance_",
       "label": "Lane Detection with Versatile AtrousFormer and Local Semantic Guidance",
       "lane": "psychology_inputs",
@@ -14007,6 +14498,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_networks_and_narratives_a_model_for_ancient_greek_religion_1fbebb93cbb0",
       "label": "Networks and Narratives: A Model for Ancient Greek Religion",
       "lane": "psychology_inputs",
@@ -14017,6 +14509,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_religious_identity_in_the_workplace_a_systematic_review_research_agenda",
       "label": "Religious identity in the workplace: A systematic review, research agenda, and practical implications",
       "lane": "psychology_inputs",
@@ -14027,6 +14520,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_sentiment_analysis_for_fake_news_detection_b3f948ce982d_md",
       "label": "Sentiment Analysis for Fake News Detection",
       "lane": "psychology_inputs",
@@ -14037,6 +14531,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_towards_an_integration_of_ethnography_history_and_the_cognitive_science",
       "label": "Towards an Integration of Ethnography, History and the Cognitive Science of Religion",
       "lane": "psychology_inputs",
@@ -14047,6 +14542,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:psychology_inputs_clinical_and_social_limits_notes_md",
       "label": "Clinical And Social Limits Notes",
       "lane": "psychology_inputs",
@@ -14057,6 +14553,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:psychology_inputs_pattern_perception_vs_divine_pattern_response_md",
       "label": "Pattern Perception Versus Divine Pattern Response",
       "lane": "psychology_inputs",
@@ -14067,6 +14564,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:psychology_inputs_psychology_patterns_and_transformation_md",
       "label": "Psychology: Human Process And Transformation",
       "lane": "psychology_inputs",
@@ -14077,6 +14575,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:psychology_inputs_source_specific_psychology_limits_md",
       "label": "Source-Specific Psychology Limits",
       "lane": "psychology_inputs",
@@ -14087,6 +14586,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:psychology_inputs_trauma_attachment_repair_notes_md",
       "label": "Trauma Attachment Repair Notes",
       "lane": "psychology_inputs",
@@ -14097,6 +14597,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:human_stories_global_gifts_testimony_notes_md",
       "label": "Global Gifts Testimony Notes",
       "lane": "human_stories",
@@ -14107,6 +14608,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:human_stories_lived_experience_validation_notes_md",
       "label": "Lived Experience Validation Notes",
       "lane": "human_stories",
@@ -14117,6 +14619,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:modern_literature_auto_imported_cloud_candidates_book_review_the_suffering_self_pain_and_narrative_representation_in_the",
       "label": "Book Review: The Suffering Self: Pain and Narrative Representation in the Early Christian Era",
       "lane": "modern_literature",
@@ -14127,6 +14630,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:modern_literature_auto_imported_cloud_candidates_bowing_before_christ_nodding_to_the_state_reading_paul_politically_with",
       "label": "Bowing Before Christ \u2013 Nodding to the State? : Reading Paul Politically with Oliver O\u2019Donovan and John Howard Yoder",
       "lane": "modern_literature",
@@ -14137,6 +14641,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:modern_literature_auto_imported_cloud_candidates_poetry_for_poetry_s_sake_c44d1862d654_md",
       "label": "Poetry for Poetry's Sake",
       "lane": "modern_literature",
@@ -14147,6 +14652,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:modern_literature_modern_literature_balance_cases_md",
       "label": "Modern Literature Balance Cases",
       "lane": "modern_literature",
@@ -14157,6 +14663,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:modern_literature_narrative_pattern_validation_notes_md",
       "label": "Modern Literature Pattern Validation Notes",
       "lane": "modern_literature",
@@ -14167,6 +14674,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_a_heated_debate_6eea2dcf57f8_md",
       "label": "A Heated Debate",
       "lane": "deep_sources",
@@ -14177,6 +14685,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_a_new_variant_of_the_electromagnetic_field_theory_of_consciousness_approache",
       "label": "A new variant of the electromagnetic field theory of consciousness: approaches to empirical confirmation",
       "lane": "deep_sources",
@@ -14187,6 +14696,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_a_practical_guide_to_risk_management_869cf85ffcb3_md",
       "label": "A Practical Guide to Risk Management",
       "lane": "deep_sources",
@@ -14197,6 +14707,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_a_precipice_below_which_lies_absurdity_theories_without_a_spacetime_and_scie",
       "label": "A precipice below which lies absurdity? Theories without a spacetime and scientific understanding",
       "lane": "deep_sources",
@@ -14207,6 +14718,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_bias_against_novelty_in_science_a_cautionary_tale_for_users_of_bibliometric_",
       "label": "Bias against novelty in science: A cautionary tale for users of bibliometric indicators",
       "lane": "deep_sources",
@@ -14217,6 +14729,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_calculation_of_average_uncertainty_range_and_reliability_of_regional_climate",
       "label": "Calculation of Average, Uncertainty Range, and Reliability of Regional Climate Changes from AOGCM Simulations via the \u201cReliability Ensemble Averaging\u201d (REA) Method",
       "lane": "deep_sources",
@@ -14227,6 +14740,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_deterministic_quantum_mechanics_the_mathematical_equations_9bfa5bed54c1_md",
       "label": "Deterministic Quantum Mechanics: The Mathematical Equations",
       "lane": "deep_sources",
@@ -14237,6 +14751,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_is_the_quantum_state_real_an_extended_review_of_ontology_theorems_88b255dfc3",
       "label": "Is the Quantum State Real? An Extended Review of \u03c8-Ontology Theorems",
       "lane": "deep_sources",
@@ -14247,6 +14762,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_manifesto_of_computational_social_science_0d5433939f2e_md",
       "label": "Manifesto of computational social science",
       "lane": "deep_sources",
@@ -14257,6 +14773,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_nonextensive_statistics_theoretical_experimental_and_computational_evidences",
       "label": "Nonextensive statistics: theoretical, experimental and computational evidences and connections",
       "lane": "deep_sources",
@@ -14267,6 +14784,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_on_schizophrenic_experiences_of_the_neutron_or_why_we_should_believe_in_the_",
       "label": "On schizophrenic experiences of the neutron or why we should believe in the many\u2010worlds interpretation of quantum theory",
       "lane": "deep_sources",
@@ -14277,6 +14795,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_open_problems_in_the_philosophy_of_information_c34c12eb04e4_md",
       "label": "Open Problems in the Philosophy of Information",
       "lane": "deep_sources",
@@ -14287,6 +14806,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_pedagogical_content_knowledge_and_preparation_of_high_school_physics_teacher",
       "label": "Pedagogical content knowledge and preparation of high school physics teachers",
       "lane": "deep_sources",
@@ -14297,6 +14817,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_",
       "label": "Promoting novelty, rigor, and style in energy social science: Towards codes of practice for appropriate methods and research design",
       "lane": "deep_sources",
@@ -14307,6 +14828,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_quantification_of_model_uncertainty_in_rans_simulations_a_review_1707195ecba",
       "label": "Quantification of model uncertainty in RANS simulations: A review",
       "lane": "deep_sources",
@@ -14317,6 +14839,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_quantum_optimization_and_quantum_learning_a_survey_3aa5fc0647e4_md",
       "label": "Quantum Optimization and Quantum Learning: A Survey",
       "lane": "deep_sources",
@@ -14327,6 +14850,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_quantum_search_algorithms_quantum_wireless_and_a_low_complexity_maximum_like",
       "label": "Quantum Search Algorithms, Quantum Wireless, and a Low-Complexity Maximum Likelihood Iterative Quantum Multi-User Detector Design",
       "lane": "deep_sources",
@@ -14337,6 +14861,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_science_vs_conspiracy_collective_narratives_in_the_age_of_misinformation_413",
       "label": "Science vs Conspiracy: Collective Narratives in the Age of Misinformation",
       "lane": "deep_sources",
@@ -14347,6 +14872,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_the_alice_in_wonderland_mechanics_of_the_rejection_of_climate_science_simula",
       "label": "The \u2018Alice in Wonderland\u2019 mechanics of the rejection of (climate) science: simulating coherence by conspiracism",
       "lane": "deep_sources",
@@ -14357,6 +14883,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_the_art_of_persuasion_theorizing_as_argumentation_4fa70f85bc3f_md",
       "label": "The art of persuasion: Theorizing as argumentation",
       "lane": "deep_sources",
@@ -14367,6 +14894,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_the_influence_of_darwin_on_philosophy_and_other_essays_in_contemporary_thoug",
       "label": "The influence of Darwin on philosophy, and other essays in contemporary thought",
       "lane": "deep_sources",
@@ -14377,6 +14905,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_the_ipcc_ar5_guidance_note_on_consistent_treatment_of_uncertainties_a_common",
       "label": "The IPCC AR5 guidance note on consistent treatment of uncertainties: a common approach across the working groups",
       "lane": "deep_sources",
@@ -14387,6 +14916,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_the_rise_of_modern_probability_theory_c4d0477e302a_md",
       "label": "The Rise of Modern Probability Theory",
       "lane": "deep_sources",
@@ -14397,6 +14927,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_the_routledge_handbook_of_philosophy_of_information_c46828149939_md",
       "label": "The Routledge Handbook of Philosophy of Information",
       "lane": "deep_sources",
@@ -14407,6 +14938,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_the_third_generation_of_gravitational_wave_observatories_and_their_science_r",
       "label": "The third generation of gravitational wave observatories and their science reach",
       "lane": "deep_sources",
@@ -14417,6 +14949,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_typicality_in_probability_theory_f84436cd7b4f_md",
       "label": "Typicality in Probability Theory",
       "lane": "deep_sources",
@@ -14427,6 +14960,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:deep_sources_math_physics_theorem_inventory_md",
       "label": "Math And Physics Theorem Inventory For Pattern Testing",
       "lane": "deep_sources",
@@ -14437,6 +14971,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:deep_sources_math_statistics_logic_congruence_filters_md",
       "label": "Math, Statistics, And Logic Congruence Filters",
       "lane": "deep_sources",
@@ -14447,6 +14982,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_mathematical_theophany_filter_md",
       "label": "Mathematical Theophany Filter",
       "lane": "deep_sources",
@@ -14457,6 +14993,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_qualified_quantum_science_references_md",
       "label": "Qualified Quantum And Science References",
       "lane": "deep_sources",
@@ -14467,6 +15004,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:deep_sources_qualified_science_reference_review_notes_md",
       "label": "Qualified Science Reference Review Notes",
       "lane": "deep_sources",
@@ -14477,6 +15015,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:deep_sources_quantum_claim_limits_source_pairs_md",
       "label": "Quantum And Science Claim-Limit Source Pairs",
       "lane": "deep_sources",
@@ -14487,6 +15026,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:deep_sources_quantum_science_source_framework_md",
       "label": "Quantum Science Source Framework",
       "lane": "deep_sources",
@@ -14497,6 +15037,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_reviewed_quantum_theory_guardrails_2026_06_04_md",
       "label": "Reviewed Quantum Theory Guardrails, 2026-06-04",
       "lane": "deep_sources",
@@ -14507,6 +15048,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_science_counterargument_matrix_md",
       "label": "Science Counterargument Matrix",
       "lane": "deep_sources",
@@ -14517,6 +15059,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_science_counterarguments_and_limits_md",
       "label": "Science Counterarguments And Limits",
       "lane": "deep_sources",
@@ -14527,6 +15070,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:deep_sources_unresolved_suffering_source_framework_md",
       "label": "Unresolved Suffering Source Framework",
       "lane": "deep_sources",
@@ -14537,6 +15081,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_absent_repair_extreme_pressure_cases_md",
       "label": "Absent-Repair Extreme Pressure Cases",
       "lane": "pattern_tests",
@@ -14547,6 +15092,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_answered_prayer_ambiguity_test_md",
       "label": "Answered Prayer Ambiguity Test",
       "lane": "pattern_tests",
@@ -14557,6 +15103,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_aligning_teams_and_steering_the_journey_887fbd2e38f5_md",
       "label": "Aligning Teams and Steering the Journey",
       "lane": "pattern_tests",
@@ -14567,6 +15114,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_arguing_for_information_systems_project_definition_29127a587cb8_md",
       "label": "Arguing for Information Systems Project Definition",
       "lane": "pattern_tests",
@@ -14577,6 +15125,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_conflict_and_conversation_10cdf577d8a4_md",
       "label": "Conflict and Conversation",
       "lane": "pattern_tests",
@@ -14587,6 +15136,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_dealing_with_the_challenges_of_macro_financial_linkages_in_emerging_markets",
       "label": "Dealing with the Challenges of Macro Financial Linkages in Emerging Markets",
       "lane": "pattern_tests",
@@ -14597,6 +15147,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_early_franciscan_theology_between_authority_and_innovation_829dc47ac420_md",
       "label": "Early Franciscan Theology: Between Authority and Innovation",
       "lane": "pattern_tests",
@@ -14607,6 +15158,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_generative_ai_in_higher_education_d231505ed553_md",
       "label": "Generative AI in Higher Education",
       "lane": "pattern_tests",
@@ -14617,6 +15169,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_growth_fueled_by_uncertainty_25c72aa64220_md",
       "label": "Growth Fueled by Uncertainty",
       "lane": "pattern_tests",
@@ -14627,6 +15180,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_healing_liturgy_the_role_of_music_and_singing_b4923ff7b226_md",
       "label": "Healing liturgy: The role of music and singing",
       "lane": "pattern_tests",
@@ -14637,6 +15191,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_holes_in_the_whole_considerations_on_the_made_whole_doctrine_and_its_applic",
       "label": "Holes in the Whole: Considerations on the Made Whole Doctrine and Its Applicability to Environmental Claims",
       "lane": "pattern_tests",
@@ -14647,6 +15202,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_introduction_1603ead39257_md",
       "label": "Introduction",
       "lane": "pattern_tests",
@@ -14657,6 +15213,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_lament_measuring_a_christian_meaning_making_coping_practice_d7100091566b_md",
       "label": "Lament: Measuring a Christian Meaning-Making Coping Practice",
       "lane": "pattern_tests",
@@ -14667,6 +15224,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_mentioning_and_then_refuting_an_anticipated_counterargument_a_conceptual_an",
       "label": "Mentioning and then refuting an anticipated counterargument: a conceptual and empirical study of the persuasiveness of a mode of strategic manoeuvring",
       "lane": "pattern_tests",
@@ -14677,6 +15235,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_mine_your_own_business_making_the_case_for_the_implications_of_the_data_min",
       "label": "\"MINE YOUR OWN BUSINESS!\": MAKING THE CASE FOR THE IMPLICATIONS OF THE DATA MINING OF PERSONAL INFORMATION IN THE FORUM OF PUBLIC OPINION",
       "lane": "pattern_tests",
@@ -14687,6 +15246,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_solving_the_plastic_problem_from_cradle_to_grave_to_reincarnation_be4bb1803",
       "label": "Solving the plastic problem: From cradle to grave, to reincarnation",
       "lane": "pattern_tests",
@@ -14697,6 +15257,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_the_biological_and_ethical_basis_of_the_use_of_human_embryonic_stem_cells_f",
       "label": "The biological and ethical basis of the use of human embryonic stem cells for in vitro test systems or cell therapy",
       "lane": "pattern_tests",
@@ -14707,6 +15268,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_the_learner_factor_in_washback_context_an_empirical_study_investigating_the",
       "label": "The Learner Factor in Washback Context: An Empirical Study Investigating the Washback of the IELTS Academic Writing Test",
       "lane": "pattern_tests",
@@ -14717,6 +15279,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_the_middle_passage_trauma_and_the_tragic_re_imagination_of_african_american",
       "label": "The Middle Passage, Trauma and the Tragic Re-Imagination of African American Theology",
       "lane": "pattern_tests",
@@ -14727,6 +15290,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_why_our_justice_system_convicts_innocent_people_and_the_challenges_faced_by",
       "label": "Why Our Justice System Convicts Innocent People, and the Challenges Faced by Innocence Projects Trying to Exonerate Them",
       "lane": "pattern_tests",
@@ -14737,6 +15301,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_child_loss_lament_test_md",
       "label": "Child Loss And Lament Test",
       "lane": "pattern_tests",
@@ -14747,6 +15312,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_chronic_illness_no_resolution_test_md",
       "label": "Chronic Illness Without Resolution Test",
       "lane": "pattern_tests",
@@ -14757,6 +15323,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_daily_life_case_study_test_md",
       "label": "Daily Life Case Study Test",
       "lane": "pattern_tests",
@@ -14767,6 +15334,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_dementia_identity_lament_test_md",
       "label": "Dementia Identity Lament Test",
       "lane": "pattern_tests",
@@ -14777,6 +15345,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_divine_pattern_response_pressure_test_md",
       "label": "Divine Pattern Response Pressure Test",
       "lane": "pattern_tests",
@@ -14787,6 +15356,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_ecological_loss_no_restoration_test_md",
       "label": "Ecological Loss No Restoration Test",
       "lane": "pattern_tests",
@@ -14797,6 +15367,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_holy_spirit_gifts_global_pressure_test_md",
       "label": "Holy Spirit Gifts Global Pressure Test",
       "lane": "pattern_tests",
@@ -14807,6 +15378,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_injustice_corruption_test_md",
       "label": "Injustice Corruption Test",
       "lane": "pattern_tests",
@@ -14817,6 +15389,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_institutional_success_moral_failure_test_md",
       "label": "Institutional Success Moral Failure Test",
       "lane": "pattern_tests",
@@ -14827,6 +15400,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_md",
       "label": "Leading Patterns Pressure Test, 2026-06-04",
       "lane": "pattern_tests",
@@ -14837,6 +15411,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_second_pass_md",
       "label": "Leading Patterns Pressure Test Second Pass, 2026-06-04",
       "lane": "pattern_tests",
@@ -14847,6 +15422,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_leading_patterns_pressure_2026_06_04_third_pass_md",
       "label": "Leading Patterns Pressure Test Third Pass, 2026-06-04",
       "lane": "pattern_tests",
@@ -14857,6 +15433,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_leading_patterns_pressure_followup_2026_06_01_md",
       "label": "Leading Patterns Pressure Follow-Up, 2026-06-01",
       "lane": "pattern_tests",
@@ -14867,6 +15444,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_math_statistics_logic_filter_test_md",
       "label": "Math, Statistics, And Logic Filter Test",
       "lane": "pattern_tests",
@@ -14877,6 +15455,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_moral_injury_no_clear_repair_test_md",
       "label": "Moral Injury No Clear Repair Test",
       "lane": "pattern_tests",
@@ -14887,6 +15466,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_no_repair_case_studies_expansion_md",
       "label": "No-Repair Case Studies Expansion",
       "lane": "pattern_tests",
@@ -14897,6 +15477,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_non_christian_comparison_test_md",
       "label": "Non Christian Comparison Test",
       "lane": "pattern_tests",
@@ -14907,6 +15488,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_poverty_generational_pressure_test_md",
       "label": "Poverty Generational Pressure Test",
       "lane": "pattern_tests",
@@ -14917,6 +15499,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_quantum_science_guardrail_test_md",
       "label": "Quantum Science Guardrail Test",
       "lane": "pattern_tests",
@@ -14927,6 +15510,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_report_suggestion_pressure_followup_2026_06_12_md",
       "label": "Report Suggestion Pressure Follow-Up, 2026-06-12",
       "lane": "pattern_tests",
@@ -14937,6 +15521,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_secular_transformation_comparison_test_md",
       "label": "Secular Transformation Comparison Test",
       "lane": "pattern_tests",
@@ -14947,6 +15532,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_spiritual_abuse_and_injustice_test_md",
       "label": "Spiritual Abuse And Injustice Test",
       "lane": "pattern_tests",
@@ -14957,6 +15543,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_top_five_pattern_competition_matrix_md",
       "label": "Top Five Pattern Competition Matrix",
       "lane": "pattern_tests",
@@ -14967,6 +15554,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_unresolved_suffering_test_md",
       "label": "Unresolved Suffering Test",
       "lane": "pattern_tests",
@@ -14977,6 +15565,7 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
       "id": "doc:pattern_tests_war_survivor_no_repair_test_md",
       "label": "War Survivor No Repair Test",
       "lane": "pattern_tests",

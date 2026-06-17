@@ -62,6 +62,16 @@ The method and guardrail layers define how pattern claims are weighed. They keep
 Scripture, Christ, creedal doctrine, source quality, rival explanations, mystery,
 and pastoral harm checks ahead of scoring or pattern elegance.
 
+Research governance files define the human review lane:
+
+- `research_documents/research_governance_workflow.md`
+- `research_documents/gold_standard_corpus_plan.md`
+- `research_documents/external_review_protocol.md`
+
+These files separate candidate leads from reviewed evidence, require
+anti-confirmation-bias checks, make suffering and abuse first-class pressure
+tests, and define outside-review roles before strong public claims are made.
+
 ## AI Knowledge Backend
 
 The project now includes a first-pass backend shape for:
@@ -74,6 +84,7 @@ Build it locally with:
 
 ```powershell
 python ai_knowledge_backend.py
+python build_divine_pattern_findings.py
 ```
 
 The backend writes:
@@ -84,6 +95,7 @@ reports/knowledge_graph.json
 reports/review_rules_audit.json
 reports/multimodal_review_manifest.json
 reports/ai_backend_report.txt
+reports/divine_pattern_findings.md
 reports/combined_web_article.md
 reports/combined_web_article.html
 reports/published/final_book_report.md
@@ -96,6 +108,24 @@ concepts. The review audit checks whether sources mention core claim controls
 such as evidence, interpretation, discernment, analogy, practical use,
 counter-reading, failure condition, and the boundary that machine labels route
 attention rather than settle truth.
+
+The audit also reports confidence tiers and promotion blockers:
+
+```text
+candidate_lead
+developing_evidence
+reviewed_evidence_ready
+media_pending_review
+```
+
+These are research routing labels, not verdicts. A source strengthens a claim
+only after a human reviewer records source-specific evidence, interpretation,
+discernment, analogy, practical use, counter-reading, failure condition, and
+machine-label boundary.
+
+For normal use, read `reports/divine_pattern_findings.md`. It is designed to
+tell you which divine patterns the system currently finds, why they surfaced,
+what could weaken them, and what question you may want to evaluate for yourself.
 
 The multimodal manifest makes the backend MLLM-ready for image, video, and
 audio assets. Media can enter the corpus directly, but uncaptioned or

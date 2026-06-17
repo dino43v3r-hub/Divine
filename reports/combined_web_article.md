@@ -2,7 +2,7 @@
 
 _A GitHub-readable article drawn from the generated reports._
 
-Generated: `2026-06-17 17:13 UTC`
+Generated: `2026-06-17 17:26 UTC`
 
 ## How To Read This Page
 
@@ -437,6 +437,27 @@ Promotion rule: No friction record or major claim should rise above provisional 
 - Current Status: counter_reading_added
 - Next Review Step: Keep quantum and science references in analogy or guardrail status unless source scope changes.
 - Review Note: Science may teach humility and limits; it does not prove God, prayer, or consciousness.
+
+### research_governance_workflow
+
+- Target Type: research_method_protocol
+- Current Status: ready_for_confidence_review
+- Next Review Step: Use this workflow as the promotion gate for every major claim and update it after outside reviewer feedback.
+- Review Note: Defines confidence tiers, anti-confirmation-bias checks, failure conditions, suffering and abuse tests, source promotion steps, and report-language rules.
+
+### gold_standard_corpus_plan
+
+- Target Type: research_operations_plan
+- Current Status: summary_mapped
+- Next Review Step: Select the first 25 to 40 high-quality sources and fill the review template source by source.
+- Review Note: Shifts growth from source volume toward direct adjudication of Scripture, theology, suffering, comparative religion, science, and practical theology sources.
+
+### external_review_protocol
+
+- Target Type: peer_review_protocol
+- Current Status: summary_mapped
+- Next Review Step: Invite role-specific reviewers and record their strongest objection, missing counter-reading, harm risk, and recommended confidence change.
+- Review Note: Creates external pressure from biblical scholarship, theology, science/philosophy, comparative religion, and pastoral/trauma ethics.
 
 
 
@@ -1096,11 +1117,11 @@ Backend: Media assets now enter the index through captions, transcripts, sidecar
 
 Corpus Summary
 --------------
-- Indexed documents: 410
-- Indexed text documents: 410
+- Indexed documents: 414
+- Indexed text documents: 414
 - Indexed media assets: 0
-- Graph nodes: 442
-- Graph edges: 2144
+- Graph nodes: 446
+- Graph edges: 2171
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
@@ -1110,7 +1131,7 @@ Reviewer: Which leading patterns are showing up most often?
 Backend: Image Of God Pattern (10), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
 
 Reviewer: Which review rules are most visible?
-Backend: practical_use (377), counter_reading (366), evidence (311), machine_label_boundary (243).
+Backend: practical_use (382), counter_reading (370), evidence (313), machine_label_boundary (244).
 
 Lane Coverage
 -------------
@@ -1125,10 +1146,42 @@ Backend: Here is the lane map. High counts are invitations to review more carefu
 - other_religious_texts: 14 documents; 269 declared reviewed notes
 - pattern_tests: 45 documents; 49 declared reviewed notes
 - psychology_inputs: 24 documents; 24 declared reviewed notes
-- research_documents: 91 documents; 137 declared reviewed notes
+- research_documents: 95 documents; 141 declared reviewed notes
 - theologians: 28 documents; 397 declared reviewed notes
 - visual_art: 29 documents; 29 declared reviewed notes
 - world_languages: 33 documents; 162 declared reviewed notes
+
+Confidence Tiers
+----------------
+Reviewer: Are these tiers final verdicts?
+Backend: No. They sort review work. Only source-specific human decisions can promote a claim.
+- candidate_lead: 112 documents
+- developing_evidence: 301 documents
+- reviewed_evidence_ready: 1 documents
+
+Promotion Rule Coverage
+-----------------------
+Backend: These counts show where the next review pass should focus before sources strengthen claims.
+- evidence: 313 present; 101 missing of 414
+- interpretation: 28 present; 386 missing of 414
+- discernment: 233 present; 181 missing of 414
+- analogy: 47 present; 367 missing of 414
+- practical_use: 382 present; 32 missing of 414
+- counter_reading: 370 present; 44 missing of 414
+- failure_condition: 93 present; 321 missing of 414
+- machine_label_boundary: 244 present; 170 missing of 414
+
+Promotion Blockers
+------------------
+Backend: These blockers are the most practical to-do list for researchers.
+- analogy: 25 example document(s) queued
+- counter_reading: 25 example document(s) queued
+- discernment: 25 example document(s) queued
+- evidence: 25 example document(s) queued
+- failure_condition: 25 example document(s) queued
+- interpretation: 25 example document(s) queued
+- machine_label_boundary: 25 example document(s) queued
+- practical_use: 25 example document(s) queued
 
 Pattern Mentions
 ----------------
@@ -1149,14 +1202,14 @@ Review Rule Mentions
 Reviewer: What do the review-rule counts tell us?
 Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.
 
-- evidence: 311 documents
-- interpretation: 27 documents
-- discernment: 229 documents
-- analogy: 45 documents
-- practical_use: 377 documents
-- counter_reading: 366 documents
-- failure_condition: 89 documents
-- machine_label_boundary: 243 documents
+- evidence: 313 documents
+- interpretation: 28 documents
+- discernment: 233 documents
+- analogy: 47 documents
+- practical_use: 382 documents
+- counter_reading: 370 documents
+- failure_condition: 93 documents
+- machine_label_boundary: 244 documents
 
 Practical-Theology Gate
 -----------------------

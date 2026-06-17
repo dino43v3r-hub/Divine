@@ -67,6 +67,32 @@ REVIEW_RULES = {
     ],
 }
 
+PROMOTION_REQUIRED_RULES = [
+    "evidence",
+    "interpretation",
+    "discernment",
+    "analogy",
+    "practical_use",
+    "counter_reading",
+    "failure_condition",
+    "machine_label_boundary",
+]
+
+CONFIDENCE_TIER_RULES = {
+    "reviewed_evidence_ready": (
+        "Source has all promotion rules visible; it is ready for human confidence review, not automatically promoted.",
+    ),
+    "developing_evidence": (
+        "Source has evidence and a counter-reading, but still lacks one or more interpretation, analogy, discernment, practical-use, failure-condition, or machine-label controls.",
+    ),
+    "candidate_lead": (
+        "Source can route attention, but it must not strengthen a claim until human review separates evidence, interpretation, discernment, analogy, practical use, counter-reading, and failure condition.",
+    ),
+    "media_pending_review": (
+        "Media asset needs caption, transcript, direct observation, source context, rights status, and counter-reading before claim use.",
+    ),
+}
+
 STOPWORDS = {
     "about",
     "after",
@@ -227,10 +253,36 @@ def detect_rules(text):
     }
 
 
+def confidence_tier(document):
+    rules = document["rules_present"]
+    if document["modality"] != "text" and "needs_mllm_or_human_review" in document["media_review_status"]:
+        return "media_pending_review"
+    if all(rules.get(rule) for rule in PROMOTION_REQUIRED_RULES):
+        return "reviewed_evidence_ready"
+    if rules.get("evidence") and rules.get("counter_reading"):
+        return "developing_evidence"
+    return "candidate_lead"
+
+
+def promotion_blockers(document):
+    if document["modality"] != "text" and "needs_mllm_or_human_review" in document["media_review_status"]:
+        return [
+            "caption_or_transcript",
+            "direct_media_observation",
+            "source_context",
+            "rights_status",
+            "counter_reading",
+            "human_review",
+        ]
+    return [
+        rule for rule in PROMOTION_REQUIRED_RULES if not document["rules_present"].get(rule)
+    ]
+
+
 def summarize_document(lane, path, text):
     tokens = tokenize(text)
     token_counts = Counter(tokens)
-    return {
+    document = {
         "id": normalize_id(str(path.as_posix())),
         "path": path.as_posix(),
         "lane": lane,
@@ -245,6 +297,9 @@ def summarize_document(lane, path, text):
         "top_terms": [term for term, _ in token_counts.most_common(12)],
         "tokens": token_counts,
     }
+    document["confidence_tier"] = confidence_tier(document)
+    document["promotion_blockers"] = promotion_blockers(document)
+    return document
 
 
 def summarize_media_asset(lane, path):
@@ -266,7 +321,7 @@ def summarize_media_asset(lane, path):
     rules_present = detect_rules(searchable_text)
     rules_present["machine_label_boundary"] = True
 
-    return {
+    document = {
         "id": normalize_id(str(path.as_posix())),
         "path": path.as_posix(),
         "lane": lane,
@@ -281,6 +336,9 @@ def summarize_media_asset(lane, path):
         "top_terms": [term for term, _ in token_counts.most_common(12)],
         "tokens": token_counts,
     }
+    document["confidence_tier"] = confidence_tier(document)
+    document["promotion_blockers"] = promotion_blockers(document)
+    return document
 
 
 def build_retrieval_index(documents):
@@ -319,6 +377,8 @@ def build_retrieval_index(documents):
             "review_note_count": document["review_note_count"],
             "patterns": document["patterns"],
             "rules_present": document["rules_present"],
+            "confidence_tier": document["confidence_tier"],
+            "promotion_blockers": document["promotion_blockers"],
             "keywords": keywords,
         }
         index_documents.append(slim)
@@ -374,6 +434,7 @@ def build_knowledge_graph(documents):
             modality=document["modality"],
             media_review_status=document["media_review_status"],
             review_note_count=document["review_note_count"],
+            confidence_tier=document["confidence_tier"],
         )
         add_edge(edges, doc_id, f"lane:{document['lane']}", "belongs_to_lane")
 
@@ -398,6 +459,9 @@ def build_review_audit(documents):
     audit_documents = []
     lane_totals = defaultdict(lambda: Counter({"documents": 0, "text_documents": 0, "media_assets": 0, "review_notes": 0}))
     missing_by_rule = defaultdict(list)
+    rule_coverage = Counter()
+    tier_totals = Counter()
+    blockers = defaultdict(list)
 
     for document in documents:
         lane_totals[document["lane"]]["documents"] += 1
@@ -406,13 +470,20 @@ def build_review_audit(documents):
         else:
             lane_totals[document["lane"]]["media_assets"] += 1
         lane_totals[document["lane"]]["review_notes"] += document["review_note_count"]
+        tier_totals[document["confidence_tier"]] += 1
 
         missing = [
             rule for rule, present in document["rules_present"].items() if not present
         ]
+        rule_coverage.update(
+            rule for rule, present in document["rules_present"].items() if present
+        )
         for rule in missing:
             if len(missing_by_rule[rule]) < 25:
                 missing_by_rule[rule].append(document["path"])
+        for blocker in document["promotion_blockers"]:
+            if len(blockers[blocker]) < 25:
+                blockers[blocker].append(document["path"])
 
         if document["review_note_count"] or document["patterns"] or document["lane"] in {
             "source_packs",
@@ -431,16 +502,34 @@ def build_review_audit(documents):
                     "patterns": document["patterns"],
                     "rules_present": document["rules_present"],
                     "missing_rules": missing,
+                    "confidence_tier": document["confidence_tier"],
+                    "promotion_blockers": document["promotion_blockers"],
                 }
             )
 
+    document_count = len(documents) or 1
     return {
         "backend": "review_rules",
         "review_policy": "machine checks route attention; human review decides confidence",
+        "promotion_policy": "No source strengthens a claim until all promotion-required rules are present and a human reviewer records a source-specific decision.",
+        "promotion_required_rules": PROMOTION_REQUIRED_RULES,
+        "confidence_tier_rules": {
+            tier: description[0] for tier, description in CONFIDENCE_TIER_RULES.items()
+        },
+        "confidence_tier_totals": dict(sorted(tier_totals.items())),
+        "rule_coverage": {
+            rule: {
+                "present": int(rule_coverage.get(rule, 0)),
+                "missing": int(document_count - rule_coverage.get(rule, 0)),
+                "total": int(document_count),
+            }
+            for rule in PROMOTION_REQUIRED_RULES
+        },
         "lane_totals": {
             lane: dict(counter) for lane, counter in sorted(lane_totals.items())
         },
         "missing_rule_examples": dict(sorted(missing_by_rule.items())),
+        "promotion_blocker_examples": dict(sorted(blockers.items())),
         "documents": audit_documents,
     }
 
@@ -465,6 +554,8 @@ def build_multimodal_manifest(documents):
                 "review_status": document["media_review_status"],
                 "sidecar_paths": document["sidecar_paths"],
                 "review_note_count": document["review_note_count"],
+                "confidence_tier": document["confidence_tier"],
+                "promotion_blockers": document["promotion_blockers"],
                 "patterns": document["patterns"],
                 "top_terms": document["top_terms"],
             }
@@ -518,6 +609,19 @@ def create_backend_report(index, graph, audit, multimodal_manifest):
     strongest_rule_text = ", ".join(
         f"{rule} ({count})" for rule, count in strongest_rules
     )
+
+    tier_lines = [
+        f"- {tier}: {count} documents"
+        for tier, count in sorted(audit.get("confidence_tier_totals", {}).items())
+    ]
+    coverage_lines = []
+    for rule, values in audit.get("rule_coverage", {}).items():
+        coverage_lines.append(
+            f"- {rule}: {values['present']} present; {values['missing']} missing of {values['total']}"
+        )
+    blocker_lines = []
+    for blocker, paths in audit.get("promotion_blocker_examples", {}).items():
+        blocker_lines.append(f"- {blocker}: {len(paths)} example document(s) queued")
 
     lines = [
         "AI Knowledge Backend Report",
@@ -581,6 +685,22 @@ def create_backend_report(index, graph, audit, multimodal_manifest):
         "-------------",
         "Backend: Here is the lane map. High counts are invitations to review more carefully, not permission to overclaim.",
         *lane_lines,
+        "",
+        "Confidence Tiers",
+        "----------------",
+        "Reviewer: Are these tiers final verdicts?",
+        "Backend: No. They sort review work. Only source-specific human decisions can promote a claim.",
+        *tier_lines,
+        "",
+        "Promotion Rule Coverage",
+        "-----------------------",
+        "Backend: These counts show where the next review pass should focus before sources strengthen claims.",
+        *coverage_lines,
+        "",
+        "Promotion Blockers",
+        "------------------",
+        "Backend: These blockers are the most practical to-do list for researchers.",
+        *blocker_lines,
         "",
         "Pattern Mentions",
         "----------------",

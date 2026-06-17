@@ -10,6 +10,7 @@ OUTPUT_PATH = Path("reports/published/final_book_report.md")
 REFERENCES_PATH = Path("references/references.json")
 DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
 KNOWLEDGE_INDEX_PATH = Path("reports/knowledge_retrieval_index.json")
+REVIEW_AUDIT_PATH = Path("reports/review_rules_audit.json")
 FRICTION_LAYERS_PATH = Path("research_documents/friction_layers.json")
 THEOLOGICAL_FOUNDATIONS_PATH = Path("research_documents/theological_foundations.json")
 PATTERN_DISTORTION_PATH = Path("research_documents/pattern_distortion_layer.json")
@@ -28,6 +29,7 @@ DOES_NOT_PROVE_PATH = Path("research_documents/does_not_prove_boundaries.json")
 SCIENCE_GUARDRAIL_PATH = Path("research_documents/science_guardrail_layer.json")
 
 SOURCE_REPORTS = {
+    "findings": Path("reports/divine_pattern_findings.md"),
     "backend": Path("reports/ai_backend_report.txt"),
     "summary": Path("reports/divine_pattern_summary_report.txt"),
     "top_patterns": Path("reports/top_five_divine_patterns_report.txt"),
@@ -35,6 +37,13 @@ SOURCE_REPORTS = {
     "deep": Path("reports/deep_source_review_report.txt"),
     "theologians": Path("reports/theologian_pattern_design_report.txt"),
     "reader": Path("reports/divine_pattern_reader_book.txt"),
+}
+
+EXCLUDED_REPORTS = {
+    "combined_summary_report": {
+        "path": Path("reports/combined_summary_report.txt"),
+        "reason": "Appears to belong to the disk-cleanup/compiler workflow, so it is excluded from Divine Pattern synthesis.",
+    },
 }
 
 TOP_PATTERN_NAMES = [
@@ -193,6 +202,56 @@ def compact_lane_table(backend_text: str) -> list[str]:
         "cultural_inputs",
     ]
     return [line for lane in lanes if (line := extract_lane_line(backend_text, lane))]
+
+
+def confidence_tier_lines(audit: dict) -> list[str]:
+    totals = audit.get("confidence_tier_totals", {}) if audit else {}
+    if not totals:
+        return ["- Confidence tiers have not been generated yet. Run `python ai_knowledge_backend.py`."]
+    labels = {
+        "reviewed_evidence_ready": "ready for human confidence review",
+        "developing_evidence": "developing evidence",
+        "candidate_lead": "candidate lead only",
+        "media_pending_review": "media pending review",
+    }
+    return [
+        f"- {labels.get(tier, tier)}: {int(count):,}"
+        for tier, count in sorted(totals.items())
+    ]
+
+
+def rule_coverage_lines(audit: dict) -> list[str]:
+    coverage = audit.get("rule_coverage", {}) if audit else {}
+    if not coverage:
+        return ["- Promotion-rule coverage has not been generated yet."]
+    priority = [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "machine_label_boundary",
+        "discernment",
+        "evidence",
+        "counter_reading",
+        "practical_use",
+    ]
+    lines = []
+    for rule in priority:
+        values = coverage.get(rule)
+        if not values:
+            continue
+        lines.append(
+            f"- {rule}: {int(values.get('present', 0)):,} present; {int(values.get('missing', 0)):,} missing of {int(values.get('total', 0)):,}"
+        )
+    return lines or ["- No promotion-rule coverage values found."]
+
+
+def excluded_report_lines() -> list[str]:
+    lines = []
+    for item in EXCLUDED_REPORTS.values():
+        path = item["path"]
+        status = "present and excluded" if path.exists() else "not present"
+        lines.append(f"- `{path.as_posix()}` ({status}): {item['reason']}")
+    return lines
 
 
 def pattern_section(name: str) -> tuple[str, str, str, str, str]:
@@ -793,6 +852,7 @@ def build_article() -> str:
     digest = read_json(DAILY_DIGEST_PATH)
     reference_catalog = read_json(REFERENCES_PATH)
     knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
+    review_audit = read_json(REVIEW_AUDIT_PATH)
     candidate_pattern = current_candidate_pattern(knowledge_index)
     stats = extract_backend_stats(texts["backend"])
     lane_lines = compact_lane_table(texts["backend"])
@@ -853,6 +913,18 @@ def build_article() -> str:
         "## Source Review Status",
         "",
         *source_review_status_lines(source_review_status),
+        "",
+        "## Evidence Tiers And Promotion Readiness",
+        "",
+        "The project now separates candidate leads from sources that are ready for human confidence review. These tiers are not verdicts; they are research routing labels.",
+        "",
+        *confidence_tier_lines(review_audit),
+        "",
+        "A source should not strengthen a claim until the promotion-required rules are visible and a human reviewer records a source-specific decision.",
+        "",
+        "Promotion-rule coverage:",
+        "",
+        *rule_coverage_lines(review_audit),
         "",
         "## What This Does Not Prove",
         "",
@@ -964,6 +1036,7 @@ def build_article() -> str:
             "- History gives pressure, not decoration. Power, harm, memory, reform, and unfinished repair must stay visible.",
             "- Psychology and sociology can explain many repeated patterns without requiring divine-pattern interpretation.",
             "- Machine labels can route attention, but they cannot settle truth.",
+            "- Candidate sources are useful for discovery, but they are not reviewed evidence until original-source review, rival explanation, analogy limit, failure condition, and practical-use boundary are recorded.",
             "",
             "## Friction Layer",
             "",
@@ -988,7 +1061,9 @@ def build_article() -> str:
             *friction_layer_lines(friction_layers),
             "## What Would Make The Project Better",
             "",
-            "The next growth should not be more volume for its own sake. It should be better review. The strongest next work is to keep building source packs for major claims, add counter-readings from serious rivals, and make every practical claim answer the same question: does this help people become more truthful, loving, humble, just, worshipful, patient, and faithful?",
+            "The next growth should not be more volume for its own sake. It should be better review. The strongest next work is to build a gold-standard corpus, add counter-readings from serious rivals, require failure conditions for attractive claims, and make every practical claim answer the same question: does this help people become more truthful, loving, humble, just, worshipful, patient, and faithful?",
+            "",
+            "The project should use `research_documents/gold_standard_corpus_plan.md`, `research_documents/research_governance_workflow.md`, and `research_documents/external_review_protocol.md` as the human-review operating lane.",
             "",
             "## Final Judgment",
             "",
@@ -1009,12 +1084,153 @@ def build_article() -> str:
         status = "available" if path.exists() else "missing"
         lines.append(f"- `{path.as_posix()}` ({status})")
 
+    lines.extend(
+        [
+            "",
+            "Excluded generated reports:",
+            "",
+            *excluded_report_lines(),
+        ]
+    )
+
+    return "\n".join(lines) + "\n"
+
+
+def build_short_article() -> str:
+    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    digest = read_json(DAILY_DIGEST_PATH)
+    reference_catalog = read_json(REFERENCES_PATH)
+    knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
+    review_audit = read_json(REVIEW_AUDIT_PATH)
+    candidate_pattern = current_candidate_pattern(knowledge_index)
+    findings_text = read(Path("reports/divine_pattern_findings.md"))
+    friction_layers = read_friction_layers()
+    theological_foundations = read_layer(THEOLOGICAL_FOUNDATIONS_PATH)
+    does_not_prove = read_layer(DOES_NOT_PROVE_PATH)
+    science_guardrail = read_layer(SCIENCE_GUARDRAIL_PATH)
+
+    finding_lines = []
+    for line in findings_text.splitlines():
+        if line.startswith("### "):
+            finding_lines.append(line.replace("### ", "- "))
+        if len(finding_lines) >= 7:
+            break
+
+    foundation_lines = theological_foundations_lines(theological_foundations)
+    boundary_lines = does_not_prove_lines(does_not_prove)
+    science_lines = science_guardrail_lines(science_guardrail)
+
+    lines = [
+        "# Divine Pattern Research",
+        "",
+        "## Short Book Report",
+        "",
+        f"_Generated: {generated}_",
+        "",
+        "This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.",
+        "",
+        "This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.",
+        "",
+        "## Short Answer",
+        "",
+        "The project does not claim that patterns prove Christianity. It finds recurring patterns across theology, culture, language, suffering, science, art, music, history, and human experience, then asks whether those patterns can be responsibly read through Christian theology.",
+        "",
+        "The best current posture is: the system finds and explains divine-pattern signals; you evaluate whether they seem true, faithful, useful, or weak.",
+        "",
+        "## Current Pattern Found",
+        "",
+        f"**Current candidate divine pattern:** {candidate_pattern['candidate']}",
+        "",
+        f"**Movement:** {candidate_pattern['movement']}",
+        "",
+        f"**Selection note:** {candidate_pattern['basis']}",
+        "",
+        "## Main Divine Patterns Found",
+        "",
+        *(finding_lines or ["- No pattern findings report has been generated yet."]),
+        "",
+        "Read the focused pattern report here:",
+        "",
+        "- `reports/divine_pattern_findings.md`",
+        "",
+        "## Evidence Status",
+        "",
+        *confidence_tier_lines(review_audit),
+        "",
+        "These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.",
+        "",
+        "## Biggest Current Gaps",
+        "",
+        *rule_coverage_lines(review_audit)[:5],
+        "",
+        "The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions.",
+        "",
+        "## Theological Boundary",
+        "",
+        foundation_lines[0] if foundation_lines else "Pattern recognition is subordinate to Scripture and divine revelation.",
+        "",
+        "The project keeps this order: Scripture and revelation first, Christ and creedal guardrails next, then source quality, rival explanations, harm checks, mystery, and only then provisional confidence.",
+        "",
+        "## What This Does Not Prove",
+        "",
+        *boundary_lines[:14],
+        "",
+        "## Science And Quantum Guardrail",
+        "",
+        science_lines[0] if science_lines else "Science language is a guardrail, not a proof engine.",
+        "",
+        "Quantum theory, mathematics, neuroscience, and AI pattern recognition may support humility and better reasoning. They should not be used as proof of God, prayer, consciousness, miracles, or providence.",
+        "",
+        "## Pressure Tests That Matter Most",
+        "",
+        "- Unresolved suffering",
+        "- Spiritual abuse and institutional failure",
+        "- Injustice without repair",
+        "- Rival explanations from psychology, sociology, biology, culture, politics, and literary form",
+        "- Science claims that exceed their source domain",
+        "- Other religious traditions being flattened or misread",
+        "",
+        "## What You Need To Do",
+        "",
+        "Nothing technical. Read `reports/divine_pattern_findings.md` when you want the current patterns. Your role is simply to evaluate whether the patterns seem true, faithful, useful, or weak.",
+        "",
+        "## Current Corpus Snapshot",
+        "",
+        *bulletize(latest_cloud_discovery_lines(digest, reference_catalog)[:3]),
+        f"- New candidate references in latest discovery run: {int(digest.get('new_count', 0) or 0):,}",
+        "",
+        *bulletize(friction_summary_lines(friction_layers)[:4]),
+        "",
+        "## Detailed Reports",
+        "",
+        "The detailed generated reports still exist for audit trails and deeper reading:",
+        "",
+    ]
+
+    for name, path in SOURCE_REPORTS.items():
+        status = "available" if path.exists() else "missing"
+        lines.append(f"- `{path.as_posix()}` ({status})")
+
+    lines.extend(
+        [
+            "",
+            "Excluded generated reports:",
+            "",
+            *excluded_report_lines(),
+            "",
+            "## Bottom Line",
+            "",
+            "The project is strongest when it gives you patterns with limits attached. The system should surface the pattern; you decide how convincing it is.",
+            "",
+        ]
+    )
+
     return "\n".join(lines) + "\n"
 
 
 def main() -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(build_article(), encoding="utf-8")
+    OUTPUT_PATH.write_text(build_short_article(), encoding="utf-8")
     print(f"Published article saved to: {OUTPUT_PATH}")
 
 
