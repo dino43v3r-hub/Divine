@@ -1,0 +1,43 @@
+{
+  "section": "Christological Layer",
+  "purpose": "Evaluate how every major pattern is fulfilled, restored, interpreted, or resolved through Christ.",
+  "core_status": "primary_interpretive_layer",
+  "records": [
+    {
+      "pattern_name": "Order",
+      "appearance_in_creation": "Creation is intelligible, ordered, and sustained.",
+      "appearance_in_humanity": "Humans seek coherence, law, wisdom, and trustworthy meaning.",
+      "distortion": "Order becomes control, legalism, or abstraction detached from love.",
+      "fulfillment_in_christ": "Christ as Logos, through whom and for whom all things were created.",
+      "restoration_through_christ": "Order is restored as truthful love, wise discipleship, and peace under Christ's lordship.",
+      "supporting_scriptures": ["John 1:1-5", "Colossians 1:15-20", "Hebrews 1:1-3"]
+    },
+    {
+      "pattern_name": "Sacrifice",
+      "appearance_in_creation": "Life often involves gift, cost, dependence, and receiving from another.",
+      "appearance_in_humanity": "Humans recognize costly love, service, courage, and self-giving as morally beautiful.",
+      "distortion": "Sacrifice becomes abuse, manipulation, or romanticized suffering.",
+      "fulfillment_in_christ": "The Cross reveals God's self-giving love and judgment on sin.",
+      "restoration_through_christ": "Sacrifice becomes cruciform love, never denial of truth or protection for abusers.",
+      "supporting_scriptures": ["Mark 10:45", "John 15:13", "Philippians 2:5-11", "1 Peter 2:24"]
+    },
+    {
+      "pattern_name": "Community",
+      "appearance_in_creation": "Created life is interdependent and relational.",
+      "appearance_in_humanity": "Humans are formed by family, friendship, society, worship, and shared practice.",
+      "distortion": "Community becomes tribalism, exclusion, control, or identity without truth.",
+      "fulfillment_in_christ": "Christ forms one body across dividing walls.",
+      "restoration_through_christ": "Community is restored through reconciliation, spiritual gifts, mutual service, and communion.",
+      "supporting_scriptures": ["Ephesians 2:13-22", "1 Corinthians 12:12-27", "John 17:20-23"]
+    },
+    {
+      "pattern_name": "Transformation",
+      "appearance_in_creation": "Living things grow, heal, mature, and bear fruit.",
+      "appearance_in_humanity": "Humans long for renewal, freedom from vice, healing, and changed character.",
+      "distortion": "Transformation becomes self-invention, performance, or denial of ongoing weakness.",
+      "fulfillment_in_christ": "Christ gives new life through death and resurrection.",
+      "restoration_through_christ": "The Spirit conforms believers to Christ through sanctification, repentance, and hope.",
+      "supporting_scriptures": ["Romans 6:4", "2 Corinthians 3:18", "Galatians 5:22-25", "Titus 3:5"]
+    }
+  ]
+}

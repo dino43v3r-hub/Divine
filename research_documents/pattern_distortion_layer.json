@@ -1,0 +1,70 @@
+{
+  "section": "Pattern Distortion Layer",
+  "purpose": "Identify how divine patterns become corrupted through sin, pride, rebellion, idolatry, fear, self-interest, and brokenness.",
+  "records": [
+    {
+      "original_pattern": "Love",
+      "distortion": "Possession",
+      "cause": "Self-interest, fear of loss, control, and disordered desire.",
+      "consequences": "Manipulation, jealousy, coercion, and the reduction of persons to objects of need.",
+      "biblical_examples": ["David and Bathsheba", "Samson and Delilah"],
+      "restoration_path": "Repentance, sacrificial love, honoring the other as image-bearer, and receiving love as gift rather than control."
+    },
+    {
+      "original_pattern": "Authority",
+      "distortion": "Tyranny",
+      "cause": "Pride, domination, fear, and refusal of servant leadership.",
+      "consequences": "Oppression, abuse, fear-based obedience, and institutional harm.",
+      "biblical_examples": ["Pharaoh", "Saul's jealousy of David"],
+      "restoration_path": "Servant leadership under Christ, accountability, justice, and protection of the vulnerable."
+    },
+    {
+      "original_pattern": "Freedom",
+      "distortion": "License",
+      "cause": "Rebellion, appetite, and the separation of freedom from love and responsibility.",
+      "consequences": "Bondage to desire, harm to neighbor, moral confusion, and spiritual fragmentation.",
+      "biblical_examples": ["The golden calf", "The prodigal son"],
+      "restoration_path": "Freedom in Christ ordered toward love, holiness, responsibility, and Spirit-led self-control."
+    },
+    {
+      "original_pattern": "Knowledge",
+      "distortion": "Pride",
+      "cause": "Desire for mastery, self-exaltation, and knowledge detached from humility.",
+      "consequences": "Arrogance, contempt, manipulation, and refusal of wisdom.",
+      "biblical_examples": ["The tree of the knowledge of good and evil", "The tower of Babel"],
+      "restoration_path": "Wisdom joined to humility, fear of the Lord, teachability, and love."
+    },
+    {
+      "original_pattern": "Community",
+      "distortion": "Tribalism",
+      "cause": "Fear, exclusion, pride in group identity, and hostility toward outsiders.",
+      "consequences": "Division, scapegoating, prejudice, and broken fellowship.",
+      "biblical_examples": ["Jew-Gentile conflict", "Corinthian factions"],
+      "restoration_path": "Reconciliation in Christ, hospitality, truth, forgiveness, and one body formed by the Spirit."
+    },
+    {
+      "original_pattern": "Worship",
+      "distortion": "Idolatry",
+      "cause": "Misplaced ultimate love, fear, desire for control, and created goods treated as God.",
+      "consequences": "Spiritual blindness, bondage, injustice, and false sacrifice.",
+      "biblical_examples": ["The golden calf", "Baal worship"],
+      "restoration_path": "Return to the living God, repentance, purified worship, and Christ-centered devotion."
+    },
+    {
+      "original_pattern": "Justice",
+      "distortion": "Vengeance",
+      "cause": "Anger without mercy, wounded pride, and desire to repay evil with evil.",
+      "consequences": "Cycles of retaliation, cruelty, and loss of mercy.",
+      "biblical_examples": ["Lamech's vengeance", "Jonah's anger at Nineveh"],
+      "restoration_path": "God's justice joined to mercy, truthful accountability, forgiveness, and peacemaking."
+    },
+    {
+      "original_pattern": "Purpose",
+      "distortion": "Self-Glorification",
+      "cause": "Pride, ambition detached from worship, and desire to make a name for oneself.",
+      "consequences": "Exploitation, emptiness, rivalry, and worship of achievement.",
+      "biblical_examples": ["The tower of Babel", "Nebuchadnezzar's pride"],
+      "restoration_path": "Vocation received as gift, humility, service, worship, and glory returned to God."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "section": "Mystery Layer",
+  "purpose": "Identify truths that are coherent but not fully comprehensible and cannot be reduced to pattern analysis.",
+  "categories": ["Fully Knowable", "Partially Knowable", "Ultimately Mysterious"],
+  "records": [
+    {
+      "topic": "Trinity",
+      "category": "Ultimately Mysterious",
+      "what_can_be_known": "God is one God in three persons: Father, Son, and Holy Spirit.",
+      "what_remains_mysterious": "The fullness of divine triune life exceeds creaturely comprehension.",
+      "supporting_scriptures": ["Matthew 28:19", "John 1:1-18", "2 Corinthians 13:14"],
+      "theological_notes": "Pattern language may reflect relational unity, but it must never replace Nicene doctrine."
+    },
+    {
+      "topic": "Incarnation",
+      "category": "Ultimately Mysterious",
+      "what_can_be_known": "The eternal Son became truly human without ceasing to be truly God.",
+      "what_remains_mysterious": "The union of divine and human natures in the one person of Christ cannot be exhaustively explained.",
+      "supporting_scriptures": ["John 1:14", "Philippians 2:5-11", "Colossians 2:9"],
+      "theological_notes": "Christ fulfills patterns, but Christ is not reducible to a pattern."
+    },
+    {
+      "topic": "Divine Sovereignty",
+      "category": "Partially Knowable",
+      "what_can_be_known": "God reigns, sustains creation, and works providentially.",
+      "what_remains_mysterious": "The relation between divine sovereignty, human agency, evil, and suffering remains contested and limited in human understanding.",
+      "supporting_scriptures": ["Romans 8:28", "Ephesians 1:11", "Genesis 50:20"],
+      "theological_notes": "Providence should be confessed with humility, not used to explain every event."
+    },
+    {
+      "topic": "Eternity",
+      "category": "Partially Knowable",
+      "what_can_be_known": "God is eternal and not bound by creaturely time.",
+      "what_remains_mysterious": "How eternal divine life relates to temporal creation exceeds ordinary human categories.",
+      "supporting_scriptures": ["Psalm 90:2", "Isaiah 57:15", "2 Peter 3:8"],
+      "theological_notes": "Mathematical or philosophical analogies may help, but they remain analogies."
+    },
+    {
+      "topic": "Omnipresence",
+      "category": "Partially Knowable",
+      "what_can_be_known": "God is present to all creation and not contained by creation.",
+      "what_remains_mysterious": "God's presence is not spatial extension in the ordinary creaturely sense.",
+      "supporting_scriptures": ["Psalm 139:7-12", "Jeremiah 23:23-24", "Acts 17:27-28"],
+      "theological_notes": "Presence patterns must avoid pantheism and preserve Creator-creature distinction."
+    }
+  ]
+}

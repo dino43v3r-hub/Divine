@@ -11,6 +11,12 @@ REFERENCES_PATH = Path("references/references.json")
 DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
 KNOWLEDGE_INDEX_PATH = Path("reports/knowledge_retrieval_index.json")
 FRICTION_LAYERS_PATH = Path("research_documents/friction_layers.json")
+THEOLOGICAL_FOUNDATIONS_PATH = Path("research_documents/theological_foundations.json")
+PATTERN_DISTORTION_PATH = Path("research_documents/pattern_distortion_layer.json")
+CHRISTOLOGICAL_LAYER_PATH = Path("research_documents/christological_layer.json")
+HISTORICAL_WITNESSES_PATH = Path("research_documents/historical_witnesses.json")
+MYSTERY_LAYER_PATH = Path("research_documents/mystery_layer.json")
+PROJECT_ARCHITECTURE_PATH = Path("research_documents/project_architecture.json")
 
 SOURCE_REPORTS = {
     "backend": Path("reports/ai_backend_report.txt"),
@@ -87,6 +93,10 @@ def read_friction_layers() -> list[dict]:
     payload = read_json(FRICTION_LAYERS_PATH)
     records = payload.get("friction_layers", [])
     return records if isinstance(records, list) else []
+
+
+def read_layer(path: Path) -> dict:
+    return read_json(path)
 
 
 def current_candidate_pattern(index: dict) -> dict:
@@ -307,11 +317,17 @@ def friction_layer_lines(records: list[dict]) -> list[str]:
                 "",
                 f"**Pattern:** {record.get('pattern', '')}",
                 "",
+                f"**Distortion:** {record.get('distortion', '')}",
+                "",
                 f"**Friction Point:** {record.get('friction_point', '')}",
+                "",
+                f"**Alternative Explanations:** {', '.join(record.get('alternative_explanations', []))}",
                 "",
                 f"**Non-Christian Resolution:** {record.get('non_christian_resolution', '')}",
                 "",
                 f"**Christian Resolution:** {record.get('christian_resolution', '')}",
+                "",
+                f"**Transformation Result:** {record.get('transformation_result', '')}",
                 "",
                 f"**Divine Pattern Insight:** {record.get('divine_pattern_insight', '')}",
                 "",
@@ -322,6 +338,146 @@ def friction_layer_lines(records: list[dict]) -> list[str]:
                 f"**Related Layers:** {related_layers}",
                 "",
                 f"**Tags:** {tags}",
+                "",
+            ]
+        )
+    return lines
+
+
+def theological_foundations_lines(layer: dict) -> list[str]:
+    if not layer:
+        return ["Theological foundations layer is missing."]
+
+    lines = [
+        f"**Mission:** {layer.get('mission_statement', '')}",
+        "",
+        f"**Authority boundary:** {layer.get('authority_boundary', '')}",
+        "",
+        "Principles:",
+    ]
+    lines.extend(f"- {item}" for item in layer.get("principles", []))
+    definitions = layer.get("definitions", {})
+    lines.extend(["", "Definitions:"])
+    for name, definition in definitions.items():
+        lines.append(f"- **{name}:** {definition}")
+    lines.extend(["", "Interpretive order:"])
+    lines.extend(f"- {item}" for item in layer.get("interpretive_order", []))
+    return lines
+
+
+def architecture_lines(layer: dict) -> list[str]:
+    architecture = layer.get("architecture", {}) if layer else {}
+    if not architecture:
+        return ["Project architecture layer is missing."]
+
+    lines = []
+    for heading, items in architecture.items():
+        lines.extend([f"### {heading}", ""])
+        lines.extend(f"- {item}" for item in items)
+        lines.append("")
+    return lines
+
+
+def distortion_layer_lines(layer: dict) -> list[str]:
+    records = layer.get("records", []) if layer else []
+    if not records:
+        return ["No pattern distortion records yet."]
+
+    lines = [layer.get("purpose", ""), ""]
+    for record in records:
+        lines.extend(
+            [
+                f"### {record.get('original_pattern', 'Pattern')} -> {record.get('distortion', 'Distortion')}",
+                "",
+                f"**Cause:** {record.get('cause', '')}",
+                "",
+                f"**Consequences:** {record.get('consequences', '')}",
+                "",
+                f"**Biblical Examples:** {', '.join(record.get('biblical_examples', []))}",
+                "",
+                f"**Restoration Path:** {record.get('restoration_path', '')}",
+                "",
+            ]
+        )
+    return lines
+
+
+def christological_layer_lines(layer: dict) -> list[str]:
+    records = layer.get("records", []) if layer else []
+    if not records:
+        return ["No Christological records yet."]
+
+    lines = [layer.get("purpose", ""), f"Core status: {layer.get('core_status', 'unrated')}", ""]
+    for record in records:
+        lines.extend(
+            [
+                f"### {record.get('pattern_name', 'Pattern')}",
+                "",
+                f"**Appearance In Creation:** {record.get('appearance_in_creation', '')}",
+                "",
+                f"**Appearance In Humanity:** {record.get('appearance_in_humanity', '')}",
+                "",
+                f"**Distortion:** {record.get('distortion', '')}",
+                "",
+                f"**Fulfillment In Christ:** {record.get('fulfillment_in_christ', '')}",
+                "",
+                f"**Restoration Through Christ:** {record.get('restoration_through_christ', '')}",
+                "",
+                f"**Supporting Scriptures:** {', '.join(record.get('supporting_scriptures', []))}",
+                "",
+            ]
+        )
+    return lines
+
+
+def historical_witness_lines(layer: dict) -> list[str]:
+    records = layer.get("records", []) if layer else []
+    if not records:
+        return ["No historical witnesses yet."]
+
+    lines = [layer.get("purpose", ""), ""]
+    for record in records:
+        lines.extend(
+            [
+                f"### {record.get('name', 'Witness')}",
+                "",
+                f"**Era:** {record.get('era', '')}",
+                "",
+                f"**Key Themes:** {', '.join(record.get('key_themes', []))}",
+                "",
+                f"**Relevant Patterns:** {', '.join(record.get('relevant_patterns', []))}",
+                "",
+                f"**Agreements:** {record.get('agreements', '')}",
+                "",
+                f"**Disagreements:** {record.get('disagreements', '')}",
+                "",
+                f"**Citations:** {', '.join(record.get('citations', []))}",
+                "",
+            ]
+        )
+    return lines
+
+
+def mystery_layer_lines(layer: dict) -> list[str]:
+    records = layer.get("records", []) if layer else []
+    if not records:
+        return ["No mystery records yet."]
+
+    lines = [layer.get("purpose", ""), f"Categories: {', '.join(layer.get('categories', []))}", ""]
+    for record in records:
+        lines.extend(
+            [
+                f"### {record.get('topic', 'Mystery')}",
+                "",
+                f"**Category:** {record.get('category', '')}",
+                "",
+                f"**What Can Be Known:** {record.get('what_can_be_known', '')}",
+                "",
+                f"**What Remains Mysterious:** {record.get('what_remains_mysterious', '')}",
+                "",
+                f"**Supporting Scriptures:** {', '.join(record.get('supporting_scriptures', []))}",
+                "",
+                f"**Theological Notes:** {record.get('theological_notes', '')}",
                 "",
             ]
         )
@@ -387,6 +543,12 @@ def build_article() -> str:
     stats = extract_backend_stats(texts["backend"])
     lane_lines = compact_lane_table(texts["backend"])
     friction_layers = read_friction_layers()
+    theological_foundations = read_layer(THEOLOGICAL_FOUNDATIONS_PATH)
+    pattern_distortion = read_layer(PATTERN_DISTORTION_PATH)
+    christological_layer = read_layer(CHRISTOLOGICAL_LAYER_PATH)
+    historical_witnesses = read_layer(HISTORICAL_WITNESSES_PATH)
+    mystery_layer = read_layer(MYSTERY_LAYER_PATH)
+    project_architecture = read_layer(PROJECT_ARCHITECTURE_PATH)
 
     lines = [
         "# Divine Pattern Research",
@@ -397,7 +559,17 @@ def build_article() -> str:
         "",
         "This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.",
         "",
-        "The short version: the research has not found one magic pattern that proves everything. It has found a recurring candidate shape: gift becomes responsibility, power is judged by humble love, suffering must face truth and repair, and every claim is tested by worship, justice, patience, and faithfulness.",
+        "The short version: the research does not claim that patterns prove Christianity. It explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.",
+        "",
+        "Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority.",
+        "",
+        "## Theological Foundations",
+        "",
+        *theological_foundations_lines(theological_foundations),
+        "",
+        "## Project Architecture",
+        "",
+        *architecture_lines(project_architecture),
         "",
         "## Pattern Found So Far",
         "",
@@ -446,6 +618,18 @@ def build_article() -> str:
         "",
         "A repeated signal is not proof. A beautiful analogy is not revelation. A scientific idea is not a sermon. A theological claim is not mature until it can face grief, injustice, rival explanations, and the question of what love requires today.",
         "",
+        "## Pattern Distortion Layer",
+        "",
+        *distortion_layer_lines(pattern_distortion),
+        "## Christological Layer",
+        "",
+        *christological_layer_lines(christological_layer),
+        "## Historical Witnesses",
+        "",
+        *historical_witness_lines(historical_witnesses),
+        "## Mystery Layer",
+        "",
+        *mystery_layer_lines(mystery_layer),
         "## The Five Leading Pattern Families",
         "",
     ]

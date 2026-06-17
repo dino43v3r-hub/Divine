@@ -2,11 +2,92 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-17 12:49 UTC_
+_Generated: 2026-06-17 16:27 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
-The short version: the research has not found one magic pattern that proves everything. It has found a recurring candidate shape: gift becomes responsibility, power is judged by humble love, suffering must face truth and repair, and every claim is tested by worship, justice, patience, and faithfulness.
+The short version: the research does not claim that patterns prove Christianity. It explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.
+
+Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority.
+
+## Theological Foundations
+
+**Mission:** The Divine Pattern Project explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.
+
+**Authority boundary:** Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority.
+
+Principles:
+- God exists independently of human observation.
+- Creation reflects its Creator.
+- Patterns do not create truth. Patterns reveal truth.
+- Human observation is limited and fallible.
+- Scripture remains the highest authority.
+- Pattern analysis is subordinate to Scripture and should never override biblical revelation.
+- General Revelation and Special Revelation should be distinguished.
+
+Definitions:
+- **General Revelation:** Knowledge of God available through creation, order, conscience, beauty, morality, and existence itself.
+- **Special Revelation:** Knowledge of God revealed through Scripture, Christ, and divine self-disclosure.
+
+Interpretive order:
+- Revelation before observation
+- Christ-centered interpretation
+- Sin and distortion
+- Friction and competing explanations
+- Historical theology
+- The role of mystery
+
+## Project Architecture
+
+### FOUNDATION
+
+- Scripture
+- Revelation
+- Creation
+
+### PATTERNS
+
+- Image of God
+- Logos
+- Order
+- Consciousness
+- Community
+- Transformation
+
+### DISTORTIONS
+
+- Pride
+- Idolatry
+- Corruption
+- Rebellion
+
+### FRICTION
+
+- Philosophy <-> Theology
+- Science <-> Theology
+- Justice <-> Mercy
+- Logic <-> Mystery
+
+### CHRISTOLOGICAL
+
+- Incarnation
+- Cross
+- Resurrection
+- Restoration
+
+### HISTORICAL WITNESSES
+
+- Church Fathers
+- Medieval Thinkers
+- Reformers
+- Modern Thinkers
+
+### MYSTERY
+
+- Trinity
+- Sovereignty
+- Eternity
+
 
 ## Pattern Found So Far
 
@@ -74,6 +155,346 @@ This balance matters. A theological claim cannot grow simply because one lane is
 The project is testing whether Christian theology can responsibly name recurring patterns across Scripture, language, history, culture, suffering, science, and practice. But the word responsibly is doing heavy work.
 
 A repeated signal is not proof. A beautiful analogy is not revelation. A scientific idea is not a sermon. A theological claim is not mature until it can face grief, injustice, rival explanations, and the question of what love requires today.
+
+## Pattern Distortion Layer
+
+Identify how divine patterns become corrupted through sin, pride, rebellion, idolatry, fear, self-interest, and brokenness.
+
+### Love -> Possession
+
+**Cause:** Self-interest, fear of loss, control, and disordered desire.
+
+**Consequences:** Manipulation, jealousy, coercion, and the reduction of persons to objects of need.
+
+**Biblical Examples:** David and Bathsheba, Samson and Delilah
+
+**Restoration Path:** Repentance, sacrificial love, honoring the other as image-bearer, and receiving love as gift rather than control.
+
+### Authority -> Tyranny
+
+**Cause:** Pride, domination, fear, and refusal of servant leadership.
+
+**Consequences:** Oppression, abuse, fear-based obedience, and institutional harm.
+
+**Biblical Examples:** Pharaoh, Saul's jealousy of David
+
+**Restoration Path:** Servant leadership under Christ, accountability, justice, and protection of the vulnerable.
+
+### Freedom -> License
+
+**Cause:** Rebellion, appetite, and the separation of freedom from love and responsibility.
+
+**Consequences:** Bondage to desire, harm to neighbor, moral confusion, and spiritual fragmentation.
+
+**Biblical Examples:** The golden calf, The prodigal son
+
+**Restoration Path:** Freedom in Christ ordered toward love, holiness, responsibility, and Spirit-led self-control.
+
+### Knowledge -> Pride
+
+**Cause:** Desire for mastery, self-exaltation, and knowledge detached from humility.
+
+**Consequences:** Arrogance, contempt, manipulation, and refusal of wisdom.
+
+**Biblical Examples:** The tree of the knowledge of good and evil, The tower of Babel
+
+**Restoration Path:** Wisdom joined to humility, fear of the Lord, teachability, and love.
+
+### Community -> Tribalism
+
+**Cause:** Fear, exclusion, pride in group identity, and hostility toward outsiders.
+
+**Consequences:** Division, scapegoating, prejudice, and broken fellowship.
+
+**Biblical Examples:** Jew-Gentile conflict, Corinthian factions
+
+**Restoration Path:** Reconciliation in Christ, hospitality, truth, forgiveness, and one body formed by the Spirit.
+
+### Worship -> Idolatry
+
+**Cause:** Misplaced ultimate love, fear, desire for control, and created goods treated as God.
+
+**Consequences:** Spiritual blindness, bondage, injustice, and false sacrifice.
+
+**Biblical Examples:** The golden calf, Baal worship
+
+**Restoration Path:** Return to the living God, repentance, purified worship, and Christ-centered devotion.
+
+### Justice -> Vengeance
+
+**Cause:** Anger without mercy, wounded pride, and desire to repay evil with evil.
+
+**Consequences:** Cycles of retaliation, cruelty, and loss of mercy.
+
+**Biblical Examples:** Lamech's vengeance, Jonah's anger at Nineveh
+
+**Restoration Path:** God's justice joined to mercy, truthful accountability, forgiveness, and peacemaking.
+
+### Purpose -> Self-Glorification
+
+**Cause:** Pride, ambition detached from worship, and desire to make a name for oneself.
+
+**Consequences:** Exploitation, emptiness, rivalry, and worship of achievement.
+
+**Biblical Examples:** The tower of Babel, Nebuchadnezzar's pride
+
+**Restoration Path:** Vocation received as gift, humility, service, worship, and glory returned to God.
+
+## Christological Layer
+
+Evaluate how every major pattern is fulfilled, restored, interpreted, or resolved through Christ.
+Core status: primary_interpretive_layer
+
+### Order
+
+**Appearance In Creation:** Creation is intelligible, ordered, and sustained.
+
+**Appearance In Humanity:** Humans seek coherence, law, wisdom, and trustworthy meaning.
+
+**Distortion:** Order becomes control, legalism, or abstraction detached from love.
+
+**Fulfillment In Christ:** Christ as Logos, through whom and for whom all things were created.
+
+**Restoration Through Christ:** Order is restored as truthful love, wise discipleship, and peace under Christ's lordship.
+
+**Supporting Scriptures:** John 1:1-5, Colossians 1:15-20, Hebrews 1:1-3
+
+### Sacrifice
+
+**Appearance In Creation:** Life often involves gift, cost, dependence, and receiving from another.
+
+**Appearance In Humanity:** Humans recognize costly love, service, courage, and self-giving as morally beautiful.
+
+**Distortion:** Sacrifice becomes abuse, manipulation, or romanticized suffering.
+
+**Fulfillment In Christ:** The Cross reveals God's self-giving love and judgment on sin.
+
+**Restoration Through Christ:** Sacrifice becomes cruciform love, never denial of truth or protection for abusers.
+
+**Supporting Scriptures:** Mark 10:45, John 15:13, Philippians 2:5-11, 1 Peter 2:24
+
+### Community
+
+**Appearance In Creation:** Created life is interdependent and relational.
+
+**Appearance In Humanity:** Humans are formed by family, friendship, society, worship, and shared practice.
+
+**Distortion:** Community becomes tribalism, exclusion, control, or identity without truth.
+
+**Fulfillment In Christ:** Christ forms one body across dividing walls.
+
+**Restoration Through Christ:** Community is restored through reconciliation, spiritual gifts, mutual service, and communion.
+
+**Supporting Scriptures:** Ephesians 2:13-22, 1 Corinthians 12:12-27, John 17:20-23
+
+### Transformation
+
+**Appearance In Creation:** Living things grow, heal, mature, and bear fruit.
+
+**Appearance In Humanity:** Humans long for renewal, freedom from vice, healing, and changed character.
+
+**Distortion:** Transformation becomes self-invention, performance, or denial of ongoing weakness.
+
+**Fulfillment In Christ:** Christ gives new life through death and resurrection.
+
+**Restoration Through Christ:** The Spirit conforms believers to Christ through sanctification, repentance, and hope.
+
+**Supporting Scriptures:** Romans 6:4, 2 Corinthians 3:18, Galatians 5:22-25, Titus 3:5
+
+## Historical Witnesses
+
+Compare Divine Pattern findings with major Christian thinkers throughout church history for theological grounding, not automatic agreement.
+
+### Irenaeus
+
+**Era:** Patristic
+
+**Key Themes:** recapitulation, creation, incarnation, apostolic faith
+
+**Relevant Patterns:** Christological Layer, Creation-To-Consciousness Pattern, Transformation
+
+**Agreements:** Supports Christ as the one who recapitulates and restores creation.
+
+**Disagreements:** Requires guarding the project from speculative systems detached from apostolic teaching.
+
+**Citations:** Against Heresies
+
+### Justin Martyr
+
+**Era:** Patristic
+
+**Key Themes:** Logos, philosophy, witness, fulfillment
+
+**Relevant Patterns:** Logos Pattern, Friction Layer, Christological Layer
+
+**Agreements:** Supports careful engagement with philosophy under Christ the Logos.
+
+**Disagreements:** Philosophical parallels must remain subordinate to revelation in Christ.
+
+**Citations:** First Apology, Second Apology
+
+### Athanasius
+
+**Era:** Patristic
+
+**Key Themes:** incarnation, creation, redemption, deification
+
+**Relevant Patterns:** Christological Layer, Transformation, Image Of God Pattern
+
+**Agreements:** Supports the claim that creation and restoration are interpreted through the incarnate Son.
+
+**Disagreements:** The project must preserve Nicene Christology and avoid reducing Christ to a pattern symbol.
+
+**Citations:** On the Incarnation
+
+### Augustine
+
+**Era:** Patristic
+
+**Key Themes:** restless heart, sin, grace, ordered love
+
+**Relevant Patterns:** Pattern Distortion Layer, Moral Response, Transformation
+
+**Agreements:** Supports distortion through disordered love and restoration through grace.
+
+**Disagreements:** Warns against trusting human observation without grace and illumination.
+
+**Citations:** Confessions, City of God
+
+### Thomas Aquinas
+
+**Era:** Medieval
+
+**Key Themes:** natural theology, grace and nature, virtue, analogy
+
+**Relevant Patterns:** General Revelation, Moral Response, Mystery Layer
+
+**Agreements:** Supports ordered creation and reason while distinguishing nature and grace.
+
+**Disagreements:** Requires careful limits on analogy and strong distinction between creature and Creator.
+
+**Citations:** Summa Theologiae
+
+### Martin Luther
+
+**Era:** Reformation
+
+**Key Themes:** justification, cross, law and gospel, grace
+
+**Relevant Patterns:** Cross And Reversal Pattern, Friction Layer, Transformation
+
+**Agreements:** Supports centering grace and the cross over human moral achievement.
+
+**Disagreements:** Challenges any version of the project that makes patterns into a ladder to God.
+
+**Citations:** Heidelberg Disputation, Freedom of a Christian
+
+### John Calvin
+
+**Era:** Reformation
+
+**Key Themes:** Scripture, providence, sovereignty, human fallenness
+
+**Relevant Patterns:** Theological Foundations, Providence And Contingency Pattern, Mystery Layer
+
+**Agreements:** Supports Scripture's authority, providence, and serious doctrine of sin.
+
+**Disagreements:** Warns that fallen perception can turn creation patterns into idolatry.
+
+**Citations:** Institutes of the Christian Religion
+
+### C.S. Lewis
+
+**Era:** Modern
+
+**Key Themes:** desire, moral law, imagination, myth become fact
+
+**Relevant Patterns:** Moral Response, Friction Layer, Christological Layer
+
+**Agreements:** Supports moral law, longing, and imagination as pointers when tested by Christian revelation.
+
+**Disagreements:** Longing and imagination are signs, not independent authorities.
+
+**Citations:** Mere Christianity, Surprised by Joy
+
+### G.K. Chesterton
+
+**Era:** Modern
+
+**Key Themes:** wonder, orthodoxy, paradox, creation
+
+**Relevant Patterns:** Creation, Mystery Layer, Friction Layer
+
+**Agreements:** Supports wonder, paradox, and gratitude as Christian responses to creation.
+
+**Disagreements:** Poetic pattern recognition still needs doctrinal discipline.
+
+**Citations:** Orthodoxy, The Everlasting Man
+
+## Mystery Layer
+
+Identify truths that are coherent but not fully comprehensible and cannot be reduced to pattern analysis.
+Categories: Fully Knowable, Partially Knowable, Ultimately Mysterious
+
+### Trinity
+
+**Category:** Ultimately Mysterious
+
+**What Can Be Known:** God is one God in three persons: Father, Son, and Holy Spirit.
+
+**What Remains Mysterious:** The fullness of divine triune life exceeds creaturely comprehension.
+
+**Supporting Scriptures:** Matthew 28:19, John 1:1-18, 2 Corinthians 13:14
+
+**Theological Notes:** Pattern language may reflect relational unity, but it must never replace Nicene doctrine.
+
+### Incarnation
+
+**Category:** Ultimately Mysterious
+
+**What Can Be Known:** The eternal Son became truly human without ceasing to be truly God.
+
+**What Remains Mysterious:** The union of divine and human natures in the one person of Christ cannot be exhaustively explained.
+
+**Supporting Scriptures:** John 1:14, Philippians 2:5-11, Colossians 2:9
+
+**Theological Notes:** Christ fulfills patterns, but Christ is not reducible to a pattern.
+
+### Divine Sovereignty
+
+**Category:** Partially Knowable
+
+**What Can Be Known:** God reigns, sustains creation, and works providentially.
+
+**What Remains Mysterious:** The relation between divine sovereignty, human agency, evil, and suffering remains contested and limited in human understanding.
+
+**Supporting Scriptures:** Romans 8:28, Ephesians 1:11, Genesis 50:20
+
+**Theological Notes:** Providence should be confessed with humility, not used to explain every event.
+
+### Eternity
+
+**Category:** Partially Knowable
+
+**What Can Be Known:** God is eternal and not bound by creaturely time.
+
+**What Remains Mysterious:** How eternal divine life relates to temporal creation exceeds ordinary human categories.
+
+**Supporting Scriptures:** Psalm 90:2, Isaiah 57:15, 2 Peter 3:8
+
+**Theological Notes:** Mathematical or philosophical analogies may help, but they remain analogies.
+
+### Omnipresence
+
+**Category:** Partially Knowable
+
+**What Can Be Known:** God is present to all creation and not contained by creation.
+
+**What Remains Mysterious:** God's presence is not spatial extension in the ordinary creaturely sense.
+
+**Supporting Scriptures:** Psalm 139:7-12, Jeremiah 23:23-24, Acts 17:27-28
+
+**Theological Notes:** Presence patterns must avoid pantheism and preserve Creator-creature distinction.
 
 ## The Five Leading Pattern Families
 
@@ -205,11 +626,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Character shapes the direction of the soul and life.
 
+**Distortion:** Human beings often recognize virtue but fail to fully live by it.
+
 **Friction Point:** Human beings often recognize virtue but fail to fully live by it.
+
+**Alternative Explanations:** Stoicism emphasizes reason, discipline, acceptance, and virtue.
 
 **Non-Christian Resolution:** Stoicism emphasizes reason, discipline, acceptance, and virtue.
 
 **Christian Resolution:** Christianity emphasizes grace, redemption through Christ, and transformation by the Holy Spirit.
+
+**Transformation Result:** Renewal through grace, Christ-centered formation, and the work of the Holy Spirit.
 
 **Divine Pattern Insight:** Human reason can recognize moral order, but restoration after failure requires a deeper resolution.
 
@@ -243,11 +670,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Moral agency grows when a person learns responsibility without pretending to control all outcomes.
 
+**Distortion:** Acceptance can become wisdom, but it can also become resignation when suffering or injustice should be resisted.
+
 **Friction Point:** Acceptance can become wisdom, but it can also become resignation when suffering or injustice should be resisted.
+
+**Alternative Explanations:** Stoicism emphasizes disciplined judgment, inner freedom, and acceptance of what lies beyond personal control.
 
 **Non-Christian Resolution:** Stoicism emphasizes disciplined judgment, inner freedom, and acceptance of what lies beyond personal control.
 
 **Christian Resolution:** Christianity emphasizes faithful agency before God, prayerful dependence, patient endurance, and justice-seeking love.
+
+**Transformation Result:** The pattern is clarified through Christian resolution while remaining provisional until source review is complete.
 
 **Divine Pattern Insight:** Human agency is real but finite; the deeper resolution joins responsibility with dependence on grace and hope beyond visible control.
 
@@ -281,11 +714,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** The shape of the soul affects the shape of public life.
 
+**Distortion:** A vision of order can become coercive when it ranks people by function, knowledge, or social usefulness.
+
 **Friction Point:** A vision of order can become coercive when it ranks people by function, knowledge, or social usefulness.
+
+**Alternative Explanations:** Plato emphasizes philosophical reason, education, hierarchy, and the ordering of desire toward the good.
 
 **Non-Christian Resolution:** Plato emphasizes philosophical reason, education, hierarchy, and the ordering of desire toward the good.
 
 **Christian Resolution:** Christianity emphasizes created dignity, servant leadership, repentance, grace, and justice for vulnerable people.
+
+**Transformation Result:** The pattern is clarified through Christian resolution while remaining provisional until source review is complete.
 
 **Divine Pattern Insight:** Reason can perceive that the soul and society need order, but Christian resolution tests order by love, humility, and the dignity of every person.
 
@@ -319,11 +758,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Formation turns moral insight into embodied character.
 
+**Distortion:** Virtue can be treated as achievement, social polish, or excellence without grace for failure and repair.
+
 **Friction Point:** Virtue can be treated as achievement, social polish, or excellence without grace for failure and repair.
+
+**Alternative Explanations:** Aristotle emphasizes habit, practical wisdom, moderation, friendship, and the cultivation of excellence.
 
 **Non-Christian Resolution:** Aristotle emphasizes habit, practical wisdom, moderation, friendship, and the cultivation of excellence.
 
 **Christian Resolution:** Christianity emphasizes spiritual formation, grace, repentance, sanctification, and love that is not limited to the socially excellent.
+
+**Transformation Result:** The pattern is clarified through Christian resolution while remaining provisional until source review is complete.
 
 **Divine Pattern Insight:** Habit matters deeply, but Christian transformation requires more than training; it requires grace that reforms desire and restores failed persons.
 
@@ -357,11 +802,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Duty reveals that moral life has a claim on the self.
 
+**Distortion:** Moral duty can identify obligation without healing the divided will or restoring the person after failure.
+
 **Friction Point:** Moral duty can identify obligation without healing the divided will or restoring the person after failure.
+
+**Alternative Explanations:** Kant emphasizes reason, duty, autonomy, and acting according to moral law rather than inclination.
 
 **Non-Christian Resolution:** Kant emphasizes reason, duty, autonomy, and acting according to moral law rather than inclination.
 
 **Christian Resolution:** Christianity emphasizes moral accountability together with grace, forgiveness, union with Christ, and transformation by the Holy Spirit.
+
+**Transformation Result:** Renewal through grace, Christ-centered formation, and the work of the Holy Spirit.
 
 **Divine Pattern Insight:** Moral law can expose responsibility, but the deeper resolution must address guilt, weakness, forgiveness, and renewal.
 
@@ -395,11 +846,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Moral claims must be tested by what they produce in real character and community.
 
+**Distortion:** Christian language can be misused as a mask for passivity, control, or resentment rather than cruciform love.
+
 **Friction Point:** Christian language can be misused as a mask for passivity, control, or resentment rather than cruciform love.
+
+**Alternative Explanations:** Nietzsche emphasizes strength, self-overcoming, suspicion of herd morality, and the creation of values.
 
 **Non-Christian Resolution:** Nietzsche emphasizes strength, self-overcoming, suspicion of herd morality, and the creation of values.
 
 **Christian Resolution:** Christianity emphasizes the cross as power made humble, repentance from false righteousness, and Spirit-formed love that is neither domination nor resentment.
+
+**Transformation Result:** Renewal through grace, Christ-centered formation, and the work of the Holy Spirit.
 
 **Divine Pattern Insight:** A serious critique of moral hypocrisy can purify the pattern by forcing Christian claims to show truthful humility, courage, mercy, and costly love.
 
@@ -433,11 +890,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Moral perception involves the whole person, not detached intellect only.
 
+**Distortion:** If morality is grounded only in sentiment, it can struggle to name an authority beyond preference, culture, or shared feeling.
+
 **Friction Point:** If morality is grounded only in sentiment, it can struggle to name an authority beyond preference, culture, or shared feeling.
+
+**Alternative Explanations:** Hume emphasizes sympathy, custom, moral sentiment, and the limits of reason in human judgment.
 
 **Non-Christian Resolution:** Hume emphasizes sympathy, custom, moral sentiment, and the limits of reason in human judgment.
 
 **Christian Resolution:** Christianity affirms embodied moral perception while grounding goodness in God's character, revelation, love, and the formation of rightly ordered desire.
+
+**Transformation Result:** The pattern is clarified through Christian resolution while remaining provisional until source review is complete.
 
 **Divine Pattern Insight:** Moral feeling is a real part of human response, but the deeper resolution asks how desire is healed, trained, and accountable to truth.
 
@@ -471,11 +934,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Claims about meaning must be tested by whether they produce justice, repair, and truthful attention to the poor.
 
+**Distortion:** A Divine Pattern claim can become ideology if it spiritualizes suffering while leaving exploitation intact.
+
 **Friction Point:** A Divine Pattern claim can become ideology if it spiritualizes suffering while leaving exploitation intact.
+
+**Alternative Explanations:** Marx emphasizes material conditions, class struggle, ideology critique, and social transformation through economic and political change.
 
 **Non-Christian Resolution:** Marx emphasizes material conditions, class struggle, ideology critique, and social transformation through economic and political change.
 
 **Christian Resolution:** Christianity emphasizes good news to the poor, repentance from unjust power, concrete mercy, economic justice, and hope that is not reducible to material conditions.
+
+**Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** The pattern weakens wherever it comforts injustice; it strengthens only when worship and theology become truth-telling, mercy, justice, and repair.
 
@@ -509,11 +978,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Spiritual interpretation must be tested against projection, fear, desire, and psychological need.
 
+**Distortion:** The Divine Pattern may be explained as human wish, coping mechanism, or unconscious projection rather than divine disclosure.
+
 **Friction Point:** The Divine Pattern may be explained as human wish, coping mechanism, or unconscious projection rather than divine disclosure.
+
+**Alternative Explanations:** Freud emphasizes psychoanalysis, unconscious desire, illusion, and religion as a response to vulnerability and longing.
 
 **Non-Christian Resolution:** Freud emphasizes psychoanalysis, unconscious desire, illusion, and religion as a response to vulnerability and longing.
 
 **Christian Resolution:** Christianity can acknowledge projection and false religion while testing faith through revelation, repentance, truth, costly love, and transformation that resists mere wish-fulfillment.
+
+**Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** The pattern must distinguish genuine divine encounter from psychological projection; desire alone cannot count as evidence.
 
@@ -547,11 +1022,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Claims about God must be tested against human self-projection and idealized anthropology.
 
+**Distortion:** The Divine Pattern may be read as humanity discovering itself rather than encountering God.
+
 **Friction Point:** The Divine Pattern may be read as humanity discovering itself rather than encountering God.
+
+**Alternative Explanations:** Feuerbach emphasizes religion as human nature objectified, with theology interpreted as anthropology.
 
 **Non-Christian Resolution:** Feuerbach emphasizes religion as human nature objectified, with theology interpreted as anthropology.
 
 **Christian Resolution:** Christianity must answer projection by grounding claims in revelation, the cross, repentance, communal transformation, and a God who judges as well as fulfills human ideals.
+
+**Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** A pattern is weak if it only mirrors human aspiration; it must also confront, correct, and transform the human subject.
 
@@ -585,11 +1066,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Meaning claims must survive suffering without pretending that every wound has an obvious explanation.
 
+**Distortion:** The Divine Pattern can become morally shallow if it explains suffering too quickly or turns tragedy into neat resolution.
+
 **Friction Point:** The Divine Pattern can become morally shallow if it explains suffering too quickly or turns tragedy into neat resolution.
+
+**Alternative Explanations:** Camus emphasizes revolt, honesty before the absurd, solidarity, and refusing false consolation.
 
 **Non-Christian Resolution:** Camus emphasizes revolt, honesty before the absurd, solidarity, and refusing false consolation.
 
 **Christian Resolution:** Christianity emphasizes lament, the cross, resurrection hope, patient solidarity, and refusal to explain away innocent suffering.
+
+**Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** The pattern strengthens only when it can remain truthful in lament and avoid premature resolution.
 
@@ -623,11 +1110,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Freedom requires responsibility, but responsibility can become crushing without grace or given identity.
 
+**Distortion:** A Christian account of created purpose can be challenged as an evasion of radical freedom and human responsibility.
+
 **Friction Point:** A Christian account of created purpose can be challenged as an evasion of radical freedom and human responsibility.
+
+**Alternative Explanations:** Sartre emphasizes existence before essence, radical freedom, responsibility, anguish, and authenticity without God.
 
 **Non-Christian Resolution:** Sartre emphasizes existence before essence, radical freedom, responsibility, anguish, and authenticity without God.
 
 **Christian Resolution:** Christianity emphasizes created identity, responsible freedom, repentance, vocation, grace, and transformation without denying moral agency.
+
+**Transformation Result:** The pattern is clarified through Christian resolution while remaining provisional until source review is complete.
 
 **Divine Pattern Insight:** The pattern must preserve real human responsibility while showing why freedom is gift and vocation, not mere self-invention.
 
@@ -661,11 +1154,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Claims about creation must account for natural history without forcing biological complexity into simple proof of design.
 
+**Distortion:** Natural selection challenges easy design arguments and any Divine Pattern claim that depends on biological complexity being inexplicable by natural causes.
+
 **Friction Point:** Natural selection challenges easy design arguments and any Divine Pattern claim that depends on biological complexity being inexplicable by natural causes.
+
+**Alternative Explanations:** Darwinian explanation emphasizes descent with modification and natural selection as a powerful account of biological diversity.
 
 **Non-Christian Resolution:** Darwinian explanation emphasizes descent with modification and natural selection as a powerful account of biological diversity.
 
 **Christian Resolution:** Christianity can treat creation as sustained gift and providence without denying natural mechanisms, contingency, creaturely suffering, or scientific explanation.
+
+**Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** The pattern must not compete with biology; it must ask theological questions at the level of gift, order, contingency, vocation, and creaturely care.
 
@@ -699,11 +1198,17 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 
 **Pattern:** Truth claims must be tested by how they shape people, especially vulnerable bodies and communities.
 
+**Distortion:** The Divine Pattern framework can become a tool of classification and control if it names patterns without checking power.
+
 **Friction Point:** The Divine Pattern framework can become a tool of classification and control if it names patterns without checking power.
+
+**Alternative Explanations:** Foucault emphasizes genealogy, power-knowledge, discipline, normalization, and suspicion toward institutions that claim neutral truth.
 
 **Non-Christian Resolution:** Foucault emphasizes genealogy, power-knowledge, discipline, normalization, and suspicion toward institutions that claim neutral truth.
 
 **Christian Resolution:** Christianity emphasizes truth joined to humility, repentance, protection of the vulnerable, servant authority, and the cross as judgment on coercive power.
+
+**Transformation Result:** The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution.
 
 **Divine Pattern Insight:** The pattern must audit its own power effects; truth without humility and repair can become domination.
 

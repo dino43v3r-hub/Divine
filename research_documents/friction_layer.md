@@ -15,9 +15,12 @@ the strongest non-Christian reading before naming a Christian resolution.
 - domain
 - observation
 - pattern
+- distortion
 - friction_point
+- alternative_explanations
 - non_christian_resolution
 - christian_resolution
+- transformation_result
 - divine_pattern_insight
 - evidence_score
 - evidence_effect

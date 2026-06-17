@@ -45,7 +45,12 @@
       "evidence_value": 2,
       "insight_value": 3,
       "resolution_status": "resolved_with_christian_resolution",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "Human beings often recognize virtue but fail to fully live by it.",
+      "alternative_explanations": [
+        "Stoicism emphasizes reason, discipline, acceptance, and virtue."
+      ],
+      "transformation_result": "Renewal through grace, Christ-centered formation, and the work of the Holy Spirit."
     },
     {
       "id": "epictetus-agency-and-limits",
@@ -86,7 +91,12 @@
       "evidence_value": 1,
       "insight_value": 2,
       "resolution_status": "partially_resolved",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "Acceptance can become wisdom, but it can also become resignation when suffering or injustice should be resisted.",
+      "alternative_explanations": [
+        "Stoicism emphasizes disciplined judgment, inner freedom, and acceptance of what lies beyond personal control."
+      ],
+      "transformation_result": "The pattern is clarified through Christian resolution while remaining provisional until source review is complete."
     },
     {
       "id": "plato-justice-and-the-ordered-soul",
@@ -127,7 +137,12 @@
       "evidence_value": 1,
       "insight_value": 2,
       "resolution_status": "partially_resolved",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "A vision of order can become coercive when it ranks people by function, knowledge, or social usefulness.",
+      "alternative_explanations": [
+        "Plato emphasizes philosophical reason, education, hierarchy, and the ordering of desire toward the good."
+      ],
+      "transformation_result": "The pattern is clarified through Christian resolution while remaining provisional until source review is complete."
     },
     {
       "id": "aristotle-virtue-and-formation",
@@ -165,7 +180,12 @@
       "evidence_value": 2,
       "insight_value": 3,
       "resolution_status": "resolved_with_christian_resolution",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "Virtue can be treated as achievement, social polish, or excellence without grace for failure and repair.",
+      "alternative_explanations": [
+        "Aristotle emphasizes habit, practical wisdom, moderation, friendship, and the cultivation of excellence."
+      ],
+      "transformation_result": "The pattern is clarified through Christian resolution while remaining provisional until source review is complete."
     },
     {
       "id": "kant-duty-and-moral-law",
@@ -203,7 +223,12 @@
       "evidence_value": 2,
       "insight_value": 3,
       "resolution_status": "resolved_with_christian_resolution",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "Moral duty can identify obligation without healing the divided will or restoring the person after failure.",
+      "alternative_explanations": [
+        "Kant emphasizes reason, duty, autonomy, and acting according to moral law rather than inclination."
+      ],
+      "transformation_result": "Renewal through grace, Christ-centered formation, and the work of the Holy Spirit."
     },
     {
       "id": "nietzsche-power-and-moral-critique",
@@ -241,7 +266,12 @@
       "evidence_value": 0,
       "insight_value": 2,
       "resolution_status": "partially_resolved",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "Christian language can be misused as a mask for passivity, control, or resentment rather than cruciform love.",
+      "alternative_explanations": [
+        "Nietzsche emphasizes strength, self-overcoming, suspicion of herd morality, and the creation of values."
+      ],
+      "transformation_result": "Renewal through grace, Christ-centered formation, and the work of the Holy Spirit."
     },
     {
       "id": "hume-reason-passion-and-moral-sentiment",
@@ -279,7 +309,12 @@
       "evidence_value": 1,
       "insight_value": 2,
       "resolution_status": "partially_resolved",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "If morality is grounded only in sentiment, it can struggle to name an authority beyond preference, culture, or shared feeling.",
+      "alternative_explanations": [
+        "Hume emphasizes sympathy, custom, moral sentiment, and the limits of reason in human judgment."
+      ],
+      "transformation_result": "The pattern is clarified through Christian resolution while remaining provisional until source review is complete."
     },
     {
       "id": "marx-religion-and-material-conditions",
@@ -319,7 +354,12 @@
       "evidence_value": -1,
       "insight_value": 2,
       "resolution_status": "unresolved",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "A Divine Pattern claim can become ideology if it spiritualizes suffering while leaving exploitation intact.",
+      "alternative_explanations": [
+        "Marx emphasizes material conditions, class struggle, ideology critique, and social transformation through economic and political change."
+      ],
+      "transformation_result": "The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution."
     },
     {
       "id": "freud-religion-wish-and-illusion",
@@ -357,7 +397,12 @@
       "evidence_value": -1,
       "insight_value": 2,
       "resolution_status": "unresolved",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "The Divine Pattern may be explained as human wish, coping mechanism, or unconscious projection rather than divine disclosure.",
+      "alternative_explanations": [
+        "Freud emphasizes psychoanalysis, unconscious desire, illusion, and religion as a response to vulnerability and longing."
+      ],
+      "transformation_result": "The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution."
     },
     {
       "id": "feuerbach-projection-and-theology",
@@ -394,7 +439,12 @@
       "evidence_value": -1,
       "insight_value": 2,
       "resolution_status": "unresolved",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "The Divine Pattern may be read as humanity discovering itself rather than encountering God.",
+      "alternative_explanations": [
+        "Feuerbach emphasizes religion as human nature objectified, with theology interpreted as anthropology."
+      ],
+      "transformation_result": "The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution."
     },
     {
       "id": "camus-absurd-suffering-and-silence",
@@ -433,7 +483,12 @@
       "evidence_value": -1,
       "insight_value": 2,
       "resolution_status": "unresolved",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "The Divine Pattern can become morally shallow if it explains suffering too quickly or turns tragedy into neat resolution.",
+      "alternative_explanations": [
+        "Camus emphasizes revolt, honesty before the absurd, solidarity, and refusing false consolation."
+      ],
+      "transformation_result": "The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution."
     },
     {
       "id": "sartre-freedom-and-godless-responsibility",
@@ -472,7 +527,12 @@
       "evidence_value": 0,
       "insight_value": 2,
       "resolution_status": "partially_resolved",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "A Christian account of created purpose can be challenged as an evasion of radical freedom and human responsibility.",
+      "alternative_explanations": [
+        "Sartre emphasizes existence before essence, radical freedom, responsibility, anguish, and authenticity without God."
+      ],
+      "transformation_result": "The pattern is clarified through Christian resolution while remaining provisional until source review is complete."
     },
     {
       "id": "darwin-natural-selection-and-apparent-design",
@@ -512,7 +572,12 @@
       "evidence_value": -1,
       "insight_value": 2,
       "resolution_status": "unresolved",
-      "source_review_note": "Add qualified science-source review, avoid gaps-based reasoning, and identify the theological claim that remains after natural explanation is honored."
+      "source_review_note": "Add qualified science-source review, avoid gaps-based reasoning, and identify the theological claim that remains after natural explanation is honored.",
+      "distortion": "Natural selection challenges easy design arguments and any Divine Pattern claim that depends on biological complexity being inexplicable by natural causes.",
+      "alternative_explanations": [
+        "Darwinian explanation emphasizes descent with modification and natural selection as a powerful account of biological diversity."
+      ],
+      "transformation_result": "The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution."
     },
     {
       "id": "foucault-power-knowledge-and-discipline",
@@ -551,7 +616,12 @@
       "evidence_value": -1,
       "insight_value": 2,
       "resolution_status": "unresolved",
-      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence."
+      "source_review_note": "Add direct primary-source passages, historical context, and at least one serious counter-reading before increasing confidence.",
+      "distortion": "The Divine Pattern framework can become a tool of classification and control if it names patterns without checking power.",
+      "alternative_explanations": [
+        "Foucault emphasizes genealogy, power-knowledge, discipline, normalization, and suspicion toward institutions that claim neutral truth."
+      ],
+      "transformation_result": "The record remains a challenge until Christian claims show truthful repentance, repair, and source-grounded resolution."
     }
   ]
 }

@@ -1,9 +1,18 @@
 # Synthesize Data
 
-Synthesize Data is a divine-pattern research prototype. It analyzes theology,
-music lyrics, music notes, visual art, history, world languages, biblical Greek
-and Hebrew, global text traditions, psychology, politics, science, technology,
-culture, practical theology, pressure tests, and source metadata.
+Synthesize Data is a Christian divine-pattern research prototype. It explores
+recurring patterns in reality and examines how those patterns align with,
+illuminate, challenge, or are explained by the Christian understanding of God,
+creation, sin, redemption, and restoration.
+
+Patterns are treated as evidence, observations, and hypotheses to be tested, not
+as independent sources of divine authority. Scripture and divine revelation are
+primary; pattern recognition is secondary and supportive.
+
+The project analyzes theology, music lyrics, music notes, visual art, history,
+world languages, biblical Greek and Hebrew, global text traditions, psychology,
+politics, science, technology, culture, practical theology, pressure tests, and
+source metadata.
 
 The current Trinitarian pattern lens is:
 
@@ -30,6 +39,15 @@ The Divine Pattern project also includes a Friction Layer at
 `research_documents/friction_layers.json`. This structured layer records places
 where philosophy, science, culture, or theology creates tension with the
 framework and asks whether a deeper resolution is needed.
+
+Additional theological architecture files are stored in `research_documents/`:
+
+- `theological_foundations.json`
+- `pattern_distortion_layer.json`
+- `christological_layer.json`
+- `historical_witnesses.json`
+- `mystery_layer.json`
+- `project_architecture.json`
 
 ## AI Knowledge Backend
 
