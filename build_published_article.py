@@ -10,6 +10,7 @@ OUTPUT_PATH = Path("reports/published/final_book_report.md")
 REFERENCES_PATH = Path("references/references.json")
 DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
 KNOWLEDGE_INDEX_PATH = Path("reports/knowledge_retrieval_index.json")
+FRICTION_LAYERS_PATH = Path("research_documents/friction_layers.json")
 
 SOURCE_REPORTS = {
     "backend": Path("reports/ai_backend_report.txt"),
@@ -80,6 +81,12 @@ def read_json(path: Path) -> dict:
     except json.JSONDecodeError:
         return {}
     return payload if isinstance(payload, dict) else {}
+
+
+def read_friction_layers() -> list[dict]:
+    payload = read_json(FRICTION_LAYERS_PATH)
+    records = payload.get("friction_layers", [])
+    return records if isinstance(records, list) else []
 
 
 def current_candidate_pattern(index: dict) -> dict:
@@ -267,6 +274,41 @@ def newest_source_lines(digest: dict, limit: int = 5) -> list[str]:
     return lines
 
 
+def friction_layer_lines(records: list[dict]) -> list[str]:
+    if not records:
+        return ["- No friction layer records have been added yet."]
+
+    lines = []
+    for record in records:
+        tags = ", ".join(record.get("tags", [])) or "untagged"
+        related_layers = ", ".join(record.get("related_layers", [])) or "not linked yet"
+        lines.extend(
+            [
+                f"### {record.get('title', 'Untitled Friction Record')}",
+                "",
+                f"**Domain:** {record.get('domain', 'Unspecified')}",
+                "",
+                f"**Observation:** {record.get('observation', '')}",
+                "",
+                f"**Pattern:** {record.get('pattern', '')}",
+                "",
+                f"**Friction Point:** {record.get('friction_point', '')}",
+                "",
+                f"**Non-Christian Resolution:** {record.get('non_christian_resolution', '')}",
+                "",
+                f"**Christian Resolution:** {record.get('christian_resolution', '')}",
+                "",
+                f"**Divine Pattern Insight:** {record.get('divine_pattern_insight', '')}",
+                "",
+                f"**Related Layers:** {related_layers}",
+                "",
+                f"**Tags:** {tags}",
+                "",
+            ]
+        )
+    return lines
+
+
 def build_article() -> str:
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     texts = {name: read(path) for name, path in SOURCE_REPORTS.items()}
@@ -276,6 +318,7 @@ def build_article() -> str:
     candidate_pattern = current_candidate_pattern(knowledge_index)
     stats = extract_backend_stats(texts["backend"])
     lane_lines = compact_lane_table(texts["backend"])
+    friction_layers = read_friction_layers()
 
     lines = [
         "# Divine Pattern Research",
@@ -374,6 +417,13 @@ def build_article() -> str:
             "- Psychology and sociology can explain many repeated patterns without requiring divine-pattern interpretation.",
             "- Machine labels can route attention, but they cannot settle truth.",
             "",
+            "## Friction Layer",
+            "",
+            "Friction is not evidence of failure. Friction is evidence that a pattern has reached the limits of its current explanatory framework and is seeking a deeper resolution.",
+            "",
+            "This layer records where philosophy, science, culture, or theology creates productive tension with the Divine Pattern framework. The goal is not to erase the tension, but to preserve it carefully enough that a deeper resolution can be tested.",
+            "",
+            *friction_layer_lines(friction_layers),
             "## What Would Make The Project Better",
             "",
             "The next growth should not be more volume for its own sake. It should be better review. The strongest next work is to keep building source packs for major claims, add counter-readings from serious rivals, and make every practical claim answer the same question: does this help people become more truthful, loving, humble, just, worshipful, patient, and faithful?",

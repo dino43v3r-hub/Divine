@@ -1,0 +1,35 @@
+{
+  "friction_layers": [
+    {
+      "id": "marcus-aurelius-stoicism",
+      "title": "Marcus Aurelius and Stoic Virtue",
+      "domain": "Philosophy \u2194 Theology",
+      "observation": "Humans recognize the need for virtue, discipline, and self-control.",
+      "pattern": "Character shapes the direction of the soul and life.",
+      "friction_point": "Human beings often recognize virtue but fail to fully live by it.",
+      "non_christian_resolution": "Stoicism emphasizes reason, discipline, acceptance, and virtue.",
+      "christian_resolution": "Christianity emphasizes grace, redemption through Christ, and transformation by the Holy Spirit.",
+      "divine_pattern_insight": "Human reason can recognize moral order, but restoration after failure requires a deeper resolution.",
+      "related_layers": [
+        "Image of God Pattern",
+        "Moral Response",
+        "Transformation",
+        "Logos / Meaning"
+      ],
+      "tags": [
+        "Marcus Aurelius",
+        "Stoicism",
+        "philosophy",
+        "virtue",
+        "self-control",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Marcus Aurelius, Meditations",
+        "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_01.md",
+        "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_04.md"
+      ]
+    }
+  ]
+}

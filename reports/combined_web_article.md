@@ -2,7 +2,7 @@
 
 _A GitHub-readable article drawn from the generated reports._
 
-Generated: `2026-06-16 18:35 UTC`
+Generated: `2026-06-17 11:53 UTC`
 
 ## How To Read This Page
 
@@ -26,6 +26,7 @@ The full generated reports remain available in each section, but they are folded
 - [Cultural Patterns](#cultural-patterns)
 - [Music Notes](#music-notes)
 - [Music Lyrics](#music-lyrics)
+- [Friction Layer](#friction-layer)
 
 ## AI Knowledge Backend
 
@@ -9476,3 +9477,21 @@ Recommended Next Steps
 ```
 
 </details>
+
+
+## Friction Layer
+
+_Source: `research_documents/friction_layers.json`_
+
+Friction is not evidence of failure. Friction is evidence that a pattern has reached the limits of its current explanatory framework and is seeking a deeper resolution.
+
+### Marcus Aurelius and Stoic Virtue
+
+- Domain: Philosophy ↔ Theology
+- Observation: Humans recognize the need for virtue, discipline, and self-control.
+- Pattern: Character shapes the direction of the soul and life.
+- Friction Point: Human beings often recognize virtue but fail to fully live by it.
+- Non-Christian Resolution: Stoicism emphasizes reason, discipline, acceptance, and virtue.
+- Christian Resolution: Christianity emphasizes grace, redemption through Christ, and transformation by the Holy Spirit.
+- Divine Pattern Insight: Human reason can recognize moral order, but restoration after failure requires a deeper resolution.
+- Tags: Marcus Aurelius, Stoicism, philosophy, virtue, self-control, friction, theology

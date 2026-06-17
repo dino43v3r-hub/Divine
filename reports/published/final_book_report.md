@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-16 18:35 UTC_
+_Generated: 2026-06-17 11:53 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -150,6 +150,32 @@ The project should treat quantum language as a warning label against overclaimin
 - History gives pressure, not decoration. Power, harm, memory, reform, and unfinished repair must stay visible.
 - Psychology and sociology can explain many repeated patterns without requiring divine-pattern interpretation.
 - Machine labels can route attention, but they cannot settle truth.
+
+## Friction Layer
+
+Friction is not evidence of failure. Friction is evidence that a pattern has reached the limits of its current explanatory framework and is seeking a deeper resolution.
+
+This layer records where philosophy, science, culture, or theology creates productive tension with the Divine Pattern framework. The goal is not to erase the tension, but to preserve it carefully enough that a deeper resolution can be tested.
+
+### Marcus Aurelius and Stoic Virtue
+
+**Domain:** Philosophy ↔ Theology
+
+**Observation:** Humans recognize the need for virtue, discipline, and self-control.
+
+**Pattern:** Character shapes the direction of the soul and life.
+
+**Friction Point:** Human beings often recognize virtue but fail to fully live by it.
+
+**Non-Christian Resolution:** Stoicism emphasizes reason, discipline, acceptance, and virtue.
+
+**Christian Resolution:** Christianity emphasizes grace, redemption through Christ, and transformation by the Holy Spirit.
+
+**Divine Pattern Insight:** Human reason can recognize moral order, but restoration after failure requires a deeper resolution.
+
+**Related Layers:** Image of God Pattern, Moral Response, Transformation, Logos / Meaning
+
+**Tags:** Marcus Aurelius, Stoicism, philosophy, virtue, self-control, friction, theology
 
 ## What Would Make The Project Better
 

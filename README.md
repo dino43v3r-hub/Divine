@@ -26,6 +26,11 @@ python divine_pattern_analyzer.py
 
 Main reports are written to `reports/`.
 
+The Divine Pattern project also includes a Friction Layer at
+`research_documents/friction_layers.json`. This structured layer records places
+where philosophy, science, culture, or theology creates tension with the
+framework and asks whether a deeper resolution is needed.
+
 ## AI Knowledge Backend
 
 The project now includes a first-pass backend shape for:

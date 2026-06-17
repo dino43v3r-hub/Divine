@@ -2,12 +2,14 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 from html import escape
+import json
 from pathlib import Path
 import re
 
 
 OUTPUT_PATH = Path("reports/combined_web_article.html")
 MARKDOWN_OUTPUT_PATH = Path("reports/combined_web_article.md")
+FRICTION_LAYERS_PATH = Path("research_documents/friction_layers.json")
 
 REPORTS = [
     {
@@ -159,6 +161,17 @@ def read_report(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="replace")
 
 
+def read_friction_layers() -> list[dict]:
+    if not FRICTION_LAYERS_PATH.exists():
+        return []
+    try:
+        payload = json.loads(FRICTION_LAYERS_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+    records = payload.get("friction_layers", [])
+    return records if isinstance(records, list) else []
+
+
 def first_nonempty_lines(text: str, limit: int = 7) -> list[str]:
     lines = []
     for line in text.splitlines():
@@ -260,10 +273,46 @@ def render_report_text(text: str) -> str:
     return "\n".join(html)
 
 
+def render_friction_layer_html(records: list[dict]) -> str:
+    if not records:
+        return "<p>No friction layer records have been added yet.</p>"
+
+    cards = []
+    for record in records:
+        tag_html = "".join(
+            f"<span>{escape(tag)}</span>" for tag in record.get("tags", [])
+        )
+        fields = [
+            ("Domain", record.get("domain", "")),
+            ("Observation", record.get("observation", "")),
+            ("Pattern", record.get("pattern", "")),
+            ("Friction Point", record.get("friction_point", "")),
+            ("Non-Christian Resolution", record.get("non_christian_resolution", "")),
+            ("Christian Resolution", record.get("christian_resolution", "")),
+            ("Divine Pattern Insight", record.get("divine_pattern_insight", "")),
+        ]
+        field_html = "\n".join(
+            f"<p><strong>{escape(label)}:</strong> {escape(value)}</p>"
+            for label, value in fields
+            if value
+        )
+        cards.append(
+            f"""
+            <article class="friction-card">
+              <h3>{escape(record.get('title', 'Untitled Friction Record'))}</h3>
+              {field_html}
+              <div class="tag-row">{tag_html}</div>
+            </article>
+            """
+        )
+    return "\n".join(cards)
+
+
 def build_article() -> str:
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     sections = []
     nav_items = []
+    friction_layers = read_friction_layers()
 
     for report in REPORTS:
         section_id = slugify(report["title"])
@@ -300,6 +349,24 @@ def build_article() -> str:
             </section>
             """
         )
+
+    nav_items.append("<a href=\"#friction-layer\">Friction Layer</a>")
+    sections.append(
+        f"""
+        <section id="friction-layer" class="article-section">
+          <p class="section-kicker">{escape(FRICTION_LAYERS_PATH.as_posix())}</p>
+          <h1>Friction Layer</h1>
+          <p class="section-intro">Friction is not evidence of failure. Friction is evidence that a pattern has reached the limits of its current explanatory framework and is seeking a deeper resolution.</p>
+          <div class="reader-pass">
+            <h2>Why This Section Matters</h2>
+            <p>This layer records where philosophy, science, culture, or theology creates productive tension with the Divine Pattern framework.</p>
+          </div>
+          <div class="friction-grid">
+            {render_friction_layer_html(friction_layers)}
+          </div>
+        </section>
+        """
+    )
 
     nav = "\n".join(nav_items)
     section_html = "\n".join(sections)
@@ -451,6 +518,39 @@ def build_article() -> str:
       padding: 1px 4px;
       border-radius: 4px;
     }}
+    .friction-grid {{
+      display: grid;
+      gap: 16px;
+    }}
+    .friction-card {{
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: white;
+      padding: 18px;
+    }}
+    .friction-card h3 {{
+      margin: 0 0 12px;
+      color: var(--accent);
+      font-size: 22px;
+    }}
+    .friction-card p {{
+      margin: 10px 0;
+    }}
+    .tag-row {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }}
+    .tag-row span {{
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #f8faf8;
+      color: var(--muted);
+      padding: 4px 9px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }}
     @media (max-width: 640px) {{
       .hero {{
         min-height: 68vh;
@@ -498,6 +598,7 @@ def markdown_code(text: str) -> str:
 
 def build_markdown_article() -> str:
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    friction_layers = read_friction_layers()
     lines = [
         "# Divine Pattern Research",
         "",
@@ -515,6 +616,7 @@ def build_markdown_article() -> str:
 
     for report in REPORTS:
         lines.append(f"- [{report['title']}](#{slugify(report['title'])})")
+    lines.append("- [Friction Layer](#friction-layer)")
 
     for report in REPORTS:
         text = read_report(report["path"])
@@ -552,6 +654,37 @@ def build_markdown_article() -> str:
                 "```",
                 "",
                 "</details>",
+                "",
+            ]
+        )
+
+    lines.extend(
+        [
+            "",
+            "## Friction Layer",
+            "",
+            f"_Source: `{FRICTION_LAYERS_PATH.as_posix()}`_",
+            "",
+            "Friction is not evidence of failure. Friction is evidence that a pattern has reached the limits of its current explanatory framework and is seeking a deeper resolution.",
+            "",
+        ]
+    )
+    if not friction_layers:
+        lines.append("- No friction layer records have been added yet.")
+    for record in friction_layers:
+        tags = ", ".join(record.get("tags", [])) or "untagged"
+        lines.extend(
+            [
+                f"### {record.get('title', 'Untitled Friction Record')}",
+                "",
+                f"- Domain: {record.get('domain', 'Unspecified')}",
+                f"- Observation: {record.get('observation', '')}",
+                f"- Pattern: {record.get('pattern', '')}",
+                f"- Friction Point: {record.get('friction_point', '')}",
+                f"- Non-Christian Resolution: {record.get('non_christian_resolution', '')}",
+                f"- Christian Resolution: {record.get('christian_resolution', '')}",
+                f"- Divine Pattern Insight: {record.get('divine_pattern_insight', '')}",
+                f"- Tags: {tags}",
                 "",
             ]
         )
