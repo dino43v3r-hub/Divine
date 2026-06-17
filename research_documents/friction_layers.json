@@ -30,6 +30,186 @@
         "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_01.md",
         "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_04.md"
       ]
+    },
+    {
+      "id": "epictetus-agency-and-limits",
+      "title": "Epictetus and Agency Under Limits",
+      "domain": "Philosophy \u2194 Theology",
+      "observation": "Humans experience a real difference between what they can control and what they cannot control.",
+      "pattern": "Moral agency grows when a person learns responsibility without pretending to control all outcomes.",
+      "friction_point": "Acceptance can become wisdom, but it can also become resignation when suffering or injustice should be resisted.",
+      "non_christian_resolution": "Stoicism emphasizes disciplined judgment, inner freedom, and acceptance of what lies beyond personal control.",
+      "christian_resolution": "Christianity emphasizes faithful agency before God, prayerful dependence, patient endurance, and justice-seeking love.",
+      "divine_pattern_insight": "Human agency is real but finite; the deeper resolution joins responsibility with dependence on grace and hope beyond visible control.",
+      "related_layers": [
+        "Image of God Pattern",
+        "Moral Response",
+        "Providence And Contingency Pattern",
+        "Transformation"
+      ],
+      "tags": [
+        "Epictetus",
+        "Stoicism",
+        "agency",
+        "acceptance",
+        "control",
+        "suffering",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Epictetus, Enchiridion",
+        "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_01.md",
+        "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_04.md"
+      ]
+    },
+    {
+      "id": "plato-justice-and-the-ordered-soul",
+      "title": "Plato and the Ordered Soul",
+      "domain": "Philosophy \u2194 Theology",
+      "observation": "Humans recognize that justice requires order within the person and the community.",
+      "pattern": "The shape of the soul affects the shape of public life.",
+      "friction_point": "A vision of order can become coercive when it ranks people by function, knowledge, or social usefulness.",
+      "non_christian_resolution": "Plato emphasizes philosophical reason, education, hierarchy, and the ordering of desire toward the good.",
+      "christian_resolution": "Christianity emphasizes created dignity, servant leadership, repentance, grace, and justice for vulnerable people.",
+      "divine_pattern_insight": "Reason can perceive that the soul and society need order, but Christian resolution tests order by love, humility, and the dignity of every person.",
+      "related_layers": [
+        "Image of God Pattern",
+        "Moral Response",
+        "Worship And Community",
+        "Logos / Meaning"
+      ],
+      "tags": [
+        "Plato",
+        "Republic",
+        "justice",
+        "soul",
+        "order",
+        "philosophy",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Plato, Republic",
+        "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_01.md",
+        "Local corpus notes: all_texts/reviewed_growth_batch_2026_06_04.md"
+      ]
+    },
+    {
+      "id": "aristotle-virtue-and-formation",
+      "title": "Aristotle and Virtue Formation",
+      "domain": "Philosophy \u2194 Theology",
+      "observation": "Humans become shaped by repeated habits, practices, loves, and communities.",
+      "pattern": "Formation turns moral insight into embodied character.",
+      "friction_point": "Virtue can be treated as achievement, social polish, or excellence without grace for failure and repair.",
+      "non_christian_resolution": "Aristotle emphasizes habit, practical wisdom, moderation, friendship, and the cultivation of excellence.",
+      "christian_resolution": "Christianity emphasizes spiritual formation, grace, repentance, sanctification, and love that is not limited to the socially excellent.",
+      "divine_pattern_insight": "Habit matters deeply, but Christian transformation requires more than training; it requires grace that reforms desire and restores failed persons.",
+      "related_layers": [
+        "Moral Response",
+        "Transformation",
+        "Worship And Community",
+        "Image of God Pattern"
+      ],
+      "tags": [
+        "Aristotle",
+        "virtue ethics",
+        "formation",
+        "habit",
+        "practical wisdom",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Aristotle, Nicomachean Ethics"
+      ]
+    },
+    {
+      "id": "kant-duty-and-moral-law",
+      "title": "Kant and Moral Duty",
+      "domain": "Philosophy \u2194 Theology",
+      "observation": "Humans recognize a moral law that calls them beyond preference, appetite, and convenience.",
+      "pattern": "Duty reveals that moral life has a claim on the self.",
+      "friction_point": "Moral duty can identify obligation without healing the divided will or restoring the person after failure.",
+      "non_christian_resolution": "Kant emphasizes reason, duty, autonomy, and acting according to moral law rather than inclination.",
+      "christian_resolution": "Christianity emphasizes moral accountability together with grace, forgiveness, union with Christ, and transformation by the Holy Spirit.",
+      "divine_pattern_insight": "Moral law can expose responsibility, but the deeper resolution must address guilt, weakness, forgiveness, and renewal.",
+      "related_layers": [
+        "Moral Response",
+        "Logos / Meaning",
+        "Transformation",
+        "Image of God Pattern"
+      ],
+      "tags": [
+        "Immanuel Kant",
+        "duty",
+        "moral law",
+        "reason",
+        "autonomy",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Immanuel Kant, Groundwork of the Metaphysics of Morals"
+      ]
+    },
+    {
+      "id": "nietzsche-power-and-moral-critique",
+      "title": "Nietzsche and the Critique of Moral Weakness",
+      "domain": "Philosophy \u2194 Theology",
+      "observation": "Humans can use moral language to hide fear, resentment, domination, or weakness.",
+      "pattern": "Moral claims must be tested by what they produce in real character and community.",
+      "friction_point": "Christian language can be misused as a mask for passivity, control, or resentment rather than cruciform love.",
+      "non_christian_resolution": "Nietzsche emphasizes strength, self-overcoming, suspicion of herd morality, and the creation of values.",
+      "christian_resolution": "Christianity emphasizes the cross as power made humble, repentance from false righteousness, and Spirit-formed love that is neither domination nor resentment.",
+      "divine_pattern_insight": "A serious critique of moral hypocrisy can purify the pattern by forcing Christian claims to show truthful humility, courage, mercy, and costly love.",
+      "related_layers": [
+        "Cross And Reversal Pattern",
+        "Moral Response",
+        "Transformation",
+        "Worship And Community"
+      ],
+      "tags": [
+        "Friedrich Nietzsche",
+        "moral critique",
+        "power",
+        "resentment",
+        "self-overcoming",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Friedrich Nietzsche, On the Genealogy of Morality"
+      ]
+    },
+    {
+      "id": "hume-reason-passion-and-moral-sentiment",
+      "title": "Hume and Moral Sentiment",
+      "domain": "Philosophy \u2194 Theology",
+      "observation": "Humans often make moral judgments through sympathy, feeling, habit, and social experience rather than pure reason alone.",
+      "pattern": "Moral perception involves the whole person, not detached intellect only.",
+      "friction_point": "If morality is grounded only in sentiment, it can struggle to name an authority beyond preference, culture, or shared feeling.",
+      "non_christian_resolution": "Hume emphasizes sympathy, custom, moral sentiment, and the limits of reason in human judgment.",
+      "christian_resolution": "Christianity affirms embodied moral perception while grounding goodness in God's character, revelation, love, and the formation of rightly ordered desire.",
+      "divine_pattern_insight": "Moral feeling is a real part of human response, but the deeper resolution asks how desire is healed, trained, and accountable to truth.",
+      "related_layers": [
+        "Life And Consciousness",
+        "Moral Response",
+        "Transformation",
+        "Logos / Meaning"
+      ],
+      "tags": [
+        "David Hume",
+        "moral sentiment",
+        "reason",
+        "sympathy",
+        "ethics",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "David Hume, An Enquiry Concerning the Principles of Morals"
+      ]
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 _A GitHub-readable article drawn from the generated reports._
 
-Generated: `2026-06-17 12:24 UTC`
+Generated: `2026-06-17 12:34 UTC`
 
 ## How To Read This Page
 
@@ -10122,3 +10122,69 @@ Friction is not evidence of failure. Friction is evidence that a pattern has rea
 - Christian Resolution: Christianity emphasizes grace, redemption through Christ, and transformation by the Holy Spirit.
 - Divine Pattern Insight: Human reason can recognize moral order, but restoration after failure requires a deeper resolution.
 - Tags: Marcus Aurelius, Stoicism, philosophy, virtue, self-control, friction, theology
+
+### Epictetus and Agency Under Limits
+
+- Domain: Philosophy ↔ Theology
+- Observation: Humans experience a real difference between what they can control and what they cannot control.
+- Pattern: Moral agency grows when a person learns responsibility without pretending to control all outcomes.
+- Friction Point: Acceptance can become wisdom, but it can also become resignation when suffering or injustice should be resisted.
+- Non-Christian Resolution: Stoicism emphasizes disciplined judgment, inner freedom, and acceptance of what lies beyond personal control.
+- Christian Resolution: Christianity emphasizes faithful agency before God, prayerful dependence, patient endurance, and justice-seeking love.
+- Divine Pattern Insight: Human agency is real but finite; the deeper resolution joins responsibility with dependence on grace and hope beyond visible control.
+- Tags: Epictetus, Stoicism, agency, acceptance, control, suffering, friction, theology
+
+### Plato and the Ordered Soul
+
+- Domain: Philosophy ↔ Theology
+- Observation: Humans recognize that justice requires order within the person and the community.
+- Pattern: The shape of the soul affects the shape of public life.
+- Friction Point: A vision of order can become coercive when it ranks people by function, knowledge, or social usefulness.
+- Non-Christian Resolution: Plato emphasizes philosophical reason, education, hierarchy, and the ordering of desire toward the good.
+- Christian Resolution: Christianity emphasizes created dignity, servant leadership, repentance, grace, and justice for vulnerable people.
+- Divine Pattern Insight: Reason can perceive that the soul and society need order, but Christian resolution tests order by love, humility, and the dignity of every person.
+- Tags: Plato, Republic, justice, soul, order, philosophy, friction, theology
+
+### Aristotle and Virtue Formation
+
+- Domain: Philosophy ↔ Theology
+- Observation: Humans become shaped by repeated habits, practices, loves, and communities.
+- Pattern: Formation turns moral insight into embodied character.
+- Friction Point: Virtue can be treated as achievement, social polish, or excellence without grace for failure and repair.
+- Non-Christian Resolution: Aristotle emphasizes habit, practical wisdom, moderation, friendship, and the cultivation of excellence.
+- Christian Resolution: Christianity emphasizes spiritual formation, grace, repentance, sanctification, and love that is not limited to the socially excellent.
+- Divine Pattern Insight: Habit matters deeply, but Christian transformation requires more than training; it requires grace that reforms desire and restores failed persons.
+- Tags: Aristotle, virtue ethics, formation, habit, practical wisdom, friction, theology
+
+### Kant and Moral Duty
+
+- Domain: Philosophy ↔ Theology
+- Observation: Humans recognize a moral law that calls them beyond preference, appetite, and convenience.
+- Pattern: Duty reveals that moral life has a claim on the self.
+- Friction Point: Moral duty can identify obligation without healing the divided will or restoring the person after failure.
+- Non-Christian Resolution: Kant emphasizes reason, duty, autonomy, and acting according to moral law rather than inclination.
+- Christian Resolution: Christianity emphasizes moral accountability together with grace, forgiveness, union with Christ, and transformation by the Holy Spirit.
+- Divine Pattern Insight: Moral law can expose responsibility, but the deeper resolution must address guilt, weakness, forgiveness, and renewal.
+- Tags: Immanuel Kant, duty, moral law, reason, autonomy, friction, theology
+
+### Nietzsche and the Critique of Moral Weakness
+
+- Domain: Philosophy ↔ Theology
+- Observation: Humans can use moral language to hide fear, resentment, domination, or weakness.
+- Pattern: Moral claims must be tested by what they produce in real character and community.
+- Friction Point: Christian language can be misused as a mask for passivity, control, or resentment rather than cruciform love.
+- Non-Christian Resolution: Nietzsche emphasizes strength, self-overcoming, suspicion of herd morality, and the creation of values.
+- Christian Resolution: Christianity emphasizes the cross as power made humble, repentance from false righteousness, and Spirit-formed love that is neither domination nor resentment.
+- Divine Pattern Insight: A serious critique of moral hypocrisy can purify the pattern by forcing Christian claims to show truthful humility, courage, mercy, and costly love.
+- Tags: Friedrich Nietzsche, moral critique, power, resentment, self-overcoming, friction, theology
+
+### Hume and Moral Sentiment
+
+- Domain: Philosophy ↔ Theology
+- Observation: Humans often make moral judgments through sympathy, feeling, habit, and social experience rather than pure reason alone.
+- Pattern: Moral perception involves the whole person, not detached intellect only.
+- Friction Point: If morality is grounded only in sentiment, it can struggle to name an authority beyond preference, culture, or shared feeling.
+- Non-Christian Resolution: Hume emphasizes sympathy, custom, moral sentiment, and the limits of reason in human judgment.
+- Christian Resolution: Christianity affirms embodied moral perception while grounding goodness in God's character, revelation, love, and the formation of rightly ordered desire.
+- Divine Pattern Insight: Moral feeling is a real part of human response, but the deeper resolution asks how desire is healed, trained, and accountable to truth.
+- Tags: David Hume, moral sentiment, reason, sympathy, ethics, friction, theology
