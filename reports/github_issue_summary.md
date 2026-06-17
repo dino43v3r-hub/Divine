@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-17T19:08:32.904189+00:00
+Generated: 2026-06-17T19:33:19.800326+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,7 +16,7 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## Short Book Report
 
-_Generated: 2026-06-17 19:08 UTC_
+_Generated: 2026-06-17 19:33 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -57,17 +57,17 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 114
-- developing evidence: 379
+- developing evidence: 418
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 28 explicit; 2 machine-drafted; 463 still missing of 493
-- analogy: 50 explicit; 0 machine-drafted; 443 still missing of 493
-- failure_condition: 95 explicit; 1 machine-drafted; 397 still missing of 493
-- machine_label_boundary: 321 explicit; 2 machine-drafted; 170 still missing of 493
-- discernment: 256 explicit; 0 machine-drafted; 237 still missing of 493
+- interpretation: 28 explicit; 2 machine-drafted; 502 still missing of 532
+- analogy: 50 explicit; 0 machine-drafted; 482 still missing of 532
+- failure_condition: 96 explicit; 1 machine-drafted; 435 still missing of 532
+- machine_label_boundary: 360 explicit; 2 machine-drafted; 170 still missing of 532
+- discernment: 272 explicit; 0 machine-drafted; 260 still missing of 532
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.
 
@@ -93,5 +93,5 @@ It also asks what ecclesial review is needed and how the claim remains accountab
 
 ## What This Does Not Prove
 
-_Full report has 149 lines. Open the linked report above to read everything._
+_Full report has 167 lines. Open the linked report above to read everything._
 ```

@@ -13,15 +13,15 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 50
-Test words analyzed: 7,296
+Test documents analyzed: 52
+Test words analyzed: 7,656
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 98
-- Science Guardrail: 88
+- Suffering Without Resolution: 103
+- Science Guardrail: 92
 - Injustice And Corruption: 68
-- Counterexample Pressure: 42
+- Counterexample Pressure: 44
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 36
 - Misuse And Weaponization: 20
@@ -30,20 +30,20 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 87
+- Scholarly Or Scientific Source: 92
 - Practical Lived Source: 65
-- Primary Or Classical Source: 26
+- Primary Or Classical Source: 28
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- resilient under pressure: 27
+- resilient under pressure: 29
 - needs deeper review but still plausible: 23
 
 Hold Assessment
 ---------------
 - not enough friction to judge hold: 21
-- pressure present but hold question is underdeveloped: 18
+- pressure present but hold question is underdeveloped: 20
 - provisionally holds; needs stronger review: 9
 - does not hold yet under this friction: 2
 
@@ -51,30 +51,30 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 206 | research corpus 4,318
-- Son: test set 27 | research corpus 6,768
-- Holy Spirit: test set 45 | research corpus 1,849
+- Father: test set 217 | research corpus 4,299
+- Son: test set 27 | research corpus 6,765
+- Holy Spirit: test set 45 | research corpus 1,855
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 53 | research corpus 2,598
+- Physical Order: test set 54 | research corpus 2,601
 - Mathematical Structure: test set 18 | research corpus 633
-- Mathematical Theophany: test set 183 | research corpus 1,234
-- Quantum Probability: test set 25 | research corpus 174
-- Life And Consciousness: test set 115 | research corpus 5,729
-- Meaning And Logos: test set 36 | research corpus 6,095
-- Moral Response: test set 48 | research corpus 2,376
-- Worship And Community: test set 54 | research corpus 1,529
+- Mathematical Theophany: test set 187 | research corpus 1,235
+- Quantum Probability: test set 25 | research corpus 179
+- Life And Consciousness: test set 121 | research corpus 5,727
+- Meaning And Logos: test set 36 | research corpus 6,090
+- Moral Response: test set 48 | research corpus 2,378
+- Worship And Community: test set 54 | research corpus 1,520
 - Transformation: test set 52 | research corpus 2,189
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 200
-- Alienation And Lament: 51
-- Communal Practice: 48
+- Creation And Order: 204
+- Alienation And Lament: 52
+- Communal Practice: 49
 - Transformation And Hope: 45
+- Desire And Longing: 42
 - Moral Confrontation: 42
-- Desire And Longing: 39
 
 Per-Test Findings
 -----------------
@@ -592,6 +592,26 @@ Recommendations:
 - Name explicit failure conditions so the pattern can be revised or rejected.
 - Add rival natural, psychological, social, or comparative explanations.
 
+preaching_as_the_unfinished_task_of_theology_grief_trauma_and_early_christian_te_5cc533e91322.md
+------------------------------------------------------------------------------------------------
+Words: 214
+Meaning confidence: context-supported pattern
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 3
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
 ecological_loss_no_restoration_test.md
 --------------------------------------
 Words: 85
@@ -622,6 +642,26 @@ Pressure signals:
 - Science Guardrail: 3
 - Counterexample Pressure: 1
 - Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+the_concept_of_divine_providence_in_the_face_of_suffering_9e1be1a1098c.md
+-------------------------------------------------------------------------
+Words: 146
+Meaning confidence: thin meaning signal
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 2
+- Science Guardrail: 2
+- Counterexample Pressure: 1
 Meaning arc:
 - Opening: Creation And Order (2)
 - Middle: Creation And Order (0)

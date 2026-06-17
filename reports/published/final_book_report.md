@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-17 19:15 UTC_
+_Generated: 2026-06-17 19:33 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -43,17 +43,17 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 114
-- developing evidence: 379
+- developing evidence: 418
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 28 explicit; 2 machine-drafted; 463 still missing of 493
-- analogy: 50 explicit; 0 machine-drafted; 443 still missing of 493
-- failure_condition: 95 explicit; 1 machine-drafted; 397 still missing of 493
-- machine_label_boundary: 321 explicit; 2 machine-drafted; 170 still missing of 493
-- discernment: 256 explicit; 0 machine-drafted; 237 still missing of 493
+- interpretation: 28 explicit; 2 machine-drafted; 502 still missing of 532
+- analogy: 50 explicit; 0 machine-drafted; 482 still missing of 532
+- failure_condition: 96 explicit; 1 machine-drafted; 435 still missing of 532
+- machine_label_boundary: 360 explicit; 2 machine-drafted; 170 still missing of 532
+- discernment: 272 explicit; 0 machine-drafted; 260 still missing of 532
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.
 
@@ -114,10 +114,10 @@ Quantum theory, mathematics, neuroscience, and AI pattern recognition may suppor
 The report is strongest when it tells you exactly where confidence is blocked. Based on the current audit, the next work should be:
 
 1. Move one source from `developing_evidence` to `reviewed_evidence_ready`.
-   Right now the project has 340 developing-evidence records and 0 ready-for-review records. Pick one important source connected to `Image Of God Pattern` and complete every required control by hand.
+   Right now the project has 418 developing-evidence records and 0 ready-for-review records. Pick one important source connected to `Image Of God Pattern` and complete every required control by hand.
 
 2. Fill the largest explicit review gaps.
-   The current biggest gaps are `interpretation` (423 missing), `analogy` (404 missing), `failure_condition` (358 missing), `discernment` (207 missing). These are the places where the report most needs clearer human judgment.
+   The current biggest gaps are `interpretation` (502 missing), `analogy` (482 missing), `failure_condition` (435 missing), `discernment` (260 missing). These are the places where the report most needs clearer human judgment.
 
 3. Start with the top item in the review queue.
    First queued source: `research_documents/reviewed_source_packs.md`. Add source-checked companion notes for: interpretation, analogy, machine_label_boundary.
@@ -133,10 +133,10 @@ The report is strongest when it tells you exactly where confidence is blocked. B
 
 ## Current Corpus Snapshot
 
-- Retained cloud candidate references: 7,077
-- Brand-new candidate references this run: 67
-- New provider mix: Crossref: 46, OpenAlex: 18, Internet Archive: 3
-- New candidate references in latest discovery run: 67
+- Retained cloud candidate references: 7,135
+- Brand-new candidate references this run: 58
+- New provider mix: Crossref: 30, OpenAlex: 25, Internet Archive: 3
+- New candidate references in latest discovery run: 58
 
 - Rated records: 14
 - Supportive after caution/resolution: 6
