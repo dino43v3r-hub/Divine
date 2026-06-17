@@ -30,6 +30,7 @@ SCIENCE_GUARDRAIL_PATH = Path("research_documents/science_guardrail_layer.json")
 
 SOURCE_REPORTS = {
     "findings": Path("reports/divine_pattern_findings.md"),
+    "gap_queue": Path("reports/review_gap_queue.md"),
     "backend": Path("reports/ai_backend_report.txt"),
     "summary": Path("reports/divine_pattern_summary_report.txt"),
     "top_patterns": Path("reports/top_five_divine_patterns_report.txt"),
@@ -1164,6 +1165,12 @@ def build_short_article() -> str:
         *rule_coverage_lines(review_audit)[:5],
         "",
         "The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions.",
+        "",
+        "The system now writes a gap-fill queue here:",
+        "",
+        "- `reports/review_gap_queue.md`",
+        "",
+        "That queue explains why fields are missing and lists the highest-priority sources that need structured companion reviews.",
         "",
         "## Theological Boundary",
         "",

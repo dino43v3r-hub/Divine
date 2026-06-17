@@ -85,6 +85,7 @@ Build it locally with:
 ```powershell
 python ai_knowledge_backend.py
 python build_divine_pattern_findings.py
+python build_review_gap_queue.py
 ```
 
 The backend writes:
@@ -96,6 +97,7 @@ reports/review_rules_audit.json
 reports/multimodal_review_manifest.json
 reports/ai_backend_report.txt
 reports/divine_pattern_findings.md
+reports/review_gap_queue.md
 reports/combined_web_article.md
 reports/combined_web_article.html
 reports/published/final_book_report.md
@@ -126,6 +128,10 @@ machine-label boundary.
 For normal use, read `reports/divine_pattern_findings.md`. It is designed to
 tell you which divine patterns the system currently finds, why they surfaced,
 what could weaken them, and what question you may want to evaluate for yourself.
+
+If the book report says many fields are missing, read
+`reports/review_gap_queue.md`. It explains why the fields are missing and which
+sources should receive structured review companions first.
 
 The multimodal manifest makes the backend MLLM-ready for image, video, and
 audio assets. Media can enter the corpus directly, but uncaptioned or

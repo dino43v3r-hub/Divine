@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-17 17:50 UTC_
+_Generated: 2026-06-17 17:59 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -53,6 +53,12 @@ These labels are reading aids, not commands. `candidate_lead` means interesting 
 - discernment: 245 present; 207 missing of 452
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions.
+
+The system now writes a gap-fill queue here:
+
+- `reports/review_gap_queue.md`
+
+That queue explains why fields are missing and lists the highest-priority sources that need structured companion reviews.
 
 ## Theological Boundary
 
@@ -113,6 +119,7 @@ Nothing technical. Read `reports/divine_pattern_findings.md` when you want the c
 The detailed generated reports still exist for audit trails and deeper reading:
 
 - `reports/divine_pattern_findings.md` (available)
+- `reports/review_gap_queue.md` (available)
 - `reports/ai_backend_report.txt` (available)
 - `reports/divine_pattern_summary_report.txt` (available)
 - `reports/top_five_divine_patterns_report.txt` (available)
