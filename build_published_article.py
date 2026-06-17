@@ -282,9 +282,18 @@ def friction_layer_lines(records: list[dict]) -> list[str]:
     for record in records:
         tags = ", ".join(record.get("tags", [])) or "untagged"
         related_layers = ", ".join(record.get("related_layers", [])) or "not linked yet"
+        score = record.get("evidence_score", "unrated")
         lines.extend(
             [
                 f"### {record.get('title', 'Untitled Friction Record')}",
+                "",
+                f"**Evidence Score:** {score}",
+                "",
+                f"**Evidence Effect:** {record.get('evidence_effect', 'unrated')}",
+                "",
+                f"**Confidence:** {record.get('confidence', 'unrated')}",
+                "",
+                f"**Review Status:** {record.get('review_status', 'unreviewed')}",
                 "",
                 f"**Domain:** {record.get('domain', 'Unspecified')}",
                 "",
@@ -300,6 +309,8 @@ def friction_layer_lines(records: list[dict]) -> list[str]:
                 "",
                 f"**Divine Pattern Insight:** {record.get('divine_pattern_insight', '')}",
                 "",
+                f"**Failure Risk:** {record.get('failure_risk', '')}",
+                "",
                 f"**Related Layers:** {related_layers}",
                 "",
                 f"**Tags:** {tags}",
@@ -307,6 +318,24 @@ def friction_layer_lines(records: list[dict]) -> list[str]:
             ]
         )
     return lines
+
+
+def friction_summary_lines(records: list[dict]) -> list[str]:
+    if not records:
+        return ["No rated friction records yet."]
+
+    rated = [record for record in records if isinstance(record.get("evidence_score"), int)]
+    supportive = sum(1 for record in rated if record["evidence_score"] > 0)
+    diagnostic = sum(1 for record in rated if record["evidence_score"] == 0)
+    challenging = sum(1 for record in rated if record["evidence_score"] < 0)
+    total_score = sum(record["evidence_score"] for record in rated)
+    return [
+        f"Rated records: {len(rated)}",
+        f"Supportive after caution/resolution: {supportive}",
+        f"Diagnostic or unresolved friction: {diagnostic}",
+        f"Currently weakening or unresolved challenge records: {challenging}",
+        f"Net provisional evidence score: {total_score}",
+    ]
 
 
 def build_article() -> str:
@@ -422,6 +451,12 @@ def build_article() -> str:
             "Friction is not evidence of failure. Friction is evidence that a pattern has reached the limits of its current explanatory framework and is seeking a deeper resolution.",
             "",
             "This layer records where philosophy, science, culture, or theology creates productive tension with the Divine Pattern framework. The goal is not to erase the tension, but to preserve it carefully enough that a deeper resolution can be tested.",
+            "",
+            "### Provisional Evidence Summary",
+            "",
+            *bulletize(friction_summary_lines(friction_layers)),
+            "",
+            "Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.",
             "",
             *friction_layer_lines(friction_layers),
             "## What Would Make The Project Better",

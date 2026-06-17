@@ -283,6 +283,10 @@ def render_friction_layer_html(records: list[dict]) -> str:
             f"<span>{escape(tag)}</span>" for tag in record.get("tags", [])
         )
         fields = [
+            ("Evidence Score", str(record.get("evidence_score", "unrated"))),
+            ("Evidence Effect", record.get("evidence_effect", "unrated")),
+            ("Confidence", record.get("confidence", "unrated")),
+            ("Review Status", record.get("review_status", "unreviewed")),
             ("Domain", record.get("domain", "")),
             ("Observation", record.get("observation", "")),
             ("Pattern", record.get("pattern", "")),
@@ -290,6 +294,7 @@ def render_friction_layer_html(records: list[dict]) -> str:
             ("Non-Christian Resolution", record.get("non_christian_resolution", "")),
             ("Christian Resolution", record.get("christian_resolution", "")),
             ("Divine Pattern Insight", record.get("divine_pattern_insight", "")),
+            ("Failure Risk", record.get("failure_risk", "")),
         ]
         field_html = "\n".join(
             f"<p><strong>{escape(label)}:</strong> {escape(value)}</p>"
@@ -308,11 +313,32 @@ def render_friction_layer_html(records: list[dict]) -> str:
     return "\n".join(cards)
 
 
+def friction_summary_items(records: list[dict]) -> list[str]:
+    if not records:
+        return ["No rated friction records yet."]
+
+    rated = [record for record in records if isinstance(record.get("evidence_score"), int)]
+    supportive = sum(1 for record in rated if record["evidence_score"] > 0)
+    diagnostic = sum(1 for record in rated if record["evidence_score"] == 0)
+    challenging = sum(1 for record in rated if record["evidence_score"] < 0)
+    total_score = sum(record["evidence_score"] for record in rated)
+    return [
+        f"Rated records: {len(rated)}",
+        f"Supportive after caution/resolution: {supportive}",
+        f"Diagnostic or unresolved friction: {diagnostic}",
+        f"Currently weakening or unresolved challenge records: {challenging}",
+        f"Net provisional evidence score: {total_score}",
+    ]
+
+
 def build_article() -> str:
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     sections = []
     nav_items = []
     friction_layers = read_friction_layers()
+    friction_summary = "".join(
+        f"<li>{escape(item)}</li>" for item in friction_summary_items(friction_layers)
+    )
 
     for report in REPORTS:
         section_id = slugify(report["title"])
@@ -360,6 +386,9 @@ def build_article() -> str:
           <div class="reader-pass">
             <h2>Why This Section Matters</h2>
             <p>This layer records where philosophy, science, culture, or theology creates productive tension with the Divine Pattern framework.</p>
+            <h2>Provisional Evidence Summary</h2>
+            <ul>{friction_summary}</ul>
+            <p>Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.</p>
           </div>
           <div class="friction-grid">
             {render_friction_layer_html(friction_layers)}
@@ -667,6 +696,17 @@ def build_markdown_article() -> str:
             "",
             "Friction is not evidence of failure. Friction is evidence that a pattern has reached the limits of its current explanatory framework and is seeking a deeper resolution.",
             "",
+            "### Provisional Evidence Summary",
+            "",
+        ]
+    )
+    for item in friction_summary_items(friction_layers):
+        lines.append(f"- {item}")
+    lines.extend(
+        [
+            "",
+            "Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.",
+            "",
         ]
     )
     if not friction_layers:
@@ -677,6 +717,10 @@ def build_markdown_article() -> str:
             [
                 f"### {record.get('title', 'Untitled Friction Record')}",
                 "",
+                f"- Evidence Score: {record.get('evidence_score', 'unrated')}",
+                f"- Evidence Effect: {record.get('evidence_effect', 'unrated')}",
+                f"- Confidence: {record.get('confidence', 'unrated')}",
+                f"- Review Status: {record.get('review_status', 'unreviewed')}",
                 f"- Domain: {record.get('domain', 'Unspecified')}",
                 f"- Observation: {record.get('observation', '')}",
                 f"- Pattern: {record.get('pattern', '')}",
@@ -684,6 +728,7 @@ def build_markdown_article() -> str:
                 f"- Non-Christian Resolution: {record.get('non_christian_resolution', '')}",
                 f"- Christian Resolution: {record.get('christian_resolution', '')}",
                 f"- Divine Pattern Insight: {record.get('divine_pattern_insight', '')}",
+                f"- Failure Risk: {record.get('failure_risk', '')}",
                 f"- Tags: {tags}",
                 "",
             ]

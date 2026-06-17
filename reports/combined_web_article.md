@@ -2,7 +2,7 @@
 
 _A GitHub-readable article drawn from the generated reports._
 
-Generated: `2026-06-17 12:34 UTC`
+Generated: `2026-06-17 12:40 UTC`
 
 ## How To Read This Page
 
@@ -10112,8 +10112,22 @@ _Source: `research_documents/friction_layers.json`_
 
 Friction is not evidence of failure. Friction is evidence that a pattern has reached the limits of its current explanatory framework and is seeking a deeper resolution.
 
+### Provisional Evidence Summary
+
+- Rated records: 7
+- Supportive after caution/resolution: 6
+- Diagnostic or unresolved friction: 1
+- Currently weakening or unresolved challenge records: 0
+- Net provisional evidence score: 9
+
+Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.
+
 ### Marcus Aurelius and Stoic Virtue
 
+- Evidence Score: 2
+- Evidence Effect: moderate_support_after_christian_resolution
+- Confidence: provisional
+- Review Status: needs_primary_source_review
 - Domain: Philosophy ↔ Theology
 - Observation: Humans recognize the need for virtue, discipline, and self-control.
 - Pattern: Character shapes the direction of the soul and life.
@@ -10121,10 +10135,15 @@ Friction is not evidence of failure. Friction is evidence that a pattern has rea
 - Non-Christian Resolution: Stoicism emphasizes reason, discipline, acceptance, and virtue.
 - Christian Resolution: Christianity emphasizes grace, redemption through Christ, and transformation by the Holy Spirit.
 - Divine Pattern Insight: Human reason can recognize moral order, but restoration after failure requires a deeper resolution.
+- Failure Risk: Do not treat Stoic virtue as identical with Christian transformation or grace.
 - Tags: Marcus Aurelius, Stoicism, philosophy, virtue, self-control, friction, theology
 
 ### Epictetus and Agency Under Limits
 
+- Evidence Score: 1
+- Evidence Effect: modest_support_with_caution
+- Confidence: provisional
+- Review Status: needs_primary_source_review
 - Domain: Philosophy ↔ Theology
 - Observation: Humans experience a real difference between what they can control and what they cannot control.
 - Pattern: Moral agency grows when a person learns responsibility without pretending to control all outcomes.
@@ -10132,10 +10151,15 @@ Friction is not evidence of failure. Friction is evidence that a pattern has rea
 - Non-Christian Resolution: Stoicism emphasizes disciplined judgment, inner freedom, and acceptance of what lies beyond personal control.
 - Christian Resolution: Christianity emphasizes faithful agency before God, prayerful dependence, patient endurance, and justice-seeking love.
 - Divine Pattern Insight: Human agency is real but finite; the deeper resolution joins responsibility with dependence on grace and hope beyond visible control.
+- Failure Risk: Do not let acceptance of limits become passivity before injustice or avoidable harm.
 - Tags: Epictetus, Stoicism, agency, acceptance, control, suffering, friction, theology
 
 ### Plato and the Ordered Soul
 
+- Evidence Score: 1
+- Evidence Effect: modest_support_with_significant_power_risk
+- Confidence: provisional
+- Review Status: needs_primary_source_review
 - Domain: Philosophy ↔ Theology
 - Observation: Humans recognize that justice requires order within the person and the community.
 - Pattern: The shape of the soul affects the shape of public life.
@@ -10143,10 +10167,15 @@ Friction is not evidence of failure. Friction is evidence that a pattern has rea
 - Non-Christian Resolution: Plato emphasizes philosophical reason, education, hierarchy, and the ordering of desire toward the good.
 - Christian Resolution: Christianity emphasizes created dignity, servant leadership, repentance, grace, and justice for vulnerable people.
 - Divine Pattern Insight: Reason can perceive that the soul and society need order, but Christian resolution tests order by love, humility, and the dignity of every person.
+- Failure Risk: Do not baptize hierarchy, philosopher-rule, or social ranking as divine order.
 - Tags: Plato, Republic, justice, soul, order, philosophy, friction, theology
 
 ### Aristotle and Virtue Formation
 
+- Evidence Score: 2
+- Evidence Effect: moderate_support_after_christian_resolution
+- Confidence: provisional
+- Review Status: needs_primary_source_review
 - Domain: Philosophy ↔ Theology
 - Observation: Humans become shaped by repeated habits, practices, loves, and communities.
 - Pattern: Formation turns moral insight into embodied character.
@@ -10154,10 +10183,15 @@ Friction is not evidence of failure. Friction is evidence that a pattern has rea
 - Non-Christian Resolution: Aristotle emphasizes habit, practical wisdom, moderation, friendship, and the cultivation of excellence.
 - Christian Resolution: Christianity emphasizes spiritual formation, grace, repentance, sanctification, and love that is not limited to the socially excellent.
 - Divine Pattern Insight: Habit matters deeply, but Christian transformation requires more than training; it requires grace that reforms desire and restores failed persons.
+- Failure Risk: Do not reduce Christian sanctification to self-cultivation or moral excellence by training alone.
 - Tags: Aristotle, virtue ethics, formation, habit, practical wisdom, friction, theology
 
 ### Kant and Moral Duty
 
+- Evidence Score: 2
+- Evidence Effect: moderate_support_after_christian_resolution
+- Confidence: provisional
+- Review Status: needs_primary_source_review
 - Domain: Philosophy ↔ Theology
 - Observation: Humans recognize a moral law that calls them beyond preference, appetite, and convenience.
 - Pattern: Duty reveals that moral life has a claim on the self.
@@ -10165,10 +10199,15 @@ Friction is not evidence of failure. Friction is evidence that a pattern has rea
 - Non-Christian Resolution: Kant emphasizes reason, duty, autonomy, and acting according to moral law rather than inclination.
 - Christian Resolution: Christianity emphasizes moral accountability together with grace, forgiveness, union with Christ, and transformation by the Holy Spirit.
 - Divine Pattern Insight: Moral law can expose responsibility, but the deeper resolution must address guilt, weakness, forgiveness, and renewal.
+- Failure Risk: Do not make moral law alone do the work of forgiveness, healing, and transformation.
 - Tags: Immanuel Kant, duty, moral law, reason, autonomy, friction, theology
 
 ### Nietzsche and the Critique of Moral Weakness
 
+- Evidence Score: 0
+- Evidence Effect: diagnostic_challenge_that_purifies_claims
+- Confidence: provisional
+- Review Status: needs_primary_source_review
 - Domain: Philosophy ↔ Theology
 - Observation: Humans can use moral language to hide fear, resentment, domination, or weakness.
 - Pattern: Moral claims must be tested by what they produce in real character and community.
@@ -10176,10 +10215,15 @@ Friction is not evidence of failure. Friction is evidence that a pattern has rea
 - Non-Christian Resolution: Nietzsche emphasizes strength, self-overcoming, suspicion of herd morality, and the creation of values.
 - Christian Resolution: Christianity emphasizes the cross as power made humble, repentance from false righteousness, and Spirit-formed love that is neither domination nor resentment.
 - Divine Pattern Insight: A serious critique of moral hypocrisy can purify the pattern by forcing Christian claims to show truthful humility, courage, mercy, and costly love.
+- Failure Risk: Do not use Nietzsche as support; use the critique to test whether Christian moral language has become resentment, control, or weakness.
 - Tags: Friedrich Nietzsche, moral critique, power, resentment, self-overcoming, friction, theology
 
 ### Hume and Moral Sentiment
 
+- Evidence Score: 1
+- Evidence Effect: modest_support_with_authority_question
+- Confidence: provisional
+- Review Status: needs_primary_source_review
 - Domain: Philosophy ↔ Theology
 - Observation: Humans often make moral judgments through sympathy, feeling, habit, and social experience rather than pure reason alone.
 - Pattern: Moral perception involves the whole person, not detached intellect only.
@@ -10187,4 +10231,5 @@ Friction is not evidence of failure. Friction is evidence that a pattern has rea
 - Non-Christian Resolution: Hume emphasizes sympathy, custom, moral sentiment, and the limits of reason in human judgment.
 - Christian Resolution: Christianity affirms embodied moral perception while grounding goodness in God's character, revelation, love, and the formation of rightly ordered desire.
 - Divine Pattern Insight: Moral feeling is a real part of human response, but the deeper resolution asks how desire is healed, trained, and accountable to truth.
+- Failure Risk: Do not ground moral authority only in shared feeling, sympathy, or cultural habit.
 - Tags: David Hume, moral sentiment, reason, sympathy, ethics, friction, theology

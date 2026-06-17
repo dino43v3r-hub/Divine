@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-17 12:34 UTC_
+_Generated: 2026-06-17 12:40 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -157,7 +157,25 @@ Friction is not evidence of failure. Friction is evidence that a pattern has rea
 
 This layer records where philosophy, science, culture, or theology creates productive tension with the Divine Pattern framework. The goal is not to erase the tension, but to preserve it carefully enough that a deeper resolution can be tested.
 
+### Provisional Evidence Summary
+
+- Rated records: 7
+- Supportive after caution/resolution: 6
+- Diagnostic or unresolved friction: 1
+- Currently weakening or unresolved challenge records: 0
+- Net provisional evidence score: 9
+
+Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.
+
 ### Marcus Aurelius and Stoic Virtue
+
+**Evidence Score:** 2
+
+**Evidence Effect:** moderate_support_after_christian_resolution
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
 
 **Domain:** Philosophy ↔ Theology
 
@@ -173,11 +191,21 @@ This layer records where philosophy, science, culture, or theology creates produ
 
 **Divine Pattern Insight:** Human reason can recognize moral order, but restoration after failure requires a deeper resolution.
 
+**Failure Risk:** Do not treat Stoic virtue as identical with Christian transformation or grace.
+
 **Related Layers:** Image of God Pattern, Moral Response, Transformation, Logos / Meaning
 
 **Tags:** Marcus Aurelius, Stoicism, philosophy, virtue, self-control, friction, theology
 
 ### Epictetus and Agency Under Limits
+
+**Evidence Score:** 1
+
+**Evidence Effect:** modest_support_with_caution
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
 
 **Domain:** Philosophy ↔ Theology
 
@@ -193,11 +221,21 @@ This layer records where philosophy, science, culture, or theology creates produ
 
 **Divine Pattern Insight:** Human agency is real but finite; the deeper resolution joins responsibility with dependence on grace and hope beyond visible control.
 
+**Failure Risk:** Do not let acceptance of limits become passivity before injustice or avoidable harm.
+
 **Related Layers:** Image of God Pattern, Moral Response, Providence And Contingency Pattern, Transformation
 
 **Tags:** Epictetus, Stoicism, agency, acceptance, control, suffering, friction, theology
 
 ### Plato and the Ordered Soul
+
+**Evidence Score:** 1
+
+**Evidence Effect:** modest_support_with_significant_power_risk
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
 
 **Domain:** Philosophy ↔ Theology
 
@@ -213,11 +251,21 @@ This layer records where philosophy, science, culture, or theology creates produ
 
 **Divine Pattern Insight:** Reason can perceive that the soul and society need order, but Christian resolution tests order by love, humility, and the dignity of every person.
 
+**Failure Risk:** Do not baptize hierarchy, philosopher-rule, or social ranking as divine order.
+
 **Related Layers:** Image of God Pattern, Moral Response, Worship And Community, Logos / Meaning
 
 **Tags:** Plato, Republic, justice, soul, order, philosophy, friction, theology
 
 ### Aristotle and Virtue Formation
+
+**Evidence Score:** 2
+
+**Evidence Effect:** moderate_support_after_christian_resolution
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
 
 **Domain:** Philosophy ↔ Theology
 
@@ -233,11 +281,21 @@ This layer records where philosophy, science, culture, or theology creates produ
 
 **Divine Pattern Insight:** Habit matters deeply, but Christian transformation requires more than training; it requires grace that reforms desire and restores failed persons.
 
+**Failure Risk:** Do not reduce Christian sanctification to self-cultivation or moral excellence by training alone.
+
 **Related Layers:** Moral Response, Transformation, Worship And Community, Image of God Pattern
 
 **Tags:** Aristotle, virtue ethics, formation, habit, practical wisdom, friction, theology
 
 ### Kant and Moral Duty
+
+**Evidence Score:** 2
+
+**Evidence Effect:** moderate_support_after_christian_resolution
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
 
 **Domain:** Philosophy ↔ Theology
 
@@ -253,11 +311,21 @@ This layer records where philosophy, science, culture, or theology creates produ
 
 **Divine Pattern Insight:** Moral law can expose responsibility, but the deeper resolution must address guilt, weakness, forgiveness, and renewal.
 
+**Failure Risk:** Do not make moral law alone do the work of forgiveness, healing, and transformation.
+
 **Related Layers:** Moral Response, Logos / Meaning, Transformation, Image of God Pattern
 
 **Tags:** Immanuel Kant, duty, moral law, reason, autonomy, friction, theology
 
 ### Nietzsche and the Critique of Moral Weakness
+
+**Evidence Score:** 0
+
+**Evidence Effect:** diagnostic_challenge_that_purifies_claims
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
 
 **Domain:** Philosophy ↔ Theology
 
@@ -273,11 +341,21 @@ This layer records where philosophy, science, culture, or theology creates produ
 
 **Divine Pattern Insight:** A serious critique of moral hypocrisy can purify the pattern by forcing Christian claims to show truthful humility, courage, mercy, and costly love.
 
+**Failure Risk:** Do not use Nietzsche as support; use the critique to test whether Christian moral language has become resentment, control, or weakness.
+
 **Related Layers:** Cross And Reversal Pattern, Moral Response, Transformation, Worship And Community
 
 **Tags:** Friedrich Nietzsche, moral critique, power, resentment, self-overcoming, friction, theology
 
 ### Hume and Moral Sentiment
+
+**Evidence Score:** 1
+
+**Evidence Effect:** modest_support_with_authority_question
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
 
 **Domain:** Philosophy ↔ Theology
 
@@ -292,6 +370,8 @@ This layer records where philosophy, science, culture, or theology creates produ
 **Christian Resolution:** Christianity affirms embodied moral perception while grounding goodness in God's character, revelation, love, and the formation of rightly ordered desire.
 
 **Divine Pattern Insight:** Moral feeling is a real part of human response, but the deeper resolution asks how desire is healed, trained, and accountable to truth.
+
+**Failure Risk:** Do not ground moral authority only in shared feeling, sympathy, or cultural habit.
 
 **Related Layers:** Life And Consciousness, Moral Response, Transformation, Logos / Meaning
 
