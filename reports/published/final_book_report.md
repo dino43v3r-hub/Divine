@@ -2,7 +2,7 @@
 
 ## A Book Report For Careful Readers
 
-_Generated: 2026-06-17 12:40 UTC_
+_Generated: 2026-06-17 12:45 UTC_
 
 This is the version to read on GitHub. The project still generates detailed machine reports in the background, but this article is the synthesized reading report: what the evidence seems to be saying, what must stay provisional, and what kind of faithful response is being invited.
 
@@ -159,11 +159,11 @@ This layer records where philosophy, science, culture, or theology creates produ
 
 ### Provisional Evidence Summary
 
-- Rated records: 7
+- Rated records: 14
 - Supportive after caution/resolution: 6
-- Diagnostic or unresolved friction: 1
-- Currently weakening or unresolved challenge records: 0
-- Net provisional evidence score: 9
+- Diagnostic or unresolved friction: 2
+- Currently weakening or unresolved challenge records: 6
+- Net provisional evidence score: 3
 
 Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is diagnostic friction; 1 gives modest support with caution; 2 gives moderate support after Christian resolution.
 
@@ -376,6 +376,216 @@ Scale: -2 weakens the claim; -1 creates a serious unresolved challenge; 0 is dia
 **Related Layers:** Life And Consciousness, Moral Response, Transformation, Logos / Meaning
 
 **Tags:** David Hume, moral sentiment, reason, sympathy, ethics, friction, theology
+
+### Marx and Religion as Social Critique
+
+**Evidence Score:** -1
+
+**Evidence Effect:** serious_unresolved_challenge_to_practical_fruit
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
+
+**Domain:** Politics / Economics ↔ Theology
+
+**Observation:** Religion can be used to comfort suffering people without changing the unjust material conditions that harm them.
+
+**Pattern:** Claims about meaning must be tested by whether they produce justice, repair, and truthful attention to the poor.
+
+**Friction Point:** A Divine Pattern claim can become ideology if it spiritualizes suffering while leaving exploitation intact.
+
+**Non-Christian Resolution:** Marx emphasizes material conditions, class struggle, ideology critique, and social transformation through economic and political change.
+
+**Christian Resolution:** Christianity emphasizes good news to the poor, repentance from unjust power, concrete mercy, economic justice, and hope that is not reducible to material conditions.
+
+**Divine Pattern Insight:** The pattern weakens wherever it comforts injustice; it strengthens only when worship and theology become truth-telling, mercy, justice, and repair.
+
+**Failure Risk:** Do not use spiritual language to bypass material injustice, poverty, labor exploitation, or institutional harm.
+
+**Related Layers:** Moral Response, Worship And Community, Cross And Reversal Pattern, Transformation
+
+**Tags:** Karl Marx, religion, ideology, class, poverty, justice, friction, theology
+
+### Freud and Religion as Wish-Fulfillment
+
+**Evidence Score:** -1
+
+**Evidence Effect:** serious_unresolved_challenge_to_psychological_explanation
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
+
+**Domain:** Psychology ↔ Theology
+
+**Observation:** Human beings can create religious ideas that satisfy longing for protection, meaning, authority, or parental care.
+
+**Pattern:** Spiritual interpretation must be tested against projection, fear, desire, and psychological need.
+
+**Friction Point:** The Divine Pattern may be explained as human wish, coping mechanism, or unconscious projection rather than divine disclosure.
+
+**Non-Christian Resolution:** Freud emphasizes psychoanalysis, unconscious desire, illusion, and religion as a response to vulnerability and longing.
+
+**Christian Resolution:** Christianity can acknowledge projection and false religion while testing faith through revelation, repentance, truth, costly love, and transformation that resists mere wish-fulfillment.
+
+**Divine Pattern Insight:** The pattern must distinguish genuine divine encounter from psychological projection; desire alone cannot count as evidence.
+
+**Failure Risk:** Do not treat longing, consolation, or religious experience as evidence without projection and wish-fulfillment checks.
+
+**Related Layers:** Life And Consciousness, Meaning And Logos, Moral Response, Transformation
+
+**Tags:** Sigmund Freud, psychoanalysis, wish-fulfillment, illusion, projection, friction, theology
+
+### Feuerbach and Theology as Projection
+
+**Evidence Score:** -1
+
+**Evidence Effect:** serious_unresolved_challenge_to_projection_risk
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
+
+**Domain:** Philosophy ↔ Theology
+
+**Observation:** Human beings may project their highest ideals outward and then call those ideals God.
+
+**Pattern:** Claims about God must be tested against human self-projection and idealized anthropology.
+
+**Friction Point:** The Divine Pattern may be read as humanity discovering itself rather than encountering God.
+
+**Non-Christian Resolution:** Feuerbach emphasizes religion as human nature objectified, with theology interpreted as anthropology.
+
+**Christian Resolution:** Christianity must answer projection by grounding claims in revelation, the cross, repentance, communal transformation, and a God who judges as well as fulfills human ideals.
+
+**Divine Pattern Insight:** A pattern is weak if it only mirrors human aspiration; it must also confront, correct, and transform the human subject.
+
+**Failure Risk:** Do not confuse human ideals, moral longing, or beauty with independent evidence of divine self-disclosure.
+
+**Related Layers:** Image of God Pattern, Meaning And Logos, Moral Response, Transformation
+
+**Tags:** Ludwig Feuerbach, projection, anthropology, religion, theology, friction
+
+### Camus and the Absurd
+
+**Evidence Score:** -1
+
+**Evidence Effect:** serious_unresolved_challenge_to_suffering_resolution
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
+
+**Domain:** Existentialism ↔ Theology
+
+**Observation:** Human beings long for meaning, but the world often appears silent, unjust, and resistant to final explanation.
+
+**Pattern:** Meaning claims must survive suffering without pretending that every wound has an obvious explanation.
+
+**Friction Point:** The Divine Pattern can become morally shallow if it explains suffering too quickly or turns tragedy into neat resolution.
+
+**Non-Christian Resolution:** Camus emphasizes revolt, honesty before the absurd, solidarity, and refusing false consolation.
+
+**Christian Resolution:** Christianity emphasizes lament, the cross, resurrection hope, patient solidarity, and refusal to explain away innocent suffering.
+
+**Divine Pattern Insight:** The pattern strengthens only when it can remain truthful in lament and avoid premature resolution.
+
+**Failure Risk:** Do not turn absurdity, grief, or innocent suffering into a tidy apologetic pattern.
+
+**Related Layers:** Cross And Reversal Pattern, Moral Response, Transformation, Meaning And Logos
+
+**Tags:** Albert Camus, absurd, suffering, meaning, revolt, friction, theology
+
+### Sartre and Godless Responsibility
+
+**Evidence Score:** 0
+
+**Evidence Effect:** diagnostic_challenge_to_freedom_and_vocation
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
+
+**Domain:** Existentialism ↔ Theology
+
+**Observation:** Human beings experience radical responsibility and cannot avoid choosing what they become.
+
+**Pattern:** Freedom requires responsibility, but responsibility can become crushing without grace or given identity.
+
+**Friction Point:** A Christian account of created purpose can be challenged as an evasion of radical freedom and human responsibility.
+
+**Non-Christian Resolution:** Sartre emphasizes existence before essence, radical freedom, responsibility, anguish, and authenticity without God.
+
+**Christian Resolution:** Christianity emphasizes created identity, responsible freedom, repentance, vocation, grace, and transformation without denying moral agency.
+
+**Divine Pattern Insight:** The pattern must preserve real human responsibility while showing why freedom is gift and vocation, not mere self-invention.
+
+**Failure Risk:** Do not use divine purpose to erase human agency, responsibility, or the terror of real choice.
+
+**Related Layers:** Image of God Pattern, Moral Response, Meaning And Logos, Transformation
+
+**Tags:** Jean-Paul Sartre, existentialism, freedom, responsibility, authenticity, friction, theology
+
+### Darwin and Natural Selection
+
+**Evidence Score:** -1
+
+**Evidence Effect:** serious_challenge_to_simple_design_arguments
+
+**Confidence:** provisional
+
+**Review Status:** needs_science_source_review
+
+**Domain:** Science ↔ Theology
+
+**Observation:** Complex life can arise through natural processes involving variation, inheritance, selection, adaptation, contingency, and deep time.
+
+**Pattern:** Claims about creation must account for natural history without forcing biological complexity into simple proof of design.
+
+**Friction Point:** Natural selection challenges easy design arguments and any Divine Pattern claim that depends on biological complexity being inexplicable by natural causes.
+
+**Non-Christian Resolution:** Darwinian explanation emphasizes descent with modification and natural selection as a powerful account of biological diversity.
+
+**Christian Resolution:** Christianity can treat creation as sustained gift and providence without denying natural mechanisms, contingency, creaturely suffering, or scientific explanation.
+
+**Divine Pattern Insight:** The pattern must not compete with biology; it must ask theological questions at the level of gift, order, contingency, vocation, and creaturely care.
+
+**Failure Risk:** Do not use gaps in evolutionary explanation as evidence for the Divine Pattern.
+
+**Related Layers:** Physical Order, Life And Consciousness, Providence And Contingency Pattern, Moral Response
+
+**Tags:** Charles Darwin, evolution, natural selection, biology, design, science, friction, theology
+
+### Foucault and Power-Knowledge
+
+**Evidence Score:** -1
+
+**Evidence Effect:** serious_unresolved_challenge_to_power_and_method
+
+**Confidence:** provisional
+
+**Review Status:** needs_primary_source_review
+
+**Domain:** Culture / Politics ↔ Theology
+
+**Observation:** Institutions can produce truth-claims that discipline bodies, normalize behavior, and protect power.
+
+**Pattern:** Truth claims must be tested by how they shape people, especially vulnerable bodies and communities.
+
+**Friction Point:** The Divine Pattern framework can become a tool of classification and control if it names patterns without checking power.
+
+**Non-Christian Resolution:** Foucault emphasizes genealogy, power-knowledge, discipline, normalization, and suspicion toward institutions that claim neutral truth.
+
+**Christian Resolution:** Christianity emphasizes truth joined to humility, repentance, protection of the vulnerable, servant authority, and the cross as judgment on coercive power.
+
+**Divine Pattern Insight:** The pattern must audit its own power effects; truth without humility and repair can become domination.
+
+**Failure Risk:** Do not let pattern recognition become surveillance, labeling, normalization, or institutional self-protection.
+
+**Related Layers:** Cross And Reversal Pattern, Moral Response, Worship And Community, Transformation
+
+**Tags:** Michel Foucault, power, knowledge, discipline, institutions, friction, theology
 
 ## What Would Make The Project Better
 

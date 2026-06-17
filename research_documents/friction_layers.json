@@ -252,6 +252,250 @@
       "sources": [
         "David Hume, An Enquiry Concerning the Principles of Morals"
       ]
+    },
+    {
+      "id": "marx-religion-and-material-conditions",
+      "title": "Marx and Religion as Social Critique",
+      "domain": "Politics / Economics \u2194 Theology",
+      "observation": "Religion can be used to comfort suffering people without changing the unjust material conditions that harm them.",
+      "pattern": "Claims about meaning must be tested by whether they produce justice, repair, and truthful attention to the poor.",
+      "friction_point": "A Divine Pattern claim can become ideology if it spiritualizes suffering while leaving exploitation intact.",
+      "non_christian_resolution": "Marx emphasizes material conditions, class struggle, ideology critique, and social transformation through economic and political change.",
+      "christian_resolution": "Christianity emphasizes good news to the poor, repentance from unjust power, concrete mercy, economic justice, and hope that is not reducible to material conditions.",
+      "divine_pattern_insight": "The pattern weakens wherever it comforts injustice; it strengthens only when worship and theology become truth-telling, mercy, justice, and repair.",
+      "evidence_score": -1,
+      "evidence_effect": "serious_unresolved_challenge_to_practical_fruit",
+      "confidence": "provisional",
+      "review_status": "needs_primary_source_review",
+      "failure_risk": "Do not use spiritual language to bypass material injustice, poverty, labor exploitation, or institutional harm.",
+      "related_layers": [
+        "Moral Response",
+        "Worship And Community",
+        "Cross And Reversal Pattern",
+        "Transformation"
+      ],
+      "tags": [
+        "Karl Marx",
+        "religion",
+        "ideology",
+        "class",
+        "poverty",
+        "justice",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Karl Marx, Contribution to the Critique of Hegel's Philosophy of Right",
+        "Karl Marx and Friedrich Engels, The German Ideology"
+      ]
+    },
+    {
+      "id": "freud-religion-wish-and-illusion",
+      "title": "Freud and Religion as Wish-Fulfillment",
+      "domain": "Psychology \u2194 Theology",
+      "observation": "Human beings can create religious ideas that satisfy longing for protection, meaning, authority, or parental care.",
+      "pattern": "Spiritual interpretation must be tested against projection, fear, desire, and psychological need.",
+      "friction_point": "The Divine Pattern may be explained as human wish, coping mechanism, or unconscious projection rather than divine disclosure.",
+      "non_christian_resolution": "Freud emphasizes psychoanalysis, unconscious desire, illusion, and religion as a response to vulnerability and longing.",
+      "christian_resolution": "Christianity can acknowledge projection and false religion while testing faith through revelation, repentance, truth, costly love, and transformation that resists mere wish-fulfillment.",
+      "divine_pattern_insight": "The pattern must distinguish genuine divine encounter from psychological projection; desire alone cannot count as evidence.",
+      "evidence_score": -1,
+      "evidence_effect": "serious_unresolved_challenge_to_psychological_explanation",
+      "confidence": "provisional",
+      "review_status": "needs_primary_source_review",
+      "failure_risk": "Do not treat longing, consolation, or religious experience as evidence without projection and wish-fulfillment checks.",
+      "related_layers": [
+        "Life And Consciousness",
+        "Meaning And Logos",
+        "Moral Response",
+        "Transformation"
+      ],
+      "tags": [
+        "Sigmund Freud",
+        "psychoanalysis",
+        "wish-fulfillment",
+        "illusion",
+        "projection",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Sigmund Freud, The Future of an Illusion"
+      ]
+    },
+    {
+      "id": "feuerbach-projection-and-theology",
+      "title": "Feuerbach and Theology as Projection",
+      "domain": "Philosophy \u2194 Theology",
+      "observation": "Human beings may project their highest ideals outward and then call those ideals God.",
+      "pattern": "Claims about God must be tested against human self-projection and idealized anthropology.",
+      "friction_point": "The Divine Pattern may be read as humanity discovering itself rather than encountering God.",
+      "non_christian_resolution": "Feuerbach emphasizes religion as human nature objectified, with theology interpreted as anthropology.",
+      "christian_resolution": "Christianity must answer projection by grounding claims in revelation, the cross, repentance, communal transformation, and a God who judges as well as fulfills human ideals.",
+      "divine_pattern_insight": "A pattern is weak if it only mirrors human aspiration; it must also confront, correct, and transform the human subject.",
+      "evidence_score": -1,
+      "evidence_effect": "serious_unresolved_challenge_to_projection_risk",
+      "confidence": "provisional",
+      "review_status": "needs_primary_source_review",
+      "failure_risk": "Do not confuse human ideals, moral longing, or beauty with independent evidence of divine self-disclosure.",
+      "related_layers": [
+        "Image of God Pattern",
+        "Meaning And Logos",
+        "Moral Response",
+        "Transformation"
+      ],
+      "tags": [
+        "Ludwig Feuerbach",
+        "projection",
+        "anthropology",
+        "religion",
+        "theology",
+        "friction"
+      ],
+      "sources": [
+        "Ludwig Feuerbach, The Essence of Christianity"
+      ]
+    },
+    {
+      "id": "camus-absurd-suffering-and-silence",
+      "title": "Camus and the Absurd",
+      "domain": "Existentialism \u2194 Theology",
+      "observation": "Human beings long for meaning, but the world often appears silent, unjust, and resistant to final explanation.",
+      "pattern": "Meaning claims must survive suffering without pretending that every wound has an obvious explanation.",
+      "friction_point": "The Divine Pattern can become morally shallow if it explains suffering too quickly or turns tragedy into neat resolution.",
+      "non_christian_resolution": "Camus emphasizes revolt, honesty before the absurd, solidarity, and refusing false consolation.",
+      "christian_resolution": "Christianity emphasizes lament, the cross, resurrection hope, patient solidarity, and refusal to explain away innocent suffering.",
+      "divine_pattern_insight": "The pattern strengthens only when it can remain truthful in lament and avoid premature resolution.",
+      "evidence_score": -1,
+      "evidence_effect": "serious_unresolved_challenge_to_suffering_resolution",
+      "confidence": "provisional",
+      "review_status": "needs_primary_source_review",
+      "failure_risk": "Do not turn absurdity, grief, or innocent suffering into a tidy apologetic pattern.",
+      "related_layers": [
+        "Cross And Reversal Pattern",
+        "Moral Response",
+        "Transformation",
+        "Meaning And Logos"
+      ],
+      "tags": [
+        "Albert Camus",
+        "absurd",
+        "suffering",
+        "meaning",
+        "revolt",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Albert Camus, The Myth of Sisyphus",
+        "Albert Camus, The Plague"
+      ]
+    },
+    {
+      "id": "sartre-freedom-and-godless-responsibility",
+      "title": "Sartre and Godless Responsibility",
+      "domain": "Existentialism \u2194 Theology",
+      "observation": "Human beings experience radical responsibility and cannot avoid choosing what they become.",
+      "pattern": "Freedom requires responsibility, but responsibility can become crushing without grace or given identity.",
+      "friction_point": "A Christian account of created purpose can be challenged as an evasion of radical freedom and human responsibility.",
+      "non_christian_resolution": "Sartre emphasizes existence before essence, radical freedom, responsibility, anguish, and authenticity without God.",
+      "christian_resolution": "Christianity emphasizes created identity, responsible freedom, repentance, vocation, grace, and transformation without denying moral agency.",
+      "divine_pattern_insight": "The pattern must preserve real human responsibility while showing why freedom is gift and vocation, not mere self-invention.",
+      "evidence_score": 0,
+      "evidence_effect": "diagnostic_challenge_to_freedom_and_vocation",
+      "confidence": "provisional",
+      "review_status": "needs_primary_source_review",
+      "failure_risk": "Do not use divine purpose to erase human agency, responsibility, or the terror of real choice.",
+      "related_layers": [
+        "Image of God Pattern",
+        "Moral Response",
+        "Meaning And Logos",
+        "Transformation"
+      ],
+      "tags": [
+        "Jean-Paul Sartre",
+        "existentialism",
+        "freedom",
+        "responsibility",
+        "authenticity",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Jean-Paul Sartre, Existentialism Is a Humanism",
+        "Jean-Paul Sartre, Being and Nothingness"
+      ]
+    },
+    {
+      "id": "darwin-natural-selection-and-apparent-design",
+      "title": "Darwin and Natural Selection",
+      "domain": "Science \u2194 Theology",
+      "observation": "Complex life can arise through natural processes involving variation, inheritance, selection, adaptation, contingency, and deep time.",
+      "pattern": "Claims about creation must account for natural history without forcing biological complexity into simple proof of design.",
+      "friction_point": "Natural selection challenges easy design arguments and any Divine Pattern claim that depends on biological complexity being inexplicable by natural causes.",
+      "non_christian_resolution": "Darwinian explanation emphasizes descent with modification and natural selection as a powerful account of biological diversity.",
+      "christian_resolution": "Christianity can treat creation as sustained gift and providence without denying natural mechanisms, contingency, creaturely suffering, or scientific explanation.",
+      "divine_pattern_insight": "The pattern must not compete with biology; it must ask theological questions at the level of gift, order, contingency, vocation, and creaturely care.",
+      "evidence_score": -1,
+      "evidence_effect": "serious_challenge_to_simple_design_arguments",
+      "confidence": "provisional",
+      "review_status": "needs_science_source_review",
+      "failure_risk": "Do not use gaps in evolutionary explanation as evidence for the Divine Pattern.",
+      "related_layers": [
+        "Physical Order",
+        "Life And Consciousness",
+        "Providence And Contingency Pattern",
+        "Moral Response"
+      ],
+      "tags": [
+        "Charles Darwin",
+        "evolution",
+        "natural selection",
+        "biology",
+        "design",
+        "science",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Charles Darwin, On the Origin of Species",
+        "Charles Darwin, The Descent of Man"
+      ]
+    },
+    {
+      "id": "foucault-power-knowledge-and-discipline",
+      "title": "Foucault and Power-Knowledge",
+      "domain": "Culture / Politics \u2194 Theology",
+      "observation": "Institutions can produce truth-claims that discipline bodies, normalize behavior, and protect power.",
+      "pattern": "Truth claims must be tested by how they shape people, especially vulnerable bodies and communities.",
+      "friction_point": "The Divine Pattern framework can become a tool of classification and control if it names patterns without checking power.",
+      "non_christian_resolution": "Foucault emphasizes genealogy, power-knowledge, discipline, normalization, and suspicion toward institutions that claim neutral truth.",
+      "christian_resolution": "Christianity emphasizes truth joined to humility, repentance, protection of the vulnerable, servant authority, and the cross as judgment on coercive power.",
+      "divine_pattern_insight": "The pattern must audit its own power effects; truth without humility and repair can become domination.",
+      "evidence_score": -1,
+      "evidence_effect": "serious_unresolved_challenge_to_power_and_method",
+      "confidence": "provisional",
+      "review_status": "needs_primary_source_review",
+      "failure_risk": "Do not let pattern recognition become surveillance, labeling, normalization, or institutional self-protection.",
+      "related_layers": [
+        "Cross And Reversal Pattern",
+        "Moral Response",
+        "Worship And Community",
+        "Transformation"
+      ],
+      "tags": [
+        "Michel Foucault",
+        "power",
+        "knowledge",
+        "discipline",
+        "institutions",
+        "friction",
+        "theology"
+      ],
+      "sources": [
+        "Michel Foucault, Discipline and Punish",
+        "Michel Foucault, The History of Sexuality"
+      ]
     }
   ]
 }
