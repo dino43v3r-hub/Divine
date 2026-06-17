@@ -64,6 +64,40 @@ REVIEW_RULES = {
     "practical_use": ["practical use:", "boundary:", "repair", "justice", "love", "worship"],
     "counter_reading": ["counter-reading", "counterargument", "rival explanation", "pressure"],
     "failure_condition": ["failure condition", "weaken", "revise", "reject"],
+    "pastoral_safety": [
+        "pastoral safety",
+        "pastoral crisis",
+        "hospital bed",
+        "funeral",
+        "confession",
+        "protects the vulnerable",
+        "harm-safety",
+    ],
+    "ecclesial_review": [
+        "ecclesial review",
+        "church's discernment",
+        "pastoral reviewer",
+        "theological reviewer",
+        "outside review",
+        "not a private revelation engine",
+    ],
+    "liturgical_grounding": [
+        "liturgical grounding",
+        "sacramental",
+        "baptism",
+        "eucharist",
+        "anointing",
+        "church year",
+        "daily prayer",
+    ],
+    "promotion_restraint": [
+        "promotion restraint",
+        "do not promote",
+        "research_question_only",
+        "analogy_only",
+        "do_not_strengthen_claim",
+        "not automatic promotion",
+    ],
     "machine_label_boundary": [
         "machine labels",
         "automated labels",
@@ -81,18 +115,22 @@ PROMOTION_REQUIRED_RULES = [
     "practical_use",
     "counter_reading",
     "failure_condition",
+    "pastoral_safety",
+    "ecclesial_review",
+    "liturgical_grounding",
+    "promotion_restraint",
     "machine_label_boundary",
 ]
 
 CONFIDENCE_TIER_RULES = {
     "reviewed_evidence_ready": (
-        "Source has all promotion rules visible; it is ready for human confidence review, not automatically promoted.",
+        "Source has all source-review and priestly promotion-gate rules visible; it is ready for human confidence review, not automatically promoted.",
     ),
     "developing_evidence": (
-        "Source has evidence and a counter-reading, but still lacks one or more interpretation, analogy, discernment, practical-use, failure-condition, or machine-label controls.",
+        "Source has evidence and a counter-reading, but still lacks one or more source-review or priestly promotion-gate controls.",
     ),
     "candidate_lead": (
-        "Source can route attention, but it must not strengthen a claim until human review separates evidence, interpretation, discernment, analogy, practical use, counter-reading, and failure condition.",
+        "Source can route attention, but it must not strengthen a claim until human review separates evidence, interpretation, discernment, analogy, practical use, counter-reading, failure condition, pastoral safety, ecclesial review, liturgical grounding, and promotion restraint.",
     ),
     "media_pending_review": (
         "Media asset needs caption, transcript, direct observation, source context, rights status, and counter-reading before claim use.",

@@ -9,6 +9,7 @@ from pathlib import Path
 INDEX_PATH = Path("reports/knowledge_retrieval_index.json")
 AUDIT_PATH = Path("reports/review_rules_audit.json")
 DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
+PRIESTLY_LAYER_PATH = Path("research_documents/priestly_discernment_layer.json")
 OUTPUT_PATH = Path("reports/divine_pattern_findings.md")
 
 
@@ -174,6 +175,7 @@ def build_report() -> str:
     index = read_json(INDEX_PATH)
     audit = read_json(AUDIT_PATH)
     digest = read_json(DAILY_DIGEST_PATH)
+    priestly_layer = read_json(PRIESTLY_LAYER_PATH)
     rows = make_pattern_rows(index)
 
     lines = [
@@ -192,6 +194,29 @@ def build_report() -> str:
         "It is designed to change day to day when the collector, analyzer, and backend discover or re-index new material.",
         "",
     ]
+
+    if priestly_layer:
+        questions = priestly_layer.get("review_questions", [])[:4]
+        restraints = priestly_layer.get("promotion_restraints", [])[:4]
+        lines.extend(
+            [
+                "## Priestly Discernment Gate",
+                "",
+                priestly_layer.get(
+                    "core_rule",
+                    "Pattern claims must pass pastoral, ecclesial, sacramental, and spiritual-fruit review before public use.",
+                ),
+                "",
+                "Before promoting any finding, ask:",
+                "",
+                *(f"- {question}" for question in questions),
+                "",
+                "Promotion restraints:",
+                "",
+                *(f"- {restraint}" for restraint in restraints),
+                "",
+            ]
+        )
 
     lines.extend(
         [

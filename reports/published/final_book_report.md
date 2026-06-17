@@ -2,11 +2,15 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-17 18:04 UTC_
+_Generated: 2026-06-17 18:21 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
 This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.
+
+![Daily pattern image](daily_pattern_image.svg)
+
+_Daily visual generated from the current leading finding: Image Of God Pattern._
 
 ## Short Answer
 
@@ -38,19 +42,18 @@ Read the focused pattern report here:
 
 ## Evidence Status
 
-- candidate lead only: 112
-- developing evidence: 339
-- ready for human confidence review: 1
+- candidate lead only: 114
+- developing evidence: 340
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 29 explicit; 423 machine-drafted; 0 still missing of 452
-- analogy: 47 explicit; 405 machine-drafted; 0 still missing of 452
-- failure_condition: 94 explicit; 358 machine-drafted; 0 still missing of 452
-- machine_label_boundary: 282 explicit; 170 machine-drafted; 0 still missing of 452
-- discernment: 245 explicit; 207 machine-drafted; 0 still missing of 452
+- interpretation: 29 explicit; 2 machine-drafted; 423 still missing of 454
+- analogy: 50 explicit; 0 machine-drafted; 404 still missing of 454
+- failure_condition: 95 explicit; 1 machine-drafted; 358 still missing of 454
+- machine_label_boundary: 282 explicit; 2 machine-drafted; 170 still missing of 454
+- discernment: 247 explicit; 0 machine-drafted; 207 still missing of 454
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.
 
@@ -65,6 +68,14 @@ That queue explains why fields are missing and lists the highest-priority source
 **Mission:** The Divine Pattern Project explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.
 
 The project keeps this order: Scripture and revelation first, Christ and creedal guardrails next, then source quality, rival explanations, harm checks, mystery, and only then provisional confidence.
+
+## Priestly Discernment Gate
+
+A pattern may organize attention, but it must not guide souls unless it leads toward Christ, protects the vulnerable, honors the Church's discernment, and produces truthful love.
+
+Before public, devotional, or pastoral use, the project now asks whether a claim would be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority.
+
+It also asks what ecclesial review is needed and how the claim remains accountable to baptism, Eucharist, confession, anointing, funerals, the church year, and daily prayer without reducing worship to symbolism.
 
 ## What This Does Not Prove
 

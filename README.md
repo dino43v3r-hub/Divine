@@ -55,6 +55,9 @@ Additional theological architecture files are stored in `research_documents/`:
 - `mystery_layer.json`
 - `negative_case_records.json`
 - `ethical_harm_audit.json`
+- `priestly_discernment_layer.json`
+- `priestly_review_protocol.md`
+- `sacramental_liturgical_grounding.md`
 - `science_guardrail_layer.json`
 - `project_architecture.json`
 
@@ -71,6 +74,13 @@ Research governance files define the human review lane:
 These files separate candidate leads from reviewed evidence, require
 anti-confirmation-bias checks, make suffering and abuse first-class pressure
 tests, and define outside-review roles before strong public claims are made.
+
+The project now includes a priestly discernment gate. Before a pattern is used
+devotionally, pastorally, publicly, or as a strengthened theological claim, it
+must pass pastoral safety, ecclesial review, sacramental/liturgical grounding,
+and promotion-restraint checks. The project is not a private revelation engine;
+it is a disciplined aid for Christian reflection under Scripture, creed,
+worship, pastoral care, and accountable human review.
 
 ## AI Knowledge Backend
 

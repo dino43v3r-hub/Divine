@@ -7,14 +7,18 @@
     "Does this claim make room for lament without forcing resolution?",
     "Does this claim preserve human dignity apart from usefulness, productivity, health, race, class, gender, or status?",
     "Does this claim encourage repentance and repair where harm has occurred?",
-    "Does this claim distinguish forgiveness from denial, reconciliation from unsafe return, and sacrifice from exploitation?"
+    "Does this claim distinguish forgiveness from denial, reconciliation from unsafe return, and sacrifice from exploitation?",
+    "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+    "Does this claim preserve mystery instead of explaining God's hidden action too neatly?"
   ],
   "downgrade_triggers": [
     "The claim is more useful to the powerful than to the vulnerable.",
     "The claim explains suffering without listening to sufferers.",
     "The claim makes a beautiful analogy do the work of Scripture or source review.",
     "The claim treats justice as optional or secondary.",
-    "The claim cannot name what would falsify, weaken, or revise it."
+    "The claim cannot name what would falsify, weaken, or revise it.",
+    "The claim makes private pattern recognition function like private revelation.",
+    "The claim uses sacramental, liturgical, or pastoral language as decoration rather than accountable worship and care."
   ],
   "required_fruit": [
     "truth",

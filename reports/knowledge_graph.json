@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 2375,
+  "edge_count": 2476,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -1393,6 +1393,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_aquinas_summa_part_1_gutenberg_txt",
+      "target": "rule:liturgical_grounding"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:research_documents_christian_sources_augustine_confessions_gutenberg_txt",
       "target": "lane:research_documents"
@@ -1423,6 +1428,16 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_augustine_confessions_gutenberg_txt",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_augustine_confessions_gutenberg_txt",
+      "target": "rule:liturgical_grounding"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:research_documents_christian_sources_combined_trinitarian_god_model_md",
       "target": "lane:research_documents"
@@ -1451,6 +1466,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_christian_sources_didache_wikisource_txt",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_didache_wikisource_txt",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "belongs_to_lane",
@@ -1518,6 +1538,11 @@
       "target": "rule:practical_use"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_divine_pattern_finder_design_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:research_documents_christian_sources_faith_and_god_philosophy_notes_md",
       "target": "lane:research_documents"
@@ -1551,6 +1576,16 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_christian_sources_god_and_human_behavior_science_synthesis_md",
       "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_god_and_human_behavior_science_synthesis_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_god_and_human_behavior_science_synthesis_md",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "belongs_to_lane",
@@ -1608,6 +1643,11 @@
       "target": "rule:practical_use"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_jesus_and_holy_spirit_synthesis_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:research_documents_christian_sources_king_james_bible_gutenberg_txt",
       "target": "lane:research_documents"
@@ -1636,6 +1676,16 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_christian_sources_king_james_bible_gutenberg_txt",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_king_james_bible_gutenberg_txt",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_king_james_bible_gutenberg_txt",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "belongs_to_lane",
@@ -1678,6 +1728,11 @@
       "target": "lane:research_documents"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_christian_sources_sources_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:research_documents_claim_ledger_md",
       "target": "lane:research_documents"
@@ -1718,6 +1773,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_claim_ledger_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:research_documents_cloud_reference_promotion_decision_log_md",
       "target": "lane:research_documents"
@@ -1741,6 +1801,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_cloud_reference_promotion_decision_log_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_cloud_reference_promotion_decision_log_md",
+      "target": "rule:promotion_restraint"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -1826,6 +1891,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_cloud_references_summary_md",
       "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_cloud_references_summary_md",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -1883,6 +1953,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_cloud_reference_review_log_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "lane:research_documents"
@@ -1991,6 +2066,16 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_external_review_protocol_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_external_review_protocol_md",
+      "target": "rule:ecclesial_review"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_external_review_protocol_md",
+      "target": "rule:promotion_restraint"
     },
     {
       "relation": "belongs_to_lane",
@@ -2086,6 +2171,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_layer_balance_policy_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_layer_balance_policy_md",
+      "target": "rule:promotion_restraint"
     },
     {
       "relation": "belongs_to_lane",
@@ -2213,6 +2303,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_pattern_revision_rules_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:research_documents_practical_theology_pattern_use_md",
       "target": "lane:research_documents"
@@ -2225,12 +2320,82 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_practical_theology_pattern_use_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_practical_theology_pattern_use_md",
       "target": "rule:practical_use"
     },
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_practical_theology_pattern_use_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_practical_theology_pattern_use_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_practical_theology_pattern_use_md",
+      "target": "rule:ecclesial_review"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_practical_theology_pattern_use_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_priestly_review_protocol_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_priestly_review_protocol_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_priestly_review_protocol_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_priestly_review_protocol_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_priestly_review_protocol_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_priestly_review_protocol_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_priestly_review_protocol_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_priestly_review_protocol_md",
+      "target": "rule:ecclesial_review"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_priestly_review_protocol_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_priestly_review_protocol_md",
+      "target": "rule:promotion_restraint"
     },
     {
       "relation": "belongs_to_lane",
@@ -2270,6 +2435,26 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:ecclesial_review"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_research_governance_workflow_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -2291,6 +2476,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_01_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_reviewed_candidate_reference_decisions_2026_06_01_md",
+      "target": "rule:promotion_restraint"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -2451,6 +2641,51 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_reviewed_source_packs_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_reviewed_source_packs_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_reviewed_source_packs_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_sacramental_liturgical_grounding_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_sacramental_liturgical_grounding_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_sacramental_liturgical_grounding_md",
+      "target": "rule:analogy"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_sacramental_liturgical_grounding_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_sacramental_liturgical_grounding_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_sacramental_liturgical_grounding_md",
+      "target": "rule:ecclesial_review"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_sacramental_liturgical_grounding_md",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "belongs_to_lane",
@@ -2873,6 +3108,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_source_packs_trinity_as_behavior_pattern_pack_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:research_documents_weakened_claims_register_md",
       "target": "lane:research_documents"
@@ -2903,6 +3143,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_weakened_claims_register_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_10_the_annunciation_and_the_senses_ruach_pneuma_odour_b1bcc53db3e5_md",
       "target": "lane:biblical_languages"
@@ -3148,6 +3393,11 @@
       "target": "rule:counter_reading"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_01_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_01_followup_md",
       "target": "lane:biblical_languages"
@@ -3178,6 +3428,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_01_followup_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_md",
       "target": "lane:biblical_languages"
@@ -3231,6 +3486,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "belongs_to_lane",
@@ -3301,6 +3561,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:biblical_languages_source_specific_lexeme_review_notes_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_source_specific_lexeme_review_notes_md",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "belongs_to_lane",
@@ -4088,6 +4353,11 @@
       "target": "rule:counter_reading"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_second_pass_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
       "target": "lane:world_languages"
@@ -4116,6 +4386,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "belongs_to_lane",
@@ -4363,6 +4638,11 @@
       "target": "rule:counter_reading"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_05_27_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:all_texts_reviewed_growth_batch_2026_06_01_md",
       "target": "lane:all_texts"
@@ -4398,6 +4678,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_01_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:all_texts_reviewed_growth_batch_2026_06_01_followup_md",
       "target": "lane:all_texts"
@@ -4428,6 +4713,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_01_followup_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_md",
       "target": "lane:all_texts"
@@ -4458,6 +4748,11 @@
       "target": "rule:counter_reading"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
       "target": "lane:all_texts"
@@ -4486,6 +4781,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "belongs_to_lane",
@@ -4521,6 +4821,16 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "belongs_to_lane",
@@ -4733,6 +5043,11 @@
       "target": "rule:counter_reading"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_interreligious_dreams_visions_testimony_notes_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:other_religious_texts_presence_without_explicit_naming_filter_md",
       "target": "lane:other_religious_texts"
@@ -4798,6 +5113,16 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_05_27_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_05_27_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_01_md",
       "target": "lane:other_religious_texts"
@@ -4828,6 +5153,16 @@
       "target": "rule:counter_reading"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_01_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_01_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_01_followup_md",
       "target": "lane:other_religious_texts"
@@ -4851,6 +5186,16 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_01_followup_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_01_followup_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_01_followup_md",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "belongs_to_lane",
@@ -4888,6 +5233,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
       "target": "lane:other_religious_texts"
@@ -4921,6 +5271,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_reviewed_growth_batch_2026_06_04_second_pass_md",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "belongs_to_lane",
@@ -5255,6 +5610,11 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_postscript_the_modern_legacy_of_coptic_christology_cf161a7a1bd1_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_postscript_the_modern_legacy_of_coptic_christology_cf161a7a1bd1_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -5436,6 +5796,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_cross_era_primary_source_expansion_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_cross_era_primary_source_expansion_md",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "belongs_to_lane",
@@ -5528,6 +5893,11 @@
       "target": "rule:practical_use"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_patristic_source_notes_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:theologians_primary_text_disagreement_matrix_md",
       "target": "lane:theologians"
@@ -5593,6 +5963,16 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_primary_text_reference_index_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_primary_text_reference_index_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:theologians_reformation_source_notes_md",
       "target": "lane:theologians"
@@ -5648,6 +6028,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_05_27_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:theologians_reviewed_growth_batch_2026_06_01_md",
       "target": "lane:theologians"
@@ -5683,6 +6068,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_01_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:theologians_reviewed_growth_batch_2026_06_01_followup_md",
       "target": "lane:theologians"
@@ -5711,6 +6101,16 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_reviewed_growth_batch_2026_06_01_followup_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_01_followup_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_01_followup_md",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "belongs_to_lane",
@@ -5783,6 +6183,16 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_second_pass_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_second_pass_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
       "target": "lane:theologians"
@@ -5818,6 +6228,16 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:theologians_source_specific_theologian_review_notes_md",
       "target": "lane:theologians"
@@ -5841,6 +6261,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_source_specific_theologian_review_notes_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_source_specific_theologian_review_notes_md",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "belongs_to_lane",
@@ -5961,6 +6386,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_domesticating_the_reformation_material_culture_memory_and_confessional_ide",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_domesticating_the_reformation_material_culture_memory_and_confessional_ide",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -6238,6 +6668,11 @@
       "target": "rule:counter_reading"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_05_27_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:history_inputs_reviewed_growth_batch_2026_06_01_md",
       "target": "lane:history_inputs"
@@ -6268,6 +6703,16 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_01_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_01_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:history_inputs_reviewed_growth_batch_2026_06_01_followup_md",
       "target": "lane:history_inputs"
@@ -6298,6 +6743,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_01_followup_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_md",
       "target": "lane:history_inputs"
@@ -6326,6 +6776,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_md",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "belongs_to_lane",
@@ -6393,6 +6848,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:history_inputs_source_specific_history_memory_cases_md",
       "target": "lane:history_inputs"
@@ -6416,6 +6876,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_source_specific_history_memory_cases_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_source_specific_history_memory_cases_md",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "belongs_to_lane",
@@ -9158,6 +9623,11 @@
       "target": "rule:counter_reading"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_clinical_and_social_limits_notes_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:psychology_inputs_pattern_perception_vs_divine_pattern_response_md",
       "target": "lane:psychology_inputs"
@@ -9211,6 +9681,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:psychology_inputs_source_specific_psychology_limits_md",
       "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_source_specific_psychology_limits_md",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "belongs_to_lane",
@@ -10543,6 +11018,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_absent_repair_extreme_pressure_cases_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:pattern_tests_answered_prayer_ambiguity_test_md",
       "target": "lane:pattern_tests"
@@ -11598,6 +12078,11 @@
       "target": "rule:failure_condition"
     },
     {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_math_statistics_logic_filter_test_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
       "relation": "belongs_to_lane",
       "source": "doc:pattern_tests_moral_injury_no_clear_repair_test_md",
       "target": "lane:pattern_tests"
@@ -11621,6 +12106,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_moral_injury_no_clear_repair_test_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_moral_injury_no_clear_repair_test_md",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "belongs_to_lane",
@@ -11735,6 +12225,11 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_report_suggestion_pressure_followup_2026_06_12_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_report_suggestion_pressure_followup_2026_06_12_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -11761,6 +12256,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_secular_transformation_comparison_test_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_secular_transformation_comparison_test_md",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "belongs_to_lane",
@@ -11876,10 +12376,15 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_war_survivor_no_repair_test_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_war_survivor_no_repair_test_md",
+      "target": "rule:pastoral_safety"
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 484,
+  "node_count": 490,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -11992,6 +12497,26 @@
       "type": "review_rule"
     },
     {
+      "id": "rule:pastoral_safety",
+      "label": "pastoral_safety",
+      "type": "review_rule"
+    },
+    {
+      "id": "rule:ecclesial_review",
+      "label": "ecclesial_review",
+      "type": "review_rule"
+    },
+    {
+      "id": "rule:liturgical_grounding",
+      "label": "liturgical_grounding",
+      "type": "review_rule"
+    },
+    {
+      "id": "rule:promotion_restraint",
+      "label": "promotion_restraint",
+      "type": "review_rule"
+    },
+    {
       "id": "rule:machine_label_boundary",
       "label": "machine_label_boundary",
       "type": "review_rule"
@@ -12053,7 +12578,7 @@
       "type": "document"
     },
     {
-      "confidence_tier": "reviewed_evidence_ready",
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_active_lane_review_conversion_2026_06_04_md",
       "label": "Active Lane Review Conversion, 2026-06-04",
       "lane": "research_documents",
@@ -12988,6 +13513,17 @@
       "type": "document"
     },
     {
+      "confidence_tier": "candidate_lead",
+      "id": "doc:research_documents_priestly_review_protocol_md",
+      "label": "Priestly Review Protocol",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/priestly_review_protocol.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
       "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_research_governance_workflow_md",
       "label": "Research Governance Workflow",
@@ -13061,6 +13597,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/reviewed_source_packs.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "candidate_lead",
+      "id": "doc:research_documents_sacramental_liturgical_grounding_md",
+      "label": "Sacramental And Liturgical Grounding",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/sacramental_liturgical_grounding.md",
       "review_note_count": 1,
       "type": "document"
     },

@@ -138,7 +138,25 @@ A claim must be downgraded when it:
 7. Add failure conditions.
 8. Add practical-theology boundaries.
 9. Check pastoral and ethical harm.
-10. Decide whether confidence rises, stays provisional, weakens, or is blocked.
+10. Check the priestly discernment gate: pastoral safety, ecclesial review,
+    sacramental/liturgical grounding, and promotion restraint.
+11. Decide whether confidence rises, stays provisional, weakens, or is blocked.
+
+## Priestly Discernment Gate
+
+Before a claim is used publicly, devotionally, or pastorally, it must answer:
+
+- Would this be safe beside a hospital bed, at a funeral, in confession, or with
+  a person harmed by religious authority?
+- Does this protect vulnerable people before protecting leaders, institutions,
+  systems, or the attractiveness of the pattern?
+- Does this preserve lament, mystery, justice, and repair?
+- What ecclesial review is required before public use?
+- How does this remain accountable to baptism, Eucharist, confession, anointing,
+  funerals, the church year, or daily prayer without reducing worship to
+  symbolism?
+- Why should this claim remain research-only, analogy-only, developing,
+  reviewed-ready, or blocked rather than being overpromoted?
 
 ## Report Language Rule
 

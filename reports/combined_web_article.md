@@ -2,7 +2,7 @@
 
 _A GitHub-readable article drawn from the generated reports._
 
-Generated: `2026-06-17 17:50 UTC`
+Generated: `2026-06-17 18:17 UTC`
 
 ## How To Read This Page
 
@@ -26,6 +26,7 @@ The full generated reports remain available in each section, but they are folded
 - [Mystery Layer](#mystery-layer)
 - [Negative Case And Failed Pattern Records](#negative-case-and-failed-pattern-records)
 - [Pastoral And Ethical Harm Audit](#pastoral-and-ethical-harm-audit)
+- [Priestly Discernment Gate](#priestly-discernment-gate)
 - [Science Guardrail Layer](#science-guardrail-layer)
 - [AI Knowledge Backend](#ai-knowledge-backend)
 - [Reader Book](#reader-book)
@@ -200,6 +201,24 @@ _Source: `research_documents/project_architecture.json`_
 - Neuroscience
 - Quantum Language
 - AI Pattern Recognition
+
+### PRIESTLY DISCERNMENT
+
+- Pastoral Safety
+- Ecclesial Review
+- Protection Of The Vulnerable
+- Suffering And Abuse First-Class Test
+- Promotion Restraint
+
+### SACRAMENTAL AND LITURGICAL GROUNDING
+
+- Baptism
+- Eucharist
+- Confession And Reconciliation
+- Anointing And Care For The Sick
+- Funerals And Lament
+- Church Year
+- Daily Prayer
 
 
 
@@ -989,6 +1008,8 @@ Test whether pattern claims produce truthful love, justice, humility, repentance
 - Does this claim preserve human dignity apart from usefulness, productivity, health, race, class, gender, or status?
 - Does this claim encourage repentance and repair where harm has occurred?
 - Does this claim distinguish forgiveness from denial, reconciliation from unsafe return, and sacrifice from exploitation?
+- Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
+- Does this claim preserve mystery instead of explaining God's hidden action too neatly?
 
 ### Downgrade Triggers
 
@@ -997,8 +1018,45 @@ Test whether pattern claims produce truthful love, justice, humility, repentance
 - The claim makes a beautiful analogy do the work of Scripture or source review.
 - The claim treats justice as optional or secondary.
 - The claim cannot name what would falsify, weaken, or revise it.
+- The claim makes private pattern recognition function like private revelation.
+- The claim uses sacramental, liturgical, or pastoral language as decoration rather than accountable worship and care.
 
 Required fruit: truth, love, humility, justice, repentance, repair, worship, patience, faithfulness
+
+
+## Priestly Discernment Gate
+
+_Source: `research_documents/priestly_discernment_layer.json`_
+
+Require divine-pattern claims to pass pastoral, ecclesial, sacramental, and spiritual-fruit review before they are used devotionally, publicly, or as strengthened theological claims.
+
+Core rule: A pattern may organize attention, but it must not guide souls unless it leads toward Christ, protects the vulnerable, honors the Church's discernment, and produces truthful love.
+
+### Review Questions
+
+- Would this claim be pastorally safe to say beside a hospital bed, at a funeral, in confession, or to a person harmed by religious authority?
+- Does this claim lead toward Christ, repentance, mercy, worship, justice, and neighbor-love rather than toward fascination with the pattern itself?
+- Does this claim preserve mystery instead of explaining God's hidden action too neatly?
+- Does this claim protect the vulnerable before defending an institution, leader, ideology, or system?
+- Does this claim distinguish consolation from explanation, forgiveness from unsafe return, and sacrifice from exploitation?
+- Does this claim require ecclesial review before strong public use?
+
+### Promotion Restraints
+
+- Do not promote a claim from recurrence alone.
+- Do not promote a claim because it sounds beautiful, mathematically elegant, emotionally moving, or apologetically useful.
+- Do not promote a suffering-related claim unless it has passed lament, justice, protection, and repair tests.
+- Do not promote a comparative-religion claim unless the other tradition has first been represented on its own terms.
+- Do not promote a science analogy beyond the scope of the technical source.
+- Do not promote a machine-drafted review companion until the relevant source has been directly checked.
+
+### Liturgical And Sacramental Tests
+
+- Can this pattern be related humbly to baptism, Eucharist, confession, anointing, funeral practice, the church year, or daily prayer without reducing those practices to symbols?
+- Does sacramental or liturgical use deepen worship and discipleship rather than turning worship into evidence extraction?
+- Does the pattern remain accountable to Scripture, creed, prayer, and the worshiping community?
+
+Required fruit: truth, love, humility, repentance, justice, protection, repair, worship, patience, faithfulness, service
 
 
 ## Science Guardrail Layer
@@ -1096,6 +1154,7 @@ Generated Artifacts
 - Knowledge graph: `reports/knowledge_graph.json`
 - Review-rule audit: `reports/review_rules_audit.json`
 - Multimodal review manifest: `reports/multimodal_review_manifest.json`
+- Machine-drafted review companions: `research_documents/machine_drafted_review_companions.json`
 - Backend report: `reports/ai_backend_report.txt`
 
 How An LLM Should Use It
@@ -1117,11 +1176,11 @@ Backend: Media assets now enter the index through captions, transcripts, sidecar
 
 Corpus Summary
 --------------
-- Indexed documents: 452
-- Indexed text documents: 452
+- Indexed documents: 454
+- Indexed text documents: 454
 - Indexed media assets: 0
-- Graph nodes: 484
-- Graph edges: 2375
+- Graph nodes: 490
+- Graph edges: 2476
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
@@ -1131,7 +1190,7 @@ Reviewer: Which leading patterns are showing up most often?
 Backend: Image Of God Pattern (10), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
 
 Reviewer: Which review rules are most visible?
-Backend: practical_use (420), counter_reading (408), evidence (351), machine_label_boundary (282).
+Backend: practical_use (422), counter_reading (409), evidence (351), machine_label_boundary (282).
 
 Lane Coverage
 -------------
@@ -1146,7 +1205,7 @@ Backend: Here is the lane map. High counts are invitations to review more carefu
 - other_religious_texts: 14 documents; 269 declared reviewed notes
 - pattern_tests: 48 documents; 52 declared reviewed notes
 - psychology_inputs: 26 documents; 26 declared reviewed notes
-- research_documents: 104 documents; 150 declared reviewed notes
+- research_documents: 106 documents; 152 declared reviewed notes
 - theologians: 33 documents; 402 declared reviewed notes
 - visual_art: 31 documents; 31 declared reviewed notes
 - world_languages: 35 documents; 164 declared reviewed notes
@@ -1155,21 +1214,24 @@ Confidence Tiers
 ----------------
 Reviewer: Are these tiers final verdicts?
 Backend: No. They sort review work. Only source-specific human decisions can promote a claim.
-- candidate_lead: 112 documents
-- developing_evidence: 339 documents
-- reviewed_evidence_ready: 1 documents
+- candidate_lead: 114 documents
+- developing_evidence: 340 documents
 
 Promotion Rule Coverage
 -----------------------
 Backend: These counts show where the next review pass should focus before sources strengthen claims.
-- evidence: 351 present; 101 missing of 452
-- interpretation: 29 present; 423 missing of 452
-- discernment: 245 present; 207 missing of 452
-- analogy: 47 present; 405 missing of 452
-- practical_use: 420 present; 32 missing of 452
-- counter_reading: 408 present; 44 missing of 452
-- failure_condition: 94 present; 358 missing of 452
-- machine_label_boundary: 282 present; 170 missing of 452
+- evidence: 351 explicit; 2 machine-drafted; 101 still missing of 454
+- interpretation: 29 explicit; 2 machine-drafted; 423 still missing of 454
+- discernment: 247 explicit; 0 machine-drafted; 207 still missing of 454
+- analogy: 50 explicit; 0 machine-drafted; 404 still missing of 454
+- practical_use: 422 explicit; 0 machine-drafted; 32 still missing of 454
+- counter_reading: 409 explicit; 1 machine-drafted; 44 still missing of 454
+- failure_condition: 95 explicit; 1 machine-drafted; 358 still missing of 454
+- pastoral_safety: 47 explicit; 407 machine-drafted; 0 still missing of 454
+- ecclesial_review: 5 explicit; 449 machine-drafted; 0 still missing of 454
+- liturgical_grounding: 25 explicit; 429 machine-drafted; 0 still missing of 454
+- promotion_restraint: 13 explicit; 441 machine-drafted; 0 still missing of 454
+- machine_label_boundary: 282 explicit; 2 machine-drafted; 170 still missing of 454
 
 Promotion Blockers
 ------------------
@@ -1177,11 +1239,15 @@ Backend: These blockers are the most practical to-do list for researchers.
 - analogy: 25 example document(s) queued
 - counter_reading: 25 example document(s) queued
 - discernment: 25 example document(s) queued
+- ecclesial_review: 25 example document(s) queued
 - evidence: 25 example document(s) queued
 - failure_condition: 25 example document(s) queued
 - interpretation: 25 example document(s) queued
+- liturgical_grounding: 25 example document(s) queued
 - machine_label_boundary: 25 example document(s) queued
+- pastoral_safety: 25 example document(s) queued
 - practical_use: 25 example document(s) queued
+- promotion_restraint: 25 example document(s) queued
 
 Pattern Mentions
 ----------------
@@ -1204,11 +1270,15 @@ Backend: They tell us where the project is learning caution. Missing rules mark 
 
 - evidence: 351 documents
 - interpretation: 29 documents
-- discernment: 245 documents
-- analogy: 47 documents
-- practical_use: 420 documents
-- counter_reading: 408 documents
-- failure_condition: 94 documents
+- discernment: 247 documents
+- analogy: 50 documents
+- practical_use: 422 documents
+- counter_reading: 409 documents
+- failure_condition: 95 documents
+- pastoral_safety: 47 documents
+- ecclesial_review: 5 documents
+- liturgical_grounding: 25 documents
+- promotion_restraint: 13 documents
 - machine_label_boundary: 282 documents
 
 Practical-Theology Gate

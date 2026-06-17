@@ -1,0 +1,54 @@
+{
+  "section": "Priestly Discernment Layer",
+  "purpose": "Require divine-pattern claims to pass pastoral, ecclesial, sacramental, and spiritual-fruit review before they are used devotionally, publicly, or as strengthened theological claims.",
+  "status": "active promotion gate",
+  "core_rule": "A pattern may organize attention, but it must not guide souls unless it leads toward Christ, protects the vulnerable, honors the Church's discernment, and produces truthful love.",
+  "review_questions": [
+    "Would this claim be pastorally safe to say beside a hospital bed, at a funeral, in confession, or to a person harmed by religious authority?",
+    "Does this claim lead toward Christ, repentance, mercy, worship, justice, and neighbor-love rather than toward fascination with the pattern itself?",
+    "Does this claim preserve mystery instead of explaining God's hidden action too neatly?",
+    "Does this claim protect the vulnerable before defending an institution, leader, ideology, or system?",
+    "Does this claim distinguish consolation from explanation, forgiveness from unsafe return, and sacrifice from exploitation?",
+    "Does this claim require ecclesial review before strong public use?"
+  ],
+  "promotion_restraints": [
+    "Do not promote a claim from recurrence alone.",
+    "Do not promote a claim because it sounds beautiful, mathematically elegant, emotionally moving, or apologetically useful.",
+    "Do not promote a suffering-related claim unless it has passed lament, justice, protection, and repair tests.",
+    "Do not promote a comparative-religion claim unless the other tradition has first been represented on its own terms.",
+    "Do not promote a science analogy beyond the scope of the technical source.",
+    "Do not promote a machine-drafted review companion until the relevant source has been directly checked."
+  ],
+  "required_review_roles": [
+    "pastoral reviewer",
+    "theological reviewer",
+    "source reviewer",
+    "harm-safety reviewer",
+    "tradition-aware reviewer when other religions or denominational claims are involved"
+  ],
+  "liturgical_and_sacramental_tests": [
+    "Can this pattern be related humbly to baptism, Eucharist, confession, anointing, funeral practice, the church year, or daily prayer without reducing those practices to symbols?",
+    "Does sacramental or liturgical use deepen worship and discipleship rather than turning worship into evidence extraction?",
+    "Does the pattern remain accountable to Scripture, creed, prayer, and the worshiping community?"
+  ],
+  "downgrade_triggers": [
+    "The claim would sound cruel, glib, or controlling in a pastoral crisis.",
+    "The claim turns suffering into an argument before it becomes lament and care.",
+    "The claim makes private pattern recognition function like private revelation.",
+    "The claim pressures people to accept harm, bypass professional care, or avoid accountability.",
+    "The claim produces pride, certainty, spectacle, contempt, or tribal superiority instead of humility and charity."
+  ],
+  "required_fruit": [
+    "truth",
+    "love",
+    "humility",
+    "repentance",
+    "justice",
+    "protection",
+    "repair",
+    "worship",
+    "patience",
+    "faithfulness",
+    "service"
+  ]
+}

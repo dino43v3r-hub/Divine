@@ -11,6 +11,10 @@ OUTPUT_MD_PATH = Path("reports/review_gap_queue.md")
 OUTPUT_JSON_PATH = Path("reports/review_gap_queue.json")
 
 PRIORITY_RULES = [
+    "pastoral_safety",
+    "ecclesial_review",
+    "liturgical_grounding",
+    "promotion_restraint",
     "interpretation",
     "analogy",
     "failure_condition",
@@ -29,6 +33,10 @@ RULE_PROMPTS = {
     "practical_use": "What faithful action, repair, worship, justice, or humility could this shape?",
     "counter_reading": "What rival explanation could explain the same signal without the Divine Pattern claim?",
     "failure_condition": "What would weaken, narrow, or reject this claim?",
+    "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+    "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+    "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+    "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?",
     "machine_label_boundary": "What should the machine label not be allowed to settle?",
 }
 
@@ -114,6 +122,10 @@ def build_markdown(audit: dict, queue: list[dict]) -> str:
         "- Practical use",
         "- Counter-reading",
         "- Failure condition",
+        "- Pastoral safety",
+        "- Ecclesial review",
+        "- Liturgical grounding",
+        "- Promotion restraint",
         "- Machine-label boundary",
         "",
         "The system can draft these fields, but it labels them as machine-drafted until the source is directly checked.",

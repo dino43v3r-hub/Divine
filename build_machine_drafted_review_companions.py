@@ -17,6 +17,10 @@ FIELD_DRAFTS = {
     "practical_use": "Machine-drafted placeholder: describe possible faithful practice without coercion, denial, or overclaiming.",
     "counter_reading": "Machine-drafted placeholder: name a rival explanation that could account for the same signal.",
     "failure_condition": "Machine-drafted placeholder: state what would weaken, narrow, or reject the claim.",
+    "pastoral_safety": "Machine-drafted placeholder: test whether the claim would be safe in pastoral crisis and whether it protects vulnerable people first.",
+    "ecclesial_review": "Machine-drafted placeholder: name the pastoral, theological, source, harm-safety, or tradition-aware reviewers needed before public use.",
+    "liturgical_grounding": "Machine-drafted placeholder: relate any public or devotional use to worship, sacrament, prayer, and the Church's discernment without reducing them to symbols.",
+    "promotion_restraint": "Machine-drafted placeholder: state why the claim should remain research-only, analogy-only, developing, reviewed-ready, or blocked.",
     "machine_label_boundary": "Machine-drafted placeholder: machine labels route attention; they do not settle truth or confidence.",
 }
 

@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
+from html import escape
 import json
 from pathlib import Path
 import re
 
 
 OUTPUT_PATH = Path("reports/published/final_book_report.md")
+DAILY_IMAGE_PATH = Path("reports/published/daily_pattern_image.svg")
 REFERENCES_PATH = Path("references/references.json")
 DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
 KNOWLEDGE_INDEX_PATH = Path("reports/knowledge_retrieval_index.json")
@@ -22,6 +24,7 @@ THEOLOGICAL_METHOD_PATH = Path("research_documents/theological_method_guardrails
 CREEDAL_GUARDRAILS_PATH = Path("research_documents/creedal_guardrails.json")
 NEGATIVE_CASES_PATH = Path("research_documents/negative_case_records.json")
 ETHICAL_HARM_AUDIT_PATH = Path("research_documents/ethical_harm_audit.json")
+PRIESTLY_DISCERNMENT_PATH = Path("research_documents/priestly_discernment_layer.json")
 SOURCE_REVIEW_STATUS_PATH = Path("research_documents/source_review_status.json")
 CLAIM_LEDGER_CONNECTIONS_PATH = Path("research_documents/claim_ledger_connections.json")
 TRADITION_LABELS_PATH = Path("research_documents/tradition_claim_labels.json")
@@ -91,6 +94,46 @@ DEFAULT_CANDIDATE_PATTERN = {
     "counts": {},
 }
 
+VISUAL_PROFILES = {
+    "Image Of God Pattern": {
+        "title": "Image of God",
+        "motif": "Dignity before usefulness",
+        "colors": ("#f7efe5", "#224c55", "#d18f46", "#7c3f58", "#e0c35a"),
+        "nodes": ["Mind", "Symbol", "Agency", "Relation", "Worship"],
+    },
+    "Cross And Reversal Pattern": {
+        "title": "Cross and Reversal",
+        "motif": "Power judged by mercy",
+        "colors": ("#f2f0ec", "#2d3348", "#8f2d3f", "#d0a44c", "#5f8f70"),
+        "nodes": ["Power", "Humility", "Truth", "Mercy", "Hope"],
+    },
+    "Creation-To-Consciousness Pattern": {
+        "title": "Creation to Consciousness",
+        "motif": "Order becoming responsibility",
+        "colors": ("#eef3ed", "#243b2f", "#6e9a74", "#c47a43", "#416a8b"),
+        "nodes": ["Order", "Life", "Mind", "Moral", "Worship"],
+    },
+    "Trinity-As-Behavior Pattern": {
+        "title": "Trinity as Behavior",
+        "motif": "Gift, redemption, transformation",
+        "colors": ("#f4f1f8", "#28334d", "#b56b45", "#4f7d73", "#d7b957"),
+        "nodes": ["Father", "Son", "Spirit", "Fruit", "Service"],
+    },
+    "Providence And Contingency Pattern": {
+        "title": "Providence and Contingency",
+        "motif": "Faithfulness inside uncertainty",
+        "colors": ("#eef4f7", "#253949", "#4d7890", "#c88a4a", "#8a5a83"),
+        "nodes": ["Law", "Chance", "Complexity", "History", "Trust"],
+    },
+}
+
+DEFAULT_VISUAL_PROFILE = {
+    "title": "Gift and Faithfulness",
+    "motif": "Pattern with limits attached",
+    "colors": ("#f2f0e8", "#263d3f", "#ad6f43", "#5c7893", "#8d4d62"),
+    "nodes": ["Gift", "Notice", "Discern", "Repair", "Worship"],
+}
+
 
 def read(path: Path) -> str:
     if not path.exists():
@@ -116,6 +159,109 @@ def read_friction_layers() -> list[dict]:
 
 def read_layer(path: Path) -> dict:
     return read_json(path)
+
+
+def wrap_words(text: str, max_chars: int, max_lines: int) -> list[str]:
+    words = text.split()
+    lines = []
+    current = ""
+    for word in words:
+        candidate = f"{current} {word}".strip()
+        if len(candidate) <= max_chars:
+            current = candidate
+            continue
+        if current:
+            lines.append(current)
+        current = word
+        if len(lines) >= max_lines:
+            break
+    if current and len(lines) < max_lines:
+        lines.append(current)
+    return lines[:max_lines]
+
+
+def daily_visual_profile(candidate_pattern: dict, generated: datetime) -> dict:
+    name = candidate_pattern.get("name", "")
+    profile = dict(VISUAL_PROFILES.get(name, DEFAULT_VISUAL_PROFILE))
+    daily_shift = generated.date().toordinal() % 5
+    nodes = profile["nodes"]
+    profile["nodes"] = nodes[daily_shift:] + nodes[:daily_shift]
+    return profile
+
+
+def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: dict, generated: datetime) -> Path:
+    profile = daily_visual_profile(candidate_pattern, generated)
+    bg, ink, warm, cool, gold = profile["colors"]
+    date_label = generated.strftime("%B %d, %Y")
+    lead_title = profile["title"]
+    motif = profile["motif"]
+    candidate_lines = wrap_words(candidate_pattern.get("candidate", ""), 74, 3)
+    new_count = int(digest.get("new_count", 0) or 0)
+    totals = audit.get("confidence_tier_totals", {}) if audit else {}
+    developing = int(totals.get("developing_evidence", 0) or 0)
+    candidate_leads = int(totals.get("candidate_lead", 0) or 0)
+
+    node_x = [146, 322, 498, 674, 850]
+    node_y = [352, 286, 352, 286, 352]
+    nodes = []
+    lines = []
+    for index, label in enumerate(profile["nodes"]):
+        x = node_x[index]
+        y = node_y[index]
+        color = [warm, cool, gold, warm, cool][index]
+        nodes.append(
+            f'<circle cx="{x}" cy="{y}" r="50" fill="{color}" opacity="0.94"/>'
+            f'<circle cx="{x}" cy="{y}" r="62" fill="none" stroke="{ink}" stroke-width="2" opacity="0.25"/>'
+            f'<text x="{x}" y="{y + 6}" text-anchor="middle" class="node">{escape(label)}</text>'
+        )
+        if index:
+            lines.append(
+                f'<line x1="{node_x[index - 1] + 54}" y1="{node_y[index - 1]}" '
+                f'x2="{x - 54}" y2="{y}" stroke="{ink}" stroke-width="4" opacity="0.28"/>'
+            )
+
+    quote_lines = []
+    for index, line in enumerate(candidate_lines):
+        quote_lines.append(
+            f'<text x="96" y="{158 + index * 28}" class="body">{escape(line)}</text>'
+        )
+
+    variant = generated.date().toordinal() % 3
+    if variant == 0:
+        background_shape = f'<circle cx="880" cy="108" r="122" fill="{gold}" opacity="0.34"/>'
+    elif variant == 1:
+        background_shape = f'<path d="M805 42 L940 120 L872 228 L738 150 Z" fill="{gold}" opacity="0.33"/>'
+    else:
+        background_shape = f'<rect x="748" y="46" width="178" height="178" rx="14" fill="{gold}" opacity="0.31"/>'
+
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Daily Divine Pattern Image: {escape(lead_title)}</title>
+  <desc id="desc">A daily visual summary connected to the current Divine Pattern findings.</desc>
+  <style>
+    .eyebrow {{ font: 700 15px Arial, sans-serif; letter-spacing: 0; fill: {ink}; opacity: 0.72; }}
+    .title {{ font: 700 45px Georgia, serif; letter-spacing: 0; fill: {ink}; }}
+    .subtitle {{ font: 700 22px Arial, sans-serif; letter-spacing: 0; fill: {warm}; }}
+    .body {{ font: 18px Arial, sans-serif; letter-spacing: 0; fill: {ink}; }}
+    .small {{ font: 15px Arial, sans-serif; letter-spacing: 0; fill: {ink}; opacity: 0.78; }}
+    .node {{ font: 700 16px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; }}
+  </style>
+  <rect width="1000" height="520" fill="{bg}"/>
+  <rect x="38" y="34" width="924" height="452" rx="22" fill="#ffffff" opacity="0.50"/>
+  {background_shape}
+  <path d="M72 420 C190 388 288 452 406 418 C530 382 620 452 746 416 C828 392 884 400 928 424" fill="none" stroke="{cool}" stroke-width="9" opacity="0.18"/>
+  <text x="72" y="82" class="eyebrow">Daily pattern image | {escape(date_label)}</text>
+  <text x="72" y="132" class="title">{escape(lead_title)}</text>
+  <text x="72" y="246" class="subtitle">{escape(motif)}</text>
+  {''.join(quote_lines)}
+  {''.join(lines)}
+  {''.join(nodes)}
+  <rect x="72" y="434" width="856" height="34" rx="17" fill="{ink}" opacity="0.08"/>
+  <text x="96" y="456" class="small">New leads: {new_count} | Developing evidence: {developing} | Candidate leads: {candidate_leads} | Generated from current findings</text>
+</svg>
+'''
+    DAILY_IMAGE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    DAILY_IMAGE_PATH.write_text(svg, encoding="utf-8")
+    return DAILY_IMAGE_PATH
 
 
 def current_candidate_pattern(index: dict) -> dict:
@@ -552,6 +698,26 @@ def ethical_harm_audit_lines(layer: dict) -> list[str]:
     return lines
 
 
+def priestly_discernment_lines(layer: dict) -> list[str]:
+    if not layer:
+        return ["Priestly discernment layer is missing."]
+
+    lines = [
+        layer.get("purpose", ""),
+        "",
+        f"**Core Rule:** {layer.get('core_rule', '')}",
+        "",
+        "Review questions:",
+    ]
+    lines.extend(f"- {item}" for item in layer.get("review_questions", []))
+    lines.extend(["", "Promotion restraints:"])
+    lines.extend(f"- {item}" for item in layer.get("promotion_restraints", []))
+    lines.extend(["", "Liturgical and sacramental tests:"])
+    lines.extend(f"- {item}" for item in layer.get("liturgical_and_sacramental_tests", []))
+    lines.extend(["", f"Required fruit: {', '.join(layer.get('required_fruit', []))}"])
+    return lines
+
+
 def source_review_status_lines(layer: dict) -> list[str]:
     records = layer.get("records", []) if layer else []
     if not records:
@@ -868,6 +1034,7 @@ def build_article() -> str:
     creedal_guardrails = read_layer(CREEDAL_GUARDRAILS_PATH)
     negative_cases = read_layer(NEGATIVE_CASES_PATH)
     ethical_harm_audit = read_layer(ETHICAL_HARM_AUDIT_PATH)
+    priestly_discernment = read_layer(PRIESTLY_DISCERNMENT_PATH)
     source_review_status = read_layer(SOURCE_REVIEW_STATUS_PATH)
     claim_ledger_connections = read_layer(CLAIM_LEDGER_CONNECTIONS_PATH)
     tradition_labels = read_layer(TRADITION_LABELS_PATH)
@@ -996,6 +1163,9 @@ def build_article() -> str:
         "## Pastoral And Ethical Harm Audit",
         "",
         *ethical_harm_audit_lines(ethical_harm_audit),
+        "## Priestly Discernment Gate",
+        "",
+        *priestly_discernment_lines(priestly_discernment),
         "## Science Guardrail Layer",
         "",
         *science_guardrail_lines(science_guardrail),
@@ -1098,15 +1268,18 @@ def build_article() -> str:
 
 
 def build_short_article() -> str:
-    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    generated_at = datetime.now(timezone.utc)
+    generated = generated_at.strftime("%Y-%m-%d %H:%M UTC")
     digest = read_json(DAILY_DIGEST_PATH)
     reference_catalog = read_json(REFERENCES_PATH)
     knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
     review_audit = read_json(REVIEW_AUDIT_PATH)
     candidate_pattern = current_candidate_pattern(knowledge_index)
+    daily_image = generate_daily_pattern_image(candidate_pattern, digest, review_audit, generated_at)
     findings_text = read(Path("reports/divine_pattern_findings.md"))
     friction_layers = read_friction_layers()
     theological_foundations = read_layer(THEOLOGICAL_FOUNDATIONS_PATH)
+    priestly_discernment = read_layer(PRIESTLY_DISCERNMENT_PATH)
     does_not_prove = read_layer(DOES_NOT_PROVE_PATH)
     science_guardrail = read_layer(SCIENCE_GUARDRAIL_PATH)
 
@@ -1131,6 +1304,10 @@ def build_short_article() -> str:
         "This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.",
         "",
         "This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.",
+        "",
+        f"![Daily pattern image]({daily_image.name})",
+        "",
+        f"_Daily visual generated from the current leading finding: {candidate_pattern['name']}._",
         "",
         "## Short Answer",
         "",
@@ -1177,6 +1354,17 @@ def build_short_article() -> str:
         foundation_lines[0] if foundation_lines else "Pattern recognition is subordinate to Scripture and divine revelation.",
         "",
         "The project keeps this order: Scripture and revelation first, Christ and creedal guardrails next, then source quality, rival explanations, harm checks, mystery, and only then provisional confidence.",
+        "",
+        "## Priestly Discernment Gate",
+        "",
+        priestly_discernment.get(
+            "core_rule",
+            "Pattern claims must pass pastoral, ecclesial, sacramental, and spiritual-fruit review before public use.",
+        ),
+        "",
+        "Before public, devotional, or pastoral use, the project now asks whether a claim would be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority.",
+        "",
+        "It also asks what ecclesial review is needed and how the claim remains accountable to baptism, Eucharist, confession, anointing, funerals, the church year, and daily prayer without reducing worship to symbolism.",
         "",
         "## What This Does Not Prove",
         "",

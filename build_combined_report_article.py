@@ -20,6 +20,7 @@ THEOLOGICAL_METHOD_PATH = Path("research_documents/theological_method_guardrails
 CREEDAL_GUARDRAILS_PATH = Path("research_documents/creedal_guardrails.json")
 NEGATIVE_CASES_PATH = Path("research_documents/negative_case_records.json")
 ETHICAL_HARM_AUDIT_PATH = Path("research_documents/ethical_harm_audit.json")
+PRIESTLY_DISCERNMENT_PATH = Path("research_documents/priestly_discernment_layer.json")
 SOURCE_REVIEW_STATUS_PATH = Path("research_documents/source_review_status.json")
 CLAIM_LEDGER_CONNECTIONS_PATH = Path("research_documents/claim_ledger_connections.json")
 TRADITION_LABELS_PATH = Path("research_documents/tradition_claim_labels.json")
@@ -544,6 +545,24 @@ def render_ethical_harm_html(layer: dict) -> str:
     )
 
 
+def render_priestly_discernment_html(layer: dict) -> str:
+    if not layer:
+        return "<p>Priestly discernment layer is missing.</p>"
+    questions = "".join(f"<li>{escape(item)}</li>" for item in layer.get("review_questions", []))
+    restraints = "".join(f"<li>{escape(item)}</li>" for item in layer.get("promotion_restraints", []))
+    liturgical = "".join(f"<li>{escape(item)}</li>" for item in layer.get("liturgical_and_sacramental_tests", []))
+    fruit = ", ".join(layer.get("required_fruit", []))
+    return "\n".join(
+        [
+            f"<article class=\"friction-card\"><h3>Core Rule</h3><p>{escape(layer.get('core_rule', ''))}</p></article>",
+            f"<article class=\"friction-card\"><h3>Review Questions</h3><ul>{questions}</ul></article>",
+            f"<article class=\"friction-card\"><h3>Promotion Restraints</h3><ul>{restraints}</ul></article>",
+            f"<article class=\"friction-card\"><h3>Liturgical And Sacramental Tests</h3><ul>{liturgical}</ul></article>",
+            f"<article class=\"friction-card\"><h3>Required Fruit</h3><p>{escape(fruit)}</p></article>",
+        ]
+    )
+
+
 def render_source_review_html(layer: dict) -> str:
     cards = [
         simple_card_html(
@@ -685,6 +704,7 @@ def build_article() -> str:
     creedal_guardrails = read_json_layer(CREEDAL_GUARDRAILS_PATH)
     negative_cases = read_json_layer(NEGATIVE_CASES_PATH)
     ethical_harm_audit = read_json_layer(ETHICAL_HARM_AUDIT_PATH)
+    priestly_discernment = read_json_layer(PRIESTLY_DISCERNMENT_PATH)
     source_review_status = read_json_layer(SOURCE_REVIEW_STATUS_PATH)
     claim_ledger_connections = read_json_layer(CLAIM_LEDGER_CONNECTIONS_PATH)
     tradition_labels = read_json_layer(TRADITION_LABELS_PATH)
@@ -798,6 +818,13 @@ def build_article() -> str:
             ETHICAL_HARM_AUDIT_PATH,
             ethical_harm_audit.get("purpose", ""),
             render_ethical_harm_html(ethical_harm_audit),
+        ),
+        (
+            "priestly-discernment-gate",
+            "Priestly Discernment Gate",
+            PRIESTLY_DISCERNMENT_PATH,
+            priestly_discernment.get("purpose", ""),
+            render_priestly_discernment_html(priestly_discernment),
         ),
         (
             "science-guardrail-layer",
@@ -1221,6 +1248,19 @@ def markdown_ethical_harm_lines(layer: dict) -> list[str]:
     return lines
 
 
+def markdown_priestly_discernment_lines(layer: dict) -> list[str]:
+    if not layer:
+        return ["Priestly discernment layer is missing."]
+    lines = [layer.get("purpose", ""), "", f"Core rule: {layer.get('core_rule', '')}", "", "### Review Questions", ""]
+    lines.extend(f"- {item}" for item in layer.get("review_questions", []))
+    lines.extend(["", "### Promotion Restraints", ""])
+    lines.extend(f"- {item}" for item in layer.get("promotion_restraints", []))
+    lines.extend(["", "### Liturgical And Sacramental Tests", ""])
+    lines.extend(f"- {item}" for item in layer.get("liturgical_and_sacramental_tests", []))
+    lines.extend(["", f"Required fruit: {', '.join(layer.get('required_fruit', []))}"])
+    return lines
+
+
 def markdown_source_review_lines(layer: dict) -> list[str]:
     if not layer:
         return ["Source review status layer is missing."]
@@ -1330,6 +1370,7 @@ def build_markdown_article() -> str:
     creedal_guardrails = read_json_layer(CREEDAL_GUARDRAILS_PATH)
     negative_cases = read_json_layer(NEGATIVE_CASES_PATH)
     ethical_harm_audit = read_json_layer(ETHICAL_HARM_AUDIT_PATH)
+    priestly_discernment = read_json_layer(PRIESTLY_DISCERNMENT_PATH)
     source_review_status = read_json_layer(SOURCE_REVIEW_STATUS_PATH)
     claim_ledger_connections = read_json_layer(CLAIM_LEDGER_CONNECTIONS_PATH)
     tradition_labels = read_json_layer(TRADITION_LABELS_PATH)
@@ -1440,6 +1481,7 @@ def build_markdown_article() -> str:
             ),
         ),
         ("Pastoral And Ethical Harm Audit", ETHICAL_HARM_AUDIT_PATH, markdown_ethical_harm_lines(ethical_harm_audit)),
+        ("Priestly Discernment Gate", PRIESTLY_DISCERNMENT_PATH, markdown_priestly_discernment_lines(priestly_discernment)),
         ("Science Guardrail Layer", SCIENCE_GUARDRAIL_PATH, markdown_science_guardrail_lines(science_guardrail)),
     ]
 

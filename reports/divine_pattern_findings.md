@@ -1,6 +1,6 @@
 # Divine Patterns Found
 
-_Generated: 2026-06-17 18:04 UTC_
+_Generated: 2026-06-17 18:16 UTC_
 
 This report is intentionally simple: it shows the divine-pattern signals the system currently finds, explains why they surfaced, and leaves evaluation to you.
 
@@ -11,6 +11,24 @@ The labels are not commands. They are reading aids:
 - `ready for your evaluation`: enough controls are present that you can weigh it directly.
 
 It is designed to change day to day when the collector, analyzer, and backend discover or re-index new material.
+
+## Priestly Discernment Gate
+
+A pattern may organize attention, but it must not guide souls unless it leads toward Christ, protects the vulnerable, honors the Church's discernment, and produces truthful love.
+
+Before promoting any finding, ask:
+
+- Would this claim be pastorally safe to say beside a hospital bed, at a funeral, in confession, or to a person harmed by religious authority?
+- Does this claim lead toward Christ, repentance, mercy, worship, justice, and neighbor-love rather than toward fascination with the pattern itself?
+- Does this claim preserve mystery instead of explaining God's hidden action too neatly?
+- Does this claim protect the vulnerable before defending an institution, leader, ideology, or system?
+
+Promotion restraints:
+
+- Do not promote a claim from recurrence alone.
+- Do not promote a claim because it sounds beautiful, mathematically elegant, emotionally moving, or apologetically useful.
+- Do not promote a suffering-related claim unless it has passed lament, justice, protection, and repair tests.
+- Do not promote a comparative-religion claim unless the other tradition has first been represented on its own terms.
 
 ## What Changed In The Latest Discovery Run
 
@@ -31,9 +49,9 @@ Newest source leads:
 
 ## Current Evidence Mix
 
-- candidate leads: 112
-- developing evidence: 339
-- ready for your evaluation: 1
+- candidate leads: 114
+- developing evidence: 340
+- ready for your evaluation: 0
 
 ## Pattern Findings
 

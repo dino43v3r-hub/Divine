@@ -27,6 +27,18 @@ Review: look for fruit over time. Does the response produce love, joy, peace,
 patience, kindness, goodness, faithfulness, gentleness, self-control, justice,
 truth, humility, and neighbor-love?
 
+## Priestly Discernment Check
+
+Before a pattern becomes advice, teaching, devotional language, or public
+apologetic, ask whether it would remain truthful and gentle in pastoral crisis:
+beside a hospital bed, at a funeral, in confession, or with someone harmed by
+religious authority. If it would become glib, coercive, defensive, or unsafe,
+keep it as a research question or analogy only.
+
+Also ask what ecclesial review is needed. Strong claims should be accountable
+to Scripture, creed, worship, mature pastoral judgment, source review, and harm
+safety review.
+
 ## Day-To-Day Uses
 
 Family conflict: notice the wound, name the truth without exaggeration, discern
@@ -58,4 +70,9 @@ still holds under pressure.
 Do not use the divine pattern to control people, silence grief, excuse
 injustice, predict private outcomes, bypass professional care, or claim proof
 where only analogy or discernment exists.
+
+Do not use sacramental or liturgical language as decorative proof. Baptism,
+Eucharist, confession, anointing, funerals, the church year, and daily prayer
+are practices of worship and formation before they are sources of pattern
+language.
 
