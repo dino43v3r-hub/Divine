@@ -8,7 +8,7 @@ import re
 
 
 OUTPUT_PATH = Path("reports/published/final_book_report.md")
-DAILY_IMAGE_PATH = Path("reports/published/daily_pattern_image.svg")
+DAILY_IMAGE_ALIAS_PATH = Path("reports/published/daily_pattern_image.svg")
 REFERENCES_PATH = Path("references/references.json")
 DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
 KNOWLEDGE_INDEX_PATH = Path("reports/knowledge_retrieval_index.json")
@@ -136,6 +136,11 @@ DEFAULT_VISUAL_PROFILE = {
 }
 
 
+def daily_image_path(generated: datetime) -> Path:
+    date_slug = generated.strftime("%Y-%m-%d")
+    return DAILY_IMAGE_ALIAS_PATH.with_name(f"daily_pattern_image_{date_slug}.svg")
+
+
 def read(path: Path) -> str:
     if not path.exists():
         return ""
@@ -260,9 +265,11 @@ def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: d
   <text x="96" y="456" class="small">New leads: {new_count} | Developing evidence: {developing} | Candidate leads: {candidate_leads} | Generated from current findings</text>
 </svg>
 '''
-    DAILY_IMAGE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    DAILY_IMAGE_PATH.write_text(svg, encoding="utf-8")
-    return DAILY_IMAGE_PATH
+    image_path = daily_image_path(generated)
+    image_path.parent.mkdir(parents=True, exist_ok=True)
+    image_path.write_text(svg, encoding="utf-8")
+    DAILY_IMAGE_ALIAS_PATH.write_text(svg, encoding="utf-8")
+    return image_path
 
 
 def current_candidate_pattern(index: dict) -> dict:

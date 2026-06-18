@@ -8,7 +8,7 @@ This is the compact reading version. It tells you what the project currently see
 
 This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.
 
-![Daily pattern image](daily_pattern_image.svg)
+![Daily pattern image](daily_pattern_image_2026-06-18.svg)
 
 _Daily visual generated from the current leading finding: Image Of God Pattern._
 
