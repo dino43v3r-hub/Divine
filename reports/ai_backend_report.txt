@@ -40,62 +40,63 @@ Backend: Media assets now enter the index through captions, transcripts, sidecar
 
 Corpus Summary
 --------------
-- Indexed documents: 570
-- Indexed text documents: 570
+- Indexed documents: 493
+- Indexed text documents: 493
 - Indexed media assets: 0
-- Graph nodes: 606
-- Graph edges: 3098
+- Graph nodes: 529
+- Graph edges: 2690
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
-Backend: theologians (410 notes), history_inputs (283 notes), other_religious_texts (275 notes), all_texts (274 notes).
+Backend: theologians (404 notes), history_inputs (280 notes), all_texts (271 notes), other_religious_texts (271 notes).
 
 Reviewer: Which leading patterns are showing up most often?
 Backend: Image Of God Pattern (10), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
 
 Reviewer: Which review rules are most visible?
-Backend: practical_use (538), counter_reading (525), evidence (467), machine_label_boundary (398).
+Backend: practical_use (461), counter_reading (449), evidence (390), machine_label_boundary (323).
 
 Lane Coverage
 -------------
 Backend: Here is the lane map. High counts are invitations to review more carefully, not permission to overclaim.
-- all_texts: 19 documents; 274 declared reviewed notes
+- all_texts: 16 documents; 271 declared reviewed notes
 - biblical_languages: 19 documents; 148 declared reviewed notes
-- cultural_inputs: 72 documents; 72 declared reviewed notes
-- deep_sources: 48 documents; 65 declared reviewed notes
-- history_inputs: 28 documents; 283 declared reviewed notes
+- cultural_inputs: 64 documents; 64 declared reviewed notes
+- deep_sources: 42 documents; 59 declared reviewed notes
+- history_inputs: 25 documents; 280 declared reviewed notes
 - human_stories: 2 documents; 2 declared reviewed notes
-- modern_literature: 10 documents; 10 declared reviewed notes
-- other_religious_texts: 20 documents; 275 declared reviewed notes
-- pattern_tests: 54 documents; 58 declared reviewed notes
-- psychology_inputs: 39 documents; 39 declared reviewed notes
-- research_documents: 129 documents; 175 declared reviewed notes
-- theologians: 41 documents; 410 declared reviewed notes
-- visual_art: 44 documents; 44 declared reviewed notes
-- world_languages: 45 documents; 174 declared reviewed notes
+- modern_literature: 6 documents; 6 declared reviewed notes
+- other_religious_texts: 16 documents; 271 declared reviewed notes
+- pattern_tests: 50 documents; 54 declared reviewed notes
+- psychology_inputs: 28 documents; 28 declared reviewed notes
+- research_documents: 114 documents; 160 declared reviewed notes
+- theologians: 35 documents; 404 declared reviewed notes
+- visual_art: 36 documents; 36 declared reviewed notes
+- world_languages: 40 documents; 169 declared reviewed notes
 
 Confidence Tiers
 ----------------
 Reviewer: Are these tiers final verdicts?
 Backend: No. They sort review work. Only source-specific human decisions can promote a claim.
-- candidate_lead: 114 documents
-- developing_evidence: 456 documents
+- candidate_lead: 113 documents
+- developing_evidence: 378 documents
+- reviewed_evidence_ready: 2 documents
 
 Promotion Rule Coverage
 -----------------------
 Backend: These counts show where the next review pass should focus before sources strengthen claims.
-- evidence: 467 explicit; 2 machine-drafted; 101 still missing of 570
-- interpretation: 30 explicit; 2 machine-drafted; 538 still missing of 570
-- discernment: 285 explicit; 0 machine-drafted; 285 still missing of 570
-- analogy: 52 explicit; 0 machine-drafted; 518 still missing of 570
-- practical_use: 538 explicit; 0 machine-drafted; 32 still missing of 570
-- counter_reading: 525 explicit; 1 machine-drafted; 44 still missing of 570
-- failure_condition: 96 explicit; 1 machine-drafted; 473 still missing of 570
-- pastoral_safety: 47 explicit; 407 machine-drafted; 116 still missing of 570
-- ecclesial_review: 5 explicit; 449 machine-drafted; 116 still missing of 570
-- liturgical_grounding: 25 explicit; 429 machine-drafted; 116 still missing of 570
-- promotion_restraint: 13 explicit; 441 machine-drafted; 116 still missing of 570
-- machine_label_boundary: 398 explicit; 2 machine-drafted; 170 still missing of 570
+- evidence: 390 explicit; 2 machine-drafted; 101 still missing of 493
+- interpretation: 29 explicit; 2 machine-drafted; 462 still missing of 493
+- discernment: 256 explicit; 0 machine-drafted; 237 still missing of 493
+- analogy: 51 explicit; 0 machine-drafted; 442 still missing of 493
+- practical_use: 461 explicit; 0 machine-drafted; 32 still missing of 493
+- counter_reading: 449 explicit; 1 machine-drafted; 43 still missing of 493
+- failure_condition: 95 explicit; 1 machine-drafted; 397 still missing of 493
+- pastoral_safety: 48 explicit; 407 machine-drafted; 38 still missing of 493
+- ecclesial_review: 7 explicit; 449 machine-drafted; 37 still missing of 493
+- liturgical_grounding: 26 explicit; 429 machine-drafted; 38 still missing of 493
+- promotion_restraint: 15 explicit; 441 machine-drafted; 37 still missing of 493
+- machine_label_boundary: 323 explicit; 2 machine-drafted; 168 still missing of 493
 
 Promotion Blockers
 ------------------
@@ -132,18 +133,18 @@ Review Rule Mentions
 Reviewer: What do the review-rule counts tell us?
 Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.
 
-- evidence: 467 documents
-- interpretation: 30 documents
-- discernment: 285 documents
-- analogy: 52 documents
-- practical_use: 538 documents
-- counter_reading: 525 documents
-- failure_condition: 96 documents
-- pastoral_safety: 47 documents
-- ecclesial_review: 5 documents
-- liturgical_grounding: 25 documents
-- promotion_restraint: 13 documents
-- machine_label_boundary: 398 documents
+- evidence: 390 documents
+- interpretation: 29 documents
+- discernment: 256 documents
+- analogy: 51 documents
+- practical_use: 461 documents
+- counter_reading: 449 documents
+- failure_condition: 95 documents
+- pastoral_safety: 48 documents
+- ecclesial_review: 7 documents
+- liturgical_grounding: 26 documents
+- promotion_restraint: 15 documents
+- machine_label_boundary: 323 documents
 
 Practical-Theology Gate
 -----------------------

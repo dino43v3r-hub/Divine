@@ -137,6 +137,87 @@ and overlooked.
 Failure condition: weaken or reject any version of the pattern that ranks
 persons by ability, beauty, productivity, tribe, intelligence, or usefulness.
 
+Source-checked companion notes:
+
+Evidence: this pack directly names the controlling source lanes: Genesis 1-2,
+Psalm 8, New Testament renewal-in-Christ texts, biblical-language notes,
+theological anthropology, disability-theology and liberation readings, and
+pressure cases involving disability, dementia, trauma, racism, caste, poverty,
+exploitation, and dehumanizing institutions.
+
+Interpretation: the proposed Christian reading is that imago Dei names human
+dignity as received gift, embodied creaturely vocation, relational calling, and
+renewal in Christ before any measurable achievement. The pack supports a
+theological anthropology of bestowed worth; it does not support ranking people
+by rational capacity, usefulness, social honor, health, citizenship, or visible
+religious performance.
+
+Discernment: every use of this pattern needs communal and pastoral testing
+where the claim could touch disability, dementia, trauma, racialization, caste,
+poverty, incarceration, migration, exploitation, or institutional power. The
+question is not only whether the pattern sounds orthodox, but whether it
+protects the person most easily treated as disposable.
+
+Analogy: psychology, cognitive science, rights discourse, kinship language, and
+social-personhood studies may illuminate how humans recognize agency, belonging,
+and dignity, but these are analogies and comparative witnesses. They do not
+prove the theological claim that each person bears God's image.
+
+Practical use: a faithful use case would be a church redesigning worship and
+care around members with dementia and nonspeaking disabilities: slowing the
+liturgy, training greeters, protecting consent, including caregivers, refusing
+productivity-based volunteer language, and naming each person's dignity before
+performance.
+
+Counter-reading: a serious rival explanation from psychology and sociology is
+that imago Dei language may be a religious form of evolved social cognition,
+group attachment, moral-empathy expansion, and rights-bearing ideology. On this
+reading, the pattern helps communities widen concern and police in-group
+violence, but the dignity effect can be explained without a divine pattern by
+human bonding, symbolic classification, trauma repair, and social norms.
+
+Failure condition: the Image Of God pattern would be weakened if its use
+predictably tracks in-group preference, status protection, ableist or racist
+hierarchy, or institutional self-justification more than protection of the
+vulnerable. It should be narrowed or rejected in any case where it makes a
+person's worth depend on cognition, independence, beauty, productivity,
+obedience, citizenship, religious conformity, or usefulness.
+
+Pastoral safety: the pattern is safe only when it lowers pressure on the
+vulnerable and raises obligations on caregivers, pastors, institutions, and
+communities. It is unsafe if spoken over trauma, disability, grief, abuse, or
+poverty as a quick explanation instead of as a call to reverent protection.
+
+Ecclesial review: before public confidence rises, this pack needs review by
+biblical scholars, theologians of anthropology, disability theologians,
+liberation or Dalit/Black theological voices, trauma-informed pastoral leaders,
+and at least one reviewer asked to identify possible coercive or exclusionary
+uses.
+
+Liturgical grounding: the pattern should remain accountable to baptismal
+welcome, Eucharistic inclusion, confession of sin against neighbors, anointing
+and care of the sick, funerals, daily prayer, and ordinary practices of
+hospitality. Worship must not be reduced to symbolism; it is one place where
+the church rehearses receiving persons as gifts.
+
+Promotion restraint: source-checking these controls makes the pack
+reviewed-ready for human confidence review, not proven. The appropriate public
+claim is disciplined theological interpretation with pastoral guardrails, not a
+demonstration that all human dignity language independently proves the Divine
+Pattern.
+
+Machine-label boundary: machine labels may flag imago Dei themes, missing
+controls, and possible rival explanations, but they may not settle truth,
+decide that a person or group is less image-bearing, settle a contested
+theological anthropology, override trauma-informed pastoral judgment, or raise
+confidence without direct source-checking and accountable human review.
+
+Pastoral rejection case: reject the pattern's use when a leader tells an abused
+person that seeing the abuser as image-bearing requires immediate forgiveness,
+reconciliation, silence, or return to danger. In that case the language becomes
+coercive and overconfident; the faithful practice is protection, truth,
+accountability, and patient care without forcing a redemptive interpretation.
+
 ## Pack 8: Cross And Reversal Pattern
 
 Claim boundary: the Cross And Reversal pattern may describe the Christian claim

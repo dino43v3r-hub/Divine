@@ -1,34 +1,1118 @@
 {
-  "generated_at": "2026-06-17T18:16:35.783084+00:00",
+  "generated_at": "2026-06-18T23:17:22.394726+00:00",
   "items": [
     {
       "confidence_tier": "developing_evidence",
       "fill_prompts": {
         "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
         "interpretation": "What Christian theological reading is being proposed from that evidence?",
-        "machine_label_boundary": "What should the machine label not be allowed to settle?"
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
       },
       "lane": "research_documents",
-      "machine_drafted_rules": [
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
         "ecclesial_review",
+        "liturgical_grounding",
         "promotion_restraint"
       ],
+      "path": "research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Artificial intelligence in education: From tools to agents?"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "research_documents",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "research_documents/auto_imported_cloud_candidates/book_review_a_more_profound_alleluia_theology_and_worship_in_harmony_ee1c835b96b7.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Book Review: A More Profound Alleluia: Theology and Worship in Harmony"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "research_documents",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "research_documents/auto_imported_cloud_candidates/book_review_going_forth_d9656294612c.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Book Review: \u2018Going Forth\u2019"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "research_documents",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "research_documents/auto_imported_cloud_candidates/book_review_worship_028544e6278f.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Book Review: Worship"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "research_documents",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "research_documents/auto_imported_cloud_candidates/decolonising_epistemology_within_a_southern_african_context_teaching_and_learnin_cff558f3b889.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Decolonising epistemology within a (southern) African context: Teaching and learning towards transformation at Stellenbosch University"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "research_documents",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "research_documents/auto_imported_cloud_candidates/introduction_on_theological_hermeneutics_and_theological_method_c5b75fd47a3c.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Introduction: On Theological Hermeneutics and Theological Method"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "research_documents",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "research_documents/auto_imported_cloud_candidates/psychosocial_theology_an_emerging_perspective_from_contemporary_research_b867ecaf89ae.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Psychosocial Theology: An Emerging Perspective from Contemporary Research"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "research_documents",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "research_documents/auto_imported_cloud_candidates/the_religion_amp_human_science_religion_amp_science_e21294ed3d1f.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "The Religion &amp; Human Science: Religion &amp; Science"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "biblical_languages",
+      "machine_drafted_rules": [],
       "missing_rules": [
         "interpretation",
         "analogy",
-        "machine_label_boundary"
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
       ],
-      "path": "research_documents/reviewed_source_packs.md",
-      "patterns": [
-        "Image Of God Pattern",
-        "Cross And Reversal Pattern",
-        "Creation-To-Consciousness Pattern",
-        "Trinity-As-Behavior Pattern",
-        "Providence And Contingency Pattern",
-        "Mathematical Theophany Pattern"
-      ],
+      "path": "biblical_languages/auto_imported_cloud_candidates/a_s_worrell_s_new_testament_a_landmark_baptist_pentecostal_bible_translation_fro_84e11e61ce41.md",
+      "patterns": [],
       "review_note_count": 1,
-      "title": "Reviewed Source Packs"
+      "title": "A. S. Worrell's New Testament: A Landmark Baptist-Pentecostal Bible Translation from the Early Twentieth Century"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "biblical_languages",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "biblical_languages/auto_imported_cloud_candidates/gordon_fee_ca1ad3b4ff0a.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Gordon Fee"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "biblical_languages",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "biblical_languages/auto_imported_cloud_candidates/just_like_puericide_b2262304a8b5.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Just Like Puericide:"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "world_languages",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "world_languages/auto_imported_cloud_candidates/ai_driven_and_llm_based_translation_of_arabic_news_texts_into_english_a_comparat_c9a9b9112732.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "AI-Driven and LLM-Based Translation of Arabic News Texts into English: A Comparative Evaluation"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "world_languages",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "world_languages/auto_imported_cloud_candidates/introduction_9ac228049b4e.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Introduction"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "world_languages",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "world_languages/auto_imported_cloud_candidates/language_and_other_artifacts_socio_cultural_dynamics_of_niche_construction_01e168ec5134.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Language and other artifacts: socio-cultural dynamics of niche construction"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "world_languages",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "world_languages/auto_imported_cloud_candidates/style_and_meaning_in_translations_of_the_qur_anic_verb_noun_collocations_into_en_1718c4f2c51d.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Style and meaning in translations of the Qur'anic verb-noun collocations into English"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "world_languages",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "world_languages/auto_imported_cloud_candidates/the_first_ever_edition_of_the_quran_latin_translation_published_in_1543_mileston_afd61ad00931.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "The first ever edition of the Quran Latin translation published in 1543 \u2014 Milestone in the history of Christian-Muslim dialogue"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "other_religious_texts",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "other_religious_texts/auto_imported_cloud_candidates/explaining_religious_experiences_like_dreams_70138e58faa8.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Explaining religious experiences like dreams"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "other_religious_texts",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "other_religious_texts/auto_imported_cloud_candidates/visions_of_the_night_dreams_religion_and_psychology_kelly_bulkeley_c70aa168d8e0.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Visions of the Night: Dreams, Religion and Psychology . Kelly Bulkeley"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "theologians",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "theologians/auto_imported_cloud_candidates/augustine_and_calvin_a127d67f4f53.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Augustine and Calvin"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "theologians",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "theologians/auto_imported_cloud_candidates/theological_trends_in_our_postsecular_age_0a5c916ad3f8.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Theological trends in our postsecular age"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "history_inputs",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "history_inputs/auto_imported_cloud_candidates/abelard_and_the_origin_and_early_history_of_universities_b937d2006700.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Abelard and the Origin and Early History of Universities"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "history_inputs",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "history_inputs/auto_imported_cloud_candidates/back_matter_7ff09e73e339.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Back Matter"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "history_inputs",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "history_inputs/auto_imported_cloud_candidates/reparative_claims_and_theories_of_justice_16f9f87d740e.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Reparative Claims and Theories of Justice"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "visual_art",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "visual_art/auto_imported_cloud_candidates/a_genre_11cb510664bb.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "A Genre:"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "visual_art",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "visual_art/auto_imported_cloud_candidates/art_and_the_beauty_of_god_a_christian_understanding_by_richard_harries_london_mo_4875ab24b98c.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Art and the Beauty of God: A Christian Understanding by Richard Harries : London, Mowbray, 2000. 150 pp. $16.95"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "visual_art",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "visual_art/auto_imported_cloud_candidates/bibliography_fc79215fbce6.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Bibliography"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "visual_art",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "visual_art/auto_imported_cloud_candidates/inseparable_insight_reconciling_cognitivism_and_formalism_in_aesthetics_11a3345c8790.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Inseparable Insight: Reconciling Cognitivism and Formalism in Aesthetics"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "visual_art",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "visual_art/auto_imported_cloud_candidates/the_implications_of_beauty_art_and_the_healing_movements_dance_for_pastoral_care_f2aa6e1f6099.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "The Implications of Beauty, Art, and the Healing Movements/Dance for Pastoral Care and Ministry"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "cultural_inputs",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "cultural_inputs/auto_imported_cloud_candidates/criminal_justice_and_the_ethics_of_jesus_ba790883ca62.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Criminal Justice and the Ethics of Jesus"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "cultural_inputs",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "cultural_inputs/auto_imported_cloud_candidates/information_technology_and_ethics_6ca51cd67bd0.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Information technology and ethics"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "cultural_inputs",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "cultural_inputs/auto_imported_cloud_candidates/liberating_culture_cross_cultural_perspectives_on_museums_curation_and_heritage_6e92e1530ee0.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Liberating Culture: Cross\u2010Cultural Perspectives on Museums, Curation and Heritage Preservation"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "cultural_inputs",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "cultural_inputs/auto_imported_cloud_candidates/studies_in_the_problem_of_sovereignty_ec6a71ddb6d0.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Studies in the Problem of Sovereignty"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "cultural_inputs",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "cultural_inputs/auto_imported_cloud_candidates/the_contestation_of_tech_ethics_a_sociotechnical_approach_to_technology_ethics_i_9ae1dcb9709b.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "The Contestation of Tech Ethics: A Sociotechnical Approach to Technology Ethics in Practice"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "psychology_inputs",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "psychology_inputs/auto_imported_cloud_candidates/gandhi_and_the_v_irtue_of_forgiveness_8d27247df8cd.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Gandhi and the V irtue of Forgiveness"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "discernment": "What still needs prayerful, communal, accountable testing?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "psychology_inputs",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "psychology_inputs/auto_imported_cloud_candidates/hope_its_nature_and_measurement_5f8e5cc1691d.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Hope: Its nature and measurement."
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "deep_sources",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "deep_sources/auto_imported_cloud_candidates/persepsi_konsumen_terhadap_strategi_public_relations_azarine_dalam_mengatasi_isu_c685490015a3.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "PERSEPSI KONSUMEN TERHADAP STRATEGI PUBLIC RELATIONS AZARINE DALAM MENGATASI ISU OVERCLAIM PRODUK"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "deep_sources",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "deep_sources/auto_imported_cloud_candidates/quantum_probability_and_many_worlds_f9bd20c42d53.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Quantum probability and many worlds"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "pattern_tests",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "pattern_tests/auto_imported_cloud_candidates/pastoral_liturgy_52_3_complete_journal_fa668e1c760b.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Pastoral Liturgy 52 (3) Complete Journal"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "failure_condition": "What would weaken, narrow, or reject this claim?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "pattern_tests",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "pattern_tests/auto_imported_cloud_candidates/pastoral_liturgy_53_1_complete_journal_348c8145a392.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Pastoral Liturgy 53 (1) Complete Journal"
     },
     {
       "confidence_tier": "candidate_lead",
@@ -363,30 +1447,6 @@
       ],
       "review_note_count": 1,
       "title": "Source Pack: Holy Spirit Gifts Pattern"
-    },
-    {
-      "confidence_tier": "candidate_lead",
-      "fill_prompts": {
-        "counter_reading": "What rival explanation could explain the same signal without the Divine Pattern claim?",
-        "machine_label_boundary": "What should the machine label not be allowed to settle?"
-      },
-      "lane": "research_documents",
-      "machine_drafted_rules": [
-        "ecclesial_review",
-        "liturgical_grounding",
-        "pastoral_safety",
-        "promotion_restraint"
-      ],
-      "missing_rules": [
-        "counter_reading",
-        "machine_label_boundary"
-      ],
-      "path": "research_documents/source_packs/image_of_god_pattern_pack.md",
-      "patterns": [
-        "Image Of God Pattern"
-      ],
-      "review_note_count": 1,
-      "title": "Source Pack: Image Of God Pattern"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -3287,7 +4347,8 @@
     {
       "confidence_tier": "developing_evidence",
       "fill_prompts": {
-        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?"
+        "analogy": "Is this only an analogy, comparison, or sign-reading rather than proof?",
+        "interpretation": "What Christian theological reading is being proposed from that evidence?"
       },
       "lane": "research_documents",
       "machine_drafted_rules": [
@@ -3297,6 +4358,7 @@
         "promotion_restraint"
       ],
       "missing_rules": [
+        "interpretation",
         "analogy"
       ],
       "path": "research_documents/daily_evaluation_queue.md",
@@ -11579,6 +12641,6 @@
       "title": "War Survivor No Repair Test"
     }
   ],
-  "queue_count": 451,
+  "queue_count": 488,
   "source_audit": "reports/review_rules_audit.json"
 }

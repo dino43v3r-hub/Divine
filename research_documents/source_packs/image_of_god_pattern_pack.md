@@ -28,9 +28,52 @@ illuminate personhood but cannot replace theological anthropology.
 Practical use: protect vulnerable persons, listen before judging, include weak
 and overlooked people in worship, and resist usefulness-based ranking.
 
+Counter-reading: psychology and sociology can explain much of the observed
+signal without invoking a divine pattern. Human beings form dignity claims
+through attachment, kinship extension, empathy, reciprocity, rights discourse,
+trauma repair, and group norm formation. The Image Of God pattern may therefore
+function as a powerful religious grammar for widening moral concern rather than
+as independent evidence that a divine pattern is present.
+
 Failure condition: weaken or reject any version that ranks people by ability,
 beauty, race, gender, class, citizenship, cognition, productivity, or religious
 utility.
+
+Pastoral safety: use this pattern only when it protects people who cannot
+perform, defend themselves, speak fluently, produce, conform, or display
+expected competence. It becomes unsafe when used as a quick explanation for
+suffering, a demand for compliance, or a way to avoid concrete protection.
+
+Ecclesial review: require review from biblical theology, theological
+anthropology, disability theology, liberation or Dalit/Black theology,
+trauma-informed pastoral care, and a reviewer charged with finding coercive
+uses before raising confidence.
+
+Liturgical grounding: keep the pattern accountable to baptismal welcome,
+Eucharistic inclusion, confession, anointing of the sick, funerals, daily
+prayer, and practices of hospitality where dignity is received rather than
+earned.
+
+Promotion restraint: this pack is reviewed-ready for human confidence review,
+not proven. It should strengthen careful theological interpretation only where
+the source record also preserves rival explanations, failure conditions, and
+pastoral harm limits.
+
+Machine-label boundary: machine labels may route source attention and detect
+missing controls, but they must not settle theological anthropology, rank
+persons, infer spiritual worth from ability or behavior, or raise confidence
+without source-checked human review.
+
+Pastoral use case: the pattern helps when a congregation reshapes worship and
+care around a member with dementia by preserving welcome, consent, touch
+boundaries, familiar prayer, caregiver support, and public language that treats
+the person as dignified before memory, clarity, or usefulness.
+
+Pastoral rejection case: reject the pattern's use when it pressures a disabled,
+traumatized, poor, incarcerated, or abused person to prove dignity through
+gratitude, forgiveness, productivity, obedience, or public testimony. In that
+setting the pattern has become glib or coercive and should give way to
+protection, lament, advocacy, and accountable care.
 
 ## 2026-06-04 Reviewed Source-Pack Decisions
 
