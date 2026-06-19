@@ -8,8 +8,7 @@
   },
   "confidence_tier_totals": {
     "candidate_lead": 113,
-    "developing_evidence": 533,
-    "reviewed_evidence_ready": 2
+    "developing_evidence": 535
   },
   "documents": [
     {
@@ -38,7 +37,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -89,7 +89,8 @@
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
-        "promotion_restraint"
+        "promotion_restraint",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -138,7 +139,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -190,7 +192,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -242,7 +245,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -296,7 +300,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -350,7 +355,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -500,7 +506,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -554,7 +561,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -608,7 +616,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -760,7 +769,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -814,7 +824,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -916,7 +927,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -970,7 +982,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1024,7 +1037,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1078,7 +1092,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1132,7 +1147,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1186,7 +1202,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1240,7 +1257,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1293,7 +1311,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1347,7 +1366,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1450,7 +1470,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1504,7 +1525,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1558,7 +1580,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1612,7 +1635,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1715,7 +1739,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1915,7 +1940,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -1969,7 +1995,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2121,7 +2148,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2175,7 +2203,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2326,7 +2355,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2380,7 +2410,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2434,7 +2465,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2488,7 +2520,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2542,7 +2575,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2596,7 +2630,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2698,7 +2733,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2752,7 +2788,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2854,7 +2891,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -2907,7 +2945,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3010,7 +3049,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3064,7 +3104,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3167,7 +3208,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3221,7 +3263,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3275,7 +3318,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3329,7 +3373,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3432,7 +3477,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3486,7 +3532,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3540,7 +3587,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3643,7 +3691,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -3940,7 +3989,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -4440,7 +4490,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -4495,7 +4546,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -4544,7 +4596,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -4601,7 +4654,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -4659,7 +4713,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -4723,7 +4778,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -4775,7 +4831,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -4835,7 +4892,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -4888,7 +4946,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -4946,7 +5005,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5005,7 +5065,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5060,7 +5121,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5111,7 +5173,8 @@
         "counter_reading",
         "ecclesial_review",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -5168,7 +5231,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5227,7 +5291,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -5281,7 +5346,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5333,7 +5399,8 @@
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -5379,7 +5446,8 @@
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5432,7 +5500,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5488,7 +5557,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5539,7 +5609,8 @@
         "pastoral_safety",
         "ecclesial_review",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5596,7 +5667,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5652,7 +5724,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5704,7 +5777,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5762,7 +5836,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5819,7 +5894,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -5866,7 +5942,8 @@
         "pastoral_safety",
         "liturgical_grounding",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5926,7 +6003,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -5982,7 +6060,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6037,7 +6116,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -6089,7 +6169,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6148,7 +6229,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6201,7 +6283,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6252,7 +6335,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6299,7 +6383,8 @@
         "evidence",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6347,7 +6432,8 @@
       "promotion_blockers": [
         "evidence",
         "interpretation",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -6432,7 +6518,8 @@
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6487,7 +6574,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6543,7 +6631,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6598,7 +6687,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6653,7 +6743,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6681,7 +6772,7 @@
       "title": "Reviewed Candidate Reference Decisions Third Pass, 2026-06-04"
     },
     {
-      "confidence_tier": "reviewed_evidence_ready",
+      "confidence_tier": "developing_evidence",
       "lane": "research_documents",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
@@ -6701,7 +6792,9 @@
         "Providence And Contingency Pattern",
         "Mathematical Theophany Pattern"
       ],
-      "promotion_blockers": [],
+      "promotion_blockers": [
+        "source_check_machine_draft"
+      ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
       "review_companion_status": "",
@@ -6754,7 +6847,8 @@
         "counter_reading",
         "failure_condition",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -6803,7 +6897,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -6859,7 +6954,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -6911,7 +7007,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -6963,7 +7060,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -6987,7 +7085,7 @@
       "title": "Source Pack: Holy Spirit Gifts Pattern"
     },
     {
-      "confidence_tier": "reviewed_evidence_ready",
+      "confidence_tier": "developing_evidence",
       "lane": "research_documents",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
@@ -7004,7 +7102,9 @@
       "patterns": [
         "Image Of God Pattern"
       ],
-      "promotion_blockers": [],
+      "promotion_blockers": [
+        "source_check_machine_draft"
+      ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
       "review_companion_status": "",
@@ -7055,7 +7155,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -7107,7 +7208,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -7159,7 +7261,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -7211,7 +7314,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -7260,7 +7364,8 @@
         "pastoral_safety",
         "ecclesial_review",
         "promotion_restraint",
-        "machine_label_boundary"
+        "machine_label_boundary",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "",
       "review_companion_rules": [],
@@ -7308,7 +7413,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -7360,7 +7466,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -7463,7 +7570,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -7565,7 +7673,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -7912,7 +8021,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8112,7 +8222,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8265,7 +8376,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8324,7 +8436,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8383,7 +8496,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8438,7 +8552,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8489,7 +8604,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8541,7 +8657,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8595,7 +8712,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8647,7 +8765,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8701,7 +8820,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8757,7 +8877,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8813,7 +8934,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8865,7 +8987,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8919,7 +9042,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8973,7 +9097,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9075,7 +9200,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9276,7 +9402,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9330,7 +9457,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9384,7 +9512,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9487,7 +9616,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9541,7 +9671,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9693,7 +9824,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9796,7 +9928,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9850,7 +9983,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9904,7 +10038,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -9958,7 +10093,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -10012,7 +10148,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -10115,7 +10252,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -10218,7 +10356,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -10272,7 +10411,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -10424,7 +10564,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -10478,7 +10619,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -10532,7 +10674,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -10634,7 +10777,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -10931,7 +11075,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11034,7 +11179,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11092,7 +11238,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11152,7 +11299,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11210,7 +11358,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11266,7 +11415,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11321,7 +11471,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11375,7 +11526,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11430,7 +11582,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11481,7 +11634,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11532,7 +11686,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11586,7 +11741,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11648,7 +11804,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11701,7 +11858,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11853,7 +12011,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11907,7 +12066,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -11961,7 +12121,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12015,7 +12176,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12167,7 +12329,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12372,7 +12535,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12429,7 +12593,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12481,7 +12646,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12533,7 +12699,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12583,7 +12750,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12634,7 +12802,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12685,7 +12854,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12733,7 +12903,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12788,7 +12959,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12845,7 +13017,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -12994,7 +13167,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -13047,7 +13221,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -13148,7 +13323,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -13249,7 +13425,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -13690,7 +13867,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -13744,7 +13922,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -13799,7 +13978,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -13846,7 +14026,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -13893,7 +14074,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -13941,7 +14123,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -13993,7 +14176,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14043,7 +14227,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14096,7 +14281,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14151,7 +14337,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14253,7 +14440,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14405,7 +14593,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14459,7 +14648,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14611,7 +14801,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14665,7 +14856,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14816,7 +15008,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14919,7 +15112,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -14973,7 +15167,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -15076,7 +15271,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -15130,7 +15326,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -15181,7 +15378,8 @@
         "pastoral_safety",
         "ecclesial_review",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -15234,7 +15432,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -15483,7 +15682,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -15635,7 +15835,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -15689,7 +15890,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -15792,7 +15994,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -15895,7 +16098,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -15950,7 +16154,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16007,7 +16212,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16067,7 +16273,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16123,7 +16330,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16180,7 +16388,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16234,7 +16443,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16289,7 +16499,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16336,7 +16547,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16392,7 +16604,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16444,7 +16657,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16494,7 +16708,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16541,7 +16756,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16595,7 +16811,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16642,7 +16859,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16689,7 +16907,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16741,7 +16960,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -16793,7 +17013,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17042,7 +17263,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17096,7 +17318,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17150,7 +17373,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17201,7 +17425,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17304,7 +17529,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17406,7 +17632,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17508,7 +17735,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17562,7 +17790,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17616,7 +17845,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17719,7 +17949,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17773,7 +18004,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17879,7 +18111,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17936,7 +18169,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -17995,7 +18229,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18049,7 +18284,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18097,7 +18333,8 @@
         "ecclesial_review",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18148,7 +18385,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18199,7 +18437,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18253,7 +18492,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18304,7 +18544,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18354,7 +18595,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18504,7 +18746,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18558,7 +18801,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18612,7 +18856,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18666,7 +18911,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18720,7 +18966,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18823,7 +19070,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -18974,7 +19222,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19077,7 +19326,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19179,7 +19429,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19232,7 +19483,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19285,7 +19537,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19386,7 +19639,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19440,7 +19694,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19493,7 +19748,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19595,7 +19851,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19697,7 +19954,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19750,7 +20008,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19900,7 +20159,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -19953,7 +20213,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20006,7 +20267,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20107,7 +20369,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20160,7 +20423,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20214,7 +20478,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20268,7 +20533,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20371,7 +20637,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20473,7 +20740,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20527,7 +20795,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20632,7 +20901,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20689,7 +20959,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20748,7 +21019,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20806,7 +21078,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20864,7 +21137,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20918,7 +21192,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -20972,7 +21247,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21075,7 +21351,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21178,7 +21455,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21232,7 +21510,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21335,7 +21614,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21438,7 +21718,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21492,7 +21773,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21546,7 +21828,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21600,7 +21883,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21654,7 +21938,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21708,7 +21993,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21762,7 +22048,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21816,7 +22103,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21870,7 +22158,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21924,7 +22213,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -21978,7 +22268,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22032,7 +22323,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22135,7 +22427,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22189,7 +22482,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22292,7 +22586,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22395,7 +22690,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22449,7 +22745,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22552,7 +22849,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22606,7 +22904,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22660,7 +22959,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22714,7 +23014,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22768,7 +23069,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22822,7 +23124,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22876,7 +23179,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -22979,7 +23283,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23033,7 +23338,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23087,7 +23393,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23141,7 +23448,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23244,7 +23552,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23347,7 +23656,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23646,7 +23956,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23749,7 +24060,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23803,7 +24115,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23857,7 +24170,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23911,7 +24225,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -23965,7 +24280,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24068,7 +24384,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24170,7 +24487,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24224,7 +24542,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24327,7 +24646,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24381,7 +24701,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24435,7 +24756,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24489,7 +24811,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24596,7 +24919,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24657,7 +24981,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24717,7 +25042,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24779,7 +25105,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24839,7 +25166,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24900,7 +25228,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -24960,7 +25289,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25021,7 +25351,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25082,7 +25413,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25136,7 +25468,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25190,7 +25523,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25243,7 +25577,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25296,7 +25631,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25349,7 +25685,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25402,7 +25739,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25455,7 +25793,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25508,7 +25847,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25562,7 +25902,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25616,7 +25957,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25718,7 +26060,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -25772,7 +26115,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -26021,7 +26365,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -26220,7 +26565,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -26322,7 +26668,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -26375,7 +26722,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -26526,7 +26874,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -26726,7 +27075,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -26827,7 +27177,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -26881,7 +27232,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -26934,7 +27286,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27182,7 +27535,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27240,7 +27594,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27299,7 +27654,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27353,7 +27709,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27409,7 +27766,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27468,7 +27826,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27524,7 +27883,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27626,7 +27986,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27679,7 +28040,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27929,7 +28291,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -27983,7 +28346,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28286,7 +28650,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28342,7 +28707,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28394,7 +28760,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28495,7 +28862,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28548,7 +28916,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28601,7 +28970,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28654,7 +29024,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28707,7 +29078,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28760,7 +29132,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28861,7 +29234,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28914,7 +29288,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -28967,7 +29342,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29020,7 +29396,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29073,7 +29450,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29126,7 +29504,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29227,7 +29606,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29280,7 +29660,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29429,7 +29810,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29482,7 +29864,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29535,7 +29918,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29636,7 +30020,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29785,7 +30170,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29838,7 +30224,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29891,7 +30278,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29943,7 +30331,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -29996,7 +30385,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30049,7 +30439,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30150,7 +30541,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30203,7 +30595,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30256,7 +30649,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30309,7 +30703,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30416,7 +30811,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30473,7 +30869,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30528,7 +30925,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30583,7 +30981,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30642,7 +31041,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30701,7 +31101,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30761,7 +31162,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30817,7 +31219,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30872,7 +31275,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30927,7 +31331,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -30987,7 +31392,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31041,7 +31447,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31099,7 +31506,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31199,7 +31607,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31252,7 +31661,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31305,7 +31715,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31406,7 +31817,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31459,7 +31871,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31512,7 +31925,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31565,7 +31979,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31618,7 +32033,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31671,7 +32087,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31724,7 +32141,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31777,7 +32195,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31830,7 +32249,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31883,7 +32303,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -31936,7 +32357,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32132,7 +32554,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32185,7 +32608,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32238,7 +32662,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32291,7 +32716,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32392,7 +32818,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32445,7 +32872,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32546,7 +32974,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32605,7 +33034,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32661,7 +33091,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32717,7 +33148,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32776,7 +33208,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32832,7 +33265,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32888,7 +33322,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -32944,7 +33379,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33000,7 +33436,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33057,7 +33494,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33119,7 +33557,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33181,7 +33620,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33243,7 +33683,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33299,7 +33740,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33354,7 +33796,8 @@
         "ecclesial_review",
         "liturgical_grounding",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33406,7 +33849,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33462,7 +33906,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33520,7 +33965,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33577,7 +34023,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33635,7 +34082,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33685,7 +34133,8 @@
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33738,7 +34187,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33794,7 +34244,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33856,7 +34307,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33914,7 +34366,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -33968,7 +34421,8 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion"
+        "source_check_review_companion",
+        "source_check_machine_draft"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -34529,6 +34983,33 @@
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
       "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
+    ],
+    "source_check_machine_draft": [
+      "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
+      "research_documents/active_lane_review_conversion_2026_06_04.md",
+      "research_documents/active_lane_review_conversion_2026_06_04_second_pass.md",
+      "research_documents/active_lane_review_conversion_2026_06_04_third_pass.md",
+      "research_documents/auto_imported_cloud_candidates/a_bibliometric_analysis_of_quality_research_papers_in_islamic_finance_evidence_f_3b09e3cc57b0.md",
+      "research_documents/auto_imported_cloud_candidates/a_logic_based_typology_of_science_and_theology_31977c29359f.md",
+      "research_documents/auto_imported_cloud_candidates/a_response_to_stephen_pattison_pastoral_care_integral_to_mission_388424167146.md",
+      "research_documents/auto_imported_cloud_candidates/astrology_in_the_service_of_the_empire_knowledge_prognostication_and_politics_at_63722655ad93.md",
+      "research_documents/auto_imported_cloud_candidates/becoming_a_more_effective_instructor_using_primary_source_projects_ed4c99f35c1f.md",
+      "research_documents/auto_imported_cloud_candidates/black_gold_trustworthiness_in_artistic_research_seen_from_the_sidelines_of_arts_06f8ce09bce7.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_christian_ethics_in_health_care_6c08a304d9b8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_god_against_religion_rethinking_christian_theology_through_worship_2d67e6192ccf.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_les_rites_et_la_condition_humaine_d_apr_s_des_documents_ethnographiq_3d8668474c83.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_liberation_theology_uk_d2a5035e43d7.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_new_perspectives_on_worship_today_27880b0d1133.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_on_the_perception_of_worship_the_ethnography_of_worship_in_four_chri_f80dbee6b26c.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_truth_and_method_ad281438fd07.md",
+      "research_documents/auto_imported_cloud_candidates/brain_body_and_culture_a_biocultural_theory_of_religion_d2b6ee8b4893.md",
+      "research_documents/auto_imported_cloud_candidates/building_on_strengths_a95da0c8dd61.md",
+      "research_documents/auto_imported_cloud_candidates/cities_vs_states_should_urban_citizenship_be_emancipated_from_nationality_db1d7339b853.md",
+      "research_documents/auto_imported_cloud_candidates/cognitive_science_and_the_naturalness_of_religion_3b8690c4623e.md"
     ],
     "source_check_review_companion": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",

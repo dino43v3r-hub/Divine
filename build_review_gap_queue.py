@@ -89,7 +89,33 @@ def build_queue(audit: dict) -> list[dict]:
     return queue
 
 
-def build_markdown(audit: dict, queue: list[dict]) -> str:
+def build_machine_source_check_queue(audit: dict) -> list[dict]:
+    queue = []
+    for document in audit.get("documents", []):
+        machine_rules = document.get("machine_drafted_rules", [])
+        if not machine_rules:
+            continue
+        if document.get("machine_drafted_confidence_effect") == "source_checked_can_inform_confidence":
+            continue
+        queue.append(
+            {
+                "path": document.get("path", ""),
+                "title": document.get("title", ""),
+                "lane": document.get("lane", ""),
+                "confidence_tier": document.get("confidence_tier", "candidate_lead"),
+                "patterns": document.get("patterns", []),
+                "machine_drafted_rules": sorted(machine_rules),
+                "source_check_prompt": (
+                    "Read the original source or primary artifact directly, replace any generic machine-drafted fields "
+                    "with source-specific notes, and only then mark whether the companion can inform confidence."
+                ),
+            }
+        )
+    queue.sort(key=lambda item: (item["confidence_tier"] != "candidate_lead", item["path"]))
+    return queue
+
+
+def build_markdown(audit: dict, queue: list[dict], machine_source_check_queue: list[dict]) -> str:
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     missing_counts = Counter()
     for item in queue:
@@ -148,6 +174,32 @@ def build_markdown(audit: dict, queue: list[dict]) -> str:
     lines.extend(
         [
             "",
+            "## Machine-Drafted Source-Check Queue",
+            "",
+            f"- Items requiring source-check before trust: {len(machine_source_check_queue):,}",
+            "- Rule: machine-drafted fields organize work only; they do not raise confidence until the original source has been checked directly.",
+            "",
+        ]
+    )
+    for index, item in enumerate(machine_source_check_queue[:25], 1):
+        patterns = ", ".join(item["patterns"]) or "none detected"
+        lines.extend(
+            [
+                f"### M{index}. {item['title'] or item['path']}",
+                "",
+                f"- Path: `{item['path']}`",
+                f"- Lane: {item['lane']}",
+                f"- Current tier: {item['confidence_tier']}",
+                f"- Patterns: {patterns}",
+                f"- Machine-drafted rules: {', '.join(item['machine_drafted_rules'])}",
+                f"- Source-check prompt: {item['source_check_prompt']}",
+                "",
+            ]
+        )
+
+    lines.extend(
+        [
+            "",
             "## Highest Priority Sources",
             "",
         ]
@@ -186,14 +238,20 @@ def build_markdown(audit: dict, queue: list[dict]) -> str:
 def main() -> None:
     audit = read_json(AUDIT_PATH)
     queue = build_queue(audit)
+    machine_source_check_queue = build_machine_source_check_queue(audit)
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source_audit": AUDIT_PATH.as_posix(),
         "queue_count": len(queue),
+        "machine_source_check_count": len(machine_source_check_queue),
+        "machine_source_check_items": machine_source_check_queue,
         "items": queue,
     }
     OUTPUT_JSON_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
-    OUTPUT_MD_PATH.write_text(build_markdown(audit, queue), encoding="utf-8")
+    OUTPUT_MD_PATH.write_text(
+        build_markdown(audit, queue, machine_source_check_queue),
+        encoding="utf-8",
+    )
     print(f"Review gap queue saved to: {OUTPUT_MD_PATH}")
     print(f"Review gap queue JSON saved to: {OUTPUT_JSON_PATH}")
 

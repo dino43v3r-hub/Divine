@@ -29704,7 +29704,7 @@
       "type": "document"
     },
     {
-      "confidence_tier": "reviewed_evidence_ready",
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_reviewed_source_packs_md",
       "label": "Reviewed Source Packs",
       "lane": "research_documents",
@@ -29770,7 +29770,7 @@
       "type": "document"
     },
     {
-      "confidence_tier": "reviewed_evidence_ready",
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_source_packs_image_of_god_pattern_pack_md",
       "label": "Source Pack: Image Of God Pattern",
       "lane": "research_documents",

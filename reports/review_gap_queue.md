@@ -1,6 +1,6 @@
 # Review Gap Fill Queue
 
-_Generated: 2026-06-19 23:18 UTC_
+_Generated: 2026-06-19 23:23 UTC_
 
 This report explains why the book report says fields are missing. A field is missing when a source does not explicitly separate that review control in a way the audit can detect.
 
@@ -61,6 +61,237 @@ The system can draft these fields, but it labels them as machine-drafted until t
 - evidence: 0 reviewed companion; 2 machine-drafted; 101 still missing
 - counter_reading: 0 reviewed companion; 1 machine-drafted; 43 still missing
 - practical_use: 0 reviewed companion; 0 machine-drafted; 32 still missing
+
+## Machine-Drafted Source-Check Queue
+
+- Items requiring source-check before trust: 453
+- Rule: machine-drafted fields organize work only; they do not raise confidence until the original source has been checked directly.
+
+### M1. Comparative Text Case Notes
+
+- Path: `all_texts/comparative_text_case_notes.md`
+- Lane: all_texts
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M2. Global Text Exploration Framework
+
+- Path: `all_texts/global_text_exploration_framework.md`
+- Lane: all_texts
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M3. Text-Tradition Counter-Reading Map
+
+- Path: `all_texts/text_tradition_counterreading_map.md`
+- Lane: all_texts
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M4. Text Tradition Expansion Notes
+
+- Path: `all_texts/text_tradition_expansion_notes.md`
+- Lane: all_texts
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M5. Expanded Lexeme Balance Notes
+
+- Path: `biblical_languages/expanded_lexeme_balance_notes.md`
+- Lane: biblical_languages
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M6. Biblical Greek And Hebrew: Depth Checks
+
+- Path: `biblical_languages/greek_hebrew_depth_checks.md`
+- Lane: biblical_languages
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M7. Greek Hebrew Source Expansion Notes
+
+- Path: `biblical_languages/greek_hebrew_source_expansion_notes.md`
+- Lane: biblical_languages
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M8. Source-Specific Biblical-Language Counter-Readings
+
+- Path: `biblical_languages/source_specific_counterreadings.md`
+- Lane: biblical_languages
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M9. Source-Specific Lexeme Review Notes
+
+- Path: `biblical_languages/source_specific_lexeme_review_notes.md`
+- Lane: biblical_languages
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M10. Art Beauty Symbol
+
+- Path: `cultural_inputs/art_beauty_symbol.md`
+- Lane: cultural_inputs
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M11. Cultural Practice Balance Notes
+
+- Path: `cultural_inputs/cultural_practice_balance_notes.md`
+- Lane: cultural_inputs
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M12. Ecology Creation Care
+
+- Path: `cultural_inputs/ecology_creation_care.md`
+- Lane: cultural_inputs
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M13. Economics Work Dignity
+
+- Path: `cultural_inputs/economics_work_dignity.md`
+- Lane: cultural_inputs
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M14. Education Formation Wisdom
+
+- Path: `cultural_inputs/education_formation_wisdom.md`
+- Lane: cultural_inputs
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M15. Family Community Belonging
+
+- Path: `cultural_inputs/family_community_belonging.md`
+- Lane: cultural_inputs
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M16. Health Suffering Healing
+
+- Path: `cultural_inputs/health_suffering_healing.md`
+- Lane: cultural_inputs
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M17. Politics Justice Repair
+
+- Path: `cultural_inputs/politics_justice_repair.md`
+- Lane: cultural_inputs
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M18. Science Order Humility
+
+- Path: `cultural_inputs/science_order_humility.md`
+- Lane: cultural_inputs
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M19. Technology Ai Responsibility
+
+- Path: `cultural_inputs/technology_ai_responsibility.md`
+- Lane: cultural_inputs
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M20. Math And Physics Theorem Inventory For Pattern Testing
+
+- Path: `deep_sources/math_physics_theorem_inventory.md`
+- Lane: deep_sources
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M21. Math, Statistics, And Logic Congruence Filters
+
+- Path: `deep_sources/math_statistics_logic_congruence_filters.md`
+- Lane: deep_sources
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M22. Qualified Science Reference Review Notes
+
+- Path: `deep_sources/qualified_science_reference_review_notes.md`
+- Lane: deep_sources
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M23. Quantum And Science Claim-Limit Source Pairs
+
+- Path: `deep_sources/quantum_claim_limits_source_pairs.md`
+- Lane: deep_sources
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M24. Quantum Science Source Framework
+
+- Path: `deep_sources/quantum_science_source_framework.md`
+- Lane: deep_sources
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
+### M25. Unresolved Suffering Source Framework
+
+- Path: `deep_sources/unresolved_suffering_source_framework.md`
+- Lane: deep_sources
+- Current tier: candidate_lead
+- Patterns: none detected
+- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
+- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
+
 
 ## Highest Priority Sources
 

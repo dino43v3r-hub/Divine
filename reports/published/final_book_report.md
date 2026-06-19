@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-19 23:18 UTC_
+_Generated: 2026-06-19 23:23 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -43,8 +43,7 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 533
-- ready for human confidence review: 2
+- developing evidence: 535
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
@@ -114,8 +113,8 @@ Quantum theory, mathematics, neuroscience, and AI pattern recognition may suppor
 
 The report is strongest when it tells you exactly where confidence is blocked. Based on the current audit, the next work should be:
 
-1. Re-check the strongest ready-for-review source.
-   Confirm that its evidence, interpretation, counter-reading, failure condition, and pastoral safety are source-specific rather than generic.
+1. Move one source from `developing_evidence` to `reviewed_evidence_ready`.
+   Right now the project has 535 developing-evidence records and 0 ready-for-review records. Pick one important source connected to `Image Of God Pattern` and complete every required control by hand.
 
 2. Fill the largest explicit review gaps.
    The current biggest gaps are `liturgical_grounding` (193 missing), `ecclesial_review` (192 missing), `promotion_restraint` (192 missing), `pastoral_safety` (192 missing). These are the places where the report most needs clearer human judgment.
@@ -130,7 +129,8 @@ The report is strongest when it tells you exactly where confidence is blocked. B
    Write a short case where the pattern helps faithful practice, and another where it would become unsafe, glib, coercive, or overconfident. This keeps the report priestly instead of merely impressive.
 
 6. Source-check machine-drafted companions before trusting them.
-   The project currently has 113 candidate leads. Machine drafts can organize the work, but they should not raise confidence until the source has been directly checked.
+   The project currently has 113 candidate leads and 453 machine-drafted companion record(s) still requiring source-check. Machine drafts can organize the work, but they should not raise confidence until the source has been directly checked.
+   First machine-draft source-check item: `all_texts/comparative_text_case_notes.md`.
 
 ## Current Corpus Snapshot
 

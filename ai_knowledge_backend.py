@@ -345,6 +345,12 @@ def detect_rules(text):
 
 def confidence_tier(document):
     rules = document["rules_present"]
+    if document.get("machine_drafted_rules") and document.get(
+        "machine_drafted_confidence_effect"
+    ) != "source_checked_can_inform_confidence":
+        if rules.get("evidence") and rules.get("counter_reading"):
+            return "developing_evidence"
+        return "candidate_lead"
     if document.get("review_companion_rules") and document.get(
         "review_companion_confidence_effect"
     ) != "source_checked_can_inform_confidence":
@@ -377,6 +383,10 @@ def promotion_blockers(document):
         "review_companion_confidence_effect"
     ) != "source_checked_can_inform_confidence":
         blockers.append("source_check_review_companion")
+    if document.get("machine_drafted_rules") and document.get(
+        "machine_drafted_confidence_effect"
+    ) != "source_checked_can_inform_confidence":
+        blockers.append("source_check_machine_draft")
     return blockers
 
 

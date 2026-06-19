@@ -420,6 +420,8 @@ def next_step_lines(audit: dict, queue_payload: dict, candidate_pattern: dict) -
     developing = int(totals.get("developing_evidence", 0) or 0)
     candidate_leads = int(totals.get("candidate_lead", 0) or 0)
     queue_items = queue_payload.get("items", []) if queue_payload else []
+    machine_source_check_items = queue_payload.get("machine_source_check_items", []) if queue_payload else []
+    machine_source_check_count = int(queue_payload.get("machine_source_check_count", 0) or 0) if queue_payload else 0
     gaps = rule_gap_summary(audit, limit=4)
 
     lines = [
@@ -474,9 +476,16 @@ def next_step_lines(audit: dict, queue_payload: dict, candidate_pattern: dict) -
             "   Write a short case where the pattern helps faithful practice, and another where it would become unsafe, glib, coercive, or overconfident. This keeps the report priestly instead of merely impressive.",
             "",
             "6. Source-check machine-drafted companions before trusting them.",
-            f"   The project currently has {candidate_leads:,} candidate leads. Machine drafts can organize the work, but they should not raise confidence until the source has been directly checked.",
+            f"   The project currently has {candidate_leads:,} candidate leads and {machine_source_check_count:,} machine-drafted companion record(s) still requiring source-check. Machine drafts can organize the work, but they should not raise confidence until the source has been directly checked.",
         ]
     )
+    if machine_source_check_items:
+        top_machine = machine_source_check_items[0]
+        lines.extend(
+            [
+                f"   First machine-draft source-check item: `{top_machine.get('path', '')}`.",
+            ]
+        )
     return lines
 
 

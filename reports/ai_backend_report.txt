@@ -79,8 +79,7 @@ Confidence Tiers
 Reviewer: Are these tiers final verdicts?
 Backend: No. They sort review work. Only source-specific human decisions can promote a claim.
 - candidate_lead: 113 documents
-- developing_evidence: 533 documents
-- reviewed_evidence_ready: 2 documents
+- developing_evidence: 535 documents
 
 Promotion Rule Coverage
 -----------------------
@@ -111,6 +110,7 @@ Backend: These blockers are the most practical to-do list for researchers.
 - pastoral_safety: 25 example document(s) queued
 - practical_use: 25 example document(s) queued
 - promotion_restraint: 25 example document(s) queued
+- source_check_machine_draft: 25 example document(s) queued
 - source_check_review_companion: 25 example document(s) queued
 
 Pattern Mentions
