@@ -434,7 +434,6 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
-        "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint"
@@ -443,7 +442,6 @@
       "path": "research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md",
       "patterns": [],
       "promotion_blockers": [
-        "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
         "promotion_restraint",
@@ -454,9 +452,10 @@
         "analogy",
         "discernment",
         "failure_condition",
-        "interpretation"
+        "interpretation",
+        "pastoral_safety"
       ],
-      "review_companion_status": "metadata_reviewed_not_source_checked",
+      "review_companion_status": "doi_metadata_checked_full_text_not_retrieved",
       "review_note_count": 1,
       "rules_present": {
         "analogy": true,
@@ -468,7 +467,7 @@
         "interpretation": true,
         "liturgical_grounding": false,
         "machine_label_boundary": true,
-        "pastoral_safety": false,
+        "pastoral_safety": true,
         "practical_use": true,
         "promotion_restraint": false
       },
@@ -34234,7 +34233,6 @@
       "research_documents/auto_imported_cloud_candidates/a_logic_based_typology_of_science_and_theology_31977c29359f.md",
       "research_documents/auto_imported_cloud_candidates/a_response_to_stephen_pattison_pastoral_care_integral_to_mission_388424167146.md",
       "research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md",
-      "research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md",
       "research_documents/auto_imported_cloud_candidates/astrology_in_the_service_of_the_empire_knowledge_prognostication_and_politics_at_63722655ad93.md",
       "research_documents/auto_imported_cloud_candidates/becoming_a_more_effective_instructor_using_primary_source_projects_ed4c99f35c1f.md",
       "research_documents/auto_imported_cloud_candidates/black_gold_trustworthiness_in_artistic_research_seen_from_the_sidelines_of_arts_06f8ce09bce7.md",
@@ -34250,7 +34248,8 @@
       "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_truth_and_method_ad281438fd07.md"
     ],
     "practical_use": [
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
@@ -34459,7 +34458,6 @@
       "research_documents/auto_imported_cloud_candidates/a_logic_based_typology_of_science_and_theology_31977c29359f.md",
       "research_documents/auto_imported_cloud_candidates/a_response_to_stephen_pattison_pastoral_care_integral_to_mission_388424167146.md",
       "research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md",
-      "research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md",
       "research_documents/auto_imported_cloud_candidates/astrology_in_the_service_of_the_empire_knowledge_prognostication_and_politics_at_63722655ad93.md",
       "research_documents/auto_imported_cloud_candidates/becoming_a_more_effective_instructor_using_primary_source_projects_ed4c99f35c1f.md",
       "research_documents/auto_imported_cloud_candidates/black_gold_trustworthiness_in_artistic_research_seen_from_the_sidelines_of_arts_06f8ce09bce7.md",
@@ -34475,7 +34473,8 @@
       "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_truth_and_method_ad281438fd07.md"
     ],
     "practical_use": [
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
@@ -34641,9 +34640,9 @@
     },
     "pastoral_safety": {
       "machine_drafted": 407,
-      "missing": 193,
-      "present": 48,
-      "review_companion": 0,
+      "missing": 192,
+      "present": 49,
+      "review_companion": 1,
       "total": 648
     },
     "practical_use": {

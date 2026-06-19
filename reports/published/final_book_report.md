@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-19 22:58 UTC_
+_Generated: 2026-06-19 23:08 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -118,7 +118,7 @@ The report is strongest when it tells you exactly where confidence is blocked. B
    Confirm that its evidence, interpretation, counter-reading, failure condition, and pastoral safety are source-specific rather than generic.
 
 2. Fill the largest explicit review gaps.
-   The current biggest gaps are `liturgical_grounding` (193 missing), `pastoral_safety` (193 missing), `ecclesial_review` (192 missing), `promotion_restraint` (192 missing). These are the places where the report most needs clearer human judgment.
+   The current biggest gaps are `liturgical_grounding` (193 missing), `ecclesial_review` (192 missing), `promotion_restraint` (192 missing), `pastoral_safety` (192 missing). These are the places where the report most needs clearer human judgment.
 
 3. Start with the top item in the review queue.
    First queued source: `research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md`. Add source-checked companion notes for: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint.

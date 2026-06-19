@@ -159,3 +159,34 @@ Next review need: choose one primary lane for deeper adjudication, preferably
 Genesis 1:26-28 with Genesis 9:6, or a disability-theology/dementia pastoral
 case, and attach citations and reviewer notes before raising confidence beyond
 cautious positive theological confidence.
+
+## 2026-06-19 Hard Counter-Reading: Disability And Trauma Repair
+
+Serious rival explanation: disability studies, trauma studies, and sociology
+can explain the Image Of God signal as a human repair practice after repeated
+dehumanization rather than as evidence of a divine pattern. Communities that
+have seen people ranked by cognition, independence, beauty, race, class,
+citizenship, institutional usefulness, or bodily control may develop strong
+dignity language because they need a moral shield against exclusion. On this
+reading, the pattern's power comes from social memory, rights struggle,
+caregiver practice, disability justice, trauma repair, and resistance to
+ableist or racialized sorting. The Christian phrase "image of God" may be a
+beautiful and sometimes necessary grammar for that repair, but the recurrence
+of dignity language would not by itself show that a divine pattern is present.
+
+Why this is hard for the pattern: the rival reading does not mock dignity or
+reduce persons to biology. It agrees that people must be protected before
+performance, but it explains the urgency through historical harm and social
+repair. It also exposes a pastoral danger: image-language can comfort churches
+or institutions while disabled, traumatized, incarcerated, poor, racialized, or
+elderly people remain materially unprotected.
+
+What would weaken the Image Of God pattern: weaken the pattern if image-language
+is used mainly as inspirational language while access, consent, protection,
+repair, and shared power remain absent. Weaken it further if people with
+dementia, intellectual disability, trauma histories, poverty, incarceration, or
+communication differences are praised as "image bearers" but still excluded
+from decision-making, worship participation, care planning, safety, housing,
+medical advocacy, or institutional accountability. In those cases the rival
+explanation fits better: the language functions as symbolic repair or moral
+branding, not as a tested theological pattern producing truthful love.

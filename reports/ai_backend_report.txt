@@ -44,7 +44,7 @@ Corpus Summary
 - Indexed text documents: 648
 - Indexed media assets: 0
 - Graph nodes: 684
-- Graph edges: 5623
+- Graph edges: 5624
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
@@ -92,7 +92,7 @@ Backend: These counts show where the next review pass should focus before source
 - practical_use: 616 rule-present; 0 reviewed companion; 0 machine-drafted; 32 still missing of 648
 - counter_reading: 604 rule-present; 0 reviewed companion; 1 machine-drafted; 43 still missing of 648
 - failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 0 still missing of 648
-- pastoral_safety: 48 rule-present; 0 reviewed companion; 407 machine-drafted; 193 still missing of 648
+- pastoral_safety: 49 rule-present; 1 reviewed companion; 407 machine-drafted; 192 still missing of 648
 - ecclesial_review: 7 rule-present; 0 reviewed companion; 449 machine-drafted; 192 still missing of 648
 - liturgical_grounding: 26 rule-present; 0 reviewed companion; 429 machine-drafted; 193 still missing of 648
 - promotion_restraint: 15 rule-present; 0 reviewed companion; 441 machine-drafted; 192 still missing of 648
@@ -139,7 +139,7 @@ Backend: They tell us where the project is learning caution. Missing rules mark 
 - practical_use: 616 documents
 - counter_reading: 604 documents
 - failure_condition: 647 documents
-- pastoral_safety: 48 documents
+- pastoral_safety: 49 documents
 - ecclesial_review: 7 documents
 - liturgical_grounding: 26 documents
 - promotion_restraint: 15 documents

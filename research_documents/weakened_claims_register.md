@@ -48,3 +48,20 @@ pressure testing, and counter-readings justify a narrower version.
 - Status: `mapped_not_universal`
 - Reason: mapped categories are not source-specific coverage.
 - Narrow allowed claim: the project has a research map for future sampling.
+
+## Weakened Claim: Image Of God Language Itself Demonstrates A Divine Pattern
+
+- Status: `weakened_by_disability_and_trauma_counter_reading`
+- Reason: disability studies, trauma studies, and sociology can explain dignity
+  language as a repair practice after dehumanization, exclusion, ableist
+  sorting, racialized ranking, institutional control, or usefulness-based
+  personhood. The language may be morally necessary without functioning as
+  independent evidence of a divine pattern.
+- Narrow allowed claim: Christian theology may use Image Of God language as a
+  disciplined grammar for dignity, vocation, protection, and worship, but only
+  when it produces concrete access, consent, repair, shared power, and
+  accountable care for people most likely to be treated as disposable.
+- Weakening condition: weaken the pattern wherever people are praised as image
+  bearers while remaining excluded from decision-making, worship participation,
+  care planning, safety, housing, medical advocacy, or institutional
+  accountability.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T22:58:03.771008+00:00",
+  "generated_at": "2026-06-19T23:08:00.885866+00:00",
   "items": [
     {
       "confidence_tier": "developing_evidence",
@@ -21,27 +21,6 @@
       "patterns": [],
       "review_note_count": 1,
       "title": "Application of the PCR method to detect the falsification of sheep milk with goat milk"
-    },
-    {
-      "confidence_tier": "developing_evidence",
-      "fill_prompts": {
-        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
-        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
-        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
-        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
-      },
-      "lane": "research_documents",
-      "machine_drafted_rules": [],
-      "missing_rules": [
-        "pastoral_safety",
-        "ecclesial_review",
-        "liturgical_grounding",
-        "promotion_restraint"
-      ],
-      "path": "research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md",
-      "patterns": [],
-      "review_note_count": 1,
-      "title": "Artificial intelligence in education: From tools to agents?"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -4074,6 +4053,25 @@
       "patterns": [],
       "review_note_count": 1,
       "title": "Theology and Mental Health: New Perspectives and Dialogues"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
+        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
+        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
+      },
+      "lane": "research_documents",
+      "machine_drafted_rules": [],
+      "missing_rules": [
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "path": "research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md",
+      "patterns": [],
+      "review_note_count": 1,
+      "title": "Artificial intelligence in education: From tools to agents?"
     },
     {
       "confidence_tier": "candidate_lead",

@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 5623,
+  "edge_count": 5624,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -401,6 +401,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4",
+      "target": "rule:pastoral_safety"
     },
     {
       "relation": "satisfies_or_mentions_rule",

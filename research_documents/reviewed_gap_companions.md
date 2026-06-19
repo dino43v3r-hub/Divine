@@ -8,6 +8,18 @@ Policy: these companions reduce missing review-control counts. They do not raise
 
 ## Companion Records
 
+### Source-checked priority: Artificial intelligence in education: From tools to agents?
+
+- Path: `research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md`
+- Review status: doi_metadata_checked_full_text_not_retrieved
+- Confidence effect: does_not_raise_confidence_alone
+- Source-check note: Reviewed the local imported source record and DOI metadata route for `https://doi.org/10.4102/aosis.2025.bk564.04`. The local record identifies this as a 2026 AOSIS book chapter imported from OpenAlex metadata, source type book-chapter, with no confidence effect until manual review. DOI/Crossref/OpenAlex retrieval attempts from the workspace failed because local network clients could not retrieve TLS content, so this companion is source-checked at metadata/DOI level only and must not raise confidence until the chapter text or publisher page is directly read.
+- interpretation: The cautious theological reading is that AI education tools should be evaluated as formative mediators rather than neutral conveniences. Christian use would ask whether they serve truthfulness, humility, justice, attention, teacher responsibility, and care for learners, especially those most easily displaced or surveilled.
+- discernment: Before any public use, a reviewer should read the chapter text or publisher page, identify the author and chapter context, and test the claim with educators who understand AI policy, academic integrity, student vulnerability, data privacy, and unequal access. The key question is whether AI is forming students toward truthful learning or outsourcing judgment.
+- analogy: Treat AI agents in education as a limited comparison for delegated agency, formation, and discernment. The source can help ask how tools become actors in learning environments, but it cannot prove theological claims about personhood, wisdom, Spirit-led guidance, or moral agency.
+- failure_condition: Reject or narrow the claim if the chapter is only a general technology overview, if it does not substantially discuss agentic AI in education, if it treats efficiency as educational good without formation or equity concerns, or if later source checking shows the metadata title/DOI does not match the imported record.
+- pastoral_safety: Do not use this source to pressure teachers or students to accept AI systems as inevitable, trustworthy, or spiritually meaningful. Any pastoral or educational application must protect students from surveillance, false accusation, dependence, shame, data extraction, disability inequity, and replacement of human care.
+
 ### 1. Ancient Chinese medical ethics and the four principles of biomedical ethics.
 
 - Path: `all_texts/auto_imported_cloud_candidates/ancient_chinese_medical_ethics_and_the_four_principles_of_biomedical_ethics_0f21e7e946af.md`
