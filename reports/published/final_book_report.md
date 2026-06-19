@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-19 23:08 UTC_
+_Generated: 2026-06-19 23:18 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 

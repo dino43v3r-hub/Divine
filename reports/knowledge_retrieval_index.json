@@ -11134,7 +11134,7 @@
         },
         {
           "count": 2,
-          "score": 0.050874,
+          "score": 0.050646,
           "term": "church"
         },
         {
@@ -12768,7 +12768,7 @@
         },
         {
           "count": 2,
-          "score": 0.224547,
+          "score": 0.22354,
           "term": "church"
         },
         {
@@ -13394,7 +13394,7 @@
         },
         {
           "count": 7,
-          "score": 0.068443,
+          "score": 0.068136,
           "term": "church"
         },
         {
@@ -13871,7 +13871,7 @@
         },
         {
           "count": 3,
-          "score": 0.044818,
+          "score": 0.044609,
           "term": "project"
         },
         {
@@ -14104,7 +14104,7 @@
       "keywords": [
         {
           "count": 4,
-          "score": 0.1174,
+          "score": 0.116851,
           "term": "project"
         },
         {
@@ -14626,14 +14626,14 @@
           "term": "which"
         },
         {
-          "count": 2690,
-          "score": 0.03297,
-          "term": "you"
-        },
-        {
           "count": 2750,
           "score": 0.032891,
           "term": "upon"
+        },
+        {
+          "count": 2690,
+          "score": 0.032174,
+          "term": "you"
         },
         {
           "count": 2575,
@@ -14797,7 +14797,7 @@
         },
         {
           "count": 2,
-          "score": 0.074723,
+          "score": 0.072919,
           "term": "longer"
         },
         {
@@ -15062,7 +15062,7 @@
         },
         {
           "count": 3,
-          "score": 0.136297,
+          "score": 0.135659,
           "term": "project"
         },
         {
@@ -15092,7 +15092,7 @@
         },
         {
           "count": 2,
-          "score": 0.089203,
+          "score": 0.088803,
           "term": "church"
         },
         {
@@ -15685,7 +15685,7 @@
         },
         {
           "count": 2,
-          "score": 0.040694,
+          "score": 0.040504,
           "term": "project"
         },
         {
@@ -16700,7 +16700,7 @@
         },
         {
           "count": 4,
-          "score": 0.046548,
+          "score": 0.04633,
           "term": "project"
         },
         {
@@ -17666,7 +17666,7 @@
         },
         {
           "count": 2,
-          "score": 0.035642,
+          "score": 0.035368,
           "term": "asks"
         },
         {
@@ -18261,13 +18261,13 @@
         },
         {
           "count": 3,
-          "score": 0.025687,
+          "score": 0.025485,
           "term": "too"
         },
         {
-          "count": 2,
-          "score": 0.024856,
-          "term": "publicly"
+          "count": 3,
+          "score": 0.024737,
+          "term": "still"
         }
       ],
       "lane": "research_documents",
@@ -19221,7 +19221,7 @@
         },
         {
           "count": 4,
-          "score": 0.077986,
+          "score": 0.077637,
           "term": "church"
         },
         {
@@ -19306,7 +19306,7 @@
         },
         {
           "count": 2,
-          "score": 0.039719,
+          "score": 0.039533,
           "term": "project"
         },
         {
@@ -19963,104 +19963,104 @@
       "id": "research_documents_source_packs_image_of_god_pattern_pack_md",
       "keywords": [
         {
-          "count": 20,
-          "score": 0.075581,
+          "count": 22,
+          "score": 0.073135,
           "term": "dignity"
         },
         {
           "count": 12,
-          "score": 0.056344,
+          "score": 0.049564,
           "term": "disability"
         },
         {
-          "count": 11,
-          "score": 0.039955,
-          "term": "image"
-        },
-        {
-          "count": 10,
-          "score": 0.038018,
+          "count": 13,
+          "score": 0.043477,
           "term": "pastoral"
         },
         {
+          "count": 13,
+          "score": 0.041538,
+          "term": "image"
+        },
+        {
           "count": 8,
-          "score": 0.036733,
+          "score": 0.032313,
           "term": "genesis"
         },
         {
           "count": 8,
-          "score": 0.034057,
+          "score": 0.029959,
           "term": "weaken"
         },
         {
+          "count": 8,
+          "score": 0.029017,
+          "term": "person"
+        },
+        {
           "count": 7,
-          "score": 0.031804,
+          "score": 0.027977,
           "term": "rights"
         },
         {
+          "count": 6,
+          "score": 0.026452,
+          "term": "usefulness"
+        },
+        {
+          "count": 6,
+          "score": 0.026075,
+          "term": "protects"
+        },
+        {
           "count": 5,
-          "score": 0.029449,
+          "score": 0.025906,
           "term": "incarceration"
         },
         {
           "count": 10,
-          "score": 0.029337,
+          "score": 0.025807,
           "term": "repair"
         },
         {
           "count": 9,
-          "score": 0.028968,
+          "score": 0.025482,
           "term": "interpretation"
         },
         {
           "count": 6,
-          "score": 0.028172,
+          "score": 0.024782,
           "term": "personhood"
         },
         {
           "count": 6,
-          "score": 0.026719,
+          "score": 0.023504,
           "term": "discourse"
         },
         {
           "count": 5,
-          "score": 0.026308,
+          "score": 0.023143,
           "term": "productivity"
         },
         {
           "count": 5,
-          "score": 0.026308,
+          "score": 0.023143,
           "term": "dementia"
         },
         {
           "count": 9,
-          "score": 0.026052,
+          "score": 0.022917,
           "term": "theological"
         },
         {
           "count": 6,
-          "score": 0.025543,
+          "score": 0.022469,
           "term": "vocation"
         },
         {
-          "count": 5,
-          "score": 0.025059,
-          "term": "usefulness"
-        },
-        {
-          "count": 4,
-          "score": 0.024315,
-          "term": "dalit"
-        },
-        {
-          "count": 8,
-          "score": 0.023234,
-          "term": "may"
-        },
-        {
-          "count": 9,
-          "score": 0.022803,
-          "term": "christian"
+          "count": 7,
+          "score": 0.021682,
+          "term": "than"
         }
       ],
       "lane": "research_documents",
@@ -20099,7 +20099,7 @@
       },
       "sidecar_paths": [],
       "title": "Source Pack: Image Of God Pattern",
-      "word_count": 1388
+      "word_count": 1589
     },
     {
       "confidence_tier": "developing_evidence",
@@ -20136,14 +20136,14 @@
           "term": "practices"
         },
         {
-          "count": 2,
-          "score": 0.062183,
-          "term": "grace"
-        },
-        {
           "count": 3,
           "score": 0.062161,
           "term": "christian"
+        },
+        {
+          "count": 2,
+          "score": 0.06181,
+          "term": "grace"
         },
         {
           "count": 2,
@@ -22804,7 +22804,7 @@
         },
         {
           "count": 1,
-          "score": 0.040948,
+          "score": 0.040246,
           "term": "like"
         },
         {
@@ -24505,13 +24505,13 @@
         },
         {
           "count": 2,
-          "score": 0.024089,
-          "term": "waiting"
+          "score": 0.023563,
+          "term": "wilderness"
         },
         {
           "count": 2,
           "score": 0.023563,
-          "term": "wilderness"
+          "term": "waiting"
         },
         {
           "count": 2,
@@ -25275,7 +25275,7 @@
         {
           "count": 1,
           "score": 0.034597,
-          "term": "settings"
+          "term": "matthean"
         }
       ],
       "lane": "biblical_languages",
@@ -26914,7 +26914,7 @@
         },
         {
           "count": 1,
-          "score": 0.025637,
+          "score": 0.025522,
           "term": "church"
         },
         {
@@ -31991,13 +31991,13 @@
         },
         {
           "count": 2,
-          "score": 0.045053,
-          "term": "family"
+          "score": 0.044707,
+          "term": "indigenous"
         },
         {
           "count": 2,
           "score": 0.044707,
-          "term": "indigenous"
+          "term": "family"
         },
         {
           "count": 2,
@@ -35556,7 +35556,7 @@
         },
         {
           "count": 2,
-          "score": 0.043348,
+          "score": 0.043015,
           "term": "family"
         },
         {
@@ -38089,7 +38089,7 @@
         },
         {
           "count": 1,
-          "score": 0.042668,
+          "score": 0.041937,
           "term": "like"
         },
         {
@@ -43211,7 +43211,7 @@
         },
         {
           "count": 1,
-          "score": 0.025437,
+          "score": 0.025323,
           "term": "church"
         },
         {
@@ -44677,7 +44677,7 @@
         },
         {
           "count": 2,
-          "score": 0.034638,
+          "score": 0.034482,
           "term": "church"
         },
         {
@@ -45977,7 +45977,7 @@
         },
         {
           "count": 3,
-          "score": 0.067832,
+          "score": 0.067528,
           "term": "church"
         },
         {
@@ -46007,7 +46007,7 @@
         },
         {
           "count": 2,
-          "score": 0.050955,
+          "score": 0.05065,
           "term": "grace"
         },
         {
@@ -46330,7 +46330,7 @@
         },
         {
           "count": 2,
-          "score": 0.045575,
+          "score": 0.045302,
           "term": "grace"
         },
         {
@@ -46802,13 +46802,13 @@
         },
         {
           "count": 4,
-          "score": 0.02454,
-          "term": "grace"
+          "score": 0.024393,
+          "term": "rather"
         },
         {
           "count": 4,
           "score": 0.024393,
-          "term": "rather"
+          "term": "grace"
         },
         {
           "count": 3,
@@ -46967,7 +46967,7 @@
         },
         {
           "count": 3,
-          "score": 0.025776,
+          "score": 0.025621,
           "term": "grace"
         },
         {
@@ -47187,7 +47187,7 @@
         },
         {
           "count": 7,
-          "score": 0.030142,
+          "score": 0.029962,
           "term": "grace"
         },
         {
@@ -47400,7 +47400,7 @@
         },
         {
           "count": 5,
-          "score": 0.017949,
+          "score": 0.017868,
           "term": "church"
         },
         {
@@ -47488,7 +47488,7 @@
         },
         {
           "count": 6,
-          "score": 0.031402,
+          "score": 0.031214,
           "term": "grace"
         },
         {
@@ -48077,7 +48077,7 @@
         },
         {
           "count": 6,
-          "score": 0.047646,
+          "score": 0.047361,
           "term": "grace"
         },
         {
@@ -49345,7 +49345,7 @@
         },
         {
           "count": 1,
-          "score": 0.026257,
+          "score": 0.02614,
           "term": "church"
         },
         {
@@ -50184,12 +50184,12 @@
         {
           "count": 1,
           "score": 0.034726,
-          "term": "return"
+          "term": "classical"
         },
         {
           "count": 1,
-          "score": 0.034726,
-          "term": "classical"
+          "score": 0.034348,
+          "term": "return"
         },
         {
           "count": 1,
@@ -50315,7 +50315,7 @@
         },
         {
           "count": 5,
-          "score": 0.087998,
+          "score": 0.087603,
           "term": "church"
         },
         {
@@ -50953,7 +50953,7 @@
         },
         {
           "count": 1,
-          "score": 0.027593,
+          "score": 0.027469,
           "term": "church"
         },
         {
@@ -51369,12 +51369,12 @@
         {
           "count": 2,
           "score": 0.070546,
-          "term": "return"
+          "term": "institutions"
         },
         {
           "count": 2,
-          "score": 0.070546,
-          "term": "institutions"
+          "score": 0.069778,
+          "term": "return"
         },
         {
           "count": 2,
@@ -51704,13 +51704,13 @@
         },
         {
           "count": 1,
-          "score": 0.077881,
-          "term": "longer"
+          "score": 0.076,
+          "term": "looks"
         },
         {
           "count": 1,
           "score": 0.076,
-          "term": "looks"
+          "term": "longer"
         },
         {
           "count": 1,
@@ -51833,7 +51833,7 @@
         },
         {
           "count": 7,
-          "score": 0.034273,
+          "score": 0.034119,
           "term": "church"
         },
         {
@@ -52004,7 +52004,7 @@
         },
         {
           "count": 7,
-          "score": 0.033566,
+          "score": 0.033416,
           "term": "church"
         },
         {
@@ -52116,7 +52116,7 @@
         },
         {
           "count": 8,
-          "score": 0.045778,
+          "score": 0.045572,
           "term": "church"
         },
         {
@@ -52429,7 +52429,7 @@
         },
         {
           "count": 8,
-          "score": 0.034454,
+          "score": 0.0343,
           "term": "church"
         },
         {
@@ -52570,7 +52570,7 @@
         },
         {
           "count": 12,
-          "score": 0.05419,
+          "score": 0.053947,
           "term": "church"
         },
         {
@@ -52773,7 +52773,7 @@
         },
         {
           "count": 2,
-          "score": 0.043417,
+          "score": 0.043157,
           "term": "grace"
         },
         {
@@ -65994,7 +65994,7 @@
         },
         {
           "count": 1,
-          "score": 0.037139,
+          "score": 0.036719,
           "term": "system"
         },
         {
@@ -67028,7 +67028,7 @@
         },
         {
           "count": 1,
-          "score": 0.03703,
+          "score": 0.036553,
           "term": "truth-telling"
         },
         {
@@ -70169,7 +70169,7 @@
         },
         {
           "count": 1,
-          "score": 0.038866,
+          "score": 0.038365,
           "term": "making"
         },
         {
@@ -71124,7 +71124,7 @@
         },
         {
           "count": 1,
-          "score": 0.136043,
+          "score": 0.134826,
           "term": "serve"
         },
         {
@@ -71225,7 +71225,7 @@
         },
         {
           "count": 2,
-          "score": 0.229126,
+          "score": 0.227367,
           "term": "family"
         },
         {
@@ -71255,7 +71255,7 @@
         },
         {
           "count": 1,
-          "score": 0.131002,
+          "score": 0.129457,
           "term": "patience"
         },
         {
@@ -71429,7 +71429,7 @@
         },
         {
           "count": 1,
-          "score": 0.134855,
+          "score": 0.133265,
           "term": "patience"
         },
         {
@@ -71540,7 +71540,7 @@
         },
         {
           "count": 1,
-          "score": 0.141783,
+          "score": 0.138359,
           "term": "anger"
         },
         {
@@ -71894,7 +71894,7 @@
         },
         {
           "count": 1,
-          "score": 0.110512,
+          "score": 0.109261,
           "term": "system"
         },
         {
@@ -78929,7 +78929,7 @@
         },
         {
           "count": 2,
-          "score": 0.043822,
+          "score": 0.043486,
           "term": "family"
         },
         {
@@ -88950,7 +88950,7 @@
         },
         {
           "count": 3,
-          "score": 0.054678,
+          "score": 0.054258,
           "term": "family"
         },
         {
@@ -89151,17 +89151,17 @@
         {
           "count": 1,
           "score": 0.058825,
-          "term": "receives"
-        },
-        {
-          "count": 1,
-          "score": 0.058825,
           "term": "calls"
         },
         {
           "count": 1,
           "score": 0.057404,
           "term": "whose"
+        },
+        {
+          "count": 1,
+          "score": 0.057404,
+          "term": "receives"
         },
         {
           "count": 1,
@@ -89580,7 +89580,7 @@
         },
         {
           "count": 1,
-          "score": 0.026964,
+          "score": 0.026838,
           "term": "project"
         },
         {
@@ -91559,12 +91559,12 @@
         {
           "count": 1,
           "score": 0.03458,
-          "term": "making"
+          "term": "information"
         },
         {
           "count": 1,
-          "score": 0.03458,
-          "term": "information"
+          "score": 0.034134,
+          "term": "making"
         },
         {
           "count": 1,
@@ -93329,7 +93329,7 @@
         },
         {
           "count": 1,
-          "score": 0.034068,
+          "score": 0.033682,
           "term": "system"
         },
         {
@@ -93440,7 +93440,7 @@
         },
         {
           "count": 2,
-          "score": 0.102813,
+          "score": 0.102024,
           "term": "family"
         },
         {
@@ -93583,7 +93583,7 @@
         },
         {
           "count": 2,
-          "score": 0.101551,
+          "score": 0.099811,
           "term": "like"
         },
         {
@@ -93821,7 +93821,7 @@
         {
           "count": 1,
           "score": 0.084347,
-          "term": "serve"
+          "term": "real"
         }
       ],
       "lane": "pattern_tests",
@@ -94567,7 +94567,7 @@
         },
         {
           "count": 1,
-          "score": 0.102813,
+          "score": 0.102024,
           "term": "asks"
         },
         {
@@ -94725,11 +94725,6 @@
         },
         {
           "count": 1,
-          "score": 0.065053,
-          "term": "leaders"
-        },
-        {
-          "count": 1,
           "score": 0.063482,
           "term": "weaponized"
         },
@@ -94737,6 +94732,11 @@
           "count": 1,
           "score": 0.063482,
           "term": "reputation"
+        },
+        {
+          "count": 1,
+          "score": 0.063482,
+          "term": "money"
         }
       ],
       "lane": "pattern_tests",
@@ -95738,13 +95738,13 @@
         },
         {
           "count": 3,
-          "score": 0.048701,
-          "term": "family"
+          "score": 0.048327,
+          "term": "person"
         },
         {
           "count": 3,
           "score": 0.048327,
-          "term": "person"
+          "term": "family"
         },
         {
           "count": 4,
@@ -96983,7 +96983,7 @@
         },
         {
           "count": 1,
-          "score": 0.115198,
+          "score": 0.112416,
           "term": "receives"
         },
         {
@@ -98101,7 +98101,7 @@
     "anger": [
       {
         "document_id": "cultural_inputs_politics_justice_repair_md",
-        "score": 0.141783
+        "score": 0.138359
       }
     ],
     "anglican": [
@@ -101417,43 +101417,43 @@
     "church": [
       {
         "document_id": "research_documents_auto_imported_cloud_candidates_the_church_of_god_is_convoked_in_synod_an_evaluation_of_the_synodal_pr",
-        "score": 0.050874
+        "score": 0.050646
       },
       {
         "document_id": "research_documents_christian_sources_apostles_creed_church_hymnary_wikisource_txt",
-        "score": 0.224547
+        "score": 0.22354
       },
       {
         "document_id": "research_documents_sacramental_liturgical_grounding_md",
-        "score": 0.077986
+        "score": 0.077637
       },
       {
         "document_id": "theologians_cross_era_theologian_framework_md",
-        "score": 0.067832
+        "score": 0.067528
       },
       {
         "document_id": "history_inputs_auto_imported_cloud_candidates_providential_empire_the_established_church_of_england_and_the_nineteenth_c",
-        "score": 0.087998
+        "score": 0.087603
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.034273
+        "score": 0.034119
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_06_01_md",
-        "score": 0.033566
+        "score": 0.033416
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.045778
+        "score": 0.045572
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_06_04_second_pass_md",
-        "score": 0.034454
+        "score": 0.0343
       },
       {
         "document_id": "history_inputs_reviewed_growth_batch_2026_06_04_third_pass_md",
-        "score": 0.05419
+        "score": 0.053947
       }
     ],
     "churches": [
@@ -104843,7 +104843,7 @@
     "dignity": [
       {
         "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.075581
+        "score": 0.073135
       },
       {
         "document_id": "cultural_inputs_auto_imported_cloud_candidates_book_review_on_human_dignity_political_theology_and_ethics_2ceb76ad00ea_m",
@@ -104899,7 +104899,7 @@
     "disability": [
       {
         "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.056344
+        "score": 0.049564
       },
       {
         "document_id": "cultural_inputs_auto_imported_cloud_candidates_disability_in_a_human_rights_context_e156a2e323f1_md",
@@ -107421,23 +107421,23 @@
     "family": [
       {
         "document_id": "all_texts_global_text_exploration_framework_md",
-        "score": 0.043348
+        "score": 0.043015
       },
       {
         "document_id": "cultural_inputs_family_community_belonging_md",
-        "score": 0.229126
+        "score": 0.227367
       },
       {
         "document_id": "pattern_tests_absent_repair_extreme_pressure_cases_md",
-        "score": 0.054678
+        "score": 0.054258
       },
       {
         "document_id": "pattern_tests_child_loss_lament_test_md",
-        "score": 0.102813
+        "score": 0.102024
       },
       {
         "document_id": "pattern_tests_no_repair_case_studies_expansion_md",
-        "score": 0.048701
+        "score": 0.048327
       }
     ],
     "fampra": [
@@ -108145,7 +108145,7 @@
     "genesis": [
       {
         "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.036733
+        "score": 0.032313
       },
       {
         "document_id": "biblical_languages_reviewed_growth_batch_2026_06_04_md",
@@ -108441,23 +108441,23 @@
     "grace": [
       {
         "document_id": "research_documents_source_packs_other_religious_comparative_witness_pack_md",
-        "score": 0.062183
+        "score": 0.06181
       },
       {
         "document_id": "theologians_cross_era_theologian_framework_md",
-        "score": 0.050955
+        "score": 0.05065
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_05_27_md",
-        "score": 0.030142
+        "score": 0.029962
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_01_followup_md",
-        "score": 0.031402
+        "score": 0.031214
       },
       {
         "document_id": "theologians_source_specific_theologian_review_notes_md",
-        "score": 0.047646
+        "score": 0.047361
       }
     ],
     "grammar": [
@@ -109929,7 +109929,7 @@
     "image": [
       {
         "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.039955
+        "score": 0.041538
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_04_md",
@@ -110040,12 +110040,6 @@
       {
         "document_id": "visual_art_auto_imported_cloud_candidates_harmony_149a789a23a6_md",
         "score": 0.047099
-      }
-    ],
-    "incarceration": [
-      {
-        "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.029449
       }
     ],
     "incarnation": [
@@ -110760,10 +110754,6 @@
       {
         "document_id": "research_documents_gold_standard_corpus_plan_md",
         "score": 0.04706
-      },
-      {
-        "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.028968
       },
       {
         "document_id": "research_documents_source_packs_other_religious_comparative_witness_pack_md",
@@ -112247,15 +112237,15 @@
     "like": [
       {
         "document_id": "biblical_languages_auto_imported_cloud_candidates_just_like_puericide_b2262304a8b5_md",
-        "score": 0.040948
+        "score": 0.040246
       },
       {
         "document_id": "other_religious_texts_auto_imported_cloud_candidates_explaining_religious_experiences_like_dreams_70138e58faa8_md",
-        "score": 0.042668
+        "score": 0.041937
       },
       {
         "document_id": "pattern_tests_chronic_illness_no_resolution_test_md",
-        "score": 0.101551
+        "score": 0.099811
       }
     ],
     "likelihood": [
@@ -112554,12 +112544,6 @@
         "score": 0.040215
       }
     ],
-    "longer": [
-      {
-        "document_id": "history_inputs_history_memory_and_repair_md",
-        "score": 0.077881
-      }
-    ],
     "longing": [
       {
         "document_id": "research_documents_source_packs_other_religious_comparative_witness_pack_md",
@@ -112576,6 +112560,10 @@
       {
         "document_id": "research_documents_christian_sources_divine_pattern_finder_design_md",
         "score": 0.261096
+      },
+      {
+        "document_id": "history_inputs_history_memory_and_repair_md",
+        "score": 0.076
       }
     ],
     "lord": [
@@ -112733,7 +112721,7 @@
     "making": [
       {
         "document_id": "cultural_inputs_auto_imported_cloud_candidates_using_the_new_acm_code_of_ethics_in_decision_making_31815a037064_md",
-        "score": 0.038866
+        "score": 0.038365
       }
     ],
     "man": [
@@ -118237,7 +118225,7 @@
       },
       {
         "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.038018
+        "score": 0.043477
       },
       {
         "document_id": "theologians_reviewed_growth_batch_2026_06_01_md",
@@ -118277,7 +118265,7 @@
     "patience": [
       {
         "document_id": "cultural_inputs_family_community_belonging_md",
-        "score": 0.131002
+        "score": 0.129457
       }
     ],
     "patients": [
@@ -118459,6 +118447,10 @@
       }
     ],
     "person": [
+      {
+        "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
+        "score": 0.029017
+      },
       {
         "document_id": "psychology_inputs_pattern_perception_vs_divine_pattern_response_md",
         "score": 0.050795
@@ -119517,11 +119509,11 @@
     "project": [
       {
         "document_id": "research_documents_christian_sources_hypothesis_review_rules_md",
-        "score": 0.1174
+        "score": 0.116851
       },
       {
         "document_id": "research_documents_external_review_protocol_md",
-        "score": 0.046548
+        "score": 0.04633
       }
     ],
     "projects": [
@@ -119650,6 +119642,12 @@
       {
         "document_id": "pattern_tests_spiritual_abuse_and_injustice_test_md",
         "score": 0.085815
+      }
+    ],
+    "protects": [
+      {
+        "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
+        "score": 0.026075
       }
     ],
     "protest": [
@@ -120445,7 +120443,7 @@
     "receives": [
       {
         "document_id": "pattern_tests_unresolved_suffering_test_md",
-        "score": 0.115198
+        "score": 0.112416
       }
     ],
     "reception": [
@@ -121120,10 +121118,6 @@
     ],
     "repair": [
       {
-        "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.029337
-      },
-      {
         "document_id": "world_languages_cross_cultural_translation_balance_notes_md",
         "score": 0.056621
       },
@@ -121701,11 +121695,11 @@
     "return": [
       {
         "document_id": "history_inputs_auto_imported_cloud_candidates_militant_piety_in_21st_century_orthodox_christianity_return_to_classical_t",
-        "score": 0.034726
+        "score": 0.034348
       },
       {
         "document_id": "history_inputs_case_study_history_pressure_notes_md",
-        "score": 0.070546
+        "score": 0.069778
       }
     ],
     "reunificat": [
@@ -121863,7 +121857,7 @@
     "rights": [
       {
         "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.031804
+        "score": 0.027977
       },
       {
         "document_id": "cultural_inputs_auto_imported_cloud_candidates_disability_in_a_human_rights_context_e156a2e323f1_md",
@@ -126317,7 +126311,7 @@
     "truth-telling": [
       {
         "document_id": "cultural_inputs_auto_imported_cloud_candidates_indigenous_storytelling_truth_telling_and_community_approaches_to_reconci",
-        "score": 0.03703
+        "score": 0.036553
       }
     ],
     "truthfully": [
@@ -126681,6 +126675,10 @@
       }
     ],
     "usefulness": [
+      {
+        "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
+        "score": 0.026452
+      },
       {
         "document_id": "pattern_tests_top_five_pattern_competition_matrix_md",
         "score": 0.040986
@@ -127487,7 +127485,7 @@
     "weaken": [
       {
         "document_id": "research_documents_source_packs_image_of_god_pattern_pack_md",
-        "score": 0.034057
+        "score": 0.029959
       },
       {
         "document_id": "pattern_tests_leading_patterns_pressure_2026_06_04_md",

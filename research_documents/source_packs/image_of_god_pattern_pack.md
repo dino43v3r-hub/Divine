@@ -190,3 +190,25 @@ from decision-making, worship participation, care planning, safety, housing,
 medical advocacy, or institutional accountability. In those cases the rival
 explanation fits better: the language functions as symbolic repair or moral
 branding, not as a tested theological pattern producing truthful love.
+
+## 2026-06-19 Pastoral Practice Case Pair
+
+Pastoral use case: the pattern helps faithful practice when a church receives a
+newly disabled parent who can no longer serve, drive, or speak quickly in group
+settings. The congregation treats the person's dignity as already given rather
+than waiting for usefulness to return: it slows meetings, asks consent before
+helping, provides rides without making the person feel like a project, adapts
+worship participation, supports the family caregiver, and lets lament and anger
+be spoken without correcting them too quickly. In that setting, Image Of God
+language becomes practical theology because it protects access, patience,
+belonging, and shared agency.
+
+Pastoral rejection case: reject the pattern's use when leaders tell an abused
+or traumatized person, "You bear God's image, so forgive, reconcile, and show
+grace," while the unsafe person still has access, the institution avoids
+accountability, or the harmed person is pressured to provide inspiring
+testimony. That use is unsafe, glib, coercive, and overconfident. It turns
+dignity into a demand for spiritual performance and protects the system more
+than the vulnerable person. In that setting the faithful practice is safety,
+truth-telling, outside reporting, trauma-informed care, and freedom from
+pressure to forgive publicly or return to danger.
