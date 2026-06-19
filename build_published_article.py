@@ -395,21 +395,22 @@ def rule_coverage_lines(audit: dict) -> list[str]:
         if not values:
             continue
         lines.append(
-            f"- {rule}: {int(values.get('present', 0)):,} explicit; {int(values.get('machine_drafted', 0)):,} machine-drafted; {int(values.get('missing', 0)):,} still missing of {int(values.get('total', 0)):,}"
+            f"- {rule}: {int(values.get('present', 0)):,} rule-present; {int(values.get('review_companion', 0)):,} reviewed companion; {int(values.get('machine_drafted', 0)):,} machine-drafted; {int(values.get('missing', 0)):,} still missing of {int(values.get('total', 0)):,}"
         )
     return lines or ["- No promotion-rule coverage values found."]
 
 
-def rule_gap_summary(audit: dict, limit: int = 5) -> list[tuple[str, int, int, int]]:
+def rule_gap_summary(audit: dict, limit: int = 5) -> list[tuple[str, int, int, int, int]]:
     coverage = audit.get("rule_coverage", {}) if audit else {}
     rows = []
     for rule, values in coverage.items():
         missing = int(values.get("missing", 0) or 0)
         machine_drafted = int(values.get("machine_drafted", 0) or 0)
+        review_companion = int(values.get("review_companion", 0) or 0)
         present = int(values.get("present", 0) or 0)
-        if missing or machine_drafted:
-            rows.append((rule, missing, machine_drafted, present))
-    rows.sort(key=lambda item: (item[1], item[2], -item[3], item[0]), reverse=True)
+        if missing or machine_drafted or review_companion:
+            rows.append((rule, missing, machine_drafted, review_companion, present))
+    rows.sort(key=lambda item: (item[1], item[2] + item[3], -item[4], item[0]), reverse=True)
     return rows[:limit]
 
 
@@ -444,7 +445,7 @@ def next_step_lines(audit: dict, queue_payload: dict, candidate_pattern: dict) -
         )
 
     if gaps:
-        gap_text = ", ".join(f"`{rule}` ({missing:,} missing)" for rule, missing, _, _ in gaps)
+        gap_text = ", ".join(f"`{rule}` ({missing:,} missing)" for rule, missing, _, _, _ in gaps)
         lines.extend(
             [
                 "2. Fill the largest explicit review gaps.",
@@ -1429,7 +1430,7 @@ def build_short_article() -> str:
         "",
         *rule_coverage_lines(review_audit)[:5],
         "",
-        "The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.",
+        "The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Reviewed companions now close the named tracking gaps; they still do not raise confidence unless the original source is checked.",
         "",
         "The system now writes a gap-fill queue here:",
         "",

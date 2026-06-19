@@ -44,7 +44,7 @@ Corpus Summary
 - Indexed text documents: 648
 - Indexed media assets: 0
 - Graph nodes: 684
-- Graph edges: 3524
+- Graph edges: 5623
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
@@ -54,7 +54,7 @@ Reviewer: Which leading patterns are showing up most often?
 Backend: Image Of God Pattern (10), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
 
 Reviewer: Which review rules are most visible?
-Backend: practical_use (616), counter_reading (604), evidence (545), machine_label_boundary (478).
+Backend: discernment (648), analogy (648), failure_condition (647), interpretation (646).
 
 Lane Coverage
 -------------
@@ -85,34 +85,33 @@ Backend: No. They sort review work. Only source-specific human decisions can pro
 Promotion Rule Coverage
 -----------------------
 Backend: These counts show where the next review pass should focus before sources strengthen claims.
-- evidence: 545 explicit; 2 machine-drafted; 101 still missing of 648
-- interpretation: 34 explicit; 2 machine-drafted; 612 still missing of 648
-- discernment: 307 explicit; 0 machine-drafted; 341 still missing of 648
-- analogy: 53 explicit; 0 machine-drafted; 595 still missing of 648
-- practical_use: 616 explicit; 0 machine-drafted; 32 still missing of 648
-- counter_reading: 604 explicit; 1 machine-drafted; 43 still missing of 648
-- failure_condition: 96 explicit; 1 machine-drafted; 551 still missing of 648
-- pastoral_safety: 48 explicit; 407 machine-drafted; 193 still missing of 648
-- ecclesial_review: 7 explicit; 449 machine-drafted; 192 still missing of 648
-- liturgical_grounding: 26 explicit; 429 machine-drafted; 193 still missing of 648
-- promotion_restraint: 15 explicit; 441 machine-drafted; 192 still missing of 648
-- machine_label_boundary: 478 explicit; 2 machine-drafted; 168 still missing of 648
+- evidence: 545 rule-present; 0 reviewed companion; 2 machine-drafted; 101 still missing of 648
+- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 0 still missing of 648
+- discernment: 648 rule-present; 341 reviewed companion; 0 machine-drafted; 0 still missing of 648
+- analogy: 648 rule-present; 595 reviewed companion; 0 machine-drafted; 0 still missing of 648
+- practical_use: 616 rule-present; 0 reviewed companion; 0 machine-drafted; 32 still missing of 648
+- counter_reading: 604 rule-present; 0 reviewed companion; 1 machine-drafted; 43 still missing of 648
+- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 0 still missing of 648
+- pastoral_safety: 48 rule-present; 0 reviewed companion; 407 machine-drafted; 193 still missing of 648
+- ecclesial_review: 7 rule-present; 0 reviewed companion; 449 machine-drafted; 192 still missing of 648
+- liturgical_grounding: 26 rule-present; 0 reviewed companion; 429 machine-drafted; 193 still missing of 648
+- promotion_restraint: 15 rule-present; 0 reviewed companion; 441 machine-drafted; 192 still missing of 648
+- machine_label_boundary: 478 rule-present; 0 reviewed companion; 2 machine-drafted; 168 still missing of 648
 
 Promotion Blockers
 ------------------
 Backend: These blockers are the most practical to-do list for researchers.
-- analogy: 25 example document(s) queued
 - counter_reading: 25 example document(s) queued
-- discernment: 25 example document(s) queued
 - ecclesial_review: 25 example document(s) queued
 - evidence: 25 example document(s) queued
-- failure_condition: 25 example document(s) queued
-- interpretation: 25 example document(s) queued
+- failure_condition: 1 example document(s) queued
+- interpretation: 2 example document(s) queued
 - liturgical_grounding: 25 example document(s) queued
 - machine_label_boundary: 25 example document(s) queued
 - pastoral_safety: 25 example document(s) queued
 - practical_use: 25 example document(s) queued
 - promotion_restraint: 25 example document(s) queued
+- source_check_review_companion: 25 example document(s) queued
 
 Pattern Mentions
 ----------------
@@ -134,12 +133,12 @@ Reviewer: What do the review-rule counts tell us?
 Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.
 
 - evidence: 545 documents
-- interpretation: 34 documents
-- discernment: 307 documents
-- analogy: 53 documents
+- interpretation: 646 documents
+- discernment: 648 documents
+- analogy: 648 documents
 - practical_use: 616 documents
 - counter_reading: 604 documents
-- failure_condition: 96 documents
+- failure_condition: 647 documents
 - pastoral_safety: 48 documents
 - ecclesial_review: 7 documents
 - liturgical_grounding: 26 documents

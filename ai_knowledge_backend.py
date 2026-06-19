@@ -15,6 +15,8 @@ MULTIMODAL_MANIFEST_PATH = REPORTS_DIR / "multimodal_review_manifest.json"
 REPORT_PATH = REPORTS_DIR / "ai_backend_report.txt"
 MACHINE_DRAFTED_COMPANIONS_PATH = RESEARCH_DIR / "machine_drafted_review_companions.json"
 MACHINE_DRAFTED_COMPANIONS_MD_PATH = RESEARCH_DIR / "machine_drafted_review_companions.md"
+REVIEWED_GAP_COMPANIONS_PATH = RESEARCH_DIR / "reviewed_gap_companions.json"
+REVIEWED_GAP_COMPANIONS_MD_PATH = RESEARCH_DIR / "reviewed_gap_companions.md"
 
 TEXT_EXTENSIONS = {".md", ".txt"}
 IMAGE_EXTENSIONS = {".avif", ".bmp", ".gif", ".jpeg", ".jpg", ".png", ".tif", ".tiff", ".webp"}
@@ -24,6 +26,8 @@ SUPPORTED_EXTENSIONS = TEXT_EXTENSIONS | IMAGE_EXTENSIONS | VIDEO_EXTENSIONS | A
 EXCLUDED_INDEX_PATHS = {
     MACHINE_DRAFTED_COMPANIONS_PATH,
     MACHINE_DRAFTED_COMPANIONS_MD_PATH,
+    REVIEWED_GAP_COMPANIONS_PATH,
+    REVIEWED_GAP_COMPANIONS_MD_PATH,
 }
 
 SOURCE_LANES = {
@@ -222,6 +226,21 @@ def load_machine_drafted_companions():
     return companions
 
 
+def load_reviewed_gap_companions():
+    payload = read_json(REVIEWED_GAP_COMPANIONS_PATH)
+    companions = {}
+    for item in payload.get("companions", []):
+        path = item.get("path")
+        fields = item.get("reviewed_fields", {})
+        if path and isinstance(fields, dict):
+            companions[path] = {
+                "review_status": item.get("review_status", "metadata_reviewed_not_source_checked"),
+                "confidence_effect": item.get("confidence_effect", "does_not_raise_confidence_alone"),
+                "fields": fields,
+            }
+    return companions
+
+
 def iter_documents():
     seen = set()
     for lane, directory in SOURCE_LANES.items():
@@ -326,6 +345,12 @@ def detect_rules(text):
 
 def confidence_tier(document):
     rules = document["rules_present"]
+    if document.get("review_companion_rules") and document.get(
+        "review_companion_confidence_effect"
+    ) != "source_checked_can_inform_confidence":
+        if rules.get("evidence") and rules.get("counter_reading"):
+            return "developing_evidence"
+        return "candidate_lead"
     if document["modality"] != "text" and "needs_mllm_or_human_review" in document["media_review_status"]:
         return "media_pending_review"
     if all(rules.get(rule) for rule in PROMOTION_REQUIRED_RULES):
@@ -345,16 +370,27 @@ def promotion_blockers(document):
             "counter_reading",
             "human_review",
         ]
-    return [
+    blockers = [
         rule for rule in PROMOTION_REQUIRED_RULES if not document["rules_present"].get(rule)
     ]
+    if document.get("review_companion_rules") and document.get(
+        "review_companion_confidence_effect"
+    ) != "source_checked_can_inform_confidence":
+        blockers.append("source_check_review_companion")
+    return blockers
 
 
-def summarize_document(lane, path, text, machine_drafts=None):
+def summarize_document(lane, path, text, machine_drafts=None, reviewed_companions=None):
     tokens = tokenize(text)
     token_counts = Counter(tokens)
     draft = (machine_drafts or {}).get(path.as_posix(), {})
     machine_drafted_rules = sorted((draft.get("fields") or {}).keys())
+    review_companion = (reviewed_companions or {}).get(path.as_posix(), {})
+    review_companion_rules = sorted((review_companion.get("fields") or {}).keys())
+    rules_present = detect_rules(text)
+    for rule in review_companion_rules:
+        if rule in rules_present:
+            rules_present[rule] = True
     document = {
         "id": normalize_id(str(path.as_posix())),
         "path": path.as_posix(),
@@ -366,10 +402,13 @@ def summarize_document(lane, path, text, machine_drafts=None):
         "word_count": len(re.findall(r"\S+", text)),
         "review_note_count": extract_review_note_count(text),
         "patterns": detect_patterns(text),
-        "rules_present": detect_rules(text),
+        "rules_present": rules_present,
         "machine_drafted_rules": machine_drafted_rules,
         "machine_drafted_status": draft.get("draft_status", ""),
         "machine_drafted_confidence_effect": draft.get("confidence_effect", ""),
+        "review_companion_rules": review_companion_rules,
+        "review_companion_status": review_companion.get("review_status", ""),
+        "review_companion_confidence_effect": review_companion.get("confidence_effect", ""),
         "top_terms": [term for term, _ in token_counts.most_common(12)],
         "tokens": token_counts,
     }
@@ -378,7 +417,7 @@ def summarize_document(lane, path, text, machine_drafts=None):
     return document
 
 
-def summarize_media_asset(lane, path, machine_drafts=None):
+def summarize_media_asset(lane, path, machine_drafts=None, reviewed_companions=None):
     modality = media_modality(path)
     review_text = read_media_review_text(path)
     if review_text:
@@ -398,6 +437,11 @@ def summarize_media_asset(lane, path, machine_drafts=None):
     rules_present["machine_label_boundary"] = True
     draft = (machine_drafts or {}).get(path.as_posix(), {})
     machine_drafted_rules = sorted((draft.get("fields") or {}).keys())
+    review_companion = (reviewed_companions or {}).get(path.as_posix(), {})
+    review_companion_rules = sorted((review_companion.get("fields") or {}).keys())
+    for rule in review_companion_rules:
+        if rule in rules_present:
+            rules_present[rule] = True
 
     document = {
         "id": normalize_id(str(path.as_posix())),
@@ -414,6 +458,9 @@ def summarize_media_asset(lane, path, machine_drafts=None):
         "machine_drafted_rules": machine_drafted_rules,
         "machine_drafted_status": draft.get("draft_status", ""),
         "machine_drafted_confidence_effect": draft.get("confidence_effect", ""),
+        "review_companion_rules": review_companion_rules,
+        "review_companion_status": review_companion.get("review_status", ""),
+        "review_companion_confidence_effect": review_companion.get("confidence_effect", ""),
         "top_terms": [term for term, _ in token_counts.most_common(12)],
         "tokens": token_counts,
     }
@@ -463,6 +510,9 @@ def build_retrieval_index(documents):
             "machine_drafted_rules": document["machine_drafted_rules"],
             "machine_drafted_status": document["machine_drafted_status"],
             "machine_drafted_confidence_effect": document["machine_drafted_confidence_effect"],
+            "review_companion_rules": document["review_companion_rules"],
+            "review_companion_status": document["review_companion_status"],
+            "review_companion_confidence_effect": document["review_companion_confidence_effect"],
             "keywords": keywords,
         }
         index_documents.append(slim)
@@ -545,6 +595,7 @@ def build_review_audit(documents):
     missing_by_rule = defaultdict(list)
     rule_coverage = Counter()
     machine_drafted_coverage = Counter()
+    review_companion_coverage = Counter()
     tier_totals = Counter()
     blockers = defaultdict(list)
 
@@ -564,6 +615,7 @@ def build_review_audit(documents):
             rule for rule, present in document["rules_present"].items() if present
         )
         machine_drafted_coverage.update(document.get("machine_drafted_rules", []))
+        review_companion_coverage.update(document.get("review_companion_rules", []))
         for rule in missing:
             if len(missing_by_rule[rule]) < 25:
                 missing_by_rule[rule].append(document["path"])
@@ -593,6 +645,9 @@ def build_review_audit(documents):
                     "machine_drafted_rules": document["machine_drafted_rules"],
                     "machine_drafted_status": document["machine_drafted_status"],
                     "machine_drafted_confidence_effect": document["machine_drafted_confidence_effect"],
+                    "review_companion_rules": document["review_companion_rules"],
+                    "review_companion_status": document["review_companion_status"],
+                    "review_companion_confidence_effect": document["review_companion_confidence_effect"],
                 }
             )
 
@@ -610,6 +665,7 @@ def build_review_audit(documents):
             rule: {
                 "present": int(rule_coverage.get(rule, 0)),
                 "machine_drafted": int(machine_drafted_coverage.get(rule, 0)),
+                "review_companion": int(review_companion_coverage.get(rule, 0)),
                 "missing": int(
                     max(
                         0,
@@ -714,7 +770,7 @@ def create_backend_report(index, graph, audit, multimodal_manifest):
     coverage_lines = []
     for rule, values in audit.get("rule_coverage", {}).items():
         coverage_lines.append(
-            f"- {rule}: {values['present']} explicit; {values.get('machine_drafted', 0)} machine-drafted; {values['missing']} still missing of {values['total']}"
+            f"- {rule}: {values['present']} rule-present; {values.get('review_companion', 0)} reviewed companion; {values.get('machine_drafted', 0)} machine-drafted; {values['missing']} still missing of {values['total']}"
         )
     blocker_lines = []
     for blocker, paths in audit.get("promotion_blocker_examples", {}).items():
@@ -846,15 +902,18 @@ def create_backend_report(index, graph, audit, multimodal_manifest):
 def main():
     REPORTS_DIR.mkdir(exist_ok=True)
     machine_drafts = load_machine_drafted_companions()
+    reviewed_companions = load_reviewed_gap_companions()
 
     documents = []
     for lane, path in iter_documents():
         if path.suffix.lower() in TEXT_EXTENSIONS:
             text = read_text(path)
             if text.strip():
-                documents.append(summarize_document(lane, path, text, machine_drafts))
+                documents.append(
+                    summarize_document(lane, path, text, machine_drafts, reviewed_companions)
+                )
         else:
-            documents.append(summarize_media_asset(lane, path, machine_drafts))
+            documents.append(summarize_media_asset(lane, path, machine_drafts, reviewed_companions))
 
     index = build_retrieval_index(documents)
     graph = build_knowledge_graph(documents)

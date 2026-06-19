@@ -138,11 +138,11 @@ def build_markdown(audit: dict, queue: list[dict]) -> str:
 
     coverage = audit.get("rule_coverage", {})
     if coverage:
-        lines.extend(["", "## Machine-Drafted Coverage Already Created", ""])
+        lines.extend(["", "## Companion Coverage Already Created", ""])
         for rule in PRIORITY_RULES:
             values = coverage.get(rule, {})
             lines.append(
-                f"- {rule}: {int(values.get('machine_drafted', 0)):,} machine-drafted; {int(values.get('missing', 0)):,} still missing"
+                f"- {rule}: {int(values.get('review_companion', 0)):,} reviewed companion; {int(values.get('machine_drafted', 0)):,} machine-drafted; {int(values.get('missing', 0)):,} still missing"
             )
 
     lines.extend(

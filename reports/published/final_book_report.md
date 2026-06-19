@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-19 16:38 UTC_
+_Generated: 2026-06-19 22:58 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -44,19 +44,19 @@ Read the focused pattern report here:
 
 - candidate lead only: 113
 - developing evidence: 533
-- reviewed evidence ready: 2
+- ready for human confidence review: 2
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 34 explicit; 2 machine-drafted; 612 still missing of 648
-- analogy: 53 explicit; 0 machine-drafted; 595 still missing of 648
-- failure_condition: 96 explicit; 1 machine-drafted; 551 still missing of 648
-- machine_label_boundary: 478 explicit; 2 machine-drafted; 168 still missing of 648
-- discernment: 307 explicit; 0 machine-drafted; 341 still missing of 648
+- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 0 still missing of 648
+- analogy: 648 rule-present; 595 reviewed companion; 0 machine-drafted; 0 still missing of 648
+- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 0 still missing of 648
+- machine_label_boundary: 478 rule-present; 0 reviewed companion; 2 machine-drafted; 168 still missing of 648
+- discernment: 648 rule-present; 341 reviewed companion; 0 machine-drafted; 0 still missing of 648
 
-The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.
+The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Reviewed companions now close the named tracking gaps; they still do not raise confidence unless the original source is checked.
 
 The system now writes a gap-fill queue here:
 
@@ -114,20 +114,20 @@ Quantum theory, mathematics, neuroscience, and AI pattern recognition may suppor
 
 The report is strongest when it tells you exactly where confidence is blocked. Based on the current audit, the next work should be:
 
-1. Use the completed confidence review for the strongest ready source.
-   The current audit shows 113 candidate leads, 533 developing-evidence records, and 2 reviewed-evidence-ready records. The strongest ready item is `research_documents/source_packs/image_of_god_pattern_pack.md`, which now includes a 2026-06-19 confidence decision.
+1. Re-check the strongest ready-for-review source.
+   Confirm that its evidence, interpretation, counter-reading, failure condition, and pastoral safety are source-specific rather than generic.
 
 2. Fill the largest explicit review gaps.
-   The current biggest gaps are `interpretation` (612 missing), `analogy` (595 missing), `failure_condition` (551 missing), `discernment` (341 missing). These are the places where the report most needs clearer human judgment.
+   The current biggest gaps are `liturgical_grounding` (193 missing), `pastoral_safety` (193 missing), `ecclesial_review` (192 missing), `promotion_restraint` (192 missing). These are the places where the report most needs clearer human judgment.
 
 3. Start with the top item in the review queue.
-   First queued source: `research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md`. Add source-checked companion notes for: interpretation, discernment, analogy, failure_condition, pastoral_safety.
+   First queued source: `research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md`. Add source-checked companion notes for: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint.
 
-4. Deepen the leading pattern with one primary-lane adjudication.
-   The current leading pattern is `Image Of God Pattern`. Its source pack already contains a serious rival explanation and failure condition. The next strengthening step is to choose either Genesis 1:26-28 with Genesis 9:6 or a disability-theology/dementia pastoral case and attach deeper citations and reviewer notes.
+4. Strengthen the leading pattern with one hard counter-reading.
+   The current leading pattern is `Image Of God Pattern`. Add a serious rival explanation from psychology, sociology, history, disability studies, trauma studies, comparative religion, or philosophy, then state what would weaken the pattern.
 
-5. Keep pastoral safety concrete.
-   The Image Of God pack now includes both a pastoral use case and a pastoral rejection case. Future packs should use the same standard: name the vulnerable person or setting, the protective practice, and the condition under which the claim becomes unsafe, glib, coercive, or overconfident.
+5. Add one pastoral use case and one pastoral rejection case.
+   Write a short case where the pattern helps faithful practice, and another where it would become unsafe, glib, coercive, or overconfident. This keeps the report priestly instead of merely impressive.
 
 6. Source-check machine-drafted companions before trusting them.
    The project currently has 113 candidate leads. Machine drafts can organize the work, but they should not raise confidence until the source has been directly checked.
