@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 46
-Total theologian words analyzed: 14,502
+Theologian documents analyzed: 50
+Total theologian words analyzed: 15,137
 
 Era Coverage
 ------------
@@ -25,32 +25,43 @@ Concept Coverage
 - Theodicy And Suffering: 152
 - Creation: 149
 - Grace And Transformation: 102
-- Trinity: 95
-- Church And Practice: 84
+- Trinity: 100
+- Church And Practice: 86
 - Justice And Public Life: 84
-- Pneumatology: 75
+- Pneumatology: 83
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 354
+- Father: 374
 - Son: 193
-- Holy Spirit: 136
+- Holy Spirit: 152
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 148 | broader corpus 2,598
-- Mathematical Structure: theologians 4 | broader corpus 635
-- Mathematical Theophany: theologians 134 | broader corpus 1,238
-- Quantum Probability: theologians 2 | broader corpus 169
-- Life And Consciousness: theologians 137 | broader corpus 5,808
-- Meaning And Logos: theologians 102 | broader corpus 6,124
-- Moral Response: theologians 105 | broader corpus 2,399
-- Worship And Community: theologians 150 | broader corpus 1,538
-- Transformation: theologians 252 | broader corpus 2,212
+- Physical Order: theologians 148 | broader corpus 2,606
+- Mathematical Structure: theologians 4 | broader corpus 637
+- Mathematical Theophany: theologians 134 | broader corpus 1,310
+- Quantum Probability: theologians 2 | broader corpus 179
+- Life And Consciousness: theologians 149 | broader corpus 5,879
+- Meaning And Logos: theologians 102 | broader corpus 6,183
+- Moral Response: theologians 108 | broader corpus 2,417
+- Worship And Community: theologians 152 | broader corpus 1,558
+- Transformation: theologians 263 | broader corpus 2,224
 
 Per-Source Findings
 -------------------
+
+a_metaphoric_mind_selected_writings_of_joseph_couture_49abfbe4e2fe.md
+---------------------------------------------------------------------
+Words: 148
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 a_reformed_perspective_on_taking_mission_and_missiology_to_the_heart_of_theologi_47c3d5e2079e.md
 ------------------------------------------------------------------------------------------------
@@ -105,6 +116,17 @@ Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+chapter_five_big_women_small_girls_82175a1e0829.md
+--------------------------------------------------
+Words: 140
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (1)
+- Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
 chapter_seven_christianity_gender_and_cultural_authenticity_18207728d965.md
@@ -171,6 +193,17 @@ Meaning confidence: word-level signal only
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+imago_expandit_splendorem_suum_hildegard_of_bingen_s_visio_theological_designs_i_6e4cc4694cf7.md
+------------------------------------------------------------------------------------------------
+Words: 143
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
 introduction_5eb1c80425a7.md
@@ -303,6 +336,17 @@ Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_holy_spirit_in_moral_character_formation_739f95ae82dd.md
+------------------------------------------------------------
+Words: 204
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (6)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (4)
+- Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
 the_marian_presence_in_the_life_and_works_of_saint_ignatius_of_loyola_from_priva_27c674c22822.md

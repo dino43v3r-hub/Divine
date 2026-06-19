@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-19 03:22 UTC_
+_Generated: 2026-06-19 16:38 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -43,18 +43,18 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 495
+- developing evidence: 533
 - ready for human confidence review: 2
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 31 explicit; 2 machine-drafted; 577 still missing of 610
-- analogy: 54 explicit; 0 machine-drafted; 556 still missing of 610
-- failure_condition: 96 explicit; 1 machine-drafted; 513 still missing of 610
-- machine_label_boundary: 440 explicit; 2 machine-drafted; 168 still missing of 610
-- discernment: 295 explicit; 0 machine-drafted; 315 still missing of 610
+- interpretation: 34 explicit; 2 machine-drafted; 612 still missing of 648
+- analogy: 53 explicit; 0 machine-drafted; 595 still missing of 648
+- failure_condition: 96 explicit; 1 machine-drafted; 551 still missing of 648
+- machine_label_boundary: 478 explicit; 2 machine-drafted; 168 still missing of 648
+- discernment: 307 explicit; 0 machine-drafted; 341 still missing of 648
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.
 
@@ -118,7 +118,7 @@ The report is strongest when it tells you exactly where confidence is blocked. B
    Confirm that its evidence, interpretation, counter-reading, failure condition, and pastoral safety are source-specific rather than generic.
 
 2. Fill the largest explicit review gaps.
-   The current biggest gaps are `interpretation` (577 missing), `analogy` (556 missing), `failure_condition` (513 missing), `discernment` (315 missing). These are the places where the report most needs clearer human judgment.
+   The current biggest gaps are `interpretation` (612 missing), `analogy` (595 missing), `failure_condition` (551 missing), `discernment` (341 missing). These are the places where the report most needs clearer human judgment.
 
 3. Start with the top item in the review queue.
    First queued source: `research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md`. Add source-checked companion notes for: interpretation, discernment, analogy, failure_condition, pastoral_safety.
@@ -134,10 +134,10 @@ The report is strongest when it tells you exactly where confidence is blocked. B
 
 ## Current Corpus Snapshot
 
-- Retained cloud candidate references: 7,261
-- Brand-new candidate references this run: 74
-- New provider mix: Crossref: 55, OpenAlex: 8, Tavily Search: 6, Internet Archive: 4, arXiv: 1
-- New candidate references in latest discovery run: 74
+- Retained cloud candidate references: 7,369
+- Brand-new candidate references this run: 108
+- New provider mix: Crossref: 77, OpenAlex: 26, Internet Archive: 3, PubMed: 1, arXiv: 1
+- New candidate references in latest discovery run: 108
 
 - Rated records: 14
 - Supportive after caution/resolution: 6

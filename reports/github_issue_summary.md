@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-19T03:22:11.440517+00:00
+Generated: 2026-06-19T16:38:21.503130+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,7 +16,7 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## Short Book Report
 
-_Generated: 2026-06-19 03:22 UTC_
+_Generated: 2026-06-19 16:38 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -57,18 +57,18 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 495
+- developing evidence: 533
 - ready for human confidence review: 2
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 31 explicit; 2 machine-drafted; 577 still missing of 610
-- analogy: 54 explicit; 0 machine-drafted; 556 still missing of 610
-- failure_condition: 96 explicit; 1 machine-drafted; 513 still missing of 610
-- machine_label_boundary: 440 explicit; 2 machine-drafted; 168 still missing of 610
-- discernment: 295 explicit; 0 machine-drafted; 315 still missing of 610
+- interpretation: 34 explicit; 2 machine-drafted; 612 still missing of 648
+- analogy: 53 explicit; 0 machine-drafted; 595 still missing of 648
+- failure_condition: 96 explicit; 1 machine-drafted; 551 still missing of 648
+- machine_label_boundary: 478 explicit; 2 machine-drafted; 168 still missing of 648
+- discernment: 307 explicit; 0 machine-drafted; 341 still missing of 648
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.
 

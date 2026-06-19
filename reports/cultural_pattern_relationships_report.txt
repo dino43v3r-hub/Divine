@@ -9,18 +9,18 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 78
-Total cultural words analyzed: 10,104
+Cultural documents analyzed: 80
+Total cultural words analyzed: 10,392
 
 Cultural Domains
 ----------------
-- Science And Discovery: 148
-- Politics And Justice: 70
+- Science And Discovery: 152
+- Politics And Justice: 71
 - Technology And AI: 55
-- History And Memory: 49
-- Family And Community: 37
-- Psychology And Human Behavior: 37
-- Health And Suffering: 24
+- History And Memory: 51
+- Psychology And Human Behavior: 39
+- Family And Community: 38
+- Health And Suffering: 25
 - Education And Formation: 20
 - Economics And Work: 16
 - Art And Beauty: 15
@@ -32,30 +32,30 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 346
+- Father: 356
 - Son: 6
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 78
+- Desire And Longing: 80
 - Moral Confrontation: 43
-- Communal Practice: 24
+- Communal Practice: 25
 - Creation And Order: 17
 - Transformation And Hope: 12
 - Alienation And Lament: 2
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 165 | religious/science corpus 2,598
-- Mathematical Structure: cultural inputs 203 | religious/science corpus 635
-- Mathematical Theophany: cultural inputs 9 | religious/science corpus 1,238
-- Quantum Probability: cultural inputs 1 | religious/science corpus 169
-- Life And Consciousness: cultural inputs 229 | religious/science corpus 5,808
-- Meaning And Logos: cultural inputs 269 | religious/science corpus 6,124
-- Moral Response: cultural inputs 290 | religious/science corpus 2,399
-- Worship And Community: cultural inputs 165 | religious/science corpus 1,538
-- Transformation: cultural inputs 178 | religious/science corpus 2,212
+- Physical Order: cultural inputs 169 | religious/science corpus 2,606
+- Mathematical Structure: cultural inputs 207 | religious/science corpus 637
+- Mathematical Theophany: cultural inputs 9 | religious/science corpus 1,310
+- Quantum Probability: cultural inputs 1 | religious/science corpus 179
+- Life And Consciousness: cultural inputs 236 | religious/science corpus 5,879
+- Meaning And Logos: cultural inputs 275 | religious/science corpus 6,183
+- Moral Response: cultural inputs 295 | religious/science corpus 2,417
+- Worship And Community: cultural inputs 168 | religious/science corpus 1,558
+- Transformation: cultural inputs 184 | religious/science corpus 2,224
 
 Per-Domain Findings
 -------------------
@@ -528,6 +528,31 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Respond to suffering with truthful lament, practical care, patience, and hope without minimizing pain.
+
+community_public_health_and_resource_allocation_2b12f554e8d9.md
+---------------------------------------------------------------
+Words: 141
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Life And Consciousness: 4
+- Transformation: 4
+- Meaning And Logos: 3
+- Moral Response: 3
+- Worship And Community: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.
 
 constitutional_conscience_criminal_justice_and_public_interest_ethics_87da913c92c3.md
 -------------------------------------------------------------------------------------
@@ -1425,6 +1450,29 @@ Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
 - Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.
+
+mimesis_or_metamorphosis_eastern_orthodox_liturgical_practice_and_its_philosophi_a5b7ce5266b6.md
+------------------------------------------------------------------------------------------------
+Words: 147
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Life And Consciousness: 3
+- Meaning And Logos: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Moral Response: 2
+- Transformation: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+- Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
 
 religion_and_social_values_for_sustainability_e1fda3a0907f.md
 -------------------------------------------------------------
