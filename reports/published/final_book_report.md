@@ -44,7 +44,7 @@ Read the focused pattern report here:
 
 - candidate lead only: 113
 - developing evidence: 533
-- ready for human confidence review: 2
+- reviewed evidence ready: 2
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
@@ -114,8 +114,8 @@ Quantum theory, mathematics, neuroscience, and AI pattern recognition may suppor
 
 The report is strongest when it tells you exactly where confidence is blocked. Based on the current audit, the next work should be:
 
-1. Re-check the strongest ready-for-review source.
-   Confirm that its evidence, interpretation, counter-reading, failure condition, and pastoral safety are source-specific rather than generic.
+1. Use the completed confidence review for the strongest ready source.
+   The current audit shows 113 candidate leads, 533 developing-evidence records, and 2 reviewed-evidence-ready records. The strongest ready item is `research_documents/source_packs/image_of_god_pattern_pack.md`, which now includes a 2026-06-19 confidence decision.
 
 2. Fill the largest explicit review gaps.
    The current biggest gaps are `interpretation` (612 missing), `analogy` (595 missing), `failure_condition` (551 missing), `discernment` (341 missing). These are the places where the report most needs clearer human judgment.
@@ -123,11 +123,11 @@ The report is strongest when it tells you exactly where confidence is blocked. B
 3. Start with the top item in the review queue.
    First queued source: `research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md`. Add source-checked companion notes for: interpretation, discernment, analogy, failure_condition, pastoral_safety.
 
-4. Strengthen the leading pattern with one hard counter-reading.
-   The current leading pattern is `Image Of God Pattern`. Add a serious rival explanation from psychology, sociology, history, disability studies, trauma studies, comparative religion, or philosophy, then state what would weaken the pattern.
+4. Deepen the leading pattern with one primary-lane adjudication.
+   The current leading pattern is `Image Of God Pattern`. Its source pack already contains a serious rival explanation and failure condition. The next strengthening step is to choose either Genesis 1:26-28 with Genesis 9:6 or a disability-theology/dementia pastoral case and attach deeper citations and reviewer notes.
 
-5. Add one pastoral use case and one pastoral rejection case.
-   Write a short case where the pattern helps faithful practice, and another where it would become unsafe, glib, coercive, or overconfident. This keeps the report priestly instead of merely impressive.
+5. Keep pastoral safety concrete.
+   The Image Of God pack now includes both a pastoral use case and a pastoral rejection case. Future packs should use the same standard: name the vulnerable person or setting, the protective practice, and the condition under which the claim becomes unsafe, glib, coercive, or overconfident.
 
 6. Source-check machine-drafted companions before trusting them.
    The project currently has 113 candidate leads. Machine drafts can organize the work, but they should not raise confidence until the source has been directly checked.
