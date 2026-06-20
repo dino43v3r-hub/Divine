@@ -12,8 +12,7 @@
   ],
   "priority_lanes": [
     "human_stories",
-    "modern_literature",
-    "psychology_inputs"
+    "modern_literature"
   ],
   "purpose": "Feed report recommendations back into the next internet_source_collector.py run.",
   "query_modifiers": [
@@ -49,16 +48,6 @@
       "query": "narrative recurrence and limits through literature summaries primary source counterargument",
       "reason": "modern_literature is a priority lane for the next collector run.",
       "tag": "modern_literature_meaning"
-    },
-    {
-      "query": "pattern perception, attachment, trauma, habit, desire, identity, and repair primary source counterargument",
-      "reason": "psychology_inputs is a priority lane for the next collector run.",
-      "tag": "psychology_patterns"
-    },
-    {
-      "query": "pattern perception, attachment, trauma, habit, desire, identity, and repair primary source counterargument",
-      "reason": "psychology_inputs is a priority lane for the next collector run.",
-      "tag": "pattern_perception_divine_response"
     },
     {
       "query": "image of God dignity disability theology cognitive science source review counterargument",
@@ -128,5 +117,5 @@
     "Trinity-As-Behavior Pattern",
     "Providence And Contingency Pattern"
   ],
-  "updated_at": "2026-06-20T00:34:47.647822+00:00"
+  "updated_at": "2026-06-20T15:35:47.879818+00:00"
 }

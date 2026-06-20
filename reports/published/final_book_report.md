@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-20 00:34 UTC_
+_Generated: 2026-06-20 15:35 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -43,17 +43,17 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 574
+- developing evidence: 614
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 39 still missing of 687
-- analogy: 648 rule-present; 595 reviewed companion; 0 machine-drafted; 39 still missing of 687
-- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 39 still missing of 687
-- machine_label_boundary: 517 rule-present; 0 reviewed companion; 2 machine-drafted; 168 still missing of 687
-- discernment: 656 rule-present; 341 reviewed companion; 0 machine-drafted; 31 still missing of 687
+- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 79 still missing of 727
+- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 78 still missing of 727
+- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 79 still missing of 727
+- machine_label_boundary: 557 rule-present; 0 reviewed companion; 2 machine-drafted; 168 still missing of 727
+- discernment: 664 rule-present; 341 reviewed companion; 0 machine-drafted; 63 still missing of 727
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Reviewed companions now close the named tracking gaps; they still do not raise confidence unless the original source is checked.
 
@@ -114,10 +114,10 @@ Quantum theory, mathematics, neuroscience, and AI pattern recognition may suppor
 The report is strongest when it tells you exactly where confidence is blocked. Based on the current audit, the next work should be:
 
 1. Move one source from `developing_evidence` to `reviewed_evidence_ready`.
-   Right now the project has 574 developing-evidence records and 0 ready-for-review records. Pick one important source connected to `Image Of God Pattern` and complete every required control by hand.
+   Right now the project has 614 developing-evidence records and 0 ready-for-review records. Pick one important source connected to `Image Of God Pattern` and complete every required control by hand.
 
 2. Fill the largest explicit review gaps.
-   The current biggest gaps are `ecclesial_review` (231 missing), `promotion_restraint` (231 missing), `liturgical_grounding` (230 missing), `pastoral_safety` (230 missing). These are the places where the report most needs clearer human judgment.
+   The current biggest gaps are `ecclesial_review` (271 missing), `promotion_restraint` (271 missing), `liturgical_grounding` (271 missing), `pastoral_safety` (271 missing). These are the places where the report most needs clearer human judgment.
 
 3. Start with the top item in the review queue.
    First queued source: `research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md`. Add source-checked companion notes for: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint.
@@ -134,10 +134,10 @@ The report is strongest when it tells you exactly where confidence is blocked. B
 
 ## Current Corpus Snapshot
 
-- Retained cloud candidate references: 7,438
-- Brand-new candidate references this run: 69
-- New provider mix: Crossref: 36, OpenAlex: 18, Tavily Search: 10, Internet Archive: 4, PubMed: 1
-- New candidate references in latest discovery run: 69
+- Retained cloud candidate references: 7,491
+- Brand-new candidate references this run: 53
+- New provider mix: Crossref: 37, OpenAlex: 13, Internet Archive: 3
+- New candidate references in latest discovery run: 53
 
 - Rated records: 14
 - Supportive after caution/resolution: 6

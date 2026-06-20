@@ -54,23 +54,23 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 136 | religious/science corpus 2,623
-- Mathematical Structure: music notes 185 | religious/science corpus 637
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,277
+- Physical Order: music notes 136 | religious/science corpus 2,628
+- Mathematical Structure: music notes 185 | religious/science corpus 636
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,263
 - Quantum Probability: music notes 0 | religious/science corpus 171
-- Life And Consciousness: music notes 0 | religious/science corpus 5,865
-- Meaning And Logos: music notes 24 | religious/science corpus 6,169
-- Moral Response: music notes 0 | religious/science corpus 2,505
-- Worship And Community: music notes 16 | religious/science corpus 1,620
-- Transformation: music notes 43 | religious/science corpus 2,210
+- Life And Consciousness: music notes 0 | religious/science corpus 5,859
+- Meaning And Logos: music notes 24 | religious/science corpus 6,142
+- Moral Response: music notes 0 | religious/science corpus 2,498
+- Worship And Community: music notes 16 | religious/science corpus 1,614
+- Transformation: music notes 43 | religious/science corpus 2,203
 
 Relevant Research Domains
 -------------------------
-- Philosophy Of Mathematics: corpus signal 550
-- Physics And Quantum Mechanics: corpus signal 1,434
-- Philosophy Of Science: corpus signal 2,846
-- Cognitive Science: corpus signal 1,049
-- Anthropology And Psychology Of Worship: corpus signal 819
+- Philosophy Of Mathematics: corpus signal 549
+- Physics And Quantum Mechanics: corpus signal 1,437
+- Philosophy Of Science: corpus signal 2,848
+- Cognitive Science: corpus signal 1,046
+- Anthropology And Psychology Of Worship: corpus signal 812
 
 Per-Composition Findings
 ------------------------
