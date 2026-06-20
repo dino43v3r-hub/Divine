@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-19T16:38:21.503130+00:00
+Generated: 2026-06-20T00:34:49.805123+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,13 +16,13 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## Short Book Report
 
-_Generated: 2026-06-19 16:38 UTC_
+_Generated: 2026-06-20 00:34 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
 This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.
 
-![Daily pattern image](daily_pattern_image_2026-06-19.svg)
+![Daily pattern image](daily_pattern_image_2026-06-20.svg)
 
 _Daily visual generated from the current leading finding: Image Of God Pattern._
 
@@ -57,20 +57,19 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 533
-- ready for human confidence review: 2
+- developing evidence: 574
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 34 explicit; 2 machine-drafted; 612 still missing of 648
-- analogy: 53 explicit; 0 machine-drafted; 595 still missing of 648
-- failure_condition: 96 explicit; 1 machine-drafted; 551 still missing of 648
-- machine_label_boundary: 478 explicit; 2 machine-drafted; 168 still missing of 648
-- discernment: 307 explicit; 0 machine-drafted; 341 still missing of 648
+- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 39 still missing of 687
+- analogy: 648 rule-present; 595 reviewed companion; 0 machine-drafted; 39 still missing of 687
+- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 39 still missing of 687
+- machine_label_boundary: 517 rule-present; 0 reviewed companion; 2 machine-drafted; 168 still missing of 687
+- discernment: 656 rule-present; 341 reviewed companion; 0 machine-drafted; 31 still missing of 687
 
-The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Machine-drafted companions can close the tracking gap, but they do not raise confidence until source checked.
+The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Reviewed companions now close the named tracking gaps; they still do not raise confidence unless the original source is checked.
 
 The system now writes a gap-fill queue here:
 
@@ -92,6 +91,7 @@ Before public, devotional, or pastoral use, the project now asks whether a claim
 
 It also asks what ecclesial review is needed and how the claim remains accountable to baptism, Eucharist, confession, anointing, funerals, the church year, and daily prayer without reducing worship to symbolism.
 
+## What This Does Not Prove
 
 _Full report has 168 lines. Open the linked report above to read everything._
 ```

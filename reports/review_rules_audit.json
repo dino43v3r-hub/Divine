@@ -8,7 +8,7 @@
   },
   "confidence_tier_totals": {
     "candidate_lead": 113,
-    "developing_evidence": 535
+    "developing_evidence": 574
   },
   "documents": [
     {
@@ -1288,6 +1288,57 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "research_documents",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Book Review: The Torah's Vision of Worship"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -1339,6 +1390,57 @@
       },
       "sidecar_paths": [],
       "title": "Book Review: \"Theology After Vedanta: An Experiment in Comparative Theology\""
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/book_review_to_relieve_the_human_condition_bioethics_technology_and_the_body_984c2d03d738.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Book Review: To Relieve the Human Condition: Bioethics, Technology, and the Body"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -3081,6 +3183,57 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "research_documents",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Law, religion and public reason"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -4319,6 +4472,57 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Trinity and Liturgy: Introduction"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -4455,6 +4659,66 @@
       },
       "sidecar_paths": [],
       "title": "What kind of science can information science be?"
+    },
+    {
+      "confidence_tier": "candidate_lead",
+      "lane": "research_documents",
+      "machine_drafted_confidence_effect": "does_not_raise_confidence",
+      "machine_drafted_rules": [
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "machine_drafted_status": "machine_drafted_not_source_checked",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "evidence",
+        "practical_use",
+        "counter_reading",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "machine_label_boundary"
+      ],
+      "modality": "text",
+      "path": "research_documents/christian_sources/SOURCES.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "evidence",
+        "practical_use",
+        "counter_reading",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "machine_label_boundary",
+        "source_check_review_companion",
+        "source_check_machine_draft"
+      ],
+      "review_companion_confidence_effect": "does_not_raise_confidence_alone",
+      "review_companion_rules": [
+        "analogy",
+        "discernment",
+        "failure_condition",
+        "interpretation"
+      ],
+      "review_companion_status": "metadata_reviewed_not_source_checked",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": true,
+        "counter_reading": false,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": false,
+        "failure_condition": true,
+        "interpretation": true,
+        "liturgical_grounding": false,
+        "machine_label_boundary": false,
+        "pastoral_safety": true,
+        "practical_use": false,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Christian Source Corpus"
     },
     {
       "confidence_tier": "candidate_lead",
@@ -5316,66 +5580,6 @@
       "title": "Science, Mathematics, Physics, And A Divine-Pattern Model"
     },
     {
-      "confidence_tier": "candidate_lead",
-      "lane": "research_documents",
-      "machine_drafted_confidence_effect": "does_not_raise_confidence",
-      "machine_drafted_rules": [
-        "ecclesial_review",
-        "liturgical_grounding",
-        "promotion_restraint"
-      ],
-      "machine_drafted_status": "machine_drafted_not_source_checked",
-      "media_review_status": "text_reviewable",
-      "missing_rules": [
-        "evidence",
-        "practical_use",
-        "counter_reading",
-        "ecclesial_review",
-        "liturgical_grounding",
-        "promotion_restraint",
-        "machine_label_boundary"
-      ],
-      "modality": "text",
-      "path": "research_documents/christian_sources/SOURCES.md",
-      "patterns": [],
-      "promotion_blockers": [
-        "evidence",
-        "practical_use",
-        "counter_reading",
-        "ecclesial_review",
-        "liturgical_grounding",
-        "promotion_restraint",
-        "machine_label_boundary",
-        "source_check_review_companion",
-        "source_check_machine_draft"
-      ],
-      "review_companion_confidence_effect": "does_not_raise_confidence_alone",
-      "review_companion_rules": [
-        "analogy",
-        "discernment",
-        "failure_condition",
-        "interpretation"
-      ],
-      "review_companion_status": "metadata_reviewed_not_source_checked",
-      "review_note_count": 1,
-      "rules_present": {
-        "analogy": true,
-        "counter_reading": false,
-        "discernment": true,
-        "ecclesial_review": false,
-        "evidence": false,
-        "failure_condition": true,
-        "interpretation": true,
-        "liturgical_grounding": false,
-        "machine_label_boundary": false,
-        "pastoral_safety": true,
-        "practical_use": false,
-        "promotion_restraint": false
-      },
-      "sidecar_paths": [],
-      "title": "Christian Source Corpus"
-    },
-    {
       "confidence_tier": "developing_evidence",
       "lane": "research_documents",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
@@ -5596,6 +5800,7 @@
       "machine_drafted_status": "machine_drafted_not_source_checked",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "practical_use",
         "counter_reading",
         "pastoral_safety",
         "ecclesial_review",
@@ -5605,6 +5810,7 @@
       "path": "research_documents/cloud_references_summary.md",
       "patterns": [],
       "promotion_blockers": [
+        "practical_use",
         "counter_reading",
         "pastoral_safety",
         "ecclesial_review",
@@ -5631,7 +5837,7 @@
         "liturgical_grounding": true,
         "machine_label_boundary": true,
         "pastoral_safety": false,
-        "practical_use": true,
+        "practical_use": false,
         "promotion_restraint": false
       },
       "sidecar_paths": [],
@@ -5764,18 +5970,14 @@
       "machine_drafted_status": "machine_drafted_not_source_checked",
       "media_review_status": "text_reviewable",
       "missing_rules": [
-        "pastoral_safety",
         "ecclesial_review",
-        "liturgical_grounding",
         "promotion_restraint"
       ],
       "modality": "text",
       "path": "research_documents/daily_evaluation_queue.md",
       "patterns": [],
       "promotion_blockers": [
-        "pastoral_safety",
         "ecclesial_review",
-        "liturgical_grounding",
         "promotion_restraint",
         "source_check_review_companion",
         "source_check_machine_draft"
@@ -5795,9 +5997,9 @@
         "evidence": true,
         "failure_condition": true,
         "interpretation": true,
-        "liturgical_grounding": false,
+        "liturgical_grounding": true,
         "machine_label_boundary": true,
-        "pastoral_safety": false,
+        "pastoral_safety": true,
         "practical_use": true,
         "promotion_restraint": false
       },
@@ -8097,6 +8299,106 @@
       },
       "sidecar_paths": [],
       "title": "Just Like Puericide:"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "biblical_languages",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/la_lexicographie_de_la_septante_entre_sem_et_japhet_6e6a8bb58b5a.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "La lexicographie de la Septante entre Sem et Japhet"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "biblical_languages",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/life_giving_and_life_threatening_potential_of_water_and_water_related_phenomena_0153454f3bab.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Life-giving and life-threatening potential of water and water-related phenomena in the Old Testament wisdom literature : an eco-theological exploration"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -11052,6 +11354,57 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "world_languages",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/the_discourse_of_the_qur_anic_metaphors_the_embryo_of_theological_sects_disputes_14e661781742.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "The Discourse of The Qur'anic Metaphors: The Embryo of Theological Sects Disputes in Comprehending the Holy Qur'an"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "world_languages",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -11152,6 +11505,108 @@
       },
       "sidecar_paths": [],
       "title": "The first ever edition of the Quran Latin translation published in 1543 \u2014 Milestone in the history of Christian-Muslim dialogue"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "world_languages",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/the_ik_language_dictionary_and_grammar_sketch_8bff587ef872.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "The Ik language: Dictionary and grammar sketch"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "world_languages",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/the_new_natural_theology_5a852743604d.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "The new natural theology"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -11835,6 +12290,57 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "all_texts",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informal_b167bb9aacdf.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "A Church with the Poor \u2013 Lessons From Scripture and From Congregations in Informal Settlements"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "all_texts",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -12153,6 +12659,57 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "all_texts",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/in_search_of_a_theory_for_constitutional_comparativism_f89e4533e750.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "In Search of a Theory for Constitutional Comparativism"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "all_texts",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -12253,6 +12810,57 @@
       },
       "sidecar_paths": [],
       "title": "Introduction"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "all_texts",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/religion_and_regionalism_congregants_culture_and_city_county_consolidation_in_lo_2d9a04190299.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Religion and regionalism : congregants, culture and city-county consolidation in Louisville, Kentucky."
     },
     {
       "confidence_tier": "developing_evidence",
@@ -12406,6 +13014,55 @@
       },
       "sidecar_paths": [],
       "title": "The Daode Jing as American Scripture: Text, Tradition, and Translation"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "all_texts",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/the_ending_of_mark_as_a_page_turn_reveal_d6f89c9af891.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "The Ending of Mark as a Page-Turn Reveal"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -14477,6 +15134,57 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/about_the_author_40bd60bcc79e.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "About the Author"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "theologians",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -14981,6 +15689,108 @@
       },
       "sidecar_paths": [],
       "title": "Elisha and Balaam: the enabling and disabling of discernment"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "theologians",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/from_proclamation_to_conversation_ethnographic_disruptions_to_theological_normat_3f7b7acd443a.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "From proclamation to conversation: ethnographic disruptions to theological normativity"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "theologians",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/frontmatter_9831ef1e15bb.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Frontmatter"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -19784,6 +20594,55 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/form_chaos_and_the_nuance_of_beauty_aa9ae8a36649.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Form, Chaos, and the Nuance of Beauty"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "visual_art",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -19927,6 +20786,104 @@
       },
       "sidecar_paths": [],
       "title": "Harmony"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "visual_art",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/holy_sound_e815e07b7238.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Holy Sound"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "visual_art",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/holy_words_678a496bd531.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Holy Words"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -21432,6 +22389,57 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/a_study_of_islamic_leadership_theory_and_practice_in_k_12_islamic_schools_in_mic_c0924d7c4a1d.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "A Study of Islamic Leadership Theory and Practice in K-12 Islamic Schools in Michigan"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -21915,6 +22923,57 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/between_fear_and_hope_11b196352a48.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Between Fear and Hope:"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -22190,6 +23249,57 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Bridging Neurodiversity and Open Scholarship: How Shared Values Can Guide Best Practices for Research Integrity, Social Justice, and Principled Education"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -22455,6 +23565,57 @@
       },
       "sidecar_paths": [],
       "title": "Constitutional conscience: Criminal justice and public interest ethics"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/covid_19_infodemic_and_public_trust_from_the_perspective_of_public_and_global_me_888b6ffeaad9.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "COVID-19 INFODEMIC AND PUBLIC TRUST FROM THE PERSPECTIVE OF PUBLIC AND GLOBAL MENTAL HEALTH"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -22782,6 +23943,57 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/culture_cult_ritual_circulation_of_inalienable_knowledge_and_appropriation_of_cu_e1519c0abe02.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Culture Cult: Ritual Circulation of Inalienable Knowledge and Appropriation of Cultural Knowledge (Central and NW Australia)"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -22822,6 +24034,57 @@
       },
       "sidecar_paths": [],
       "title": "Deconstructing Community-Based Collaborative Design"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/dimensions_of_dysphoria_758c69373ce0.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Dimensions of Dysphoria:"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -23207,6 +24470,57 @@
       },
       "sidecar_paths": [],
       "title": "Ethics of the Attention Economy: The Problem of Social Media Addiction"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/faith_based_organisations_and_urban_social_justice_in_the_netherlands_e1e87889c63f.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "FAITH\u2010BASED ORGANISATIONS AND URBAN SOCIAL JUSTICE IN THE NETHERLANDS"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -24092,6 +25406,57 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/poverty_3bfe65e4a0dd.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Poverty"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -24143,6 +25508,57 @@
       },
       "sidecar_paths": [],
       "title": "Privacy, Poverty and Big Data: A Matrix of Vulnerabilities for Poor Americans"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/professional_boundaries_and_ethical_obligations_in_saudi_arabia_an_integrated_sh_6946faf2aa2a.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Professional Boundaries and Ethical Obligations in Saudi Arabia An Integrated Sharia, Legal and Clinical Psychology Framework."
     },
     {
       "confidence_tier": "developing_evidence",
@@ -24253,6 +25669,57 @@
       },
       "sidecar_paths": [],
       "title": "Religion and social values for sustainability"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/south_african_traditional_values_and_beliefs_regarding_informed_consent_and_limi_262cb03bf6fe.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "South African traditional values and beliefs regarding informed consent and limitations of the principle of respect for autonomy in African communities: a cross-cultural qualitative study"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -24579,6 +26046,106 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/the_ostministerium_ideology_and_ethics_4703ec6922fb.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "The Ostministerium: Ideology and Ethics"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/the_restorative_gaze_a47b7d4834fd.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": true,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "The Restorative Gaze"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -24729,6 +26296,57 @@
       },
       "sidecar_paths": [],
       "title": "Tourism, global crises and justice: rethinking, redefining and reorienting tourism futures"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/toward_a_physical_cultural_studies_c7ceaba2fc00.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Toward a Physical Cultural Studies"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -26298,6 +27916,57 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/god_mobs_virtually_religious_community_b1b969ebc21d.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "God-mobs: Virtually religious community"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "psychology_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -26750,6 +28419,55 @@
       },
       "sidecar_paths": [],
       "title": "Networks and Narratives: A Model for Ancient Greek Religion"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "psychology_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/perception_and_meaning_200d3ebd54d7.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Perception and Meaning"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -27919,6 +29637,57 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/advancing_future_orientation_in_policymaking_c3e8b47663e4.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Advancing Future-Orientation in Policymaking"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "modern_literature",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -28264,6 +30033,57 @@
       },
       "sidecar_paths": [],
       "title": "Mortality Reimagined: Going through Deleuze\u2019s Encounter with Death"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "modern_literature",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/mothers_of_the_movement_evangelicalism_and_religious_experience_in_black_women_s_3e29ff1b5f48.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Mothers of the Movement: Evangelicalism and Religious Experience in Black Women\u2019s Activism"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -28619,6 +30439,57 @@
       },
       "sidecar_paths": [],
       "title": "The female guru"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "modern_literature",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/the_spiritual_experience_index_revision_and_reformulation_073ec20e7ed7.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "The Spiritual Experience Index: Revision and Reformulation"
     },
     {
       "confidence_tier": "candidate_lead",
@@ -29207,6 +31078,55 @@
       },
       "sidecar_paths": [],
       "title": "Connectivism: Adopting Quantum Holism in International Relations"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/decoherence_and_the_classical_limit_of_quantum_mechanics_cc89cfcb6348.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Decoherence and the Classical Limit of Quantum Mechanics"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -32951,6 +34871,55 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "pattern_tests",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/trauma_informed_pastoral_theology_when_pastoral_caregivers_resist_abusive_theolo_4b3dfcd54c92.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Trauma-Informed Pastoral Theology: When Pastoral Caregivers Resist Abusive Theologies"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "pattern_tests",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -34451,28 +36420,28 @@
   ],
   "lane_totals": {
     "all_texts": {
-      "documents": 23,
+      "documents": 27,
       "media_assets": 0,
-      "review_notes": 278,
-      "text_documents": 23
+      "review_notes": 282,
+      "text_documents": 27
     },
     "biblical_languages": {
-      "documents": 29,
+      "documents": 31,
       "media_assets": 0,
-      "review_notes": 158,
-      "text_documents": 29
+      "review_notes": 160,
+      "text_documents": 31
     },
     "cultural_inputs": {
-      "documents": 80,
+      "documents": 93,
       "media_assets": 0,
-      "review_notes": 80,
-      "text_documents": 80
+      "review_notes": 93,
+      "text_documents": 93
     },
     "deep_sources": {
-      "documents": 50,
+      "documents": 51,
       "media_assets": 0,
-      "review_notes": 67,
-      "text_documents": 50
+      "review_notes": 68,
+      "text_documents": 51
     },
     "history_inputs": {
       "documents": 31,
@@ -34487,10 +36456,10 @@
       "text_documents": 2
     },
     "modern_literature": {
-      "documents": 16,
+      "documents": 19,
       "media_assets": 0,
-      "review_notes": 16,
-      "text_documents": 16
+      "review_notes": 19,
+      "text_documents": 19
     },
     "other_religious_texts": {
       "documents": 26,
@@ -34499,44 +36468,72 @@
       "text_documents": 26
     },
     "pattern_tests": {
-      "documents": 55,
+      "documents": 56,
       "media_assets": 0,
-      "review_notes": 59,
-      "text_documents": 55
+      "review_notes": 60,
+      "text_documents": 56
     },
     "psychology_inputs": {
-      "documents": 45,
-      "media_assets": 0,
-      "review_notes": 45,
-      "text_documents": 45
-    },
-    "research_documents": {
-      "documents": 140,
-      "media_assets": 0,
-      "review_notes": 186,
-      "text_documents": 140
-    },
-    "theologians": {
-      "documents": 50,
-      "media_assets": 0,
-      "review_notes": 419,
-      "text_documents": 50
-    },
-    "visual_art": {
       "documents": 47,
       "media_assets": 0,
       "review_notes": 47,
       "text_documents": 47
     },
-    "world_languages": {
-      "documents": 54,
+    "research_documents": {
+      "documents": 144,
       "media_assets": 0,
-      "review_notes": 183,
-      "text_documents": 54
+      "review_notes": 190,
+      "text_documents": 144
+    },
+    "theologians": {
+      "documents": 53,
+      "media_assets": 0,
+      "review_notes": 422,
+      "text_documents": 53
+    },
+    "visual_art": {
+      "documents": 50,
+      "media_assets": 0,
+      "review_notes": 50,
+      "text_documents": 50
+    },
+    "world_languages": {
+      "documents": 57,
+      "media_assets": 0,
+      "review_notes": 186,
+      "text_documents": 57
     }
   },
   "missing_rule_examples": {
+    "analogy": [
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_to_relieve_the_human_condition_bioethics_technology_and_the_body_984c2d03d738.md",
+      "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
+      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
+      "biblical_languages/auto_imported_cloud_candidates/la_lexicographie_de_la_septante_entre_sem_et_japhet_6e6a8bb58b5a.md",
+      "biblical_languages/auto_imported_cloud_candidates/life_giving_and_life_threatening_potential_of_water_and_water_related_phenomena_0153454f3bab.md",
+      "world_languages/auto_imported_cloud_candidates/the_discourse_of_the_qur_anic_metaphors_the_embryo_of_theological_sects_disputes_14e661781742.md",
+      "world_languages/auto_imported_cloud_candidates/the_ik_language_dictionary_and_grammar_sketch_8bff587ef872.md",
+      "world_languages/auto_imported_cloud_candidates/the_new_natural_theology_5a852743604d.md",
+      "all_texts/auto_imported_cloud_candidates/a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informal_b167bb9aacdf.md",
+      "all_texts/auto_imported_cloud_candidates/in_search_of_a_theory_for_constitutional_comparativism_f89e4533e750.md",
+      "all_texts/auto_imported_cloud_candidates/religion_and_regionalism_congregants_culture_and_city_county_consolidation_in_lo_2d9a04190299.md",
+      "all_texts/auto_imported_cloud_candidates/the_ending_of_mark_as_a_page_turn_reveal_d6f89c9af891.md",
+      "theologians/auto_imported_cloud_candidates/about_the_author_40bd60bcc79e.md",
+      "theologians/auto_imported_cloud_candidates/from_proclamation_to_conversation_ethnographic_disruptions_to_theological_normat_3f7b7acd443a.md",
+      "theologians/auto_imported_cloud_candidates/frontmatter_9831ef1e15bb.md",
+      "visual_art/auto_imported_cloud_candidates/form_chaos_and_the_nuance_of_beauty_aa9ae8a36649.md",
+      "visual_art/auto_imported_cloud_candidates/holy_sound_e815e07b7238.md",
+      "visual_art/auto_imported_cloud_candidates/holy_words_678a496bd531.md",
+      "cultural_inputs/auto_imported_cloud_candidates/a_study_of_islamic_leadership_theory_and_practice_in_k_12_islamic_schools_in_mic_c0924d7c4a1d.md",
+      "cultural_inputs/auto_imported_cloud_candidates/between_fear_and_hope_11b196352a48.md",
+      "cultural_inputs/auto_imported_cloud_candidates/bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md",
+      "cultural_inputs/auto_imported_cloud_candidates/covid_19_infodemic_and_public_trust_from_the_perspective_of_public_and_global_me_888b6ffeaad9.md",
+      "cultural_inputs/auto_imported_cloud_candidates/culture_cult_ritual_circulation_of_inalienable_knowledge_and_appropriation_of_cu_e1519c0abe02.md",
+      "cultural_inputs/auto_imported_cloud_candidates/dimensions_of_dysphoria_758c69373ce0.md"
+    ],
     "counter_reading": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
@@ -34551,7 +36548,6 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_references_summary.md",
       "research_documents/divine_pattern_concept.md",
       "research_documents/friction_layer.md",
@@ -34562,6 +36558,33 @@
       "world_languages/translation_semantics_and_culture.md",
       "theologians/cross_era_theologian_framework.md",
       "theologians/holy_spirit_gifts_global_framework.md"
+    ],
+    "discernment": [
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_to_relieve_the_human_condition_bioethics_technology_and_the_body_984c2d03d738.md",
+      "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
+      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
+      "biblical_languages/auto_imported_cloud_candidates/la_lexicographie_de_la_septante_entre_sem_et_japhet_6e6a8bb58b5a.md",
+      "world_languages/auto_imported_cloud_candidates/the_discourse_of_the_qur_anic_metaphors_the_embryo_of_theological_sects_disputes_14e661781742.md",
+      "world_languages/auto_imported_cloud_candidates/the_ik_language_dictionary_and_grammar_sketch_8bff587ef872.md",
+      "world_languages/auto_imported_cloud_candidates/the_new_natural_theology_5a852743604d.md",
+      "all_texts/auto_imported_cloud_candidates/a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informal_b167bb9aacdf.md",
+      "all_texts/auto_imported_cloud_candidates/in_search_of_a_theory_for_constitutional_comparativism_f89e4533e750.md",
+      "all_texts/auto_imported_cloud_candidates/religion_and_regionalism_congregants_culture_and_city_county_consolidation_in_lo_2d9a04190299.md",
+      "theologians/auto_imported_cloud_candidates/about_the_author_40bd60bcc79e.md",
+      "theologians/auto_imported_cloud_candidates/from_proclamation_to_conversation_ethnographic_disruptions_to_theological_normat_3f7b7acd443a.md",
+      "theologians/auto_imported_cloud_candidates/frontmatter_9831ef1e15bb.md",
+      "cultural_inputs/auto_imported_cloud_candidates/a_study_of_islamic_leadership_theory_and_practice_in_k_12_islamic_schools_in_mic_c0924d7c4a1d.md",
+      "cultural_inputs/auto_imported_cloud_candidates/between_fear_and_hope_11b196352a48.md",
+      "cultural_inputs/auto_imported_cloud_candidates/bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md",
+      "cultural_inputs/auto_imported_cloud_candidates/covid_19_infodemic_and_public_trust_from_the_perspective_of_public_and_global_me_888b6ffeaad9.md",
+      "cultural_inputs/auto_imported_cloud_candidates/culture_cult_ritual_circulation_of_inalienable_knowledge_and_appropriation_of_cu_e1519c0abe02.md",
+      "cultural_inputs/auto_imported_cloud_candidates/dimensions_of_dysphoria_758c69373ce0.md",
+      "cultural_inputs/auto_imported_cloud_candidates/faith_based_organisations_and_urban_social_justice_in_the_netherlands_e1e87889c63f.md",
+      "cultural_inputs/auto_imported_cloud_candidates/poverty_3bfe65e4a0dd.md",
+      "cultural_inputs/auto_imported_cloud_candidates/professional_boundaries_and_ethical_obligations_in_saudi_arabia_an_integrated_sh_6946faf2aa2a.md",
+      "cultural_inputs/auto_imported_cloud_candidates/south_african_traditional_values_and_beliefs_regarding_informed_consent_and_limi_262cb03bf6fe.md",
+      "cultural_inputs/auto_imported_cloud_candidates/the_ostministerium_ideology_and_ethics_4703ec6922fb.md"
     ],
     "ecclesial_review": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -34588,9 +36611,10 @@
       "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md"
     ],
     "evidence": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
@@ -34603,7 +36627,6 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cross_layer_source_specific_casebook.md",
       "research_documents/daily_cloud_reference_review_log.md",
       "research_documents/divine_pattern_concept.md",
@@ -34618,11 +36641,58 @@
       "research_documents/sacramental_liturgical_grounding.md"
     ],
     "failure_condition": [
-      "research_documents/sacramental_liturgical_grounding.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_to_relieve_the_human_condition_bioethics_technology_and_the_body_984c2d03d738.md",
+      "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
+      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
+      "research_documents/sacramental_liturgical_grounding.md",
+      "biblical_languages/auto_imported_cloud_candidates/la_lexicographie_de_la_septante_entre_sem_et_japhet_6e6a8bb58b5a.md",
+      "biblical_languages/auto_imported_cloud_candidates/life_giving_and_life_threatening_potential_of_water_and_water_related_phenomena_0153454f3bab.md",
+      "world_languages/auto_imported_cloud_candidates/the_discourse_of_the_qur_anic_metaphors_the_embryo_of_theological_sects_disputes_14e661781742.md",
+      "world_languages/auto_imported_cloud_candidates/the_ik_language_dictionary_and_grammar_sketch_8bff587ef872.md",
+      "world_languages/auto_imported_cloud_candidates/the_new_natural_theology_5a852743604d.md",
+      "all_texts/auto_imported_cloud_candidates/a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informal_b167bb9aacdf.md",
+      "all_texts/auto_imported_cloud_candidates/in_search_of_a_theory_for_constitutional_comparativism_f89e4533e750.md",
+      "all_texts/auto_imported_cloud_candidates/religion_and_regionalism_congregants_culture_and_city_county_consolidation_in_lo_2d9a04190299.md",
+      "all_texts/auto_imported_cloud_candidates/the_ending_of_mark_as_a_page_turn_reveal_d6f89c9af891.md",
+      "theologians/auto_imported_cloud_candidates/about_the_author_40bd60bcc79e.md",
+      "theologians/auto_imported_cloud_candidates/from_proclamation_to_conversation_ethnographic_disruptions_to_theological_normat_3f7b7acd443a.md",
+      "theologians/auto_imported_cloud_candidates/frontmatter_9831ef1e15bb.md",
+      "visual_art/auto_imported_cloud_candidates/form_chaos_and_the_nuance_of_beauty_aa9ae8a36649.md",
+      "visual_art/auto_imported_cloud_candidates/holy_sound_e815e07b7238.md",
+      "visual_art/auto_imported_cloud_candidates/holy_words_678a496bd531.md",
+      "cultural_inputs/auto_imported_cloud_candidates/a_study_of_islamic_leadership_theory_and_practice_in_k_12_islamic_schools_in_mic_c0924d7c4a1d.md",
+      "cultural_inputs/auto_imported_cloud_candidates/between_fear_and_hope_11b196352a48.md",
+      "cultural_inputs/auto_imported_cloud_candidates/bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md",
+      "cultural_inputs/auto_imported_cloud_candidates/covid_19_infodemic_and_public_trust_from_the_perspective_of_public_and_global_me_888b6ffeaad9.md",
+      "cultural_inputs/auto_imported_cloud_candidates/culture_cult_ritual_circulation_of_inalienable_knowledge_and_appropriation_of_cu_e1519c0abe02.md"
     ],
     "interpretation": [
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_to_relieve_the_human_condition_bioethics_technology_and_the_body_984c2d03d738.md",
+      "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
+      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
       "research_documents/priestly_review_protocol.md",
-      "research_documents/sacramental_liturgical_grounding.md"
+      "research_documents/sacramental_liturgical_grounding.md",
+      "biblical_languages/auto_imported_cloud_candidates/la_lexicographie_de_la_septante_entre_sem_et_japhet_6e6a8bb58b5a.md",
+      "biblical_languages/auto_imported_cloud_candidates/life_giving_and_life_threatening_potential_of_water_and_water_related_phenomena_0153454f3bab.md",
+      "world_languages/auto_imported_cloud_candidates/the_discourse_of_the_qur_anic_metaphors_the_embryo_of_theological_sects_disputes_14e661781742.md",
+      "world_languages/auto_imported_cloud_candidates/the_ik_language_dictionary_and_grammar_sketch_8bff587ef872.md",
+      "world_languages/auto_imported_cloud_candidates/the_new_natural_theology_5a852743604d.md",
+      "all_texts/auto_imported_cloud_candidates/a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informal_b167bb9aacdf.md",
+      "all_texts/auto_imported_cloud_candidates/in_search_of_a_theory_for_constitutional_comparativism_f89e4533e750.md",
+      "all_texts/auto_imported_cloud_candidates/religion_and_regionalism_congregants_culture_and_city_county_consolidation_in_lo_2d9a04190299.md",
+      "all_texts/auto_imported_cloud_candidates/the_ending_of_mark_as_a_page_turn_reveal_d6f89c9af891.md",
+      "theologians/auto_imported_cloud_candidates/about_the_author_40bd60bcc79e.md",
+      "theologians/auto_imported_cloud_candidates/from_proclamation_to_conversation_ethnographic_disruptions_to_theological_normat_3f7b7acd443a.md",
+      "theologians/auto_imported_cloud_candidates/frontmatter_9831ef1e15bb.md",
+      "visual_art/auto_imported_cloud_candidates/form_chaos_and_the_nuance_of_beauty_aa9ae8a36649.md",
+      "visual_art/auto_imported_cloud_candidates/holy_sound_e815e07b7238.md",
+      "visual_art/auto_imported_cloud_candidates/holy_words_678a496bd531.md",
+      "cultural_inputs/auto_imported_cloud_candidates/a_study_of_islamic_leadership_theory_and_practice_in_k_12_islamic_schools_in_mic_c0924d7c4a1d.md",
+      "cultural_inputs/auto_imported_cloud_candidates/between_fear_and_hope_11b196352a48.md",
+      "cultural_inputs/auto_imported_cloud_candidates/bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md",
+      "cultural_inputs/auto_imported_cloud_candidates/covid_19_infodemic_and_public_trust_from_the_perspective_of_public_and_global_me_888b6ffeaad9.md"
     ],
     "liturgical_grounding": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -34649,9 +36719,10 @@
       "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md"
     ],
     "machine_label_boundary": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
@@ -34667,7 +36738,6 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/claim_ledger.md",
       "research_documents/cloud_reference_review_policy.md",
       "research_documents/cross_layer_source_specific_casebook.md",
@@ -34702,16 +36772,17 @@
       "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_truth_and_method_ad281438fd07.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
     ],
     "practical_use": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/didache_wikisource.txt",
       "research_documents/christian_sources/hypothesis_review_rules.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_reference_review_policy.md",
+      "research_documents/cloud_references_summary.md",
       "research_documents/layer_balance_policy.md",
       "research_documents/reviewed_candidate_reference_decisions_2026_06_04.md",
       "research_documents/reviewed_candidate_reference_decisions_2026_06_04_second_pass.md",
@@ -34729,8 +36800,7 @@
       "deep_sources/qualified_science_reference_review_notes.md",
       "deep_sources/quantum_claim_limits_source_pairs.md",
       "deep_sources/quantum_science_source_framework.md",
-      "deep_sources/science_counterargument_matrix.md",
-      "deep_sources/unresolved_suffering_source_framework.md"
+      "deep_sources/science_counterargument_matrix.md"
     ],
     "promotion_restraint": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -34757,11 +36827,39 @@
       "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md"
     ]
   },
   "promotion_blocker_examples": {
+    "analogy": [
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_to_relieve_the_human_condition_bioethics_technology_and_the_body_984c2d03d738.md",
+      "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
+      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
+      "biblical_languages/auto_imported_cloud_candidates/la_lexicographie_de_la_septante_entre_sem_et_japhet_6e6a8bb58b5a.md",
+      "biblical_languages/auto_imported_cloud_candidates/life_giving_and_life_threatening_potential_of_water_and_water_related_phenomena_0153454f3bab.md",
+      "world_languages/auto_imported_cloud_candidates/the_discourse_of_the_qur_anic_metaphors_the_embryo_of_theological_sects_disputes_14e661781742.md",
+      "world_languages/auto_imported_cloud_candidates/the_ik_language_dictionary_and_grammar_sketch_8bff587ef872.md",
+      "world_languages/auto_imported_cloud_candidates/the_new_natural_theology_5a852743604d.md",
+      "all_texts/auto_imported_cloud_candidates/a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informal_b167bb9aacdf.md",
+      "all_texts/auto_imported_cloud_candidates/in_search_of_a_theory_for_constitutional_comparativism_f89e4533e750.md",
+      "all_texts/auto_imported_cloud_candidates/religion_and_regionalism_congregants_culture_and_city_county_consolidation_in_lo_2d9a04190299.md",
+      "all_texts/auto_imported_cloud_candidates/the_ending_of_mark_as_a_page_turn_reveal_d6f89c9af891.md",
+      "theologians/auto_imported_cloud_candidates/about_the_author_40bd60bcc79e.md",
+      "theologians/auto_imported_cloud_candidates/from_proclamation_to_conversation_ethnographic_disruptions_to_theological_normat_3f7b7acd443a.md",
+      "theologians/auto_imported_cloud_candidates/frontmatter_9831ef1e15bb.md",
+      "visual_art/auto_imported_cloud_candidates/form_chaos_and_the_nuance_of_beauty_aa9ae8a36649.md",
+      "visual_art/auto_imported_cloud_candidates/holy_sound_e815e07b7238.md",
+      "visual_art/auto_imported_cloud_candidates/holy_words_678a496bd531.md",
+      "cultural_inputs/auto_imported_cloud_candidates/a_study_of_islamic_leadership_theory_and_practice_in_k_12_islamic_schools_in_mic_c0924d7c4a1d.md",
+      "cultural_inputs/auto_imported_cloud_candidates/between_fear_and_hope_11b196352a48.md",
+      "cultural_inputs/auto_imported_cloud_candidates/bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md",
+      "cultural_inputs/auto_imported_cloud_candidates/covid_19_infodemic_and_public_trust_from_the_perspective_of_public_and_global_me_888b6ffeaad9.md",
+      "cultural_inputs/auto_imported_cloud_candidates/culture_cult_ritual_circulation_of_inalienable_knowledge_and_appropriation_of_cu_e1519c0abe02.md",
+      "cultural_inputs/auto_imported_cloud_candidates/dimensions_of_dysphoria_758c69373ce0.md"
+    ],
     "counter_reading": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
@@ -34776,7 +36874,6 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_references_summary.md",
       "research_documents/divine_pattern_concept.md",
       "research_documents/friction_layer.md",
@@ -34787,6 +36884,33 @@
       "world_languages/translation_semantics_and_culture.md",
       "theologians/cross_era_theologian_framework.md",
       "theologians/holy_spirit_gifts_global_framework.md"
+    ],
+    "discernment": [
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_to_relieve_the_human_condition_bioethics_technology_and_the_body_984c2d03d738.md",
+      "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
+      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
+      "biblical_languages/auto_imported_cloud_candidates/la_lexicographie_de_la_septante_entre_sem_et_japhet_6e6a8bb58b5a.md",
+      "world_languages/auto_imported_cloud_candidates/the_discourse_of_the_qur_anic_metaphors_the_embryo_of_theological_sects_disputes_14e661781742.md",
+      "world_languages/auto_imported_cloud_candidates/the_ik_language_dictionary_and_grammar_sketch_8bff587ef872.md",
+      "world_languages/auto_imported_cloud_candidates/the_new_natural_theology_5a852743604d.md",
+      "all_texts/auto_imported_cloud_candidates/a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informal_b167bb9aacdf.md",
+      "all_texts/auto_imported_cloud_candidates/in_search_of_a_theory_for_constitutional_comparativism_f89e4533e750.md",
+      "all_texts/auto_imported_cloud_candidates/religion_and_regionalism_congregants_culture_and_city_county_consolidation_in_lo_2d9a04190299.md",
+      "theologians/auto_imported_cloud_candidates/about_the_author_40bd60bcc79e.md",
+      "theologians/auto_imported_cloud_candidates/from_proclamation_to_conversation_ethnographic_disruptions_to_theological_normat_3f7b7acd443a.md",
+      "theologians/auto_imported_cloud_candidates/frontmatter_9831ef1e15bb.md",
+      "cultural_inputs/auto_imported_cloud_candidates/a_study_of_islamic_leadership_theory_and_practice_in_k_12_islamic_schools_in_mic_c0924d7c4a1d.md",
+      "cultural_inputs/auto_imported_cloud_candidates/between_fear_and_hope_11b196352a48.md",
+      "cultural_inputs/auto_imported_cloud_candidates/bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md",
+      "cultural_inputs/auto_imported_cloud_candidates/covid_19_infodemic_and_public_trust_from_the_perspective_of_public_and_global_me_888b6ffeaad9.md",
+      "cultural_inputs/auto_imported_cloud_candidates/culture_cult_ritual_circulation_of_inalienable_knowledge_and_appropriation_of_cu_e1519c0abe02.md",
+      "cultural_inputs/auto_imported_cloud_candidates/dimensions_of_dysphoria_758c69373ce0.md",
+      "cultural_inputs/auto_imported_cloud_candidates/faith_based_organisations_and_urban_social_justice_in_the_netherlands_e1e87889c63f.md",
+      "cultural_inputs/auto_imported_cloud_candidates/poverty_3bfe65e4a0dd.md",
+      "cultural_inputs/auto_imported_cloud_candidates/professional_boundaries_and_ethical_obligations_in_saudi_arabia_an_integrated_sh_6946faf2aa2a.md",
+      "cultural_inputs/auto_imported_cloud_candidates/south_african_traditional_values_and_beliefs_regarding_informed_consent_and_limi_262cb03bf6fe.md",
+      "cultural_inputs/auto_imported_cloud_candidates/the_ostministerium_ideology_and_ethics_4703ec6922fb.md"
     ],
     "ecclesial_review": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -34813,9 +36937,10 @@
       "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md"
     ],
     "evidence": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
       "research_documents/christian_sources/combined_trinitarian_god_model.md",
@@ -34828,7 +36953,6 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cross_layer_source_specific_casebook.md",
       "research_documents/daily_cloud_reference_review_log.md",
       "research_documents/divine_pattern_concept.md",
@@ -34843,11 +36967,58 @@
       "research_documents/sacramental_liturgical_grounding.md"
     ],
     "failure_condition": [
-      "research_documents/sacramental_liturgical_grounding.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_to_relieve_the_human_condition_bioethics_technology_and_the_body_984c2d03d738.md",
+      "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
+      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
+      "research_documents/sacramental_liturgical_grounding.md",
+      "biblical_languages/auto_imported_cloud_candidates/la_lexicographie_de_la_septante_entre_sem_et_japhet_6e6a8bb58b5a.md",
+      "biblical_languages/auto_imported_cloud_candidates/life_giving_and_life_threatening_potential_of_water_and_water_related_phenomena_0153454f3bab.md",
+      "world_languages/auto_imported_cloud_candidates/the_discourse_of_the_qur_anic_metaphors_the_embryo_of_theological_sects_disputes_14e661781742.md",
+      "world_languages/auto_imported_cloud_candidates/the_ik_language_dictionary_and_grammar_sketch_8bff587ef872.md",
+      "world_languages/auto_imported_cloud_candidates/the_new_natural_theology_5a852743604d.md",
+      "all_texts/auto_imported_cloud_candidates/a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informal_b167bb9aacdf.md",
+      "all_texts/auto_imported_cloud_candidates/in_search_of_a_theory_for_constitutional_comparativism_f89e4533e750.md",
+      "all_texts/auto_imported_cloud_candidates/religion_and_regionalism_congregants_culture_and_city_county_consolidation_in_lo_2d9a04190299.md",
+      "all_texts/auto_imported_cloud_candidates/the_ending_of_mark_as_a_page_turn_reveal_d6f89c9af891.md",
+      "theologians/auto_imported_cloud_candidates/about_the_author_40bd60bcc79e.md",
+      "theologians/auto_imported_cloud_candidates/from_proclamation_to_conversation_ethnographic_disruptions_to_theological_normat_3f7b7acd443a.md",
+      "theologians/auto_imported_cloud_candidates/frontmatter_9831ef1e15bb.md",
+      "visual_art/auto_imported_cloud_candidates/form_chaos_and_the_nuance_of_beauty_aa9ae8a36649.md",
+      "visual_art/auto_imported_cloud_candidates/holy_sound_e815e07b7238.md",
+      "visual_art/auto_imported_cloud_candidates/holy_words_678a496bd531.md",
+      "cultural_inputs/auto_imported_cloud_candidates/a_study_of_islamic_leadership_theory_and_practice_in_k_12_islamic_schools_in_mic_c0924d7c4a1d.md",
+      "cultural_inputs/auto_imported_cloud_candidates/between_fear_and_hope_11b196352a48.md",
+      "cultural_inputs/auto_imported_cloud_candidates/bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md",
+      "cultural_inputs/auto_imported_cloud_candidates/covid_19_infodemic_and_public_trust_from_the_perspective_of_public_and_global_me_888b6ffeaad9.md",
+      "cultural_inputs/auto_imported_cloud_candidates/culture_cult_ritual_circulation_of_inalienable_knowledge_and_appropriation_of_cu_e1519c0abe02.md"
     ],
     "interpretation": [
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_to_relieve_the_human_condition_bioethics_technology_and_the_body_984c2d03d738.md",
+      "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
+      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
       "research_documents/priestly_review_protocol.md",
-      "research_documents/sacramental_liturgical_grounding.md"
+      "research_documents/sacramental_liturgical_grounding.md",
+      "biblical_languages/auto_imported_cloud_candidates/la_lexicographie_de_la_septante_entre_sem_et_japhet_6e6a8bb58b5a.md",
+      "biblical_languages/auto_imported_cloud_candidates/life_giving_and_life_threatening_potential_of_water_and_water_related_phenomena_0153454f3bab.md",
+      "world_languages/auto_imported_cloud_candidates/the_discourse_of_the_qur_anic_metaphors_the_embryo_of_theological_sects_disputes_14e661781742.md",
+      "world_languages/auto_imported_cloud_candidates/the_ik_language_dictionary_and_grammar_sketch_8bff587ef872.md",
+      "world_languages/auto_imported_cloud_candidates/the_new_natural_theology_5a852743604d.md",
+      "all_texts/auto_imported_cloud_candidates/a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informal_b167bb9aacdf.md",
+      "all_texts/auto_imported_cloud_candidates/in_search_of_a_theory_for_constitutional_comparativism_f89e4533e750.md",
+      "all_texts/auto_imported_cloud_candidates/religion_and_regionalism_congregants_culture_and_city_county_consolidation_in_lo_2d9a04190299.md",
+      "all_texts/auto_imported_cloud_candidates/the_ending_of_mark_as_a_page_turn_reveal_d6f89c9af891.md",
+      "theologians/auto_imported_cloud_candidates/about_the_author_40bd60bcc79e.md",
+      "theologians/auto_imported_cloud_candidates/from_proclamation_to_conversation_ethnographic_disruptions_to_theological_normat_3f7b7acd443a.md",
+      "theologians/auto_imported_cloud_candidates/frontmatter_9831ef1e15bb.md",
+      "visual_art/auto_imported_cloud_candidates/form_chaos_and_the_nuance_of_beauty_aa9ae8a36649.md",
+      "visual_art/auto_imported_cloud_candidates/holy_sound_e815e07b7238.md",
+      "visual_art/auto_imported_cloud_candidates/holy_words_678a496bd531.md",
+      "cultural_inputs/auto_imported_cloud_candidates/a_study_of_islamic_leadership_theory_and_practice_in_k_12_islamic_schools_in_mic_c0924d7c4a1d.md",
+      "cultural_inputs/auto_imported_cloud_candidates/between_fear_and_hope_11b196352a48.md",
+      "cultural_inputs/auto_imported_cloud_candidates/bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md",
+      "cultural_inputs/auto_imported_cloud_candidates/covid_19_infodemic_and_public_trust_from_the_perspective_of_public_and_global_me_888b6ffeaad9.md"
     ],
     "liturgical_grounding": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -34874,9 +37045,10 @@
       "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md"
     ],
     "machine_label_boundary": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/aquinas_summa_part_1_gutenberg.txt",
       "research_documents/christian_sources/augustine_confessions_gutenberg.txt",
@@ -34892,7 +37064,6 @@
       "research_documents/christian_sources/king_james_bible_gutenberg.txt",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
       "research_documents/christian_sources/science_math_physics_divine_pattern_model.md",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/claim_ledger.md",
       "research_documents/cloud_reference_review_policy.md",
       "research_documents/cross_layer_source_specific_casebook.md",
@@ -34927,16 +37098,17 @@
       "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_truth_and_method_ad281438fd07.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md",
+      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
     ],
     "practical_use": [
+      "research_documents/christian_sources/SOURCES.md",
       "research_documents/christian_sources/apostles_creed_church_hymnary_wikisource.txt",
       "research_documents/christian_sources/didache_wikisource.txt",
       "research_documents/christian_sources/hypothesis_review_rules.md",
       "research_documents/christian_sources/nicene_creed_325_wikisource.txt",
-      "research_documents/christian_sources/SOURCES.md",
       "research_documents/cloud_reference_review_policy.md",
+      "research_documents/cloud_references_summary.md",
       "research_documents/layer_balance_policy.md",
       "research_documents/reviewed_candidate_reference_decisions_2026_06_04.md",
       "research_documents/reviewed_candidate_reference_decisions_2026_06_04_second_pass.md",
@@ -34954,8 +37126,7 @@
       "deep_sources/qualified_science_reference_review_notes.md",
       "deep_sources/quantum_claim_limits_source_pairs.md",
       "deep_sources/quantum_science_source_framework.md",
-      "deep_sources/science_counterargument_matrix.md",
-      "deep_sources/unresolved_suffering_source_framework.md"
+      "deep_sources/science_counterargument_matrix.md"
     ],
     "promotion_restraint": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -34982,7 +37153,7 @@
       "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
       "research_documents/auto_imported_cloud_candidates/book_review_science_and_providence_86619399a553.md",
       "research_documents/auto_imported_cloud_candidates/book_review_the_task_of_old_testament_theology_30d004e52b75.md",
-      "research_documents/auto_imported_cloud_candidates/book_review_theology_after_vedanta_an_experiment_in_comparative_theology_ac58b34f5546.md"
+      "research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md"
     ],
     "source_check_machine_draft": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -35058,87 +37229,87 @@
   "rule_coverage": {
     "analogy": {
       "machine_drafted": 0,
-      "missing": 0,
+      "missing": 39,
       "present": 648,
       "review_companion": 595,
-      "total": 648
+      "total": 687
     },
     "counter_reading": {
       "machine_drafted": 1,
       "missing": 43,
-      "present": 604,
+      "present": 643,
       "review_companion": 0,
-      "total": 648
+      "total": 687
     },
     "discernment": {
       "machine_drafted": 0,
-      "missing": 0,
-      "present": 648,
+      "missing": 31,
+      "present": 656,
       "review_companion": 341,
-      "total": 648
+      "total": 687
     },
     "ecclesial_review": {
       "machine_drafted": 449,
-      "missing": 192,
+      "missing": 231,
       "present": 7,
       "review_companion": 0,
-      "total": 648
+      "total": 687
     },
     "evidence": {
       "machine_drafted": 2,
       "missing": 101,
-      "present": 545,
+      "present": 584,
       "review_companion": 0,
-      "total": 648
+      "total": 687
     },
     "failure_condition": {
       "machine_drafted": 1,
-      "missing": 0,
+      "missing": 39,
       "present": 647,
       "review_companion": 551,
-      "total": 648
+      "total": 687
     },
     "interpretation": {
       "machine_drafted": 2,
-      "missing": 0,
+      "missing": 39,
       "present": 646,
       "review_companion": 613,
-      "total": 648
+      "total": 687
     },
     "liturgical_grounding": {
       "machine_drafted": 429,
-      "missing": 193,
-      "present": 26,
+      "missing": 230,
+      "present": 28,
       "review_companion": 0,
-      "total": 648
+      "total": 687
     },
     "machine_label_boundary": {
       "machine_drafted": 2,
       "missing": 168,
-      "present": 478,
+      "present": 517,
       "review_companion": 0,
-      "total": 648
+      "total": 687
     },
     "pastoral_safety": {
       "machine_drafted": 407,
-      "missing": 192,
-      "present": 49,
+      "missing": 230,
+      "present": 50,
       "review_companion": 1,
-      "total": 648
+      "total": 687
     },
     "practical_use": {
       "machine_drafted": 0,
-      "missing": 32,
-      "present": 616,
+      "missing": 33,
+      "present": 654,
       "review_companion": 0,
-      "total": 648
+      "total": 687
     },
     "promotion_restraint": {
       "machine_drafted": 441,
-      "missing": 192,
+      "missing": 231,
       "present": 15,
       "review_companion": 0,
-      "total": 648
+      "total": 687
     }
   }
 }
