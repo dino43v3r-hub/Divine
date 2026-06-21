@@ -18,6 +18,26 @@ areas before any pattern is treated as a stronger divine-pattern claim.
 
 - Image Of God Pattern: weaken wherever dignity is tied to cognition, beauty,
   productivity, tribe, race, caste, gender, citizenship, health, or usefulness.
+- Image Of God Pattern hard counter-reading: disability studies, trauma studies,
+  and sociology can explain many dignity practices without requiring the pattern
+  as a theological discovery. Communities often learn to protect worth because
+  exclusion, violence, dependency, and grief reveal the social cost of ranking
+  persons; the language of divine image may then function as a powerful moral
+  vocabulary for an already human struggle over recognition. The pattern weakens
+  if it mainly repeats modern rights language with religious decoration, if it
+  cannot protect people with profound cognitive disability without special
+  pleading, or if non-theological accounts produce equal or better protection
+  against coercion, stigma, and abandonment.
+- Image Of God Pattern pastoral use case: a congregation preparing care for a
+  member with dementia uses the pattern to refuse usefulness-based worth. The
+  practice becomes patient presence, adapted prayer, respite for caregivers,
+  protection from shame, and Eucharistic belonging that does not require the
+  person to perform memory, productivity, or verbal clarity.
+- Image Of God Pattern pastoral rejection case: reject the pattern's use when a
+  leader turns it into glib assurance, telling an abused person that the abuser
+  also bears God's image in a way that pressures reconciliation, silence, or
+  unsafe proximity. In that case the claim becomes coercive and must yield to
+  protection, truth-telling, justice, and trauma-informed pastoral care.
 - Cross And Reversal Pattern: reject wherever cross language asks harmed people
   to remain in danger, hide truth, or forgive without justice.
 - Creation-To-Consciousness Pattern: weaken wherever science is used as proof,

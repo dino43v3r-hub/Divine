@@ -1,6 +1,6 @@
 # Source Pack: Image Of God Pattern
 
-Source status: reviewed source pack
+Source status: reviewed_evidence_ready; source-checked direct Image Of God source pack
 
 Claim boundary: the Image Of God pattern may connect dignity, vocation,
 embodiment, symbolic capacity, moral agency, relationship, and worship. It must
@@ -212,3 +212,27 @@ dignity into a demand for spiritual performance and protects the system more
 than the vulnerable person. In that setting the faithful practice is safety,
 truth-telling, outside reporting, trauma-informed care, and freedom from
 pressure to forgive publicly or return to danger.
+
+## 2026-06-21 Direct Source-Check Promotion
+
+Review status: source_checked_direct_pattern_pack
+Confidence tier: reviewed_evidence_ready
+Confidence effect: auto_promotes_direct_image_of_god_pattern_control
+
+Source-check note: reviewed this local source pack directly as the project's
+explicit Image Of God Pattern pack. Unlike the PCR methods source, this record
+is directly about imago Dei theological anthropology and already contains the
+required controls: evidence, interpretation, discernment, analogy, practical
+use, counter-reading, failure condition, pastoral safety, ecclesial review,
+liturgical grounding, promotion restraint, and machine-label boundary.
+
+Auto-promoted control: the Image Of God Pattern may be used as a reviewed-ready
+theological and pastoral control for dignity-before-performance, vocation
+before domination, and protection of persons most likely to be ranked by
+cognition, productivity, health, disability, race, caste, gender, poverty,
+citizenship, incarceration, or usefulness.
+
+Promotion limit: this promotion does not make the pattern a proof that divine
+action has been demonstrated. It promotes the bounded imago Dei control for
+Christian theological interpretation and pastoral practice only where the
+counter-reading, failure condition, and harm-safety limits remain attached.

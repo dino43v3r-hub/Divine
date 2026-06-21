@@ -8,7 +8,8 @@
   },
   "confidence_tier_totals": {
     "candidate_lead": 113,
-    "developing_evidence": 686
+    "developing_evidence": 684,
+    "reviewed_evidence_ready": 2
   },
   "documents": [
     {
@@ -436,49 +437,42 @@
       "title": "Antinatalism, Extinction, and the End of Procreative Self-Corruption"
     },
     {
-      "confidence_tier": "developing_evidence",
+      "confidence_tier": "reviewed_evidence_ready",
       "lane": "research_documents",
       "machine_drafted_confidence_effect": "",
       "machine_drafted_rules": [],
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
-      "missing_rules": [
-        "pastoral_safety",
-        "ecclesial_review",
-        "liturgical_grounding",
-        "promotion_restraint"
-      ],
+      "missing_rules": [],
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md",
       "patterns": [],
-      "promotion_blockers": [
-        "pastoral_safety",
-        "ecclesial_review",
-        "liturgical_grounding",
-        "promotion_restraint",
-        "source_check_review_companion"
-      ],
-      "review_companion_confidence_effect": "does_not_raise_confidence_alone",
+      "promotion_blockers": [],
+      "review_companion_confidence_effect": "auto_promotes_narrow_methodological_control",
       "review_companion_rules": [
         "analogy",
+        "ecclesial_review",
         "failure_condition",
-        "interpretation"
+        "interpretation",
+        "liturgical_grounding",
+        "pastoral_safety",
+        "promotion_restraint"
       ],
-      "review_companion_status": "metadata_reviewed_not_source_checked",
-      "review_note_count": 1,
+      "review_companion_status": "source_checked_local_record_and_metadata",
+      "review_note_count": 2,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
         "discernment": true,
-        "ecclesial_review": false,
+        "ecclesial_review": true,
         "evidence": true,
         "failure_condition": true,
         "interpretation": true,
-        "liturgical_grounding": false,
+        "liturgical_grounding": true,
         "machine_label_boundary": true,
-        "pastoral_safety": false,
+        "pastoral_safety": true,
         "practical_use": true,
-        "promotion_restraint": false
+        "promotion_restraint": true
       },
       "sidecar_paths": [],
       "title": "Application of the PCR method to detect the falsification of sheep milk with goat milk"
@@ -534,14 +528,14 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "research_documents",
-      "machine_drafted_confidence_effect": "does_not_raise_confidence",
+      "machine_drafted_confidence_effect": "source_checked_can_inform_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
         "liturgical_grounding",
         "pastoral_safety",
         "promotion_restraint"
       ],
-      "machine_drafted_status": "machine_drafted_not_source_checked",
+      "machine_drafted_status": "source_checked_against_local_artifact",
       "media_review_status": "text_reviewable",
       "missing_rules": [
         "pastoral_safety",
@@ -558,7 +552,7 @@
         "liturgical_grounding",
         "promotion_restraint",
         "source_check_review_companion",
-        "source_check_machine_draft"
+        "source_check_review_companion"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [
@@ -8054,16 +8048,16 @@
       "title": "Source Pack: Holy Spirit Gifts Pattern"
     },
     {
-      "confidence_tier": "developing_evidence",
+      "confidence_tier": "reviewed_evidence_ready",
       "lane": "research_documents",
-      "machine_drafted_confidence_effect": "does_not_raise_confidence",
+      "machine_drafted_confidence_effect": "source_checked_can_inform_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
         "liturgical_grounding",
         "pastoral_safety",
         "promotion_restraint"
       ],
-      "machine_drafted_status": "machine_drafted_not_source_checked",
+      "machine_drafted_status": "source_checked_direct_pattern_pack",
       "media_review_status": "text_reviewable",
       "missing_rules": [],
       "modality": "text",
@@ -8071,13 +8065,11 @@
       "patterns": [
         "Image Of God Pattern"
       ],
-      "promotion_blockers": [
-        "source_check_machine_draft"
-      ],
-      "review_companion_confidence_effect": "",
+      "promotion_blockers": [],
+      "review_companion_confidence_effect": "auto_promotes_direct_image_of_god_pattern_control",
       "review_companion_rules": [],
-      "review_companion_status": "",
-      "review_note_count": 1,
+      "review_companion_status": "source_checked_direct_pattern_pack",
+      "review_note_count": 2,
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
@@ -15099,14 +15091,14 @@
     {
       "confidence_tier": "candidate_lead",
       "lane": "all_texts",
-      "machine_drafted_confidence_effect": "does_not_raise_confidence",
+      "machine_drafted_confidence_effect": "source_checked_can_inform_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
         "liturgical_grounding",
         "pastoral_safety",
         "promotion_restraint"
       ],
-      "machine_drafted_status": "machine_drafted_not_source_checked",
+      "machine_drafted_status": "source_checked_against_local_artifact",
       "media_review_status": "text_reviewable",
       "missing_rules": [
         "evidence",
@@ -15126,8 +15118,7 @@
         "liturgical_grounding",
         "promotion_restraint",
         "machine_label_boundary",
-        "source_check_review_companion",
-        "source_check_machine_draft"
+        "source_check_review_companion"
       ],
       "review_companion_confidence_effect": "does_not_raise_confidence_alone",
       "review_companion_rules": [

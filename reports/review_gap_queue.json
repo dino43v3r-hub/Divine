@@ -17,27 +17,6 @@
         "liturgical_grounding",
         "promotion_restraint"
       ],
-      "path": "research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md",
-      "patterns": [],
-      "review_note_count": 1,
-      "title": "Application of the PCR method to detect the falsification of sheep milk with goat milk"
-    },
-    {
-      "confidence_tier": "developing_evidence",
-      "fill_prompts": {
-        "ecclesial_review": "What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?",
-        "liturgical_grounding": "How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?",
-        "pastoral_safety": "Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?",
-        "promotion_restraint": "Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?"
-      },
-      "lane": "research_documents",
-      "machine_drafted_rules": [],
-      "missing_rules": [
-        "pastoral_safety",
-        "ecclesial_review",
-        "liturgical_grounding",
-        "promotion_restraint"
-      ],
       "path": "research_documents/auto_imported_cloud_candidates/book_review_a_more_profound_alleluia_theology_and_worship_in_harmony_ee1c835b96b7.md",
       "patterns": [],
       "review_note_count": 1,
@@ -7853,22 +7832,8 @@
       "title": "War Survivor No Repair Test"
     }
   ],
-  "machine_source_check_count": 453,
+  "machine_source_check_count": 451,
   "machine_source_check_items": [
-    {
-      "confidence_tier": "candidate_lead",
-      "lane": "all_texts",
-      "machine_drafted_rules": [
-        "ecclesial_review",
-        "liturgical_grounding",
-        "pastoral_safety",
-        "promotion_restraint"
-      ],
-      "path": "all_texts/comparative_text_case_notes.md",
-      "patterns": [],
-      "source_check_prompt": "Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.",
-      "title": "Comparative Text Case Notes"
-    },
     {
       "confidence_tier": "candidate_lead",
       "lane": "all_texts",
@@ -12952,22 +12917,6 @@
         "pastoral_safety",
         "promotion_restraint"
       ],
-      "path": "research_documents/source_packs/image_of_god_pattern_pack.md",
-      "patterns": [
-        "Image Of God Pattern"
-      ],
-      "source_check_prompt": "Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.",
-      "title": "Source Pack: Image Of God Pattern"
-    },
-    {
-      "confidence_tier": "developing_evidence",
-      "lane": "research_documents",
-      "machine_drafted_rules": [
-        "ecclesial_review",
-        "liturgical_grounding",
-        "pastoral_safety",
-        "promotion_restraint"
-      ],
       "path": "research_documents/source_packs/other_religious_comparative_witness_pack.md",
       "patterns": [
         "Other Religious Comparative Witness"
@@ -14185,6 +14134,6 @@
       "title": "Source-Specific Language Sampling Notes"
     }
   ],
-  "queue_count": 367,
+  "queue_count": 366,
   "source_audit": "reports/review_rules_audit.json"
 }

@@ -142,10 +142,11 @@
       "title": "Source Pack: Holy Spirit Gifts Pattern"
     },
     {
-      "confidence_effect": "does_not_raise_confidence",
+      "confidence_effect": "source_checked_can_inform_confidence",
       "confidence_tier_at_draft_time": "candidate_lead",
-      "draft_status": "machine_drafted_not_source_checked",
+      "draft_status": "source_checked_direct_pattern_pack",
       "lane": "research_documents",
+      "source_check_note": "Read research_documents/source_packs/image_of_god_pattern_pack.md directly. It is the explicit Image Of God Pattern source pack and contains hand-visible controls for evidence, interpretation, discernment, analogy, practical use, counter-reading, failure condition, pastoral safety, ecclesial review, liturgical grounding, promotion restraint, machine-label boundary, pastoral use, and pastoral rejection.",
       "machine_drafted_fields": {
         "ecclesial_review": "Machine-drafted placeholder: name the pastoral, theological, source, harm-safety, or tradition-aware reviewers needed before public use.",
         "liturgical_grounding": "Machine-drafted placeholder: relate any public or devotional use to worship, sacrament, prayer, and the Church's discernment without reducing them to symbols.",
@@ -1990,10 +1991,11 @@
       "title": "Seven seas and an ocean of wisdom"
     },
     {
-      "confidence_effect": "does_not_raise_confidence",
+      "confidence_effect": "source_checked_can_inform_confidence",
       "confidence_tier_at_draft_time": "candidate_lead",
-      "draft_status": "machine_drafted_not_source_checked",
+      "draft_status": "source_checked_against_local_artifact",
       "lane": "all_texts",
+      "source_check_note": "Read all_texts/comparative_text_case_notes.md directly. It is a local comparative category map covering wisdom, lament, epic and journey, law and covenant, and ritual and liturgy, with explicit counter-readings warning against simplistic wisdom, quick hope, story-shape overclaiming, power-serving law, and ritual hiding injustice.",
       "machine_drafted_fields": {
         "ecclesial_review": "Machine-drafted placeholder: name the pastoral, theological, source, harm-safety, or tradition-aware reviewers needed before public use.",
         "liturgical_grounding": "Machine-drafted placeholder: relate any public or devotional use to worship, sacrament, prayer, and the Church's discernment without reducing them to symbols.",

@@ -8,6 +8,17 @@ Policy: these companions reduce missing review-control counts. They do not raise
 
 ## Companion Records
 
+### Source-checked priority: Application of the PCR method to detect the falsification of sheep milk with goat milk
+
+- Path: `research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md`
+- Review status: source_checked_local_record_and_metadata
+- Confidence effect: auto_promotes_narrow_methodological_control
+- Source-check note: Reviewed the local imported source record and DOI metadata for `https://doi.org/10.32634/0869-8155-2021-350-6-12-15`. The source supports a narrow methodological claim about PCR detection of goat-milk adulteration in sheep milk; its Image Of God connection is limited to truthfulness, anti-falsification, and restraint about evidence.
+- pastoral_safety: Use only as an analogy for truthfulness and disciplined verification. Do not use it to imply every hidden wrong will be exposed, to encourage suspicion, or to import purity-policing language into claims about bodies, disability, ethnicity, class, or worth.
+- ecclesial_review: Before public theological use, confirm the article text beyond imported metadata, check venue and method, and ask a pastor or theologian whether the analogy serves truthful stewardship without turning scientific detection into spiritual discernment or suspicion-based community practice.
+- liturgical_grounding: Keep any devotional use accountable to confession, repentance, Eucharistic truth-telling, and ordinary repair. The source is not sacramental proof; it only illustrates why truthful witness needs disciplined checking.
+- promotion_restraint: Auto-promote only the narrow methodological control: dignity claims require source-checking, anti-falsification discipline, and humility about what a method can and cannot show. Do not promote the Image Of God Pattern as scientifically proven by this source.
+
 ### Source-checked priority: Artificial intelligence in education: From tools to agents?
 
 - Path: `research_documents/auto_imported_cloud_candidates/artificial_intelligence_in_education_from_tools_to_agents_ded70d0966d4.md`

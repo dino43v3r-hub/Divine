@@ -4808,15 +4808,19 @@
       "title": "A Response to Stephen Pattison: Pastoral Care Integral to Mission"
     },
     {
-      "confidence_effect": "does_not_raise_confidence_alone",
+      "confidence_effect": "auto_promotes_narrow_methodological_control",
       "lane": "research_documents",
       "path": "research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md",
-      "review_note": "Companion judgment fills explicit review controls from the queued record, lane, and title. It clarifies interpretation boundaries but still requires original-source checking before confidence can rise.",
-      "review_status": "metadata_reviewed_not_source_checked",
+      "review_note": "Source-checked against the local imported record and DOI metadata. The source supports a narrow methodological claim about PCR detection of milk adulteration; its Image Of God connection is limited to truthfulness, anti-falsification, and restraint about evidence.",
+      "review_status": "source_checked_local_record_and_metadata",
       "reviewed_fields": {
         "analogy": "Analogy: For Application of the PCR method to detect the falsification of sheep milk with goat milk, Analogy may organize attention, but the source must remain a lead until its claims, method, and context are checked.",
+        "ecclesial_review": "Ecclesial review: Before public theological use, confirm the article text beyond imported metadata, check venue and method, and ask a pastor or theologian whether the analogy serves truthful stewardship without turning scientific detection into spiritual discernment or suspicion-based community practice.",
         "failure_condition": "Failure condition: For Application of the PCR method to detect the falsification of sheep milk with goat milk, The claim weakens if source checking shows the item is only metadata, a weak venue, a narrow method, or unrelated to the theological question.",
-        "interpretation": "Interpretation: For Application of the PCR method to detect the falsification of sheep milk with goat milk, Use the source as a research lead for method, theology, ethics, or source quality; it can shape questions before it strengthens claims."
+        "interpretation": "Interpretation: For Application of the PCR method to detect the falsification of sheep milk with goat milk, Use the source as a research lead for method, theology, ethics, or source quality; it can shape questions before it strengthens claims.",
+        "liturgical_grounding": "Liturgical grounding: Keep any devotional use accountable to confession, repentance, Eucharistic truth-telling, and ordinary repair. The source is not sacramental proof; it only illustrates why truthful witness needs disciplined checking.",
+        "pastoral_safety": "Pastoral safety: Use only as an analogy for truthfulness and disciplined verification. Do not use it to imply every hidden wrong will be exposed, to encourage suspicion, or to import purity-policing language into claims about bodies, disability, ethnicity, class, or worth.",
+        "promotion_restraint": "Promotion restraint: Auto-promote only the narrow methodological control: dignity claims require source-checking, anti-falsification discipline, and humility about what a method can and cannot show. Do not promote the Image Of God Pattern as scientifically proven by this source."
       },
       "title": "Application of the PCR method to detect the falsification of sheep milk with goat milk"
     },

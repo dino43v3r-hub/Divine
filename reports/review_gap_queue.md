@@ -34,10 +34,10 @@ The system can draft these fields, but it labels them as machine-drafted until t
 
 ## Missing Field Counts In This Queue
 
-- pastoral_safety: 193
-- ecclesial_review: 194
-- liturgical_grounding: 194
-- promotion_restraint: 194
+- pastoral_safety: 192
+- ecclesial_review: 193
+- liturgical_grounding: 193
+- promotion_restraint: 193
 - interpretation: 0
 - analogy: 0
 - failure_condition: 0
@@ -49,10 +49,10 @@ The system can draft these fields, but it labels them as machine-drafted until t
 
 ## Companion Coverage Already Created
 
-- pastoral_safety: 1 reviewed companion; 407 machine-drafted; 192 still missing
-- ecclesial_review: 0 reviewed companion; 449 machine-drafted; 192 still missing
-- liturgical_grounding: 0 reviewed companion; 429 machine-drafted; 193 still missing
-- promotion_restraint: 0 reviewed companion; 441 machine-drafted; 192 still missing
+- pastoral_safety: 2 reviewed companion; 407 machine-drafted; 191 still missing
+- ecclesial_review: 1 reviewed companion; 449 machine-drafted; 191 still missing
+- liturgical_grounding: 1 reviewed companion; 429 machine-drafted; 192 still missing
+- promotion_restraint: 1 reviewed companion; 441 machine-drafted; 191 still missing
 - interpretation: 613 reviewed companion; 2 machine-drafted; 0 still missing
 - analogy: 595 reviewed companion; 0 machine-drafted; 0 still missing
 - failure_condition: 551 reviewed companion; 1 machine-drafted; 0 still missing
@@ -64,19 +64,10 @@ The system can draft these fields, but it labels them as machine-drafted until t
 
 ## Machine-Drafted Source-Check Queue
 
-- Items requiring source-check before trust: 453
+- Items requiring source-check before trust: 451
 - Rule: machine-drafted fields organize work only; they do not raise confidence until the original source has been checked directly.
 
-### M1. Comparative Text Case Notes
-
-- Path: `all_texts/comparative_text_case_notes.md`
-- Lane: all_texts
-- Current tier: candidate_lead
-- Patterns: none detected
-- Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
-- Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
-
-### M2. Global Text Exploration Framework
+### M1. Global Text Exploration Framework
 
 - Path: `all_texts/global_text_exploration_framework.md`
 - Lane: all_texts
@@ -85,7 +76,7 @@ The system can draft these fields, but it labels them as machine-drafted until t
 - Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
 - Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
 
-### M3. Text-Tradition Counter-Reading Map
+### M2. Text-Tradition Counter-Reading Map
 
 - Path: `all_texts/text_tradition_counterreading_map.md`
 - Lane: all_texts
@@ -94,7 +85,7 @@ The system can draft these fields, but it labels them as machine-drafted until t
 - Machine-drafted rules: ecclesial_review, liturgical_grounding, pastoral_safety, promotion_restraint
 - Source-check prompt: Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.
 
-### M4. Text Tradition Expansion Notes
+### M3. Text Tradition Expansion Notes
 
 - Path: `all_texts/text_tradition_expansion_notes.md`
 - Lane: all_texts
@@ -295,21 +286,7 @@ The system can draft these fields, but it labels them as machine-drafted until t
 
 ## Highest Priority Sources
 
-### 1. Application of the PCR method to detect the falsification of sheep milk with goat milk
-
-- Path: `research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md`
-- Lane: research_documents
-- Current tier: developing_evidence
-- Patterns: none detected
-- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint
-
-Fill prompts:
-- pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
-- ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
-- liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
-- promotion_restraint: Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?
-
-### 2. Book Review: A More Profound Alleluia: Theology and Worship in Harmony
+### 1. Book Review: A More Profound Alleluia: Theology and Worship in Harmony
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_a_more_profound_alleluia_theology_and_worship_in_harmony_ee1c835b96b7.md`
 - Lane: research_documents
