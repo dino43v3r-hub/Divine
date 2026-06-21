@@ -10,9 +10,9 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Music-note files analyzed: 28
-Note/chord events analyzed: 113
-Individual notes analyzed: 147
+Music-note files analyzed: 29
+Note/chord events analyzed: 114
+Individual notes analyzed: 148
 Intervals analyzed: 139
 Consonance ratio: 69.06%
 Tension ratio: 30.94%
@@ -41,13 +41,13 @@ Science And Math Relationships
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 120
+- Father: 125
 - Son: 0
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 24
+- Desire And Longing: 25
 - Creation And Order: 12
 - Communal Practice: 2
 - Alienation And Lament: 1
@@ -55,23 +55,23 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 139 | religious/science corpus 2,624
-- Mathematical Structure: music notes 191 | religious/science corpus 638
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,255
-- Quantum Probability: music notes 0 | religious/science corpus 170
-- Life And Consciousness: music notes 0 | religious/science corpus 5,872
-- Meaning And Logos: music notes 27 | religious/science corpus 6,129
-- Moral Response: music notes 0 | religious/science corpus 2,500
-- Worship And Community: music notes 16 | religious/science corpus 1,612
-- Transformation: music notes 43 | religious/science corpus 2,198
+- Physical Order: music notes 139 | religious/science corpus 2,625
+- Mathematical Structure: music notes 191 | religious/science corpus 637
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,263
+- Quantum Probability: music notes 0 | religious/science corpus 174
+- Life And Consciousness: music notes 0 | religious/science corpus 5,873
+- Meaning And Logos: music notes 27 | religious/science corpus 6,120
+- Moral Response: music notes 0 | religious/science corpus 2,492
+- Worship And Community: music notes 16 | religious/science corpus 1,607
+- Transformation: music notes 43 | religious/science corpus 2,203
 
 Relevant Research Domains
 -------------------------
-- Philosophy Of Mathematics: corpus signal 551
-- Physics And Quantum Mechanics: corpus signal 1,433
-- Philosophy Of Science: corpus signal 2,845
-- Cognitive Science: corpus signal 1,042
-- Anthropology And Psychology Of Worship: corpus signal 806
+- Philosophy Of Mathematics: corpus signal 550
+- Physics And Quantum Mechanics: corpus signal 1,438
+- Philosophy Of Science: corpus signal 2,843
+- Cognitive Science: corpus signal 1,043
+- Anthropology And Psychology Of Worship: corpus signal 810
 
 Per-Composition Findings
 ------------------------
@@ -637,6 +637,27 @@ Practical theology applications:
 
 neural_correlates_of_consonance_dissonance_and_the_hierarchy_of_musical_pitch_in_62c85cb3842c.md
 ------------------------------------------------------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+neuromagnetic_representation_of_musical_roundness_in_chord_progressions_390e56563fd2.md
+---------------------------------------------------------------------------------------
 Events: 1
 Notes: 1
 Chord events: 0

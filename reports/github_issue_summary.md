@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-21T03:33:49.435544+00:00
+Generated: 2026-06-21T15:56:38.531054+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,7 +16,7 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## Short Book Report
 
-_Generated: 2026-06-21 03:33 UTC_
+_Generated: 2026-06-21 15:56 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -57,18 +57,18 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 721
+- developing evidence: 757
 - ready for human confidence review: 1
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 187 still missing of 835
-- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 186 still missing of 835
-- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 187 still missing of 835
-- machine_label_boundary: 664 rule-present; 0 reviewed companion; 2 machine-drafted; 169 still missing of 835
-- discernment: 708 rule-present; 341 reviewed companion; 0 machine-drafted; 127 still missing of 835
+- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 223 still missing of 871
+- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 222 still missing of 871
+- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 223 still missing of 871
+- machine_label_boundary: 700 rule-present; 0 reviewed companion; 2 machine-drafted; 169 still missing of 871
+- discernment: 721 rule-present; 341 reviewed companion; 0 machine-drafted; 150 still missing of 871
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Reviewed companions now close the named tracking gaps; they still do not raise confidence unless the original source is checked.
 
