@@ -1,8 +1,21 @@
 {
   "section": "Theological Method and Research Guardrails",
-  "purpose": "Define how Divine Pattern claims are evaluated so the project can remain Christian, research-aware, source-grounded, and cautious.",
-  "core_rule": "Pattern recognition may support or clarify a claim, but it cannot create doctrine, replace Scripture, or erase unresolved friction.",
+  "purpose": "Define how Divine Pattern claims are evaluated so the project can remain Christ-centered, research-aware, source-grounded, and cautious.",
+  "core_rule": "Pattern recognition may support or clarify a claim, but it cannot create doctrine, replace Christ or Scripture, or erase unresolved friction.",
+  "theological_flow": "Christ -> Scripture -> Pattern",
+  "revelation_order": [
+    "Jesus Christ as God's self-revelation",
+    "Scripture as the primary written witness",
+    "Historic Christian doctrine and Church witness",
+    "Creation and observed patterns",
+    "Human experience and interpretation"
+  ],
   "evidence_categories": [
+    {
+      "category": "Christological Gate",
+      "question": "Does the claim begin from Jesus Christ as God's self-revelation rather than from the pattern itself?",
+      "required_action": "Name how Christ's incarnation, cross, resurrection, lordship, mercy, and judgment confirm, correct, or limit the interpretation before raising confidence."
+    },
     {
       "category": "Scriptural Anchor",
       "question": "Is the claim grounded in Scripture, and is the interpretation direct, inferred, analogical, or disputed?",
@@ -19,6 +32,16 @@
       "required_action": "Keep confidence provisional until direct source review is complete."
     },
     {
+      "category": "Sin and Distortion",
+      "question": "How could sin, pride, human limitation, culture, trauma, desire, or false assumptions distort this reading?",
+      "required_action": "Test the claim through Creation, Fall, Redemption, and Consummation before it can be accepted."
+    },
+    {
+      "category": "Theological Critique and Friction",
+      "question": "How does the claim fare before Scripture, Christ-centered theology, Church history, Augustine, Calvin, Karl Barth, and a skeptical or atheist critique?",
+      "required_action": "Record at least one serious friction point or counter-reading; if the claim cannot answer it, mark the pattern unclear or revise it."
+    },
+    {
       "category": "Rival Explanation",
       "question": "Can psychology, sociology, biology, politics, culture, or literary pattern explain the observation without a divine-pattern claim?",
       "required_action": "Name serious alternatives and avoid gaps-based reasoning."
@@ -29,6 +52,11 @@
       "required_action": "Preserve unresolved tension instead of forcing premature resolution."
     },
     {
+      "category": "Mystery and Humility",
+      "question": "Would the most faithful answer be insufficient evidence, pattern unclear, theological mystery remains, or do not force a conclusion?",
+      "required_action": "Allow non-closure when evidence, doctrine, suffering, or mystery make a confident claim inappropriate."
+    },
+    {
       "category": "Pastoral Fruit",
       "question": "Does the claim form truth, love, humility, justice, repentance, repair, worship, patience, and faithfulness?",
       "required_action": "Downgrade claims that become coercive, sentimental, triumphalist, or harmful."
@@ -36,7 +64,7 @@
   ],
   "confidence_rules": [
     "Provisional means useful for exploration but not yet mature enough to carry strong theological weight.",
-    "Confidence may rise only after Scripture anchoring, primary-source review, counter-reading, and harm audit.",
+    "Confidence may rise only after Christological testing, Scripture anchoring, primary-source review, counter-reading, sin-and-distortion review, and harm audit.",
     "Confidence must fall when a claim depends on weak analogy, ignored counterevidence, coercive use, or unresolved suffering.",
     "Evidence scores describe research pressure, not spiritual certainty."
   ],
@@ -54,6 +82,12 @@
     "theological_caution",
     "alternative_explanations",
     "failure_risk",
-    "source_review_note"
+    "source_review_note",
+    "christological_gate",
+    "creation_fall_redemption_consummation",
+    "sin_distortion_review",
+    "augustine_calvin_barth_review",
+    "skeptical_atheist_critique",
+    "mystery_humility_outcome"
   ]
 }

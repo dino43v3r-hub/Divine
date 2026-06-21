@@ -1,0 +1,55 @@
+{
+  "section": "Revelation Layer",
+  "purpose": "Keep Divine Pattern Christ-centered by ranking theological authority before any pattern is interpreted.",
+  "foundation_statement": "Divine Pattern does not seek to discover God through patterns alone. Rather, it seeks to examine patterns in creation, history, culture, and human experience in light of God's self-revelation in Jesus Christ. Scripture remains the primary authority, patterns are secondary observations, and all conclusions must remain accountable to the witness of Christ, the Church, and the mystery of God.",
+  "theological_flow": [
+    "Christ",
+    "Scripture",
+    "Pattern"
+  ],
+  "authority_order": [
+    {
+      "rank": 1,
+      "authority": "Jesus Christ as God's self-revelation",
+      "use": "Christ is the living center and judge of Christian interpretation."
+    },
+    {
+      "rank": 2,
+      "authority": "Scripture as the primary written witness",
+      "use": "Scripture normatively witnesses to Christ and tests all theological claims."
+    },
+    {
+      "rank": 3,
+      "authority": "Historic Christian doctrine and Church witness",
+      "use": "Creeds, councils, worship, and tested teachers guard the project from private speculation."
+    },
+    {
+      "rank": 4,
+      "authority": "Creation and observed patterns",
+      "use": "Patterns in creation, history, culture, and experience are secondary observations that may illuminate or pressure-test a claim."
+    },
+    {
+      "rank": 5,
+      "authority": "Human experience and interpretation",
+      "use": "Experience can be pastorally important, but it remains limited, culturally shaped, and in need of correction."
+    }
+  ],
+  "acceptance_rule": "No pattern may be treated as a source of theological truth by itself. A pattern can only become a provisional theological observation after being tested by Christ, Scripture, doctrine, Church witness, sin-and-distortion analysis, and serious critique.",
+  "beginner_summary": "Start with Jesus Christ, listen to Scripture, then examine patterns carefully. Patterns may help us notice something, but they do not tell us who God is apart from God's revelation.",
+  "required_pattern_questions": [
+    "How does this pattern relate to Jesus Christ, especially incarnation, cross, resurrection, lordship, and mercy?",
+    "What Scripture anchors, corrects, or limits this interpretation?",
+    "How does historic Christian doctrine or Church witness receive, question, or reject this claim?",
+    "What is actually observed in creation, history, culture, or human experience?",
+    "Where might human experience, pride, fear, culture, trauma, desire, or limited evidence distort the interpretation?"
+  ],
+  "allowed_outcomes": [
+    "provisional_observation",
+    "analogy_only",
+    "insufficient_evidence",
+    "pattern_unclear",
+    "theological_mystery_remains",
+    "do_not_force_conclusion",
+    "reject_or_revise_claim"
+  ]
+}

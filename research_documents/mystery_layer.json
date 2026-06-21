@@ -4,8 +4,18 @@
   "categories": [
     "Fully Knowable",
     "Partially Knowable",
-    "Ultimately Mysterious"
+    "Ultimately Mysterious",
+    "Insufficient Evidence",
+    "Pattern Unclear",
+    "Do Not Force A Conclusion"
   ],
+  "humility_outcomes": [
+    "Insufficient evidence",
+    "Pattern unclear",
+    "Theological mystery remains",
+    "Do not force a conclusion"
+  ],
+  "interpretive_rule": "The project must be free to stop short of a pattern claim. Humility is not failure; it is often the most faithful conclusion when Christ, Scripture, doctrine, suffering, or evidence do not permit closure.",
   "records": [
     {
       "topic": "Trinity",

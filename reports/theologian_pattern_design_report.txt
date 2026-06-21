@@ -39,9 +39,9 @@ Signal: strong Trinitarian signal
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 148 | broader corpus 2,628
+- Physical Order: theologians 148 | broader corpus 2,629
 - Mathematical Structure: theologians 4 | broader corpus 636
-- Mathematical Theophany: theologians 134 | broader corpus 1,263
+- Mathematical Theophany: theologians 134 | broader corpus 1,261
 - Quantum Probability: theologians 2 | broader corpus 171
 - Life And Consciousness: theologians 161 | broader corpus 5,859
 - Meaning And Logos: theologians 102 | broader corpus 6,142

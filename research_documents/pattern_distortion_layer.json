@@ -1,6 +1,13 @@
 {
   "section": "Pattern Distortion Layer",
-  "purpose": "Identify how divine patterns become corrupted through sin, pride, rebellion, idolatry, fear, self-interest, and brokenness.",
+  "purpose": "Identify how observed patterns and their interpretations can be distorted through sin, pride, rebellion, idolatry, fear, self-interest, culture, false assumptions, and human limitation.",
+  "required_framework": {
+    "Creation": "What was God's intended order?",
+    "Fall": "How has sin distorted it?",
+    "Redemption": "How does Christ redeem or correct it?",
+    "Consummation": "How is it fulfilled in God's final purpose?"
+  },
+  "interpretive_rule": "Every detected pattern must pass through this framework before it is treated as a theological observation. The project must ask whether the pattern itself is corrupted, whether the observer is misreading it, and whether the conclusion should be weakened, revised, or left open.",
   "records": [
     {
       "original_pattern": "Love",

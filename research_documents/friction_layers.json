@@ -1,4 +1,17 @@
 {
+  "theological_critique_layer": {
+    "purpose": "Test every pattern before acceptance so the project does not let attractive patterns outrank Christ, Scripture, doctrine, or honest critique.",
+    "required_tests": [
+      "Scripture",
+      "Christ-centered theology",
+      "Church history",
+      "Augustine",
+      "Calvin",
+      "Karl Barth",
+      "Possible skeptical or atheist critique"
+    ],
+    "rule": "A pattern may be strengthened only after the critique layer is recorded. If the critique exposes a serious unresolved problem, the result should be insufficient evidence, pattern unclear, theological mystery remains, do not force a conclusion, or reject/revise the claim."
+  },
   "rating_scale": {
     "0": "diagnostic friction; neither support nor rejection yet",
     "1": "modest support with caution",

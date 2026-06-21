@@ -5,9 +5,26 @@ recurring patterns in reality and examines how those patterns align with,
 illuminate, challenge, or are explained by the Christian understanding of God,
 creation, sin, redemption, and restoration.
 
+Divine Pattern does not seek to discover God through patterns alone. Rather, it
+seeks to examine patterns in creation, history, culture, and human experience in
+light of God's self-revelation in Jesus Christ. Scripture remains the primary
+authority, patterns are secondary observations, and all conclusions must remain
+accountable to the witness of Christ, the Church, and the mystery of God.
+
 Patterns are treated as evidence, observations, and hypotheses to be tested, not
 as independent sources of divine authority. Scripture and divine revelation are
 primary; pattern recognition is secondary and supportive.
+
+The theological flow is:
+
+```text
+Christ -> Scripture -> Pattern
+```
+
+Patterns do not generate theology on their own. A detected pattern must be
+tested by Jesus Christ, Scripture, Christian doctrine, the Church's witness,
+possible distortion by sin, and honest counterarguments before it can carry any
+theological weight.
 
 The project analyzes theology, music lyrics, music notes, visual art, history,
 world languages, biblical Greek and Hebrew, global text traditions, psychology,
@@ -24,8 +41,33 @@ Holy Spirit makes redemption present through communion and transformation.
 
 The project also includes a mathematical theophany filter. It asks whether
 mathematical order, pattern, symmetry, logic, infinity, and beauty may function
-as cautious signs of divine self-disclosure, while requiring contrasting
-evidence and alternative interpretations before any claim is strengthened.
+as cautious signs within creation after they have been tested by Christ,
+Scripture, doctrine, and rival explanations. They are not a path to discover God
+apart from God's self-revelation in Jesus Christ.
+
+## Revelation And Humility Layers
+
+The project ranks theological authority in this order:
+
+1. Jesus Christ as God's self-revelation.
+2. Scripture as the primary written witness.
+3. Historic Christian doctrine and Church witness.
+4. Creation and observed patterns.
+5. Human experience and interpretation.
+
+Every pattern is also tested through Creation, Fall, Redemption, and
+Consummation:
+
+- Creation: What was God's intended order?
+- Fall: How has sin distorted it?
+- Redemption: How does Christ redeem or correct it?
+- Consummation: How is it fulfilled in God's final purpose?
+
+Before accepting a pattern, the project asks for theological friction from
+Scripture, Christ-centered theology, Church history, Augustine, Calvin, Karl
+Barth, and a possible skeptical or atheist critique. It may conclude:
+insufficient evidence, pattern unclear, theological mystery remains, or do not
+force a conclusion.
 
 ## Run
 
@@ -49,6 +91,7 @@ Additional theological architecture files are stored in `research_documents/`:
 - `tradition_claim_labels.json`
 - `source_review_status.json`
 - `does_not_prove_boundaries.json`
+- `revelation_layer.json`
 - `pattern_distortion_layer.json`
 - `christological_layer.json`
 - `historical_witnesses.json`
@@ -424,11 +467,15 @@ auto-commit action. The analyzer itself still uses Python 3.12.
 ## Guardrails
 
 - Treat patterns as research hypotheses, not proof.
+- Begin with Christ and Scripture before interpreting a pattern.
 - Preserve the distinction and unity of Father, Son, and Holy Spirit.
 - Do not use quantum physics as vague proof of God.
 - Do not treat mathematical order, symmetry, logic, infinity, or beauty as proof
-  of divine self-disclosure; compare naturalistic, Platonist, formalist,
-  constructivist, cognitive, cultural, and suffering-based alternatives.
+  of God or as revelation apart from Christ and Scripture; compare
+  naturalistic, Platonist, formalist, constructivist, cognitive, cultural, and
+  suffering-based alternatives.
+- Test every pattern through Creation, Fall, Redemption, and Consummation, and
+  allow "insufficient evidence" or "do not force a conclusion" when needed.
 - Do not rush unresolved suffering into easy resolution.
 - Use source quality, counterarguments, and practical application checks.
 - Treat language-family and text-tradition coverage as mapped, not universal,

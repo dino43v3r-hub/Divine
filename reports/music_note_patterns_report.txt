@@ -54,9 +54,9 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 136 | religious/science corpus 2,628
+- Physical Order: music notes 136 | religious/science corpus 2,629
 - Mathematical Structure: music notes 185 | religious/science corpus 636
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,263
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,261
 - Quantum Probability: music notes 0 | religious/science corpus 171
 - Life And Consciousness: music notes 0 | religious/science corpus 5,859
 - Meaning And Logos: music notes 24 | religious/science corpus 6,142

@@ -1,17 +1,30 @@
 {
   "section": "Theological Foundations",
-  "purpose": "Establish Scripture and divine revelation as primary, with pattern recognition as secondary, fallible, and supportive.",
-  "mission_statement": "The Divine Pattern Project explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.",
-  "authority_boundary": "Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority. No pattern claim may override Scripture, Christ, or core Christian doctrine.",
+  "purpose": "Establish Jesus Christ and Scripture as primary, with pattern recognition as secondary, fallible, and supportive.",
+  "foundation_statement": "Divine Pattern does not seek to discover God through patterns alone. Rather, it seeks to examine patterns in creation, history, culture, and human experience in light of God's self-revelation in Jesus Christ. Scripture remains the primary authority, patterns are secondary observations, and all conclusions must remain accountable to the witness of Christ, the Church, and the mystery of God.",
+  "mission_statement": "The Divine Pattern Project explores recurring patterns in reality and examines them in light of God's self-revelation in Jesus Christ, the witness of Scripture, historic Christian doctrine, and the Christian understanding of creation, sin, redemption, and restoration.",
+  "theological_flow": [
+    "Christ",
+    "Scripture",
+    "Pattern"
+  ],
+  "authority_boundary": "Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority. No pattern claim may override Jesus Christ, Scripture, or core Christian doctrine.",
+  "revelation_authority_order": [
+    "Jesus Christ as God's self-revelation",
+    "Scripture as the primary written witness",
+    "Historic Christian doctrine and Church witness",
+    "Creation and observed patterns",
+    "Human experience and interpretation"
+  ],
   "principles": [
     "God exists independently of human observation.",
     "Creation reflects its Creator while remaining distinct from the Creator.",
-    "Patterns do not create truth. Patterns may disclose, illuminate, or pressure-test truth, but they are interpreted fallibly.",
+    "Patterns do not create or independently reveal theological truth. Patterns may illuminate or pressure-test a claim, but they are interpreted fallibly.",
     "Human observation is limited and affected by sin, finitude, culture, desire, and power.",
-    "Scripture remains the highest authority.",
+    "Jesus Christ is God's self-revelation, and Scripture is the primary written witness to Christ.",
     "Pattern analysis is subordinate to Scripture and should never override biblical revelation.",
     "General Revelation and Special Revelation should be distinguished.",
-    "Christ is the center and judge of Christian pattern interpretation.",
+    "Christ is the center and judge of Christian pattern interpretation, in the spirit of Karl Barth's insistence that God is known because God reveals himself.",
     "Mystery prevents overclaiming where God has not given exhaustive explanation."
   ],
   "definitions": {
@@ -19,9 +32,9 @@
     "Special Revelation": "Knowledge of God revealed through Scripture, Christ, and divine self-disclosure."
   },
   "interpretive_order": [
+    "Christ-centered interpretation",
     "Scripture and divine revelation",
     "Creedal Christian guardrails",
-    "Christ-centered interpretation",
     "Sin, distortion, and noetic limits",
     "Friction and competing explanations",
     "Historical theology and ecumenical witness",
@@ -30,10 +43,12 @@
     "Provisional research confidence"
   ],
   "required_claim_checks": [
+    "Does this claim begin with Christ and Scripture rather than making the pattern the source of truth?",
     "Does this claim have a Scripture anchor or a stated reason why it is only an analogy?",
     "Does this claim preserve the Creator-creature distinction?",
     "Does this claim remain consistent with Nicene and Chalcedonian Christianity?",
-    "Does this claim name rival explanations and possible failure conditions?",
+    "Does this claim name rival explanations, including skeptical or atheist critiques, and possible failure conditions?",
+    "Does this claim test Creation, Fall, Redemption, and Consummation?",
     "Could this claim be used to excuse harm, control, abuse, or passivity?",
     "What would lower the confidence score?"
   ]

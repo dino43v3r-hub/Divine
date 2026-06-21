@@ -441,7 +441,7 @@ The newest active lanes should become reviewed evidence only through this path:
 ## Pack 12: Mathematical Theophany Pattern
 
 Claim boundary: mathematical order, pattern, symmetry, logic, infinity, and
-beauty may be explored as possible signs of divine self-disclosure, but they
+beauty may be explored as secondary creaturely signs under Christ and Scripture, but they
 must not be treated as proof or allowed to bypass rival explanations.
 
 Reviewed-source needs:

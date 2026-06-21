@@ -305,6 +305,28 @@ TRINITARIAN_GUARDRAIL = (
 )
 
 
+FOUNDATION_STATEMENT = (
+    "Divine Pattern does not seek to discover God through patterns alone. Rather, "
+    "it seeks to examine patterns in creation, history, culture, and human "
+    "experience in light of God's self-revelation in Jesus Christ. Scripture "
+    "remains the primary authority, patterns are secondary observations, and all "
+    "conclusions must remain accountable to the witness of Christ, the Church, "
+    "and the mystery of God."
+)
+
+
+CHRIST_CENTERED_FLOW = "Christ -> Scripture -> Pattern"
+
+
+REVELATION_AUTHORITY_ORDER = [
+    "Jesus Christ as God's self-revelation",
+    "Scripture as the primary written witness",
+    "Historic Christian doctrine and Church witness",
+    "Creation and observed patterns",
+    "Human experience and interpretation",
+]
+
+
 TEST_DOMAINS = {
     "Scripture And Early Christian Logos": [
         "scripture",
@@ -507,7 +529,7 @@ DIVINE_PATTERN_LAYERS = {
             "elegance",
             "harmony",
         ],
-        "question": "Can mathematical order, pattern, symmetry, logic, infinity, or beauty be read cautiously as possible signs of divine self-disclosure while rival explanations remain in view?",
+        "question": "Can mathematical order, pattern, symmetry, logic, infinity, or beauty be read cautiously as secondary signs within creation after Christ, Scripture, doctrine, and rival explanations remain in view?",
     },
     "Quantum Probability": {
         "terms": [
@@ -610,8 +632,8 @@ DIVINE_PATTERN_CANDIDATES = [
     },
     {
         "name": "Mathematical Theophany Pattern",
-        "sequence": "Order -> Pattern -> Symmetry/Logic -> Beauty/Infinity -> Possible Self-Disclosure -> Humble Interpretation",
-        "interpretation": "Mathematical order may function as a theophany filter: not proof by itself, but a disciplined way to ask whether intelligibility, symmetry, logic, infinity, and beauty can be received as signs of divine self-disclosure.",
+        "sequence": "Christ -> Scripture -> Creation -> Order/Pattern -> Humble Interpretation",
+        "interpretation": "Mathematical order may function as a theophany filter only in a secondary sense: not proof by itself, but a disciplined way to ask whether intelligibility, symmetry, logic, infinity, and beauty can be received as creaturely signs under Christ and Scripture.",
         "layers": ["Physical Order", "Mathematical Structure", "Mathematical Theophany", "Meaning And Logos"],
         "evidence_needed": "Philosophy of mathematics, aesthetics, theology of creation and revelation, history of science, and serious non-theistic or naturalistic interpretations.",
         "risk": "Do not collapse mathematical beauty into revelation, ignore ugly or chaotic realities, or treat subjective aesthetic response as universal evidence.",
@@ -2438,7 +2460,7 @@ CONGRUENCE_FILTERS = {
             "constructivist",
             "formalism",
         ],
-        "rule": "Mathematical order, symmetry, logic, infinity, and beauty may be explored as signs of divine self-disclosure only after contrasting non-theistic, Platonist, constructivist, cognitive, and cultural explanations are named.",
+        "rule": "Mathematical order, symmetry, logic, infinity, and beauty may be explored as secondary creaturely signs only under Christ and Scripture, and only after contrasting non-theistic, Platonist, constructivist, cognitive, and cultural explanations are named.",
     },
     "Physics Scale Filter": {
         "terms": [
@@ -4952,7 +4974,7 @@ def append_reader_layer_chart(lines, layer_counts):
     lines.extend(
         [
             "",
-            "Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as possible signs of divine self-disclosure, while keeping alternative explanations visible.",
+            "Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as secondary creaturely signs under Christ and Scripture, while keeping alternative explanations visible.",
             "",
         ]
     )
@@ -5069,13 +5091,37 @@ def append_reader_guardrails(lines):
         [
             "Guardrails For A Careful Reader",
             "-------------------------------",
-            "1. Do not confuse a repeated pattern with proof.",
-            "2. Do not use suffering as a shortcut to a happy ending.",
-            "3. Do not use science, math, or quantum language as a shortcut to theology.",
-            "4. Do not flatten other religions into Christian language without listening to their own claims.",
-            "5. Do not call something the Holy Spirit if it produces coercion, pride, fear, or harm.",
-            "6. Do not strengthen a claim until weak source lanes have been developed.",
-            "7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today, and whether the practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.",
+            "1. Begin with Christ and Scripture before interpreting a pattern.",
+            "2. Do not confuse a repeated pattern with proof.",
+            "3. Test each pattern for sin, pride, cultural distortion, false assumptions, and human limitation.",
+            "4. Do not use suffering as a shortcut to a happy ending.",
+            "5. Do not use science, math, or quantum language as a shortcut to theology.",
+            "6. Do not flatten other religions into Christian language without listening to their own claims.",
+            "7. Do not call something the Holy Spirit if it produces coercion, pride, fear, or harm.",
+            "8. Do not strengthen a claim until weak source lanes have been developed.",
+            "9. Allow conclusions such as insufficient evidence, pattern unclear, theological mystery remains, or do not force a conclusion.",
+            "10. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today, and whether the practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.",
+            "",
+        ]
+    )
+
+
+def append_revelation_layer_section(lines):
+    """Append the Christ-centered authority order used by the project."""
+    lines.extend(
+        [
+            "Christ-Centered Foundation",
+            "--------------------------",
+            FOUNDATION_STATEMENT,
+            f"Theological flow: {CHRIST_CENTERED_FLOW}.",
+            "Authority order:",
+        ]
+    )
+    for index, authority in enumerate(REVELATION_AUTHORITY_ORDER, start=1):
+        lines.append(f"{index}. {authority}.")
+    lines.extend(
+        [
+            "Pattern acceptance rule: patterns are secondary observations. They must be tested by Christ, Scripture, doctrine, Church witness, sin-and-distortion analysis, critique, and mystery before they carry theological weight.",
             "",
         ]
     )
@@ -5347,6 +5393,8 @@ def create_pattern_candidates_report(analyses):
         "-------",
         "This report proposes possible divine-pattern candidates from the current corpus.",
         "These are research hypotheses, not proofs. Each candidate should be tested against stronger sources and fair criticism.",
+        f"Method flow: {CHRIST_CENTERED_FLOW}. Patterns are candidates, not sources of truth.",
+        "A candidate should become stronger only after Christological, Scriptural, doctrinal, distortion, critique, and mystery checks.",
         "",
         "Core Model",
         "----------",
@@ -5391,7 +5439,7 @@ def create_top_patterns_report(analyses, synthesis_analyses, test_analyses, deep
         "A Reader's Opening",
         "------------------",
         "The project is no longer asking for one dominant pattern to explain everything. It is learning to read several possible patterns side by side.",
-        "Think of these as five chapters in a larger theological book. Each chapter asks how God's work may be recognized through scripture, history, human experience, and practical life.",
+        f"Method flow: {CHRIST_CENTERED_FLOW}. Think of these as five chapters in a larger theological book, where each chapter asks how a pattern should be tested by Christ, Scripture, doctrine, history, human experience, and practical life.",
         "The patterns are not conclusions by themselves. They are disciplined hypotheses that must face suffering, other traditions, science limits, language context, history, and ordinary daily life.",
         "",
         "Purpose",
@@ -5469,6 +5517,7 @@ def create_disciplined_theological_assistant_report(
         "=======================================",
         "",
     ]
+    append_revelation_layer_section(lines)
     append_reader_preface(lines)
     append_how_to_read_this_book(lines)
     append_pattern_detection_to_formation(lines)
@@ -5480,13 +5529,14 @@ def create_disciplined_theological_assistant_report(
         "------------------------",
         "The assistant may say a pattern is visible, supported, reviewed, useful, compatible, or theologically interpreted.",
         "It must not say a pattern is proven merely because repeated language, narrative similarity, scientific analogy, or spiritual testimony appears.",
+        "It must start with Christ, Scripture, and Christian doctrine before treating a pattern as theologically meaningful.",
         TRINITARIAN_GUARDRAIL,
         "",
         "Evidence Versus Discernment",
         "---------------------------",
         "- Evidence: source-located support from texts, history, languages, art, psychology, statistics, theology, testimony, or pressure tests.",
         "- Reviewed evidence: evidence checked against source quality, serious rival counter-readings, lane balance, and claim boundaries.",
-        "- Theological interpretation: a Christian reading shaped by scripture, doctrine, tradition, reason, and worship.",
+        "- Theological interpretation: a Christian reading shaped first by Jesus Christ, Scripture, doctrine, tradition, reason, and worship.",
         "- Discernment: prayerful, communal, morally accountable interpretation for faithful response.",
         "- Practical theology: the pattern tested in ordinary life by fruit, love, justice, truth, humility, and care.",
         "- Analogy: an illuminating comparison that must stay narrower than proof.",
@@ -5529,18 +5579,21 @@ def create_disciplined_theological_assistant_report(
             "",
             "Assistant Behavior Rules",
             "------------------------",
-            "1. Start by naming the claim type: evidence, interpretation, discernment, analogy, or practical use.",
-            "2. Cite or name the source lane before strengthening a claim.",
-            "3. Ask which top-five pattern best fits and which pressure test might weaken it.",
-            "4. Use other religious traditions respectfully and preserve real differences.",
-            "5. Keep gifts of the Holy Spirit accountable to love, truth, humility, community, and fruit.",
-            "6. Keep math, statistics, logic, and physics as discipline filters, not shortcuts to proof.",
-            "7. Translate patterns into practice only with safeguards against control, denial, abuse, and spiritual bypass.",
-            "8. Every practical claim must answer: does this help people become truthful, loving, humble, just, worshipful, patient, and faithful?",
+            "1. Start with the claim type: evidence, interpretation, discernment, analogy, practical use, or mystery/non-closure.",
+            "2. Test the claim by Christ, Scripture, doctrine, and Church witness before strengthening it.",
+            "3. Cite or name the source lane before strengthening a claim.",
+            "4. Ask which top-five pattern best fits and which pressure test might weaken it.",
+            "5. Test Creation, Fall, Redemption, and Consummation for every accepted pattern.",
+            "6. Use Augustine, Calvin, Barth, Church history, and skeptical or atheist critique as friction checks.",
+            "7. Use other religious traditions respectfully and preserve real differences.",
+            "8. Keep gifts of the Holy Spirit accountable to love, truth, humility, community, and fruit.",
+            "9. Keep math, statistics, logic, and physics as discipline filters, not shortcuts to proof.",
+            "10. Translate patterns into practice only with safeguards against control, denial, abuse, and spiritual bypass.",
+            "11. Every practical claim must answer: does this help people become truthful, loving, humble, just, worshipful, patient, and faithful?",
             "",
             "One-Sentence Operating Summary",
             "------------------------------",
-            "The Divine assistant should map possible divine patterns carefully, test them honestly, interpret them theologically, and help people practice faithful love in daily life without overstating the evidence.",
+            "The Divine assistant should receive Christ and Scripture as primary, map possible patterns carefully, test them honestly, preserve mystery where needed, and help people practice faithful love without overstating the evidence.",
         ]
     )
 
@@ -5599,6 +5652,7 @@ def create_reader_book_report(
         "------------------------------------------------------------",
         "",
     ]
+    append_revelation_layer_section(lines)
     append_latest_run_snapshot(lines, daily_digest, reference_catalog_summary)
     append_learning_journal_entry(lines, daily_digest, ranked_patterns, pressure_counts)
     append_reader_preface(lines)
@@ -5772,8 +5826,9 @@ def create_report(analyses):
         "Purpose",
         "-------",
         "This report uses Python as an analytical tool to look for recurring language and cross-disciplinary patterns across theology, spirituality, biology, anthropology, philosophy, and AI.",
-        "It does not attempt to prove divine truth. It helps organize evidence, surface connections, and generate better research questions.",
-        "Guardrail: word matches are only starting signals. A stronger pattern needs context, movement across a text, and practical meaning.",
+        "It does not attempt to discover God or prove divine truth from patterns. It helps organize evidence, surface connections, and generate better research questions under Christ and Scripture.",
+        f"Method flow: {CHRIST_CENTERED_FLOW}.",
+        "Guardrail: word matches are only starting signals. A stronger pattern needs context, movement across a text, Christ-centered testing, Scriptural grounding, distortion review, critique, and practical meaning.",
         TRINITARIAN_GUARDRAIL,
         "",
         "Overview",
@@ -5782,9 +5837,9 @@ def create_report(analyses):
         f"Total analyzed words: {sum(analysis['words'] for analysis in analyses):,}",
         describe_theme_balance(theme_counts),
         "",
-        "Theme Signals",
-        "-------------",
     ]
+    append_revelation_layer_section(lines)
+    lines.extend(["", "Theme Signals", "-------------"])
 
     for theme, count in theme_counts.most_common():
         lines.append(f"- {theme}: {count:,}")

@@ -2,9 +2,18 @@
   "section": "Project Architecture",
   "architecture": {
     "FOUNDATION": [
+      "Christ",
       "Scripture",
-      "Revelation",
-      "Creation"
+      "Doctrine",
+      "Creation",
+      "Observed Patterns"
+    ],
+    "REVELATION LAYER": [
+      "Jesus Christ As God's Self-Revelation",
+      "Scripture As Primary Written Witness",
+      "Historic Christian Doctrine And Church Witness",
+      "Creation And Observed Patterns",
+      "Human Experience And Interpretation"
     ],
     "PATTERNS": [
       "Image of God",
@@ -15,12 +24,23 @@
       "Transformation"
     ],
     "DISTORTIONS": [
+      "Creation-Fall-Redemption-Consummation",
+      "Human Limitation",
+      "Culture",
+      "False Assumptions",
       "Pride",
       "Idolatry",
       "Corruption",
       "Rebellion"
     ],
     "FRICTION": [
+      "Scripture",
+      "Christ-Centered Theology",
+      "Church History",
+      "Augustine",
+      "Calvin",
+      "Karl Barth",
+      "Skeptical Or Atheist Critique",
       "Philosophy <-> Theology",
       "Science <-> Theology",
       "Justice <-> Mercy",
@@ -39,6 +59,9 @@
       "Modern Thinkers"
     ],
     "MYSTERY": [
+      "Insufficient Evidence",
+      "Pattern Unclear",
+      "Do Not Force A Conclusion",
       "Trinity",
       "Sovereignty",
       "Eternity"

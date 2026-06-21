@@ -19,7 +19,7 @@ Being-To-Transformation Pattern
 -------------------------------
 Sequence: Being -> Order -> Life -> Consciousness -> Meaning -> Moral Response -> Worship -> Transformation
 Layer path: Physical Order, Life And Consciousness, Meaning And Logos, Moral Response, Worship And Community, Transformation
-Layer support: 20,944
+Layer support: 20,945
 Interpretation: This seed sequence suggests a layered movement from Being toward Transformation.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 
@@ -51,7 +51,7 @@ Mathematical Theophany-Through-Quantum Probability-To-Life And Consciousness
 ----------------------------------------------------------------------------
 Sequence: Mathematical Theophany -> Quantum Probability -> Life And Consciousness
 Layer path: Mathematical Theophany, Quantum Probability, Life And Consciousness
-Layer support: 7,293
+Layer support: 7,291
 Interpretation: This bridge appears where adjacent layers of the divine-pattern model are all represented in the corpus.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 
@@ -75,7 +75,7 @@ Physical Order-Through-Mathematical Structure-To-Mathematical Theophany
 -----------------------------------------------------------------------
 Sequence: Physical Order -> Mathematical Structure -> Mathematical Theophany
 Layer path: Physical Order, Mathematical Structure, Mathematical Theophany
-Layer support: 4,527
+Layer support: 4,526
 Interpretation: This bridge appears where adjacent layers of the divine-pattern model are all represented in the corpus.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 
@@ -83,7 +83,7 @@ Father-As-Creation Pattern
 --------------------------
 Sequence: Father -> Creation
 Layer path: Physical Order
-Layer support: 2,628
+Layer support: 2,629
 Interpretation: This mapping suggests interpreting Father through Creation.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.
 
@@ -99,6 +99,6 @@ Mathematical Structure-Through-Mathematical Theophany-To-Quantum Probability
 ----------------------------------------------------------------------------
 Sequence: Mathematical Structure -> Mathematical Theophany -> Quantum Probability
 Layer path: Mathematical Structure, Mathematical Theophany, Quantum Probability
-Layer support: 2,070
+Layer support: 2,068
 Interpretation: This bridge appears where adjacent layers of the divine-pattern model are all represented in the corpus.
 Review rule: Treat this as a hypothesis until source-backed evidence is added.

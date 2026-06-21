@@ -79,13 +79,13 @@ Interpretation: God is not only an explanation of origins. In lived religion, Go
 
 AI can help detect repeated language and relationships across texts, cultures, and datasets. It can compare themes such as creation, law, worship, morality, trust, ritual, cooperation, and transcendence.
 
-But AI should not claim that correlation proves divine reality. The stronger research posture is: detected patterns are hypotheses. They can reveal where theology, human behavior, biology, culture, and philosophy overlap, but each proposed pattern must be tested against sources and interpreted carefully.
+But AI should not claim that correlation proves divine reality. The stronger research posture is: detected patterns are hypotheses. They can show possible overlap among theology, human behavior, biology, culture, and philosophy, but each proposed pattern must be tested under Christ, Scripture, source review, and careful interpretation.
 
 Interpretation: AI may help perceive structure, but wisdom is needed to decide what the structure means.
 
 ## Working Hypothesis
 
-If truth leaves patterns, then the study of God and human behavior should look for recurring structures where belief, worship, moral action, community, meaning, and transformation converge.
+Because creation may bear witness in a secondary way, the study of God and human behavior can look for recurring structures where belief, worship, moral action, community, meaning, and transformation converge, while keeping Christ and Scripture primary.
 
 A careful divine-pattern research project should test the following relationship:
 
@@ -100,4 +100,3 @@ God-concepts shape human behavior most strongly when they combine:
 7. A community that preserves and transmits the pattern.
 
 This does not prove God. It does suggest that God-belief is not a random mental ornament. It is one of humanity's most powerful meaning-and-behavior systems.
-

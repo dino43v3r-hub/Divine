@@ -2,7 +2,7 @@
 
 _A GitHub-readable article drawn from the generated reports._
 
-Generated: `2026-06-20 15:35 UTC`
+Generated: `2026-06-21 01:41 UTC`
 
 ## How To Read This Page
 
@@ -48,20 +48,20 @@ The full generated reports remain available in each section, but they are folded
 
 _Source: `research_documents/theological_foundations.json`_
 
-The Divine Pattern Project explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.
+The Divine Pattern Project explores recurring patterns in reality and examines them in light of God's self-revelation in Jesus Christ, the witness of Scripture, historic Christian doctrine, and the Christian understanding of creation, sin, redemption, and restoration.
 
-Authority boundary: Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority. No pattern claim may override Scripture, Christ, or core Christian doctrine.
+Authority boundary: Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority. No pattern claim may override Jesus Christ, Scripture, or core Christian doctrine.
 
 ### Principles
 
 - God exists independently of human observation.
 - Creation reflects its Creator while remaining distinct from the Creator.
-- Patterns do not create truth. Patterns may disclose, illuminate, or pressure-test truth, but they are interpreted fallibly.
+- Patterns do not create or independently reveal theological truth. Patterns may illuminate or pressure-test a claim, but they are interpreted fallibly.
 - Human observation is limited and affected by sin, finitude, culture, desire, and power.
-- Scripture remains the highest authority.
+- Jesus Christ is God's self-revelation, and Scripture is the primary written witness to Christ.
 - Pattern analysis is subordinate to Scripture and should never override biblical revelation.
 - General Revelation and Special Revelation should be distinguished.
-- Christ is the center and judge of Christian pattern interpretation.
+- Christ is the center and judge of Christian pattern interpretation, in the spirit of Karl Barth's insistence that God is known because God reveals himself.
 - Mystery prevents overclaiming where God has not given exhaustive explanation.
 
 ### Definitions
@@ -71,9 +71,9 @@ Authority boundary: Patterns are treated as evidence, observations, and hypothes
 
 ### Interpretive Order
 
+- Christ-centered interpretation
 - Scripture and divine revelation
 - Creedal Christian guardrails
-- Christ-centered interpretation
 - Sin, distortion, and noetic limits
 - Friction and competing explanations
 - Historical theology and ecumenical witness
@@ -83,10 +83,12 @@ Authority boundary: Patterns are treated as evidence, observations, and hypothes
 
 ### Required Claim Checks
 
+- Does this claim begin with Christ and Scripture rather than making the pattern the source of truth?
 - Does this claim have a Scripture anchor or a stated reason why it is only an analogy?
 - Does this claim preserve the Creator-creature distinction?
 - Does this claim remain consistent with Nicene and Chalcedonian Christianity?
-- Does this claim name rival explanations and possible failure conditions?
+- Does this claim name rival explanations, including skeptical or atheist critiques, and possible failure conditions?
+- Does this claim test Creation, Fall, Redemption, and Consummation?
 - Could this claim be used to excuse harm, control, abuse, or passivity?
 - What would lower the confidence score?
 
@@ -97,9 +99,19 @@ _Source: `research_documents/project_architecture.json`_
 
 ### FOUNDATION
 
+- Christ
 - Scripture
-- Revelation
+- Doctrine
 - Creation
+- Observed Patterns
+
+### REVELATION LAYER
+
+- Jesus Christ As God's Self-Revelation
+- Scripture As Primary Written Witness
+- Historic Christian Doctrine And Church Witness
+- Creation And Observed Patterns
+- Human Experience And Interpretation
 
 ### PATTERNS
 
@@ -112,6 +124,10 @@ _Source: `research_documents/project_architecture.json`_
 
 ### DISTORTIONS
 
+- Creation-Fall-Redemption-Consummation
+- Human Limitation
+- Culture
+- False Assumptions
 - Pride
 - Idolatry
 - Corruption
@@ -119,6 +135,13 @@ _Source: `research_documents/project_architecture.json`_
 
 ### FRICTION
 
+- Scripture
+- Christ-Centered Theology
+- Church History
+- Augustine
+- Calvin
+- Karl Barth
+- Skeptical Or Atheist Critique
 - Philosophy <-> Theology
 - Science <-> Theology
 - Justice <-> Mercy
@@ -140,6 +163,9 @@ _Source: `research_documents/project_architecture.json`_
 
 ### MYSTERY
 
+- Insufficient Evidence
+- Pattern Unclear
+- Do Not Force A Conclusion
 - Trinity
 - Sovereignty
 - Eternity
@@ -226,9 +252,14 @@ _Source: `research_documents/project_architecture.json`_
 
 _Source: `research_documents/theological_method_guardrails.json`_
 
-Define how Divine Pattern claims are evaluated so the project can remain Christian, research-aware, source-grounded, and cautious.
+Define how Divine Pattern claims are evaluated so the project can remain Christ-centered, research-aware, source-grounded, and cautious.
 
-Core rule: Pattern recognition may support or clarify a claim, but it cannot create doctrine, replace Scripture, or erase unresolved friction.
+Core rule: Pattern recognition may support or clarify a claim, but it cannot create doctrine, replace Christ or Scripture, or erase unresolved friction.
+
+### Christological Gate
+
+- Question: Does the claim begin from Jesus Christ as God's self-revelation rather than from the pattern itself?
+- Required Action: Name how Christ's incarnation, cross, resurrection, lordship, mercy, and judgment confirm, correct, or limit the interpretation before raising confidence.
 
 ### Scriptural Anchor
 
@@ -245,6 +276,16 @@ Core rule: Pattern recognition may support or clarify a claim, but it cannot cre
 - Question: Is the claim based on primary sources, qualified secondary sources, or only summary-level interpretation?
 - Required Action: Keep confidence provisional until direct source review is complete.
 
+### Sin and Distortion
+
+- Question: How could sin, pride, human limitation, culture, trauma, desire, or false assumptions distort this reading?
+- Required Action: Test the claim through Creation, Fall, Redemption, and Consummation before it can be accepted.
+
+### Theological Critique and Friction
+
+- Question: How does the claim fare before Scripture, Christ-centered theology, Church history, Augustine, Calvin, Karl Barth, and a skeptical or atheist critique?
+- Required Action: Record at least one serious friction point or counter-reading; if the claim cannot answer it, mark the pattern unclear or revise it.
+
 ### Rival Explanation
 
 - Question: Can psychology, sociology, biology, politics, culture, or literary pattern explain the observation without a divine-pattern claim?
@@ -255,6 +296,11 @@ Core rule: Pattern recognition may support or clarify a claim, but it cannot cre
 - Question: Where does the claim meet suffering, injustice, hypocrisy, scientific explanation, moral failure, or mystery?
 - Required Action: Preserve unresolved tension instead of forcing premature resolution.
 
+### Mystery and Humility
+
+- Question: Would the most faithful answer be insufficient evidence, pattern unclear, theological mystery remains, or do not force a conclusion?
+- Required Action: Allow non-closure when evidence, doctrine, suffering, or mystery make a confident claim inappropriate.
+
 ### Pastoral Fruit
 
 - Question: Does the claim form truth, love, humility, justice, repentance, repair, worship, patience, and faithfulness?
@@ -263,7 +309,7 @@ Core rule: Pattern recognition may support or clarify a claim, but it cannot cre
 ### Confidence Rules
 
 - Provisional means useful for exploration but not yet mature enough to carry strong theological weight.
-- Confidence may rise only after Scripture anchoring, primary-source review, counter-reading, and harm audit.
+- Confidence may rise only after Christological testing, Scripture anchoring, primary-source review, counter-reading, sin-and-distortion review, and harm audit.
 - Confidence must fall when a claim depends on weak analogy, ignored counterevidence, coercive use, or unresolved suffering.
 - Evidence scores describe research pressure, not spiritual certainty.
 
@@ -284,13 +330,19 @@ Core rule: Pattern recognition may support or clarify a claim, but it cannot cre
 - alternative_explanations
 - failure_risk
 - source_review_note
+- christological_gate
+- creation_fall_redemption_consummation
+- sin_distortion_review
+- augustine_calvin_barth_review
+- skeptical_atheist_critique
+- mystery_humility_outcome
 
 
 ## Creedal And Rule Of Faith Guardrails
 
 _Source: `research_documents/creedal_guardrails.json`_
 
-Protect the Divine Pattern project from drifting into vague spirituality, private speculation, or pattern language that undermines core Christian confession.
+Protect the Divine Pattern project from drifting into vague spirituality, private speculation, liberal-theology-style reduction, or pattern language that undermines core Christian confession.
 
 ### Trinity
 
@@ -299,7 +351,7 @@ Protect the Divine Pattern project from drifting into vague spirituality, privat
 
 ### Incarnation
 
-- Guardrail: Jesus Christ is truly God and truly human. Christ fulfills and judges patterns; Christ is not a mere example of a universal pattern.
+- Guardrail: Jesus Christ is truly God and truly human. Christ fulfills and judges patterns; Christ is not a mere example of a universal pattern or the product of human religious consciousness.
 - Sources: John 1:14, Philippians 2:5-11, Colossians 2:9, Chalcedonian Definition
 
 ### Creation
@@ -494,6 +546,10 @@ State clear limits so Divine Pattern research does not overclaim.
 
 - Why: Christian doctrine is grounded in God's self-disclosure, not in human pattern detection.
 
+### Patterns do not discover God apart from Jesus Christ.
+
+- Why: God is known because God reveals himself. Patterns are secondary observations read in light of Christ, Scripture, and the Church's witness.
+
 ### Patterns do not erase mystery.
 
 - Why: Trinity, incarnation, providence, suffering, and new creation exceed full creaturely explanation.
@@ -516,7 +572,7 @@ State clear limits so Divine Pattern research does not overclaim.
 
 _Source: `research_documents/pattern_distortion_layer.json`_
 
-Identify how divine patterns become corrupted through sin, pride, rebellion, idolatry, fear, self-interest, and brokenness.
+Identify how observed patterns and their interpretations can be distorted through sin, pride, rebellion, idolatry, fear, self-interest, culture, false assumptions, and human limitation.
 
 ### Love -> Possession
 
@@ -1315,11 +1371,11 @@ The most reader-facing explanation of the developing pattern families.
 
 - The Divine Pattern Reader
 - A Book-Style Guide For Everyday Readers And Careful Students
-- Latest Run Snapshot
-- Collector run: 2026-06-20T15:34:37.715696+00:00
-- Retained cloud candidate references: 7,491
-- Brand-new candidate references this run: 53
-- Top new routed layers: human_stories: 20, all_texts: 16, cultural_inputs: 16, theologians: 16
+- Christ-Centered Foundation
+- Divine Pattern does not seek to discover God through patterns alone. Rather, it seeks to examine patterns in creation, history, culture, and human experience in light of God's self-revelation in Jesus Christ. Scripture remains the primary authority, patterns are secondary observations, and all conclusions must remain accountable to the witness of Christ, the Church, and the mystery of God.
+- Theological flow: Christ -> Scripture -> Pattern.
+- Authority order:
+- 1. Jesus Christ as God's self-revelation.
 
 <details>
 <summary>Open the full generated report: Reader Book</summary>
@@ -1330,6 +1386,18 @@ The Divine Pattern Reader
 
 A Book-Style Guide For Everyday Readers And Careful Students
 ------------------------------------------------------------
+
+Christ-Centered Foundation
+--------------------------
+Divine Pattern does not seek to discover God through patterns alone. Rather, it seeks to examine patterns in creation, history, culture, and human experience in light of God's self-revelation in Jesus Christ. Scripture remains the primary authority, patterns are secondary observations, and all conclusions must remain accountable to the witness of Christ, the Church, and the mystery of God.
+Theological flow: Christ -> Scripture -> Pattern.
+Authority order:
+1. Jesus Christ as God's self-revelation.
+2. Scripture as the primary written witness.
+3. Historic Christian doctrine and Church witness.
+4. Creation and observed patterns.
+5. Human experience and interpretation.
+Pattern acceptance rule: patterns are secondary observations. They must be tested by Christ, Scripture, doctrine, Church witness, sin-and-distortion analysis, critique, and mystery before they carry theological weight.
 
 Latest Run Snapshot
 -------------------
@@ -1412,9 +1480,9 @@ This chart is a navigation aid, not a proof scale. Longer bars show where the cu
 
 Layer                         Signal                         Count     Reading
 -----                         ------                         -----     -------
-Physical Order                ###########.................    3,858  high internal signal
+Physical Order                ###########.................    3,859  high internal signal
 Mathematical Structure        ####........................    1,313  high internal signal
-Mathematical Theophany        #####.......................    1,922  high internal signal
+Mathematical Theophany        #####.......................    1,920  high internal signal
 Quantum Probability           #...........................      210  early signal
 Life And Consciousness        ######################......    7,822  high internal signal
 Meaning And Logos             ############################   10,165  high internal signal
@@ -1422,7 +1490,7 @@ Moral Response                ################............    5,788  high intern
 Worship And Community         ##############..............    5,104  high internal signal
 Transformation                ################............    5,659  high internal signal
 
-Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as possible signs of divine self-disclosure, while keeping alternative explanations visible.
+Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as secondary creaturely signs under Christ and Scripture, while keeping alternative explanations visible.
 
 Chapter Map
 -----------
@@ -1436,13 +1504,13 @@ No.  Pattern Family                 Signal   Status
 2    Cross And Reversal Pattern      21,612  high internal signal; not proof
      Movement: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
      Test: Do not romanticize suffering or ignore injustice.
-3    Creation-To-Consciousness P...  22,572  high internal signal; not proof
+3    Creation-To-Consciousness P...  22,573  high internal signal; not proof
      Movement: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
      Test: Avoid implying a simple linear proof from physics to worship.
-4    Trinity-As-Behavior Pattern     19,682  high internal signal; not proof
+4    Trinity-As-Behavior Pattern     19,683  high internal signal; not proof
      Movement: Father Creates -> Son Redeems -> Spirit Transforms
      Test: Keep the Trinity theological and relational, not merely symbolic psychology.
-5    Providence And Contingency...   22,055  well-represented hypothesis;...
+5    Providence And Contingency...   22,056  well-represented hypothesis;...
      Movement: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
      Test: Do not confuse providence with easy prediction or visible control of every event.
 
@@ -1531,7 +1599,7 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,858 signals)
+- Physical Order: high internal signal (3,859 signals)
 - Life And Consciousness: high internal signal (7,822 signals)
 - Moral Response: high internal signal (5,788 signals)
 - Worship And Community: high internal signal (5,104 signals)
@@ -1551,7 +1619,7 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,858 signals)
+- Physical Order: high internal signal (3,859 signals)
 - Meaning And Logos: high internal signal (10,165 signals)
 - Transformation: high internal signal (5,659 signals)
 
@@ -1570,7 +1638,7 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,858 signals)
+- Physical Order: high internal signal (3,859 signals)
 - Quantum Probability: early signal (210 signals)
 - Life And Consciousness: high internal signal (7,822 signals)
 - Meaning And Logos: high internal signal (10,165 signals)
@@ -1720,13 +1788,16 @@ Cautious Confidence Language
 - analogy only: illuminating comparison that cannot carry proof-level weight.
 Guardrails For A Careful Reader
 -------------------------------
-1. Do not confuse a repeated pattern with proof.
-2. Do not use suffering as a shortcut to a happy ending.
-3. Do not use science, math, or quantum language as a shortcut to theology.
-4. Do not flatten other religions into Christian language without listening to their own claims.
-5. Do not call something the Holy Spirit if it produces coercion, pride, fear, or harm.
-6. Do not strengthen a claim until weak source lanes have been developed.
-7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today, and whether the practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.
+1. Begin with Christ and Scripture before interpreting a pattern.
+2. Do not confuse a repeated pattern with proof.
+3. Test each pattern for sin, pride, cultural distortion, false assumptions, and human limitation.
+4. Do not use suffering as a shortcut to a happy ending.
+5. Do not use science, math, or quantum language as a shortcut to theology.
+6. Do not flatten other religions into Christian language without listening to their own claims.
+7. Do not call something the Holy Spirit if it produces coercion, pride, fear, or harm.
+8. Do not strengthen a claim until weak source lanes have been developed.
+9. Allow conclusions such as insufficient evidence, pattern unclear, theological mystery remains, or do not force a conclusion.
+10. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today, and whether the practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.
 
 
 What This Needs To Grow
@@ -1779,12 +1850,12 @@ The practical-theology posture: cautious, sourced, and accountable.
 ### First Signals
 
 - Disciplined Theological Assistant Report
-- A Reader's Preface
-- This report is written for two kinds of readers at once: the person who wants a clear, practical explanation, and the careful student who wants the claims handled responsibly.
-- The central idea is simple: Christian theology often sees God's work through patterns. Creation gives order. The Word gives meaning. The Spirit makes truth live in people and communities.
-- But the project must stay honest. A pattern can guide discernment without becoming proof. It can be meaningful without being forced. It can help ordinary life only if it faces grief, injustice, doubt, history, science, and other religious traditions with humility.
-- How To Read This
-- Read this like a field guide, not a verdict. A field guide helps you notice what is there, compare what you are seeing, and avoid mistaking one thing for another.
+- Christ-Centered Foundation
+- Divine Pattern does not seek to discover God through patterns alone. Rather, it seeks to examine patterns in creation, history, culture, and human experience in light of God's self-revelation in Jesus Christ. Scripture remains the primary authority, patterns are secondary observations, and all conclusions must remain accountable to the witness of Christ, the Church, and the mystery of God.
+- Theological flow: Christ -> Scripture -> Pattern.
+- Authority order:
+- 1. Jesus Christ as God's self-revelation.
+- 2. Scripture as the primary written witness.
 
 <details>
 <summary>Open the full generated report: Disciplined Theological Assistant</summary>
@@ -1792,6 +1863,18 @@ The practical-theology posture: cautious, sourced, and accountable.
 ```text
 Disciplined Theological Assistant Report
 =======================================
+
+Christ-Centered Foundation
+--------------------------
+Divine Pattern does not seek to discover God through patterns alone. Rather, it seeks to examine patterns in creation, history, culture, and human experience in light of God's self-revelation in Jesus Christ. Scripture remains the primary authority, patterns are secondary observations, and all conclusions must remain accountable to the witness of Christ, the Church, and the mystery of God.
+Theological flow: Christ -> Scripture -> Pattern.
+Authority order:
+1. Jesus Christ as God's self-revelation.
+2. Scripture as the primary written witness.
+3. Historic Christian doctrine and Church witness.
+4. Creation and observed patterns.
+5. Human experience and interpretation.
+Pattern acceptance rule: patterns are secondary observations. They must be tested by Christ, Scripture, doctrine, Church witness, sin-and-distortion analysis, critique, and mystery before they carry theological weight.
 
 A Reader's Preface
 ------------------
@@ -1841,13 +1924,14 @@ Non-Negotiable Guardrail
 ------------------------
 The assistant may say a pattern is visible, supported, reviewed, useful, compatible, or theologically interpreted.
 It must not say a pattern is proven merely because repeated language, narrative similarity, scientific analogy, or spiritual testimony appears.
+It must start with Christ, Scripture, and Christian doctrine before treating a pattern as theologically meaningful.
 Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
 
 Evidence Versus Discernment
 ---------------------------
 - Evidence: source-located support from texts, history, languages, art, psychology, statistics, theology, testimony, or pressure tests.
 - Reviewed evidence: evidence checked against source quality, serious rival counter-readings, lane balance, and claim boundaries.
-- Theological interpretation: a Christian reading shaped by scripture, doctrine, tradition, reason, and worship.
+- Theological interpretation: a Christian reading shaped first by Jesus Christ, Scripture, doctrine, tradition, reason, and worship.
 - Discernment: prayerful, communal, morally accountable interpretation for faithful response.
 - Practical theology: the pattern tested in ordinary life by fruit, love, justice, truth, humility, and care.
 - Analogy: an illuminating comparison that must stay narrower than proof.
@@ -1919,7 +2003,7 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,858 signals)
+- Physical Order: high internal signal (3,859 signals)
 - Life And Consciousness: high internal signal (7,822 signals)
 - Moral Response: high internal signal (5,788 signals)
 - Worship And Community: high internal signal (5,104 signals)
@@ -1939,7 +2023,7 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,858 signals)
+- Physical Order: high internal signal (3,859 signals)
 - Meaning And Logos: high internal signal (10,165 signals)
 - Transformation: high internal signal (5,659 signals)
 
@@ -1958,7 +2042,7 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,858 signals)
+- Physical Order: high internal signal (3,859 signals)
 - Quantum Probability: early signal (210 signals)
 - Life And Consciousness: high internal signal (7,822 signals)
 - Meaning And Logos: high internal signal (10,165 signals)
@@ -1977,13 +2061,16 @@ Other religions and cultures: The pattern should compare respectfully. Christian
 
 Guardrails For A Careful Reader
 -------------------------------
-1. Do not confuse a repeated pattern with proof.
-2. Do not use suffering as a shortcut to a happy ending.
-3. Do not use science, math, or quantum language as a shortcut to theology.
-4. Do not flatten other religions into Christian language without listening to their own claims.
-5. Do not call something the Holy Spirit if it produces coercion, pride, fear, or harm.
-6. Do not strengthen a claim until weak source lanes have been developed.
-7. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today, and whether the practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.
+1. Begin with Christ and Scripture before interpreting a pattern.
+2. Do not confuse a repeated pattern with proof.
+3. Test each pattern for sin, pride, cultural distortion, false assumptions, and human limitation.
+4. Do not use suffering as a shortcut to a happy ending.
+5. Do not use science, math, or quantum language as a shortcut to theology.
+6. Do not flatten other religions into Christian language without listening to their own claims.
+7. Do not call something the Holy Spirit if it produces coercion, pride, fear, or harm.
+8. Do not strengthen a claim until weak source lanes have been developed.
+9. Allow conclusions such as insufficient evidence, pattern unclear, theological mystery remains, or do not force a conclusion.
+10. Do ask what practice of love, justice, worship, humility, repair, or hope the pattern invites today, and whether the practical claim helps people become truthful, loving, humble, just, worshipful, patient, and faithful.
 
 
 Research Detail: Pattern Families
@@ -2021,12 +2108,12 @@ Risk to avoid: Do not romanticize suffering or ignore injustice.
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 22,572
+Layer signal total: 22,573
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 3,858 (high internal signal)
+- Physical Order: 3,859 (high internal signal)
 - Life And Consciousness: 7,822 (high internal signal)
 - Moral Response: 5,788 (high internal signal)
 - Worship And Community: 5,104 (high internal signal)
@@ -2036,12 +2123,12 @@ Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 4. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 19,682
+Layer signal total: 19,683
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 3,858 (high internal signal)
+- Physical Order: 3,859 (high internal signal)
 - Meaning And Logos: 10,165 (high internal signal)
 - Transformation: 5,659 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
@@ -2050,12 +2137,12 @@ Risk to avoid: Keep the Trinity theological and relational, not merely symbolic 
 5. Providence And Contingency Pattern
 -------------------------------------
 Status: well-represented hypothesis; needs review
-Layer signal total: 22,055
+Layer signal total: 22,056
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 3,858 (high internal signal)
+- Physical Order: 3,859 (high internal signal)
 - Quantum Probability: 210 (early signal)
 - Life And Consciousness: 7,822 (high internal signal)
 - Meaning And Logos: 10,165 (high internal signal)
@@ -2175,18 +2262,21 @@ Cloud Reference Discipline
 
 Assistant Behavior Rules
 ------------------------
-1. Start by naming the claim type: evidence, interpretation, discernment, analogy, or practical use.
-2. Cite or name the source lane before strengthening a claim.
-3. Ask which top-five pattern best fits and which pressure test might weaken it.
-4. Use other religious traditions respectfully and preserve real differences.
-5. Keep gifts of the Holy Spirit accountable to love, truth, humility, community, and fruit.
-6. Keep math, statistics, logic, and physics as discipline filters, not shortcuts to proof.
-7. Translate patterns into practice only with safeguards against control, denial, abuse, and spiritual bypass.
-8. Every practical claim must answer: does this help people become truthful, loving, humble, just, worshipful, patient, and faithful?
+1. Start with the claim type: evidence, interpretation, discernment, analogy, practical use, or mystery/non-closure.
+2. Test the claim by Christ, Scripture, doctrine, and Church witness before strengthening it.
+3. Cite or name the source lane before strengthening a claim.
+4. Ask which top-five pattern best fits and which pressure test might weaken it.
+5. Test Creation, Fall, Redemption, and Consummation for every accepted pattern.
+6. Use Augustine, Calvin, Barth, Church history, and skeptical or atheist critique as friction checks.
+7. Use other religious traditions respectfully and preserve real differences.
+8. Keep gifts of the Holy Spirit accountable to love, truth, humility, community, and fruit.
+9. Keep math, statistics, logic, and physics as discipline filters, not shortcuts to proof.
+10. Translate patterns into practice only with safeguards against control, denial, abuse, and spiritual bypass.
+11. Every practical claim must answer: does this help people become truthful, loving, humble, just, worshipful, patient, and faithful?
 
 One-Sentence Operating Summary
 ------------------------------
-The Divine assistant should map possible divine patterns carefully, test them honestly, interpret them theologically, and help people practice faithful love in daily life without overstating the evidence.
+The Divine assistant should receive Christ and Scripture as primary, map possible patterns carefully, test them honestly, preserve mystery where needed, and help people practice faithful love without overstating the evidence.
 ```
 
 </details>
@@ -2407,7 +2497,7 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,710 signals)
+- Physical Order: high internal signal (3,711 signals)
 - Life And Consciousness: high internal signal (7,661 signals)
 - Moral Response: high internal signal (5,680 signals)
 - Worship And Community: high internal signal (4,952 signals)
@@ -2427,7 +2517,7 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,710 signals)
+- Physical Order: high internal signal (3,711 signals)
 - Meaning And Logos: high internal signal (10,063 signals)
 - Transformation: high internal signal (5,394 signals)
 
@@ -2446,7 +2536,7 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,710 signals)
+- Physical Order: high internal signal (3,711 signals)
 - Quantum Probability: early signal (208 signals)
 - Life And Consciousness: high internal signal (7,661 signals)
 - Meaning And Logos: high internal signal (10,063 signals)
@@ -2487,12 +2577,12 @@ Risk to avoid: Do not romanticize suffering or ignore injustice.
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 22,003
+Layer signal total: 22,004
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 3,710 (high internal signal)
+- Physical Order: 3,711 (high internal signal)
 - Life And Consciousness: 7,661 (high internal signal)
 - Moral Response: 5,680 (high internal signal)
 - Worship And Community: 4,952 (high internal signal)
@@ -2502,12 +2592,12 @@ Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 4. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 19,167
+Layer signal total: 19,168
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 3,710 (high internal signal)
+- Physical Order: 3,711 (high internal signal)
 - Meaning And Logos: 10,063 (high internal signal)
 - Transformation: 5,394 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
@@ -2516,12 +2606,12 @@ Risk to avoid: Keep the Trinity theological and relational, not merely symbolic 
 5. Providence And Contingency Pattern
 -------------------------------------
 Status: well-represented hypothesis; needs review
-Layer signal total: 21,642
+Layer signal total: 21,643
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 3,710 (high internal signal)
+- Physical Order: 3,711 (high internal signal)
 - Quantum Probability: 208 (early signal)
 - Life And Consciousness: 7,661 (high internal signal)
 - Meaning And Logos: 10,063 (high internal signal)
@@ -2636,14 +2726,14 @@ Practice loop:
 - Review: look for fruit over time: love, truth, humility, justice, patience, and hope.
 Use it for family conflict, work, grief, spiritual gifts, interreligious encounter, justice, creativity, and pattern perception; review the fruit before strengthening the claim.
 - Trinitarian signal: strong Trinitarian signal
-- Father: 4,602
-- Son: 6,808
+- Father: 4,604
+- Son: 6,813
 - Holy Spirit: 1,853
 
 Strongest research layers:
 - Meaning And Logos: 6,142
 - Life And Consciousness: 5,859
-- Physical Order: 2,628
+- Physical Order: 2,629
 - Moral Response: 2,498
 - Transformation: 2,203
 - Worship And Community: 1,614
@@ -2775,7 +2865,7 @@ The leading pattern candidates and how they are being pressure-tested.
 - Top Five Divine Pattern Families Report
 - A Reader's Opening
 - The project is no longer asking for one dominant pattern to explain everything. It is learning to read several possible patterns side by side.
-- Think of these as five chapters in a larger theological book. Each chapter asks how God's work may be recognized through scripture, history, human experience, and practical life.
+- Method flow: Christ -> Scripture -> Pattern. Think of these as five chapters in a larger theological book, where each chapter asks how a pattern should be tested by Christ, Scripture, doctrine, history, human experience, and practical life.
 - The patterns are not conclusions by themselves. They are disciplined hypotheses that must face suffering, other traditions, science limits, language context, history, and ordinary daily life.
 - Purpose
 - This report prevents the project from showing only one dominant pattern.
@@ -2790,7 +2880,7 @@ Top Five Divine Pattern Families Report
 A Reader's Opening
 ------------------
 The project is no longer asking for one dominant pattern to explain everything. It is learning to read several possible patterns side by side.
-Think of these as five chapters in a larger theological book. Each chapter asks how God's work may be recognized through scripture, history, human experience, and practical life.
+Method flow: Christ -> Scripture -> Pattern. Think of these as five chapters in a larger theological book, where each chapter asks how a pattern should be tested by Christ, Scripture, doctrine, history, human experience, and practical life.
 The patterns are not conclusions by themselves. They are disciplined hypotheses that must face suffering, other traditions, science limits, language context, history, and ordinary daily life.
 
 Purpose
@@ -2858,7 +2948,7 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,710 signals)
+- Physical Order: high internal signal (3,711 signals)
 - Life And Consciousness: high internal signal (7,661 signals)
 - Moral Response: high internal signal (5,680 signals)
 - Worship And Community: high internal signal (4,952 signals)
@@ -2878,7 +2968,7 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,710 signals)
+- Physical Order: high internal signal (3,711 signals)
 - Meaning And Logos: high internal signal (10,063 signals)
 - Transformation: high internal signal (5,394 signals)
 
@@ -2897,7 +2987,7 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (3,710 signals)
+- Physical Order: high internal signal (3,711 signals)
 - Quantum Probability: early signal (208 signals)
 - Life And Consciousness: high internal signal (7,661 signals)
 - Meaning And Logos: high internal signal (10,063 signals)
@@ -2938,12 +3028,12 @@ Risk to avoid: Do not romanticize suffering or ignore injustice.
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 22,003
+Layer signal total: 22,004
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 3,710 (high internal signal)
+- Physical Order: 3,711 (high internal signal)
 - Life And Consciousness: 7,661 (high internal signal)
 - Moral Response: 5,680 (high internal signal)
 - Worship And Community: 4,952 (high internal signal)
@@ -2953,12 +3043,12 @@ Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 4. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 19,167
+Layer signal total: 19,168
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 3,710 (high internal signal)
+- Physical Order: 3,711 (high internal signal)
 - Meaning And Logos: 10,063 (high internal signal)
 - Transformation: 5,394 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
@@ -2967,12 +3057,12 @@ Risk to avoid: Keep the Trinity theological and relational, not merely symbolic 
 5. Providence And Contingency Pattern
 -------------------------------------
 Status: well-represented hypothesis; needs review
-Layer signal total: 21,642
+Layer signal total: 21,643
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 3,710 (high internal signal)
+- Physical Order: 3,711 (high internal signal)
 - Quantum Probability: 208 (early signal)
 - Life And Consciousness: 7,661 (high internal signal)
 - Meaning And Logos: 10,063 (high internal signal)
@@ -3060,10 +3150,10 @@ The broader analysis output from the corpus.
 - Divine Pattern Research Report
 - Purpose
 - This report uses Python as an analytical tool to look for recurring language and cross-disciplinary patterns across theology, spirituality, biology, anthropology, philosophy, and AI.
-- It does not attempt to prove divine truth. It helps organize evidence, surface connections, and generate better research questions.
-- Guardrail: word matches are only starting signals. A stronger pattern needs context, movement across a text, and practical meaning.
+- It does not attempt to discover God or prove divine truth from patterns. It helps organize evidence, surface connections, and generate better research questions under Christ and Scripture.
+- Method flow: Christ -> Scripture -> Pattern.
+- Guardrail: word matches are only starting signals. A stronger pattern needs context, movement across a text, Christ-centered testing, Scriptural grounding, distortion review, critique, and practical meaning.
 - Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
-- Overview
 
 <details>
 <summary>Open the full generated report: Research Report</summary>
@@ -3075,22 +3165,36 @@ Divine Pattern Research Report
 Purpose
 -------
 This report uses Python as an analytical tool to look for recurring language and cross-disciplinary patterns across theology, spirituality, biology, anthropology, philosophy, and AI.
-It does not attempt to prove divine truth. It helps organize evidence, surface connections, and generate better research questions.
-Guardrail: word matches are only starting signals. A stronger pattern needs context, movement across a text, and practical meaning.
+It does not attempt to discover God or prove divine truth from patterns. It helps organize evidence, surface connections, and generate better research questions under Christ and Scripture.
+Method flow: Christ -> Scripture -> Pattern.
+Guardrail: word matches are only starting signals. A stronger pattern needs context, movement across a text, Christ-centered testing, Scriptural grounding, distortion review, critique, and practical meaning.
 Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
 
 Overview
 --------
 Documents analyzed: 152
-Total analyzed words: 786,072
+Total analyzed words: 786,093
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
+
+Christ-Centered Foundation
+--------------------------
+Divine Pattern does not seek to discover God through patterns alone. Rather, it seeks to examine patterns in creation, history, culture, and human experience in light of God's self-revelation in Jesus Christ. Scripture remains the primary authority, patterns are secondary observations, and all conclusions must remain accountable to the witness of Christ, the Church, and the mystery of God.
+Theological flow: Christ -> Scripture -> Pattern.
+Authority order:
+1. Jesus Christ as God's self-revelation.
+2. Scripture as the primary written witness.
+3. Historic Christian doctrine and Church witness.
+4. Creation and observed patterns.
+5. Human experience and interpretation.
+Pattern acceptance rule: patterns are secondary observations. They must be tested by Christ, Scripture, doctrine, Church witness, sin-and-distortion analysis, critique, and mystery before they carry theological weight.
+
 
 Theme Signals
 -------------
-- God and Divine Attributes: 25,387
-- Theology and Logos: 6,232
+- God and Divine Attributes: 25,388
+- Theology and Logos: 6,231
 - Creation and Order: 6,079
-- Jesus and Christology: 5,547
+- Jesus and Christology: 5,552
 - Philosophy and Meaning: 3,242
 - Moral Transformation: 3,198
 - Physics and Natural Law: 3,078
@@ -3099,8 +3203,8 @@ Theme Signals
 - Spirituality and Worship: 1,733
 - Mathematics and Intelligibility: 1,097
 - Holy Spirit and Pneumatology: 998
-- Mathematical Theophany: 906
-- AI and Pattern Recognition: 693
+- Mathematical Theophany: 904
+- AI and Pattern Recognition: 692
 - Quantum Physics and Uncertainty: 137
 - Biology and Neuroscience: 113
 
@@ -3108,9 +3212,9 @@ Trinitarian Pattern Lens
 ------------------------
 Signal: strong Trinitarian signal
 The analyzer treats Father, Son, and Holy Spirit as distinct persons and one God. It looks for each person separately, then checks whether the corpus keeps them relationally connected.
-- Father: 4,602
+- Father: 4,604
   Role: Source, Creator, giver of being, providential care, and holy authority.
-- Son: 6,808
+- Son: 6,813
   Role: Word/Logos, revelation, incarnation, redemption, reconciliation, and resurrection.
 - Holy Spirit: 1,853
   Role: Living presence, conviction, gifts, communion, sanctification, and transformation.
@@ -3150,10 +3254,10 @@ Trinitarian Co-Presence Samples
 Meaning Guardrails
 ------------------
 The analyzer now checks whether a pattern has contextual movement, not only repeated vocabulary.
-- Creation And Order: 5,857
+- Creation And Order: 5,858
 - Transformation And Hope: 3,730
 - Desire And Longing: 3,474
-- Moral Confrontation: 3,293
+- Moral Confrontation: 3,292
 - Communal Practice: 2,726
 - Alienation And Lament: 2,157
 
@@ -3161,7 +3265,7 @@ Source Review Guardrails
 ------------------------
 - Scholarly Or Scientific Source: 1,481
 - Practical Lived Source: 692
-- Primary Or Classical Source: 441
+- Primary Or Classical Source: 446
 - Unreviewed Cloud Reference: 50
 - Speculative Source: 44
 - Reviewed Cloud Reference: 5
@@ -3173,12 +3277,12 @@ Model: Physical Order -> Mathematical Structure -> Mathematical Theophany -> Qua
 The corpus contains evidence across every layer of the proposed model. This supports treating layered convergence as a serious research hypothesis, not as proof of divine reality.
 
 Layer Scores:
-- Physical Order: 2,628 (high internal signal)
+- Physical Order: 2,629 (high internal signal)
   Test: Is reality described as ordered, law-like, created, or providential?
 - Mathematical Structure: 636 (moderate internal signal)
   Test: Does the corpus connect reality with mathematical or logical intelligibility?
-- Mathematical Theophany: 1,263 (high internal signal)
-  Test: Can mathematical order, pattern, symmetry, logic, infinity, or beauty be read cautiously as possible signs of divine self-disclosure while rival explanations remain in view?
+- Mathematical Theophany: 1,261 (high internal signal)
+  Test: Can mathematical order, pattern, symmetry, logic, infinity, or beauty be read cautiously as secondary signs within creation after Christ, Scripture, doctrine, and rival explanations remain in view?
 - Quantum Probability: 171 (early signal)
   Test: Does the corpus include disciplined uncertainty rather than simple determinism?
 - Life And Consciousness: 5,859 (high internal signal)
@@ -3251,15 +3355,15 @@ Transformation
 
 Hypothesis Test Domains
 -----------------------
-- Historical Theology: 6,978 (strongly represented)
-- Scripture And Early Christian Logos: 3,341 (strongly represented)
+- Historical Theology: 6,979 (strongly represented)
+- Scripture And Early Christian Logos: 3,347 (strongly represented)
 - Philosophy Of Science: 2,848 (strongly represented)
 - Physics And Quantum Mechanics: 1,437 (strongly represented)
 - History And Cultural Memory: 1,390 (strongly represented)
 - World Languages And Translation: 1,270 (strongly represented)
 - Visual Art And Symbol: 1,055 (strongly represented)
 - Cognitive Science: 1,046 (strongly represented)
-- Mathematical Theophany: 907 (strongly represented)
+- Mathematical Theophany: 905 (strongly represented)
 - Anthropology And Psychology Of Worship: 812 (strongly represented)
 - Philosophy Of Mathematics: 549 (strongly represented)
 - Biblical Greek And Hebrew: 511 (strongly represented)
@@ -3706,6 +3810,8 @@ Jesus and Christology
 - divine_pattern_candidates.md: Cross And Reversal Pattern 10.
 - divine_pattern_candidates.md: Spirit Transformation Pattern  ## Strongest Combined Candidate  Being -> Order -> Life -> Consciousness -> Meaning -> Moral Response -> Worship -> Transformation  Christian interpretation:  - Father -> Creation - Son / Logos -> Revelation and Redemption - Holy Spirit -> Presence 
 - divine_pattern_finder_design.md: ### Transformation  Looks for transformation, sanctification, Holy Spirit, grace, salvation, redemption, resurrection, new life, and hope.
+- god_and_human_behavior_science_synthesis.md: They can show possible overlap among theology, human behavior, biology, culture, and philosophy, but each proposed pattern must be tested under Christ, Scripture, source review, and careful interpretation.
+- god_and_human_behavior_science_synthesis.md: ## Working Hypothesis  Because creation may bear witness in a secondary way, the study of God and human behavior can look for recurring structures where belief, worship, moral action, community, meaning, and transformation converge, while keeping Christ and Scripture primary.
 - hypothesis_test_framework.md: ## Central Hypothesis  Within Christianity, God is understood as the source of being and moral order; Jesus Christ as the embodied revelation and redemptive pattern; and the Holy Spirit as the active divine presence who transforms persons and communities.
 - hypothesis_test_framework.md: Scripture And Early Christian Logos  Question:  How do scripture and early Christian interpretation connect Logos, creation, wisdom, providence, Christ, and the intelligibility of reality?
 - jesus_and_holy_spirit_synthesis.md: # Jesus And The Holy Spirit: Source-Backed Synthesis  This note adds explicit Christian Trinitarian categories to the divine-pattern project: Jesus Christ and the Holy Spirit.
@@ -4989,9 +5095,9 @@ Candidate patterns that need source review and counter-readings before confidenc
 - Purpose
 - This report proposes possible divine-pattern candidates from the current corpus.
 - These are research hypotheses, not proofs. Each candidate should be tested against stronger sources and fair criticism.
+- Method flow: Christ -> Scripture -> Pattern. Patterns are candidates, not sources of truth.
+- A candidate should become stronger only after Christological, Scriptural, doctrinal, distortion, critique, and mystery checks.
 - Core Model
-- Physical Order -> Mathematical Structure -> Mathematical Theophany -> Quantum Probability -> Life And Consciousness -> Meaning And Logos -> Moral Response -> Worship And Community -> Transformation
-- Candidate Rankings
 
 <details>
 <summary>Open the full generated report: Pattern Candidates</summary>
@@ -5004,6 +5110,8 @@ Purpose
 -------
 This report proposes possible divine-pattern candidates from the current corpus.
 These are research hypotheses, not proofs. Each candidate should be tested against stronger sources and fair criticism.
+Method flow: Christ -> Scripture -> Pattern. Patterns are candidates, not sources of truth.
+A candidate should become stronger only after Christological, Scriptural, doctrinal, distortion, critique, and mystery checks.
 
 Core Model
 ----------
@@ -5030,12 +5138,12 @@ Risk to avoid: Do not collapse the image of God into intelligence alone.
 2. Providence And Contingency Pattern
 -------------------------------------
 Status: well-represented hypothesis; needs review
-Layer signal total: 14,800
+Layer signal total: 14,801
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 2,628 (high internal signal)
+- Physical Order: 2,629 (high internal signal)
 - Quantum Probability: 171 (early signal)
 - Life And Consciousness: 5,859 (high internal signal)
 - Meaning And Logos: 6,142 (high internal signal)
@@ -5045,12 +5153,12 @@ Risk to avoid: Do not confuse providence with easy prediction or visible control
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 12,599
+Layer signal total: 12,600
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 2,628 (high internal signal)
+- Physical Order: 2,629 (high internal signal)
 - Life And Consciousness: 5,859 (high internal signal)
 - Moral Response: 2,498 (high internal signal)
 - Worship And Community: 1,614 (high internal signal)
@@ -5060,12 +5168,12 @@ Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 4. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 10,973
+Layer signal total: 10,974
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 2,628 (high internal signal)
+- Physical Order: 2,629 (high internal signal)
 - Meaning And Logos: 6,142 (high internal signal)
 - Transformation: 2,203 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
@@ -5176,15 +5284,15 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 237 | research corpus 4,602
-- Son: test set 27 | research corpus 6,808
+- Father: test set 237 | research corpus 4,604
+- Son: test set 27 | research corpus 6,813
 - Holy Spirit: test set 45 | research corpus 1,853
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 54 | research corpus 2,628
+- Physical Order: test set 54 | research corpus 2,629
 - Mathematical Structure: test set 18 | research corpus 636
-- Mathematical Theophany: test set 195 | research corpus 1,263
+- Mathematical Theophany: test set 195 | research corpus 1,261
 - Quantum Probability: test set 25 | research corpus 171
 - Life And Consciousness: test set 133 | research corpus 5,859
 - Meaning And Logos: test set 36 | research corpus 6,142
@@ -6452,7 +6560,7 @@ Math / Statistics / Logic Congruence Filters
 - Formal Proof Boundary Filter: active (43)
   Rule: Mathematical proof applies inside formal systems; it cannot be transferred directly into theology without philosophical argument.
 - Theophany Interpretation Filter: active (43)
-  Rule: Mathematical order, symmetry, logic, infinity, and beauty may be explored as signs of divine self-disclosure only after contrasting non-theistic, Platonist, constructivist, cognitive, and cultural explanations are named.
+  Rule: Mathematical order, symmetry, logic, infinity, and beauty may be explored as secondary creaturely signs only under Christ and Scripture, and only after contrasting non-theistic, Platonist, constructivist, cognitive, and cultural explanations are named.
 - Physics Scale Filter: active (136)
   Rule: Do not move from quantum, cosmic, or thermodynamic claims to daily spiritual claims without a justified bridge.
 - Causality Filter: active (18)
@@ -7285,9 +7393,9 @@ Signal: strong Trinitarian signal
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 148 | broader corpus 2,628
+- Physical Order: theologians 148 | broader corpus 2,629
 - Mathematical Structure: theologians 4 | broader corpus 636
-- Mathematical Theophany: theologians 134 | broader corpus 1,263
+- Mathematical Theophany: theologians 134 | broader corpus 1,261
 - Quantum Probability: theologians 2 | broader corpus 171
 - Life And Consciousness: theologians 161 | broader corpus 5,859
 - Meaning And Logos: theologians 102 | broader corpus 6,142
@@ -8030,9 +8138,9 @@ Text Tradition Coverage
 
 Layer Convergence Across All Sources
 ------------------------------------
-- Physical Order: 4,215 (high internal signal)
+- Physical Order: 4,216 (high internal signal)
 - Mathematical Structure: 1,748 (high internal signal)
-- Mathematical Theophany: 1,938 (high internal signal)
+- Mathematical Theophany: 1,936 (high internal signal)
 - Quantum Probability: 211 (early signal)
 - Life And Consciousness: 8,148 (high internal signal)
 - Meaning And Logos: 10,579 (high internal signal)
@@ -8042,10 +8150,10 @@ Layer Convergence Across All Sources
 
 Meaning Movement Across All Sources
 -----------------------------------
-- Creation And Order: 7,204
+- Creation And Order: 7,205
 - Alienation And Lament: 2,449
 - Desire And Longing: 4,225
-- Moral Confrontation: 3,866
+- Moral Confrontation: 3,865
 - Communal Practice: 3,282
 - Transformation And Hope: 4,303
 
@@ -11434,9 +11542,9 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 209 | religious/science corpus 2,628
+- Physical Order: cultural inputs 209 | religious/science corpus 2,629
 - Mathematical Structure: cultural inputs 248 | religious/science corpus 636
-- Mathematical Theophany: cultural inputs 9 | religious/science corpus 1,263
+- Mathematical Theophany: cultural inputs 9 | religious/science corpus 1,261
 - Quantum Probability: cultural inputs 1 | religious/science corpus 171
 - Life And Consciousness: cultural inputs 288 | religious/science corpus 5,859
 - Meaning And Logos: cultural inputs 343 | religious/science corpus 6,142
@@ -13868,9 +13976,9 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 136 | religious/science corpus 2,628
+- Physical Order: music notes 136 | religious/science corpus 2,629
 - Mathematical Structure: music notes 185 | religious/science corpus 636
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,263
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,261
 - Quantum Probability: music notes 0 | religious/science corpus 171
 - Life And Consciousness: music notes 0 | religious/science corpus 5,859
 - Meaning And Logos: music notes 24 | religious/science corpus 6,142
@@ -14566,9 +14674,9 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: lyrics 12 | religious corpus 2,628
+- Physical Order: lyrics 12 | religious corpus 2,629
 - Mathematical Structure: lyrics 2 | religious corpus 636
-- Mathematical Theophany: lyrics 7 | religious corpus 1,263
+- Mathematical Theophany: lyrics 7 | religious corpus 1,261
 - Quantum Probability: lyrics 0 | religious corpus 171
 - Life And Consciousness: lyrics 38 | religious corpus 5,859
 - Meaning And Logos: lyrics 47 | religious corpus 6,142
@@ -14578,21 +14686,21 @@ Shared Divine-Pattern Layers
 
 Shared Theme Signals
 --------------------
-- God and Divine Attributes: lyrics 12 | religious corpus 25,387
+- God and Divine Attributes: lyrics 12 | religious corpus 25,388
 - Faith and Trust: lyrics 8 | religious corpus 2,152
-- Jesus and Christology: lyrics 1 | religious corpus 5,547
+- Jesus and Christology: lyrics 1 | religious corpus 5,552
 - Holy Spirit and Pneumatology: lyrics 4 | religious corpus 998
 - Creation and Order: lyrics 11 | religious corpus 6,079
 - Moral Transformation: lyrics 11 | religious corpus 3,198
-- Theology and Logos: lyrics 8 | religious corpus 6,232
+- Theology and Logos: lyrics 8 | religious corpus 6,231
 - Spirituality and Worship: lyrics 8 | religious corpus 1,733
 - Biology and Neuroscience: lyrics 0 | religious corpus 113
 - Physics and Natural Law: lyrics 4 | religious corpus 3,078
 - Mathematics and Intelligibility: lyrics 6 | religious corpus 1,097
-- Mathematical Theophany: lyrics 7 | religious corpus 906
+- Mathematical Theophany: lyrics 7 | religious corpus 904
 - Quantum Physics and Uncertainty: lyrics 0 | religious corpus 137
 - Anthropology and Culture: lyrics 0 | religious corpus 1,772
-- AI and Pattern Recognition: lyrics 17 | religious corpus 693
+- AI and Pattern Recognition: lyrics 17 | religious corpus 692
 - Philosophy and Meaning: lyrics 0 | religious corpus 3,242
 
 Most Aligned Lyric Files
