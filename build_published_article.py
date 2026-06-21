@@ -16,6 +16,7 @@ REVIEW_AUDIT_PATH = Path("reports/review_rules_audit.json")
 REVIEW_GAP_QUEUE_PATH = Path("reports/review_gap_queue.json")
 FRICTION_LAYERS_PATH = Path("research_documents/friction_layers.json")
 THEOLOGICAL_FOUNDATIONS_PATH = Path("research_documents/theological_foundations.json")
+REVELATION_LAYER_PATH = Path("research_documents/revelation_layer.json")
 PATTERN_DISTORTION_PATH = Path("research_documents/pattern_distortion_layer.json")
 CHRISTOLOGICAL_LAYER_PATH = Path("research_documents/christological_layer.json")
 HISTORICAL_WITNESSES_PATH = Path("research_documents/historical_witnesses.json")
@@ -701,6 +702,34 @@ def theological_foundations_lines(layer: dict) -> list[str]:
     return lines
 
 
+def revelation_layer_lines(layer: dict) -> list[str]:
+    if not layer:
+        return ["Revelation layer is missing."]
+
+    lines = [
+        layer.get("foundation_statement", ""),
+        "",
+        f"**Theological flow:** {' -> '.join(layer.get('theological_flow', []))}",
+        "",
+        "Authority order:",
+    ]
+    for item in layer.get("authority_order", []):
+        lines.append(f"{item.get('rank')}. **{item.get('authority', '')}:** {item.get('use', '')}")
+    lines.extend(
+        [
+            "",
+            f"**Acceptance rule:** {layer.get('acceptance_rule', '')}",
+            "",
+            f"**Beginner summary:** {layer.get('beginner_summary', '')}",
+        ]
+    )
+    outcomes = layer.get("allowed_outcomes", [])
+    if outcomes:
+        lines.extend(["", "Allowed outcomes:"])
+        lines.extend(f"- {item.replace('_', ' ')}" for item in outcomes)
+    return lines
+
+
 def theological_method_lines(layer: dict) -> list[str]:
     if not layer:
         return ["Theological method guardrails layer is missing."]
@@ -1122,6 +1151,7 @@ def build_article() -> str:
     lane_lines = compact_lane_table(texts["backend"])
     friction_layers = read_friction_layers()
     theological_foundations = read_layer(THEOLOGICAL_FOUNDATIONS_PATH)
+    revelation_layer = read_layer(REVELATION_LAYER_PATH)
     pattern_distortion = read_layer(PATTERN_DISTORTION_PATH)
     christological_layer = read_layer(CHRISTOLOGICAL_LAYER_PATH)
     historical_witnesses = read_layer(HISTORICAL_WITNESSES_PATH)
@@ -1150,6 +1180,10 @@ def build_article() -> str:
         "The short version: the research does not claim that patterns prove Christianity. It explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.",
         "",
         "Patterns are treated as evidence, observations, and hypotheses to be tested, not as independent sources of divine authority.",
+        "",
+        "## Revelation Layer",
+        "",
+        *revelation_layer_lines(revelation_layer),
         "",
         "## Theological Foundations",
         "",
@@ -1377,6 +1411,10 @@ def build_short_article() -> str:
     findings_text = read(Path("reports/divine_pattern_findings.md"))
     friction_layers = read_friction_layers()
     theological_foundations = read_layer(THEOLOGICAL_FOUNDATIONS_PATH)
+    revelation_layer = read_layer(REVELATION_LAYER_PATH)
+    theological_method = read_layer(THEOLOGICAL_METHOD_PATH)
+    pattern_distortion = read_layer(PATTERN_DISTORTION_PATH)
+    mystery_layer = read_layer(MYSTERY_LAYER_PATH)
     priestly_discernment = read_layer(PRIESTLY_DISCERNMENT_PATH)
     does_not_prove = read_layer(DOES_NOT_PROVE_PATH)
     science_guardrail = read_layer(SCIENCE_GUARDRAIL_PATH)
@@ -1409,9 +1447,9 @@ def build_short_article() -> str:
         "",
         "## Short Answer",
         "",
-        "The project does not claim that patterns prove Christianity. It finds recurring patterns across theology, culture, language, suffering, science, art, music, history, and human experience, then asks whether those patterns can be responsibly read through Christian theology.",
+        "The project does not claim that patterns prove Christianity or discover God by themselves. It begins with Jesus Christ as God's self-revelation, listens to Scripture as the primary written witness, and then examines recurring patterns across theology, culture, language, suffering, science, art, music, history, and human experience.",
         "",
-        "The best current posture is: the system finds and explains divine-pattern signals; you evaluate whether they seem true, faithful, useful, or weak.",
+        "The best current posture is: the system finds possible pattern signals, then tests them under Christ, Scripture, doctrine, Church witness, sin-and-distortion review, serious critique, and mystery. Some conclusions should remain unclear.",
         "",
         "## Current Pattern Found",
         "",
@@ -1449,9 +1487,40 @@ def build_short_article() -> str:
         "",
         "## Theological Boundary",
         "",
+        "### Christ-Centered Foundation",
+        "",
+        revelation_layer.get("foundation_statement", foundation_lines[0] if foundation_lines else "Patterns are secondary observations under Christ and Scripture."),
+        "",
+        f"**Theological flow:** {' -> '.join(revelation_layer.get('theological_flow', ['Christ', 'Scripture', 'Pattern']))}",
+        "",
+        "### Revelation Authority Order",
+        "",
+        *[
+            f"{item.get('rank')}. **{item.get('authority', '')}:** {item.get('use', '')}"
+            for item in revelation_layer.get("authority_order", [])
+        ],
+        "",
+        revelation_layer.get("acceptance_rule", "Patterns are secondary observations and may not become theological claims until tested by Christ, Scripture, doctrine, Church witness, critique, and mystery."),
+        "",
+        "### Theological Foundations",
+        "",
         foundation_lines[0] if foundation_lines else "Pattern recognition is subordinate to Scripture and divine revelation.",
         "",
-        "The project keeps this order: Scripture and revelation first, Christ and creedal guardrails next, then source quality, rival explanations, harm checks, mystery, and only then provisional confidence.",
+        "The project keeps this order: Christ first, Scripture as primary written witness, historic Christian doctrine and Church witness, then creation and observed patterns, then human experience and interpretation.",
+        "",
+        "## Sin, Distortion, Critique, And Mystery Checks",
+        "",
+        "Every detected pattern must be tested through Creation, Fall, Redemption, and Consummation:",
+        "",
+        *[f"- **{name}:** {text}" for name, text in pattern_distortion.get("required_framework", {}).items()],
+        "",
+        "Before accepting a pattern, the project tests it against Scripture, Christ-centered theology, Church history, Augustine, Calvin, Karl Barth, and a possible skeptical or atheist critique.",
+        "",
+        "The project may faithfully conclude: insufficient evidence, pattern unclear, theological mystery remains, or do not force a conclusion.",
+        "",
+        theological_method.get("core_rule", "Pattern recognition may support or clarify a claim, but it cannot create doctrine, replace Christ or Scripture, or erase unresolved friction."),
+        "",
+        mystery_layer.get("interpretive_rule", "The project must be free to stop short of a pattern claim."),
         "",
         "## Priestly Discernment Gate",
         "",

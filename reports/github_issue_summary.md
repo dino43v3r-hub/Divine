@@ -1,13 +1,13 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-21T01:57:25.298255+00:00
+Generated: 2026-06-21T02:37:10.507715+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
 
 ## Published Article
 
-[Read `reports/published/final_book_report.md`](https://github.com/dino43v3r-hub/Divine/blob/main/reports/published/final_book_report.md)
+[Read `reports/published/final_book_report.md`](reports/published/final_book_report.md)
 
 ## Preview
 
@@ -16,7 +16,7 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## Short Book Report
 
-_Generated: 2026-06-21 01:57 UTC_
+_Generated: 2026-06-21 02:36 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -28,9 +28,9 @@ _Daily visual generated from the current leading finding: Image Of God Pattern._
 
 ## Short Answer
 
-The project does not claim that patterns prove Christianity. It finds recurring patterns across theology, culture, language, suffering, science, art, music, history, and human experience, then asks whether those patterns can be responsibly read through Christian theology.
+The project does not claim that patterns prove Christianity or discover God by themselves. It begins with Jesus Christ as God's self-revelation, listens to Scripture as the primary written witness, and then examines recurring patterns across theology, culture, language, suffering, science, art, music, history, and human experience.
 
-The best current posture is: the system finds and explains divine-pattern signals; you evaluate whether they seem true, faithful, useful, or weak.
+The best current posture is: the system finds possible pattern signals, then tests them under Christ, Scripture, doctrine, Church witness, sin-and-distortion review, serious critique, and mystery. Some conclusions should remain unclear.
 
 ## Current Pattern Found
 
@@ -79,19 +79,19 @@ That queue explains why fields are missing and lists the highest-priority source
 
 ## Theological Boundary
 
-**Mission:** The Divine Pattern Project explores recurring patterns in reality and examines them in light of God's self-revelation in Jesus Christ, the witness of Scripture, historic Christian doctrine, and the Christian understanding of creation, sin, redemption, and restoration.
+### Christ-Centered Foundation
 
-The project keeps this order: Scripture and revelation first, Christ and creedal guardrails next, then source quality, rival explanations, harm checks, mystery, and only then provisional confidence.
+Divine Pattern does not seek to discover God through patterns alone. Rather, it seeks to examine patterns in creation, history, culture, and human experience in light of God's self-revelation in Jesus Christ. Scripture remains the primary authority, patterns are secondary observations, and all conclusions must remain accountable to the witness of Christ, the Church, and the mystery of God.
 
-## Priestly Discernment Gate
+**Theological flow:** Christ -> Scripture -> Pattern
 
-A pattern may organize attention, but it must not guide souls unless it leads toward Christ, protects the vulnerable, honors the Church's discernment, and produces truthful love.
+### Revelation Authority Order
 
-Before public, devotional, or pastoral use, the project now asks whether a claim would be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority.
+1. **Jesus Christ as God's self-revelation:** Christ is the living center and judge of Christian interpretation.
+2. **Scripture as the primary written witness:** Scripture normatively witnesses to Christ and tests all theological claims.
+3. **Historic Christian doctrine and Church witness:** Creeds, councils, worship, and tested teachers guard the project from private speculation.
+4. **Creation and observed patterns:** Patterns in creation, history, culture, and experience are secondary observations that may illuminate or pressure-test a claim.
+5. **Human experience and interpretation:** Experience can be pastorally important, but it remains limited, culturally shaped, and in need of correction.
 
-It also asks what ecclesial review is needed and how the claim remains accountable to baptism, Eucharist, confession, anointing, funerals, the church year, and daily prayer without reducing worship to symbolism.
-
-## What This Does Not Prove
-
-_Full report has 168 lines. Open the linked report above to read everything._
+_Full report has 203 lines. Open the linked report above to read everything._
 ```

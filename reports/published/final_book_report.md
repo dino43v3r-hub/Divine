@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-21 01:57 UTC_
+_Generated: 2026-06-21 02:36 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -14,9 +14,9 @@ _Daily visual generated from the current leading finding: Image Of God Pattern._
 
 ## Short Answer
 
-The project does not claim that patterns prove Christianity. It finds recurring patterns across theology, culture, language, suffering, science, art, music, history, and human experience, then asks whether those patterns can be responsibly read through Christian theology.
+The project does not claim that patterns prove Christianity or discover God by themselves. It begins with Jesus Christ as God's self-revelation, listens to Scripture as the primary written witness, and then examines recurring patterns across theology, culture, language, suffering, science, art, music, history, and human experience.
 
-The best current posture is: the system finds and explains divine-pattern signals; you evaluate whether they seem true, faithful, useful, or weak.
+The best current posture is: the system finds possible pattern signals, then tests them under Christ, Scripture, doctrine, Church witness, sin-and-distortion review, serious critique, and mystery. Some conclusions should remain unclear.
 
 ## Current Pattern Found
 
@@ -65,9 +65,44 @@ That queue explains why fields are missing and lists the highest-priority source
 
 ## Theological Boundary
 
+### Christ-Centered Foundation
+
+Divine Pattern does not seek to discover God through patterns alone. Rather, it seeks to examine patterns in creation, history, culture, and human experience in light of God's self-revelation in Jesus Christ. Scripture remains the primary authority, patterns are secondary observations, and all conclusions must remain accountable to the witness of Christ, the Church, and the mystery of God.
+
+**Theological flow:** Christ -> Scripture -> Pattern
+
+### Revelation Authority Order
+
+1. **Jesus Christ as God's self-revelation:** Christ is the living center and judge of Christian interpretation.
+2. **Scripture as the primary written witness:** Scripture normatively witnesses to Christ and tests all theological claims.
+3. **Historic Christian doctrine and Church witness:** Creeds, councils, worship, and tested teachers guard the project from private speculation.
+4. **Creation and observed patterns:** Patterns in creation, history, culture, and experience are secondary observations that may illuminate or pressure-test a claim.
+5. **Human experience and interpretation:** Experience can be pastorally important, but it remains limited, culturally shaped, and in need of correction.
+
+No pattern may be treated as a source of theological truth by itself. A pattern can only become a provisional theological observation after being tested by Christ, Scripture, doctrine, Church witness, sin-and-distortion analysis, and serious critique.
+
+### Theological Foundations
+
 **Mission:** The Divine Pattern Project explores recurring patterns in reality and examines them in light of God's self-revelation in Jesus Christ, the witness of Scripture, historic Christian doctrine, and the Christian understanding of creation, sin, redemption, and restoration.
 
-The project keeps this order: Scripture and revelation first, Christ and creedal guardrails next, then source quality, rival explanations, harm checks, mystery, and only then provisional confidence.
+The project keeps this order: Christ first, Scripture as primary written witness, historic Christian doctrine and Church witness, then creation and observed patterns, then human experience and interpretation.
+
+## Sin, Distortion, Critique, And Mystery Checks
+
+Every detected pattern must be tested through Creation, Fall, Redemption, and Consummation:
+
+- **Creation:** What was God's intended order?
+- **Fall:** How has sin distorted it?
+- **Redemption:** How does Christ redeem or correct it?
+- **Consummation:** How is it fulfilled in God's final purpose?
+
+Before accepting a pattern, the project tests it against Scripture, Christ-centered theology, Church history, Augustine, Calvin, Karl Barth, and a possible skeptical or atheist critique.
+
+The project may faithfully conclude: insufficient evidence, pattern unclear, theological mystery remains, or do not force a conclusion.
+
+Pattern recognition may support or clarify a claim, but it cannot create doctrine, replace Christ or Scripture, or erase unresolved friction.
+
+The project must be free to stop short of a pattern claim. Humility is not failure; it is often the most faithful conclusion when Christ, Scripture, doctrine, suffering, or evidence do not permit closure.
 
 ## Priestly Discernment Gate
 
