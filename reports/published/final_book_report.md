@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-21 02:48 UTC_
+_Generated: 2026-06-21 03:33 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -43,17 +43,18 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 686
+- developing evidence: 721
+- ready for human confidence review: 1
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 151 still missing of 799
-- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 150 still missing of 799
-- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 151 still missing of 799
-- machine_label_boundary: 629 rule-present; 0 reviewed companion; 2 machine-drafted; 168 still missing of 799
-- discernment: 691 rule-present; 341 reviewed companion; 0 machine-drafted; 108 still missing of 799
+- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 187 still missing of 835
+- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 186 still missing of 835
+- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 187 still missing of 835
+- machine_label_boundary: 664 rule-present; 0 reviewed companion; 2 machine-drafted; 169 still missing of 835
+- discernment: 708 rule-present; 341 reviewed companion; 0 machine-drafted; 127 still missing of 835
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Reviewed companions now close the named tracking gaps; they still do not raise confidence unless the original source is checked.
 
@@ -148,14 +149,14 @@ Quantum theory, mathematics, neuroscience, and AI pattern recognition may suppor
 
 The report is strongest when it tells you exactly where confidence is blocked. Based on the current audit, the next work should be:
 
-1. Move one source from `developing_evidence` to `reviewed_evidence_ready`.
-   Right now the project has 686 developing-evidence records and 0 ready-for-review records. Pick one important source connected to `Image Of God Pattern` and complete every required control by hand.
+1. Re-check the strongest ready-for-review source.
+   Confirm that its evidence, interpretation, counter-reading, failure condition, and pastoral safety are source-specific rather than generic.
 
 2. Fill the largest explicit review gaps.
-   The current biggest gaps are `ecclesial_review` (343 missing), `promotion_restraint` (343 missing), `liturgical_grounding` (343 missing), `pastoral_safety` (343 missing). These are the places where the report most needs clearer human judgment.
+   The current biggest gaps are `ecclesial_review` (378 missing), `promotion_restraint` (378 missing), `pastoral_safety` (378 missing), `liturgical_grounding` (377 missing). These are the places where the report most needs clearer human judgment.
 
 3. Start with the top item in the review queue.
-   First queued source: `research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md`. Add source-checked companion notes for: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint.
+   First queued source: `research_documents/auto_imported_cloud_candidates/book_review_a_more_profound_alleluia_theology_and_worship_in_harmony_ee1c835b96b7.md`. Add source-checked companion notes for: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint.
 
 4. Strengthen the leading pattern with one hard counter-reading.
    The current leading pattern is `Image Of God Pattern`. Add a serious rival explanation from psychology, sociology, history, disability studies, trauma studies, comparative religion, or philosophy, then state what would weaken the pattern.
@@ -164,15 +165,15 @@ The report is strongest when it tells you exactly where confidence is blocked. B
    Write a short case where the pattern helps faithful practice, and another where it would become unsafe, glib, coercive, or overconfident. This keeps the report priestly instead of merely impressive.
 
 6. Source-check machine-drafted companions before trusting them.
-   The project currently has 113 candidate leads and 453 machine-drafted companion record(s) still requiring source-check. Machine drafts can organize the work, but they should not raise confidence until the source has been directly checked.
-   First machine-draft source-check item: `all_texts/comparative_text_case_notes.md`.
+   The project currently has 113 candidate leads and 451 machine-drafted companion record(s) still requiring source-check. Machine drafts can organize the work, but they should not raise confidence until the source has been directly checked.
+   First machine-draft source-check item: `all_texts/global_text_exploration_framework.md`.
 
 ## Current Corpus Snapshot
 
-- Retained cloud candidate references: 7,572
-- Brand-new candidate references this run: 33
-- New provider mix: Crossref: 19, OpenAlex: 12, Internet Archive: 2
-- New candidate references in latest discovery run: 33
+- Retained cloud candidate references: 7,610
+- Brand-new candidate references this run: 38
+- New provider mix: Crossref: 26, OpenAlex: 11, Internet Archive: 1
+- New candidate references in latest discovery run: 38
 
 - Rated records: 14
 - Supportive after caution/resolution: 6
