@@ -2,13 +2,13 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-20 15:35 UTC_
+_Generated: 2026-06-21 01:57 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
 This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.
 
-![Daily pattern image](daily_pattern_image_2026-06-20.svg)
+![Daily pattern image](daily_pattern_image_2026-06-21.svg)
 
 _Daily visual generated from the current leading finding: Image Of God Pattern._
 
@@ -43,17 +43,17 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 614
+- developing evidence: 654
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 79 still missing of 727
-- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 78 still missing of 727
-- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 79 still missing of 727
-- machine_label_boundary: 557 rule-present; 0 reviewed companion; 2 machine-drafted; 168 still missing of 727
-- discernment: 664 rule-present; 341 reviewed companion; 0 machine-drafted; 63 still missing of 727
+- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 119 still missing of 767
+- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 118 still missing of 767
+- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 119 still missing of 767
+- machine_label_boundary: 597 rule-present; 0 reviewed companion; 2 machine-drafted; 168 still missing of 767
+- discernment: 680 rule-present; 341 reviewed companion; 0 machine-drafted; 87 still missing of 767
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Reviewed companions now close the named tracking gaps; they still do not raise confidence unless the original source is checked.
 
@@ -65,7 +65,7 @@ That queue explains why fields are missing and lists the highest-priority source
 
 ## Theological Boundary
 
-**Mission:** The Divine Pattern Project explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.
+**Mission:** The Divine Pattern Project explores recurring patterns in reality and examines them in light of God's self-revelation in Jesus Christ, the witness of Scripture, historic Christian doctrine, and the Christian understanding of creation, sin, redemption, and restoration.
 
 The project keeps this order: Scripture and revelation first, Christ and creedal guardrails next, then source quality, rival explanations, harm checks, mystery, and only then provisional confidence.
 
@@ -89,9 +89,9 @@ State clear limits so Divine Pattern research does not overclaim.
 
 **Why:** Christian doctrine is grounded in God's self-disclosure, not in human pattern detection.
 
-### Patterns do not erase mystery.
+### Patterns do not discover God apart from Jesus Christ.
 
-**Why:** Trinity, incarnation, providence, suffering, and new creation exceed full creaturely explanation.
+**Why:** God is known because God reveals himself. Patterns are secondary observations read in light of Christ, Scripture, and the Church's witness.
 
 
 ## Science And Quantum Guardrail
@@ -114,10 +114,10 @@ Quantum theory, mathematics, neuroscience, and AI pattern recognition may suppor
 The report is strongest when it tells you exactly where confidence is blocked. Based on the current audit, the next work should be:
 
 1. Move one source from `developing_evidence` to `reviewed_evidence_ready`.
-   Right now the project has 614 developing-evidence records and 0 ready-for-review records. Pick one important source connected to `Image Of God Pattern` and complete every required control by hand.
+   Right now the project has 654 developing-evidence records and 0 ready-for-review records. Pick one important source connected to `Image Of God Pattern` and complete every required control by hand.
 
 2. Fill the largest explicit review gaps.
-   The current biggest gaps are `ecclesial_review` (271 missing), `promotion_restraint` (271 missing), `liturgical_grounding` (271 missing), `pastoral_safety` (271 missing). These are the places where the report most needs clearer human judgment.
+   The current biggest gaps are `ecclesial_review` (311 missing), `pastoral_safety` (311 missing), `promotion_restraint` (310 missing), `liturgical_grounding` (310 missing). These are the places where the report most needs clearer human judgment.
 
 3. Start with the top item in the review queue.
    First queued source: `research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md`. Add source-checked companion notes for: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint.
@@ -134,10 +134,10 @@ The report is strongest when it tells you exactly where confidence is blocked. B
 
 ## Current Corpus Snapshot
 
-- Retained cloud candidate references: 7,491
-- Brand-new candidate references this run: 53
-- New provider mix: Crossref: 37, OpenAlex: 13, Internet Archive: 3
-- New candidate references in latest discovery run: 53
+- Retained cloud candidate references: 7,539
+- Brand-new candidate references this run: 48
+- New provider mix: Crossref: 19, OpenAlex: 15, Tavily Search: 12, Internet Archive: 2
+- New candidate references in latest discovery run: 48
 
 - Rated records: 14
 - Supportive after caution/resolution: 6

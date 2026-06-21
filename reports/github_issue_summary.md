@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-20T15:35:49.982964+00:00
+Generated: 2026-06-21T01:57:25.298255+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -16,13 +16,13 @@ The workflow now publishes one synthesized reading article instead of a wall of 
 
 ## Short Book Report
 
-_Generated: 2026-06-20 15:35 UTC_
+_Generated: 2026-06-21 01:57 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
 This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.
 
-![Daily pattern image](daily_pattern_image_2026-06-20.svg)
+![Daily pattern image](daily_pattern_image_2026-06-21.svg)
 
 _Daily visual generated from the current leading finding: Image Of God Pattern._
 
@@ -57,17 +57,17 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 614
+- developing evidence: 654
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 79 still missing of 727
-- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 78 still missing of 727
-- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 79 still missing of 727
-- machine_label_boundary: 557 rule-present; 0 reviewed companion; 2 machine-drafted; 168 still missing of 727
-- discernment: 664 rule-present; 341 reviewed companion; 0 machine-drafted; 63 still missing of 727
+- interpretation: 646 rule-present; 613 reviewed companion; 2 machine-drafted; 119 still missing of 767
+- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 118 still missing of 767
+- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 119 still missing of 767
+- machine_label_boundary: 597 rule-present; 0 reviewed companion; 2 machine-drafted; 168 still missing of 767
+- discernment: 680 rule-present; 341 reviewed companion; 0 machine-drafted; 87 still missing of 767
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Reviewed companions now close the named tracking gaps; they still do not raise confidence unless the original source is checked.
 
@@ -79,7 +79,7 @@ That queue explains why fields are missing and lists the highest-priority source
 
 ## Theological Boundary
 
-**Mission:** The Divine Pattern Project explores recurring patterns in reality and examines how those patterns align with, illuminate, challenge, or are explained by the Christian understanding of God, creation, sin, redemption, and restoration.
+**Mission:** The Divine Pattern Project explores recurring patterns in reality and examines them in light of God's self-revelation in Jesus Christ, the witness of Scripture, historic Christian doctrine, and the Christian understanding of creation, sin, redemption, and restoration.
 
 The project keeps this order: Scripture and revelation first, Christ and creedal guardrails next, then source quality, rival explanations, harm checks, mystery, and only then provisional confidence.
 
