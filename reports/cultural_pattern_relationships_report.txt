@@ -9,37 +9,37 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 103
-Total cultural words analyzed: 13,801
+Cultural documents analyzed: 106
+Total cultural words analyzed: 14,239
 
 Cultural Domains
 ----------------
-- Science And Discovery: 201
-- Politics And Justice: 93
-- History And Memory: 69
+- Science And Discovery: 207
+- Politics And Justice: 96
+- History And Memory: 72
 - Technology And AI: 64
-- Psychology And Human Behavior: 52
+- Psychology And Human Behavior: 54
 - Family And Community: 40
 - Health And Suffering: 27
 - Education And Formation: 24
-- Art And Beauty: 19
+- Art And Beauty: 22
 - Economics And Work: 18
-- Ecology And Creation Care: 12
-- World Languages: 12
+- Ecology And Creation Care: 14
+- World Languages: 13
 - Visual Art And Iconography: 9
 - Global Text Traditions: 9
 
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 471
-- Son: 8
+- Father: 486
+- Son: 9
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 103
-- Moral Confrontation: 55
+- Desire And Longing: 106
+- Moral Confrontation: 57
 - Communal Practice: 27
 - Creation And Order: 21
 - Transformation And Hope: 15
@@ -47,15 +47,15 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 222 | religious/science corpus 2,624
-- Mathematical Structure: cultural inputs 265 | religious/science corpus 636
-- Mathematical Theophany: cultural inputs 9 | religious/science corpus 1,275
-- Quantum Probability: cultural inputs 1 | religious/science corpus 172
-- Life And Consciousness: cultural inputs 301 | religious/science corpus 5,857
-- Meaning And Logos: cultural inputs 361 | religious/science corpus 6,140
-- Moral Response: cultural inputs 377 | religious/science corpus 2,498
-- Worship And Community: cultural inputs 208 | religious/science corpus 1,617
-- Transformation: cultural inputs 228 | religious/science corpus 2,229
+- Physical Order: cultural inputs 230 | religious/science corpus 2,624
+- Mathematical Structure: cultural inputs 271 | religious/science corpus 637
+- Mathematical Theophany: cultural inputs 9 | religious/science corpus 1,245
+- Quantum Probability: cultural inputs 1 | religious/science corpus 171
+- Life And Consciousness: cultural inputs 309 | religious/science corpus 5,835
+- Meaning And Logos: cultural inputs 374 | religious/science corpus 6,109
+- Moral Response: cultural inputs 389 | religious/science corpus 2,488
+- Worship And Community: cultural inputs 215 | religious/science corpus 1,605
+- Transformation: cultural inputs 233 | religious/science corpus 2,200
 
 Per-Domain Findings
 -------------------
@@ -777,6 +777,31 @@ Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Apply the pattern to labor and money by asking whether systems protect dignity, reduce exploitation, and support real flourishing.
 
+water_marginalization_at_the_urban_fringe_environmental_justice_and_urban_politi_dc7518323f18.md
+------------------------------------------------------------------------------------------------
+Words: 149
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 6
+- Physical Order: 4
+- Life And Consciousness: 3
+- Meaning And Logos: 3
+- Mathematical Structure: 2
+- Transformation: 2
+- Worship And Community: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Connect creation order to stewardship: beauty and interdependence should lead to responsibility.
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+
 faith_based_organisations_and_urban_social_justice_in_the_netherlands_e1e87889c63f.md
 -------------------------------------------------------------------------------------
 Words: 140
@@ -849,6 +874,30 @@ Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
 - Read visual form as meaning: ask how image, color, gesture, and composition reveal desire, lament, worship, power, or hope.
+
+review_religion_art_and_visual_culture_a_cross_cultural_reader_edited_by_s_brent_7415411cd072.md
+------------------------------------------------------------------------------------------------
+Words: 147
+Strongest cultural domain: Art And Beauty (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 6
+- Life And Consciousness: 3
+- Worship And Community: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Moral Response: 2
+- Transformation: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 
 bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md
 ------------------------------------------------------------------------------------------------
@@ -1123,6 +1172,31 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
+ethics_and_diversity_in_artificial_intelligence_policies_strategies_and_initiati_67f673179076.md
+------------------------------------------------------------------------------------------------
+Words: 142
+Strongest cultural domain: Politics And Justice (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 4
+- Moral Response: 4
+- Worship And Community: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Life And Consciousness: 2
+- Transformation: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
 
 indigenous_storytelling_truth_telling_and_community_approaches_to_reconciliation_4def4663137e.md
 ------------------------------------------------------------------------------------------------
