@@ -8,7 +8,7 @@
   },
   "confidence_tier_totals": {
     "candidate_lead": 113,
-    "developing_evidence": 757,
+    "developing_evidence": 782,
     "reviewed_evidence_ready": 1
   },
   "documents": [
@@ -3577,6 +3577,57 @@
       },
       "sidecar_paths": [],
       "title": "Immunological Tests \u2013 from the Microscope to Whole Genome Analysis"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "In Case of Spiritual Emergency"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -15725,6 +15776,57 @@
         "promotion_restraint"
       ],
       "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/jewish_wisdom_0393e0f1075f.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Jewish Wisdom"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "all_texts",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
       "path": "all_texts/auto_imported_cloud_candidates/maps_figures_table_a8b6a381b13a.md",
       "patterns": [],
       "promotion_blockers": [
@@ -20822,6 +20924,55 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/the_holy_spirit_and_christian_formation_a1224f8fab87.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "The Holy Spirit and Christian Formation"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "theologians",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -22932,6 +23083,57 @@
         "promotion_restraint"
       ],
       "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/historical_memory_as_an_omitted_variable_821a1003705a.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Historical Memory as an Omitted Variable?"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "history_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
       "path": "history_inputs/auto_imported_cloud_candidates/indigenous_reconciliation_in_australia_do_values_identity_and_collective_guilt_m_70e3b063eea1.md",
       "patterns": [],
       "promotion_blockers": [
@@ -23896,6 +24098,57 @@
       },
       "sidecar_paths": [],
       "title": "To Trust is to Survive: Toward a Developmental Model of Moral Injury"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "history_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/voa_voice_of_america_africa_december_28_2019_12_00pm_01_00pm_est_bfa1dda7b522.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "VOA [Voice of America] Africa : December 28, 2019 12:00PM-01:00PM EST"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -28338,6 +28591,57 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/a_catholic_ethical_approach_to_human_reproductive_technology_43c84219ad14.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "A Catholic ethical approach to human reproductive technology."
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -29968,6 +30272,57 @@
       },
       "sidecar_paths": [],
       "title": "Criminal Justice and the Ethics of Jesus"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/crispr_cas9_the_jedi_against_the_dark_empire_of_diseases_493183715af7.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "CRISPR/Cas9: the Jedi against the dark empire of diseases."
     },
     {
       "confidence_tier": "developing_evidence",
@@ -32168,6 +32523,57 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screening_9a92ebcefaaf.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Public Attitudes, Interests, and Concerns Regarding Polygenic Embryo Screening."
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -32325,6 +32731,57 @@
       },
       "sidecar_paths": [],
       "title": "Religion and social values for sustainability"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/religion_value_and_community_c3c66ba511b5.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Religion, Value, and Community"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -37620,6 +38077,55 @@
       "title": "Suffering and Social Justice: A Buddhist Response to the Gospel of Luke"
     },
     {
+      "confidence_tier": "developing_evidence",
+      "lane": "human_stories",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/testimony_faith_and_religion_in_early_modern_english_literature_ecb141a37d9a.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Testimony, Faith and Religion in Early Modern English Literature"
+    },
+    {
       "confidence_tier": "candidate_lead",
       "lane": "human_stories",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
@@ -39856,6 +40362,55 @@
         "promotion_restraint"
       ],
       "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/biblical_christianity_quantum_physics_and_spirituality_a2805927f180.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Biblical Christianity, Quantum Physics and Spirituality"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/big_bang_cosmology_quantum_physics_and_origins_of_culture_in_the_light_of_theori_3102f1c26591.md",
       "patterns": [],
       "promotion_blockers": [
@@ -40194,6 +40749,55 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/hypothesis_testing_and_the_choice_of_the_dose_response_model_99ccc4bfd242.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Hypothesis testing and the choice of the dose-response model."
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -40244,6 +40848,104 @@
       },
       "sidecar_paths": [],
       "title": "Information in the Context of Philosophy and Cognitive Sciences"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/interpretations_of_the_uncertainty_principle_94ac2d09fe5d.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Interpretations of the Uncertainty Principle"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/intersections_of_probability_philosophy_and_physics_anton_garrett_73df3be64196.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Intersections of Probability, Philosophy, and Physics: Anton Garrett"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -40566,6 +41268,104 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/pdf_probability_and_the_philosophies_of_science_a_realist_view_osf_10cef7475455.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "[PDF] Probability and the philosophies of science: a realist view - OSF"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/pdf_quantum_mechanical_measurement_in_monistic_systems_theory_354207b244d4.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "[PDF] Quantum mechanical measurement in monistic systems theory"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -40712,6 +41512,55 @@
       },
       "sidecar_paths": [],
       "title": "Phase Transitions in Artificial General Intelligence: Scaling Laws, Predictability Limits, and Singularity"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/philosophical_insights_from_the_uncertainty_principle_philosophy_institute_40e9b864a6d6.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Philosophical Insights from the Uncertainty Principle \u2022 Philosophy Institute"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -40874,6 +41723,53 @@
       },
       "sidecar_paths": [],
       "title": "Quantum Optimization and Quantum Learning: A Survey"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/quantum_physics_and_theology_john_polkinghorne_4241c56c90c3.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": true,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "QUANTUM PHYSICS AND THEOLOGY: JOHN POLKINGHORNE ..."
     },
     {
       "confidence_tier": "developing_evidence",
@@ -41072,6 +41968,55 @@
       },
       "sidecar_paths": [],
       "title": "Quantum State Function, Platonic Forms, and the Ethereal Substance"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/quantum_theology_theos_think_tank_understanding_faith_enriching_society_c346bfe4e898.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Quantum Theology - Theos Think Tank - Understanding faith. Enriching society."
     },
     {
       "confidence_tier": "developing_evidence",
@@ -41806,6 +42751,55 @@
       },
       "sidecar_paths": [],
       "title": "Understanding quantum mechanics: a review and synthesis in precise language"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/what_is_the_actual_philosophical_significance_of_quantum_mechanics_fcd5cbece829.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "What is the actual philosophical significance of quantum mechanics?"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -42827,6 +43821,55 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/change_ritual_and_grief_continuity_and_discontinuity_of_pastoral_theology_in_gha_8e99b2c084cf.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Change, Ritual, and Grief: Continuity and Discontinuity of Pastoral Theology in Ghana"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "pattern_tests",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -43194,6 +44237,55 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "pattern_tests",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/healing_our_brokenness_a_pastoral_care_approach_cae1634f0985.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Healing our Brokenness: A pastoral care approach"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "pattern_tests",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -43293,6 +44385,55 @@
       },
       "sidecar_paths": [],
       "title": "Hope in the Ruins: A Christian pastoral theology of grief"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "pattern_tests",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/how_unanswered_prayer_grows_faith_hope_and_love_christian_research_institute_e7125000b984.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "How Unanswered Prayer Grows Faith, Hope, and Love | Christian Research Institute"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -44170,6 +45311,104 @@
       },
       "sidecar_paths": [],
       "title": "Trauma-Informed Pastoral Theology: When Pastoral Caregivers Resist Abusive Theologies"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "pattern_tests",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/unanswered_prayers_c3b049a7b983.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "Unanswered Prayers"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "pattern_tests",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/what_are_the_implications_of_answered_and_unanswered_b689b690212a.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "pastoral_safety": false,
+        "practical_use": true,
+        "promotion_restraint": false
+      },
+      "sidecar_paths": [],
+      "title": "What are the implications of answered and unanswered ..."
     },
     {
       "confidence_tier": "developing_evidence",
@@ -45672,10 +46911,10 @@
   ],
   "lane_totals": {
     "all_texts": {
-      "documents": 35,
+      "documents": 36,
       "media_assets": 0,
-      "review_notes": 290,
-      "text_documents": 35
+      "review_notes": 291,
+      "text_documents": 36
     },
     "biblical_languages": {
       "documents": 41,
@@ -45684,28 +46923,28 @@
       "text_documents": 41
     },
     "cultural_inputs": {
-      "documents": 112,
+      "documents": 116,
       "media_assets": 0,
-      "review_notes": 112,
-      "text_documents": 112
+      "review_notes": 116,
+      "text_documents": 116
     },
     "deep_sources": {
-      "documents": 58,
+      "documents": 68,
       "media_assets": 0,
-      "review_notes": 75,
-      "text_documents": 58
+      "review_notes": 85,
+      "text_documents": 68
     },
     "history_inputs": {
-      "documents": 44,
+      "documents": 46,
       "media_assets": 0,
-      "review_notes": 299,
-      "text_documents": 44
+      "review_notes": 301,
+      "text_documents": 46
     },
     "human_stories": {
-      "documents": 6,
+      "documents": 7,
       "media_assets": 0,
-      "review_notes": 6,
-      "text_documents": 6
+      "review_notes": 7,
+      "text_documents": 7
     },
     "modern_literature": {
       "documents": 33,
@@ -45720,10 +46959,10 @@
       "text_documents": 35
     },
     "pattern_tests": {
-      "documents": 58,
+      "documents": 63,
       "media_assets": 0,
-      "review_notes": 62,
-      "text_documents": 58
+      "review_notes": 67,
+      "text_documents": 63
     },
     "psychology_inputs": {
       "documents": 66,
@@ -45732,16 +46971,16 @@
       "text_documents": 66
     },
     "research_documents": {
-      "documents": 168,
+      "documents": 169,
       "media_assets": 0,
-      "review_notes": 215,
-      "text_documents": 168
+      "review_notes": 216,
+      "text_documents": 169
     },
     "theologians": {
-      "documents": 69,
+      "documents": 70,
       "media_assets": 0,
-      "review_notes": 438,
-      "text_documents": 69
+      "review_notes": 439,
+      "text_documents": 70
     },
     "visual_art": {
       "documents": 69,
@@ -45773,6 +47012,7 @@
       "research_documents/auto_imported_cloud_candidates/epistemic_injustice_power_and_the_ethics_of_knowing_miranda_fricker_db681ec337c1.md",
       "research_documents/auto_imported_cloud_candidates/god_meets_us_in_our_suffering_hope_and_encouragement_for_those_journeying_throug_2e5667a72c64.md",
       "research_documents/auto_imported_cloud_candidates/ii_popular_theology_1696923f29e6.md",
+      "research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md",
       "research_documents/auto_imported_cloud_candidates/introduction_1a5716b94e03.md",
       "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
       "research_documents/auto_imported_cloud_candidates/living_witnesses_and_moral_agency_24bcfdfd76e7.md",
@@ -45781,8 +47021,7 @@
       "research_documents/auto_imported_cloud_candidates/openness_to_argument_a_philosophical_examination_of_marxism_and_freudianism_cd79722b6230.md",
       "research_documents/auto_imported_cloud_candidates/proof_for_the_equivalent_condition_score_method_for_calculation_of_power_transmi_2cdf50118d04.md",
       "research_documents/auto_imported_cloud_candidates/sustainability_perspectives_from_the_european_semi_periphery_f32b1d68c032.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_the_new_testament_as_an_anti_imperial_text_in_the_time_of_the_empire_ca8539f7d2d7.md"
+      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md"
     ],
     "counter_reading": [
       "research_documents/christian_sources/SOURCES.md",
@@ -45825,6 +47064,7 @@
       "research_documents/auto_imported_cloud_candidates/enrique_dussel_and_liberation_theology_cd1bb05694a6.md",
       "research_documents/auto_imported_cloud_candidates/environmental_care_in_islam_a_quranic_perspective_1f86e7fbefd3.md",
       "research_documents/auto_imported_cloud_candidates/ii_popular_theology_1696923f29e6.md",
+      "research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md",
       "research_documents/auto_imported_cloud_candidates/introduction_1a5716b94e03.md",
       "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
       "research_documents/auto_imported_cloud_candidates/man_and_woman_under_god_84135b252880.md",
@@ -45835,8 +47075,7 @@
       "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md",
       "research_documents/auto_imported_cloud_candidates/the_homo_economicus_as_a_prototype_of_a_psychopath_a_conceptual_analysis_and_imp_aace740797f9.md",
       "research_documents/auto_imported_cloud_candidates/the_liturgy_of_st_james_and_theology_of_the_trinity_dafdf792d6e5.md",
-      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
-      "biblical_languages/auto_imported_cloud_candidates/biblical_hebrew_0bf0e7bf7a86.md"
+      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md"
     ],
     "ecclesial_review": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -45908,6 +47147,7 @@
       "research_documents/auto_imported_cloud_candidates/epistemic_injustice_power_and_the_ethics_of_knowing_miranda_fricker_db681ec337c1.md",
       "research_documents/auto_imported_cloud_candidates/god_meets_us_in_our_suffering_hope_and_encouragement_for_those_journeying_throug_2e5667a72c64.md",
       "research_documents/auto_imported_cloud_candidates/ii_popular_theology_1696923f29e6.md",
+      "research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md",
       "research_documents/auto_imported_cloud_candidates/introduction_1a5716b94e03.md",
       "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
       "research_documents/auto_imported_cloud_candidates/living_witnesses_and_moral_agency_24bcfdfd76e7.md",
@@ -45916,8 +47156,7 @@
       "research_documents/auto_imported_cloud_candidates/openness_to_argument_a_philosophical_examination_of_marxism_and_freudianism_cd79722b6230.md",
       "research_documents/auto_imported_cloud_candidates/proof_for_the_equivalent_condition_score_method_for_calculation_of_power_transmi_2cdf50118d04.md",
       "research_documents/auto_imported_cloud_candidates/sustainability_perspectives_from_the_european_semi_periphery_f32b1d68c032.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_the_new_testament_as_an_anti_imperial_text_in_the_time_of_the_empire_ca8539f7d2d7.md"
+      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md"
     ],
     "interpretation": [
       "research_documents/auto_imported_cloud_candidates/antinatalism_extinction_and_the_end_of_procreative_self_corruption_18bb38c26427.md",
@@ -45935,6 +47174,7 @@
       "research_documents/auto_imported_cloud_candidates/epistemic_injustice_power_and_the_ethics_of_knowing_miranda_fricker_db681ec337c1.md",
       "research_documents/auto_imported_cloud_candidates/god_meets_us_in_our_suffering_hope_and_encouragement_for_those_journeying_throug_2e5667a72c64.md",
       "research_documents/auto_imported_cloud_candidates/ii_popular_theology_1696923f29e6.md",
+      "research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md",
       "research_documents/auto_imported_cloud_candidates/introduction_1a5716b94e03.md",
       "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
       "research_documents/auto_imported_cloud_candidates/living_witnesses_and_moral_agency_24bcfdfd76e7.md",
@@ -45943,8 +47183,7 @@
       "research_documents/auto_imported_cloud_candidates/openness_to_argument_a_philosophical_examination_of_marxism_and_freudianism_cd79722b6230.md",
       "research_documents/auto_imported_cloud_candidates/proof_for_the_equivalent_condition_score_method_for_calculation_of_power_transmi_2cdf50118d04.md",
       "research_documents/auto_imported_cloud_candidates/sustainability_perspectives_from_the_european_semi_periphery_f32b1d68c032.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_the_new_testament_as_an_anti_imperial_text_in_the_time_of_the_empire_ca8539f7d2d7.md"
+      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md"
     ],
     "liturgical_grounding": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -46099,6 +47338,7 @@
       "research_documents/auto_imported_cloud_candidates/epistemic_injustice_power_and_the_ethics_of_knowing_miranda_fricker_db681ec337c1.md",
       "research_documents/auto_imported_cloud_candidates/god_meets_us_in_our_suffering_hope_and_encouragement_for_those_journeying_throug_2e5667a72c64.md",
       "research_documents/auto_imported_cloud_candidates/ii_popular_theology_1696923f29e6.md",
+      "research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md",
       "research_documents/auto_imported_cloud_candidates/introduction_1a5716b94e03.md",
       "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
       "research_documents/auto_imported_cloud_candidates/living_witnesses_and_moral_agency_24bcfdfd76e7.md",
@@ -46107,8 +47347,7 @@
       "research_documents/auto_imported_cloud_candidates/openness_to_argument_a_philosophical_examination_of_marxism_and_freudianism_cd79722b6230.md",
       "research_documents/auto_imported_cloud_candidates/proof_for_the_equivalent_condition_score_method_for_calculation_of_power_transmi_2cdf50118d04.md",
       "research_documents/auto_imported_cloud_candidates/sustainability_perspectives_from_the_european_semi_periphery_f32b1d68c032.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_the_new_testament_as_an_anti_imperial_text_in_the_time_of_the_empire_ca8539f7d2d7.md"
+      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md"
     ],
     "counter_reading": [
       "research_documents/christian_sources/SOURCES.md",
@@ -46151,6 +47390,7 @@
       "research_documents/auto_imported_cloud_candidates/enrique_dussel_and_liberation_theology_cd1bb05694a6.md",
       "research_documents/auto_imported_cloud_candidates/environmental_care_in_islam_a_quranic_perspective_1f86e7fbefd3.md",
       "research_documents/auto_imported_cloud_candidates/ii_popular_theology_1696923f29e6.md",
+      "research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md",
       "research_documents/auto_imported_cloud_candidates/introduction_1a5716b94e03.md",
       "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
       "research_documents/auto_imported_cloud_candidates/man_and_woman_under_god_84135b252880.md",
@@ -46161,8 +47401,7 @@
       "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md",
       "research_documents/auto_imported_cloud_candidates/the_homo_economicus_as_a_prototype_of_a_psychopath_a_conceptual_analysis_and_imp_aace740797f9.md",
       "research_documents/auto_imported_cloud_candidates/the_liturgy_of_st_james_and_theology_of_the_trinity_dafdf792d6e5.md",
-      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md",
-      "biblical_languages/auto_imported_cloud_candidates/biblical_hebrew_0bf0e7bf7a86.md"
+      "research_documents/auto_imported_cloud_candidates/trinity_and_liturgy_introduction_c2e1c2ab26a5.md"
     ],
     "ecclesial_review": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -46234,6 +47473,7 @@
       "research_documents/auto_imported_cloud_candidates/epistemic_injustice_power_and_the_ethics_of_knowing_miranda_fricker_db681ec337c1.md",
       "research_documents/auto_imported_cloud_candidates/god_meets_us_in_our_suffering_hope_and_encouragement_for_those_journeying_throug_2e5667a72c64.md",
       "research_documents/auto_imported_cloud_candidates/ii_popular_theology_1696923f29e6.md",
+      "research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md",
       "research_documents/auto_imported_cloud_candidates/introduction_1a5716b94e03.md",
       "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
       "research_documents/auto_imported_cloud_candidates/living_witnesses_and_moral_agency_24bcfdfd76e7.md",
@@ -46242,8 +47482,7 @@
       "research_documents/auto_imported_cloud_candidates/openness_to_argument_a_philosophical_examination_of_marxism_and_freudianism_cd79722b6230.md",
       "research_documents/auto_imported_cloud_candidates/proof_for_the_equivalent_condition_score_method_for_calculation_of_power_transmi_2cdf50118d04.md",
       "research_documents/auto_imported_cloud_candidates/sustainability_perspectives_from_the_european_semi_periphery_f32b1d68c032.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_the_new_testament_as_an_anti_imperial_text_in_the_time_of_the_empire_ca8539f7d2d7.md"
+      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md"
     ],
     "interpretation": [
       "research_documents/auto_imported_cloud_candidates/antinatalism_extinction_and_the_end_of_procreative_self_corruption_18bb38c26427.md",
@@ -46261,6 +47500,7 @@
       "research_documents/auto_imported_cloud_candidates/epistemic_injustice_power_and_the_ethics_of_knowing_miranda_fricker_db681ec337c1.md",
       "research_documents/auto_imported_cloud_candidates/god_meets_us_in_our_suffering_hope_and_encouragement_for_those_journeying_throug_2e5667a72c64.md",
       "research_documents/auto_imported_cloud_candidates/ii_popular_theology_1696923f29e6.md",
+      "research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md",
       "research_documents/auto_imported_cloud_candidates/introduction_1a5716b94e03.md",
       "research_documents/auto_imported_cloud_candidates/law_religion_and_public_reason_8ad003180b6d.md",
       "research_documents/auto_imported_cloud_candidates/living_witnesses_and_moral_agency_24bcfdfd76e7.md",
@@ -46269,8 +47509,7 @@
       "research_documents/auto_imported_cloud_candidates/openness_to_argument_a_philosophical_examination_of_marxism_and_freudianism_cd79722b6230.md",
       "research_documents/auto_imported_cloud_candidates/proof_for_the_equivalent_condition_score_method_for_calculation_of_power_transmi_2cdf50118d04.md",
       "research_documents/auto_imported_cloud_candidates/sustainability_perspectives_from_the_european_semi_periphery_f32b1d68c032.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md",
-      "research_documents/auto_imported_cloud_candidates/teaching_the_new_testament_as_an_anti_imperial_text_in_the_time_of_the_empire_ca8539f7d2d7.md"
+      "research_documents/auto_imported_cloud_candidates/teaching_comparative_political_theology_d0d5df810618.md"
     ],
     "liturgical_grounding": [
       "research_documents/active_lane_review_conversion_2026_06_01_followup.md",
@@ -46481,87 +47720,87 @@
   "rule_coverage": {
     "analogy": {
       "machine_drafted": 0,
-      "missing": 222,
+      "missing": 247,
       "present": 649,
       "review_companion": 595,
-      "total": 871
+      "total": 896
     },
     "counter_reading": {
       "machine_drafted": 1,
       "missing": 43,
-      "present": 827,
+      "present": 852,
       "review_companion": 0,
-      "total": 871
+      "total": 896
     },
     "discernment": {
       "machine_drafted": 0,
-      "missing": 150,
-      "present": 721,
+      "missing": 158,
+      "present": 738,
       "review_companion": 341,
-      "total": 871
+      "total": 896
     },
     "ecclesial_review": {
       "machine_drafted": 449,
-      "missing": 414,
+      "missing": 439,
       "present": 8,
       "review_companion": 1,
-      "total": 871
+      "total": 896
     },
     "evidence": {
       "machine_drafted": 2,
       "missing": 101,
-      "present": 768,
+      "present": 793,
       "review_companion": 0,
-      "total": 871
+      "total": 896
     },
     "failure_condition": {
       "machine_drafted": 1,
-      "missing": 223,
+      "missing": 248,
       "present": 647,
       "review_companion": 551,
-      "total": 871
+      "total": 896
     },
     "interpretation": {
       "machine_drafted": 2,
-      "missing": 223,
-      "present": 646,
+      "missing": 247,
+      "present": 647,
       "review_companion": 613,
-      "total": 871
+      "total": 896
     },
     "liturgical_grounding": {
       "machine_drafted": 429,
-      "missing": 413,
+      "missing": 438,
       "present": 29,
       "review_companion": 1,
-      "total": 871
+      "total": 896
     },
     "machine_label_boundary": {
       "machine_drafted": 2,
       "missing": 169,
-      "present": 700,
+      "present": 725,
       "review_companion": 0,
-      "total": 871
+      "total": 896
     },
     "pastoral_safety": {
       "machine_drafted": 407,
-      "missing": 414,
+      "missing": 439,
       "present": 50,
       "review_companion": 2,
-      "total": 871
+      "total": 896
     },
     "practical_use": {
       "machine_drafted": 0,
       "missing": 33,
-      "present": 838,
+      "present": 863,
       "review_companion": 0,
-      "total": 871
+      "total": 896
     },
     "promotion_restraint": {
       "machine_drafted": 441,
-      "missing": 414,
+      "missing": 439,
       "present": 16,
       "review_companion": 1,
-      "total": 871
+      "total": 896
     }
   }
 }

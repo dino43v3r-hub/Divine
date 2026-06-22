@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 6818,
+  "edge_count": 6961,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -2795,6 +2795,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_immunological_tests_from_the_microscope_to_whole_genome_analysis_e31c6",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_in_case_of_spiritual_emergency_492543555b16_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_in_case_of_spiritual_emergency_492543555b16_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_in_case_of_spiritual_emergency_492543555b16_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_in_case_of_spiritual_emergency_492543555b16_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_in_case_of_spiritual_emergency_492543555b16_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -11854,6 +11879,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_wisdom_0393e0f1075f_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_wisdom_0393e0f1075f_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_wisdom_0393e0f1075f_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_wisdom_0393e0f1075f_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_wisdom_0393e0f1075f_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:all_texts_auto_imported_cloud_candidates_maps_figures_table_a8b6a381b13a_md",
       "target": "lane:all_texts"
     },
@@ -15719,6 +15769,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_holy_spirit_and_christian_formation_a1224f8fab87_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_holy_spirit_and_christian_formation_a1224f8fab87_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_holy_spirit_and_christian_formation_a1224f8fab87_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_holy_spirit_and_christian_formation_a1224f8fab87_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_holy_spirit_and_christian_formation_a1224f8fab87_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_holy_spirit_and_christian_formation_a1224f8fab87_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_the_holy_spirit_in_moral_character_formation_739f95ae82dd_md",
       "target": "lane:theologians"
     },
@@ -17364,6 +17444,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_historical_memory_as_an_omitted_variable_821a1003705a_md",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_historical_memory_as_an_omitted_variable_821a1003705a_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_historical_memory_as_an_omitted_variable_821a1003705a_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_historical_memory_as_an_omitted_variable_821a1003705a_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_historical_memory_as_an_omitted_variable_821a1003705a_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_indigenous_reconciliation_in_australia_do_values_identity_and_collective_g",
       "target": "lane:history_inputs"
     },
@@ -18020,6 +18125,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_to_trust_is_to_survive_toward_a_developmental_model_of_moral_injury_7e9b98",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_voa_voice_of_america_africa_december_28_2019_12_00pm_01_00pm_est_bfa1dda7b",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_voa_voice_of_america_africa_december_28_2019_12_00pm_01_00pm_est_bfa1dda7b",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_voa_voice_of_america_africa_december_28_2019_12_00pm_01_00pm_est_bfa1dda7b",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_voa_voice_of_america_africa_december_28_2019_12_00pm_01_00pm_est_bfa1dda7b",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_voa_voice_of_america_africa_december_28_2019_12_00pm_01_00pm_est_bfa1dda7b",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -21409,6 +21539,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_a_catholic_ethical_approach_to_human_reproductive_technology_43c84219ad14",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_a_catholic_ethical_approach_to_human_reproductive_technology_43c84219ad14",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_a_catholic_ethical_approach_to_human_reproductive_technology_43c84219ad14",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_a_catholic_ethical_approach_to_human_reproductive_technology_43c84219ad14",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_a_catholic_ethical_approach_to_human_reproductive_technology_43c84219ad14",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_a_new_look_at_international_research_ethics_3d9be8cdafdb_md",
       "target": "lane:cultural_inputs"
     },
@@ -22620,6 +22775,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_criminal_justice_and_the_ethics_of_jesus_ba790883ca62_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_crispr_cas9_the_jedi_against_the_dark_empire_of_diseases_493183715af7_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_crispr_cas9_the_jedi_against_the_dark_empire_of_diseases_493183715af7_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_crispr_cas9_the_jedi_against_the_dark_empire_of_diseases_493183715af7_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_crispr_cas9_the_jedi_against_the_dark_empire_of_diseases_493183715af7_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_crispr_cas9_the_jedi_against_the_dark_empire_of_diseases_493183715af7_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -24274,6 +24454,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screen",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screen",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screen",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screen",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screen",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_support_for_european_integration_c4216a468c86_md",
       "target": "lane:cultural_inputs"
     },
@@ -24385,6 +24590,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_religion_and_social_values_for_sustainability_e1fda3a0907f_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_religion_value_and_community_c3c66ba511b5_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_religion_value_and_community_c3c66ba511b5_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_religion_value_and_community_c3c66ba511b5_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_religion_value_and_community_c3c66ba511b5_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_religion_value_and_community_c3c66ba511b5_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -28109,6 +28339,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_testimony_faith_and_religion_in_early_modern_english_literature_ecb141a37d9",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_testimony_faith_and_religion_in_early_modern_english_literature_ecb141a37d9",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_testimony_faith_and_religion_in_early_modern_english_literature_ecb141a37d9",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_testimony_faith_and_religion_in_early_modern_english_literature_ecb141a37d9",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_testimony_faith_and_religion_in_early_modern_english_literature_ecb141a37d9",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_testimony_faith_and_religion_in_early_modern_english_literature_ecb141a37d9",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:human_stories_global_gifts_testimony_notes_md",
       "target": "lane:human_stories"
     },
@@ -29664,6 +29924,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_biblical_christianity_quantum_physics_and_spirituality_a2805927f180_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_biblical_christianity_quantum_physics_and_spirituality_a2805927f180_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_biblical_christianity_quantum_physics_and_spirituality_a2805927f180_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_biblical_christianity_quantum_physics_and_spirituality_a2805927f180_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_biblical_christianity_quantum_physics_and_spirituality_a2805927f180_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_biblical_christianity_quantum_physics_and_spirituality_a2805927f180_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_big_bang_cosmology_quantum_physics_and_origins_of_culture_in_the_light_of_th",
       "target": "lane:deep_sources"
     },
@@ -29919,6 +30209,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_hypothesis_testing_and_the_choice_of_the_dose_response_model_99ccc4bfd242_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_hypothesis_testing_and_the_choice_of_the_dose_response_model_99ccc4bfd242_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_hypothesis_testing_and_the_choice_of_the_dose_response_model_99ccc4bfd242_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_hypothesis_testing_and_the_choice_of_the_dose_response_model_99ccc4bfd242_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_hypothesis_testing_and_the_choice_of_the_dose_response_model_99ccc4bfd242_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_hypothesis_testing_and_the_choice_of_the_dose_response_model_99ccc4bfd242_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_information_in_the_context_of_philosophy_and_cognitive_sciences_1f8959c5aa61",
       "target": "lane:deep_sources"
     },
@@ -29960,6 +30280,66 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_information_in_the_context_of_philosophy_and_cognitive_sciences_1f8959c5aa61",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_the_uncertainty_principle_94ac2d09fe5d_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_the_uncertainty_principle_94ac2d09fe5d_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_the_uncertainty_principle_94ac2d09fe5d_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_the_uncertainty_principle_94ac2d09fe5d_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_the_uncertainty_principle_94ac2d09fe5d_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_the_uncertainty_principle_94ac2d09fe5d_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_intersections_of_probability_philosophy_and_physics_anton_garrett_73df3be641",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_intersections_of_probability_philosophy_and_physics_anton_garrett_73df3be641",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_intersections_of_probability_philosophy_and_physics_anton_garrett_73df3be641",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_intersections_of_probability_philosophy_and_physics_anton_garrett_73df3be641",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_intersections_of_probability_philosophy_and_physics_anton_garrett_73df3be641",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_intersections_of_probability_philosophy_and_physics_anton_garrett_73df3be641",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -30234,6 +30614,66 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_probability_and_the_philosophies_of_science_a_realist_view_osf_10cef7475",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_probability_and_the_philosophies_of_science_a_realist_view_osf_10cef7475",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_probability_and_the_philosophies_of_science_a_realist_view_osf_10cef7475",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_probability_and_the_philosophies_of_science_a_realist_view_osf_10cef7475",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_probability_and_the_philosophies_of_science_a_realist_view_osf_10cef7475",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_probability_and_the_philosophies_of_science_a_realist_view_osf_10cef7475",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_quantum_mechanical_measurement_in_monistic_systems_theory_354207b244d4_m",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_quantum_mechanical_measurement_in_monistic_systems_theory_354207b244d4_m",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_quantum_mechanical_measurement_in_monistic_systems_theory_354207b244d4_m",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_quantum_mechanical_measurement_in_monistic_systems_theory_354207b244d4_m",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_quantum_mechanical_measurement_in_monistic_systems_theory_354207b244d4_m",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_pdf_quantum_mechanical_measurement_in_monistic_systems_theory_354207b244d4_m",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_pedagogical_content_knowledge_and_preparation_of_high_school_physics_teacher",
       "target": "lane:deep_sources"
     },
@@ -30369,6 +30809,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_philosophical_insights_from_the_uncertainty_principle_philosophy_institute_4",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_philosophical_insights_from_the_uncertainty_principle_philosophy_institute_4",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_philosophical_insights_from_the_uncertainty_principle_philosophy_institute_4",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_philosophical_insights_from_the_uncertainty_principle_philosophy_institute_4",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_philosophical_insights_from_the_uncertainty_principle_philosophy_institute_4",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_philosophical_insights_from_the_uncertainty_principle_philosophy_institute_4",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_",
       "target": "lane:deep_sources"
     },
@@ -30500,6 +30970,41 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_optimization_and_quantum_learning_a_survey_3aa5fc0647e4_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_physics_and_theology_john_polkinghorne_4241c56c90c3_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_physics_and_theology_john_polkinghorne_4241c56c90c3_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_physics_and_theology_john_polkinghorne_4241c56c90c3_md",
+      "target": "rule:interpretation"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_physics_and_theology_john_polkinghorne_4241c56c90c3_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_physics_and_theology_john_polkinghorne_4241c56c90c3_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_physics_and_theology_john_polkinghorne_4241c56c90c3_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_physics_and_theology_john_polkinghorne_4241c56c90c3_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -30680,6 +31185,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_state_function_platonic_forms_and_the_ethereal_substance_ff08a6b892f",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_theology_theos_think_tank_understanding_faith_enriching_society_c346",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_theology_theos_think_tank_understanding_faith_enriching_society_c346",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_theology_theos_think_tank_understanding_faith_enriching_society_c346",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_theology_theos_think_tank_understanding_faith_enriching_society_c346",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_theology_theos_think_tank_understanding_faith_enriching_society_c346",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_theology_theos_think_tank_understanding_faith_enriching_society_c346",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -31265,6 +31800,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_understanding_quantum_mechanics_a_review_and_synthesis_in_precise_language_e",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_what_is_the_actual_philosophical_significance_of_quantum_mechanics_fcd5cbece",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_what_is_the_actual_philosophical_significance_of_quantum_mechanics_fcd5cbece",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_what_is_the_actual_philosophical_significance_of_quantum_mechanics_fcd5cbece",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_what_is_the_actual_philosophical_significance_of_quantum_mechanics_fcd5cbece",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_what_is_the_actual_philosophical_significance_of_quantum_mechanics_fcd5cbece",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_what_is_the_actual_philosophical_significance_of_quantum_mechanics_fcd5cbece",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -31939,6 +32504,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_change_ritual_and_grief_continuity_and_discontinuity_of_pastoral_theology_i",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_change_ritual_and_grief_continuity_and_discontinuity_of_pastoral_theology_i",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_change_ritual_and_grief_continuity_and_discontinuity_of_pastoral_theology_i",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_change_ritual_and_grief_continuity_and_discontinuity_of_pastoral_theology_i",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_change_ritual_and_grief_continuity_and_discontinuity_of_pastoral_theology_i",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_change_ritual_and_grief_continuity_and_discontinuity_of_pastoral_theology_i",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_climate_trauma_and_habits_toward_hope_a_decolonizing_earth_centered_approac",
       "target": "lane:pattern_tests"
     },
@@ -32250,6 +32845,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_healing_liturgy_the_role_of_music_and_singing_b4923ff7b226_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_healing_our_brokenness_a_pastoral_care_approach_cae1634f0985_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_healing_our_brokenness_a_pastoral_care_approach_cae1634f0985_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_healing_our_brokenness_a_pastoral_care_approach_cae1634f0985_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_healing_our_brokenness_a_pastoral_care_approach_cae1634f0985_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_healing_our_brokenness_a_pastoral_care_approach_cae1634f0985_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_healing_our_brokenness_a_pastoral_care_approach_cae1634f0985_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -32325,6 +32950,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_hope_in_the_ruins_a_christian_pastoral_theology_of_grief_bd84d9ba9f3b_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_how_unanswered_prayer_grows_faith_hope_and_love_christian_research_institut",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_how_unanswered_prayer_grows_faith_hope_and_love_christian_research_institut",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_how_unanswered_prayer_grows_faith_hope_and_love_christian_research_institut",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_how_unanswered_prayer_grows_faith_hope_and_love_christian_research_institut",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_how_unanswered_prayer_grows_faith_hope_and_love_christian_research_institut",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_how_unanswered_prayer_grows_faith_hope_and_love_christian_research_institut",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -33060,6 +33715,66 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_trauma_informed_pastoral_theology_when_pastoral_caregivers_resist_abusive_t",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_c3b049a7b983_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_c3b049a7b983_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_c3b049a7b983_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_c3b049a7b983_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_c3b049a7b983_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_c3b049a7b983_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_are_the_implications_of_answered_and_unanswered_b689b690212a_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_are_the_implications_of_answered_and_unanswered_b689b690212a_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_are_the_implications_of_answered_and_unanswered_b689b690212a_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_are_the_implications_of_answered_and_unanswered_b689b690212a_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_are_the_implications_of_answered_and_unanswered_b689b690212a_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_are_the_implications_of_answered_and_unanswered_b689b690212a_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -34094,7 +34809,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 907,
+  "node_count": 932,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -35021,6 +35736,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/immunological_tests_from_the_microscope_to_whole_genome_analysis_e31c61caf323.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_in_case_of_spiritual_emergency_492543555b16_md",
+      "label": "In Case of Spiritual Emergency",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -37567,6 +38293,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_jewish_wisdom_0393e0f1075f_md",
+      "label": "Jewish Wisdom",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/jewish_wisdom_0393e0f1075f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_maps_figures_table_a8b6a381b13a_md",
       "label": "Maps, Figures, Table",
       "lane": "all_texts",
@@ -38667,6 +39404,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_the_holy_spirit_and_christian_formation_a1224f8fab87_md",
+      "label": "The Holy Spirit and Christian Formation",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/the_holy_spirit_and_christian_formation_a1224f8fab87.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_the_holy_spirit_in_moral_character_formation_739f95ae82dd_md",
       "label": "The Holy Spirit in Moral Character Formation",
       "lane": "theologians",
@@ -39107,6 +39855,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_historical_memory_as_an_omitted_variable_821a1003705a_md",
+      "label": "Historical Memory as an Omitted Variable?",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/historical_memory_as_an_omitted_variable_821a1003705a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_indigenous_reconciliation_in_australia_do_values_identity_and_collective_g",
       "label": "Indigenous reconciliation in Australia: do values, identity and collective guilt matter?",
       "lane": "history_inputs",
@@ -39311,6 +40070,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "history_inputs/auto_imported_cloud_candidates/to_trust_is_to_survive_toward_a_developmental_model_of_moral_injury_7e9b981e0028.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_voa_voice_of_america_africa_december_28_2019_12_00pm_01_00pm_est_bfa1dda7b",
+      "label": "VOA [Voice of America] Africa : December 28, 2019 12:00PM-01:00PM EST",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/voa_voice_of_america_africa_december_28_2019_12_00pm_01_00pm_est_bfa1dda7b522.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -40251,6 +41021,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_a_catholic_ethical_approach_to_human_reproductive_technology_43c84219ad14",
+      "label": "A Catholic ethical approach to human reproductive technology.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/a_catholic_ethical_approach_to_human_reproductive_technology_43c84219ad14.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_a_new_look_at_international_research_ethics_3d9be8cdafdb_md",
       "label": "A new look at international research ethics",
       "lane": "cultural_inputs",
@@ -40587,6 +41368,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/criminal_justice_and_the_ethics_of_jesus_ba790883ca62.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_crispr_cas9_the_jedi_against_the_dark_empire_of_diseases_493183715af7_md",
+      "label": "CRISPR/Cas9: the Jedi against the dark empire of diseases.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/crispr_cas9_the_jedi_against_the_dark_empire_of_diseases_493183715af7.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -41054,6 +41846,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screen",
+      "label": "Public Attitudes, Interests, and Concerns Regarding Polygenic Embryo Screening.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screening_9a92ebcefaaf.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_public_support_for_european_integration_c4216a468c86_md",
       "label": "Public Support for European Integration",
       "lane": "cultural_inputs",
@@ -41082,6 +41885,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/religion_and_social_values_for_sustainability_e1fda3a0907f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_religion_value_and_community_c3c66ba511b5_md",
+      "label": "Religion, Value, and Community",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/religion_value_and_community_c3c66ba511b5.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -42197,6 +43011,17 @@
       "type": "document"
     },
     {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_testimony_faith_and_religion_in_early_modern_english_literature_ecb141a37d9",
+      "label": "Testimony, Faith and Religion in Early Modern English Literature",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/testimony_faith_and_religion_in_early_modern_english_literature_ecb141a37d9a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
       "confidence_tier": "candidate_lead",
       "id": "doc:human_stories_global_gifts_testimony_notes_md",
       "label": "Global Gifts Testimony Notes",
@@ -42671,6 +43496,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_biblical_christianity_quantum_physics_and_spirituality_a2805927f180_md",
+      "label": "Biblical Christianity, Quantum Physics and Spirituality",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/biblical_christianity_quantum_physics_and_spirituality_a2805927f180.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_big_bang_cosmology_quantum_physics_and_origins_of_culture_in_the_light_of_th",
       "label": "Big Bang Cosmology, Quantum Physics, and Origins of Culture - in the light of theories of John Polkinghorne and Ren\u00e9 Girard -",
       "lane": "deep_sources",
@@ -42748,12 +43584,45 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_hypothesis_testing_and_the_choice_of_the_dose_response_model_99ccc4bfd242_md",
+      "label": "Hypothesis testing and the choice of the dose-response model.",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/hypothesis_testing_and_the_choice_of_the_dose_response_model_99ccc4bfd242.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_information_in_the_context_of_philosophy_and_cognitive_sciences_1f8959c5aa61",
       "label": "Information in the Context of Philosophy and Cognitive Sciences",
       "lane": "deep_sources",
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/information_in_the_context_of_philosophy_and_cognitive_sciences_1f8959c5aa61.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_the_uncertainty_principle_94ac2d09fe5d_md",
+      "label": "Interpretations of the Uncertainty Principle",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/interpretations_of_the_uncertainty_principle_94ac2d09fe5d.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_intersections_of_probability_philosophy_and_physics_anton_garrett_73df3be641",
+      "label": "Intersections of Probability, Philosophy, and Physics: Anton Garrett",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/intersections_of_probability_philosophy_and_physics_anton_garrett_73df3be64196.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -42825,6 +43694,28 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_pdf_probability_and_the_philosophies_of_science_a_realist_view_osf_10cef7475",
+      "label": "[PDF] Probability and the philosophies of science: a realist view - OSF",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/pdf_probability_and_the_philosophies_of_science_a_realist_view_osf_10cef7475455.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_pdf_quantum_mechanical_measurement_in_monistic_systems_theory_354207b244d4_m",
+      "label": "[PDF] Quantum mechanical measurement in monistic systems theory",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/pdf_quantum_mechanical_measurement_in_monistic_systems_theory_354207b244d4.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_pedagogical_content_knowledge_and_preparation_of_high_school_physics_teacher",
       "label": "Pedagogical content knowledge and preparation of high school physics teachers",
       "lane": "deep_sources",
@@ -42858,6 +43749,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_philosophical_insights_from_the_uncertainty_principle_philosophy_institute_4",
+      "label": "Philosophical Insights from the Uncertainty Principle \u2022 Philosophy Institute",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/philosophical_insights_from_the_uncertainty_principle_philosophy_institute_40e9b864a6d6.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_promoting_novelty_rigor_and_style_in_energy_social_science_towards_codes_of_",
       "label": "Promoting novelty, rigor, and style in energy social science: Towards codes of practice for appropriate methods and research design",
       "lane": "deep_sources",
@@ -42886,6 +43788,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/quantum_optimization_and_quantum_learning_a_survey_3aa5fc0647e4.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_quantum_physics_and_theology_john_polkinghorne_4241c56c90c3_md",
+      "label": "QUANTUM PHYSICS AND THEOLOGY: JOHN POLKINGHORNE ...",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/quantum_physics_and_theology_john_polkinghorne_4241c56c90c3.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -42930,6 +43843,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/quantum_state_function_platonic_forms_and_the_ethereal_substance_ff08a6b892f9.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_quantum_theology_theos_think_tank_understanding_faith_enriching_society_c346",
+      "label": "Quantum Theology - Theos Think Tank - Understanding faith. Enriching society.",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/quantum_theology_theos_think_tank_understanding_faith_enriching_society_c346bfe4e898.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -43084,6 +44008,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/understanding_quantum_mechanics_a_review_and_synthesis_in_precise_language_ef977aa2f140.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_what_is_the_actual_philosophical_significance_of_quantum_mechanics_fcd5cbece",
+      "label": "What is the actual philosophical significance of quantum mechanics?",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/what_is_the_actual_philosophical_significance_of_quantum_mechanics_fcd5cbece829.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -43287,6 +44222,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_change_ritual_and_grief_continuity_and_discontinuity_of_pastoral_theology_i",
+      "label": "Change, Ritual, and Grief: Continuity and Discontinuity of Pastoral Theology in Ghana",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/change_ritual_and_grief_continuity_and_discontinuity_of_pastoral_theology_in_gha_8e99b2c084cf.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_climate_trauma_and_habits_toward_hope_a_decolonizing_earth_centered_approac",
       "label": "Climate Trauma and Habits Toward Hope: A Decolonizing Earth-Centered Approach",
       "lane": "pattern_tests",
@@ -43364,6 +44310,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_healing_our_brokenness_a_pastoral_care_approach_cae1634f0985_md",
+      "label": "Healing our Brokenness: A pastoral care approach",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/healing_our_brokenness_a_pastoral_care_approach_cae1634f0985.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_holes_in_the_whole_considerations_on_the_made_whole_doctrine_and_its_applic",
       "label": "Holes in the Whole: Considerations on the Made Whole Doctrine and Its Applicability to Environmental Claims",
       "lane": "pattern_tests",
@@ -43381,6 +44338,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/hope_in_the_ruins_a_christian_pastoral_theology_of_grief_bd84d9ba9f3b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_how_unanswered_prayer_grows_faith_hope_and_love_christian_research_institut",
+      "label": "How Unanswered Prayer Grows Faith, Hope, and Love | Christian Research Institute",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/how_unanswered_prayer_grows_faith_hope_and_love_christian_research_institute_e7125000b984.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -43568,6 +44536,28 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/trauma_informed_pastoral_theology_when_pastoral_caregivers_resist_abusive_theolo_4b3dfcd54c92.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_c3b049a7b983_md",
+      "label": "Unanswered Prayers",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/unanswered_prayers_c3b049a7b983.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_what_are_the_implications_of_answered_and_unanswered_b689b690212a_md",
+      "label": "What are the implications of answered and unanswered ...",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/what_are_the_implications_of_answered_and_unanswered_b689b690212a.md",
       "review_note_count": 1,
       "type": "document"
     },
