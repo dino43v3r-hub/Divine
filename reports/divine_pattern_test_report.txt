@@ -13,15 +13,15 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 63
-Test words analyzed: 9,795
+Test documents analyzed: 64
+Test words analyzed: 9,931
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 149
-- Science Guardrail: 118
+- Suffering Without Resolution: 150
+- Science Guardrail: 120
 - Injustice And Corruption: 69
-- Counterexample Pressure: 55
+- Counterexample Pressure: 56
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 36
 - Misuse And Weaponization: 21
@@ -30,20 +30,20 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 121
+- Scholarly Or Scientific Source: 123
 - Practical Lived Source: 76
-- Primary Or Classical Source: 39
+- Primary Or Classical Source: 40
 - Speculative Source: 3
 
 Confidence Results
 ------------------
 - resilient under pressure: 37
-- needs deeper review but still plausible: 26
+- needs deeper review but still plausible: 27
 
 Hold Assessment
 ---------------
 - pressure present but hold question is underdeveloped: 28
-- not enough friction to judge hold: 24
+- not enough friction to judge hold: 25
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
 - holds under added friction: 1
@@ -52,27 +52,27 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 282 | research corpus 4,666
-- Son: test set 29 | research corpus 6,813
-- Holy Spirit: test set 47 | research corpus 1,854
+- Father: test set 287 | research corpus 4,700
+- Son: test set 29 | research corpus 6,820
+- Holy Spirit: test set 47 | research corpus 1,851
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 54 | research corpus 2,637
-- Mathematical Structure: test set 18 | research corpus 644
-- Mathematical Theophany: test set 217 | research corpus 1,271
-- Quantum Probability: test set 25 | research corpus 213
-- Life And Consciousness: test set 160 | research corpus 5,860
-- Meaning And Logos: test set 38 | research corpus 6,108
-- Moral Response: test set 52 | research corpus 2,485
-- Worship And Community: test set 68 | research corpus 1,617
-- Transformation: test set 60 | research corpus 2,204
+- Physical Order: test set 54 | research corpus 2,628
+- Mathematical Structure: test set 18 | research corpus 651
+- Mathematical Theophany: test set 219 | research corpus 1,289
+- Quantum Probability: test set 25 | research corpus 174
+- Life And Consciousness: test set 163 | research corpus 5,895
+- Meaning And Logos: test set 38 | research corpus 6,130
+- Moral Response: test set 52 | research corpus 2,513
+- Worship And Community: test set 68 | research corpus 1,610
+- Transformation: test set 60 | research corpus 2,199
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 236
-- Alienation And Lament: 64
-- Desire And Longing: 63
+- Creation And Order: 238
+- Alienation And Lament: 65
+- Desire And Longing: 64
 - Communal Practice: 57
 - Transformation And Hope: 56
 - Moral Confrontation: 46
@@ -1236,6 +1236,26 @@ studying_religiosity_and_spirituality_a_review_of_macro_micro_and_meso_level_app
 ------------------------------------------------------------------------------------------------
 Words: 148
 Meaning confidence: thin meaning signal
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+ted_lasso_and_lament_f74be4495521.md
+------------------------------------
+Words: 136
+Meaning confidence: plausible meaning pattern
 Test confidence: needs deeper review but still plausible
 Hold assessment: not enough friction to judge hold
 Pressure signals:

@@ -2,13 +2,13 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-22 18:22 UTC_
+_Generated: 2026-06-23 16:31 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
 This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.
 
-![Daily pattern image](daily_pattern_image_2026-06-22.svg)
+![Daily pattern image](daily_pattern_image_2026-06-23.svg)
 
 _Daily visual generated from the current leading finding: Image Of God Pattern._
 
@@ -43,18 +43,18 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 782
+- developing evidence: 818
 - ready for human confidence review: 1
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 647 rule-present; 613 reviewed companion; 2 machine-drafted; 247 still missing of 896
-- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 247 still missing of 896
-- failure_condition: 647 rule-present; 551 reviewed companion; 1 machine-drafted; 248 still missing of 896
-- machine_label_boundary: 725 rule-present; 0 reviewed companion; 2 machine-drafted; 169 still missing of 896
-- discernment: 738 rule-present; 341 reviewed companion; 0 machine-drafted; 158 still missing of 896
+- interpretation: 647 rule-present; 613 reviewed companion; 2 machine-drafted; 283 still missing of 932
+- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 283 still missing of 932
+- failure_condition: 648 rule-present; 551 reviewed companion; 1 machine-drafted; 283 still missing of 932
+- machine_label_boundary: 761 rule-present; 0 reviewed companion; 2 machine-drafted; 169 still missing of 932
+- discernment: 748 rule-present; 341 reviewed companion; 0 machine-drafted; 184 still missing of 932
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Reviewed companions now close the named tracking gaps; they still do not raise confidence unless the original source is checked.
 
@@ -153,7 +153,7 @@ The report is strongest when it tells you exactly where confidence is blocked. B
    Confirm that its evidence, interpretation, counter-reading, failure condition, and pastoral safety are source-specific rather than generic.
 
 2. Fill the largest explicit review gaps.
-   The current biggest gaps are `ecclesial_review` (439 missing), `promotion_restraint` (439 missing), `pastoral_safety` (439 missing), `liturgical_grounding` (438 missing). These are the places where the report most needs clearer human judgment.
+   The current biggest gaps are `ecclesial_review` (475 missing), `pastoral_safety` (475 missing), `promotion_restraint` (474 missing), `liturgical_grounding` (474 missing). These are the places where the report most needs clearer human judgment.
 
 3. Start with the top item in the review queue.
    First queued source: `research_documents/auto_imported_cloud_candidates/book_review_a_more_profound_alleluia_theology_and_worship_in_harmony_ee1c835b96b7.md`. Add source-checked companion notes for: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint.
@@ -170,10 +170,10 @@ The report is strongest when it tells you exactly where confidence is blocked. B
 
 ## Current Corpus Snapshot
 
-- Retained cloud candidate references: 7,676
-- Brand-new candidate references this run: 29
-- New provider mix: Tavily Search: 15, Crossref: 8, PubMed: 4, Internet Archive: 1, OpenAlex: 1
-- New candidate references in latest discovery run: 29
+- Retained cloud candidate references: 7,721
+- Brand-new candidate references this run: 45
+- New provider mix: OpenAlex: 13, Tavily Search: 13, Crossref: 12, PubMed: 4, Internet Archive: 2, arXiv: 1
+- New candidate references in latest discovery run: 45
 
 - Rated records: 14
 - Supportive after caution/resolution: 6
