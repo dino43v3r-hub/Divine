@@ -207,6 +207,11 @@ def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: d
     totals = audit.get("confidence_tier_totals", {}) if audit else {}
     developing = int(totals.get("developing_evidence", 0) or 0)
     candidate_leads = int(totals.get("candidate_lead", 0) or 0)
+    freshness = digest_freshness(digest, generated)
+    if freshness["is_stale"]:
+        discovery_label = f"New leads in latest run: {new_count} ({freshness['label']})"
+    else:
+        discovery_label = f"New leads today: {new_count}"
 
     node_x = [146, 322, 498, 674, 850]
     node_y = [352, 286, 352, 286, 352]
@@ -263,7 +268,7 @@ def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: d
   {''.join(lines)}
   {''.join(nodes)}
   <rect x="72" y="434" width="856" height="34" rx="17" fill="{ink}" opacity="0.08"/>
-  <text x="96" y="456" class="small">New leads: {new_count} | Developing evidence: {developing} | Candidate leads: {candidate_leads} | Generated from current findings</text>
+  <text x="96" y="456" class="small">{escape(discovery_label)} | Developing evidence: {developing} | Candidate leads: {candidate_leads}</text>
 </svg>
 '''
     image_path = daily_image_path(generated)
@@ -551,7 +556,58 @@ def format_counts(counts: dict, limit: int = 6) -> str:
     return ", ".join(f"{name}: {int(count):,}" for name, count in items)
 
 
-def latest_cloud_discovery_lines(digest: dict, reference_catalog: dict) -> list[str]:
+def parse_timestamp(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def digest_freshness(digest: dict, generated_at: datetime) -> dict:
+    updated_at = parse_timestamp(digest.get("updated_at"))
+    if updated_at is None:
+        return {
+            "updated_at": None,
+            "age_days": None,
+            "is_stale": True,
+            "label": "collector snapshot date not recorded",
+            "warning": "The daily collector snapshot does not record an update time, so the report cannot prove these numbers changed today.",
+        }
+
+    if updated_at.tzinfo is None:
+        updated_at = updated_at.replace(tzinfo=timezone.utc)
+
+    age = generated_at - updated_at.astimezone(timezone.utc)
+    age_days = max(age.days, 0)
+    label = updated_at.strftime("%Y-%m-%d %H:%M UTC")
+    if age_days == 0:
+        warning = "Collector snapshot is current for this UTC day."
+    else:
+        warning = (
+            f"Collector snapshot is {age_days} day(s) older than this report. "
+            "Run the daily collector before publishing if you expect today's counts to move."
+        )
+
+    return {
+        "updated_at": updated_at,
+        "age_days": age_days,
+        "is_stale": age_days > 0,
+        "label": label,
+        "warning": warning,
+    }
+
+
+def latest_run_count_label(digest: dict, generated_at: datetime) -> str:
+    freshness = digest_freshness(digest, generated_at)
+    count = int(digest.get("new_count", 0) or 0)
+    if freshness["is_stale"]:
+        return f"New leads in latest collector run ({freshness['label']}): {count}"
+    return f"New leads today: {count}"
+
+
+def latest_cloud_discovery_lines(digest: dict, reference_catalog: dict, generated_at: datetime) -> list[str]:
     source_count = reference_catalog.get("source_count")
     if source_count is None:
         source_count = len(reference_catalog.get("sources", []))
@@ -573,9 +629,9 @@ def latest_cloud_discovery_lines(digest: dict, reference_catalog: dict) -> list[
                 f"Discovery pagination: run index {run_index or 'not recorded'} across {page_window or 'unknown'} page window(s)"
             )
 
-    updated_at = digest.get("updated_at")
-    if updated_at:
-        lines.append(f"Latest collector update: {updated_at}")
+    freshness = digest_freshness(digest, generated_at)
+    lines.append(f"Collector snapshot used for counts: {freshness['label']}")
+    lines.append(f"Freshness note: {freshness['warning']}")
 
     return lines
 
@@ -1407,6 +1463,7 @@ def build_short_article() -> str:
     review_audit = read_json(REVIEW_AUDIT_PATH)
     review_gap_queue = read_json(REVIEW_GAP_QUEUE_PATH)
     candidate_pattern = current_candidate_pattern(knowledge_index)
+    freshness = digest_freshness(digest, generated_at)
     daily_image = generate_daily_pattern_image(candidate_pattern, digest, review_audit, generated_at)
     findings_text = read(Path("reports/divine_pattern_findings.md"))
     friction_layers = read_friction_layers()
@@ -1440,6 +1497,12 @@ def build_short_article() -> str:
         "This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.",
         "",
         "This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.",
+        "",
+        "## Input Freshness",
+        "",
+        f"- Report generated: {generated}",
+        f"- Collector snapshot used for discovery counts: {freshness['label']}",
+        f"- Freshness note: {freshness['warning']}",
         "",
         f"![Daily pattern image]({daily_image.name})",
         "",
@@ -1558,8 +1621,8 @@ def build_short_article() -> str:
         "",
         "## Current Corpus Snapshot",
         "",
-        *bulletize(latest_cloud_discovery_lines(digest, reference_catalog)[:3]),
-        f"- New candidate references in latest discovery run: {int(digest.get('new_count', 0) or 0):,}",
+        *bulletize(latest_cloud_discovery_lines(digest, reference_catalog, generated_at)[:5]),
+        f"- {latest_run_count_label(digest, generated_at)}",
         "",
         *bulletize(friction_summary_lines(friction_layers)[:4]),
         "",

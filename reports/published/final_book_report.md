@@ -2,13 +2,19 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-23 16:31 UTC_
+_Generated: 2026-06-24 01:53 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
 This report is meant to change day to day. When the collector discovers new sources and the backend re-indexes them, the pattern findings and evidence mix can change with the new material.
 
-![Daily pattern image](daily_pattern_image_2026-06-23.svg)
+## Input Freshness
+
+- Report generated: 2026-06-24 01:53 UTC
+- Collector snapshot used for discovery counts: 2026-06-23 16:30 UTC
+- Freshness note: Collector snapshot is current for this UTC day.
+
+![Daily pattern image](daily_pattern_image_2026-06-24.svg)
 
 _Daily visual generated from the current leading finding: Image Of God Pattern._
 
@@ -173,7 +179,9 @@ The report is strongest when it tells you exactly where confidence is blocked. B
 - Retained cloud candidate references: 7,721
 - Brand-new candidate references this run: 45
 - New provider mix: OpenAlex: 13, Tavily Search: 13, Crossref: 12, PubMed: 4, Internet Archive: 2, arXiv: 1
-- New candidate references in latest discovery run: 45
+- New routed layers: cultural_inputs: 23, history_inputs: 15, visual_art: 15, deep_sources: 10, all_texts: 9, pattern_tests: 9
+- Media candidates this run: video: 6, image: 2, podcast: 1
+- New leads today: 45
 
 - Rated records: 14
 - Supportive after caution/resolution: 6
