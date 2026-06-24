@@ -465,8 +465,15 @@ def daily_theologian(generated: datetime) -> dict:
     return THEOLOGIAN_DAILY_VOICES[generated.date().toordinal() % len(THEOLOGIAN_DAILY_VOICES)]
 
 
-def anglican_1928_reflection(candidate_pattern: dict, lens: dict) -> str:
+def anglican_1928_reflection(candidate_pattern: dict, lens: dict, theologian: dict | None = None) -> str:
     pattern_name = candidate_pattern.get("name", "this pattern")
+    theologian_sentence = ""
+    if theologian:
+        theologian_sentence = (
+            f" With {theologian['name']} near the desk, he would also listen for "
+            f"{theologian['angle']}, asking whether the pattern has been purified by prayer, "
+            "Scripture, and obedient love."
+        )
     return (
         "An Anglican priest shaped by the 1928 Book of Common Prayer would not begin by asking whether "
         f"{pattern_name} is clever. He would ask how it sounds after confession, Scripture, the creeds, "
@@ -474,8 +481,35 @@ def anglican_1928_reflection(candidate_pattern: dict, lens: dict) -> str:
         "to become reverence, repentance, charity, and steady duty. Under today's lens of "
         f"{lens['name']}, he would probably say: test the idea in prayer first, then in conduct; let it "
         "make you more truthful at home, more merciful toward the weak, more faithful in worship, and "
-        "less eager to explain what belongs to God."
+        f"less eager to explain what belongs to God.{theologian_sentence}"
     )
+
+
+def theologian_lane_summary(theologian_report: str) -> str:
+    if not theologian_report:
+        return (
+            "The theologian lane is present as a background discipline, even where today's entry keeps "
+            "the machinery quiet."
+        )
+    documents = find_line(theologian_report, "Theologian documents analyzed:")
+    document_count = documents.split(":", 1)[1].strip() if ":" in documents else ""
+    concepts = []
+    in_concepts = False
+    for line in theologian_report.splitlines():
+        if line == "Concept Coverage":
+            in_concepts = True
+            continue
+        if in_concepts and line.startswith("- "):
+            concepts.append(line[2:].split(":")[0].replace(" And ", " and "))
+            if len(concepts) >= 3:
+                break
+        elif in_concepts and line and not line.startswith("- "):
+            if concepts:
+                break
+    concept_text = ", ".join(concepts) if concepts else "Trinity, Christology, and Church practice"
+    if document_count:
+        return f"The theologian section behind this entry draws on {document_count} analyzed theologian documents and gives special weight today to {concept_text}."
+    return f"The theologian section behind this entry gives special weight today to {concept_text}."
 
 
 def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: dict, generated: datetime) -> Path:
@@ -1854,6 +1888,7 @@ def build_short_article() -> str:
     priestly_discernment = read_layer(PRIESTLY_DISCERNMENT_PATH)
     does_not_prove = read_layer(DOES_NOT_PROVE_PATH)
     science_guardrail = read_layer(SCIENCE_GUARDRAIL_PATH)
+    theologian_report = read(SOURCE_REPORTS["theologians"])
 
     finding_lines = []
     in_pattern_findings = False
@@ -1882,83 +1917,69 @@ def build_short_article() -> str:
     response = candidate_pattern.get("faithful_response", DEFAULT_CANDIDATE_PATTERN["faithful_response"])
     response_sentence = response.removeprefix("Today, ").removeprefix("Today ")
     confidence = candidate_pattern.get("confidence_language", DEFAULT_CANDIDATE_PATTERN["confidence_language"])
+    priestly_reflection = anglican_1928_reflection(candidate_pattern, lens, theologian)
+    theologian_context = theologian_lane_summary(theologian_report)
     diary_lines = [
-        "# Divine Pattern Research Diary",
+        f"# A Prayer Book Reading Of {candidate_pattern.get('name', 'Today Pattern')}",
         "",
-        f"_Diary entry: {generated_at.strftime('%B %d, %Y')}_",
+        f"_A daily book report for {generated_at.strftime('%B %d, %Y')}, written as an Anglican priest formed by the 1928 Book of Common Prayer._",
         "",
         f"![Today's pattern image]({daily_image.name})",
         "",
         f"![Today's reflection image]({reflection_image.name})",
         "",
-        "## Morning Note",
+        "## Today's Office",
         "",
-        "I came to the work today with the posture of a priest more than a technician: listening for what may be true, watching for what may harm, and trying not to make a pattern carry more weight than it can bear.",
+        "I come to this report as I would come to a desk after Morning Prayer: not looking first for novelty, but for truth that can survive confession, Scripture, creed, and the ordinary duties of charity. The work still has research machinery beneath it, but today I want the reading to sound less like a parts list and more like a priest's notebook after prayer.",
         "",
-        f"The pattern before me is **{candidate_pattern.get('name', 'the current pattern')}**. In plain speech, this is what I see: {plain}",
+        f"The daily pattern before me is **{candidate_pattern.get('name', 'the current pattern')}**. In plain speech, I would say it this way: {plain} The movement underneath it is {candidate_pattern['movement']}.",
         "",
-        f"I am reading it today through the lens of **{lens['name']}**, and the question that stays with me is: {lens['question']}",
+        f"The lens appointed for today is **{lens['name']}**. That means I am not trying to say everything the project could say. I am carrying one question through the whole entry: {lens['question']}",
         "",
-        "## The Scene In Front Of Me",
+        "## The Pattern In The Room",
         "",
         candidate_pattern.get("case_study", DEFAULT_CANDIDATE_PATTERN["case_study"]),
         "",
-        "This is where theology becomes honest. If a pattern cannot enter a room like that with gentleness, patience, and truth, I would rather leave it outside.",
+        f"In that room, the pattern is asking me to notice this: {candidate_pattern['candidate']} I would not preach that as proof. I would receive it as a possible sign of faithful order, useful only if it makes persons more truthful, humble, just, patient, and capable of love.",
         "",
-        "## Question And Answer",
+        "## The Theologian Beside The Prayer Book",
         "",
-        f"**Question:** What is this pattern asking me to notice?",
+        theologian_context,
         "",
-        f"**Answer:** {candidate_pattern['candidate']}",
+        f"Today's theologian is **{theologian['name']}**, chosen from the rotating theologian voices gathered for this project. I would let {theologian['name']} stand beside the Prayer Book today because of {theologian['angle']}. {theologian['comment']}",
         "",
-        f"**Question:** What would make me slow down before trusting it?",
-        "",
-        f"**Answer:** {objection}",
-        "",
-        f"**Question:** What can I responsibly say today?",
-        "",
-        f"**Answer:** {confidence}",
-        "",
-        "## Theologians I Would Want Nearby",
-        "",
-        panel_text,
+        f"The wider theologian panel matters too: {panel_text} Their presence keeps the report from becoming private inspiration. The claim must pass through the Church's grammar: Christ, Scripture, worship, doctrine, repentance, mercy, and visible fruit.",
         "",
         candidate_pattern.get("theologian_judgment", DEFAULT_CANDIDATE_PATTERN["theologian_judgment"]),
         "",
-        "That is the kind of company I want for this project. Not famous names as decoration, but teachers who can slow the mind, purify the claim, and bring it back under Christ.",
+        "## The 1928 Prayer Book Test",
         "",
-        f"## Today's Chosen Theologian: {theologian['name']}",
+        priestly_reflection,
         "",
-        f"I would especially let {theologian['name']} stand near this pattern today because of {theologian['angle']}. {theologian['comment']}",
-        "",
-        "## How I Think An Anglican Priest Would Read It",
-        "",
-        anglican_1928_reflection(candidate_pattern, lens),
-        "",
-        "## Confession Of Caution",
+        "This is also where the objection belongs. A good Anglican reading should not hurry past the hard question just because the pattern is attractive. Today's objection is plain: "
+        + objection,
         "",
         caution,
         "",
         f"What would weaken this pattern is also important: {candidate_pattern.get('weakens_if', DEFAULT_CANDIDATE_PATTERN['weakens_if'])}",
         "",
-        "So I do not receive this as proof. I receive it as a disciplined observation, still under Scripture, still under the Church's wisdom, still under the mercy of God.",
+        f"So my responsible confidence today is modest: {confidence} That is not a failure of faith. It is part of reverence. The Prayer Book trains a person to confess, receive mercy, hear Scripture, come to the Table, and then walk in good works. It does not train a person to turn every interesting recurrence into certainty.",
         "",
-        "## Application For Daily Life",
+        "## Today's Rule Of Life",
         "",
-        f"Today I would practice it this way: {response_sentence}",
+        f"The daily practice is therefore small and concrete: {response_sentence}",
         "",
-        "A small application is better than a grand claim. If this pattern is from the neighborhood of truth, it should make someone more truthful, more humble, more just, and more capable of love before it makes anyone feel clever.",
+        "That is the kind of conclusion I trust most in this project: not a dazzling claim, but a disciplined act. If the pattern is near the truth, it should make the reader more faithful before it makes the reader more impressed.",
         "",
-        "## Closing Prayer",
+        "## Collect",
         "",
-        "Lord, let what is true become clear, let what is false lose its shine, and let every pattern bend toward love of You and love of neighbor.",
+        "O Lord, let what is true become clear, let what is false lose its shine, and let every pattern bend toward love of Thee and love of neighbor; through Jesus Christ our Lord. Amen.",
         "",
-        "## Quiet Background",
+        "## Quiet Notes For The Reader",
         "",
-        f"Underneath this diary entry, the movement I am tracking is: {candidate_pattern['movement']}. Tomorrow the focus and the diary lens can change, so the entry should not merely repeat itself with a new timestamp.",
+        f"This entry was generated at {generated}. Tomorrow the pattern, the lens, and the theologian may change. The purpose is not to make the report longer; it is to let each day have a coherent spiritual and theological angle.",
         "",
-        "The research machinery is still present underneath the page, but I am keeping it out of the foreground. The diary should be the thing you read.",
-        "",
+        f"Input freshness: {freshness['label']}. {freshness['warning']}",
     ]
     return "\n".join(diary_lines) + "\n"
 
