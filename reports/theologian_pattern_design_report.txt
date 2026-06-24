@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 80
-Total theologian words analyzed: 19,929
+Theologian documents analyzed: 82
+Total theologian words analyzed: 20,324
 
 Era Coverage
 ------------
@@ -23,31 +23,31 @@ Concept Coverage
 ----------------
 - Christology: 172
 - Theodicy And Suffering: 159
-- Creation: 150
-- Trinity: 133
+- Creation: 151
+- Trinity: 136
 - Grace And Transformation: 104
-- Pneumatology: 98
+- Pneumatology: 100
 - Church And Practice: 88
 - Justice And Public Life: 84
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 543
+- Father: 555
 - Son: 205
-- Holy Spirit: 183
+- Holy Spirit: 188
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 149 | broader corpus 2,628
-- Mathematical Structure: theologians 4 | broader corpus 640
-- Mathematical Theophany: theologians 155 | broader corpus 1,246
-- Quantum Probability: theologians 2 | broader corpus 171
-- Life And Consciousness: theologians 228 | broader corpus 5,887
-- Meaning And Logos: theologians 103 | broader corpus 6,113
-- Moral Response: theologians 108 | broader corpus 2,490
+- Physical Order: theologians 150 | broader corpus 2,637
+- Mathematical Structure: theologians 4 | broader corpus 642
+- Mathematical Theophany: theologians 157 | broader corpus 1,248
+- Quantum Probability: theologians 2 | broader corpus 169
+- Life And Consciousness: theologians 234 | broader corpus 5,891
+- Meaning And Logos: theologians 103 | broader corpus 6,111
+- Moral Response: theologians 108 | broader corpus 2,486
 - Worship And Community: theologians 157 | broader corpus 1,610
-- Transformation: theologians 287 | broader corpus 2,201
+- Transformation: theologians 291 | broader corpus 2,207
 
 Per-Source Findings
 -------------------
@@ -194,6 +194,17 @@ Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
+
+cancer_coma_chromosomes_and_the_comforter_investigating_scientific_mechanisms_of_3898609b5837.md
+------------------------------------------------------------------------------------------------
+Words: 252
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 catholic_charismatic_renewal_movement_and_healing_in_japan_s_religious_culture_08d7c64fb3db.md
 ----------------------------------------------------------------------------------------------
@@ -654,6 +665,17 @@ Strongest concept signal: Pneumatology (2)
 Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Transformation And Hope (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_nicene_constantinopolitan_creed_in_sanskrit_digital_and_historical_religious_07f7bfc37dbc.md
+------------------------------------------------------------------------------------------------
+Words: 143
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (2)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Creation And Order (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 

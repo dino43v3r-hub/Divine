@@ -13,15 +13,15 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 69
-Test words analyzed: 10,615
+Test documents analyzed: 71
+Test words analyzed: 10,893
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 157
-- Science Guardrail: 130
+- Suffering Without Resolution: 161
+- Science Guardrail: 134
 - Injustice And Corruption: 69
-- Counterexample Pressure: 61
+- Counterexample Pressure: 63
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 36
 - Misuse And Weaponization: 21
@@ -30,19 +30,19 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 134
+- Scholarly Or Scientific Source: 138
 - Practical Lived Source: 76
-- Primary Or Classical Source: 45
+- Primary Or Classical Source: 47
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- resilient under pressure: 39
+- resilient under pressure: 41
 - needs deeper review but still plausible: 30
 
 Hold Assessment
 ---------------
-- pressure present but hold question is underdeveloped: 30
+- pressure present but hold question is underdeveloped: 32
 - not enough friction to judge hold: 28
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
@@ -52,27 +52,27 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 312 | research corpus 4,714
-- Son: test set 29 | research corpus 6,813
-- Holy Spirit: test set 47 | research corpus 1,854
+- Father: test set 322 | research corpus 4,730
+- Son: test set 29 | research corpus 6,811
+- Holy Spirit: test set 47 | research corpus 1,858
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 54 | research corpus 2,628
-- Mathematical Structure: test set 18 | research corpus 640
-- Mathematical Theophany: test set 229 | research corpus 1,246
-- Quantum Probability: test set 25 | research corpus 171
-- Life And Consciousness: test set 178 | research corpus 5,887
-- Meaning And Logos: test set 39 | research corpus 6,113
-- Moral Response: test set 52 | research corpus 2,490
+- Physical Order: test set 54 | research corpus 2,637
+- Mathematical Structure: test set 18 | research corpus 642
+- Mathematical Theophany: test set 233 | research corpus 1,248
+- Quantum Probability: test set 25 | research corpus 169
+- Life And Consciousness: test set 184 | research corpus 5,891
+- Meaning And Logos: test set 39 | research corpus 6,111
+- Moral Response: test set 52 | research corpus 2,486
 - Worship And Community: test set 68 | research corpus 1,610
-- Transformation: test set 61 | research corpus 2,201
+- Transformation: test set 62 | research corpus 2,207
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 248
-- Desire And Longing: 69
-- Alienation And Lament: 66
+- Creation And Order: 252
+- Desire And Longing: 71
+- Alienation And Lament: 67
 - Communal Practice: 57
 - Transformation And Hope: 57
 - Moral Confrontation: 47
@@ -773,6 +773,26 @@ Recommendations:
 - Name explicit failure conditions so the pattern can be revised or rejected.
 - Add rival natural, psychological, social, or comparative explanations.
 
+cultural_considerations_in_grief_care_4dd1b411ad90.md
+-----------------------------------------------------
+Words: 139
+Meaning confidence: plausible meaning pattern
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 2
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
 growth_fueled_by_uncertainty_25c72aa64220.md
 --------------------------------------------
 Words: 136
@@ -857,6 +877,26 @@ trauma_and_grace_psychology_and_theology_in_conversation_0a27fcabb535.md
 ------------------------------------------------------------------------
 Words: 138
 Meaning confidence: plausible meaning pattern
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 2
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+trauma_and_transformation_at_ground_zero_4d8c2717d521.md
+--------------------------------------------------------
+Words: 139
+Meaning confidence: thin meaning signal
 Test confidence: resilient under pressure
 Hold assessment: pressure present but hold question is underdeveloped
 Pressure signals:
