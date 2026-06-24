@@ -108,9 +108,90 @@ PATTERN_PROFILES = {
     },
 }
 
+DAILY_PATTERN_EXTENSIONS = {
+    "Image Of God Pattern": {
+        "case_study": "A congregation notices that its most visible ministries praise the productive, articulate, and financially stable, while a disabled member and an elderly caregiver are treated as burdens. This pattern asks whether the church will reorganize its attention around gift, dignity, and belonging before usefulness.",
+        "theologian_panel": [
+            "Irenaeus would ask whether human life is being received as created for communion with God, not reduced to capacity or status.",
+            "Aquinas would ask whether dignity is grounded in God as creator and end, not in usefulness to the community.",
+            "Bonhoeffer would ask whether the church protects concrete neighbors, not only an abstract idea of humanity.",
+            "James Cone or M. Shawn Copeland would ask whether dignity language confronts racialized and embodied harm or merely decorates the powerful.",
+        ],
+        "hard_objection": "A skeptic might say dignity language is a social achievement built through rights movements, empathy, law, and shared vulnerability, not evidence of a divine pattern. The report should admit that this rival explanation can account for much of the visible pattern.",
+        "confidence_language": "Pastorally useful with limits: strong enough to guide daily practice, but still provisional as a pattern claim.",
+        "faithful_response": "Today, honor one person before they are useful to you.",
+        "interesting_not_true": "The recurrence of dignity language is interesting, but it becomes theologically responsible only when tested by Christ, Scripture, vulnerable people, and real practice.",
+    },
+    "Cross And Reversal Pattern": {
+        "case_study": "A family wants reconciliation after serious harm, but the harmed person is being pressured to forgive quickly so everyone else can feel better. This pattern asks whether the cross is being used to tell the truth and protect the wounded, or misused to rush pain into silence.",
+        "theologian_panel": [
+            "Augustine would ask whether love is rightly ordered or whether peace is being confused with avoidance.",
+            "Luther would ask whether the theology of the cross is exposing false power rather than baptizing it.",
+            "Bonhoeffer would ask whether forgiveness has become cheap grace without repentance or costly repair.",
+            "James Cone or Delores Williams would ask whether cross-language liberates the oppressed or asks them to endure more violence.",
+        ],
+        "hard_objection": "A wounded reader might say this pattern can become spiritually dangerous because Christians have often used suffering language to keep victims quiet. The report should let that objection weaken careless versions of the pattern.",
+        "confidence_language": "Beautiful but risky: powerful when centered on Christ and justice, unsafe when used without protection and repair.",
+        "faithful_response": "Today, tell the truth about harm without using mercy to erase justice.",
+        "interesting_not_true": "Reversal is compelling, but beauty is not proof; this pattern must be judged by whether it protects the harmed and follows Christ.",
+    },
+    "Creation-To-Consciousness Pattern": {
+        "case_study": "A student feels wonder while studying biology, consciousness, and the night sky, but also sees animal suffering, ecological damage, disability, and death. This pattern asks whether wonder can become humility and care without turning creation into a simplistic proof.",
+        "theologian_panel": [
+            "Athanasius would ask whether creation is being understood through the Word who gives and sustains life.",
+            "Aquinas would ask whether natural order points to God without pretending every scientific question has become theology.",
+            "John Polkinghorne would ask whether science is being respected on its own terms before theological reflection begins.",
+            "Disability theologians would ask whether consciousness and ability are being used to rank creatures or persons.",
+        ],
+        "hard_objection": "Science, evolution, cognition, and culture can explain much of the movement from order to life to mind without requiring a theological conclusion. The report should not smuggle God in where the evidence only supports wonder and humility.",
+        "confidence_language": "Promising but needs pressure: useful for wonder and stewardship, not mature as a proof claim.",
+        "faithful_response": "Today, let wonder become care for a body, a creature, or a place.",
+        "interesting_not_true": "Awe before creation is interesting, but the pattern stays honest only when natural explanations and suffering remain visible.",
+    },
+    "Trinity-As-Behavior Pattern": {
+        "case_study": "A church says it believes orthodox doctrine, but its common life is anxious, competitive, controlling, and unkind. This pattern asks whether Trinitarian language is becoming worshipful love, humble service, and Spirit-tested fruit, or staying as correct words without visible formation.",
+        "theologian_panel": [
+            "Gregory of Nazianzus would ask whether Father, Son, and Spirit are confessed without confusion or division.",
+            "Augustine would ask whether the doctrine trains love rather than curiosity alone.",
+            "Karl Barth would ask whether the pattern begins with God's self-revelation, not a human analogy projected upward.",
+            "Zizioulas, Jennings, or Oduyoye would ask whether communion becomes concrete hospitality, justice, and belonging.",
+        ],
+        "hard_objection": "A critic might say this turns the Trinity into behavior advice, which risks flattening doctrine into ethics. The report should keep the doctrine first and treat behavior as fruit, not as the source or definition of God.",
+        "confidence_language": "Developing evidence: fruitful as a practical test, but doctrinally risky if it becomes mere symbolism.",
+        "faithful_response": "Today, test one belief by whether it produces humility, love, and service.",
+        "interesting_not_true": "Practical fruit is important, but usefulness is not revelation; the pattern must remain accountable to Scripture, creed, and worship.",
+    },
+    "Providence And Contingency Pattern": {
+        "case_study": "Someone loses a job, faces illness, or watches a plan collapse, and friends rush to explain what God must be doing. This pattern asks whether faith can pray, act, grieve, repent, and endure without pretending to know God's hidden reasons.",
+        "theologian_panel": [
+            "Augustine would ask whether trust in providence is becoming love of God rather than control over explanation.",
+            "Calvin would ask whether God's care is being confessed with reverence instead of speculation.",
+            "Karl Barth would ask whether providence is being read through Jesus Christ rather than through bare events.",
+            "Pastoral and trauma theologians would ask whether the claim is safe for sufferers or whether it blames them.",
+        ],
+        "hard_objection": "A skeptic might say humans create providence stories to survive uncertainty, reduce anxiety, and impose meaning after the fact. The report should admit that psychology and history can explain many providence claims without proving divine action.",
+        "confidence_language": "Pastorally useful with limits: strong as a discipline of trust, weak as an explanation of hidden causes.",
+        "faithful_response": "Today, act faithfully without explaining everything.",
+        "interesting_not_true": "Meaning inside uncertainty is interesting, but the pattern should stop where grief, chance, and mystery require silence.",
+    },
+}
+
 DEFAULT_CANDIDATE_PATTERN = {
     "name": "Integrated Gift-And-Faithfulness Pattern",
     "movement": "Gift -> Recognition -> Responsibility -> Sacrificial Love -> Repair -> Worshipful Faithfulness",
+    "plain": "The project is testing a pattern in ordinary life without treating it as proof by itself.",
+    "theologian_judgment": "Theologians should judge this pattern by Scripture, Christ, doctrine, lived fruit, harm safeguards, and honest limits.",
+    "evaluation_question": "Does this pattern help people love God and neighbor truthfully?",
+    "weakens_if": "It weakens if it overclaims, harms people, ignores rival explanations, or outruns the sources.",
+    "case_study": "An ordinary person notices a recurring theme in life, faith, suffering, or culture. The project asks whether that theme should become faithful practice, remain a question, or be set aside.",
+    "theologian_panel": [
+        "A faithful theologian would ask whether the pattern begins with Christ rather than fascination with recurrence.",
+        "A pastoral theologian would ask whether the pattern protects vulnerable people in real life.",
+    ],
+    "hard_objection": "A rival explanation may account for the pattern without theology, so the report should not treat recurrence as proof.",
+    "confidence_language": "Promising but needs pressure: interesting enough to study, not strong enough to overclaim.",
+    "faithful_response": "Today, let the pattern serve truth, love, humility, justice, and worship.",
+    "interesting_not_true": "Interesting is not the same as true; the pattern remains secondary and provisional.",
     "candidate": "God gives life, dignity, order, mercy, and transformation as gifts; human beings are invited to answer those gifts with truthful worship, humble love, justice, repair, patience, and faithful action.",
     "basis": "No single pattern family clearly outranks the others in the current analyzed corpus, so the report presents an integrated candidate pattern.",
     "counts": {},
@@ -325,7 +406,7 @@ def current_candidate_pattern(index: dict, generated_at: datetime | None = None)
     top_name, top_counts = supported[daily_index]
 
     profile = PATTERN_PROFILES[top_name]
-    return {
+    result = {
         "name": top_name,
         "movement": profile["movement"],
         "plain": profile["common"],
@@ -340,6 +421,48 @@ def current_candidate_pattern(index: dict, generated_at: datetime | None = None)
         ),
         "counts": counts,
     }
+    result.update(DAILY_PATTERN_EXTENSIONS.get(top_name, {}))
+    return result
+
+
+def daily_focus_lines(candidate_pattern: dict, include_selection_note: bool = True) -> list[str]:
+    lines = [
+        f"**Current candidate divine pattern:** {candidate_pattern['candidate']}",
+        "",
+        f"**In plain language:** {candidate_pattern.get('plain', DEFAULT_CANDIDATE_PATTERN['plain'])}",
+        "",
+        f"**Today case study:** {candidate_pattern.get('case_study', DEFAULT_CANDIDATE_PATTERN['case_study'])}",
+        "",
+        "**Theologian panel:**",
+        "",
+        *[
+            f"- {voice}"
+            for voice in candidate_pattern.get(
+                "theologian_panel",
+                DEFAULT_CANDIDATE_PATTERN["theologian_panel"],
+            )
+        ],
+        "",
+        f"**Theologian judgment for ordinary readers:** {candidate_pattern.get('theologian_judgment', DEFAULT_CANDIDATE_PATTERN['theologian_judgment'])}",
+        "",
+        f"**Hard objection:** {candidate_pattern.get('hard_objection', DEFAULT_CANDIDATE_PATTERN['hard_objection'])}",
+        "",
+        f"**Common-person test:** {candidate_pattern.get('evaluation_question', DEFAULT_CANDIDATE_PATTERN['evaluation_question'])}",
+        "",
+        f"**Confidence in plain English:** {candidate_pattern.get('confidence_language', DEFAULT_CANDIDATE_PATTERN['confidence_language'])}",
+        "",
+        f"**What would weaken it:** {candidate_pattern.get('weakens_if', DEFAULT_CANDIDATE_PATTERN['weakens_if'])}",
+        "",
+        f"**Faithful response today:** {candidate_pattern.get('faithful_response', DEFAULT_CANDIDATE_PATTERN['faithful_response'])}",
+        "",
+        f"**Why interesting is not the same as true:** {candidate_pattern.get('interesting_not_true', DEFAULT_CANDIDATE_PATTERN['interesting_not_true'])}",
+        "",
+        f"**Movement:** {candidate_pattern['movement']}",
+        "",
+    ]
+    if include_selection_note:
+        lines.extend([f"**Selection note:** {candidate_pattern['basis']}", ""])
+    return lines
 
 
 def find_line(text: str, prefix: str) -> str:
@@ -1308,21 +1431,7 @@ def build_article() -> str:
         "",
         "## Today's Pattern Focus",
         "",
-        f"**Current candidate divine pattern:** {candidate_pattern['candidate']}",
-        "",
-        f"**In plain language:** {candidate_pattern.get('plain', 'The project is testing a pattern in ordinary life without treating it as proof by itself.')}",
-        "",
-        f"**Theologian judgment for ordinary readers:** {candidate_pattern.get('theologian_judgment', 'Theologians should judge this pattern by Scripture, Christ, doctrine, lived fruit, harm safeguards, and honest limits.')}",
-        "",
-        f"**Common-person test:** {candidate_pattern.get('evaluation_question', 'Does this pattern help people love God and neighbor truthfully?')}",
-        "",
-        f"**What would weaken it:** {candidate_pattern.get('weakens_if', 'It weakens if it overclaims, harms people, ignores rival explanations, or outruns the sources.')}",
-        "",
-        "The clearest movement currently looks like this:",
-        "",
-        f"- {candidate_pattern['movement']}",
-        "",
-        f"Selection note: {candidate_pattern['basis']} This can change when future analyzed references shift the strongest reviewed pattern family or show that an integrated pattern is more honest.",
+        *daily_focus_lines(candidate_pattern),
         "",
         "## What Changed",
         "",
@@ -1551,19 +1660,7 @@ def build_short_article() -> str:
         "",
         "## Today's Pattern Focus",
         "",
-        f"**Current candidate divine pattern:** {candidate_pattern['candidate']}",
-        "",
-        f"**In plain language:** {candidate_pattern.get('plain', 'The project is testing a pattern in ordinary life without treating it as proof by itself.')}",
-        "",
-        f"**Theologian judgment for ordinary readers:** {candidate_pattern.get('theologian_judgment', 'Theologians should judge this pattern by Scripture, Christ, doctrine, lived fruit, harm safeguards, and honest limits.')}",
-        "",
-        f"**Common-person test:** {candidate_pattern.get('evaluation_question', 'Does this pattern help people love God and neighbor truthfully?')}",
-        "",
-        f"**What would weaken it:** {candidate_pattern.get('weakens_if', 'It weakens if it overclaims, harms people, ignores rival explanations, or outruns the sources.')}",
-        "",
-        f"**Movement:** {candidate_pattern['movement']}",
-        "",
-        f"**Selection note:** {candidate_pattern['basis']}",
+        *daily_focus_lines(candidate_pattern),
         "",
         "## Main Divine Patterns Found",
         "",

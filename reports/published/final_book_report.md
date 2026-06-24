@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-24 02:24 UTC_
+_Generated: 2026-06-24 02:47 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -10,7 +10,7 @@ This report is meant to change day to day. When the collector discovers new sour
 
 ## Input Freshness
 
-- Report generated: 2026-06-24 02:24 UTC
+- Report generated: 2026-06-24 02:47 UTC
 - Collector snapshot used for discovery counts: 2026-06-24 02:23 UTC
 - Freshness note: Collector snapshot is current for this UTC day.
 
@@ -30,15 +30,33 @@ The best current posture is: the system finds possible pattern signals, then tes
 
 **In plain language:** True doctrine should become visible as love, humility, holiness, unity, service, and patient faithfulness.
 
+**Today case study:** A church says it believes orthodox doctrine, but its common life is anxious, competitive, controlling, and unkind. This pattern asks whether Trinitarian language is becoming worshipful love, humble service, and Spirit-tested fruit, or staying as correct words without visible formation.
+
+**Theologian panel:**
+
+- Gregory of Nazianzus would ask whether Father, Son, and Spirit are confessed without confusion or division.
+- Augustine would ask whether the doctrine trains love rather than curiosity alone.
+- Karl Barth would ask whether the pattern begins with God's self-revelation, not a human analogy projected upward.
+- Zizioulas, Jennings, or Oduyoye would ask whether communion becomes concrete hospitality, justice, and belonging.
+
 **Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether Father, Son, and Spirit remain distinct and united while the practical fruit stays accountable to Scripture, creed, and worship.
+
+**Hard objection:** A critic might say this turns the Trinity into behavior advice, which risks flattening doctrine into ethics. The report should keep the doctrine first and treat behavior as fruit, not as the source or definition of God.
 
 **Common-person test:** Does this pattern keep the Trinity Christian, concrete, and fruitful rather than vague or controlling?
 
+**Confidence in plain English:** Developing evidence: fruitful as a practical test, but doctrinally risky if it becomes mere symbolism.
+
 **What would weaken it:** It weakens if the Trinity becomes a metaphor for group energy, authoritarian control, modalism, or three separate gods.
+
+**Faithful response today:** Today, test one belief by whether it produces humility, love, and service.
+
+**Why interesting is not the same as true:** Practical fruit is important, but usefulness is not revelation; the pattern must remain accountable to Scripture, creed, and worship.
 
 **Movement:** Father Creates -> Son Redeems -> Spirit Transforms
 
 **Selection note:** This is today's rotating focus from 5 supported pattern family/families. It has 9 indexed document(s), 9 review note(s), and a support score of 18. The rotation lets the book report focus on a fresh pattern each day without treating the focus as the final winner.
+
 
 ## Main Divine Patterns Found
 

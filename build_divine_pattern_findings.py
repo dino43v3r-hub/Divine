@@ -87,6 +87,86 @@ PATTERN_PROFILES = {
     },
 }
 
+DAILY_PATTERN_EXTENSIONS = {
+    "Image Of God Pattern": {
+        "case_study": "A church praises usefulness and success while overlooking a disabled member, an elderly caregiver, or someone who cannot contribute visibly.",
+        "theologian_panel": [
+            "Irenaeus: Does this receive human life as made for communion with God?",
+            "Aquinas: Is dignity grounded in God rather than usefulness?",
+            "Bonhoeffer: Does this protect concrete neighbors instead of abstract humanity?",
+            "Cone or Copeland: Does dignity language confront embodied and racialized harm?",
+        ],
+        "hard_objection": "Dignity language can be explained by social empathy, law, rights movements, and shared vulnerability without proving a divine pattern.",
+        "confidence_language": "Pastorally useful with limits: strong for practice, still provisional as a pattern claim.",
+        "faithful_response": "Honor one person before they are useful to you.",
+        "interesting_not_true": "A recurring dignity signal is interesting, but it becomes responsible only when tested by Christ, Scripture, vulnerable people, and practice.",
+    },
+    "Cross And Reversal Pattern": {
+        "case_study": "A harmed person is pressured to forgive quickly so others can feel peace, while truth, safety, and repair are still missing.",
+        "theologian_panel": [
+            "Augustine: Is peace being confused with avoidance?",
+            "Luther: Is the cross exposing false power rather than baptizing it?",
+            "Bonhoeffer: Has forgiveness become cheap grace without repentance?",
+            "Cone or Williams: Does cross-language liberate the oppressed or ask them to endure more violence?",
+        ],
+        "hard_objection": "Christians have often used suffering language to silence victims, so careless versions of this pattern are spiritually dangerous.",
+        "confidence_language": "Beautiful but risky: powerful with justice and protection, unsafe without them.",
+        "faithful_response": "Tell the truth about harm without using mercy to erase justice.",
+        "interesting_not_true": "Reversal is compelling, but beauty is not proof; the pattern must be judged by whether it follows Christ and protects the harmed.",
+    },
+    "Creation-To-Consciousness Pattern": {
+        "case_study": "A student feels wonder studying life, consciousness, and the night sky, while also seeing animal suffering, ecological loss, disability, and death.",
+        "theologian_panel": [
+            "Athanasius: Is creation understood through the Word who gives and sustains life?",
+            "Aquinas: Does natural order invite theology without replacing science?",
+            "Polkinghorne: Is science respected before theological reflection begins?",
+            "Disability theologians: Are consciousness and ability being used to rank persons?",
+        ],
+        "hard_objection": "Science, evolution, cognition, and culture can explain much of this movement without requiring a theological conclusion.",
+        "confidence_language": "Promising but needs pressure: useful for wonder and stewardship, not mature as a proof claim.",
+        "faithful_response": "Let wonder become care for a body, creature, or place.",
+        "interesting_not_true": "Awe is interesting, but the pattern stays honest only when natural explanations and suffering remain visible.",
+    },
+    "Trinity-As-Behavior Pattern": {
+        "case_study": "A church confesses orthodox doctrine while its common life is anxious, competitive, controlling, and unkind.",
+        "theologian_panel": [
+            "Gregory Nazianzen: Are Father, Son, and Spirit confessed without confusion or division?",
+            "Augustine: Does doctrine train love rather than curiosity alone?",
+            "Karl Barth: Does the pattern begin with God's self-revelation instead of human analogy?",
+            "Zizioulas, Jennings, or Oduyoye: Does communion become concrete hospitality, justice, and belonging?",
+        ],
+        "hard_objection": "This can flatten the Trinity into behavior advice unless doctrine remains first and behavior is treated as fruit.",
+        "confidence_language": "Developing evidence: fruitful as a practical test, risky if it becomes mere symbolism.",
+        "faithful_response": "Test one belief by whether it produces humility, love, and service.",
+        "interesting_not_true": "Practical fruit matters, but usefulness is not revelation; the pattern must remain accountable to Scripture, creed, and worship.",
+    },
+    "Providence And Contingency Pattern": {
+        "case_study": "Someone loses a job, faces illness, or watches a plan collapse, and friends rush to explain what God must be doing.",
+        "theologian_panel": [
+            "Augustine: Does trust in providence become love of God rather than control?",
+            "Calvin: Is God's care confessed with reverence instead of speculation?",
+            "Karl Barth: Is providence read through Jesus Christ rather than bare events?",
+            "Pastoral and trauma theologians: Is the claim safe for sufferers?",
+        ],
+        "hard_objection": "Psychology and history can explain many providence stories as ways humans survive uncertainty and impose meaning after the fact.",
+        "confidence_language": "Pastorally useful with limits: strong as trust, weak as an explanation of hidden causes.",
+        "faithful_response": "Act faithfully without explaining everything.",
+        "interesting_not_true": "Meaning inside uncertainty is interesting, but the pattern should stop where grief, chance, and mystery require silence.",
+    },
+}
+
+DEFAULT_DAILY_EXTENSION = {
+    "case_study": "An ordinary person notices a recurring theme in life, faith, suffering, or culture.",
+    "theologian_panel": [
+        "A theologian should ask whether the pattern begins with Christ rather than recurrence.",
+        "A pastoral reviewer should ask whether the pattern protects vulnerable people.",
+    ],
+    "hard_objection": "A rival explanation may account for the pattern without theology.",
+    "confidence_language": "Promising but needs pressure: interesting enough to study, not strong enough to overclaim.",
+    "faithful_response": "Let the pattern serve truth, love, humility, justice, and worship.",
+    "interesting_not_true": "Interesting is not the same as true; the pattern remains secondary and provisional.",
+}
+
 
 def read_json(path: Path) -> dict:
     if not path.exists():
@@ -195,6 +275,12 @@ def daily_focus_row(rows: list[dict], generated_at: datetime) -> dict | None:
     return focus_pool[generated_at.date().toordinal() % len(focus_pool)]
 
 
+def daily_extension(pattern: str) -> dict:
+    extension = dict(DEFAULT_DAILY_EXTENSION)
+    extension.update(DAILY_PATTERN_EXTENSIONS.get(pattern, {}))
+    return extension
+
+
 def build_report() -> str:
     generated_at = datetime.now(timezone.utc)
     generated = generated_at.strftime("%Y-%m-%d %H:%M UTC")
@@ -247,6 +333,7 @@ def build_report() -> str:
 
     if focus_row:
         profile = focus_row["profile"]
+        extension = daily_extension(focus_row["pattern"])
         lines.extend(
             [
                 "## Today's Pattern Focus",
@@ -257,11 +344,25 @@ def build_report() -> str:
                 "",
                 f"**Plain meaning:** {profile['plain']}",
                 "",
+                f"**Today case study:** {extension['case_study']}",
+                "",
+                "**Theologian panel:**",
+                "",
+                *(f"- {voice}" for voice in extension["theologian_panel"]),
+                "",
                 f"**Theologian judgment for ordinary readers:** {profile['theologian_judgment']}",
+                "",
+                f"**Hard objection:** {extension['hard_objection']}",
                 "",
                 f"**Common-person test:** {profile['evaluate']}",
                 "",
+                f"**Confidence in plain English:** {extension['confidence_language']}",
+                "",
                 f"**What would weaken it:** {profile['weakens_if']}",
+                "",
+                f"**Faithful response today:** {extension['faithful_response']}",
+                "",
+                f"**Why interesting is not the same as true:** {extension['interesting_not_true']}",
                 "",
                 f"**Why it surfaced:** {focus_row['documents']} indexed document(s), {focus_row['review_notes']} declared review note(s).",
                 "",
