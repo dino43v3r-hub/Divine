@@ -399,6 +399,55 @@ def wrap_words(text: str, max_chars: int, max_lines: int) -> list[str]:
     return lines[:max_lines]
 
 
+def svg_text_width(text: str, font_size: int, font_family: str = "arial") -> float:
+    width = 0.0
+    serif = font_family == "serif"
+    for char in text:
+        if char == " ":
+            width += font_size * 0.32
+        elif char in "ilI.,'|!":
+            width += font_size * (0.24 if serif else 0.22)
+        elif char in "mwMW":
+            width += font_size * (0.92 if serif else 0.86)
+        elif char.isupper():
+            width += font_size * (0.68 if serif else 0.64)
+        else:
+            width += font_size * (0.55 if serif else 0.52)
+    return width
+
+
+def wrap_svg_text(
+    text: str,
+    max_width: int,
+    font_size: int,
+    max_lines: int,
+    font_family: str = "arial",
+) -> list[str]:
+    words = text.split()
+    lines = []
+    current = ""
+    for word in words:
+        candidate = f"{current} {word}".strip()
+        if svg_text_width(candidate, font_size, font_family) <= max_width:
+            current = candidate
+            continue
+        if current:
+            lines.append(current)
+        current = word
+        if len(lines) >= max_lines:
+            break
+    if current and len(lines) < max_lines:
+        lines.append(current)
+    return lines[:max_lines]
+
+
+def svg_text_lines(lines: list[str], x: int, y: int, line_height: int, class_name: str) -> str:
+    return "".join(
+        f'<text x="{x}" y="{y + index * line_height}" class="{class_name}">{escape(line)}</text>'
+        for index, line in enumerate(lines)
+    )
+
+
 def daily_visual_profile(candidate_pattern: dict, generated: datetime) -> dict:
     name = candidate_pattern.get("name", "")
     profile = dict(VISUAL_PROFILES.get(name, DEFAULT_VISUAL_PROFILE))
@@ -435,9 +484,10 @@ def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: d
     date_label = generated.strftime("%B %d, %Y")
     lead_title = profile["title"]
     motif = profile["motif"]
-    candidate_lines = wrap_words(candidate_pattern.get("candidate", ""), 74, 3)
+    candidate_lines = wrap_svg_text(candidate_pattern.get("candidate", ""), 760, 18, 3)
     lens = daily_lens(generated)
     diary_label = f"Today I am reading through the lens of {lens['name']}: {lens['question']}"
+    diary_lines = wrap_svg_text(diary_label, 790, 14, 2)
 
     node_x = [146, 322, 498, 674, 850]
     node_y = [352, 286, 352, 286, 352]
@@ -458,11 +508,8 @@ def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: d
                 f'x2="{x - 54}" y2="{y}" stroke="{ink}" stroke-width="4" opacity="0.28"/>'
             )
 
-    quote_lines = []
-    for index, line in enumerate(candidate_lines):
-        quote_lines.append(
-            f'<text x="96" y="{158 + index * 28}" class="body">{escape(line)}</text>'
-        )
+    quote_lines = svg_text_lines(candidate_lines, 96, 158, 28, "body")
+    footer_lines = svg_text_lines(diary_lines, 96, 450, 18, "small")
 
     variant = generated.date().toordinal() % 3
     if variant == 0:
@@ -480,7 +527,7 @@ def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: d
     .title {{ font: 700 45px Georgia, serif; letter-spacing: 0; fill: {ink}; }}
     .subtitle {{ font: 700 22px Arial, sans-serif; letter-spacing: 0; fill: {warm}; }}
     .body {{ font: 18px Arial, sans-serif; letter-spacing: 0; fill: {ink}; }}
-    .small {{ font: 15px Arial, sans-serif; letter-spacing: 0; fill: {ink}; opacity: 0.78; }}
+    .small {{ font: 14px Arial, sans-serif; letter-spacing: 0; fill: {ink}; opacity: 0.78; }}
     .node {{ font: 700 16px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; }}
   </style>
   <rect width="1000" height="520" fill="{bg}"/>
@@ -490,11 +537,11 @@ def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: d
   <text x="72" y="82" class="eyebrow">Daily pattern image | {escape(date_label)}</text>
   <text x="72" y="132" class="title">{escape(lead_title)}</text>
   <text x="72" y="246" class="subtitle">{escape(motif)}</text>
-  {''.join(quote_lines)}
+  {quote_lines}
   {''.join(lines)}
   {''.join(nodes)}
-  <rect x="72" y="434" width="856" height="34" rx="17" fill="{ink}" opacity="0.08"/>
-  <text x="96" y="456" class="small">{escape(diary_label)}</text>
+  <rect x="72" y="430" width="856" height="44" rx="18" fill="{ink}" opacity="0.08"/>
+  {footer_lines}
 </svg>
 '''
     image_path = daily_image_path(generated)
@@ -511,8 +558,9 @@ def generate_daily_reflection_image(candidate_pattern: dict, generated: datetime
     date_label = generated.strftime("%B %d, %Y")
     variant = generated.date().toordinal() % 5
     title = f"Diary page: {lens['name']}"
-    question_lines = wrap_words(lens["question"], 40, 3)
-    response_lines = wrap_words(candidate_pattern.get("faithful_response", ""), 34, 3)
+    question_lines = wrap_svg_text(lens["question"], 390, 20, 3, "serif")
+    note_lines = wrap_svg_text(lens["image_note"], 390, 20, 3, "serif")
+    response_lines = wrap_svg_text(candidate_pattern.get("faithful_response", ""), 176, 16, 4)
     margin_color = [warm, cool, gold, warm, cool][variant]
     card_color = [cool, warm, gold, cool, warm][variant]
     line_y = [126, 158, 190, 222, 254, 286, 318, 350, 382, 414]
@@ -520,14 +568,9 @@ def generate_daily_reflection_image(candidate_pattern: dict, generated: datetime
         f'<line x1="124" y1="{y}" x2="576" y2="{y}" stroke="{ink}" stroke-width="1.4" opacity="0.18"/>'
         for y in line_y
     )
-    question_svg = "".join(
-        f'<text x="146" y="{146 + index * 30}" class="diary">{escape(line)}</text>'
-        for index, line in enumerate(question_lines)
-    )
-    response_svg = "".join(
-        f'<text x="638" y="{282 + index * 28}" class="cardtext">{escape(line)}</text>'
-        for index, line in enumerate(response_lines)
-    )
+    question_svg = svg_text_lines(question_lines, 146, 172, 28, "diary")
+    note_svg = svg_text_lines(note_lines, 146, 342, 28, "diary")
+    response_svg = svg_text_lines(response_lines, 638, 278, 24, "cardtext")
     day_mark = generated.strftime("%d")
     paper_tilt = [-2, 1, -1, 2, 0][variant]
     card_tilt = [2, -2, 1, -1, 0][variant]
@@ -536,11 +579,11 @@ def generate_daily_reflection_image(candidate_pattern: dict, generated: datetime
   <desc id="desc">A daily diary page image with notebook paper, margin notes, and an application card.</desc>
   <style>
     .eyebrow {{ font: 700 14px Arial, sans-serif; letter-spacing: 0; fill: {ink}; opacity: 0.68; }}
-    .title {{ font: 700 34px Georgia, serif; letter-spacing: 0; fill: {ink}; }}
-    .diary {{ font: 23px Georgia, serif; letter-spacing: 0; fill: {ink}; }}
+    .title {{ font: 700 32px Georgia, serif; letter-spacing: 0; fill: {ink}; }}
+    .diary {{ font: 20px Georgia, serif; letter-spacing: 0; fill: {ink}; }}
     .label {{ font: 700 13px Arial, sans-serif; letter-spacing: 0; fill: {ink}; opacity: 0.72; }}
     .cardtitle {{ font: 700 22px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; }}
-    .cardtext {{ font: 18px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; opacity: 0.94; }}
+    .cardtext {{ font: 16px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; opacity: 0.94; }}
     .small {{ font: 14px Arial, sans-serif; letter-spacing: 0; fill: {ink}; opacity: 0.70; }}
   </style>
   <rect width="900" height="540" fill="{bg}"/>
@@ -558,7 +601,7 @@ def generate_daily_reflection_image(candidate_pattern: dict, generated: datetime
   <g transform="rotate({paper_tilt} 340 270)">
   {question_svg}
     <text x="146" y="310" class="label">Why this page feels different</text>
-    <text x="146" y="342" class="diary">{escape(lens["image_note"])}</text>
+    {note_svg}
   </g>
   <g transform="rotate({card_tilt} 714 306)">
     <rect x="606" y="176" width="232" height="206" rx="24" fill="{card_color}" opacity="0.94"/>
