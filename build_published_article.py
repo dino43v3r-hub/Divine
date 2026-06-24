@@ -237,10 +237,121 @@ DEFAULT_VISUAL_PROFILE = {
     "nodes": ["Gift", "Notice", "Discern", "Repair", "Worship"],
 }
 
+DAILY_LETTER_OPENINGS = [
+    "I spent today's reading with one question in the foreground:",
+    "What stayed with me today was not the amount of material, but the shape of one claim:",
+    "Today's thread felt quieter than a headline. It kept asking:",
+    "The thing I would hand you from today's work is this:",
+    "I found myself circling one pressure point today:",
+    "Today's discovery felt less like an answer and more like a test:",
+    "If I were sitting across from you with this report open, I would start here:",
+]
+
+DAILY_LETTER_CLOSINGS = [
+    "That is the piece I would keep close today.",
+    "I would not rush it further than that.",
+    "That feels like enough truth to carry without forcing the rest.",
+    "The pattern is useful only if it becomes gentler, truer, and more responsible in ordinary life.",
+    "I would let this one stay practical before I let it become impressive.",
+    "That is where the pattern feels most alive to me today.",
+    "I would rather keep this humble and usable than grand and brittle.",
+]
+
+DAILY_DIARY_LENSES = [
+    {
+        "name": "ordinary life",
+        "question": "Where would this show up before anyone calls it theology?",
+        "image_note": "The visual leans toward ordinary practice: a path, a few signs, and one place to begin.",
+    },
+    {
+        "name": "pastoral safety",
+        "question": "Could this be spoken gently beside someone who is hurting?",
+        "image_note": "The visual leaves more open space, because some patterns should not crowd grief.",
+    },
+    {
+        "name": "theologian pressure",
+        "question": "Which trusted voices would slow this down and make it more truthful?",
+        "image_note": "The visual gathers the pattern into a conversation rather than a single conclusion.",
+    },
+    {
+        "name": "hard objection",
+        "question": "What would make this pattern fail?",
+        "image_note": "The visual includes interruption and contrast, because good objections belong on the page.",
+    },
+    {
+        "name": "faithful response",
+        "question": "What would a person actually do with this today?",
+        "image_note": "The visual points toward one concrete response instead of a finished theory.",
+    },
+    {
+        "name": "mystery",
+        "question": "Where should I stop explaining and let the unknown remain?",
+        "image_note": "The visual keeps a quiet center, because not every faithful reading ends in closure.",
+    },
+    {
+        "name": "repair",
+        "question": "Does this pattern help love become more honest and reparative?",
+        "image_note": "The visual emphasizes repair: separated pieces drawn back toward truthful care.",
+    },
+]
+
+THEOLOGIAN_DAILY_VOICES = [
+    {
+        "name": "Irenaeus",
+        "angle": "creation, communion, and the patient maturing of human life in God",
+        "comment": "Irenaeus would ask whether the pattern helps creation move toward communion with God, or whether it merely admires a shape without leading persons toward healing and fullness.",
+    },
+    {
+        "name": "Augustine",
+        "angle": "rightly ordered love",
+        "comment": "Augustine would ask what this pattern does to love. If it bends love toward God and neighbor, it may be useful; if it bends love back toward pride, control, or curiosity, it needs repentance.",
+    },
+    {
+        "name": "Aquinas",
+        "angle": "created order, virtue, and the final end of human life",
+        "comment": "Aquinas would ask whether the pattern participates in truth, goodness, and ordered love, while refusing to confuse a created sign with God himself.",
+    },
+    {
+        "name": "Julian of Norwich",
+        "angle": "mercy, suffering, and hope without denial",
+        "comment": "Julian would listen for whether the pattern can speak mercy without becoming glib about pain. A pattern that cannot sit gently with suffering is not yet wise.",
+    },
+    {
+        "name": "Martin Luther",
+        "angle": "the cross as judgment on spiritual boasting",
+        "comment": "Luther would press the pattern under the cross and ask whether it exposes false glory or becomes another way for religious people to sound impressive.",
+    },
+    {
+        "name": "Karl Barth",
+        "angle": "God's self-revelation in Jesus Christ",
+        "comment": "Barth would ask whether the pattern begins with God's revelation in Christ or whether it tries to climb up to God from human observation.",
+    },
+    {
+        "name": "Dietrich Bonhoeffer",
+        "angle": "costly discipleship and concrete obedience",
+        "comment": "Bonhoeffer would ask what this pattern costs in actual obedience. If it does not become truth, service, courage, and neighbor-love, it remains too abstract.",
+    },
+    {
+        "name": "James Cone",
+        "angle": "liberation, the cross, and the oppressed",
+        "comment": "Cone would ask whether the pattern stands with people under threat or whether it lets theology remain comfortable while suffering people carry the burden.",
+    },
+    {
+        "name": "Sarah Coakley",
+        "angle": "prayer, desire, and contemplative discipline",
+        "comment": "Coakley would ask whether the pattern is being purified by prayer, or whether desire is quietly shaping the conclusion before discernment has done its work.",
+    },
+]
+
 
 def daily_image_path(generated: datetime) -> Path:
     date_slug = generated.strftime("%Y-%m-%d")
     return DAILY_IMAGE_ALIAS_PATH.with_name(f"daily_pattern_image_{date_slug}.svg")
+
+
+def daily_reflection_image_path(generated: datetime) -> Path:
+    date_slug = generated.strftime("%Y-%m-%d")
+    return DAILY_IMAGE_ALIAS_PATH.with_name(f"daily_reflection_image_{date_slug}.svg")
 
 
 def read(path: Path) -> str:
@@ -297,6 +408,27 @@ def daily_visual_profile(candidate_pattern: dict, generated: datetime) -> dict:
     return profile
 
 
+def daily_lens(generated: datetime) -> dict:
+    return DAILY_DIARY_LENSES[generated.date().toordinal() % len(DAILY_DIARY_LENSES)]
+
+
+def daily_theologian(generated: datetime) -> dict:
+    return THEOLOGIAN_DAILY_VOICES[generated.date().toordinal() % len(THEOLOGIAN_DAILY_VOICES)]
+
+
+def anglican_1928_reflection(candidate_pattern: dict, lens: dict) -> str:
+    pattern_name = candidate_pattern.get("name", "this pattern")
+    return (
+        "An Anglican priest shaped by the 1928 Book of Common Prayer would not begin by asking whether "
+        f"{pattern_name} is clever. He would ask how it sounds after confession, Scripture, the creeds, "
+        "the collects, the Holy Communion, and the ordinary offices of prayer. He would want the pattern "
+        "to become reverence, repentance, charity, and steady duty. Under today's lens of "
+        f"{lens['name']}, he would probably say: test the idea in prayer first, then in conduct; let it "
+        "make you more truthful at home, more merciful toward the weak, more faithful in worship, and "
+        "less eager to explain what belongs to God."
+    )
+
+
 def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: dict, generated: datetime) -> Path:
     profile = daily_visual_profile(candidate_pattern, generated)
     bg, ink, warm, cool, gold = profile["colors"]
@@ -304,15 +436,8 @@ def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: d
     lead_title = profile["title"]
     motif = profile["motif"]
     candidate_lines = wrap_words(candidate_pattern.get("candidate", ""), 74, 3)
-    new_count = int(digest.get("new_count", 0) or 0)
-    totals = audit.get("confidence_tier_totals", {}) if audit else {}
-    developing = int(totals.get("developing_evidence", 0) or 0)
-    candidate_leads = int(totals.get("candidate_lead", 0) or 0)
-    freshness = digest_freshness(digest, generated)
-    if freshness["is_stale"]:
-        discovery_label = f"New leads in latest run: {new_count} ({freshness['label']})"
-    else:
-        discovery_label = f"New leads today: {new_count}"
+    lens = daily_lens(generated)
+    diary_label = f"Today I am reading through the lens of {lens['name']}: {lens['question']}"
 
     node_x = [146, 322, 498, 674, 850]
     node_y = [352, 286, 352, 286, 352]
@@ -369,13 +494,86 @@ def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: d
   {''.join(lines)}
   {''.join(nodes)}
   <rect x="72" y="434" width="856" height="34" rx="17" fill="{ink}" opacity="0.08"/>
-  <text x="96" y="456" class="small">{escape(discovery_label)} | Developing evidence: {developing} | Candidate leads: {candidate_leads}</text>
+  <text x="96" y="456" class="small">{escape(diary_label)}</text>
 </svg>
 '''
     image_path = daily_image_path(generated)
     image_path.parent.mkdir(parents=True, exist_ok=True)
     image_path.write_text(svg, encoding="utf-8")
     DAILY_IMAGE_ALIAS_PATH.write_text(svg, encoding="utf-8")
+    return image_path
+
+
+def generate_daily_reflection_image(candidate_pattern: dict, generated: datetime) -> Path:
+    profile = daily_visual_profile(candidate_pattern, generated)
+    lens = daily_lens(generated)
+    bg, ink, warm, cool, gold = profile["colors"]
+    date_label = generated.strftime("%B %d, %Y")
+    variant = generated.date().toordinal() % 5
+    title = f"Diary page: {lens['name']}"
+    question_lines = wrap_words(lens["question"], 40, 3)
+    response_lines = wrap_words(candidate_pattern.get("faithful_response", ""), 34, 3)
+    margin_color = [warm, cool, gold, warm, cool][variant]
+    card_color = [cool, warm, gold, cool, warm][variant]
+    line_y = [126, 158, 190, 222, 254, 286, 318, 350, 382, 414]
+    ruled_lines = "".join(
+        f'<line x1="124" y1="{y}" x2="576" y2="{y}" stroke="{ink}" stroke-width="1.4" opacity="0.18"/>'
+        for y in line_y
+    )
+    question_svg = "".join(
+        f'<text x="146" y="{146 + index * 30}" class="diary">{escape(line)}</text>'
+        for index, line in enumerate(question_lines)
+    )
+    response_svg = "".join(
+        f'<text x="638" y="{282 + index * 28}" class="cardtext">{escape(line)}</text>'
+        for index, line in enumerate(response_lines)
+    )
+    day_mark = generated.strftime("%d")
+    paper_tilt = [-2, 1, -1, 2, 0][variant]
+    card_tilt = [2, -2, 1, -1, 0][variant]
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">{escape(title)}</title>
+  <desc id="desc">A daily diary page image with notebook paper, margin notes, and an application card.</desc>
+  <style>
+    .eyebrow {{ font: 700 14px Arial, sans-serif; letter-spacing: 0; fill: {ink}; opacity: 0.68; }}
+    .title {{ font: 700 34px Georgia, serif; letter-spacing: 0; fill: {ink}; }}
+    .diary {{ font: 23px Georgia, serif; letter-spacing: 0; fill: {ink}; }}
+    .label {{ font: 700 13px Arial, sans-serif; letter-spacing: 0; fill: {ink}; opacity: 0.72; }}
+    .cardtitle {{ font: 700 22px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; }}
+    .cardtext {{ font: 18px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; opacity: 0.94; }}
+    .small {{ font: 14px Arial, sans-serif; letter-spacing: 0; fill: {ink}; opacity: 0.70; }}
+  </style>
+  <rect width="900" height="540" fill="{bg}"/>
+  <rect x="0" y="0" width="900" height="540" fill="{ink}" opacity="0.05"/>
+  <g transform="rotate({paper_tilt} 340 270)">
+    <rect x="82" y="54" width="520" height="430" rx="10" fill="#fffdf7" stroke="{ink}" stroke-width="2" opacity="0.96"/>
+    <rect x="82" y="54" width="58" height="430" rx="10" fill="{margin_color}" opacity="0.20"/>
+    <line x1="142" y1="72" x2="142" y2="466" stroke="{warm}" stroke-width="2" opacity="0.40"/>
+    {ruled_lines}
+    <text x="166" y="96" class="eyebrow">Research diary | {escape(date_label)}</text>
+    <text x="166" y="126" class="title">{escape(profile["title"])}</text>
+    <text x="146" y="146" class="label">Question I carried</text>
+    <text x="104" y="108" class="title">{escape(day_mark)}</text>
+  </g>
+  <g transform="rotate({paper_tilt} 340 270)">
+  {question_svg}
+    <text x="146" y="310" class="label">Why this page feels different</text>
+    <text x="146" y="342" class="diary">{escape(lens["image_note"])}</text>
+  </g>
+  <g transform="rotate({card_tilt} 714 306)">
+    <rect x="606" y="176" width="232" height="206" rx="24" fill="{card_color}" opacity="0.94"/>
+    <circle cx="798" cy="216" r="18" fill="#ffffff" opacity="0.22"/>
+    <text x="638" y="226" class="cardtitle">Carry this</text>
+  {response_svg}
+  </g>
+  <path d="M664 430 C706 404 766 408 810 442" fill="none" stroke="{ink}" stroke-width="4" opacity="0.18"/>
+  <text x="606" y="470" class="small">This image is a diary page, not a pattern map.</text>
+</svg>
+'''
+    image_path = daily_reflection_image_path(generated)
+    image_path.parent.mkdir(parents=True, exist_ok=True)
+    image_path.write_text(svg, encoding="utf-8")
+    DAILY_IMAGE_ALIAS_PATH.with_name("daily_reflection_image.svg").write_text(svg, encoding="utf-8")
     return image_path
 
 
@@ -1630,6 +1828,96 @@ def build_short_article() -> str:
     foundation_lines = theological_foundations_lines(theological_foundations)
     boundary_lines = does_not_prove_lines(does_not_prove)
     science_lines = science_guardrail_lines(science_guardrail)
+    reflection_image = generate_daily_reflection_image(candidate_pattern, generated_at)
+    lens = daily_lens(generated_at)
+    theologian = daily_theologian(generated_at)
+    panel = candidate_pattern.get("theologian_panel", DEFAULT_CANDIDATE_PATTERN["theologian_panel"])
+    panel_text = " ".join(panel[:3])
+    plain = candidate_pattern.get("plain", DEFAULT_CANDIDATE_PATTERN["plain"])
+    objection = candidate_pattern.get("hard_objection", DEFAULT_CANDIDATE_PATTERN["hard_objection"])
+    caution = candidate_pattern.get("interesting_not_true", DEFAULT_CANDIDATE_PATTERN["interesting_not_true"])
+    response = candidate_pattern.get("faithful_response", DEFAULT_CANDIDATE_PATTERN["faithful_response"])
+    response_sentence = response.removeprefix("Today, ").removeprefix("Today ")
+    confidence = candidate_pattern.get("confidence_language", DEFAULT_CANDIDATE_PATTERN["confidence_language"])
+    diary_lines = [
+        "# Divine Pattern Research Diary",
+        "",
+        f"_Diary entry: {generated_at.strftime('%B %d, %Y')}_",
+        "",
+        f"![Today's pattern image]({daily_image.name})",
+        "",
+        f"![Today's reflection image]({reflection_image.name})",
+        "",
+        "## Morning Note",
+        "",
+        "I came to the work today with the posture of a priest more than a technician: listening for what may be true, watching for what may harm, and trying not to make a pattern carry more weight than it can bear.",
+        "",
+        f"The pattern before me is **{candidate_pattern.get('name', 'the current pattern')}**. In plain speech, this is what I see: {plain}",
+        "",
+        f"I am reading it today through the lens of **{lens['name']}**, and the question that stays with me is: {lens['question']}",
+        "",
+        "## The Scene In Front Of Me",
+        "",
+        candidate_pattern.get("case_study", DEFAULT_CANDIDATE_PATTERN["case_study"]),
+        "",
+        "This is where theology becomes honest. If a pattern cannot enter a room like that with gentleness, patience, and truth, I would rather leave it outside.",
+        "",
+        "## Question And Answer",
+        "",
+        f"**Question:** What is this pattern asking me to notice?",
+        "",
+        f"**Answer:** {candidate_pattern['candidate']}",
+        "",
+        f"**Question:** What would make me slow down before trusting it?",
+        "",
+        f"**Answer:** {objection}",
+        "",
+        f"**Question:** What can I responsibly say today?",
+        "",
+        f"**Answer:** {confidence}",
+        "",
+        "## Theologians I Would Want Nearby",
+        "",
+        panel_text,
+        "",
+        candidate_pattern.get("theologian_judgment", DEFAULT_CANDIDATE_PATTERN["theologian_judgment"]),
+        "",
+        "That is the kind of company I want for this project. Not famous names as decoration, but teachers who can slow the mind, purify the claim, and bring it back under Christ.",
+        "",
+        f"## Today's Chosen Theologian: {theologian['name']}",
+        "",
+        f"I would especially let {theologian['name']} stand near this pattern today because of {theologian['angle']}. {theologian['comment']}",
+        "",
+        "## How I Think An Anglican Priest Would Read It",
+        "",
+        anglican_1928_reflection(candidate_pattern, lens),
+        "",
+        "## Confession Of Caution",
+        "",
+        caution,
+        "",
+        f"What would weaken this pattern is also important: {candidate_pattern.get('weakens_if', DEFAULT_CANDIDATE_PATTERN['weakens_if'])}",
+        "",
+        "So I do not receive this as proof. I receive it as a disciplined observation, still under Scripture, still under the Church's wisdom, still under the mercy of God.",
+        "",
+        "## Application For Daily Life",
+        "",
+        f"Today I would practice it this way: {response_sentence}",
+        "",
+        "A small application is better than a grand claim. If this pattern is from the neighborhood of truth, it should make someone more truthful, more humble, more just, and more capable of love before it makes anyone feel clever.",
+        "",
+        "## Closing Prayer",
+        "",
+        "Lord, let what is true become clear, let what is false lose its shine, and let every pattern bend toward love of You and love of neighbor.",
+        "",
+        "## Quiet Background",
+        "",
+        f"Underneath this diary entry, the movement I am tracking is: {candidate_pattern['movement']}. Tomorrow the focus and the diary lens can change, so the entry should not merely repeat itself with a new timestamp.",
+        "",
+        "The research machinery is still present underneath the page, but I am keeping it out of the foreground. The diary should be the thing you read.",
+        "",
+    ]
+    return "\n".join(diary_lines) + "\n"
 
     lines = [
         "# Divine Pattern Research",
