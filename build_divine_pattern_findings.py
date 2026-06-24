@@ -12,59 +12,76 @@ DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
 PRIESTLY_LAYER_PATH = Path("research_documents/priestly_discernment_layer.json")
 OUTPUT_PATH = Path("reports/divine_pattern_findings.md")
 
+TOP_PATTERN_NAMES = [
+    "Image Of God Pattern",
+    "Cross And Reversal Pattern",
+    "Creation-To-Consciousness Pattern",
+    "Trinity-As-Behavior Pattern",
+    "Providence And Contingency Pattern",
+]
+
 
 PATTERN_PROFILES = {
     "Image Of God Pattern": {
         "movement": "Mind -> Symbol -> Moral Agency -> Relationship -> Worship",
         "plain": "Human beings appear as meaning-making, morally accountable, relational persons. Christianity reads this through the image of God.",
+        "theologian_judgment": "Theologians should judge this pattern by whether it protects the image of God in weak, wounded, disabled, poor, unborn, elderly, imprisoned, displaced, and overlooked people.",
         "evaluate": "Does this pattern protect human dignity before usefulness, intelligence, status, health, tribe, or performance?",
         "weakens_if": "It collapses human worth into ability, intelligence, productivity, or social value.",
     },
     "Cross And Reversal Pattern": {
         "movement": "Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection",
         "plain": "The corpus repeatedly notices reversal: power judged by humility, suffering faced through truth, and hope shaped by the cross and resurrection.",
+        "theologian_judgment": "Theologians should judge this pattern by whether it keeps the cross centered on Christ without romanticizing pain or asking victims to carry injustice quietly.",
         "evaluate": "Does this pattern tell the truth about harm while still inviting mercy, justice, and hope?",
         "weakens_if": "It romanticizes suffering, protects abusers, or asks victims to accept harm without justice.",
     },
     "Creation-To-Consciousness Pattern": {
         "movement": "Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship",
         "plain": "The project sees layered movement from order and life toward mind, responsibility, meaning, and worship.",
+        "theologian_judgment": "Theologians should judge this pattern by whether it honors creation as gift without turning science, intelligence, or consciousness into a ladder of superiority.",
         "evaluate": "Does this pattern create wonder and responsibility without pretending science mechanically proves worship?",
         "weakens_if": "It becomes a simple ladder from physics to God or ignores evolution, disability, animal life, or suffering in nature.",
     },
     "Trinity-As-Behavior Pattern": {
         "movement": "Father Creates -> Son Redeems -> Spirit Transforms",
         "plain": "The project sees Christian doctrine becoming practical: receive life as gift, follow Christ's redemption, and test transformation by the Spirit's fruit.",
+        "theologian_judgment": "Theologians should judge this pattern by whether Father, Son, and Spirit remain distinct and united while the practical fruit stays accountable to Scripture, creed, and worship.",
         "evaluate": "Does this pattern preserve Father, Son, and Spirit while producing love, humility, holiness, unity, and service?",
         "weakens_if": "It turns the Trinity into vague symbolism, group emotion, authoritarian control, modalism, or tritheism.",
     },
     "Providence And Contingency Pattern": {
         "movement": "Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History",
         "plain": "The project sees order and contingency together: a world with stable patterns, real uncertainty, historical meaning, and possible providence.",
+        "theologian_judgment": "Theologians should judge this pattern by whether it teaches trust, prayer, repentance, courage, and service while leaving room for grief, chance, mystery, and unfinished history.",
         "evaluate": "Does this pattern help a person act faithfully inside uncertainty without claiming to know every hidden cause?",
         "weakens_if": "It explains tragedy too neatly, blames victims, denies chance, or uses science language beyond its scope.",
     },
     "Holy Spirit Gifts Pattern": {
         "movement": "Presence -> Gift -> Service -> Fruit -> Communal Upbuilding",
         "plain": "The project notices gifts as possible Spirit-enabled service, truth, healing, wisdom, courage, and upbuilding.",
+        "theologian_judgment": "Theologians should judge this pattern by whether gifts point to Christlike service, communal upbuilding, accountability, and fruit over time.",
         "evaluate": "Does this pattern produce truthful love, humility, accountability, justice, and fruit over time?",
         "weakens_if": "It treats spectacle, charisma, or intensity as proof of the Spirit.",
     },
     "Other Religious Comparative Witness": {
         "movement": "Longing -> Practice -> Wisdom -> Difference -> Humble Comparison",
         "plain": "The project sees resonances across traditions while keeping their real differences visible.",
+        "theologian_judgment": "Theologians should judge this comparison by whether it honors other traditions honestly before making any Christian interpretation.",
         "evaluate": "Does this comparison honor the other tradition on its own terms before Christian interpretation?",
         "weakens_if": "It flattens other religions into hidden Christianity or uses them as props.",
     },
     "Science Analogy Guardrail": {
         "movement": "Observation -> Model -> Limit -> Humility -> Better Reasoning",
         "plain": "The project uses science as a guardrail for humility, precision, probability, causality, and model limits.",
+        "theologian_judgment": "Theologians should judge this guardrail by whether it makes claims more careful without forcing science to do theology's work.",
         "evaluate": "Does this analogy make the claim more careful without pretending science proves theology?",
         "weakens_if": "It uses quantum, neuroscience, or complexity language as proof of God, prayer, consciousness, or miracles.",
     },
     "Mathematical Theophany Pattern": {
         "movement": "Order -> Symmetry -> Logic -> Beauty -> Wonder",
         "plain": "The project sees mathematical order and beauty as possible signs that can invite wonder and disciplined reasoning.",
+        "theologian_judgment": "Theologians should judge this pattern by whether wonder remains humble and disciplined rather than becoming a shortcut proof.",
         "evaluate": "Does this pattern remain a humble sign-reading rather than a mathematical proof of God?",
         "weakens_if": "It ignores Platonist, formalist, constructivist, cognitive, cultural, or naturalistic explanations.",
     },
@@ -170,13 +187,23 @@ def newest_source_lines(digest: dict, limit: int = 5) -> list[str]:
     return lines
 
 
+def daily_focus_row(rows: list[dict], generated_at: datetime) -> dict | None:
+    if not rows:
+        return None
+    preferred_rows = [row for row in rows if row["pattern"] in TOP_PATTERN_NAMES]
+    focus_pool = preferred_rows or rows
+    return focus_pool[generated_at.date().toordinal() % len(focus_pool)]
+
+
 def build_report() -> str:
-    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    generated_at = datetime.now(timezone.utc)
+    generated = generated_at.strftime("%Y-%m-%d %H:%M UTC")
     index = read_json(INDEX_PATH)
     audit = read_json(AUDIT_PATH)
     digest = read_json(DAILY_DIGEST_PATH)
     priestly_layer = read_json(PRIESTLY_LAYER_PATH)
     rows = make_pattern_rows(index)
+    focus_row = daily_focus_row(rows, generated_at)
 
     lines = [
         "# Divine Patterns Found",
@@ -214,6 +241,29 @@ def build_report() -> str:
                 "Promotion restraints:",
                 "",
                 *(f"- {restraint}" for restraint in restraints),
+                "",
+            ]
+        )
+
+    if focus_row:
+        profile = focus_row["profile"]
+        lines.extend(
+            [
+                "## Today's Pattern Focus",
+                "",
+                f"### {focus_row['pattern']}",
+                "",
+                f"**Status:** {focus_row['status']}",
+                "",
+                f"**Plain meaning:** {profile['plain']}",
+                "",
+                f"**Theologian judgment for ordinary readers:** {profile['theologian_judgment']}",
+                "",
+                f"**Common-person test:** {profile['evaluate']}",
+                "",
+                f"**What would weaken it:** {profile['weakens_if']}",
+                "",
+                f"**Why it surfaced:** {focus_row['documents']} indexed document(s), {focus_row['review_notes']} declared review note(s).",
                 "",
             ]
         )
@@ -266,6 +316,8 @@ def build_report() -> str:
                 f"**Pattern movement:** {profile['movement']}",
                 "",
                 f"**What the system sees:** {profile['plain']}",
+                "",
+                f"**Theologian judgment for ordinary readers:** {profile['theologian_judgment']}",
                 "",
                 f"**Why it surfaced:** {row['documents']} indexed document(s), {row['review_notes']} declared review note(s).",
                 "",

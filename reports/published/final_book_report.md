@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-24 01:53 UTC_
+_Generated: 2026-06-24 02:06 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -10,13 +10,13 @@ This report is meant to change day to day. When the collector discovers new sour
 
 ## Input Freshness
 
-- Report generated: 2026-06-24 01:53 UTC
+- Report generated: 2026-06-24 02:06 UTC
 - Collector snapshot used for discovery counts: 2026-06-23 16:30 UTC
 - Freshness note: Collector snapshot is current for this UTC day.
 
 ![Daily pattern image](daily_pattern_image_2026-06-24.svg)
 
-_Daily visual generated from the current leading finding: Image Of God Pattern._
+_Daily visual generated from today's rotating focus: Trinity-As-Behavior Pattern._
 
 ## Short Answer
 
@@ -24,13 +24,21 @@ The project does not claim that patterns prove Christianity or discover God by t
 
 The best current posture is: the system finds possible pattern signals, then tests them under Christ, Scripture, doctrine, Church witness, sin-and-distortion review, serious critique, and mystery. Some conclusions should remain unclear.
 
-## Current Pattern Found
+## Today's Pattern Focus
 
-**Current candidate divine pattern:** God gives persons dignity before usefulness; the faithful response is truthful worship, humble love, justice for vulnerable people, patient repair, and faithful refusal to rank people by performance.
+**Current candidate divine pattern:** God's triune work appears as creation received, redemption followed, and Spirit-led transformation tested by truth, love, humility, justice, worship, patience, and faithfulness.
 
-**Movement:** Mind -> Symbol -> Moral Agency -> Relationship -> Worship
+**In plain language:** True doctrine should become visible as love, humility, holiness, unity, service, and patient faithfulness.
 
-**Selection note:** This wording is selected from the current retrieval index because Image Of God Pattern has the strongest pattern-support score in the analyzed corpus.
+**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether Father, Son, and Spirit remain distinct and united while the practical fruit stays accountable to Scripture, creed, and worship.
+
+**Common-person test:** Does this pattern keep the Trinity Christian, concrete, and fruitful rather than vague or controlling?
+
+**What would weaken it:** It weakens if the Trinity becomes a metaphor for group energy, authoritarian control, modalism, or three separate gods.
+
+**Movement:** Father Creates -> Son Redeems -> Spirit Transforms
+
+**Selection note:** This is today's rotating focus from 5 supported pattern family/families. It has 9 indexed document(s), 9 review note(s), and a support score of 18. The rotation lets the book report focus on a fresh pattern each day without treating the focus as the final winner.
 
 ## Main Divine Patterns Found
 
@@ -164,8 +172,8 @@ The report is strongest when it tells you exactly where confidence is blocked. B
 3. Start with the top item in the review queue.
    First queued source: `research_documents/auto_imported_cloud_candidates/book_review_a_more_profound_alleluia_theology_and_worship_in_harmony_ee1c835b96b7.md`. Add source-checked companion notes for: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint.
 
-4. Strengthen the leading pattern with one hard counter-reading.
-   The current leading pattern is `Image Of God Pattern`. Add a serious rival explanation from psychology, sociology, history, disability studies, trauma studies, comparative religion, or philosophy, then state what would weaken the pattern.
+4. Strengthen today's focus pattern with one hard counter-reading.
+   Today's focus pattern is `Trinity-As-Behavior Pattern`. Add a serious rival explanation from psychology, sociology, history, disability studies, trauma studies, comparative religion, or philosophy, then state what would weaken the pattern.
 
 5. Add one pastoral use case and one pastoral rejection case.
    Write a short case where the pattern helps faithful practice, and another where it would become unsafe, glib, coercive, or overconfident. This keeps the report priestly instead of merely impressive.

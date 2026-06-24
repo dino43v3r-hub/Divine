@@ -1,6 +1,6 @@
 # Divine Patterns Found
 
-_Generated: 2026-06-17 18:16 UTC_
+_Generated: 2026-06-24 02:06 UTC_
 
 This report is intentionally simple: it shows the divine-pattern signals the system currently finds, explains why they surfaced, and leaves evaluation to you.
 
@@ -30,55 +30,73 @@ Promotion restraints:
 - Do not promote a suffering-related claim unless it has passed lament, justice, protection, and repair tests.
 - Do not promote a comparative-religion claim unless the other tradition has first been represented on its own terms.
 
+## Today's Pattern Focus
+
+### Trinity-As-Behavior Pattern
+
+**Status:** developing evidence
+
+**Plain meaning:** The project sees Christian doctrine becoming practical: receive life as gift, follow Christ's redemption, and test transformation by the Spirit's fruit.
+
+**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether Father, Son, and Spirit remain distinct and united while the practical fruit stays accountable to Scripture, creed, and worship.
+
+**Common-person test:** Does this pattern preserve Father, Son, and Spirit while producing love, humility, holiness, unity, and service?
+
+**What would weaken it:** It turns the Trinity into vague symbolism, group emotion, authoritarian control, modalism, or tritheism.
+
+**Why it surfaced:** 9 indexed document(s), 9 declared review note(s).
+
 ## What Changed In The Latest Discovery Run
 
-- new candidate references: 87
-- new routed layers: human_stories: 29, deep_sources: 27, cultural_inputs: 24, pattern_tests: 24, psychology_inputs: 24, theologians: 23
-- new provider mix: Crossref: 59, OpenAlex: 23, Internet Archive: 5
-- new media candidates: podcast: 8, video: 5, image: 3
-- new evidence labels: strong_scholarly_candidate: 60, moderate_scholarly_candidate: 27
-- latest collector update: 2026-06-17T17:49:38.704534+00:00
+- new candidate references: 45
+- new routed layers: cultural_inputs: 23, history_inputs: 15, visual_art: 15, deep_sources: 10, all_texts: 9, pattern_tests: 9
+- new provider mix: OpenAlex: 13, Tavily Search: 13, Crossref: 12, PubMed: 4, Internet Archive: 2, arXiv: 1
+- new media candidates: video: 6, image: 2, podcast: 1
+- new evidence labels: strong_scholarly_candidate: 24, weak_scholarly_candidate: 12, moderate_scholarly_candidate: 8, do_not_strengthen_claim: 1
+- latest collector update: 2026-06-23T16:30:21.284797+00:00
 
 Newest source leads:
 
-- A reformed perspective on taking mission and missiology to the heart of theological training (2012) | OpenAlex | strong_scholarly_candidate | routes: theologians, research_documents, visual_art, history_inputs
-- THE HOLY SPIRIT AND THE NICENE CREED (2020) | Crossref | moderate_scholarly_candidate | routes: theologians, research_documents
-- The Human Creation: Towards a renewal of the doctrine of the Imago Dei (1997) | Crossref | moderate_scholarly_candidate | routes: theologians, research_documents
-- Creation and Evolution (2024) | Crossref | strong_scholarly_candidate | routes: theologians, research_documents
-- Boll Weevil’s Theodicy (2023) | Crossref | strong_scholarly_candidate | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Lectures on the Doctrine of Justification (2001) | OpenAlex | strong_scholarly_candidate | routes: theologians, research_documents
+- Ted Lasso and Lament (2026) | Crossref | moderate_scholarly_candidate | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- A Universal Two--Bit Gate for Quantum Computation (1995) | arXiv | moderate_scholarly_candidate | routes: deep_sources, pattern_tests
+- How quantum brain biology can rescue conscious free will (2012) | OpenAlex | strong_scholarly_candidate | routes: deep_sources, pattern_tests
+- NMC Learning at Home: Math and Music—Harmony and Ratios (Part 2) (n.d.) | Tavily Search | weak_scholarly_candidate | routes: music_notes, deep_sources, visual_art
 
 ## Current Evidence Mix
 
-- candidate leads: 114
-- developing evidence: 340
-- ready for your evaluation: 0
+- candidate leads: 113
+- developing evidence: 818
+- ready for your evaluation: 1
 
 ## Pattern Findings
 
 ### 1. Image Of God Pattern
 
-**Status:** developing evidence
+**Status:** ready for your evaluation
 
 **Pattern movement:** Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 
 **What the system sees:** Human beings appear as meaning-making, morally accountable, relational persons. Christianity reads this through the image of God.
 
-**Why it surfaced:** 10 indexed document(s), 55 declared review note(s).
+**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether it protects the image of God in weak, wounded, disabled, poor, unborn, elderly, imprisoned, displaced, and overlooked people.
 
-**Where it appears most:** research_documents: 5, pattern_tests: 4, history_inputs: 1
+**Why it surfaced:** 11 indexed document(s), 57 declared review note(s).
 
-**Evidence tier mix:** candidate_lead: 7, developing_evidence: 3
+**Where it appears most:** research_documents: 6, pattern_tests: 4, history_inputs: 1
+
+**Evidence tier mix:** candidate_lead: 6, developing_evidence: 4, reviewed_evidence_ready: 1
 
 **Question for you:** Does this pattern protect human dignity before usefulness, intelligence, status, health, tribe, or performance?
 
 **What would weaken it:** It collapses human worth into ability, intelligence, productivity, or social value.
 
 **Example source routes:**
+- `research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md` (developing_evidence)
 - `research_documents/christian_sources/divine_pattern_candidates.md` (candidate_lead)
 - `research_documents/friction_layer.md` (candidate_lead)
 - `research_documents/next_research_expansion_tracker.md` (developing_evidence)
 - `research_documents/reviewed_source_packs.md` (developing_evidence)
-- `research_documents/source_packs/image_of_god_pattern_pack.md` (candidate_lead)
 
 ### 2. Trinity-As-Behavior Pattern
 
@@ -87,6 +105,8 @@ Newest source leads:
 **Pattern movement:** Father Creates -> Son Redeems -> Spirit Transforms
 
 **What the system sees:** The project sees Christian doctrine becoming practical: receive life as gift, follow Christ's redemption, and test transformation by the Spirit's fruit.
+
+**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether Father, Son, and Spirit remain distinct and united while the practical fruit stays accountable to Scripture, creed, and worship.
 
 **Why it surfaced:** 9 indexed document(s), 9 declared review note(s).
 
@@ -113,6 +133,8 @@ Newest source leads:
 
 **What the system sees:** The corpus repeatedly notices reversal: power judged by humility, suffering faced through truth, and hope shaped by the cross and resurrection.
 
+**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether it keeps the cross centered on Christ without romanticizing pain or asking victims to carry injustice quietly.
+
 **Why it surfaced:** 8 indexed document(s), 8 declared review note(s).
 
 **Where it appears most:** research_documents: 4, pattern_tests: 4
@@ -137,6 +159,8 @@ Newest source leads:
 **Pattern movement:** Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 
 **What the system sees:** The project sees layered movement from order and life toward mind, responsibility, meaning, and worship.
+
+**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether it honors creation as gift without turning science, intelligence, or consciousness into a ladder of superiority.
 
 **Why it surfaced:** 8 indexed document(s), 8 declared review note(s).
 
@@ -163,6 +187,8 @@ Newest source leads:
 
 **What the system sees:** The project sees order and contingency together: a world with stable patterns, real uncertainty, historical meaning, and possible providence.
 
+**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether it teaches trust, prayer, repentance, courage, and service while leaving room for grief, chance, mystery, and unfinished history.
+
 **Why it surfaced:** 8 indexed document(s), 8 declared review note(s).
 
 **Where it appears most:** research_documents: 4, pattern_tests: 4
@@ -188,6 +214,8 @@ Newest source leads:
 
 **What the system sees:** The project notices gifts as possible Spirit-enabled service, truth, healing, wisdom, courage, and upbuilding.
 
+**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether gifts point to Christlike service, communal upbuilding, accountability, and fruit over time.
+
 **Why it surfaced:** 1 indexed document(s), 1 declared review note(s).
 
 **Where it appears most:** research_documents: 1
@@ -208,6 +236,8 @@ Newest source leads:
 **Pattern movement:** Longing -> Practice -> Wisdom -> Difference -> Humble Comparison
 
 **What the system sees:** The project sees resonances across traditions while keeping their real differences visible.
+
+**Theologian judgment for ordinary readers:** Theologians should judge this comparison by whether it honors other traditions honestly before making any Christian interpretation.
 
 **Why it surfaced:** 1 indexed document(s), 1 declared review note(s).
 
@@ -230,6 +260,8 @@ Newest source leads:
 
 **What the system sees:** The project uses science as a guardrail for humility, precision, probability, causality, and model limits.
 
+**Theologian judgment for ordinary readers:** Theologians should judge this guardrail by whether it makes claims more careful without forcing science to do theology's work.
+
 **Why it surfaced:** 1 indexed document(s), 1 declared review note(s).
 
 **Where it appears most:** research_documents: 1
@@ -250,6 +282,8 @@ Newest source leads:
 **Pattern movement:** Order -> Symmetry -> Logic -> Beauty -> Wonder
 
 **What the system sees:** The project sees mathematical order and beauty as possible signs that can invite wonder and disciplined reasoning.
+
+**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether wonder remains humble and disciplined rather than becoming a shortcut proof.
 
 **Why it surfaced:** 1 indexed document(s), 1 declared review note(s).
 

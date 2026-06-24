@@ -64,26 +64,46 @@ PATTERN_PROFILES = {
     "Image Of God Pattern": {
         "movement": "Mind -> Symbol -> Moral Agency -> Relationship -> Worship",
         "thesis": "Human dignity is treated as gift before performance.",
+        "common": "Every person matters before they produce, perform, succeed, or impress anyone.",
+        "theologian_judgment": "Theologians should judge this pattern by whether it protects the image of God in weak, wounded, disabled, poor, unborn, elderly, imprisoned, displaced, and overlooked people.",
+        "evaluation_question": "Does this pattern make ordinary people more likely to honor human dignity in daily life?",
+        "weakens_if": "It weakens if dignity becomes a slogan while real vulnerable people remain ignored or ranked by usefulness.",
         "candidate": "God gives persons dignity before usefulness; the faithful response is truthful worship, humble love, justice for vulnerable people, patient repair, and faithful refusal to rank people by performance.",
     },
     "Cross And Reversal Pattern": {
         "movement": "Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection",
         "thesis": "The cross is read as God's judgment on violent power and God's mercy for wounded people.",
+        "common": "God's way of saving does not flatter power; it tells the truth, protects the harmed, and lets hope come through mercy and resurrection.",
+        "theologian_judgment": "Theologians should judge this pattern by whether it keeps the cross centered on Christ without romanticizing pain or asking victims to carry injustice quietly.",
+        "evaluation_question": "Does this pattern help people tell the truth about harm while moving toward mercy, justice, and hope?",
+        "weakens_if": "It weakens if cross-language protects abusers, silences lament, or treats suffering itself as holy.",
         "candidate": "God reveals holy love by reversing coercive power through the cross; the faithful response is truth-telling, humble repentance, justice for harmed people, patient repair, and faithful mercy without denial.",
     },
     "Creation-To-Consciousness Pattern": {
         "movement": "Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship",
         "thesis": "Creation, life, mind, moral awareness, and worship are explored as layered gifts.",
+        "common": "Creation invites wonder, but wonder should turn into humility, care for bodies, and responsibility for the world.",
+        "theologian_judgment": "Theologians should judge this pattern by whether it honors creation as gift without turning science, intelligence, or consciousness into a ladder of superiority.",
+        "evaluation_question": "Does this pattern create wonder and responsibility without pretending science mechanically proves worship?",
+        "weakens_if": "It weakens if it ignores evolution, animal suffering, ecological loss, disability, or natural explanations.",
         "candidate": "God gives ordered creation, life, consciousness, and moral awareness as gifts; the faithful response is humble wonder, truthful stewardship, just care for bodies and creation, patient learning, and worshipful faithfulness.",
     },
     "Trinity-As-Behavior Pattern": {
         "movement": "Father Creates -> Son Redeems -> Spirit Transforms",
         "thesis": "Doctrine is tested by practice: receiving life as gift, following Christ, and discerning Spirit-led transformation.",
+        "common": "True doctrine should become visible as love, humility, holiness, unity, service, and patient faithfulness.",
+        "theologian_judgment": "Theologians should judge this pattern by whether Father, Son, and Spirit remain distinct and united while the practical fruit stays accountable to Scripture, creed, and worship.",
+        "evaluation_question": "Does this pattern keep the Trinity Christian, concrete, and fruitful rather than vague or controlling?",
+        "weakens_if": "It weakens if the Trinity becomes a metaphor for group energy, authoritarian control, modalism, or three separate gods.",
         "candidate": "God's triune work appears as creation received, redemption followed, and Spirit-led transformation tested by truth, love, humility, justice, worship, patience, and faithfulness.",
     },
     "Providence And Contingency Pattern": {
         "movement": "Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History",
         "thesis": "Providence is treated as trust inside contingency, not certainty about hidden causes.",
+        "common": "Faithfulness means trusting God and acting well without pretending we know why every event happened.",
+        "theologian_judgment": "Theologians should judge this pattern by whether it teaches trust, prayer, repentance, courage, and service while leaving room for grief, chance, mystery, and unfinished history.",
+        "evaluation_question": "Does this pattern help ordinary people act faithfully inside uncertainty?",
+        "weakens_if": "It weakens if it explains tragedy too neatly, blames victims, denies chance, or borrows science language beyond its scope.",
         "candidate": "God's providence is discerned as faithful trust inside lawful but contingent history; the faithful response is truthful humility, just action, patient endurance, worship, and faithfulness without pretending to know every cause.",
     },
 }
@@ -278,7 +298,7 @@ def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: d
     return image_path
 
 
-def current_candidate_pattern(index: dict) -> dict:
+def current_candidate_pattern(index: dict, generated_at: datetime | None = None) -> dict:
     counts = {name: {"documents": 0, "review_notes": 0, "score": 0} for name in TOP_PATTERN_NAMES}
     for document in index.get("documents", []):
         patterns = set(document.get("patterns", []))
@@ -295,28 +315,28 @@ def current_candidate_pattern(index: dict) -> dict:
         key=lambda item: (item[1]["score"], item[1]["documents"], item[1]["review_notes"], item[0]),
         reverse=True,
     )
-    if not ranked or ranked[0][1]["score"] == 0:
+    supported = [(name, values) for name, values in ranked if values["score"] > 0]
+    if not supported:
         return dict(DEFAULT_CANDIDATE_PATTERN)
 
-    top_name, top_counts = ranked[0]
-    second_score = ranked[1][1]["score"] if len(ranked) > 1 else 0
-    if second_score and top_counts["score"] < second_score * 1.25:
-        result = dict(DEFAULT_CANDIDATE_PATTERN)
-        result["basis"] = (
-            "The current analyzed corpus is balanced across several pattern families, "
-            "so the report keeps the broader integrated candidate rather than forcing one winner."
-        )
-        result["counts"] = counts
-        return result
+    if generated_at is None:
+        generated_at = datetime.now(timezone.utc)
+    daily_index = generated_at.date().toordinal() % len(supported)
+    top_name, top_counts = supported[daily_index]
 
     profile = PATTERN_PROFILES[top_name]
     return {
         "name": top_name,
         "movement": profile["movement"],
+        "plain": profile["common"],
+        "theologian_judgment": profile["theologian_judgment"],
+        "evaluation_question": profile["evaluation_question"],
+        "weakens_if": profile["weakens_if"],
         "candidate": profile["candidate"],
         "basis": (
-            f"This wording is selected from the current retrieval index because {top_name} "
-            f"has the strongest pattern-support score in the analyzed corpus."
+            f"This is today's rotating focus from {len(supported)} supported pattern family/families. "
+            f"It has {top_counts['documents']} indexed document(s), {top_counts['review_notes']} review note(s), "
+            f"and a support score of {top_counts['score']}. The rotation lets the book report focus on a fresh pattern each day without treating the focus as the final winner."
         ),
         "counts": counts,
     }
@@ -475,8 +495,8 @@ def next_step_lines(audit: dict, queue_payload: dict, candidate_pattern: dict) -
 
     lines.extend(
         [
-            "4. Strengthen the leading pattern with one hard counter-reading.",
-            f"   The current leading pattern is `{candidate_pattern.get('name', 'the current candidate pattern')}`. Add a serious rival explanation from psychology, sociology, history, disability studies, trauma studies, comparative religion, or philosophy, then state what would weaken the pattern.",
+            "4. Strengthen today's focus pattern with one hard counter-reading.",
+            f"   Today's focus pattern is `{candidate_pattern.get('name', 'the current candidate pattern')}`. Add a serious rival explanation from psychology, sociology, history, disability studies, trauma studies, comparative religion, or philosophy, then state what would weaken the pattern.",
             "",
             "5. Add one pastoral use case and one pastoral rejection case.",
             "   Write a short case where the pattern helps faithful practice, and another where it would become unsafe, glib, coercive, or overconfident. This keeps the report priestly instead of merely impressive.",
@@ -1196,13 +1216,14 @@ def friction_resolution_rollup_lines(records: list[dict]) -> list[str]:
 
 
 def build_article() -> str:
-    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    generated_at = datetime.now(timezone.utc)
+    generated = generated_at.strftime("%Y-%m-%d %H:%M UTC")
     texts = {name: read(path) for name, path in SOURCE_REPORTS.items()}
     digest = read_json(DAILY_DIGEST_PATH)
     reference_catalog = read_json(REFERENCES_PATH)
     knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
     review_audit = read_json(REVIEW_AUDIT_PATH)
-    candidate_pattern = current_candidate_pattern(knowledge_index)
+    candidate_pattern = current_candidate_pattern(knowledge_index, generated_at)
     stats = extract_backend_stats(texts["backend"])
     lane_lines = compact_lane_table(texts["backend"])
     friction_layers = read_friction_layers()
@@ -1285,9 +1306,17 @@ def build_article() -> str:
         "",
         *does_not_prove_lines(does_not_prove),
         "",
-        "## Pattern Found So Far",
+        "## Today's Pattern Focus",
         "",
         f"**Current candidate divine pattern:** {candidate_pattern['candidate']}",
+        "",
+        f"**In plain language:** {candidate_pattern.get('plain', 'The project is testing a pattern in ordinary life without treating it as proof by itself.')}",
+        "",
+        f"**Theologian judgment for ordinary readers:** {candidate_pattern.get('theologian_judgment', 'Theologians should judge this pattern by Scripture, Christ, doctrine, lived fruit, harm safeguards, and honest limits.')}",
+        "",
+        f"**Common-person test:** {candidate_pattern.get('evaluation_question', 'Does this pattern help people love God and neighbor truthfully?')}",
+        "",
+        f"**What would weaken it:** {candidate_pattern.get('weakens_if', 'It weakens if it overclaims, harms people, ignores rival explanations, or outruns the sources.')}",
         "",
         "The clearest movement currently looks like this:",
         "",
@@ -1309,7 +1338,7 @@ def build_article() -> str:
         "",
         "### Latest Cloud Discovery",
         "",
-        *bulletize(latest_cloud_discovery_lines(digest, reference_catalog)),
+        *bulletize(latest_cloud_discovery_lines(digest, reference_catalog, generated_at)),
         "",
         "Newest cloud candidates:",
         "",
@@ -1462,7 +1491,7 @@ def build_short_article() -> str:
     knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
     review_audit = read_json(REVIEW_AUDIT_PATH)
     review_gap_queue = read_json(REVIEW_GAP_QUEUE_PATH)
-    candidate_pattern = current_candidate_pattern(knowledge_index)
+    candidate_pattern = current_candidate_pattern(knowledge_index, generated_at)
     freshness = digest_freshness(digest, generated_at)
     daily_image = generate_daily_pattern_image(candidate_pattern, digest, review_audit, generated_at)
     findings_text = read(Path("reports/divine_pattern_findings.md"))
@@ -1477,7 +1506,13 @@ def build_short_article() -> str:
     science_guardrail = read_layer(SCIENCE_GUARDRAIL_PATH)
 
     finding_lines = []
+    in_pattern_findings = False
     for line in findings_text.splitlines():
+        if line == "## Pattern Findings":
+            in_pattern_findings = True
+            continue
+        if not in_pattern_findings:
+            continue
         if line.startswith("### "):
             finding_lines.append(line.replace("### ", "- "))
         if len(finding_lines) >= 7:
@@ -1506,7 +1541,7 @@ def build_short_article() -> str:
         "",
         f"![Daily pattern image]({daily_image.name})",
         "",
-        f"_Daily visual generated from the current leading finding: {candidate_pattern['name']}._",
+        f"_Daily visual generated from today's rotating focus: {candidate_pattern['name']}._",
         "",
         "## Short Answer",
         "",
@@ -1514,9 +1549,17 @@ def build_short_article() -> str:
         "",
         "The best current posture is: the system finds possible pattern signals, then tests them under Christ, Scripture, doctrine, Church witness, sin-and-distortion review, serious critique, and mystery. Some conclusions should remain unclear.",
         "",
-        "## Current Pattern Found",
+        "## Today's Pattern Focus",
         "",
         f"**Current candidate divine pattern:** {candidate_pattern['candidate']}",
+        "",
+        f"**In plain language:** {candidate_pattern.get('plain', 'The project is testing a pattern in ordinary life without treating it as proof by itself.')}",
+        "",
+        f"**Theologian judgment for ordinary readers:** {candidate_pattern.get('theologian_judgment', 'Theologians should judge this pattern by Scripture, Christ, doctrine, lived fruit, harm safeguards, and honest limits.')}",
+        "",
+        f"**Common-person test:** {candidate_pattern.get('evaluation_question', 'Does this pattern help people love God and neighbor truthfully?')}",
+        "",
+        f"**What would weaken it:** {candidate_pattern.get('weakens_if', 'It weakens if it overclaims, harms people, ignores rival explanations, or outruns the sources.')}",
         "",
         f"**Movement:** {candidate_pattern['movement']}",
         "",
