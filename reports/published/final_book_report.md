@@ -2,7 +2,7 @@
 
 ## Short Book Report
 
-_Generated: 2026-06-24 02:06 UTC_
+_Generated: 2026-06-24 02:24 UTC_
 
 This is the compact reading version. It tells you what the project currently sees, how strong the evidence is, what not to overclaim, and where to look next.
 
@@ -10,8 +10,8 @@ This report is meant to change day to day. When the collector discovers new sour
 
 ## Input Freshness
 
-- Report generated: 2026-06-24 02:06 UTC
-- Collector snapshot used for discovery counts: 2026-06-23 16:30 UTC
+- Report generated: 2026-06-24 02:24 UTC
+- Collector snapshot used for discovery counts: 2026-06-24 02:23 UTC
 - Freshness note: Collector snapshot is current for this UTC day.
 
 ![Daily pattern image](daily_pattern_image_2026-06-24.svg)
@@ -57,18 +57,18 @@ Read the focused pattern report here:
 ## Evidence Status
 
 - candidate lead only: 113
-- developing evidence: 818
+- developing evidence: 855
 - ready for human confidence review: 1
 
 These labels are reading aids, not commands. `candidate_lead` means interesting but early. `developing_evidence` means worth considering carefully. `reviewed_evidence_ready` means it is structured enough for your evaluation.
 
 ## Biggest Current Gaps
 
-- interpretation: 647 rule-present; 613 reviewed companion; 2 machine-drafted; 283 still missing of 932
-- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 283 still missing of 932
-- failure_condition: 648 rule-present; 551 reviewed companion; 1 machine-drafted; 283 still missing of 932
-- machine_label_boundary: 761 rule-present; 0 reviewed companion; 2 machine-drafted; 169 still missing of 932
-- discernment: 748 rule-present; 341 reviewed companion; 0 machine-drafted; 184 still missing of 932
+- interpretation: 648 rule-present; 613 reviewed companion; 2 machine-drafted; 319 still missing of 969
+- analogy: 649 rule-present; 595 reviewed companion; 0 machine-drafted; 320 still missing of 969
+- failure_condition: 648 rule-present; 551 reviewed companion; 1 machine-drafted; 320 still missing of 969
+- machine_label_boundary: 798 rule-present; 0 reviewed companion; 2 machine-drafted; 169 still missing of 969
+- discernment: 758 rule-present; 341 reviewed companion; 0 machine-drafted; 211 still missing of 969
 
 The main gap is not source volume. The main gap is clearer separation between evidence, interpretation, analogy, and failure conditions. Reviewed companions now close the named tracking gaps; they still do not raise confidence unless the original source is checked.
 
@@ -167,7 +167,7 @@ The report is strongest when it tells you exactly where confidence is blocked. B
    Confirm that its evidence, interpretation, counter-reading, failure condition, and pastoral safety are source-specific rather than generic.
 
 2. Fill the largest explicit review gaps.
-   The current biggest gaps are `ecclesial_review` (475 missing), `pastoral_safety` (475 missing), `promotion_restraint` (474 missing), `liturgical_grounding` (474 missing). These are the places where the report most needs clearer human judgment.
+   The current biggest gaps are `ecclesial_review` (512 missing), `pastoral_safety` (512 missing), `promotion_restraint` (510 missing), `liturgical_grounding` (509 missing). These are the places where the report most needs clearer human judgment.
 
 3. Start with the top item in the review queue.
    First queued source: `research_documents/auto_imported_cloud_candidates/book_review_a_more_profound_alleluia_theology_and_worship_in_harmony_ee1c835b96b7.md`. Add source-checked companion notes for: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint.
@@ -184,12 +184,12 @@ The report is strongest when it tells you exactly where confidence is blocked. B
 
 ## Current Corpus Snapshot
 
-- Retained cloud candidate references: 7,721
-- Brand-new candidate references this run: 45
-- New provider mix: OpenAlex: 13, Tavily Search: 13, Crossref: 12, PubMed: 4, Internet Archive: 2, arXiv: 1
-- New routed layers: cultural_inputs: 23, history_inputs: 15, visual_art: 15, deep_sources: 10, all_texts: 9, pattern_tests: 9
-- Media candidates this run: video: 6, image: 2, podcast: 1
-- New leads today: 45
+- Retained cloud candidate references: 7,768
+- Brand-new candidate references this run: 47
+- New provider mix: Crossref: 16, Tavily Search: 13, OpenAlex: 11, Internet Archive: 4, PubMed: 3
+- New routed layers: cultural_inputs: 22, human_stories: 18, visual_art: 18, pattern_tests: 16, psychology_inputs: 13, deep_sources: 12
+- Media candidates this run: image: 9, podcast: 3, video: 3
+- New leads today: 47
 
 - Rated records: 14
 - Supportive after caution/resolution: 6
