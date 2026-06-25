@@ -465,21 +465,71 @@ def daily_theologian(generated: datetime) -> dict:
     return THEOLOGIAN_DAILY_VOICES[generated.date().toordinal() % len(THEOLOGIAN_DAILY_VOICES)]
 
 
-def anglican_1928_reflection(candidate_pattern: dict, lens: dict, theologian: dict | None = None) -> str:
+def daily_anglican_reader(generated: datetime) -> dict:
+    profiles = [
+        {
+            "role": "deaconess",
+            "title": "A Deaconess Prayer Book Reading",
+            "subtitle": "written as a deaconess in the Anglican Church, formed by the 1928 Book of Common Prayer",
+            "desk_image": "a deaconess's parish desk after Morning Prayer",
+            "notebook": "a deaconess's notebook after prayer and service",
+            "verb": "would",
+            "first_person": (
+                "I come to this report as a deaconess in the Anglican Church might come from Morning Prayer "
+                "into parish duty: with Scripture still in the ear, the Prayer Book's order still shaping the "
+                "heart, and ordinary people in view. The work still has research machinery beneath it, but today "
+                "I want the reading to sound less like a parts list and more like a deaconess's notebook after "
+                "prayer, teaching, visitation, and works of mercy."
+            ),
+            "pattern_action": "carry into teaching, visitation, and works of mercy",
+            "vocation_test": (
+                "The Prayer Book trains a deaconess-like reading to ask whether doctrine becomes patient "
+                "instruction, mercy toward the vulnerable, reverence in worship, and practical service."
+            ),
+        },
+        {
+            "role": "priest",
+            "title": "A Priest Prayer Book Reading",
+            "subtitle": "written as an Anglican priest formed by the 1928 Book of Common Prayer",
+            "desk_image": "a priest's desk after Morning Prayer",
+            "notebook": "a priest's notebook after prayer",
+            "verb": "would",
+            "first_person": (
+                "I come to this report as I would come to a desk after Morning Prayer: not looking first for "
+                "novelty, but for truth that can survive confession, Scripture, creed, and the ordinary duties "
+                "of charity. The work still has research machinery beneath it, but today I want the reading to "
+                "sound less like a parts list and more like a priest's notebook after prayer."
+            ),
+            "pattern_action": "test in prayer first, then in conduct",
+            "vocation_test": (
+                "The Prayer Book trains a priestly reading to confess, receive mercy, hear Scripture, come to "
+                "the Table, and then walk in good works."
+            ),
+        },
+    ]
+    return profiles[generated.date().toordinal() % 2]
+
+
+def anglican_1928_reflection(
+    candidate_pattern: dict,
+    lens: dict,
+    reader: dict,
+    theologian: dict | None = None,
+) -> str:
     pattern_name = candidate_pattern.get("name", "this pattern")
     theologian_sentence = ""
     if theologian:
         theologian_sentence = (
-            f" With {theologian['name']} near the desk, he would also listen for "
+            f" With {theologian['name']} near {reader['desk_image']}, this {reader['role']} would also listen for "
             f"{theologian['angle']}, asking whether the pattern has been purified by prayer, "
             "Scripture, and obedient love."
         )
     return (
-        "An Anglican priest shaped by the 1928 Book of Common Prayer would not begin by asking whether "
-        f"{pattern_name} is clever. He would ask how it sounds after confession, Scripture, the creeds, "
-        "the collects, the Holy Communion, and the ordinary offices of prayer. He would want the pattern "
+        f"An Anglican {reader['role']} shaped by the 1928 Book of Common Prayer would not begin by asking whether "
+        f"{pattern_name} is clever. This {reader['role']} would ask how it sounds after confession, Scripture, "
+        "the creeds, the collects, Holy Communion, and the ordinary offices of prayer. The desire would be for the pattern "
         "to become reverence, repentance, charity, and steady duty. Under today's lens of "
-        f"{lens['name']}, he would probably say: test the idea in prayer first, then in conduct; let it "
+        f"{lens['name']}, the counsel would be: {reader['pattern_action']}; let it "
         "make you more truthful at home, more merciful toward the weak, more faithful in worship, and "
         f"less eager to explain what belongs to God.{theologian_sentence}"
     )
@@ -1909,6 +1959,7 @@ def build_short_article() -> str:
     reflection_image = generate_daily_reflection_image(candidate_pattern, generated_at)
     lens = daily_lens(generated_at)
     theologian = daily_theologian(generated_at)
+    reader = daily_anglican_reader(generated_at)
     panel = candidate_pattern.get("theologian_panel", DEFAULT_CANDIDATE_PATTERN["theologian_panel"])
     panel_text = " ".join(panel[:3])
     plain = candidate_pattern.get("plain", DEFAULT_CANDIDATE_PATTERN["plain"])
@@ -1917,12 +1968,12 @@ def build_short_article() -> str:
     response = candidate_pattern.get("faithful_response", DEFAULT_CANDIDATE_PATTERN["faithful_response"])
     response_sentence = response.removeprefix("Today, ").removeprefix("Today ")
     confidence = candidate_pattern.get("confidence_language", DEFAULT_CANDIDATE_PATTERN["confidence_language"])
-    priestly_reflection = anglican_1928_reflection(candidate_pattern, lens, theologian)
+    prayer_book_reflection = anglican_1928_reflection(candidate_pattern, lens, reader, theologian)
     theologian_context = theologian_lane_summary(theologian_report)
     diary_lines = [
-        f"# A Prayer Book Reading Of {candidate_pattern.get('name', 'Today Pattern')}",
+        f"# {reader['title']} Of {candidate_pattern.get('name', 'Today Pattern')}",
         "",
-        f"_A daily book report for {generated_at.strftime('%B %d, %Y')}, written as an Anglican priest formed by the 1928 Book of Common Prayer._",
+        f"_A daily book report for {generated_at.strftime('%B %d, %Y')}, {reader['subtitle']}._",
         "",
         f"![Today's pattern image]({daily_image.name})",
         "",
@@ -1930,7 +1981,7 @@ def build_short_article() -> str:
         "",
         "## Today's Office",
         "",
-        "I come to this report as I would come to a desk after Morning Prayer: not looking first for novelty, but for truth that can survive confession, Scripture, creed, and the ordinary duties of charity. The work still has research machinery beneath it, but today I want the reading to sound less like a parts list and more like a priest's notebook after prayer.",
+        reader["first_person"],
         "",
         f"The daily pattern before me is **{candidate_pattern.get('name', 'the current pattern')}**. In plain speech, I would say it this way: {plain} The movement underneath it is {candidate_pattern['movement']}.",
         "",
@@ -1946,7 +1997,7 @@ def build_short_article() -> str:
         "",
         theologian_context,
         "",
-        f"Today's theologian is **{theologian['name']}**, chosen from the rotating theologian voices gathered for this project. I would let {theologian['name']} stand beside the Prayer Book today because of {theologian['angle']}. {theologian['comment']}",
+        f"Today's theologian is **{theologian['name']}**, chosen from the rotating theologian voices gathered for this project. I would let {theologian['name']} stand beside the Prayer Book and the {reader['role']} voice today because of {theologian['angle']}. {theologian['comment']}",
         "",
         f"The wider theologian panel matters too: {panel_text} Their presence keeps the report from becoming private inspiration. The claim must pass through the Church's grammar: Christ, Scripture, worship, doctrine, repentance, mercy, and visible fruit.",
         "",
@@ -1954,7 +2005,7 @@ def build_short_article() -> str:
         "",
         "## The 1928 Prayer Book Test",
         "",
-        priestly_reflection,
+        prayer_book_reflection,
         "",
         "This is also where the objection belongs. A good Anglican reading should not hurry past the hard question just because the pattern is attractive. Today's objection is plain: "
         + objection,
@@ -1963,7 +2014,7 @@ def build_short_article() -> str:
         "",
         f"What would weaken this pattern is also important: {candidate_pattern.get('weakens_if', DEFAULT_CANDIDATE_PATTERN['weakens_if'])}",
         "",
-        f"So my responsible confidence today is modest: {confidence} That is not a failure of faith. It is part of reverence. The Prayer Book trains a person to confess, receive mercy, hear Scripture, come to the Table, and then walk in good works. It does not train a person to turn every interesting recurrence into certainty.",
+        f"So my responsible confidence today is modest: {confidence} That is not a failure of faith. It is part of reverence. {reader['vocation_test']} It does not train a person to turn every interesting recurrence into certainty.",
         "",
         "## Today's Rule Of Life",
         "",
@@ -1977,7 +2028,7 @@ def build_short_article() -> str:
         "",
         "## Quiet Notes For The Reader",
         "",
-        f"This entry was generated at {generated}. Tomorrow the pattern, the lens, and the theologian may change. The purpose is not to make the report longer; it is to let each day have a coherent spiritual and theological angle.",
+        f"This entry was generated at {generated}. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.",
         "",
         f"Input freshness: {freshness['label']}. {freshness['warning']}",
     ]
