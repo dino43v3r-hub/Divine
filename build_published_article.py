@@ -197,6 +197,29 @@ DEFAULT_CANDIDATE_PATTERN = {
     "counts": {},
 }
 
+PUBLIC_FINAL_HOLDING_PATTERN = {
+    "name": "Waiting For A Public-Final Claim",
+    "movement": "Waiting -> Discernment -> Truthful Silence -> Faithful Readiness",
+    "plain": "No pattern has cleared the full public-final gate yet, so the final report waits rather than turning developing material into a public claim.",
+    "theologian_judgment": "Theologians should receive this pause as part of the project's discipline: a claim that has not passed Scripture, doctrine, pastoral safety, and public-use boundaries should remain quiet.",
+    "evaluation_question": "Can the report stay faithful without filling the silence with a premature claim?",
+    "weakens_if": "It weakens if waiting becomes neglect, or if quietness is used to avoid truth that has actually passed the tests.",
+    "case_study": "A reader opens the final report hoping for a settled public claim, but the system has not found one that passed every public-final boundary. The faithful shape of the day is therefore patience rather than performance.",
+    "theologian_panel": [
+        "Augustine would ask whether restraint is helping love stay rightly ordered.",
+        "Karl Barth would ask whether the project is refusing to speak where God has not given warrant.",
+        "Bonhoeffer would ask whether silence is responsible obedience rather than evasion.",
+    ],
+    "hard_objection": "A reader may want the report to say more. The answer is that the final report should not borrow confidence from material still under review.",
+    "confidence_language": "No public-final claim has been released today; the report is waiting for a claim that has passed every public-use boundary.",
+    "faithful_response": "Today, let truth arrive without forcing it.",
+    "interesting_not_true": "A developing pattern may still be interesting, but the final report only releases what has passed the public-final gate.",
+    "candidate": "No public-final divine-pattern claim has been released today. The project remains attentive, but the polished report keeps developing material backstage until it clears the full gate.",
+    "basis": "No indexed source currently has confidence_tier `public_final_ready`, so the final report withholds public synthesis rather than presenting audit material.",
+    "counts": {},
+    "is_public_final_holding": True,
+}
+
 VISUAL_PROFILES = {
     "Image Of God Pattern": {
         "title": "Image of God",
@@ -704,9 +727,15 @@ def generate_daily_reflection_image(candidate_pattern: dict, generated: datetime
     return image_path
 
 
-def current_candidate_pattern(index: dict, generated_at: datetime | None = None) -> dict:
+def current_candidate_pattern(
+    index: dict,
+    generated_at: datetime | None = None,
+    confidence_tier: str | None = None,
+) -> dict:
     counts = {name: {"documents": 0, "review_notes": 0, "score": 0} for name in TOP_PATTERN_NAMES}
     for document in index.get("documents", []):
+        if confidence_tier and document.get("confidence_tier") != confidence_tier:
+            continue
         patterns = set(document.get("patterns", []))
         for name in TOP_PATTERN_NAMES:
             if name not in patterns:
@@ -748,6 +777,17 @@ def current_candidate_pattern(index: dict, generated_at: datetime | None = None)
     }
     result.update(DAILY_PATTERN_EXTENSIONS.get(top_name, {}))
     return result
+
+
+def current_public_final_pattern(index: dict, generated_at: datetime | None = None) -> dict:
+    pattern = current_candidate_pattern(index, generated_at, confidence_tier="public_final_ready")
+    if pattern.get("name") == DEFAULT_CANDIDATE_PATTERN["name"]:
+        return dict(PUBLIC_FINAL_HOLDING_PATTERN)
+    pattern["basis"] = (
+        pattern["basis"]
+        + " This pattern entered the final report because at least one indexed source is `public_final_ready`."
+    )
+    return pattern
 
 
 def daily_focus_lines(candidate_pattern: dict, include_selection_note: bool = True) -> list[str]:
@@ -1924,8 +1964,7 @@ def build_short_article() -> str:
     reference_catalog = read_json(REFERENCES_PATH)
     knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
     review_audit = read_json(REVIEW_AUDIT_PATH)
-    review_gap_queue = read_json(REVIEW_GAP_QUEUE_PATH)
-    candidate_pattern = current_candidate_pattern(knowledge_index, generated_at)
+    candidate_pattern = current_public_final_pattern(knowledge_index, generated_at)
     freshness = digest_freshness(digest, generated_at)
     daily_image = generate_daily_pattern_image(candidate_pattern, digest, review_audit, generated_at)
     findings_text = read(Path("reports/divine_pattern_findings.md"))

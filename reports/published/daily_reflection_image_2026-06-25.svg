@@ -2,23 +2,23 @@
   <title id="title">Diary page: faithful response</title>
   <desc id="desc">A daily diary page image with notebook paper, margin notes, and an application card.</desc>
   <style>
-    .eyebrow { font: 700 14px Arial, sans-serif; letter-spacing: 0; fill: #253949; opacity: 0.68; }
-    .title { font: 700 32px Georgia, serif; letter-spacing: 0; fill: #253949; }
-    .diary { font: 20px Georgia, serif; letter-spacing: 0; fill: #253949; }
-    .label { font: 700 13px Arial, sans-serif; letter-spacing: 0; fill: #253949; opacity: 0.72; }
+    .eyebrow { font: 700 14px Arial, sans-serif; letter-spacing: 0; fill: #263d3f; opacity: 0.68; }
+    .title { font: 700 32px Georgia, serif; letter-spacing: 0; fill: #263d3f; }
+    .diary { font: 20px Georgia, serif; letter-spacing: 0; fill: #263d3f; }
+    .label { font: 700 13px Arial, sans-serif; letter-spacing: 0; fill: #263d3f; opacity: 0.72; }
     .cardtitle { font: 700 22px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; }
     .cardtext { font: 16px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; opacity: 0.94; }
-    .small { font: 14px Arial, sans-serif; letter-spacing: 0; fill: #253949; opacity: 0.70; }
+    .small { font: 14px Arial, sans-serif; letter-spacing: 0; fill: #263d3f; opacity: 0.70; }
   </style>
-  <rect width="900" height="540" fill="#eef4f7"/>
-  <rect x="0" y="0" width="900" height="540" fill="#253949" opacity="0.05"/>
+  <rect width="900" height="540" fill="#f2f0e8"/>
+  <rect x="0" y="0" width="900" height="540" fill="#263d3f" opacity="0.05"/>
   <g transform="rotate(-1 340 270)">
-    <rect x="82" y="54" width="520" height="430" rx="10" fill="#fffdf7" stroke="#253949" stroke-width="2" opacity="0.96"/>
-    <rect x="82" y="54" width="58" height="430" rx="10" fill="#8a5a83" opacity="0.20"/>
-    <line x1="142" y1="72" x2="142" y2="466" stroke="#4d7890" stroke-width="2" opacity="0.40"/>
-    <line x1="124" y1="126" x2="576" y2="126" stroke="#253949" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="158" x2="576" y2="158" stroke="#253949" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="190" x2="576" y2="190" stroke="#253949" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="222" x2="576" y2="222" stroke="#253949" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="254" x2="576" y2="254" stroke="#253949" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="286" x2="576" y2="286" stroke="#253949" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="318" x2="576" y2="318" stroke="#253949" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="350" x2="576" y2="350" stroke="#253949" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="382" x2="576" y2="382" stroke="#253949" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="414" x2="576" y2="414" stroke="#253949" stroke-width="1.4" opacity="0.18"/>
+    <rect x="82" y="54" width="520" height="430" rx="10" fill="#fffdf7" stroke="#263d3f" stroke-width="2" opacity="0.96"/>
+    <rect x="82" y="54" width="58" height="430" rx="10" fill="#8d4d62" opacity="0.20"/>
+    <line x1="142" y1="72" x2="142" y2="466" stroke="#ad6f43" stroke-width="2" opacity="0.40"/>
+    <line x1="124" y1="126" x2="576" y2="126" stroke="#263d3f" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="158" x2="576" y2="158" stroke="#263d3f" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="190" x2="576" y2="190" stroke="#263d3f" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="222" x2="576" y2="222" stroke="#263d3f" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="254" x2="576" y2="254" stroke="#263d3f" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="286" x2="576" y2="286" stroke="#263d3f" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="318" x2="576" y2="318" stroke="#263d3f" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="350" x2="576" y2="350" stroke="#263d3f" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="382" x2="576" y2="382" stroke="#263d3f" stroke-width="1.4" opacity="0.18"/><line x1="124" y1="414" x2="576" y2="414" stroke="#263d3f" stroke-width="1.4" opacity="0.18"/>
     <text x="166" y="96" class="eyebrow">Research diary | June 25, 2026</text>
-    <text x="166" y="126" class="title">Providence and Contingency</text>
+    <text x="166" y="126" class="title">Gift and Faithfulness</text>
     <text x="146" y="146" class="label">Question I carried</text>
     <text x="104" y="108" class="title">25</text>
   </g>
@@ -28,11 +28,11 @@
     <text x="146" y="342" class="diary">The visual points toward one concrete</text><text x="146" y="370" class="diary">response instead of a finished theory.</text>
   </g>
   <g transform="rotate(1 714 306)">
-    <rect x="606" y="176" width="232" height="206" rx="24" fill="#8a5a83" opacity="0.94"/>
+    <rect x="606" y="176" width="232" height="206" rx="24" fill="#8d4d62" opacity="0.94"/>
     <circle cx="798" cy="216" r="18" fill="#ffffff" opacity="0.22"/>
     <text x="638" y="226" class="cardtitle">Carry this</text>
-  <text x="638" y="278" class="cardtext">Today, act faithfully</text><text x="638" y="302" class="cardtext">without explaining</text><text x="638" y="326" class="cardtext">everything.</text>
+  <text x="638" y="278" class="cardtext">Today, let truth arrive</text><text x="638" y="302" class="cardtext">without forcing it.</text>
   </g>
-  <path d="M664 430 C706 404 766 408 810 442" fill="none" stroke="#253949" stroke-width="4" opacity="0.18"/>
+  <path d="M664 430 C706 404 766 408 810 442" fill="none" stroke="#263d3f" stroke-width="4" opacity="0.18"/>
   <text x="606" y="470" class="small">This image is a diary page, not a pattern map.</text>
 </svg>

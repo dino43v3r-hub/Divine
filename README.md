@@ -235,6 +235,12 @@ Read `reports/published/final_book_report.md` directly on GitHub. It is the
 published synthesis. The other report files are build inputs and audit trails,
 not the preferred reading experience.
 
+The published synthesis is gated by `public_final_ready`. Sources that clear the
+research stress test and public-use boundary rules enter the final report
+automatically. Sources that have not cleared the full gate remain in the
+backstage audit and discovery reports so the final report can keep its book-like
+reading voice.
+
 ## Cloud Reference Collection
 
 ```powershell
