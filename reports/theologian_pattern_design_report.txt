@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 91
-Total theologian words analyzed: 22,036
+Theologian documents analyzed: 93
+Total theologian words analyzed: 22,371
 
 Era Coverage
 ------------
@@ -24,30 +24,30 @@ Concept Coverage
 - Christology: 174
 - Theodicy And Suffering: 164
 - Creation: 151
-- Trinity: 137
+- Trinity: 138
 - Grace And Transformation: 104
-- Pneumatology: 100
+- Pneumatology: 102
 - Church And Practice: 88
 - Justice And Public Life: 85
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 611
+- Father: 622
 - Son: 207
-- Holy Spirit: 188
+- Holy Spirit: 192
 
 Layer Comparison
 ----------------
 - Physical Order: theologians 150 | broader corpus 2,631
 - Mathematical Structure: theologians 4 | broader corpus 637
-- Mathematical Theophany: theologians 171 | broader corpus 1,229
-- Quantum Probability: theologians 2 | broader corpus 172
-- Life And Consciousness: theologians 259 | broader corpus 5,901
-- Meaning And Logos: theologians 103 | broader corpus 6,065
-- Moral Response: theologians 109 | broader corpus 2,455
+- Mathematical Theophany: theologians 174 | broader corpus 1,238
+- Quantum Probability: theologians 2 | broader corpus 171
+- Life And Consciousness: theologians 266 | broader corpus 5,919
+- Meaning And Logos: theologians 103 | broader corpus 6,074
+- Moral Response: theologians 109 | broader corpus 2,459
 - Worship And Community: theologians 158 | broader corpus 1,594
-- Transformation: theologians 291 | broader corpus 2,215
+- Transformation: theologians 294 | broader corpus 2,220
 
 Per-Source Findings
 -------------------
@@ -227,6 +227,17 @@ Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
+
+changing_pattern_of_interethnic_conflict_and_mediation_between_the_hamar_and_daa_9a1659b829f6.md
+------------------------------------------------------------------------------------------------
+Words: 192
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 chapter_five_big_women_small_girls_82175a1e0829.md
 --------------------------------------------------
@@ -458,6 +469,17 @@ Meaning arc:
 - Opening: Creation And Order (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+interpreting_charismatic_experience_hypnosis_altered_states_of_consciousness_and_9cd9c978166e.md
+------------------------------------------------------------------------------------------------
+Words: 143
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (2)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
 
 introduction_5eb1c80425a7.md
 ----------------------------
