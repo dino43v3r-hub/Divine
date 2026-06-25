@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 
-QUEUE_PATH = Path("reports/review_gap_queue.json")
+QUEUE_PATH = Path("reports/evidence_testing_queue.json")
 OUTPUT_JSON_PATH = Path("research_documents/reviewed_gap_companions.json")
 OUTPUT_MD_PATH = Path("research_documents/reviewed_gap_companions.md")
 
@@ -15,6 +15,99 @@ TARGET_RULES = [
     "failure_condition",
     "discernment",
 ]
+
+MANUAL_REVIEW_OVERRIDES = {
+    "research_documents/auto_imported_cloud_candidates/antinatalism_extinction_and_the_end_of_procreative_self_corruption_18bb38c26427.md": {
+        "review_status": "source_note_reviewed_original_source_not_checked",
+        "confidence_effect": "does_not_raise_confidence_alone",
+        "review_note": (
+            "This is the first evidence-testing workbench example. The local source note and metadata were reviewed, "
+            "but the original Cambridge source has not been checked. These fields clarify why the source should remain "
+            "a candidate/developing research item until original-source review is completed."
+        ),
+        "reviewed_fields": {
+            "interpretation": (
+                "Interpretation: The local source note identifies this as a 2024 Cambridge University Press book on "
+                "antinatalism, extinction, and procreative self-corruption. For Divine Pattern work, it should be read "
+                "as a philosophical pressure source about suffering, procreation, extinction, and the moral status of "
+                "bringing persons into existence. It does not by itself support a Christian doctrine of creation, family, "
+                "or providence."
+            ),
+            "discernment": (
+                "Discernment: Before this source can affect confidence, a reviewer should check the original source, "
+                "identify the authors' thesis and argument structure, distinguish description from endorsement, and ask "
+                "whether the source is being used as a hard objection rather than as positive theological evidence."
+            ),
+            "analogy": (
+                "Analogy: Any connection to Divine Pattern claims is adversarial and diagnostic, not proof-bearing. "
+                "The source may help test whether Christian language about life, dignity, suffering, and hope has become "
+                "glib, but it must not be absorbed into a Christian pattern as though antinatalism itself confirms the pattern."
+            ),
+            "failure_condition": (
+                "Failure condition: The source should be rejected or narrowed for this project if original-source review "
+                "shows it is only tangentially related to the queued question, if the metadata summary misstates the book, "
+                "or if the project uses it to caricature antinatalism instead of answering its strongest moral objection."
+            ),
+            "pastoral_safety": (
+                "Pastoral safety: This source touches procreation, extinction, suffering, and the value of life, so public "
+                "use could harm infertile people, parents, children, disabled people, depressed readers, or people grieving "
+                "loss if handled carelessly. It should be used only as a pressure test, never as pressure toward shame, despair, "
+                "or simplistic procreation claims."
+            ),
+            "ecclesial_review": (
+                "Ecclesial review: Any public use needs pastoral and theological review from someone able to test claims about "
+                "creation, personhood, suffering, marriage/family, vocation, and hope without turning the source into either "
+                "a straw opponent or an unexamined authority."
+            ),
+            "liturgical_grounding": (
+                "Liturgical grounding: If this source shapes public language, the response should be grounded in prayer, "
+                "baptismal dignity, lament, confession, burial hope, and Eucharistic thanksgiving rather than in abstract "
+                "argument alone."
+            ),
+            "promotion_restraint": (
+                "Promotion restraint: Keep this source backstage as a pressure test until the original book is checked and "
+                "a reviewer can state the smallest supportable claim. It should not become public-final evidence from metadata."
+            ),
+            "scripture_anchor": (
+                "Scripture anchor: Potential anchors to test later include Genesis 1, Psalm 139, Job, Ecclesiastes, Romans 8, "
+                "and John 1, but no Scripture anchor is approved until the original source has been read against the exact claim."
+            ),
+            "doctrinal_fit": (
+                "Doctrinal fit: Any Christian response must preserve creation as gift, human dignity, the reality of suffering, "
+                "the Fall, redemption in Christ, and resurrection hope. This source currently tests those claims; it does not "
+                "establish them."
+            ),
+            "no_unresolved_pastoral_harm": (
+                "No unresolved pastoral harm: Not cleared. The subject matter remains pastorally sensitive and should stay out "
+                "of public-final use until harm scenarios are reviewed."
+            ),
+            "no_abuse_enabling_language": (
+                "No abuse-enabling language: Not cleared. A reviewer must ensure the project does not use this source to shame "
+                "parents, childless people, vulnerable children, or people in despair."
+            ),
+            "no_science_overclaim": (
+                "No science overclaim: The local note identifies a philosophical book, not scientific proof. Do not use it for "
+                "demographic, biological, ecological, or psychological claims without separate qualified sources."
+            ),
+            "no_comparative_flattening": (
+                "No comparative flattening: Not directly a comparative-religion source. If Buddhist, pessimistic, secular, or "
+                "other traditions enter the discussion, represent them on their own terms."
+            ),
+            "does_not_prove_boundary": (
+                "Does-not-prove boundary: This source does not prove or disprove the Divine Pattern. At most, after source review, "
+                "it can test whether Christian claims about life and hope survive serious moral objections about suffering."
+            ),
+            "plain_language_public_summary": (
+                "Plain-language public summary: This source asks whether bringing life into existence can be morally defended "
+                "in a world of suffering. The project should treat that as a hard question, not as a slogan."
+            ),
+            "final_promotion_restraint": (
+                "Final promotion restraint: Do not mark public-final. The original source has not been checked, and the pastoral "
+                "risk review is not complete."
+            ),
+        },
+    }
+}
 
 LANE_INTERPRETATION = {
     "biblical_languages": "Use the language observation to discipline exegesis; do not treat a lexeme, grammar feature, or translation contrast as a complete doctrine by itself.",
@@ -135,6 +228,25 @@ def build_companions(queue_payload: dict) -> list[dict]:
         )
         companion["reviewed_fields"].update(fields)
         companion_by_path[path] = companion
+
+    for path, override in MANUAL_REVIEW_OVERRIDES.items():
+        companion = companion_by_path.get(
+            path,
+            {
+                "path": path,
+                "title": "",
+                "lane": "",
+                "review_status": "",
+                "confidence_effect": "",
+                "review_note": "",
+                "reviewed_fields": {},
+            },
+        )
+        companion["review_status"] = override["review_status"]
+        companion["confidence_effect"] = override["confidence_effect"]
+        companion["review_note"] = override["review_note"]
+        companion["reviewed_fields"].update(override["reviewed_fields"])
+        companion_by_path[path] = companion
     return sorted(companion_by_path.values(), key=lambda record: record.get("path", ""))
 
 
@@ -145,7 +257,7 @@ def build_markdown(companions: list[dict]) -> str:
         "",
         f"_Generated: {generated}_",
         "",
-        "These records fill the largest explicit review gaps with source-specific judgment fields. They are not machine-drafted placeholders, but most are metadata/lane-level judgments rather than original-source checks.",
+        "These records fill explicit review gaps with source-specific judgment fields. They are not machine-drafted placeholders, but most are metadata/lane-level or source-note judgments rather than original-source checks.",
         "",
         "Policy: these companions reduce missing review-control counts. They do not raise confidence by themselves unless a later reviewer marks the original source as checked.",
         "",

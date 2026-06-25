@@ -1,6 +1,6 @@
 # Evidence Testing Queue
 
-_Generated: 2026-06-25 15:27 UTC_
+_Generated: 2026-06-25 15:34 UTC_
 
 This is the project's source-by-source testing backlog. It explains which sources still need research evidence testing before they can strengthen a claim, and which reviewed sources still need public-use testing before they can become final public evidence.
 
@@ -54,54 +54,54 @@ Passing the research test can move a source toward `reviewed_evidence_ready`. Pa
 
 ## Missing Test Counts In This Queue
 
-- pastoral_safety: 574
-- ecclesial_review: 575
-- liturgical_grounding: 573
-- promotion_restraint: 574
-- interpretation: 380
-- analogy: 381
-- failure_condition: 381
-- discernment: 257
-- machine_label_boundary: 169
+- pastoral_safety: 573
+- ecclesial_review: 574
+- liturgical_grounding: 572
+- promotion_restraint: 573
+- interpretation: 0
+- analogy: 0
+- failure_condition: 0
+- discernment: 0
+- machine_label_boundary: 170
 - evidence: 101
 - counter_reading: 43
 - practical_use: 33
 
 Public-final test gaps:
 
-- scripture_anchor: 1027
-- doctrinal_fit: 1029
-- no_unresolved_pastoral_harm: 1030
-- no_abuse_enabling_language: 1030
-- no_science_overclaim: 983
-- no_comparative_flattening: 1024
+- scripture_anchor: 1026
+- doctrinal_fit: 1028
+- no_unresolved_pastoral_harm: 1029
+- no_abuse_enabling_language: 1029
+- no_science_overclaim: 982
+- no_comparative_flattening: 1023
 - does_not_prove_boundary: 1013
-- plain_language_public_summary: 1029
-- final_promotion_restraint: 1030
+- plain_language_public_summary: 1028
+- final_promotion_restraint: 1029
 
 ## Companion Coverage Already Created
 
-- pastoral_safety: 2 reviewed companion; 407 machine-drafted; 573 still missing
-- ecclesial_review: 1 reviewed companion; 449 machine-drafted; 573 still missing
-- liturgical_grounding: 1 reviewed companion; 429 machine-drafted; 571 still missing
-- promotion_restraint: 1 reviewed companion; 441 machine-drafted; 572 still missing
-- interpretation: 613 reviewed companion; 2 machine-drafted; 380 still missing
-- analogy: 595 reviewed companion; 0 machine-drafted; 381 still missing
-- failure_condition: 551 reviewed companion; 1 machine-drafted; 381 still missing
-- discernment: 341 reviewed companion; 0 machine-drafted; 257 still missing
-- machine_label_boundary: 0 reviewed companion; 2 machine-drafted; 169 still missing
+- pastoral_safety: 3 reviewed companion; 407 machine-drafted; 572 still missing
+- ecclesial_review: 2 reviewed companion; 449 machine-drafted; 572 still missing
+- liturgical_grounding: 2 reviewed companion; 429 machine-drafted; 570 still missing
+- promotion_restraint: 2 reviewed companion; 441 machine-drafted; 571 still missing
+- interpretation: 993 reviewed companion; 2 machine-drafted; 0 still missing
+- analogy: 976 reviewed companion; 0 machine-drafted; 0 still missing
+- failure_condition: 932 reviewed companion; 1 machine-drafted; 0 still missing
+- discernment: 598 reviewed companion; 0 machine-drafted; 0 still missing
+- machine_label_boundary: 0 reviewed companion; 2 machine-drafted; 170 still missing
 - evidence: 0 reviewed companion; 2 machine-drafted; 101 still missing
 - counter_reading: 0 reviewed companion; 1 machine-drafted; 43 still missing
 - practical_use: 0 reviewed companion; 0 machine-drafted; 33 still missing
-- scripture_anchor: 0 reviewed companion; 0 machine-drafted; 1,027 still missing
-- doctrinal_fit: 0 reviewed companion; 0 machine-drafted; 1,029 still missing
-- no_unresolved_pastoral_harm: 0 reviewed companion; 0 machine-drafted; 1,030 still missing
-- no_abuse_enabling_language: 0 reviewed companion; 0 machine-drafted; 1,030 still missing
-- no_science_overclaim: 0 reviewed companion; 0 machine-drafted; 983 still missing
-- no_comparative_flattening: 0 reviewed companion; 0 machine-drafted; 1,024 still missing
-- does_not_prove_boundary: 0 reviewed companion; 0 machine-drafted; 1,013 still missing
-- plain_language_public_summary: 0 reviewed companion; 0 machine-drafted; 1,029 still missing
-- final_promotion_restraint: 0 reviewed companion; 0 machine-drafted; 1,030 still missing
+- scripture_anchor: 1 reviewed companion; 0 machine-drafted; 1,026 still missing
+- doctrinal_fit: 1 reviewed companion; 0 machine-drafted; 1,028 still missing
+- no_unresolved_pastoral_harm: 1 reviewed companion; 0 machine-drafted; 1,029 still missing
+- no_abuse_enabling_language: 1 reviewed companion; 0 machine-drafted; 1,029 still missing
+- no_science_overclaim: 1 reviewed companion; 0 machine-drafted; 982 still missing
+- no_comparative_flattening: 1 reviewed companion; 0 machine-drafted; 1,023 still missing
+- does_not_prove_boundary: 1 reviewed companion; 0 machine-drafted; 1,013 still missing
+- plain_language_public_summary: 1 reviewed companion; 0 machine-drafted; 1,028 still missing
+- final_promotion_restraint: 1 reviewed companion; 0 machine-drafted; 1,029 still missing
 
 ## Machine-Drafted Source-Check Queue
 
@@ -336,35 +336,7 @@ Public-final test gaps:
 
 ## Highest Priority Sources
 
-### 1. Antinatalism, Extinction, and the End of Procreative Self-Corruption
-
-- Path: `research_documents/auto_imported_cloud_candidates/antinatalism_extinction_and_the_end_of_procreative_self_corruption_18bb38c26427.md`
-- Lane: research_documents
-- Current tier: developing_evidence
-- Next gate: research_evidence_test
-- Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
-
-Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
-- pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
-- ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
-- liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
-- promotion_restraint: Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?
-- scripture_anchor: What Scripture text or biblical theme anchors, limits, or corrects this claim?
-- doctrinal_fit: How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?
-- no_unresolved_pastoral_harm: What pastoral harm risk has been checked, and what risk would still block public use?
-- no_abuse_enabling_language: Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?
-- no_science_overclaim: Does this avoid using science, math, probability, or psychology as proof beyond its proper scope?
-- no_comparative_flattening: If another tradition appears, has it been represented on its own terms before Christian comparison?
-- does_not_prove_boundary: What does this evidence not prove, even if the pattern is interesting or useful?
-- plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
-- final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
-
-### 2. Book Review: A More Profound Alleluia: Theology and Worship in Harmony
+### 1. Book Review: A More Profound Alleluia: Theology and Worship in Harmony
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_a_more_profound_alleluia_theology_and_worship_in_harmony_ee1c835b96b7.md`
 - Lane: research_documents
@@ -388,20 +360,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 3. Book Review: A Study in Methodology
+### 2. Book Review: A Study in Methodology
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_a_study_in_methodology_e88ec6efdfaf.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -416,7 +384,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 4. Book Review: An Essay on Theological Method
+### 3. Book Review: An Essay on Theological Method
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_an_essay_on_theological_method_ff441bcf058d.md`
 - Lane: research_documents
@@ -440,20 +408,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 5. Book Review: Comparative Religion . An Introductory and Historical Survey
+### 4. Book Review: Comparative Religion . An Introductory and Historical Survey
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_comparative_religion_an_introductory_and_historical_survey_e156e2b49cb8.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -468,7 +432,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 6. Book Review: ‘Going Forth’
+### 5. Book Review: ‘Going Forth’
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_going_forth_d9656294612c.md`
 - Lane: research_documents
@@ -492,20 +456,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 7. Book Review: Hymns in Christian Worship
+### 6. Book Review: Hymns in Christian Worship
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_hymns_in_christian_worship_65976d57e64f.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -520,20 +480,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 8. Book Review: Let God be God
+### 7. Book Review: Let God be God
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_let_god_be_god_b99d94a38385.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -548,20 +504,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 9. Book Review: Liturgy of the Ordinary: Sacred Practices in Everyday Life
+### 8. Book Review: Liturgy of the Ordinary: Sacred Practices in Everyday Life
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_liturgy_of_the_ordinary_sacred_practices_in_everyday_life_661657c6dee3.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -576,20 +528,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 10. Book Review: The God of Love and Human Dignity: Essays in honour of George M. Newlands
+### 9. Book Review: The God of Love and Human Dignity: Essays in honour of George M. Newlands
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_the_god_of_love_and_human_dignity_essays_in_honour_of_george_m_newla_fb256b700a32.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -604,20 +552,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 11. Book Review: The Identity of Anglican Worship
+### 10. Book Review: The Identity of Anglican Worship
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_the_identity_of_anglican_worship_a2f57d80c584.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -632,20 +576,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 12. Book Review: The Torah's Vision of Worship
+### 11. Book Review: The Torah's Vision of Worship
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_the_torah_s_vision_of_worship_d562a8a235f8.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -660,20 +600,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 13. Book Review: To Relieve the Human Condition: Bioethics, Technology, and the Body
+### 12. Book Review: To Relieve the Human Condition: Bioethics, Technology, and the Body
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_to_relieve_the_human_condition_bioethics_technology_and_the_body_984c2d03d738.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -688,20 +624,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 14. Book Review: Visual Faith
+### 13. Book Review: Visual Faith
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_visual_faith_01090f22266f.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -716,7 +648,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 15. Book Review: Worship
+### 14. Book Review: Worship
 
 - Path: `research_documents/auto_imported_cloud_candidates/book_review_worship_028544e6278f.md`
 - Lane: research_documents
@@ -740,20 +672,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 16. Chance, Divine Action, and the Natural Order of Things
+### 15. Chance, Divine Action, and the Natural Order of Things
 
 - Path: `research_documents/auto_imported_cloud_candidates/chance_divine_action_and_the_natural_order_of_things_310bffe1b9c3.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -768,20 +696,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 17. Church Unity and Social Contexts: The Ecumenical Debate on Ecclesiology and Ethics
+### 16. Church Unity and Social Contexts: The Ecumenical Debate on Ecclesiology and Ethics
 
 - Path: `research_documents/auto_imported_cloud_candidates/church_unity_and_social_contexts_the_ecumenical_debate_on_ecclesiology_and_ethic_1f58a5ac9f62.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -796,20 +720,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 18. Comparative Theology after Religion?
+### 17. Comparative Theology after Religion?
 
 - Path: `research_documents/auto_imported_cloud_candidates/comparative_theology_after_religion_d8cbba3fe76f.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -824,7 +744,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 19. Comparative Theology and Interreligious Dialogue
+### 18. Comparative Theology and Interreligious Dialogue
 
 - Path: `research_documents/auto_imported_cloud_candidates/comparative_theology_and_interreligious_dialogue_62f8629a337d.md`
 - Lane: research_documents
@@ -848,7 +768,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 20. CONCLUSION
+### 19. CONCLUSION
 
 - Path: `research_documents/auto_imported_cloud_candidates/conclusion_cce9a6cdef65.md`
 - Lane: research_documents
@@ -872,7 +792,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 21. Consciousness and agency in Plotinus
+### 20. Consciousness and agency in Plotinus
 
 - Path: `research_documents/auto_imported_cloud_candidates/consciousness_and_agency_in_plotinus_7534cf22283f.md`
 - Lane: research_documents
@@ -896,7 +816,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 22. Contingency and Providence: Aristotle and Augustine
+### 21. Contingency and Providence: Aristotle and Augustine
 
 - Path: `research_documents/auto_imported_cloud_candidates/contingency_and_providence_aristotle_and_augustine_bedaec80430e.md`
 - Lane: research_documents
@@ -920,20 +840,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 23. Deaf in the Image of the Deaf God
+### 22. Deaf in the Image of the Deaf God
 
 - Path: `research_documents/auto_imported_cloud_candidates/deaf_in_the_image_of_the_deaf_god_425c4fd721f3.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -948,7 +864,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 24. Decolonising epistemology within a (southern) African context: Teaching and learning towards transformation at Stellenbosch University
+### 23. Decolonising epistemology within a (southern) African context: Teaching and learning towards transformation at Stellenbosch University
 
 - Path: `research_documents/auto_imported_cloud_candidates/decolonising_epistemology_within_a_southern_african_context_teaching_and_learnin_cff558f3b889.md`
 - Lane: research_documents
@@ -972,7 +888,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 25. Diaries
+### 24. Diaries
 
 - Path: `research_documents/auto_imported_cloud_candidates/diaries_605ef7d823e9.md`
 - Lane: research_documents
@@ -996,20 +912,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 26. Disability as a Boundary Object
+### 25. Disability as a Boundary Object
 
 - Path: `research_documents/auto_imported_cloud_candidates/disability_as_a_boundary_object_37f5fbf79062.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -1024,19 +936,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 27. Discerning Providence: How the Reign of God in Liberation Theology Explicates Divine Struggle as a Feature of Providence
+### 26. Discerning Providence: How the Reign of God in Liberation Theology Explicates Divine Struggle as a Feature of Providence
 
 - Path: `research_documents/auto_imported_cloud_candidates/discerning_providence_how_the_reign_of_god_in_liberation_theology_explicates_div_aadf3f3571eb.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -1051,20 +960,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 28. Energy Ethics: a Literature Review
+### 27. Energy Ethics: a Literature Review
 
 - Path: `research_documents/auto_imported_cloud_candidates/energy_ethics_a_literature_review_0fc320c1ce06.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -1079,20 +984,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 29. Enrique Dussel and Liberation Theology
+### 28. Enrique Dussel and Liberation Theology
 
 - Path: `research_documents/auto_imported_cloud_candidates/enrique_dussel_and_liberation_theology_cd1bb05694a6.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -1107,20 +1008,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 30. Environmental Care in Islam: A Quranic Perspective
+### 29. Environmental Care in Islam: A Quranic Perspective
 
 - Path: `research_documents/auto_imported_cloud_candidates/environmental_care_in_islam_a_quranic_perspective_1f86e7fbefd3.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -1135,19 +1032,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 31. Epistemic Injustice: Power and the Ethics of Knowing - Miranda Fricker
+### 30. Epistemic Injustice: Power and the Ethics of Knowing - Miranda Fricker
 
 - Path: `research_documents/auto_imported_cloud_candidates/epistemic_injustice_power_and_the_ethics_of_knowing_miranda_fricker_db681ec337c1.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -1162,7 +1056,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 32. Epistemology
+### 31. Epistemology
 
 - Path: `research_documents/auto_imported_cloud_candidates/epistemology_4698c4ff9497.md`
 - Lane: research_documents
@@ -1186,7 +1080,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 33. Eternity
+### 32. Eternity
 
 - Path: `research_documents/auto_imported_cloud_candidates/eternity_7884cf7f71ae.md`
 - Lane: research_documents
@@ -1210,20 +1104,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 34. Falsification: On the Role of the Empirical in J. G. Fichte’s Transcendental Method
+### 33. Falsification: On the Role of the Empirical in J. G. Fichte’s Transcendental Method
 
 - Path: `research_documents/auto_imported_cloud_candidates/falsification_on_the_role_of_the_empirical_in_j_g_fichte_s_transcendental_method_c5fcb239b4ef.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -1238,19 +1128,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 35. God Meets us in Our Suffering: Hope and Encouragement for Those Journeying Through Cancer
+### 34. God Meets us in Our Suffering: Hope and Encouragement for Those Journeying Through Cancer
 
 - Path: `research_documents/auto_imported_cloud_candidates/god_meets_us_in_our_suffering_hope_and_encouragement_for_those_journeying_throug_2e5667a72c64.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -1265,7 +1152,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 36. God’s Suffering in the Hindu-Christian Gaze
+### 35. God’s Suffering in the Hindu-Christian Gaze
 
 - Path: `research_documents/auto_imported_cloud_candidates/god_s_suffering_in_the_hindu_christian_gaze_07e12cf7bd24.md`
 - Lane: research_documents
@@ -1289,20 +1176,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 37. II. Popular Theology
+### 36. II. Popular Theology
 
 - Path: `research_documents/auto_imported_cloud_candidates/ii_popular_theology_1696923f29e6.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -1317,20 +1200,16 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 38. In Case of Spiritual Emergency
+### 37. In Case of Spiritual Emergency
 
 - Path: `research_documents/auto_imported_cloud_candidates/in_case_of_spiritual_emergency_492543555b16.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
@@ -1345,7 +1224,7 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 39. Incarnational Speech
+### 38. Incarnational Speech
 
 - Path: `research_documents/auto_imported_cloud_candidates/incarnational_speech_1949cfd9863d.md`
 - Lane: research_documents
@@ -1369,20 +1248,40 @@ Fill prompts:
 - plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
 - final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
 
-### 40. Introduction
+### 39. Introduction
 
 - Path: `research_documents/auto_imported_cloud_candidates/introduction_1a5716b94e03.md`
 - Lane: research_documents
 - Current tier: developing_evidence
 - Next gate: research_evidence_test
 - Patterns: none detected
-- Missing: interpretation, discernment, analogy, failure_condition, pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
 
 Fill prompts:
-- interpretation: What Christian theological reading is being proposed from that evidence?
-- discernment: What still needs prayerful, communal, accountable testing?
-- analogy: Is this only an analogy, comparison, or sign-reading rather than proof?
-- failure_condition: What would weaken, narrow, or reject this claim?
+- pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
+- ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
+- liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
+- promotion_restraint: Why should this stay research-only, analogy-only, developing, reviewed-ready, or blocked rather than being overpromoted?
+- scripture_anchor: What Scripture text or biblical theme anchors, limits, or corrects this claim?
+- doctrinal_fit: How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?
+- no_unresolved_pastoral_harm: What pastoral harm risk has been checked, and what risk would still block public use?
+- no_abuse_enabling_language: Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?
+- no_science_overclaim: Does this avoid using science, math, probability, or psychology as proof beyond its proper scope?
+- no_comparative_flattening: If another tradition appears, has it been represented on its own terms before Christian comparison?
+- does_not_prove_boundary: What does this evidence not prove, even if the pattern is interesting or useful?
+- plain_language_public_summary: How can this be stated plainly for ordinary readers without inflating confidence?
+- final_promotion_restraint: Why is this ready, or not ready, to shape a public-facing claim?
+
+### 40. Introduction: On Theological Hermeneutics and Theological Method
+
+- Path: `research_documents/auto_imported_cloud_candidates/introduction_on_theological_hermeneutics_and_theological_method_c5b75fd47a3c.md`
+- Lane: research_documents
+- Current tier: developing_evidence
+- Next gate: research_evidence_test
+- Patterns: none detected
+- Missing: pastoral_safety, ecclesial_review, liturgical_grounding, promotion_restraint, scripture_anchor, doctrinal_fit, no_unresolved_pastoral_harm, no_abuse_enabling_language, no_science_overclaim, no_comparative_flattening, does_not_prove_boundary, plain_language_public_summary, final_promotion_restraint
+
+Fill prompts:
 - pastoral_safety: Would this claim be safe beside a hospital bed, at a funeral, in confession, or with someone harmed by religious authority?
 - ecclesial_review: What pastoral, theological, source, harm-safety, or tradition-aware review is needed before public use?
 - liturgical_grounding: How does this remain accountable to baptism, Eucharist, confession, anointing, funerals, the church year, or daily prayer without reducing worship to symbolism?
