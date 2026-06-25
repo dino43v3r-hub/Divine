@@ -109,6 +109,69 @@ REVIEW_RULES = {
         "not settle truth",
         "none_until_human_review",
     ],
+    "scripture_anchor": [
+        "scripture anchor",
+        "scriptural anchor",
+        "biblical grounding",
+        "scripture anchoring",
+        "primary written witness",
+    ],
+    "doctrinal_fit": [
+        "doctrinal fit",
+        "creedal fit",
+        "creedal doctrine",
+        "christological testing",
+        "church witness",
+    ],
+    "no_unresolved_pastoral_harm": [
+        "no unresolved pastoral harm",
+        "pastoral harm risk cleared",
+        "safe for sufferers",
+        "protects the harmed",
+        "protects vulnerable people",
+    ],
+    "no_abuse_enabling_language": [
+        "no abuse-enabling language",
+        "does not protect abusers",
+        "does not hide abuse",
+        "victim protection",
+        "protection and justice",
+    ],
+    "no_science_overclaim": [
+        "no science overclaim",
+        "science guardrail",
+        "not proof",
+        "does not prove",
+        "science cannot prove",
+    ],
+    "no_comparative_flattening": [
+        "no comparative flattening",
+        "honors other traditions",
+        "on its own terms",
+        "does not flatten other religions",
+        "comparative-religion claim",
+    ],
+    "does_not_prove_boundary": [
+        "does not prove",
+        "no mathematical proof",
+        "no replacement for scripture",
+        "no erasure of mystery",
+        "does not defeat every rival explanation",
+    ],
+    "plain_language_public_summary": [
+        "plain-language public summary",
+        "ordinary readers",
+        "reader-facing",
+        "plain meaning",
+        "public summary",
+    ],
+    "final_promotion_restraint": [
+        "final promotion restraint",
+        "public-final",
+        "public_final_ready",
+        "final public claim",
+        "public use restraints",
+    ],
 }
 
 PROMOTION_REQUIRED_RULES = [
@@ -126,9 +189,24 @@ PROMOTION_REQUIRED_RULES = [
     "machine_label_boundary",
 ]
 
+PUBLIC_FINAL_REQUIRED_RULES = [
+    "scripture_anchor",
+    "doctrinal_fit",
+    "no_unresolved_pastoral_harm",
+    "no_abuse_enabling_language",
+    "no_science_overclaim",
+    "no_comparative_flattening",
+    "does_not_prove_boundary",
+    "plain_language_public_summary",
+    "final_promotion_restraint",
+]
+
 CONFIDENCE_TIER_RULES = {
+    "public_final_ready": (
+        "Source has cleared the reviewed-evidence stress test and all public-use boundaries, so the backend auto-promotes it to public_final_ready. This is a publication-readiness tier, not a replacement for Scripture, doctrine, prayer, or accountable pastoral judgment.",
+    ),
     "reviewed_evidence_ready": (
-        "Source has all source-review and priestly promotion-gate rules visible; it is ready for human confidence review, not automatically promoted.",
+        "Source has all source-review and priestly promotion-gate rules visible, so the backend auto-promotes it to reviewed evidence ready. Public or devotional use still requires the public-final boundary rules.",
     ),
     "developing_evidence": (
         "Source has evidence and a counter-reading, but still lacks one or more source-review or priestly promotion-gate controls.",
@@ -360,6 +438,8 @@ def confidence_tier(document):
     if document["modality"] != "text" and "needs_mllm_or_human_review" in document["media_review_status"]:
         return "media_pending_review"
     if all(rules.get(rule) for rule in PROMOTION_REQUIRED_RULES):
+        if all(rules.get(rule) for rule in PUBLIC_FINAL_REQUIRED_RULES):
+            return "public_final_ready"
         return "reviewed_evidence_ready"
     if rules.get("evidence") and rules.get("counter_reading"):
         return "developing_evidence"
@@ -379,6 +459,10 @@ def promotion_blockers(document):
     blockers = [
         rule for rule in PROMOTION_REQUIRED_RULES if not document["rules_present"].get(rule)
     ]
+    if not blockers and document["confidence_tier"] == "reviewed_evidence_ready":
+        blockers.extend(
+            rule for rule in PUBLIC_FINAL_REQUIRED_RULES if not document["rules_present"].get(rule)
+        )
     if document.get("review_companion_rules") and document.get(
         "review_companion_confidence_effect"
     ) != "source_checked_can_inform_confidence":
@@ -664,9 +748,10 @@ def build_review_audit(documents):
     document_count = len(documents) or 1
     return {
         "backend": "review_rules",
-        "review_policy": "machine checks route attention; human review decides confidence",
-        "promotion_policy": "No source strengthens a claim until all promotion-required rules are present and a human reviewer records a source-specific decision.",
+        "review_policy": "machine checks route attention; source-specific review fields decide whether a source clears the stress test",
+        "promotion_policy": "Auto-promote a source to reviewed_evidence_ready when all research stress-test rules are present and any companion fields are source-checked. Then auto-promote to public_final_ready only when the public-final boundary rules are also present. Machine-drafted fields and unreviewed media still cannot raise confidence.",
         "promotion_required_rules": PROMOTION_REQUIRED_RULES,
+        "public_final_required_rules": PUBLIC_FINAL_REQUIRED_RULES,
         "confidence_tier_rules": {
             tier: description[0] for tier, description in CONFIDENCE_TIER_RULES.items()
         },
@@ -687,6 +772,7 @@ def build_review_audit(documents):
                 "total": int(document_count),
             }
             for rule in PROMOTION_REQUIRED_RULES
+            + PUBLIC_FINAL_REQUIRED_RULES
         },
         "lane_totals": {
             lane: dict(counter) for lane, counter in sorted(lane_totals.items())
@@ -853,7 +939,7 @@ def create_backend_report(index, graph, audit, multimodal_manifest):
         "Confidence Tiers",
         "----------------",
         "Reviewer: Are these tiers final verdicts?",
-        "Backend: No. They sort review work. Only source-specific human decisions can promote a claim.",
+        "Backend: No. They sort review work. When a source passes every research stress-test rule, I auto-promote it to reviewed_evidence_ready. When it also passes every public-use boundary, I auto-promote it to public_final_ready.",
         *tier_lines,
         "",
         "Promotion Rule Coverage",

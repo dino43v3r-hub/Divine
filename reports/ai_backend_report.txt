@@ -43,8 +43,8 @@ Corpus Summary
 - Indexed documents: 1030
 - Indexed text documents: 1030
 - Indexed media assets: 0
-- Graph nodes: 1066
-- Graph edges: 7670
+- Graph nodes: 1075
+- Graph edges: 7745
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
@@ -77,7 +77,7 @@ Backend: Here is the lane map. High counts are invitations to review more carefu
 Confidence Tiers
 ----------------
 Reviewer: Are these tiers final verdicts?
-Backend: No. They sort review work. Only source-specific human decisions can promote a claim.
+Backend: No. They sort review work. When a source passes every research stress-test rule, I auto-promote it to reviewed_evidence_ready. When it also passes every public-use boundary, I auto-promote it to public_final_ready.
 - candidate_lead: 113 documents
 - developing_evidence: 916 documents
 - reviewed_evidence_ready: 1 documents
@@ -97,6 +97,15 @@ Backend: These counts show where the next review pass should focus before source
 - liturgical_grounding: 30 rule-present; 1 reviewed companion; 429 machine-drafted; 571 still missing of 1030
 - promotion_restraint: 17 rule-present; 1 reviewed companion; 441 machine-drafted; 572 still missing of 1030
 - machine_label_boundary: 859 rule-present; 0 reviewed companion; 2 machine-drafted; 169 still missing of 1030
+- scripture_anchor: 3 rule-present; 0 reviewed companion; 0 machine-drafted; 1027 still missing of 1030
+- doctrinal_fit: 1 rule-present; 0 reviewed companion; 0 machine-drafted; 1029 still missing of 1030
+- no_unresolved_pastoral_harm: 0 rule-present; 0 reviewed companion; 0 machine-drafted; 1030 still missing of 1030
+- no_abuse_enabling_language: 0 rule-present; 0 reviewed companion; 0 machine-drafted; 1030 still missing of 1030
+- no_science_overclaim: 47 rule-present; 0 reviewed companion; 0 machine-drafted; 983 still missing of 1030
+- no_comparative_flattening: 6 rule-present; 0 reviewed companion; 0 machine-drafted; 1024 still missing of 1030
+- does_not_prove_boundary: 17 rule-present; 0 reviewed companion; 0 machine-drafted; 1013 still missing of 1030
+- plain_language_public_summary: 1 rule-present; 0 reviewed companion; 0 machine-drafted; 1029 still missing of 1030
+- final_promotion_restraint: 0 rule-present; 0 reviewed companion; 0 machine-drafted; 1030 still missing of 1030
 
 Promotion Blockers
 ------------------
@@ -104,15 +113,24 @@ Backend: These blockers are the most practical to-do list for researchers.
 - analogy: 25 example document(s) queued
 - counter_reading: 25 example document(s) queued
 - discernment: 25 example document(s) queued
+- doctrinal_fit: 1 example document(s) queued
+- does_not_prove_boundary: 1 example document(s) queued
 - ecclesial_review: 25 example document(s) queued
 - evidence: 25 example document(s) queued
 - failure_condition: 25 example document(s) queued
+- final_promotion_restraint: 1 example document(s) queued
 - interpretation: 25 example document(s) queued
 - liturgical_grounding: 25 example document(s) queued
 - machine_label_boundary: 25 example document(s) queued
+- no_abuse_enabling_language: 1 example document(s) queued
+- no_comparative_flattening: 1 example document(s) queued
+- no_science_overclaim: 1 example document(s) queued
+- no_unresolved_pastoral_harm: 1 example document(s) queued
 - pastoral_safety: 25 example document(s) queued
+- plain_language_public_summary: 1 example document(s) queued
 - practical_use: 25 example document(s) queued
 - promotion_restraint: 25 example document(s) queued
+- scripture_anchor: 1 example document(s) queued
 - source_check_machine_draft: 25 example document(s) queued
 - source_check_review_companion: 25 example document(s) queued
 
@@ -147,6 +165,15 @@ Backend: They tell us where the project is learning caution. Missing rules mark 
 - liturgical_grounding: 30 documents
 - promotion_restraint: 17 documents
 - machine_label_boundary: 859 documents
+- scripture_anchor: 3 documents
+- doctrinal_fit: 1 documents
+- no_unresolved_pastoral_harm: 0 documents
+- no_abuse_enabling_language: 0 documents
+- no_science_overclaim: 47 documents
+- no_comparative_flattening: 6 documents
+- does_not_prove_boundary: 17 documents
+- plain_language_public_summary: 1 documents
+- final_promotion_restraint: 0 documents
 
 Practical-Theology Gate
 -----------------------

@@ -1,6 +1,6 @@
 # Divine Patterns Found
 
-_Generated: 2026-06-24 02:35 UTC_
+_Generated: 2026-06-25 14:28 UTC_
 
 This report is intentionally simple: it shows the divine-pattern signals the system currently finds, explains why they surfaced, and leaves evaluation to you.
 
@@ -8,9 +8,12 @@ The labels are not commands. They are reading aids:
 
 - `candidate signal`: interesting, but early.
 - `developing evidence`: enough structure to consider carefully.
-- `ready for your evaluation`: enough controls are present that you can weigh it directly.
+- `ready for your evaluation`: required stress-test controls are present, so the backend auto-promoted it to reviewed-evidence-ready.
+- `public final ready`: reviewed evidence plus public-use boundaries are present, so the backend auto-promoted it for public-facing use.
 
 It is designed to change day to day when the collector, analyzer, and backend discover or re-index new material.
+
+Auto-promotion is staged: research stress-test success becomes reviewed-evidence-ready; public-facing use requires the extra public-final boundary rules.
 
 ## Priestly Discernment Gate
 
@@ -32,59 +35,60 @@ Promotion restraints:
 
 ## Today's Pattern Focus
 
-### Trinity-As-Behavior Pattern
+### Cross And Reversal Pattern
 
 **Status:** developing evidence
 
-**Plain meaning:** The project sees Christian doctrine becoming practical: receive life as gift, follow Christ's redemption, and test transformation by the Spirit's fruit.
+**Plain meaning:** The corpus repeatedly notices reversal: power judged by humility, suffering faced through truth, and hope shaped by the cross and resurrection.
 
-**Today case study:** A church confesses orthodox doctrine while its common life is anxious, competitive, controlling, and unkind.
+**Today case study:** A harmed person is pressured to forgive quickly so others can feel peace, while truth, safety, and repair are still missing.
 
 **Theologian panel:**
 
-- Gregory Nazianzen: Are Father, Son, and Spirit confessed without confusion or division?
-- Augustine: Does doctrine train love rather than curiosity alone?
-- Karl Barth: Does the pattern begin with God's self-revelation instead of human analogy?
-- Zizioulas, Jennings, or Oduyoye: Does communion become concrete hospitality, justice, and belonging?
+- Augustine: Is peace being confused with avoidance?
+- Luther: Is the cross exposing false power rather than baptizing it?
+- Bonhoeffer: Has forgiveness become cheap grace without repentance?
+- Cone or Williams: Does cross-language liberate the oppressed or ask them to endure more violence?
 
-**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether Father, Son, and Spirit remain distinct and united while the practical fruit stays accountable to Scripture, creed, and worship.
+**Theologian judgment for ordinary readers:** Theologians should judge this pattern by whether it keeps the cross centered on Christ without romanticizing pain or asking victims to carry injustice quietly.
 
-**Hard objection:** This can flatten the Trinity into behavior advice unless doctrine remains first and behavior is treated as fruit.
+**Hard objection:** Christians have often used suffering language to silence victims, so careless versions of this pattern are spiritually dangerous.
 
-**Common-person test:** Does this pattern preserve Father, Son, and Spirit while producing love, humility, holiness, unity, and service?
+**Common-person test:** Does this pattern tell the truth about harm while still inviting mercy, justice, and hope?
 
-**Confidence in plain English:** Developing evidence: fruitful as a practical test, risky if it becomes mere symbolism.
+**Confidence in plain English:** Beautiful but risky: powerful with justice and protection, unsafe without them.
 
-**What would weaken it:** It turns the Trinity into vague symbolism, group emotion, authoritarian control, modalism, or tritheism.
+**What would weaken it:** It romanticizes suffering, protects abusers, or asks victims to accept harm without justice.
 
-**Faithful response today:** Test one belief by whether it produces humility, love, and service.
+**Faithful response today:** Tell the truth about harm without using mercy to erase justice.
 
-**Why interesting is not the same as true:** Practical fruit matters, but usefulness is not revelation; the pattern must remain accountable to Scripture, creed, and worship.
+**Why interesting is not the same as true:** Reversal is compelling, but beauty is not proof; the pattern must be judged by whether it follows Christ and protects the harmed.
 
-**Why it surfaced:** 9 indexed document(s), 9 declared review note(s).
+**Why it surfaced:** 8 indexed document(s), 8 declared review note(s).
 
 ## What Changed In The Latest Discovery Run
 
-- new candidate references: 45
-- new routed layers: cultural_inputs: 23, history_inputs: 15, visual_art: 15, deep_sources: 10, all_texts: 9, pattern_tests: 9
-- new provider mix: OpenAlex: 13, Tavily Search: 13, Crossref: 12, PubMed: 4, Internet Archive: 2, arXiv: 1
-- new media candidates: video: 6, image: 2, podcast: 1
-- new evidence labels: strong_scholarly_candidate: 24, weak_scholarly_candidate: 12, moderate_scholarly_candidate: 8, do_not_strengthen_claim: 1
-- latest collector update: 2026-06-23T16:30:21.284797+00:00
+- new candidate references: 31
+- new routed layers: deep_sources: 11, all_texts: 8, cultural_inputs: 8, human_stories: 8, psychology_inputs: 8, pattern_tests: 7
+- new provider mix: Crossref: 15, OpenAlex: 12, Europe PMC: 2, PubMed: 2
+- new media candidates: podcast: 1, video: 1
+- new evidence labels: strong_scholarly_candidate: 23, moderate_scholarly_candidate: 8
+- latest collector update: 2026-06-24T16:21:18.712867+00:00
 
 Newest source leads:
 
-- Lectures on the Doctrine of Justification (2001) | OpenAlex | strong_scholarly_candidate | routes: theologians, research_documents
-- Ted Lasso and Lament (2026) | Crossref | moderate_scholarly_candidate | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-- A Universal Two--Bit Gate for Quantum Computation (1995) | arXiv | moderate_scholarly_candidate | routes: deep_sources, pattern_tests
-- How quantum brain biology can rescue conscious free will (2012) | OpenAlex | strong_scholarly_candidate | routes: deep_sources, pattern_tests
-- NMC Learning at Home: Math and Music—Harmony and Ratios (Part 2) (n.d.) | Tavily Search | weak_scholarly_candidate | routes: music_notes, deep_sources, visual_art
+- The Nicene-Constantinopolitan Creed in Sanskrit: Digital and Historical-Religious Analysis of William Hodge Mill’s Translation of the Words “Holy Spirit” (2025) | Crossref | strong_scholarly_candidate | routes: theologians, research_documents, history_inputs, world_languages
+- CULTURAL CONSIDERATIONS IN GRIEF CARE (2022) | Crossref | moderate_scholarly_candidate | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Trauma and Transformation at Ground Zero (2011) | Crossref | moderate_scholarly_candidate | routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- The neural basis of pitch and harmony in the auditory system (2006) | OpenAlex | strong_scholarly_candidate | routes: music_notes, deep_sources
+- The taste of music. (2011) | PubMed | strong_scholarly_candidate | routes: music_notes, deep_sources
 
 ## Current Evidence Mix
 
 - candidate leads: 113
-- developing evidence: 818
+- developing evidence: 916
 - ready for your evaluation: 1
+- public final ready: 0
 
 ## Pattern Findings
 

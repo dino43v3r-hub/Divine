@@ -179,6 +179,8 @@ def read_json(path: Path) -> dict:
 
 
 def confidence_phrase(tiers: Counter) -> str:
+    if tiers.get("public_final_ready", 0):
+        return "public final ready"
     if tiers.get("reviewed_evidence_ready", 0):
         return "ready for your evaluation"
     if tiers.get("developing_evidence", 0):
@@ -210,6 +212,7 @@ def make_pattern_rows(index: dict) -> list[dict]:
         )
     rows.sort(
         key=lambda row: (
+            row["tiers"].get("public_final_ready", 0),
             row["tiers"].get("reviewed_evidence_ready", 0),
             row["tiers"].get("developing_evidence", 0),
             row["documents"],
@@ -302,9 +305,12 @@ def build_report() -> str:
         "",
         "- `candidate signal`: interesting, but early.",
         "- `developing evidence`: enough structure to consider carefully.",
-        "- `ready for your evaluation`: enough controls are present that you can weigh it directly.",
+        "- `ready for your evaluation`: required stress-test controls are present, so the backend auto-promoted it to reviewed-evidence-ready.",
+        "- `public final ready`: reviewed evidence plus public-use boundaries are present, so the backend auto-promoted it for public-facing use.",
         "",
         "It is designed to change day to day when the collector, analyzer, and backend discover or re-index new material.",
+        "",
+        "Auto-promotion is staged: research stress-test success becomes reviewed-evidence-ready; public-facing use requires the extra public-final boundary rules.",
         "",
     ]
 
@@ -391,6 +397,7 @@ def build_report() -> str:
                 f"- candidate leads: {int(totals.get('candidate_lead', 0)):,}",
                 f"- developing evidence: {int(totals.get('developing_evidence', 0)):,}",
                 f"- ready for your evaluation: {int(totals.get('reviewed_evidence_ready', 0)):,}",
+                f"- public final ready: {int(totals.get('public_final_ready', 0)):,}",
                 "",
             ]
         )

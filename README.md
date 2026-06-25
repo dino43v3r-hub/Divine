@@ -172,13 +172,24 @@ The audit also reports confidence tiers and promotion blockers:
 candidate_lead
 developing_evidence
 reviewed_evidence_ready
+public_final_ready
 media_pending_review
 ```
 
 These are research routing labels, not verdicts. A source strengthens a claim
-only after a human reviewer records source-specific evidence, interpretation,
-discernment, analogy, practical use, counter-reading, failure condition, and
-machine-label boundary.
+only after source-specific review records evidence, interpretation,
+discernment, analogy, practical use, counter-reading, failure condition,
+pastoral safety, ecclesial review, liturgical grounding, promotion restraint,
+and machine-label boundary.
+
+When all required stress-test fields are present, the backend auto-promotes the
+source to `reviewed_evidence_ready`. Machine-drafted fields and unreviewed media
+cannot raise confidence. A second automatic gate promotes a source to
+`public_final_ready` only after these public-use boundaries are also present:
+Scripture anchor, doctrinal fit, no unresolved pastoral harm, no abuse-enabling
+language, no science overclaim, no comparative-religion flattening, a clear
+does-not-prove boundary, a plain-language public summary, and final promotion
+restraint.
 
 For normal use, read `reports/divine_pattern_findings.md`. It is designed to
 tell you which divine patterns the system currently finds, why they surfaced,
