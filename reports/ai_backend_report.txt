@@ -10,13 +10,14 @@ Reviewer: Are you deciding what is true?
 Backend: No. I route attention. Human review still decides whether a source can affect confidence.
 
 Reviewer: What should I be most careful about?
-Backend: Repeated signals can feel persuasive before they are disciplined. I keep asking for evidence, interpretation, discernment, analogy, practical use, counter-readings, and failure conditions.
+Backend: Repeated signals can feel persuasive before they are disciplined. I keep asking for source-specific evidence testing before research confidence, and public-use testing before final public evidence.
 
 Generated Artifacts
 -------------------
 - Retrieval index: `reports/knowledge_retrieval_index.json`
 - Knowledge graph: `reports/knowledge_graph.json`
 - Review-rule audit: `reports/review_rules_audit.json`
+- Evidence testing queue: `reports/evidence_testing_queue.md`
 - Multimodal review manifest: `reports/multimodal_review_manifest.json`
 - Machine-drafted review companions: `research_documents/machine_drafted_review_companions.json`
 - Backend report: `reports/ai_backend_report.txt`
@@ -30,7 +31,7 @@ Reviewer: Then what?
 Backend: It follows graph edges from documents to lanes, patterns, pressure tests, and review rules.
 
 Reviewer: And before the claim gets stronger?
-Backend: It checks the audit for missing counter-readings, failure conditions, and practical-use boundaries.
+Backend: It checks the evidence testing queue for missing counter-readings, failure conditions, practical-use boundaries, and public-final safety controls.
 
 Reviewer: What about automated evidence labels?
 Backend: They are triage lights, not verdicts. Green means review me, not believe me.
@@ -77,14 +78,14 @@ Backend: Here is the lane map. High counts are invitations to review more carefu
 Confidence Tiers
 ----------------
 Reviewer: Are these tiers final verdicts?
-Backend: No. They sort review work. When a source passes every research stress-test rule, I auto-promote it to reviewed_evidence_ready. When it also passes every public-use boundary, I auto-promote it to public_final_ready.
+Backend: No. They sort review work. When a source passes every research evidence-test rule, I auto-promote it to reviewed_evidence_ready. When it also passes every public-final evidence-test rule, I auto-promote it to public_final_ready.
 - candidate_lead: 113 documents
 - developing_evidence: 916 documents
 - reviewed_evidence_ready: 1 documents
 
 Promotion Rule Coverage
 -----------------------
-Backend: These counts show where the next review pass should focus before sources strengthen claims.
+Backend: These counts show where the evidence testing queue should focus before sources strengthen claims or become final public evidence.
 - evidence: 927 rule-present; 0 reviewed companion; 2 machine-drafted; 101 still missing of 1030
 - interpretation: 648 rule-present; 613 reviewed companion; 2 machine-drafted; 380 still missing of 1030
 - discernment: 773 rule-present; 341 reviewed companion; 0 machine-drafted; 257 still missing of 1030

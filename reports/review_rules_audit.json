@@ -73206,7 +73206,7 @@
       "research_documents/auto_imported_cloud_candidates/book_review_truth_and_method_ad281438fd07.md"
     ]
   },
-  "promotion_policy": "Auto-promote a source to reviewed_evidence_ready when all research stress-test rules are present and any companion fields are source-checked. Then auto-promote to public_final_ready only when the public-final boundary rules are also present. Machine-drafted fields and unreviewed media still cannot raise confidence.",
+  "promotion_policy": "Auto-promote a source to reviewed_evidence_ready when all research evidence-test rules are present and any companion fields are source-checked. Then auto-promote to public_final_ready only when the public-final evidence-test rules are also present. Machine-drafted fields and unreviewed media still cannot raise confidence.",
   "promotion_required_rules": [
     "evidence",
     "interpretation",
@@ -73232,7 +73232,7 @@
     "plain_language_public_summary",
     "final_promotion_restraint"
   ],
-  "review_policy": "machine checks route attention; source-specific review fields decide whether a source clears the stress test",
+  "review_policy": "machine checks route attention; the evidence testing queue names the missing source-specific tests; source-checked review fields decide whether a source clears the research stress test",
   "rule_coverage": {
     "analogy": {
       "machine_drafted": 0,

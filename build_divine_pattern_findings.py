@@ -304,13 +304,13 @@ def build_report() -> str:
         "The labels are not commands. They are reading aids:",
         "",
         "- `candidate signal`: interesting, but early.",
-        "- `developing evidence`: enough structure to consider carefully.",
-        "- `ready for your evaluation`: required stress-test controls are present, so the backend auto-promoted it to reviewed-evidence-ready.",
-        "- `public final ready`: reviewed evidence plus public-use boundaries are present, so the backend auto-promoted it for public-facing use.",
+        "- `developing evidence`: enough structure to enter evidence testing.",
+        "- `ready for your evaluation`: required research evidence-test controls are present, so the backend auto-promoted it to reviewed-evidence-ready.",
+        "- `public final ready`: reviewed evidence plus public-final evidence-test boundaries are present, so the backend auto-promoted it for public-facing use.",
         "",
         "It is designed to change day to day when the collector, analyzer, and backend discover or re-index new material.",
         "",
-        "Auto-promotion is staged: research stress-test success becomes reviewed-evidence-ready; public-facing use requires the extra public-final boundary rules.",
+        "Auto-promotion is staged: the evidence testing queue is the backlog; research evidence-test success becomes reviewed-evidence-ready; public-facing use requires the extra public-final evidence-test rules.",
         "",
     ]
 

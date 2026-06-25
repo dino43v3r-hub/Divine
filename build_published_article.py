@@ -13,7 +13,7 @@ REFERENCES_PATH = Path("references/references.json")
 DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
 KNOWLEDGE_INDEX_PATH = Path("reports/knowledge_retrieval_index.json")
 REVIEW_AUDIT_PATH = Path("reports/review_rules_audit.json")
-REVIEW_GAP_QUEUE_PATH = Path("reports/review_gap_queue.json")
+REVIEW_GAP_QUEUE_PATH = Path("reports/evidence_testing_queue.json")
 FRICTION_LAYERS_PATH = Path("research_documents/friction_layers.json")
 THEOLOGICAL_FOUNDATIONS_PATH = Path("research_documents/theological_foundations.json")
 REVELATION_LAYER_PATH = Path("research_documents/revelation_layer.json")
@@ -35,7 +35,7 @@ SCIENCE_GUARDRAIL_PATH = Path("research_documents/science_guardrail_layer.json")
 
 SOURCE_REPORTS = {
     "findings": Path("reports/divine_pattern_findings.md"),
-    "gap_queue": Path("reports/review_gap_queue.md"),
+    "gap_queue": Path("reports/evidence_testing_queue.md"),
     "backend": Path("reports/ai_backend_report.txt"),
     "summary": Path("reports/divine_pattern_summary_report.txt"),
     "top_patterns": Path("reports/top_five_divine_patterns_report.txt"),
@@ -947,7 +947,7 @@ def next_step_lines(audit: dict, queue_payload: dict, candidate_pattern: dict) -
         lines.extend(
             [
                 "1. Move one source from `developing_evidence` to `reviewed_evidence_ready`.",
-                f"   Right now the project has {developing:,} developing-evidence records and {ready:,} ready-for-review records. Pick one important source connected to `{candidate_pattern.get('name', 'the leading pattern')}` and complete every required control by hand.",
+                f"   Right now the project has {developing:,} developing-evidence records and {ready:,} reviewed-evidence-ready records. Pick one important source connected to `{candidate_pattern.get('name', 'the leading pattern')}` and complete every research evidence-test control by hand.",
                 "",
             ]
         )
@@ -955,7 +955,7 @@ def next_step_lines(audit: dict, queue_payload: dict, candidate_pattern: dict) -
         lines.extend(
             [
                 "1. Re-check the strongest ready-for-review source.",
-                "   Confirm that its evidence, interpretation, counter-reading, failure condition, and pastoral safety are source-specific rather than generic.",
+                "   Confirm that its evidence, interpretation, counter-reading, failure condition, pastoral safety, and public-final boundary fields are source-specific rather than generic.",
                 "",
             ]
         )
@@ -975,7 +975,7 @@ def next_step_lines(audit: dict, queue_payload: dict, candidate_pattern: dict) -
         missing = ", ".join(top.get("missing_rules", [])[:5]) or "review controls"
         lines.extend(
             [
-                "3. Start with the top item in the review queue.",
+                "3. Start with the top item in the evidence testing queue.",
                 f"   First queued source: `{top.get('path', '')}`. Add source-checked companion notes for: {missing}.",
                 "",
             ]

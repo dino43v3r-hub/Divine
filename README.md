@@ -152,6 +152,7 @@ reports/multimodal_review_manifest.json
 reports/ai_backend_report.txt
 reports/divine_pattern_findings.md
 reports/review_gap_queue.md
+reports/evidence_testing_queue.md
 research_documents/machine_drafted_review_companions.json
 reports/combined_web_article.md
 reports/combined_web_article.html
@@ -177,15 +178,16 @@ media_pending_review
 ```
 
 These are research routing labels, not verdicts. A source strengthens a claim
-only after source-specific review records evidence, interpretation,
+only after source-specific evidence testing records evidence, interpretation,
 discernment, analogy, practical use, counter-reading, failure condition,
 pastoral safety, ecclesial review, liturgical grounding, promotion restraint,
 and machine-label boundary.
 
-When all required stress-test fields are present, the backend auto-promotes the
-source to `reviewed_evidence_ready`. Machine-drafted fields and unreviewed media
-cannot raise confidence. A second automatic gate promotes a source to
-`public_final_ready` only after these public-use boundaries are also present:
+When all required research evidence-test fields are present, the backend
+auto-promotes the source to `reviewed_evidence_ready`. Machine-drafted fields
+and unreviewed media cannot raise confidence. A second automatic gate promotes a
+source to `public_final_ready` only after these public-final evidence-test
+boundaries are also present:
 Scripture anchor, doctrinal fit, no unresolved pastoral harm, no abuse-enabling
 language, no science overclaim, no comparative-religion flattening, a clear
 does-not-prove boundary, a plain-language public summary, and final promotion
@@ -196,8 +198,21 @@ tell you which divine patterns the system currently finds, why they surfaced,
 what could weaken them, and what question you may want to evaluate for yourself.
 
 If the book report says many fields are missing, read
-`reports/review_gap_queue.md`. It explains why the fields are missing and which
-sources should receive structured review companions first.
+`reports/evidence_testing_queue.md` or its compatibility alias
+`reports/review_gap_queue.md`. This queue is the central workbench for moving
+sources through:
+
+```text
+candidate source
+-> evidence testing queue
+-> source-specific research review
+-> reviewed_evidence_ready
+-> public-final evidence testing
+-> public_final_ready
+```
+
+It explains why the fields are missing, which gate is next, and which sources
+should receive structured review companions first.
 
 `build_machine_drafted_review_companions.py` can create machine-drafted companion
 fields for the queued gaps. Those fields close review-tracking coverage, but
@@ -232,11 +247,11 @@ python build_combined_report_article.py
 ```
 
 Read `reports/published/final_book_report.md` directly on GitHub. It is the
-published synthesis. The other report files are build inputs and audit trails,
-not the preferred reading experience.
+published synthesis. The other report files are build inputs, evidence-testing
+workbenches, and audit trails, not the preferred reading experience.
 
 The published synthesis is gated by `public_final_ready`. Sources that clear the
-research stress test and public-use boundary rules enter the final report
+research evidence test and public-final evidence-test rules enter the final report
 automatically. Sources that have not cleared the full gate remain in the
 backstage audit and discovery reports so the final report can keep its book-like
 reading voice.
