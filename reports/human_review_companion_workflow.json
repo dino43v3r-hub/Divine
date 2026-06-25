@@ -1,0 +1,171 @@
+{
+  "daily_limit": 5,
+  "flagship_pattern": "Image Of God Pattern",
+  "generated_at": "2026-06-25T16:18:31.017782+00:00",
+  "items": [
+    {
+      "confidence_tier": "reviewed_evidence_ready",
+      "fill_prompts": {
+        "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+        "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+        "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+        "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+        "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+        "no_science_overclaim": "Does this avoid using science, math, probability, or psychology as proof beyond its proper scope?",
+        "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+        "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+        "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+      },
+      "lane": "research_documents",
+      "machine_drafted_rules": [
+        "ecclesial_review",
+        "liturgical_grounding",
+        "pastoral_safety",
+        "promotion_restraint"
+      ],
+      "missing_public_final_rules": [
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "missing_research_test_rules": [],
+      "missing_rules": [
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "next_gate": "public_final_evidence_test",
+      "path": "research_documents/source_packs/image_of_god_pattern_pack.md",
+      "patterns": [
+        "Image Of God Pattern"
+      ],
+      "review_note_count": 1,
+      "title": "Source Pack: Image Of God Pattern",
+      "workflow_type": "missing_review_fields"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
+      "machine_drafted_rules": [
+        "ecclesial_review",
+        "promotion_restraint"
+      ],
+      "missing_rules": [],
+      "path": "research_documents/reviewed_source_packs.md",
+      "patterns": [
+        "Image Of God Pattern",
+        "Cross And Reversal Pattern",
+        "Creation-To-Consciousness Pattern",
+        "Trinity-As-Behavior Pattern",
+        "Providence And Contingency Pattern",
+        "Mathematical Theophany Pattern"
+      ],
+      "source_check_prompt": "Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.",
+      "title": "Reviewed Source Packs",
+      "workflow_type": "source_check_machine_draft"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
+      "machine_drafted_rules": [
+        "ecclesial_review",
+        "liturgical_grounding",
+        "pastoral_safety",
+        "promotion_restraint"
+      ],
+      "missing_rules": [],
+      "path": "research_documents/next_research_expansion_tracker.md",
+      "patterns": [
+        "Image Of God Pattern",
+        "Cross And Reversal Pattern",
+        "Creation-To-Consciousness Pattern",
+        "Trinity-As-Behavior Pattern",
+        "Providence And Contingency Pattern"
+      ],
+      "source_check_prompt": "Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.",
+      "title": "Next Research Expansion Tracker",
+      "workflow_type": "source_check_machine_draft"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "history_inputs",
+      "machine_drafted_rules": [
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "missing_rules": [],
+      "path": "history_inputs/reviewed_growth_batch_2026_05_27.md",
+      "patterns": [
+        "Image Of God Pattern"
+      ],
+      "source_check_prompt": "Read the original source or primary artifact directly, replace any generic machine-drafted fields with source-specific notes, and only then mark whether the companion can inform confidence.",
+      "title": "Reviewed History-Inputs Growth Batch, 2026-05-27",
+      "workflow_type": "source_check_machine_draft"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "fill_prompts": {
+        "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+        "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+        "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+        "machine_label_boundary": "What should the machine label not be allowed to settle?",
+        "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+        "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+        "no_science_overclaim": "Does this avoid using science, math, probability, or psychology as proof beyond its proper scope?",
+        "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+        "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+        "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+      },
+      "lane": "research_documents",
+      "machine_drafted_rules": [],
+      "missing_public_final_rules": [
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "missing_research_test_rules": [
+        "machine_label_boundary"
+      ],
+      "missing_rules": [
+        "machine_label_boundary",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "next_gate": "research_evidence_test",
+      "path": "research_documents/auto_imported_cloud_candidates/application_of_the_pcr_method_to_detect_the_falsification_of_sheep_milk_with_goa_c8de0c94f99a.md",
+      "patterns": [
+        "Image Of God Pattern"
+      ],
+      "review_note_count": 2,
+      "title": "Application of the PCR method to detect the falsification of sheep milk with goat milk",
+      "workflow_type": "missing_review_fields"
+    }
+  ],
+  "source_queue": "reports/evidence_testing_queue.json"
+}

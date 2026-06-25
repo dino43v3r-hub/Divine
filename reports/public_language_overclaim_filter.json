@@ -1,0 +1,915 @@
+{
+  "findings": [
+    {
+      "context": "s before Christian interpretation? **What would weaken it:** It flattens other religions into hidden Christianity or uses them as props. **Example source routes:** - `research_documents/source_packs/other_re",
+      "line": 271,
+      "matched_text": "hidden Christianity",
+      "path": "reports/divine_pattern_findings.md",
+      "rule_id": "comparative_flattening",
+      "severity": "medium",
+      "why": "Comparative claims should honor other traditions on their own terms before Christian interpretation."
+    },
+    {
+      "context": "*Question for you:** Does this pattern remain a humble sign-reading rather than a mathematical proof of God? **What would weaken it:** It ignores Platonist, formalist, constructivist, cognitive,",
+      "line": 315,
+      "matched_text": "proof",
+      "path": "reports/divine_pattern_findings.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "seem true to Scripture, reality, and lived experience? - Does it stay humble about what it can prove? - Does it produce truth, love, humility, justice, worship, patience, and faithful action?",
+      "line": 329,
+      "matched_text": "prove",
+      "path": "reports/divine_pattern_findings.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ired Action: Name how Christ's incarnation, cross, resurrection, lordship, mercy, and judgment confirm, correct, or limit the interpretation before raising confidence. ### Scriptural Anchor - Que",
+      "line": 262,
+      "matched_text": "confirm",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "and philosophy-of-science sources. - Review Note: Keep science claims out of gaps-based design proof. ### DP-008 - Target Type: claim_ledger_entry - Current Status: counter_reading_added - Next",
+      "line": 503,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "lear limits so Divine Pattern research does not overclaim. ### Patterns do not mathematically prove God. - Why: Pattern recognition can support wonder, interpretation, and inquiry, but proof-la",
+      "line": 541,
+      "matched_text": "prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ion and brain science without reducing persons to mechanisms or using consciousness as a quick proof of God. - Theological Use: Supports humility about embodiment, personhood, agency, disability,",
+      "line": 1145,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ological anthropology, disability theology ### Quantum Language - Scientific Domain: Quantum Physics - Guardrail: Use quantum theory only within qualified source scope; do not use it to prove prayer, miracles, consciousness, or mystical connection. - Theological Use: May support humili",
+      "line": 1152,
+      "matched_text": "Physics\n- Guardrail: Use quantum theory only within qualified source scope; do not use it to prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "science_overclaim",
+      "severity": "high",
+      "why": "Science, math, and psychology can illuminate analogies, but they should not be used as theological proof."
+    },
+    {
+      "context": "m Physics - Guardrail: Use quantum theory only within qualified source scope; do not use it to prove prayer, miracles, consciousness, or mystical connection. - Theological Use: May support humili",
+      "line": 1153,
+      "matched_text": "prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "on: 25 example document(s) queued Pattern Mentions ---------------- Reviewer: Do these counts prove the patterns? Backend: No. They show where the corpus is talking. Proof is not what this table",
+      "line": 1313,
+      "matched_text": "prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "iewer: Do these counts prove the patterns? Backend: No. They show where the corpus is talking. Proof is not what this table does. - Image Of God Pattern: 11 documents - Trinity-As-Behavior Patter",
+      "line": 1314,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ommunities. But the project must stay honest. A pattern can guide discernment without becoming proof. It can be meaningful without being forced. It can help ordinary life only if it faces grief,",
+      "line": 1438,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "Life -> Consciousness -> Moral Awareness -> Worship Test: Avoid implying a simple linear proof from physics to worship. 4 Trinity-As-Behavior Pattern 21,748 high internal signal; no",
+      "line": 1510,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "rsonhood, kinship, ancestors, moral agency, honor, shame, body, and community without assuming every tradition means the same thing by dignity. Where it must be tested: disability, dementia, trauma, oppres",
+      "line": 1558,
+      "matched_text": "every tradition",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "comparative_flattening",
+      "severity": "medium",
+      "why": "Comparative claims should honor other traditions on their own terms before Christian interpretation."
+    },
+    {
+      "context": "imal consciousness, ecological loss, suffering in nature, and claims that science mechanically proves worship. Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility,",
+      "line": 1599,
+      "matched_text": "proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ommunities. But the project must stay honest. A pattern can guide discernment without becoming proof. It can be meaningful without being forced. It can help ordinary life only if it faces grief,",
+      "line": 1882,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "truth, humility, and care. - Analogy: an illuminating comparison that must stay narrower than proof. Current Corpus Shape -------------------- Documents analyzed across all lanes: 1,088 Top-pat",
+      "line": 1936,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "rsonhood, kinship, ancestors, moral agency, honor, shame, body, and community without assuming every tradition means the same thing by dignity. Where it must be tested: disability, dementia, trauma, oppres",
+      "line": 1960,
+      "matched_text": "every tradition",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "comparative_flattening",
+      "severity": "medium",
+      "why": "Comparative claims should honor other traditions on their own terms before Christian interpretation."
+    },
+    {
+      "context": "imal consciousness, ecological loss, suffering in nature, and claims that science mechanically proves worship. Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility,",
+      "line": 2001,
+      "matched_text": "proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "gical anthropology, and anthropology of worship. Risk to avoid: Avoid implying a simple linear proof from physics to worship. 4. Trinity-As-Behavior Pattern ------------------------------ Status",
+      "line": 2120,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "munities. - But the project must stay honest. A pattern can guide discernment without becoming proof. It can be meaningful without being forced. It can help ordinary life only if it faces grief,",
+      "line": 2301,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ommunities. But the project must stay honest. A pattern can guide discernment without becoming proof. It can be meaningful without being forced. It can help ordinary life only if it faces grief,",
+      "line": 2316,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "should respond before God. - None of these should be mislabeled as mathematical or scientific proof. Why this pattern is currently most visible: ------------------------------------------ Chap",
+      "line": 2436,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "rsonhood, kinship, ancestors, moral agency, honor, shame, body, and community without assuming every tradition means the same thing by dignity. Where it must be tested: disability, dementia, trauma, oppres",
+      "line": 2455,
+      "matched_text": "every tradition",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "comparative_flattening",
+      "severity": "medium",
+      "why": "Comparative claims should honor other traditions on their own terms before Christian interpretation."
+    },
+    {
+      "context": "imal consciousness, ecological loss, suffering in nature, and claims that science mechanically proves worship. Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility,",
+      "line": 2496,
+      "matched_text": "proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "gical anthropology, and anthropology of worship. Risk to avoid: Avoid implying a simple linear proof from physics to worship. 4. Trinity-As-Behavior Pattern ------------------------------ Status",
+      "line": 2590,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "rsonhood, kinship, ancestors, moral agency, honor, shame, body, and community without assuming every tradition means the same thing by dignity. Where it must be tested: disability, dementia, trauma, oppres",
+      "line": 2907,
+      "matched_text": "every tradition",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "comparative_flattening",
+      "severity": "medium",
+      "why": "Comparative claims should honor other traditions on their own terms before Christian interpretation."
+    },
+    {
+      "context": "imal consciousness, ecological loss, suffering in nature, and claims that science mechanically proves worship. Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility,",
+      "line": 2948,
+      "matched_text": "proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "gical anthropology, and anthropology of worship. Risk to avoid: Avoid implying a simple linear proof from physics to worship. 4. Trinity-As-Behavior Pattern ------------------------------ Status",
+      "line": 3042,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "to look for recurring language and cross-disciplinary patterns across theology, spirituality, biology, anthropology, philosophy, and AI. - It does not attempt to discover God or prove divine truth from patterns. It helps organize evidence, surface connections, and generate bett",
+      "line": 3153,
+      "matched_text": "biology, anthropology, philosophy, and AI.\n- It does not attempt to discover God or prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "science_overclaim",
+      "severity": "high",
+      "why": "Science, math, and psychology can illuminate analogies, but they should not be used as theological proof."
+    },
+    {
+      "context": "rituality, biology, anthropology, philosophy, and AI. - It does not attempt to discover God or prove divine truth from patterns. It helps organize evidence, surface connections, and generate bett",
+      "line": 3154,
+      "matched_text": "prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "to look for recurring language and cross-disciplinary patterns across theology, spirituality, biology, anthropology, philosophy, and AI. It does not attempt to discover God or prove divine truth from patterns. It helps organize evidence, surface connections, and generate bett",
+      "line": 3168,
+      "matched_text": "biology, anthropology, philosophy, and AI.\nIt does not attempt to discover God or prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "science_overclaim",
+      "severity": "high",
+      "why": "Science, math, and psychology can illuminate analogies, but they should not be used as theological proof."
+    },
+    {
+      "context": "pirituality, biology, anthropology, philosophy, and AI. It does not attempt to discover God or prove divine truth from patterns. It helps organize evidence, surface connections, and generate bett",
+      "line": 3169,
+      "matched_text": "prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "_how_the_reign_of_god_in_liberation_theology_explicates_div_aadf3f3571eb.md: In particular, it demonstrates the potential of Jon Sobrino's explication of the Reign of God to reframe explorations of prov",
+      "line": 3442,
+      "matched_text": "demonstrates",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "_ce03ed8cc673.md: Tatari elaborates two theological categories, justice and mercy, in order to demonstrate how comparative insights are fruitful in developing kal\u0101m as the way of study and reflection t",
+      "line": 3447,
+      "matched_text": "demonstrate",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "human behavior. - hypothesis_review_rules.md: The strongest version of the project is not \"AI proves God.\" It is: AI can help organize interdisciplinary evidence and identify research hypotheses",
+      "line": 3464,
+      "matched_text": "proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof. - providence_and_contingency_pattern_pack.md: Interpretation: Christian theology may read fai",
+      "line": 3520,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "interpretation. - weakened_claims_register.md: ## Weakened Claim: Image Of God Language Itself Demonstrates A Divine Pattern - Status: `weakened_by_disability_and_trauma_counter_reading` - Reason: disa",
+      "line": 3529,
+      "matched_text": "Demonstrates",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "_for_the_equivalent_condition_score_method_for_calculation_of_power_transmi_2cdf50118d04.md: # Proof for The Equivalent Condition Score Method for Calculation of Power Transmission Equipment\u2019s Fa",
+      "line": 3726,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "human behavior. - hypothesis_review_rules.md: The strongest version of the project is not \"AI proves God.\" It is: AI can help organize interdisciplinary evidence and identify research hypotheses",
+      "line": 3793,
+      "matched_text": "proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ported claim: Most serious overclaim: Missing primary source: Missing counter-reading: Analogy/proof confusion: Failure condition not faced: Pastoral or ethical harm risk: Recom - friction_layer.",
+      "line": 3819,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "not reduce baptism, Eucharist, confession, anointing, or funeral hope to symbols that exist to confirm the project. - sacramental_liturgical_grounding.md: - Funerals and grief: Does the claim hold",
+      "line": 3852,
+      "matched_text": "confirm",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "- science_analogy_guardrail_pack.md: Failure condition: reject any use that turns analogy into proof, invokes quantum language vaguely, ignores base rates, bypasses counterarguments, or uses scie",
+      "line": 3864,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "_ce03ed8cc673.md: Tatari elaborates two theological categories, justice and mercy, in order to demonstrate how comparative insights are fruitful in developing kal\u0101m as the way of study and reflection t",
+      "line": 3993,
+      "matched_text": "demonstrate",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof. - quantum_theory_guardrail_pack.md: Failure condition: reject any use that treats \"observer\"",
+      "line": 4066,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "_ce03ed8cc673.md: Tatari elaborates two theological categories, justice and mercy, in order to demonstrate how comparative insights are fruitful in developing kal\u0101m as the way of study and reflection t",
+      "line": 4079,
+      "matched_text": "demonstrate",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "_evaluation_queue.md: - Protect privacy; look for truth, care, justice, repair, and unresolved suffering. - evidence_discernment_distinction.md: Name the tension, gift, sin, beauty, longing, harm, or invitation. - external_review_protocol.md: ### Theologian Or H",
+      "line": 4104,
+      "matched_text": "suffering.\n- evidence_discernment_distinction.md: Name the tension, gift",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "suffering_risk",
+      "severity": "high",
+      "why": "Suffering-related claims need lament, protection, justice, repair, and pastoral harm checks."
+    },
+    {
+      "context": "ttern's use when it pressures a disabled, traumatized, poor, incarcerated, or abused person to prove dignity through gratitude, forgiveness, productivity, obedience, or public testimony. - image_",
+      "line": 4133,
+      "matched_text": "prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ickly, pressure forgiveness or gratitude, demand compliance, hide abuse, or make harmed people prove their dignity. - other_religious_comparative_witness_pack.md: # Source Pack: Other Religious C",
+      "line": 4134,
+      "matched_text": "prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof. - providence_and_contingency_pattern_pack.md: Practical use: pray, plan, serve, grieve, repen",
+      "line": 4136,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "_ce03ed8cc673.md: Tatari elaborates two theological categories, justice and mercy, in order to demonstrate how comparative insights are fruitful in developing kal\u0101m as the way of study and reflection t",
+      "line": 4158,
+      "matched_text": "demonstrate",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "e recurring structures, archetypes, and narrative motifs without turning every recurrence into proof. - evidence_discernment_distinction.md: It may say, for example, that Christians interpret ord",
+      "line": 4200,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof. - providence_and_contingency_pattern_pack.md: Analogy: complexity, emergence, and narrative m",
+      "line": 4248,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "nseparable divine action. - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin - Status: `weakened_by_pressure` - Reason: recurrence can result from selection",
+      "line": 4257,
+      "matched_text": "Proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "urated sources. - weakened_claims_register.md: ## Weakened Claim: Image Of God Language Itself Demonstrates A Divine Pattern - Status: `weakened_by_disability_and_trauma_counter_reading` - Reason: disa",
+      "line": 4258,
+      "matched_text": "Demonstrates",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "k_with_goa_c8de0c94f99a.md: Ecclesial review: Before public theological use, a reviewer should confirm the article text beyond the imported metadata, check the journal context and method, and ask a",
+      "line": 4265,
+      "matched_text": "confirm",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "human behavior. - hypothesis_review_rules.md: The strongest version of the project is not \"AI proves God.\" It is: AI can help organize interdisciplinary evidence and identify research hypotheses",
+      "line": 4305,
+      "matched_text": "proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ttern claims. - reviewed_gap_companions.md: - ecclesial_review: Before public theological use, confirm the article text beyond imported metadata, check venue and method, and ask a pastor or theolog",
+      "line": 4354,
+      "matched_text": "confirm",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "- science_analogy_guardrail_pack.md: Failure condition: reject any use that turns analogy into proof, invokes quantum language vaguely, ignores base rates, bypasses counterarguments, or uses scie",
+      "line": 4372,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "search project. - science_math_physics_divine_pattern_model.md: It does not claim that physics proves Christianity. - claim_ledger.md: | | DP-007 | Mathematics, logic, statistics, and physics can",
+      "line": 4457,
+      "matched_text": "proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ttern research project. - science_math_physics_divine_pattern_model.md: It does not claim that physics proves Christianity. - claim_ledger.md: | | DP-007 | Mathematics, logic, statistics, and physics can",
+      "line": 4457,
+      "matched_text": "physics proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "science_overclaim",
+      "severity": "high",
+      "why": "Science, math, and psychology can illuminate analogies, but they should not be used as theological proof."
+    },
+    {
+      "context": "tion_decision_log.md: - Reason: testimony can matter deeply without functioning as statistical proof. - cloud_references_summary.md: ## The Space of Culture \u2013 the Place of Nature in Estonia and B",
+      "line": 4460,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "CLE [I, Q. - aquinas_summa_part_1_gutenberg.txt: For the astronomer and the physicist both may prove the same conclusion: that the earth, for instance, is round: the astronomer by means of mathem",
+      "line": 4509,
+      "matched_text": "prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "d_philosophy_notes.md: A careful AI research project should avoid claiming that pattern equals proof. - god_and_human_behavior_science_synthesis.md: Sources consulted: - Stanford Encyclopedia of",
+      "line": 4518,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "pport intelligibility, emergence, ecology, probability, and limits without turning them into proof. - cross_and_reversal_pattern_pack.md: # Source Pack: Cross And Reversal Pattern Source statu",
+      "line": 4589,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "n_pack.md: - Science and deep-source guardrails support intelligibility, emergence, ecology, probability, and limits without turning them into proof. - cross_and_reversal_pattern_pack.md: # Source Pack: Cross And Reversal Pattern Source statu",
+      "line": 4589,
+      "matched_text": "probability, and limits without turning them into proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "science_overclaim",
+      "severity": "high",
+      "why": "Science, math, and psychology can illuminate analogies, but they should not be used as theological proof."
+    },
+    {
+      "context": "stify a narrower version. - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin - Status: `weakened_by_pressure` - Reason: recurrence can result from selection",
+      "line": 4604,
+      "matched_text": "Proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "d_philosophy_notes.md: A careful AI research project should avoid claiming that pattern equals proof. - god_and_human_behavior_science_synthesis.md: Sources consulted: - Stanford Encyclopedia of",
+      "line": 4637,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "stify a narrower version. - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin - Status: `weakened_by_pressure` - Reason: recurrence can result from selection",
+      "line": 4721,
+      "matched_text": "Proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "_for_the_equivalent_condition_score_method_for_calculation_of_power_transmi_2cdf50118d04.md: # Proof for The Equivalent Condition Score Method for Calculation of Power Transmission Equipment\u2019s Fa",
+      "line": 4873,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "human behavior. - hypothesis_review_rules.md: The strongest version of the project is not \"AI proves God.\" It is: AI can help organize interdisciplinary evidence and identify research hypotheses",
+      "line": 4915,
+      "matched_text": "proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "attern_revision_rules.md: - `shared_human_pattern`: recurring motif without Christian-specific proof. - practical_theology_pattern_use.md: It should help people engage faithfully with God, neighb",
+      "line": 4957,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "NCR-022 | A. - reviewed_gap_companions.md: - ecclesial_review: Before public theological use, confirm the article text beyond imported metadata, check venue and method, and ask a pastor or theolog",
+      "line": 4974,
+      "matched_text": "confirm",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof. - providence_and_contingency_pattern_pack.md: Analogy: complexity, emergence, and narrative m",
+      "line": 4984,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "cannot replace doctrine. - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin - Status: `weakened_by_pressure` - Reason: recurrence can result from selection",
+      "line": 4989,
+      "matched_text": "Proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "relate to creation, conscience, longing, or grace, but this remains interpretation rather than proof. - other_religious_comparative_witness_pack.md: Analogy: shared practices may arise from commo",
+      "line": 5103,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "stify a narrower version. - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin - Status: `weakened_by_pressure` - Reason: recurrence can result from selection",
+      "line": 5111,
+      "matched_text": "Proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "pport intelligibility, emergence, ecology, probability, and limits without turning them into proof. - creation_to_consciousness_pattern_pack.md: Analogy: emergence, cognitive science, ecology,",
+      "line": 5189,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "n_pack.md: - Science and deep-source guardrails support intelligibility, emergence, ecology, probability, and limits without turning them into proof. - creation_to_consciousness_pattern_pack.md: Analogy: emergence, cognitive science, ecology,",
+      "line": 5189,
+      "matched_text": "probability, and limits without turning them into proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "science_overclaim",
+      "severity": "high",
+      "why": "Science, math, and psychology can illuminate analogies, but they should not be used as theological proof."
+    },
+    {
+      "context": "ailed scientific analogy. - weakened_claims_register.md: ## Weakened Claim: Pattern Recurrence Proves Divine Origin - Status: `weakened_by_pressure` - Reason: recurrence can result from selection",
+      "line": 5198,
+      "matched_text": "Proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "uld remain speculative? 4. Can AI help organize patterns without overstating what the evidence proves? 5. What safeguards are needed so the project studies faith respectfully instead of reducing i",
+      "line": 5206,
+      "matched_text": "proves",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "s, and failure conditions. - They are useful because they organize attention, not because they prove themselves. ### First Signals - Divine Pattern Candidates Report - Purpose - This report pro",
+      "line": 5242,
+      "matched_text": "prove",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "gical anthropology, and anthropology of worship. Risk to avoid: Avoid implying a simple linear proof from physics to worship. 4. Trinity-As-Behavior Pattern ------------------------------ Status",
+      "line": 5318,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "from compatibility to proof. - Formal Proof Boundary Filter: active (43) Rule: Mathematical proof applies inside formal systems; it cannot be transferred directly into theology without philoso",
+      "line": 7014,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "rs: - Logic Validity Filter - Statistical Inference Filter - Bayesian Humility Filter - Formal Proof Boundary Filter - Theophany Interpretation Filter - Physics Scale Filter - Causality Filter m",
+      "line": 7815,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "rs: - Logic Validity Filter - Statistical Inference Filter - Bayesian Humility Filter - Formal Proof Boundary Filter - Physics Scale Filter - Causality Filter mathematical_theophany_filter.md --",
+      "line": 7838,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ase: 1 - Peer-Reviewed/Academic: 1 Active congruence filters: - Logic Validity Filter - Formal Proof Boundary Filter - Theophany Interpretation Filter qualified_quantum_science_references.md ---",
+      "line": 7862,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "uty: 2 - Scripture/Theology: 1 - Peer-Reviewed/Academic: 1 Active congruence filters: - Formal Proof Boundary Filter - Theophany Interpretation Filter - Physics Scale Filter qualified_science_re",
+      "line": 7881,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "cademic: 2 - Scripture/Theology: 1 Active congruence filters: - Logic Validity Filter - Formal Proof Boundary Filter - Theophany Interpretation Filter - Physics Scale Filter quantum_claim_limits",
+      "line": 7902,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": ": 1 Active congruence filters: - Logic Validity Filter - Statistical Inference Filter - Formal Proof Boundary Filter - Theophany Interpretation Filter - Physics Scale Filter - Causality Filter q",
+      "line": 7925,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": ": 2 - Alternative Interpretation: 1 - Aesthetics/Beauty: 1 Active congruence filters: - Formal Proof Boundary Filter - Physics Scale Filter - Causality Filter reviewed_quantum_theory_guardrails_",
+      "line": 7945,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "etation: 3 - Scripture/Theology: 2 Active congruence filters: - Logic Validity Filter - Formal Proof Boundary Filter - Theophany Interpretation Filter - Physics Scale Filter - Causality Filter s",
+      "line": 7964,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": ": 1 Active congruence filters: - Logic Validity Filter - Statistical Inference Filter - Formal Proof Boundary Filter - Theophany Interpretation Filter - Physics Scale Filter - Causality Filter s",
+      "line": 7989,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "Science: 2 - Peer-Reviewed/Academic: 2 - Counterargument: 1 - Alternative Interpretation: 1 - Mathematics/Logic: 1 Active congruence filters: - Formal Proof Boundary Filter - Theophany Interpretation Filter - Physics Scale Filter unresolved_suffering",
+      "line": 8007,
+      "matched_text": "Mathematics/Logic: 1\nActive congruence filters:\n- Formal Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "science_overclaim",
+      "severity": "high",
+      "why": "Science, math, and psychology can illuminate analogies, but they should not be used as theological proof."
+    },
+    {
+      "context": ": 1 - Alternative Interpretation: 1 - Mathematics/Logic: 1 Active congruence filters: - Formal Proof Boundary Filter - Theophany Interpretation Filter - Physics Scale Filter unresolved_suffering",
+      "line": 8009,
+      "matched_text": "Proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": "ut creation must account for natural history without forcing biological complexity into simple proof of design. - Scripture Anchor: Genesis 1:1, Psalm 104, Colossians 1:15-20 - Interpretive Statu",
+      "line": 19958,
+      "matched_text": "proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "context": ". - Pattern: Claims about creation must account for natural history without forcing biological complexity into simple proof of design. - Scripture Anchor: Genesis 1:1, Psalm 104, Colossians 1:15-20 - Interpretive Statu",
+      "line": 19958,
+      "matched_text": "complexity into simple proof",
+      "path": "reports/combined_web_article.md",
+      "rule_id": "science_overclaim",
+      "severity": "high",
+      "why": "Science, math, and psychology can illuminate analogies, but they should not be used as theological proof."
+    }
+  ],
+  "generated_at": "2026-06-25T16:20:34.091490+00:00",
+  "reports_scanned": [
+    "reports/divine_pattern_findings.md",
+    "reports/published/final_book_report.md",
+    "reports/combined_web_article.md"
+  ],
+  "rules": [
+    {
+      "id": "proof_language",
+      "severity": "high",
+      "why": "Pattern evidence should not be presented as proof of God, doctrine, providence, or divine action."
+    },
+    {
+      "id": "certainty_language",
+      "severity": "medium",
+      "why": "Public language should preserve confidence tiers and leave room for mystery and rival explanations."
+    },
+    {
+      "id": "science_overclaim",
+      "severity": "high",
+      "why": "Science, math, and psychology can illuminate analogies, but they should not be used as theological proof."
+    },
+    {
+      "id": "suffering_risk",
+      "severity": "high",
+      "why": "Suffering-related claims need lament, protection, justice, repair, and pastoral harm checks."
+    },
+    {
+      "id": "comparative_flattening",
+      "severity": "medium",
+      "why": "Comparative claims should honor other traditions on their own terms before Christian interpretation."
+    },
+    {
+      "id": "private_revelation_risk",
+      "severity": "high",
+      "why": "The project is not a private revelation engine; claims remain under Scripture, creed, Church witness, and review."
+    }
+  ]
+}

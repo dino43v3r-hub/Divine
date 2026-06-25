@@ -140,6 +140,9 @@ python ai_knowledge_backend.py
 python build_divine_pattern_findings.py
 python build_review_gap_queue.py
 python build_machine_drafted_review_companions.py
+python build_public_claim_readiness_dashboard.py
+python build_human_review_companion_workflow.py
+python build_public_language_overclaim_filter.py
 ```
 
 The backend writes:
@@ -153,6 +156,9 @@ reports/ai_backend_report.txt
 reports/divine_pattern_findings.md
 reports/review_gap_queue.md
 reports/evidence_testing_queue.md
+reports/public_claim_readiness_dashboard.md
+reports/human_review_companion_workflow.md
+reports/public_language_overclaim_filter.md
 research_documents/machine_drafted_review_companions.json
 reports/combined_web_article.md
 reports/combined_web_article.html
@@ -217,6 +223,22 @@ should receive structured review companions first.
 `build_machine_drafted_review_companions.py` can create machine-drafted companion
 fields for the queued gaps. Those fields close review-tracking coverage, but
 they do not raise confidence unless the source is directly checked.
+
+`build_public_claim_readiness_dashboard.py` creates a steering report for the
+main pattern families. It keeps the Image Of God pattern visible as the first
+flagship track, shows tier mix and blockers by pattern, and names the next
+source-review action most likely to move a claim toward public-safe use.
+
+`build_human_review_companion_workflow.py` turns the large source-check backlog
+into a daily packet of five review forms. Each form asks the reviewer to read
+the original source or primary artifact, separate evidence from interpretation,
+name rival explanations and failure conditions, check pastoral and ecclesial
+risks, and decide whether the source should affect confidence.
+
+`build_public_language_overclaim_filter.py` scans public-facing reports for
+wording that may overstate certainty, use science as proof, mishandle suffering,
+flatten another tradition, or imply private revelation. A flag is not a verdict;
+it is a prompt for human review before public use.
 
 The multimodal manifest makes the backend MLLM-ready for image, video, and
 audio assets. Media can enter the corpus directly, but uncaptioned or

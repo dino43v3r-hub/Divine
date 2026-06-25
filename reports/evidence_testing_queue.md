@@ -1,6 +1,6 @@
 # Evidence Testing Queue
 
-_Generated: 2026-06-25 15:34 UTC_
+_Generated: 2026-06-25 16:18 UTC_
 
 This is the project's source-by-source testing backlog. It explains which sources still need research evidence testing before they can strengthen a claim, and which reviewed sources still need public-use testing before they can become final public evidence.
 

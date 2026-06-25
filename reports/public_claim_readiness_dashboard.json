@@ -1,0 +1,690 @@
+{
+  "flagship_pattern": "Image Of God Pattern",
+  "generated_at": "2026-06-25T16:18:31.494902+00:00",
+  "patterns": [
+    {
+      "documents": 11,
+      "is_flagship": true,
+      "lanes": {
+        "history_inputs": 1,
+        "pattern_tests": 4,
+        "research_documents": 6
+      },
+      "next_action": "Review the next source for Scripture anchor.",
+      "next_source": {
+        "confidence_tier": "reviewed_evidence_ready",
+        "fill_prompts": {
+          "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+          "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+          "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+          "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+          "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+          "no_science_overclaim": "Does this avoid using science, math, probability, or psychology as proof beyond its proper scope?",
+          "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+          "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+          "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+        },
+        "lane": "research_documents",
+        "machine_drafted_rules": [
+          "ecclesial_review",
+          "liturgical_grounding",
+          "pastoral_safety",
+          "promotion_restraint"
+        ],
+        "missing_public_final_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_science_overclaim",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "missing_research_test_rules": [],
+        "missing_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_science_overclaim",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "next_gate": "public_final_evidence_test",
+        "path": "research_documents/source_packs/image_of_god_pattern_pack.md",
+        "patterns": [
+          "Image Of God Pattern"
+        ],
+        "review_note_count": 1,
+        "title": "Source Pack: Image Of God Pattern"
+      },
+      "pattern": "Image Of God Pattern",
+      "tiers": {
+        "candidate_lead": 6,
+        "developing_evidence": 4,
+        "reviewed_evidence_ready": 1
+      },
+      "top_blockers": {
+        "doctrinal_fit": 11,
+        "does_not_prove_boundary": 10,
+        "final_promotion_restraint": 11,
+        "no_abuse_enabling_language": 11,
+        "no_comparative_flattening": 11,
+        "no_unresolved_pastoral_harm": 11,
+        "plain_language_public_summary": 11,
+        "scripture_anchor": 11
+      }
+    },
+    {
+      "documents": 9,
+      "is_flagship": false,
+      "lanes": {
+        "pattern_tests": 4,
+        "research_documents": 5
+      },
+      "next_action": "Review the next source for Scripture anchor.",
+      "next_source": {
+        "confidence_tier": "developing_evidence",
+        "fill_prompts": {
+          "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+          "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+          "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+          "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+          "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+          "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+          "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+          "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+        },
+        "lane": "research_documents",
+        "machine_drafted_rules": [
+          "ecclesial_review",
+          "promotion_restraint"
+        ],
+        "missing_public_final_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "missing_research_test_rules": [],
+        "missing_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "next_gate": "public_final_evidence_test_after_research_gate",
+        "path": "research_documents/reviewed_source_packs.md",
+        "patterns": [
+          "Image Of God Pattern",
+          "Cross And Reversal Pattern",
+          "Creation-To-Consciousness Pattern",
+          "Trinity-As-Behavior Pattern",
+          "Providence And Contingency Pattern",
+          "Mathematical Theophany Pattern"
+        ],
+        "review_note_count": 1,
+        "title": "Reviewed Source Packs"
+      },
+      "pattern": "Trinity-As-Behavior Pattern",
+      "tiers": {
+        "candidate_lead": 6,
+        "developing_evidence": 3
+      },
+      "top_blockers": {
+        "doctrinal_fit": 9,
+        "does_not_prove_boundary": 8,
+        "final_promotion_restraint": 9,
+        "no_abuse_enabling_language": 9,
+        "no_comparative_flattening": 9,
+        "no_unresolved_pastoral_harm": 9,
+        "plain_language_public_summary": 9,
+        "scripture_anchor": 9
+      }
+    },
+    {
+      "documents": 8,
+      "is_flagship": false,
+      "lanes": {
+        "pattern_tests": 4,
+        "research_documents": 4
+      },
+      "next_action": "Review the next source for Scripture anchor.",
+      "next_source": {
+        "confidence_tier": "developing_evidence",
+        "fill_prompts": {
+          "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+          "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+          "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+          "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+          "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+          "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+          "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+          "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+        },
+        "lane": "research_documents",
+        "machine_drafted_rules": [
+          "ecclesial_review",
+          "promotion_restraint"
+        ],
+        "missing_public_final_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "missing_research_test_rules": [],
+        "missing_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "next_gate": "public_final_evidence_test_after_research_gate",
+        "path": "research_documents/reviewed_source_packs.md",
+        "patterns": [
+          "Image Of God Pattern",
+          "Cross And Reversal Pattern",
+          "Creation-To-Consciousness Pattern",
+          "Trinity-As-Behavior Pattern",
+          "Providence And Contingency Pattern",
+          "Mathematical Theophany Pattern"
+        ],
+        "review_note_count": 1,
+        "title": "Reviewed Source Packs"
+      },
+      "pattern": "Creation-To-Consciousness Pattern",
+      "tiers": {
+        "candidate_lead": 5,
+        "developing_evidence": 3
+      },
+      "top_blockers": {
+        "doctrinal_fit": 8,
+        "does_not_prove_boundary": 8,
+        "final_promotion_restraint": 8,
+        "no_abuse_enabling_language": 8,
+        "no_comparative_flattening": 8,
+        "no_unresolved_pastoral_harm": 8,
+        "plain_language_public_summary": 8,
+        "scripture_anchor": 8
+      }
+    },
+    {
+      "documents": 8,
+      "is_flagship": false,
+      "lanes": {
+        "pattern_tests": 4,
+        "research_documents": 4
+      },
+      "next_action": "Review the next source for Scripture anchor.",
+      "next_source": {
+        "confidence_tier": "developing_evidence",
+        "fill_prompts": {
+          "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+          "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+          "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+          "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+          "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+          "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+          "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+          "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+        },
+        "lane": "research_documents",
+        "machine_drafted_rules": [
+          "ecclesial_review",
+          "promotion_restraint"
+        ],
+        "missing_public_final_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "missing_research_test_rules": [],
+        "missing_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "next_gate": "public_final_evidence_test_after_research_gate",
+        "path": "research_documents/reviewed_source_packs.md",
+        "patterns": [
+          "Image Of God Pattern",
+          "Cross And Reversal Pattern",
+          "Creation-To-Consciousness Pattern",
+          "Trinity-As-Behavior Pattern",
+          "Providence And Contingency Pattern",
+          "Mathematical Theophany Pattern"
+        ],
+        "review_note_count": 1,
+        "title": "Reviewed Source Packs"
+      },
+      "pattern": "Cross And Reversal Pattern",
+      "tiers": {
+        "candidate_lead": 5,
+        "developing_evidence": 3
+      },
+      "top_blockers": {
+        "doctrinal_fit": 8,
+        "does_not_prove_boundary": 8,
+        "final_promotion_restraint": 8,
+        "no_abuse_enabling_language": 8,
+        "no_comparative_flattening": 8,
+        "no_unresolved_pastoral_harm": 8,
+        "plain_language_public_summary": 8,
+        "scripture_anchor": 8
+      }
+    },
+    {
+      "documents": 8,
+      "is_flagship": false,
+      "lanes": {
+        "pattern_tests": 4,
+        "research_documents": 4
+      },
+      "next_action": "Review the next source for Scripture anchor.",
+      "next_source": {
+        "confidence_tier": "developing_evidence",
+        "fill_prompts": {
+          "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+          "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+          "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+          "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+          "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+          "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+          "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+          "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+        },
+        "lane": "research_documents",
+        "machine_drafted_rules": [
+          "ecclesial_review",
+          "promotion_restraint"
+        ],
+        "missing_public_final_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "missing_research_test_rules": [],
+        "missing_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "next_gate": "public_final_evidence_test_after_research_gate",
+        "path": "research_documents/reviewed_source_packs.md",
+        "patterns": [
+          "Image Of God Pattern",
+          "Cross And Reversal Pattern",
+          "Creation-To-Consciousness Pattern",
+          "Trinity-As-Behavior Pattern",
+          "Providence And Contingency Pattern",
+          "Mathematical Theophany Pattern"
+        ],
+        "review_note_count": 1,
+        "title": "Reviewed Source Packs"
+      },
+      "pattern": "Providence And Contingency Pattern",
+      "tiers": {
+        "candidate_lead": 5,
+        "developing_evidence": 3
+      },
+      "top_blockers": {
+        "doctrinal_fit": 8,
+        "does_not_prove_boundary": 8,
+        "final_promotion_restraint": 8,
+        "no_abuse_enabling_language": 8,
+        "no_comparative_flattening": 8,
+        "no_unresolved_pastoral_harm": 8,
+        "plain_language_public_summary": 8,
+        "scripture_anchor": 8
+      }
+    },
+    {
+      "documents": 1,
+      "is_flagship": false,
+      "lanes": {
+        "research_documents": 1
+      },
+      "next_action": "Review the next source for Scripture anchor.",
+      "next_source": {
+        "confidence_tier": "developing_evidence",
+        "fill_prompts": {
+          "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+          "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+          "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+          "machine_label_boundary": "What should the machine label not be allowed to settle?",
+          "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+          "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+          "no_science_overclaim": "Does this avoid using science, math, probability, or psychology as proof beyond its proper scope?",
+          "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+          "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+          "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+        },
+        "lane": "research_documents",
+        "machine_drafted_rules": [
+          "ecclesial_review",
+          "liturgical_grounding",
+          "pastoral_safety",
+          "promotion_restraint"
+        ],
+        "missing_public_final_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_science_overclaim",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "missing_research_test_rules": [
+          "machine_label_boundary"
+        ],
+        "missing_rules": [
+          "machine_label_boundary",
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_science_overclaim",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "next_gate": "research_evidence_test",
+        "path": "research_documents/source_packs/holy_spirit_gifts_pattern_pack.md",
+        "patterns": [
+          "Holy Spirit Gifts Pattern"
+        ],
+        "review_note_count": 1,
+        "title": "Source Pack: Holy Spirit Gifts Pattern"
+      },
+      "pattern": "Holy Spirit Gifts Pattern",
+      "tiers": {
+        "developing_evidence": 1
+      },
+      "top_blockers": {
+        "doctrinal_fit": 1,
+        "does_not_prove_boundary": 1,
+        "machine_label_boundary": 1,
+        "no_abuse_enabling_language": 1,
+        "no_comparative_flattening": 1,
+        "no_science_overclaim": 1,
+        "no_unresolved_pastoral_harm": 1,
+        "scripture_anchor": 1
+      }
+    },
+    {
+      "documents": 1,
+      "is_flagship": false,
+      "lanes": {
+        "research_documents": 1
+      },
+      "next_action": "Review the next source for Scripture anchor.",
+      "next_source": {
+        "confidence_tier": "developing_evidence",
+        "fill_prompts": {
+          "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+          "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+          "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+          "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+          "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+          "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+          "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+          "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+        },
+        "lane": "research_documents",
+        "machine_drafted_rules": [
+          "ecclesial_review",
+          "promotion_restraint"
+        ],
+        "missing_public_final_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "missing_research_test_rules": [],
+        "missing_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "next_gate": "public_final_evidence_test_after_research_gate",
+        "path": "research_documents/reviewed_source_packs.md",
+        "patterns": [
+          "Image Of God Pattern",
+          "Cross And Reversal Pattern",
+          "Creation-To-Consciousness Pattern",
+          "Trinity-As-Behavior Pattern",
+          "Providence And Contingency Pattern",
+          "Mathematical Theophany Pattern"
+        ],
+        "review_note_count": 1,
+        "title": "Reviewed Source Packs"
+      },
+      "pattern": "Mathematical Theophany Pattern",
+      "tiers": {
+        "developing_evidence": 1
+      },
+      "top_blockers": {
+        "doctrinal_fit": 1,
+        "does_not_prove_boundary": 1,
+        "final_promotion_restraint": 1,
+        "no_abuse_enabling_language": 1,
+        "no_comparative_flattening": 1,
+        "no_unresolved_pastoral_harm": 1,
+        "plain_language_public_summary": 1,
+        "scripture_anchor": 1
+      }
+    },
+    {
+      "documents": 1,
+      "is_flagship": false,
+      "lanes": {
+        "research_documents": 1
+      },
+      "next_action": "Review the next source for Scripture anchor.",
+      "next_source": {
+        "confidence_tier": "developing_evidence",
+        "fill_prompts": {
+          "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+          "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+          "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+          "machine_label_boundary": "What should the machine label not be allowed to settle?",
+          "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+          "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+          "no_science_overclaim": "Does this avoid using science, math, probability, or psychology as proof beyond its proper scope?",
+          "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+          "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+          "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+        },
+        "lane": "research_documents",
+        "machine_drafted_rules": [
+          "ecclesial_review",
+          "liturgical_grounding",
+          "pastoral_safety",
+          "promotion_restraint"
+        ],
+        "missing_public_final_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_science_overclaim",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "missing_research_test_rules": [
+          "machine_label_boundary"
+        ],
+        "missing_rules": [
+          "machine_label_boundary",
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_science_overclaim",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "next_gate": "research_evidence_test",
+        "path": "research_documents/source_packs/other_religious_comparative_witness_pack.md",
+        "patterns": [
+          "Other Religious Comparative Witness"
+        ],
+        "review_note_count": 1,
+        "title": "Source Pack: Other Religious Comparative Witness"
+      },
+      "pattern": "Other Religious Comparative Witness",
+      "tiers": {
+        "developing_evidence": 1
+      },
+      "top_blockers": {
+        "doctrinal_fit": 1,
+        "does_not_prove_boundary": 1,
+        "machine_label_boundary": 1,
+        "no_abuse_enabling_language": 1,
+        "no_comparative_flattening": 1,
+        "no_science_overclaim": 1,
+        "no_unresolved_pastoral_harm": 1,
+        "scripture_anchor": 1
+      }
+    },
+    {
+      "documents": 1,
+      "is_flagship": false,
+      "lanes": {
+        "research_documents": 1
+      },
+      "next_action": "Review the next source for Scripture anchor.",
+      "next_source": {
+        "confidence_tier": "developing_evidence",
+        "fill_prompts": {
+          "doctrinal_fit": "How does this fit with Christ, creed, Trinity, creation, sin, redemption, Church witness, and orthodox doctrine?",
+          "does_not_prove_boundary": "What does this evidence not prove, even if the pattern is interesting or useful?",
+          "final_promotion_restraint": "Why is this ready, or not ready, to shape a public-facing claim?",
+          "machine_label_boundary": "What should the machine label not be allowed to settle?",
+          "no_abuse_enabling_language": "Could this wording protect abusers, pressure victims, excuse coercion, or silence lament?",
+          "no_comparative_flattening": "If another tradition appears, has it been represented on its own terms before Christian comparison?",
+          "no_science_overclaim": "Does this avoid using science, math, probability, or psychology as proof beyond its proper scope?",
+          "no_unresolved_pastoral_harm": "What pastoral harm risk has been checked, and what risk would still block public use?",
+          "plain_language_public_summary": "How can this be stated plainly for ordinary readers without inflating confidence?",
+          "scripture_anchor": "What Scripture text or biblical theme anchors, limits, or corrects this claim?"
+        },
+        "lane": "research_documents",
+        "machine_drafted_rules": [
+          "ecclesial_review",
+          "liturgical_grounding",
+          "pastoral_safety",
+          "promotion_restraint"
+        ],
+        "missing_public_final_rules": [
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_science_overclaim",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "missing_research_test_rules": [
+          "machine_label_boundary"
+        ],
+        "missing_rules": [
+          "machine_label_boundary",
+          "scripture_anchor",
+          "doctrinal_fit",
+          "no_unresolved_pastoral_harm",
+          "no_abuse_enabling_language",
+          "no_science_overclaim",
+          "no_comparative_flattening",
+          "does_not_prove_boundary",
+          "plain_language_public_summary",
+          "final_promotion_restraint"
+        ],
+        "next_gate": "research_evidence_test",
+        "path": "research_documents/source_packs/science_analogy_guardrail_pack.md",
+        "patterns": [
+          "Science Analogy Guardrail"
+        ],
+        "review_note_count": 1,
+        "title": "Source Pack: Science Analogy Guardrail"
+      },
+      "pattern": "Science Analogy Guardrail",
+      "tiers": {
+        "developing_evidence": 1
+      },
+      "top_blockers": {
+        "doctrinal_fit": 1,
+        "does_not_prove_boundary": 1,
+        "machine_label_boundary": 1,
+        "no_abuse_enabling_language": 1,
+        "no_comparative_flattening": 1,
+        "no_science_overclaim": 1,
+        "no_unresolved_pastoral_harm": 1,
+        "scripture_anchor": 1
+      }
+    }
+  ],
+  "source_audit": "reports/review_rules_audit.json",
+  "source_index": "reports/knowledge_retrieval_index.json",
+  "source_queue": "reports/evidence_testing_queue.json"
+}
