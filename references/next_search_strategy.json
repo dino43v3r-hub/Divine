@@ -7,8 +7,8 @@
     "other_religious_texts",
     "theologians",
     "history_inputs",
-    "cultural_inputs",
-    "deep_sources"
+    "visual_art",
+    "cultural_inputs"
   ],
   "priority_lanes": [
     "human_stories"
@@ -111,5 +111,5 @@
     "Trinity-As-Behavior Pattern",
     "Providence And Contingency Pattern"
   ],
-  "updated_at": "2026-06-26T16:21:39.591364+00:00"
+  "updated_at": "2026-06-27T15:17:40.199601+00:00"
 }

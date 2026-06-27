@@ -971,6 +971,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-06-27": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "comparative theology translation language semantics sacred texts",
+          "searched_at": "2026-06-27T15:10:03.641637+00:00",
+          "tag": "world_languages_translation"
+        },
+        {
+          "credits_used": 1,
+          "query": "world languages sacred texts translation meaning metaphor",
+          "searched_at": "2026-06-27T15:10:10.389605+00:00",
+          "tag": "world_languages_translation"
+        },
+        {
+          "credits_used": 1,
+          "query": "world Christianity translation local language theology source study",
+          "searched_at": "2026-06-27T15:10:18.930598+00:00",
+          "tag": "world_language_source_sampling"
+        },
+        {
+          "credits_used": 1,
+          "query": "indigenous language Christian theology translation oral tradition source",
+          "searched_at": "2026-06-27T15:10:26.564304+00:00",
+          "tag": "world_language_source_sampling"
+        },
+        {
+          "credits_used": 1,
+          "query": "African Asian Latin American Christian language translation theology",
+          "searched_at": "2026-06-27T15:10:32.625349+00:00",
+          "tag": "world_language_source_sampling"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

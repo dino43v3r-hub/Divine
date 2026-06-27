@@ -30,9 +30,9 @@ In that room, the pattern is asking me to notice this: No public-final divine-pa
 
 ## Today’s Discovery
 
-The freshest thing in the available discovery record is not a new certainty for the parish road, but a new cluster needing care: 55 candidate references, led by Crossref (24), with the strongest routed lane showing as human_stories (20). This must be read cautiously, since the collector snapshot is current for this UTC day.
+The freshest thing in the available discovery record is not a new certainty for the parish road, but a new cluster needing care: 47 candidate references, led by Crossref (15), with the strongest routed lane showing as all_texts (19). This must be read cautiously, since the collector snapshot is current for this UTC day.
 
-That is a mercy-shaped warning rather than a comfort to distribute. 40 new items may be ready for the review queue, video (4) appears in the media mix, and the public-final gate has released 0 claims.
+That is a mercy-shaped warning rather than a comfort to distribute. 29 new items may be ready for the review queue, podcast (3) appears in the media mix, and the public-final gate has released 0 claims.
 
 For the parish road, that absence is itself a finding. A deaconess may encourage patience, truthful speech, and service, while refusing to carry an unready claim into wounded hearts as certainty.
 
@@ -46,7 +46,7 @@ I do not have a dated prior report or prior collector snapshot strong enough to 
 
 ## The Theologian Beside The Prayer Book
 
-The theologian section behind this entry draws on 96 analyzed theologian documents and gives special weight today to Christology, Theodicy and Suffering, Creation.
+The theologian section behind this entry draws on 102 analyzed theologian documents and gives special weight today to Christology, Theodicy and Suffering, Creation.
 
 Today's theologian is **Julian of Norwich**, chosen from the rotating theologian voices gathered for this project. I would let Julian of Norwich stand beside the Prayer Book and the deaconess voice today because of mercy, suffering, and hope without denial. Julian would listen for whether the pattern can speak mercy without becoming glib about pain. A pattern that cannot sit gently with suffering is not yet wise.
 
@@ -84,6 +84,6 @@ O Lord, order our mercy, cleanse our speech, strengthen our hands for service, a
 
 ## Quiet Notes For The Reader
 
-This entry was generated at 2026-06-27 04:31 UTC. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.
+This entry was generated at 2026-06-27 15:17 UTC. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.
 
-Input freshness: 2026-06-26 16:20 UTC. Collector snapshot is current for this UTC day.
+Input freshness: 2026-06-27 15:16 UTC. Collector snapshot is current for this UTC day.

@@ -1,15 +1,15 @@
 {
   "date": "2026-06-27",
-  "generated_at_utc": "2026-06-27T04:31:36Z",
+  "generated_at_utc": "2026-06-27T15:17:42Z",
   "reader_role": "deaconess",
   "lens": "repair",
   "theologian": "Julian of Norwich",
   "pattern_name": "Waiting For A Public-Final Claim",
   "public_final_claim_count": 0,
-  "candidate_reference_count": 55,
+  "candidate_reference_count": 47,
   "review_queue_count": 1030,
-  "strongest_routed_lane": "human_stories",
-  "strongest_routed_lane_count": 20,
-  "freshness_status": "2026-06-26 16:20 UTC",
-  "source_digest_date": "2026-06-26"
+  "strongest_routed_lane": "all_texts",
+  "strongest_routed_lane_count": 19,
+  "freshness_status": "2026-06-27 15:16 UTC",
+  "source_digest_date": "2026-06-27"
 }
