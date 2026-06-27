@@ -1,9 +1,34 @@
-// Divine Core Phase 1.
-// This browser-safe loader is intentionally small and standalone. Later phases
-// can share it across Divine Pattern, Shepherd, Divine Scholar, Bible Study,
-// and future tools without requiring Node-only filesystem APIs.
+// Divine Core Phase 2.
+// This browser-safe loader exposes reusable Ecclesial Wisdom resource paths.
+// It is intentionally standalone: Divine Core reasons only and does not write
+// final user-facing prose. Shepherd, Book Report, Scholar, Bible Study, and
+// future tools should use their own composers.
 
-(function attachTheologyProfileLoader(globalScope) {
+(function attachEcclesialWisdomLoader(globalScope) {
+  const scriptureFrameworkPaths = Object.freeze({
+    canonicalThemes: "divineCore/scripture/canonicalThemes.json"
+  });
+
+  const creedProfilePaths = Object.freeze({
+    niceneCreed: "divineCore/creeds/niceneCreed.json",
+    apostlesCreed: "divineCore/creeds/apostlesCreed.json",
+    athanasianCreed: "divineCore/creeds/athanasianCreed.json"
+  });
+
+  const councilProfilePaths = Object.freeze({
+    nicaea: "divineCore/councils/nicaea.json",
+    chalcedon: "divineCore/councils/chalcedon.json"
+  });
+
+  const traditionProfilePaths = Object.freeze({
+    anglican: "divineCore/traditions/anglican.json",
+    reformed: "divineCore/traditions/reformed.json",
+    orthodox: "divineCore/traditions/orthodox.json",
+    catholic: "divineCore/traditions/catholic.json",
+    lutheran: "divineCore/traditions/lutheran.json",
+    evangelical: "divineCore/traditions/evangelical.json"
+  });
+
   const theologianProfilePaths = Object.freeze({
     augustine: "divineCore/theologians/augustine.json",
     aquinas: "divineCore/theologians/aquinas.json",
@@ -14,23 +39,19 @@
     lewis: "divineCore/theologians/lewis.json"
   });
 
-  const creedProfilePaths = Object.freeze({
-    niceneCreed: "divineCore/creeds/niceneCreed.json",
-    apostlesCreed: "divineCore/creeds/apostlesCreed.json"
-  });
-
   const fallbackProfile = Object.freeze({
-    name: "Fallback Theological Wisdom Profile",
+    name: "Fallback Ecclesial Wisdom Profile",
+    type: "fallback",
     tradition: "Shared Christian",
-    era: "Phase 1 fallback",
-    coreEmphases: ["Scripture", "orthodoxy", "charity", "humility"],
+    era: "Phase 2 fallback",
+    coreEmphases: ["Scripture", "creedal orthodoxy", "charity", "humility"],
     likelyAffirmations: [
       "Christian reasoning should be tested by Scripture and the received faith of the Church.",
       "Pastoral application should hold truth and mercy together."
     ],
     likelyConcerns: [
       "overclaiming beyond the evidence",
-      "detaching discernment from Scripture, prayer, and Christian community"
+      "detaching discernment from Scripture, prayer, doctrine, and Christian community"
     ],
     discernmentQuestions: [
       "What does Scripture most clearly affirm here?",
@@ -92,14 +113,17 @@
   }
 
   const api = Object.freeze({
-    theologianProfilePaths,
+    scriptureFrameworkPaths,
     creedProfilePaths,
+    councilProfilePaths,
+    traditionProfilePaths,
+    theologianProfilePaths,
     getFallbackProfile,
     loadProfile,
     loadProfiles
   });
 
-  globalScope.DivineTheologyProfileLoader = api;
+  globalScope.DivineEcclesialWisdomLoader = api;
 
   if (typeof module !== "undefined" && module.exports) {
     module.exports = api;

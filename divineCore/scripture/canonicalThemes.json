@@ -1,0 +1,66 @@
+{
+  "name": "Canonical Themes",
+  "type": "scripture-framework",
+  "themes": [
+    {
+      "name": "Creation",
+      "emphases": [
+        "God as maker and sustainer",
+        "created goodness",
+        "human vocation under God"
+      ],
+      "discernmentQuestions": [
+        "Does this honor creaturely limits?",
+        "Does it treat creation as gift rather than possession?"
+      ]
+    },
+    {
+      "name": "Fall",
+      "emphases": [
+        "sin as disorder and rebellion",
+        "judgment and mercy",
+        "distorted desire"
+      ],
+      "discernmentQuestions": [
+        "Where might sin distort perception?",
+        "Does this name brokenness without despair?"
+      ]
+    },
+    {
+      "name": "Covenant",
+      "emphases": [
+        "God's faithful promise",
+        "holy people formed by grace",
+        "law, worship, and mission"
+      ],
+      "discernmentQuestions": [
+        "How does God's faithfulness frame this?",
+        "Does this strengthen faithful communal life?"
+      ]
+    },
+    {
+      "name": "Christ",
+      "emphases": [
+        "incarnation",
+        "cross and resurrection",
+        "Lordship and reconciliation"
+      ],
+      "discernmentQuestions": [
+        "How is Christ central without being forced into the pattern?",
+        "Does this point toward reconciliation in truth?"
+      ]
+    },
+    {
+      "name": "New Creation",
+      "emphases": [
+        "resurrection hope",
+        "Spirit-formed renewal",
+        "restoration of all things"
+      ],
+      "discernmentQuestions": [
+        "Does this hope remain grounded in resurrection?",
+        "What sign of renewal is visible or still awaited?"
+      ]
+    }
+  ]
+}

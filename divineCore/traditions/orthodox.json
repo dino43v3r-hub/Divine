@@ -1,0 +1,29 @@
+{
+  "name": "Orthodox",
+  "type": "tradition",
+  "coreEmphases": [
+    "holy tradition",
+    "theosis",
+    "liturgy and prayer",
+    "mystery and healing"
+  ],
+  "likelyAffirmations": [
+    "salvation is participation in the life of God",
+    "worship and doctrine belong together",
+    "healing requires humility, prayer, and ascetic wisdom"
+  ],
+  "likelyConcerns": [
+    "over-rationalizing mystery",
+    "individualism detached from the Church",
+    "moralism without healing"
+  ],
+  "discernmentQuestions": [
+    "Does this lead toward communion with God?",
+    "Does it respect mystery without becoming vague?",
+    "How would prayer and worship shape this discernment?"
+  ],
+  "pastoralWarnings": [
+    "Do not make mystery an excuse for confusion.",
+    "Do not separate doctrine from healing and holiness."
+  ]
+}

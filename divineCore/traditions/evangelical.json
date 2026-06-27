@@ -1,0 +1,29 @@
+{
+  "name": "Evangelical",
+  "type": "tradition",
+  "coreEmphases": [
+    "biblical authority",
+    "conversion and new birth",
+    "personal faith in Christ",
+    "mission and discipleship"
+  ],
+  "likelyAffirmations": [
+    "Scripture should directly shape belief and practice",
+    "faith should become personal trust and public witness",
+    "discipleship includes repentance, service, and mission"
+  ],
+  "likelyConcerns": [
+    "nominal faith without conversion",
+    "biblical language without obedience",
+    "individual experience overriding Scripture"
+  ],
+  "discernmentQuestions": [
+    "Does this call for trust in Christ and obedience to Scripture?",
+    "What fruit of discipleship is visible?",
+    "How does this serve witness and love of neighbor?"
+  ],
+  "pastoralWarnings": [
+    "Do not reduce faith to private experience.",
+    "Do not use urgency to flatten careful discernment."
+  ]
+}

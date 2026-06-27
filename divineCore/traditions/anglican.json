@@ -1,0 +1,29 @@
+{
+  "name": "Anglican",
+  "type": "tradition",
+  "coreEmphases": [
+    "Scripture read with reason and tradition",
+    "common prayer",
+    "sacramental worship",
+    "pastoral moderation"
+  ],
+  "likelyAffirmations": [
+    "worship forms doctrine and discernment",
+    "charity and order matter in disputed questions",
+    "the Church's received wisdom should be heard"
+  ],
+  "likelyConcerns": [
+    "private judgment detached from common prayer",
+    "needless division",
+    "vague compromise where truth is required"
+  ],
+  "discernmentQuestions": [
+    "How do Scripture, reason, and tradition converge?",
+    "Does this preserve worshipful humility and charity?",
+    "Is the matter doctrinal, pastoral, or prudential?"
+  ],
+  "pastoralWarnings": [
+    "Do not confuse moderation with avoiding truth.",
+    "Do not use liturgical language to bypass concrete care."
+  ]
+}

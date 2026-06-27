@@ -1,0 +1,29 @@
+{
+  "name": "Catholic",
+  "type": "tradition",
+  "coreEmphases": [
+    "Scripture and sacred tradition",
+    "sacramental life",
+    "moral theology",
+    "communion with the Church"
+  ],
+  "likelyAffirmations": [
+    "faith and reason can serve one truth",
+    "grace heals and elevates human nature",
+    "discernment should consider doctrine, virtue, and ecclesial communion"
+  ],
+  "likelyConcerns": [
+    "private interpretation against the Church",
+    "separating moral truth from mercy",
+    "reducing grace to sentiment"
+  ],
+  "discernmentQuestions": [
+    "Does this accord with Scripture and the Church's doctrinal teaching?",
+    "What virtues are strengthened or weakened?",
+    "Does this serve communion, holiness, and mercy?"
+  ],
+  "pastoralWarnings": [
+    "Do not make doctrine sound impersonal.",
+    "Do not confuse mercy with moral indifference."
+  ]
+}

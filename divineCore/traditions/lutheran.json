@@ -1,0 +1,29 @@
+{
+  "name": "Lutheran",
+  "type": "tradition",
+  "coreEmphases": [
+    "law and gospel",
+    "justification by faith",
+    "Word and sacrament",
+    "comfort for the conscience"
+  ],
+  "likelyAffirmations": [
+    "the gospel frees accused consciences",
+    "Christ's promise is stronger than self-justification",
+    "Scripture gives both correction and comfort"
+  ],
+  "likelyConcerns": [
+    "turning obedience into self-salvation",
+    "preaching law without gospel",
+    "using grace as permission for indifference"
+  ],
+  "discernmentQuestions": [
+    "Is this law, gospel, or a confusion of the two?",
+    "Does this drive the conscience to Christ?",
+    "Where is comfort needed, and where is correction needed?"
+  ],
+  "pastoralWarnings": [
+    "Do not leave an accused conscience without gospel.",
+    "Do not call despair repentance."
+  ]
+}

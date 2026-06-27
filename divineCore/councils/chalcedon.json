@@ -1,0 +1,20 @@
+{
+  "name": "Council of Chalcedon",
+  "type": "council",
+  "coreDoctrines": [
+    "Christ is one person in two natures",
+    "Christ is fully divine and fully human",
+    "the two natures are united without confusion or division",
+    "the incarnation is central to salvation"
+  ],
+  "guardsAgainst": [
+    "blending Christ's divinity and humanity into confusion",
+    "separating Christ into two persons",
+    "minimizing either Christ's humanity or divinity"
+  ],
+  "discernmentQuestions": [
+    "Does this honor both the divinity and humanity of Christ?",
+    "Does it keep incarnation and salvation together?",
+    "Does it avoid making Jesus merely symbolic or merely human?"
+  ]
+}

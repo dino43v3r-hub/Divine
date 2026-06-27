@@ -1,0 +1,20 @@
+{
+  "name": "Athanasian Creed",
+  "type": "creed",
+  "coreDoctrines": [
+    "one God in Trinity and Trinity in unity",
+    "the Father, Son, and Holy Spirit as coequal and coeternal",
+    "Christ as fully God and fully human",
+    "Christ's saving work, resurrection, ascension, and judgment"
+  ],
+  "guardsAgainst": [
+    "confusing or dividing the persons of the Trinity",
+    "denying the full divinity or humanity of Christ",
+    "reducing salvation to generic spirituality"
+  ],
+  "discernmentQuestions": [
+    "Does this preserve the unity and distinction of Father, Son, and Spirit?",
+    "Does it confess Christ as fully divine and fully human?",
+    "Does it avoid flattening Christian doctrine into vague theism?"
+  ]
+}

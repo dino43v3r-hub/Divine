@@ -1,0 +1,20 @@
+{
+  "name": "Council of Nicaea",
+  "type": "council",
+  "coreDoctrines": [
+    "the Son is truly divine",
+    "the Son is begotten, not made",
+    "the Son is of one essence with the Father",
+    "Christian worship is Trinitarian"
+  ],
+  "guardsAgainst": [
+    "treating Christ as a created being",
+    "subordinating the Son beneath the Father in essence",
+    "using biblical language to deny Christ's divinity"
+  ],
+  "discernmentQuestions": [
+    "Does this confess Christ as truly God?",
+    "Does it preserve worship of Father, Son, and Spirit?",
+    "Does it make Christ less than the saving Lord revealed in Scripture?"
+  ]
+}
