@@ -1,0 +1,75 @@
+{
+  "description": "Phase 6A queue for safe Divine Core source profile drafting. Entries are metadata only and do not include source text or quotations.",
+  "sources": [
+    {
+      "name": "On the Incarnation",
+      "author": "Athanasius",
+      "category": "patristic-theology",
+      "drafted": true,
+      "draftFile": "divineCore/drafts/athanasius-on-the-incarnation.json"
+    },
+    {
+      "name": "Against Heresies",
+      "author": "Irenaeus",
+      "category": "patristic-theology",
+      "drafted": false,
+      "draftFile": ""
+    },
+    {
+      "name": "Confessions",
+      "author": "Augustine",
+      "category": "spiritual-theology",
+      "drafted": false,
+      "draftFile": ""
+    },
+    {
+      "name": "City of God",
+      "author": "Augustine",
+      "category": "political-theology",
+      "drafted": false,
+      "draftFile": ""
+    },
+    {
+      "name": "Summa Theologica",
+      "author": "Aquinas",
+      "category": "scholastic-theology",
+      "drafted": false,
+      "draftFile": ""
+    },
+    {
+      "name": "Institutes of the Christian Religion",
+      "author": "Calvin",
+      "category": "reformation-theology",
+      "drafted": false,
+      "draftFile": ""
+    },
+    {
+      "name": "Bondage of the Will",
+      "author": "Luther",
+      "category": "reformation-theology",
+      "drafted": false,
+      "draftFile": ""
+    },
+    {
+      "name": "Mere Christianity",
+      "author": "C. S. Lewis",
+      "category": "apologetics",
+      "drafted": false,
+      "draftFile": ""
+    },
+    {
+      "name": "The Cost of Discipleship",
+      "author": "Bonhoeffer",
+      "category": "discipleship",
+      "drafted": false,
+      "draftFile": ""
+    },
+    {
+      "name": "Church Dogmatics",
+      "author": "Barth",
+      "category": "dogmatics",
+      "drafted": false,
+      "draftFile": ""
+    }
+  ]
+}

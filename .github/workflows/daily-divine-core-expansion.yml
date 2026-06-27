@@ -1,0 +1,71 @@
+name: Daily Divine Core Expansion
+
+on:
+  schedule:
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-source-draft:
+    name: Create source draft PR
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run Divine Core source draft generator
+        run: node divineCore/createDailySourceDraft.js
+
+      - name: Validate Divine Core JSON
+        run: |
+          node -e "const fs = require('fs'); const path = require('path'); function walk(dir) { for (const entry of fs.readdirSync(dir, { withFileTypes: true })) { const full = path.join(dir, entry.name); if (entry.isDirectory()) walk(full); if (entry.isFile() && entry.name.endsWith('.json')) JSON.parse(fs.readFileSync(full, 'utf8')); } } walk('divineCore');"
+
+      - name: Detect generated draft changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain divineCore/sourceExpansionQueue.json divineCore/drafts)" ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create branch and commit draft
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          BRANCH="daily-divine-core-expansion-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add divineCore/sourceExpansionQueue.json divineCore/drafts
+          git commit -m "Add daily Divine Core source draft"
+          git push origin "$BRANCH"
+          echo "branch=$BRANCH" >> "$GITHUB_ENV"
+
+      - name: Open pull request
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create \
+            --title "Daily Divine Core source expansion" \
+            --body "One structured reasoning draft was created.
+
+No quotations or copyrighted text are included.
+
+Review is required before merging." \
+            --base main \
+            --head "$branch"
+
+      - name: No draft created
+        if: steps.changes.outputs.has_changes != 'true'
+        run: echo "No undrafted Divine Core sources remain, so no pull request was opened."
