@@ -1,0 +1,58 @@
+{
+  "name": "Laws of Ecclesiastical Polity",
+  "category": "ecclesial-theology",
+  "reasoningMethod": {
+    "startingPoint": "Scripture, reason, tradition, and ordered church life serving faithful judgment",
+    "coreEmphases": [
+      "ordered sources of authority",
+      "reason governed by faith",
+      "ecclesial peace",
+      "distinguishing essentials from prudential matters"
+    ],
+    "discernmentQuestions": [
+      "What does Scripture require, and what belongs to wise ordering?",
+      "How does reason serve rather than master revelation?",
+      "Will this judgment preserve truth, charity, and the Church's peace?"
+    ],
+    "pastoralPriorities": [
+      "reduce needless conflict",
+      "clarify the weight of disputed matters",
+      "honor both truth and communal order"
+    ],
+    "commonWarnings": [
+      "do not make every disagreement doctrinally ultimate",
+      "do not use peace to avoid truth",
+      "do not let private certainty despise the Church"
+    ]
+  },
+  "patternRecognition": {
+    "looksFor": [
+      "confusion about authority",
+      "disputes over essentials and secondary matters",
+      "ways reason, tradition, and Scripture are being ordered"
+    ],
+    "strengthens": [
+      "prudence",
+      "charitable judgment",
+      "ecclesial patience"
+    ],
+    "guardsAgainst": [
+      "sectarian certainty",
+      "anti-intellectual biblicism",
+      "reason detached from worship and doctrine"
+    ]
+  },
+  "composerHints": {
+    "tone": "judicious, calm, ecclesial, and charitable",
+    "preferredStructure": [
+      "locate the authority question",
+      "distinguish doctrine from prudence",
+      "recommend a peaceable and truthful path"
+    ],
+    "avoid": [
+      "quoting source text",
+      "flattening hard disputes into vague compromise",
+      "treating reason as independent from faith"
+    ]
+  }
+}

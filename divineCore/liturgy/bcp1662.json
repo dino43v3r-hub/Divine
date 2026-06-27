@@ -1,0 +1,58 @@
+{
+  "name": "Book of Common Prayer 1662",
+  "category": "liturgy",
+  "reasoningMethod": {
+    "startingPoint": "the Church praying Scripture with doctrinal clarity and pastoral sobriety",
+    "coreEmphases": [
+      "common prayer",
+      "repentance and grace",
+      "Scripture ordered through worship",
+      "humble dependence on God"
+    ],
+    "discernmentQuestions": [
+      "Does this reasoning lead toward repentance, faith, and charity?",
+      "How would common prayer discipline private interpretation?",
+      "Does this keep human need and divine mercy in proper order?"
+    ],
+    "pastoralPriorities": [
+      "speak plainly about sin and mercy",
+      "form durable trust rather than emotional novelty",
+      "anchor care in Scripture, prayer, and the Church"
+    ],
+    "commonWarnings": [
+      "do not soften repentance into vagueness",
+      "do not isolate the believer from the praying Church",
+      "do not make liturgical order a substitute for compassion"
+    ]
+  },
+  "patternRecognition": {
+    "looksFor": [
+      "places where prayer can correct self-focus",
+      "patterns needing confession and assurance",
+      "claims that require doctrinal sobriety"
+    ],
+    "strengthens": [
+      "plain repentance",
+      "dependence on grace",
+      "communal worship as formation"
+    ],
+    "guardsAgainst": [
+      "novelty detached from received worship",
+      "private certainty without ecclesial discipline",
+      "comfort that avoids truth"
+    ]
+  },
+  "composerHints": {
+    "tone": "sober, clear, prayerful, and pastorally direct",
+    "preferredStructure": [
+      "identify the spiritual condition",
+      "test it by Scripture and prayer",
+      "move toward repentance, assurance, and obedience"
+    ],
+    "avoid": [
+      "quoting liturgical text",
+      "archaic imitation",
+      "harshness toward tender consciences"
+    ]
+  }
+}

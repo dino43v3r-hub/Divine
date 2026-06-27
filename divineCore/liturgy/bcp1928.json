@@ -1,0 +1,58 @@
+{
+  "name": "Book of Common Prayer 1928",
+  "category": "liturgy",
+  "reasoningMethod": {
+    "startingPoint": "common prayer forming belief, affection, repentance, and hope",
+    "coreEmphases": [
+      "Scripture-shaped worship",
+      "ordered confession and absolution",
+      "sacramental formation",
+      "reverent pastoral care"
+    ],
+    "discernmentQuestions": [
+      "How does prayer reshape the interpretation of this pattern?",
+      "Does this invite confession, mercy, thanksgiving, and obedience?",
+      "What ordinary practice would form the soul toward faithfulness?"
+    ],
+    "pastoralPriorities": [
+      "lead the person toward prayerful steadiness",
+      "hold sin, mercy, and hope together",
+      "encourage embodied worship and accountable counsel"
+    ],
+    "commonWarnings": [
+      "do not use liturgical language to avoid concrete care",
+      "do not let reverence become distance from pain",
+      "do not treat spiritual formation as instant resolution"
+    ]
+  },
+  "patternRecognition": {
+    "looksFor": [
+      "need for confession and mercy",
+      "habits that shape desire over time",
+      "ways worship can reorder anxiety, guilt, or grief"
+    ],
+    "strengthens": [
+      "penitence without despair",
+      "reverence joined to comfort",
+      "daily and weekly patterns of prayer"
+    ],
+    "guardsAgainst": [
+      "private spirituality detached from worship",
+      "sentiment without repentance",
+      "pastoral counsel without prayer"
+    ]
+  },
+  "composerHints": {
+    "tone": "reverent, pastoral, steady, and prayer-shaped",
+    "preferredStructure": [
+      "name the need",
+      "frame it through confession, mercy, and hope",
+      "suggest a modest practice of prayer or worship"
+    ],
+    "avoid": [
+      "quoting liturgical text",
+      "sounding ceremonial instead of pastoral",
+      "turning worship into a technique"
+    ]
+  }
+}

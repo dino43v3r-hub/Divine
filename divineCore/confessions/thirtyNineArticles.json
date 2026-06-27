@@ -1,0 +1,58 @@
+{
+  "name": "Thirty-Nine Articles",
+  "category": "confession",
+  "reasoningMethod": {
+    "startingPoint": "doctrinal boundaries for Anglican reasoning under Scripture",
+    "coreEmphases": [
+      "Scripture as sufficient authority for salvation",
+      "creedal and Trinitarian orthodoxy",
+      "grace, faith, and good works in proper order",
+      "sacramental realism with doctrinal restraint"
+    ],
+    "discernmentQuestions": [
+      "Does this claim remain accountable to Scripture?",
+      "Does it preserve creedal faith and the gospel of grace?",
+      "Does it distinguish necessary doctrine from disputed speculation?"
+    ],
+    "pastoralPriorities": [
+      "guard the gospel from confusion",
+      "protect consciences from unnecessary burdens",
+      "encourage faith that bears faithful works"
+    ],
+    "commonWarnings": [
+      "do not make secondary matters tests of salvation",
+      "do not separate faith from obedience",
+      "do not treat doctrinal restraint as doctrinal indifference"
+    ]
+  },
+  "patternRecognition": {
+    "looksFor": [
+      "claims about authority, salvation, church, and sacraments",
+      "confusion between grace and works",
+      "doctrine that needs Anglican boundary-setting"
+    ],
+    "strengthens": [
+      "gospel clarity",
+      "Scriptural accountability",
+      "measured doctrinal judgment"
+    ],
+    "guardsAgainst": [
+      "overclaiming beyond Scripture",
+      "works-righteousness",
+      "unbounded private interpretation"
+    ]
+  },
+  "composerHints": {
+    "tone": "doctrinally clear, restrained, and pastorally measured",
+    "preferredStructure": [
+      "identify the doctrinal issue",
+      "test it by Scripture and creedal boundaries",
+      "state the pastoral consequence carefully"
+    ],
+    "avoid": [
+      "quoting article text",
+      "turning doctrinal boundaries into polemics",
+      "overstating Anglican consensus"
+    ]
+  }
+}

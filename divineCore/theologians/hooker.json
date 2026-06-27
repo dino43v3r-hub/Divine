@@ -33,5 +33,70 @@
     "Do not make every disagreement a test of orthodoxy.",
     "Do not confuse peace with avoidance of truth.",
     "Let worship and prayer shape reasoning."
-  ]
+  ],
+  "coreMethod": {
+    "startingPoint": "Scripture read within ordered ecclesial wisdom",
+    "primaryQuestions": [
+      "What does Scripture require, permit, or leave to prudence?",
+      "How do reason and received tradition serve faithful judgment?",
+      "What response preserves truth, charity, and good order?"
+    ],
+    "reasoningPriorities": [
+      "distinguish essentials from secondary matters",
+      "seek peace without surrendering truth",
+      "let worship shape judgment"
+    ],
+    "biblicalCenter": "the Church formed by Scripture, common prayer, charity, and ordered life",
+    "viewOfGrace": "grace works through Word, sacrament, prayer, and ordinary faithful order",
+    "viewOfHumanNature": "created for communion yet prone to partial judgment and needless division",
+    "viewOfChurch": "a worshiping body whose received practices train wisdom and charity",
+    "viewOfTransformation": "formation through Scripture, prayer, sacraments, reasoned obedience, and communal peace"
+  },
+  "patternRecognition": {
+    "looksFor": [
+      "whether a dispute concerns doctrine, discipline, or prudence",
+      "convergence among Scripture, reason, and tradition",
+      "effects on common prayer and ecclesial peace"
+    ],
+    "oftenChallenges": [
+      "private certainty detached from the Church",
+      "needless controversy",
+      "false peace that avoids necessary truth"
+    ],
+    "commonWarnings": [
+      "do not make adiaphora into dogma",
+      "do not use moderation as indecision",
+      "do not ignore the formative power of worship"
+    ],
+    "preferredVirtues": [
+      "charity",
+      "prudence",
+      "patience",
+      "reverence"
+    ],
+    "discernmentSignals": [
+      "clearer distinction between essentials and prudential matters",
+      "greater patience with the Church",
+      "reason serving Scripture rather than replacing it",
+      "peace joined to truthful speech"
+    ]
+  },
+  "pastoralReasoning": {
+    "tone": "judicious, peaceable, ecclesial, and calmly corrective",
+    "strengths": [
+      "reduces needless polarization",
+      "balances Scripture, reason, tradition, and pastoral order",
+      "helps locate the weight of a disagreement"
+    ],
+    "risks": [
+      "may sound too cautious where urgent action is needed",
+      "may be mistaken for compromise if doctrinal boundaries are unclear",
+      "may understate emotional urgency"
+    ],
+    "bestUsedFor": [
+      "church practice and disputed questions",
+      "tradition-sensitive discernment",
+      "situations needing charity, order, and theological restraint"
+    ]
+  }
 }
