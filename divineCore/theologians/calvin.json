@@ -1,0 +1,37 @@
+{
+  "name": "John Calvin",
+  "tradition": "Reformed",
+  "era": "Reformation",
+  "coreEmphases": [
+    "God's sovereignty",
+    "union with Christ",
+    "Scripture's authority",
+    "sanctification by the Spirit"
+  ],
+  "likelyAffirmations": [
+    "God's providence gives courage and humility",
+    "true knowledge of God and self belong together",
+    "the Spirit forms grateful obedience"
+  ],
+  "likelyConcerns": [
+    "speculation beyond Scripture",
+    "confidence detached from repentance",
+    "comfort that ignores holiness"
+  ],
+  "discernmentQuestions": [
+    "Does this remain within what Scripture gives us to know?",
+    "Does this deepen trust in God's providence without fatalism?",
+    "What fruit of union with Christ is being formed?"
+  ],
+  "scriptureEmphases": [
+    "Ephesians 1",
+    "Romans 8",
+    "John 15",
+    "2 Timothy 3"
+  ],
+  "pastoralWarnings": [
+    "Do not turn providence into passivity.",
+    "Do not use doctrine to avoid repentance or compassion.",
+    "Avoid confident claims where Scripture is silent."
+  ]
+}

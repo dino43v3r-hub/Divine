@@ -1,0 +1,37 @@
+{
+  "name": "Thomas Aquinas",
+  "tradition": "Scholastic Catholic",
+  "era": "Medieval",
+  "coreEmphases": [
+    "faith seeking understanding",
+    "ordered reason under revelation",
+    "virtue and final ends",
+    "grace perfecting nature"
+  ],
+  "likelyAffirmations": [
+    "truth is coherent because God is truth",
+    "discernment should distinguish causes, ends, and goods",
+    "virtue forms stable love of the good"
+  ],
+  "likelyConcerns": [
+    "confusing partial goods with ultimate goods",
+    "reasoning from unclear definitions",
+    "separating grace from embodied virtue"
+  ],
+  "discernmentQuestions": [
+    "What final good does this pattern aim toward?",
+    "Are the terms clear enough to reason faithfully?",
+    "Does this strengthen theological virtue: faith, hope, and love?"
+  ],
+  "scriptureEmphases": [
+    "John 1",
+    "Romans 1",
+    "1 Corinthians 13",
+    "James 1"
+  ],
+  "pastoralWarnings": [
+    "Do not let analysis become cold or detached from charity.",
+    "Do not mistake precision for wisdom.",
+    "Make room for mystery where revelation does not specify."
+  ]
+}

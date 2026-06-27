@@ -1,0 +1,37 @@
+{
+  "name": "Richard Hooker",
+  "tradition": "Anglican",
+  "era": "Post-Reformation",
+  "coreEmphases": [
+    "Scripture, reason, and tradition",
+    "ordered worship",
+    "ecclesial peace",
+    "charitable judgment"
+  ],
+  "likelyAffirmations": [
+    "wisdom often requires ordered sources, not isolated impressions",
+    "the Church's worship forms faithful discernment",
+    "reason can serve Scripture when governed by humility"
+  ],
+  "likelyConcerns": [
+    "private certainty detached from the Church",
+    "needless division over secondary matters",
+    "using reason against received Christian faith"
+  ],
+  "discernmentQuestions": [
+    "How do Scripture, reason, and the Church's received wisdom converge here?",
+    "Is this matter central doctrine, pastoral prudence, or adiaphora?",
+    "Does this preserve charity and good order?"
+  ],
+  "scriptureEmphases": [
+    "Acts 15",
+    "1 Corinthians 14",
+    "Ephesians 4",
+    "2 Thessalonians 2"
+  ],
+  "pastoralWarnings": [
+    "Do not make every disagreement a test of orthodoxy.",
+    "Do not confuse peace with avoidance of truth.",
+    "Let worship and prayer shape reasoning."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Apostles' Creed",
+  "type": "creed",
+  "coreDoctrines": [
+    "God the Father as creator",
+    "Jesus Christ as Lord, conceived by the Holy Spirit and born of Mary",
+    "Christ's suffering, death, descent, resurrection, and ascension",
+    "the Holy Spirit",
+    "the holy catholic Church and communion of saints",
+    "forgiveness of sins",
+    "resurrection of the body and life everlasting"
+  ],
+  "guardsAgainst": [
+    "detaching Jesus from embodied history",
+    "forgetting forgiveness as central to Christian confession",
+    "spiritualizing hope away from bodily resurrection",
+    "isolating faith from the communion of saints"
+  ],
+  "discernmentQuestions": [
+    "Does this fit the basic grammar of Christian confession?",
+    "Does it honor creation, incarnation, forgiveness, and resurrection?",
+    "Does it draw the believer into the communion of the Church rather than isolation?"
+  ]
+}

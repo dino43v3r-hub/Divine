@@ -1,0 +1,23 @@
+{
+  "name": "Nicene Creed",
+  "type": "creed",
+  "coreDoctrines": [
+    "one God, Father Almighty, maker of heaven and earth",
+    "Jesus Christ as true God from true God",
+    "the incarnation, crucifixion, resurrection, and ascension of Christ",
+    "the Holy Spirit as Lord and giver of life",
+    "one holy catholic and apostolic Church",
+    "one baptism and the hope of resurrection"
+  ],
+  "guardsAgainst": [
+    "denying the full divinity of Christ",
+    "dividing the Trinity into unequal beings",
+    "reducing salvation to moral example alone",
+    "separating Christian hope from resurrection"
+  ],
+  "discernmentQuestions": [
+    "Does this claim confess the Father, Son, and Holy Spirit faithfully?",
+    "Does it preserve the full divinity and full saving work of Christ?",
+    "Does it keep Christian hope grounded in resurrection and new creation?"
+  ]
+}

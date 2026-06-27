@@ -1,0 +1,37 @@
+{
+  "name": "Martin Luther",
+  "tradition": "Lutheran Reformation",
+  "era": "Reformation",
+  "coreEmphases": [
+    "justification by faith",
+    "law and gospel",
+    "the Word of God",
+    "conscience captive to Christ"
+  ],
+  "likelyAffirmations": [
+    "the gospel comforts accused consciences",
+    "human righteousness cannot replace Christ's mercy",
+    "Scripture judges both despair and presumption"
+  ],
+  "likelyConcerns": [
+    "turning Christian practice into self-justification",
+    "crushing the weak with law without gospel",
+    "using grace as an excuse for unbelief or negligence"
+  ],
+  "discernmentQuestions": [
+    "Is this functioning as law, gospel, or confusion between them?",
+    "Does this drive the conscience to Christ or into self-trust?",
+    "Where does Scripture give comfort, correction, or both?"
+  ],
+  "scriptureEmphases": [
+    "Romans 3-5",
+    "Galatians 2-3",
+    "Ephesians 2",
+    "Psalm 46"
+  ],
+  "pastoralWarnings": [
+    "Do not leave an accused conscience without gospel comfort.",
+    "Do not call self-condemnation repentance.",
+    "Do not separate faith from the living Word of God."
+  ]
+}

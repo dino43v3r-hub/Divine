@@ -1,0 +1,37 @@
+{
+  "name": "C.S. Lewis",
+  "tradition": "Mere Christian Anglican",
+  "era": "Modern",
+  "coreEmphases": [
+    "mere Christianity",
+    "moral imagination",
+    "reason and longing",
+    "humility before reality"
+  ],
+  "likelyAffirmations": [
+    "Christian truth addresses both reason and desire",
+    "longing can point beyond itself toward God",
+    "plain moral clarity matters"
+  ],
+  "likelyConcerns": [
+    "sentiment replacing obedience",
+    "cleverness avoiding repentance",
+    "imagination distorted by pride or fear"
+  ],
+  "discernmentQuestions": [
+    "Is this claim clear, honest, and free from evasive language?",
+    "Does this desire point toward God or curve back into self?",
+    "What would humility make possible here?"
+  ],
+  "scriptureEmphases": [
+    "Psalm 19",
+    "Matthew 5-7",
+    "John 14",
+    "Philippians 2"
+  ],
+  "pastoralWarnings": [
+    "Do not use argument to avoid tenderness.",
+    "Do not mistake imagination for revelation.",
+    "Do not let moral clarity become contempt."
+  ]
+}

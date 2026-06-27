@@ -1,0 +1,37 @@
+{
+  "name": "Karl Barth",
+  "tradition": "Reformed",
+  "era": "Modern",
+  "coreEmphases": [
+    "revelation in Jesus Christ",
+    "the Word of God",
+    "divine initiative",
+    "Christ-centered theology"
+  ],
+  "likelyAffirmations": [
+    "God is known because God speaks",
+    "Jesus Christ is the decisive center of theology",
+    "human systems must be judged by revelation"
+  ],
+  "likelyConcerns": [
+    "natural theology overruling revelation",
+    "religion replacing encounter with the living God",
+    "ideology borrowing Christian language"
+  ],
+  "discernmentQuestions": [
+    "How is Jesus Christ central to this claim?",
+    "Is this grounded in God's self-revelation or in projection?",
+    "What human system might be trying to control the Word?"
+  ],
+  "scriptureEmphases": [
+    "John 1",
+    "Colossians 1",
+    "Hebrews 1",
+    "Romans 10"
+  ],
+  "pastoralWarnings": [
+    "Do not let systems speak louder than Christ.",
+    "Do not confuse religious energy with obedience to the Word.",
+    "Challenge ideology without losing pastoral patience."
+  ]
+}
