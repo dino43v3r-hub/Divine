@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from html import escape
 import json
 from pathlib import Path
@@ -8,6 +8,7 @@ import re
 
 
 OUTPUT_PATH = Path("reports/published/final_book_report.md")
+SNAPSHOT_PATH_TEMPLATE = "report_snapshot_{date}.json"
 DAILY_IMAGE_ALIAS_PATH = Path("reports/published/daily_pattern_image.svg")
 REFERENCES_PATH = Path("references/references.json")
 DAILY_DIGEST_PATH = Path("references/daily_research_digest.json")
@@ -494,43 +495,85 @@ def daily_anglican_reader(generated: datetime) -> dict:
             "role": "deaconess",
             "title": "A Deaconess Prayer Book Reading",
             "subtitle": "written as a deaconess in the Anglican Church, formed by the 1928 Book of Common Prayer",
-            "desk_image": "a deaconess's parish desk after Morning Prayer",
-            "notebook": "a deaconess's notebook after prayer and service",
+            "ministry": "mercy, service, pastoral care, ordinary discipleship, encouragement, practical holiness, and the care of souls",
+            "setting": "homes, bedsides, parish roads, schools, and the rooms of the poor and lonely",
+            "desk_image": "a deaconess's parish table after Morning Prayer and visitation",
+            "notebook": "a deaconess's notebook after prayer, parish visits, and works of mercy",
             "verb": "would",
             "first_person": (
-                "I come to this report as a deaconess in the Anglican Church might come from Morning Prayer "
-                "into parish duty: with Scripture still in the ear, the Prayer Book's order still shaping the "
-                "heart, and ordinary people in view. The work still has research machinery beneath it, but today "
-                "I want the reading to sound less like a parts list and more like a deaconess's notebook after "
-                "prayer, teaching, visitation, and works of mercy."
+                "I come to this report as a deaconess in the Anglican Church might return from Morning Prayer "
+                "and the parish road: with Scripture still in the ear, the Prayer Book's order still shaping "
+                "the heart, and particular souls still before me from homes, bedsides, schools, and works of mercy. "
+                "The work still has research machinery beneath it, but today I want the reading to sound less like "
+                "a parts list and more like a deaconess's notebook after prayer, visitation, encouragement, and "
+                "care for the poor and lonely."
             ),
-            "pattern_action": "carry into teaching, visitation, and works of mercy",
+            "pattern_action": "carry into visitation, teaching, encouragement, and works of mercy",
             "vocation_test": (
                 "The Prayer Book trains a deaconess-like reading to ask whether doctrine becomes patient "
-                "instruction, mercy toward the vulnerable, reverence in worship, and practical service."
+                "instruction, mercy toward the vulnerable, truthful speech, courage in daily duty, reverence in "
+                "worship, and practical service."
             ),
+            "office_question": "Will this pattern strengthen patience, charity, courage, humility, truthful speech, and service to neighbor?",
+            "observation_frame": "I am listening for what this pattern does in a room where someone is tired, afraid, poor, lonely, learning, or in need of courage for ordinary obedience.",
+            "theology_frame": "The theological question is therefore not smaller, but nearer to the ground: can this claim be prayed, read with Scripture, obeyed in mercy, and carried without harming vulnerable souls?",
+            "church_test": "It must pass through mercy, embodied obedience, daily duty, prayer, Scripture, and care for the vulnerable.",
+            "risk_frame": "A deaconess must refuse any beautiful pattern that makes suffering decorative, service sentimental, speech evasive, or vulnerable people carry the burden of someone else's certainty.",
+            "practice_frame": "Practice it in one restraint: do not carry an unready certainty into a conversation where a soul needs truth spoken gently.",
+            "collect": "O Lord, make our seeing merciful, our speech truthful, our service patient, and our daily duty glad in Thee; through Jesus Christ our Lord. Amen.",
+            "collect_alt": "O Lord, order our mercy, cleanse our speech, strengthen our hands for service, and make every true sign fruitful in care for the least and lonely; through Jesus Christ our Lord. Amen.",
         },
         {
             "role": "priest",
             "title": "A Priest Prayer Book Reading",
             "subtitle": "written as an Anglican priest formed by the 1928 Book of Common Prayer",
-            "desk_image": "a priest's desk after Morning Prayer",
-            "notebook": "a priest's notebook after prayer",
+            "ministry": "doctrine, Scripture, creed, sacrament, worship, preaching, theological discernment, and public teaching",
+            "setting": "chapel, study, altar, pulpit, parish desk, and the gathered worship of the Church",
+            "desk_image": "a priest's parish desk after Morning Prayer, near chapel, altar, and pulpit",
+            "notebook": "a priest's notebook after Morning Prayer in the study",
             "verb": "would",
             "first_person": (
-                "I come to this report as I would come to a desk after Morning Prayer: not looking first for "
-                "novelty, but for truth that can survive confession, Scripture, creed, and the ordinary duties "
-                "of charity. The work still has research machinery beneath it, but today I want the reading to "
-                "sound less like a parts list and more like a priest's notebook after prayer."
+                "I come to this report as a priest might come to the parish desk after Morning Prayer, with chapel, "
+                "study, altar, and pulpit still in view: not looking first for novelty, but for truth that can be "
+                "preached without vanity, confessed without evasion, prayed without presumption, and held within "
+                "the Church's doctrine. The work still has research machinery beneath it, but today I want the "
+                "reading to sound less like a parts list and more like a priest's notebook after prayer."
             ),
-            "pattern_action": "test in prayer first, then in conduct",
+            "pattern_action": "test before Scripture, creed, altar, pulpit, and pastoral charity",
             "vocation_test": (
-                "The Prayer Book trains a priestly reading to confess, receive mercy, hear Scripture, come to "
-                "the Table, and then walk in good works."
+                "The Prayer Book trains a priestly reading to confess, receive mercy, hear Scripture, keep the "
+                "Creeds, come to the Table, preach with restraint, and then walk in good works."
             ),
+            "office_question": "Can this claim be preached, confessed, prayed, and held within the Church's doctrine?",
+            "observation_frame": "I am listening for whether this pattern can stand in the nave and the study as well as in private thought: named plainly, tested publicly, and restrained by worship.",
+            "theology_frame": "The theological question is warm but exacting: can this claim pass through Christ, Scripture, the Creeds, worship, repentance, charity, and visible fruit?",
+            "church_test": "It must pass through Christ, Scripture, the Creeds, worship, repentance, charity, sacrament, and visible fruit.",
+            "risk_frame": "A priest must refuse any attractive pattern that cannot be preached honestly, prayed humbly, confessed within the Church's doctrine, or offered near the altar without overclaim.",
+            "practice_frame": "Practice it in one restraint: do not teach or preach the claim beyond what Scripture, creed, worship, and charity can bear.",
+            "collect": "O Lord, purify our doctrine, govern our preaching, deepen our worship, and make every true word fruitful in repentance and charity; through Jesus Christ our Lord. Amen.",
+            "collect_alt": "O Lord, order our teaching, cleanse our doctrine, restrain our speech at the pulpit and altar, and turn every true sign toward worship and charity; through Jesus Christ our Lord. Amen.",
         },
     ]
     return profiles[generated.date().toordinal() % 2]
+
+
+def previous_anglican_reader_memory(generated: datetime, reader: dict) -> str:
+    previous_reader = daily_anglican_reader(generated - timedelta(days=1))
+    previous_role = previous_reader.get("role")
+    current_role = reader.get("role")
+    if previous_role == current_role:
+        return ""
+    if current_role == "priest" and previous_role == "deaconess":
+        return (
+            "Yesterday's deaconess would have reminded me that a claim which cannot become mercy beside "
+            "a bed, in a home, or among the lonely is not yet ready for the pulpit."
+        )
+    if current_role == "deaconess" and previous_role == "priest":
+        return (
+            "The priestly caution of yesterday guards today's mercy from becoming sentiment: what I carry "
+            "to homes and bedsides must still be true before Scripture, creed, and worship."
+        )
+    return ""
 
 
 def anglican_1928_reflection(
@@ -549,8 +592,8 @@ def anglican_1928_reflection(
         )
     return (
         f"An Anglican {reader['role']} shaped by the 1928 Book of Common Prayer would not begin by asking whether "
-        f"{pattern_name} is clever. This {reader['role']} would ask how it sounds after confession, Scripture, "
-        "the creeds, the collects, Holy Communion, and the ordinary offices of prayer. The desire would be for the pattern "
+        f"{pattern_name} is clever. This {reader['role']} would ask how it sounds within {reader['setting']}. "
+        f"The ministry in view is {reader['ministry']}. {reader['church_test']} The desire would be for the pattern "
         "to become reverence, repentance, charity, and steady duty. Under today's lens of "
         f"{lens['name']}, the counsel would be: {reader['pattern_action']}; let it "
         "make you more truthful at home, more merciful toward the weak, more faithful in worship, and "
@@ -583,6 +626,449 @@ def theologian_lane_summary(theologian_report: str) -> str:
     if document_count:
         return f"The theologian section behind this entry draws on {document_count} analyzed theologian documents and gives special weight today to {concept_text}."
     return f"The theologian section behind this entry gives special weight today to {concept_text}."
+
+
+SECTION_REPEAT_STOPWORDS = {
+    "a",
+    "an",
+    "and",
+    "are",
+    "as",
+    "at",
+    "be",
+    "because",
+    "before",
+    "but",
+    "by",
+    "can",
+    "could",
+    "does",
+    "for",
+    "from",
+    "has",
+    "have",
+    "here",
+    "if",
+    "in",
+    "is",
+    "it",
+    "its",
+    "me",
+    "not",
+    "of",
+    "on",
+    "or",
+    "so",
+    "that",
+    "the",
+    "their",
+    "this",
+    "through",
+    "to",
+    "with",
+    "would",
+}
+
+
+SECTION_ROLE_PURPOSES = {
+    "spiritual atmosphere": "What posture should govern the reading before any claim is weighed?",
+    "observation": "What concrete human scene is being noticed?",
+    "discovery": "What is the single most interesting thing Divine discovered today?",
+    "change over time": "What changed since yesterday, and what cannot be compared honestly?",
+    "theological interpretation": "How should the Church's grammar test the observation?",
+    "objection and risk": "What must be resisted, weakened, or left unsaid?",
+    "practical application": "What faithful act follows today?",
+    "prayer": "What should be asked of God when the report has finished speaking?",
+}
+
+
+def section_terms(text: str) -> set[str]:
+    words = re.findall(r"[a-z][a-z']{3,}", text.lower())
+    return {word for word in words if word not in SECTION_REPEAT_STOPWORDS}
+
+
+def section_overlap(candidate: list[str], previous_sections: list[list[str]]) -> float:
+    candidate_terms = section_terms("\n".join(candidate))
+    if not candidate_terms:
+        return 0.0
+    highest_overlap = 0.0
+    for previous in previous_sections:
+        previous_terms = section_terms("\n".join(previous))
+        if not previous_terms:
+            continue
+        shared = candidate_terms & previous_terms
+        smaller_section = min(len(candidate_terms), len(previous_terms))
+        if smaller_section:
+            highest_overlap = max(highest_overlap, len(shared) / smaller_section)
+    return highest_overlap
+
+
+def choose_distinct_section(
+    role: str,
+    variants: list[list[str]],
+    previous_sections: list[list[str]],
+    repeat_threshold: float = 0.38,
+) -> list[str]:
+    """Choose the first role-fitting section that does not circle prior material."""
+    if role not in SECTION_ROLE_PURPOSES:
+        repeat_threshold = min(repeat_threshold, 0.3)
+    best_variant = variants[0]
+    best_overlap = section_overlap(best_variant, previous_sections)
+    for variant in variants:
+        overlap = section_overlap(variant, previous_sections)
+        if overlap < best_overlap:
+            best_variant = variant
+            best_overlap = overlap
+        if overlap <= repeat_threshold:
+            return variant
+
+    return best_variant
+
+
+def append_distinct_section(
+    lines: list[str],
+    previous_sections: list[list[str]],
+    heading: str,
+    role: str,
+    variants: list[list[str]],
+) -> None:
+    body = choose_distinct_section(role, variants, previous_sections)
+    section_lines = [heading, "", *body]
+    lines.extend(section_lines)
+    lines.append("")
+    previous_sections.append(section_lines)
+
+
+def top_count_label(counts: dict, fallback: str = "no recorded category") -> str:
+    if not counts:
+        return fallback
+    label, count = max(counts.items(), key=lambda item: int(item[1] or 0))
+    return f"{label} ({int(count):,})"
+
+
+def count_phrase(count: int, singular: str, plural: str | None = None) -> str:
+    noun = singular if count == 1 else (plural or f"{singular}s")
+    return f"{count:,} {noun}"
+
+
+def snapshot_path_for(date_value) -> Path:
+    return OUTPUT_PATH.parent / SNAPSHOT_PATH_TEMPLATE.format(date=date_value.isoformat())
+
+
+def queue_count(queue_payload: dict) -> int | None:
+    if not queue_payload:
+        return None
+    if "queue_count" in queue_payload:
+        return int(queue_payload.get("queue_count") or 0)
+    items = queue_payload.get("items")
+    return len(items) if isinstance(items, list) else None
+
+
+def strongest_count_item(counts: dict) -> tuple[str | None, int | None]:
+    if not counts:
+        return None, None
+    label, count = max(counts.items(), key=lambda item: int(item[1] or 0))
+    return str(label), int(count or 0)
+
+
+def build_report_snapshot(generated_at: datetime) -> dict:
+    digest = read_json(DAILY_DIGEST_PATH)
+    knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
+    review_audit = read_json(REVIEW_AUDIT_PATH)
+    review_gap_queue = read_json(REVIEW_GAP_QUEUE_PATH)
+    candidate_pattern = current_public_final_pattern(knowledge_index, generated_at)
+    freshness = digest_freshness(digest, generated_at)
+    lens = daily_lens(generated_at)
+    theologian = daily_theologian(generated_at)
+    reader = daily_anglican_reader(generated_at)
+    totals = review_audit.get("confidence_tier_totals", {}) if review_audit else {}
+    strongest_lane, strongest_lane_count = strongest_count_item(digest.get("new_layer_counts", {}) if digest else {})
+    digest_updated_at = parse_timestamp(digest.get("updated_at")) if digest else None
+    return {
+        "date": generated_at.date().isoformat(),
+        "generated_at_utc": generated_at.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "reader_role": reader.get("role"),
+        "lens": lens.get("name"),
+        "theologian": theologian.get("name"),
+        "pattern_name": candidate_pattern.get("name"),
+        "public_final_claim_count": int(totals.get("public_final_ready", 0) or 0),
+        "candidate_reference_count": int(digest.get("new_count", 0) or 0) if digest else None,
+        "review_queue_count": queue_count(review_gap_queue),
+        "strongest_routed_lane": strongest_lane,
+        "strongest_routed_lane_count": strongest_lane_count,
+        "freshness_status": freshness.get("label"),
+        "source_digest_date": digest_updated_at.date().isoformat() if digest_updated_at else None,
+    }
+
+
+def read_report_snapshot(date_value) -> dict:
+    path = snapshot_path_for(date_value)
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def today_discovery_variants(
+    reader: dict,
+    digest: dict,
+    audit: dict,
+    candidate_pattern: dict,
+    freshness: dict,
+) -> list[list[str]]:
+    new_count = int(digest.get("new_count", 0) or 0) if digest else 0
+    provider = top_count_label(digest.get("new_provider_counts", {}) if digest else {})
+    layer = top_count_label(digest.get("new_layer_counts", {}) if digest else {})
+    media = top_count_label(digest.get("new_media_candidate_counts", {}) if digest else {})
+    new_approval_counts = digest.get("new_auto_review_approval_counts", {}) if digest else {}
+    approved_for_queue = int(new_approval_counts.get("approved_for_review_queue", 0) or 0)
+    totals = audit.get("confidence_tier_totals", {}) if audit else {}
+    public_final_count = int(totals.get("public_final_ready", 0) or 0)
+    reviewed_ready_count = int(totals.get("reviewed_evidence_ready", 0) or 0)
+    freshness_note = freshness.get("warning", "The collector snapshot date could not be verified.")
+    freshness_sentence = freshness_note.split(". ", 1)[0].rstrip(".")
+    freshness_caution = freshness_sentence[0].lower() + freshness_sentence[1:] if freshness_sentence else "the collector snapshot date could not be verified"
+    if freshness_caution.startswith("collector snapshot"):
+        freshness_caution = f"the {freshness_caution}"
+    holding_public_claim = candidate_pattern.get("is_public_final_holding") or public_final_count == 0
+
+    if reader.get("role") == "priest":
+        if new_count:
+            lead = (
+                f"The freshest thing in the available discovery record is not yet a claim for the pulpit, "
+                f"but a new cluster for the study: {count_phrase(new_count, 'candidate reference')}, led by {provider} "
+                f"and routed most strongly toward {layer}."
+            )
+            interpretation = (
+                f"That cluster gives the priest work to test, not a sermon to announce. {count_phrase(approved_for_queue, 'new item')} "
+                "may be ready for the review queue, while the public-final gate has released "
+                f"{count_phrase(public_final_count, 'claim')}, with {count_phrase(reviewed_ready_count, 'reviewed-evidence-ready source')} still "
+                "requiring public-use judgment."
+            )
+        else:
+            lead = "The latest discovery data available to today's report does not record a new candidate reference count."
+            interpretation = (
+                "The discovery is therefore a boundary rather than an addition: the study, chapel, altar, and pulpit "
+                "must receive silence as part of theological discipline when the evidence ledger gives no new public claim."
+            )
+        if holding_public_claim:
+            conclusion = (
+                "That absence is meaningful: the report found something to withhold. A priestly reading should treat "
+                "that restraint as doctrine serving charity, not as a failure of imagination."
+            )
+        else:
+            conclusion = (
+                "The fresh contribution is a public-teaching question: what may be preached, confessed, and prayed only "
+                "after the discovery has passed Scripture, doctrine, worship, and visible fruit?"
+            )
+    else:
+        if new_count:
+            lead = (
+                f"The freshest thing in the available discovery record is not a new certainty for the parish road, "
+                f"but a new cluster needing care: {count_phrase(new_count, 'candidate reference')}, led by {provider}, "
+                f"with the strongest routed lane showing as {layer}."
+            )
+            interpretation = (
+                f"That is a mercy-shaped warning rather than a comfort to distribute. {count_phrase(approved_for_queue, 'new item')} "
+                f"may be ready for the review queue, {media} appears in the media mix, "
+                "and the public-final gate has released "
+                f"{count_phrase(public_final_count, 'claim')}."
+            )
+        else:
+            lead = "The latest discovery data available to today's report does not record a new candidate reference count."
+            interpretation = (
+                "The discovery is therefore a form of care: when the ledger gives no new public claim, mercy must not "
+                "pretend to possess comfort that truth has not yet given."
+            )
+        if holding_public_claim:
+            conclusion = (
+                "For the parish road, that absence is itself a finding. A deaconess may encourage patience, truthful speech, and "
+                "service, while refusing to carry an unready claim into wounded hearts as certainty."
+            )
+        else:
+            conclusion = (
+                "The fresh contribution is practical and pastoral: any new insight must become patience, courage, "
+                "humility, and service before it is used for care of souls."
+            )
+
+    return [
+        [
+            f"{lead} This must be read cautiously, since {freshness_caution}.",
+            "",
+            interpretation,
+            "",
+            conclusion,
+        ],
+        [
+            f"{lead} This must be read cautiously, since {freshness_caution}.",
+            "",
+            conclusion,
+        ],
+    ]
+
+
+def yesterday_change_variants(
+    reader: dict,
+    generated_at: datetime,
+    current_snapshot: dict,
+) -> list[list[str]]:
+    yesterday = generated_at - timedelta(days=1)
+    previous_snapshot = read_report_snapshot(yesterday.date())
+    previous_reader = daily_anglican_reader(yesterday)
+    previous_lens = daily_lens(yesterday)
+    previous_theologian = daily_theologian(yesterday)
+    yesterday_report_assets = [
+        daily_image_path(yesterday),
+        daily_reflection_image_path(yesterday),
+    ]
+    has_yesterday_artifact = any(path.exists() for path in yesterday_report_assets)
+    yesterday_label = yesterday.strftime("%B %d, %Y")
+
+    known_rotation = (
+        f"The record I can see says that yesterday, {yesterday_label}, the report stood under a "
+        f"{previous_reader['role']} reader, the **{previous_lens['name']}** lens, and the theologian "
+        f"**{previous_theologian['name']}**. Today it stands under a {reader['role']} reader, the "
+        f"**{daily_lens(generated_at)['name']}** lens, and **{daily_theologian(generated_at)['name']}**."
+    )
+    if previous_snapshot:
+        prior_role = previous_snapshot.get("reader_role")
+        prior_lens = previous_snapshot.get("lens")
+        prior_theologian = previous_snapshot.get("theologian")
+        prior_pattern = previous_snapshot.get("pattern_name")
+        current_pattern = current_snapshot.get("pattern_name")
+        known_rotation = (
+            f"Yesterday's snapshot says the report stood under a {prior_role or previous_reader['role']} reader, "
+            f"the **{prior_lens or previous_lens['name']}** lens, and **{prior_theologian or previous_theologian['name']}**. "
+            f"Today it stands under a {reader['role']} reader, the **{current_snapshot.get('lens') or daily_lens(generated_at)['name']}** "
+            f"lens, and **{current_snapshot.get('theologian') or daily_theologian(generated_at)['name']}**."
+        )
+        pattern_line = ""
+        if prior_pattern and current_pattern:
+            if prior_pattern == current_pattern:
+                pattern_line = f"The named pattern did not change: it remains **{current_pattern}**."
+            else:
+                pattern_line = f"The named pattern changed from **{prior_pattern}** to **{current_pattern}**."
+
+        count_changes = []
+        for label, key in [
+            ("candidate references", "candidate_reference_count"),
+            ("review queue items", "review_queue_count"),
+            ("public-final claims", "public_final_claim_count"),
+        ]:
+            previous_value = previous_snapshot.get(key)
+            current_value = current_snapshot.get(key)
+            if previous_value is None or current_value is None:
+                continue
+            previous_value = int(previous_value)
+            current_value = int(current_value)
+            if current_value == previous_value:
+                count_changes.append(f"{label} held at {current_value:,}")
+            else:
+                direction = "rose" if current_value > previous_value else "fell"
+                count_changes.append(f"{label} {direction} from {previous_value:,} to {current_value:,}")
+
+        prior_lane = previous_snapshot.get("strongest_routed_lane")
+        current_lane = current_snapshot.get("strongest_routed_lane")
+        prior_lane_count = previous_snapshot.get("strongest_routed_lane_count")
+        current_lane_count = current_snapshot.get("strongest_routed_lane_count")
+        lane_line = ""
+        if prior_lane and current_lane:
+            if prior_lane == current_lane and prior_lane_count is not None and current_lane_count is not None:
+                lane_line = (
+                    f"The strongest routed lane stayed with **{current_lane}**, moving from "
+                    f"{int(prior_lane_count):,} to {int(current_lane_count):,}."
+                )
+            elif prior_lane == current_lane:
+                lane_line = f"The strongest routed lane stayed with **{current_lane}**."
+            else:
+                lane_line = f"The strongest routed lane changed from **{prior_lane}** to **{current_lane}**."
+
+        evidence_lines = [line for line in [pattern_line, "; ".join(count_changes) + "." if count_changes else "", lane_line] if line]
+        if evidence_lines:
+            evidence_summary = " ".join(evidence_lines)
+        else:
+            evidence_summary = (
+                "The snapshot is present, but it does not contain enough comparable fields to name count, queue, lane, "
+                "or public-final movement."
+            )
+
+        if reader.get("role") == "priest":
+            vocation_change = (
+                "The priestly reading should receive those changes at chapel, study, altar, and pulpit: useful for "
+                "discernment, but not automatically ready for public teaching."
+            )
+        else:
+            vocation_change = (
+                "The deaconess reading should carry those changes onto the parish road carefully: useful for attention, "
+                "but not automatically ready for homes, bedsides, or wounded hearts."
+            )
+
+        return [
+            [
+                known_rotation,
+                "",
+                evidence_summary,
+                "",
+                vocation_change,
+            ],
+            [
+                known_rotation,
+                "",
+                vocation_change,
+                "",
+                evidence_summary,
+            ],
+        ]
+
+    unavailable_comparison = (
+        "I do not have a dated prior report or prior collector snapshot strong enough to compare candidate counts, "
+        "review-queue movement, routed-lane strength, or public-final claim status. A reverent reading should not "
+        "borrow confidence from a history it cannot presently see."
+    )
+    if has_yesterday_artifact:
+        artifact_note = (
+            "A dated visual artifact from yesterday is present, but it is only a trace of the journal, not proof of "
+            "yesterday's claims, counts, or confidence state."
+        )
+    else:
+        artifact_note = (
+            "No dated published report artifact for yesterday is available in the published report folder."
+        )
+
+    if reader.get("role") == "priest":
+        vocation_change = (
+            "So the change I can name is one of ministry setting rather than proven evidence movement: what was "
+            f"carried by a {previous_reader['role']} yesterday must now be received at chapel, study, altar, and pulpit. "
+            "The priestly task is to ask what may be preached, confessed, prayed, and taught without outrunning "
+            "Scripture, creed, sacrament, and charity."
+        )
+    else:
+        vocation_change = (
+            "So the change I can name is one of ministry setting rather than proven evidence movement: what was "
+            f"guarded by a {previous_reader['role']} yesterday must now be carried along the parish road, into homes "
+            "and bedsides, without letting mercy outrun truth. The deaconess's task is to ask whether the same "
+            "restraint can become patience, courage, humility, truthful speech, and service."
+        )
+
+    return [
+        [
+            known_rotation,
+            "",
+            f"{artifact_note} {unavailable_comparison}",
+            "",
+            vocation_change,
+        ],
+        [
+            known_rotation,
+            "",
+            vocation_change,
+            "",
+            unavailable_comparison,
+        ],
+    ]
 
 
 def generate_daily_pattern_image(candidate_pattern: dict, digest: dict, audit: dict, generated: datetime) -> Path:
@@ -1093,8 +1579,9 @@ def digest_freshness(digest: dict, generated_at: datetime) -> dict:
     if age_days == 0:
         warning = "Collector snapshot is current for this UTC day."
     else:
+        age_label = "1 day" if age_days == 1 else f"{age_days} days"
         warning = (
-            f"Collector snapshot is {age_days} day(s) older than this report. "
+            f"Collector snapshot is {age_label} older than this report. "
             "Run the daily collector before publishing if you expect today's counts to move."
         )
 
@@ -1957,8 +2444,8 @@ def build_article() -> str:
     return "\n".join(lines) + "\n"
 
 
-def build_short_article() -> str:
-    generated_at = datetime.now(timezone.utc)
+def build_short_article(generated_at: datetime | None = None) -> str:
+    generated_at = generated_at or datetime.now(timezone.utc)
     generated = generated_at.strftime("%Y-%m-%d %H:%M UTC")
     digest = read_json(DAILY_DIGEST_PATH)
     reference_catalog = read_json(REFERENCES_PATH)
@@ -2009,6 +2496,132 @@ def build_short_article() -> str:
     confidence = candidate_pattern.get("confidence_language", DEFAULT_CANDIDATE_PATTERN["confidence_language"])
     prayer_book_reflection = anglican_1928_reflection(candidate_pattern, lens, reader, theologian)
     theologian_context = theologian_lane_summary(theologian_report)
+    current_snapshot = build_report_snapshot(generated_at)
+    cross_role_memory = previous_anglican_reader_memory(generated_at, reader)
+    memory_lines = [cross_role_memory, ""] if cross_role_memory else []
+    office_variants = [
+        [
+            reader["first_person"],
+            "",
+            *memory_lines,
+            f"The daily pattern before me is **{candidate_pattern.get('name', 'the current pattern')}**. In plain speech, I would say it this way: {plain} The movement underneath it is {candidate_pattern['movement']}.",
+            "",
+            f"The lens appointed for today is **{lens['name']}**. I am not trying to say everything the project could say. I am carrying the question proper to this ministry: {reader['office_question']}",
+            "",
+            f"Today's focused question is: {lens['question']}",
+        ],
+        [
+            reader["first_person"],
+            "",
+            *memory_lines,
+            f"I name today's pattern only to set the room in order: **{candidate_pattern.get('name', 'the current pattern')}**. The first duty is not conclusion, but attention in the place of ministry given to this reader: {reader['setting']}.",
+            "",
+            f"I shall let this vocational question govern the entry: {reader['office_question']}",
+        ],
+    ]
+    room_variants = [
+        [
+            candidate_pattern.get("case_study", DEFAULT_CANDIDATE_PATTERN["case_study"]),
+            "",
+            reader["observation_frame"],
+            "",
+            f"In that room, the pattern is asking me to notice this: {candidate_pattern['candidate']} I would not preach that as proof or carry it as a slogan. I would receive it as a possible sign of faithful order only if it can serve this ministry: {reader['ministry']}.",
+        ],
+        [
+            candidate_pattern.get("case_study", DEFAULT_CANDIDATE_PATTERN["case_study"]),
+            "",
+            reader["observation_frame"],
+            "",
+            "The work of this section is simply to observe the human scene before interpreting it. The question is what this pattern asks of actual souls, actual speech, actual prayer, and actual duty.",
+        ],
+    ]
+    discovery_variants = today_discovery_variants(
+        reader,
+        digest,
+        review_audit,
+        candidate_pattern,
+        freshness,
+    )
+    change_variants = yesterday_change_variants(
+        reader,
+        generated_at,
+        current_snapshot,
+    )
+    theologian_variants = [
+        [
+            theologian_context,
+            "",
+            f"Today's theologian is **{theologian['name']}**, chosen from the rotating theologian voices gathered for this project. I would let {theologian['name']} stand beside the Prayer Book and the {reader['role']} voice today because of {theologian['angle']}. {theologian['comment']}",
+            "",
+            reader["theology_frame"],
+            "",
+            f"The wider theologian panel matters too: {panel_text} Their presence keeps the report from becoming private inspiration. {reader['church_test']}",
+            "",
+            candidate_pattern.get("theologian_judgment", DEFAULT_CANDIDATE_PATTERN["theologian_judgment"]),
+        ],
+        [
+            theologian_context,
+            "",
+            f"Today's theologian is **{theologian['name']}**. The question here is not whether the pattern sounds moving, but whether it can stand within {reader['setting']}. {theologian['comment']}",
+            "",
+            reader["theology_frame"],
+            "",
+            candidate_pattern.get("theologian_judgment", DEFAULT_CANDIDATE_PATTERN["theologian_judgment"]),
+        ],
+    ]
+    prayer_book_variants = [
+        [
+            prayer_book_reflection,
+            "",
+            reader["risk_frame"],
+            "",
+            "This is also where the objection belongs. A good Anglican reading should not hurry past the hard question just because the pattern is attractive. Today's objection is plain: "
+            + objection,
+            "",
+            caution,
+            "",
+            f"What would weaken this pattern is also important: {candidate_pattern.get('weakens_if', DEFAULT_CANDIDATE_PATTERN['weakens_if'])}",
+            "",
+            f"So my responsible confidence today is modest: {confidence} That is not a failure of faith. It is part of reverence. {reader['vocation_test']} It does not train a person to turn every interesting recurrence into certainty.",
+        ],
+        [
+            prayer_book_reflection,
+            "",
+            reader["risk_frame"],
+            "",
+            "The Prayer Book test must also say no. It says no to haste, no to decorative certainty, no to using holy language where repentance, repair, silence, or better evidence is required.",
+            "",
+            "Today's objection is plain: " + objection,
+            "",
+            f"The specific failure condition is this: {candidate_pattern.get('weakens_if', DEFAULT_CANDIDATE_PATTERN['weakens_if'])}",
+            "",
+            f"The confidence therefore remains modest: {confidence}",
+        ],
+    ]
+    rule_variants = [
+        [
+            f"The daily practice is therefore small and concrete: {response_sentence}",
+            "",
+            reader["practice_frame"],
+            "",
+            "That is the kind of conclusion I trust most in this project: not a dazzling claim, but a disciplined act. If the pattern is near the truth, it should make the reader more faithful before it makes the reader more impressed.",
+        ],
+        [
+            f"The rule for today is brief enough to obey: {response_sentence}",
+            "",
+            reader["practice_frame"],
+            "",
+            "Let the report end in duty before it seeks admiration. A faithful pattern should leave a person readier for truth, mercy, justice, patience, and worship.",
+        ],
+    ]
+    collect_variants = [
+        [
+            reader["collect"],
+        ],
+        [
+            reader["collect_alt"],
+        ],
+    ]
     diary_lines = [
         f"# {reader['title']} Of {candidate_pattern.get('name', 'Today Pattern')}",
         "",
@@ -2018,59 +2631,82 @@ def build_short_article() -> str:
         "",
         f"![Today's reflection image]({reflection_image.name})",
         "",
-        "## Today's Office",
-        "",
-        reader["first_person"],
-        "",
-        f"The daily pattern before me is **{candidate_pattern.get('name', 'the current pattern')}**. In plain speech, I would say it this way: {plain} The movement underneath it is {candidate_pattern['movement']}.",
-        "",
-        f"The lens appointed for today is **{lens['name']}**. That means I am not trying to say everything the project could say. I am carrying one question through the whole entry: {lens['question']}",
-        "",
-        "## The Pattern In The Room",
-        "",
-        candidate_pattern.get("case_study", DEFAULT_CANDIDATE_PATTERN["case_study"]),
-        "",
-        f"In that room, the pattern is asking me to notice this: {candidate_pattern['candidate']} I would not preach that as proof. I would receive it as a possible sign of faithful order, useful only if it makes persons more truthful, humble, just, patient, and capable of love.",
-        "",
-        "## The Theologian Beside The Prayer Book",
-        "",
-        theologian_context,
-        "",
-        f"Today's theologian is **{theologian['name']}**, chosen from the rotating theologian voices gathered for this project. I would let {theologian['name']} stand beside the Prayer Book and the {reader['role']} voice today because of {theologian['angle']}. {theologian['comment']}",
-        "",
-        f"The wider theologian panel matters too: {panel_text} Their presence keeps the report from becoming private inspiration. The claim must pass through the Church's grammar: Christ, Scripture, worship, doctrine, repentance, mercy, and visible fruit.",
-        "",
-        candidate_pattern.get("theologian_judgment", DEFAULT_CANDIDATE_PATTERN["theologian_judgment"]),
-        "",
-        "## The 1928 Prayer Book Test",
-        "",
-        prayer_book_reflection,
-        "",
-        "This is also where the objection belongs. A good Anglican reading should not hurry past the hard question just because the pattern is attractive. Today's objection is plain: "
-        + objection,
-        "",
-        caution,
-        "",
-        f"What would weaken this pattern is also important: {candidate_pattern.get('weakens_if', DEFAULT_CANDIDATE_PATTERN['weakens_if'])}",
-        "",
-        f"So my responsible confidence today is modest: {confidence} That is not a failure of faith. It is part of reverence. {reader['vocation_test']} It does not train a person to turn every interesting recurrence into certainty.",
-        "",
-        "## Today's Rule Of Life",
-        "",
-        f"The daily practice is therefore small and concrete: {response_sentence}",
-        "",
-        "That is the kind of conclusion I trust most in this project: not a dazzling claim, but a disciplined act. If the pattern is near the truth, it should make the reader more faithful before it makes the reader more impressed.",
-        "",
-        "## Collect",
-        "",
-        "O Lord, let what is true become clear, let what is false lose its shine, and let every pattern bend toward love of Thee and love of neighbor; through Jesus Christ our Lord. Amen.",
-        "",
-        "## Quiet Notes For The Reader",
-        "",
-        f"This entry was generated at {generated}. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.",
-        "",
-        f"Input freshness: {freshness['label']}. {freshness['warning']}",
     ]
+
+    previous_sections: list[list[str]] = []
+    append_distinct_section(
+        diary_lines,
+        previous_sections,
+        "## Today's Office",
+        "spiritual atmosphere",
+        office_variants,
+    )
+
+    append_distinct_section(
+        diary_lines,
+        previous_sections,
+        "## The Pattern In The Room",
+        "observation",
+        room_variants,
+    )
+
+    append_distinct_section(
+        diary_lines,
+        previous_sections,
+        "## Today’s Discovery",
+        "discovery",
+        discovery_variants,
+    )
+
+    append_distinct_section(
+        diary_lines,
+        previous_sections,
+        "## What Changed Since Yesterday",
+        "change over time",
+        change_variants,
+    )
+
+    append_distinct_section(
+        diary_lines,
+        previous_sections,
+        "## The Theologian Beside The Prayer Book",
+        "theological interpretation",
+        theologian_variants,
+    )
+
+    append_distinct_section(
+        diary_lines,
+        previous_sections,
+        "## The 1928 Prayer Book Test",
+        "objection and risk",
+        prayer_book_variants,
+    )
+
+    append_distinct_section(
+        diary_lines,
+        previous_sections,
+        "## Today's Rule Of Life",
+        "practical application",
+        rule_variants,
+    )
+
+    append_distinct_section(
+        diary_lines,
+        previous_sections,
+        "## Collect",
+        "prayer",
+        collect_variants,
+    )
+
+    diary_lines.extend(
+        [
+            "## Quiet Notes For The Reader",
+            "",
+            f"This entry was generated at {generated}. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.",
+            "",
+            f"Input freshness: {freshness['label']}. {freshness['warning']}",
+        ]
+    )
     return "\n".join(diary_lines) + "\n"
 
     lines = [
@@ -2237,8 +2873,15 @@ def build_short_article() -> str:
 
 def main() -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(build_short_article(), encoding="utf-8")
+    generated_at = datetime.now(timezone.utc)
+    OUTPUT_PATH.write_text(build_short_article(generated_at), encoding="utf-8")
+    snapshot_path = snapshot_path_for(generated_at.date())
+    snapshot_path.write_text(
+        json.dumps(build_report_snapshot(generated_at), indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
     print(f"Published article saved to: {OUTPUT_PATH}")
+    print(f"Published report snapshot saved to: {snapshot_path}")
 
 
 if __name__ == "__main__":
