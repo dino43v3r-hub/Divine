@@ -494,8 +494,15 @@ def daily_anglican_reader(generated: datetime) -> dict:
         {
             "role": "deaconess",
             "title": "A Deaconess Prayer Book Reading",
-            "subtitle": "written as a deaconess in the Anglican Church, formed by the 1928 Book of Common Prayer",
-            "ministry": "mercy, service, pastoral care, ordinary discipleship, encouragement, practical holiness, and the care of souls",
+            "subtitle": "written as an Anglican deaconess formed by the 1928 Book of Common Prayer and shaped by practical theology",
+            "identity": (
+                "An Anglican deaconess formed by the 1928 Book of Common Prayer, shaped by practical theology, "
+                "pastoral care, spiritual formation, Christian ethics, and the historic ministry of mercy within the Church."
+            ),
+            "ministry": (
+                "practical theology, pastoral theology, spiritual formation, Christian ethics, diaconal ministry, "
+                "soul care, works of mercy, ordinary holiness, embodied obedience, service, and ordinary discipleship"
+            ),
             "setting": "homes, bedsides, parish roads, schools, and the rooms of the poor and lonely",
             "desk_image": "a deaconess's parish table after Morning Prayer and visitation",
             "notebook": "a deaconess's notebook after prayer, parish visits, and works of mercy",
@@ -504,22 +511,26 @@ def daily_anglican_reader(generated: datetime) -> dict:
                 "I come to this report as a deaconess in the Anglican Church might return from Morning Prayer "
                 "and the parish road: with Scripture still in the ear, the Prayer Book's order still shaping "
                 "the heart, and particular souls still before me from homes, bedsides, schools, and works of mercy. "
-                "The work still has research machinery beneath it, but today I want the reading to sound less like "
-                "a parts list and more like a deaconess's notebook after prayer, visitation, encouragement, and "
-                "care for the poor and lonely."
+                "This is practical theology under Anglican obedience, not a softer theology and not therapeutic "
+                "technique: doctrine, worship, Scripture, prayer, ethics, and spiritual formation pressed toward faithful action. The work still "
+                "has research machinery beneath it, but today I want the reading to sound less like a parts list "
+                "and more like a deaconess's notebook after prayer, visitation, encouragement, and care for the "
+                "poor and lonely."
             ),
             "pattern_action": "carry into visitation, teaching, encouragement, and works of mercy",
             "vocation_test": (
-                "The Prayer Book trains a deaconess-like reading to ask whether doctrine becomes patient "
-                "instruction, mercy toward the vulnerable, truthful speech, courage in daily duty, reverence in "
-                "worship, and practical service."
+                "The Prayer Book trains a deaconess-like reading to ask how this truth is lived; how it shapes "
+                "daily faithfulness; whether it helps someone suffering, grieving, lonely, or serving; what "
+                "practice of holiness it invites; whether it strengthens mercy, patience, courage, humility, "
+                "truthful speech, and love of neighbor; and how it affects homes, bedsides, parish visits, "
+                "schools, and ordinary Christian duty."
             ),
-            "office_question": "Will this pattern strengthen patience, charity, courage, humility, truthful speech, and service to neighbor?",
-            "observation_frame": "I am listening for what this pattern does in a room where someone is tired, afraid, poor, lonely, learning, or in need of courage for ordinary obedience.",
-            "theology_frame": "The theological question is therefore not smaller, but nearer to the ground: can this claim be prayed, read with Scripture, obeyed in mercy, and carried without harming vulnerable souls?",
-            "church_test": "It must pass through mercy, embodied obedience, daily duty, prayer, Scripture, and care for the vulnerable.",
-            "risk_frame": "A deaconess must refuse any beautiful pattern that makes suffering decorative, service sentimental, speech evasive, or vulnerable people carry the burden of someone else's certainty.",
-            "practice_frame": "Practice it in one restraint: do not carry an unready certainty into a conversation where a soul needs truth spoken gently.",
+            "office_question": "How does this truth become faithful action?",
+            "observation_frame": "I am listening for what this pattern does in a room where someone is suffering, grieving, lonely, serving, learning, or in need of courage for ordinary obedience.",
+            "theology_frame": "The theological question is therefore not smaller, but nearer to the ground: can this claim be prayed, read with Scripture, formed by worship, tested by Church teaching, obeyed in mercy, and carried without harming vulnerable souls?",
+            "church_test": "It must pass through Scripture, prayer, worship, Church teaching, the 1928 Prayer Book, mercy, embodied obedience, daily duty, and care for the vulnerable.",
+            "risk_frame": "A deaconess must refuse any beautiful pattern that makes suffering decorative, service sentimental, speech therapeutic instead of truthful, or vulnerable people carry the burden of someone else's certainty.",
+            "practice_frame": "Practice it in one restraint: do not carry an unready certainty into a conversation where a soul needs truth spoken gently, prayerfully, and with concrete mercy.",
             "collect": "O Lord, make our seeing merciful, our speech truthful, our service patient, and our daily duty glad in Thee; through Jesus Christ our Lord. Amen.",
             "collect_alt": "O Lord, order our mercy, cleanse our speech, strengthen our hands for service, and make every true sign fruitful in care for the least and lonely; through Jesus Christ our Lord. Amen.",
         },
@@ -590,10 +601,11 @@ def anglican_1928_reflection(
             f"{theologian['angle']}, asking whether the pattern has been purified by prayer, "
             "Scripture, and obedient love."
         )
+    identity_sentence = f"{reader['identity']} " if reader.get("identity") else ""
     return (
         f"An Anglican {reader['role']} shaped by the 1928 Book of Common Prayer would not begin by asking whether "
         f"{pattern_name} is clever. This {reader['role']} would ask how it sounds within {reader['setting']}. "
-        f"The ministry in view is {reader['ministry']}. {reader['church_test']} The desire would be for the pattern "
+        f"{identity_sentence}The ministry in view is {reader['ministry']}. {reader['church_test']} The desire would be for the pattern "
         "to become reverence, repentance, charity, and steady duty. Under today's lens of "
         f"{lens['name']}, the counsel would be: {reader['pattern_action']}; let it "
         "make you more truthful at home, more merciful toward the weak, more faithful in worship, and "
@@ -2504,6 +2516,7 @@ def build_short_article(generated_at: datetime | None = None) -> str:
             reader["first_person"],
             "",
             *memory_lines,
+            *([reader["identity"], ""] if reader.get("identity") else []),
             f"The daily pattern before me is **{candidate_pattern.get('name', 'the current pattern')}**. In plain speech, I would say it this way: {plain} The movement underneath it is {candidate_pattern['movement']}.",
             "",
             f"The lens appointed for today is **{lens['name']}**. I am not trying to say everything the project could say. I am carrying the question proper to this ministry: {reader['office_question']}",
@@ -2514,6 +2527,7 @@ def build_short_article(generated_at: datetime | None = None) -> str:
             reader["first_person"],
             "",
             *memory_lines,
+            *([reader["identity"], ""] if reader.get("identity") else []),
             f"I name today's pattern only to set the room in order: **{candidate_pattern.get('name', 'the current pattern')}**. The first duty is not conclusion, but attention in the place of ministry given to this reader: {reader['setting']}.",
             "",
             f"I shall let this vocational question govern the entry: {reader['office_question']}",
