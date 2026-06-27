@@ -1,4 +1,4 @@
-// Divine Core Phase 2.
+// Divine Core Phase 3.
 // This lightweight reasoning layer is intentionally isolated from existing app
 // behavior. Divine Core reasons only; it should not write final user-facing
 // prose. Shepherd, Book Report, Scholar, Bible Study, and future tools should
@@ -230,6 +230,39 @@
     return DEFAULT_NEXT_LAYER;
   }
 
+  function buildReasoningTrace(voiceGroups, challengeQuestions, confidenceSignals, nextRecommendedLayer) {
+    const layersUsed = [
+      "patternSummary",
+      "scriptureFrame",
+      "creedFrame",
+      "councilFrame",
+      "traditionFrame",
+      "theologianFrame",
+      "agreementSignals",
+      "confidenceSignals",
+      "composerGuidance"
+    ];
+    const challengeLayerTriggered = nextRecommendedLayer !== DEFAULT_NEXT_LAYER;
+
+    return {
+      layersUsed,
+      selectedVoices: voiceGroups.raw,
+      challengeLayerTriggered,
+      confidenceSummary: [
+        "overall:",
+        confidenceSignals.overall,
+        "scripture:",
+        confidenceSignals.scriptureGrounding,
+        "ecclesial:",
+        confidenceSignals.ecclesialCrossCheck,
+        "doctrine:",
+        confidenceSignals.doctrinalClarity
+      ].join(" "),
+      composerSafe: true,
+      challengeQuestionCount: challengeQuestions.length
+    };
+  }
+
   function buildDivineReasoningContext(input) {
     const safeInput = input || {};
     const patternSummary = summarizePattern(safeInput.pattern);
@@ -255,6 +288,13 @@
       agreementSignals
     );
     const composerGuidance = buildComposerGuidance(confidenceSignals);
+    const nextRecommendedLayer = chooseNextLayer(confidenceSignals, agreementSignals);
+    const reasoningTrace = buildReasoningTrace(
+      voiceGroups,
+      challengeQuestions,
+      confidenceSignals,
+      nextRecommendedLayer
+    );
 
     return {
       patternSummary,
@@ -267,7 +307,8 @@
       challengeQuestions,
       confidenceSignals,
       composerGuidance,
-      nextRecommendedLayer: chooseNextLayer(confidenceSignals, agreementSignals)
+      nextRecommendedLayer,
+      reasoningTrace
     };
   }
 
