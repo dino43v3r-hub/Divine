@@ -1,4 +1,4 @@
-// Divine Core Phase 3.
+// Divine Core Phase 4.
 // This lightweight reasoning layer is intentionally isolated from existing app
 // behavior. Divine Core reasons only; it should not write final user-facing
 // prose. Shepherd, Book Report, Scholar, Bible Study, and future tools should
@@ -6,6 +6,23 @@
 
 (function attachDivineReasoningCore(globalScope) {
   const DEFAULT_NEXT_LAYER = "composer-specific-synthesis";
+  const evaluationEngine = resolveEvaluationEngine();
+
+  function resolveEvaluationEngine() {
+    if (globalScope.DivineReasoningEvaluationEngine) {
+      return globalScope.DivineReasoningEvaluationEngine;
+    }
+
+    if (typeof require === "function") {
+      try {
+        return require("./reasoningEvaluationEngine.js");
+      } catch (error) {
+        return null;
+      }
+    }
+
+    return null;
+  }
 
   function asArray(value) {
     if (Array.isArray(value)) {
@@ -296,7 +313,7 @@
       nextRecommendedLayer
     );
 
-    return {
+    const reasoningContext = {
       patternSummary,
       scriptureFrame,
       creedFrame,
@@ -310,6 +327,39 @@
       nextRecommendedLayer,
       reasoningTrace
     };
+
+    reasoningContext.evaluation =
+      evaluationEngine && typeof evaluationEngine.evaluateReasoningContext === "function"
+        ? evaluationEngine.evaluateReasoningContext(reasoningContext)
+        : {
+            scriptureCoverage: {
+              score: 0,
+              notes: ["Reasoning evaluation engine is unavailable."]
+            },
+            doctrinalConsistency: {
+              score: 0,
+              notes: ["Reasoning evaluation engine is unavailable."]
+            },
+            ecclesialSupport: {
+              score: 0,
+              notes: ["Reasoning evaluation engine is unavailable."]
+            },
+            theologicalBalance: {
+              score: 0,
+              notes: ["Reasoning evaluation engine is unavailable."]
+            },
+            noveltyAssessment: {
+              level: "speculative",
+              notes: ["Reasoning evaluation engine is unavailable."]
+            },
+            pastoralRisk: {
+              level: "moderate",
+              notes: ["Reasoning evaluation engine is unavailable."]
+            },
+            recommendedComposerHints: ["Load reasoningEvaluationEngine.js before divineReasoningCore.js."]
+          };
+
+    return reasoningContext;
   }
 
   const api = Object.freeze({
