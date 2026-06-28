@@ -9,19 +9,19 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 172
-Total cultural words analyzed: 23,870
+Cultural documents analyzed: 173
+Total cultural words analyzed: 24,015
 
 Cultural Domains
 ----------------
-- Science And Discovery: 343
-- Politics And Justice: 170
-- History And Memory: 119
+- Science And Discovery: 345
+- Politics And Justice: 171
+- History And Memory: 120
 - Technology And AI: 107
-- Psychology And Human Behavior: 78
+- Psychology And Human Behavior: 79
 - Family And Community: 44
 - Health And Suffering: 44
-- Education And Formation: 28
+- Education And Formation: 29
 - Art And Beauty: 27
 - Economics And Work: 25
 - Global Text Traditions: 18
@@ -32,13 +32,13 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 820
+- Father: 825
 - Son: 10
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 177
+- Desire And Longing: 178
 - Moral Confrontation: 96
 - Communal Practice: 29
 - Creation And Order: 25
@@ -47,15 +47,15 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 369 | religious/science corpus 2,635
-- Mathematical Structure: cultural inputs 451 | religious/science corpus 640
-- Mathematical Theophany: cultural inputs 10 | religious/science corpus 1,269
-- Quantum Probability: cultural inputs 1 | religious/science corpus 176
-- Life And Consciousness: cultural inputs 508 | religious/science corpus 5,967
-- Meaning And Logos: cultural inputs 579 | religious/science corpus 6,119
-- Moral Response: cultural inputs 634 | religious/science corpus 2,465
-- Worship And Community: cultural inputs 315 | religious/science corpus 1,619
-- Transformation: cultural inputs 340 | religious/science corpus 2,219
+- Physical Order: cultural inputs 371 | religious/science corpus 2,635
+- Mathematical Structure: cultural inputs 453 | religious/science corpus 637
+- Mathematical Theophany: cultural inputs 10 | religious/science corpus 1,251
+- Quantum Probability: cultural inputs 1 | religious/science corpus 169
+- Life And Consciousness: cultural inputs 511 | religious/science corpus 5,948
+- Meaning And Logos: cultural inputs 583 | religious/science corpus 6,101
+- Moral Response: cultural inputs 637 | religious/science corpus 2,459
+- Worship And Community: cultural inputs 316 | religious/science corpus 1,606
+- Transformation: cultural inputs 343 | religious/science corpus 2,225
 
 Per-Domain Findings
 -------------------
@@ -2015,6 +2015,30 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
+religion_ethics_and_public_education_religion_ethik_und_ffentliche_bildung_relig_c0ce97ce3ed9.md
+------------------------------------------------------------------------------------------------
+Words: 145
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 4
+- Life And Consciousness: 3
+- Moral Response: 3
+- Transformation: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Worship And Community: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Treat learning as formation, not just information: knowledge should shape wisdom, character, and service.
 
 understanding_social_exclusion_the_views_of_the_uk_public_619fb03f135d.md
 -------------------------------------------------------------------------

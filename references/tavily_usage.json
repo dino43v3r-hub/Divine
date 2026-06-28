@@ -1007,6 +1007,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-06-28": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "biblical Hebrew Greek lemma syntax theology translation",
+          "searched_at": "2026-06-28T00:40:23.886483+00:00",
+          "tag": "biblical_languages"
+        },
+        {
+          "credits_used": 1,
+          "query": "Septuagint Hebrew Bible Greek translation semantics theology",
+          "searched_at": "2026-06-28T00:40:37.521176+00:00",
+          "tag": "biblical_languages"
+        },
+        {
+          "credits_used": 1,
+          "query": "logos pneuma ruach hesed agape shalom biblical theology",
+          "searched_at": "2026-06-28T00:40:50.525742+00:00",
+          "tag": "biblical_languages"
+        },
+        {
+          "credits_used": 1,
+          "query": "biblical Hebrew ruach hesed shalom source context scholarly article",
+          "searched_at": "2026-06-28T00:41:04.444571+00:00",
+          "tag": "biblical_language_source_depth"
+        },
+        {
+          "credits_used": 1,
+          "query": "New Testament Greek pneuma logos agape source context scholarly article",
+          "searched_at": "2026-06-28T00:41:18.230336+00:00",
+          "tag": "biblical_language_source_depth"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }
