@@ -13,15 +13,15 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 75
-Test words analyzed: 11,459
+Test documents analyzed: 76
+Test words analyzed: 11,608
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 166
-- Science Guardrail: 142
+- Suffering Without Resolution: 167
+- Science Guardrail: 144
 - Injustice And Corruption: 69
-- Counterexample Pressure: 67
+- Counterexample Pressure: 68
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 36
 - Misuse And Weaponization: 21
@@ -30,20 +30,20 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 148
+- Scholarly Or Scientific Source: 151
 - Practical Lived Source: 78
-- Primary Or Classical Source: 51
+- Primary Or Classical Source: 52
 - Speculative Source: 3
 
 Confidence Results
 ------------------
 - resilient under pressure: 42
-- needs deeper review but still plausible: 33
+- needs deeper review but still plausible: 34
 
 Hold Assessment
 ---------------
 - pressure present but hold question is underdeveloped: 33
-- not enough friction to judge hold: 31
+- not enough friction to judge hold: 32
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
 - holds under added friction: 1
@@ -52,29 +52,29 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 342 | research corpus 4,830
-- Son: test set 29 | research corpus 6,807
-- Holy Spirit: test set 47 | research corpus 1,859
+- Father: test set 347 | research corpus 4,816
+- Son: test set 29 | research corpus 6,801
+- Holy Spirit: test set 47 | research corpus 1,858
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 54 | research corpus 2,635
+- Physical Order: test set 54 | research corpus 2,634
 - Mathematical Structure: test set 18 | research corpus 637
-- Mathematical Theophany: test set 241 | research corpus 1,251
+- Mathematical Theophany: test set 243 | research corpus 1,238
 - Quantum Probability: test set 25 | research corpus 169
-- Life And Consciousness: test set 196 | research corpus 5,948
-- Meaning And Logos: test set 39 | research corpus 6,101
-- Moral Response: test set 52 | research corpus 2,459
-- Worship And Community: test set 69 | research corpus 1,606
-- Transformation: test set 62 | research corpus 2,225
+- Life And Consciousness: test set 200 | research corpus 5,952
+- Meaning And Logos: test set 39 | research corpus 6,091
+- Moral Response: test set 52 | research corpus 2,464
+- Worship And Community: test set 69 | research corpus 1,601
+- Transformation: test set 62 | research corpus 2,220
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 260
-- Desire And Longing: 75
+- Creation And Order: 262
+- Desire And Longing: 76
 - Alienation And Lament: 70
+- Transformation And Hope: 58
 - Communal Practice: 57
-- Transformation And Hope: 57
 - Moral Confrontation: 47
 
 Per-Test Findings
@@ -1535,6 +1535,26 @@ Recommendations:
 theology_and_mental_health_new_perspectives_and_dialogues_481fe2126e4b.md
 -------------------------------------------------------------------------
 Words: 142
+Meaning confidence: plausible meaning pattern
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+this_is_the_tenour_of_my_waking_dream_a_critical_study_of_shelley_s_the_triumph_866a09700a1e.md
+-----------------------------------------------------------------------------------------------
+Words: 149
 Meaning confidence: plausible meaning pattern
 Test confidence: needs deeper review but still plausible
 Hold assessment: not enough friction to judge hold

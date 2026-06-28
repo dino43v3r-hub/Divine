@@ -1,6 +1,6 @@
 # Daily Divine Pattern Research Article
 
-Generated: 2026-06-28T00:52:24.295785+00:00
+Generated: 2026-06-28T15:20:13.493294+00:00
 
 This issue was created automatically by the Synthesize Data workflow.
 The workflow now publishes one synthesized reading article instead of a wall of generated reports.
@@ -42,9 +42,9 @@ In that room, the pattern is asking me to notice this: No public-final divine-pa
 
 ## Today’s Discovery
 
-The freshest thing in the available discovery record is not yet a claim for the pulpit, but a new cluster for the study: 27 candidate references, led by Crossref (16) and routed most strongly toward world_languages (12). This must be read cautiously, since the collector snapshot is current for this UTC day.
+The freshest thing in the available discovery record is not yet a claim for the pulpit, but a new cluster for the study: 22 candidate references, led by Crossref (12) and routed most strongly toward human_stories (11). This must be read cautiously, since the collector snapshot is current for this UTC day.
 
-That cluster gives the priest work to test, not a sermon to announce. 16 new items may be ready for the review queue, while the public-final gate has released 0 claims, with 1 reviewed-evidence-ready source still requiring public-use judgment.
+That cluster gives the priest work to test, not a sermon to announce. 19 new items may be ready for the review queue, while the public-final gate has released 0 claims, with 1 reviewed-evidence-ready source still requiring public-use judgment.
 
 That absence is meaningful: the report found something to withhold. A priestly reading should treat that restraint as doctrine serving charity, not as a failure of imagination.
 
@@ -52,13 +52,13 @@ That absence is meaningful: the report found something to withhold. A priestly r
 
 Yesterday's snapshot says the report stood under a deaconess reader, the **repair** lens, and **Julian of Norwich**. Today it stands under a priest reader, the **ordinary life** lens, and **Martin Luther**.
 
-The named pattern did not change: it remains **Waiting For A Public-Final Claim**. candidate references fell from 47 to 27; review queue items held at 1,030; public-final claims held at 0. The strongest routed lane changed from **all_texts** to **world_languages**.
+The named pattern did not change: it remains **Waiting For A Public-Final Claim**. candidate references fell from 47 to 22; review queue items held at 1,030; public-final claims held at 0. The strongest routed lane changed from **all_texts** to **human_stories**.
 
 The priestly reading should receive those changes at chapel, study, altar, and pulpit: useful for discernment, but not automatically ready for public teaching.
 
 ## The Theologian Beside The Prayer Book
 
-The theologian section behind this entry draws on 106 analyzed theologian documents and gives special weight today to Christology, Theodicy and Suffering, Creation.
+The theologian section behind this entry draws on 109 analyzed theologian documents and gives special weight today to Christology, Theodicy and Suffering, Creation.
 
 Today's theologian is **Martin Luther**, chosen from the rotating theologian voices gathered for this project. I would let Martin Luther stand beside the Prayer Book and the priest voice today because of the cross as judgment on spiritual boasting. Luther would press the pattern under the cross and ask whether it exposes false glory or becomes another way for religious people to sound impressive.
 
