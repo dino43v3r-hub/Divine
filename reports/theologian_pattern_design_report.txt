@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 109
-Total theologian words analyzed: 24,850
+Theologian documents analyzed: 111
+Total theologian words analyzed: 25,123
 
 Era Coverage
 ------------
@@ -23,31 +23,31 @@ Concept Coverage
 ----------------
 - Christology: 179
 - Theodicy And Suffering: 168
-- Creation: 153
-- Trinity: 146
-- Pneumatology: 109
+- Creation: 154
+- Trinity: 149
+- Pneumatology: 110
 - Grace And Transformation: 104
-- Church And Practice: 89
+- Church And Practice: 90
 - Justice And Public Life: 86
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 709
+- Father: 720
 - Son: 212
-- Holy Spirit: 206
+- Holy Spirit: 208
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 152 | broader corpus 2,634
-- Mathematical Structure: theologians 4 | broader corpus 637
-- Mathematical Theophany: theologians 184 | broader corpus 1,238
+- Physical Order: theologians 153 | broader corpus 2,634
+- Mathematical Structure: theologians 4 | broader corpus 638
+- Mathematical Theophany: theologians 184 | broader corpus 1,237
 - Quantum Probability: theologians 2 | broader corpus 169
-- Life And Consciousness: theologians 306 | broader corpus 5,952
-- Meaning And Logos: theologians 103 | broader corpus 6,091
-- Moral Response: theologians 110 | broader corpus 2,464
-- Worship And Community: theologians 159 | broader corpus 1,601
-- Transformation: theologians 305 | broader corpus 2,220
+- Life And Consciousness: theologians 311 | broader corpus 5,966
+- Meaning And Logos: theologians 103 | broader corpus 6,095
+- Moral Response: theologians 110 | broader corpus 2,471
+- Worship And Community: theologians 160 | broader corpus 1,608
+- Transformation: theologians 307 | broader corpus 2,219
 
 Per-Source Findings
 -------------------
@@ -381,6 +381,17 @@ Meaning arc:
 - Opening: Creation And Order (1)
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (1)
+
+divine_freedom_and_the_need_of_god_for_creation_0475b6a6cc85.md
+---------------------------------------------------------------
+Words: 135
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 drunkenness_as_intemperance_augustine_aquinas_luther_and_whitefield_d76af8880b35.md
 -----------------------------------------------------------------------------------
@@ -864,6 +875,17 @@ Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_holy_spirit_and_christian_community_a_case_study_in_theology_and_practice_64783b1ee32b.md
+---------------------------------------------------------------------------------------------
+Words: 138
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (2)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Communal Practice (1)
+- Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
 the_holy_spirit_and_christian_formation_a1224f8fab87.md
