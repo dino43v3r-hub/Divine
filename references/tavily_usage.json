@@ -1079,6 +1079,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-06-30": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "cognitive science religion pattern recognition agency detection",
+          "searched_at": "2026-06-30T16:22:32.277055+00:00",
+          "tag": "pattern_perception_divine_response"
+        },
+        {
+          "credits_used": 1,
+          "query": "apophenia meaning making religious experience psychology divine patterns",
+          "searched_at": "2026-06-30T16:22:43.900203+00:00",
+          "tag": "pattern_perception_divine_response"
+        },
+        {
+          "credits_used": 1,
+          "query": "sacred texts wisdom literature lament justice transformation comparative religion",
+          "searched_at": "2026-06-30T16:22:53.707272+00:00",
+          "tag": "global_text_traditions"
+        },
+        {
+          "credits_used": 1,
+          "query": "world scriptures wisdom traditions suffering justice hope",
+          "searched_at": "2026-06-30T16:23:06.278975+00:00",
+          "tag": "global_text_traditions"
+        },
+        {
+          "credits_used": 1,
+          "query": "oral tradition myth epic proverb ritual moral order comparative theology",
+          "searched_at": "2026-06-30T16:23:19.418356+00:00",
+          "tag": "global_text_traditions"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

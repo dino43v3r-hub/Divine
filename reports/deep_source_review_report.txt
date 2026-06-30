@@ -18,18 +18,18 @@ Required source types:
 - Scripture/Theology: present (32)
 - Pastoral/Clinical: present (14)
 - Lived Case: present (10)
-- Counterargument: present (98)
+- Counterargument: present (101)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 306
+Area signal: 313
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
 - Physicist/Primary Science: present (43)
-- Peer-Reviewed/Academic: present (196)
+- Peer-Reviewed/Academic: present (204)
 - Philosophy Of Science: present (91)
-- Counterargument: present (98)
+- Counterargument: present (101)
 
 Mathematics Statistics And Logic
 --------------------------------
@@ -39,25 +39,25 @@ Guardrail: Do not treat repeated patterns, analogies, or mathematical beauty as 
 Required source types:
 - Mathematics/Logic: present (55)
 - Statistics/Inference: present (22)
-- Peer-Reviewed/Academic: present (196)
-- Counterargument: present (98)
+- Peer-Reviewed/Academic: present (204)
+- Counterargument: present (101)
 
 Mathematical Theophany And Beauty
 ---------------------------------
 Status: source-supported
-Area signal: 151
+Area signal: 154
 Guardrail: Treat mathematical order and beauty as possible signs, not proof. Strengthen the analysis by naming naturalistic, Platonist, constructivist, cognitive, cultural, and aesthetic alternatives.
 Required source types:
 - Scripture/Theology: present (32)
 - Mathematics/Logic: present (55)
 - Aesthetics/Beauty: present (24)
 - Alternative Interpretation: present (12)
-- Counterargument: present (98)
+- Counterargument: present (101)
 
 All Source-Type Signals
 -----------------------
-- Peer-Reviewed/Academic: 196
-- Counterargument: 98
+- Peer-Reviewed/Academic: 204
+- Counterargument: 101
 - Philosophy Of Science: 91
 - Mathematics/Logic: 55
 - Physicist/Primary Science: 43
@@ -74,23 +74,23 @@ Math / Statistics / Logic Congruence Filters
   Rule: Reject claims where the conclusion does not follow, terms shift meaning, or analogy is treated as identity.
 - Statistical Inference Filter: active (21)
   Rule: Pattern frequency cannot become evidence without sample size, base rates, comparison cases, and bias checks.
-- Bayesian Humility Filter: active (9)
+- Bayesian Humility Filter: active (10)
   Rule: New evidence should update confidence modestly and should not jump from compatibility to proof.
 - Formal Proof Boundary Filter: active (43)
   Rule: Mathematical proof applies inside formal systems; it cannot be transferred directly into theology without philosophical argument.
 - Theophany Interpretation Filter: active (45)
   Rule: Mathematical order, symmetry, logic, infinity, and beauty may be explored as secondary creaturely signs only under Christ and Scripture, and only after contrasting non-theistic, Platonist, constructivist, cognitive, and cultural explanations are named.
-- Physics Scale Filter: active (192)
+- Physics Scale Filter: active (197)
   Rule: Do not move from quantum, cosmic, or thermodynamic claims to daily spiritual claims without a justified bridge.
 - Causality Filter: active (20)
   Rule: Distinguish causation, correlation, compatibility, analogy, and theological interpretation.
 
 Quality And Risk Markers
 ------------------------
-- Scholarly Or Scientific Source: 195
-- Primary Or Classical Source: 72
+- Scholarly Or Scientific Source: 201
+- Primary Or Classical Source: 75
 - Practical Lived Source: 14
-- Speculative Source: 8
+- Speculative Source: 9
 - Reviewed Cloud Reference: 3
 
 Per-Source Findings
@@ -316,6 +316,19 @@ Source types:
 Active congruence filters:
 - Physics Scale Filter
 
+facets_of_uncertainty_epistemic_uncertainty_non_stationarity_likelihood_hypothes_d759fdbf22d5.md
+------------------------------------------------------------------------------------------------
+Words: 143
+Area scores:
+- Quantum And Science Claims: under-sourced (3)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Peer-Reviewed/Academic: 3
+- Counterargument: 1
+Active congruence filters:
+- Bayesian Humility Filter
+- Physics Scale Filter
+
 fast_vacuum_fluctuations_and_the_emergence_of_quantum_mechanics_bad211a16b21.md
 -------------------------------------------------------------------------------
 Words: 140
@@ -424,6 +437,18 @@ Area scores:
 - Mathematical Theophany And Beauty: under-sourced (1)
 Source types:
 - Peer-Reviewed/Academic: 3
+- Counterargument: 1
+Active congruence filters:
+- Physics Scale Filter
+
+no_faith_no_conversion_the_evolution_of_keynes_s_ideas_on_uncertainty_under_the_eda2635cf05d.md
+-----------------------------------------------------------------------------------------------
+Words: 141
+Area scores:
+- Quantum And Science Claims: under-sourced (2)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Peer-Reviewed/Academic: 2
 - Counterargument: 1
 Active congruence filters:
 - Physics Scale Filter
@@ -613,6 +638,18 @@ quantum_optimization_and_quantum_learning_a_survey_3aa5fc0647e4.md
 Words: 141
 Area scores:
 - Quantum And Science Claims: under-sourced (3)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Peer-Reviewed/Academic: 3
+- Counterargument: 1
+Active congruence filters:
+- Physics Scale Filter
+
+quantum_phenomena_modeled_by_interactions_between_many_classical_worlds_ac6af9a6f9d4.md
+---------------------------------------------------------------------------------------
+Words: 144
+Area scores:
+- Quantum And Science Claims: under-sourced (2)
 - Mathematical Theophany And Beauty: under-sourced (1)
 Source types:
 - Peer-Reviewed/Academic: 3

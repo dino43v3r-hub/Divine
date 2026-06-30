@@ -9,22 +9,22 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 178
-Total cultural words analyzed: 24,707
+Cultural documents analyzed: 180
+Total cultural words analyzed: 25,039
 
 Cultural Domains
 ----------------
-- Science And Discovery: 355
-- Politics And Justice: 177
-- History And Memory: 122
+- Science And Discovery: 359
+- Politics And Justice: 186
+- History And Memory: 126
 - Technology And AI: 110
-- Psychology And Human Behavior: 80
+- Psychology And Human Behavior: 81
 - Health And Suffering: 46
 - Family And Community: 45
-- Education And Formation: 29
+- Education And Formation: 30
 - Art And Beauty: 27
 - Economics And Work: 25
-- Global Text Traditions: 20
+- Global Text Traditions: 22
 - Ecology And Creation Care: 17
 - World Languages: 14
 - Visual Art And Iconography: 11
@@ -32,30 +32,30 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 850
+- Father: 860
 - Son: 10
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 183
-- Moral Confrontation: 99
+- Desire And Longing: 185
+- Moral Confrontation: 104
 - Communal Practice: 29
 - Creation And Order: 25
-- Transformation And Hope: 23
+- Transformation And Hope: 24
 - Alienation And Lament: 4
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 382 | religious/science corpus 2,634
-- Mathematical Structure: cultural inputs 466 | religious/science corpus 638
-- Mathematical Theophany: cultural inputs 10 | religious/science corpus 1,237
-- Quantum Probability: cultural inputs 1 | religious/science corpus 169
-- Life And Consciousness: cultural inputs 524 | religious/science corpus 5,966
-- Meaning And Logos: cultural inputs 597 | religious/science corpus 6,095
-- Moral Response: cultural inputs 655 | religious/science corpus 2,471
-- Worship And Community: cultural inputs 326 | religious/science corpus 1,608
-- Transformation: cultural inputs 351 | religious/science corpus 2,219
+- Physical Order: cultural inputs 386 | religious/science corpus 2,635
+- Mathematical Structure: cultural inputs 470 | religious/science corpus 639
+- Mathematical Theophany: cultural inputs 10 | religious/science corpus 1,260
+- Quantum Probability: cultural inputs 1 | religious/science corpus 176
+- Life And Consciousness: cultural inputs 529 | religious/science corpus 5,984
+- Meaning And Logos: cultural inputs 609 | religious/science corpus 6,115
+- Moral Response: cultural inputs 677 | religious/science corpus 2,479
+- Worship And Community: cultural inputs 339 | religious/science corpus 1,610
+- Transformation: cultural inputs 360 | religious/science corpus 2,229
 
 Per-Domain Findings
 -------------------
@@ -135,6 +135,32 @@ Practical theology applications:
 Practical domain applications:
 - Treat learning as formation, not just information: knowledge should shape wisdom, character, and service.
 - Compare sacred, philosophical, poetic, legal, oral, and wisdom texts as witnesses to human longing, moral order, suffering, community, and transformation.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+
+three_intersections_in_criminology_and_public_theology_075dad833598.md
+----------------------------------------------------------------------
+Words: 196
+Strongest cultural domain: Politics And Justice (9)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Moral Confrontation (4)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 18
+- Worship And Community: 10
+- Meaning And Logos: 5
+- Transformation: 4
+- Physical Order: 2
+- Mathematical Structure: 2
+- Life And Consciousness: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 
 addressing_the_critical_challenge_of_ai_bias_through_empathy_46e0c3c3bc65.md
@@ -534,6 +560,30 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Apply the pattern to labor and money by asking whether systems protect dignity, reduce exploitation, and support real flourishing.
+
+religion_ritual_and_knowledge_71bfb79f0bd4.md
+---------------------------------------------
+Words: 136
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 7
+- Transformation: 5
+- Moral Response: 4
+- Life And Consciousness: 3
+- Worship And Community: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Compare sacred, philosophical, poetic, legal, oral, and wisdom texts as witnesses to human longing, moral order, suffering, community, and transformation.
+- Treat learning as formation, not just information: knowledge should shape wisdom, character, and service.
 
 education_formation_wisdom.md
 -----------------------------

@@ -52,21 +52,21 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 352 | research corpus 4,839
-- Son: test set 29 | research corpus 6,801
-- Holy Spirit: test set 47 | research corpus 1,852
+- Father: test set 352 | research corpus 4,870
+- Son: test set 29 | research corpus 6,803
+- Holy Spirit: test set 47 | research corpus 1,857
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 54 | research corpus 2,634
-- Mathematical Structure: test set 18 | research corpus 638
-- Mathematical Theophany: test set 245 | research corpus 1,237
-- Quantum Probability: test set 25 | research corpus 169
-- Life And Consciousness: test set 203 | research corpus 5,966
-- Meaning And Logos: test set 39 | research corpus 6,095
-- Moral Response: test set 52 | research corpus 2,471
-- Worship And Community: test set 69 | research corpus 1,608
-- Transformation: test set 62 | research corpus 2,219
+- Physical Order: test set 54 | research corpus 2,635
+- Mathematical Structure: test set 18 | research corpus 639
+- Mathematical Theophany: test set 245 | research corpus 1,260
+- Quantum Probability: test set 25 | research corpus 176
+- Life And Consciousness: test set 203 | research corpus 5,984
+- Meaning And Logos: test set 39 | research corpus 6,115
+- Moral Response: test set 52 | research corpus 2,479
+- Worship And Community: test set 69 | research corpus 1,610
+- Transformation: test set 62 | research corpus 2,229
 
 Meaning Contexts Under Pressure
 --------------------------------
