@@ -9,53 +9,53 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 180
-Total cultural words analyzed: 25,039
+Cultural documents analyzed: 183
+Total cultural words analyzed: 25,707
 
 Cultural Domains
 ----------------
-- Science And Discovery: 359
-- Politics And Justice: 186
-- History And Memory: 126
+- Science And Discovery: 367
+- Politics And Justice: 187
+- History And Memory: 129
 - Technology And AI: 110
-- Psychology And Human Behavior: 81
+- Psychology And Human Behavior: 84
+- Family And Community: 46
 - Health And Suffering: 46
-- Family And Community: 45
 - Education And Formation: 30
-- Art And Beauty: 27
+- Art And Beauty: 28
+- Global Text Traditions: 26
 - Economics And Work: 25
-- Global Text Traditions: 22
+- World Languages: 25
 - Ecology And Creation Care: 17
-- World Languages: 14
 - Visual Art And Iconography: 11
 
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 860
+- Father: 878
 - Son: 10
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 185
+- Desire And Longing: 191
 - Moral Confrontation: 104
-- Communal Practice: 29
-- Creation And Order: 25
-- Transformation And Hope: 24
-- Alienation And Lament: 4
+- Communal Practice: 30
+- Creation And Order: 26
+- Transformation And Hope: 25
+- Alienation And Lament: 5
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 386 | religious/science corpus 2,635
-- Mathematical Structure: cultural inputs 470 | religious/science corpus 639
-- Mathematical Theophany: cultural inputs 10 | religious/science corpus 1,260
-- Quantum Probability: cultural inputs 1 | religious/science corpus 176
-- Life And Consciousness: cultural inputs 529 | religious/science corpus 5,984
-- Meaning And Logos: cultural inputs 609 | religious/science corpus 6,115
-- Moral Response: cultural inputs 677 | religious/science corpus 2,479
-- Worship And Community: cultural inputs 339 | religious/science corpus 1,610
-- Transformation: cultural inputs 360 | religious/science corpus 2,229
+- Physical Order: cultural inputs 394 | religious/science corpus 2,639
+- Mathematical Structure: cultural inputs 478 | religious/science corpus 638
+- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,267
+- Quantum Probability: cultural inputs 1 | religious/science corpus 169
+- Life And Consciousness: cultural inputs 539 | religious/science corpus 5,998
+- Meaning And Logos: cultural inputs 636 | religious/science corpus 6,112
+- Moral Response: cultural inputs 688 | religious/science corpus 2,471
+- Worship And Community: cultural inputs 358 | religious/science corpus 1,607
+- Transformation: cultural inputs 371 | religious/science corpus 2,220
 
 Per-Domain Findings
 -------------------
@@ -111,6 +111,31 @@ Practical domain applications:
 - Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
 - Read visual form as meaning: ask how image, color, gesture, and composition reveal desire, lament, worship, power, or hope.
 - Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
+
+frances_forde_plude_popular_culture_and_the_study_of_religion_f982882d4d54.md
+-----------------------------------------------------------------------------
+Words: 241
+Strongest cultural domain: World Languages (10)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 16
+- Worship And Community: 12
+- Physical Order: 3
+- Mathematical Structure: 3
+- Life And Consciousness: 3
+- Moral Response: 3
+- Transformation: 3
+- Mathematical Theophany: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use translation carefully: compare semantic range, metaphor, grammar, and cultural context before turning a word match into a conclusion.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
 
 culture_cult_ritual_circulation_of_inalienable_knowledge_and_appropriation_of_cu_e1519c0abe02.md
 ------------------------------------------------------------------------------------------------
@@ -512,6 +537,32 @@ Practical domain applications:
 - Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 
+ritualistic_practices_definition_examples_vaia_8dca9be1e323.md
+--------------------------------------------------------------
+Words: 252
+Strongest cultural domain: Science And Discovery (3)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 5
+- Life And Consciousness: 4
+- Moral Response: 4
+- Worship And Community: 4
+- Transformation: 4
+- Physical Order: 3
+- Mathematical Structure: 3
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.
+
 family_community_belonging.md
 -----------------------------
 Words: 36
@@ -777,6 +828,32 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Connect creation order to stewardship: beauty and interdependence should lead to responsibility.
+
+religion_culture_and_society_lehigh_catalog_fe83ef103df9.md
+-----------------------------------------------------------
+Words: 175
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Desire And Longing (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 6
+- Moral Response: 4
+- Transformation: 4
+- Life And Consciousness: 3
+- Worship And Community: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Make room for honest lament: name grief without rushing to easy answers, especially in counseling, prayer, music, and community care.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Compare sacred, philosophical, poetic, legal, oral, and wisdom texts as witnesses to human longing, moral order, suffering, community, and transformation.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 
 wedding_design_online_transfer_and_transformation_of_ritual_elements_in_the_cont_a61ee002272b.md
 ------------------------------------------------------------------------------------------------
