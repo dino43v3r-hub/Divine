@@ -12,7 +12,7 @@ Overview
 --------
 Lyric documents analyzed: 13
 Total lyric words analyzed: 794
-Religious research documents used for comparison: 218
+Religious research documents used for comparison: 222
 
 Strongest Lyric Motifs
 ---------------------
@@ -62,34 +62,34 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: lyrics 12 | religious corpus 2,639
-- Mathematical Structure: lyrics 2 | religious corpus 638
-- Mathematical Theophany: lyrics 7 | religious corpus 1,267
-- Quantum Probability: lyrics 0 | religious corpus 169
-- Life And Consciousness: lyrics 38 | religious corpus 5,998
-- Meaning And Logos: lyrics 47 | religious corpus 6,112
-- Moral Response: lyrics 62 | religious corpus 2,471
-- Worship And Community: lyrics 62 | religious corpus 1,607
-- Transformation: lyrics 57 | religious corpus 2,220
+- Physical Order: lyrics 12 | religious corpus 2,636
+- Mathematical Structure: lyrics 2 | religious corpus 640
+- Mathematical Theophany: lyrics 7 | religious corpus 1,259
+- Quantum Probability: lyrics 0 | religious corpus 170
+- Life And Consciousness: lyrics 38 | religious corpus 5,984
+- Meaning And Logos: lyrics 47 | religious corpus 6,089
+- Moral Response: lyrics 62 | religious corpus 2,463
+- Worship And Community: lyrics 62 | religious corpus 1,603
+- Transformation: lyrics 57 | religious corpus 2,216
 
 Shared Theme Signals
 --------------------
-- God and Divine Attributes: lyrics 12 | religious corpus 25,409
-- Faith and Trust: lyrics 8 | religious corpus 2,256
-- Jesus and Christology: lyrics 1 | religious corpus 5,546
-- Holy Spirit and Pneumatology: lyrics 4 | religious corpus 997
-- Creation and Order: lyrics 11 | religious corpus 6,042
-- Moral Transformation: lyrics 11 | religious corpus 3,136
-- Theology and Logos: lyrics 8 | religious corpus 6,224
-- Spirituality and Worship: lyrics 8 | religious corpus 1,782
+- God and Divine Attributes: lyrics 12 | religious corpus 25,407
+- Faith and Trust: lyrics 8 | religious corpus 2,233
+- Jesus and Christology: lyrics 1 | religious corpus 5,550
+- Holy Spirit and Pneumatology: lyrics 4 | religious corpus 995
+- Creation and Order: lyrics 11 | religious corpus 6,023
+- Moral Transformation: lyrics 11 | religious corpus 3,129
+- Theology and Logos: lyrics 8 | religious corpus 6,195
+- Spirituality and Worship: lyrics 8 | religious corpus 1,796
 - Biology and Neuroscience: lyrics 0 | religious corpus 113
-- Physics and Natural Law: lyrics 4 | religious corpus 3,088
-- Mathematics and Intelligibility: lyrics 6 | religious corpus 1,102
-- Mathematical Theophany: lyrics 7 | religious corpus 910
-- Quantum Physics and Uncertainty: lyrics 0 | religious corpus 135
-- Anthropology and Culture: lyrics 0 | religious corpus 1,762
-- AI and Pattern Recognition: lyrics 17 | religious corpus 686
-- Philosophy and Meaning: lyrics 0 | religious corpus 3,219
+- Physics and Natural Law: lyrics 4 | religious corpus 3,087
+- Mathematics and Intelligibility: lyrics 6 | religious corpus 1,098
+- Mathematical Theophany: lyrics 7 | religious corpus 902
+- Quantum Physics and Uncertainty: lyrics 0 | religious corpus 136
+- Anthropology and Culture: lyrics 0 | religious corpus 1,725
+- AI and Pattern Recognition: lyrics 17 | religious corpus 680
+- Philosophy and Meaning: lyrics 0 | religious corpus 3,212
 
 Most Aligned Lyric Files
 ------------------------
