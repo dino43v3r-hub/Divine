@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-03",
+  "generated_at_utc": "2026-07-03T16:02:44Z",
+  "reader_role": "deaconess",
+  "lens": "mystery",
+  "theologian": "Irenaeus",
+  "pattern_name": "Waiting For A Public-Final Claim",
+  "public_final_claim_count": 0,
+  "candidate_reference_count": 61,
+  "review_queue_count": 1030,
+  "strongest_routed_lane": "human_stories",
+  "strongest_routed_lane_count": 23,
+  "freshness_status": "2026-07-03 16:01 UTC",
+  "source_digest_date": "2026-07-03"
+}

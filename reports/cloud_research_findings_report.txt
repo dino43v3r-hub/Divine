@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-07-02T16:12:53.965483+00:00
-Total references: 8,185
-New references this run: 24
+Updated: 2026-07-03T16:01:31.782033+00:00
+Total references: 8,246
+New references this run: 61
 
 Guardrails
 ----------
@@ -18,7 +18,7 @@ Online Collection Status
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Self-directed query modifiers used this run: primary source, counterargument.
 - Search strategy priority lanes: human_stories.
-- Discovery pagination: rotating across 12 page(s) with run index 1,061, so repeated runs do not keep rereading page one.
+- Discovery pagination: rotating across 12 page(s) with run index 1,071, so repeated runs do not keep rereading page one.
 - Auto-import to local lane notes is enabled for up to 40 new candidate(s) per run. These notes are candidate notes, not human-reviewed evidence.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 - OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
@@ -26,99 +26,100 @@ Online Collection Status
 - Tavily budget: 5/5 basic searches used today; 0 remaining.
 - Open-web candidates returned this run: 15.
 - Provider results returned this run:
-  - Crossref: 257
+  - Crossref: 368
   - Europe PMC: 320
-  - Internet Archive: 34
+  - Internet Archive: 25
+  - OpenAlex: 387
   - PubMed: 10
   - Tavily Search: 15
   - arXiv: 50
 - Brand-new references added by provider:
-  - Crossref: 14
-  - Internet Archive: 2
+  - Crossref: 31
+  - OpenAlex: 23
   - PubMed: 1
-  - Tavily Search: 7
+  - Tavily Search: 6
 - Total stored references by provider:
-  - Crossref: 3,862
+  - Crossref: 3,893
   - Europe PMC: 326
   - Internet Archive: 527
-  - OpenAlex: 2,784
-  - PubMed: 117
-  - Tavily Search: 351
+  - OpenAlex: 2,807
+  - PubMed: 118
+  - Tavily Search: 357
   - arXiv: 218
 
 Reference Tags
 --------------
-- art_beauty: 502
-- biblical_language_source_depth: 209
-- biblical_languages: 220
+- art_beauty: 505
+- biblical_language_source_depth: 210
+- biblical_languages: 225
 - cultural_practice_patterns: 391
-- general_research_methods: 1,012
-- global_text_traditions: 331
-- history_memory: 419
-- holy_spirit_gifts_global: 248
-- interreligious_dream_testimony: 306
+- general_research_methods: 1,017
+- global_text_traditions: 337
+- history_memory: 420
+- holy_spirit_gifts_global: 254
+- interreligious_dream_testimony: 308
 - modern_literature_meaning: 382
-- music_math: 427
-- pattern_perception_divine_response: 334
-- podcast_testimony_patterns: 257
-- politics_justice: 326
-- psychology_patterns: 351
-- quantum_science_guardrails: 537
-- technology_ethics: 387
+- music_math: 430
+- pattern_perception_divine_response: 340
+- podcast_testimony_patterns: 259
+- politics_justice: 329
+- psychology_patterns: 355
+- quantum_science_guardrails: 540
+- technology_ethics: 389
 - theologians_cross_era: 194
-- trinity: 369
+- trinity: 371
 - unresolved_suffering: 368
-- video_teaching_patterns: 352
-- visual_media_patterns: 368
-- world_language_source_sampling: 293
-- world_languages_translation: 295
+- video_teaching_patterns: 353
+- visual_media_patterns: 370
+- world_language_source_sampling: 297
+- world_languages_translation: 300
 
 Layer Routes
 ------------
-- all_texts: 2,022
-- biblical_languages: 473
-- cultural_inputs: 2,199
-- deep_sources: 2,729
-- history_inputs: 1,463
-- human_stories: 2,965
-- modern_literature: 821
-- music_notes: 427
-- other_religious_texts: 1,324
-- pattern_tests: 2,365
-- psychology_inputs: 2,081
-- research_documents: 1,365
-- research_documents/christian_sources: 586
-- theologians: 2,191
-- visual_art: 1,900
-- world_languages: 1,107
+- all_texts: 2,041
+- biblical_languages: 481
+- cultural_inputs: 2,210
+- deep_sources: 2,749
+- history_inputs: 1,470
+- human_stories: 2,988
+- modern_literature: 826
+- music_notes: 430
+- other_religious_texts: 1,341
+- pattern_tests: 2,382
+- psychology_inputs: 2,100
+- research_documents: 1,372
+- research_documents/christian_sources: 592
+- theologians: 2,206
+- visual_art: 1,914
+- world_languages: 1,121
 
 Layer Balance Watch
 -------------------
 - These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
-  - music_notes: 427
-  - biblical_languages: 473
-  - research_documents/christian_sources: 586
+  - music_notes: 430
+  - biblical_languages: 481
+  - research_documents/christian_sources: 592
 
 Quality Counts
 --------------
-- open web result: 351
+- open web result: 357
 - reference metadata: 520
-- scholarly metadata: 7,089
+- scholarly metadata: 7,144
 - scholarly preprint: 218
 - speculative-risk: 7
 
 Media Candidate Counts
 ----------------------
-- image: 264
-- podcast: 509
-- video: 498
+- image: 266
+- podcast: 511
+- video: 499
 
 Automated Evidence Counts
 -------------------------
 - do_not_strengthen_claim: 35
-- moderate_scholarly_candidate: 2,719
-- strong_scholarly_candidate: 5,096
-- weak_scholarly_candidate: 335
+- moderate_scholarly_candidate: 2,731
+- strong_scholarly_candidate: 5,139
+- weak_scholarly_candidate: 341
 
 Auto Review Approval Counts
 ---------------------------
@@ -126,223 +127,273 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 6,422
-- not_auto_approved: 1,763
+- approved_for_review_queue: 6,472
+- not_auto_approved: 1,774
 
 New This Run By Tag
 -------------------
 - art_beauty: 2
-- biblical_languages: 1
-- cultural_practice_patterns: 2
+- biblical_language_source_depth: 1
+- biblical_languages: 5
 - general_research_methods: 4
-- history_memory: 3
-- interreligious_dream_testimony: 1
-- music_math: 2
-- podcast_testimony_patterns: 3
-- politics_justice: 1
-- quantum_science_guardrails: 1
-- visual_media_patterns: 1
-- world_languages_translation: 3
+- global_text_traditions: 5
+- history_memory: 1
+- holy_spirit_gifts_global: 6
+- interreligious_dream_testimony: 2
+- music_math: 3
+- pattern_perception_divine_response: 6
+- podcast_testimony_patterns: 2
+- politics_justice: 3
+- psychology_patterns: 4
+- quantum_science_guardrails: 3
+- technology_ethics: 2
+- trinity: 2
+- video_teaching_patterns: 1
+- visual_media_patterns: 2
+- world_language_source_sampling: 3
+- world_languages_translation: 4
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 6
-- biblical_languages: 1
-- cultural_inputs: 6
-- deep_sources: 7
-- history_inputs: 8
-- human_stories: 5
-- music_notes: 2
-- other_religious_texts: 5
-- pattern_tests: 6
-- psychology_inputs: 5
-- research_documents: 4
-- research_documents/christian_sources: 1
-- theologians: 7
-- visual_art: 12
-- world_languages: 5
+- all_texts: 18
+- biblical_languages: 8
+- cultural_inputs: 10
+- deep_sources: 19
+- history_inputs: 7
+- human_stories: 23
+- modern_literature: 5
+- music_notes: 3
+- other_religious_texts: 16
+- pattern_tests: 17
+- psychology_inputs: 19
+- research_documents: 6
+- research_documents/christian_sources: 6
+- theologians: 15
+- visual_art: 13
+- world_languages: 13
 
 New Media Candidates
 --------------------
-- podcast: 4
-- video: 2
+- image: 2
+- podcast: 2
+- video: 1
 
 Newest Additions This Run
 ------------------------
-- A Counterargument to Skepticism of Akrasia (2008)
+- The Arminian Controversy: History, Theology, and Art (2020)
+  Tags: trinity
+  Layer routes: theologians, research_documents, visual_art, history_inputs
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.31014/aior.1991.03.01.159
+- Resurrection, Renaissance, Rebirth: Religion, Psychology and Politics in the Life and Works of Daphne du Maurier (2010)
+  Tags: trinity
+  Layer routes: theologians, research_documents, psychology_inputs
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://dspace.lboro.ac.uk/2134/4434
+- Quantum aspects of semantic analysis and symbolic artificial intelligence (2004)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests, visual_art
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (14)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1088/0305-4470/37/12/l01
+- Conclusion (2014)
   Tags: quantum_science_guardrails
   Layer routes: deep_sources, pattern_tests
   Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
+  Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4216/jpssj.41.2_17
-- The Twelve Magnificents (2024)
+  URL: https://doi.org/10.2307/j.ctt22nm9mz.14
+- The role of hydrological modelling uncertainties in climate change impact assessments of Irish river catchments (2011)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (13)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1016/j.advwatres.2011.01.008
+- FHSA-SED: Two-Locus Model Detection for Genome-Wide Association Study with Harmony Search Algorithm (2016)
   Tags: music_math
   Layer routes: music_notes, deep_sources
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (13)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.18485/mi_sanu_zr.2024.29.21.ch2
-- The basis of musical consonance as revealed by congenital amusia. (2012)
+  URL: https://doi.org/10.1371/journal.pone.0150669
+- Data-driven theory formulation or theory-driven data interpretation?: Comment on "Consonance and dissonance perception. A critical review of the historical sources, multidisciplinary findings, and main hypotheses" by Di Stefano et al. (2023)
   Tags: music_math
-  Layer routes: music_notes, deep_sources
+  Layer routes: music_notes, deep_sources, history_inputs
   Source: PubMed | scholarly metadata
   Automated evidence: strong_scholarly_candidate (13)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://pubmed.ncbi.nlm.nih.gov/23150582/
-- Martin-Schramm, James B. Climate Justice: Ethics, Energy, and Public Policy . Minneapolis: Fortress Press, 2010. xxiii+232 pp. $20.00 (paper). (2013)
+  URL: https://pubmed.ncbi.nlm.nih.gov/37148786/
+- Disciplining Knowledge in Music Theory: Abstraction and the Recovery of Dialectics (2012)
+  Tags: music_math
+  Layer routes: music_notes, deep_sources
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.7290/gamutumen
+- Global Poverty: (2010)
   Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, visual_art
+  Layer routes: cultural_inputs, history_inputs
   Source: Crossref | scholarly metadata
   Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1086/669838
-- Complete Quran (114 Surahs) - Shakir Qasmi (with English Audio Translation) (n.d.)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs, world_languages, all_texts, other_religious_texts
-  Source: Internet Archive | reference metadata
-  Media candidate: video | review required before confidence change
-  Automated evidence: moderate_scholarly_candidate (7)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://archive.org/details/001AlFaatiha_201403
-- Beauty, Ugliness, and Black Theology (2024)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs
+  URL: https://doi.org/10.2307/jj.21995583.18
+- African, American and European Trajectories of Modernity (2015)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs, visual_art, pattern_tests
   Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
+  Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.52214/btpp.v1i1.12459
-- The Ghosts of Documentary (2017)
+  URL: https://doi.org/10.3366/edinburgh/9781474400404.001.0001
+- Mercy Triumphs over Judgement: (2020)
+  Tags: politics_justice
+  Layer routes: cultural_inputs, history_inputs
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2307/j.ctv1850g93.13
+- The Aesthetics of Science: Beauty, Imagination and Understanding (2023)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, deep_sources
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1093/aesthj/ayab039
+- MATRIX THINKING: AN ADAPTATION AT THE FOUNDATION OF HUMAN SCIENCE, RELIGION, AND ART (2015)
+  Tags: art_beauty
+  Layer routes: visual_art, cultural_inputs, deep_sources
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1111/zygo.12161
+- The Role of Religious Leaders in Religious Heritage Tourism Development: The Case of the Church of Jesus Christ of Latter-Day Saints (2020)
   Tags: visual_media_patterns
   Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests
-  Source: Crossref | scholarly metadata
-  Media candidate: video | review required before confidence change
-  Automated evidence: moderate_scholarly_candidate (9)
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.3390/rel11050256
+- Images of Dominican Saints and Blessed in the Philippines (2016)
+  Tags: visual_media_patterns
+  Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests
+  Source: OpenAlex | scholarly metadata
+  Media candidate: image | review required before confidence change
+  Automated evidence: strong_scholarly_candidate (12)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.2307/j.ctv11cw0v3.13
-- What young Indians want: India Tomorrow part 6 podcast transcript (n.d.)
-  Tags: podcast_testimony_patterns
-  Layer routes: human_stories, psychology_inputs, theologians, pattern_tests, visual_art
-  Source: Crossref | scholarly metadata
-  Media candidate: podcast | review required before confidence change
-  Automated evidence: moderate_scholarly_candidate (7)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.64628/ab.6t9v946ug
-- Women, gender and love: India Tomorrow part 4 podcast transcript (n.d.)
-  Tags: podcast_testimony_patterns
-  Layer routes: human_stories, psychology_inputs, theologians, pattern_tests, visual_art
-  Source: Crossref | scholarly metadata
-  Media candidate: podcast | review required before confidence change
-  Automated evidence: moderate_scholarly_candidate (7)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.64628/ab.7k3pn7mxd
-- Representing Suffering: Testimony at Rwanda's Gacaca Courts (2008)
+  URL: http://doi.org/10.55997/ps3009li152pr2
+- Join us for the Fear &amp; Wonder podcast live bonus episode (n.d.)
   Tags: podcast_testimony_patterns
   Layer routes: human_stories, psychology_inputs, theologians, pattern_tests
   Source: Crossref | scholarly metadata
   Media candidate: podcast | review required before confidence change
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://doi.org/10.64628/aa.ffd4jtx3s
+- Singing Is Believing: A Case Study of Worship Song Themes Sung by SBC Churches (2026)
+  Tags: podcast_testimony_patterns
+  Layer routes: human_stories, psychology_inputs, theologians, pattern_tests
+  Source: OpenAlex | scholarly metadata
+  Media candidate: podcast | review required before confidence change
   Automated evidence: strong_scholarly_candidate (11)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.25071/1913-5874/37318
-- Book review: Historical Justice and Memory (2016)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians
+  URL: https://digitalcommons.liberty.edu/doctoral/8302
+- Holy Spirit - Gifts of the Holy Spirit (n.d.)
+  Tags: video_teaching_patterns
+  Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
   Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1177/1750698016645437c
-- Suffering in theory (2003)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, pattern_tests
-  Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4324/9780203165980-6
-- November 16, 2025 | Full service audio (2025)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians
-  Source: Internet Archive | reference metadata
-  Media candidate: podcast | review required before confidence change
-  Automated evidence: moderate_scholarly_candidate (8)
+  Media candidate: video | review required before confidence change
+  Automated evidence: moderate_scholarly_candidate (7)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://archive.org/details/First_Universalist_Unitarian_Church_of_Wausau_Podcast-6mu3k
-- Notes (n.d.)
+  URL: https://doi.org/10.1163/2468-483x_smuo_com_001832
+- Deep incarnation: From deep history to post-axial religion (2016)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.4102/hts.v72i4.3428
+- Metaphor and Translation (2017)
   Tags: world_languages_translation
   Layer routes: world_languages, all_texts
   Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (8)
+  Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1515/9783110918243.255
-- Christianity and Islam on Salvation: A Comparative Analysis of Sacred Texts on Atonement in Christianity and Intercession in Islam (2019)
+  URL: https://doi.org/10.4324/9781315678085-4
+- Grammar and semantics (2016)
   Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.4324/9781315760803-35
+- The Theo-Politics of Ritual: Defining and Contesting the Sacred Order of the Church (2024)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1093/ojlr/rwae002
+- Language, Law, and Social Meanings: Linguistic/Anthropological Contributions to the Study of Law (1992)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (13)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2307/3053903
+- Hans Jochen Margull: The Third World Dimension in the Theology of Mission (n.d.)
+  Tags: world_language_source_sampling
   Layer routes: world_languages, all_texts, other_religious_texts
   Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
+  Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.22259/2637-5907.0304003
-- Preface (1996)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
+  URL: https://doi.org/10.3726/978-3-653-01810-3/3
+- Christianity, colonialism, and cross-cultural translation: Lancelot Threlkeld, Biraban, and the Awabakal (2010)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: http://doi.org/10.22459/ah.33.2010.05
+- Latin American liberation theology: Does it fit in the schema of African theology of reconstruction? (2021)
+  Tags: world_language_source_sampling
+  Layer routes: world_languages, all_texts, other_religious_texts
   Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
+  Automated evidence: strong_scholarly_candidate (11)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.2307/jj.10677896.3
-- Comparative Analysis of the Greek and Hebrew Verbal Systems (2001)
+  URL: https://doi.org/10.4102/ve.v42i1.2103
+- NOUNS (2003)
   Tags: biblical_languages
   Layer routes: biblical_languages, research_documents/christian_sources, world_languages
   Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
+  Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1093/acprof:oso/9780198270102.003.0003
-- Ritual and Religion in Cultural Anthropology Brewminate: A Bold Blend of News and Ideas (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, all_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://brewminate.com/ritual-and-religion-in-cultural-anthropology
-- Religion – Discovering Cultural Anthropology (n.d.)
-  Tags: cultural_practice_patterns
-  Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, all_texts, other_religious_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://pressbooks.cuny.edu/discoveringculturalanthropology/chapter/chapter-11
-- [PDF] Theo 5102: Research Methods - Chicago (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://assets.northpark.edu/wp-content/uploads/20211123091836/THEO-5102-01-S2-21-Research-Methods.pdf
-- Comparative Theology: A Critical and Methodological Perspective 9789004358461, 9004358463 - DOKUMEN.PUB (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, visual_art, history_inputs, other_religious_texts
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://dokumen.pub/comparative-theology-a-critical-and-methodological-perspective-9789004358461-9004358463.html
-- Argumentation and interdisciplinarity: reflections from the Oxford Argumentation in Religion and Science Project | Disciplinary and Interdisciplinary Science Education Research | Springer Nature Link (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, visual_art
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://link.springer.com/article/10.1186/s43031-019-0006-9
-- Home - Interdisciplinary Humanities - Collins Memorial Library at University of Puget Sound (n.d.)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, visual_art, history_inputs
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (6)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://library.pugetsound.edu/humanities
-- When Muslims Dream of Jesus (n.d.)
-  Tags: interreligious_dream_testimony
-  Layer routes: other_religious_texts, human_stories, theologians
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://www.thegospelcoalition.org/article/muslims-dream-jesus
+  URL: https://doi.org/10.1017/cbo9780511610899.003
+- PARTICLES (2003)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1017/cbo9780511610899.005
+- “A Dream Carries Much Implication” (2018)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1163/15685330-12341326
+- Truth Aflame: Theology for the Church in Renewal (2007)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1163/157007407x238141
 
 Recent Candidate Sources
 ------------------------
@@ -576,100 +627,5 @@ Recent Candidate Sources
 
 Collector Errors
 ----------------
-- search_openalex failed for trinity: HTTP Error 503: Service Unavailable
-- search_openalex failed for trinity: HTTP Error 503: Service Unavailable
-- search_openalex failed for trinity: HTTP Error 503: Service Unavailable
-- search_openalex failed for trinity: HTTP Error 503: Service Unavailable
-- search_openalex failed for trinity: HTTP Error 503: Service Unavailable
-- search_openalex failed for unresolved_suffering: HTTP Error 503: Service Unavailable
-- search_openalex failed for unresolved_suffering: HTTP Error 503: Service Unavailable
-- search_openalex failed for unresolved_suffering: HTTP Error 503: Service Unavailable
-- search_openalex failed for unresolved_suffering: HTTP Error 503: Service Unavailable
-- search_openalex failed for unresolved_suffering: HTTP Error 503: Service Unavailable
-- search_openalex failed for unresolved_suffering: HTTP Error 503: Service Unavailable
-- search_openalex failed for quantum_science_guardrails: HTTP Error 503: Service Unavailable
-- search_openalex failed for quantum_science_guardrails: HTTP Error 503: Service Unavailable
-- search_openalex failed for quantum_science_guardrails: HTTP Error 503: Service Unavailable
-- search_openalex failed for quantum_science_guardrails: HTTP Error 503: Service Unavailable
-- search_openalex failed for quantum_science_guardrails: HTTP Error 503: Service Unavailable
-- search_openalex failed for music_math: HTTP Error 503: Service Unavailable
-- search_openalex failed for music_math: HTTP Error 503: Service Unavailable
-- search_openalex failed for music_math: HTTP Error 503: Service Unavailable
-- search_openalex failed for music_math: HTTP Error 503: Service Unavailable
-- search_openalex failed for music_math: HTTP Error 503: Service Unavailable
-- search_openalex failed for politics_justice: HTTP Error 503: Service Unavailable
-- search_openalex failed for politics_justice: HTTP Error 503: Service Unavailable
-- search_openalex failed for politics_justice: HTTP Error 503: Service Unavailable
-- search_openalex failed for politics_justice: HTTP Error 503: Service Unavailable
-- search_openalex failed for art_beauty: HTTP Error 503: Service Unavailable
-- search_openalex failed for art_beauty: HTTP Error 503: Service Unavailable
-- search_openalex failed for art_beauty: HTTP Error 503: Service Unavailable
-- search_openalex failed for art_beauty: HTTP Error 503: Service Unavailable
-- search_openalex failed for art_beauty: HTTP Error 503: Service Unavailable
-- search_openalex failed for visual_media_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for visual_media_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for visual_media_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for visual_media_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for podcast_testimony_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for podcast_testimony_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for podcast_testimony_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for podcast_testimony_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for video_teaching_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for video_teaching_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for video_teaching_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for video_teaching_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for history_memory: HTTP Error 503: Service Unavailable
-- search_openalex failed for history_memory: HTTP Error 503: Service Unavailable
-- search_openalex failed for history_memory: HTTP Error 503: Service Unavailable
-- search_openalex failed for world_languages_translation: HTTP Error 503: Service Unavailable
-- search_openalex failed for world_languages_translation: HTTP Error 503: Service Unavailable
-- search_openalex failed for world_languages_translation: HTTP Error 503: Service Unavailable
-- search_openalex failed for world_language_source_sampling: HTTP Error 503: Service Unavailable
-- search_openalex failed for world_language_source_sampling: HTTP Error 503: Service Unavailable
-- search_openalex failed for world_language_source_sampling: HTTP Error 503: Service Unavailable
-- search_openalex failed for biblical_languages: HTTP Error 503: Service Unavailable
-- search_openalex failed for biblical_languages: HTTP Error 503: Service Unavailable
-- search_openalex failed for biblical_languages: HTTP Error 503: Service Unavailable
-- search_crossref failed for biblical_language_source_depth: The read operation timed out
-- search_openalex failed for biblical_language_source_depth: HTTP Error 503: Service Unavailable
-- search_openalex failed for biblical_language_source_depth: HTTP Error 503: Service Unavailable
-- search_openalex failed for biblical_language_source_depth: HTTP Error 503: Service Unavailable
-- search_openalex failed for psychology_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for psychology_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for psychology_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for pattern_perception_divine_response: HTTP Error 503: Service Unavailable
-- search_openalex failed for pattern_perception_divine_response: HTTP Error 503: Service Unavailable
-- search_openalex failed for pattern_perception_divine_response: HTTP Error 503: Service Unavailable
-- search_openalex failed for global_text_traditions: HTTP Error 503: Service Unavailable
-- search_openalex failed for global_text_traditions: HTTP Error 503: Service Unavailable
-- search_openalex failed for global_text_traditions: HTTP Error 503: Service Unavailable
-- search_openalex failed for modern_literature_meaning: HTTP Error 503: Service Unavailable
-- search_openalex failed for modern_literature_meaning: HTTP Error 503: Service Unavailable
-- search_openalex failed for modern_literature_meaning: HTTP Error 503: Service Unavailable
-- search_openalex failed for cultural_practice_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for cultural_practice_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for cultural_practice_patterns: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for general_research_methods: HTTP Error 503: Service Unavailable
-- search_openalex failed for interreligious_dream_testimony: HTTP Error 503: Service Unavailable
-- search_openalex failed for interreligious_dream_testimony: HTTP Error 503: Service Unavailable
-- search_openalex failed for interreligious_dream_testimony: HTTP Error 503: Service Unavailable
-- search_openalex failed for interreligious_dream_testimony: HTTP Error 503: Service Unavailable
-- search_openalex failed for holy_spirit_gifts_global: HTTP Error 503: Service Unavailable
-- search_openalex failed for holy_spirit_gifts_global: HTTP Error 503: Service Unavailable
-- search_openalex failed for holy_spirit_gifts_global: HTTP Error 503: Service Unavailable
-- search_openalex failed for technology_ethics: HTTP Error 503: Service Unavailable
-- search_openalex failed for technology_ethics: HTTP Error 503: Service Unavailable
-- search_openalex failed for theologians_cross_era: HTTP Error 503: Service Unavailable
-- search_openalex failed for theologians_cross_era: HTTP Error 503: Service Unavailable
-- search_openalex failed for theologians_cross_era: HTTP Error 503: Service Unavailable
+- search_crossref failed for video_teaching_patterns: HTTP Error 500: Server Error
+- search_crossref failed for general_research_methods: The read operation timed out
