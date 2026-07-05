@@ -13,14 +13,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 79
-Test words analyzed: 12,052
+Test documents analyzed: 83
+Test words analyzed: 12,623
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 171
-- Science Guardrail: 150
-- Counterexample Pressure: 71
+- Suffering Without Resolution: 177
+- Science Guardrail: 158
+- Counterexample Pressure: 75
 - Injustice And Corruption: 69
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 36
@@ -30,20 +30,20 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 158
+- Scholarly Or Scientific Source: 167
 - Practical Lived Source: 78
-- Primary Or Classical Source: 55
+- Primary Or Classical Source: 59
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- resilient under pressure: 43
-- needs deeper review but still plausible: 36
+- resilient under pressure: 45
+- needs deeper review but still plausible: 38
 
 Hold Assessment
 ---------------
-- pressure present but hold question is underdeveloped: 34
-- not enough friction to judge hold: 34
+- pressure present but hold question is underdeveloped: 36
+- not enough friction to judge hold: 36
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
 - holds under added friction: 1
@@ -52,28 +52,28 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 362 | research corpus 5,003
-- Son: test set 29 | research corpus 6,817
-- Holy Spirit: test set 47 | research corpus 1,856
+- Father: test set 382 | research corpus 5,041
+- Son: test set 29 | research corpus 6,810
+- Holy Spirit: test set 47 | research corpus 1,870
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 54 | research corpus 2,644
-- Mathematical Structure: test set 18 | research corpus 643
-- Mathematical Theophany: test set 249 | research corpus 1,270
-- Quantum Probability: test set 25 | research corpus 172
-- Life And Consciousness: test set 209 | research corpus 6,047
-- Meaning And Logos: test set 40 | research corpus 6,128
+- Physical Order: test set 54 | research corpus 2,645
+- Mathematical Structure: test set 18 | research corpus 640
+- Mathematical Theophany: test set 257 | research corpus 1,273
+- Quantum Probability: test set 25 | research corpus 169
+- Life And Consciousness: test set 221 | research corpus 6,058
+- Meaning And Logos: test set 40 | research corpus 6,132
 - Moral Response: test set 53 | research corpus 2,478
-- Worship And Community: test set 69 | research corpus 1,617
-- Transformation: test set 62 | research corpus 2,222
+- Worship And Community: test set 69 | research corpus 1,624
+- Transformation: test set 63 | research corpus 2,235
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 268
-- Desire And Longing: 79
-- Alienation And Lament: 72
-- Transformation And Hope: 59
+- Creation And Order: 276
+- Desire And Longing: 83
+- Alienation And Lament: 73
+- Transformation And Hope: 61
 - Communal Practice: 57
 - Moral Confrontation: 47
 
@@ -793,6 +793,26 @@ Recommendations:
 - Name explicit failure conditions so the pattern can be revised or rejected.
 - Add rival natural, psychological, social, or comparative explanations.
 
+climate_trauma_and_habits_toward_hope_a_decolonizing_earth_centered_approach_66c1ae1d42c7.md
+--------------------------------------------------------------------------------------------
+Words: 147
+Meaning confidence: plausible meaning pattern
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 2
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
 cultural_considerations_in_grief_care_4dd1b411ad90.md
 -----------------------------------------------------
 Words: 139
@@ -956,6 +976,26 @@ Recommendations:
 trauma_informed_pastoral_theology_when_pastoral_caregivers_resist_abusive_theolo_4b3dfcd54c92.md
 ------------------------------------------------------------------------------------------------
 Words: 141
+Meaning confidence: thin meaning signal
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 2
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+william_temple_s_unanswered_question_1fb34d6c3bfb.md
+----------------------------------------------------
+Words: 137
 Meaning confidence: thin meaning signal
 Test confidence: resilient under pressure
 Hold assessment: pressure present but hold question is underdeveloped
@@ -1452,6 +1492,26 @@ Recommendations:
 - Name explicit failure conditions so the pattern can be revised or rejected.
 - Add rival natural, psychological, social, or comparative explanations.
 
+planting_with_a_limp_recovering_lament_in_growing_new_churches_adc4ddfdd0f0.md
+------------------------------------------------------------------------------
+Words: 144
+Meaning confidence: plausible meaning pattern
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
 rachel_s_lament_the_impact_of_infertility_and_pregnancy_loss_upon_the_religious_fe8e043e960f.md
 -----------------------------------------------------------------------------------------------
 Words: 145
@@ -1555,6 +1615,26 @@ Recommendations:
 the_learner_factor_in_washback_context_an_empirical_study_investigating_the_wash_52b40b2078a6.md
 ------------------------------------------------------------------------------------------------
 Words: 149
+Meaning confidence: thin meaning signal
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+the_political_unconscious_narrative_as_socially_symbolic_act_e833f66acdbc.md
+----------------------------------------------------------------------------
+Words: 143
 Meaning confidence: thin meaning signal
 Test confidence: needs deeper review but still plausible
 Hold assessment: not enough friction to judge hold
