@@ -9,16 +9,16 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 202
-Total cultural words analyzed: 28,644
+Cultural documents analyzed: 204
+Total cultural words analyzed: 28,931
 
 Cultural Domains
 ----------------
-- Science And Discovery: 406
-- Politics And Justice: 212
-- History And Memory: 147
+- Science And Discovery: 410
+- Politics And Justice: 214
+- History And Memory: 149
 - Technology And AI: 115
-- Psychology And Human Behavior: 93
+- Psychology And Human Behavior: 94
 - Family And Community: 46
 - Health And Suffering: 46
 - Global Text Traditions: 37
@@ -33,14 +33,14 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 975
-- Son: 13
+- Father: 985
+- Son: 14
 - Holy Spirit: 1
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 212
-- Moral Confrontation: 116
+- Desire And Longing: 214
+- Moral Confrontation: 117
 - Creation And Order: 31
 - Communal Practice: 31
 - Transformation And Hope: 26
@@ -48,15 +48,15 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 439 | religious/science corpus 2,645
-- Mathematical Structure: cultural inputs 522 | religious/science corpus 640
-- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,273
-- Quantum Probability: cultural inputs 1 | religious/science corpus 169
-- Life And Consciousness: cultural inputs 592 | religious/science corpus 6,058
-- Meaning And Logos: cultural inputs 715 | religious/science corpus 6,132
-- Moral Response: cultural inputs 774 | religious/science corpus 2,478
-- Worship And Community: cultural inputs 410 | religious/science corpus 1,624
-- Transformation: cultural inputs 411 | religious/science corpus 2,235
+- Physical Order: cultural inputs 443 | religious/science corpus 2,660
+- Mathematical Structure: cultural inputs 526 | religious/science corpus 647
+- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,294
+- Quantum Probability: cultural inputs 1 | religious/science corpus 208
+- Life And Consciousness: cultural inputs 597 | religious/science corpus 6,080
+- Meaning And Logos: cultural inputs 721 | religious/science corpus 6,128
+- Moral Response: cultural inputs 780 | religious/science corpus 2,479
+- Worship And Community: cultural inputs 412 | religious/science corpus 1,615
+- Transformation: cultural inputs 414 | religious/science corpus 2,225
 
 Per-Domain Findings
 -------------------
@@ -2811,6 +2811,31 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 
+assisted_dying_requests_from_people_in_detention_psychiatric_ethical_and_legal_c_35f047986d40.md
+------------------------------------------------------------------------------------------------
+Words: 146
+Strongest cultural domain: Politics And Justice (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 4
+- Meaning And Logos: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Life And Consciousness: 2
+- Worship And Community: 2
+- Transformation: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
 autistic_community_and_the_neurodiversity_movement_696454bb63c3.md
 ------------------------------------------------------------------
 Words: 135
@@ -3400,6 +3425,29 @@ Layer interpretation:
 Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 - Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+- Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
+
+comparative_museology_and_cross_cultural_heritage_management_emerging_paradigms_8da802a54a45.md
+-----------------------------------------------------------------------------------------------
+Words: 141
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Life And Consciousness: 3
+- Meaning And Logos: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Moral Response: 2
+- Transformation: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
