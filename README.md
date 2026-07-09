@@ -584,3 +584,11 @@ Comparative validation now also uses `other_religious_texts/`,
 `modern_literature/`, and `human_stories/`. Recurrence across these lanes can
 support a broad human pattern, but it does not by itself prove a distinct
 Trinitarian claim.
+
+## License
+
+This repository is currently released under **All Rights Reserved**.
+
+The source code is publicly visible for transparency and collaboration discussions only.
+
+No permission is granted to copy, modify, redistribute, or use this software without written permission from the copyright holder.
