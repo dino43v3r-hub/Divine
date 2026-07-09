@@ -1,0 +1,6 @@
+[submodule "Divine-Ecosystem"]
+	path = Divine-Ecosystem
+	url = https://github.com/dino43v3r-hub/Divine-Ecosystem.git
+[submodule "Shepherd"]
+	path = Shepherd
+	url = https://github.com/dino43v3r-hub/shepherd.git
