@@ -10,9 +10,9 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Music-note files analyzed: 60
-Note/chord events analyzed: 178
-Individual notes analyzed: 212
+Music-note files analyzed: 61
+Note/chord events analyzed: 179
+Individual notes analyzed: 213
 Intervals analyzed: 172
 Consonance ratio: 73.84%
 Tension ratio: 26.16%
@@ -41,13 +41,13 @@ Science And Math Relationships
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 289
+- Father: 294
 - Son: 0
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 68
+- Desire And Longing: 69
 - Creation And Order: 22
 - Communal Practice: 6
 - Transformation And Hope: 2
@@ -55,23 +55,23 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 172 | religious/science corpus 2,644
-- Mathematical Structure: music notes 253 | religious/science corpus 639
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,303
+- Physical Order: music notes 172 | religious/science corpus 2,646
+- Mathematical Structure: music notes 253 | religious/science corpus 640
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,254
 - Quantum Probability: music notes 0 | religious/science corpus 172
-- Life And Consciousness: music notes 0 | religious/science corpus 6,117
-- Meaning And Logos: music notes 55 | religious/science corpus 6,134
-- Moral Response: music notes 0 | religious/science corpus 2,494
-- Worship And Community: music notes 16 | religious/science corpus 1,618
-- Transformation: music notes 45 | religious/science corpus 2,217
+- Life And Consciousness: music notes 0 | religious/science corpus 6,085
+- Meaning And Logos: music notes 55 | religious/science corpus 6,101
+- Moral Response: music notes 0 | religious/science corpus 2,470
+- Worship And Community: music notes 16 | religious/science corpus 1,610
+- Transformation: music notes 45 | religious/science corpus 2,219
 
 Relevant Research Domains
 -------------------------
-- Philosophy Of Mathematics: corpus signal 556
-- Physics And Quantum Mechanics: corpus signal 1,439
-- Philosophy Of Science: corpus signal 2,855
+- Philosophy Of Mathematics: corpus signal 557
+- Physics And Quantum Mechanics: corpus signal 1,436
+- Philosophy Of Science: corpus signal 2,857
 - Cognitive Science: corpus signal 1,054
-- Anthropology And Psychology Of Worship: corpus signal 799
+- Anthropology And Psychology Of Worship: corpus signal 792
 
 Per-Composition Findings
 ------------------------
@@ -1026,6 +1026,27 @@ Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 
 interactive_evolutionary_computation_fusion_of_the_capabilities_of_ec_optimizati_828adcb8e1d4.md
+------------------------------------------------------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+investigating_style_evolution_of_western_classical_music_a_computational_approac_993e45ae870c.md
 ------------------------------------------------------------------------------------------------
 Events: 1
 Notes: 1
