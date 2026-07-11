@@ -10,9 +10,9 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Music-note files analyzed: 61
-Note/chord events analyzed: 179
-Individual notes analyzed: 213
+Music-note files analyzed: 63
+Note/chord events analyzed: 181
+Individual notes analyzed: 215
 Intervals analyzed: 172
 Consonance ratio: 73.84%
 Tension ratio: 26.16%
@@ -41,13 +41,13 @@ Science And Math Relationships
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 294
+- Father: 304
 - Son: 0
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 69
+- Desire And Longing: 71
 - Creation And Order: 22
 - Communal Practice: 6
 - Transformation And Hope: 2
@@ -55,23 +55,23 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 172 | religious/science corpus 2,646
-- Mathematical Structure: music notes 253 | religious/science corpus 640
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,254
+- Physical Order: music notes 172 | religious/science corpus 2,643
+- Mathematical Structure: music notes 253 | religious/science corpus 641
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,273
 - Quantum Probability: music notes 0 | religious/science corpus 172
-- Life And Consciousness: music notes 0 | religious/science corpus 6,085
-- Meaning And Logos: music notes 55 | religious/science corpus 6,101
-- Moral Response: music notes 0 | religious/science corpus 2,470
-- Worship And Community: music notes 16 | religious/science corpus 1,610
-- Transformation: music notes 45 | religious/science corpus 2,219
+- Life And Consciousness: music notes 0 | religious/science corpus 6,115
+- Meaning And Logos: music notes 55 | religious/science corpus 6,125
+- Moral Response: music notes 0 | religious/science corpus 2,474
+- Worship And Community: music notes 16 | religious/science corpus 1,624
+- Transformation: music notes 45 | religious/science corpus 2,218
 
 Relevant Research Domains
 -------------------------
-- Philosophy Of Mathematics: corpus signal 557
-- Physics And Quantum Mechanics: corpus signal 1,436
+- Philosophy Of Mathematics: corpus signal 558
+- Physics And Quantum Mechanics: corpus signal 1,437
 - Philosophy Of Science: corpus signal 2,857
-- Cognitive Science: corpus signal 1,054
-- Anthropology And Psychology Of Worship: corpus signal 792
+- Cognitive Science: corpus signal 1,044
+- Anthropology And Psychology Of Worship: corpus signal 811
 
 Per-Composition Findings
 ------------------------
@@ -562,6 +562,27 @@ Meaning arc:
 Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 
+2_3_4_harmony_within_the_tritave_703879dafec9.md
+------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
 a_geometrical_distance_measure_for_determining_the_similarity_of_musical_harmony_9e562de03a73.md
 ------------------------------------------------------------------------------------------------
 Events: 1
@@ -936,6 +957,27 @@ Most common intervals:
 Layer interpretation:
 Meaning arc:
 - Opening: Desire And Longing (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+geometry_of_music_perception_df3bd7d48704.md
+--------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 Practical theology applications:

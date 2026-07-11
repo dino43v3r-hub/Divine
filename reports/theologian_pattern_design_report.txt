@@ -8,12 +8,12 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 160
-Total theologian words analyzed: 33,132
+Theologian documents analyzed: 166
+Total theologian words analyzed: 34,266
 
 Era Coverage
 ------------
-- Patristic: 74
+- Patristic: 75
 - Medieval: 52
 - Reformation: 50
 - Modern: 64
@@ -21,33 +21,33 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Christology: 192
-- Theodicy And Suffering: 178
+- Christology: 194
+- Theodicy And Suffering: 179
 - Trinity: 165
 - Creation: 159
 - Pneumatology: 130
-- Grace And Transformation: 104
-- Church And Practice: 95
-- Justice And Public Life: 93
+- Grace And Transformation: 105
+- Church And Practice: 98
+- Justice And Public Life: 94
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 991
-- Son: 227
+- Father: 1,026
+- Son: 229
 - Holy Spirit: 253
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 158 | broader corpus 2,646
-- Mathematical Structure: theologians 4 | broader corpus 640
-- Mathematical Theophany: theologians 214 | broader corpus 1,254
+- Physical Order: theologians 158 | broader corpus 2,643
+- Mathematical Structure: theologians 4 | broader corpus 641
+- Mathematical Theophany: theologians 224 | broader corpus 1,273
 - Quantum Probability: theologians 2 | broader corpus 172
-- Life And Consciousness: theologians 443 | broader corpus 6,085
-- Meaning And Logos: theologians 105 | broader corpus 6,101
-- Moral Response: theologians 115 | broader corpus 2,470
-- Worship And Community: theologians 172 | broader corpus 1,610
-- Transformation: theologians 339 | broader corpus 2,219
+- Life And Consciousness: theologians 460 | broader corpus 6,115
+- Meaning And Logos: theologians 106 | broader corpus 6,125
+- Moral Response: theologians 116 | broader corpus 2,474
+- Worship And Community: theologians 175 | broader corpus 1,624
+- Transformation: theologians 340 | broader corpus 2,218
 
 Per-Source Findings
 -------------------
@@ -426,6 +426,17 @@ Meaning arc:
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (1)
 
+christian_feminist_theology_and_postcolonial_resistance_22c0e79adc76.md
+-----------------------------------------------------------------------
+Words: 184
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
 christianity_and_indigenisation_in_africa_f2cc283c55f0.md
 ---------------------------------------------------------
 Words: 139
@@ -458,6 +469,17 @@ Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
+
+confronting_the_truth_the_necessity_of_love_for_justice_e6c5156fc435.md
+-----------------------------------------------------------------------
+Words: 190
+Strongest era signal: Patristic (0)
+Strongest concept signal: Justice And Public Life (1)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Desire And Longing (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 contemporary_interpretations_of_the_creation_narrative_113d2970e3fc.md
 ----------------------------------------------------------------------
@@ -921,6 +943,17 @@ Meaning arc:
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
+ministering_to_youth_and_young_adults_through_a_sports_initiative_in_the_normand_dc7e60dceac6.md
+------------------------------------------------------------------------------------------------
+Words: 197
+Strongest era signal: Patristic (0)
+Strongest concept signal: Church And Practice (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
 missio_dei_the_contemporary_missionary_paradigm_and_its_reception_in_the_eastern_1b21a5ec7d32.md
 ------------------------------------------------------------------------------------------------
 Words: 143
@@ -959,6 +992,17 @@ negotiating_religious_identity_and_mass_media_examining_the_relationship_among_l
 Words: 198
 Strongest era signal: Patristic (0)
 Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
+on_spiritual_theology_a_primer_177fceb18705.md
+----------------------------------------------
+Words: 239
+Strongest era signal: Patristic (0)
+Strongest concept signal: Church And Practice (2)
 Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Creation And Order (1)
@@ -1471,6 +1515,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+the_whole_christ_and_the_pneumatology_of_deification_in_augustine_3795c2ed7d24.md
+---------------------------------------------------------------------------------
+Words: 139
+Strongest era signal: Patristic (1)
+Strongest concept signal: Christology (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+
 the_word_made_flesh_and_the_spirit_s_breath_bridging_christology_and_pneumatolog_e4a01eb90350.md
 ------------------------------------------------------------------------------------------------
 Words: 144
@@ -1514,6 +1569,17 @@ Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
+
+theology_of_transformation_719e662e4e40.md
+------------------------------------------
+Words: 185
+Strongest era signal: Patristic (0)
+Strongest concept signal: Grace And Transformation (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 theology_thursday_sanctification_and_the_holy_trinity_bd07f5de618b.md
 ---------------------------------------------------------------------
