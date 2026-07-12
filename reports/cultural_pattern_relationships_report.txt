@@ -9,14 +9,14 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 220
-Total cultural words analyzed: 31,472
+Cultural documents analyzed: 221
+Total cultural words analyzed: 31,603
 
 Cultural Domains
 ----------------
-- Science And Discovery: 448
-- Politics And Justice: 229
-- History And Memory: 160
+- Science And Discovery: 450
+- Politics And Justice: 231
+- History And Memory: 161
 - Technology And AI: 123
 - Psychology And Human Behavior: 104
 - Family And Community: 55
@@ -33,14 +33,14 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 1,065
+- Father: 1,070
 - Son: 14
 - Holy Spirit: 2
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 231
-- Moral Confrontation: 123
+- Desire And Longing: 232
+- Moral Confrontation: 124
 - Communal Practice: 39
 - Creation And Order: 35
 - Transformation And Hope: 29
@@ -48,15 +48,15 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 483 | religious/science corpus 2,643
-- Mathematical Structure: cultural inputs 572 | religious/science corpus 641
-- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,273
-- Quantum Probability: cultural inputs 1 | religious/science corpus 172
-- Life And Consciousness: cultural inputs 650 | religious/science corpus 6,115
-- Meaning And Logos: cultural inputs 783 | religious/science corpus 6,125
-- Moral Response: cultural inputs 835 | religious/science corpus 2,474
-- Worship And Community: cultural inputs 457 | religious/science corpus 1,624
-- Transformation: cultural inputs 456 | religious/science corpus 2,218
+- Physical Order: cultural inputs 485 | religious/science corpus 2,645
+- Mathematical Structure: cultural inputs 574 | religious/science corpus 638
+- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,253
+- Quantum Probability: cultural inputs 1 | religious/science corpus 169
+- Life And Consciousness: cultural inputs 652 | religious/science corpus 6,109
+- Meaning And Logos: cultural inputs 786 | religious/science corpus 6,109
+- Moral Response: cultural inputs 839 | religious/science corpus 2,470
+- Worship And Community: cultural inputs 459 | religious/science corpus 1,604
+- Transformation: cultural inputs 457 | religious/science corpus 2,226
 
 Per-Domain Findings
 -------------------
@@ -3232,6 +3232,31 @@ Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
 - Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+
+religion_and_rehabilitation_53cf0af06ac4.md
+-------------------------------------------
+Words: 131
+Strongest cultural domain: Politics And Justice (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 4
+- Meaning And Logos: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Life And Consciousness: 2
+- Worship And Community: 2
+- Transformation: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 
 the_individual_and_society_in_the_middle_ages_a4f0c1fccd29.md
 -------------------------------------------------------------
