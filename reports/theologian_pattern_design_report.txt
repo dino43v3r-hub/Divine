@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 171
-Total theologian words analyzed: 34,994
+Theologian documents analyzed: 175
+Total theologian words analyzed: 35,704
 
 Era Coverage
 ------------
@@ -23,31 +23,31 @@ Concept Coverage
 ----------------
 - Christology: 195
 - Theodicy And Suffering: 180
-- Trinity: 169
+- Trinity: 170
 - Creation: 159
-- Pneumatology: 134
+- Pneumatology: 136
 - Grace And Transformation: 105
 - Church And Practice: 98
-- Justice And Public Life: 94
+- Justice And Public Life: 95
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 1,054
+- Father: 1,077
 - Son: 230
-- Holy Spirit: 259
+- Holy Spirit: 264
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 158 | broader corpus 2,645
+- Physical Order: theologians 158 | broader corpus 2,647
 - Mathematical Structure: theologians 4 | broader corpus 638
-- Mathematical Theophany: theologians 226 | broader corpus 1,253
-- Quantum Probability: theologians 2 | broader corpus 169
-- Life And Consciousness: theologians 472 | broader corpus 6,109
+- Mathematical Theophany: theologians 232 | broader corpus 1,269
+- Quantum Probability: theologians 2 | broader corpus 171
+- Life And Consciousness: theologians 484 | broader corpus 6,130
 - Meaning And Logos: theologians 106 | broader corpus 6,109
-- Moral Response: theologians 116 | broader corpus 2,470
-- Worship And Community: theologians 175 | broader corpus 1,604
-- Transformation: theologians 343 | broader corpus 2,226
+- Moral Response: theologians 116 | broader corpus 2,484
+- Worship And Community: theologians 177 | broader corpus 1,605
+- Transformation: theologians 347 | broader corpus 2,225
 
 Per-Source Findings
 -------------------
@@ -225,6 +225,17 @@ Strongest concept signal: Christology (1)
 Meaning confidence: word-level signal only
 Meaning arc:
 - Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+baptism_with_the_holy_spirit_f41b2eaf6d08.md
+--------------------------------------------
+Words: 137
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
@@ -690,6 +701,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
 
+faith_freedom_and_world_12ae4ce5a908.md
+---------------------------------------
+Words: 186
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
 fethullah_g_len_s_teaching_and_practice_75d640af9788.md
 -------------------------------------------------------
 Words: 187
@@ -876,6 +898,17 @@ Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
+
+islamic_ecoteology_and_the_spirit_of_fastabiqul_khairat_a_reconstruction_of_the_cd021b2157d7.md
+-----------------------------------------------------------------------------------------------
+Words: 202
+Strongest era signal: Patristic (0)
+Strongest concept signal: Justice And Public Life (1)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 jean_calvin_heart_in_hand_58377fbb155f.md
 -----------------------------------------
@@ -1624,6 +1657,17 @@ Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
+
+theology_in_the_world_43510af4fbc4.md
+-------------------------------------
+Words: 185
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 theology_of_transformation_719e662e4e40.md
 ------------------------------------------

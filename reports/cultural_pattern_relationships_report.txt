@@ -9,21 +9,21 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 221
-Total cultural words analyzed: 31,603
+Cultural documents analyzed: 222
+Total cultural words analyzed: 31,748
 
 Cultural Domains
 ----------------
-- Science And Discovery: 450
-- Politics And Justice: 231
-- History And Memory: 161
+- Science And Discovery: 452
+- Politics And Justice: 233
+- History And Memory: 162
 - Technology And AI: 123
 - Psychology And Human Behavior: 104
 - Family And Community: 55
 - Health And Suffering: 49
 - Global Text Traditions: 42
 - Art And Beauty: 37
-- Education And Formation: 31
+- Education And Formation: 32
 - World Languages: 29
 - Economics And Work: 28
 - Ecology And Creation Care: 20
@@ -33,14 +33,14 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 1,070
+- Father: 1,075
 - Son: 14
 - Holy Spirit: 2
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 232
-- Moral Confrontation: 124
+- Desire And Longing: 233
+- Moral Confrontation: 125
 - Communal Practice: 39
 - Creation And Order: 35
 - Transformation And Hope: 29
@@ -48,15 +48,15 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 485 | religious/science corpus 2,645
-- Mathematical Structure: cultural inputs 574 | religious/science corpus 638
-- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,253
-- Quantum Probability: cultural inputs 1 | religious/science corpus 169
-- Life And Consciousness: cultural inputs 652 | religious/science corpus 6,109
-- Meaning And Logos: cultural inputs 786 | religious/science corpus 6,109
-- Moral Response: cultural inputs 839 | religious/science corpus 2,470
-- Worship And Community: cultural inputs 459 | religious/science corpus 1,604
-- Transformation: cultural inputs 457 | religious/science corpus 2,226
+- Physical Order: cultural inputs 487 | religious/science corpus 2,647
+- Mathematical Structure: cultural inputs 576 | religious/science corpus 638
+- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,269
+- Quantum Probability: cultural inputs 1 | religious/science corpus 171
+- Life And Consciousness: cultural inputs 654 | religious/science corpus 6,130
+- Meaning And Logos: cultural inputs 790 | religious/science corpus 6,109
+- Moral Response: cultural inputs 843 | religious/science corpus 2,484
+- Worship And Community: cultural inputs 461 | religious/science corpus 1,605
+- Transformation: cultural inputs 459 | religious/science corpus 2,225
 
 Per-Domain Findings
 -------------------
@@ -2255,6 +2255,31 @@ Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
+commodification_decolonisation_and_theological_education_in_africa_renewed_chall_5afce79112f5.md
+------------------------------------------------------------------------------------------------
+Words: 145
+Strongest cultural domain: Politics And Justice (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 4
+- Moral Response: 4
+- Physical Order: 2
+- Mathematical Structure: 2
+- Life And Consciousness: 2
+- Worship And Community: 2
+- Transformation: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Treat learning as formation, not just information: knowledge should shape wisdom, character, and service.
 
 community_genetics_and_community_medicine_d1623afbac20.md
 ---------------------------------------------------------
