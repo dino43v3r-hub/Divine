@@ -9,20 +9,20 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 236
-Total cultural words analyzed: 34,057
+Cultural documents analyzed: 237
+Total cultural words analyzed: 34,211
 
 Cultural Domains
 ----------------
-- Science And Discovery: 484
+- Science And Discovery: 486
 - Politics And Justice: 248
 - History And Memory: 173
-- Technology And AI: 132
+- Technology And AI: 133
 - Psychology And Human Behavior: 114
 - Family And Community: 55
 - Health And Suffering: 49
 - Global Text Traditions: 47
-- Art And Beauty: 41
+- Art And Beauty: 42
 - World Languages: 34
 - Education And Formation: 32
 - Economics And Work: 31
@@ -33,13 +33,13 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 1,149
+- Father: 1,154
 - Son: 15
 - Holy Spirit: 2
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 251
+- Desire And Longing: 252
 - Moral Confrontation: 129
 - Communal Practice: 39
 - Creation And Order: 38
@@ -48,15 +48,15 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 521 | religious/science corpus 2,645
-- Mathematical Structure: cultural inputs 617 | religious/science corpus 643
-- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,249
-- Quantum Probability: cultural inputs 1 | religious/science corpus 169
-- Life And Consciousness: cultural inputs 699 | religious/science corpus 6,138
-- Meaning And Logos: cultural inputs 848 | religious/science corpus 6,104
-- Moral Response: cultural inputs 901 | religious/science corpus 2,479
-- Worship And Community: cultural inputs 494 | religious/science corpus 1,604
-- Transformation: cultural inputs 486 | religious/science corpus 2,221
+- Physical Order: cultural inputs 523 | religious/science corpus 2,650
+- Mathematical Structure: cultural inputs 620 | religious/science corpus 643
+- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,243
+- Quantum Probability: cultural inputs 1 | religious/science corpus 171
+- Life And Consciousness: cultural inputs 701 | religious/science corpus 6,119
+- Meaning And Logos: cultural inputs 851 | religious/science corpus 6,078
+- Moral Response: cultural inputs 902 | religious/science corpus 2,470
+- Worship And Community: cultural inputs 495 | religious/science corpus 1,601
+- Transformation: cultural inputs 486 | religious/science corpus 2,218
 
 Per-Domain Findings
 -------------------
@@ -4983,6 +4983,29 @@ Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+
+predictive_modelling_of_clinically_significant_depressive_symptoms_after_coronar_1b917970bf6a.md
+------------------------------------------------------------------------------------------------
+Words: 154
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Mathematical Structure: 3
+- Meaning And Logos: 3
+- Physical Order: 2
+- Life And Consciousness: 2
+- Moral Response: 1
+- Worship And Community: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
 - Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
 
 public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screening_9a92ebcefaaf.md
