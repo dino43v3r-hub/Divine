@@ -30,9 +30,9 @@ In that room, the pattern is asking me to notice this: God gives ordered creatio
 
 ## Today’s Discovery
 
-The freshest thing in the available discovery record is not a new certainty for the parish road, but a new cluster needing care: 18 candidate references, led by Crossref (12), with the strongest routed lane showing as deep_sources (7). This must be read cautiously, since the collector snapshot is current for this UTC day.
+The freshest thing in the available discovery record is not a new certainty for the parish road, but a new cluster needing care: 21 candidate references, led by Crossref (12), with the strongest routed lane showing as theologians (7). This must be read cautiously, since the collector snapshot is current for this UTC day.
 
-That is a mercy-shaped warning rather than a comfort to distribute. 18 new items may be ready for the review queue, no recorded category appears in the media mix, and optional `public_final_ready` metadata appears on 0 sources.
+That is a mercy-shaped warning rather than a comfort to distribute. 20 new items may be ready for the review queue, video (1) appears in the media mix, and optional `public_final_ready` metadata appears on 0 sources.
 
 No findings currently meet the optional polished-publication metadata state. Research findings remain visible below with their current strength and limitations; `public_final_ready` does not determine research visibility or theological authority.
 
@@ -40,13 +40,13 @@ No findings currently meet the optional polished-publication metadata state. Res
 
 Yesterday's snapshot says the report stood under a priest reader, the **faithful response** lens, and **Martin Luther**. Today it stands under a deaconess reader, the **mystery** lens, and **Karl Barth**.
 
-The prior snapshot used a retired visibility placeholder; today's named pattern is **Creation-To-Consciousness Pattern**. candidate references fell from 31 to 18; review queue items held at 1,030; public-final claims held at 0. The strongest routed lane changed from **human_stories** to **deep_sources**.
+The prior snapshot used a retired visibility placeholder; today's named pattern is **Creation-To-Consciousness Pattern**. candidate references fell from 31 to 21; review queue items held at 1,030; public-final claims held at 0. The strongest routed lane changed from **human_stories** to **theologians**.
 
 The deaconess reading should carry those changes onto the parish road carefully: useful for attention, but not automatically ready for homes, bedsides, or wounded hearts.
 
 ## The Theologian Beside The Prayer Book
 
-The theologian section behind this entry draws on 188 analyzed theologian documents and gives special weight today to Christology, Theodicy and Suffering, Trinity.
+The theologian section behind this entry draws on 193 analyzed theologian documents and gives special weight today to Christology, Theodicy and Suffering, Trinity.
 
 Today's theologian is **Karl Barth**, chosen from the rotating theologian voices gathered for this project. I would let Karl Barth stand beside the Prayer Book and the deaconess voice today because of God's self-revelation in Jesus Christ. Barth would ask whether the pattern begins with God's revelation in Christ or whether it tries to climb up to God from human observation.
 
@@ -322,6 +322,6 @@ Every coherent, traceable candidate is shown here regardless of `public_final_re
 
 ## Quiet Notes For The Reader
 
-This entry was generated at 2026-07-17 16:24 UTC. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.
+This entry was generated at 2026-07-17 18:13 UTC. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.
 
-Input freshness: 2026-07-17 16:23 UTC. Collector snapshot is current for this UTC day.
+Input freshness: 2026-07-17 18:12 UTC. Collector snapshot is current for this UTC day.

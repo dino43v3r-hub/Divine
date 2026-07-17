@@ -1,15 +1,15 @@
 {
   "date": "2026-07-17",
-  "generated_at_utc": "2026-07-17T16:24:37Z",
+  "generated_at_utc": "2026-07-17T18:13:35Z",
   "reader_role": "deaconess",
   "lens": "mystery",
   "theologian": "Karl Barth",
   "pattern_name": "Creation-To-Consciousness Pattern",
   "public_final_claim_count": 0,
-  "candidate_reference_count": 18,
+  "candidate_reference_count": 21,
   "review_queue_count": 1030,
-  "strongest_routed_lane": "deep_sources",
+  "strongest_routed_lane": "theologians",
   "strongest_routed_lane_count": 7,
-  "freshness_status": "2026-07-17 16:23 UTC",
+  "freshness_status": "2026-07-17 18:12 UTC",
   "source_digest_date": "2026-07-17"
 }
