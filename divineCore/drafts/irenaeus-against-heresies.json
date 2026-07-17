@@ -1,0 +1,30 @@
+{
+  "name": "Against Heresies",
+  "author": "Irenaeus",
+  "category": "patristic-theology",
+  "status": "draft",
+  "reasoningMethod": {
+    "startingPoint": "Draft prompt: identify the source's basic theological starting point without quoting it.",
+    "coreEmphases": [],
+    "discernmentQuestions": [],
+    "pastoralPriorities": [],
+    "commonWarnings": []
+  },
+  "patternRecognition": {
+    "looksFor": [],
+    "strengthens": [],
+    "guardsAgainst": []
+  },
+  "composerHints": {
+    "tone": "Draft prompt: describe an appropriate composer tone after review.",
+    "preferredStructure": [],
+    "avoid": [
+      "do not quote or reproduce source text",
+      "do not treat this draft as reviewed",
+      "do not generate final user-facing prose"
+    ]
+  },
+  "reviewNotes": [
+    "Draft generated as a safe empty structure for later human review."
+  ]
+}

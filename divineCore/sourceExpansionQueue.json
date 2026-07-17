@@ -12,8 +12,8 @@
       "name": "Against Heresies",
       "author": "Irenaeus",
       "category": "patristic-theology",
-      "drafted": false,
-      "draftFile": ""
+      "drafted": true,
+      "draftFile": "divineCore/drafts/irenaeus-against-heresies.json"
     },
     {
       "name": "Confessions",
