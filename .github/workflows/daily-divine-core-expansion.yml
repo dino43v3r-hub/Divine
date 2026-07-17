@@ -30,6 +30,12 @@ jobs:
         run: |
           node -e "const fs = require('fs'); const path = require('path'); function walk(dir) { for (const entry of fs.readdirSync(dir, { withFileTypes: true })) { const full = path.join(dir, entry.name); if (entry.isDirectory()) walk(full); if (entry.isFile() && entry.name.endsWith('.json')) JSON.parse(fs.readFileSync(full, 'utf8')); } } walk('divineCore');"
 
+      - name: Validate versioned source profiles
+        run: node divineCore/validateSourceProfiles.js
+
+      - name: Test source profile generator safety
+        run: node divineCore/testSourceProfiles.js
+
       - name: Detect generated draft changes
         id: changes
         run: |

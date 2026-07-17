@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://divine.local/schemas/source-profile.schema.json",
+  "title": "Divine Core Source Profile",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "profileType",
+    "name",
+    "author",
+    "category",
+    "profileMaturity",
+    "sourceObservations",
+    "interpretiveSynthesis",
+    "divineCoreAssessment",
+    "scripturalDoctrinalEvaluation",
+    "provenanceAndReview"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "profileType": { "const": "source-profile" },
+    "name": { "type": "string", "minLength": 1 },
+    "author": { "type": "string", "minLength": 1 },
+    "category": { "type": "string", "minLength": 1 },
+    "profileMaturity": {
+      "enum": ["scaffold", "developing", "evidence-ready", "evaluated"]
+    },
+    "sourceObservations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/sourceObservation" }
+    },
+    "interpretiveSynthesis": { "$ref": "#/$defs/interpretiveSynthesis" },
+    "divineCoreAssessment": { "$ref": "#/$defs/divineCoreAssessment" },
+    "scripturalDoctrinalEvaluation": { "$ref": "#/$defs/scripturalDoctrinalEvaluation" },
+    "provenanceAndReview": { "$ref": "#/$defs/provenanceAndReview" },
+    "status": { "const": "draft" },
+    "reasoningMethod": { "type": "object" },
+    "patternRecognition": { "type": "object" },
+    "composerHints": { "type": "object" },
+    "reviewNotes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "stringArray": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "sourceObservation": {
+      "type": "object",
+      "required": ["observation", "sourceLocations", "evidenceNote"],
+      "properties": {
+        "observation": { "type": "string" },
+        "sourceLocations": { "$ref": "#/$defs/stringArray" },
+        "evidenceNote": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "interpretiveSynthesis": {
+      "type": "object",
+      "required": ["summary", "emergingThemes", "ambiguities", "alternateReadings", "counterevidence"],
+      "properties": {
+        "summary": { "type": "string" },
+        "emergingThemes": { "$ref": "#/$defs/stringArray" },
+        "ambiguities": { "$ref": "#/$defs/stringArray" },
+        "alternateReadings": { "$ref": "#/$defs/stringArray" },
+        "counterevidence": { "$ref": "#/$defs/stringArray" }
+      },
+      "additionalProperties": false
+    },
+    "divineCoreAssessment": {
+      "type": "object",
+      "required": ["summary", "potentialContributions", "theologicalCautions", "unresolvedTensions", "authorityBoundary"],
+      "properties": {
+        "summary": { "type": "string" },
+        "potentialContributions": { "$ref": "#/$defs/stringArray" },
+        "theologicalCautions": { "$ref": "#/$defs/stringArray" },
+        "unresolvedTensions": { "$ref": "#/$defs/stringArray" },
+        "authorityBoundary": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "scriptureEntry": {
+      "type": "object",
+      "required": ["reference", "relationship", "note"],
+      "properties": {
+        "reference": { "type": "string" },
+        "relationship": {
+          "enum": ["agreement", "tension", "qualification", "possible-conflict"]
+        },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "scripturalDoctrinalEvaluation": {
+      "type": "object",
+      "required": ["governingPrinciple", "scripture", "canonicalTensions", "doctrinalAgreements", "neededQualifications", "possibleConflicts"],
+      "properties": {
+        "governingPrinciple": { "type": "string" },
+        "scripture": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/scriptureEntry" }
+        },
+        "canonicalTensions": { "$ref": "#/$defs/stringArray" },
+        "doctrinalAgreements": { "$ref": "#/$defs/stringArray" },
+        "neededQualifications": { "$ref": "#/$defs/stringArray" },
+        "possibleConflicts": { "$ref": "#/$defs/stringArray" }
+      },
+      "additionalProperties": false
+    },
+    "humanReview": {
+      "type": "object",
+      "required": ["status", "reviewers", "reviewerComments", "reviewedAt"],
+      "properties": {
+        "status": {
+          "enum": ["not-reviewed", "reviewed", "reviewed-with-concerns"]
+        },
+        "reviewers": { "$ref": "#/$defs/stringArray" },
+        "reviewerComments": { "$ref": "#/$defs/stringArray" },
+        "reviewedAt": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "provenanceAndReview": {
+      "type": "object",
+      "required": ["workTitle", "author", "scope", "edition", "translator", "publisher", "publicationYear", "sourceLocationsReviewed", "originalSourceChecked", "evidenceNotes", "humanReview"],
+      "properties": {
+        "workTitle": { "type": "string", "minLength": 1 },
+        "author": { "type": "string", "minLength": 1 },
+        "scope": { "type": "string" },
+        "edition": { "type": "string" },
+        "translator": { "type": "string" },
+        "publisher": { "type": "string" },
+        "publicationYear": { "type": "string" },
+        "sourceLocationsReviewed": { "$ref": "#/$defs/stringArray" },
+        "originalSourceChecked": { "type": "boolean" },
+        "evidenceNotes": { "$ref": "#/$defs/stringArray" },
+        "humanReview": { "$ref": "#/$defs/humanReview" }
+      },
+      "additionalProperties": false
+    }
+  }
+}
