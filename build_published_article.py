@@ -198,29 +198,6 @@ DEFAULT_CANDIDATE_PATTERN = {
     "counts": {},
 }
 
-PUBLIC_FINAL_HOLDING_PATTERN = {
-    "name": "Waiting For A Public-Final Claim",
-    "movement": "Waiting -> Discernment -> Truthful Silence -> Faithful Readiness",
-    "plain": "No pattern has cleared the full public-final gate yet, so the final report waits rather than turning developing material into a public claim.",
-    "theologian_judgment": "Theologians should receive this pause as part of the project's discipline: a claim that has not passed Scripture, doctrine, pastoral safety, and public-use boundaries should remain quiet.",
-    "evaluation_question": "Can the report stay faithful without filling the silence with a premature claim?",
-    "weakens_if": "It weakens if waiting becomes neglect, or if quietness is used to avoid truth that has actually passed the tests.",
-    "case_study": "A reader opens the final report hoping for a settled public claim, but the system has not found one that passed every public-final boundary. The faithful shape of the day is therefore patience rather than performance.",
-    "theologian_panel": [
-        "Augustine would ask whether restraint is helping love stay rightly ordered.",
-        "Karl Barth would ask whether the project is refusing to speak where God has not given warrant.",
-        "Bonhoeffer would ask whether silence is responsible obedience rather than evasion.",
-    ],
-    "hard_objection": "A reader may want the report to say more. The answer is that the final report should not borrow confidence from material still under review.",
-    "confidence_language": "No public-final claim has been released today; the report is waiting for a claim that has passed every public-use boundary.",
-    "faithful_response": "Today, let truth arrive without forcing it.",
-    "interesting_not_true": "A developing pattern may still be interesting, but the final report only releases what has passed the public-final gate.",
-    "candidate": "No public-final divine-pattern claim has been released today. The project remains attentive, but the polished report keeps developing material backstage until it clears the full gate.",
-    "basis": "No indexed source currently has confidence_tier `public_final_ready`, so the final report withholds public synthesis rather than presenting audit material.",
-    "counts": {},
-    "is_public_final_holding": True,
-}
-
 VISUAL_PROFILES = {
     "Image Of God Pattern": {
         "title": "Image of God",
@@ -788,7 +765,7 @@ def build_report_snapshot(generated_at: datetime) -> dict:
     knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
     review_audit = read_json(REVIEW_AUDIT_PATH)
     review_gap_queue = read_json(REVIEW_GAP_QUEUE_PATH)
-    candidate_pattern = current_public_final_pattern(knowledge_index, generated_at)
+    candidate_pattern = current_candidate_pattern(knowledge_index, generated_at)
     freshness = digest_freshness(digest, generated_at)
     lens = daily_lens(generated_at)
     theologian = daily_theologian(generated_at)
@@ -845,7 +822,7 @@ def today_discovery_variants(
     freshness_caution = freshness_sentence[0].lower() + freshness_sentence[1:] if freshness_sentence else "the collector snapshot date could not be verified"
     if freshness_caution.startswith("collector snapshot"):
         freshness_caution = f"the {freshness_caution}"
-    holding_public_claim = candidate_pattern.get("is_public_final_holding") or public_final_count == 0
+    no_polished_publication_metadata = public_final_count == 0
 
     if reader.get("role") == "priest":
         if new_count:
@@ -856,9 +833,8 @@ def today_discovery_variants(
             )
             interpretation = (
                 f"That cluster gives the priest work to test, not a sermon to announce. {count_phrase(approved_for_queue, 'new item')} "
-                "may be ready for the review queue, while the public-final gate has released "
-                f"{count_phrase(public_final_count, 'claim')}, with {count_phrase(reviewed_ready_count, 'reviewed-evidence-ready source')} still "
-                "requiring public-use judgment."
+                f"is routed to the review queue. Optional `public_final_ready` metadata appears on {count_phrase(public_final_count, 'source')}; "
+                f"{count_phrase(reviewed_ready_count, 'source')} currently carries reviewed-evidence-ready metadata."
             )
         else:
             lead = "The latest discovery data available to today's report does not record a new candidate reference count."
@@ -866,10 +842,11 @@ def today_discovery_variants(
                 "The discovery is therefore a boundary rather than an addition: the study, chapel, altar, and pulpit "
                 "must receive silence as part of theological discipline when the evidence ledger gives no new public claim."
             )
-        if holding_public_claim:
+        if no_polished_publication_metadata:
             conclusion = (
-                "That absence is meaningful: the report found something to withhold. A priestly reading should treat "
-                "that restraint as doctrine serving charity, not as a failure of imagination."
+                "No findings currently meet the optional polished-publication metadata state. Research findings remain "
+                "visible below with their current strength and limitations; `public_final_ready` does not determine "
+                "research visibility or theological authority."
             )
         else:
             conclusion = (
@@ -886,8 +863,7 @@ def today_discovery_variants(
             interpretation = (
                 f"That is a mercy-shaped warning rather than a comfort to distribute. {count_phrase(approved_for_queue, 'new item')} "
                 f"may be ready for the review queue, {media} appears in the media mix, "
-                "and the public-final gate has released "
-                f"{count_phrase(public_final_count, 'claim')}."
+                f"and optional `public_final_ready` metadata appears on {count_phrase(public_final_count, 'source')}."
             )
         else:
             lead = "The latest discovery data available to today's report does not record a new candidate reference count."
@@ -895,10 +871,11 @@ def today_discovery_variants(
                 "The discovery is therefore a form of care: when the ledger gives no new public claim, mercy must not "
                 "pretend to possess comfort that truth has not yet given."
             )
-        if holding_public_claim:
+        if no_polished_publication_metadata:
             conclusion = (
-                "For the parish road, that absence is itself a finding. A deaconess may encourage patience, truthful speech, and "
-                "service, while refusing to carry an unready claim into wounded hearts as certainty."
+                "No findings currently meet the optional polished-publication metadata state. Research findings remain "
+                "visible below with their current strength and limitations; `public_final_ready` does not determine "
+                "research visibility or theological authority."
             )
         else:
             conclusion = (
@@ -959,7 +936,12 @@ def yesterday_change_variants(
         )
         pattern_line = ""
         if prior_pattern and current_pattern:
-            if prior_pattern == current_pattern:
+            if prior_pattern == "Waiting For A Public-Final Claim":
+                pattern_line = (
+                    "The prior snapshot used a retired visibility placeholder; today's named pattern is "
+                    f"**{current_pattern}**."
+                )
+            elif prior_pattern == current_pattern:
                 pattern_line = f"The named pattern did not change: it remains **{current_pattern}**."
             else:
                 pattern_line = f"The named pattern changed from **{prior_pattern}** to **{current_pattern}**."
@@ -1277,15 +1259,246 @@ def current_candidate_pattern(
     return result
 
 
-def current_public_final_pattern(index: dict, generated_at: datetime | None = None) -> dict:
-    pattern = current_candidate_pattern(index, generated_at, confidence_tier="public_final_ready")
-    if pattern.get("name") == DEFAULT_CANDIDATE_PATTERN["name"]:
-        return dict(PUBLIC_FINAL_HOLDING_PATTERN)
-    pattern["basis"] = (
-        pattern["basis"]
-        + " This pattern entered the final report because at least one indexed source is `public_final_ready`."
+RESEARCH_STATE_LABELS = {
+    "strongly_supported_candidate": "Strongly Supported Candidate",
+    "supported_with_qualifications": "Supported with Qualifications",
+    "weak_candidate": "Weak Candidate",
+    "conflicting_evidence": "Conflicting Evidence",
+    "insufficient_evidence": "Insufficient Evidence",
+    "pattern_not_supported": "Pattern Not Supported",
+    "unresolved_research_question": "Unresolved Research Question",
+}
+
+
+def list_value(value) -> list[str]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if isinstance(value, str) and value.strip():
+        return [value.strip()]
+    return []
+
+
+def normalize_research_state(value: str) -> str:
+    normalized = str(value or "").strip().lower().replace("-", "_").replace(" ", "_")
+    aliases = {
+        "public_final_ready": "strongly_supported_candidate",
+        "reviewed_evidence_ready": "supported_with_qualifications",
+        "developing_evidence": "supported_with_qualifications",
+        "candidate_lead": "weak_candidate",
+        "analogy_only": "weak_candidate",
+        "do_not_strengthen_claim": "pattern_not_supported",
+        "research_question_only": "unresolved_research_question",
+    }
+    normalized = aliases.get(normalized, normalized)
+    return normalized if normalized in RESEARCH_STATE_LABELS else ""
+
+
+def classify_research_finding(finding: dict) -> str:
+    explicit = normalize_research_state(
+        finding.get("research_strength_status")
+        or finding.get("finding_status")
+        or finding.get("research_strength")
     )
-    return pattern
+    if explicit:
+        return explicit
+
+    supporting = list_value(finding.get("supporting_evidence"))
+    opposing = list_value(finding.get("counterevidence"))
+    tensions = list_value(finding.get("unresolved_tensions"))
+    if finding.get("tested_not_supported"):
+        return "pattern_not_supported"
+    if supporting and opposing:
+        return "conflicting_evidence"
+    if finding.get("insufficient_evidence") or not supporting:
+        return "insufficient_evidence"
+    tier = normalize_research_state(finding.get("confidence_tier", ""))
+    if tier:
+        return tier
+    if tensions:
+        return "unresolved_research_question"
+    return "weak_candidate"
+
+
+def normalize_research_finding(finding: dict) -> tuple[dict | None, str]:
+    if not isinstance(finding, dict):
+        return None, "Malformed research record."
+    if finding.get("private_or_sensitive"):
+        return None, "Private or sensitive research record withheld."
+    if finding.get("unsafe_to_render"):
+        return None, str(finding.get("withhold_reason") or "Record cannot be rendered safely.")
+
+    candidate = str(
+        finding.get("candidate_pattern") or finding.get("name") or finding.get("title") or ""
+    ).strip()
+    provenance = list_value(finding.get("provenance")) or list_value(finding.get("source_paths"))
+    if not candidate:
+        return None, "Malformed research record without a candidate pattern."
+    if not provenance:
+        return None, f"Untraceable research record withheld: {candidate}."
+
+    normalized = dict(finding)
+    normalized["candidate_pattern"] = candidate
+    normalized["provenance"] = provenance
+    normalized["research_state"] = classify_research_finding(normalized)
+    normalized["research_state_label"] = RESEARCH_STATE_LABELS[normalized["research_state"]]
+    normalized["plain_language_description"] = str(
+        normalized.get("plain_language_description")
+        or normalized.get("plain")
+        or "A coherent candidate is present, but a plain-language description is unavailable."
+    ).strip()
+    normalized["research_question"] = str(
+        normalized.get("research_question")
+        or normalized.get("evaluation_question")
+        or "The research question has not yet been recorded."
+    ).strip()
+    normalized["status_rationale"] = str(
+        normalized.get("status_rationale")
+        or normalized.get("rationale")
+        or "The status reflects the currently traceable evidence, counterevidence, and unresolved gaps."
+    ).strip()
+    normalized["supporting_evidence"] = list_value(normalized.get("supporting_evidence"))
+    normalized["counterevidence"] = list_value(normalized.get("counterevidence"))
+    normalized["rival_explanations"] = list_value(normalized.get("rival_explanations"))
+    normalized["known_limitations"] = list_value(normalized.get("known_limitations"))
+    normalized["failure_conditions"] = list_value(normalized.get("failure_conditions"))
+    normalized["unresolved_tensions"] = list_value(normalized.get("unresolved_tensions"))
+    normalized["does_not_prove"] = list_value(normalized.get("does_not_prove"))
+    normalized["provenance_status"] = str(
+        normalized.get("provenance_status") or "traceable_with_current_metadata"
+    ).strip()
+    normalized["divine_core_interpretation_status"] = str(
+        normalized.get("divine_core_interpretation_status") or "interpretation_not_evaluated"
+    ).strip()
+    normalized["public_final_ready"] = bool(normalized.get("public_final_ready", False))
+    return normalized, ""
+
+
+def aggregate_index_findings(index: dict) -> list[dict]:
+    explicit = index.get("research_findings")
+    if isinstance(explicit, list):
+        return explicit
+
+    findings = []
+    documents = index.get("documents", []) if isinstance(index, dict) else []
+    for pattern_name in TOP_PATTERN_NAMES:
+        related = [document for document in documents if pattern_name in document.get("patterns", [])]
+        if not related:
+            continue
+        profile = PATTERN_PROFILES[pattern_name]
+        tiers = [str(document.get("confidence_tier") or "candidate_lead") for document in related]
+        paths = [str(document.get("path") or "").strip() for document in related if document.get("path")]
+        blockers = sorted(
+            {
+                str(blocker)
+                for document in related
+                for blocker in document.get("promotion_blockers", [])
+                if blocker
+            }
+        )
+        public_final_ready = "public_final_ready" in tiers
+        if public_final_ready:
+            tier = "public_final_ready"
+        elif "reviewed_evidence_ready" in tiers:
+            tier = "reviewed_evidence_ready"
+        elif "developing_evidence" in tiers:
+            tier = "developing_evidence"
+        else:
+            tier = "candidate_lead"
+        findings.append(
+            {
+                "candidate_pattern": pattern_name,
+                "plain_language_description": profile["common"],
+                "research_question": profile["evaluation_question"],
+                "confidence_tier": tier,
+                "status_rationale": (
+                    f"{len(related)} traceable indexed document(s) currently contribute to this candidate. "
+                    f"The strongest existing research tier is `{tier}`."
+                ),
+                "supporting_evidence": [
+                    f"{document.get('title') or document.get('path')} ({document.get('confidence_tier', 'candidate_lead')})"
+                    for document in related[:5]
+                ],
+                "counterevidence": [],
+                "rival_explanations": [profile.get("hard_objection", "")],
+                "known_limitations": blockers[:6],
+                "failure_conditions": [profile.get("weakens_if", "")],
+                "unresolved_tensions": blockers[:3],
+                "provenance": paths,
+                "provenance_status": "traceable_index_paths",
+                "divine_core_interpretation_status": "interpretation_not_evaluated",
+                "does_not_prove": [profile.get("interesting_not_true", "")],
+                "public_final_ready": public_final_ready,
+            }
+        )
+    return findings
+
+
+def research_finding_lines(finding: dict) -> list[str]:
+    def field_lines(label: str, values: list[str], missing: str) -> list[str]:
+        rendered = values or [missing]
+        return [f"- **{label}:**"] + [f"  - {value}" for value in rendered]
+
+    presentation = "additional polished-publication checks complete" if finding["public_final_ready"] else "additional polished-publication checks incomplete"
+    lines = [
+        f"### {finding['research_state_label']}: {finding['candidate_pattern']}",
+        "",
+        f"- **Plain-language description:** {finding['plain_language_description']}",
+        f"- **Research question:** {finding['research_question']}",
+        f"- **Research-strength status:** {finding['research_state_label']}",
+        f"- **Status rationale:** {finding['status_rationale']}",
+    ]
+    lines.extend(field_lines("Supporting evidence", finding["supporting_evidence"], "Incomplete or unavailable."))
+    lines.extend(field_lines("Counterevidence", finding["counterevidence"], "None recorded; absence is not proof that none exists."))
+    lines.extend(field_lines("Rival explanations", finding["rival_explanations"], "Incomplete or unavailable."))
+    lines.extend(field_lines("Known limitations", finding["known_limitations"], "No limitations have been recorded yet."))
+    lines.extend(field_lines("Failure conditions", finding["failure_conditions"], "Failure conditions remain incomplete."))
+    lines.extend(field_lines("Unresolved tensions", finding["unresolved_tensions"], "No unresolved tensions recorded."))
+    lines.extend(field_lines("Provenance", finding["provenance"], "Unavailable."))
+    lines.extend(
+        [
+            f"- **Provenance status:** `{finding['provenance_status']}`",
+            f"- **Divine Core theological interpretation:** `{finding['divine_core_interpretation_status']}`",
+        ]
+    )
+    lines.extend(field_lines("What this finding does not prove", finding["does_not_prove"], "A non-proof boundary has not yet been recorded."))
+    lines.extend(
+        [
+            "- **Presentation metadata:**",
+            f"  - `public_final_ready`: `{str(finding['public_final_ready']).lower()}` ({presentation})",
+            "  - This metadata does not determine visibility, research strength, truth, or theological approval.",
+            "",
+        ]
+    )
+    return lines
+
+
+def complete_research_state_lines(index: dict) -> list[str]:
+    visible = []
+    withheld = []
+    for raw in aggregate_index_findings(index):
+        finding, reason = normalize_research_finding(raw)
+        if finding:
+            visible.append(finding)
+        else:
+            withheld.append(reason)
+
+    lines = [
+        "## Complete Research State",
+        "",
+        "Every coherent, traceable candidate is shown here regardless of `public_final_ready`. Research strength controls the label and wording; public visibility does not imply theological approval.",
+        "",
+    ]
+    if not visible:
+        lines.extend(["No coherent, traceable candidate findings are currently available.", ""])
+    for finding in visible:
+        lines.extend(research_finding_lines(finding))
+    if withheld:
+        lines.extend(["### Safely Withheld Records", ""])
+        lines.extend(f"- {reason}" for reason in withheld)
+        lines.append("")
+    return lines
 
 
 def daily_focus_lines(candidate_pattern: dict, include_selection_note: bool = True) -> list[str]:
@@ -2463,7 +2676,7 @@ def build_short_article(generated_at: datetime | None = None) -> str:
     reference_catalog = read_json(REFERENCES_PATH)
     knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
     review_audit = read_json(REVIEW_AUDIT_PATH)
-    candidate_pattern = current_public_final_pattern(knowledge_index, generated_at)
+    candidate_pattern = current_candidate_pattern(knowledge_index, generated_at)
     freshness = digest_freshness(digest, generated_at)
     daily_image = generate_daily_pattern_image(candidate_pattern, digest, review_audit, generated_at)
     findings_text = read(Path("reports/divine_pattern_findings.md"))
@@ -2711,6 +2924,8 @@ def build_short_article(generated_at: datetime | None = None) -> str:
         "prayer",
         collect_variants,
     )
+
+    diary_lines.extend(complete_research_state_lines(knowledge_index))
 
     diary_lines.extend(
         [
