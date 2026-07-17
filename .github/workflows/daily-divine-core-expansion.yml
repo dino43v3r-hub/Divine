@@ -60,9 +60,9 @@ jobs:
             --title "Daily Divine Core source expansion" \
             --body "One structured reasoning draft was created.
 
-No quotations or copyrighted text are included.
+          No quotations or copyrighted text are included.
 
-Review is required before merging." \
+          Review is required before merging." \
             --base main \
             --head "$branch"
 
