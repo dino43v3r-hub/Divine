@@ -30,9 +30,9 @@ In that room, the pattern is asking me to notice this: God gives ordered creatio
 
 ## Today’s Discovery
 
-The freshest thing in the available discovery record is not a new certainty for the parish road, but a new cluster needing care: 31 candidate references, led by Crossref (21), with the strongest routed lane showing as human_stories (13). This must be read cautiously, since the collector snapshot is current for this UTC day.
+The freshest thing in the available discovery record is not a new certainty for the parish road, but a new cluster needing care: 31 candidate references, led by Crossref (17), with the strongest routed lane showing as human_stories (13). This must be read cautiously, since the collector snapshot is current for this UTC day.
 
-That is a mercy-shaped warning rather than a comfort to distribute. 24 new items may be ready for the review queue, podcast (2) appears in the media mix, and optional `public_final_ready` metadata appears on 0 sources.
+That is a mercy-shaped warning rather than a comfort to distribute. 26 new items may be ready for the review queue, podcast (1) appears in the media mix, and optional `public_final_ready` metadata appears on 0 sources.
 
 No findings currently meet the optional polished-publication metadata state. Research findings remain visible below with their current strength and limitations; `public_final_ready` does not determine research visibility or theological authority.
 
@@ -46,7 +46,7 @@ The deaconess reading should carry those changes onto the parish road carefully:
 
 ## The Theologian Beside The Prayer Book
 
-The theologian section behind this entry draws on 180 analyzed theologian documents and gives special weight today to Christology, Theodicy and Suffering, Trinity.
+The theologian section behind this entry draws on 185 analyzed theologian documents and gives special weight today to Christology, Theodicy and Suffering, Trinity.
 
 Today's theologian is **Karl Barth**, chosen from the rotating theologian voices gathered for this project. I would let Karl Barth stand beside the Prayer Book and the deaconess voice today because of God's self-revelation in Jesus Christ. Barth would ask whether the pattern begins with God's revelation in Christ or whether it tries to climb up to God from human observation.
 
@@ -322,6 +322,6 @@ Every coherent, traceable candidate is shown here regardless of `public_final_re
 
 ## Quiet Notes For The Reader
 
-This entry was generated at 2026-07-17 05:37 UTC. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.
+This entry was generated at 2026-07-17 15:12 UTC. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.
 
-Input freshness: 2026-07-16 15:32 UTC. Collector snapshot is current for this UTC day.
+Input freshness: 2026-07-17 15:11 UTC. Collector snapshot is current for this UTC day.
