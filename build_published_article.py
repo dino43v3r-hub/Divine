@@ -1501,6 +1501,52 @@ def complete_research_state_lines(index: dict) -> list[str]:
     return lines
 
 
+def selected_pattern_interpretation_status(index: dict, candidate_pattern: dict) -> str:
+    candidate_name = str(candidate_pattern.get("name") or "").strip()
+    for raw in aggregate_index_findings(index):
+        finding, _ = normalize_research_finding(raw)
+        if finding and finding["candidate_pattern"] == candidate_name:
+            return finding["divine_core_interpretation_status"]
+    return "interpretation_not_evaluated"
+
+
+def unevaluated_interpretation_report(
+    candidate_pattern: dict,
+    knowledge_index: dict,
+    generated_at: datetime,
+) -> str:
+    lines = [
+        f"# Research Report: {candidate_pattern.get('name', 'Current Pattern')}",
+        "",
+        f"_Generated: {generated_at.strftime('%Y-%m-%d %H:%M UTC')}_",
+        "",
+        "## Interpretation Boundary",
+        "",
+        "Divine Core theological evaluation has not yet occurred. This report therefore presents the complete research state without originating theological conclusions, pastoral prescriptions, devotional applications, rules of life, worship directives, or prayer.",
+        "",
+        "## Selected Research Pattern",
+        "",
+        f"- **Pattern name:** {candidate_pattern.get('name', 'Current Pattern')}",
+        f"- **Research question:** {candidate_pattern.get('evaluation_question', 'The research question has not yet been recorded.')}",
+        f"- **Selection rationale:** {candidate_pattern.get('basis', 'The current research index selected this pattern for examination.')}",
+        "",
+    ]
+    findings = []
+    for raw in aggregate_index_findings(knowledge_index):
+        finding, _ = normalize_research_finding(raw)
+        if finding:
+            findings.append(finding)
+    if not any(finding["public_final_ready"] for finding in findings):
+        lines.extend(
+            [
+                "No findings currently meet the optional polished-publication metadata state. Research findings remain visible below with their current strength and limitations; `public_final_ready` does not determine research visibility or theological authority.",
+                "",
+            ]
+        )
+    lines.extend(complete_research_state_lines(knowledge_index))
+    return "\n".join(lines) + "\n"
+
+
 def daily_focus_lines(candidate_pattern: dict, include_selection_note: bool = True) -> list[str]:
     lines = [
         f"**Current candidate divine pattern:** {candidate_pattern['candidate']}",
@@ -2677,6 +2723,16 @@ def build_short_article(generated_at: datetime | None = None) -> str:
     knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
     review_audit = read_json(REVIEW_AUDIT_PATH)
     candidate_pattern = current_candidate_pattern(knowledge_index, generated_at)
+    interpretation_status = selected_pattern_interpretation_status(
+        knowledge_index,
+        candidate_pattern,
+    )
+    if interpretation_status == "interpretation_not_evaluated":
+        return unevaluated_interpretation_report(
+            candidate_pattern,
+            knowledge_index,
+            generated_at,
+        )
     freshness = digest_freshness(digest, generated_at)
     daily_image = generate_daily_pattern_image(candidate_pattern, digest, review_audit, generated_at)
     findings_text = read(Path("reports/divine_pattern_findings.md"))

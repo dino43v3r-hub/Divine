@@ -3,7 +3,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
 
-from build_published_article import build_short_article, complete_research_state_lines
+from build_published_article import (
+    PATTERN_PROFILES,
+    build_short_article,
+    complete_research_state_lines,
+)
 
 
 def finding(status, **overrides):
@@ -44,6 +48,59 @@ class ReportingReformTests(unittest.TestCase):
         self.assertNotIn("the report found something to withhold", output)
         self.assertIn("No findings currently meet the optional polished-publication metadata state", output)
         self.assertIn("does not determine research visibility or theological authority", output)
+
+    def test_unevaluated_interpretation_suppresses_affirmative_theology(self):
+        output = build_short_article(datetime(2026, 7, 17, tzinfo=timezone.utc))
+        self.assertIn("Divine Core theological evaluation has not yet occurred", output)
+        self.assertNotIn(
+            "God gives ordered creation, life, consciousness, and moral awareness as gifts",
+            output,
+        )
+        self.assertNotIn("## The Theologian Beside The Prayer Book", output)
+
+    def test_unevaluated_interpretation_suppresses_pastoral_prescriptions(self):
+        output = build_short_article(datetime(2026, 7, 17, tzinfo=timezone.utc))
+        self.assertNotIn("the faithful response is", output.lower())
+        self.assertNotIn("## The 1928 Prayer Book Test", output)
+        self.assertNotIn("## Today’s Rule Of Life", output)
+
+    def test_unevaluated_interpretation_suppresses_rules_and_collects(self):
+        output = build_short_article(datetime(2026, 7, 17, tzinfo=timezone.utc))
+        self.assertNotIn("## Today's Rule Of Life", output)
+        self.assertNotIn("## Collect", output)
+        self.assertNotIn("O Lord,", output)
+
+    def test_unevaluated_interpretation_preserves_complete_research_visibility(self):
+        output = build_short_article(datetime(2026, 7, 17, tzinfo=timezone.utc))
+        self.assertIn("## Complete Research State", output)
+        self.assertIn("Supported with Qualifications: Image Of God Pattern", output)
+        self.assertIn("Supported with Qualifications: Creation-To-Consciousness Pattern", output)
+        self.assertIn("**Supporting evidence:**", output)
+        self.assertIn("**Known limitations:**", output)
+        self.assertIn("**Failure conditions:**", output)
+        self.assertIn("**Provenance:**", output)
+        self.assertIn(
+            "**Divine Core theological interpretation:** `interpretation_not_evaluated`",
+            output,
+        )
+
+    def test_application_template_cannot_originate_unevaluated_doctrine(self):
+        marker = "APPLICATION TEMPLATE ORIGINATED DOCTRINE"
+        profile = PATTERN_PROFILES["Creation-To-Consciousness Pattern"]
+        with patch.dict(profile, {"candidate": marker}):
+            output = build_short_article(datetime(2026, 7, 17, tzinfo=timezone.utc))
+        self.assertNotIn(marker, output)
+
+    def test_divine_core_has_no_book_report_dependency(self):
+        divine_core = Path("divineCore")
+        forbidden = ("build_published_article", "reports/published/final_book_report")
+        matches = []
+        for path in divine_core.rglob("*"):
+            if path.is_file():
+                text = path.read_text(encoding="utf-8", errors="ignore").lower()
+                if any(term in text for term in forbidden):
+                    matches.append(path.as_posix())
+        self.assertEqual([], matches)
 
     def test_strong_finding_is_visible_with_support(self):
         output = render(finding("strongly_supported_candidate"))
