@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
   "profileType": "source-profile",
-  "name": "On the Incarnation",
-  "author": "Athanasius",
+  "name": "Against Heresies",
+  "author": "Irenaeus",
   "category": "patristic-theology",
   "profileMaturity": "scaffold",
   "sourceObservations": [],
@@ -29,8 +29,8 @@
     "possibleConflicts": []
   },
   "provenanceAndReview": {
-    "workTitle": "On the Incarnation",
-    "author": "Athanasius",
+    "workTitle": "Against Heresies",
+    "author": "Irenaeus",
     "scope": "",
     "edition": "",
     "translator": "",
