@@ -242,13 +242,4 @@ Every coherent, traceable candidate is shown here regardless of `public_final_re
 
 ## Recent Reading Traceability
 
-### Reflections on the human role in AI policy formulations: how do national AI strategies view people?
-
-- **Source identity:** `https://doi.org/10.1007/s44163-022-00019-3`
-- **URL or stable identifier:** https://doi.org/10.1007/s44163-022-00019-3
-- **Candidate pattern relationship:** Develops the pattern
-- **Selection rationale:** Directly examines how national AI strategies describe the human role, a policy setting where accounts of human dignity have practical consequences.
-- **Evidence state:** `strong_scholarly_candidate`; confidence effect `none_until_human_review`
-- **Review state:** `auto_approved_for_review_queue`; approval scope `routing_and_queue_only_not_claim_confidence`
-- **Known qualification:** Policy analysis can reveal practical assumptions about people but cannot establish a doctrine of human nature.
-- **Local traceability:** `https://doi.org/10.1007/s44163-022-00019-3` in `references/daily_research_digest.json`
+No recent sources met the public traceability and direct-relevance requirements.

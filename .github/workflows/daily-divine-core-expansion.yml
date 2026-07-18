@@ -48,7 +48,7 @@ jobs:
       - name: Create branch and commit draft
         if: steps.changes.outputs.has_changes == 'true'
         run: |
-          BRANCH="daily-divine-core-expansion-${GITHUB_RUN_ID}"
+          BRANCH="daily-divine-core-expansion-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
@@ -63,6 +63,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh pr create \
+            --draft \
             --title "Daily Divine Core source expansion" \
             --body "One structured reasoning draft was created.
 

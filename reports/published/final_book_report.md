@@ -1,6 +1,6 @@
 # Research Report: Image Of God Pattern
 
-_Generated: 2026-07-18 15:41 UTC_
+_Generated: 2026-07-18 16:09 UTC_
 
 ## Interpretation Boundary
 
@@ -24,8 +24,4 @@ Recurring evidence, scientific findings, historical observations, and practical 
 
 These sources approach the question from different directions. They may develop, qualify, or challenge the inquiry, but none of them independently proves the pattern or constitutes Divine Core approval.
 
-### [Reflections on the human role in AI policy formulations: how do national AI strategies view people?](https://doi.org/10.1007/s44163-022-00019-3)
-
-_Henrikki Salo-Pöntinen, Pertti Saariluoma · OpenAlex abstract metadata available. · 2022_
-
-**Develops the pattern.** This article examines how national artificial-intelligence strategies understand the place of human beings. It gives the dignity inquiry a concrete public-policy setting, while also warning that policy language about people is not itself a theological account of the image of God.
+No recently discovered source is both sufficiently traceable and directly relevant to this pattern. The report does not add weak matches merely to fill the list.
