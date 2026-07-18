@@ -19,8 +19,8 @@
       "name": "Confessions",
       "author": "Augustine",
       "category": "spiritual-theology",
-      "drafted": false,
-      "draftFile": ""
+      "drafted": true,
+      "draftFile": "divineCore/drafts/augustine-confessions.json"
     },
     {
       "name": "City of God",
