@@ -8,6 +8,7 @@ import re
 
 
 OUTPUT_PATH = Path("reports/published/final_book_report.md")
+APPENDIX_OUTPUT_PATH = Path("reports/published/final_book_report_research_appendix.md")
 SNAPSHOT_PATH_TEMPLATE = "report_snapshot_{date}.json"
 DAILY_IMAGE_ALIAS_PATH = Path("reports/published/daily_pattern_image.svg")
 REFERENCES_PATH = Path("references/references.json")
@@ -60,6 +61,37 @@ TOP_PATTERN_NAMES = [
     "Trinity-As-Behavior Pattern",
     "Providence And Contingency Pattern",
 ]
+
+RECENT_SOURCE_PRESENTATION = {
+    "Image Of God Pattern": {
+        "https://doi.org/10.1007/s44163-022-00019-3": {
+            "relationship": "Develops the pattern",
+            "selection_reason": "Directly examines how national AI strategies describe the human role, a policy setting where accounts of human dignity have practical consequences.",
+            "explanation": "This article examines how national artificial-intelligence strategies understand the place of human beings. It gives the dignity inquiry a concrete public-policy setting, while also warning that policy language about people is not itself a theological account of the image of God.",
+            "qualification": "Policy analysis can reveal practical assumptions about people but cannot establish a doctrine of human nature.",
+        },
+    },
+    "Creation-To-Consciousness Pattern": {
+        "10.3389/fnins.2019.00466": {
+            "relationship": "Qualifies the pattern",
+            "selection_reason": "Directly examines conscious musical perception in people with cochlear implants, keeping embodiment and disability inside the inquiry.",
+            "explanation": "This study examines harmony perception among young cochlear-implant users. It matters here because any account of consciousness must attend to embodied differences rather than treating one kind of perception as the human norm; it narrows the reflection rather than proving a theological claim.",
+            "qualification": "A study of musical perception cannot establish a general theory of consciousness or a theological conclusion.",
+        },
+        "10.1038/s41467-020-16448-6": {
+            "relationship": "Develops the pattern",
+            "selection_reason": "Compares musical-interval perception across cultures and bears directly on shared and learned features of conscious experience.",
+            "explanation": "This study compares how native Amazonian listeners perceive combinations of musical notes. It helps the inquiry distinguish features of perception that may be widely shared from those shaped by culture, but that distinction does not turn a psychological finding into evidence of divine action.",
+            "qualification": "Cross-cultural findings about musical intervals do not by themselves explain consciousness as a whole.",
+        },
+        "10.1371/journal.pone.0294645": {
+            "relationship": "Rival explanation",
+            "selection_reason": "Tests cultural influence on conscious appraisal and therefore supplies a natural, learned explanation that the pattern must take seriously.",
+            "explanation": "This study reports that culture influences conscious judgments of acoustically rough intervals even where automatic aversion may differ less. It offers a needed rival explanation: some apparent order in conscious response may arise through culture and learning, so theological interpretation must not outrun the evidence.",
+            "qualification": "The result concerns a bounded perceptual task and should not be generalized beyond its source domain.",
+        },
+    }
+}
 
 PATTERN_PROFILES = {
     "Image Of God Pattern": {
@@ -833,8 +865,8 @@ def today_discovery_variants(
             )
             interpretation = (
                 f"That cluster gives the priest work to test, not a sermon to announce. {count_phrase(approved_for_queue, 'new item')} "
-                f"is routed to the review queue. Optional `public_final_ready` metadata appears on {count_phrase(public_final_count, 'source')}; "
-                f"{count_phrase(reviewed_ready_count, 'source')} currently carries reviewed-evidence-ready metadata."
+                f"is routed to the review queue. {count_phrase(public_final_count, 'source')} has completed the additional publication checks, "
+                f"while {count_phrase(reviewed_ready_count, 'source')} is structured enough for careful human confidence review."
             )
         else:
             lead = "The latest discovery data available to today's report does not record a new candidate reference count."
@@ -844,9 +876,8 @@ def today_discovery_variants(
             )
         if no_polished_publication_metadata:
             conclusion = (
-                "No findings currently meet the optional polished-publication metadata state. Research findings remain "
-                "visible below with their current strength and limitations; `public_final_ready` does not determine "
-                "research visibility or theological authority."
+                "No finding has completed the additional publication checks. The research remains available with its "
+                "current strength and limitations, but publication readiness does not determine truth or theological authority."
             )
         else:
             conclusion = (
@@ -863,7 +894,7 @@ def today_discovery_variants(
             interpretation = (
                 f"That is a mercy-shaped warning rather than a comfort to distribute. {count_phrase(approved_for_queue, 'new item')} "
                 f"may be ready for the review queue, {media} appears in the media mix, "
-                f"and optional `public_final_ready` metadata appears on {count_phrase(public_final_count, 'source')}."
+                f"and {count_phrase(public_final_count, 'source')} has completed the additional publication checks."
             )
         else:
             lead = "The latest discovery data available to today's report does not record a new candidate reference count."
@@ -873,9 +904,8 @@ def today_discovery_variants(
             )
         if no_polished_publication_metadata:
             conclusion = (
-                "No findings currently meet the optional polished-publication metadata state. Research findings remain "
-                "visible below with their current strength and limitations; `public_final_ready` does not determine "
-                "research visibility or theological authority."
+                "No finding has completed the additional publication checks. The research remains available with its "
+                "current strength and limitations, but publication readiness does not determine truth or theological authority."
             )
         else:
             conclusion = (
@@ -1501,6 +1531,138 @@ def complete_research_state_lines(index: dict) -> list[str]:
     return lines
 
 
+def selected_research_finding(index: dict, candidate_pattern: dict) -> dict | None:
+    candidate_name = str(candidate_pattern.get("name") or "").strip()
+    for raw in aggregate_index_findings(index):
+        finding, _ = normalize_research_finding(raw)
+        if finding and finding["candidate_pattern"] == candidate_name:
+            return finding
+    return None
+
+
+def recent_sources_for_pattern(
+    candidate_pattern: dict,
+    digest: dict,
+    limit: int = 5,
+) -> list[dict]:
+    """Return explicitly curated, traceable sources; never infer relevance from keywords."""
+    pattern_name = str(candidate_pattern.get("name") or "").strip()
+    presentation = RECENT_SOURCE_PRESENTATION.get(pattern_name, {})
+    selected = []
+    for source in digest.get("new_sources", []):
+        source_id = str(source.get("id") or "").strip()
+        public = presentation.get(source_id)
+        if not public:
+            continue
+        if not source.get("title") or not source.get("url") or not source_id:
+            continue
+        selected.append({**source, **public})
+        if len(selected) >= min(max(limit, 0), 5):
+            break
+    return selected
+
+
+def recent_reading_lines(sources: list[dict]) -> list[str]:
+    lines = [
+        "## Recent Reading Behind This Pattern",
+        "",
+        "These sources approach the question from different directions. They may develop, qualify, or challenge the inquiry, but none of them independently proves the pattern or constitutes Divine Core approval.",
+        "",
+    ]
+    if not sources:
+        lines.extend(
+            [
+                "No recently discovered source is both sufficiently traceable and directly relevant to this pattern. The report does not add weak matches merely to fill the list.",
+                "",
+            ]
+        )
+        return lines
+    for source in sources:
+        authors = ", ".join(source.get("authors") or [])
+        publication = str(source.get("summary") or source.get("provider") or "").strip()
+        date_text = str(source.get("year") or "").strip()
+        if not date_text and source.get("date_accessed"):
+            date_text = f"discovered {source['date_accessed']} (publication date unavailable)"
+        details = [detail for detail in (authors, publication, date_text) if detail]
+        lines.extend(
+            [
+                f"### [{source['title']}]({source['url']})",
+                "",
+                f"_{' · '.join(details)}_" if details else "",
+                "",
+                f"**{source['relationship']}.** {source['explanation']}",
+                "",
+            ]
+        )
+    return lines
+
+
+def public_research_summary_lines(index: dict, candidate_pattern: dict) -> list[str]:
+    finding = selected_research_finding(index, candidate_pattern)
+    pattern_name = candidate_pattern.get("name", "The featured pattern")
+    if not finding:
+        return [
+            "## Research Behind This Reflection",
+            "",
+            f"{pattern_name} remains under evaluation, and no sufficiently traceable research summary is available for a stronger public statement. It is not proof of divine action or a settled theological judgment. [The full research record is available in the technical appendix](final_book_report_research_appendix.md).",
+            "",
+        ]
+    meaningful = (
+        f"{len(finding['provenance'])} traceable research documents contribute to the question"
+        if finding["provenance"]
+        else "the available record contains a coherent, traceable line of inquiry"
+    )
+    limitation = (
+        finding["failure_conditions"][0]
+        if finding["failure_conditions"]
+        else (finding["known_limitations"][0] if finding["known_limitations"] else "Important limitations remain unresolved.")
+    )
+    return [
+        "## Research Behind This Reflection",
+        "",
+        f"{pattern_name} remains under evaluation. The present research conclusion is **{finding['research_state_label'].lower()}**: the evidence is meaningful enough to continue examining, but it still requires important qualifications.",
+        "",
+        f"The inquiry has substance because {meaningful}. Its clearest failure condition is equally important: {limitation}",
+        "",
+        "Recurring evidence, scientific findings, historical observations, and practical usefulness do not mechanically prove divine action or theological truth. This reflection is therefore neither proof nor a settled theological judgment. [The complete evidence, limitations, provenance, and evaluation record is available in the technical appendix](final_book_report_research_appendix.md).",
+        "",
+    ]
+
+
+def research_appendix_lines(
+    index: dict,
+    candidate_pattern: dict,
+    sources: list[dict],
+) -> list[str]:
+    lines = [
+        "# Final Book Report Research Appendix",
+        "",
+        "This is the audit and research record behind the [public Book Report article](final_book_report.md). Inclusion here does not imply theological approval: research visibility is not the same as truth, presentation readiness is not the same as research strength, and Divine Core interpretation status remains explicit.",
+        "",
+    ]
+    lines.extend(complete_research_state_lines(index))
+    lines.extend(["## Recent Reading Traceability", ""])
+    if not sources:
+        lines.extend(["No recent sources met the public traceability and direct-relevance requirements.", ""])
+    for source in sources:
+        lines.extend(
+            [
+                f"### {source['title']}",
+                "",
+                f"- **Source identity:** `{source.get('id', '')}`",
+                f"- **URL or stable identifier:** {source['url']}",
+                f"- **Candidate pattern relationship:** {source['relationship']}",
+                f"- **Selection rationale:** {source['selection_reason']}",
+                f"- **Evidence state:** `{source.get('automated_evidence_label', '')}`; confidence effect `{source.get('confidence_effect', '')}`",
+                f"- **Review state:** `{source.get('review_status', '')}`; approval scope `{source.get('auto_review_approval_scope', '')}`",
+                f"- **Known qualification:** {source['qualification']}",
+                f"- **Local traceability:** `{source.get('id', '')}` in `{DAILY_DIGEST_PATH.as_posix()}`",
+                "",
+            ]
+        )
+    return lines
+
+
 def selected_pattern_interpretation_status(index: dict, candidate_pattern: dict) -> str:
     candidate_name = str(candidate_pattern.get("name") or "").strip()
     for raw in aggregate_index_findings(index):
@@ -1513,6 +1675,7 @@ def selected_pattern_interpretation_status(index: dict, candidate_pattern: dict)
 def unevaluated_interpretation_report(
     candidate_pattern: dict,
     knowledge_index: dict,
+    digest: dict,
     generated_at: datetime,
 ) -> str:
     lines = [
@@ -1522,7 +1685,7 @@ def unevaluated_interpretation_report(
         "",
         "## Interpretation Boundary",
         "",
-        "Divine Core theological evaluation has not yet occurred. This report therefore presents the complete research state without originating theological conclusions, pastoral prescriptions, devotional applications, rules of life, worship directives, or prayer.",
+        "Divine Core theological evaluation has not yet occurred. This report therefore presents the research boundary without originating theological conclusions, pastoral prescriptions, devotional applications, rules of life, worship directives, or prayer.",
         "",
         "## Selected Research Pattern",
         "",
@@ -1531,20 +1694,9 @@ def unevaluated_interpretation_report(
         f"- **Selection rationale:** {candidate_pattern.get('basis', 'The current research index selected this pattern for examination.')}",
         "",
     ]
-    findings = []
-    for raw in aggregate_index_findings(knowledge_index):
-        finding, _ = normalize_research_finding(raw)
-        if finding:
-            findings.append(finding)
-    if not any(finding["public_final_ready"] for finding in findings):
-        lines.extend(
-            [
-                "No findings currently meet the optional polished-publication metadata state. Research findings remain visible below with their current strength and limitations; `public_final_ready` does not determine research visibility or theological authority.",
-                "",
-            ]
-        )
-    lines.extend(complete_research_state_lines(knowledge_index))
-    return "\n".join(lines) + "\n"
+    lines.extend(public_research_summary_lines(knowledge_index, candidate_pattern))
+    lines.extend(recent_reading_lines(recent_sources_for_pattern(candidate_pattern, digest)))
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def daily_focus_lines(candidate_pattern: dict, include_selection_note: bool = True) -> list[str]:
@@ -2731,6 +2883,7 @@ def build_short_article(generated_at: datetime | None = None) -> str:
         return unevaluated_interpretation_report(
             candidate_pattern,
             knowledge_index,
+            digest,
             generated_at,
         )
     freshness = digest_freshness(digest, generated_at)
@@ -2775,7 +2928,10 @@ def build_short_article(generated_at: datetime | None = None) -> str:
     response = candidate_pattern.get("faithful_response", DEFAULT_CANDIDATE_PATTERN["faithful_response"])
     response_sentence = response.removeprefix("Today, ").removeprefix("Today ")
     confidence = candidate_pattern.get("confidence_language", DEFAULT_CANDIDATE_PATTERN["confidence_language"])
-    prayer_book_reflection = anglican_1928_reflection(candidate_pattern, lens, reader, theologian)
+    prayer_book_reflection = (
+        f"The 1928 Prayer Book asks whether {candidate_pattern.get('name', 'this pattern')} can be received under Scripture, prayer, worship, Church teaching, and the duties of mercy. "
+        f"In {reader['setting']}, it should deepen reverence, repentance, charity, and steady service—not reward cleverness or turn mystery into certainty. {theologian['name']} sharpens the question: {theologian['comment']}"
+    )
     theologian_context = theologian_lane_summary(theologian_report)
     current_snapshot = build_report_snapshot(generated_at)
     cross_role_memory = previous_anglican_reader_memory(generated_at, reader)
@@ -2981,7 +3137,10 @@ def build_short_article(generated_at: datetime | None = None) -> str:
         collect_variants,
     )
 
-    diary_lines.extend(complete_research_state_lines(knowledge_index))
+    diary_lines.extend(public_research_summary_lines(knowledge_index, candidate_pattern))
+    diary_lines.extend(
+        recent_reading_lines(recent_sources_for_pattern(candidate_pattern, digest))
+    )
 
     diary_lines.extend(
         [
@@ -3160,12 +3319,21 @@ def main() -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc)
     OUTPUT_PATH.write_text(build_short_article(generated_at), encoding="utf-8")
+    knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
+    digest = read_json(DAILY_DIGEST_PATH)
+    candidate_pattern = current_candidate_pattern(knowledge_index, generated_at)
+    sources = recent_sources_for_pattern(candidate_pattern, digest)
+    APPENDIX_OUTPUT_PATH.write_text(
+        "\n".join(research_appendix_lines(knowledge_index, candidate_pattern, sources)).rstrip() + "\n",
+        encoding="utf-8",
+    )
     snapshot_path = snapshot_path_for(generated_at.date())
     snapshot_path.write_text(
         json.dumps(build_report_snapshot(generated_at), indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
     print(f"Published article saved to: {OUTPUT_PATH}")
+    print(f"Published research appendix saved to: {APPENDIX_OUTPUT_PATH}")
     print(f"Published report snapshot saved to: {snapshot_path}")
 
 

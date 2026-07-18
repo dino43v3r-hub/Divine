@@ -7,6 +7,9 @@ from build_published_article import (
     PATTERN_PROFILES,
     build_short_article,
     complete_research_state_lines,
+    recent_reading_lines,
+    recent_sources_for_pattern,
+    research_appendix_lines,
 )
 
 
@@ -40,14 +43,14 @@ def render(*records):
 class ReportingReformTests(unittest.TestCase):
     @patch("build_published_article.generate_daily_reflection_image", return_value=Path("reflection.svg"))
     @patch("build_published_article.generate_daily_pattern_image", return_value=Path("pattern.svg"))
-    def test_primary_report_includes_complete_research_state(self, _pattern_image, _reflection_image):
+    def test_primary_report_links_readable_summary_to_appendix(self, _pattern_image, _reflection_image):
         output = build_short_article(datetime(2026, 7, 16, tzinfo=timezone.utc))
-        self.assertIn("## Complete Research State", output)
-        self.assertIn("Every coherent, traceable candidate is shown", output)
-        self.assertNotIn("No pattern has cleared the full public-final gate yet", output)
-        self.assertNotIn("the report found something to withhold", output)
-        self.assertIn("No findings currently meet the optional polished-publication metadata state", output)
-        self.assertIn("does not determine research visibility or theological authority", output)
+        self.assertIn("## Research Behind This Reflection", output)
+        self.assertIn("## Recent Reading Behind This Pattern", output)
+        self.assertIn("final_book_report_research_appendix.md", output)
+        self.assertNotIn("## Complete Research State", output)
+        self.assertNotIn("research_documents/", output)
+        self.assertNotIn("`public_final_ready`", output)
 
     def test_unevaluated_interpretation_suppresses_affirmative_theology(self):
         output = build_short_article(datetime(2026, 7, 17, tzinfo=timezone.utc))
@@ -70,19 +73,105 @@ class ReportingReformTests(unittest.TestCase):
         self.assertNotIn("## Collect", output)
         self.assertNotIn("O Lord,", output)
 
-    def test_unevaluated_interpretation_preserves_complete_research_visibility(self):
+    def test_unevaluated_interpretation_preserves_appendix_access(self):
         output = build_short_article(datetime(2026, 7, 17, tzinfo=timezone.utc))
-        self.assertIn("## Complete Research State", output)
-        self.assertIn("Supported with Qualifications: Image Of God Pattern", output)
-        self.assertIn("Supported with Qualifications: Creation-To-Consciousness Pattern", output)
-        self.assertIn("**Supporting evidence:**", output)
-        self.assertIn("**Known limitations:**", output)
-        self.assertIn("**Failure conditions:**", output)
-        self.assertIn("**Provenance:**", output)
-        self.assertIn(
-            "**Divine Core theological interpretation:** `interpretation_not_evaluated`",
-            output,
+        self.assertIn("## Research Behind This Reflection", output)
+        self.assertIn("final_book_report_research_appendix.md", output)
+        self.assertNotIn("## Complete Research State", output)
+        self.assertNotIn("interpretation_not_evaluated", output)
+
+    def test_recent_sources_are_curated_traceable_and_allow_fewer_than_five(self):
+        digest = {
+            "new_sources": [
+                {
+                    "id": "10.3389/fnins.2019.00466",
+                    "title": "Harmony Perception in Prelingually Deaf, Juvenile Cochlear Implant Users.",
+                    "url": "https://pubmed.ncbi.nlm.nih.gov/31139046/",
+                    "authors": ["Zimmer V"],
+                    "summary": "Front Neurosci",
+                    "year": "2019",
+                    "automated_evidence_label": "strong_scholarly_candidate",
+                    "confidence_effect": "none_until_human_review",
+                    "review_status": "auto_approved_for_review_queue",
+                    "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+                },
+                {
+                    "id": "keyword-only-match",
+                    "title": "Creation Consciousness Keyword Match",
+                    "url": "https://example.invalid/keyword-only",
+                },
+                {
+                    "id": "10.1038/s41467-020-16448-6",
+                    "title": "Perceptual fusion of musical notes by native Amazonians suggests universal representations of musical intervals.",
+                    "url": "https://pubmed.ncbi.nlm.nih.gov/32493923/",
+                },
+            ]
+        }
+        pattern = {"name": "Creation-To-Consciousness Pattern"}
+        selected = recent_sources_for_pattern(pattern, digest)
+        self.assertEqual(2, len(selected))
+        self.assertLessEqual(len(selected), 5)
+        self.assertNotIn("keyword-only-match", [source["id"] for source in selected])
+        rendered = "\n".join(recent_reading_lines(selected))
+        self.assertNotIn("example.invalid", rendered)
+        for source in selected:
+            self.assertIn(source["title"], rendered)
+            self.assertIn(source["url"], rendered)
+            self.assertIn(source["relationship"], rendered)
+            self.assertGreaterEqual(len(source["explanation"].split()), 20)
+
+    def test_untraceable_recent_source_is_excluded(self):
+        pattern = {"name": "Creation-To-Consciousness Pattern"}
+        selected = recent_sources_for_pattern(
+            pattern,
+            {"new_sources": [{"id": "10.3389/fnins.2019.00466", "title": "Missing URL"}]},
         )
+        self.assertEqual([], selected)
+
+    def test_public_article_excludes_internal_codes_paths_and_repeated_prayer_book_boilerplate(self):
+        output = build_short_article(datetime(2026, 7, 16, tzinfo=timezone.utc))
+        for internal in (
+            "developing_evidence",
+            "candidate_lead",
+            "reviewed_evidence_ready",
+            "interpretation_not_evaluated",
+            "traceable_index_paths",
+            "counter_reading",
+            "doctrinal_fit",
+            "machine_label_boundary",
+            "pastoral_safety",
+            "public_final_ready",
+            "research_documents/",
+            "pattern_tests/",
+        ):
+            self.assertNotIn(internal, output)
+        self.assertIn("Recurring evidence", output)
+        self.assertLessEqual(output.count("practical theology"), 1)
+        self.assertLessEqual(output.count("pastoral theology"), 1)
+        self.assertLessEqual(output.count("embodied obedience"), 2)
+
+    def test_appendix_retains_complete_state_and_traceability(self):
+        index = {"research_findings": [finding("supported_with_qualifications")]}
+        appendix = "\n".join(research_appendix_lines(index, {"name": "Test Pattern"}, []))
+        for label in (
+            "Plain-language description",
+            "Research question",
+            "Research-strength status",
+            "Status rationale",
+            "Supporting evidence",
+            "Counterevidence",
+            "Rival explanations",
+            "Known limitations",
+            "Failure conditions",
+            "Unresolved tensions",
+            "Provenance",
+            "Provenance status",
+            "Divine Core theological interpretation",
+            "What this finding does not prove",
+            "Presentation metadata",
+        ):
+            self.assertIn(label, appendix)
+        self.assertIn("final_book_report.md", appendix)
 
     def test_application_template_cannot_originate_unevaluated_doctrine(self):
         marker = "APPLICATION TEMPLATE ORIGINATED DOCTRINE"
