@@ -8,6 +8,7 @@ import re
 
 
 OUTPUT_PATH = Path("reports/published/final_book_report.md")
+APPENDIX_OUTPUT_PATH = Path("reports/published/final_book_report_research_appendix.md")
 SNAPSHOT_PATH_TEMPLATE = "report_snapshot_{date}.json"
 DAILY_IMAGE_ALIAS_PATH = Path("reports/published/daily_pattern_image.svg")
 REFERENCES_PATH = Path("references/references.json")
@@ -60,6 +61,26 @@ TOP_PATTERN_NAMES = [
     "Trinity-As-Behavior Pattern",
     "Providence And Contingency Pattern",
 ]
+
+RECENT_SOURCE_PRESENTATION = {
+    "Image Of God Pattern": {
+        "https://www.scu.edu/ethics-spotlight/the-impact-of-ai-on-human-dignity": {
+            "relationship": "Develops the pattern",
+            "explanation": "This ethics article directly considers how artificial intelligence may affect human dignity and human connection. It moves the reflection from an abstract claim about worth into a present technological setting, but the source is currently only a weak, machine-assessed research candidate and cannot carry a theological conclusion by itself.",
+            "qualification": "The source remains a weak research candidate and does not independently establish a theological conclusion.",
+        },
+        "https://doi.org/10.1086/341240": {
+            "relationship": "Qualifies the pattern",
+            "explanation": "This article brings bodies, identity, scientific accounts of the person, and resurrection into the same field of inquiry. Dignity must not be reduced either to mental performance or to a disembodied idea of the self, and one discipline cannot settle the whole account of personhood.",
+            "qualification": "Its broad anthropological scope does not settle the theological meaning of personhood.",
+        },
+        "https://doi.org/10.3390/ijerph18168273": {
+            "relationship": "Caution or objection",
+            "explanation": "This study examines place attachment and identity among refugees. It presses the pattern to consider dignity under displacement and loss, while cautioning readers not to substitute elevated language about human worth for concrete attention to home, community, and vulnerability.",
+            "qualification": "A bounded refugee sample cannot by itself establish a universal or theological account of identity.",
+        },
+    }
+}
 
 PATTERN_PROFILES = {
     "Image Of God Pattern": {
@@ -1501,6 +1522,126 @@ def complete_research_state_lines(index: dict) -> list[str]:
     return lines
 
 
+def selected_research_finding(index: dict, candidate_pattern: dict) -> dict | None:
+    candidate_name = str(candidate_pattern.get("name") or "").strip()
+    for raw in aggregate_index_findings(index):
+        finding, _ = normalize_research_finding(raw)
+        if finding and finding["candidate_pattern"] == candidate_name:
+            return finding
+    return None
+
+
+def recent_sources_for_pattern(
+    candidate_pattern: dict,
+    digest: dict,
+    limit: int = 5,
+) -> list[dict]:
+    """Select only explicitly reviewed relationships, never keyword-only matches."""
+    pattern_name = str(candidate_pattern.get("name") or "").strip()
+    presentation = RECENT_SOURCE_PRESENTATION.get(pattern_name, {})
+    selected = []
+    for source in digest.get("new_sources", []):
+        source_id = str(source.get("id") or "").strip()
+        public = presentation.get(source_id)
+        if not public or not source.get("title") or not source.get("url"):
+            continue
+        selected.append({**source, **public})
+        if len(selected) >= min(max(limit, 0), 5):
+            break
+    return selected
+
+
+def public_research_summary_lines(index: dict, candidate_pattern: dict) -> list[str]:
+    finding = selected_research_finding(index, candidate_pattern)
+    pattern_name = candidate_pattern.get("name", "The featured pattern")
+    if not finding:
+        return [
+            "## Research Behind This Reflection",
+            "",
+            f"{pattern_name} remains under evaluation. The available record does not support a stronger public summary, and it is neither proof nor a settled theological judgment.",
+            "",
+            "[Read the complete technical research record](final_book_report_research_appendix.md).",
+            "",
+        ]
+    limitation = (
+        finding["failure_conditions"][0]
+        if finding["failure_conditions"]
+        else (finding["known_limitations"][0] if finding["known_limitations"] else "Important limitations remain unresolved.")
+    )
+    return [
+        "## Research Behind This Reflection",
+        "",
+        f"The {pattern_name} remains under evaluation. The current research supports it with qualifications: {len(finding['provenance'])} traceable documents contribute to the inquiry, and the pattern is meaningful enough to keep testing.",
+        "",
+        f"Its central limitation is practical and severe: {limitation} If the pattern does not change attention, protection, belonging, and service, its language has outrun its evidence and its obedience.",
+        "",
+        "This evidence does not prove divine action, establish doctrine by research, or settle a theological judgment. Social movements, law, empathy, shared vulnerability, psychology, culture, and political history may explain much of the visible pattern. Research serves discernment; it does not replace Scripture, doctrine, worship, or the Church's judgment.",
+        "",
+        "[Read the complete technical research record, including evidence, limitations, provenance, and Divine Core interpretation status](final_book_report_research_appendix.md).",
+        "",
+    ]
+
+
+def recent_reading_lines(sources: list[dict]) -> list[str]:
+    lines = [
+        "## Recent Reading Behind This Pattern",
+        "",
+        "These recent discoveries illuminate the question from several directions. They contribute evidence, qualifications, and objections, but none independently proves the theological pattern or constitutes Divine Core approval.",
+        "",
+    ]
+    if not sources:
+        return lines + [
+            "No recently discovered source is both sufficiently traceable and directly relevant to this pattern. The report does not add weak matches merely to fill the list.",
+            "",
+        ]
+    for source in sources:
+        authors = ", ".join(source.get("authors") or [])
+        year = str(source.get("year") or "").strip()
+        if not year and source.get("date_accessed"):
+            year = f"discovered {source['date_accessed']} (publication date unavailable)"
+        details = " · ".join(value for value in (authors, year) if value)
+        lines.extend(
+            [
+                f"### [{source['title']}]({source['url']})",
+                "",
+                f"_{details}_" if details else "",
+                "",
+                f"**{source['relationship']}.** {source['explanation']}",
+                "",
+            ]
+        )
+    return lines
+
+
+def research_appendix_lines(index: dict, sources: list[dict]) -> list[str]:
+    lines = [
+        "# Final Book Report Research Appendix",
+        "",
+        "This appendix preserves the complete technical research state behind the [illustrated public Book Report](final_book_report.md). Inclusion does not imply theological approval; research visibility is not truth, and presentation readiness is not research strength.",
+        "",
+    ]
+    lines.extend(complete_research_state_lines(index))
+    lines.extend(["## Recent Reading Traceability", ""])
+    if not sources:
+        lines.extend(["No recent sources met the public traceability and direct-relevance requirements.", ""])
+    for source in sources:
+        lines.extend(
+            [
+                f"### {source['title']}",
+                "",
+                f"- **Source identity:** `{source.get('id', '')}`",
+                f"- **URL or stable identifier:** {source['url']}",
+                f"- **Candidate-pattern relationship:** {source['relationship']}",
+                f"- **Evidence state:** `{source.get('automated_evidence_label', '')}`; confidence effect `{source.get('confidence_effect', '')}`",
+                f"- **Review state:** `{source.get('review_status', '')}`",
+                f"- **Known qualification:** {source['qualification']}",
+                f"- **Local traceability:** `{source.get('id', '')}` in `{DAILY_DIGEST_PATH.as_posix()}`",
+                "",
+            ]
+        )
+    return lines
+
+
 def daily_focus_lines(candidate_pattern: dict, include_selection_note: bool = True) -> list[str]:
     lines = [
         f"**Current candidate divine pattern:** {candidate_pattern['candidate']}",
@@ -2925,7 +3066,9 @@ def build_short_article(generated_at: datetime | None = None) -> str:
         collect_variants,
     )
 
-    diary_lines.extend(complete_research_state_lines(knowledge_index))
+    recent_sources = recent_sources_for_pattern(candidate_pattern, digest)
+    diary_lines.extend(public_research_summary_lines(knowledge_index, candidate_pattern))
+    diary_lines.extend(recent_reading_lines(recent_sources))
 
     diary_lines.extend(
         [
@@ -3104,12 +3247,21 @@ def main() -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc)
     OUTPUT_PATH.write_text(build_short_article(generated_at), encoding="utf-8")
+    knowledge_index = read_json(KNOWLEDGE_INDEX_PATH)
+    digest = read_json(DAILY_DIGEST_PATH)
+    candidate_pattern = current_candidate_pattern(knowledge_index, generated_at)
+    recent_sources = recent_sources_for_pattern(candidate_pattern, digest)
+    APPENDIX_OUTPUT_PATH.write_text(
+        "\n".join(research_appendix_lines(knowledge_index, recent_sources)).rstrip() + "\n",
+        encoding="utf-8",
+    )
     snapshot_path = snapshot_path_for(generated_at.date())
     snapshot_path.write_text(
         json.dumps(build_report_snapshot(generated_at), indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
     print(f"Published article saved to: {OUTPUT_PATH}")
+    print(f"Published research appendix saved to: {APPENDIX_OUTPUT_PATH}")
     print(f"Published report snapshot saved to: {snapshot_path}")
 
 
