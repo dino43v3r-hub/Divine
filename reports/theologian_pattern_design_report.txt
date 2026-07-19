@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 202
-Total theologian words analyzed: 40,303
+Theologian documents analyzed: 209
+Total theologian words analyzed: 41,582
 
 Era Coverage
 ------------
@@ -21,33 +21,33 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Christology: 207
+- Trinity: 219
+- Christology: 211
 - Theodicy And Suffering: 192
-- Trinity: 187
-- Creation: 161
-- Pneumatology: 151
-- Grace And Transformation: 108
+- Creation: 164
+- Pneumatology: 156
+- Grace And Transformation: 109
 - Church And Practice: 99
 - Justice And Public Life: 95
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 1,230
-- Son: 246
-- Holy Spirit: 292
+- Father: 1,280
+- Son: 260
+- Holy Spirit: 302
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 160 | broader corpus 2,647
-- Mathematical Structure: theologians 4 | broader corpus 640
-- Mathematical Theophany: theologians 241 | broader corpus 1,267
-- Quantum Probability: theologians 2 | broader corpus 169
-- Life And Consciousness: theologians 551 | broader corpus 6,169
-- Meaning And Logos: theologians 107 | broader corpus 6,116
-- Moral Response: theologians 116 | broader corpus 2,479
-- Worship And Community: theologians 185 | broader corpus 1,613
-- Transformation: theologians 369 | broader corpus 2,222
+- Physical Order: theologians 163 | broader corpus 2,650
+- Mathematical Structure: theologians 4 | broader corpus 643
+- Mathematical Theophany: theologians 242 | broader corpus 1,274
+- Quantum Probability: theologians 2 | broader corpus 170
+- Life And Consciousness: theologians 565 | broader corpus 6,162
+- Meaning And Logos: theologians 108 | broader corpus 6,100
+- Moral Response: theologians 116 | broader corpus 2,475
+- Worship And Community: theologians 186 | broader corpus 1,614
+- Transformation: theologians 385 | broader corpus 2,233
 
 Per-Source Findings
 -------------------
@@ -382,12 +382,34 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
 
+border_pedagogy_for_democratic_practice_14fd368869ad.md
+-------------------------------------------------------
+Words: 133
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 born_wrong_pentecostal_charismatic_christianity_and_troubling_bodies_4d5ebc5a3931.md
 ------------------------------------------------------------------------------------
 Words: 140
 Strongest era signal: Patristic (0)
 Strongest concept signal: Pneumatology (1)
 Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+by_whom_all_things_were_made_efaca9246c79.md
+--------------------------------------------
+Words: 130
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
@@ -1504,6 +1526,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+speaking_of_faith_at_work_towards_a_trinitarian_hermeneutic_1b3a2551bf18.md
+---------------------------------------------------------------------------
+Words: 134
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 spirit_and_power_0ea311f52ab0.md
 --------------------------------
 Words: 202
@@ -1856,6 +1889,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+the_trinitarian_framework_of_the_nicene_creed_0fcf82babefe.md
+-------------------------------------------------------------
+Words: 235
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (9)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Transformation And Hope (2)
+- Ending: Creation And Order (0)
+
 the_trinitarian_pattern_of_redemption_in_richard_sibbes_1577_1635_e69677bc9aa6.md
 ---------------------------------------------------------------------------------
 Words: 196
@@ -1866,6 +1910,28 @@ Meaning arc:
 - Opening: Transformation And Hope (4)
 - Middle: Transformation And Hope (2)
 - Ending: Creation And Order (0)
+
+the_trinity_and_redemption_reformed_bible_studies_devotionals_at_ligonier_org_ccfabe7aadbb.md
+---------------------------------------------------------------------------------------------
+Words: 243
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (8)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (1)
+- Ending: Creation And Order (0)
+
+the_trinity_theology_and_code_805a70c60c50.md
+---------------------------------------------
+Words: 216
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (5)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Desire And Longing (3)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 the_unity_and_the_trinity_of_god_in_the_rhythm_of_a_trinitarian_ontology_994ae9130605.md
 ----------------------------------------------------------------------------------------
@@ -1985,6 +2051,17 @@ Strongest concept signal: Pneumatology (1)
 Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+trinitarian_theology_explains_the_father_son_and_holy_spirit_relationship_2a6de2d373e9.md
+-----------------------------------------------------------------------------------------
+Words: 188
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (7)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 

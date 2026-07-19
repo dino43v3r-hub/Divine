@@ -242,32 +242,4 @@ Every coherent, traceable candidate is shown here regardless of `public_final_re
 
 ## Recent Reading Traceability
 
-### At Home: Place Attachment and Identity in an Italian Refugee Sample
-
-- **Source identity:** `https://doi.org/10.3390/ijerph18168273`
-- **URL or stable identifier:** https://doi.org/10.3390/ijerph18168273
-- **Candidate-pattern relationship:** Caution or objection
-- **Evidence state:** `strong_scholarly_candidate`; confidence effect `none_until_human_review`
-- **Review state:** `auto_approved_for_review_queue`
-- **Known qualification:** A bounded refugee sample cannot by itself establish a universal or theological account of identity.
-- **Local traceability:** `https://doi.org/10.3390/ijerph18168273` in `references/daily_research_digest.json`
-
-### Brains, Bodies, Selves, and Science: Anthropologies of Identity and the Resurrection of the Body
-
-- **Source identity:** `https://doi.org/10.1086/341240`
-- **URL or stable identifier:** https://doi.org/10.1086/341240
-- **Candidate-pattern relationship:** Qualifies the pattern
-- **Evidence state:** `strong_scholarly_candidate`; confidence effect `none_until_human_review`
-- **Review state:** `auto_approved_for_review_queue`
-- **Known qualification:** Its broad anthropological scope does not settle the theological meaning of personhood.
-- **Local traceability:** `https://doi.org/10.1086/341240` in `references/daily_research_digest.json`
-
-### The Impact of AI on Human Dignity
-
-- **Source identity:** `https://www.scu.edu/ethics-spotlight/the-impact-of-ai-on-human-dignity`
-- **URL or stable identifier:** https://www.scu.edu/ethics-spotlight/the-impact-of-ai-on-human-dignity
-- **Candidate-pattern relationship:** Develops the pattern
-- **Evidence state:** `weak_scholarly_candidate`; confidence effect `none_until_human_review`
-- **Review state:** `machine_assessed_weak_scholarly_candidate`
-- **Known qualification:** The source remains a weak research candidate and does not independently establish a theological conclusion.
-- **Local traceability:** `https://www.scu.edu/ethics-spotlight/the-impact-of-ai-on-human-dignity` in `references/daily_research_digest.json`
+No recent sources met the public traceability and direct-relevance requirements.
