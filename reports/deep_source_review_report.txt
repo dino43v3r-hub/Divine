@@ -15,21 +15,21 @@ Status: source-supported
 Area signal: 18
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
-- Scripture/Theology: present (32)
+- Scripture/Theology: present (35)
 - Pastoral/Clinical: present (14)
 - Lived Case: present (10)
-- Counterargument: present (126)
+- Counterargument: present (131)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 353
+Area signal: 375
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
-- Physicist/Primary Science: present (44)
-- Peer-Reviewed/Academic: present (266)
+- Physicist/Primary Science: present (47)
+- Peer-Reviewed/Academic: present (277)
 - Philosophy Of Science: present (98)
-- Counterargument: present (126)
+- Counterargument: present (131)
 
 Mathematics Statistics And Logic
 --------------------------------
@@ -39,29 +39,29 @@ Guardrail: Do not treat repeated patterns, analogies, or mathematical beauty as 
 Required source types:
 - Mathematics/Logic: present (55)
 - Statistics/Inference: present (24)
-- Peer-Reviewed/Academic: present (266)
-- Counterargument: present (126)
+- Peer-Reviewed/Academic: present (277)
+- Counterargument: present (131)
 
 Mathematical Theophany And Beauty
 ---------------------------------
 Status: source-supported
-Area signal: 179
+Area signal: 184
 Guardrail: Treat mathematical order and beauty as possible signs, not proof. Strengthen the analysis by naming naturalistic, Platonist, constructivist, cognitive, cultural, and aesthetic alternatives.
 Required source types:
-- Scripture/Theology: present (32)
+- Scripture/Theology: present (35)
 - Mathematics/Logic: present (55)
 - Aesthetics/Beauty: present (24)
 - Alternative Interpretation: present (12)
-- Counterargument: present (126)
+- Counterargument: present (131)
 
 All Source-Type Signals
 -----------------------
-- Peer-Reviewed/Academic: 266
-- Counterargument: 126
+- Peer-Reviewed/Academic: 277
+- Counterargument: 131
 - Philosophy Of Science: 98
 - Mathematics/Logic: 55
-- Physicist/Primary Science: 44
-- Scripture/Theology: 32
+- Physicist/Primary Science: 47
+- Scripture/Theology: 35
 - Statistics/Inference: 24
 - Aesthetics/Beauty: 24
 - Pastoral/Clinical: 14
@@ -80,15 +80,15 @@ Math / Statistics / Logic Congruence Filters
   Rule: Mathematical proof applies inside formal systems; it cannot be transferred directly into theology without philosophical argument.
 - Theophany Interpretation Filter: active (45)
   Rule: Mathematical order, symmetry, logic, infinity, and beauty may be explored as secondary creaturely signs only under Christ and Scripture, and only after contrasting non-theistic, Platonist, constructivist, cognitive, and cultural explanations are named.
-- Physics Scale Filter: active (232)
+- Physics Scale Filter: active (243)
   Rule: Do not move from quantum, cosmic, or thermodynamic claims to daily spiritual claims without a justified bridge.
 - Causality Filter: active (20)
   Rule: Distinguish causation, correlation, compatibility, analogy, and theological interpretation.
 
 Quality And Risk Markers
 ------------------------
-- Scholarly Or Scientific Source: 254
-- Primary Or Classical Source: 99
+- Scholarly Or Scientific Source: 268
+- Primary Or Classical Source: 104
 - Practical Lived Source: 14
 - Speculative Source: 9
 - Reviewed Cloud Reference: 3
@@ -306,6 +306,18 @@ Source types:
 Active congruence filters:
 - Physics Scale Filter
 
+bohmian_mechanics_without_wave_function_ontology_568d89db39e9.md
+----------------------------------------------------------------
+Words: 141
+Area scores:
+- Quantum And Science Claims: under-sourced (1)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Peer-Reviewed/Academic: 3
+- Counterargument: 1
+Active congruence filters:
+- Physics Scale Filter
+
 bohr_s_anti_realist_realism_in_contemporary_quantum_physics_and_philosophy_308e47ebefc8.md
 ------------------------------------------------------------------------------------------
 Words: 216
@@ -355,6 +367,19 @@ Source types:
 Active congruence filters:
 - Physics Scale Filter
 
+debates_surrounding_the_uncertainty_principle_f91a1153a64f.md
+-------------------------------------------------------------
+Words: 185
+Area scores:
+- Quantum And Science Claims: partially sourced (5)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Physicist/Primary Science: 2
+- Peer-Reviewed/Academic: 2
+- Counterargument: 1
+Active congruence filters:
+- Physics Scale Filter
+
 decoherence_and_the_classical_limit_of_quantum_mechanics_cc89cfcb6348.md
 ------------------------------------------------------------------------
 Words: 141
@@ -400,6 +425,18 @@ Area scores:
 - Mathematical Theophany And Beauty: under-sourced (1)
 Source types:
 - Peer-Reviewed/Academic: 3
+- Counterargument: 1
+Active congruence filters:
+- Physics Scale Filter
+
+finite_time_cluster_synchronization_for_a_class_of_fuzzy_cellular_neural_network_cd1f9a4fb89b.md
+------------------------------------------------------------------------------------------------
+Words: 146
+Area scores:
+- Quantum And Science Claims: under-sourced (1)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Peer-Reviewed/Academic: 2
 - Counterargument: 1
 Active congruence filters:
 - Physics Scale Filter
@@ -601,6 +638,19 @@ Area scores:
 - Mathematical Theophany And Beauty: under-sourced (1)
 Source types:
 - Peer-Reviewed/Academic: 3
+- Counterargument: 1
+Active congruence filters:
+- Physics Scale Filter
+
+okay_so_quantum_theology_might_need_a_bit_of_f1654bc3ee6e.md
+------------------------------------------------------------
+Words: 188
+Area scores:
+- Quantum And Science Claims: under-sourced (5)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Scripture/Theology: 3
+- Peer-Reviewed/Academic: 2
 - Counterargument: 1
 Active congruence filters:
 - Physics Scale Filter
@@ -1258,6 +1308,19 @@ Source types:
 - Peer-Reviewed/Academic: 2
 - Pastoral/Clinical: 1
 - Counterargument: 1
+Active congruence filters:
+- Physics Scale Filter
+
+uncertainty_principle_wikipedia_f898ef32c432.md
+-----------------------------------------------
+Words: 233
+Area scores:
+- Quantum And Science Claims: partially sourced (10)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Peer-Reviewed/Academic: 2
+- Counterargument: 1
+- Physicist/Primary Science: 1
 Active congruence filters:
 - Physics Scale Filter
 

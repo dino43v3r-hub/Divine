@@ -8,12 +8,12 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 209
-Total theologian words analyzed: 41,582
+Theologian documents analyzed: 213
+Total theologian words analyzed: 42,195
 
 Era Coverage
 ------------
-- Patristic: 79
+- Patristic: 80
 - Medieval: 53
 - Reformation: 52
 - Modern: 74
@@ -21,33 +21,33 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 219
-- Christology: 211
-- Theodicy And Suffering: 192
-- Creation: 164
-- Pneumatology: 156
+- Trinity: 221
+- Christology: 213
+- Theodicy And Suffering: 194
+- Creation: 165
+- Pneumatology: 158
 - Grace And Transformation: 109
-- Church And Practice: 99
-- Justice And Public Life: 95
+- Church And Practice: 100
+- Justice And Public Life: 96
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 1,280
-- Son: 260
-- Holy Spirit: 302
+- Father: 1,300
+- Son: 262
+- Holy Spirit: 308
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 163 | broader corpus 2,650
-- Mathematical Structure: theologians 4 | broader corpus 643
-- Mathematical Theophany: theologians 242 | broader corpus 1,274
-- Quantum Probability: theologians 2 | broader corpus 170
-- Life And Consciousness: theologians 565 | broader corpus 6,162
-- Meaning And Logos: theologians 108 | broader corpus 6,100
-- Moral Response: theologians 116 | broader corpus 2,475
-- Worship And Community: theologians 186 | broader corpus 1,614
-- Transformation: theologians 385 | broader corpus 2,233
+- Physical Order: theologians 164 | broader corpus 2,665
+- Mathematical Structure: theologians 4 | broader corpus 648
+- Mathematical Theophany: theologians 243 | broader corpus 1,281
+- Quantum Probability: theologians 2 | broader corpus 189
+- Life And Consciousness: theologians 576 | broader corpus 6,187
+- Meaning And Logos: theologians 108 | broader corpus 6,120
+- Moral Response: theologians 116 | broader corpus 2,485
+- Worship And Community: theologians 188 | broader corpus 1,620
+- Transformation: theologians 389 | broader corpus 2,221
 
 Per-Source Findings
 -------------------
@@ -822,6 +822,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+empowering_love_spirit_baptism_divine_power_and_the_pursuit_of_gender_equity_in_b68a1dfb1e20.md
+-----------------------------------------------------------------------------------------------
+Words: 145
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 engaging_trinitarian_and_pneumatological_models_for_de4238743023.md
 -------------------------------------------------------------------
 Words: 190
@@ -1592,6 +1603,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+teaching_about_shamanism_and_religious_healing_a_cross_cultural_biosocial_spirit_57bbf1e067d6.md
+------------------------------------------------------------------------------------------------
+Words: 203
+Strongest era signal: Patristic (0)
+Strongest concept signal: Creation (1)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Transformation And Hope (1)
+- Middle: Creation And Order (2)
+- Ending: Creation And Order (0)
+
 the_agency_of_the_holy_spirit_and_heuristic_categories_for_discernment_in_spirit_d4d823da0a53.md
 ------------------------------------------------------------------------------------------------
 Words: 146
@@ -1646,6 +1668,17 @@ Meaning arc:
 - Opening: Creation And Order (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+the_church_fathers_e6c8f5ff0c13.md
+----------------------------------
+Words: 131
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 the_eschatology_of_margaret_fell_1614_1702_and_its_place_in_her_theology_and_min_da0ac5a05fae.md
 ------------------------------------------------------------------------------------------------
@@ -2074,6 +2107,17 @@ Meaning confidence: word-level signal only
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+trinity_and_apologetics_in_the_theology_of_st_augustine_122297a21cb9.md
+-----------------------------------------------------------------------
+Words: 134
+Strongest era signal: Patristic (1)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
 trinity_and_church_after_supersessionism_1868f5caf545.md
