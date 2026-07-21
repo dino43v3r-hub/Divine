@@ -10,68 +10,69 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Music-note files analyzed: 80
-Note/chord events analyzed: 208
-Individual notes analyzed: 242
-Intervals analyzed: 182
-Consonance ratio: 75.27%
-Tension ratio: 24.73%
+Music-note files analyzed: 82
+Note/chord events analyzed: 240
+Individual notes analyzed: 274
+Intervals analyzed: 212
+Consonance ratio: 70.28%
+Tension ratio: 29.72%
 
 Interval Patterns
 -----------------
-- unison/octave: 38 | simple ratio: 1:1 or 2:1
-- perfect fifth: 34 | simple ratio: 3:2
-- major second: 30 | simple ratio: 9:8
+- major second: 40 | simple ratio: 9:8
+- unison/octave: 39 | simple ratio: 1:1 or 2:1
+- perfect fifth: 36 | simple ratio: 3:2
 - minor third: 27 | simple ratio: 6:5
-- perfect fourth: 19 | simple ratio: 4:3
-- major third: 18 | simple ratio: 5:4
-- minor second: 11 | simple ratio: 16:15
+- major third: 23 | simple ratio: 5:4
+- perfect fourth: 22 | simple ratio: 4:3
+- minor second: 17 | simple ratio: 16:15
+- major seventh: 2 | simple ratio: 15:8
+- major sixth: 2 | simple ratio: 5:3
 - tritone: 2 | simple ratio: 45:32
 - minor seventh: 2 | simple ratio: 9:5
-- major sixth: 1 | simple ratio: 5:3
 
 Science And Math Relationships
 ------------------------------
-- Mathematical Structure: 182
-- Acoustic Stability: 137
-- Small Integer Ratios: 53
-- Tension And Resolution: 45
-- Symmetry And Return: 38
+- Mathematical Structure: 212
+- Acoustic Stability: 149
+- Tension And Resolution: 63
+- Small Integer Ratios: 58
+- Symmetry And Return: 39
 
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 392
+- Father: 404
 - Son: 0
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 90
-- Creation And Order: 28
+- Desire And Longing: 94
+- Creation And Order: 31
 - Communal Practice: 8
 - Alienation And Lament: 2
 - Transformation And Hope: 2
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 182 | religious/science corpus 2,665
-- Mathematical Structure: music notes 273 | religious/science corpus 648
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,281
-- Quantum Probability: music notes 0 | religious/science corpus 189
-- Life And Consciousness: music notes 0 | religious/science corpus 6,187
-- Meaning And Logos: music notes 65 | religious/science corpus 6,120
-- Moral Response: music notes 0 | religious/science corpus 2,485
-- Worship And Community: music notes 16 | religious/science corpus 1,620
-- Transformation: music notes 45 | religious/science corpus 2,221
+- Physical Order: music notes 212 | religious/science corpus 2,655
+- Mathematical Structure: music notes 309 | religious/science corpus 643
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,268
+- Quantum Probability: music notes 0 | religious/science corpus 174
+- Life And Consciousness: music notes 0 | religious/science corpus 6,183
+- Meaning And Logos: music notes 75 | religious/science corpus 6,116
+- Moral Response: music notes 0 | religious/science corpus 2,482
+- Worship And Community: music notes 16 | religious/science corpus 1,616
+- Transformation: music notes 63 | religious/science corpus 2,217
 
 Relevant Research Domains
 -------------------------
-- Philosophy Of Mathematics: corpus signal 562
-- Physics And Quantum Mechanics: corpus signal 1,458
-- Philosophy Of Science: corpus signal 2,860
-- Cognitive Science: corpus signal 1,040
-- Anthropology And Psychology Of Worship: corpus signal 805
+- Philosophy Of Mathematics: corpus signal 559
+- Physics And Quantum Mechanics: corpus signal 1,442
+- Philosophy Of Science: corpus signal 2,861
+- Cognitive Science: corpus signal 1,051
+- Anthropology And Psychology Of Worship: corpus signal 804
 
 Per-Composition Findings
 ------------------------
@@ -165,6 +166,36 @@ Meaning arc:
 - Ending: Creation And Order (0)
 Practical theology applications:
 - Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+
+pdf_mathematical_harmonies_98e0719642a6.md
+------------------------------------------
+Events: 30
+Notes: 30
+Chord events: 0
+Melodic intervals: 29
+Harmonic intervals: 0
+Consonant intervals: 11
+Tension intervals: 18
+Return motifs: 6
+Meaning confidence: thin meaning signal
+Most common intervals:
+- major second: 10 | ratio 9:8
+- minor second: 6 | ratio 16:15
+- major third: 5 | ratio 5:4
+- perfect fourth: 3 | ratio 4:3
+- major seventh: 2 | ratio 15:8
+Layer interpretation:
+- Mathematical Structure: 34
+- Physical Order: 29
+- Transformation: 18
+- Meaning And Logos: 9
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (1)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 
 minor_lament_resolution.md
 --------------------------
@@ -568,6 +599,30 @@ Practical theology applications:
 
 4_3_consonance_and_dissonance_4f6291d06b55.md
 ---------------------------------------------
+Events: 2
+Notes: 2
+Chord events: 0
+Melodic intervals: 1
+Harmonic intervals: 0
+Consonant intervals: 1
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- perfect fifth: 1 | ratio 3:2
+Layer interpretation:
+- Mathematical Structure: 2
+- Physical Order: 1
+- Meaning And Logos: 1
+Meaning arc:
+- Opening: Desire And Longing (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+consonance_dissonance_and_cadences_music_perception_fdfe2c11cd5c.md
+-------------------------------------------------------------------
 Events: 2
 Notes: 2
 Chord events: 0

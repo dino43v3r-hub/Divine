@@ -10,9 +10,7 @@
     "visual_art",
     "psychology_inputs"
   ],
-  "priority_lanes": [
-    "human_stories"
-  ],
+  "priority_lanes": [],
   "purpose": "Feed report recommendations back into the next internet_source_collector.py run.",
   "query_modifiers": [
     "primary source",
@@ -33,16 +31,6 @@
   },
   "source": "divine_pattern_analyzer.py",
   "suggested_queries": [
-    {
-      "query": "lived grief, repair, vocation, community, and transformation primary source counterargument",
-      "reason": "human_stories is a priority lane for the next collector run.",
-      "tag": "unresolved_suffering"
-    },
-    {
-      "query": "lived grief, repair, vocation, community, and transformation primary source counterargument",
-      "reason": "human_stories is a priority lane for the next collector run.",
-      "tag": "interreligious_dream_testimony"
-    },
     {
       "query": "image of God dignity disability theology cognitive science source review counterargument",
       "reason": "Build or improve reviewed source pack coverage for Image Of God Pattern.",
@@ -111,5 +99,5 @@
     "Trinity-As-Behavior Pattern",
     "Providence And Contingency Pattern"
   ],
-  "updated_at": "2026-07-20T15:52:20.972652+00:00"
+  "updated_at": "2026-07-21T15:38:00.758677+00:00"
 }
