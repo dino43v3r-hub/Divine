@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 216
-Total theologian words analyzed: 42,716
+Theologian documents analyzed: 217
+Total theologian words analyzed: 42,855
 
 Era Coverage
 ------------
@@ -21,11 +21,11 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 222
+- Trinity: 224
 - Christology: 215
 - Theodicy And Suffering: 195
 - Creation: 165
-- Pneumatology: 158
+- Pneumatology: 159
 - Grace And Transformation: 109
 - Church And Practice: 101
 - Justice And Public Life: 96
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 1,316
+- Father: 1,321
 - Son: 264
-- Holy Spirit: 308
+- Holy Spirit: 310
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 165 | broader corpus 2,655
-- Mathematical Structure: theologians 4 | broader corpus 643
-- Mathematical Theophany: theologians 245 | broader corpus 1,268
-- Quantum Probability: theologians 2 | broader corpus 174
-- Life And Consciousness: theologians 584 | broader corpus 6,183
-- Meaning And Logos: theologians 112 | broader corpus 6,116
-- Moral Response: theologians 116 | broader corpus 2,482
-- Worship And Community: theologians 189 | broader corpus 1,616
-- Transformation: theologians 389 | broader corpus 2,217
+- Physical Order: theologians 165 | broader corpus 2,652
+- Mathematical Structure: theologians 4 | broader corpus 639
+- Mathematical Theophany: theologians 245 | broader corpus 1,284
+- Quantum Probability: theologians 2 | broader corpus 169
+- Life And Consciousness: theologians 586 | broader corpus 6,180
+- Meaning And Logos: theologians 112 | broader corpus 6,100
+- Moral Response: theologians 116 | broader corpus 2,479
+- Worship And Community: theologians 190 | broader corpus 1,615
+- Transformation: theologians 391 | broader corpus 2,221
 
 Per-Source Findings
 -------------------
@@ -148,6 +148,17 @@ Strongest concept signal: Pneumatology (1)
 Meaning confidence: plausible meaning pattern
 Meaning arc:
 - Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+a_missiological_study_of_the_role_of_the_baptism_and_infilling_of_the_holy_spiri_ee77d7ad9693.md
+------------------------------------------------------------------------------------------------
+Words: 139
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 

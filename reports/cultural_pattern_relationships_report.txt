@@ -9,54 +9,54 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 259
-Total cultural words analyzed: 37,570
+Cultural documents analyzed: 266
+Total cultural words analyzed: 38,620
 
 Cultural Domains
 ----------------
-- Science And Discovery: 532
-- Politics And Justice: 278
-- History And Memory: 188
-- Technology And AI: 156
-- Psychology And Human Behavior: 120
-- Family And Community: 58
-- Global Text Traditions: 54
-- Health And Suffering: 51
-- Art And Beauty: 47
+- Science And Discovery: 546
+- Politics And Justice: 289
+- History And Memory: 192
+- Technology And AI: 160
+- Psychology And Human Behavior: 123
+- Family And Community: 59
+- Global Text Traditions: 56
+- Health And Suffering: 53
+- Art And Beauty: 49
+- Economics And Work: 36
 - World Languages: 35
-- Economics And Work: 34
 - Education And Formation: 32
-- Ecology And Creation Care: 21
+- Ecology And Creation Care: 22
 - Visual Art And Iconography: 13
 - Biblical Greek And Hebrew: 1
 
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 1,269
+- Father: 1,304
 - Son: 16
 - Holy Spirit: 2
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 279
-- Moral Confrontation: 141
+- Desire And Longing: 286
+- Moral Confrontation: 148
 - Creation And Order: 43
-- Communal Practice: 42
-- Transformation And Hope: 38
-- Alienation And Lament: 8
+- Communal Practice: 43
+- Transformation And Hope: 39
+- Alienation And Lament: 9
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 572 | religious/science corpus 2,655
-- Mathematical Structure: cultural inputs 691 | religious/science corpus 643
-- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,268
-- Quantum Probability: cultural inputs 1 | religious/science corpus 174
-- Life And Consciousness: cultural inputs 771 | religious/science corpus 6,183
-- Meaning And Logos: cultural inputs 927 | religious/science corpus 6,116
-- Moral Response: cultural inputs 1,004 | religious/science corpus 2,482
-- Worship And Community: cultural inputs 553 | religious/science corpus 1,616
-- Transformation: cultural inputs 520 | religious/science corpus 2,217
+- Physical Order: cultural inputs 587 | religious/science corpus 2,652
+- Mathematical Structure: cultural inputs 709 | religious/science corpus 639
+- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,284
+- Quantum Probability: cultural inputs 1 | religious/science corpus 169
+- Life And Consciousness: cultural inputs 793 | religious/science corpus 6,180
+- Meaning And Logos: cultural inputs 949 | religious/science corpus 6,100
+- Moral Response: cultural inputs 1,038 | religious/science corpus 2,479
+- Worship And Community: cultural inputs 572 | religious/science corpus 1,615
+- Transformation: cultural inputs 532 | religious/science corpus 2,221
 
 Per-Domain Findings
 -------------------
@@ -138,6 +138,32 @@ Practical domain applications:
 - Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
 - Read visual form as meaning: ask how image, color, gesture, and composition reveal desire, lament, worship, power, or hope.
 - Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
+
+environmental_justice_ethics_and_public_health_9a56994d9f14.md
+--------------------------------------------------------------
+Words: 202
+Strongest cultural domain: Politics And Justice (9)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Moral Confrontation (4)
+- Middle: Moral Confrontation (3)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 19
+- Worship And Community: 10
+- Life And Consciousness: 5
+- Meaning And Logos: 4
+- Physical Order: 3
+- Transformation: 3
+- Mathematical Structure: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Respond to suffering with truthful lament, practical care, patience, and hope without minimizing pain.
 
 frances_forde_plude_popular_culture_and_the_study_of_religion_f982882d4d54.md
 -----------------------------------------------------------------------------
@@ -1017,6 +1043,31 @@ Practical domain applications:
 - Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 - Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
+
+chapter_4_ritual_communication_and_community_building_53d0c664375f.md
+---------------------------------------------------------------------
+Words: 138
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 5
+- Worship And Community: 5
+- Transformation: 5
+- Moral Response: 4
+- Life And Consciousness: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Compare sacred, philosophical, poetic, legal, oral, and wisdom texts as witnesses to human longing, moral order, suffering, community, and transformation.
+- Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.
 
 jea_sophia_oh_and_john_quiring_eds_greening_philosophy_of_religion_process_ecolo_9dc7bc85b1bd.md
 ------------------------------------------------------------------------------------------------
@@ -4050,6 +4101,29 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
 
+artificial_intelligence_and_an_anthropological_ethics_of_work_implications_on_th_191fe7925331.md
+------------------------------------------------------------------------------------------------
+Words: 144
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Mathematical Structure: 3
+- Life And Consciousness: 3
+- Meaning And Logos: 3
+- Physical Order: 2
+- Moral Response: 2
+- Worship And Community: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+
 ethics_in_international_health_research_a_perspective_from_the_developing_world_27554f2ef7de.md
 -----------------------------------------------------------------------------------------------
 Words: 139
@@ -4191,6 +4265,29 @@ Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 - Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
+
+the_fourth_generation_of_human_rights_epistemic_rights_in_digital_lifeworlds_25a23424bf7a.md
+--------------------------------------------------------------------------------------------
+Words: 141
+Strongest cultural domain: Politics And Justice (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Mathematical Structure: 3
+- Life And Consciousness: 3
+- Moral Response: 3
+- Physical Order: 2
+- Meaning And Logos: 2
+- Worship And Community: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
 
 toward_a_physical_cultural_studies_c7ceaba2fc00.md
 --------------------------------------------------
@@ -4403,6 +4500,29 @@ Practical domain applications:
 comparative_museology_and_cross_cultural_heritage_management_emerging_paradigms_8da802a54a45.md
 -----------------------------------------------------------------------------------------------
 Words: 141
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Life And Consciousness: 3
+- Meaning And Logos: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Moral Response: 2
+- Transformation: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+- Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
+
+constituting_religion_69b4e11a2def.md
+-------------------------------------
+Words: 138
 Strongest cultural domain: Science And Discovery (2)
 Meaning confidence: word-level signal only
 Meaning arc:
@@ -4885,6 +5005,30 @@ Practical domain applications:
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 - Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
 
+monocropping_cultures_into_ruin_the_loss_of_food_varieties_and_cultural_diversit_9cdc24bef277.md
+------------------------------------------------------------------------------------------------
+Words: 144
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Alienation And Lament (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Life And Consciousness: 3
+- Meaning And Logos: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Moral Response: 2
+- Transformation: 2
+Practical theology applications:
+- Make room for honest lament: name grief without rushing to easy answers, especially in counseling, prayer, music, and community care.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+- Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
+
 ontological_anthropology_and_the_deferral_of_critique_0eb22ee7633a.md
 ---------------------------------------------------------------------
 Words: 142
@@ -5341,6 +5485,27 @@ Practical theology applications:
 Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+
+an_ai_based_oct_system_to_detect_diabetic_macular_edema_a_prospective_validation_055f480fd25f.md
+------------------------------------------------------------------------------------------------
+Words: 143
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Mathematical Structure: 4
+- Physical Order: 2
+- Life And Consciousness: 2
+- Meaning And Logos: 2
+- Moral Response: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
 
 artificial_intelligence_ethics_guidelines_for_developers_and_users_clarifying_th_bb6cdf872a55.md
