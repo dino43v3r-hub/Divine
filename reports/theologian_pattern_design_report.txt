@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 226
-Total theologian words analyzed: 44,366
+Theologian documents analyzed: 227
+Total theologian words analyzed: 44,514
 
 Era Coverage
 ------------
@@ -25,7 +25,7 @@ Concept Coverage
 - Christology: 219
 - Theodicy And Suffering: 198
 - Creation: 166
-- Pneumatology: 164
+- Pneumatology: 165
 - Grace And Transformation: 110
 - Church And Practice: 102
 - Justice And Public Life: 96
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 1,374
+- Father: 1,379
 - Son: 273
-- Holy Spirit: 317
+- Holy Spirit: 319
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 166 | broader corpus 2,662
-- Mathematical Structure: theologians 4 | broader corpus 642
-- Mathematical Theophany: theologians 250 | broader corpus 1,258
+- Physical Order: theologians 166 | broader corpus 2,657
+- Mathematical Structure: theologians 4 | broader corpus 639
+- Mathematical Theophany: theologians 250 | broader corpus 1,257
 - Quantum Probability: theologians 2 | broader corpus 172
-- Life And Consciousness: theologians 609 | broader corpus 6,218
-- Meaning And Logos: theologians 113 | broader corpus 6,123
-- Moral Response: theologians 116 | broader corpus 2,488
-- Worship And Community: theologians 191 | broader corpus 1,634
-- Transformation: theologians 401 | broader corpus 2,229
+- Life And Consciousness: theologians 612 | broader corpus 6,199
+- Meaning And Logos: theologians 113 | broader corpus 6,094
+- Moral Response: theologians 116 | broader corpus 2,470
+- Worship And Community: theologians 191 | broader corpus 1,619
+- Transformation: theologians 402 | broader corpus 2,218
 
 Per-Source Findings
 -------------------
@@ -920,6 +920,17 @@ Meaning arc:
 - Opening: Creation And Order (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+fakery_and_wealth_in_african_charismatic_christianity_moving_beyond_the_prosperi_64cd2701a116.md
+------------------------------------------------------------------------------------------------
+Words: 148
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 fethullah_g_len_s_teaching_and_practice_75d640af9788.md
 -------------------------------------------------------

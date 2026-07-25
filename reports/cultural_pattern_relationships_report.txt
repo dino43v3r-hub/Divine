@@ -9,16 +9,16 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 272
-Total cultural words analyzed: 39,596
+Cultural documents analyzed: 274
+Total cultural words analyzed: 39,876
 
 Cultural Domains
 ----------------
-- Science And Discovery: 558
+- Science And Discovery: 562
 - Politics And Justice: 303
-- History And Memory: 198
-- Technology And AI: 163
-- Psychology And Human Behavior: 125
+- History And Memory: 199
+- Technology And AI: 164
+- Psychology And Human Behavior: 126
 - Family And Community: 59
 - Global Text Traditions: 56
 - Health And Suffering: 53
@@ -26,20 +26,20 @@ Cultural Domains
 - Economics And Work: 37
 - World Languages: 36
 - Education And Formation: 32
-- Ecology And Creation Care: 22
+- Ecology And Creation Care: 23
 - Visual Art And Iconography: 13
 - Biblical Greek And Hebrew: 1
 
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 1,334
+- Father: 1,344
 - Son: 16
 - Holy Spirit: 2
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 292
+- Desire And Longing: 294
 - Moral Confrontation: 159
 - Creation And Order: 45
 - Communal Practice: 43
@@ -48,15 +48,15 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 601 | religious/science corpus 2,662
-- Mathematical Structure: cultural inputs 724 | religious/science corpus 642
-- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,258
+- Physical Order: cultural inputs 606 | religious/science corpus 2,657
+- Mathematical Structure: cultural inputs 729 | religious/science corpus 639
+- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,257
 - Quantum Probability: cultural inputs 1 | religious/science corpus 172
-- Life And Consciousness: cultural inputs 809 | religious/science corpus 6,218
-- Meaning And Logos: cultural inputs 969 | religious/science corpus 6,123
-- Moral Response: cultural inputs 1,075 | religious/science corpus 2,488
-- Worship And Community: cultural inputs 588 | religious/science corpus 1,634
-- Transformation: cultural inputs 541 | religious/science corpus 2,229
+- Life And Consciousness: cultural inputs 816 | religious/science corpus 6,199
+- Meaning And Logos: cultural inputs 974 | religious/science corpus 6,094
+- Moral Response: cultural inputs 1,079 | religious/science corpus 2,470
+- Worship And Community: cultural inputs 588 | religious/science corpus 1,619
+- Transformation: cultural inputs 544 | religious/science corpus 2,218
 
 Per-Domain Findings
 -------------------
@@ -3716,6 +3716,29 @@ Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 
+the_transformation_of_land_tenure_in_lesotho_494f7987d563.md
+------------------------------------------------------------
+Words: 139
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Physical Order: 3
+- Life And Consciousness: 3
+- Meaning And Logos: 3
+- Moral Response: 3
+- Transformation: 3
+- Mathematical Structure: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Connect creation order to stewardship: beauty and interdependence should lead to responsibility.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
 wom_b_an_a_cultural_narrative_reading_of_the_hebrew_bible_barrenness_narratives_d1f6276e5761.md
 -----------------------------------------------------------------------------------------------
 Words: 145
@@ -5737,6 +5760,27 @@ Layer interpretation:
 - Life And Consciousness: 2
 - Meaning And Logos: 2
 - Moral Response: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+
+human_cloning_and_human_dignity_the_report_of_the_president_s_council_on_bioethi_7ad761b912ad.md
+------------------------------------------------------------------------------------------------
+Words: 141
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Life And Consciousness: 4
+- Mathematical Structure: 3
+- Physical Order: 2
+- Meaning And Logos: 2
+- Moral Response: 1
 Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 Practical domain applications:

@@ -11,8 +11,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 2,258
-Dedicated synthesis documents: 1,130
+Total documents across all lanes: 2,285
+Dedicated synthesis documents: 1,150
 Active divine-pattern layers: 9 of 9
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
@@ -21,39 +21,39 @@ Coverage note: these are coverage-map signals. A language family or tradition is
 
 Interpretive Lenses
 -------------------
-- Psychological Process: 1,336
-- Historical Context: 1,239
-- Counter-Reading: 1,133
-- Language Semantics: 954
+- Psychological Process: 1,341
+- Historical Context: 1,252
+- Counter-Reading: 1,154
+- Language Semantics: 994
 - Ethical Consequence: 658
 - Embodied Practice: 610
-- Original-Language Witness: 467
-- Theological Resonance: 467
-- Visual Symbol: 310
-- Surface Vocabulary: 219
+- Original-Language Witness: 471
+- Theological Resonance: 469
+- Visual Symbol: 315
+- Surface Vocabulary: 228
 
 Dedicated Synthesis Domains
 ---------------------------
-- Science And Discovery: 2,474
-- Global Text Traditions: 1,536
-- Psychology And Human Behavior: 1,378
-- History And Memory: 1,377
-- Art And Beauty: 1,125
-- World Languages: 1,098
-- Politics And Justice: 705
-- Biblical Greek And Hebrew: 486
+- Science And Discovery: 2,524
+- Global Text Traditions: 1,565
+- History And Memory: 1,391
+- Psychology And Human Behavior: 1,383
+- Art And Beauty: 1,144
+- World Languages: 1,140
+- Politics And Justice: 708
+- Biblical Greek And Hebrew: 490
+- Visual Art And Iconography: 319
 - Health And Suffering: 315
-- Visual Art And Iconography: 314
+- Education And Formation: 297
 - Family And Community: 297
-- Education And Formation: 296
-- Ecology And Creation Care: 165
+- Ecology And Creation Care: 166
 - Economics And Work: 99
 - Technology And AI: 62
 
 Language Family Coverage
 ------------------------
-- Afro-Asiatic: mapped (223)
-- Indo-European: mapped (290)
+- Afro-Asiatic: mapped (226)
+- Indo-European: mapped (296)
 - Sino-Tibetan: mapped (43)
 - Niger-Congo: mapped (46)
 - Austronesian: mapped (28)
@@ -71,57 +71,57 @@ Language Family Coverage
 
 Text Tradition Coverage
 -----------------------
-- Sacred Scripture: mapped (139)
+- Sacred Scripture: mapped (150)
 - Wisdom And Proverbs: mapped (134)
 - Epic And Myth: mapped (35)
-- Philosophy And Ethics: mapped (114)
+- Philosophy And Ethics: mapped (115)
 - Law And Covenant: mapped (344)
 - Poetry And Lament: mapped (141)
-- Ritual And Liturgy: mapped (194)
-- History And Chronicle: mapped (671)
-- Oral Tradition And Folklore: mapped (384)
+- Ritual And Liturgy: mapped (195)
+- History And Chronicle: mapped (682)
+- Oral Tradition And Folklore: mapped (386)
 - Commentary And Interpretation: mapped (66)
-- Modern Literature: mapped (55)
-- Human Story And Testimony: mapped (347)
+- Modern Literature: mapped (56)
+- Human Story And Testimony: mapped (348)
 
 Layer Convergence Across All Sources
 ------------------------------------
-- Physical Order: 6,652 (high internal signal)
-- Mathematical Structure: 4,279 (high internal signal)
-- Mathematical Theophany: 2,698 (high internal signal)
+- Physical Order: 6,704 (high internal signal)
+- Mathematical Structure: 4,331 (high internal signal)
+- Mathematical Theophany: 2,705 (high internal signal)
 - Quantum Probability: 217 (early signal)
-- Life And Consciousness: 12,707 (high internal signal)
-- Meaning And Logos: 16,624 (high internal signal)
-- Moral Response: 9,894 (high internal signal)
-- Worship And Community: 8,702 (high internal signal)
-- Transformation: 9,379 (high internal signal)
+- Life And Consciousness: 12,750 (high internal signal)
+- Meaning And Logos: 16,767 (high internal signal)
+- Moral Response: 9,937 (high internal signal)
+- Worship And Community: 8,793 (high internal signal)
+- Transformation: 9,426 (high internal signal)
 
 Meaning Movement Across All Sources
 -----------------------------------
-- Creation And Order: 8,553
-- Alienation And Lament: 2,542
-- Desire And Longing: 5,989
-- Moral Confrontation: 3,954
-- Communal Practice: 3,384
-- Transformation And Hope: 4,679
+- Creation And Order: 8,599
+- Alienation And Lament: 2,540
+- Desire And Longing: 6,017
+- Moral Confrontation: 3,911
+- Communal Practice: 3,380
+- Transformation And Hope: 4,669
 
 Synthesis Depth Results
 -----------------------
-- early synthesis signal: 529
-- contextual interpretation: 269
-- lens detected but still word-heavy: 208
-- multi-lens understanding: 70
+- early synthesis signal: 533
+- contextual interpretation: 279
+- lens detected but still word-heavy: 212
+- multi-lens understanding: 72
 - cross-layer synthesis: 54
 
 Comparative Validity Check
 --------------------------
 Comparative recurrence can support a broad human pattern of order, meaning, moral response, community, and transformation; it does not by itself validate the specifically Christian Trinitarian interpretation.
-- useful counter-reading, not validation: 251
+- useful counter-reading, not validation: 254
 - shared-human pattern signal: 30
 - strong shared-human pattern; Trinitarian claim still needs Christian sources: 22
 - explicit Trinitarian overlap; check source context: 17
 - Comparative Trinitarian signal: moderate Trinitarian signal
-- Father: 1,749
+- Father: 1,765
 - Son: 79
 - Holy Spirit: 53
 
@@ -139,10 +139,10 @@ Per-Lane Synthesis
 
 Visual Art
 ----------
-Files: 173
-Strongest lens: Counter-Reading (172)
-Strongest layer: Meaning And Logos (1,491)
-Strongest meaning context: Desire And Longing (197)
+Files: 177
+Strongest lens: Counter-Reading (176)
+Strongest layer: Meaning And Logos (1,514)
+Strongest meaning context: Desire And Longing (201)
 
 a_foreign_affair_billy_wilder_s_american_films_aaadb87d6219.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -852,6 +852,16 @@ Global coverage: starter global coverage map
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
+in_the_beginning_theories_and_images_of_creation_in_northern_europe_in_the_twelf_78835198f357.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 193
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What does the visual form communicate before any explanation is added?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
 index_5540f3e764a1.md
 ~~~~~~~~~~~~~~~~~~~~~
 Words: 135
@@ -960,12 +970,30 @@ Global coverage: starter global coverage map
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
+making_salvation_visible_rhetorical_and_visual_representations_of_martyrs_in_sal_466ca47d006c.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 143
+Meaning confidence: word-level signal only
+Synthesis depth: lens detected but still word-heavy
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
 matrix_thinking_an_adaptation_at_the_foundation_of_human_science_religion_and_ar_54d70dab9e37.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 145
 Meaning confidence: word-level signal only
 Synthesis depth: lens detected but still word-heavy
 Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
+may_i_be_a_sacrifice_for_my_grandchildren_transgenerational_transmission_and_wom_95a68b9bd880.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 146
+Meaning confidence: thin meaning signal
+Synthesis depth: lens detected but still word-heavy
+Global coverage: starter global coverage map
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
@@ -1066,6 +1094,15 @@ Synthesis questions:
 pride_pomp_and_circumstance_palace_court_and_household_in_assyria_879_612_bce_1c121578e720.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 146
+Meaning confidence: thin meaning signal
+Synthesis depth: lens detected but still word-heavy
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
+protestant_theologies_and_the_problem_of_sacred_space_461d7939b9fd.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 145
 Meaning confidence: thin meaning signal
 Synthesis depth: lens detected but still word-heavy
 Global coverage: no global-language coverage yet
@@ -1738,10 +1775,10 @@ Synthesis questions:
 
 History
 -------
-Files: 139
-Strongest lens: Historical Context (870)
-Strongest layer: Moral Response (1,747)
-Strongest meaning context: Desire And Longing (158)
+Files: 140
+Strongest lens: Historical Context (874)
+Strongest layer: Moral Response (1,752)
+Strongest meaning context: Desire And Longing (159)
 
 05_28_23_sermon_piece_of_my_heart_rev_t_j_fitzgerald_da9f626e9591.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2116,6 +2153,16 @@ Synthesis questions:
 fully_committed_suicide_bombers_motivation_and_the_quest_for_personal_significan_faa7e315ae1c.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 140
+Meaning confidence: word-level signal only
+Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+- How does the pattern change when placed in its historical conflict, memory, and consequence?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
+gender_inequality_in_the_church_addressing_patriarchy_within_the_liturgical_spac_1113e4acdec9.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 146
 Meaning confidence: word-level signal only
 Synthesis depth: early synthesis signal
 Global coverage: starter global coverage map
@@ -3185,10 +3232,10 @@ Synthesis questions:
 
 World Languages
 ---------------
-Files: 175
-Strongest lens: Language Semantics (481)
-Strongest layer: Meaning And Logos (1,501)
-Strongest meaning context: Creation And Order (592)
+Files: 185
+Strongest lens: Language Semantics (518)
+Strongest layer: Meaning And Logos (1,613)
+Strongest meaning context: Creation And Order (627)
 
 a_comparative_study_between_human_translation_and_machine_translation_in_arabic_888bd3b54851.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3209,6 +3256,15 @@ Global coverage: starter global coverage map
 Synthesis questions:
 - What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
 - What responsibility, justice, mercy, or repair does this pattern call for?
+
+a_handbook_for_african_mother_tongue_bible_translators_e5486220e2b5.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 248
+Meaning confidence: plausible meaning pattern
+Synthesis depth: multi-lens understanding
+Global coverage: starter global coverage map
+Synthesis questions:
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
 
 a_new_model_of_metaphorization_case_semantics_in_east_caucasian_83fc2bf2c129.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3363,6 +3419,15 @@ Synthesis depth: early synthesis signal
 Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
+
+an_alternative_starting_place_for_an_indigenous_theology_4a559c06ea51.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 197
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What responsibility, justice, mercy, or repair does this pattern call for?
 
 an_analysis_of_material_consumption_culture_in_the_muslim_world_72bc73f7f6d3.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3598,6 +3663,16 @@ Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
+classical_languages_and_translation_4ec01284bca5.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 194
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
+Synthesis questions:
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
 classroom_exercise_interpreting_sacred_texts_319a5e3ae289.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 168
@@ -3722,6 +3797,17 @@ Meaning confidence: thin meaning signal
 Synthesis depth: early synthesis signal
 Global coverage: starter global coverage map
 Synthesis questions:
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
+from_missionary_translation_to_local_theological_inquiry_a_narrative_history_of_2c65ea27bba0.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 252
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
+Synthesis questions:
+- How does the pattern change when placed in its historical conflict, memory, and consequence?
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
 - What responsibility, justice, mercy, or repair does this pattern call for?
 
 from_strength_to_strength_toward_a_theology_of_african_american_christian_consci_796006368926.md
@@ -3894,6 +3980,16 @@ Synthesis depth: early synthesis signal
 Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
+
+language_and_translation_of_the_old_testament_be204b833855.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 193
+Meaning confidence: plausible meaning pattern
+Synthesis depth: multi-lens understanding
+Global coverage: starter global coverage map
+Synthesis questions:
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
+- Does the original-language evidence support the theological claim, or only suggest a possible reading?
 
 language_law_and_social_meanings_linguistic_anthropological_contributions_to_the_14fbe75380c5.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4094,6 +4190,15 @@ Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
+oral_theology_and_christian_oral_tradition_challenge_to_our_traditional_archival_03242a39dbc4.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 143
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
 pdf_metaphor_and_cultural_models_in_translation_researchgate_be9c297062dc.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 188
@@ -4127,6 +4232,15 @@ Words: 130
 Meaning confidence: thin meaning signal
 Synthesis depth: early synthesis signal
 Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
+recalibrating_biblical_discourse_into_african_74a0d01853f2.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 190
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
@@ -4322,6 +4436,15 @@ Global coverage: starter global coverage map
 Synthesis questions:
 - What responsibility, justice, mercy, or repair does this pattern call for?
 
+the_algonquin_bible_the_first_translation_into_an_indigenous_c47faf6534a7.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 212
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
+Synthesis questions:
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
 the_basic_grammar_of_theology_97d5eebfe4f9.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 134
@@ -4367,6 +4490,15 @@ Synthesis depth: early synthesis signal
 Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
+
+the_earliest_history_of_the_christian_gathering_d12e7b2deccd.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 143
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
+Synthesis questions:
+- What responsibility, justice, mercy, or repair does this pattern call for?
 
 the_emergence_and_trajectories_of_struggles_for_an_african_university_the_case_o_d31ed4655505.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4642,6 +4774,17 @@ Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
+words_that_changed_history_famous_translation_errors_that_shaped_our_world_c68a42c6baec.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 248
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
+Synthesis questions:
+- How does the pattern change when placed in its historical conflict, memory, and consequence?
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
 world_christianity_as_post_colonialising_of_theology_b994f89e1931.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 137
@@ -4805,10 +4948,10 @@ Synthesis questions:
 
 Biblical Greek And Hebrew
 -------------------------
-Files: 121
-Strongest lens: Original-Language Witness (366)
-Strongest layer: Meaning And Logos (1,120)
-Strongest meaning context: Creation And Order (191)
+Files: 123
+Strongest lens: Original-Language Witness (367)
+Strongest layer: Meaning And Logos (1,130)
+Strongest meaning context: Creation And Order (193)
 
 10_the_annunciation_and_the_senses_ruach_pneuma_odour_b1bcc53db3e5.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -5502,6 +5645,15 @@ Synthesis questions:
 - What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
 - Does the original-language evidence support the theological claim, or only suggest a possible reading?
 
+second_declension_the_definite_article_and_prepositions_654d1641a656.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 145
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
 semantics_and_discourse_pragmatics_of_the_biblical_hebrew_verbal_system_8aadd85e7fa6.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 147
@@ -5594,6 +5746,15 @@ Words: 195
 Meaning confidence: plausible meaning pattern
 Synthesis depth: lens detected but still word-heavy
 Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
+the_basic_phrase_types_of_biblical_hebrew_ae4004db3156.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 143
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
@@ -5973,9 +6134,9 @@ Synthesis questions:
 
 All Texts
 ---------
-Files: 90
+Files: 91
 Strongest lens: Embodied Practice (128)
-Strongest layer: Meaning And Logos (1,151)
+Strongest layer: Meaning And Logos (1,157)
 Strongest meaning context: Creation And Order (141)
 
 39_uplifting_bible_verses_about_true_enduring_hope_21088724deb1.md
@@ -6744,6 +6905,16 @@ theoretical_foundations_and_a_transdisciplinary_concept_of_hope_2f5d6e5716e0.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 140
 Meaning confidence: thin meaning signal
+Synthesis depth: lens detected but still word-heavy
+Global coverage: no global-language coverage yet
+Synthesis questions:
+Comparative validity: useful counter-reading, not validation
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
+translating_religion_988c133a999f.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 133
+Meaning confidence: word-level signal only
 Synthesis depth: lens detected but still word-heavy
 Global coverage: no global-language coverage yet
 Synthesis questions:
@@ -9992,10 +10163,10 @@ Comparative validity: shared-human pattern signal
 
 Modern Literature
 -----------------
-Files: 88
-Strongest lens: Language Semantics (100)
-Strongest layer: Meaning And Logos (555)
-Strongest meaning context: Desire And Longing (98)
+Files: 89
+Strongest lens: Language Semantics (101)
+Strongest layer: Meaning And Logos (560)
+Strongest meaning context: Desire And Longing (99)
 
 6_grace_conversion_and_freedom_a702ccc605cb.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -10356,6 +10527,16 @@ Global coverage: no global-language coverage yet
 Synthesis questions:
 Comparative validity: shared-human pattern signal
 - What responsibility, justice, mercy, or repair does this pattern call for?
+
+narrative_paths_african_travel_in_modern_fiction_and_nonfiction_a76cce0fc615.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 141
+Meaning confidence: word-level signal only
+Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+Comparative validity: useful counter-reading, not validation
+- What context beyond repeated words would make this interpretation stronger or weaker?
 
 narrative_topographies_and_the_geographies_of_conversion_f2a04d8d2530.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -10883,10 +11064,10 @@ Comparative validity: strong shared-human pattern; Trinitarian claim still needs
 
 Human Stories
 -------------
-Files: 60
-Strongest lens: Psychological Process (64)
-Strongest layer: Meaning And Logos (346)
-Strongest meaning context: Creation And Order (124)
+Files: 61
+Strongest lens: Psychological Process (66)
+Strongest layer: Meaning And Logos (351)
+Strongest meaning context: Creation And Order (126)
 
 275_spiritual_discernment_and_religious_experience_10cb1818689b.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -11443,6 +11624,16 @@ Comparative validity: useful counter-reading, not validation
 what_young_indians_want_india_tomorrow_part_6_podcast_transcript_7c3576b14765.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 190
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
+Synthesis questions:
+Comparative validity: useful counter-reading, not validation
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
+witch_tourism_is_empowering_exploring_female_empowerment_through_active_engageme_f3d77f6a1759.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 198
 Meaning confidence: thin meaning signal
 Synthesis depth: contextual interpretation
 Global coverage: starter global coverage map
