@@ -9,15 +9,15 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 278
-Total cultural words analyzed: 40,419
+Cultural documents analyzed: 279
+Total cultural words analyzed: 40,554
 
 Cultural Domains
 ----------------
-- Science And Discovery: 570
+- Science And Discovery: 572
 - Politics And Justice: 305
 - History And Memory: 201
-- Technology And AI: 166
+- Technology And AI: 167
 - Psychology And Human Behavior: 127
 - Family And Community: 59
 - Global Text Traditions: 56
@@ -33,13 +33,13 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 1,364
+- Father: 1,369
 - Son: 16
 - Holy Spirit: 2
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 298
+- Desire And Longing: 299
 - Moral Confrontation: 160
 - Creation And Order: 45
 - Communal Practice: 43
@@ -48,15 +48,15 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 614 | religious/science corpus 2,660
-- Mathematical Structure: cultural inputs 739 | religious/science corpus 640
-- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,256
+- Physical Order: cultural inputs 616 | religious/science corpus 2,656
+- Mathematical Structure: cultural inputs 742 | religious/science corpus 641
+- Mathematical Theophany: cultural inputs 12 | religious/science corpus 1,272
 - Quantum Probability: cultural inputs 1 | religious/science corpus 174
-- Life And Consciousness: cultural inputs 825 | religious/science corpus 6,210
-- Meaning And Logos: cultural inputs 984 | religious/science corpus 6,106
-- Moral Response: cultural inputs 1,087 | religious/science corpus 2,478
-- Worship And Community: cultural inputs 590 | religious/science corpus 1,617
-- Transformation: cultural inputs 548 | religious/science corpus 2,237
+- Life And Consciousness: cultural inputs 827 | religious/science corpus 6,228
+- Meaning And Logos: cultural inputs 986 | religious/science corpus 6,110
+- Moral Response: cultural inputs 1,088 | religious/science corpus 2,485
+- Worship And Community: cultural inputs 590 | religious/science corpus 1,618
+- Transformation: cultural inputs 548 | religious/science corpus 2,220
 
 Per-Domain Findings
 -------------------
@@ -6501,6 +6501,27 @@ Practical domain applications:
 recognizing_animal_personhood_in_compassionate_conservation_3356ad5529cc.md
 ---------------------------------------------------------------------------
 Words: 136
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Mathematical Structure: 3
+- Physical Order: 2
+- Life And Consciousness: 2
+- Meaning And Logos: 2
+- Moral Response: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+
+research_ethics_101_dilemmas_and_responsibilities_040f7cdb4d88.md
+-----------------------------------------------------------------
+Words: 135
 Strongest cultural domain: Science And Discovery (2)
 Meaning confidence: word-level signal only
 Meaning arc:

@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
-  <title id="title">Daily Divine Pattern Image: Cross and Reversal</title>
+  <title id="title">Daily Divine Pattern Image: Creation to Consciousness</title>
   <desc id="desc">A daily visual summary connected to the current Divine Pattern findings.</desc>
   <style>
-    .eyebrow { font: 700 15px Arial, sans-serif; letter-spacing: 0; fill: #2d3348; opacity: 0.72; }
-    .title { font: 700 45px Georgia, serif; letter-spacing: 0; fill: #2d3348; }
-    .subtitle { font: 700 22px Arial, sans-serif; letter-spacing: 0; fill: #8f2d3f; }
-    .body { font: 18px Arial, sans-serif; letter-spacing: 0; fill: #2d3348; }
-    .small { font: 14px Arial, sans-serif; letter-spacing: 0; fill: #2d3348; opacity: 0.78; }
+    .eyebrow { font: 700 15px Arial, sans-serif; letter-spacing: 0; fill: #243b2f; opacity: 0.72; }
+    .title { font: 700 45px Georgia, serif; letter-spacing: 0; fill: #243b2f; }
+    .subtitle { font: 700 22px Arial, sans-serif; letter-spacing: 0; fill: #6e9a74; }
+    .body { font: 18px Arial, sans-serif; letter-spacing: 0; fill: #243b2f; }
+    .small { font: 14px Arial, sans-serif; letter-spacing: 0; fill: #243b2f; opacity: 0.78; }
     .node { font: 700 16px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; }
   </style>
-  <rect width="1000" height="520" fill="#f2f0ec"/>
+  <rect width="1000" height="520" fill="#eef3ed"/>
   <rect x="38" y="34" width="924" height="452" rx="22" fill="#ffffff" opacity="0.50"/>
-  <rect x="748" y="46" width="178" height="178" rx="14" fill="#5f8f70" opacity="0.31"/>
-  <path d="M72 420 C190 388 288 452 406 418 C530 382 620 452 746 416 C828 392 884 400 928 424" fill="none" stroke="#d0a44c" stroke-width="9" opacity="0.18"/>
-  <text x="72" y="82" class="eyebrow">Daily pattern image | July 26, 2026</text>
-  <text x="72" y="132" class="title">Cross and Reversal</text>
-  <text x="72" y="246" class="subtitle">Power judged by mercy</text>
-  <text x="96" y="158" class="body">God reveals holy love by reversing coercive power through the cross; the faithful</text><text x="96" y="186" class="body">response is truth-telling, humble repentance, justice for harmed people, patient repair,</text><text x="96" y="214" class="body">and faithful mercy without denial.</text>
-  <line x1="200" y1="352" x2="268" y2="286" stroke="#2d3348" stroke-width="4" opacity="0.28"/><line x1="376" y1="286" x2="444" y2="352" stroke="#2d3348" stroke-width="4" opacity="0.28"/><line x1="552" y1="352" x2="620" y2="286" stroke="#2d3348" stroke-width="4" opacity="0.28"/><line x1="728" y1="286" x2="796" y2="352" stroke="#2d3348" stroke-width="4" opacity="0.28"/>
-  <circle cx="146" cy="352" r="50" fill="#8f2d3f" opacity="0.94"/><circle cx="146" cy="352" r="62" fill="none" stroke="#2d3348" stroke-width="2" opacity="0.25"/><text x="146" y="358" text-anchor="middle" class="node">Mercy</text><circle cx="322" cy="286" r="50" fill="#d0a44c" opacity="0.94"/><circle cx="322" cy="286" r="62" fill="none" stroke="#2d3348" stroke-width="2" opacity="0.25"/><text x="322" y="292" text-anchor="middle" class="node">Hope</text><circle cx="498" cy="352" r="50" fill="#5f8f70" opacity="0.94"/><circle cx="498" cy="352" r="62" fill="none" stroke="#2d3348" stroke-width="2" opacity="0.25"/><text x="498" y="358" text-anchor="middle" class="node">Power</text><circle cx="674" cy="286" r="50" fill="#8f2d3f" opacity="0.94"/><circle cx="674" cy="286" r="62" fill="none" stroke="#2d3348" stroke-width="2" opacity="0.25"/><text x="674" y="292" text-anchor="middle" class="node">Humility</text><circle cx="850" cy="352" r="50" fill="#d0a44c" opacity="0.94"/><circle cx="850" cy="352" r="62" fill="none" stroke="#2d3348" stroke-width="2" opacity="0.25"/><text x="850" y="358" text-anchor="middle" class="node">Truth</text>
-  <rect x="72" y="430" width="856" height="44" rx="18" fill="#2d3348" opacity="0.08"/>
-  <text x="96" y="450" class="small">Today I am reading through the lens of ordinary life: Where would this show up before anyone calls it theology?</text>
+  <circle cx="880" cy="108" r="122" fill="#416a8b" opacity="0.34"/>
+  <path d="M72 420 C190 388 288 452 406 418 C530 382 620 452 746 416 C828 392 884 400 928 424" fill="none" stroke="#c47a43" stroke-width="9" opacity="0.18"/>
+  <text x="72" y="82" class="eyebrow">Daily pattern image | July 27, 2026</text>
+  <text x="72" y="132" class="title">Creation to Consciousness</text>
+  <text x="72" y="246" class="subtitle">Order becoming responsibility</text>
+  <text x="96" y="158" class="body">God gives ordered creation, life, consciousness, and moral awareness as gifts; the faithful</text><text x="96" y="186" class="body">response is humble wonder, truthful stewardship, just care for bodies and creation,</text><text x="96" y="214" class="body">patient learning, and worshipful faithfulness.</text>
+  <line x1="200" y1="352" x2="268" y2="286" stroke="#243b2f" stroke-width="4" opacity="0.28"/><line x1="376" y1="286" x2="444" y2="352" stroke="#243b2f" stroke-width="4" opacity="0.28"/><line x1="552" y1="352" x2="620" y2="286" stroke="#243b2f" stroke-width="4" opacity="0.28"/><line x1="728" y1="286" x2="796" y2="352" stroke="#243b2f" stroke-width="4" opacity="0.28"/>
+  <circle cx="146" cy="352" r="50" fill="#6e9a74" opacity="0.94"/><circle cx="146" cy="352" r="62" fill="none" stroke="#243b2f" stroke-width="2" opacity="0.25"/><text x="146" y="358" text-anchor="middle" class="node">Worship</text><circle cx="322" cy="286" r="50" fill="#c47a43" opacity="0.94"/><circle cx="322" cy="286" r="62" fill="none" stroke="#243b2f" stroke-width="2" opacity="0.25"/><text x="322" y="292" text-anchor="middle" class="node">Order</text><circle cx="498" cy="352" r="50" fill="#416a8b" opacity="0.94"/><circle cx="498" cy="352" r="62" fill="none" stroke="#243b2f" stroke-width="2" opacity="0.25"/><text x="498" y="358" text-anchor="middle" class="node">Life</text><circle cx="674" cy="286" r="50" fill="#6e9a74" opacity="0.94"/><circle cx="674" cy="286" r="62" fill="none" stroke="#243b2f" stroke-width="2" opacity="0.25"/><text x="674" y="292" text-anchor="middle" class="node">Mind</text><circle cx="850" cy="352" r="50" fill="#c47a43" opacity="0.94"/><circle cx="850" cy="352" r="62" fill="none" stroke="#243b2f" stroke-width="2" opacity="0.25"/><text x="850" y="358" text-anchor="middle" class="node">Moral</text>
+  <rect x="72" y="430" width="856" height="44" rx="18" fill="#243b2f" opacity="0.08"/>
+  <text x="96" y="450" class="small">Today I am reading through the lens of pastoral safety: Could this be spoken gently beside someone who is hurting?</text>
 </svg>
