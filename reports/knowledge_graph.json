@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 15791,
+  "edge_count": 15893,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -1809,6 +1809,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_reality_in_worship_a502dc210891_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_reality_in_worship_a502dc210891_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_reality_in_worship_a502dc210891_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_reality_in_worship_a502dc210891_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_reality_in_worship_a502dc210891_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_sanctification_explorations_in_theology_and_practice_ffc13",
       "target": "lane:research_documents"
     },
@@ -4804,6 +4829,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_from_divine_absence_to_eternal_presence_reframing_the_jeremianic_templ",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_from_divine_absence_to_eternal_presence_reframing_the_jeremianic_templ",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_from_divine_absence_to_eternal_presence_reframing_the_jeremianic_templ",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_from_divine_absence_to_eternal_presence_reframing_the_jeremianic_templ",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_from_divine_absence_to_eternal_presence_reframing_the_jeremianic_templ",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_god_meets_us_in_our_suffering_hope_and_encouragement_for_those_journey",
       "target": "lane:research_documents"
     },
@@ -5020,6 +5070,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_home_interdisciplinary_humanities_collins_memorial_library_at_universi",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_hope_in_the_midst_of_suffering_extremism_violence_and_planetary_crisis",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_hope_in_the_midst_of_suffering_extremism_violence_and_planetary_crisis",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_hope_in_the_midst_of_suffering_extremism_violence_and_planetary_crisis",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_hope_in_the_midst_of_suffering_extremism_violence_and_planetary_crisis",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_hope_in_the_midst_of_suffering_extremism_violence_and_planetary_crisis",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_hope_in_the_midst_of_suffering_extremism_violence_and_planetary_crisis",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -8100,6 +8180,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_the_conflict_of_the_faculties_perspectives_on_artistic_research_and_ac",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_current_master_conflict_in_the_world_is_geopolitical_and_ideology_",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_current_master_conflict_in_the_world_is_geopolitical_and_ideology_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_current_master_conflict_in_the_world_is_geopolitical_and_ideology_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_current_master_conflict_in_the_world_is_geopolitical_and_ideology_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_current_master_conflict_in_the_world_is_geopolitical_and_ideology_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -10276,6 +10381,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -29474,6 +29584,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_a_rude_awakening_divine_disruption_and_human_dynamics_in_revival_and_spiritua",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_a_rude_awakening_divine_disruption_and_human_dynamics_in_revival_and_spiritua",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_a_rude_awakening_divine_disruption_and_human_dynamics_in_revival_and_spiritua",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_a_rude_awakening_divine_disruption_and_human_dynamics_in_revival_and_spiritua",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_a_rude_awakening_divine_disruption_and_human_dynamics_in_revival_and_spiritua",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_a_rude_awakening_divine_disruption_and_human_dynamics_in_revival_and_spiritua",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_a_trinitarian_theology_of_suffering_elizabeth_lewis_hall_b93bf164e9aa_md",
       "target": "lane:theologians"
     },
@@ -29590,6 +29730,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_action_research_as_a_way_of_doing_theology_art_transforming_my_practice_of_pr",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_analysis_of_sallie_mcfague_s_metaphorical_theology_with_special_reference_",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_analysis_of_sallie_mcfague_s_metaphorical_theology_with_special_reference_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_analysis_of_sallie_mcfague_s_metaphorical_theology_with_special_reference_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_analysis_of_sallie_mcfague_s_metaphorical_theology_with_special_reference_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_analysis_of_sallie_mcfague_s_metaphorical_theology_with_special_reference_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -33610,6 +33775,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_practical_theology_introduction_youtube_f5678bbd941b_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_praying_for_the_holy_spirit_26f675b901f6_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_praying_for_the_holy_spirit_26f675b901f6_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_praying_for_the_holy_spirit_26f675b901f6_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_praying_for_the_holy_spirit_26f675b901f6_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_praying_for_the_holy_spirit_26f675b901f6_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -38900,6 +39090,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_landscapes_of_european_memory_lt_em_gt_biodiversity_and_collective_remembr",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_liturgy_and_theological_method_in_the_scottish_episcopal_church_b43be5f7c9",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_liturgy_and_theological_method_in_the_scottish_episcopal_church_b43be5f7c9",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_liturgy_and_theological_method_in_the_scottish_episcopal_church_b43be5f7c9",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_liturgy_and_theological_method_in_the_scottish_episcopal_church_b43be5f7c9",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_liturgy_and_theological_method_in_the_scottish_episcopal_church_b43be5f7c9",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -44894,6 +45109,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_introduction_406bf94cf54e_md",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_introduction_406bf94cf54e_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_introduction_406bf94cf54e_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_introduction_406bf94cf54e_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_introduction_406bf94cf54e_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_introduction_d1d780ec6099_md",
       "target": "lane:visual_art"
     },
@@ -46205,6 +46445,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:visual_art_auto_imported_cloud_candidates_show_us_your_god_marilla_baker_ingalls_and_the_power_of_religious_objects_in_n",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_simone_weil_the_ethics_of_affliction_and_the_aesthetics_of_attention_d8e693056",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_simone_weil_the_ethics_of_affliction_and_the_aesthetics_of_attention_d8e693056",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_simone_weil_the_ethics_of_affliction_and_the_aesthetics_of_attention_d8e693056",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_simone_weil_the_ethics_of_affliction_and_the_aesthetics_of_attention_d8e693056",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_simone_weil_the_ethics_of_affliction_and_the_aesthetics_of_attention_d8e693056",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -52944,6 +53209,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_in_defense_of_in_vitro_fertilization_time_to_get_involved_in_state_level_",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_in_defense_of_in_vitro_fertilization_time_to_get_involved_in_state_level_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_in_defense_of_in_vitro_fertilization_time_to_get_involved_in_state_level_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_in_defense_of_in_vitro_fertilization_time_to_get_involved_in_state_level_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_in_defense_of_in_vitro_fertilization_time_to_get_involved_in_state_level_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_index_785325e1b5e5_md",
       "target": "lane:cultural_inputs"
     },
@@ -53405,6 +53695,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_justice_mercy_and_caprice_9279ae7d8788_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_leading_toward_justice_intersections_of_religion_ethics_and_community_org",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_leading_toward_justice_intersections_of_religion_ethics_and_community_org",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_leading_toward_justice_intersections_of_religion_ethics_and_community_org",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_leading_toward_justice_intersections_of_religion_ethics_and_community_org",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_leading_toward_justice_intersections_of_religion_ethics_and_community_org",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -54710,6 +55025,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screen",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_engagement_aar_3d0f635c0c62_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_engagement_aar_3d0f635c0c62_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_engagement_aar_3d0f635c0c62_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_engagement_aar_3d0f635c0c62_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_public_engagement_aar_3d0f635c0c62_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -57080,6 +57420,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_toward_a_physical_cultural_studies_c7ceaba2fc00_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ubuntu_ethics_and_politics_b05aa9c48c83_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ubuntu_ethics_and_politics_b05aa9c48c83_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ubuntu_ethics_and_politics_b05aa9c48c83_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ubuntu_ethics_and_politics_b05aa9c48c83_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ubuntu_ethics_and_politics_b05aa9c48c83_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -67929,6 +68294,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_conversion_apostasy_and_modern_literature_brandeis_scholarworks_0d0e207",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_conversion_apostasy_and_modern_literature_brandeis_scholarworks_0d0e207",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_conversion_apostasy_and_modern_literature_brandeis_scholarworks_0d0e207",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_conversion_apostasy_and_modern_literature_brandeis_scholarworks_0d0e207",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_conversion_apostasy_and_modern_literature_brandeis_scholarworks_0d0e207",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_conversion_apostasy_and_modern_literature_brandeis_scholarworks_0d0e207",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_conversion_apostasy_and_modern_literature_brandeis_scholarworks_0d0e207",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_death_and_the_pearl_maiden_plague_poetry_england_7eba26c89e85_md",
       "target": "lane:modern_literature"
     },
@@ -68140,6 +68540,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_finite_and_infinite_games_25b880f68fbe_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_for_and_against_hope_introduction_hope_a_literary_history_638ff1a32f0e_",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_for_and_against_hope_introduction_hope_a_literary_history_638ff1a32f0e_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_for_and_against_hope_introduction_hope_a_literary_history_638ff1a32f0e_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_for_and_against_hope_introduction_hope_a_literary_history_638ff1a32f0e_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_for_and_against_hope_introduction_hope_a_literary_history_638ff1a32f0e_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -68420,6 +68845,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_john_milbank_s_theology_of_the_gift_and_calvin_s_theology_of_grace_a_cr",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_like_a_pitiful_mirage_various_writers_on_suffering_and_hope_richard_rab",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_like_a_pitiful_mirage_various_writers_on_suffering_and_hope_richard_rab",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_like_a_pitiful_mirage_various_writers_on_suffering_and_hope_richard_rab",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_like_a_pitiful_mirage_various_writers_on_suffering_and_hope_richard_rab",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_like_a_pitiful_mirage_various_writers_on_suffering_and_hope_richard_rab",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_like_a_pitiful_mirage_various_writers_on_suffering_and_hope_richard_rab",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -68925,6 +69380,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_philip_massinger_a_defence_of_drama_1626_e622c803a014_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_poetic_justice_poetic_justice_was_a_term_coined_by_thomas_rhymer_5ef3b6",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_poetic_justice_poetic_justice_was_a_term_coined_by_thomas_rhymer_5ef3b6",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_poetic_justice_poetic_justice_was_a_term_coined_by_thomas_rhymer_5ef3b6",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_poetic_justice_poetic_justice_was_a_term_coined_by_thomas_rhymer_5ef3b6",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_poetic_justice_poetic_justice_was_a_term_coined_by_thomas_rhymer_5ef3b6",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -70340,6 +70820,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_writing_literary_criticism_is_a_craft_that_requires_practical_skill_799",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_writing_the_christian_life_the_essence_of_spiritual_memoir_the_christia",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_writing_the_christian_life_the_essence_of_spiritual_memoir_the_christia",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_writing_the_christian_life_the_essence_of_spiritual_memoir_the_christia",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_writing_the_christian_life_the_essence_of_spiritual_memoir_the_christia",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_writing_the_christian_life_the_essence_of_spiritual_memoir_the_christia",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_writing_the_christian_life_the_essence_of_spiritual_memoir_the_christia",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -78959,7 +79469,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 2304,
+  "node_count": 2323,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -79689,6 +80199,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/book_review_pastoral_care_and_liberation_theology_8e1a6f80e69f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_book_review_reality_in_worship_a502dc210891_md",
+      "label": "Book Review: Reality in Worship",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/book_review_reality_in_worship_a502dc210891.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -80618,6 +81139,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_from_divine_absence_to_eternal_presence_reframing_the_jeremianic_templ",
+      "label": "From Divine Absence to Eternal Presence: Reframing the Jeremianic Temple-City Abandonment Motif from Its Ancient Near Eastern Roots to Its Fulfillment in Christ as the Ultimate Yahwistic Temple",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/from_divine_absence_to_eternal_presence_reframing_the_jeremianic_temple_city_aba_ce6e02bce977.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_god_meets_us_in_our_suffering_hope_and_encouragement_for_those_journey",
       "label": "God Meets us in Our Suffering: Hope and Encouragement for Those Journeying Through Cancer",
       "lane": "research_documents",
@@ -80690,6 +81222,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/home_interdisciplinary_humanities_collins_memorial_library_at_university_of_puge_d552215f29c4.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_hope_in_the_midst_of_suffering_extremism_violence_and_planetary_crisis",
+      "label": "Hope in the Midst of Suffering, Extremism, Violence, and Planetary Crisis",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/hope_in_the_midst_of_suffering_extremism_violence_and_planetary_crisis_cb67590f1f23.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -81680,6 +82223,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/the_conflict_of_the_faculties_perspectives_on_artistic_research_and_academia_cbafb6952a51.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_the_current_master_conflict_in_the_world_is_geopolitical_and_ideology_",
+      "label": "THE CURRENT MASTER CONFLICT IN THE WORLD IS GEOPOLITICAL, AND IDEOLOGY PLAYS MAINLY A PROPAGANDISTIC ROLE. IT IS ABOUT US AND WESTERN WORLD DOMINATION, ITS CONTINUATION OR ITS CHANGING INTO A MULTIPOLAR WORLD",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/the_current_master_conflict_in_the_world_is_geopolitical_and_ideology_plays_main_55641441b63f.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -88373,6 +88927,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_a_rude_awakening_divine_disruption_and_human_dynamics_in_revival_and_spiritua",
+      "label": "A rude awakening : divine disruption and human dynamics in revival and spiritual renewals",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/a_rude_awakening_divine_disruption_and_human_dynamics_in_revival_and_spiritual_r_25f6b1c87be9.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_a_trinitarian_theology_of_suffering_elizabeth_lewis_hall_b93bf164e9aa_md",
       "label": "A Trinitarian Theology of Suffering - Elizabeth Lewis Hall",
       "lane": "theologians",
@@ -88401,6 +88966,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/action_research_as_a_way_of_doing_theology_art_transforming_my_practice_of_preac_b50dcf5c7e07.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_an_analysis_of_sallie_mcfague_s_metaphorical_theology_with_special_reference_",
+      "label": "An Analysis of Sallie McFague's Metaphorical Theology With Special Reference To Gunton's Trinitarian Theology of Creation",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/an_analysis_of_sallie_mcfague_s_metaphorical_theology_with_special_reference_to_faf685c9f2d7.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -89754,6 +90330,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/practical_theology_introduction_youtube_f5678bbd941b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_praying_for_the_holy_spirit_26f675b901f6_md",
+      "label": "Praying for the Holy Spirit",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/praying_for_the_holy_spirit_26f675b901f6.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -91492,6 +92079,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "history_inputs/auto_imported_cloud_candidates/landscapes_of_european_memory_lt_em_gt_biodiversity_and_collective_remembrance_l_dec184675753.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_liturgy_and_theological_method_in_the_scottish_episcopal_church_b43be5f7c9",
+      "label": "Liturgy and Theological Method in the Scottish Episcopal Church",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/liturgy_and_theological_method_in_the_scottish_episcopal_church_b43be5f7c939.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -93378,6 +93976,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_introduction_406bf94cf54e_md",
+      "label": "Introduction",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/introduction_406bf94cf54e.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_introduction_d1d780ec6099_md",
       "label": "Introduction",
       "lane": "visual_art",
@@ -93813,6 +94422,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/show_us_your_god_marilla_baker_ingalls_and_the_power_of_religious_objects_in_nin_820fc7e162d5.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_simone_weil_the_ethics_of_affliction_and_the_aesthetics_of_attention_d8e693056",
+      "label": "Simone Weil: The Ethics of Affliction and the Aesthetics of Attention",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/simone_weil_the_ethics_of_affliction_and_the_aesthetics_of_attention_d8e693056a20.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -95853,6 +96473,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_in_defense_of_in_vitro_fertilization_time_to_get_involved_in_state_level_",
+      "label": "In defense of in vitro fertilization: time to get involved in state-level advocacy!",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/in_defense_of_in_vitro_fertilization_time_to_get_involved_in_state_level_advocac_dafcd79f81b5.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_index_785325e1b5e5_md",
       "label": "Index",
       "lane": "cultural_inputs",
@@ -95991,6 +96622,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/justice_mercy_and_caprice_9279ae7d8788.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_leading_toward_justice_intersections_of_religion_ethics_and_community_org",
+      "label": "Leading Toward Justice: Intersections of Religion, Ethics, and Community Organizing - YouTube",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/leading_toward_justice_intersections_of_religion_ethics_and_community_organizing_0c1967bbe4ed.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -96398,6 +97040,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/public_attitudes_interests_and_concerns_regarding_polygenic_embryo_screening_9a92ebcefaaf.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_public_engagement_aar_3d0f635c0c62_md",
+      "label": "Public Engagement - AAR",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/public_engagement_aar_3d0f635c0c62.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -97190,6 +97843,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/toward_a_physical_cultural_studies_c7ceaba2fc00.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ubuntu_ethics_and_politics_b05aa9c48c83_md",
+      "label": "Ubuntu Ethics and Politics",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/ubuntu_ethics_and_politics_b05aa9c48c83.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -100781,6 +101445,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_conversion_apostasy_and_modern_literature_brandeis_scholarworks_0d0e207",
+      "label": "Conversion, Apostasy, and Modern Literature - Brandeis ScholarWorks",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/conversion_apostasy_and_modern_literature_brandeis_scholarworks_0d0e207e2622.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:modern_literature_auto_imported_cloud_candidates_death_and_the_pearl_maiden_plague_poetry_england_7eba26c89e85_md",
       "label": "Death and the Pearl Maiden: Plague, Poetry, England",
       "lane": "modern_literature",
@@ -100853,6 +101528,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "modern_literature/auto_imported_cloud_candidates/finite_and_infinite_games_25b880f68fbe.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_for_and_against_hope_introduction_hope_a_literary_history_638ff1a32f0e_",
+      "label": "For and Against Hope (Introduction) - Hope: A Literary History",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/for_and_against_hope_introduction_hope_a_literary_history_638ff1a32f0e.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -100941,6 +101627,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "modern_literature/auto_imported_cloud_candidates/john_milbank_s_theology_of_the_gift_and_calvin_s_theology_of_grace_a_critical_co_731263003148.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_like_a_pitiful_mirage_various_writers_on_suffering_and_hope_richard_rab",
+      "label": "\u2018Like a Pitiful Mirage\u2019: Various Writers on Suffering and Hope \u2013 Richard Rabil, Jr.",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/like_a_pitiful_mirage_various_writers_on_suffering_and_hope_richard_rabil_jr_beb4e74eb506.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -101106,6 +101803,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "modern_literature/auto_imported_cloud_candidates/philip_massinger_a_defence_of_drama_1626_e622c803a014.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_poetic_justice_poetic_justice_was_a_term_coined_by_thomas_rhymer_5ef3b6",
+      "label": "#POETIC JUSTICE Poetic Justice was a term coined by THOMAS RHYMER ...",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/poetic_justice_poetic_justice_was_a_term_coined_by_thomas_rhymer_5ef3b6aa068d.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -101601,6 +102309,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "modern_literature/auto_imported_cloud_candidates/writing_literary_criticism_is_a_craft_that_requires_practical_skill_7990a87ecff2.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_writing_the_christian_life_the_essence_of_spiritual_memoir_the_christia",
+      "label": "Writing the Christian life: The essence of spiritual memoir | The Christian Century",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/writing_the_christian_life_the_essence_of_spiritual_memoir_the_christian_century_c8e1413df030.md",
       "review_note_count": 1,
       "type": "document"
     },
