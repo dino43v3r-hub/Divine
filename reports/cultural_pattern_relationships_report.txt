@@ -9,22 +9,22 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 286
-Total cultural words analyzed: 41,723
+Cultural documents analyzed: 288
+Total cultural words analyzed: 42,093
 
 Cultural Domains
 ----------------
-- Science And Discovery: 588
-- Politics And Justice: 316
-- History And Memory: 204
+- Science And Discovery: 592
+- Politics And Justice: 322
+- History And Memory: 206
 - Technology And AI: 171
-- Psychology And Human Behavior: 129
+- Psychology And Human Behavior: 130
 - Family And Community: 61
 - Global Text Traditions: 57
 - Health And Suffering: 53
 - Art And Beauty: 51
-- Economics And Work: 37
-- World Languages: 37
+- World Languages: 39
+- Economics And Work: 38
 - Education And Formation: 32
 - Ecology And Creation Care: 23
 - Visual Art And Iconography: 15
@@ -33,30 +33,30 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 1,408
-- Son: 16
+- Father: 1,419
+- Son: 20
 - Holy Spirit: 2
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 308
-- Moral Confrontation: 164
-- Creation And Order: 48
+- Desire And Longing: 311
+- Moral Confrontation: 167
+- Creation And Order: 50
 - Communal Practice: 46
 - Transformation And Hope: 40
 - Alienation And Lament: 12
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 632 | religious/science corpus 2,657
-- Mathematical Structure: cultural inputs 762 | religious/science corpus 640
-- Mathematical Theophany: cultural inputs 13 | religious/science corpus 1,252
+- Physical Order: cultural inputs 638 | religious/science corpus 2,659
+- Mathematical Structure: cultural inputs 766 | religious/science corpus 641
+- Mathematical Theophany: cultural inputs 13 | religious/science corpus 1,273
 - Quantum Probability: cultural inputs 1 | religious/science corpus 170
-- Life And Consciousness: cultural inputs 845 | religious/science corpus 6,207
-- Meaning And Logos: cultural inputs 1,010 | religious/science corpus 6,091
-- Moral Response: cultural inputs 1,115 | religious/science corpus 2,480
-- Worship And Community: cultural inputs 611 | religious/science corpus 1,616
-- Transformation: cultural inputs 556 | religious/science corpus 2,229
+- Life And Consciousness: cultural inputs 851 | religious/science corpus 6,253
+- Meaning And Logos: cultural inputs 1,018 | religious/science corpus 6,115
+- Moral Response: cultural inputs 1,128 | religious/science corpus 2,483
+- Worship And Community: cultural inputs 619 | religious/science corpus 1,616
+- Transformation: cultural inputs 559 | religious/science corpus 2,220
 
 Per-Domain Findings
 -------------------
@@ -843,6 +843,32 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Apply the pattern to labor and money by asking whether systems protect dignity, reduce exploitation, and support real flourishing.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+
+sonne_cross_cultural_lawyering_and_religion_819d7959477b.md
+-----------------------------------------------------------
+Words: 233
+Strongest cultural domain: Politics And Justice (3)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 7
+- Meaning And Logos: 5
+- Worship And Community: 5
+- Physical Order: 4
+- Life And Consciousness: 4
+- Mathematical Structure: 2
+- Transformation: 2
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use translation carefully: compare semantic range, metaphor, grammar, and cultural context before turning a word match into a conclusion.
 
 the_restorative_gaze_a47b7d4834fd.md
 ------------------------------------
@@ -2686,6 +2712,31 @@ Practical domain applications:
 criminal_justice_and_the_ethics_of_jesus_ba790883ca62.md
 --------------------------------------------------------
 Words: 135
+Strongest cultural domain: Politics And Justice (3)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Moral Confrontation (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 6
+- Meaning And Logos: 3
+- Worship And Community: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Life And Consciousness: 2
+- Transformation: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
+disadvantage_social_justice_and_paternalism_2a64c395e530.md
+-----------------------------------------------------------
+Words: 137
 Strongest cultural domain: Politics And Justice (3)
 Meaning confidence: thin meaning signal
 Meaning arc:
