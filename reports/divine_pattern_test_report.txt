@@ -13,14 +13,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 110
-Test words analyzed: 16,719
+Test documents analyzed: 111
+Test words analyzed: 16,859
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 225
-- Science Guardrail: 215
-- Counterexample Pressure: 102
+- Suffering Without Resolution: 227
+- Science Guardrail: 217
+- Counterexample Pressure: 103
 - Injustice And Corruption: 69
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 37
@@ -30,19 +30,19 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 236
+- Scholarly Or Scientific Source: 238
 - Practical Lived Source: 89
-- Primary Or Classical Source: 86
+- Primary Or Classical Source: 87
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- resilient under pressure: 61
+- resilient under pressure: 62
 - needs deeper review but still plausible: 49
 
 Hold Assessment
 ---------------
-- pressure present but hold question is underdeveloped: 52
+- pressure present but hold question is underdeveloped: 53
 - not enough friction to judge hold: 47
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
@@ -52,29 +52,29 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 522 | research corpus 5,577
-- Son: test set 32 | research corpus 6,825
-- Holy Spirit: test set 47 | research corpus 1,865
+- Father: test set 527 | research corpus 5,614
+- Son: test set 32 | research corpus 6,821
+- Holy Spirit: test set 47 | research corpus 1,872
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 54 | research corpus 2,660
-- Mathematical Structure: test set 18 | research corpus 643
-- Mathematical Theophany: test set 312 | research corpus 1,273
-- Quantum Probability: test set 25 | research corpus 174
-- Life And Consciousness: test set 302 | research corpus 6,285
-- Meaning And Logos: test set 42 | research corpus 6,133
-- Moral Response: test set 53 | research corpus 2,485
-- Worship And Community: test set 83 | research corpus 1,618
-- Transformation: test set 63 | research corpus 2,236
+- Physical Order: test set 54 | research corpus 2,672
+- Mathematical Structure: test set 18 | research corpus 645
+- Mathematical Theophany: test set 314 | research corpus 1,313
+- Quantum Probability: test set 25 | research corpus 179
+- Life And Consciousness: test set 305 | research corpus 6,311
+- Meaning And Logos: test set 42 | research corpus 6,154
+- Moral Response: test set 53 | research corpus 2,497
+- Worship And Community: test set 83 | research corpus 1,625
+- Transformation: test set 64 | research corpus 2,241
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 334
-- Desire And Longing: 114
+- Creation And Order: 336
+- Desire And Longing: 115
 - Alienation And Lament: 83
 - Communal Practice: 72
-- Transformation And Hope: 62
+- Transformation And Hope: 63
 - Moral Confrontation: 47
 
 Per-Test Findings
@@ -1185,6 +1185,26 @@ Pressure signals:
 - Counterexample Pressure: 1
 Meaning arc:
 - Opening: Creation And Order (3)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+the_kyrios_christos_as_ultimate_hope_a_response_to_pain_and_suffering_282d3ac55586.md
+-------------------------------------------------------------------------------------
+Words: 140
+Meaning confidence: plausible meaning pattern
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 2
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+Meaning arc:
+- Opening: Creation And Order (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 Recommendations:

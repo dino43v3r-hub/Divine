@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 268
-Total theologian words analyzed: 51,215
+Theologian documents analyzed: 276
+Total theologian words analyzed: 52,404
 
 Era Coverage
 ------------
@@ -21,33 +21,33 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 263
-- Christology: 226
-- Pneumatology: 209
+- Trinity: 269
+- Christology: 228
+- Pneumatology: 212
 - Theodicy And Suffering: 205
-- Creation: 170
+- Creation: 171
 - Grace And Transformation: 112
-- Church And Practice: 108
+- Church And Practice: 109
 - Justice And Public Life: 97
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 1,603
+- Father: 1,646
 - Son: 290
-- Holy Spirit: 398
+- Holy Spirit: 402
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 168 | broader corpus 2,660
-- Mathematical Structure: theologians 4 | broader corpus 643
-- Mathematical Theophany: theologians 265 | broader corpus 1,273
-- Quantum Probability: theologians 2 | broader corpus 174
-- Life And Consciousness: theologians 721 | broader corpus 6,285
-- Meaning And Logos: theologians 127 | broader corpus 6,133
-- Moral Response: theologians 117 | broader corpus 2,485
-- Worship And Community: theologians 205 | broader corpus 1,618
-- Transformation: theologians 446 | broader corpus 2,236
+- Physical Order: theologians 169 | broader corpus 2,672
+- Mathematical Structure: theologians 4 | broader corpus 645
+- Mathematical Theophany: theologians 269 | broader corpus 1,313
+- Quantum Probability: theologians 2 | broader corpus 179
+- Life And Consciousness: theologians 741 | broader corpus 6,311
+- Meaning And Logos: theologians 127 | broader corpus 6,154
+- Moral Response: theologians 117 | broader corpus 2,497
+- Worship And Community: theologians 206 | broader corpus 1,625
+- Transformation: theologians 449 | broader corpus 2,241
 
 Per-Source Findings
 -------------------
@@ -228,6 +228,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
 
+african_initiated_churches_and_ecological_sustainability_an_empirical_exploratio_9ae4098a354a.md
+------------------------------------------------------------------------------------------------
+Words: 192
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
 an_analysis_of_sallie_mcfague_s_metaphorical_theology_with_special_reference_to_faf685c9f2d7.md
 -----------------------------------------------------------------------------------------------
 Words: 141
@@ -269,6 +280,17 @@ Strongest concept signal: Pneumatology (1)
 Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+atonement_and_the_project_of_creation_an_interpretation_of_colossians_1_15_23_a883095ec3b7.md
+---------------------------------------------------------------------------------------------
+Words: 133
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
@@ -744,6 +766,17 @@ Meaning arc:
 - Opening: Desire And Longing (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+content_c73d6304e8fc.md
+-----------------------
+Words: 129
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 contextualizing_the_contemporary_pentecostal_movement_in_china_abdab8a0bf16.md
 ------------------------------------------------------------------------------
@@ -1603,6 +1636,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
 
+nomenclature_in_atonement_theology_65b1007f161b.md
+--------------------------------------------------
+Words: 131
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 on_spiritual_theology_a_primer_177fceb18705.md
 ----------------------------------------------
 Words: 239
@@ -1922,6 +1966,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+same_storm_different_boats_a_southern_african_methodist_response_to_socio_econom_7003a9880e53.md
+------------------------------------------------------------------------------------------------
+Words: 196
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
 sean_of_rural_oregon_as_the_father_son_and_holy_spirit_09eb2299feea.md
 ----------------------------------------------------------------------
 Words: 252
@@ -1932,6 +1987,17 @@ Meaning arc:
 - Opening: Transformation And Hope (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+select_bibliography_3d53f7573b08.md
+-----------------------------------
+Words: 136
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 short_lecture_on_doing_practical_theology_youtube_d57809e4cbcc.md
 -----------------------------------------------------------------
@@ -2241,6 +2307,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+the_holy_spirit_and_christian_community_a_case_study_in_theology_and_practice_2166637e13a7.md
+---------------------------------------------------------------------------------------------
+Words: 138
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (2)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Communal Practice (1)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+
 the_holy_spirit_and_christian_community_a_case_study_in_theology_and_practice_64783b1ee32b.md
 ---------------------------------------------------------------------------------------------
 Words: 138
@@ -2337,6 +2414,17 @@ Strongest concept signal: Pneumatology (2)
 Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Transformation And Hope (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_mediator_of_communion_f52d27365871.md
+-----------------------------------------
+Words: 134
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
