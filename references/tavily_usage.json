@@ -2411,6 +2411,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-08-07": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "sermon video spiritual formation Holy Spirit discernment transcript",
+          "searched_at": "2026-08-07T14:45:54.970125+00:00",
+          "tag": "video_teaching_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "historical theology memory trauma justice repair",
+          "searched_at": "2026-08-07T14:46:00.276385+00:00",
+          "tag": "history_memory"
+        },
+        {
+          "credits_used": 1,
+          "query": "religion history collective memory suffering hope",
+          "searched_at": "2026-08-07T14:46:06.233928+00:00",
+          "tag": "history_memory"
+        },
+        {
+          "credits_used": 1,
+          "query": "church history reform empire injustice theological interpretation",
+          "searched_at": "2026-08-07T14:46:18.014631+00:00",
+          "tag": "history_memory"
+        },
+        {
+          "credits_used": 1,
+          "query": "translation semantics theology metaphor grammar culture",
+          "searched_at": "2026-08-07T14:46:22.596823+00:00",
+          "tag": "world_languages_translation"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }
