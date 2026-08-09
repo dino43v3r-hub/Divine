@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 298
-Total theologian words analyzed: 55,624
+Theologian documents analyzed: 301
+Total theologian words analyzed: 56,063
 
 Era Coverage
 ------------
@@ -21,9 +21,9 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 286
-- Christology: 230
-- Pneumatology: 228
+- Trinity: 288
+- Christology: 231
+- Pneumatology: 230
 - Theodicy And Suffering: 207
 - Creation: 171
 - Church And Practice: 113
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 1,759
-- Son: 292
-- Holy Spirit: 434
+- Father: 1,775
+- Son: 294
+- Holy Spirit: 438
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 169 | broader corpus 2,662
-- Mathematical Structure: theologians 4 | broader corpus 646
-- Mathematical Theophany: theologians 274 | broader corpus 1,303
-- Quantum Probability: theologians 2 | broader corpus 186
-- Life And Consciousness: theologians 798 | broader corpus 6,338
-- Meaning And Logos: theologians 129 | broader corpus 6,167
-- Moral Response: theologians 117 | broader corpus 2,493
-- Worship And Community: theologians 211 | broader corpus 1,624
-- Transformation: theologians 470 | broader corpus 2,227
+- Physical Order: theologians 169 | broader corpus 2,664
+- Mathematical Structure: theologians 4 | broader corpus 645
+- Mathematical Theophany: theologians 274 | broader corpus 1,298
+- Quantum Probability: theologians 2 | broader corpus 183
+- Life And Consciousness: theologians 806 | broader corpus 6,354
+- Meaning And Logos: theologians 129 | broader corpus 6,168
+- Moral Response: theologians 117 | broader corpus 2,485
+- Worship And Community: theologians 212 | broader corpus 1,623
+- Transformation: theologians 472 | broader corpus 2,233
 
 Per-Source Findings
 -------------------
@@ -1933,6 +1933,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+pluralism_of_religions_and_the_proclamation_of_jesus_christ_in_the_context_of_as_4c8710a7d5dd.md
+------------------------------------------------------------------------------------------------
+Words: 147
+Strongest era signal: Patristic (0)
+Strongest concept signal: Christology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 pneuma_christology_as_applied_christology_intimacy_and_immediacy_in_the_odes_of_637b59e4e037.md
 -----------------------------------------------------------------------------------------------
 Words: 139
@@ -2659,6 +2670,17 @@ Meaning arc:
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
+the_muslim_response_to_the_pentecostal_surge_in_nigeria_prayer_and_the_rise_of_c_9bc3ebe0bb96.md
+------------------------------------------------------------------------------------------------
+Words: 147
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 the_nicene_constantinopolitan_creed_in_sanskrit_digital_and_historical_religious_07f7bfc37dbc.md
 ------------------------------------------------------------------------------------------------
 Words: 143
@@ -3109,6 +3131,17 @@ Meaning arc:
 - Opening: Creation And Order (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+when_and_how_in_the_history_of_theology_did_the_triune_god_replace_the_father_as_b521e5779658.md
+------------------------------------------------------------------------------------------------
+Words: 145
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
 
 why_mine_deaths_are_up_0c577afa47a0.md
 --------------------------------------
