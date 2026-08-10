@@ -2,7 +2,7 @@
 
 _A GitHub-readable article drawn from the generated reports._
 
-Generated: `2026-08-09 14:30 UTC`
+Generated: `2026-08-10 14:58 UTC`
 
 ## How To Read This Page
 
@@ -1233,72 +1233,72 @@ Backend: Media assets now enter the index through captions, transcripts, sidecar
 
 Corpus Summary
 --------------
-- Indexed documents: 2657
-- Indexed text documents: 2657
+- Indexed documents: 2694
+- Indexed text documents: 2694
 - Indexed media assets: 0
-- Graph nodes: 2695
-- Graph edges: 17899
+- Graph nodes: 2732
+- Graph edges: 18101
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
-Backend: theologians (670 notes), research_documents (410 notes), history_inputs (410 notes), all_texts (360 notes).
+Backend: theologians (674 notes), research_documents (414 notes), history_inputs (412 notes), all_texts (361 notes).
 
 Reviewer: Which leading patterns are showing up most often?
 Backend: Image Of God Pattern (11), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
 
 Reviewer: Which review rules are most visible?
-Backend: practical_use (2624), counter_reading (2613), evidence (2554), machine_label_boundary (2485).
+Backend: practical_use (2661), counter_reading (2650), evidence (2591), machine_label_boundary (2522).
 
 Lane Coverage
 -------------
 Backend: Here is the lane map. High counts are invitations to review more carefully, not permission to overclaim.
-- all_texts: 105 documents; 360 declared reviewed notes
-- biblical_languages: 148 documents; 277 declared reviewed notes
-- cultural_inputs: 344 documents; 344 declared reviewed notes
-- deep_sources: 158 documents; 175 declared reviewed notes
-- history_inputs: 155 documents; 410 declared reviewed notes
-- human_stories: 67 documents; 67 declared reviewed notes
-- modern_literature: 113 documents; 113 declared reviewed notes
-- other_religious_texts: 89 documents; 344 declared reviewed notes
-- pattern_tests: 122 documents; 126 declared reviewed notes
-- psychology_inputs: 255 documents; 255 declared reviewed notes
-- research_documents: 363 documents; 410 declared reviewed notes
-- theologians: 301 documents; 670 declared reviewed notes
-- visual_art: 217 documents; 217 declared reviewed notes
-- world_languages: 220 documents; 349 declared reviewed notes
+- all_texts: 106 documents; 361 declared reviewed notes
+- biblical_languages: 150 documents; 279 declared reviewed notes
+- cultural_inputs: 347 documents; 347 declared reviewed notes
+- deep_sources: 160 documents; 177 declared reviewed notes
+- history_inputs: 157 documents; 412 declared reviewed notes
+- human_stories: 69 documents; 69 declared reviewed notes
+- modern_literature: 114 documents; 114 declared reviewed notes
+- other_religious_texts: 91 documents; 346 declared reviewed notes
+- pattern_tests: 124 documents; 128 declared reviewed notes
+- psychology_inputs: 262 documents; 262 declared reviewed notes
+- research_documents: 367 documents; 414 declared reviewed notes
+- theologians: 305 documents; 674 declared reviewed notes
+- visual_art: 221 documents; 221 declared reviewed notes
+- world_languages: 221 documents; 350 declared reviewed notes
 
 Confidence Tiers
 ----------------
 Reviewer: Are these tiers final verdicts?
 Backend: No. They sort review work. When a source passes every research evidence-test rule, I auto-promote it to reviewed_evidence_ready. When it also passes every public-final evidence-test rule, I auto-promote it to public_final_ready.
 - candidate_lead: 113 documents
-- developing_evidence: 2543 documents
+- developing_evidence: 2580 documents
 - reviewed_evidence_ready: 1 documents
 
 Promotion Rule Coverage
 -----------------------
 Backend: These counts show where the evidence testing queue should focus before sources strengthen claims or become final public evidence.
-- evidence: 2554 rule-present; 0 reviewed companion; 2 machine-drafted; 101 still missing of 2657
-- interpretation: 1042 rule-present; 993 reviewed companion; 2 machine-drafted; 1613 still missing of 2657
-- discernment: 1570 rule-present; 598 reviewed companion; 0 machine-drafted; 1087 still missing of 2657
-- analogy: 1031 rule-present; 976 reviewed companion; 0 machine-drafted; 1626 still missing of 2657
-- practical_use: 2624 rule-present; 0 reviewed companion; 0 machine-drafted; 33 still missing of 2657
-- counter_reading: 2613 rule-present; 0 reviewed companion; 1 machine-drafted; 43 still missing of 2657
-- failure_condition: 1036 rule-present; 932 reviewed companion; 1 machine-drafted; 1620 still missing of 2657
-- pastoral_safety: 57 rule-present; 3 reviewed companion; 407 machine-drafted; 2193 still missing of 2657
-- ecclesial_review: 10 rule-present; 2 reviewed companion; 449 machine-drafted; 2198 still missing of 2657
-- liturgical_grounding: 41 rule-present; 2 reviewed companion; 429 machine-drafted; 2187 still missing of 2657
-- promotion_restraint: 39 rule-present; 2 reviewed companion; 441 machine-drafted; 2177 still missing of 2657
-- machine_label_boundary: 2485 rule-present; 0 reviewed companion; 2 machine-drafted; 170 still missing of 2657
-- scripture_anchor: 5 rule-present; 1 reviewed companion; 0 machine-drafted; 2652 still missing of 2657
-- doctrinal_fit: 3 rule-present; 1 reviewed companion; 0 machine-drafted; 2654 still missing of 2657
-- no_unresolved_pastoral_harm: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 2655 still missing of 2657
-- no_abuse_enabling_language: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 2655 still missing of 2657
-- no_science_overclaim: 49 rule-present; 1 reviewed companion; 0 machine-drafted; 2608 still missing of 2657
-- no_comparative_flattening: 8 rule-present; 1 reviewed companion; 0 machine-drafted; 2649 still missing of 2657
-- does_not_prove_boundary: 18 rule-present; 1 reviewed companion; 0 machine-drafted; 2639 still missing of 2657
-- plain_language_public_summary: 3 rule-present; 1 reviewed companion; 0 machine-drafted; 2654 still missing of 2657
-- final_promotion_restraint: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 2655 still missing of 2657
+- evidence: 2591 rule-present; 0 reviewed companion; 2 machine-drafted; 101 still missing of 2694
+- interpretation: 1042 rule-present; 993 reviewed companion; 2 machine-drafted; 1650 still missing of 2694
+- discernment: 1584 rule-present; 598 reviewed companion; 0 machine-drafted; 1110 still missing of 2694
+- analogy: 1031 rule-present; 976 reviewed companion; 0 machine-drafted; 1663 still missing of 2694
+- practical_use: 2661 rule-present; 0 reviewed companion; 0 machine-drafted; 33 still missing of 2694
+- counter_reading: 2650 rule-present; 0 reviewed companion; 1 machine-drafted; 43 still missing of 2694
+- failure_condition: 1036 rule-present; 932 reviewed companion; 1 machine-drafted; 1657 still missing of 2694
+- pastoral_safety: 61 rule-present; 3 reviewed companion; 407 machine-drafted; 2226 still missing of 2694
+- ecclesial_review: 10 rule-present; 2 reviewed companion; 449 machine-drafted; 2235 still missing of 2694
+- liturgical_grounding: 41 rule-present; 2 reviewed companion; 429 machine-drafted; 2224 still missing of 2694
+- promotion_restraint: 38 rule-present; 2 reviewed companion; 441 machine-drafted; 2215 still missing of 2694
+- machine_label_boundary: 2522 rule-present; 0 reviewed companion; 2 machine-drafted; 170 still missing of 2694
+- scripture_anchor: 5 rule-present; 1 reviewed companion; 0 machine-drafted; 2689 still missing of 2694
+- doctrinal_fit: 3 rule-present; 1 reviewed companion; 0 machine-drafted; 2691 still missing of 2694
+- no_unresolved_pastoral_harm: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 2692 still missing of 2694
+- no_abuse_enabling_language: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 2692 still missing of 2694
+- no_science_overclaim: 49 rule-present; 1 reviewed companion; 0 machine-drafted; 2645 still missing of 2694
+- no_comparative_flattening: 8 rule-present; 1 reviewed companion; 0 machine-drafted; 2686 still missing of 2694
+- does_not_prove_boundary: 18 rule-present; 1 reviewed companion; 0 machine-drafted; 2676 still missing of 2694
+- plain_language_public_summary: 3 rule-present; 1 reviewed companion; 0 machine-drafted; 2691 still missing of 2694
+- final_promotion_restraint: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 2692 still missing of 2694
 
 Promotion Blockers
 ------------------
@@ -1346,18 +1346,18 @@ Review Rule Mentions
 Reviewer: What do the review-rule counts tell us?
 Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.
 
-- evidence: 2554 documents
+- evidence: 2591 documents
 - interpretation: 1042 documents
-- discernment: 1570 documents
+- discernment: 1584 documents
 - analogy: 1031 documents
-- practical_use: 2624 documents
-- counter_reading: 2613 documents
+- practical_use: 2661 documents
+- counter_reading: 2650 documents
 - failure_condition: 1036 documents
-- pastoral_safety: 57 documents
+- pastoral_safety: 61 documents
 - ecclesial_review: 10 documents
 - liturgical_grounding: 41 documents
-- promotion_restraint: 39 documents
-- machine_label_boundary: 2485 documents
+- promotion_restraint: 38 documents
+- machine_label_boundary: 2522 documents
 - scripture_anchor: 5 documents
 - doctrinal_fit: 3 documents
 - no_unresolved_pastoral_harm: 2 documents
@@ -1430,19 +1430,19 @@ Pattern acceptance rule: patterns are secondary observations. They must be teste
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-08-09T14:29:34.233394+00:00
-Retained cloud candidate references: 9,810
-Brand-new candidate references this run: 58
-Top new routed layers: deep_sources: 23, human_stories: 19, pattern_tests: 18, psychology_inputs: 16
-New evidence mix: strong_scholarly_candidate: 41, moderate_scholarly_candidate: 10, weak_scholarly_candidate: 6, do_not_strengthen_claim: 1
-New provider mix: OpenAlex: 44, Tavily Search: 7, Crossref: 3, arXiv: 2
+Collector run: 2026-08-10T14:57:45.318035+00:00
+Retained cloud candidate references: 9,847
+Brand-new candidate references this run: 37
+Top new routed layers: human_stories: 17, psychology_inputs: 15, theologians: 10, pattern_tests: 9
+New evidence mix: strong_scholarly_candidate: 24, moderate_scholarly_candidate: 7, weak_scholarly_candidate: 6
+New provider mix: OpenAlex: 26, Tavily Search: 6, Crossref: 3, Europe PMC: 2
 Query modifiers used: primary source, counterargument
 
 Journal Entry: What I Am Learning
 ---------------------------------
 I am reading this run as a conversation between what just arrived and what the project already thinks it sees.
 The older pattern map still points first toward Image Of God Pattern. Around it, I keep seeing related pressure from Cross And Reversal Pattern, Creation-To-Consciousness Pattern.
-The newest material is pulling my attention toward deep_sources, especially around quantum_science_guardrails. That does not overturn the older map, but it changes what I should ask next.
+The newest material is pulling my attention toward human_stories, especially around psychology_patterns. That does not overturn the older map, but it changes what I should ask next.
 My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is scholarly metadata, so I should let them sharpen questions before I let them strengthen claims.
 I also notice that Suffering Without Resolution remains a live test. If the pattern cannot survive that friction, then it is probably only an attractive idea, not a disciplined theological insight.
 
@@ -1509,15 +1509,15 @@ This chart is a navigation aid, not a proof scale. Longer bars show where the cu
 
 Layer                         Signal                         Count     Reading
 -----                         ------                         -----     -------
-Physical Order                ##########..................    6,393  high internal signal
-Mathematical Structure        ######......................    3,799  high internal signal
+Physical Order                ##########..................    6,442  high internal signal
+Mathematical Structure        ######......................    3,846  high internal signal
 Mathematical Theophany        #####.......................    2,927  high internal signal
-Quantum Probability           #...........................      231  early signal
-Life And Consciousness        ######################......   13,224  high internal signal
-Meaning And Logos             ############################   17,104  high internal signal
-Moral Response                ################............    9,543  high internal signal
-Worship And Community         ###############.............    8,885  high internal signal
-Transformation                ################............    9,634  high internal signal
+Quantum Probability           #...........................      223  early signal
+Life And Consciousness        ######################......   13,367  high internal signal
+Meaning And Logos             ############################   17,195  high internal signal
+Moral Response                ################............    9,671  high internal signal
+Worship And Community         ###############.............    8,979  high internal signal
+Transformation                ################............    9,768  high internal signal
 
 Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as secondary creaturely signs under Christ and Scripture, while keeping alternative explanations visible.
 
@@ -1527,19 +1527,19 @@ Use this as the table of contents for the argument. Each chapter has a main move
 
 No.  Pattern Family                 Signal   Status
 ---  --------------                 ------   ------
-1    Image Of God Pattern            48,756  high internal signal; not proof
+1    Image Of God Pattern            49,212  high internal signal; not proof
      Movement: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
      Test: Do not collapse the image of God into intelligence alone.
-2    Cross And Reversal Pattern      36,281  high internal signal; not proof
+2    Cross And Reversal Pattern      36,634  high internal signal; not proof
      Movement: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
      Test: Do not romanticize suffering or ignore injustice.
-3    Creation-To-Consciousness P...  38,045  high internal signal; not proof
+3    Creation-To-Consciousness P...  38,459  high internal signal; not proof
      Movement: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
      Test: Avoid implying a simple linear proof from physics to worship.
-4    Trinity-As-Behavior Pattern     33,131  high internal signal; not proof
+4    Trinity-As-Behavior Pattern     33,405  high internal signal; not proof
      Movement: Father Creates -> Son Redeems -> Spirit Transforms
      Test: Keep the Trinity theological and relational, not merely symbolic psychology.
-5    Providence And Contingency...   36,952  well-represented hypothesis;...
+5    Providence And Contingency...   37,227  well-represented hypothesis;...
      Movement: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
      Test: Do not confuse providence with easy prediction or visible control of every event.
 
@@ -1557,17 +1557,17 @@ Fresh research movements:
 - Psychology or human-story candidates grew in the latest collector run; separate lived repair from overclaimed theological interpretation.
 - Deep-source candidates grew in the latest collector run; review qualified evidence and counterarguments before strengthening claims.
 
-Most active new tags: quantum_science_guardrails: 7, general_research_methods: 7, biblical_languages: 6, psychology_patterns: 4
-Most active new layers: deep_sources: 23, human_stories: 19, pattern_tests: 18, psychology_inputs: 16
-Newest source-quality mix: scholarly metadata: 49, open web result: 7, scholarly preprint: 2
+Most active new tags: psychology_patterns: 7, art_beauty: 4, general_research_methods: 4, trinity: 2
+Most active new layers: human_stories: 17, psychology_inputs: 15, theologians: 10, pattern_tests: 9
+Newest source-quality mix: scholarly metadata: 31, open web result: 6
 
 Fresh source leads to review first:
-- Consciousness in the universe: a review of the 'Orch OR' theory. (2014) | OpenAlex | layers: deep_sources, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
-- Bell's theorem. Experimental tests and implications (1978) | OpenAlex | layers: deep_sources, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
-- Caste and development: Contemporary perspectives on a structure of discrimination and advantage (2018) | OpenAlex | layers: psychology_inputs, human_stories | review use: may increase confidence after claim-scope and counterargument checks
-- Erasing Ethnicity? Propaganda, Nation Building, and Identity in Rwanda (2018) | OpenAlex | layers: psychology_inputs, human_stories | review use: may increase confidence after claim-scope and counterargument checks
-- Randomness in quantum mechanics: philosophy, physics and technology (2017) | OpenAlex | layers: deep_sources, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
-- The Muslim response to the Pentecostal surge in Nigeria: Prayer and the rise of charismatic Islam (2015) | OpenAlex | layers: theologians, other_religious_texts, human_stories, psychology_inputs | review use: may increase confidence after claim-scope and counterargument checks
+- An Overview of Artificial Intelligence Ethics (2022) | OpenAlex | layers: cultural_inputs, visual_art | review use: may increase confidence after claim-scope and counterargument checks
+- The real type and ideal type of transdisciplinary processes: part I—theoretical foundations (2015) | OpenAlex | layers: research_documents, deep_sources, visual_art | review use: may increase confidence after claim-scope and counterargument checks
+- Medical police and the history of public health (2002) | OpenAlex | layers: cultural_inputs, history_inputs, psychology_inputs | review use: may increase confidence after claim-scope and counterargument checks
+- Feral children: settler colonialism, progress, and the figure of the child (2016) | OpenAlex | layers: world_languages, all_texts, other_religious_texts | review use: may increase confidence after claim-scope and counterargument checks
+- The Storrs Lectures: Liberals and Romantics at War: The Problem of Collective Guilt (2002) | OpenAlex | layers: history_inputs, theologians | review use: may increase confidence after claim-scope and counterargument checks
+- Sound, Image, Silence: Art and the Aural Imagination in the Atlantic World (2019) | OpenAlex | layers: visual_art, cultural_inputs, human_stories, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
 
 Reader rule: this new material can change the questions immediately, but it should not strengthen a claim until the original source and counterarguments are reviewed.
 
@@ -1589,10 +1589,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (13,224 signals)
-- Meaning And Logos: high internal signal (17,104 signals)
-- Moral Response: high internal signal (9,543 signals)
-- Worship And Community: high internal signal (8,885 signals)
+- Life And Consciousness: high internal signal (13,367 signals)
+- Meaning And Logos: high internal signal (17,195 signals)
+- Moral Response: high internal signal (9,671 signals)
+- Worship And Community: high internal signal (8,979 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -1609,9 +1609,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (17,104 signals)
-- Moral Response: high internal signal (9,543 signals)
-- Transformation: high internal signal (9,634 signals)
+- Meaning And Logos: high internal signal (17,195 signals)
+- Moral Response: high internal signal (9,671 signals)
+- Transformation: high internal signal (9,768 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -1628,10 +1628,10 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,393 signals)
-- Life And Consciousness: high internal signal (13,224 signals)
-- Moral Response: high internal signal (9,543 signals)
-- Worship And Community: high internal signal (8,885 signals)
+- Physical Order: high internal signal (6,442 signals)
+- Life And Consciousness: high internal signal (13,367 signals)
+- Moral Response: high internal signal (9,671 signals)
+- Worship And Community: high internal signal (8,979 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -1648,9 +1648,9 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,393 signals)
-- Meaning And Logos: high internal signal (17,104 signals)
-- Transformation: high internal signal (9,634 signals)
+- Physical Order: high internal signal (6,442 signals)
+- Meaning And Logos: high internal signal (17,195 signals)
+- Transformation: high internal signal (9,768 signals)
 
 Chapter 5: Providence And Contingency Pattern
 ---------------------------------------------
@@ -1667,10 +1667,10 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,393 signals)
-- Quantum Probability: early signal (231 signals)
-- Life And Consciousness: high internal signal (13,224 signals)
-- Meaning And Logos: high internal signal (17,104 signals)
+- Physical Order: high internal signal (6,442 signals)
+- Quantum Probability: early signal (223 signals)
+- Life And Consciousness: high internal signal (13,367 signals)
+- Meaning And Logos: high internal signal (17,195 signals)
 
 Everyday Case Studies
 ---------------------
@@ -1686,39 +1686,38 @@ Other religions and cultures: The pattern should compare respectfully. Christian
 
 What The Research Currently Suggests
 ------------------------------------
-The project has analyzed 2,781 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
-The daily collector has retained 9,810 cloud candidate references, including 58 brand-new candidates in the latest run.
+The project has analyzed 2,818 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
+The daily collector has retained 9,847 cloud candidate references, including 37 brand-new candidates in the latest run.
 The current corpus most visibly repeats pattern families led by Image Of God Pattern, Cross And Reversal Pattern, Creation-To-Consciousness Pattern, Trinity-As-Behavior Pattern, and Providence And Contingency Pattern.
 These are best understood as chapters in an ongoing research book. They are not final proof claims.
 
 What Changed In The Latest Collection
 -------------------------------------
-Daily collector updated: 2026-08-09T14:29:34.233394+00:00
-Retained cloud candidate references: 9,810
-Brand-new candidate references this run: 58
+Daily collector updated: 2026-08-10T14:57:45.318035+00:00
+Retained cloud candidate references: 9,847
+Brand-new candidate references this run: 37
 
 Newest evidence movement by routed layer:
-- deep_sources: 23
-- human_stories: 19
-- pattern_tests: 18
-- psychology_inputs: 16
-- all_texts: 13
-- visual_art: 13
-- world_languages: 13
-- cultural_inputs: 11
+- human_stories: 17
+- psychology_inputs: 15
+- theologians: 10
+- pattern_tests: 9
+- cultural_inputs: 8
+- deep_sources: 8
+- visual_art: 8
+- all_texts: 7
 
 Newest automated evidence mix:
-- strong_scholarly_candidate: 41
-- moderate_scholarly_candidate: 10
+- strong_scholarly_candidate: 24
+- moderate_scholarly_candidate: 7
 - weak_scholarly_candidate: 6
-- do_not_strengthen_claim: 1
 
 Newest sources shaping today's questions:
-- When and How in the History of Theology Did the Triune God Replace the Father as the Only True God? (2020) | layers: theologians, research_documents, history_inputs | evidence: strong_scholarly_candidate
-- Engaging Old Testament prophetic literature in traumatic times of loss and grief (2021) | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: strong_scholarly_candidate
-- Daughters in-law in black families a pastoral care perspective (2011) | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: moderate_scholarly_candidate
-- Constitutional Divide: The Transformative Significance of the School Prayer Decisions (2010) | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: strong_scholarly_candidate
-- Bell's theorem. Experimental tests and implications (1978) | layers: deep_sources, pattern_tests | evidence: strong_scholarly_candidate
+- The Spirit of God in the New Testament: Diverse witnesses (1999) | layers: theologians, research_documents | evidence: strong_scholarly_candidate
+- ‘God, the Father Almighty’: A Theological Excursus (2016) | layers: theologians, research_documents | evidence: strong_scholarly_candidate
+- Contents (2010) | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: strong_scholarly_candidate
+- Pastoral Care in Disaster: A theological reflection (2007) | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: moderate_scholarly_candidate
+- An Einstein-Podolsky-Rosen argument based on weak forms of local realism not falsifiable by GHZ or Bell experiments (2022) | layers: deep_sources, pattern_tests | evidence: strong_scholarly_candidate
 
 Reader note: cloud candidates change the research questions immediately, but they should strengthen conclusions only after source review.
 
@@ -1726,7 +1725,7 @@ Reader note: cloud candidates change the research questions immediately, but the
 Top-Five Pattern Competition
 ----------------------------
 The top five should compete under pressure before being merged into one master pattern.
-Current pressure-test material is most concentrated in: Suffering Without Resolution (241), Science Guardrail (239), Counterexample Pressure (114), Injustice And Corruption (69), Disconfirming Failure Condition (38).
+Current pressure-test material is most concentrated in: Suffering Without Resolution (243), Science Guardrail (243), Counterexample Pressure (116), Injustice And Corruption (69), Disconfirming Failure Condition (38).
 
 1. Image Of God Pattern
 - Best use: connects mind, symbol, moral agency, relationship, dignity, and worship.
@@ -1775,20 +1774,20 @@ Claims that should not be promoted without more review:
 Source Lane Balance
 -------------------
 The assistant should not strengthen broad claims while relevant lanes are thin.
-- biblical_languages: 277 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
-- world_languages: 349 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
-- all_texts: 360 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
-- other_religious_texts: 344 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: respectful comparison across traditions without flattening differences.
-- theologians: 670 notes; target 30-75, review cap 120; above review cap - pause unless thin lanes are growing. Purpose: primary-text theology and disagreements across eras.
-- history_inputs: 410 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: power, conflict, memory, reform, and consequences.
-- visual_art: 217 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
-- psychology_inputs: 255 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
-- human_stories: 67 notes; target 20-50, review cap 90; healthy target range. Purpose: lived grief, repair, vocation, community, and transformation.
-- cultural_inputs: 344 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: politics, economics, technology, ecology, health, work, and education.
-- modern_literature: 113 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: narrative recurrence and limits through literature summaries.
-- deep_sources: 175 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: math, statistics, science, suffering, and counterargument guardrails.
-- pattern_tests: 126 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: pressure tests that challenge claims without becoming the whole project.
-- research_documents: 411 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
+- biblical_languages: 279 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
+- world_languages: 350 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
+- all_texts: 361 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
+- other_religious_texts: 346 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: respectful comparison across traditions without flattening differences.
+- theologians: 674 notes; target 30-75, review cap 120; above review cap - pause unless thin lanes are growing. Purpose: primary-text theology and disagreements across eras.
+- history_inputs: 412 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: power, conflict, memory, reform, and consequences.
+- visual_art: 221 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
+- psychology_inputs: 262 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
+- human_stories: 69 notes; target 20-50, review cap 90; healthy target range. Purpose: lived grief, repair, vocation, community, and transformation.
+- cultural_inputs: 347 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: politics, economics, technology, ecology, health, work, and education.
+- modern_literature: 114 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: narrative recurrence and limits through literature summaries.
+- deep_sources: 177 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: math, statistics, science, suffering, and counterargument guardrails.
+- pattern_tests: 128 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: pressure tests that challenge claims without becoming the whole project.
+- research_documents: 415 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
 No lane is below its minimum target, but broad claims still need source-specific review.
 
 Reviewed Source Packs
@@ -1967,11 +1966,11 @@ Evidence Versus Discernment
 
 Current Corpus Shape
 --------------------
-Documents analyzed across all lanes: 2,781
-Top-pattern source documents: 2,314
-Pressure-test documents: 122
-Theologian documents: 301
-Dedicated synthesis documents: 1,369
+Documents analyzed across all lanes: 2,818
+Top-pattern source documents: 2,348
+Pressure-test documents: 124
+Theologian documents: 305
+Dedicated synthesis documents: 1,391
 
 The Main Pattern Chapters
 -------------------------
@@ -1993,10 +1992,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (13,224 signals)
-- Meaning And Logos: high internal signal (17,104 signals)
-- Moral Response: high internal signal (9,543 signals)
-- Worship And Community: high internal signal (8,885 signals)
+- Life And Consciousness: high internal signal (13,367 signals)
+- Meaning And Logos: high internal signal (17,195 signals)
+- Moral Response: high internal signal (9,671 signals)
+- Worship And Community: high internal signal (8,979 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -2013,9 +2012,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (17,104 signals)
-- Moral Response: high internal signal (9,543 signals)
-- Transformation: high internal signal (9,634 signals)
+- Meaning And Logos: high internal signal (17,195 signals)
+- Moral Response: high internal signal (9,671 signals)
+- Transformation: high internal signal (9,768 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -2032,10 +2031,10 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,393 signals)
-- Life And Consciousness: high internal signal (13,224 signals)
-- Moral Response: high internal signal (9,543 signals)
-- Worship And Community: high internal signal (8,885 signals)
+- Physical Order: high internal signal (6,442 signals)
+- Life And Consciousness: high internal signal (13,367 signals)
+- Moral Response: high internal signal (9,671 signals)
+- Worship And Community: high internal signal (8,979 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -2052,9 +2051,9 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,393 signals)
-- Meaning And Logos: high internal signal (17,104 signals)
-- Transformation: high internal signal (9,634 signals)
+- Physical Order: high internal signal (6,442 signals)
+- Meaning And Logos: high internal signal (17,195 signals)
+- Transformation: high internal signal (9,768 signals)
 
 Chapter 5: Providence And Contingency Pattern
 ---------------------------------------------
@@ -2071,10 +2070,10 @@ Pressure test: Test against evil, tragedy, failed prediction, survivor bias, ran
 Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,393 signals)
-- Quantum Probability: early signal (231 signals)
-- Life And Consciousness: high internal signal (13,224 signals)
-- Meaning And Logos: high internal signal (17,104 signals)
+- Physical Order: high internal signal (6,442 signals)
+- Quantum Probability: early signal (223 signals)
+- Life And Consciousness: high internal signal (13,367 signals)
+- Meaning And Logos: high internal signal (17,195 signals)
 
 Everyday Case Studies
 ---------------------
@@ -2108,80 +2107,80 @@ Research Detail: Pattern Families
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 48,756
+Layer signal total: 49,212
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 13,224 (high internal signal)
-- Meaning And Logos: 17,104 (high internal signal)
-- Moral Response: 9,543 (high internal signal)
-- Worship And Community: 8,885 (high internal signal)
+- Life And Consciousness: 13,367 (high internal signal)
+- Meaning And Logos: 17,195 (high internal signal)
+- Moral Response: 9,671 (high internal signal)
+- Worship And Community: 8,979 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
 2. Cross And Reversal Pattern
 -----------------------------
 Status: high internal signal; not proof
-Layer signal total: 36,281
+Layer signal total: 36,634
 Layers present: 3/3
 Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
 Layer support:
-- Meaning And Logos: 17,104 (high internal signal)
-- Moral Response: 9,543 (high internal signal)
-- Transformation: 9,634 (high internal signal)
+- Meaning And Logos: 17,195 (high internal signal)
+- Moral Response: 9,671 (high internal signal)
+- Transformation: 9,768 (high internal signal)
 Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
 Risk to avoid: Do not romanticize suffering or ignore injustice.
 
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 38,045
+Layer signal total: 38,459
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 6,393 (high internal signal)
-- Life And Consciousness: 13,224 (high internal signal)
-- Moral Response: 9,543 (high internal signal)
-- Worship And Community: 8,885 (high internal signal)
+- Physical Order: 6,442 (high internal signal)
+- Life And Consciousness: 13,367 (high internal signal)
+- Moral Response: 9,671 (high internal signal)
+- Worship And Community: 8,979 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
 4. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 33,131
+Layer signal total: 33,405
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 6,393 (high internal signal)
-- Meaning And Logos: 17,104 (high internal signal)
-- Transformation: 9,634 (high internal signal)
+- Physical Order: 6,442 (high internal signal)
+- Meaning And Logos: 17,195 (high internal signal)
+- Transformation: 9,768 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
 Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
 
 5. Providence And Contingency Pattern
 -------------------------------------
 Status: well-represented hypothesis; needs review
-Layer signal total: 36,952
+Layer signal total: 37,227
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 6,393 (high internal signal)
-- Quantum Probability: 231 (early signal)
-- Life And Consciousness: 13,224 (high internal signal)
-- Meaning And Logos: 17,104 (high internal signal)
+- Physical Order: 6,442 (high internal signal)
+- Quantum Probability: 223 (early signal)
+- Life And Consciousness: 13,367 (high internal signal)
+- Meaning And Logos: 17,195 (high internal signal)
 Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
 Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
 
 Top-Five Pattern Competition
 ----------------------------
 The top five should compete under pressure before being merged into one master pattern.
-Current pressure-test material is most concentrated in: Suffering Without Resolution (241), Science Guardrail (239), Counterexample Pressure (114), Injustice And Corruption (69), Disconfirming Failure Condition (38).
+Current pressure-test material is most concentrated in: Suffering Without Resolution (243), Science Guardrail (243), Counterexample Pressure (116), Injustice And Corruption (69), Disconfirming Failure Condition (38).
 
 1. Image Of God Pattern
 - Best use: connects mind, symbol, moral agency, relationship, dignity, and worship.
@@ -2230,20 +2229,20 @@ Claims that should not be promoted without more review:
 Source Lane Balance
 -------------------
 The assistant should not strengthen broad claims while relevant lanes are thin.
-- biblical_languages: 277 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
-- world_languages: 349 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
-- all_texts: 360 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
-- other_religious_texts: 344 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: respectful comparison across traditions without flattening differences.
-- theologians: 670 notes; target 30-75, review cap 120; above review cap - pause unless thin lanes are growing. Purpose: primary-text theology and disagreements across eras.
-- history_inputs: 410 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: power, conflict, memory, reform, and consequences.
-- visual_art: 217 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
-- psychology_inputs: 255 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
-- human_stories: 67 notes; target 20-50, review cap 90; healthy target range. Purpose: lived grief, repair, vocation, community, and transformation.
-- cultural_inputs: 344 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: politics, economics, technology, ecology, health, work, and education.
-- modern_literature: 113 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: narrative recurrence and limits through literature summaries.
-- deep_sources: 175 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: math, statistics, science, suffering, and counterargument guardrails.
-- pattern_tests: 126 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: pressure tests that challenge claims without becoming the whole project.
-- research_documents: 411 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
+- biblical_languages: 279 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
+- world_languages: 350 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
+- all_texts: 361 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
+- other_religious_texts: 346 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: respectful comparison across traditions without flattening differences.
+- theologians: 674 notes; target 30-75, review cap 120; above review cap - pause unless thin lanes are growing. Purpose: primary-text theology and disagreements across eras.
+- history_inputs: 412 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: power, conflict, memory, reform, and consequences.
+- visual_art: 221 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
+- psychology_inputs: 262 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
+- human_stories: 69 notes; target 20-50, review cap 90; healthy target range. Purpose: lived grief, repair, vocation, community, and transformation.
+- cultural_inputs: 347 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: politics, economics, technology, ecology, health, work, and education.
+- modern_literature: 114 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: narrative recurrence and limits through literature summaries.
+- deep_sources: 177 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: math, statistics, science, suffering, and counterargument guardrails.
+- pattern_tests: 128 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: pressure tests that challenge claims without becoming the whole project.
+- research_documents: 415 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
 No lane is below its minimum target, but broad claims still need source-specific review.
 
 Reviewed Source Packs
@@ -2286,7 +2285,7 @@ Use it for family conflict, work, grief, spiritual gifts, interreligious encount
 Cloud Reference Discipline
 --------------------------
 - Reviewed cloud-reference markers: 5
-- Unreviewed cloud-reference markers: 57
+- Unreviewed cloud-reference markers: 56
 - Cloud references are leads until the original source, author expertise, date, venue, and counterarguments are checked.
 
 Assistant Behavior Rules
@@ -2357,8 +2356,8 @@ This chapter summarizes the newest retained research movement. The details matte
 
 Latest Collector Development
 ----------------------------
-Daily collector updated: 2026-08-09T14:29:34.233394+00:00
-Brand-new candidate references this run: 58
+Daily collector updated: 2026-08-10T14:57:45.318035+00:00
+Brand-new candidate references this run: 37
 New candidate pattern movements:
 - Theologian-source candidates grew in the latest collector run; review era, primary source, doctrine, disagreement, and pressure points.
 - Visual-art candidates grew in the latest collector run; examine actual form, composition, symbol, beauty, lament, and counter-reading.
@@ -2377,70 +2376,64 @@ New candidate pattern movements:
 - Science-guardrail material grew in the latest collector run; keep any science analogy tied to qualified sources and stated limits.
 - Art and beauty material grew in the latest collector run; ask what visual or aesthetic form reveals before translating it into doctrine.
 - High-quality scholarly leads arrived today; use them only for claim-scoped confidence after source review, not absolute proof.
-- Some candidates should not strengthen claims yet; keep them as questions or counter-readings.
 
 New material by lane:
-- quantum_science_guardrails: 7
-- general_research_methods: 7
-- biblical_languages: 6
-- psychology_patterns: 4
-- unresolved_suffering: 3
-- music_math: 3
-- visual_media_patterns: 3
-- technology_ethics: 3
-- video_teaching_patterns: 2
-- world_languages_translation: 2
-- world_language_source_sampling: 2
-- biblical_language_source_depth: 2
-- pattern_perception_divine_response: 2
-- cultural_practice_patterns: 2
-- holy_spirit_gifts_global: 2
-- theologians_cross_era: 2
-- trinity: 1
-- art_beauty: 1
-- podcast_testimony_patterns: 1
+- psychology_patterns: 7
+- art_beauty: 4
+- general_research_methods: 4
+- trinity: 2
+- unresolved_suffering: 2
+- quantum_science_guardrails: 2
+- podcast_testimony_patterns: 2
+- history_memory: 2
+- interreligious_dream_testimony: 2
+- politics_justice: 1
+- visual_media_patterns: 1
+- video_teaching_patterns: 1
+- world_language_source_sampling: 1
+- biblical_languages: 1
+- biblical_language_source_depth: 1
 - global_text_traditions: 1
 - modern_literature_meaning: 1
-- interreligious_dream_testimony: 1
+- cultural_practice_patterns: 1
+- holy_spirit_gifts_global: 1
+- technology_ethics: 1
 
 New material by routed layer:
-- deep_sources: 23
-- human_stories: 19
-- pattern_tests: 18
-- psychology_inputs: 16
-- all_texts: 13
-- visual_art: 13
-- world_languages: 13
-- cultural_inputs: 11
-- research_documents/christian_sources: 10
-- biblical_languages: 9
-- theologians: 9
-- research_documents: 8
-- history_inputs: 6
-- other_religious_texts: 6
-- music_notes: 3
-- modern_literature: 2
+- human_stories: 17
+- psychology_inputs: 15
+- theologians: 10
+- pattern_tests: 9
+- cultural_inputs: 8
+- deep_sources: 8
+- visual_art: 8
+- all_texts: 7
+- research_documents: 6
+- history_inputs: 5
+- other_religious_texts: 5
+- modern_literature: 3
+- world_languages: 3
+- biblical_languages: 2
+- research_documents/christian_sources: 2
 
 New material quality mix:
-- scholarly metadata: 49
-- open web result: 7
-- scholarly preprint: 2
+- scholarly metadata: 31
+- open web result: 6
 
 New material automated evidence:
-- strong_scholarly_candidate: 41
-- moderate_scholarly_candidate: 10
+- strong_scholarly_candidate: 24
+- moderate_scholarly_candidate: 7
 - weak_scholarly_candidate: 6
-- do_not_strengthen_claim: 1
 
 Newest sources to review:
-- When and How in the History of Theology Did the Triune God Replace the Father as the Only True God? (2020) | tags: trinity | layers: theologians, research_documents, history_inputs | evidence: strong_scholarly_candidate (12)
-- Engaging Old Testament prophetic literature in traumatic times of loss and grief (2021) | tags: unresolved_suffering | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: strong_scholarly_candidate (12)
-- Daughters in-law in black families a pastoral care perspective (2011) | tags: unresolved_suffering | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: moderate_scholarly_candidate (9)
-- Constitutional Divide: The Transformative Significance of the School Prayer Decisions (2010) | tags: unresolved_suffering | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: strong_scholarly_candidate (12)
-- Bell's theorem. Experimental tests and implications (1978) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests | evidence: strong_scholarly_candidate (14)
-- Randomness in quantum mechanics: philosophy, physics and technology (2017) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests | evidence: strong_scholarly_candidate (14)
-- Toward a semiotic-Bayesian epistemology of skeletal trauma interpretation in forensic anthropology. (2026) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests, visual_art, psychology_inputs | evidence: strong_scholarly_candidate (10)
-- Causes in neuron diagrams, and testing causal reasoning in Large Language Models. A glimpse of the future of philosophy? (2025) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests, visual_art, world_languages | evidence: moderate_scholarly_candidate (7)
+- The Spirit of God in the New Testament: Diverse witnesses (1999) | tags: trinity | layers: theologians, research_documents | evidence: strong_scholarly_candidate (12)
+- ‘God, the Father Almighty’: A Theological Excursus (2016) | tags: trinity | layers: theologians, research_documents | evidence: strong_scholarly_candidate (12)
+- Contents (2010) | tags: unresolved_suffering | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: strong_scholarly_candidate (10)
+- Pastoral Care in Disaster: A theological reflection (2007) | tags: unresolved_suffering | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: moderate_scholarly_candidate (9)
+- An Einstein-Podolsky-Rosen argument based on weak forms of local realism not falsifiable by GHZ or Bell experiments (2022) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests | evidence: strong_scholarly_candidate (11)
+- The Intersection of Quantum Mechanics and Metaphysical Poetry: Exploring the Unknown in Donne and Heisenberg: Fusion of Quantum Mechanics and English Poetry (2025) | tags: quantum_science_guardrails | layers: deep_sources, pattern_tests, modern_literature | evidence: strong_scholarly_candidate (11)
+- ENGAGING STIGMA: AN EMBODIED THEOLOGICAL RESPONSE TO HIV AND AIDS (2013) | tags: politics_justice | layers: cultural_inputs, history_inputs | evidence: strong_scholarly_candidate (12)
+- Symbol (2013) | tags: art_beauty | layers: visual_art, cultural_inputs | evidence: moderate_scholarly_candidate (9)
 The Pattern In Ordinary Life
 ----------------------------
 A divine pattern is not only an idea on a page. It is a way of learning to notice how God may be calling human beings toward truth, love, repair, worship, and hope.
@@ -2495,10 +2488,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (12,418 signals)
-- Meaning And Logos: high internal signal (16,975 signals)
-- Moral Response: high internal signal (9,426 signals)
-- Worship And Community: high internal signal (8,673 signals)
+- Life And Consciousness: high internal signal (12,551 signals)
+- Meaning And Logos: high internal signal (17,066 signals)
+- Moral Response: high internal signal (9,554 signals)
+- Worship And Community: high internal signal (8,767 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -2515,9 +2508,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (16,975 signals)
-- Moral Response: high internal signal (9,426 signals)
-- Transformation: high internal signal (9,162 signals)
+- Meaning And Logos: high internal signal (17,066 signals)
+- Moral Response: high internal signal (9,554 signals)
+- Transformation: high internal signal (9,294 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -2534,10 +2527,10 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,224 signals)
-- Life And Consciousness: high internal signal (12,418 signals)
-- Moral Response: high internal signal (9,426 signals)
-- Worship And Community: high internal signal (8,673 signals)
+- Physical Order: high internal signal (6,273 signals)
+- Life And Consciousness: high internal signal (12,551 signals)
+- Moral Response: high internal signal (9,554 signals)
+- Worship And Community: high internal signal (8,767 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -2554,29 +2547,28 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,224 signals)
-- Meaning And Logos: high internal signal (16,975 signals)
-- Transformation: high internal signal (9,162 signals)
+- Physical Order: high internal signal (6,273 signals)
+- Meaning And Logos: high internal signal (17,066 signals)
+- Transformation: high internal signal (9,294 signals)
 
-Chapter 5: Providence And Contingency Pattern
----------------------------------------------
-In plain language: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
-Pattern movement: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
-Current reading: well-represented hypothesis; needs review.
-Why it matters: studies a world that is ordered yet historically open and contingent.
-Human problem: People want to know whether their lives are guided or random, especially when events feel accidental, painful, or beyond control.
-Biblical and theological grounding: Ground in Joseph, Job, Esther, Psalms, wisdom literature, Jesus' teaching on providence, Acts, and Pauline language about hope and groaning. Include classical and modern providence debates.
-Scholarly conversation: Needs philosophy of causality, theology of providence, history, complexity, probability, science limits, and careful distinctions between meaning, cause, and prediction.
-Cross-cultural listening: Compare fate, karma, destiny, providence, chance, ancestral guidance, and wisdom traditions without pretending they are identical.
-Where it must be tested: evil, chance, failed prediction, and no-visible-repair tests.
-Pressure test: Test against evil, tragedy, failed prediction, survivor bias, random loss, unanswered prayer, and attempts to explain every event too neatly.
-Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
+Chapter 5: Moral Transformation Pattern
+---------------------------------------
+In plain language: Christianity repeatedly frames human behavior as transformable, not fixed. The pattern is moral repair through grace.
+Pattern movement: Sin -> Conviction -> Repentance -> Forgiveness -> New Life
+Current reading: high internal signal; not proof.
+Why it matters: connects conviction, repentance, forgiveness, repair, and new life.
+Human problem: This pattern matters where ordinary life raises a question the research must face.
+Biblical and theological grounding: Scripture, Augustine, pastoral theology, moral psychology, forgiveness research, and spiritual formation studies.
+Scholarly conversation: Scripture, Augustine, pastoral theology, moral psychology, forgiveness research, and spiritual formation studies.
+Cross-cultural listening: Compare carefully without flattening difference or forcing agreement.
+Where it must be tested: abuse, cheap grace, unresolved harm, and failed repair tests.
+Pressure test: abuse, cheap grace, unresolved harm, and failed repair tests
+Daily-life practice: practice confession, accountability, repair, and mercy without denial.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,224 signals)
-- Quantum Probability: early signal (229 signals)
-- Life And Consciousness: high internal signal (12,418 signals)
-- Meaning And Logos: high internal signal (16,975 signals)
+- Moral Response: high internal signal (9,554 signals)
+- Transformation: high internal signal (9,294 signals)
+- Worship And Community: high internal signal (8,767 signals)
 
 
 Research Detail For The Five Patterns
@@ -2585,75 +2577,74 @@ Research Detail For The Five Patterns
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 47,492
+Layer signal total: 47,938
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 12,418 (high internal signal)
-- Meaning And Logos: 16,975 (high internal signal)
-- Moral Response: 9,426 (high internal signal)
-- Worship And Community: 8,673 (high internal signal)
+- Life And Consciousness: 12,551 (high internal signal)
+- Meaning And Logos: 17,066 (high internal signal)
+- Moral Response: 9,554 (high internal signal)
+- Worship And Community: 8,767 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
 2. Cross And Reversal Pattern
 -----------------------------
 Status: high internal signal; not proof
-Layer signal total: 35,563
+Layer signal total: 35,914
 Layers present: 3/3
 Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
 Layer support:
-- Meaning And Logos: 16,975 (high internal signal)
-- Moral Response: 9,426 (high internal signal)
-- Transformation: 9,162 (high internal signal)
+- Meaning And Logos: 17,066 (high internal signal)
+- Moral Response: 9,554 (high internal signal)
+- Transformation: 9,294 (high internal signal)
 Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
 Risk to avoid: Do not romanticize suffering or ignore injustice.
 
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 36,741
+Layer signal total: 37,145
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 6,224 (high internal signal)
-- Life And Consciousness: 12,418 (high internal signal)
-- Moral Response: 9,426 (high internal signal)
-- Worship And Community: 8,673 (high internal signal)
+- Physical Order: 6,273 (high internal signal)
+- Life And Consciousness: 12,551 (high internal signal)
+- Moral Response: 9,554 (high internal signal)
+- Worship And Community: 8,767 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
 4. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 32,361
+Layer signal total: 32,633
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 6,224 (high internal signal)
-- Meaning And Logos: 16,975 (high internal signal)
-- Transformation: 9,162 (high internal signal)
+- Physical Order: 6,273 (high internal signal)
+- Meaning And Logos: 17,066 (high internal signal)
+- Transformation: 9,294 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
 Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
 
-5. Providence And Contingency Pattern
--------------------------------------
-Status: well-represented hypothesis; needs review
-Layer signal total: 35,846
-Layers present: 4/4
-Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
-Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
+5. Moral Transformation Pattern
+-------------------------------
+Status: high internal signal; not proof
+Layer signal total: 27,615
+Layers present: 3/3
+Pattern: Sin -> Conviction -> Repentance -> Forgiveness -> New Life
+Interpretation: Christianity repeatedly frames human behavior as transformable, not fixed. The pattern is moral repair through grace.
 Layer support:
-- Physical Order: 6,224 (high internal signal)
-- Quantum Probability: 229 (early signal)
-- Life And Consciousness: 12,418 (high internal signal)
-- Meaning And Logos: 16,975 (high internal signal)
-Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
-Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
+- Moral Response: 9,554 (high internal signal)
+- Transformation: 9,294 (high internal signal)
+- Worship And Community: 8,767 (high internal signal)
+Evidence needed: Scripture, Augustine, pastoral theology, moral psychology, forgiveness research, and spiritual formation studies.
+Risk to avoid: Do not reduce grace to self-improvement psychology.
 
 Top-five guardrail:
 - These are related but distinct candidate families. Do not treat the strongest one as the only divine pattern.
@@ -2661,7 +2652,7 @@ Top-five guardrail:
 Top-Five Pattern Competition
 ----------------------------
 The top five should compete under pressure before being merged into one master pattern.
-Current pressure-test material is most concentrated in: Suffering Without Resolution (241), Science Guardrail (239), Counterexample Pressure (114), Injustice And Corruption (69), Disconfirming Failure Condition (38).
+Current pressure-test material is most concentrated in: Suffering Without Resolution (243), Science Guardrail (243), Counterexample Pressure (116), Injustice And Corruption (69), Disconfirming Failure Condition (38).
 
 1. Image Of God Pattern
 - Best use: connects mind, symbol, moral agency, relationship, dignity, and worship.
@@ -2687,11 +2678,11 @@ Current pressure-test material is most concentrated in: Suffering Without Resolu
 - Weakens if: Father, Son, and Holy Spirit become symbols rather than persons.
 - Practical check: receive life, follow Christ, and seek Spirit-led transformation in community.
 
-5. Providence And Contingency Pattern
-- Best use: studies a world that is ordered yet historically open and contingent.
-- Hardest pressure: evil, chance, failed prediction, and no-visible-repair tests.
-- Weakens if: providence is reduced to prediction or control of every event.
-- Practical check: act faithfully in uncertainty without pretending to know every cause.
+5. Moral Transformation Pattern
+- Best use: connects conviction, repentance, forgiveness, repair, and new life.
+- Hardest pressure: abuse, cheap grace, unresolved harm, and failed repair tests.
+- Weakens if: it pressures victims to forgive without justice or safety.
+- Practical check: practice confession, accountability, repair, and mercy without denial.
 
 Claim Ledger Snapshot
 ---------------------
@@ -2710,20 +2701,20 @@ Claims that should not be promoted without more review:
 Source Lane Balance
 -------------------
 The assistant should not strengthen broad claims while relevant lanes are thin.
-- biblical_languages: 277 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
-- world_languages: 349 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
-- all_texts: 360 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
-- other_religious_texts: 344 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: respectful comparison across traditions without flattening differences.
-- theologians: 670 notes; target 30-75, review cap 120; above review cap - pause unless thin lanes are growing. Purpose: primary-text theology and disagreements across eras.
-- history_inputs: 410 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: power, conflict, memory, reform, and consequences.
-- visual_art: 217 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
-- psychology_inputs: 255 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
-- human_stories: 67 notes; target 20-50, review cap 90; healthy target range. Purpose: lived grief, repair, vocation, community, and transformation.
-- cultural_inputs: 344 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: politics, economics, technology, ecology, health, work, and education.
-- modern_literature: 113 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: narrative recurrence and limits through literature summaries.
-- deep_sources: 175 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: math, statistics, science, suffering, and counterargument guardrails.
-- pattern_tests: 126 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: pressure tests that challenge claims without becoming the whole project.
-- research_documents: 411 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
+- biblical_languages: 279 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
+- world_languages: 350 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
+- all_texts: 361 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
+- other_religious_texts: 346 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: respectful comparison across traditions without flattening differences.
+- theologians: 674 notes; target 30-75, review cap 120; above review cap - pause unless thin lanes are growing. Purpose: primary-text theology and disagreements across eras.
+- history_inputs: 412 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: power, conflict, memory, reform, and consequences.
+- visual_art: 221 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
+- psychology_inputs: 262 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
+- human_stories: 69 notes; target 20-50, review cap 90; healthy target range. Purpose: lived grief, repair, vocation, community, and transformation.
+- cultural_inputs: 347 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: politics, economics, technology, ecology, health, work, and education.
+- modern_literature: 114 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: narrative recurrence and limits through literature summaries.
+- deep_sources: 177 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: math, statistics, science, suffering, and counterargument guardrails.
+- pattern_tests: 128 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: pressure tests that challenge claims without becoming the whole project.
+- research_documents: 415 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
 No lane is below its minimum target, but broad claims still need source-specific review.
 
 Reviewed Source Packs
@@ -2763,17 +2754,17 @@ Practice loop:
 - Review: look for fruit over time: love, truth, humility, justice, patience, and hope.
 Use it for family conflict, work, grief, spiritual gifts, interreligious encounter, justice, creativity, and pattern perception; review the fruit before strengthening the claim.
 - Trinitarian signal: strong Trinitarian signal
-- Father: 5,702
-- Son: 6,839
-- Holy Spirit: 1,865
+- Father: 5,690
+- Son: 6,815
+- Holy Spirit: 1,854
 
 Strongest research layers:
-- Life And Consciousness: 6,354
-- Meaning And Logos: 6,168
-- Physical Order: 2,664
-- Moral Response: 2,485
-- Transformation: 2,233
-- Worship And Community: 1,623
+- Life And Consciousness: 6,331
+- Meaning And Logos: 6,123
+- Physical Order: 2,661
+- Moral Response: 2,491
+- Transformation: 2,227
+- Worship And Community: 1,622
 
 Music-note science/math support:
 - Mathematical Structure: 223
@@ -2790,27 +2781,27 @@ Lyric meaning support:
 - Moral Confrontation: 12
 
 Cultural meaning support:
-- Desire And Longing: 368
-- Moral Confrontation: 199
+- Desire And Longing: 371
+- Moral Confrontation: 200
 - Creation And Order: 55
 - Communal Practice: 47
 - Transformation And Hope: 45
 
 Cross-layer synthesis support:
-- Psychological Process: 1,598
-- Counter-Reading: 1,375
-- Historical Context: 1,357
-- Language Semantics: 1,109
-- Ethical Consequence: 672
-- Embodied Practice: 650
-- Depth: early synthesis signal: 645
-- Depth: contextual interpretation: 323
-- Depth: lens detected but still word-heavy: 256
-- Depth: multi-lens understanding: 87
+- Psychological Process: 1,671
+- Counter-Reading: 1,397
+- Historical Context: 1,369
+- Language Semantics: 1,115
+- Ethical Consequence: 674
+- Embodied Practice: 661
+- Depth: early synthesis signal: 657
+- Depth: contextual interpretation: 329
+- Depth: lens detected but still word-heavy: 258
+- Depth: multi-lens understanding: 89
 - Depth: cross-layer synthesis: 58
 
 Comparative validity support:
-- useful counter-reading, not validation: 294
+- useful counter-reading, not validation: 300
 - shared-human pattern signal: 37
 - strong shared-human pattern; Trinitarian claim still needs Christian sources: 23
 - explicit Trinitarian overlap; check source context: 20
@@ -2824,13 +2815,13 @@ Global language/text coverage:
 
 Cloud reference review:
 - Reviewed cloud-reference markers: 5
-- Unreviewed cloud-reference markers: 57
+- Unreviewed cloud-reference markers: 56
 - Treat cloud references as leads until checked against original sources, author expertise, date, publication venue, and counterarguments.
 
 Theologian pattern-design support:
-- Trinity: 288
+- Trinity: 291
 - Christology: 231
-- Pneumatology: 230
+- Pneumatology: 231
 - Theodicy And Suffering: 207
 - Creation: 171
 - Church And Practice: 113
@@ -2838,21 +2829,21 @@ Theologian pattern-design support:
 Pressure-test result:
 ---------------------
 - resilient under pressure: 66
-- needs deeper review but still plausible: 56
+- needs deeper review but still plausible: 58
 
 Hold-under-friction result:
 ---------------------------
 - pressure present but hold question is underdeveloped: 57
-- not enough friction to judge hold: 54
+- not enough friction to judge hold: 56
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
 - holds under added friction: 1
 
 Deep-source result:
 -------------------
-- Mathematical Theophany And Beauty: under-sourced: 151
-- Quantum And Science Claims: under-sourced: 117
-- Quantum And Science Claims: partially sourced: 32
+- Mathematical Theophany And Beauty: under-sourced: 153
+- Quantum And Science Claims: under-sourced: 118
+- Quantum And Science Claims: partially sourced: 33
 - Mathematics Statistics And Logic: partially sourced: 17
 - Mathematics Statistics And Logic: under-sourced: 10
 - Quantum And Science Claims: source-supported: 8
@@ -2948,10 +2939,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (12,418 signals)
-- Meaning And Logos: high internal signal (16,975 signals)
-- Moral Response: high internal signal (9,426 signals)
-- Worship And Community: high internal signal (8,673 signals)
+- Life And Consciousness: high internal signal (12,551 signals)
+- Meaning And Logos: high internal signal (17,066 signals)
+- Moral Response: high internal signal (9,554 signals)
+- Worship And Community: high internal signal (8,767 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -2968,9 +2959,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (16,975 signals)
-- Moral Response: high internal signal (9,426 signals)
-- Transformation: high internal signal (9,162 signals)
+- Meaning And Logos: high internal signal (17,066 signals)
+- Moral Response: high internal signal (9,554 signals)
+- Transformation: high internal signal (9,294 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -2987,10 +2978,10 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,224 signals)
-- Life And Consciousness: high internal signal (12,418 signals)
-- Moral Response: high internal signal (9,426 signals)
-- Worship And Community: high internal signal (8,673 signals)
+- Physical Order: high internal signal (6,273 signals)
+- Life And Consciousness: high internal signal (12,551 signals)
+- Moral Response: high internal signal (9,554 signals)
+- Worship And Community: high internal signal (8,767 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -3007,29 +2998,28 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,224 signals)
-- Meaning And Logos: high internal signal (16,975 signals)
-- Transformation: high internal signal (9,162 signals)
+- Physical Order: high internal signal (6,273 signals)
+- Meaning And Logos: high internal signal (17,066 signals)
+- Transformation: high internal signal (9,294 signals)
 
-Chapter 5: Providence And Contingency Pattern
----------------------------------------------
-In plain language: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
-Pattern movement: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
-Current reading: well-represented hypothesis; needs review.
-Why it matters: studies a world that is ordered yet historically open and contingent.
-Human problem: People want to know whether their lives are guided or random, especially when events feel accidental, painful, or beyond control.
-Biblical and theological grounding: Ground in Joseph, Job, Esther, Psalms, wisdom literature, Jesus' teaching on providence, Acts, and Pauline language about hope and groaning. Include classical and modern providence debates.
-Scholarly conversation: Needs philosophy of causality, theology of providence, history, complexity, probability, science limits, and careful distinctions between meaning, cause, and prediction.
-Cross-cultural listening: Compare fate, karma, destiny, providence, chance, ancestral guidance, and wisdom traditions without pretending they are identical.
-Where it must be tested: evil, chance, failed prediction, and no-visible-repair tests.
-Pressure test: Test against evil, tragedy, failed prediction, survivor bias, random loss, unanswered prayer, and attempts to explain every event too neatly.
-Daily-life practice: Act faithfully inside uncertainty. Pray, plan, serve, grieve, and choose wisdom without claiming to know every hidden cause.
+Chapter 5: Moral Transformation Pattern
+---------------------------------------
+In plain language: Christianity repeatedly frames human behavior as transformable, not fixed. The pattern is moral repair through grace.
+Pattern movement: Sin -> Conviction -> Repentance -> Forgiveness -> New Life
+Current reading: high internal signal; not proof.
+Why it matters: connects conviction, repentance, forgiveness, repair, and new life.
+Human problem: This pattern matters where ordinary life raises a question the research must face.
+Biblical and theological grounding: Scripture, Augustine, pastoral theology, moral psychology, forgiveness research, and spiritual formation studies.
+Scholarly conversation: Scripture, Augustine, pastoral theology, moral psychology, forgiveness research, and spiritual formation studies.
+Cross-cultural listening: Compare carefully without flattening difference or forcing agreement.
+Where it must be tested: abuse, cheap grace, unresolved harm, and failed repair tests.
+Pressure test: abuse, cheap grace, unresolved harm, and failed repair tests
+Daily-life practice: practice confession, accountability, repair, and mercy without denial.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (6,224 signals)
-- Quantum Probability: early signal (229 signals)
-- Life And Consciousness: high internal signal (12,418 signals)
-- Meaning And Logos: high internal signal (16,975 signals)
+- Moral Response: high internal signal (9,554 signals)
+- Transformation: high internal signal (9,294 signals)
+- Worship And Community: high internal signal (8,767 signals)
 
 
 Research Detail
@@ -3038,80 +3028,79 @@ Research Detail
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 47,492
+Layer signal total: 47,938
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 12,418 (high internal signal)
-- Meaning And Logos: 16,975 (high internal signal)
-- Moral Response: 9,426 (high internal signal)
-- Worship And Community: 8,673 (high internal signal)
+- Life And Consciousness: 12,551 (high internal signal)
+- Meaning And Logos: 17,066 (high internal signal)
+- Moral Response: 9,554 (high internal signal)
+- Worship And Community: 8,767 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
 2. Cross And Reversal Pattern
 -----------------------------
 Status: high internal signal; not proof
-Layer signal total: 35,563
+Layer signal total: 35,914
 Layers present: 3/3
 Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
 Layer support:
-- Meaning And Logos: 16,975 (high internal signal)
-- Moral Response: 9,426 (high internal signal)
-- Transformation: 9,162 (high internal signal)
+- Meaning And Logos: 17,066 (high internal signal)
+- Moral Response: 9,554 (high internal signal)
+- Transformation: 9,294 (high internal signal)
 Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
 Risk to avoid: Do not romanticize suffering or ignore injustice.
 
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 36,741
+Layer signal total: 37,145
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 6,224 (high internal signal)
-- Life And Consciousness: 12,418 (high internal signal)
-- Moral Response: 9,426 (high internal signal)
-- Worship And Community: 8,673 (high internal signal)
+- Physical Order: 6,273 (high internal signal)
+- Life And Consciousness: 12,551 (high internal signal)
+- Moral Response: 9,554 (high internal signal)
+- Worship And Community: 8,767 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
 4. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 32,361
+Layer signal total: 32,633
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 6,224 (high internal signal)
-- Meaning And Logos: 16,975 (high internal signal)
-- Transformation: 9,162 (high internal signal)
+- Physical Order: 6,273 (high internal signal)
+- Meaning And Logos: 17,066 (high internal signal)
+- Transformation: 9,294 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
 Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
 
-5. Providence And Contingency Pattern
--------------------------------------
-Status: well-represented hypothesis; needs review
-Layer signal total: 35,846
-Layers present: 4/4
-Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
-Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
+5. Moral Transformation Pattern
+-------------------------------
+Status: high internal signal; not proof
+Layer signal total: 27,615
+Layers present: 3/3
+Pattern: Sin -> Conviction -> Repentance -> Forgiveness -> New Life
+Interpretation: Christianity repeatedly frames human behavior as transformable, not fixed. The pattern is moral repair through grace.
 Layer support:
-- Physical Order: 6,224 (high internal signal)
-- Quantum Probability: 229 (early signal)
-- Life And Consciousness: 12,418 (high internal signal)
-- Meaning And Logos: 16,975 (high internal signal)
-Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
-Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
+- Moral Response: 9,554 (high internal signal)
+- Transformation: 9,294 (high internal signal)
+- Worship And Community: 8,767 (high internal signal)
+Evidence needed: Scripture, Augustine, pastoral theology, moral psychology, forgiveness research, and spiritual formation studies.
+Risk to avoid: Do not reduce grace to self-improvement psychology.
 
 Top-Five Pattern Competition
 ----------------------------
 The top five should compete under pressure before being merged into one master pattern.
-Current pressure-test material is most concentrated in: Suffering Without Resolution (241), Science Guardrail (239), Counterexample Pressure (114), Injustice And Corruption (69), Disconfirming Failure Condition (38).
+Current pressure-test material is most concentrated in: Suffering Without Resolution (243), Science Guardrail (243), Counterexample Pressure (116), Injustice And Corruption (69), Disconfirming Failure Condition (38).
 
 1. Image Of God Pattern
 - Best use: connects mind, symbol, moral agency, relationship, dignity, and worship.
@@ -3137,11 +3126,11 @@ Current pressure-test material is most concentrated in: Suffering Without Resolu
 - Weakens if: Father, Son, and Holy Spirit become symbols rather than persons.
 - Practical check: receive life, follow Christ, and seek Spirit-led transformation in community.
 
-5. Providence And Contingency Pattern
-- Best use: studies a world that is ordered yet historically open and contingent.
-- Hardest pressure: evil, chance, failed prediction, and no-visible-repair tests.
-- Weakens if: providence is reduced to prediction or control of every event.
-- Practical check: act faithfully in uncertainty without pretending to know every cause.
+5. Moral Transformation Pattern
+- Best use: connects conviction, repentance, forgiveness, repair, and new life.
+- Hardest pressure: abuse, cheap grace, unresolved harm, and failed repair tests.
+- Weakens if: it pressures victims to forgive without justice or safety.
+- Practical check: practice confession, accountability, repair, and mercy without denial.
 
 Cautious Confidence Language
 ----------------------------
@@ -3211,8 +3200,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Documents analyzed: 364
-Total analyzed words: 819,767
+Documents analyzed: 368
+Total analyzed words: 816,522
 The strongest signal is currently around God and Divine Attributes, Theology and Logos, Creation and Order. This suggests the research set is beginning to connect conceptual, human, and analytical dimensions.
 
 Christ-Centered Foundation
@@ -3230,32 +3219,32 @@ Pattern acceptance rule: patterns are secondary observations. They must be teste
 
 Theme Signals
 -------------
-- God and Divine Attributes: 25,438
-- Theology and Logos: 6,291
-- Creation and Order: 6,108
-- Jesus and Christology: 5,559
-- Philosophy and Meaning: 3,253
-- Moral Transformation: 3,151
-- Physics and Natural Law: 3,094
-- Faith and Trust: 2,620
-- Anthropology and Culture: 2,116
-- Spirituality and Worship: 1,810
-- Mathematics and Intelligibility: 1,145
-- Holy Spirit and Pneumatology: 1,007
-- Mathematical Theophany: 941
-- AI and Pattern Recognition: 746
-- Quantum Physics and Uncertainty: 148
-- Biology and Neuroscience: 122
+- God and Divine Attributes: 25,432
+- Theology and Logos: 6,242
+- Creation and Order: 6,066
+- Jesus and Christology: 5,552
+- Philosophy and Meaning: 3,240
+- Moral Transformation: 3,161
+- Physics and Natural Law: 3,091
+- Faith and Trust: 2,583
+- Anthropology and Culture: 2,071
+- Spirituality and Worship: 1,822
+- Mathematics and Intelligibility: 1,120
+- Holy Spirit and Pneumatology: 997
+- Mathematical Theophany: 919
+- AI and Pattern Recognition: 715
+- Quantum Physics and Uncertainty: 142
+- Biology and Neuroscience: 120
 
 Trinitarian Pattern Lens
 ------------------------
 Signal: strong Trinitarian signal
 The analyzer treats Father, Son, and Holy Spirit as distinct persons and one God. It looks for each person separately, then checks whether the corpus keeps them relationally connected.
-- Father: 5,702
+- Father: 5,690
   Role: Source, Creator, giver of being, providential care, and holy authority.
-- Son: 6,839
+- Son: 6,815
   Role: Word/Logos, revelation, incarnation, redemption, reconciliation, and resurrection.
-- Holy Spirit: 1,865
+- Holy Spirit: 1,854
   Role: Living presence, conviction, gifts, communion, sanctification, and transformation.
 
 Trinitarian Evidence Samples
@@ -3293,19 +3282,19 @@ Trinitarian Co-Presence Samples
 Meaning Guardrails
 ------------------
 The analyzer now checks whether a pattern has contextual movement, not only repeated vocabulary.
-- Creation And Order: 5,940
-- Transformation And Hope: 3,783
-- Desire And Longing: 3,731
-- Moral Confrontation: 3,231
-- Communal Practice: 2,714
-- Alienation And Lament: 2,162
+- Creation And Order: 5,890
+- Transformation And Hope: 3,779
+- Desire And Longing: 3,733
+- Moral Confrontation: 3,211
+- Communal Practice: 2,708
+- Alienation And Lament: 2,157
 
 Source Review Guardrails
 ------------------------
-- Scholarly Or Scientific Source: 2,742
-- Primary Or Classical Source: 684
-- Practical Lived Source: 606
-- Unreviewed Cloud Reference: 57
+- Scholarly Or Scientific Source: 2,700
+- Primary Or Classical Source: 682
+- Practical Lived Source: 603
+- Unreviewed Cloud Reference: 56
 - Speculative Source: 44
 - Reviewed Cloud Reference: 5
 - Cloud references are candidate leads until reviewed against the original source, author qualifications, publication context, and counterarguments.
@@ -3316,23 +3305,23 @@ Model: Physical Order -> Mathematical Structure -> Mathematical Theophany -> Qua
 The corpus contains evidence across every layer of the proposed model. This supports treating layered convergence as a serious research hypothesis, not as proof of divine reality.
 
 Layer Scores:
-- Physical Order: 2,664 (high internal signal)
+- Physical Order: 2,661 (high internal signal)
   Test: Is reality described as ordered, law-like, created, or providential?
-- Mathematical Structure: 645 (moderate internal signal)
+- Mathematical Structure: 640 (moderate internal signal)
   Test: Does the corpus connect reality with mathematical or logical intelligibility?
-- Mathematical Theophany: 1,298 (high internal signal)
+- Mathematical Theophany: 1,277 (high internal signal)
   Test: Can mathematical order, pattern, symmetry, logic, infinity, or beauty be read cautiously as secondary signs within creation after Christ, Scripture, doctrine, and rival explanations remain in view?
-- Quantum Probability: 183 (early signal)
+- Quantum Probability: 175 (early signal)
   Test: Does the corpus include disciplined uncertainty rather than simple determinism?
-- Life And Consciousness: 6,354 (high internal signal)
+- Life And Consciousness: 6,331 (high internal signal)
   Test: Does the corpus connect ordered reality with life, mind, or personhood?
-- Meaning And Logos: 6,168 (high internal signal)
+- Meaning And Logos: 6,123 (high internal signal)
   Test: Does the corpus connect intelligibility with meaning, Logos, wisdom, or truth?
-- Moral Response: 2,485 (high internal signal)
+- Moral Response: 2,491 (high internal signal)
   Test: Does the corpus connect meaning with moral accountability or response?
-- Worship And Community: 1,623 (high internal signal)
+- Worship And Community: 1,622 (high internal signal)
   Test: Does the corpus connect belief with embodied practice and community?
-- Transformation: 2,233 (high internal signal)
+- Transformation: 2,227 (high internal signal)
   Test: Does the corpus connect divine presence with personal or communal change?
 
 Layer Evidence Samples
@@ -3395,17 +3384,17 @@ Transformation
 Hypothesis Test Domains
 -----------------------
 - Historical Theology: 7,006 (strongly represented)
-- Scripture And Early Christian Logos: 3,428 (strongly represented)
-- Philosophy Of Science: 2,862 (strongly represented)
-- World Languages And Translation: 1,530 (strongly represented)
-- Physics And Quantum Mechanics: 1,452 (strongly represented)
-- History And Cultural Memory: 1,375 (strongly represented)
-- Visual Art And Symbol: 1,061 (strongly represented)
-- Cognitive Science: 1,047 (strongly represented)
-- Mathematical Theophany: 942 (strongly represented)
-- Anthropology And Psychology Of Worship: 837 (strongly represented)
-- Biblical Greek And Hebrew: 622 (strongly represented)
-- Philosophy Of Mathematics: 561 (strongly represented)
+- Scripture And Early Christian Logos: 3,403 (strongly represented)
+- Philosophy Of Science: 2,861 (strongly represented)
+- Physics And Quantum Mechanics: 1,441 (strongly represented)
+- World Languages And Translation: 1,435 (strongly represented)
+- History And Cultural Memory: 1,366 (strongly represented)
+- Visual Art And Symbol: 1,047 (strongly represented)
+- Cognitive Science: 1,045 (strongly represented)
+- Mathematical Theophany: 921 (strongly represented)
+- Anthropology And Psychology Of Worship: 846 (strongly represented)
+- Biblical Greek And Hebrew: 567 (strongly represented)
+- Philosophy Of Mathematics: 557 (strongly represented)
 
 Repeated Terms
 --------------
@@ -3423,12 +3412,12 @@ Repeated Terms
 - were: 3,189
 - one: 2,885
 - out: 2,776
-- review: 2,736
 - you: 2,699
+- review: 2,604
 - israel: 2,575
 - king: 2,548
 - son: 2,396
-- source: 1,995
+- source: 2,015
 
 Cross-Disciplinary Pattern Candidates
 -------------------------------------
@@ -3535,8 +3524,8 @@ God and Divine Attributes
 - cross_layer_source_specific_casebook.md: ## Case 4: Gifts Of The Holy Ghost Across Cultures  - Theologian lane: gifts must be ordered by love, fruit, doctrine, and communal   discernment.
 - daily_cloud_reference_review_log.md: - Counterargument: technical quantum work does not support vague claims about   prayer, consciousness, or God.
 - daily_cloud_reference_review_log.md: ### Melanchthon and Patristic Thought  - Queue route: theologians, christian sources - Current label: candidate_lead_only - Reason: Metadata suggests relevance to Reformation reception of patristic   Christ, grace, Trinity, and creation themes, but no summary was available.
-- daily_evaluation_queue.md: ## Newest Candidate Material  ### When and How in the History of Theology Did the Triune God Replace the Father as the Only True God?
-- daily_evaluation_queue.md: - URL: https://illuminationhebrewinsights.com/2024/09/25/hesed-shalom-%D7%97%D7%A1%D7%93-%D7%95%D7%A9%D7%81%D7%9C%D7%95%D7%9D  Hesed is a Hebrew word and a covenantal term describing God’s covenantal character.
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### The Spirit of God in the New Testament: Diverse witnesses  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, researc
+- daily_evaluation_queue.md: ### ‘God, the Father Almighty’: A Theological Excursus  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologi
 - divine_pattern_concept.md: The broader vision is not about creating a digital god.
 - evidence_discernment_distinction.md: It asks what the pattern may mean before God and how a person or community should respond.
 - evidence_discernment_distinction.md: It may say, for example, that Christians interpret order, Logos, moral response, and transformation through Father, Son, and Holy Spirit.
@@ -3686,6 +3675,8 @@ Faith and Trust
 - book_review_sanctification_explorations_in_theology_and_practice_ffc13dedf9a7.md: - Keep confidence effect as none until this note is manually reviewed.
 - book_review_science_and_providence_86619399a553.md: # Book Review: Science and Providence  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-06-17T17:49:38.704534+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 1990 - URL: ht
 - book_review_science_and_providence_86619399a553.md: - Keep confidence effect as none until this note is manually reviewed.
+- book_review_science_chance_and_providence_by_donald_mackay_oup_1978_67_pp_3_50_r_74d75018659b.md: £2.95  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-10T14:57:45.318035+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 1979 - URL: https://doi.org/10.1177/0040571x79
+- book_review_science_chance_and_providence_by_donald_mackay_oup_1978_67_pp_3_50_r_74d75018659b.md: - Keep confidence effect as none until this note is manually reviewed.
 - book_review_the_god_of_love_and_human_dignity_essays_in_honour_of_george_m_newla_fb256b700a32.md: Newlands  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-06-24T03:24:56.315122+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 2009 - URL: https://doi.org/10.1177/0040571
 - book_review_the_god_of_love_and_human_dignity_essays_in_honour_of_george_m_newla_fb256b700a32.md: - Keep confidence effect as none until this note is manually reviewed.
 - book_review_the_historical_evidence_for_jesus_67570a53db65.md: # Book Review: The Historical Evidence for Jesus  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-10T16:18:47.290988+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 198
@@ -4012,6 +4003,8 @@ Faith and Trust
 - philosophy_law_and_religion_6b1c9b213582.md: - Keep confidence effect as none until this note is manually reviewed.
 - philosophy_of_religion_as_way_to_skepticism_645df8d2ec6e.md: # Philosophy of Religion as Way to Skepticism  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-20T15:51:17.558731+00:00  ## Candidate Metadata  - Provider: OpenAlex - Source type: article - Year: 2018 - URL: ht
 - philosophy_of_religion_as_way_to_skepticism_645df8d2ec6e.md: - Keep confidence effect as none until this note is manually reviewed.
+- placing_psychology_a_critical_exploration_of_research_methodology_curricula_in_t_626a8a997026.md: # Placing psychology : a critical exploration of research methodology curricula in the social sciences  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-10T14:57:45.318035+00:00  ## Candidate Metadata  - Provide
+- placing_psychology_a_critical_exploration_of_research_methodology_curricula_in_t_626a8a997026.md: - Keep confidence effect as none until this note is manually reviewed.
 - political_theology_and_legal_theory_4af9b4315533.md: # Political theology and legal theory  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-07T14:51:17.538021+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: book-chapter - Year: 2019 - URL: https
 - political_theology_and_legal_theory_4af9b4315533.md: - Keep confidence effect as none until this note is manually reviewed.
 - pope_francis_reparative_vision_a_postmodern_hermeneutic_of_catholic_uncertainty_a716127b27ea.md: # POPE FRANCIS’ REPARATIVE VISION: A POSTMODERN HERMENEUTIC OF CATHOLIC UNCERTAINTY  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-04T16:13:33.425324+00:00  ## Candidate Metadata  - Provider: OpenAlex - Sourc
@@ -4056,6 +4049,8 @@ Faith and Trust
 - rights_in_a_state_of_exception_the_deadly_colonial_ethics_of_voluntary_corporate_7ea360445737.md: - Keep confidence effect as none until this note is manually reviewed.
 - ritual_failure_and_baptism_abf312bc48e1.md: # Ritual Failure and Baptism  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-18T14:50:45.806748+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: book-chapter - Year: 2021 - URL: https://doi.or
 - ritual_failure_and_baptism_abf312bc48e1.md: - Keep confidence effect as none until this note is manually reviewed.
+- salut_aux_armes_rev_rev_kagarlickij_b_yu_dolgoe_otstuplenie_the_long_retreat_m_b_47d8772a3658.md: Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-10T14:57:45.318035+00:00  ## Candidate Metadata  - Provider: OpenAlex - Source type: article - Year: 2025 - URL: https://doi.org/10.64737/2410-1419-2025-1-17 - DO
+- salut_aux_armes_rev_rev_kagarlickij_b_yu_dolgoe_otstuplenie_the_long_retreat_m_b_47d8772a3658.md: - Keep confidence effect as none until this note is manually reviewed.
 - science_and_providence_today_31a7c863e359.md: # Science and providence today  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-06-17T19:32:08.437139+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: book-chapter - Year: 2021 - URL: https://doi.
 - science_and_providence_today_31a7c863e359.md: - Keep confidence effect as none until this note is manually reviewed.
 - science_and_theology_8cb08e7b3a33.md: # Science and Theology  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-01T16:29:31.697219+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 1993 - URL: https://doi.org/1
@@ -4130,6 +4125,8 @@ Faith and Trust
 - the_prophetic_witness_of_the_church_as_an_appropriate_mode_of_public_discourse_i_48b8953f37c5.md: - Keep confidence effect as none until this note is manually reviewed.
 - the_question_of_algorithmic_personhood_and_being_or_on_the_tenuous_nature_of_hum_5e590cee2c58.md: # The Question of Algorithmic Personhood and Being (Or: On the Tenuous Nature of Human Status and Humanity Tests in Virtual Spaces—Why All Souls Are ‘Necessarily’ Equal When Considered as Energy)  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed 
 - the_question_of_algorithmic_personhood_and_being_or_on_the_tenuous_nature_of_hum_5e590cee2c58.md: - Keep confidence effect as none until this note is manually reviewed.
+- the_real_type_and_ideal_type_of_transdisciplinary_processes_part_i_theoretical_f_0277871f79dd.md: # The real type and ideal type of transdisciplinary processes: part I—theoretical foundations  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-10T14:57:45.318035+00:00  ## Candidate Metadata  - Provider: OpenAl
+- the_real_type_and_ideal_type_of_transdisciplinary_processes_part_i_theoretical_f_0277871f79dd.md: - Keep confidence effect as none until this note is manually reviewed.
 - the_reformation_of_suffering_4106f5481e31.md: # The Reformation of Suffering  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-22T15:32:01.547235+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: monograph - Year: 2012 - URL: https://doi.org
 - the_reformation_of_suffering_4106f5481e31.md: - Keep confidence effect as none until this note is manually reviewed.
 - the_reformation_of_suffering_pastoral_theology_and_lay_piety_in_late_medieval_an_79fdc244db6b.md: # The Reformation of Suffering: Pastoral Theology and Lay Piety in Late Medieval and Early Modern Germany  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-19T14:52:28.160395+00:00  ## Candidate Metadata  - Prov
@@ -4227,7 +4224,7 @@ Faith and Trust
 - daily_cloud_reference_review_log.md: ### There is Hope for a Tree: Lament and Hope in Conversation with Polydoxy  - Queue route: visual_art, cultural_inputs, history_inputs, all_texts - Current label: reviewed_limited_evidence - Reason: Abstract suggests contemporary theology, lament, hope, multiplicity,   apophatic
 - daily_cloud_reference_review_log.md: - Small claim allowed: some contemporary theological sources connect lament,   hope, and ecological pressure.
 - daily_evaluation_queue.md: Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
-- daily_evaluation_queue.md: - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, research_documents, history_inputs - Primary layer: theologians - Provider: OpenAlex - Quality: scho
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### The Spirit of God in the New Testament: Diverse witnesses  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, researc
 - divine_pattern_concept.md: It is about using AI as an analytical tool to explore connections between science, faith, and human experience.
 - evidence_discernment_distinction.md: A disciplined theological assistant must separate what has been observed from how faith discerns and practices what has been observed.
 - evidence_discernment_distinction.md: It must become discernible in human life as truthful attention, moral response, community practice, spiritual formation, service, repair, lament, hope, or worship.
@@ -4324,8 +4321,8 @@ Jesus and Christology
 - cross_layer_source_specific_casebook.md: - Biblical-language lane: cross, suffering, witness, Spirit, and resurrection   vocabulary must be read in context.
 - daily_cloud_reference_review_log.md: ### Melanchthon and Patristic Thought  - Queue route: theologians, christian sources - Current label: candidate_lead_only - Reason: Metadata suggests relevance to Reformation reception of patristic   Christ, grace, Trinity, and creation themes, but no summary was available.
 - daily_cloud_reference_review_log.md: - Small claim allowed: possible source for cross-era theologian continuity.
-- daily_evaluation_queue.md: ### Cross culture and business practice: are they coterminous or cross‐verging?
-- daily_evaluation_queue.md: ### Book review: Christ, Providence and History: Hans W.
+- daily_evaluation_queue.md: ### HELFI: a Hebrew-Greek-Finnish Parallel Bible Corpus with Cross-Lingual Morpheme Alignment  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: biblical_languages - Layer routes: biblica
+- daily_evaluation_queue.md: ## The Habit of Embodying Christ in Community [...] “There’s a shame, a feeling of being unholy, an unworthiness that happens inside them, and they resolve to consider themselves failures,” Fay noted.
 - evidence_discernment_distinction.md: It may say, for example, that Christians interpret order, Logos, moral response, and transformation through Father, Son, and Holy Spirit.
 - external_review_protocol.md: ### Theologian Or Historical Theologian  Primary questions:  - Does the claim preserve orthodox boundaries around Trinity, incarnation,   creation, sin, grace, resurrection, and new creation?
 - friction_layer.md: - Christian resolution: Christianity emphasizes grace, redemption through Christ, and transformation by the Holy Spirit.
@@ -4384,8 +4381,8 @@ Holy Spirit and Pneumatology
 - cross_layer_source_specific_casebook.md: ## Case 2: Translation Of Spirit / Breath / Wind  - World-language lane: terms for breath, wind, life, spirit, and divine agency   differ across languages.
 - daily_cloud_reference_review_log.md: ### Dwelling Amid Ruins: Hope, Lament, and Necropolitics  - Queue route: visual_art, cultural_inputs - Current label: candidate_lead_only - Reason: Metadata suggests lament, hope, ruins, and necropolitics, but no   summary was available.
 - daily_cloud_reference_review_log.md: - Smallest claim allowed: Nicene confession explicitly names Father, Son, and   Holy Spirit and is a strong doctrinal anchor for Trinitarian boundary-setting.
-- daily_evaluation_queue.md: ### Surviving Secularization: Masking the Spirit in the Jankunu (John Canoe) Festivals of the Caribbean  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: visual_media_patterns - Layer ro
-- daily_evaluation_queue.md: You do have a spirit, however.
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### The Spirit of God in the New Testament: Diverse witnesses  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, researc
+- daily_evaluation_queue.md: ### Global and Local Pentecostal Histories: Reframing Pentecostal Historiography in Africa  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: holy_spirit_gifts_global - Layer routes: theo
 - evidence_discernment_distinction.md: It may say, for example, that Christians interpret order, Logos, moral response, and transformation through Father, Son, and Holy Spirit.
 - friction_layer.md: - Christian resolution: Christianity emphasizes grace, redemption through Christ, and transformation by the Holy Spirit.
 - friction_layer.md: - Christian resolution: Christianity emphasizes spiritual formation, grace, repentance, sanctification, and love that is not limited to the socially excellent.
@@ -4465,8 +4462,8 @@ Creation and Order
 - cross_layer_source_specific_casebook.md: - Language lane: wisdom terms carry different social and theological fields.
 - daily_cloud_reference_review_log.md: - Small claim allowed: historical sources may connect music theory, cosmology,   and mathematical order.
 - daily_cloud_reference_review_log.md: - Counterargument: perception research does not prove divine order.
-- daily_evaluation_queue.md: - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, research_documents, history_inputs - Primary layer: theologians - Provider: OpenAlex - Quality: scho
-- daily_evaluation_queue.md: ### Engaging Old Testament prophetic literature in traumatic times of loss and grief  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: unresolved_suffering - Layer routes: pattern_tests,
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### The Spirit of God in the New Testament: Diverse witnesses  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, researc
+- daily_evaluation_queue.md: ### ‘God, the Father Almighty’: A Theological Excursus  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, research_documents - Primary layer: theologi
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - divine_pattern_concept.md: Research areas include theological concepts of divine order and Logos, genetic and neurological research related to spirituality, anthropological patterns in worship and religious behavior, and AI systems capable of large-scale pattern recognition across disciplines.
 - evidence_discernment_distinction.md: It may say, for example, that Christians interpret order, Logos, moral response, and transformation through Father, Son, and Holy Spirit.
@@ -4667,7 +4664,7 @@ Theology and Logos
 - daily_cloud_reference_review_log.md: - Small claim allowed: historical sources may connect music theory, cosmology,   and mathematical order.
 - daily_cloud_reference_review_log.md: - Counterargument: perception research does not prove divine order.
 - daily_evaluation_queue.md: Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
-- daily_evaluation_queue.md: - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, research_documents, history_inputs - Primary layer: theologians - Provider: OpenAlex - Quality: scho
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### The Spirit of God in the New Testament: Diverse witnesses  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, researc
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - evidence_discernment_distinction.md: # Evidence And Discernment Distinction  Type: theological method rule Source status: active discipline rule  The Divine project should investigate recurring structures, archetypes, and narrative motifs without turning every recurrence into proof.
@@ -4827,8 +4824,8 @@ Spirituality and Worship
 - cloud_references_summary.md: ## The Theo-Politics of Ritual: Defining and Contesting the Sacred Order of the Church  - Tags: world_languages_translation - Layer routes: world_languages, all_texts - Primary layer: world_languages - Provider: OpenAlex - Quality: scholarly metadata - Media kind: none - Requires
 - daily_cloud_reference_review_log.md: - Counterargument: technical quantum work does not support vague claims about   prayer, consciousness, or God.
 - daily_cloud_reference_review_log.md: - Counterargument: science metadata does not support claims about divine action,   prayer, consciousness, or proof of God.
-- daily_evaluation_queue.md: ### Constitutional Divide: The Transformative Significance of the School Prayer Decisions  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: unresolved_suffering - Layer routes: pattern_t
-- daily_evaluation_queue.md: ### Voices in Concert: Communication Ethnography of Pentecostal Worship  - Review status: machine_assessed_strong_scholarly_candidate - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: podcast_testimony_patterns - Layer routes: human_st
+- daily_evaluation_queue.md: ### The Spiritual Path of Transformation1  - Review status: auto_approved_for_review_queue - Evaluation use: can support cautious working claims when corroborated - Tags: art_beauty - Layer routes: visual_art, cultural_inputs, all_texts - Primary layer: visual_art - Provider: Eur
+- daily_evaluation_queue.md: ### Spiritual Expectations and Experience of Women with Newborns  - Review status: machine_assessed_moderate_scholarly_candidate - Evaluation use: can support cautious working claims when corroborated - Tags: video_teaching_patterns - Layer routes: theologians, human_stories, cul
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - divine_pattern_concept.md: It is about using AI as an analytical tool to explore connections between science, faith, and human experience.
 - evidence_discernment_distinction.md: A disciplined theological assistant must separate what has been observed from how faith discerns and practices what has been observed.
@@ -4916,8 +4913,7 @@ Biology and Neuroscience
 - cross_layer_source_specific_casebook.md: - Pattern signal: life, presence, and transformation are often embodied.
 - daily_cloud_reference_review_log.md: - Counterargument: technical quantum work does not support vague claims about   prayer, consciousness, or God.
 - daily_cloud_reference_review_log.md: - Counterargument: science metadata does not support claims about divine action,   prayer, consciousness, or proof of God.
-- daily_evaluation_queue.md: ### Consciousness in the universe: a review of the 'Orch OR' theory.
-- daily_evaluation_queue.md: ### Scale relativity theory and integrative systems biology: 2 Macroscopic quantum-type mechanics  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: quantum_science_guardrails - Layer rou
+- daily_evaluation_queue.md: ### ENGAGING STIGMA: AN EMBODIED THEOLOGICAL RESPONSE TO HIV AND AIDS  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: politics_justice - Layer routes: cultural_inputs, history_inputs -
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - evidence_discernment_distinction.md: Practice a small embodied response.
@@ -4984,7 +4980,6 @@ Physics and Natural Law
 - daily_cloud_reference_review_log.md: ### Quantum / Measurement / Physics Routed Candidates  - Queue route: deep_sources, pattern_tests - Current label: reviewed_limited_evidence - Reason: Technical metadata can help identify qualified science sources, but   arXiv/preprint or abstract-level material cannot support br
 - daily_cloud_reference_review_log.md: - Small claim allowed: quantum measurement, uncertainty, and physical law are   technical subjects requiring qualified sources and narrow wording.
 - daily_evaluation_queue.md: # Daily Evaluation Queue  This file is generated by internet_source_collector.py every time the daily cloud research workflow runs.
-- daily_evaluation_queue.md: ### Randomness in quantum mechanics: philosophy, physics and technology  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: quantum_science_guardrails - Layer routes: deep_sources, pattern
 - external_review_protocol.md: - Are probability, causality, quantum theory, neuroscience, and AI claims kept   narrow?
 - friction_layer.md: ### Darwin and Natural Selection  - Domain: Science <-> Theology - Evidence score: -1 - Evidence effect: serious_challenge_to_simple_design_arguments - Confidence: provisional - Review status: needs_science_source_review - Observation: Complex life can arise through natural proce
 - gold_standard_corpus_plan.md: Include philosophy of science, probability/statistics, mathematics, physics, AI pattern recognition, neuroscience, or biology only where source scope is clear.
@@ -5089,7 +5084,7 @@ Mathematics and Intelligibility
 - daily_cloud_reference_review_log.md: - Small claim allowed: historical sources may connect music theory, cosmology,   and mathematical order.
 - daily_cloud_reference_review_log.md: ### Quantum continuous measurements  - Queue route: deep_sources, pattern_tests - Current label: reviewed_limited_evidence - Reason: arXiv preprint appears technical and relevant to measurement and   stochastic quantum descriptions.
 - daily_evaluation_queue.md: Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
-- daily_evaluation_queue.md: ### Engaging Old Testament prophetic literature in traumatic times of loss and grief  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: unresolved_suffering - Layer routes: pattern_tests,
+- daily_evaluation_queue.md: ### Contents  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: unresolved_suffering - Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories - Primary layer: pattern
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - evidence_discernment_distinction.md: Evidence can show that a pattern appears, that it appears across lanes, that it has been interpreted by named sources, or that it survives a pressure test.
@@ -5229,7 +5224,7 @@ Mathematical Theophany
 - daily_cloud_reference_review_log.md: - Small claim allowed: historical sources may connect music theory, cosmology,   and mathematical order.
 - daily_cloud_reference_review_log.md: ### Quantum continuous measurements  - Queue route: deep_sources, pattern_tests - Current label: reviewed_limited_evidence - Reason: arXiv preprint appears technical and relevant to measurement and   stochastic quantum descriptions.
 - daily_evaluation_queue.md: Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
-- daily_evaluation_queue.md: ### Engaging Old Testament prophetic literature in traumatic times of loss and grief  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: unresolved_suffering - Layer routes: pattern_tests,
+- daily_evaluation_queue.md: ### Contents  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: unresolved_suffering - Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories - Primary layer: pattern
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: Research areas include theological concepts of divine order and Logos, genetic and neurological research related to spirituality, anthropological patterns in worship and religious behavior, and AI systems capable of large-scale pattern recognition across disciplines.
 - evidence_discernment_distinction.md: Evidence can show that a pattern appears, that it appears across lanes, that it has been interpreted by named sources, or that it survives a pressure test.
@@ -5310,8 +5305,8 @@ Quantum Physics and Uncertainty
 - cloud_references_summary.md: The study applied TE to the polar interrogatives in the translation of the Qur’an initiated with the particle [hal] (roughly translated as is or is there).
 - daily_cloud_reference_review_log.md: ### Quantum continuous measurements  - Queue route: deep_sources, pattern_tests - Current label: reviewed_limited_evidence - Reason: arXiv preprint appears technical and relevant to measurement and   stochastic quantum descriptions.
 - daily_cloud_reference_review_log.md: - Small claim allowed: quantum measurement is technical and should be handled   through qualified sources.
-- daily_evaluation_queue.md: Experimental tests and implications  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: quantum_science_guardrails - Layer routes: deep_sources, pattern_tests - Primary layer: deep_sources
-- daily_evaluation_queue.md: ### Randomness in quantum mechanics: philosophy, physics and technology  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: quantum_science_guardrails - Layer routes: deep_sources, pattern
+- daily_evaluation_queue.md: ### An Einstein-Podolsky-Rosen argument based on weak forms of local realism not falsifiable by GHZ or Bell experiments  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: quantum_science_
+- daily_evaluation_queue.md: ### The Intersection of Quantum Mechanics and Metaphysical Poetry: Exploring the Unknown in Donne and Heisenberg: Fusion of Quantum Mechanics and English Poetry  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counte
 - evidence_discernment_distinction.md: Quantum uncertainty, mathematical beauty, narrative recurrence, or psychological pattern recognition may be compatible with a theological reading without proving it.
 - external_review_protocol.md: - Are probability, causality, quantum theory, neuroscience, and AI claims kept   narrow?
 - machine_drafted_review_companions.md: Reviewed Quantum Theory Guardrails, 2026-06-04  - Path: `deep_sources/reviewed_quantum_theory_guardrails_2026_06_04.md` - Draft status: machine_drafted_not_source_checked - Confidence effect: does_not_raise_confidence  - pastoral_safety: Machine-drafted placeholder: test whether 
@@ -5394,6 +5389,8 @@ Anthropology and Culture
 - book_review_reality_in_worship_a502dc210891.md: # Book Review: Reality in Worship  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-29T15:54:42.810726+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 1926 - URL: https:
 - book_review_sanctification_explorations_in_theology_and_practice_ffc13dedf9a7.md: # Book Review: Sanctification: Explorations in Theology and Practice  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-16T15:32:01.062702+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal
 - book_review_science_and_providence_86619399a553.md: # Book Review: Science and Providence  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-06-17T17:49:38.704534+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 1990 - URL: ht
+- book_review_science_chance_and_providence_by_donald_mackay_oup_1978_67_pp_3_50_r_74d75018659b.md: £3.50 Riddell Memorial Lectures 1977; Human Science and Human Dignity By Donald Mackay Hodder and Stoughton 1979 121 pp.
+- book_review_science_chance_and_providence_by_donald_mackay_oup_1978_67_pp_3_50_r_74d75018659b.md: £2.95  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-10T14:57:45.318035+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 1979 - URL: https://doi.org/10.1177/0040571x79
 - book_review_the_god_of_love_and_human_dignity_essays_in_honour_of_george_m_newla_fb256b700a32.md: # Book Review: The God of Love and Human Dignity: Essays in honour of George M.
 - book_review_the_god_of_love_and_human_dignity_essays_in_honour_of_george_m_newla_fb256b700a32.md: Newlands  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-06-24T03:24:56.315122+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 2009 - URL: https://doi.org/10.1177/0040571
 - book_review_the_historical_evidence_for_jesus_67570a53db65.md: # Book Review: The Historical Evidence for Jesus  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-10T16:18:47.290988+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 198
@@ -5572,6 +5569,7 @@ Anthropology and Culture
 - pdf_theo_5102_research_methods_chicago_d7f30b8a6ece.md: - URL: https://assets.northpark.edu/wp-content/uploads/20211123091836/THEO-5102-01-S2-21-Research-Methods.pdf - DOI: none - Tags: general_research_methods - Layer routes: research_documents, deep_sources, visual_art - Primary layer: research_documents - Media kind: none - Require
 - philosophy_law_and_religion_6b1c9b213582.md: # Philosophy, law and religion  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-06-17T17:49:38.704534+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: book-chapter - Year: 2019 - URL: https://doi.
 - philosophy_of_religion_as_way_to_skepticism_645df8d2ec6e.md: # Philosophy of Religion as Way to Skepticism  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-20T15:51:17.558731+00:00  ## Candidate Metadata  - Provider: OpenAlex - Source type: article - Year: 2018 - URL: ht
+- placing_psychology_a_critical_exploration_of_research_methodology_curricula_in_t_626a8a997026.md: # Placing psychology : a critical exploration of research methodology curricula in the social sciences  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-10T14:57:45.318035+00:00  ## Candidate Metadata  - Provide
 - political_theology_and_legal_theory_4af9b4315533.md: # Political theology and legal theory  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-07T14:51:17.538021+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: book-chapter - Year: 2019 - URL: https
 - pope_francis_reparative_vision_a_postmodern_hermeneutic_of_catholic_uncertainty_a716127b27ea.md: # POPE FRANCIS’ REPARATIVE VISION: A POSTMODERN HERMENEUTIC OF CATHOLIC UNCERTAINTY  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-04T16:13:33.425324+00:00  ## Candidate Metadata  - Provider: OpenAlex - Sourc
 - postdigital_citizen_science_and_humanities_a_theoretical_kaleidoscope_a6fc26144d55.md: # Postdigital Citizen Science and Humanities: A Theoretical Kaleidoscope  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-07T16:32:08.656269+00:00  ## Candidate Metadata  - Provider: OpenAlex - Source type: art
@@ -5595,6 +5593,7 @@ Anthropology and Culture
 - right_not_reward_a_doctrinal_boundary_for_managerial_tools_in_zakat_governance_cb79ea9e286f.md: # Right, Not Reward: A Doctrinal Boundary for Managerial Tools in Zakat Governance  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-04T16:13:33.425324+00:00  ## Candidate Metadata  - Provider: OpenAlex - Source
 - rights_in_a_state_of_exception_the_deadly_colonial_ethics_of_voluntary_corporate_7ea360445737.md: The Deadly Colonial Ethics of Voluntary Corporate Responsibility for Human Rights  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-06-25T15:55:08.898721+00:00  ## Candidate Metadata  - Provider: OpenAlex - Source 
 - ritual_failure_and_baptism_abf312bc48e1.md: # Ritual Failure and Baptism  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-18T14:50:45.806748+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: book-chapter - Year: 2021 - URL: https://doi.or
+- salut_aux_armes_rev_rev_kagarlickij_b_yu_dolgoe_otstuplenie_the_long_retreat_m_b_47d8772a3658.md: Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-10T14:57:45.318035+00:00  ## Candidate Metadata  - Provider: OpenAlex - Source type: article - Year: 2025 - URL: https://doi.org/10.64737/2410-1419-2025-1-17 - DO
 - science_and_providence_today_31a7c863e359.md: # Science and providence today  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-06-17T19:32:08.437139+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: book-chapter - Year: 2021 - URL: https://doi.
 - science_and_theology_8cb08e7b3a33.md: # Science and Theology  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-01T16:29:31.697219+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article - Year: 1993 - URL: https://doi.org/1
 - science_fiction_studies_and_the_medical_humanities_interdisciplinary_futures_c6c53dd79294.md: # Science Fiction Studies and the Medical Humanities: Interdisciplinary Futures  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-06-18T16:57:49.483644+00:00  ## Candidate Metadata  - Provider: Crossref - Source ty
@@ -5638,6 +5637,7 @@ Anthropology and Culture
 - the_problem_of_choice_in_comparative_theology_ac7d8be72b9b.md: - URL: https://doi.org/10.2307/j.ctt1xhr5zg.4 - DOI: 10.2307/j.ctt1xhr5zg.4 - Tags: general_research_methods - Layer routes: research_documents, deep_sources - Primary layer: research_documents - Media kind: none - Requires multimodal review: False - Automated evidence: moderate_
 - the_prophetic_witness_of_the_church_as_an_appropriate_mode_of_public_discourse_i_48b8953f37c5.md: # The prophetic witness of the church as an appropriate mode of public discourse in African societies  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-27T16:14:58.513492+00:00  ## Candidate Metadata  - Provider
 - the_question_of_algorithmic_personhood_and_being_or_on_the_tenuous_nature_of_hum_5e590cee2c58.md: # The Question of Algorithmic Personhood and Being (Or: On the Tenuous Nature of Human Status and Humanity Tests in Virtual Spaces—Why All Souls Are ‘Necessarily’ Equal When Considered as Energy)  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed 
+- the_real_type_and_ideal_type_of_transdisciplinary_processes_part_i_theoretical_f_0277871f79dd.md: # The real type and ideal type of transdisciplinary processes: part I—theoretical foundations  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-08-10T14:57:45.318035+00:00  ## Candidate Metadata  - Provider: OpenAl
 - the_reformation_of_suffering_4106f5481e31.md: # The Reformation of Suffering  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-22T15:32:01.547235+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: monograph - Year: 2012 - URL: https://doi.org
 - the_reformation_of_suffering_pastoral_theology_and_lay_piety_in_late_medieval_an_79fdc244db6b.md: # The Reformation of Suffering: Pastoral Theology and Lay Piety in Late Medieval and Early Modern Germany  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-07-19T14:52:28.160395+00:00  ## Candidate Metadata  - Prov
 - the_religion_amp_human_science_religion_amp_science_e21294ed3d1f.md: # The Religion &amp; Human Science: Religion &amp; Science  Source status: auto-imported cloud candidate; not human-reviewed evidence Reviewed note count: 1 Imported at: 2026-06-17T19:07:22.346166+00:00  ## Candidate Metadata  - Provider: Crossref - Source type: journal-article -
@@ -5710,7 +5710,7 @@ Anthropology and Culture
 - daily_cloud_reference_review_log.md: # Daily Cloud Reference Review Log  Type: cloud-reference review Source status: human review log  This log starts reviewing routed daily cloud candidates.
 - daily_cloud_reference_review_log.md: ### There is Hope for a Tree: Lament and Hope in Conversation with Polydoxy  - Queue route: visual_art, cultural_inputs, history_inputs, all_texts - Current label: reviewed_limited_evidence - Reason: Abstract suggests contemporary theology, lament, hope, multiplicity,   apophatic
 - daily_evaluation_queue.md: Media rule: videos, podcasts, and images can be found and queued, but they cannot strengthen a claim until a caption/transcript or direct human/MLLM observation note records what is actually present in the media.
-- daily_evaluation_queue.md: - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, research_documents, history_inputs - Primary layer: theologians - Provider: OpenAlex - Quality: scho
+- daily_evaluation_queue.md: ## Newest Candidate Material  ### The Spirit of God in the New Testament: Diverse witnesses  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: trinity - Layer routes: theologians, researc
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - evidence_discernment_distinction.md: It asks what the pattern may mean before God and how a person or community should respond.
@@ -5858,7 +5858,7 @@ AI and Pattern Recognition
 - daily_cloud_reference_review_log.md: ### Quantum continuous measurements  - Queue route: deep_sources, pattern_tests - Current label: reviewed_limited_evidence - Reason: arXiv preprint appears technical and relevant to measurement and   stochastic quantum descriptions.
 - daily_cloud_reference_review_log.md: ### Mere Christian Forgiveness  - Queue route: psychology_inputs, human_stories, pattern_tests - Current label: reviewed_limited_evidence - Reason: Metadata suggests forgiveness is treated through stress-and-coping   theory, which is useful for psychology/theology boundaries.
 - daily_evaluation_queue.md: Review rule: unreviewed daily candidates can shape research questions, but they should not increase confidence in a divine pattern until the original source, author expertise, source type, publication context, and counterarguments are checked.
-- daily_evaluation_queue.md: ### Engaging Old Testament prophetic literature in traumatic times of loss and grief  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: unresolved_suffering - Layer routes: pattern_tests,
+- daily_evaluation_queue.md: ### Contents  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: unresolved_suffering - Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories - Primary layer: pattern
 - divine_pattern_concept.md: # Divine Pattern Concept  Over the past few weeks, I have been exploring an idea at the intersection of AI, theology, genetics, anthropology, and pattern recognition.
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - evidence_discernment_distinction.md: Evidence can show that a pattern appears, that it appears across lanes, that it has been interpreted by named sources, or that it survives a pressure test.
@@ -5995,8 +5995,8 @@ Philosophy and Meaning
 - cross_layer_source_specific_casebook.md: ## Case 3: Wisdom Across Traditions  - All-texts lane: wisdom literature, proverbs, philosophy, and moral teaching.
 - daily_cloud_reference_review_log.md: ## Review Batch: 2026-05-22 Routed Queue  ### MUSICA MUNDANA, ARISTOTELIAN NATURAL PHILOSOPHY AND PTOLEMAIC ASTRONOMY  - Queue route: music_notes, deep_sources - Current label: reviewed_limited_evidence - Reason: Scholarly metadata points to music, natural philosophy, and astrono
 - daily_cloud_reference_review_log.md: ### Simultaneous consonance in music perception and composition  - Queue route: music_notes, deep_sources - Current label: reviewed_limited_evidence - Reason: Psychology/perception scholarship may help test claims about   consonance, perception, and music cognition.
-- daily_evaluation_queue.md: ### Randomness in quantum mechanics: philosophy, physics and technology  - Review status: auto_approved_for_review_queue - Evaluation use: may increase confidence after claim-scope and counterargument checks - Tags: quantum_science_guardrails - Layer routes: deep_sources, pattern
-- daily_evaluation_queue.md: A glimpse of the future of philosophy?
+- daily_evaluation_queue.md: ### Spiritual Expectations and Experience of Women with Newborns  - Review status: machine_assessed_moderate_scholarly_candidate - Evaluation use: can support cautious working claims when corroborated - Tags: video_teaching_patterns - Layer routes: theologians, human_stories, cul
+- daily_evaluation_queue.md: - URL: https://www.youtube.com/watch?v=mOdIDAsmapQ  studies comprises a dense and important scholarly field of research for example there is ongoing debate within septuagint scholarship as to the prevalence of theological tendencies manifested in the greek translations of the heb
 - divine_pattern_concept.md: If creation reflects order, structure, and intelligibility, could advanced AI someday help us identify deeper patterns connecting human spirituality, biology, worship, and meaning?
 - divine_pattern_concept.md: It is about using AI as an analytical tool to explore connections between science, faith, and human experience.
 - evidence_discernment_distinction.md: Theological interpretation connects evidence and discernment through Christian doctrine, scripture, tradition, reason, and lived practice.
@@ -6111,73 +6111,73 @@ Candidate Rankings
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 16,630
+Layer signal total: 16,567
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 6,354 (high internal signal)
-- Meaning And Logos: 6,168 (high internal signal)
-- Moral Response: 2,485 (high internal signal)
-- Worship And Community: 1,623 (high internal signal)
+- Life And Consciousness: 6,331 (high internal signal)
+- Meaning And Logos: 6,123 (high internal signal)
+- Moral Response: 2,491 (high internal signal)
+- Worship And Community: 1,622 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
 2. Providence And Contingency Pattern
 -------------------------------------
 Status: well-represented hypothesis; needs review
-Layer signal total: 15,369
+Layer signal total: 15,290
 Layers present: 4/4
 Pattern: Stable Law -> Contingent Events -> Emergent Complexity -> Meaningful History
 Interpretation: Divine providence may be studied as a theological interpretation of a world that is ordered yet open, lawful yet historically unfolding.
 Layer support:
-- Physical Order: 2,664 (high internal signal)
-- Quantum Probability: 183 (early signal)
-- Life And Consciousness: 6,354 (high internal signal)
-- Meaning And Logos: 6,168 (high internal signal)
+- Physical Order: 2,661 (high internal signal)
+- Quantum Probability: 175 (early signal)
+- Life And Consciousness: 6,331 (high internal signal)
+- Meaning And Logos: 6,123 (high internal signal)
 Evidence needed: Historical theology on providence, philosophy of causality, physics, biology, complexity, and history.
 Risk to avoid: Do not confuse providence with easy prediction or visible control of every event.
 
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 13,126
+Layer signal total: 13,105
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 2,664 (high internal signal)
-- Life And Consciousness: 6,354 (high internal signal)
-- Moral Response: 2,485 (high internal signal)
-- Worship And Community: 1,623 (high internal signal)
+- Physical Order: 2,661 (high internal signal)
+- Life And Consciousness: 6,331 (high internal signal)
+- Moral Response: 2,491 (high internal signal)
+- Worship And Community: 1,622 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
 4. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 11,065
+Layer signal total: 11,011
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 2,664 (high internal signal)
-- Meaning And Logos: 6,168 (high internal signal)
-- Transformation: 2,233 (high internal signal)
+- Physical Order: 2,661 (high internal signal)
+- Meaning And Logos: 6,123 (high internal signal)
+- Transformation: 2,227 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
 Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
 
 5. Cross And Reversal Pattern
 -----------------------------
 Status: high internal signal; not proof
-Layer signal total: 10,886
+Layer signal total: 10,841
 Layers present: 3/3
 Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
 Layer support:
-- Meaning And Logos: 6,168 (high internal signal)
-- Moral Response: 2,485 (high internal signal)
-- Transformation: 2,233 (high internal signal)
+- Meaning And Logos: 6,123 (high internal signal)
+- Moral Response: 2,491 (high internal signal)
+- Transformation: 2,227 (high internal signal)
 Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
 Risk to avoid: Do not romanticize suffering or ignore injustice.
 
@@ -6234,14 +6234,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 122
-Test words analyzed: 18,441
+Test documents analyzed: 124
+Test words analyzed: 18,718
 
 Pressure Types
 --------------
-- Suffering Without Resolution: 241
-- Science Guardrail: 239
-- Counterexample Pressure: 114
+- Suffering Without Resolution: 243
+- Science Guardrail: 243
+- Counterexample Pressure: 116
 - Injustice And Corruption: 69
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 37
@@ -6251,20 +6251,20 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 261
-- Primary Or Classical Source: 98
-- Practical Lived Source: 90
+- Scholarly Or Scientific Source: 265
+- Primary Or Classical Source: 100
+- Practical Lived Source: 91
 - Speculative Source: 3
 
 Confidence Results
 ------------------
 - resilient under pressure: 66
-- needs deeper review but still plausible: 56
+- needs deeper review but still plausible: 58
 
 Hold Assessment
 ---------------
 - pressure present but hold question is underdeveloped: 57
-- not enough friction to judge hold: 54
+- not enough friction to judge hold: 56
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
 - holds under added friction: 1
@@ -6273,26 +6273,26 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 582 | research corpus 5,702
-- Son: test set 32 | research corpus 6,839
-- Holy Spirit: test set 48 | research corpus 1,865
+- Father: test set 592 | research corpus 5,690
+- Son: test set 32 | research corpus 6,815
+- Holy Spirit: test set 48 | research corpus 1,854
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 55 | research corpus 2,664
-- Mathematical Structure: test set 18 | research corpus 645
-- Mathematical Theophany: test set 336 | research corpus 1,298
-- Quantum Probability: test set 25 | research corpus 183
-- Life And Consciousness: test set 338 | research corpus 6,354
-- Meaning And Logos: test set 43 | research corpus 6,168
-- Moral Response: test set 53 | research corpus 2,485
-- Worship And Community: test set 85 | research corpus 1,623
-- Transformation: test set 64 | research corpus 2,233
+- Physical Order: test set 55 | research corpus 2,661
+- Mathematical Structure: test set 18 | research corpus 640
+- Mathematical Theophany: test set 340 | research corpus 1,277
+- Quantum Probability: test set 25 | research corpus 175
+- Life And Consciousness: test set 344 | research corpus 6,331
+- Meaning And Logos: test set 43 | research corpus 6,123
+- Moral Response: test set 53 | research corpus 2,491
+- Worship And Community: test set 85 | research corpus 1,622
+- Transformation: test set 64 | research corpus 2,227
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 359
-- Desire And Longing: 126
+- Creation And Order: 363
+- Desire And Longing: 128
 - Alienation And Lament: 85
 - Communal Practice: 73
 - Transformation And Hope: 64
@@ -7933,6 +7933,26 @@ Recommendations:
 - Name explicit failure conditions so the pattern can be revised or rejected.
 - Add rival natural, psychological, social, or comparative explanations.
 
+contents_aaaeca78e625.md
+------------------------
+Words: 136
+Meaning confidence: thin meaning signal
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
 dealing_with_the_challenges_of_macro_financial_linkages_in_emerging_markets_3628069b43c0.md
 -------------------------------------------------------------------------------------------
 Words: 144
@@ -8245,6 +8265,26 @@ Pressure signals:
 - Suffering Without Resolution: 1
 Meaning arc:
 - Opening: Creation And Order (3)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+pastoral_care_in_disaster_a_theological_reflection_a657b46b479d.md
+------------------------------------------------------------------
+Words: 141
+Meaning confidence: thin meaning signal
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 Recommendations:
@@ -8808,18 +8848,18 @@ Required source types:
 - Scripture/Theology: present (40)
 - Pastoral/Clinical: present (17)
 - Lived Case: present (11)
-- Counterargument: present (178)
+- Counterargument: present (180)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 475
+Area signal: 479
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
 - Physicist/Primary Science: present (49)
-- Peer-Reviewed/Academic: present (405)
-- Philosophy Of Science: present (111)
-- Counterargument: present (178)
+- Peer-Reviewed/Academic: present (410)
+- Philosophy Of Science: present (112)
+- Counterargument: present (180)
 
 Mathematics Statistics And Logic
 --------------------------------
@@ -8829,26 +8869,26 @@ Guardrail: Do not treat repeated patterns, analogies, or mathematical beauty as 
 Required source types:
 - Mathematics/Logic: present (58)
 - Statistics/Inference: present (29)
-- Peer-Reviewed/Academic: present (405)
-- Counterargument: present (178)
+- Peer-Reviewed/Academic: present (410)
+- Counterargument: present (180)
 
 Mathematical Theophany And Beauty
 ---------------------------------
 Status: source-supported
-Area signal: 232
+Area signal: 234
 Guardrail: Treat mathematical order and beauty as possible signs, not proof. Strengthen the analysis by naming naturalistic, Platonist, constructivist, cognitive, cultural, and aesthetic alternatives.
 Required source types:
 - Scripture/Theology: present (40)
 - Mathematics/Logic: present (58)
 - Aesthetics/Beauty: present (24)
 - Alternative Interpretation: present (12)
-- Counterargument: present (178)
+- Counterargument: present (180)
 
 All Source-Type Signals
 -----------------------
-- Peer-Reviewed/Academic: 405
-- Counterargument: 178
-- Philosophy Of Science: 111
+- Peer-Reviewed/Academic: 410
+- Counterargument: 180
+- Philosophy Of Science: 112
 - Mathematics/Logic: 58
 - Physicist/Primary Science: 49
 - Scripture/Theology: 40
@@ -8870,15 +8910,15 @@ Math / Statistics / Logic Congruence Filters
   Rule: Mathematical proof applies inside formal systems; it cannot be transferred directly into theology without philosophical argument.
 - Theophany Interpretation Filter: active (45)
   Rule: Mathematical order, symmetry, logic, infinity, and beauty may be explored as secondary creaturely signs only under Christ and Scripture, and only after contrasting non-theistic, Platonist, constructivist, cognitive, and cultural explanations are named.
-- Physics Scale Filter: active (329)
+- Physics Scale Filter: active (333)
   Rule: Do not move from quantum, cosmic, or thermodynamic claims to daily spiritual claims without a justified bridge.
 - Causality Filter: active (23)
   Rule: Distinguish causation, correlation, compatibility, analogy, and theological interpretation.
 
 Quality And Risk Markers
 ------------------------
-- Scholarly Or Scientific Source: 368
-- Primary Or Classical Source: 150
+- Scholarly Or Scientific Source: 372
+- Primary Or Classical Source: 152
 - Practical Lived Source: 15
 - Speculative Source: 11
 - Reviewed Cloud Reference: 3
@@ -9031,6 +9071,19 @@ Area scores:
 Source types:
 - Peer-Reviewed/Academic: 2
 - Counterargument: 1
+Active congruence filters:
+- Physics Scale Filter
+
+an_einstein_podolsky_rosen_argument_based_on_weak_forms_of_local_realism_not_fal_704c65fac5bd.md
+------------------------------------------------------------------------------------------------
+Words: 147
+Area scores:
+- Quantum And Science Claims: partially sourced (1)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Peer-Reviewed/Academic: 2
+- Counterargument: 1
+- Philosophy Of Science: 1
 Active congruence filters:
 - Physics Scale Filter
 
@@ -10344,6 +10397,18 @@ Source types:
 Active congruence filters:
 - Physics Scale Filter
 
+the_intersection_of_quantum_mechanics_and_metaphysical_poetry_exploring_the_unkn_37378866c8b0.md
+------------------------------------------------------------------------------------------------
+Words: 152
+Area scores:
+- Quantum And Science Claims: under-sourced (3)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Peer-Reviewed/Academic: 3
+- Counterargument: 1
+Active congruence filters:
+- Physics Scale Filter
+
 the_introduction_of_probability_into_physics_73685432d704.md
 ------------------------------------------------------------
 Words: 203
@@ -11004,8 +11069,8 @@ Cross-era theologian evidence, disagreements, and pressure points.
 - This report uses theologians across eras to deepen pattern design. It looks for continuity, development, and disagreement instead of treating theology as one flat voice.
 - Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
 - Overview
-- Theologian documents analyzed: 301
-- Total theologian words analyzed: 56,063
+- Theologian documents analyzed: 305
+- Total theologian words analyzed: 56,672
 
 <details>
 <summary>Open the full generated report: Theologian Pattern Design</summary>
@@ -11021,8 +11086,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 301
-Total theologian words analyzed: 56,063
+Theologian documents analyzed: 305
+Total theologian words analyzed: 56,672
 
 Era Coverage
 ------------
@@ -11034,9 +11099,9 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 288
+- Trinity: 291
 - Christology: 231
-- Pneumatology: 230
+- Pneumatology: 231
 - Theodicy And Suffering: 207
 - Creation: 171
 - Church And Practice: 113
@@ -11046,21 +11111,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 1,775
+- Father: 1,798
 - Son: 294
-- Holy Spirit: 438
+- Holy Spirit: 441
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 169 | broader corpus 2,664
-- Mathematical Structure: theologians 4 | broader corpus 645
-- Mathematical Theophany: theologians 274 | broader corpus 1,298
-- Quantum Probability: theologians 2 | broader corpus 183
-- Life And Consciousness: theologians 806 | broader corpus 6,354
-- Meaning And Logos: theologians 129 | broader corpus 6,168
-- Moral Response: theologians 117 | broader corpus 2,485
-- Worship And Community: theologians 212 | broader corpus 1,623
-- Transformation: theologians 472 | broader corpus 2,233
+- Physical Order: theologians 169 | broader corpus 2,661
+- Mathematical Structure: theologians 4 | broader corpus 640
+- Mathematical Theophany: theologians 276 | broader corpus 1,277
+- Quantum Probability: theologians 2 | broader corpus 175
+- Life And Consciousness: theologians 816 | broader corpus 6,331
+- Meaning And Logos: theologians 129 | broader corpus 6,123
+- Moral Response: theologians 117 | broader corpus 2,491
+- Worship And Community: theologians 212 | broader corpus 1,622
+- Transformation: theologians 474 | broader corpus 2,227
 
 Per-Source Findings
 -------------------
@@ -12319,6 +12384,17 @@ Meaning arc:
 - Middle: Transformation And Hope (3)
 - Ending: Creation And Order (1)
 
+global_and_local_pentecostal_histories_reframing_pentecostal_historiography_in_a_002e37d2e77b.md
+------------------------------------------------------------------------------------------------
+Words: 146
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 global_chinese_pentecostal_and_charismatic_christianity_8cb106d22bfa.md
 -----------------------------------------------------------------------
 Words: 193
@@ -12336,6 +12412,17 @@ Words: 145
 Strongest era signal: Patristic (0)
 Strongest concept signal: Pneumatology (1)
 Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+god_the_father_almighty_a_theological_excursus_f3712ccfff3d.md
+--------------------------------------------------------------
+Words: 137
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (2)
+Meaning confidence: word-level signal only
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
@@ -13309,6 +13396,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
 
+spiritual_expectations_and_experience_of_women_with_newborns_3b7c5f81ecc2.md
+----------------------------------------------------------------------------
+Words: 188
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
 spiritual_gifts_and_status_inversion_027a45c430cf.md
 ----------------------------------------------------
 Words: 203
@@ -13768,6 +13866,17 @@ Strongest concept signal: Pneumatology (2)
 Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_spirit_of_god_in_the_new_testament_diverse_witnesses_925856fe8e21.md
+------------------------------------------------------------------------
+Words: 138
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
@@ -14428,8 +14537,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 2,781
-Dedicated synthesis documents: 1,369
+Total documents across all lanes: 2,818
+Dedicated synthesis documents: 1,391
 Active divine-pattern layers: 9 of 9
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
@@ -14438,45 +14547,45 @@ Coverage note: these are coverage-map signals. A language family or tradition is
 
 Interpretive Lenses
 -------------------
-- Psychological Process: 1,598
-- Counter-Reading: 1,375
-- Historical Context: 1,357
-- Language Semantics: 1,109
-- Ethical Consequence: 672
-- Embodied Practice: 650
-- Theological Resonance: 531
-- Original-Language Witness: 530
-- Visual Symbol: 355
-- Surface Vocabulary: 266
+- Psychological Process: 1,671
+- Counter-Reading: 1,397
+- Historical Context: 1,369
+- Language Semantics: 1,115
+- Ethical Consequence: 674
+- Embodied Practice: 661
+- Original-Language Witness: 541
+- Theological Resonance: 536
+- Visual Symbol: 362
+- Surface Vocabulary: 272
 
 Dedicated Synthesis Domains
 ---------------------------
-- Science And Discovery: 3,015
-- Global Text Traditions: 1,791
-- Psychology And Human Behavior: 1,649
-- History And Memory: 1,496
-- Art And Beauty: 1,343
-- World Languages: 1,262
-- Politics And Justice: 745
-- Biblical Greek And Hebrew: 549
-- Visual Art And Iconography: 358
-- Health And Suffering: 352
-- Education And Formation: 340
-- Family And Community: 308
+- Science And Discovery: 3,066
+- Global Text Traditions: 1,806
+- Psychology And Human Behavior: 1,722
+- History And Memory: 1,508
+- Art And Beauty: 1,372
+- World Languages: 1,270
+- Politics And Justice: 751
+- Biblical Greek And Hebrew: 560
+- Health And Suffering: 367
+- Visual Art And Iconography: 365
+- Education And Formation: 341
+- Family And Community: 315
 - Ecology And Creation Care: 178
-- Economics And Work: 110
-- Technology And AI: 76
+- Economics And Work: 111
+- Technology And AI: 77
 
 Language Family Coverage
 ------------------------
-- Afro-Asiatic: mapped (245)
-- Indo-European: mapped (321)
+- Afro-Asiatic: mapped (248)
+- Indo-European: mapped (325)
 - Sino-Tibetan: mapped (43)
 - Niger-Congo: mapped (46)
 - Austronesian: mapped (29)
 - Dravidian: mapped (13)
 - Turkic: mapped (11)
-- Uralic: mapped (7)
+- Uralic: mapped (8)
 - Austroasiatic: mapped (6)
 - Kra-Dai: mapped (5)
 - Japonic: mapped (9)
@@ -14488,57 +14597,57 @@ Language Family Coverage
 
 Text Tradition Coverage
 -----------------------
-- Sacred Scripture: mapped (167)
+- Sacred Scripture: mapped (171)
 - Wisdom And Proverbs: mapped (151)
 - Epic And Myth: mapped (37)
 - Philosophy And Ethics: mapped (125)
-- Law And Covenant: mapped (359)
+- Law And Covenant: mapped (361)
 - Poetry And Lament: mapped (145)
-- Ritual And Liturgy: mapped (205)
-- History And Chronicle: mapped (750)
-- Oral Tradition And Folklore: mapped (414)
-- Commentary And Interpretation: mapped (67)
+- Ritual And Liturgy: mapped (206)
+- History And Chronicle: mapped (758)
+- Oral Tradition And Folklore: mapped (417)
+- Commentary And Interpretation: mapped (68)
 - Modern Literature: mapped (66)
-- Human Story And Testimony: mapped (373)
+- Human Story And Testimony: mapped (377)
 
 Layer Convergence Across All Sources
 ------------------------------------
-- Physical Order: 7,389 (high internal signal)
-- Mathematical Structure: 5,047 (high internal signal)
+- Physical Order: 7,444 (high internal signal)
+- Mathematical Structure: 5,101 (high internal signal)
 - Mathematical Theophany: 2,948 (high internal signal)
-- Quantum Probability: 235 (early signal)
-- Life And Consciousness: 14,269 (high internal signal)
-- Meaning And Logos: 18,427 (high internal signal)
-- Moral Response: 10,930 (high internal signal)
-- Worship And Community: 9,657 (high internal signal)
-- Transformation: 10,384 (high internal signal)
+- Quantum Probability: 227 (early signal)
+- Life And Consciousness: 14,420 (high internal signal)
+- Meaning And Logos: 18,528 (high internal signal)
+- Moral Response: 11,067 (high internal signal)
+- Worship And Community: 9,755 (high internal signal)
+- Transformation: 10,523 (high internal signal)
 
 Meaning Movement Across All Sources
 -----------------------------------
-- Creation And Order: 9,045
-- Alienation And Lament: 2,563
-- Desire And Longing: 6,571
-- Moral Confrontation: 4,030
-- Communal Practice: 3,428
-- Transformation And Hope: 4,817
+- Creation And Order: 9,019
+- Alienation And Lament: 2,561
+- Desire And Longing: 6,614
+- Moral Confrontation: 4,015
+- Communal Practice: 3,424
+- Transformation And Hope: 4,824
 
 Synthesis Depth Results
 -----------------------
-- early synthesis signal: 645
-- contextual interpretation: 323
-- lens detected but still word-heavy: 256
-- multi-lens understanding: 87
+- early synthesis signal: 657
+- contextual interpretation: 329
+- lens detected but still word-heavy: 258
+- multi-lens understanding: 89
 - cross-layer synthesis: 58
 
 Comparative Validity Check
 --------------------------
 Comparative recurrence can support a broad human pattern of order, meaning, moral response, community, and transformation; it does not by itself validate the specifically Christian Trinitarian interpretation.
-- useful counter-reading, not validation: 294
+- useful counter-reading, not validation: 300
 - shared-human pattern signal: 37
 - strong shared-human pattern; Trinitarian claim still needs Christian sources: 23
 - explicit Trinitarian overlap; check source context: 20
 - Comparative Trinitarian signal: moderate Trinitarian signal
-- Father: 2,036
+- Father: 2,068
 - Son: 93
 - Holy Spirit: 55
 
@@ -14556,10 +14665,10 @@ Per-Lane Synthesis
 
 Visual Art
 ----------
-Files: 217
-Strongest lens: Counter-Reading (216)
-Strongest layer: Meaning And Logos (1,770)
-Strongest meaning context: Desire And Longing (241)
+Files: 221
+Strongest lens: Counter-Reading (220)
+Strongest layer: Meaning And Logos (1,809)
+Strongest meaning context: Desire And Longing (245)
 
 a_foreign_affair_billy_wilder_s_american_films_aaadb87d6219.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -14775,6 +14884,15 @@ Words: 235
 Meaning confidence: thin meaning signal
 Synthesis depth: contextual interpretation
 Global coverage: starter global coverage map
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
+beauty_lived_towards_shalom_the_christian_life_as_aesthetic_ethical_existence_2bbed45084c0.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 145
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
@@ -15924,10 +16042,29 @@ Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
+sound_image_silence_art_and_the_aural_imagination_in_the_atlantic_world_da0d4bf05d6f.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 198
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What does the visual form communicate before any explanation is added?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
 surviving_secularization_masking_the_spirit_in_the_jankunu_john_canoe_festivals_5ad14cf689bc.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 147
 Meaning confidence: plausible meaning pattern
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
+symbol_782cf39b312f.md
+~~~~~~~~~~~~~~~~~~~~~~
+Words: 130
+Meaning confidence: word-level signal only
 Synthesis depth: early synthesis signal
 Global coverage: no global-language coverage yet
 Synthesis questions:
@@ -16217,6 +16354,15 @@ the_scientific_imaginary_in_visual_culture_6b5662d38e65.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 142
 Meaning confidence: thin meaning signal
+Synthesis depth: lens detected but still word-heavy
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
+the_spiritual_path_of_transformation1_2f3f76e11711.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 144
+Meaning confidence: word-level signal only
 Synthesis depth: lens detected but still word-heavy
 Global coverage: no global-language coverage yet
 Synthesis questions:
@@ -16554,10 +16700,10 @@ Synthesis questions:
 
 History
 -------
-Files: 155
-Strongest lens: Historical Context (956)
-Strongest layer: Moral Response (1,875)
-Strongest meaning context: Desire And Longing (174)
+Files: 157
+Strongest lens: Historical Context (966)
+Strongest layer: Moral Response (1,889)
+Strongest meaning context: Desire And Longing (176)
 
 05_28_23_sermon_piece_of_my_heart_rev_t_j_fitzgerald_da9f626e9591.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -16968,6 +17114,16 @@ feeling_as_knowing_trans_phenomenology_and_epistemic_justice_cf627bfe386f.md
 Words: 140
 Meaning confidence: thin meaning signal
 Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
+Synthesis questions:
+- How does the pattern change when placed in its historical conflict, memory, and consequence?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
+feeling_liberatory_memory_work_on_the_archival_uses_of_joy_and_anger_8d9bce374ef5.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 142
+Meaning confidence: word-level signal only
+Synthesis depth: early synthesis signal
 Global coverage: starter global coverage map
 Synthesis questions:
 - How does the pattern change when placed in its historical conflict, memory, and consequence?
@@ -17853,6 +18009,16 @@ Synthesis questions:
 - How does the pattern change when placed in its historical conflict, memory, and consequence?
 - What responsibility, justice, mercy, or repair does this pattern call for?
 
+the_storrs_lectures_liberals_and_romantics_at_war_the_problem_of_collective_guil_ed878d324ba0.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 140
+Meaning confidence: word-level signal only
+Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+- How does the pattern change when placed in its historical conflict, memory, and consequence?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
 the_stranger_subconscious_of_the_absolute_truth_philosophical_poems_by_sorin_cer_654be25ebd24.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 204
@@ -18169,10 +18335,10 @@ Synthesis questions:
 
 World Languages
 ---------------
-Files: 220
-Strongest lens: Language Semantics (569)
-Strongest layer: Meaning And Logos (1,818)
-Strongest meaning context: Creation And Order (737)
+Files: 221
+Strongest lens: Language Semantics (570)
+Strongest layer: Meaning And Logos (1,823)
+Strongest meaning context: Creation And Order (740)
 
 a_comparative_study_between_human_translation_and_machine_translation_in_arabic_888bd3b54851.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18787,6 +18953,15 @@ Words: 174
 Meaning confidence: plausible meaning pattern
 Synthesis depth: contextual interpretation
 Global coverage: starter global coverage map
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
+feral_children_settler_colonialism_progress_and_the_figure_of_the_child_67e9a44366cd.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 144
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
@@ -20202,10 +20377,10 @@ Synthesis questions:
 
 Biblical Greek And Hebrew
 -------------------------
-Files: 148
-Strongest lens: Original-Language Witness (423)
-Strongest layer: Meaning And Logos (1,313)
-Strongest meaning context: Creation And Order (226)
+Files: 150
+Strongest lens: Original-Language Witness (433)
+Strongest layer: Meaning And Logos (1,339)
+Strongest meaning context: Creation And Order (229)
 
 10_the_annunciation_and_the_senses_ruach_pneuma_odour_b1bcc53db3e5.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20644,6 +20819,16 @@ Synthesis depth: contextual interpretation
 Global coverage: starter global coverage map
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
+
+helfi_a_hebrew_greek_finnish_parallel_bible_corpus_with_cross_lingual_morpheme_a_87dbafb963be.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 144
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
+- Does the original-language evidence support the theological claim, or only suggest a possible reading?
 
 help_for_bible_ol_9868dc61a2d1.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -21361,6 +21546,17 @@ Synthesis questions:
 - What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
 - Does the original-language evidence support the theological claim, or only suggest a possible reading?
 
+the_septuagint_is_the_most_important_bible_you_ve_never_heard_of_c27362f4ede8.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 273
+Meaning confidence: plausible meaning pattern
+Synthesis depth: multi-lens understanding
+Global coverage: starter global coverage map
+Synthesis questions:
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does the original-language evidence support the theological claim, or only suggest a possible reading?
+
 the_septuagint_translation_of_the_hebrew_terms_in_relation_to_god_in_the_book_of_985a9af7f211.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 144
@@ -21629,9 +21825,9 @@ Synthesis questions:
 
 All Texts
 ---------
-Files: 105
+Files: 106
 Strongest lens: Embodied Practice (128)
-Strongest layer: Meaning And Logos (1,290)
+Strongest layer: Meaning And Logos (1,296)
 Strongest meaning context: Creation And Order (147)
 
 39_uplifting_bible_verses_about_true_enduring_hope_21088724deb1.md
@@ -22526,6 +22722,16 @@ Synthesis questions:
 Comparative validity: useful counter-reading, not validation
 - What responsibility, justice, mercy, or repair does this pattern call for?
 
+toward_justice_and_social_transformation_appealing_to_the_tradition_against_the_f1730cd3b1fd.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 145
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+Comparative validity: useful counter-reading, not validation
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
 transformation_in_the_wisdom_books_of_the_hebrew_bible_and_its_application_to_th_3bd389d699e6.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 253
@@ -22718,10 +22924,10 @@ Comparative validity: shared-human pattern signal
 
 Psychology And Other Texts
 --------------------------
-Files: 255
-Strongest lens: Psychological Process (950)
-Strongest layer: Life And Consciousness (1,875)
-Strongest meaning context: Creation And Order (329)
+Files: 262
+Strongest lens: Psychological Process (1,016)
+Strongest layer: Life And Consciousness (1,977)
+Strongest meaning context: Creation And Order (332)
 
 18_adaptation_and_identity_building_among_the_ethnic_chinese_communities_in_viet_ea9f27cc423b.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -23266,6 +23472,17 @@ Synthesis questions:
 - What responsibility, justice, mercy, or repair does this pattern call for?
 - Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
 
+culture_related_adaptive_mechanisms_to_race_related_trauma_among_african_america_487074ee7c07.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 142
+Meaning confidence: word-level signal only
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
+
 dedication_daf4d9d4f67a.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 130
@@ -23613,6 +23830,17 @@ Words: 150
 Meaning confidence: word-level signal only
 Synthesis depth: early synthesis signal
 Global coverage: starter global coverage map
+Synthesis questions:
+- What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
+
+habit_making_habit_breaking_plnu_baef491344d2.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 224
+Meaning confidence: plausible meaning pattern
+Synthesis depth: multi-lens understanding
+Global coverage: no global-language coverage yet
 Synthesis questions:
 - What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
 - What responsibility, justice, mercy, or repair does this pattern call for?
@@ -24190,6 +24418,17 @@ Synthesis questions:
 - What responsibility, justice, mercy, or repair does this pattern call for?
 - Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
 
+obedience_as_belonging_catholic_guilt_and_frequent_confession_in_america_52bc86afbcd3.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 142
+Meaning confidence: word-level signal only
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
+
 on_making_a_difference_32f7f3e4454e.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 137
@@ -24383,6 +24622,28 @@ Words: 144
 Meaning confidence: word-level signal only
 Synthesis depth: early synthesis signal
 Global coverage: starter global coverage map
+Synthesis questions:
+- What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
+
+psychology_and_repentance_allen_e_bergin_byu_speeches_dc142aad1e2a.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 221
+Meaning confidence: context-supported pattern
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
+Synthesis questions:
+- What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
+
+psychology_religion_research_papers_academia_edu_cb510523ba4e.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 222
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: no global-language coverage yet
 Synthesis questions:
 - What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
 - What responsibility, justice, mercy, or repair does this pattern call for?
@@ -24611,6 +24872,28 @@ Synthesis questions:
 religious_meaning_without_religion_adapting_herman_dooyeweerd_s_pistic_aspect_be_e2ae6743209d.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 147
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
+
+religious_trauma_attachment_and_leaving_faith_psychology_today_522477c6ab4d.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 250
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
+
+religious_trauma_attachment_and_leaving_faith_psychology_today_singapore_6954fe44bbba.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 251
 Meaning confidence: thin meaning signal
 Synthesis depth: contextual interpretation
 Global coverage: no global-language coverage yet
@@ -25536,10 +25819,10 @@ Synthesis questions:
 
 Other Religious Texts
 ---------------------
-Files: 89
+Files: 91
 Strongest lens: Embodied Practice (163)
-Strongest layer: Meaning And Logos (769)
-Strongest meaning context: Desire And Longing (113)
+Strongest layer: Meaning And Logos (778)
+Strongest meaning context: Desire And Longing (116)
 
 1_utopia_and_america_notes_6cb8f1979105.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26214,6 +26497,16 @@ Synthesis questions:
 Comparative validity: explicit Trinitarian overlap; check source context
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
+the_dreams_of_aelius_aristides_a_psychological_interpretation_a9410795a743.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 149
+Meaning confidence: word-level signal only
+Synthesis depth: lens detected but still word-heavy
+Global coverage: starter global coverage map
+Synthesis questions:
+Comparative validity: useful counter-reading, not validation
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
 the_ghosts_of_performance_past_theatre_gender_religion_and_cultural_memory_164238b60be0.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 147
@@ -26233,6 +26526,16 @@ Global coverage: starter global coverage map
 Synthesis questions:
 Comparative validity: useful counter-reading, not validation
 - What responsibility, justice, mercy, or repair does this pattern call for?
+
+the_religion_of_consumption_and_christian_neighbor_love_55dce8e41af0.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 143
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+Comparative validity: useful counter-reading, not validation
+- What context beyond repeated words would make this interpretation stronger or weaker?
 
 the_religion_of_consumption_and_christian_neighbor_love_a3ccc7726f1b.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26457,10 +26760,10 @@ Comparative validity: shared-human pattern signal
 
 Modern Literature
 -----------------
-Files: 113
-Strongest lens: Language Semantics (126)
-Strongest layer: Meaning And Logos (702)
-Strongest meaning context: Desire And Longing (129)
+Files: 114
+Strongest lens: Language Semantics (127)
+Strongest layer: Meaning And Logos (708)
+Strongest meaning context: Desire And Longing (130)
 
 6_grace_conversion_and_freedom_a702ccc605cb.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26852,6 +27155,16 @@ Global coverage: no global-language coverage yet
 Synthesis questions:
 Comparative validity: strong shared-human pattern; Trinitarian claim still needs Christian sources
 - What context beyond repeated words would make this interpretation stronger or weaker?
+
+literary_cartographies_of_spain_mapping_identity_in_african_american_travel_writ_ddc07c722975.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 147
+Meaning confidence: word-level signal only
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+Comparative validity: useful counter-reading, not validation
+- What responsibility, justice, mercy, or repair does this pattern call for?
 
 literary_studies_and_well_being_b15322c5821b.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -27599,10 +27912,10 @@ Comparative validity: strong shared-human pattern; Trinitarian claim still needs
 
 Human Stories
 -------------
-Files: 67
-Strongest lens: Psychological Process (72)
-Strongest layer: Meaning And Logos (383)
-Strongest meaning context: Creation And Order (138)
+Files: 69
+Strongest lens: Psychological Process (74)
+Strongest layer: Meaning And Logos (393)
+Strongest meaning context: Creation And Order (142)
 
 275_spiritual_discernment_and_religious_experience_10cb1818689b.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -27622,6 +27935,16 @@ Synthesis depth: multi-lens understanding
 Global coverage: starter global coverage map
 Synthesis questions:
 Comparative validity: shared-human pattern signal
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
+abstracts_from_the_2023_annual_meeting_of_the_society_of_general_internal_medici_b3849f5a97e9.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 196
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
+Synthesis questions:
+Comparative validity: useful counter-reading, not validation
 - What responsibility, justice, mercy, or repair does this pattern call for?
 
 art_based_autoethnographic_study_of_a_senior_professional_woman_of_color_s_journ_0ff50d945d56.md
@@ -27899,6 +28222,16 @@ Comparative validity: useful counter-reading, not validation
 libreas_podcast_1_bobcatsss_im_interview_c39a2a575010.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 221
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: starter global coverage map
+Synthesis questions:
+Comparative validity: useful counter-reading, not validation
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
+orat_pro_eccl_et_soc_reflections_on_an_essential_mission_3ad0906a7f33.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 193
 Meaning confidence: thin meaning signal
 Synthesis depth: contextual interpretation
 Global coverage: starter global coverage map
@@ -28313,7 +28646,7 @@ Culture, justice, technology, ecology, health, education, and community.
 - Guardrail: cultural patterns are treated as practical-theology questions, not automatic proof claims.
 - Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not interchangeable symbols; yet they are one God, not three separate gods. A pattern is stronger when it preserves both distinction and unity.
 - Overview
-- Cultural documents analyzed: 344
+- Cultural documents analyzed: 347
 
 <details>
 <summary>Open the full generated report: Cultural Patterns</summary>
@@ -28330,20 +28663,20 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 344
-Total cultural words analyzed: 50,140
+Cultural documents analyzed: 347
+Total cultural words analyzed: 50,560
 
 Cultural Domains
 ----------------
-- Science And Discovery: 709
-- Politics And Justice: 384
-- History And Memory: 246
-- Technology And AI: 204
-- Psychology And Human Behavior: 147
-- Health And Suffering: 63
+- Science And Discovery: 715
+- Politics And Justice: 387
+- History And Memory: 249
+- Technology And AI: 205
+- Psychology And Human Behavior: 148
+- Health And Suffering: 64
 - Family And Community: 61
 - Global Text Traditions: 59
-- Art And Beauty: 55
+- Art And Beauty: 56
 - Economics And Work: 42
 - World Languages: 42
 - Education And Formation: 33
@@ -28354,14 +28687,14 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 1,700
+- Father: 1,715
 - Son: 22
 - Holy Spirit: 2
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 368
-- Moral Confrontation: 199
+- Desire And Longing: 371
+- Moral Confrontation: 200
 - Creation And Order: 55
 - Communal Practice: 47
 - Transformation And Hope: 45
@@ -28369,15 +28702,15 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 761 | religious/science corpus 2,664
-- Mathematical Structure: cultural inputs 916 | religious/science corpus 645
-- Mathematical Theophany: cultural inputs 14 | religious/science corpus 1,298
-- Quantum Probability: cultural inputs 4 | religious/science corpus 183
-- Life And Consciousness: cultural inputs 1,007 | religious/science corpus 6,354
-- Meaning And Logos: cultural inputs 1,190 | religious/science corpus 6,168
-- Moral Response: cultural inputs 1,325 | religious/science corpus 2,485
-- Worship And Community: cultural inputs 694 | religious/science corpus 1,623
-- Transformation: cultural inputs 630 | religious/science corpus 2,233
+- Physical Order: cultural inputs 767 | religious/science corpus 2,661
+- Mathematical Structure: cultural inputs 923 | religious/science corpus 640
+- Mathematical Theophany: cultural inputs 14 | religious/science corpus 1,277
+- Quantum Probability: cultural inputs 4 | religious/science corpus 175
+- Life And Consciousness: cultural inputs 1,015 | religious/science corpus 6,331
+- Meaning And Logos: cultural inputs 1,200 | religious/science corpus 6,123
+- Moral Response: cultural inputs 1,334 | religious/science corpus 2,491
+- Worship And Community: cultural inputs 698 | religious/science corpus 1,622
+- Transformation: cultural inputs 635 | religious/science corpus 2,227
 
 Per-Domain Findings
 -------------------
@@ -30834,6 +31167,30 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Read visual form as meaning: ask how image, color, gesture, and composition reveal desire, lament, worship, power, or hope.
 
+medical_police_and_the_history_of_public_health_8f9e452afd25.md
+---------------------------------------------------------------
+Words: 141
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Life And Consciousness: 4
+- Meaning And Logos: 4
+- Moral Response: 4
+- Transformation: 4
+- Physical Order: 2
+- Mathematical Structure: 2
+- Worship And Community: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+
 policing_the_borders_of_bioethics_rawlsian_public_reason_as_a_disciplinary_tool_990cfaf2c322.md
 -----------------------------------------------------------------------------------------------
 Words: 143
@@ -33222,6 +33579,31 @@ Practical domain applications:
 - Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 
+engaging_stigma_an_embodied_theological_response_to_hiv_and_aids_8537aae0ffea.md
+--------------------------------------------------------------------------------
+Words: 140
+Strongest cultural domain: Politics And Justice (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 4
+- Meaning And Logos: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Life And Consciousness: 2
+- Worship And Community: 2
+- Transformation: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
 epilogue_culture_and_depression_7149d39ac376.md
 -----------------------------------------------
 Words: 135
@@ -35290,6 +35672,29 @@ Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
 
+an_overview_of_artificial_intelligence_ethics_ffb3e2fc2804.md
+-------------------------------------------------------------
+Words: 139
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Mathematical Structure: 3
+- Meaning And Logos: 3
+- Physical Order: 2
+- Life And Consciousness: 2
+- Moral Response: 1
+- Worship And Community: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+
 artificial_intelligence_ethics_guidelines_for_developers_and_users_clarifying_th_bb6cdf872a55.md
 ------------------------------------------------------------------------------------------------
 Words: 145
@@ -36663,23 +37068,23 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 223 | religious/science corpus 2,664
-- Mathematical Structure: music notes 330 | religious/science corpus 645
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,298
-- Quantum Probability: music notes 0 | religious/science corpus 183
-- Life And Consciousness: music notes 0 | religious/science corpus 6,354
-- Meaning And Logos: music notes 86 | religious/science corpus 6,168
-- Moral Response: music notes 0 | religious/science corpus 2,485
-- Worship And Community: music notes 16 | religious/science corpus 1,623
-- Transformation: music notes 63 | religious/science corpus 2,233
+- Physical Order: music notes 223 | religious/science corpus 2,661
+- Mathematical Structure: music notes 330 | religious/science corpus 640
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,277
+- Quantum Probability: music notes 0 | religious/science corpus 175
+- Life And Consciousness: music notes 0 | religious/science corpus 6,331
+- Meaning And Logos: music notes 86 | religious/science corpus 6,123
+- Moral Response: music notes 0 | religious/science corpus 2,491
+- Worship And Community: music notes 16 | religious/science corpus 1,622
+- Transformation: music notes 63 | religious/science corpus 2,227
 
 Relevant Research Domains
 -------------------------
-- Philosophy Of Mathematics: corpus signal 561
-- Physics And Quantum Mechanics: corpus signal 1,452
-- Philosophy Of Science: corpus signal 2,862
-- Cognitive Science: corpus signal 1,047
-- Anthropology And Psychology Of Worship: corpus signal 837
+- Philosophy Of Mathematics: corpus signal 557
+- Physics And Quantum Mechanics: corpus signal 1,441
+- Philosophy Of Science: corpus signal 2,861
+- Cognitive Science: corpus signal 1,045
+- Anthropology And Psychology Of Worship: corpus signal 846
 
 Per-Composition Findings
 ------------------------
@@ -39204,7 +39609,7 @@ Overview
 --------
 Lyric documents analyzed: 13
 Total lyric words analyzed: 794
-Religious research documents used for comparison: 364
+Religious research documents used for comparison: 368
 
 Strongest Lyric Motifs
 ---------------------
@@ -39254,34 +39659,34 @@ Meaning Guardrails
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: lyrics 12 | religious corpus 2,664
-- Mathematical Structure: lyrics 2 | religious corpus 645
-- Mathematical Theophany: lyrics 7 | religious corpus 1,298
-- Quantum Probability: lyrics 0 | religious corpus 183
-- Life And Consciousness: lyrics 38 | religious corpus 6,354
-- Meaning And Logos: lyrics 47 | religious corpus 6,168
-- Moral Response: lyrics 62 | religious corpus 2,485
-- Worship And Community: lyrics 62 | religious corpus 1,623
-- Transformation: lyrics 57 | religious corpus 2,233
+- Physical Order: lyrics 12 | religious corpus 2,661
+- Mathematical Structure: lyrics 2 | religious corpus 640
+- Mathematical Theophany: lyrics 7 | religious corpus 1,277
+- Quantum Probability: lyrics 0 | religious corpus 175
+- Life And Consciousness: lyrics 38 | religious corpus 6,331
+- Meaning And Logos: lyrics 47 | religious corpus 6,123
+- Moral Response: lyrics 62 | religious corpus 2,491
+- Worship And Community: lyrics 62 | religious corpus 1,622
+- Transformation: lyrics 57 | religious corpus 2,227
 
 Shared Theme Signals
 --------------------
-- God and Divine Attributes: lyrics 12 | religious corpus 25,438
-- Faith and Trust: lyrics 8 | religious corpus 2,620
-- Jesus and Christology: lyrics 1 | religious corpus 5,559
-- Holy Spirit and Pneumatology: lyrics 4 | religious corpus 1,007
-- Creation and Order: lyrics 11 | religious corpus 6,108
-- Moral Transformation: lyrics 11 | religious corpus 3,151
-- Theology and Logos: lyrics 8 | religious corpus 6,291
-- Spirituality and Worship: lyrics 8 | religious corpus 1,810
-- Biology and Neuroscience: lyrics 0 | religious corpus 122
-- Physics and Natural Law: lyrics 4 | religious corpus 3,094
-- Mathematics and Intelligibility: lyrics 6 | religious corpus 1,145
-- Mathematical Theophany: lyrics 7 | religious corpus 941
-- Quantum Physics and Uncertainty: lyrics 0 | religious corpus 148
-- Anthropology and Culture: lyrics 0 | religious corpus 2,116
-- AI and Pattern Recognition: lyrics 17 | religious corpus 746
-- Philosophy and Meaning: lyrics 0 | religious corpus 3,253
+- God and Divine Attributes: lyrics 12 | religious corpus 25,432
+- Faith and Trust: lyrics 8 | religious corpus 2,583
+- Jesus and Christology: lyrics 1 | religious corpus 5,552
+- Holy Spirit and Pneumatology: lyrics 4 | religious corpus 997
+- Creation and Order: lyrics 11 | religious corpus 6,066
+- Moral Transformation: lyrics 11 | religious corpus 3,161
+- Theology and Logos: lyrics 8 | religious corpus 6,242
+- Spirituality and Worship: lyrics 8 | religious corpus 1,822
+- Biology and Neuroscience: lyrics 0 | religious corpus 120
+- Physics and Natural Law: lyrics 4 | religious corpus 3,091
+- Mathematics and Intelligibility: lyrics 6 | religious corpus 1,120
+- Mathematical Theophany: lyrics 7 | religious corpus 919
+- Quantum Physics and Uncertainty: lyrics 0 | religious corpus 142
+- Anthropology and Culture: lyrics 0 | religious corpus 2,071
+- AI and Pattern Recognition: lyrics 17 | religious corpus 715
+- Philosophy and Meaning: lyrics 0 | religious corpus 3,240
 
 Most Aligned Lyric Files
 ------------------------
