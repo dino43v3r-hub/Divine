@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 305
-Total theologian words analyzed: 56,672
+Theologian documents analyzed: 306
+Total theologian words analyzed: 56,817
 
 Era Coverage
 ------------
@@ -22,8 +22,8 @@ Era Coverage
 Concept Coverage
 ----------------
 - Trinity: 291
+- Pneumatology: 232
 - Christology: 231
-- Pneumatology: 231
 - Theodicy And Suffering: 207
 - Creation: 171
 - Church And Practice: 113
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 1,798
+- Father: 1,803
 - Son: 294
-- Holy Spirit: 441
+- Holy Spirit: 443
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 169 | broader corpus 2,661
-- Mathematical Structure: theologians 4 | broader corpus 640
-- Mathematical Theophany: theologians 276 | broader corpus 1,277
-- Quantum Probability: theologians 2 | broader corpus 175
-- Life And Consciousness: theologians 816 | broader corpus 6,331
-- Meaning And Logos: theologians 129 | broader corpus 6,123
-- Moral Response: theologians 117 | broader corpus 2,491
-- Worship And Community: theologians 212 | broader corpus 1,622
-- Transformation: theologians 474 | broader corpus 2,227
+- Physical Order: theologians 169 | broader corpus 2,659
+- Mathematical Structure: theologians 4 | broader corpus 642
+- Mathematical Theophany: theologians 276 | broader corpus 1,268
+- Quantum Probability: theologians 2 | broader corpus 172
+- Life And Consciousness: theologians 819 | broader corpus 6,321
+- Meaning And Logos: theologians 129 | broader corpus 6,104
+- Moral Response: theologians 117 | broader corpus 2,477
+- Worship And Community: theologians 212 | broader corpus 1,615
+- Transformation: theologians 475 | broader corpus 2,224
 
 Per-Source Findings
 -------------------
@@ -1294,6 +1294,17 @@ Meaning arc:
 - Opening: Creation And Order (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+gender_social_change_and_spiritual_power_charismatic_christianity_in_ghana_22116ae68cd2.md
+------------------------------------------------------------------------------------------
+Words: 145
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 gifts_and_charisms_roman_catholic_diocese_of_lafayette_louisiana_lafayette_louis_7d95d43648ed.md
 ------------------------------------------------------------------------------------------------

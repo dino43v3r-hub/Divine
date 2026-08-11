@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 18101,
+  "edge_count": 18214,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -1569,6 +1569,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_is_human_nature_obsolete_genetics_bioengineering_and_the_f",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_is_human_nature_obsolete_genetics_bioengineering_and_the_f",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_is_human_nature_obsolete_genetics_bioengineering_and_the_f",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_is_human_nature_obsolete_genetics_bioengineering_and_the_f",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_is_human_nature_obsolete_genetics_bioengineering_and_the_f",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_book_review_les_rites_et_la_condition_humaine_d_apr_s_des_documents_et",
       "target": "lane:research_documents"
     },
@@ -8590,6 +8615,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_sentimen_analisis_overclaim_skincare_skintific_menggunakan_algoritma_b",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_some_old_and_new_approaches_to_methodology_in_comparative_education_e3",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_some_old_and_new_approaches_to_methodology_in_comparative_education_e3",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_some_old_and_new_approaches_to_methodology_in_comparative_education_e3",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_some_old_and_new_approaches_to_methodology_in_comparative_education_e3",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_some_old_and_new_approaches_to_methodology_in_comparative_education_e3",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -11466,11 +11516,6 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:failure_condition"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:pastoral_safety"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -18759,6 +18804,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_arabic_tradition_translation_22d828b9b851_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_arabic_tradition_translation_22d828b9b851_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_arabic_tradition_translation_22d828b9b851_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_arabic_tradition_translation_22d828b9b851_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_arabic_tradition_translation_22d828b9b851_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_asian_american_evangelicals_in_multiracial_church_ministry_52705f63e7eb_m",
       "target": "lane:world_languages"
     },
@@ -25129,6 +25199,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_7_bible_verses_about_suffering_and_what_jesus_says_about_pain_0a7b89480ced_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_7_bible_verses_about_suffering_and_what_jesus_says_about_pain_0a7b89480ced_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_7_bible_verses_about_suffering_and_what_jesus_says_about_pain_0a7b89480ced_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_7_bible_verses_about_suffering_and_what_jesus_says_about_pain_0a7b89480ced_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_7_bible_verses_about_suffering_and_what_jesus_says_about_pain_0a7b89480ced_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_7_bible_verses_about_suffering_and_what_jesus_says_about_pain_0a7b89480ced_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:all_texts_auto_imported_cloud_candidates_a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informa",
       "target": "lane:all_texts"
     },
@@ -25885,6 +25985,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:all_texts_auto_imported_cloud_candidates_epic_singers_and_oral_tradition_5ace663589d8_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_essays_on_oral_traditions_homer_and_beyond_two_classical_continuum_noel_spencer",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_essays_on_oral_traditions_homer_and_beyond_two_classical_continuum_noel_spencer",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_essays_on_oral_traditions_homer_and_beyond_two_classical_continuum_noel_spencer",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_essays_on_oral_traditions_homer_and_beyond_two_classical_continuum_noel_spencer",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_essays_on_oral_traditions_homer_and_beyond_two_classical_continuum_noel_spencer",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -26709,6 +26834,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_oral_tradition_and_pentateuchal_narrative_bible_interp_dde026784199_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_oral_tradition_and_pentateuchal_narrative_bible_interp_dde026784199_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_oral_tradition_and_pentateuchal_narrative_bible_interp_dde026784199_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_oral_tradition_and_pentateuchal_narrative_bible_interp_dde026784199_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_oral_tradition_and_pentateuchal_narrative_bible_interp_dde026784199_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:all_texts_auto_imported_cloud_candidates_perspectives_of_major_world_religions_regarding_euthanasia_and_assisted_suicide",
       "target": "lane:all_texts"
     },
@@ -26990,6 +27140,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:all_texts_auto_imported_cloud_candidates_religious_experience_hindu_pluralism_and_hope_anubhava_in_the_tradition_of_sri_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_religious_texts_unlocking_ancient_wisdom_scripture_analysis_c904ab9d88bd_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_religious_texts_unlocking_ancient_wisdom_scripture_analysis_c904ab9d88bd_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_religious_texts_unlocking_ancient_wisdom_scripture_analysis_c904ab9d88bd_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_religious_texts_unlocking_ancient_wisdom_scripture_analysis_c904ab9d88bd_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_religious_texts_unlocking_ancient_wisdom_scripture_analysis_c904ab9d88bd_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -30929,6 +31104,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_testimony_testimonia_504f1adde8a3_md",
+      "target": "lane:other_religious_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_testimony_testimonia_504f1adde8a3_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_testimony_testimonia_504f1adde8a3_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_testimony_testimonia_504f1adde8a3_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_testimony_testimonia_504f1adde8a3_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_testimony_testimonia_504f1adde8a3_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:other_religious_texts_auto_imported_cloud_candidates_the_advance_of_christianity_in_tikopia_5b3dd5783d80_md",
       "target": "lane:other_religious_texts"
     },
@@ -35514,6 +35719,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_gender_social_change_and_spiritual_power_charismatic_christianity_in_ghana_22",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_gender_social_change_and_spiritual_power_charismatic_christianity_in_ghana_22",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_gender_social_change_and_spiritual_power_charismatic_christianity_in_ghana_22",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_gender_social_change_and_spiritual_power_charismatic_christianity_in_ghana_22",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_gender_social_change_and_spiritual_power_charismatic_christianity_in_ghana_22",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_gifts_and_charisms_roman_catholic_diocese_of_lafayette_louisiana_lafayette_lo",
       "target": "lane:theologians"
     },
@@ -43870,6 +44100,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_materializing_memory_in_art_and_popular_culture_3f9c3aa7e16c_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_memory_politics_identity_and_conflict_5e7d3f1f23e8_md",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_memory_politics_identity_and_conflict_5e7d3f1f23e8_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_memory_politics_identity_and_conflict_5e7d3f1f23e8_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_memory_politics_identity_and_conflict_5e7d3f1f23e8_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_memory_politics_identity_and_conflict_5e7d3f1f23e8_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -52219,6 +52474,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_beauty_and_the_morbid_fungi_as_source_of_inspiration_in_contemporary_art_2",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_beauty_and_the_morbid_fungi_as_source_of_inspiration_in_contemporary_art_2",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_beauty_and_the_morbid_fungi_as_source_of_inspiration_in_contemporary_art_2",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_beauty_and_the_morbid_fungi_as_source_of_inspiration_in_contemporary_art_2",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_beauty_and_the_morbid_fungi_as_source_of_inspiration_in_contemporary_art_2",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_the_beauty_of_the_end_e866cf899e0e_md",
       "target": "lane:visual_art"
     },
@@ -55989,6 +56269,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_cancer_awareness_among_community_pharmacist_a_systematic_review_d806355fc",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_cancer_awareness_among_community_pharmacist_a_systematic_review_d806355fc",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_cancer_awareness_among_community_pharmacist_a_systematic_review_d806355fc",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_cancer_awareness_among_community_pharmacist_a_systematic_review_d806355fc",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_cancer_awareness_among_community_pharmacist_a_systematic_review_d806355fc",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_canons_against_cannons_social_justice_and_the_engineering_ethics_imaginar",
       "target": "lane:cultural_inputs"
     },
@@ -58430,6 +58735,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_of_the_attention_economy_the_problem_of_social_media_addiction_50e",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethnic_and_cultural_aspects_of_nanai_healing_ritual_sculptures_5fce8a11a0",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethnic_and_cultural_aspects_of_nanai_healing_ritual_sculptures_5fce8a11a0",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethnic_and_cultural_aspects_of_nanai_healing_ritual_sculptures_5fce8a11a0",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethnic_and_cultural_aspects_of_nanai_healing_ritual_sculptures_5fce8a11a0",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethnic_and_cultural_aspects_of_nanai_healing_ritual_sculptures_5fce8a11a0",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -66499,6 +66829,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_augustine_divine_agency_and_therapeutic_change_66450e906689_md",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_augustine_divine_agency_and_therapeutic_change_66450e906689_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_augustine_divine_agency_and_therapeutic_change_66450e906689_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_augustine_divine_agency_and_therapeutic_change_66450e906689_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_augustine_divine_agency_and_therapeutic_change_66450e906689_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_augustine_divine_agency_and_therapeutic_change_66450e906689_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_autism_and_religion_6367685e648e_md",
       "target": "lane:psychology_inputs"
     },
@@ -67910,6 +68270,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_expression_assisted_facial_action_unit_recognition_under_incomplete_au_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_faces_in_the_clouds_traces_in_the_grass_an_exploration_of_theories_and_",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_faces_in_the_clouds_traces_in_the_grass_an_exploration_of_theories_and_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_faces_in_the_clouds_traces_in_the_grass_an_exploration_of_theories_and_",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_faces_in_the_clouds_traces_in_the_grass_an_exploration_of_theories_and_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_faces_in_the_clouds_traces_in_the_grass_an_exploration_of_theories_and_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_faces_in_the_clouds_traces_in_the_grass_an_exploration_of_theories_and_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -72404,6 +72794,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_supernatural_belief_and_agency_detection_in_virtual_reality_e5b4dc7cd8f",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_supernatural_belief_and_agency_detection_in_virtual_reality_e5b4dc7cd8f",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_supernatural_belief_and_agency_detection_in_virtual_reality_e5b4dc7cd8f",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_supernatural_belief_and_agency_detection_in_virtual_reality_e5b4dc7cd8f",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_supernatural_belief_and_agency_detection_in_virtual_reality_e5b4dc7cd8f",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_supernatural_belief_and_agency_detection_in_virtual_reality_e5b4dc7cd8f",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_tasawwuf_as_ethical_science_embodied_pedagogy_in_the_poetics_of_khoja_a",
       "target": "lane:psychology_inputs"
     },
@@ -73870,6 +74290,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_what_does_resilience_and_well_being_mean_to_community_health_workers_an",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_when_the_human_tendency_to_detect_patterns_goes_too_far_psyche_ideas_1f",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_when_the_human_tendency_to_detect_patterns_goes_too_far_psyche_ideas_1f",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_when_the_human_tendency_to_detect_patterns_goes_too_far_psyche_ideas_1f",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_when_the_human_tendency_to_detect_patterns_goes_too_far_psyche_ideas_1f",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_when_the_human_tendency_to_detect_patterns_goes_too_far_psyche_ideas_1f",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_when_the_human_tendency_to_detect_patterns_goes_too_far_psyche_ideas_1f",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -75205,6 +75655,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:human_stories_auto_imported_cloud_candidates_libreas_podcast_1_bobcatsss_im_interview_c39a2a575010_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_libreas_podcast_2_olivia_frost_im_interview_0178e02166af_md",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_libreas_podcast_2_olivia_frost_im_interview_0178e02166af_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_libreas_podcast_2_olivia_frost_im_interview_0178e02166af_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_libreas_podcast_2_olivia_frost_im_interview_0178e02166af_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_libreas_podcast_2_olivia_frost_im_interview_0178e02166af_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_libreas_podcast_2_olivia_frost_im_interview_0178e02166af_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -77329,6 +77809,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_fiction_and_drama_the_gross_structure_49baea36897b_md",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_fiction_and_drama_the_gross_structure_49baea36897b_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_fiction_and_drama_the_gross_structure_49baea36897b_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_fiction_and_drama_the_gross_structure_49baea36897b_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_fiction_and_drama_the_gross_structure_49baea36897b_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_finite_and_infinite_games_25b880f68fbe_md",
       "target": "lane:modern_literature"
     },
@@ -83934,6 +84439,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_absurdist_approach_to_unveiling_possible_paradoxical_thinking_for_innova",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_absurdist_approach_to_unveiling_possible_paradoxical_thinking_for_innova",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_absurdist_approach_to_unveiling_possible_paradoxical_thinking_for_innova",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_absurdist_approach_to_unveiling_possible_paradoxical_thinking_for_innova",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_absurdist_approach_to_unveiling_possible_paradoxical_thinking_for_innova",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_absurdist_approach_to_unveiling_possible_paradoxical_thinking_for_innova",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_the_alice_in_wonderland_mechanics_of_the_rejection_of_climate_science_simula",
       "target": "lane:deep_sources"
     },
@@ -88080,6 +88615,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_prayer_power_and_the_problem_of_suffering_2b3b4d736461_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_prayer_to_the_god_who_moves_mountains_68d88b62aad7_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_prayer_to_the_god_who_moves_mountains_68d88b62aad7_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_prayer_to_the_god_who_moves_mountains_68d88b62aad7_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_prayer_to_the_god_who_moves_mountains_68d88b62aad7_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_prayer_to_the_god_who_moves_mountains_68d88b62aad7_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_prayer_to_the_god_who_moves_mountains_68d88b62aad7_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -90509,7 +91074,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 2732,
+  "node_count": 2753,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -91195,6 +91760,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/book_review_ii_practical_theology_spiritual_surgery_b5d800c717aa.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_book_review_is_human_nature_obsolete_genetics_bioengineering_and_the_f",
+      "label": "Book Review: Is Human Nature Obsolete? Genetics, Bioengineering, and the Future of the Human Condition",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/book_review_is_human_nature_obsolete_genetics_bioengineering_and_the_future_of_t_7899b876da53.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -93483,6 +94059,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/sentimen_analisis_overclaim_skincare_skintific_menggunakan_algoritma_bert_sentim_030e4e640e56.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_some_old_and_new_approaches_to_methodology_in_comparative_education_e3",
+      "label": "Some Old and New Approaches to Methodology in Comparative Education",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/some_old_and_new_approaches_to_methodology_in_comparative_education_e3705aa01bf0.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -96700,6 +97287,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_arabic_tradition_translation_22d828b9b851_md",
+      "label": "Arabic Tradition, Translation",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/arabic_tradition_translation_22d828b9b851.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_asian_american_evangelicals_in_multiracial_church_ministry_52705f63e7eb_m",
       "label": "Asian American Evangelicals in Multiracial Church Ministry",
       "lane": "world_languages",
@@ -98878,6 +99476,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_7_bible_verses_about_suffering_and_what_jesus_says_about_pain_0a7b89480ced_md",
+      "label": "7 Bible Verses About Suffering and What Jesus Says About Pain",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/7_bible_verses_about_suffering_and_what_jesus_says_about_pain_0a7b89480ced.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_a_church_with_the_poor_lessons_from_scripture_and_from_congregations_in_informa",
       "label": "A Church with the Poor \u2013 Lessons From Scripture and From Congregations in Informal Settlements",
       "lane": "all_texts",
@@ -99137,6 +99746,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "all_texts/auto_imported_cloud_candidates/epic_singers_and_oral_tradition_5ace663589d8.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_essays_on_oral_traditions_homer_and_beyond_two_classical_continuum_noel_spencer",
+      "label": "Essays on oral traditions: Homer and beyond. Two - Classical Continuum Noel Spencer June 2, 2025",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/essays_on_oral_traditions_homer_and_beyond_two_classical_continuum_noel_spencer_492b9424a794.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -99417,6 +100037,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_oral_tradition_and_pentateuchal_narrative_bible_interp_dde026784199_md",
+      "label": "Oral Tradition and Pentateuchal Narrative | Bible Interp",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/oral_tradition_and_pentateuchal_narrative_bible_interp_dde026784199.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_perspectives_of_major_world_religions_regarding_euthanasia_and_assisted_suicide",
       "label": "Perspectives of Major World Religions regarding Euthanasia and Assisted Suicide: A Comparative Analysis",
       "lane": "all_texts",
@@ -99511,6 +100142,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "all_texts/auto_imported_cloud_candidates/religious_experience_hindu_pluralism_and_hope_anubhava_in_the_tradition_of_sri_r_013e1f35f14e.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_religious_texts_unlocking_ancient_wisdom_scripture_analysis_c904ab9d88bd_md",
+      "label": "Religious Texts: Unlocking Ancient Wisdom \u2013 Scripture Analysis",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/religious_texts_unlocking_ancient_wisdom_scripture_analysis_c904ab9d88bd.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -100721,6 +101363,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "other_religious_texts/auto_imported_cloud_candidates/testimony_share_my_life_walking_with_god_with_dreams_and_visions_6048b52c79ac.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:other_religious_texts_auto_imported_cloud_candidates_testimony_testimonia_504f1adde8a3_md",
+      "label": "Testimony \u2192 Testimonia",
+      "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "other_religious_texts/auto_imported_cloud_candidates/testimony_testimonia_504f1adde8a3.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -102250,6 +102903,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/full_issue_salubritas_613e2a4b87c0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_gender_social_change_and_spiritual_power_charismatic_christianity_in_ghana_22",
+      "label": "Gender, social change, and spiritual power: charismatic Christianity in Ghana",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/gender_social_change_and_spiritual_power_charismatic_christianity_in_ghana_22116ae68cd2.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -105137,6 +105801,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_memory_politics_identity_and_conflict_5e7d3f1f23e8_md",
+      "label": "Memory Politics, Identity and Conflict",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/memory_politics_identity_and_conflict_5e7d3f1f23e8.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_memory_wars_in_the_low_countries_1566_1700_c941560fce8e_md",
       "label": "Memory Wars in the Low Countries, 1566-1700",
       "lane": "history_inputs",
@@ -107865,6 +108540,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_the_beauty_and_the_morbid_fungi_as_source_of_inspiration_in_contemporary_art_2",
+      "label": "The Beauty and the Morbid: Fungi as Source of Inspiration in Contemporary Art",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/the_beauty_and_the_morbid_fungi_as_source_of_inspiration_in_contemporary_art_2368cae86c7f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_the_beauty_of_the_end_e866cf899e0e_md",
       "label": "The Beauty of the End",
       "lane": "visual_art",
@@ -109042,6 +109728,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_cancer_awareness_among_community_pharmacist_a_systematic_review_d806355fc",
+      "label": "Cancer awareness among community pharmacist: a systematic review.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/cancer_awareness_among_community_pharmacist_a_systematic_review_d806355fc919.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_canons_against_cannons_social_justice_and_the_engineering_ethics_imaginar",
       "label": "Canons against Cannons? Social Justice and the Engineering Ethics Imaginary",
       "lane": "cultural_inputs",
@@ -109818,6 +110515,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/ethics_of_the_attention_economy_the_problem_of_social_media_addiction_50e9c7b5b337.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethnic_and_cultural_aspects_of_nanai_healing_ritual_sculptures_5fce8a11a0",
+      "label": "Ethnic and Cultural Aspects of Nanai Healing Ritual Sculptures",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/ethnic_and_cultural_aspects_of_nanai_healing_ritual_sculptures_5fce8a11a052.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -112573,6 +113281,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_augustine_divine_agency_and_therapeutic_change_66450e906689_md",
+      "label": "Augustine, Divine Agency, and Therapeutic Change",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/augustine_divine_agency_and_therapeutic_change_66450e906689.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_autism_and_religion_6367685e648e_md",
       "label": "Autism and Religion",
       "lane": "psychology_inputs",
@@ -113041,6 +113760,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "psychology_inputs/auto_imported_cloud_candidates/expression_assisted_facial_action_unit_recognition_under_incomplete_au_annotatio_2e4a6f84eff0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_faces_in_the_clouds_traces_in_the_grass_an_exploration_of_theories_and_",
+      "label": "Faces in the Clouds Traces in the Grass: An Exploration of Theories and Mechanisms in the Cognitive Science of Religion",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/faces_in_the_clouds_traces_in_the_grass_an_exploration_of_theories_and_mechanism_d8ab17a34fcb.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -114575,6 +115305,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_supernatural_belief_and_agency_detection_in_virtual_reality_e5b4dc7cd8f",
+      "label": "Supernatural Belief and Agency Detection in Virtual Reality",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/supernatural_belief_and_agency_detection_in_virtual_reality_e5b4dc7cd8ff.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_tasawwuf_as_ethical_science_embodied_pedagogy_in_the_poetics_of_khoja_a",
       "label": "Tasawwuf as ethical science: Embodied pedagogy in the poetics of Khoja Ahmad Yasawi",
       "lane": "psychology_inputs",
@@ -115070,6 +115811,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_when_the_human_tendency_to_detect_patterns_goes_too_far_psyche_ideas_1f",
+      "label": "When the human tendency to detect patterns goes too far | Psyche Ideas",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/when_the_human_tendency_to_detect_patterns_goes_too_far_psyche_ideas_1f12ce00ae3e.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_where_the_dancer_meets_her_divine_dance_as_religious_experience_in_the_",
       "label": "Where the dancer meets her divine: dance as religious experience in the lives of Loie Fuller and Isadora Duncan",
       "lane": "psychology_inputs",
@@ -115505,6 +116257,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "human_stories/auto_imported_cloud_candidates/libreas_podcast_1_bobcatsss_im_interview_c39a2a575010.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_libreas_podcast_2_olivia_frost_im_interview_0178e02166af_md",
+      "label": "LIBREAS PODCAST #2 : Olivia Frost im Interview",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/libreas_podcast_2_olivia_frost_im_interview_0178e02166af.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -116220,6 +116983,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "modern_literature/auto_imported_cloud_candidates/feminist_literary_criticism_modernism_postmodernism_new_historicism_and_renaissa_5acd2c161f81.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_fiction_and_drama_the_gross_structure_49baea36897b_md",
+      "label": "Fiction and Drama: The Gross Structure",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/fiction_and_drama_the_gross_structure_49baea36897b.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -118359,6 +119133,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_the_absurdist_approach_to_unveiling_possible_paradoxical_thinking_for_innova",
+      "label": "The absurdist approach to unveiling possible paradoxical thinking for innovative socio-psychological research.",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/the_absurdist_approach_to_unveiling_possible_paradoxical_thinking_for_innovative_ebc7e3275bc7.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_the_alice_in_wonderland_mechanics_of_the_rejection_of_climate_science_simula",
       "label": "The \u2018Alice in Wonderland\u2019 mechanics of the rejection of (climate) science: simulating coherence by conspiracism",
       "lane": "deep_sources",
@@ -119597,6 +120382,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/prayer_power_and_the_problem_of_suffering_2b3b4d736461.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_prayer_to_the_god_who_moves_mountains_68d88b62aad7_md",
+      "label": "Prayer To The God Who Moves Mountains",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/prayer_to_the_god_who_moves_mountains_68d88b62aad7.md",
       "review_note_count": 1,
       "type": "document"
     },

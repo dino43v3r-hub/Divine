@@ -52,18 +52,13 @@
       "tag": "general_research_methods"
     },
     {
-      "query": "providence contingency chance tragedy theology source review counterargument",
-      "reason": "Build or improve reviewed source pack coverage for Providence And Contingency Pattern.",
+      "query": "science theology guardrail quantum overclaim philosophy science",
+      "reason": "Keep testing leading patterns against Science Guardrail.",
       "tag": "general_research_methods"
     },
     {
       "query": "unresolved suffering lament pastoral theology no repair",
       "reason": "Keep testing leading patterns against Suffering Without Resolution.",
-      "tag": "general_research_methods"
-    },
-    {
-      "query": "science theology guardrail quantum overclaim philosophy science",
-      "reason": "Keep testing leading patterns against Science Guardrail.",
       "tag": "general_research_methods"
     },
     {
@@ -97,7 +92,7 @@
     "Cross And Reversal Pattern",
     "Creation-To-Consciousness Pattern",
     "Trinity-As-Behavior Pattern",
-    "Providence And Contingency Pattern"
+    "Moral Transformation Pattern"
   ],
-  "updated_at": "2026-08-10T14:58:42.794020+00:00"
+  "updated_at": "2026-08-11T14:55:55.164289+00:00"
 }
