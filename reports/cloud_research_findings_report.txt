@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-08-14T14:52:42.937087+00:00
-Total references: 10,046
-New references this run: 39
+Updated: 2026-08-15T14:18:21.776093+00:00
+Total references: 10,080
+New references this run: 34
 
 Guardrails
 ----------
@@ -17,7 +17,7 @@ Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Self-directed query modifiers used this run: primary source, counterargument.
-- Discovery pagination: rotating across 12 page(s) with run index 1,511, so repeated runs do not keep rereading page one.
+- Discovery pagination: rotating across 12 page(s) with run index 1,521, so repeated runs do not keep rereading page one.
 - Auto-import to local lane notes is enabled for up to 40 new candidate(s) per run. These notes are candidate notes, not human-reviewed evidence.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 - OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
@@ -27,83 +27,82 @@ Online Collection Status
 - Provider results returned this run:
   - Crossref: 470
   - Europe PMC: 316
-  - Internet Archive: 49
-  - OpenAlex: 400
-  - PubMed: 15
+  - Internet Archive: 44
+  - OpenAlex: 416
+  - PubMed: 10
   - Tavily Search: 15
   - arXiv: 50
 - Brand-new references added by provider:
-  - Crossref: 12
-  - Internet Archive: 2
-  - OpenAlex: 22
-  - Tavily Search: 3
+  - Crossref: 13
+  - OpenAlex: 14
+  - Tavily Search: 7
 - Total stored references by provider:
-  - Crossref: 4,525
+  - Crossref: 4,538
   - Europe PMC: 336
   - Internet Archive: 550
-  - OpenAlex: 3,632
+  - OpenAlex: 3,646
   - PubMed: 135
-  - Tavily Search: 641
+  - Tavily Search: 648
   - arXiv: 227
 
 Reference Tags
 --------------
-- art_beauty: 600
-- biblical_language_source_depth: 269
+- art_beauty: 602
+- biblical_language_source_depth: 272
 - biblical_languages: 279
-- cultural_practice_patterns: 461
-- general_research_methods: 1,229
-- global_text_traditions: 406
+- cultural_practice_patterns: 463
+- general_research_methods: 1,236
+- global_text_traditions: 407
 - history_memory: 519
-- holy_spirit_gifts_global: 337
+- holy_spirit_gifts_global: 339
 - interreligious_dream_testimony: 369
-- modern_literature_meaning: 467
+- modern_literature_meaning: 470
 - music_math: 507
-- pattern_perception_divine_response: 433
+- pattern_perception_divine_response: 434
 - podcast_testimony_patterns: 321
 - politics_justice: 403
-- psychology_patterns: 433
-- quantum_science_guardrails: 635
-- technology_ethics: 462
-- theologians_cross_era: 243
-- trinity: 457
-- unresolved_suffering: 453
+- psychology_patterns: 435
+- quantum_science_guardrails: 636
+- technology_ethics: 463
+- theologians_cross_era: 250
+- trinity: 460
+- unresolved_suffering: 454
 - video_teaching_patterns: 444
 - visual_media_patterns: 459
 - world_language_source_sampling: 386
-- world_languages_translation: 364
+- world_languages_translation: 365
 
 Layer Routes
 ------------
-- all_texts: 2,528
-- biblical_languages: 609
-- cultural_inputs: 2,674
-- deep_sources: 3,322
-- history_inputs: 1,780
-- human_stories: 3,703
-- modern_literature: 999
+- all_texts: 2,536
+- biblical_languages: 612
+- cultural_inputs: 2,679
+- deep_sources: 3,332
+- history_inputs: 1,784
+- human_stories: 3,713
+- modern_literature: 1,003
 - music_notes: 507
-- other_religious_texts: 1,663
-- pattern_tests: 2,921
-- psychology_inputs: 2,597
-- research_documents: 1,668
-- research_documents/christian_sources: 741
-- theologians: 2,763
-- visual_art: 2,295
-- world_languages: 1,400
+- other_religious_texts: 1,667
+- pattern_tests: 2,925
+- psychology_inputs: 2,605
+- research_documents: 1,677
+- research_documents/christian_sources: 750
+- theologians: 2,775
+- visual_art: 2,304
+- world_languages: 1,404
 
 Layer Balance Watch
 -------------------
 - These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
   - music_notes: 507
-  - biblical_languages: 609
-  - research_documents/christian_sources: 741
+  - biblical_languages: 612
+  - research_documents/christian_sources: 750
 
 Quality Counts
 --------------
-- open web result: 641
+- open web result: 648
 - reference metadata: 542
-- scholarly metadata: 8,628
+- scholarly metadata: 8,655
 - scholarly preprint: 227
 - speculative-risk: 8
 
@@ -116,9 +115,9 @@ Media Candidate Counts
 Automated Evidence Counts
 -------------------------
 - do_not_strengthen_claim: 77
-- moderate_scholarly_candidate: 3,083
-- strong_scholarly_candidate: 6,302
-- weak_scholarly_candidate: 584
+- moderate_scholarly_candidate: 3,090
+- strong_scholarly_candidate: 6,322
+- weak_scholarly_candidate: 591
 
 Auto Review Approval Counts
 ---------------------------
@@ -126,272 +125,261 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 7,799
-- not_auto_approved: 2,247
+- approved_for_review_queue: 7,826
+- not_auto_approved: 2,254
 
 New This Run By Tag
 -------------------
 - art_beauty: 1
 - biblical_language_source_depth: 2
-- cultural_practice_patterns: 1
-- general_research_methods: 7
+- cultural_practice_patterns: 2
+- general_research_methods: 6
 - global_text_traditions: 1
-- history_memory: 3
-- holy_spirit_gifts_global: 5
-- interreligious_dream_testimony: 1
-- modern_literature_meaning: 2
-- podcast_testimony_patterns: 2
-- politics_justice: 3
-- theologians_cross_era: 1
-- trinity: 2
+- holy_spirit_gifts_global: 2
+- modern_literature_meaning: 3
+- pattern_perception_divine_response: 1
+- psychology_patterns: 2
+- quantum_science_guardrails: 1
+- technology_ethics: 1
+- theologians_cross_era: 7
+- trinity: 3
 - unresolved_suffering: 1
-- video_teaching_patterns: 5
-- world_language_source_sampling: 1
 - world_languages_translation: 1
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 14
+- all_texts: 7
 - biblical_languages: 3
-- cultural_inputs: 10
+- cultural_inputs: 4
 - deep_sources: 9
-- history_inputs: 7
-- human_stories: 16
+- history_inputs: 4
+- human_stories: 10
 - modern_literature: 4
-- other_religious_texts: 8
-- pattern_tests: 8
-- psychology_inputs: 10
+- other_religious_texts: 4
+- pattern_tests: 4
+- psychology_inputs: 8
 - research_documents: 9
-- research_documents/christian_sources: 3
-- theologians: 19
-- visual_art: 2
+- research_documents/christian_sources: 9
+- theologians: 12
+- visual_art: 8
 - world_languages: 4
 
 New Media Candidates
 --------------------
-- podcast: 3
-- video: 5
+- No brand-new video, podcast/audio, or image candidates detected this run.
 
 Newest Additions This Run
 ------------------------
-- THEOLOGIA AND OIKONOMIA: THE SOTERIOLOGICAL GROUND OF GREGORY OF NAZIANZUS’S TRINITARIAN THEOLOGY. (2010)
+- The Holy Spirit of Pentecost (2024)
+  Tags: trinity
+  Layer routes: theologians, research_documents
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2307/jj.32850428.8
+- Ignatius of Antioch and the Arian Controversy (2017)
   Tags: trinity
   Layer routes: theologians, research_documents
   Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
+  Automated evidence: strong_scholarly_candidate (12)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://etheses.durham.ac.uk/id/eprint/619/1/Gregory_of_Nazianzus%2C_Theologia_and_Oikonomia.pdf
-- The Motivation of Missions (2025)
+  URL: https://doi.org/10.1163/9789004342880
+- Preserving the whole theological system: Maximus the Confessor’s dyothelitism as a bulwark for trinitarian theology, christology, and soteriology (2018)
   Tags: trinity
   Layer routes: theologians, research_documents
-  Source: Internet Archive | reference metadata
-  Media candidate: podcast | review required before confidence change
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://archive.org/details/LONGVIEW_HEIGHTS_BAPTIST_CHURC-aHR0cHM6Ly9jZG4uc3Vic3BsYXNoLmNvbS9hdWRpb3MvN1M0Q
-- Evaluating Liturgical Engagement With Psalms of Lament: Reading Psalm 74 Through the Lenses of Feeling and Thinking (2024)
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.31743/vp.3373
+- Bibliography (2010)
   Tags: unresolved_suffering
   Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1007/s11089-024-01172-5
-- Globalising Mental Health or Pathologising the Global South? Mapping the Ethics, Theory and Practice of Global Mental Health (2014)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs
+  URL: https://doi.org/10.15699/9780884146537-012
+- Identical Particles in Quantum Mechanics: Against the Received View (2021)
+  Tags: quantum_science_guardrails
+  Layer routes: deep_sources, pattern_tests, visual_art
   Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (14)
+  Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: http://eprints.whiterose.ac.uk/115236/1/Mills%20and%20Fernando%20%282014%29%20Globalising%20mental%20health%20or%20pathologising%20the%20global%20south.pdf
-- Rewriting the Just War Tradition: Just War in Classical Greek Political Thought and Practice (2015)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs, biblical_languages
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (13)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1111/isqu.12187
-- Thrasymachus of Chalcedon on the Platonic stage (2019)
-  Tags: politics_justice
-  Layer routes: cultural_inputs, history_inputs
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.11606/issn.1981-9471.v13i1p1-39
-- Dietrich von Hildebrand’s Reflection on Beauty and Aesthetics: A Theological Appraisal of AI-Generated Art (2023)
+  URL: http://arxiv.org/abs/2102.02894
+- A Critical Study of Modern Orthodox Scholarly Criticism of Western Art (2016)
   Tags: art_beauty
   Layer routes: visual_art, cultural_inputs
   Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
+  Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.32388/q4w9v6
-- ‘I Know Who You Are’: Antiblackness in the Speculative Rhetorics of Genetic Genealogy (2020)
-  Tags: podcast_testimony_patterns
-  Layer routes: human_stories, psychology_inputs, theologians, pattern_tests
-  Source: OpenAlex | scholarly metadata
-  Media candidate: podcast | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://d-scholarship.pitt.edu/38855/7/Kelsie%20Final%20ETD.pdf
-- The Irish Penitentials and Conscience Formation (2022)
-  Tags: podcast_testimony_patterns
-  Layer routes: human_stories, psychology_inputs, theologians, pattern_tests, deep_sources
-  Source: OpenAlex | scholarly metadata
-  Media candidate: podcast | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (11)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.3390/rel13121134
-- ARCHIVES AS AGENTS OF ACCOUNTABILITY AND JUSTICE: AN EXAMINATION OF THE NATIONAL SECURITY ARCHIVE IN THE CONTEXT OF TRANSITIONAL JUSTICE IN LATIN AMERICA (2012)
-  Tags: video_teaching_patterns
-  Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-  Source: OpenAlex | scholarly metadata
-  Media candidate: video | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://d-scholarship.pitt.edu/11827/1/dissertationBlancoRiveraOFICIAL.pdf
-- Sorrow as Prayer (2026)
-  Tags: video_teaching_patterns
-  Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-  Source: Crossref | scholarly metadata
-  Media candidate: video | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4324/9781003644965-7
-- Sorrow as Love (2026)
-  Tags: video_teaching_patterns
-  Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-  Source: Crossref | scholarly metadata
-  Media candidate: video | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4324/9781003644965-2
-- Sorrow as Compassion (2026)
-  Tags: video_teaching_patterns
-  Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-  Source: Crossref | scholarly metadata
-  Media candidate: video | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4324/9781003644965-4
-- Sorrow as Knowledge (2026)
-  Tags: video_teaching_patterns
-  Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-  Source: Crossref | scholarly metadata
-  Media candidate: video | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4324/9781003644965-6
-- Collective memory and competition over identity in a conflict zone: the case of Dersim. (2016)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, psychology_inputs
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://researchonline.lse.ac.uk/id/eprint/134417/1/PinarDincPhDDissertationLSE_anonymised.pdf
-- Existentialism: Philosophical poems by Sorin Cerin (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, visual_art, all_texts
-  Source: Internet Archive | reference metadata
-  Automated evidence: moderate_scholarly_candidate (7)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://archive.org/details/9781974426614ExistentialismPhilosophicalpoems
-- “ACCORDING TO THE SCRIPTURES” (n.d.)
-  Tags: history_memory
-  Layer routes: history_inputs, theologians, all_texts
+  URL: https://etheses.durham.ac.uk/id/eprint/11557/1/Goguadze.Vol.1.pdf
+- The legacy and appearance of hospital buildings (n.d.)
+  Tags: world_languages_translation
+  Layer routes: world_languages, all_texts
   Source: Crossref | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (8)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.2307/j.ctt3fgq1k.4
-- Annotation of conceptual co-reference and text Mining the Qur'an (2012)
-  Tags: world_languages_translation
-  Layer routes: world_languages, all_texts
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (11)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: http://etheses.whiterose.ac.uk/4160/1/muhammad12phd_%282%29.pdf
-- An Asian American Theology of Hope (2015)
-  Tags: world_language_source_sampling
-  Layer routes: world_languages, all_texts, other_religious_texts
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1057/9781137462220_6
-- Varieties of the Greek Language (2013)
+  URL: https://doi.org/10.4324/9780203290903_chapter_1
+- ANCIENT SOURCE INDEX (2023)
   Tags: biblical_language_source_depth
   Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
   Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.5325/jj.10518973.21
+- Faith and Justice: A Platonic Reading of Pauline Justification (2022)
+  Tags: biblical_language_source_depth
+  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
+  Source: OpenAlex | scholarly metadata
   Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1163/9789004236400_011
-- Translating Hebrew Poetry: Ezekiel 19 in the Septuagint as an Example (2022)
-  Tags: biblical_language_source_depth
-  Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages, modern_literature
+  URL: https://etheses.durham.ac.uk/id/eprint/14441/1/Kalcheim000598940.pdf
+- Understanding the Power of Hope and Meaning: Lessons Learned from Religion and Mysticism (2018)
+  Tags: psychology_patterns
+  Layer routes: psychology_inputs, human_stories
   Source: Crossref | scholarly metadata
   Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1163/9789004521384_019
-- The Most Ancient “Puzzle Magazines”: Miscellanies of Intellectual Games from Ahiqar to Aristophanes (2019)
+  URL: https://doi.org/10.23880/pprij-16000159
+- Approaches and Strategies for Character Education for Santri at the AI Riyadloh Islamic Boarding School, Semarang Regency (2023)
+  Tags: psychology_patterns
+  Layer routes: psychology_inputs, human_stories, other_religious_texts
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: http://dx.doi.org/10.51590/waraqat.v8i2.588
+- Meaning in Religious Contexts: Examining Beliefs in Free Will and Determinism (or Divine Sovereignty and/or Providence) as Christian Meaning Frameworks With Religious Commitment as Moderator in a Moderated Mediation Model (2026)
+  Tags: pattern_perception_divine_response
+  Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, visual_art
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1177/00916471261471880
+- Demoralization and Hope: A Psychological Reading of Kant’s Moral Argument (2023)
   Tags: global_text_traditions
   Layer routes: all_texts, other_religious_texts, modern_literature
   Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
+  Automated evidence: strong_scholarly_candidate (13)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://riviste.unimi.it/index.php/enthymema/article/view/11932
-- The cosmos as primary sacrament, the horizon for an ecological sacramental theology (1999)
+  URL: https://doi.org/10.1093/monist/onac022
+- Faithful Translators: Authorship, Gender, and Religion in Early Modern England (2013)
   Tags: modern_literature_meaning
   Layer routes: modern_literature, all_texts, human_stories
   Source: OpenAlex | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (9)
+  Automated evidence: strong_scholarly_candidate (13)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: http://www.collectionscanada.ca/obj/s4/f2/dsk1/tape10/PQDD_0015/NQ46672.pdf
-- Drama (1984)
+  URL: https://openresearchlibrary.org/viewer/f7d1788d-7aa8-4376-b646-de973b78a9b5
+- The Australian experience: Critical essays on Australian novels (1974)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: http://digitale-objekte.hbz-nrw.de/storage2/2015/10/10/file_4/6457612.pdf
+- Religious and Spiritual Groups in Modern America (2016)
   Tags: modern_literature_meaning
   Layer routes: modern_literature, all_texts, human_stories
   Source: Crossref | scholarly metadata
   Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1007/978-1-349-07017-6_3
-- Ecocriticism and Italy (2015)
+  URL: https://doi.org/10.4324/9781315507255
+- From Religion to Culture (n.d.)
   Tags: cultural_practice_patterns
   Layer routes: cultural_inputs, history_inputs, psychology_inputs
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (13)
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.5040/9781474219488
-- Power (2019)
+  URL: https://doi.org/10.1057/9781137338631.0019
+- CONTRIBUTORS (2023)
+  Tags: cultural_practice_patterns
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2307/jj.2711593.23
+- Ethics, Power, and Academic Corruption (n.d.)
   Tags: general_research_methods
   Layer routes: research_documents, deep_sources
   Source: Crossref | scholarly metadata
   Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.2307/j.ctvswx7rz.10
-- The Ethics of Corporate Moral Reasoning, Moral Judgment, and Moral Justification (2019)
+  URL: https://doi.org/10.2139/ssrn.1872073
+- An exploration of the lived experience of leaving Jehovah's Witnesses (2020)
   Tags: general_research_methods
-  Layer routes: research_documents, deep_sources
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1108/978-1-78756-191-520191008
-- Deep silences : a spiritual autoethnography : reclaiming inner space and silence as a locus of the sacred (2018)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, all_texts
+  Layer routes: research_documents, deep_sources, human_stories
   Source: OpenAlex | scholarly metadata
   Automated evidence: strong_scholarly_candidate (11)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: http://theses.gla.ac.uk/39013/1/2018stirlingDPT.pdf
-- Confucianism (2009)
+  URL: https://openaccess.city.ac.uk/id/eprint/25743/1/DPsych%20Portfolio%20-%20Andrew%20Aboud%20%28Final%20Redacted%203%29.pdf
+- Book Review: Atheism and Liberation (1980)
   Tags: general_research_methods
   Layer routes: research_documents, deep_sources
   Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (8)
+  Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4135/9781412963961.n106
-- Transportation (2009)
+  URL: https://doi.org/10.1177/0040571x8008300528
+- Those Who Cannot Speak. Animals as Others in Ancient Greek Thought (2014)
+  Tags: general_research_methods
+  Layer routes: research_documents, deep_sources, biblical_languages
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: http://ruj.uj.edu.pl/xmlui/handle/item/38891
+- Book Review: Jesus, the Evidence (1985)
   Tags: general_research_methods
   Layer routes: research_documents, deep_sources
   Source: Crossref | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (8)
+  Automated evidence: strong_scholarly_candidate (11)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4135/9781412963961.n591
+  URL: https://doi.org/10.1177/0040571x8508800114
+- The anaphorae of the liturgy of Sts. Addai and Mari and the Byzantine liturgy of St. Basil the great: a comparative study (1999)
+  Tags: general_research_methods
+  Layer routes: research_documents, deep_sources
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://etheses.durham.ac.uk/id/eprint/4604/1/4604_2068.PDF
+- The early Pentecostals’ experience of divine guidance in mission in the light of Luke-Acts (2015)
+  Tags: holy_spirit_gifts_global
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://eprints.mdx.ac.uk/18747/1/TSamuelThesis.pdf
+- Seers who unmask illusion (2023)
+  Tags: holy_spirit_gifts_global
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: http://dx.doi.org/10.17570/stj.2023.v9n1.at2
+- [PDF] Rudy C Tarumingkeng: Human After All? - AI, Christian Ethics, and (n.d.)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs, visual_art, pattern_tests
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://rudyct.com/ab/Human.After.All-AI.Christian.Ethics.and.Human.Dignity.pdf
+- Toward the Recovery of the Ontology of Unity and the Trinity (2020)
+  Tags: theologians_cross_era
+  Layer routes: theologians, research_documents/christian_sources
+  Source: Crossref | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (9)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.2307/j.ctv1hztrfz.32
+- - Credo Magazine (n.d.)
+  Tags: theologians_cross_era
+  Layer routes: theologians, research_documents/christian_sources, visual_art, world_languages
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://credomag.com/simplytrinity
+- Top Ten Theologians: #9 – Karl Barth – Credo House Ministries (n.d.)
+  Tags: theologians_cross_era
+  Layer routes: theologians, research_documents/christian_sources, visual_art
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://credohouse.org/blog/top-ten-theologians-9-karl-barth
 
 Recent Candidate Sources
 ------------------------

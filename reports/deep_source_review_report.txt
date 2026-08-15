@@ -18,18 +18,18 @@ Required source types:
 - Scripture/Theology: present (40)
 - Pastoral/Clinical: present (17)
 - Lived Case: present (11)
-- Counterargument: present (187)
+- Counterargument: present (188)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 491
+Area signal: 493
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
 - Physicist/Primary Science: present (50)
-- Peer-Reviewed/Academic: present (426)
+- Peer-Reviewed/Academic: present (428)
 - Philosophy Of Science: present (115)
-- Counterargument: present (187)
+- Counterargument: present (188)
 
 Mathematics Statistics And Logic
 --------------------------------
@@ -39,25 +39,25 @@ Guardrail: Do not treat repeated patterns, analogies, or mathematical beauty as 
 Required source types:
 - Mathematics/Logic: present (58)
 - Statistics/Inference: present (30)
-- Peer-Reviewed/Academic: present (426)
-- Counterargument: present (187)
+- Peer-Reviewed/Academic: present (428)
+- Counterargument: present (188)
 
 Mathematical Theophany And Beauty
 ---------------------------------
 Status: source-supported
-Area signal: 241
+Area signal: 242
 Guardrail: Treat mathematical order and beauty as possible signs, not proof. Strengthen the analysis by naming naturalistic, Platonist, constructivist, cognitive, cultural, and aesthetic alternatives.
 Required source types:
 - Scripture/Theology: present (40)
 - Mathematics/Logic: present (58)
 - Aesthetics/Beauty: present (24)
 - Alternative Interpretation: present (12)
-- Counterargument: present (187)
+- Counterargument: present (188)
 
 All Source-Type Signals
 -----------------------
-- Peer-Reviewed/Academic: 426
-- Counterargument: 187
+- Peer-Reviewed/Academic: 428
+- Counterargument: 188
 - Philosophy Of Science: 115
 - Mathematics/Logic: 58
 - Physicist/Primary Science: 50
@@ -80,15 +80,15 @@ Math / Statistics / Logic Congruence Filters
   Rule: Mathematical proof applies inside formal systems; it cannot be transferred directly into theology without philosophical argument.
 - Theophany Interpretation Filter: active (46)
   Rule: Mathematical order, symmetry, logic, infinity, and beauty may be explored as secondary creaturely signs only under Christ and Scripture, and only after contrasting non-theistic, Platonist, constructivist, cognitive, and cultural explanations are named.
-- Physics Scale Filter: active (343)
+- Physics Scale Filter: active (345)
   Rule: Do not move from quantum, cosmic, or thermodynamic claims to daily spiritual claims without a justified bridge.
 - Causality Filter: active (23)
   Rule: Distinguish causation, correlation, compatibility, analogy, and theological interpretation.
 
 Quality And Risk Markers
 ------------------------
-- Scholarly Or Scientific Source: 385
-- Primary Or Classical Source: 158
+- Scholarly Or Scientific Source: 387
+- Primary Or Classical Source: 159
 - Practical Lived Source: 15
 - Speculative Source: 11
 - Reviewed Cloud Reference: 3
@@ -724,6 +724,18 @@ Source types:
 - Peer-Reviewed/Academic: 2
 - Counterargument: 1
 - Philosophy Of Science: 1
+Active congruence filters:
+- Physics Scale Filter
+
+identical_particles_in_quantum_mechanics_against_the_received_view_488f0125e4d1.md
+----------------------------------------------------------------------------------
+Words: 145
+Area scores:
+- Quantum And Science Claims: under-sourced (2)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Peer-Reviewed/Academic: 2
+- Counterargument: 1
 Active congruence filters:
 - Physics Scale Filter
 
