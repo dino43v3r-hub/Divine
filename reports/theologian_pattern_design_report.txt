@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 351
-Total theologian words analyzed: 64,809
+Theologian documents analyzed: 353
+Total theologian words analyzed: 65,133
 
 Era Coverage
 ------------
@@ -21,8 +21,8 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 325
-- Pneumatology: 263
+- Trinity: 326
+- Pneumatology: 265
 - Christology: 249
 - Theodicy And Suffering: 220
 - Creation: 177
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 2,058
+- Father: 2,069
 - Son: 320
-- Holy Spirit: 500
+- Holy Spirit: 505
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 174 | broader corpus 2,672
-- Mathematical Structure: theologians 4 | broader corpus 647
-- Mathematical Theophany: theologians 296 | broader corpus 1,294
-- Quantum Probability: theologians 2 | broader corpus 183
-- Life And Consciousness: theologians 934 | broader corpus 6,448
-- Meaning And Logos: theologians 136 | broader corpus 6,154
-- Moral Response: theologians 120 | broader corpus 2,498
-- Worship And Community: theologians 221 | broader corpus 1,627
-- Transformation: theologians 520 | broader corpus 2,222
+- Physical Order: theologians 174 | broader corpus 2,668
+- Mathematical Structure: theologians 4 | broader corpus 648
+- Mathematical Theophany: theologians 298 | broader corpus 1,264
+- Quantum Probability: theologians 2 | broader corpus 172
+- Life And Consciousness: theologians 941 | broader corpus 6,403
+- Meaning And Logos: theologians 136 | broader corpus 6,099
+- Moral Response: theologians 120 | broader corpus 2,490
+- Worship And Community: theologians 221 | broader corpus 1,621
+- Transformation: theologians 524 | broader corpus 2,227
 
 Per-Source Findings
 -------------------
@@ -1217,6 +1217,17 @@ Meaning arc:
 - Opening: Creation And Order (0)
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
+
+examination_of_1_tim_3_16_5230d5990194.md
+-----------------------------------------
+Words: 183
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 examination_of_rom_1_3_4_a16aad8595b3.md
 ----------------------------------------
@@ -2950,6 +2961,17 @@ the_holy_spirit_in_moral_character_formation_739f95ae82dd.md
 Words: 204
 Strongest era signal: Patristic (0)
 Strongest concept signal: Pneumatology (6)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (4)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+
+the_holy_spirit_in_the_christian_life_the_spirit_s_work_for_in_and_through_us_5af127e1bd85.md
+---------------------------------------------------------------------------------------------
+Words: 141
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (2)
 Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Transformation And Hope (4)
