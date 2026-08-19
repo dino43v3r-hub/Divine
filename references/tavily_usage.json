@@ -2843,6 +2843,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-08-19": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "aesthetics theology beauty imagination",
+          "searched_at": "2026-08-19T14:22:51.336401+00:00",
+          "tag": "art_beauty"
+        },
+        {
+          "credits_used": 1,
+          "query": "visual theology iconography symbol lament hope",
+          "searched_at": "2026-08-19T14:22:59.278370+00:00",
+          "tag": "art_beauty"
+        },
+        {
+          "credits_used": 1,
+          "query": "religious art images iconography visual theology image archive",
+          "searched_at": "2026-08-19T14:23:22.267794+00:00",
+          "tag": "visual_media_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "museum collection sacred art icon lament beauty theology",
+          "searched_at": "2026-08-19T14:23:30.808644+00:00",
+          "tag": "visual_media_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "photography documentary faith suffering justice visual testimony",
+          "searched_at": "2026-08-19T14:23:41.234326+00:00",
+          "tag": "visual_media_patterns"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

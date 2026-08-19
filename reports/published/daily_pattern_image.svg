@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
-  <title id="title">Daily Divine Pattern Image: Trinity as Behavior</title>
+  <title id="title">Daily Divine Pattern Image: Providence and Contingency</title>
   <desc id="desc">A daily visual summary connected to the current Divine Pattern findings.</desc>
   <style>
-    .eyebrow { font: 700 15px Arial, sans-serif; letter-spacing: 0; fill: #28334d; opacity: 0.72; }
-    .title { font: 700 45px Georgia, serif; letter-spacing: 0; fill: #28334d; }
-    .subtitle { font: 700 22px Arial, sans-serif; letter-spacing: 0; fill: #b56b45; }
-    .body { font: 18px Arial, sans-serif; letter-spacing: 0; fill: #28334d; }
-    .small { font: 14px Arial, sans-serif; letter-spacing: 0; fill: #28334d; opacity: 0.78; }
+    .eyebrow { font: 700 15px Arial, sans-serif; letter-spacing: 0; fill: #253949; opacity: 0.72; }
+    .title { font: 700 45px Georgia, serif; letter-spacing: 0; fill: #253949; }
+    .subtitle { font: 700 22px Arial, sans-serif; letter-spacing: 0; fill: #4d7890; }
+    .body { font: 18px Arial, sans-serif; letter-spacing: 0; fill: #253949; }
+    .small { font: 14px Arial, sans-serif; letter-spacing: 0; fill: #253949; opacity: 0.78; }
     .node { font: 700 16px Arial, sans-serif; letter-spacing: 0; fill: #ffffff; }
   </style>
-  <rect width="1000" height="520" fill="#f4f1f8"/>
+  <rect width="1000" height="520" fill="#eef4f7"/>
   <rect x="38" y="34" width="924" height="452" rx="22" fill="#ffffff" opacity="0.50"/>
-  <path d="M805 42 L940 120 L872 228 L738 150 Z" fill="#d7b957" opacity="0.33"/>
-  <path d="M72 420 C190 388 288 452 406 418 C530 382 620 452 746 416 C828 392 884 400 928 424" fill="none" stroke="#4f7d73" stroke-width="9" opacity="0.18"/>
-  <text x="72" y="82" class="eyebrow">Daily pattern image | August 18, 2026</text>
-  <text x="72" y="132" class="title">Trinity as Behavior</text>
-  <text x="72" y="246" class="subtitle">Gift, redemption, transformation</text>
-  <text x="96" y="158" class="body">God&#x27;s triune work appears as creation received, redemption followed, and Spirit-led</text><text x="96" y="186" class="body">transformation tested by truth, love, humility, justice, worship, patience, and</text><text x="96" y="214" class="body">faithfulness.</text>
-  <line x1="200" y1="352" x2="268" y2="286" stroke="#28334d" stroke-width="4" opacity="0.28"/><line x1="376" y1="286" x2="444" y2="352" stroke="#28334d" stroke-width="4" opacity="0.28"/><line x1="552" y1="352" x2="620" y2="286" stroke="#28334d" stroke-width="4" opacity="0.28"/><line x1="728" y1="286" x2="796" y2="352" stroke="#28334d" stroke-width="4" opacity="0.28"/>
-  <circle cx="146" cy="352" r="50" fill="#b56b45" opacity="0.94"/><circle cx="146" cy="352" r="62" fill="none" stroke="#28334d" stroke-width="2" opacity="0.25"/><text x="146" y="358" text-anchor="middle" class="node">Son</text><circle cx="322" cy="286" r="50" fill="#4f7d73" opacity="0.94"/><circle cx="322" cy="286" r="62" fill="none" stroke="#28334d" stroke-width="2" opacity="0.25"/><text x="322" y="292" text-anchor="middle" class="node">Spirit</text><circle cx="498" cy="352" r="50" fill="#d7b957" opacity="0.94"/><circle cx="498" cy="352" r="62" fill="none" stroke="#28334d" stroke-width="2" opacity="0.25"/><text x="498" y="358" text-anchor="middle" class="node">Fruit</text><circle cx="674" cy="286" r="50" fill="#b56b45" opacity="0.94"/><circle cx="674" cy="286" r="62" fill="none" stroke="#28334d" stroke-width="2" opacity="0.25"/><text x="674" y="292" text-anchor="middle" class="node">Service</text><circle cx="850" cy="352" r="50" fill="#4f7d73" opacity="0.94"/><circle cx="850" cy="352" r="62" fill="none" stroke="#28334d" stroke-width="2" opacity="0.25"/><text x="850" y="358" text-anchor="middle" class="node">Father</text>
-  <rect x="72" y="430" width="856" height="44" rx="18" fill="#28334d" opacity="0.08"/>
-  <text x="96" y="450" class="small">Today I am reading through the lens of theologian pressure: Which trusted voices would slow this down and make it</text><text x="96" y="468" class="small">more truthful?</text>
+  <rect x="748" y="46" width="178" height="178" rx="14" fill="#8a5a83" opacity="0.31"/>
+  <path d="M72 420 C190 388 288 452 406 418 C530 382 620 452 746 416 C828 392 884 400 928 424" fill="none" stroke="#c88a4a" stroke-width="9" opacity="0.18"/>
+  <text x="72" y="82" class="eyebrow">Daily pattern image | August 19, 2026</text>
+  <text x="72" y="132" class="title">Providence and Contingency</text>
+  <text x="72" y="246" class="subtitle">Faithfulness inside uncertainty</text>
+  <text x="96" y="158" class="body">God&#x27;s providence is discerned as faithful trust inside lawful but contingent history; the</text><text x="96" y="186" class="body">faithful response is truthful humility, just action, patient endurance, worship, and</text><text x="96" y="214" class="body">faithfulness without pretending to know every cause.</text>
+  <line x1="200" y1="352" x2="268" y2="286" stroke="#253949" stroke-width="4" opacity="0.28"/><line x1="376" y1="286" x2="444" y2="352" stroke="#253949" stroke-width="4" opacity="0.28"/><line x1="552" y1="352" x2="620" y2="286" stroke="#253949" stroke-width="4" opacity="0.28"/><line x1="728" y1="286" x2="796" y2="352" stroke="#253949" stroke-width="4" opacity="0.28"/>
+  <circle cx="146" cy="352" r="50" fill="#4d7890" opacity="0.94"/><circle cx="146" cy="352" r="62" fill="none" stroke="#253949" stroke-width="2" opacity="0.25"/><text x="146" y="358" text-anchor="middle" class="node">Complexity</text><circle cx="322" cy="286" r="50" fill="#c88a4a" opacity="0.94"/><circle cx="322" cy="286" r="62" fill="none" stroke="#253949" stroke-width="2" opacity="0.25"/><text x="322" y="292" text-anchor="middle" class="node">History</text><circle cx="498" cy="352" r="50" fill="#8a5a83" opacity="0.94"/><circle cx="498" cy="352" r="62" fill="none" stroke="#253949" stroke-width="2" opacity="0.25"/><text x="498" y="358" text-anchor="middle" class="node">Trust</text><circle cx="674" cy="286" r="50" fill="#4d7890" opacity="0.94"/><circle cx="674" cy="286" r="62" fill="none" stroke="#253949" stroke-width="2" opacity="0.25"/><text x="674" y="292" text-anchor="middle" class="node">Law</text><circle cx="850" cy="352" r="50" fill="#c88a4a" opacity="0.94"/><circle cx="850" cy="352" r="62" fill="none" stroke="#253949" stroke-width="2" opacity="0.25"/><text x="850" y="358" text-anchor="middle" class="node">Chance</text>
+  <rect x="72" y="430" width="856" height="44" rx="18" fill="#253949" opacity="0.08"/>
+  <text x="96" y="450" class="small">Today I am reading through the lens of hard objection: What would make this pattern fail?</text>
 </svg>

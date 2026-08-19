@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 19511,
+  "edge_count": 19583,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -5110,6 +5110,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_exploring_co_teaching_in_higher_education_core_elements_for_a_practica",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_eye_tracking_evidence_for_the_snarc_effect_unveiling_attentional_stage",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_eye_tracking_evidence_for_the_snarc_effect_unveiling_attentional_stage",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_eye_tracking_evidence_for_the_snarc_effect_unveiling_attentional_stage",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_eye_tracking_evidence_for_the_snarc_effect_unveiling_attentional_stage",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_eye_tracking_evidence_for_the_snarc_effect_unveiling_attentional_stage",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -12581,6 +12606,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:promotion_restraint"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -17759,6 +17789,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_earliest_view_of_new_testament_tongues_understood_as_non_supernatu",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_earliest_view_of_new_testament_tongues_understood_as_non_supernatu",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_earliest_view_of_new_testament_tongues_understood_as_non_supernatu",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_earliest_view_of_new_testament_tongues_understood_as_non_supernatu",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_earliest_view_of_new_testament_tongues_understood_as_non_supernatu",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_earliest_view_of_new_testament_tongues_understood_as_non_supernatu",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_ecumenical_promise_of_luther_s_charismatic_theology_3b6ba5f5e602_m",
       "target": "lane:biblical_languages"
     },
@@ -35509,6 +35569,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_back_matter_ccfecd140062_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_back_matter_ccfecd140062_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_back_matter_ccfecd140062_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_back_matter_ccfecd140062_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_back_matter_ccfecd140062_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_baptism_with_the_holy_spirit_f41b2eaf6d08_md",
       "target": "lane:theologians"
     },
@@ -38549,6 +38634,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_grounded_rooted_in_faith_part_2_knowing_the_author_trusting_the_book_13f0723a",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_grounded_rooted_in_faith_part_2_knowing_the_author_trusting_the_book_13f0723a",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_grounded_rooted_in_faith_part_2_knowing_the_author_trusting_the_book_13f0723a",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_grounded_rooted_in_faith_part_2_knowing_the_author_trusting_the_book_13f0723a",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_grounded_rooted_in_faith_part_2_knowing_the_author_trusting_the_book_13f0723a",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_group_identification_and_resource_conflicts_in_gedaref_state_eastern_sudan_wh",
       "target": "lane:theologians"
     },
@@ -40469,6 +40579,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_preface_6a18e597ebbc_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_preface_6a18e597ebbc_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_preface_6a18e597ebbc_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_preface_6a18e597ebbc_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_preface_6a18e597ebbc_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_preface_b419f5bf637a_md",
       "target": "lane:theologians"
     },
@@ -41695,6 +41830,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_teilhard_s_spirituality_0b167f9ab74f_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_adventist_trinity_debate_part_1_historical_overview_4d539d4f67b1_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_adventist_trinity_debate_part_1_historical_overview_4d539d4f67b1_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_adventist_trinity_debate_part_1_historical_overview_4d539d4f67b1_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_adventist_trinity_debate_part_1_historical_overview_4d539d4f67b1_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_adventist_trinity_debate_part_1_historical_overview_4d539d4f67b1_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -51599,6 +51759,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_bearing_witness_to_indifference_a_photojournalist_s_8250a7f0e583_md",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_bearing_witness_to_indifference_a_photojournalist_s_8250a7f0e583_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_bearing_witness_to_indifference_a_photojournalist_s_8250a7f0e583_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_bearing_witness_to_indifference_a_photojournalist_s_8250a7f0e583_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_bearing_witness_to_indifference_a_photojournalist_s_8250a7f0e583_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_bearing_witness_to_indifference_a_photojournalist_s_8250a7f0e583_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_bearing_witness_to_indifference_a_photojournalist_s_8250a7f0e583_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_beauty_aesthetics_in_the_eye_of_god_3646927d864a_md",
       "target": "lane:visual_art"
     },
@@ -51800,6 +51995,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_doctrine_art_and_the_expression_of_the_divine_00291237fc37_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_theological_aesthetics_aesthetic_theology_04b4a712b291_md",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_theological_aesthetics_aesthetic_theology_04b4a712b291_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_theological_aesthetics_aesthetic_theology_04b4a712b291_md",
+      "target": "rule:interpretation"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_theological_aesthetics_aesthetic_theology_04b4a712b291_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_theological_aesthetics_aesthetic_theology_04b4a712b291_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_theological_aesthetics_aesthetic_theology_04b4a712b291_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -58824,6 +59049,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_4_human_dignity_and_the_highest_good_nonideal_dignitarian_moral_theory_87",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_4_human_dignity_and_the_highest_good_nonideal_dignitarian_moral_theory_87",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_4_human_dignity_and_the_highest_good_nonideal_dignitarian_moral_theory_87",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_4_human_dignity_and_the_highest_good_nonideal_dignitarian_moral_theory_87",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_4_human_dignity_and_the_highest_good_nonideal_dignitarian_moral_theory_87",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_4_the_struggle_for_social_justice_between_public_religion_and_public_reas",
       "target": "lane:cultural_inputs"
     },
@@ -59950,6 +60200,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_autistic_community_and_the_neurodiversity_movement_696454bb63c3_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_balancing_public_health_priorities_and_individual_rights_in_community_tub",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_balancing_public_health_priorities_and_individual_rights_in_community_tub",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_balancing_public_health_priorities_and_individual_rights_in_community_tub",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_balancing_public_health_priorities_and_individual_rights_in_community_tub",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_balancing_public_health_priorities_and_individual_rights_in_community_tub",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -77365,6 +77640,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_repentance_and_forgiveness_character_matters_dr_george_simon_c23734e47c",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_repentance_and_the_right_to_forgiveness_b28f25488321_md",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_repentance_and_the_right_to_forgiveness_b28f25488321_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_repentance_and_the_right_to_forgiveness_b28f25488321_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_repentance_and_the_right_to_forgiveness_b28f25488321_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_repentance_and_the_right_to_forgiveness_b28f25488321_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -81084,6 +81384,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_just_enough_to_be_satisfied_5c59a7e3bf39_md",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_just_enough_to_be_satisfied_5c59a7e3bf39_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_just_enough_to_be_satisfied_5c59a7e3bf39_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_just_enough_to_be_satisfied_5c59a7e3bf39_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_just_enough_to_be_satisfied_5c59a7e3bf39_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_just_enough_to_be_satisfied_5c59a7e3bf39_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:human_stories_auto_imported_cloud_candidates_kashmir_india_tomorrow_part_3_podcast_transcript_d81dc6de977b_md",
       "target": "lane:human_stories"
     },
@@ -96360,6 +96690,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_c3b049a7b983_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_lund_v_rowan_county_and_the_permissiveness_of_sectarian_",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_lund_v_rowan_county_and_the_permissiveness_of_sectarian_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_lund_v_rowan_county_and_the_permissiveness_of_sectarian_",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_lund_v_rowan_county_and_the_permissiveness_of_sectarian_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_lund_v_rowan_county_and_the_permissiveness_of_sectarian_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_lund_v_rowan_county_and_the_permissiveness_of_sectarian_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -97559,7 +97919,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 2986,
+  "node_count": 2999,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -99400,6 +99760,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/exploring_co_teaching_in_higher_education_core_elements_for_a_practical_approach_35c557b45c4a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_eye_tracking_evidence_for_the_snarc_effect_unveiling_attentional_stage",
+      "label": "Eye-Tracking Evidence for the SNARC Effect: Unveiling Attentional Stages",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/eye_tracking_evidence_for_the_snarc_effect_unveiling_attentional_stages_fec30882855b.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -103547,6 +103918,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "biblical_languages/auto_imported_cloud_candidates/the_divine_human_encounter_towards_a_pentecostal_theology_of_experience_d4f0644dd9e4.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_the_earliest_view_of_new_testament_tongues_understood_as_non_supernatu",
+      "label": "The Earliest View of New Testament Tongues: Understood as Non-Supernatural, Learned Earthly Languages, by Maurice E. Vellacott",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/the_earliest_view_of_new_testament_tongues_understood_as_non_supernatural_learne_aa9b3be822ab.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -109426,6 +109808,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_back_matter_ccfecd140062_md",
+      "label": "Back Matter",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/back_matter_ccfecd140062.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_baptism_with_the_holy_spirit_f41b2eaf6d08_md",
       "label": "Baptism with the Holy Spirit",
       "lane": "theologians",
@@ -110515,6 +110908,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_grounded_rooted_in_faith_part_2_knowing_the_author_trusting_the_book_13f0723a",
+      "label": "Grounded - Rooted in Faith | Part 2 | Knowing the Author, Trusting the Book",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/grounded_rooted_in_faith_part_2_knowing_the_author_trusting_the_book_13f0723a2b75.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_group_identification_and_resource_conflicts_in_gedaref_state_eastern_sudan_wh",
       "label": "Group identification and resource conflicts in Gedaref State, Eastern Sudan: Who allies with whom? Why? And how?",
       "lane": "theologians",
@@ -111208,6 +111612,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_preface_6a18e597ebbc_md",
+      "label": "Preface",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/preface_6a18e597ebbc.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_preface_b419f5bf637a_md",
       "label": "PREFACE",
       "lane": "theologians",
@@ -111654,6 +112069,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/teilhard_s_spirituality_0b167f9ab74f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_the_adventist_trinity_debate_part_1_historical_overview_4d539d4f67b1_md",
+      "label": "The Adventist Trinity Debate - Part 1: Historical Overview",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/the_adventist_trinity_debate_part_1_historical_overview_4d539d4f67b1.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -115036,6 +115462,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_bearing_witness_to_indifference_a_photojournalist_s_8250a7f0e583_md",
+      "label": "Bearing witness to indifference: A photojournalist's ...",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/bearing_witness_to_indifference_a_photojournalist_s_8250a7f0e583.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_beauty_aesthetics_in_the_eye_of_god_3646927d864a_md",
       "label": "Beauty: Aesthetics in the Eye of God",
       "lane": "visual_art",
@@ -115108,6 +115545,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/beyond_doctrine_art_and_the_expression_of_the_divine_00291237fc37.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_beyond_theological_aesthetics_aesthetic_theology_04b4a712b291_md",
+      "label": "Beyond Theological Aesthetics: Aesthetic Theology",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/beyond_theological_aesthetics_aesthetic_theology_04b4a712b291.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -117401,6 +117849,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_4_human_dignity_and_the_highest_good_nonideal_dignitarian_moral_theory_87",
+      "label": "4 Human Dignity and The Highest Good: Nonideal Dignitarian Moral Theory",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/4_human_dignity_and_the_highest_good_nonideal_dignitarian_moral_theory_87592c88ecbc.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_4_the_struggle_for_social_justice_between_public_religion_and_public_reas",
       "label": "4. The Struggle for Social Justice: Between Public Religion and Public Reason",
       "lane": "cultural_inputs",
@@ -117748,6 +118207,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/autistic_community_and_the_neurodiversity_movement_696454bb63c3.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_balancing_public_health_priorities_and_individual_rights_in_community_tub",
+      "label": "Balancing Public Health Priorities and individual rights in community tuberculosis control.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/balancing_public_health_priorities_and_individual_rights_in_community_tuberculos_4ae76d39ea21.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -123660,6 +124130,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_repentance_and_the_right_to_forgiveness_b28f25488321_md",
+      "label": "Repentance and the Right to Forgiveness",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/repentance_and_the_right_to_forgiveness_b28f25488321.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_replicability_robustness_and_reproducibility_in_psychological_science_c",
       "label": "Replicability, Robustness, and Reproducibility in Psychological Science",
       "lane": "psychology_inputs",
@@ -124920,6 +125401,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "human_stories/auto_imported_cloud_candidates/interview_with_dr_charles_kahn_podcast_4_3_2020_d1e3e639dfa7.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_just_enough_to_be_satisfied_5c59a7e3bf39_md",
+      "label": "Just Enough to Be Satisfied",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/just_enough_to_be_satisfied_5c59a7e3bf39.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -129804,6 +130296,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/unanswered_prayers_c3b049a7b983.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_unanswered_prayers_lund_v_rowan_county_and_the_permissiveness_of_sectarian_",
+      "label": "Unanswered Prayers: Lund v. Rowan County and the Permissiveness of Sectarian Prayer in Municipalities",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/unanswered_prayers_lund_v_rowan_county_and_the_permissiveness_of_sectarian_praye_cdd114d95838.md",
       "review_note_count": 1,
       "type": "document"
     },

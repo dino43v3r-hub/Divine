@@ -13,14 +13,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 137
-Test words analyzed: 20,714
+Test documents analyzed: 138
+Test words analyzed: 20,925
 
 Pressure Types
 --------------
-- Science Guardrail: 269
-- Suffering Without Resolution: 265
-- Counterexample Pressure: 131
+- Science Guardrail: 271
+- Suffering Without Resolution: 267
+- Counterexample Pressure: 132
 - Injustice And Corruption: 69
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 37
@@ -30,20 +30,20 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 292
-- Primary Or Classical Source: 113
+- Scholarly Or Scientific Source: 294
+- Primary Or Classical Source: 114
 - Practical Lived Source: 96
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- resilient under pressure: 69
+- resilient under pressure: 70
 - needs deeper review but still plausible: 68
 
 Hold Assessment
 ---------------
 - not enough friction to judge hold: 66
-- pressure present but hold question is underdeveloped: 60
+- pressure present but hold question is underdeveloped: 61
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
 - holds under added friction: 1
@@ -52,28 +52,28 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 658 | research corpus 5,889
-- Son: test set 32 | research corpus 6,817
-- Holy Spirit: test set 48 | research corpus 1,856
+- Father: test set 663 | research corpus 5,886
+- Son: test set 32 | research corpus 6,814
+- Holy Spirit: test set 48 | research corpus 1,855
 
 Layer Pressure Comparison
 -------------------------
 - Physical Order: test set 55 | research corpus 2,668
-- Mathematical Structure: test set 18 | research corpus 648
-- Mathematical Theophany: test set 366 | research corpus 1,264
+- Mathematical Structure: test set 18 | research corpus 643
+- Mathematical Theophany: test set 368 | research corpus 1,259
 - Quantum Probability: test set 25 | research corpus 172
-- Life And Consciousness: test set 384 | research corpus 6,403
-- Meaning And Logos: test set 43 | research corpus 6,099
-- Moral Response: test set 53 | research corpus 2,490
-- Worship And Community: test set 91 | research corpus 1,621
-- Transformation: test set 64 | research corpus 2,227
+- Life And Consciousness: test set 387 | research corpus 6,389
+- Meaning And Logos: test set 43 | research corpus 6,091
+- Moral Response: test set 53 | research corpus 2,480
+- Worship And Community: test set 93 | research corpus 1,619
+- Transformation: test set 64 | research corpus 2,226
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 391
-- Desire And Longing: 142
+- Creation And Order: 393
+- Desire And Longing: 143
 - Alienation And Lament: 88
-- Communal Practice: 76
+- Communal Practice: 78
 - Transformation And Hope: 68
 - Moral Confrontation: 47
 
@@ -1446,6 +1446,26 @@ Pressure signals:
 Meaning arc:
 - Opening: Creation And Order (2)
 - Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+unanswered_prayers_lund_v_rowan_county_and_the_permissiveness_of_sectarian_praye_cdd114d95838.md
+------------------------------------------------------------------------------------------------
+Words: 211
+Meaning confidence: plausible meaning pattern
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 2
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 Recommendations:
 - Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.

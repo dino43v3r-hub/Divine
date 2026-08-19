@@ -9,18 +9,18 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 378
-Total cultural words analyzed: 55,436
+Cultural documents analyzed: 380
+Total cultural words analyzed: 55,711
 
 Cultural Domains
 ----------------
-- Science And Discovery: 784
-- Politics And Justice: 444
+- Science And Discovery: 789
+- Politics And Justice: 446
 - History And Memory: 276
-- Technology And AI: 226
+- Technology And AI: 228
 - Psychology And Human Behavior: 157
-- Health And Suffering: 72
-- Family And Community: 69
+- Health And Suffering: 73
+- Family And Community: 70
 - Global Text Traditions: 65
 - Art And Beauty: 59
 - Economics And Work: 47
@@ -33,30 +33,30 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 1,876
+- Father: 1,886
 - Son: 22
 - Holy Spirit: 2
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 410
+- Desire And Longing: 412
 - Moral Confrontation: 227
 - Creation And Order: 58
-- Communal Practice: 55
+- Communal Practice: 56
 - Transformation And Hope: 54
 - Alienation And Lament: 12
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 837 | religious/science corpus 2,668
-- Mathematical Structure: cultural inputs 1,013 | religious/science corpus 648
-- Mathematical Theophany: cultural inputs 16 | religious/science corpus 1,264
+- Physical Order: cultural inputs 842 | religious/science corpus 2,668
+- Mathematical Structure: cultural inputs 1,020 | religious/science corpus 643
+- Mathematical Theophany: cultural inputs 16 | religious/science corpus 1,259
 - Quantum Probability: cultural inputs 4 | religious/science corpus 172
-- Life And Consciousness: cultural inputs 1,111 | religious/science corpus 6,403
-- Meaning And Logos: cultural inputs 1,308 | religious/science corpus 6,099
-- Moral Response: cultural inputs 1,490 | religious/science corpus 2,490
-- Worship And Community: cultural inputs 785 | religious/science corpus 1,621
-- Transformation: cultural inputs 697 | religious/science corpus 2,227
+- Life And Consciousness: cultural inputs 1,117 | religious/science corpus 6,389
+- Meaning And Logos: cultural inputs 1,313 | religious/science corpus 6,091
+- Moral Response: cultural inputs 1,495 | religious/science corpus 2,480
+- Worship And Community: cultural inputs 789 | religious/science corpus 1,619
+- Transformation: cultural inputs 699 | religious/science corpus 2,226
 
 Per-Domain Findings
 -------------------
@@ -3287,6 +3287,31 @@ Practical domain applications:
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 
+balancing_public_health_priorities_and_individual_rights_in_community_tuberculos_4ae76d39ea21.md
+------------------------------------------------------------------------------------------------
+Words: 140
+Strongest cultural domain: Politics And Justice (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Worship And Community: 4
+- Mathematical Structure: 3
+- Life And Consciousness: 3
+- Moral Response: 3
+- Physical Order: 2
+- Meaning And Logos: 2
+- Transformation: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+
 bridging_neurodiversity_and_open_scholarship_how_shared_values_can_guide_best_pr_1bd12a5a2766.md
 ------------------------------------------------------------------------------------------------
 Words: 154
@@ -5821,6 +5846,27 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
+4_human_dignity_and_the_highest_good_nonideal_dignitarian_moral_theory_87592c88ecbc.md
+--------------------------------------------------------------------------------------
+Words: 135
+Strongest cultural domain: Science And Discovery (3)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Mathematical Structure: 4
+- Physical Order: 3
+- Life And Consciousness: 3
+- Meaning And Logos: 3
+- Moral Response: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
 
 anthropology_of_cultural_transformation_i_4e90b296dc45.md
 ---------------------------------------------------------
