@@ -13,14 +13,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 143
-Test words analyzed: 21,660
+Test documents analyzed: 144
+Test words analyzed: 21,802
 
 Pressure Types
 --------------
-- Science Guardrail: 281
-- Suffering Without Resolution: 274
-- Counterexample Pressure: 137
+- Science Guardrail: 283
+- Suffering Without Resolution: 276
+- Counterexample Pressure: 138
 - Injustice And Corruption: 69
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 37
@@ -30,20 +30,20 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 306
-- Primary Or Classical Source: 119
+- Scholarly Or Scientific Source: 308
+- Primary Or Classical Source: 120
 - Practical Lived Source: 98
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- resilient under pressure: 72
+- resilient under pressure: 73
 - needs deeper review but still plausible: 71
 
 Hold Assessment
 ---------------
 - not enough friction to judge hold: 69
-- pressure present but hold question is underdeveloped: 63
+- pressure present but hold question is underdeveloped: 64
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
 - holds under added friction: 1
@@ -52,26 +52,26 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 688 | research corpus 6,046
-- Son: test set 32 | research corpus 6,819
-- Holy Spirit: test set 48 | research corpus 1,853
+- Father: test set 693 | research corpus 6,017
+- Son: test set 32 | research corpus 6,823
+- Holy Spirit: test set 48 | research corpus 1,871
 
 Layer Pressure Comparison
 -------------------------
 - Physical Order: test set 55 | research corpus 2,672
-- Mathematical Structure: test set 18 | research corpus 642
-- Mathematical Theophany: test set 378 | research corpus 1,333
-- Quantum Probability: test set 25 | research corpus 174
-- Life And Consciousness: test set 404 | research corpus 6,493
-- Meaning And Logos: test set 43 | research corpus 6,177
-- Moral Response: test set 53 | research corpus 2,514
-- Worship And Community: test set 93 | research corpus 1,641
-- Transformation: test set 64 | research corpus 2,227
+- Mathematical Structure: test set 18 | research corpus 645
+- Mathematical Theophany: test set 380 | research corpus 1,270
+- Quantum Probability: test set 25 | research corpus 172
+- Life And Consciousness: test set 407 | research corpus 6,463
+- Meaning And Logos: test set 43 | research corpus 6,143
+- Moral Response: test set 53 | research corpus 2,488
+- Worship And Community: test set 93 | research corpus 1,624
+- Transformation: test set 64 | research corpus 2,241
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 403
-- Desire And Longing: 148
+- Creation And Order: 405
+- Desire And Longing: 149
 - Alienation And Lament: 88
 - Communal Practice: 78
 - Transformation And Hope: 68
@@ -1083,6 +1083,26 @@ Pressure signals:
 - Science Guardrail: 3
 - Counterexample Pressure: 1
 - Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+habakkuk_and_the_problem_of_suffering_theodicy_deferred_601199932e85.md
+-----------------------------------------------------------------------
+Words: 142
+Meaning confidence: thin meaning signal
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 2
+- Science Guardrail: 2
+- Counterexample Pressure: 1
 Meaning arc:
 - Opening: Creation And Order (2)
 - Middle: Creation And Order (0)
