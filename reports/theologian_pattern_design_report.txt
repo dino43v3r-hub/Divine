@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 379
-Total theologian words analyzed: 69,177
+Theologian documents analyzed: 381
+Total theologian words analyzed: 69,471
 
 Era Coverage
 ------------
@@ -21,10 +21,10 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 342
-- Pneumatology: 272
+- Trinity: 343
+- Pneumatology: 273
 - Christology: 256
-- Theodicy And Suffering: 228
+- Theodicy And Suffering: 229
 - Creation: 180
 - Church And Practice: 126
 - Grace And Transformation: 123
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 2,208
+- Father: 2,218
 - Son: 327
-- Holy Spirit: 518
+- Holy Spirit: 520
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 176 | broader corpus 2,672
-- Mathematical Structure: theologians 4 | broader corpus 645
-- Mathematical Theophany: theologians 311 | broader corpus 1,270
-- Quantum Probability: theologians 2 | broader corpus 172
-- Life And Consciousness: theologians 1,005 | broader corpus 6,463
-- Meaning And Logos: theologians 138 | broader corpus 6,143
-- Moral Response: theologians 121 | broader corpus 2,488
-- Worship And Community: theologians 232 | broader corpus 1,624
-- Transformation: theologians 534 | broader corpus 2,241
+- Physical Order: theologians 176 | broader corpus 2,674
+- Mathematical Structure: theologians 4 | broader corpus 646
+- Mathematical Theophany: theologians 311 | broader corpus 1,324
+- Quantum Probability: theologians 2 | broader corpus 178
+- Life And Consciousness: theologians 1,010 | broader corpus 6,567
+- Meaning And Logos: theologians 138 | broader corpus 6,198
+- Moral Response: theologians 121 | broader corpus 2,521
+- Worship And Community: theologians 232 | broader corpus 1,645
+- Transformation: theologians 535 | broader corpus 2,224
 
 Per-Source Findings
 -------------------
@@ -1349,6 +1349,28 @@ Meaning arc:
 - Opening: Creation And Order (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+eternal_immolation_could_a_trinitarian_coordinating_concept_for_theistic_metaphy_d388cc83b133.md
+------------------------------------------------------------------------------------------------
+Words: 143
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+
+ethical_aspects_of_the_prosperity_gospel_in_the_light_of_the_arguments_presented_07cefadce6d5.md
+------------------------------------------------------------------------------------------------
+Words: 151
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 evangelization_through_the_media_the_holy_trinity_in_the_shack_2017_3acb76fc9c07.md
 -----------------------------------------------------------------------------------
