@@ -41,72 +41,72 @@ Backend: Media assets now enter the index through captions, transcripts, sidecar
 
 Corpus Summary
 --------------
-- Indexed documents: 3201
-- Indexed text documents: 3201
+- Indexed documents: 3238
+- Indexed text documents: 3238
 - Indexed media assets: 0
-- Graph nodes: 3227
-- Graph edges: 20804
+- Graph nodes: 3264
+- Graph edges: 20997
 - Multimodal assets needing review: {}
 
 Reviewer: Where is the strongest reviewed-note weight right now?
-Backend: theologians (754 notes), research_documents (494 notes), history_inputs (436 notes), cultural_inputs (410 notes).
+Backend: theologians (759 notes), research_documents (503 notes), history_inputs (436 notes), cultural_inputs (414 notes).
 
 Reviewer: Which leading patterns are showing up most often?
 Backend: Image Of God Pattern (11), Trinity-As-Behavior Pattern (9), Cross And Reversal Pattern (8), Creation-To-Consciousness Pattern (8), Providence And Contingency Pattern (8).
 
 Reviewer: Which review rules are most visible?
-Backend: practical_use (3169), counter_reading (3158), evidence (3098), machine_label_boundary (3029).
+Backend: practical_use (3206), counter_reading (3195), evidence (3135), machine_label_boundary (3066).
 
 Lane Coverage
 -------------
 Backend: Here is the lane map. High counts are invitations to review more carefully, not permission to overclaim.
 - all_texts: 131 documents; 386 declared reviewed notes
-- biblical_languages: 179 documents; 308 declared reviewed notes
-- cultural_inputs: 410 documents; 410 declared reviewed notes
-- deep_sources: 182 documents; 199 declared reviewed notes
+- biblical_languages: 183 documents; 312 declared reviewed notes
+- cultural_inputs: 414 documents; 414 declared reviewed notes
+- deep_sources: 183 documents; 200 declared reviewed notes
 - history_inputs: 181 documents; 436 declared reviewed notes
-- human_stories: 78 documents; 78 declared reviewed notes
-- modern_literature: 128 documents; 128 declared reviewed notes
-- other_religious_texts: 109 documents; 364 declared reviewed notes
-- pattern_tests: 148 documents; 152 declared reviewed notes
-- psychology_inputs: 314 documents; 314 declared reviewed notes
-- research_documents: 447 documents; 494 declared reviewed notes
-- theologians: 385 documents; 754 declared reviewed notes
-- visual_art: 258 documents; 258 declared reviewed notes
-- world_languages: 251 documents; 380 declared reviewed notes
+- human_stories: 79 documents; 79 declared reviewed notes
+- modern_literature: 129 documents; 129 declared reviewed notes
+- other_religious_texts: 110 documents; 365 declared reviewed notes
+- pattern_tests: 150 documents; 154 declared reviewed notes
+- psychology_inputs: 316 documents; 316 declared reviewed notes
+- research_documents: 456 documents; 503 declared reviewed notes
+- theologians: 390 documents; 759 declared reviewed notes
+- visual_art: 259 documents; 259 declared reviewed notes
+- world_languages: 257 documents; 386 declared reviewed notes
 
 Confidence Tiers
 ----------------
 Reviewer: Are these tiers final verdicts?
 Backend: No. They sort review work. When a source passes every research evidence-test rule, I auto-promote it to reviewed_evidence_ready. When it also passes every public-final evidence-test rule, I auto-promote it to public_final_ready.
 - candidate_lead: 112 documents
-- developing_evidence: 3088 documents
+- developing_evidence: 3125 documents
 - reviewed_evidence_ready: 1 documents
 
 Promotion Rule Coverage
 -----------------------
 Backend: These counts show where the evidence testing queue should focus before sources strengthen claims or become final public evidence.
-- evidence: 3098 rule-present; 0 reviewed companion; 2 machine-drafted; 101 still missing of 3201
-- interpretation: 1046 rule-present; 993 reviewed companion; 2 machine-drafted; 2153 still missing of 3201
-- discernment: 1740 rule-present; 598 reviewed companion; 0 machine-drafted; 1461 still missing of 3201
-- analogy: 1031 rule-present; 976 reviewed companion; 0 machine-drafted; 2170 still missing of 3201
-- practical_use: 3169 rule-present; 0 reviewed companion; 0 machine-drafted; 32 still missing of 3201
-- counter_reading: 3158 rule-present; 0 reviewed companion; 1 machine-drafted; 42 still missing of 3201
-- failure_condition: 1036 rule-present; 932 reviewed companion; 1 machine-drafted; 2164 still missing of 3201
-- pastoral_safety: 62 rule-present; 3 reviewed companion; 407 machine-drafted; 2732 still missing of 3201
-- ecclesial_review: 10 rule-present; 2 reviewed companion; 449 machine-drafted; 2742 still missing of 3201
-- liturgical_grounding: 43 rule-present; 2 reviewed companion; 429 machine-drafted; 2729 still missing of 3201
-- promotion_restraint: 41 rule-present; 2 reviewed companion; 441 machine-drafted; 2719 still missing of 3201
-- machine_label_boundary: 3029 rule-present; 0 reviewed companion; 2 machine-drafted; 170 still missing of 3201
-- scripture_anchor: 5 rule-present; 1 reviewed companion; 0 machine-drafted; 3196 still missing of 3201
-- doctrinal_fit: 3 rule-present; 1 reviewed companion; 0 machine-drafted; 3198 still missing of 3201
-- no_unresolved_pastoral_harm: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 3199 still missing of 3201
-- no_abuse_enabling_language: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 3199 still missing of 3201
-- no_science_overclaim: 49 rule-present; 1 reviewed companion; 0 machine-drafted; 3152 still missing of 3201
-- no_comparative_flattening: 8 rule-present; 1 reviewed companion; 0 machine-drafted; 3193 still missing of 3201
-- does_not_prove_boundary: 18 rule-present; 1 reviewed companion; 0 machine-drafted; 3183 still missing of 3201
-- plain_language_public_summary: 3 rule-present; 1 reviewed companion; 0 machine-drafted; 3198 still missing of 3201
-- final_promotion_restraint: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 3199 still missing of 3201
+- evidence: 3135 rule-present; 0 reviewed companion; 2 machine-drafted; 101 still missing of 3238
+- interpretation: 1046 rule-present; 993 reviewed companion; 2 machine-drafted; 2190 still missing of 3238
+- discernment: 1749 rule-present; 598 reviewed companion; 0 machine-drafted; 1489 still missing of 3238
+- analogy: 1031 rule-present; 976 reviewed companion; 0 machine-drafted; 2207 still missing of 3238
+- practical_use: 3206 rule-present; 0 reviewed companion; 0 machine-drafted; 32 still missing of 3238
+- counter_reading: 3195 rule-present; 0 reviewed companion; 1 machine-drafted; 42 still missing of 3238
+- failure_condition: 1036 rule-present; 932 reviewed companion; 1 machine-drafted; 2201 still missing of 3238
+- pastoral_safety: 62 rule-present; 3 reviewed companion; 407 machine-drafted; 2769 still missing of 3238
+- ecclesial_review: 10 rule-present; 2 reviewed companion; 449 machine-drafted; 2779 still missing of 3238
+- liturgical_grounding: 43 rule-present; 2 reviewed companion; 429 machine-drafted; 2766 still missing of 3238
+- promotion_restraint: 40 rule-present; 2 reviewed companion; 441 machine-drafted; 2757 still missing of 3238
+- machine_label_boundary: 3066 rule-present; 0 reviewed companion; 2 machine-drafted; 170 still missing of 3238
+- scripture_anchor: 5 rule-present; 1 reviewed companion; 0 machine-drafted; 3233 still missing of 3238
+- doctrinal_fit: 3 rule-present; 1 reviewed companion; 0 machine-drafted; 3235 still missing of 3238
+- no_unresolved_pastoral_harm: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 3236 still missing of 3238
+- no_abuse_enabling_language: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 3236 still missing of 3238
+- no_science_overclaim: 49 rule-present; 1 reviewed companion; 0 machine-drafted; 3189 still missing of 3238
+- no_comparative_flattening: 8 rule-present; 1 reviewed companion; 0 machine-drafted; 3230 still missing of 3238
+- does_not_prove_boundary: 18 rule-present; 1 reviewed companion; 0 machine-drafted; 3220 still missing of 3238
+- plain_language_public_summary: 3 rule-present; 1 reviewed companion; 0 machine-drafted; 3235 still missing of 3238
+- final_promotion_restraint: 2 rule-present; 1 reviewed companion; 0 machine-drafted; 3236 still missing of 3238
 
 Promotion Blockers
 ------------------
@@ -154,18 +154,18 @@ Review Rule Mentions
 Reviewer: What do the review-rule counts tell us?
 Backend: They tell us where the project is learning caution. Missing rules mark places for the next human review pass.
 
-- evidence: 3098 documents
+- evidence: 3135 documents
 - interpretation: 1046 documents
-- discernment: 1740 documents
+- discernment: 1749 documents
 - analogy: 1031 documents
-- practical_use: 3169 documents
-- counter_reading: 3158 documents
+- practical_use: 3206 documents
+- counter_reading: 3195 documents
 - failure_condition: 1036 documents
 - pastoral_safety: 62 documents
 - ecclesial_review: 10 documents
 - liturgical_grounding: 43 documents
-- promotion_restraint: 41 documents
-- machine_label_boundary: 3029 documents
+- promotion_restraint: 40 documents
+- machine_label_boundary: 3066 documents
 - scripture_anchor: 5 documents
 - doctrinal_fit: 3 documents
 - no_unresolved_pastoral_harm: 2 documents
