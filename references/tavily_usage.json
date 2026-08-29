@@ -3203,6 +3203,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-08-29": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "AI ethics human dignity theology technology",
+          "searched_at": "2026-08-29T17:30:00.633568+00:00",
+          "tag": "technology_ethics"
+        },
+        {
+          "credits_used": 1,
+          "query": "technology ethics human dignity community",
+          "searched_at": "2026-08-29T17:30:05.679690+00:00",
+          "tag": "technology_ethics"
+        },
+        {
+          "credits_used": 1,
+          "query": "Athanasius Trinity Augustine Trinity Aquinas grace Luther theology Calvin church Barth revelation Bonhoeffer discipleship Moltmann hope",
+          "searched_at": "2026-08-29T17:30:11.462342+00:00",
+          "tag": "theologians_cross_era"
+        },
+        {
+          "credits_used": 1,
+          "query": "patristic medieval reformation modern contemporary theologians Trinity creation Christology pneumatology",
+          "searched_at": "2026-08-29T17:30:16.222145+00:00",
+          "tag": "theologians_cross_era"
+        },
+        {
+          "credits_used": 1,
+          "query": "Irenaeus Athanasius Augustine Aquinas Luther Calvin Barth Bonhoeffer Moltmann theology",
+          "searched_at": "2026-08-29T17:30:20.466779+00:00",
+          "tag": "theologians_cross_era"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }
