@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 401
-Total theologian words analyzed: 72,378
+Theologian documents analyzed: 404
+Total theologian words analyzed: 72,954
 
 Era Coverage
 ------------
@@ -21,33 +21,33 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 350
-- Pneumatology: 279
+- Trinity: 363
+- Pneumatology: 283
 - Christology: 263
 - Theodicy And Suffering: 236
 - Creation: 180
 - Church And Practice: 127
-- Grace And Transformation: 123
+- Grace And Transformation: 124
 - Justice And Public Life: 105
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 2,320
-- Son: 334
-- Holy Spirit: 532
+- Father: 2,339
+- Son: 337
+- Holy Spirit: 540
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 176 | broader corpus 2,680
-- Mathematical Structure: theologians 4 | broader corpus 652
-- Mathematical Theophany: theologians 315 | broader corpus 1,317
-- Quantum Probability: theologians 2 | broader corpus 174
-- Life And Consciousness: theologians 1,058 | broader corpus 6,646
-- Meaning And Logos: theologians 138 | broader corpus 6,190
-- Moral Response: theologians 122 | broader corpus 2,517
-- Worship And Community: theologians 234 | broader corpus 1,647
-- Transformation: theologians 541 | broader corpus 2,241
+- Physical Order: theologians 176 | broader corpus 2,674
+- Mathematical Structure: theologians 4 | broader corpus 648
+- Mathematical Theophany: theologians 315 | broader corpus 1,269
+- Quantum Probability: theologians 2 | broader corpus 175
+- Life And Consciousness: theologians 1,064 | broader corpus 6,567
+- Meaning And Logos: theologians 138 | broader corpus 6,119
+- Moral Response: theologians 122 | broader corpus 2,491
+- Worship And Community: theologians 234 | broader corpus 1,623
+- Transformation: theologians 549 | broader corpus 2,233
 
 Per-Source Findings
 -------------------
@@ -3748,6 +3748,17 @@ Meaning arc:
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
+the_spirit_s_of_isaiah_11_2_3a_in_early_jewish_and_christian_reception_from_roya_768b14262047.md
+------------------------------------------------------------------------------------------------
+Words: 147
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 the_tools_that_b_l_ind_technology_as_a_new_theology_3a8ece0b60d1.md
 -------------------------------------------------------------------
 Words: 136
@@ -4122,6 +4133,17 @@ Meaning arc:
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
+trinity_s_role_in_creating_redeeming_and_sustaining_98b7cc1a2ddc.md
+-------------------------------------------------------------------
+Words: 183
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (4)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 turner_max_1996_the_holy_spirit_and_spiritual_gifts_then_and_now_carlisle_patern_e902d479b7a0.md
 ------------------------------------------------------------------------------------------------
 Words: 151
@@ -4131,6 +4153,17 @@ Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Transformation And Hope (1)
 - Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+
+understanding_nicene_trinitarianism_christian_research_institute_8c1ae595ac19.md
+--------------------------------------------------------------------------------
+Words: 246
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (8)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (1)
 - Ending: Creation And Order (0)
 
 understanding_of_the_procession_of_the_holy_spirit_from_the_son_focusing_on_the_f4dba70d7c83.md
