@@ -4,8 +4,30 @@
   "name": "Against Heresies",
   "author": "Irenaeus",
   "category": "patristic-theology",
-  "profileMaturity": "scaffold",
-  "sourceObservations": [],
+  "profileMaturity": "developing",
+  "sourceObservations": [
+    {
+      "observation": "Irenaeus describes several positions that distinguish Jesus, Christ, and the Saviour, then states that he will compare those positions with the overall witness of the apostles.",
+      "sourceLocations": [
+        "Book III, Chapter 16, section 1"
+      ],
+      "evidenceNote": "This records the argumentative setup of the reviewed section without adopting Irenaeus's characterization or conclusion."
+    },
+    {
+      "observation": "Irenaeus appeals to John and Matthew, including Matthew's birth and naming account, to argue that Jesus and Christ are one and the same rather than separate figures.",
+      "sourceLocations": [
+        "Book III, Chapter 16, section 2"
+      ],
+      "evidenceNote": "This records Irenaeus's use of the cited apostolic writings within the reviewed section; it is not a Divine Core doctrinal assessment."
+    },
+    {
+      "observation": "Irenaeus continues the same argument through writings of Paul and Mark, relating the one Jesus Christ to Davidic descent, birth from Mary, divine sonship, resurrection, and humanity’s reception of adoption through him.",
+      "sourceLocations": [
+        "Book III, Chapter 16, section 3"
+      ],
+      "evidenceNote": "This neutrally summarizes the sequence of claims and texts used in the reviewed section without evaluating their doctrinal validity."
+    }
+  ],
   "interpretiveSynthesis": {
     "summary": "",
     "emergingThemes": [],
@@ -31,14 +53,22 @@
   "provenanceAndReview": {
     "workTitle": "Against Heresies",
     "author": "Irenaeus",
-    "scope": "",
-    "edition": "",
-    "translator": "",
-    "publisher": "",
-    "publicationYear": "",
-    "sourceLocationsReviewed": [],
-    "originalSourceChecked": false,
-    "evidenceNotes": [],
+    "scope": "Book III, Chapter 16, sections 1-3",
+    "edition": "Ante-Nicene Fathers, Volume 1, edited by Alexander Roberts, James Donaldson, and A. Cleveland Coxe",
+    "translator": "Alexander Roberts and William Rambaut",
+    "publisher": "Christian Literature Publishing Company, Buffalo, New York",
+    "publicationYear": "1885",
+    "sourceLocationsReviewed": [
+      "Book III, Chapter 16, section 1",
+      "Book III, Chapter 16, section 2",
+      "Book III, Chapter 16, section 3"
+    ],
+    "originalSourceChecked": true,
+    "evidenceNotes": [
+      "Direct review was limited to Book III, Chapter 16, sections 1-3 in the Roberts and Rambaut translation; no source quotations are retained in this profile.",
+      "The text and section boundaries were checked against a scan of the American Ante-Nicene Fathers, Volume 1 printing whose title and copyright pages identify the Roberts-Donaldson-Coxe editorial line, Christian Literature Publishing Company in Buffalo, and an 1885 copyright; the scanned title page is dated 1887.",
+      "The scoped text was also checked against the New Advent transcription identifying the Roberts and Rambaut translation and the 1885 Ante-Nicene Fathers publication; that transcription states that it was subsequently revised and edited for New Advent."
+    ],
     "humanReview": {
       "status": "not-reviewed",
       "reviewers": [],
