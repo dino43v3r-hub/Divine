@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 21744,
+  "edge_count": 21833,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -5814,6 +5814,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_exploring_the_boundaries_between_epigenetics_and_religiosity_spiritual",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_exploring_the_boundaries_between_epigenetics_and_religiosity_spiritual",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_exploring_the_boundaries_between_epigenetics_and_religiosity_spiritual",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_exploring_the_boundaries_between_epigenetics_and_religiosity_spiritual",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_exploring_the_boundaries_between_epigenetics_and_religiosity_spiritual",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_eye_tracking_evidence_for_the_snarc_effect_unveiling_attentional_stage",
       "target": "lane:research_documents"
     },
@@ -11274,6 +11299,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_that_divine_providence_does_not_exclude_fortune_and_chance_547ef430465",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_that_divine_providence_does_not_exclude_fortune_and_chance_547ef430465",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_that_divine_providence_does_not_exclude_fortune_and_chance_547ef430465",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_that_divine_providence_does_not_exclude_fortune_and_chance_547ef430465",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_that_divine_providence_does_not_exclude_fortune_and_chance_547ef430465",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_the_anaphorae_of_the_liturgy_of_sts_addai_and_mari_and_the_byzantine_l",
       "target": "lane:research_documents"
     },
@@ -12800,6 +12850,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_to_gallop_together_to_war_is_simple_to_make_peace_is_complex_indigenou",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_towards_a_philosophy_of_general_practice_a_study_of_the_virtuous_pract",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_towards_a_philosophy_of_general_practice_a_study_of_the_virtuous_pract",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_towards_a_philosophy_of_general_practice_a_study_of_the_virtuous_pract",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_towards_a_philosophy_of_general_practice_a_study_of_the_virtuous_pract",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_towards_a_philosophy_of_general_practice_a_study_of_the_virtuous_pract",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -14476,6 +14551,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:promotion_restraint"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -32139,6 +32219,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jk_kind_things_know_great_spiritual_life_start_cb0efb38217c_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jk_kind_things_know_great_spiritual_life_start_cb0efb38217c_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jk_kind_things_know_great_spiritual_life_start_cb0efb38217c_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jk_kind_things_know_great_spiritual_life_start_cb0efb38217c_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jk_kind_things_know_great_spiritual_life_start_cb0efb38217c_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:all_texts_auto_imported_cloud_candidates_john_henry_newman_s_anglican_views_on_judaism_4a77f2cc46dd_md",
       "target": "lane:all_texts"
     },
@@ -32500,6 +32605,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:all_texts_auto_imported_cloud_candidates_oral_tradition_and_pentateuchal_narrative_bible_interp_dde026784199_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_people_god_revelation_time_jesus_work_god_s_heart_61152573683a_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_people_god_revelation_time_jesus_work_god_s_heart_61152573683a_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_people_god_revelation_time_jesus_work_god_s_heart_61152573683a_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_people_god_revelation_time_jesus_work_god_s_heart_61152573683a_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_people_god_revelation_time_jesus_work_god_s_heart_61152573683a_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -43435,6 +43565,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_god_and_ethics_2ca049bd78b0_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_god_people_god_god_church_you_morning_god_341790b78543_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_god_people_god_god_church_you_morning_god_341790b78543_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_god_people_god_god_church_you_morning_god_341790b78543_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_god_people_god_god_church_you_morning_god_341790b78543_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_god_people_god_god_church_you_morning_god_341790b78543_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -71809,6 +71964,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_health_providers_reasons_for_participating_in_abortion_care_a_scoping_rev",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_health_providers_reasons_for_participating_in_abortion_care_a_scoping_rev",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_health_providers_reasons_for_participating_in_abortion_care_a_scoping_rev",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_health_providers_reasons_for_participating_in_abortion_care_a_scoping_rev",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_health_providers_reasons_for_participating_in_abortion_care_a_scoping_rev",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_here_there_and_everywhere_human_dignity_in_contemporary_law_and_in_the_tr",
       "target": "lane:cultural_inputs"
     },
@@ -78285,6 +78465,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_transitional_justice_genealogy_symposium_human_rights_in_transition_62dd9",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_transplant_tourism_and_organ_trafficking_ethical_implications_for_the_nur",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_transplant_tourism_and_organ_trafficking_ethical_implications_for_the_nur",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_transplant_tourism_and_organ_trafficking_ethical_implications_for_the_nur",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_transplant_tourism_and_organ_trafficking_ethical_implications_for_the_nur",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_transplant_tourism_and_organ_trafficking_ethical_implications_for_the_nur",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -91319,6 +91524,96 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_hathitrust_c8b4bce12fae_md",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_hathitrust_c8b4bce12fae_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_hathitrust_c8b4bce12fae_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_hathitrust_c8b4bce12fae_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_hathitrust_c8b4bce12fae_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_hathitrust_c8b4bce12fae_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_oa_5af7ff5dbe3c_md",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_oa_5af7ff5dbe3c_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_oa_5af7ff5dbe3c_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_oa_5af7ff5dbe3c_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_oa_5af7ff5dbe3c_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_oa_5af7ff5dbe3c_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_transcript_4bbcc9107552_md",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_transcript_4bbcc9107552_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_transcript_4bbcc9107552_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_transcript_4bbcc9107552_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_transcript_4bbcc9107552_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_transcript_4bbcc9107552_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_transcript_nano_non_skid_coating_solution_for_offshore_environments",
       "target": "lane:human_stories"
     },
@@ -91649,6 +91944,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_4_within_a_grain_of_sand_db456b1c1f60_md",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_4_within_a_grain_of_sand_db456b1c1f60_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_4_within_a_grain_of_sand_db456b1c1f60_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_4_within_a_grain_of_sand_db456b1c1f60_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_4_within_a_grain_of_sand_db456b1c1f60_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_4_within_a_grain_of_sand_db456b1c1f60_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_38e926",
       "target": "lane:human_stories"
     },
@@ -91675,6 +92000,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_38e926",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_9_listening_to_s_o_paulo_brazil_26b667494f9e_m",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_9_listening_to_s_o_paulo_brazil_26b667494f9e_m",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_9_listening_to_s_o_paulo_brazil_26b667494f9e_m",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_9_listening_to_s_o_paulo_brazil_26b667494f9e_m",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_9_listening_to_s_o_paulo_brazil_26b667494f9e_m",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_9_listening_to_s_o_paulo_brazil_26b667494f9e_m",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -98855,6 +99210,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_information_in_the_context_of_philosophy_and_cognitive_sciences_1f8959c5aa61",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_quantum_theory_and_their_implications_for_theology_5b4ab0",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_quantum_theory_and_their_implications_for_theology_5b4ab0",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_quantum_theory_and_their_implications_for_theology_5b4ab0",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_quantum_theory_and_their_implications_for_theology_5b4ab0",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_quantum_theory_and_their_implications_for_theology_5b4ab0",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_quantum_theory_and_their_implications_for_theology_5b4ab0",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -105549,6 +105934,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_opinion_unanswered_prayer_christianity_c05df33ebd23_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_opinion_unanswered_prayer_christianity_c05df33ebd23_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_opinion_unanswered_prayer_christianity_c05df33ebd23_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_opinion_unanswered_prayer_christianity_c05df33ebd23_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_opinion_unanswered_prayer_christianity_c05df33ebd23_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_opinion_unanswered_prayer_christianity_c05df33ebd23_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_pastoral_care_in_disaster_a_theological_reflection_a657b46b479d_md",
       "target": "lane:pattern_tests"
     },
@@ -106745,6 +107160,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_biological_and_ethical_basis_of_the_use_of_human_embryonic_stem_cells_f",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_blessing_of_unanswered_prayer_by_mark_galli_88fc76a23256_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_blessing_of_unanswered_prayer_by_mark_galli_88fc76a23256_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_blessing_of_unanswered_prayer_by_mark_galli_88fc76a23256_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_blessing_of_unanswered_prayer_by_mark_galli_88fc76a23256_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_blessing_of_unanswered_prayer_by_mark_galli_88fc76a23256_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_blessing_of_unanswered_prayer_by_mark_galli_88fc76a23256_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -108724,7 +109169,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 3406,
+  "node_count": 3422,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -110878,6 +111323,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_exploring_the_boundaries_between_epigenetics_and_religiosity_spiritual",
+      "label": "Exploring the boundaries between epigenetics and religiosity/spirituality: a systematic review.",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/exploring_the_boundaries_between_epigenetics_and_religiosity_spirituality_a_syst_a95440e62536.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_eye_tracking_evidence_for_the_snarc_effect_unveiling_attentional_stage",
       "label": "Eye-Tracking Evidence for the SNARC Effect: Unveiling Attentional Stages",
       "lane": "research_documents",
@@ -112836,6 +113292,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_that_divine_providence_does_not_exclude_fortune_and_chance_547ef430465",
+      "label": "THAT DIVINE PROVIDENCE DOES NOT EXCLUDE FORTUNE AND CHANCE",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/that_divine_providence_does_not_exclude_fortune_and_chance_547ef430465f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_the_anaphorae_of_the_liturgy_of_sts_addai_and_mari_and_the_byzantine_l",
       "label": "The anaphorae of the liturgy of Sts. Addai and Mari and the Byzantine liturgy of St. Basil the great: a comparative study",
       "lane": "research_documents",
@@ -113392,6 +113859,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/to_gallop_together_to_war_is_simple_to_make_peace_is_complex_indigenous_informal_4130bb9f3e9a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_towards_a_philosophy_of_general_practice_a_study_of_the_virtuous_pract",
+      "label": "Towards a philosophy of general practice: a study of the virtuous practitioner.",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/towards_a_philosophy_of_general_practice_a_study_of_the_virtuous_practitioner_81763b00feb6.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -119953,6 +120431,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_jk_kind_things_know_great_spiritual_life_start_cb0efb38217c_md",
+      "label": "Jk - Kind Things Know, Great Spiritual Life. Start",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/jk_kind_things_know_great_spiritual_life_start_cb0efb38217c.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_john_henry_newman_s_anglican_views_on_judaism_4a77f2cc46dd_md",
       "label": "John Henry Newman\u2019s Anglican Views on Judaism",
       "lane": "all_texts",
@@ -120091,6 +120580,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "all_texts/auto_imported_cloud_candidates/oral_tradition_and_pentateuchal_narrative_bible_interp_dde026784199.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_people_god_revelation_time_jesus_work_god_s_heart_61152573683a_md",
+      "label": "People God Revelation Time Jesus Work God'S Heart",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/people_god_revelation_time_jesus_work_god_s_heart_61152573683a.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -123765,6 +124265,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/god_and_ethics_2ca049bd78b0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_god_people_god_god_church_you_morning_god_341790b78543_md",
+      "label": "God People God. God, Church You. Morning God?",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/god_people_god_god_church_you_morning_god_341790b78543.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -133505,6 +134016,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_health_providers_reasons_for_participating_in_abortion_care_a_scoping_rev",
+      "label": "Health providers' reasons for participating in abortion care: A scoping review.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/health_providers_reasons_for_participating_in_abortion_care_a_scoping_review_e6607081e0fd.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_here_there_and_everywhere_human_dignity_in_contemporary_law_and_in_the_tr",
       "label": "'Here, There and Everywhere': Human Dignity in Contemporary Law and in the Transnational Discourse",
       "lane": "cultural_inputs",
@@ -135810,6 +136332,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/transitional_justice_genealogy_symposium_human_rights_in_transition_62dd996420d7.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_transplant_tourism_and_organ_trafficking_ethical_implications_for_the_nur",
+      "label": "Transplant tourism and organ trafficking: Ethical implications for the nursing profession.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/transplant_tourism_and_organ_trafficking_ethical_implications_for_the_nursing_pr_f9a4165ce5f3.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -140336,6 +140869,39 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_hathitrust_c8b4bce12fae_md",
+      "label": "Podcast interview on HathiTrust",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/podcast_interview_on_hathitrust_c8b4bce12fae.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_on_oa_5af7ff5dbe3c_md",
+      "label": "Podcast interview on OA",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/podcast_interview_on_oa_5af7ff5dbe3c.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_transcript_4bbcc9107552_md",
+      "label": "Podcast Interview Transcript",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/podcast_interview_transcript_4bbcc9107552.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:human_stories_auto_imported_cloud_candidates_podcast_transcript_nano_non_skid_coating_solution_for_offshore_environments",
       "label": "Podcast Transcript: Nano Non-Skid Coating Solution for Offshore Environments",
       "lane": "human_stories",
@@ -140457,12 +141023,34 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_4_within_a_grain_of_sand_db456b1c1f60_md",
+      "label": "Sounding Out! Podcast Episode #4: Within a Grain of Sand",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/sounding_out_podcast_episode_4_within_a_grain_of_sand_db456b1c1f60.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_38e926",
       "label": "Sounding Out! Podcast Episode #8: Can't Stop Won't Stop (The Awesomeness)!",
       "lane": "human_stories",
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "human_stories/auto_imported_cloud_candidates/sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_38e9262733c7.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_9_listening_to_s_o_paulo_brazil_26b667494f9e_m",
+      "label": "Sounding Out! Podcast Episode #9: Listening to S\u00e3o Paulo, Brazil",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/sounding_out_podcast_episode_9_listening_to_s_o_paulo_brazil_26b667494f9e.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -142921,6 +143509,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_quantum_theory_and_their_implications_for_theology_5b4ab0",
+      "label": "Interpretations of Quantum Theory and their Implications for Theology",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/interpretations_of_quantum_theory_and_their_implications_for_theology_5b4ab02a15d6.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_interpretations_of_the_uncertainty_principle_94ac2d09fe5d_md",
       "label": "Interpretations of the Uncertainty Principle",
       "lane": "deep_sources",
@@ -144967,6 +145566,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_opinion_unanswered_prayer_christianity_c05df33ebd23_md",
+      "label": "OPINION - Unanswered prayer - Christianity",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/opinion_unanswered_prayer_christianity_c05df33ebd23.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_pastoral_care_in_disaster_a_theological_reflection_a657b46b479d_md",
       "label": "Pastoral Care in Disaster: A theological reflection",
       "lane": "pattern_tests",
@@ -145347,6 +145957,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/the_biological_and_ethical_basis_of_the_use_of_human_embryonic_stem_cells_for_in_7e4e2d7f674d.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_the_blessing_of_unanswered_prayer_by_mark_galli_88fc76a23256_md",
+      "label": "The Blessing of Unanswered Prayer - by Mark Galli",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/the_blessing_of_unanswered_prayer_by_mark_galli_88fc76a23256.md",
       "review_note_count": 1,
       "type": "document"
     },
