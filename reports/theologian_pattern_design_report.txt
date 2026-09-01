@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 405
-Total theologian words analyzed: 73,160
+Theologian documents analyzed: 406
+Total theologian words analyzed: 73,352
 
 Era Coverage
 ------------
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 2,345
+- Father: 2,351
 - Son: 339
 - Holy Spirit: 540
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 176 | broader corpus 2,676
+- Physical Order: theologians 176 | broader corpus 2,677
 - Mathematical Structure: theologians 4 | broader corpus 645
-- Mathematical Theophany: theologians 316 | broader corpus 1,275
-- Quantum Probability: theologians 2 | broader corpus 176
-- Life And Consciousness: theologians 1,068 | broader corpus 6,559
-- Meaning And Logos: theologians 138 | broader corpus 6,105
-- Moral Response: theologians 122 | broader corpus 2,482
-- Worship And Community: theologians 236 | broader corpus 1,626
-- Transformation: theologians 549 | broader corpus 2,224
+- Mathematical Theophany: theologians 318 | broader corpus 1,287
+- Quantum Probability: theologians 2 | broader corpus 174
+- Life And Consciousness: theologians 1,071 | broader corpus 6,574
+- Meaning And Logos: theologians 138 | broader corpus 6,111
+- Moral Response: theologians 122 | broader corpus 2,490
+- Worship And Community: theologians 236 | broader corpus 1,624
+- Transformation: theologians 549 | broader corpus 2,225
 
 Per-Source Findings
 -------------------
@@ -1481,6 +1481,17 @@ Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
+
+exploring_the_practice_of_mindfulness_in_ministry_among_kansas_assemblies_of_god_09fbfbfd639f.md
+------------------------------------------------------------------------------------------------
+Words: 192
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 exploring_your_spiritual_gifts_umc_org_4a1d09148024.md
 ------------------------------------------------------
