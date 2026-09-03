@@ -3383,6 +3383,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-09-03": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "podcast faith testimony grief repair transformation episode",
+          "searched_at": "2026-09-03T17:22:52.459181+00:00",
+          "tag": "podcast_testimony_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "Christian podcast suffering justice forgiveness testimony interview",
+          "searched_at": "2026-09-03T17:22:59.083062+00:00",
+          "tag": "podcast_testimony_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "religion podcast conversion spiritual experience discernment transcript",
+          "searched_at": "2026-09-03T17:23:07.025406+00:00",
+          "tag": "podcast_testimony_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "video lecture theology suffering justice practical theology",
+          "searched_at": "2026-09-03T17:23:15.942106+00:00",
+          "tag": "video_teaching_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "documentary faith grief justice repair Christian theology video",
+          "searched_at": "2026-09-03T17:23:21.176097+00:00",
+          "tag": "video_teaching_patterns"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }
