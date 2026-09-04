@@ -1,0 +1,41 @@
+# Exploring magical thinking in the context of pain.
+
+Source status: auto-imported cloud candidate; not human-reviewed evidence
+Reviewed note count: 1
+Imported at: 2026-09-04T17:21:21.522242+00:00
+
+## Candidate Metadata
+
+- Provider: Europe PMC
+- Source type: scholarly metadata
+- Year: 2026
+- URL: https://doi.org/10.3389/fpain.2026.1753496
+- DOI: 10.3389/fpain.2026.1753496
+- Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, visual_art, all_texts
+- Primary layer: psychology_inputs
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Confidence effect: none_until_human_review
+
+## Metadata Summary
+
+This perspectives article explores magical thinking (which is often dismissed as irrational or
+pathologized) as a potentially valuable personal orientation and resource for people living with
+chronic pain: as a way to make more sense of their complex and challenging life experience,
+psychologically as well as socially. Magical thinking entails a broader acceptance of connectivity
+between phenomena generally considered to be independent, and it includes symbolic meaning-making
+acts such as rituals. The authors explicitly exclude in their discussion magical superstitions which
+involve the conviction that magical acts can directly impact physical reality (such as enabling
+levitation or turning
+
+## Required Review Before Claim Strengthening
+
+- Check the original source beyond title, abstract, snippet, or search metadata.
+- Identify author expertise, venue, date, publication context, and source type.
+- Write the smallest claim the source actually supports.
+- Name at least one serious rival counter-reading, not only a weak or convenient objection.
+- If this becomes a practical claim, answer: does this help people become more truthful, loving, humble, just, worshipful, patient, and faithful?
+- Keep confidence effect as none until this note is manually reviewed.
