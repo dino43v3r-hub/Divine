@@ -8,46 +8,46 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 425
-Total theologian words analyzed: 76,703
+Theologian documents analyzed: 431
+Total theologian words analyzed: 77,687
 
 Era Coverage
 ------------
 - Patristic: 102
 - Medieval: 56
 - Reformation: 63
-- Modern: 91
+- Modern: 94
 - Contemporary: 36
 
 Concept Coverage
 ----------------
-- Trinity: 373
-- Pneumatology: 288
-- Christology: 265
-- Theodicy And Suffering: 238
-- Creation: 181
+- Trinity: 376
+- Pneumatology: 289
+- Christology: 266
+- Theodicy And Suffering: 239
+- Creation: 182
 - Church And Practice: 135
 - Grace And Transformation: 125
-- Justice And Public Life: 109
+- Justice And Public Life: 110
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 2,458
-- Son: 342
-- Holy Spirit: 550
+- Father: 2,491
+- Son: 343
+- Holy Spirit: 552
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 176 | broader corpus 2,684
-- Mathematical Structure: theologians 4 | broader corpus 644
-- Mathematical Theophany: theologians 333 | broader corpus 1,287
+- Physical Order: theologians 177 | broader corpus 2,682
+- Mathematical Structure: theologians 4 | broader corpus 645
+- Mathematical Theophany: theologians 336 | broader corpus 1,274
 - Quantum Probability: theologians 2 | broader corpus 173
-- Life And Consciousness: theologians 1,125 | broader corpus 6,625
-- Meaning And Logos: theologians 142 | broader corpus 6,133
-- Moral Response: theologians 127 | broader corpus 2,494
-- Worship And Community: theologians 247 | broader corpus 1,629
-- Transformation: theologians 554 | broader corpus 2,227
+- Life And Consciousness: theologians 1,140 | broader corpus 6,631
+- Meaning And Logos: theologians 142 | broader corpus 6,146
+- Moral Response: theologians 127 | broader corpus 2,490
+- Worship And Community: theologians 247 | broader corpus 1,627
+- Transformation: theologians 556 | broader corpus 2,231
 
 Per-Source Findings
 -------------------
@@ -183,6 +183,17 @@ Meaning arc:
 - Opening: Transformation And Hope (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
+
+a_historical_analysis_of_how_preach_my_gospel_came_to_be_994cd669773d.md
+------------------------------------------------------------------------
+Words: 191
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 a_historical_analysis_of_the_emergence_of_newer_pentecostal_churches_in_adamawa_c538372aa028.md
 -----------------------------------------------------------------------------------------------
@@ -1449,6 +1460,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+episode_439_remembering_moltmann_part_1_with_rolf_jacobson_and_ruben_rosario_rod_cbfdea3b092f.md
+------------------------------------------------------------------------------------------------
+Words: 244
+Strongest era signal: Modern (3)
+Strongest concept signal: Trinity (1)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Transformation And Hope (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
 epta_annual_conference_2023_the_world_on_fire_pentecostal_eschatology_and_ecothe_ed3aa1dd3a0c.md
 ------------------------------------------------------------------------------------------------
 Words: 142
@@ -1613,6 +1635,17 @@ Meaning arc:
 - Opening: Creation And Order (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+fragments_for_fractured_times_what_feminist_practical_theology_brings_to_the_tab_233aeaf54110.md
+------------------------------------------------------------------------------------------------
+Words: 139
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 from_dependence_to_interdependence_towards_a_practical_theology_of_disability_e5886a003367.md
 ---------------------------------------------------------------------------------------------
@@ -1972,6 +2005,17 @@ Words: 135
 Strongest era signal: Patristic (0)
 Strongest concept signal: Pneumatology (1)
 Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+index_of_names_bfe36e6475f0.md
+------------------------------
+Words: 136
+Strongest era signal: Patristic (0)
+Strongest concept signal: Christology (1)
+Meaning confidence: word-level signal only
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
@@ -3341,6 +3385,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+the_athanasian_creed_829708d60461.md
+------------------------------------
+Words: 129
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 the_bahshamiyya_fac2936e62fb.md
 -------------------------------
 Words: 180
@@ -3984,6 +4039,17 @@ the_tools_that_b_l_ind_technology_as_a_new_theology_3a8ece0b60d1.md
 Words: 136
 Strongest era signal: Patristic (0)
 Strongest concept signal: Trinity (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_toronto_blessing_an_expression_christian_spirituality_in_the_charismatic_mov_0367de4848c8.md
+------------------------------------------------------------------------------------------------
+Words: 145
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
 Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Desire And Longing (1)

@@ -9,20 +9,20 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 448
-Total cultural words analyzed: 66,989
+Cultural documents analyzed: 451
+Total cultural words analyzed: 67,422
 
 Cultural Domains
 ----------------
-- Science And Discovery: 936
-- Politics And Justice: 557
-- History And Memory: 344
+- Science And Discovery: 942
+- Politics And Justice: 561
+- History And Memory: 348
 - Technology And AI: 269
-- Psychology And Human Behavior: 183
-- Health And Suffering: 113
-- Family And Community: 109
+- Psychology And Human Behavior: 184
+- Health And Suffering: 114
+- Family And Community: 110
 - Art And Beauty: 81
-- Global Text Traditions: 69
+- Global Text Traditions: 71
 - Economics And Work: 60
 - World Languages: 50
 - Education And Formation: 36
@@ -33,30 +33,30 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 2,235
+- Father: 2,250
 - Son: 25
 - Holy Spirit: 3
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 483
-- Moral Confrontation: 284
+- Desire And Longing: 486
+- Moral Confrontation: 286
 - Creation And Order: 78
+- Communal Practice: 69
 - Transformation And Hope: 69
-- Communal Practice: 68
 - Alienation And Lament: 14
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 995 | religious/science corpus 2,684
-- Mathematical Structure: cultural inputs 1,210 | religious/science corpus 644
-- Mathematical Theophany: cultural inputs 24 | religious/science corpus 1,287
+- Physical Order: cultural inputs 1,001 | religious/science corpus 2,682
+- Mathematical Structure: cultural inputs 1,216 | religious/science corpus 645
+- Mathematical Theophany: cultural inputs 24 | religious/science corpus 1,274
 - Quantum Probability: cultural inputs 4 | religious/science corpus 173
-- Life And Consciousness: cultural inputs 1,353 | religious/science corpus 6,625
-- Meaning And Logos: cultural inputs 1,576 | religious/science corpus 6,133
-- Moral Response: cultural inputs 1,816 | religious/science corpus 2,494
-- Worship And Community: cultural inputs 992 | religious/science corpus 1,629
-- Transformation: cultural inputs 882 | religious/science corpus 2,227
+- Life And Consciousness: cultural inputs 1,361 | religious/science corpus 6,631
+- Meaning And Logos: cultural inputs 1,588 | religious/science corpus 6,146
+- Moral Response: cultural inputs 1,829 | religious/science corpus 2,490
+- Worship And Community: cultural inputs 1,000 | religious/science corpus 1,627
+- Transformation: cultural inputs 891 | religious/science corpus 2,231
 
 Per-Domain Findings
 -------------------
@@ -2711,6 +2711,31 @@ Practical domain applications:
 - Respond to suffering with truthful lament, practical care, patience, and hope without minimizing pain.
 - Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
 
+perspectives_on_drug_addiction_in_islamic_history_and_theology_791995c624c0.md
+------------------------------------------------------------------------------
+Words: 144
+Strongest cultural domain: Politics And Justice (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 6
+- Meaning And Logos: 5
+- Worship And Community: 3
+- Transformation: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Life And Consciousness: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
 political_solidarity_justice_and_public_health_852d560e12a3.md
 --------------------------------------------------------------
 Words: 138
@@ -3237,6 +3262,32 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
+
+a_body_of_individuals_the_paradox_of_community_in_contemporary_fiction_e1ff5d42dbeb.md
+--------------------------------------------------------------------------------------
+Words: 140
+Strongest cultural domain: Politics And Justice (2)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 4
+- Worship And Community: 4
+- Life And Consciousness: 3
+- Meaning And Logos: 3
+- Transformation: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.
 
 a_study_of_islamic_leadership_theory_and_practice_in_k_12_islamic_schools_in_mic_c0924d7c4a1d.md
 ------------------------------------------------------------------------------------------------
@@ -5615,6 +5666,30 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Apply the pattern to labor and money by asking whether systems protect dignity, reduce exploitation, and support real flourishing.
+
+the_islamic_traditions_of_cirebon_ibadat_and_adat_among_javanese_muslims_f95de799ccec.md
+----------------------------------------------------------------------------------------
+Words: 149
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 4
+- Life And Consciousness: 3
+- Moral Response: 3
+- Transformation: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Worship And Community: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+- Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
 
 understanding_social_exclusion_the_views_of_the_uk_public_619fb03f135d.md
 -------------------------------------------------------------------------
