@@ -10,18 +10,18 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Music-note files analyzed: 151
-Note/chord events analyzed: 358
-Individual notes analyzed: 392
-Intervals analyzed: 261
-Consonance ratio: 75.48%
-Tension ratio: 24.52%
+Music-note files analyzed: 154
+Note/chord events analyzed: 365
+Individual notes analyzed: 399
+Intervals analyzed: 265
+Consonance ratio: 75.85%
+Tension ratio: 24.15%
 
 Interval Patterns
 -----------------
-- unison/octave: 78 | simple ratio: 1:1 or 2:1
+- unison/octave: 81 | simple ratio: 1:1 or 2:1
 - major second: 41 | simple ratio: 9:8
-- perfect fifth: 39 | simple ratio: 3:2
+- perfect fifth: 40 | simple ratio: 3:2
 - minor third: 27 | simple ratio: 6:5
 - major third: 24 | simple ratio: 5:4
 - perfect fourth: 22 | simple ratio: 4:3
@@ -33,46 +33,46 @@ Interval Patterns
 
 Science And Math Relationships
 ------------------------------
-- Mathematical Structure: 261
-- Acoustic Stability: 197
-- Symmetry And Return: 78
+- Mathematical Structure: 265
+- Acoustic Stability: 201
+- Symmetry And Return: 81
 - Tension And Resolution: 64
-- Small Integer Ratios: 61
+- Small Integer Ratios: 62
 
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 756
-- Son: 2
+- Father: 773
+- Son: 3
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 168
-- Creation And Order: 41
+- Desire And Longing: 171
+- Creation And Order: 43
 - Communal Practice: 13
 - Transformation And Hope: 4
 - Alienation And Lament: 3
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 261 | religious/science corpus 2,682
-- Mathematical Structure: music notes 400 | religious/science corpus 645
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,274
-- Quantum Probability: music notes 0 | religious/science corpus 173
-- Life And Consciousness: music notes 0 | religious/science corpus 6,631
-- Meaning And Logos: music notes 123 | religious/science corpus 6,146
-- Moral Response: music notes 0 | religious/science corpus 2,490
-- Worship And Community: music notes 16 | religious/science corpus 1,627
-- Transformation: music notes 64 | religious/science corpus 2,231
+- Physical Order: music notes 265 | religious/science corpus 2,685
+- Mathematical Structure: music notes 408 | religious/science corpus 649
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,269
+- Quantum Probability: music notes 0 | religious/science corpus 174
+- Life And Consciousness: music notes 0 | religious/science corpus 6,642
+- Meaning And Logos: music notes 127 | religious/science corpus 6,141
+- Moral Response: music notes 0 | religious/science corpus 2,492
+- Worship And Community: music notes 16 | religious/science corpus 1,629
+- Transformation: music notes 64 | religious/science corpus 2,236
 
 Relevant Research Domains
 -------------------------
-- Philosophy Of Mathematics: corpus signal 561
-- Physics And Quantum Mechanics: corpus signal 1,441
-- Philosophy Of Science: corpus signal 2,868
-- Cognitive Science: corpus signal 1,049
-- Anthropology And Psychology Of Worship: corpus signal 831
+- Philosophy Of Mathematics: corpus signal 565
+- Physics And Quantum Mechanics: corpus signal 1,442
+- Philosophy Of Science: corpus signal 2,870
+- Cognitive Science: corpus signal 1,050
+- Anthropology And Psychology Of Worship: corpus signal 842
 
 Per-Composition Findings
 ------------------------
@@ -801,6 +801,32 @@ Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 - Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
 
+erld_hc_entropy_regularized_latent_diffusion_for_harmony_constrained_symbolic_mu_4e6e2b50ceaf.md
+------------------------------------------------------------------------------------------------
+Events: 3
+Notes: 3
+Chord events: 0
+Melodic intervals: 2
+Harmonic intervals: 0
+Consonant intervals: 2
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: thin meaning signal
+Most common intervals:
+- perfect fifth: 1 | ratio 3:2
+- unison/octave: 1 | ratio 1:1 or 2:1
+Layer interpretation:
+- Mathematical Structure: 4
+- Physical Order: 2
+- Meaning And Logos: 2
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
 is_the_perception_of_consonance_and_dissonance_universal_music_science_7f54d80b304f.md
 --------------------------------------------------------------------------------------
 Events: 3
@@ -824,6 +850,31 @@ Meaning arc:
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+music_genre_classification_using_midi_and_audio_features_51eea2132d0e.md
+------------------------------------------------------------------------
+Events: 3
+Notes: 3
+Chord events: 0
+Melodic intervals: 2
+Harmonic intervals: 0
+Consonant intervals: 2
+Tension intervals: 0
+Return motifs: 1
+Meaning confidence: thin meaning signal
+Most common intervals:
+- unison/octave: 2 | ratio 1:1 or 2:1
+Layer interpretation:
+- Mathematical Structure: 4
+- Physical Order: 2
+- Meaning And Logos: 2
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 
 reconstructing_al_farabi_s_ethical_framework_in_contemporary_bioethics_genetics_fa3042fc9b4e.md
@@ -3057,6 +3108,27 @@ Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 
 sweetness_is_in_the_ear_of_the_beholder_chord_preference_across_united_kingdom_a_22366d2533ff.md
+------------------------------------------------------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+sweetness_is_in_the_ear_of_the_beholder_chord_preference_across_united_kingdom_a_acfbd7dc435b.md
 ------------------------------------------------------------------------------------------------
 Events: 1
 Notes: 1
