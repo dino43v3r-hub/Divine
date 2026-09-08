@@ -10,16 +10,16 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Music-note files analyzed: 154
-Note/chord events analyzed: 365
-Individual notes analyzed: 399
-Intervals analyzed: 265
-Consonance ratio: 75.85%
-Tension ratio: 24.15%
+Music-note files analyzed: 156
+Note/chord events analyzed: 369
+Individual notes analyzed: 403
+Intervals analyzed: 267
+Consonance ratio: 76.03%
+Tension ratio: 23.97%
 
 Interval Patterns
 -----------------
-- unison/octave: 81 | simple ratio: 1:1 or 2:1
+- unison/octave: 83 | simple ratio: 1:1 or 2:1
 - major second: 41 | simple ratio: 9:8
 - perfect fifth: 40 | simple ratio: 3:2
 - minor third: 27 | simple ratio: 6:5
@@ -33,46 +33,46 @@ Interval Patterns
 
 Science And Math Relationships
 ------------------------------
-- Mathematical Structure: 265
-- Acoustic Stability: 201
-- Symmetry And Return: 81
+- Mathematical Structure: 267
+- Acoustic Stability: 203
+- Symmetry And Return: 83
 - Tension And Resolution: 64
 - Small Integer Ratios: 62
 
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 773
+- Father: 783
 - Son: 3
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 171
-- Creation And Order: 43
+- Desire And Longing: 173
+- Creation And Order: 48
 - Communal Practice: 13
-- Transformation And Hope: 4
+- Transformation And Hope: 6
 - Alienation And Lament: 3
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 265 | religious/science corpus 2,685
-- Mathematical Structure: music notes 408 | religious/science corpus 649
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,269
-- Quantum Probability: music notes 0 | religious/science corpus 174
+- Physical Order: music notes 267 | religious/science corpus 2,683
+- Mathematical Structure: music notes 412 | religious/science corpus 650
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,282
+- Quantum Probability: music notes 0 | religious/science corpus 173
 - Life And Consciousness: music notes 0 | religious/science corpus 6,642
-- Meaning And Logos: music notes 127 | religious/science corpus 6,141
-- Moral Response: music notes 0 | religious/science corpus 2,492
-- Worship And Community: music notes 16 | religious/science corpus 1,629
-- Transformation: music notes 64 | religious/science corpus 2,236
+- Meaning And Logos: music notes 129 | religious/science corpus 6,142
+- Moral Response: music notes 0 | religious/science corpus 2,490
+- Worship And Community: music notes 16 | religious/science corpus 1,644
+- Transformation: music notes 64 | religious/science corpus 2,228
 
 Relevant Research Domains
 -------------------------
-- Philosophy Of Mathematics: corpus signal 565
+- Philosophy Of Mathematics: corpus signal 566
 - Physics And Quantum Mechanics: corpus signal 1,442
-- Philosophy Of Science: corpus signal 2,870
-- Cognitive Science: corpus signal 1,050
-- Anthropology And Psychology Of Worship: corpus signal 842
+- Philosophy Of Science: corpus signal 2,867
+- Cognitive Science: corpus signal 1,052
+- Anthropology And Psychology Of Worship: corpus signal 840
 
 Per-Composition Findings
 ------------------------
@@ -749,6 +749,32 @@ Meaning arc:
 Practical theology applications:
 - Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+automatic_analysis_and_influence_of_hierarchical_structure_on_melody_rhythm_and_8fa8e3e1e230.md
+-----------------------------------------------------------------------------------------------
+Events: 3
+Notes: 3
+Chord events: 0
+Melodic intervals: 2
+Harmonic intervals: 0
+Consonant intervals: 2
+Tension intervals: 0
+Return motifs: 1
+Meaning confidence: plausible meaning pattern
+Most common intervals:
+- unison/octave: 2 | ratio 1:1 or 2:1
+Layer interpretation:
+- Mathematical Structure: 4
+- Physical Order: 2
+- Meaning And Logos: 2
+Meaning arc:
+- Opening: Creation And Order (5)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
 
 consonance_and_dissonance_in_music_theory_study_guide_08c1d616d233.md
 ---------------------------------------------------------------------
@@ -1484,6 +1510,27 @@ Practical theology applications:
 
 chicks_like_consonant_music_8bddfe83ce5c.md
 -------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+co_evolution_between_streaming_and_live_music_leads_a_way_to_the_sustainable_gro_50a1cca708ba.md
+------------------------------------------------------------------------------------------------
 Events: 1
 Notes: 1
 Chord events: 0
