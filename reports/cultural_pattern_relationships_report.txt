@@ -9,19 +9,19 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 483
-Total cultural words analyzed: 73,021
+Cultural documents analyzed: 484
+Total cultural words analyzed: 73,229
 
 Cultural Domains
 ----------------
-- Science And Discovery: 1,017
+- Science And Discovery: 1,019
 - Politics And Justice: 600
-- History And Memory: 378
+- History And Memory: 379
 - Technology And AI: 291
-- Psychology And Human Behavior: 211
+- Psychology And Human Behavior: 213
 - Health And Suffering: 131
 - Family And Community: 126
-- Art And Beauty: 90
+- Art And Beauty: 91
 - Global Text Traditions: 77
 - Economics And Work: 64
 - World Languages: 52
@@ -33,30 +33,30 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 2,412
+- Father: 2,417
 - Son: 28
 - Holy Spirit: 4
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 521
+- Desire And Longing: 522
 - Moral Confrontation: 303
 - Creation And Order: 83
 - Communal Practice: 78
-- Transformation And Hope: 75
+- Transformation And Hope: 76
 - Alienation And Lament: 14
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 1,081 | religious/science corpus 2,684
-- Mathematical Structure: cultural inputs 1,313 | religious/science corpus 649
-- Mathematical Theophany: cultural inputs 26 | religious/science corpus 1,284
-- Quantum Probability: cultural inputs 4 | religious/science corpus 174
-- Life And Consciousness: cultural inputs 1,489 | religious/science corpus 6,676
-- Meaning And Logos: cultural inputs 1,724 | religious/science corpus 6,129
-- Moral Response: cultural inputs 1,981 | religious/science corpus 2,488
-- Worship And Community: cultural inputs 1,083 | religious/science corpus 1,629
-- Transformation: cultural inputs 998 | religious/science corpus 2,233
+- Physical Order: cultural inputs 1,083 | religious/science corpus 2,706
+- Mathematical Structure: cultural inputs 1,315 | religious/science corpus 650
+- Mathematical Theophany: cultural inputs 26 | religious/science corpus 1,282
+- Quantum Probability: cultural inputs 4 | religious/science corpus 209
+- Life And Consciousness: cultural inputs 1,493 | religious/science corpus 6,694
+- Meaning And Logos: cultural inputs 1,728 | religious/science corpus 6,128
+- Moral Response: cultural inputs 1,984 | religious/science corpus 2,485
+- Worship And Community: cultural inputs 1,084 | religious/science corpus 1,626
+- Transformation: cultural inputs 1,001 | religious/science corpus 2,223
 
 Per-Domain Findings
 -------------------
@@ -4956,6 +4956,31 @@ Practical domain applications:
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
+grey_voters_and_populist_voting_the_role_of_religiosity_and_national_collective_76665d77a60a.md
+-----------------------------------------------------------------------------------------------
+Words: 208
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Life And Consciousness: 4
+- Meaning And Logos: 4
+- Moral Response: 3
+- Transformation: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Worship And Community: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use psychology to examine perception, attachment, habit, trauma, desire, and change without reducing faith to mental process.
+- Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
 
 historical_and_theological_sources_of_secularism_and_secularisation_afb5fedb0e19.md
 -----------------------------------------------------------------------------------
