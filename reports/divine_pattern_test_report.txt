@@ -13,14 +13,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 180
-Test words analyzed: 27,315
+Test documents analyzed: 181
+Test words analyzed: 27,461
 
 Pressure Types
 --------------
-- Science Guardrail: 360
-- Suffering Without Resolution: 325
-- Counterexample Pressure: 174
+- Science Guardrail: 362
+- Suffering Without Resolution: 326
+- Counterexample Pressure: 175
 - Injustice And Corruption: 69
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 37
@@ -30,19 +30,19 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 391
-- Primary Or Classical Source: 156
+- Scholarly Or Scientific Source: 393
+- Primary Or Classical Source: 157
 - Practical Lived Source: 99
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- needs deeper review but still plausible: 97
+- needs deeper review but still plausible: 98
 - resilient under pressure: 83
 
 Hold Assessment
 ---------------
-- not enough friction to judge hold: 95
+- not enough friction to judge hold: 96
 - pressure present but hold question is underdeveloped: 74
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
@@ -52,26 +52,26 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 877 | research corpus 6,560
+- Father: test set 882 | research corpus 6,580
 - Son: test set 34 | research corpus 6,823
-- Holy Spirit: test set 49 | research corpus 1,853
+- Holy Spirit: test set 49 | research corpus 1,854
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 56 | research corpus 2,706
-- Mathematical Structure: test set 18 | research corpus 650
-- Mathematical Theophany: test set 455 | research corpus 1,282
-- Quantum Probability: test set 25 | research corpus 209
-- Life And Consciousness: test set 516 | research corpus 6,694
-- Meaning And Logos: test set 44 | research corpus 6,128
-- Moral Response: test set 56 | research corpus 2,485
-- Worship And Community: test set 104 | research corpus 1,626
-- Transformation: test set 64 | research corpus 2,223
+- Physical Order: test set 56 | research corpus 2,692
+- Mathematical Structure: test set 18 | research corpus 678
+- Mathematical Theophany: test set 457 | research corpus 1,290
+- Quantum Probability: test set 25 | research corpus 177
+- Life And Consciousness: test set 519 | research corpus 6,708
+- Meaning And Logos: test set 44 | research corpus 6,129
+- Moral Response: test set 56 | research corpus 2,540
+- Worship And Community: test set 104 | research corpus 1,631
+- Transformation: test set 64 | research corpus 2,228
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 479
-- Desire And Longing: 190
+- Creation And Order: 481
+- Desire And Longing: 191
 - Alienation And Lament: 91
 - Communal Practice: 86
 - Transformation And Hope: 68
@@ -3434,6 +3434,26 @@ Recommendations:
 
 theatre_at_the_impasse_political_theology_and_blitz_theatre_group_s_late_night_479135b3b06c.md
 ----------------------------------------------------------------------------------------------
+Words: 146
+Meaning confidence: thin meaning signal
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+theodicies_on_trial_73e0a2dde826.md
+-----------------------------------
 Words: 146
 Meaning confidence: thin meaning signal
 Test confidence: needs deeper review but still plausible
