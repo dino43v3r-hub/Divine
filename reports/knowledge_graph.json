@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 24353,
+  "edge_count": 24465,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -11599,6 +11599,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_ritual_failure_and_circumcision_8bb1b6f52f4c_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_ritual_failure_and_circumcision_8bb1b6f52f4c_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_ritual_failure_and_circumcision_8bb1b6f52f4c_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_ritual_failure_and_circumcision_8bb1b6f52f4c_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_ritual_failure_and_circumcision_8bb1b6f52f4c_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_salut_aux_armes_rev_rev_kagarlickij_b_yu_dolgoe_otstuplenie_the_long_r",
       "target": "lane:research_documents"
     },
@@ -12849,6 +12874,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_gathering_twilight_information_privacy_on_the_internet_in_the_post",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_gathering_twilight_information_privacy_on_the_internet_in_the_post",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_gathering_twilight_information_privacy_on_the_internet_in_the_post",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_gathering_twilight_information_privacy_on_the_internet_in_the_post",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_the_gathering_twilight_information_privacy_on_the_internet_in_the_post",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_the_god_of_love_and_human_dignity_essays_in_honour_of_george_m_newland",
       "target": "lane:research_documents"
     },
@@ -13884,6 +13934,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_theological_perspective_c630dbce55e8_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_theological_perspective_c630dbce55e8_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_theological_perspective_c630dbce55e8_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_theological_perspective_c630dbce55e8_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_theological_perspective_c630dbce55e8_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_theology_and_economics_8fbe289f73f6_md",
       "target": "lane:research_documents"
     },
@@ -14350,6 +14425,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_transportation_110346c4fdf0_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_traumatic_experience_of_divorce_within_a_pastoral_family_in_the_volksk",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_traumatic_experience_of_divorce_within_a_pastoral_family_in_the_volksk",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_traumatic_experience_of_divorce_within_a_pastoral_family_in_the_volksk",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_traumatic_experience_of_divorce_within_a_pastoral_family_in_the_volksk",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_traumatic_experience_of_divorce_within_a_pastoral_family_in_the_volksk",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -35494,6 +35594,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_folk_literature_2cbb61fc5646_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_folk_literature_2cbb61fc5646_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_folk_literature_2cbb61fc5646_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_folk_literature_2cbb61fc5646_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_folk_literature_2cbb61fc5646_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:all_texts_auto_imported_cloud_candidates_jewish_folk_literature_7103c2108095_md",
       "target": "lane:all_texts"
     },
@@ -39484,6 +39609,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_darwinism_in_morals_and_other_essays_cdaadf95e82c_md",
+      "target": "lane:other_religious_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_darwinism_in_morals_and_other_essays_cdaadf95e82c_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_darwinism_in_morals_and_other_essays_cdaadf95e82c_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_darwinism_in_morals_and_other_essays_cdaadf95e82c_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_darwinism_in_morals_and_other_essays_cdaadf95e82c_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_darwinism_in_morals_and_other_essays_cdaadf95e82c_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:other_religious_texts_auto_imported_cloud_candidates_defeating_satan_and_liberating_israel_jesus_and_daniel_s_visions_46",
       "target": "lane:other_religious_texts"
     },
@@ -49845,6 +50000,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_metaphysics_and_theology_in_tension_augustine_7a3d87e8814c_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_method_and_praxis_in_theology_82bf6e0a1e85_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_method_and_praxis_in_theology_82bf6e0a1e85_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_method_and_praxis_in_theology_82bf6e0a1e85_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_method_and_praxis_in_theology_82bf6e0a1e85_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_method_and_praxis_in_theology_82bf6e0a1e85_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -63339,6 +63519,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collectio",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collectio",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collectio",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collectio",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collectio",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collectio",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collectio",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_20th_wcp_the_power_of_symbolism_in_byzantine_art_df7c48a10478_md",
       "target": "lane:visual_art"
     },
@@ -64274,6 +64489,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_art_images_open_access_resources_in_religious_theological_studies_libguides_at",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_art_images_open_access_resources_in_religious_theological_studies_libguides_at",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_art_images_open_access_resources_in_religious_theological_studies_libguides_at",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_art_images_open_access_resources_in_religious_theological_studies_libguides_at",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_art_images_open_access_resources_in_religious_theological_studies_libguides_at",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_art_images_open_access_resources_in_religious_theological_studies_libguides_at",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_art_of_the_moving_picture_f1e3dcbb8063_md",
       "target": "lane:visual_art"
     },
@@ -65690,6 +65935,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:visual_art_auto_imported_cloud_candidates_conclusion_123662027d75_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_constructed_truths_the_history_of_photographs_as_legal_evidence_2030d41815c8_m",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_constructed_truths_the_history_of_photographs_as_legal_evidence_2030d41815c8_m",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_constructed_truths_the_history_of_photographs_as_legal_evidence_2030d41815c8_m",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_constructed_truths_the_history_of_photographs_as_legal_evidence_2030d41815c8_m",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_constructed_truths_the_history_of_photographs_as_legal_evidence_2030d41815c8_m",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_constructed_truths_the_history_of_photographs_as_legal_evidence_2030d41815c8_m",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -68634,6 +68909,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_mystery_of_sacred_images_understanding_the_visual_language_of_faith_daad30fee8",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_mystery_of_sacred_images_understanding_the_visual_language_of_faith_daad30fee8",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_mystery_of_sacred_images_understanding_the_visual_language_of_faith_daad30fee8",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_mystery_of_sacred_images_understanding_the_visual_language_of_faith_daad30fee8",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_mystery_of_sacred_images_understanding_the_visual_language_of_faith_daad30fee8",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_mystery_of_sacred_images_understanding_the_visual_language_of_faith_daad30fee8",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_northern_irish_writing_after_the_troubles_de7d236b3faf_md",
       "target": "lane:visual_art"
     },
@@ -69579,6 +69884,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reflections_of_empire_in_isaiah_1_39_responses_to_assyrian_ideology_97b340785c",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reflections_of_empire_in_isaiah_1_39_responses_to_assyrian_ideology_97b340785c",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reflections_of_empire_in_isaiah_1_39_responses_to_assyrian_ideology_97b340785c",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reflections_of_empire_in_isaiah_1_39_responses_to_assyrian_ideology_97b340785c",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reflections_of_empire_in_isaiah_1_39_responses_to_assyrian_ideology_97b340785c",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_reflections_of_empire_in_isaiah_1_39_responses_to_assyrian_ideology_97b340785c",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_reflections_of_empire_in_isaiah_1_39_responses_to_assyrian_ideology_fd4fda298f",
       "target": "lane:visual_art"
     },
@@ -72285,6 +72620,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:visual_art_auto_imported_cloud_candidates_the_witness_as_object_033846d8fa95_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_world_model_controversy_f221fddce20c_md",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_world_model_controversy_f221fddce20c_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_world_model_controversy_f221fddce20c_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_world_model_controversy_f221fddce20c_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_world_model_controversy_f221fddce20c_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -86690,6 +87050,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_ostministerium_ideology_and_ethics_4703ec6922fb_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_politics_of_ecology_land_life_and_law_in_medieval_britain_7bf66839dd8",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_politics_of_ecology_land_life_and_law_in_medieval_britain_7bf66839dd8",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_politics_of_ecology_land_life_and_law_in_medieval_britain_7bf66839dd8",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_politics_of_ecology_land_life_and_law_in_medieval_britain_7bf66839dd8",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_politics_of_ecology_land_life_and_law_in_medieval_britain_7bf66839dd8",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -102289,6 +102674,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_with_oclc_vp_c4e437b85f1c_md",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_with_oclc_vp_c4e437b85f1c_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_with_oclc_vp_c4e437b85f1c_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_with_oclc_vp_c4e437b85f1c_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_with_oclc_vp_c4e437b85f1c_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_with_oclc_vp_c4e437b85f1c_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_with_stevan_harnad_83ba2162630f_md",
       "target": "lane:human_stories"
     },
@@ -102739,6 +103154,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_6_spaces_of_listening_the_record_shop_c9255123",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_6_spaces_of_listening_the_record_shop_c9255123",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_6_spaces_of_listening_the_record_shop_c9255123",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_6_spaces_of_listening_the_record_shop_c9255123",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_6_spaces_of_listening_the_record_shop_c9255123",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_6_spaces_of_listening_the_record_shop_c9255123",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_38e926",
       "target": "lane:human_stories"
     },
@@ -102765,6 +103210,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_38e926",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_49abd0",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_49abd0",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_49abd0",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_49abd0",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_49abd0",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_49abd0",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -106709,6 +107184,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_still_not_a_british_subject_race_and_uk_poetry_2bac56cf8409_md",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_still_not_a_british_subject_race_and_uk_poetry_2bac56cf8409_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_still_not_a_british_subject_race_and_uk_poetry_2bac56cf8409_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_still_not_a_british_subject_race_and_uk_poetry_2bac56cf8409_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_still_not_a_british_subject_race_and_uk_poetry_2bac56cf8409_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_stories_and_their_limits_narrative_approaches_to_bioethics_review_e829a",
       "target": "lane:modern_literature"
     },
@@ -116129,6 +116629,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_canadian_modernist_poetry_and_the_rise_of_personal_religions_82a7c833b2b1_m",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_canadian_modernist_poetry_and_the_rise_of_personal_religions_82a7c833b2b1_m",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_canadian_modernist_poetry_and_the_rise_of_personal_religions_82a7c833b2b1_m",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_canadian_modernist_poetry_and_the_rise_of_personal_religions_82a7c833b2b1_m",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_canadian_modernist_poetry_and_the_rise_of_personal_religions_82a7c833b2b1_m",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_canadian_modernist_poetry_and_the_rise_of_personal_religions_82a7c833b2b1_m",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_carrie_doehring_s_feminist_pastoral_theology_trauma_relationship_power_and_",
       "target": "lane:pattern_tests"
     },
@@ -118350,6 +118880,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_planting_with_a_limp_recovering_lament_in_growing_new_churches_adc4ddfdd0f0",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_poverty_as_freedom_7f0027af66c9_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_poverty_as_freedom_7f0027af66c9_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_poverty_as_freedom_7f0027af66c9_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_poverty_as_freedom_7f0027af66c9_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_poverty_as_freedom_7f0027af66c9_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_poverty_as_freedom_7f0027af66c9_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -121769,7 +122329,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 3882,
+  "node_count": 3902,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -126057,6 +126617,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_ritual_failure_and_circumcision_8bb1b6f52f4c_md",
+      "label": "Ritual Failure and Circumcision",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/ritual_failure_and_circumcision_8bb1b6f52f4c.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_salut_aux_armes_rev_rev_kagarlickij_b_yu_dolgoe_otstuplenie_the_long_r",
       "label": "Salut aux armes! Rev.: Rev.: Kagarlickij B.Yu. Dolgoe otstuplenie (The Long Retreat). M.; Berlin: Direktmedia Pablishing, 2023. 336 s.",
       "lane": "research_documents",
@@ -126530,6 +127101,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_the_gathering_twilight_information_privacy_on_the_internet_in_the_post",
+      "label": "The Gathering Twilight? Information Privacy on the Internet in the Post-Enlightenment Era",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/the_gathering_twilight_information_privacy_on_the_internet_in_the_post_enlighten_3305cc1f69f3.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_the_god_of_love_and_human_dignity_essays_in_honour_of_george_m_newland",
       "label": "The God of Love and Human Dignity: Essays in Honour of George M. Newlands. Edited by Paul Middleton.",
       "lane": "research_documents",
@@ -126904,6 +127486,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_theological_perspective_c630dbce55e8_md",
+      "label": "Theological Perspective",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/theological_perspective_c630dbce55e8.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_theology_and_economics_8fbe289f73f6_md",
       "label": "Theology and Economics",
       "lane": "research_documents",
@@ -127097,6 +127690,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/transportation_110346c4fdf0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_traumatic_experience_of_divorce_within_a_pastoral_family_in_the_volksk",
+      "label": "Traumatic experience of divorce within a pastoral family in the Volkskerk van Africa (People\u2019s Church of Africa)",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/traumatic_experience_of_divorce_within_a_pastoral_family_in_the_volkskerk_van_af_b417de982f92.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -134417,6 +135021,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_jewish_folk_literature_2cbb61fc5646_md",
+      "label": "Jewish Folk Literature",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/jewish_folk_literature_2cbb61fc5646.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_jewish_folk_literature_7103c2108095_md",
       "label": "Jewish folk literature",
       "lane": "all_texts",
@@ -135765,6 +136380,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "other_religious_texts/auto_imported_cloud_candidates/cultural_memory_and_imagination_dreams_and_dreaming_in_the_roman_empire_31_bc_ad_8e6b3272c4f0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:other_religious_texts_auto_imported_cloud_candidates_darwinism_in_morals_and_other_essays_cdaadf95e82c_md",
+      "label": "Darwinism in morals : and other essays /",
+      "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "other_religious_texts/auto_imported_cloud_candidates/darwinism_in_morals_and_other_essays_cdaadf95e82c.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -139395,6 +140021,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/metaphysics_and_theology_in_tension_augustine_7a3d87e8814c.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_method_and_praxis_in_theology_82bf6e0a1e85_md",
+      "label": "Method And Praxis in Theology",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/method_and_praxis_in_theology_82bf6e0a1e85.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -144273,6 +144910,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collectio",
+      "label": "1.5K views \u00b7 36 reactions | Museo de Arte de Ponce houses an exceptional collection of Early Modern religious art, particularly from the seventeenth century. In its early years, the museum prioritized acquiring works of remarkable quality over follow",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collection_7564b22f7827.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_20th_wcp_the_power_of_symbolism_in_byzantine_art_df7c48a10478_md",
       "label": "20th WCP: The Power of Symbolism in Byzantine Art",
       "lane": "visual_art",
@@ -144565,6 +145213,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/art_as_a_message_realized_throught_various_means_of_artistic_expression_3b423c195de4.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_art_images_open_access_resources_in_religious_theological_studies_libguides_at",
+      "label": "Art & Images - Open Access Resources in Religious & Theological Studies - LibGuides at Duke University",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/art_images_open_access_resources_in_religious_theological_studies_libguides_at_d_1d64e6f95453.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -145060,6 +145719,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/conclusion_123662027d75.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_constructed_truths_the_history_of_photographs_as_legal_evidence_2030d41815c8_m",
+      "label": "Constructed Truths: The History of Photographs as Legal Evidence",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/constructed_truths_the_history_of_photographs_as_legal_evidence_2030d41815c8.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -146044,6 +146714,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_mystery_of_sacred_images_understanding_the_visual_language_of_faith_daad30fee8",
+      "label": "Mystery of Sacred Images: Understanding the Visual Language of Faith",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/mystery_of_sacred_images_understanding_the_visual_language_of_faith_daad30fee8dc.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_northern_irish_writing_after_the_troubles_de7d236b3faf_md",
       "label": "Northern Irish Writing After the Troubles",
       "lane": "visual_art",
@@ -146358,6 +147039,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/recycled_culture_the_significance_of_intertextuality_in_twenty_first_century_mus_c7171740accb.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_reflections_of_empire_in_isaiah_1_39_responses_to_assyrian_ideology_97b340785c",
+      "label": "Reflections of Empire in Isaiah 1-39: Responses to Assyrian Ideology",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/reflections_of_empire_in_isaiah_1_39_responses_to_assyrian_ideology_97b340785c07.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -147315,6 +148007,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/the_witness_as_object_033846d8fa95.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_the_world_model_controversy_f221fddce20c_md",
+      "label": "The World Model Controversy",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/the_world_model_controversy_f221fddce20c.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -152386,6 +153089,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/the_ostministerium_ideology_and_ethics_4703ec6922fb.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_the_politics_of_ecology_land_life_and_law_in_medieval_britain_7bf66839dd8",
+      "label": "The Politics of Ecology: Land, Life, and Law in Medieval Britain",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/the_politics_of_ecology_land_life_and_law_in_medieval_britain_7bf66839dd8c.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -157869,6 +158583,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_with_oclc_vp_c4e437b85f1c_md",
+      "label": "Podcast interview with OCLC VP",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/podcast_interview_with_oclc_vp_c4e437b85f1c.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:human_stories_auto_imported_cloud_candidates_podcast_interview_with_stevan_harnad_83ba2162630f_md",
       "label": "Podcast interview with Stevan Harnad",
       "lane": "human_stories",
@@ -158034,12 +158759,34 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_6_spaces_of_listening_the_record_shop_c9255123",
+      "label": "Sounding Out! Podcast Episode #6: Spaces of Listening / The Record Shop",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/sounding_out_podcast_episode_6_spaces_of_listening_the_record_shop_c9255123e09b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_38e926",
       "label": "Sounding Out! Podcast Episode #8: Can't Stop Won't Stop (The Awesomeness)!",
       "lane": "human_stories",
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "human_stories/auto_imported_cloud_candidates/sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_38e9262733c7.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_49abd0",
+      "label": "Sounding Out! Podcast Episode #8: Can't Stop Won't Stop (The Awesomeness)!",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_49abd0e1f466.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -159415,6 +160162,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "modern_literature/auto_imported_cloud_candidates/spiritual_religious_experience_in_modern_society_e4ea263f8de0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_still_not_a_british_subject_race_and_uk_poetry_2bac56cf8409_md",
+      "label": "Still Not a British Subject: Race and UK Poetry",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/still_not_a_british_subject_race_and_uk_poetry_2bac56cf8409.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -162478,6 +163236,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_canadian_modernist_poetry_and_the_rise_of_personal_religions_82a7c833b2b1_m",
+      "label": "Canadian Modernist Poetry and the Rise of Personal Religions",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/canadian_modernist_poetry_and_the_rise_of_personal_religions_82a7c833b2b1.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_carrie_doehring_s_feminist_pastoral_theology_trauma_relationship_power_and_",
       "label": "Carrie Doehring's Feminist Pastoral Theology : Trauma, Relationship, Power, and Spirituality",
       "lane": "pattern_tests",
@@ -163155,6 +163924,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/planting_with_a_limp_recovering_lament_in_growing_new_churches_adc4ddfdd0f0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_poverty_as_freedom_7f0027af66c9_md",
+      "label": "Poverty as Freedom",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/poverty_as_freedom_7f0027af66c9.md",
       "review_note_count": 1,
       "type": "document"
     },

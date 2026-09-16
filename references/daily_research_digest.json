@@ -4,40 +4,33 @@
     "limit": 40,
     "scope": "local_lane_candidate_notes_not_human_reviewed_evidence"
   },
-  "auto_imported_local_note_count": 28,
+  "auto_imported_local_note_count": 21,
   "auto_imported_local_note_paths": [
-    "psychology_inputs/auto_imported_cloud_candidates/omnia_sunt_communia_on_the_commons_and_the_transformation_to_postcapitalism_23c8d903a114.md",
-    "deep_sources/auto_imported_cloud_candidates/the_evolution_of_quantum_secure_direct_communication_on_the_road_to_the_qinterne_bc8041e8adb0.md",
-    "history_inputs/auto_imported_cloud_candidates/eco_miserabilism_and_radical_hope_on_the_utopian_vision_of_post_apocalyptic_envi_bf0877b707c4.md",
-    "psychology_inputs/auto_imported_cloud_candidates/every_time_i_feel_the_spirit_religious_experience_and_ritual_in_an_african_ameri_6b6c843fa46b.md",
-    "cultural_inputs/auto_imported_cloud_candidates/religion_and_growth_54abf84ca14e.md",
-    "visual_art/auto_imported_cloud_candidates/the_alexiad_of_anna_komnene_682540e9ad34.md",
-    "music_notes/auto_imported_cloud_candidates/affective_evolutionary_music_composition_with_metacompose_de5d624f44f8.md",
-    "psychology_inputs/auto_imported_cloud_candidates/disenchantment_the_formation_distortion_and_transformation_of_identity_in_charle_33935e023d6d.md",
-    "other_religious_texts/auto_imported_cloud_candidates/horizons_of_shamanism_a_triangular_approach_to_the_history_and_anthropology_of_e_650d2bf23620.md",
-    "deep_sources/auto_imported_cloud_candidates/perlindungan_konsumen_terhadap_praktik_overclaim_dalam_industri_skincare_perband_aad80e1d0573.md",
-    "research_documents/auto_imported_cloud_candidates/understanding_of_failure_and_failure_of_understanding_aspects_of_failure_in_the_5dbfd08bffb8.md",
-    "theologians/auto_imported_cloud_candidates/the_christian_theology_reader_30ef5c209fb8.md",
-    "cultural_inputs/auto_imported_cloud_candidates/re_imagining_the_future_of_genetic_counseling_a_reflexive_qualitative_analysis_o_2fea7e076440.md",
-    "research_documents/auto_imported_cloud_candidates/from_the_cyborg_to_the_apparatus_figures_of_posthumanism_in_the_philosophy_of_gi_764ef76b99cd.md",
-    "visual_art/auto_imported_cloud_candidates/reception_of_ancient_art_the_cast_collections_of_the_university_of_tartu_art_mus_55abf64b4b97.md",
-    "research_documents/auto_imported_cloud_candidates/punctuality_2cb4a3a7424e.md",
-    "theologians/auto_imported_cloud_candidates/pathways_to_sustainability_the_greening_of_us_faith_communities_240094a5c298.md",
-    "theologians/auto_imported_cloud_candidates/chapel_with_shane_pruitt_august_28_2024_6082c6627c60.md",
-    "deep_sources/auto_imported_cloud_candidates/difference_and_the_boundary_of_time_b4963c44e998.md",
-    "pattern_tests/auto_imported_cloud_candidates/theodicies_on_trial_73e0a2dde826.md",
-    "music_notes/auto_imported_cloud_candidates/harmony_the_mathematics_of_music_10aac79e264a.md",
-    "cultural_inputs/auto_imported_cloud_candidates/justice_and_mercy_moral_theology_and_the_exercise_of_law_in_twelfth_century_engl_dee2c2a06bbb.md",
-    "music_notes/auto_imported_cloud_candidates/pythagorean_thought_in_music_theory_the_mathematics_of_harmony_cognitive_psycho_4e780797f13a.md",
-    "cultural_inputs/auto_imported_cloud_candidates/tag_justice_political_theology_network_fc213baa2f84.md",
-    "music_notes/auto_imported_cloud_candidates/the_hidden_mathematics_of_music_and_harmony_6d92d6f2b9b2.md",
-    "music_notes/auto_imported_cloud_candidates/pdf_infants_perception_of_consonance_and_dissonance_in_a6492dce6f95.md",
-    "cultural_inputs/auto_imported_cloud_candidates/social_justice_following_jesus_b6adbad5fbca.md",
-    "cultural_inputs/auto_imported_cloud_candidates/mercy_and_justice_in_political_life_augustine_seneca_and_nuss_f85f78f9a71d.md"
+    "other_religious_texts/auto_imported_cloud_candidates/darwinism_in_morals_and_other_essays_cdaadf95e82c.md",
+    "all_texts/auto_imported_cloud_candidates/jewish_folk_literature_2cbb61fc5646.md",
+    "modern_literature/auto_imported_cloud_candidates/still_not_a_british_subject_race_and_uk_poetry_2bac56cf8409.md",
+    "research_documents/auto_imported_cloud_candidates/the_gathering_twilight_information_privacy_on_the_internet_in_the_post_enlighten_3305cc1f69f3.md",
+    "cultural_inputs/auto_imported_cloud_candidates/the_politics_of_ecology_land_life_and_law_in_medieval_britain_7bf66839dd8c.md",
+    "theologians/auto_imported_cloud_candidates/method_and_praxis_in_theology_82bf6e0a1e85.md",
+    "visual_art/auto_imported_cloud_candidates/reflections_of_empire_in_isaiah_1_39_responses_to_assyrian_ideology_97b340785c07.md",
+    "music_notes/auto_imported_cloud_candidates/harmony_keyboard_harmony_357147bd8a57.md",
+    "pattern_tests/auto_imported_cloud_candidates/poverty_as_freedom_7f0027af66c9.md",
+    "research_documents/auto_imported_cloud_candidates/ritual_failure_and_circumcision_8bb1b6f52f4c.md",
+    "visual_art/auto_imported_cloud_candidates/the_world_model_controversy_f221fddce20c.md",
+    "research_documents/auto_imported_cloud_candidates/theological_perspective_c630dbce55e8.md",
+    "pattern_tests/auto_imported_cloud_candidates/canadian_modernist_poetry_and_the_rise_of_personal_religions_82a7c833b2b1.md",
+    "research_documents/auto_imported_cloud_candidates/traumatic_experience_of_divorce_within_a_pastoral_family_in_the_volkskerk_van_af_b417de982f92.md",
+    "human_stories/auto_imported_cloud_candidates/podcast_interview_with_oclc_vp_c4e437b85f1c.md",
+    "human_stories/auto_imported_cloud_candidates/sounding_out_podcast_episode_6_spaces_of_listening_the_record_shop_c9255123e09b.md",
+    "human_stories/auto_imported_cloud_candidates/sounding_out_podcast_episode_8_can_t_stop_won_t_stop_the_awesomeness_49abd0e1f466.md",
+    "visual_art/auto_imported_cloud_candidates/art_images_open_access_resources_in_religious_theological_studies_libguides_at_d_1d64e6f95453.md",
+    "visual_art/auto_imported_cloud_candidates/constructed_truths_the_history_of_photographs_as_legal_evidence_2030d41815c8.md",
+    "visual_art/auto_imported_cloud_candidates/1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collection_7564b22f7827.md",
+    "visual_art/auto_imported_cloud_candidates/mystery_of_sacred_images_understanding_the_visual_language_of_faith_daad30fee8dc.md"
   ],
   "auto_review_approval_counts": {
-    "approved_for_review_queue": 8771,
-    "not_auto_approved": 2673
+    "approved_for_review_queue": 8785,
+    "not_auto_approved": 2680
   },
   "auto_review_approval_setup": {
     "enabled": true,
@@ -47,135 +40,434 @@
     "warnings_allowed": false
   },
   "automated_evidence_counts": {
-    "do_not_strengthen_claim": 107,
-    "moderate_scholarly_candidate": 3437,
-    "strong_scholarly_candidate": 7185,
-    "weak_scholarly_candidate": 715
+    "do_not_strengthen_claim": 109,
+    "moderate_scholarly_candidate": 3444,
+    "strong_scholarly_candidate": 7195,
+    "weak_scholarly_candidate": 717
   },
-  "errors": [],
+  "errors": [
+    "search_arxiv failed for quantum_science_guardrails: HTTP Error 406: Not Acceptable",
+    "search_arxiv failed for quantum_science_guardrails: HTTP Error 406: Not Acceptable",
+    "search_arxiv failed for quantum_science_guardrails: HTTP Error 406: Not Acceptable",
+    "search_arxiv failed for quantum_science_guardrails: HTTP Error 406: Not Acceptable",
+    "search_arxiv failed for quantum_science_guardrails: HTTP Error 406: Not Acceptable",
+    "search_arxiv failed for music_math: HTTP Error 406: Not Acceptable",
+    "search_arxiv failed for music_math: HTTP Error 406: Not Acceptable",
+    "search_arxiv failed for music_math: HTTP Error 406: Not Acceptable",
+    "search_arxiv failed for music_math: HTTP Error 406: Not Acceptable",
+    "search_arxiv failed for music_math: HTTP Error 406: Not Acceptable",
+    "search_pubmed failed for art_beauty: The read operation timed out",
+    "OpenCitations enrichment failed for DOI 10.2307/j.ctt1cg4jxq.7: The read operation timed out"
+  ],
   "layer_counts": {
-    "all_texts": 2857,
+    "all_texts": 2862,
     "biblical_languages": 690,
-    "cultural_inputs": 3046,
-    "deep_sources": 3770,
-    "history_inputs": 2033,
-    "human_stories": 4248,
-    "modern_literature": 1125,
-    "music_notes": 577,
-    "other_religious_texts": 1906,
-    "pattern_tests": 3331,
-    "psychology_inputs": 2990,
-    "research_documents": 1932,
-    "research_documents/christian_sources": 847,
-    "theologians": 3202,
-    "visual_art": 2605,
-    "world_languages": 1592
+    "cultural_inputs": 3053,
+    "deep_sources": 3777,
+    "history_inputs": 2036,
+    "human_stories": 4260,
+    "modern_literature": 1129,
+    "music_notes": 578,
+    "other_religious_texts": 1908,
+    "pattern_tests": 3340,
+    "psychology_inputs": 2996,
+    "research_documents": 1936,
+    "research_documents/christian_sources": 848,
+    "theologians": 3208,
+    "visual_art": 2612,
+    "world_languages": 1593
   },
   "media_candidate_counts": {
-    "image": 354,
-    "podcast": 736,
-    "video": 729
+    "image": 355,
+    "podcast": 739,
+    "video": 732
   },
   "new_auto_review_approval_counts": {
-    "approved_for_review_queue": 16,
-    "not_auto_approved": 12
+    "approved_for_review_queue": 14,
+    "not_auto_approved": 7
   },
   "new_automated_evidence_counts": {
-    "do_not_strengthen_claim": 1,
+    "do_not_strengthen_claim": 2,
     "moderate_scholarly_candidate": 7,
-    "strong_scholarly_candidate": 13,
-    "weak_scholarly_candidate": 7
+    "strong_scholarly_candidate": 10,
+    "weak_scholarly_candidate": 2
   },
-  "new_count": 28,
+  "new_count": 21,
   "new_layer_counts": {
-    "all_texts": 3,
-    "cultural_inputs": 9,
-    "deep_sources": 13,
-    "history_inputs": 11,
+    "all_texts": 4,
+    "cultural_inputs": 7,
+    "deep_sources": 7,
+    "history_inputs": 3,
     "human_stories": 12,
-    "music_notes": 5,
+    "modern_literature": 3,
+    "music_notes": 1,
     "other_religious_texts": 2,
     "pattern_tests": 9,
-    "psychology_inputs": 7,
-    "research_documents": 5,
-    "theologians": 6,
-    "visual_art": 6,
+    "psychology_inputs": 6,
+    "research_documents": 4,
+    "research_documents/christian_sources": 1,
+    "theologians": 5,
+    "visual_art": 7,
     "world_languages": 1
   },
   "new_media_candidate_counts": {
-    "podcast": 2,
-    "video": 1
+    "image": 1,
+    "podcast": 3,
+    "video": 3
   },
   "new_provider_counts": {
-    "Crossref": 3,
-    "Europe PMC": 1,
-    "Internet Archive": 1,
-    "OpenAlex": 15,
-    "Tavily Search": 8
+    "Crossref": 7,
+    "OpenAlex": 10,
+    "Tavily Search": 4
   },
   "new_sources": [
     {
       "authors": [
-        "FIRST BAPTIST NORTH MOBILE"
+        "Ines Angeli Murzaku"
       ],
-      "auto_review_approval": "not_auto_approved",
-      "auto_review_approval_scope": "manual_review_required",
-      "auto_review_approval_warnings": [
-        "automated warning present"
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is strong_scholarly_candidate",
+        "stable DOI present"
       ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "author metadata present",
+        "publication year present",
+        "recognized scholarly source type",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 10,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 6815,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 10,
+      "discovery_page": 3,
+      "doi": "10.4324/9781003379454-3",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "10.4324/9781003379454-3",
+      "layer_review_prompts": [
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
+      ],
+      "layer_routes": [
+        "pattern_tests",
+        "deep_sources",
+        "psychology_inputs",
+        "human_stories"
+      ],
+      "primary_layer": "pattern_tests",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "book-chapter",
+      "summary": "",
+      "tags": [
+        "unresolved_suffering"
+      ],
+      "title": "Poverty as Freedom",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://doi.org/10.4324/9781003379454-3",
+      "year": 2026
+    },
+    {
+      "authors": [
+        "Graham Jensen"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
-        "trusted archive, university, government, museum, library, or public-domain domain",
+        "scholarly metadata provider",
         "author metadata present",
         "publication year present",
         "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
       "automated_evidence_score": 8,
-      "automated_evidence_warnings": [
-        "media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims"
-      ],
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
       "confidence_effect": "none_until_human_review",
-      "copyright_note": "Archive metadata and short description only; review item rights before use.",
-      "corroborating_source_count": 7367,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 0,
-      "discovery_page": 1,
-      "doi": "",
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "corroborating_source_count": 7157,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 40,
+      "discovery_page": 9,
+      "doi": null,
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://archive.org/details/first_baptist_north_mobile-chapel_podcast_2024__shane_pruetta6o8m",
+      "id": "http://hdl.handle.net/10222/80495",
+      "is_retracted": false,
       "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
       ],
       "layer_routes": [
-        "theologians",
-        "research_documents",
-        "all_texts",
-        "human_stories"
+        "pattern_tests",
+        "deep_sources",
+        "psychology_inputs",
+        "human_stories",
+        "modern_literature"
       ],
-      "media_kind": "podcast",
-      "media_review_prompt": "Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.",
-      "primary_layer": "theologians",
-      "provider": "Internet Archive",
-      "quality": "reference metadata",
-      "requires_multimodal_review": true,
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "archive.org audio",
-      "summary": "The University of Mobile Chapel Podcast brings inspiring messages from chapel services straight to you. Each episode features thought-provoking sermons that challenge and encourage listeners in their faith journey. Whether you\u2019re a student, alumni, or simply seeking spiritual growth, this podcast is a great way to stay connected and deepen your relationship with Christ.",
+      "primary_layer": "pattern_tests",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "dissertation",
+      "summary": "OpenAlex abstract metadata available.",
       "tags": [
-        "trinity"
+        "unresolved_suffering"
       ],
-      "title": "Chapel with Shane Pruitt - August 28, 2024",
+      "title": "Canadian Modernist Poetry and the Rise of Personal Religions",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://archive.org/details/FIRST_BAPTIST_NORTH_MOBILE-Chapel_Podcast_2024__Shane_Pruetta6o8m",
-      "year": "2025"
+      "url": "http://hdl.handle.net/10222/80495",
+      "year": 2018
     },
     {
       "authors": [
-        "Alister E. McGrath"
+        "William C. Bridgman"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is strong_scholarly_candidate",
+        "stable DOI present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "author metadata present",
+        "publication year present",
+        "recognized scholarly source type",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 10,
+      "automated_evidence_warnings": [],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 3516,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 40,
+      "discovery_page": 9,
+      "doi": "10.2307/3385637",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "10.2307/3385637",
+      "layer_review_prompts": [
+        "Check musical structure directly before using it as analogy or theological support.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "music_notes",
+        "deep_sources"
+      ],
+      "primary_layer": "music_notes",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "journal-article",
+      "summary": "",
+      "tags": [
+        "music_math"
+      ],
+      "title": "Harmony: Keyboard Harmony",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://doi.org/10.2307/3385637",
+      "year": 1939
+    },
+    {
+      "authors": [
+        "Randy P. Schiff",
+        "J. Edward Taylor"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is strong_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "recognized scholarly source type",
+        "summary or abstract metadata available",
+        "some citation signal",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 12,
+      "automated_evidence_warnings": [],
+      "citation_count": 3,
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "corroborating_source_count": 3276,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 5,
+      "discovery_page": 2,
+      "doi": null,
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "https://kb.osu.edu/bitstreams/7ee8f4ee-515e-55ab-b566-f9b6283103bf/download",
+      "is_retracted": false,
+      "layer_review_prompts": [
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+      ],
+      "layer_routes": [
+        "cultural_inputs",
+        "history_inputs"
+      ],
+      "primary_layer": "cultural_inputs",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "book",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "politics_justice"
+      ],
+      "title": "The Politics of Ecology: Land, Life, and Law in Medieval Britain",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://kb.osu.edu/bitstreams/7ee8f4ee-515e-55ab-b566-f9b6283103bf/download",
+      "year": 2016
+    },
+    {
+      "authors": [],
+      "auto_review_approval": "not_auto_approved",
+      "auto_review_approval_scope": "manual_review_required",
+      "auto_review_approval_warnings": [
+        "automated score below 7",
+        "label do_not_strengthen_claim is not eligible",
+        "missing DOI or author/year metadata",
+        "automated warning present",
+        "open-web source requires manual review"
+      ],
+      "automated_evidence_label": "do_not_strengthen_claim",
+      "automated_evidence_reasons": [
+        "broad open-web search result",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 3,
+      "automated_evidence_warnings": [
+        "media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims",
+        "open-web result: require corroboration before strengthening claims"
+      ],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 5547,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 0,
+      "discovery_page": 1,
+      "doi": "",
+      "evaluation_use": "do not use to increase confidence without stronger corroboration",
+      "id": "https://hilarywhite.substack.com/p/mystery-of-sacred-images-understanding-c79",
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Track original language, translation range, metaphor, grammar, culture, and rival reading.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs",
+        "world_languages",
+        "all_texts"
+      ],
+      "media_kind": "image",
+      "media_review_prompt": "Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.",
+      "primary_layer": "visual_art",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.54695654,
+      "requires_multimodal_review": true,
+      "review_status": "machine_assessed_do_not_strengthen_claim",
+      "source_type": "image candidate",
+      "summary": "In in this post for paid subscribers, we\u2019ll talk about the symbolic mindset, and lay down some groundwork ideas for understanding a visual language that is understood to be \u201cvisual theology.\u201d We\u2019ll explore iconographic prototypes, images so deeply rooted in tradition that they have become intangible cultural pillars, acting as templates for telling a story from the Bible or the lives of the saints and shaping how we perceive and interpret spiritual realities, ourselves, God and the universe.",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "Mystery of Sacred Images: Understanding the Visual Language of Faith",
+      "truth_assessment": "do_not_strengthen_claim",
+      "url": "https://hilarywhite.substack.com/p/mystery-of-sacred-images-understanding-c79",
+      "year": null
+    },
+    {
+      "authors": [
+        "Magne Myrtveit"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "some citation signal",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 9,
+      "automated_evidence_warnings": [],
+      "citation_count": 7,
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "corroborating_source_count": 3406,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 30,
+      "discovery_page": 7,
+      "doi": null,
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "https://hdl.handle.net/1956/1974",
+      "is_retracted": false,
+      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.",
+        "Classify the cultural domain and practical consequences before making theological claims."
+      ],
+      "layer_routes": [
+        "visual_art",
+        "cultural_inputs"
+      ],
+      "primary_layer": "visual_art",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "report",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "art_beauty"
+      ],
+      "title": "The World Model Controversy",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://hdl.handle.net/1956/1974",
+      "year": 2005
+    },
+    {
+      "authors": [
+        "Shawn Zelig Aster"
       ],
       "auto_review_approval": "approved_for_review_queue",
       "auto_review_approval_reasons": [
@@ -196,319 +488,43 @@
       ],
       "automated_evidence_score": 11,
       "automated_evidence_warnings": [],
-      "citation_count": 50,
+      "citation_count": 93,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 3965,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 0,
-      "discovery_page": 1,
-      "doi": null,
-      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "http://swbplus.bsz-bw.de/bsz352928336inh.htm",
-      "is_retracted": false,
-      "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Use as general research context until a more specific layer is reviewed."
-      ],
-      "layer_routes": [
-        "theologians",
-        "research_documents"
-      ],
-      "primary_layer": "theologians",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "article",
-      "summary": "OpenAlex abstract metadata available.",
-      "tags": [
-        "trinity"
-      ],
-      "title": "The Christian theology reader",
-      "truth_assessment": "strong_scholarly_candidate",
-      "url": "http://swbplus.bsz-bw.de/bsz352928336inh.htm",
-      "year": 2011
-    },
-    {
-      "authors": [
-        "C. Peppiatt"
-      ],
-      "auto_review_approval": "not_auto_approved",
-      "auto_review_approval_scope": "manual_review_required",
-      "auto_review_approval_warnings": [
-        "missing DOI or author/year metadata"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "author metadata present",
-        "recognized scholarly source type",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "citation_count": 0,
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 6802,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 5,
-      "discovery_page": 2,
-      "doi": null,
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://philpapers.org/rec/peptot-2",
-      "is_retracted": false,
-      "layer_review_prompts": [
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
-      ],
-      "layer_routes": [
-        "pattern_tests",
-        "deep_sources",
-        "psychology_inputs",
-        "human_stories"
-      ],
-      "primary_layer": "pattern_tests",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "book",
-      "summary": "OpenAlex abstract metadata available.",
-      "tags": [
-        "unresolved_suffering"
-      ],
-      "title": "Theodicies on Trial",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://philpapers.org/rec/PEPTOT-2",
-      "year": null
-    },
-    {
-      "authors": [
-        "Dong Pan",
-        "Gui\u2010Lu Long",
-        "Liuguo Yin"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is strong_scholarly_candidate",
-        "stable DOI present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "strong_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "DOI or stable scholarly identifier present",
-        "author metadata present",
-        "publication year present",
-        "recognized scholarly source type",
-        "summary or abstract metadata available",
-        "high citation signal",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 14,
-      "automated_evidence_warnings": [],
-      "citation_count": 166,
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 4862,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 55,
-      "discovery_page": 12,
-      "doi": "https://doi.org/10.1109/comst.2024.3367535",
-      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "https://doi.org/10.1109/comst.2024.3367535",
-      "is_retracted": false,
-      "layer_review_prompts": [
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
-      ],
-      "layer_routes": [
-        "deep_sources",
-        "pattern_tests"
-      ],
-      "primary_layer": "deep_sources",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "article",
-      "summary": "OpenAlex abstract metadata available.",
-      "tags": [
-        "quantum_science_guardrails"
-      ],
-      "title": "The Evolution of Quantum Secure Direct Communication: On the Road to the Qinternet",
-      "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.1109/comst.2024.3367535",
-      "year": 2024
-    },
-    {
-      "authors": [
-        "Anindya Putri Keisha Salsabilla",
-        "Winda Fitri",
-        "Nurlaily"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is strong_scholarly_candidate",
-        "stable DOI present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "strong_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "DOI or stable scholarly identifier present",
-        "author metadata present",
-        "publication year present",
-        "recognized scholarly source type",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates",
-        "counterargument or limitation language present"
-      ],
-      "automated_evidence_score": 12,
-      "automated_evidence_warnings": [],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "corroborating_source_count": 4862,
-      "date_accessed": "2026-09-15",
+      "corroborating_source_count": 6981,
+      "date_accessed": "2026-09-16",
       "discovery_offset": 30,
       "discovery_page": 7,
-      "doi": "10.24269/ls.v10i1.13300",
-      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "10.24269/ls.v10i1.13300",
-      "layer_review_prompts": [
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
-      ],
-      "layer_routes": [
-        "deep_sources",
-        "pattern_tests"
-      ],
-      "primary_layer": "deep_sources",
-      "provider": "Crossref",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "journal-article",
-      "summary": "Pertumbuhan industri skincare yang sangat pesat, terutama melalui pemanfaatan pemasaran digital, turut mendorong meningkatnya praktik overclaim yang berpotensi memberikan informasi menyesatkan kepada konsumen. Penelitian ini bertujuan untuk mengkaji bentuk perlindungan hukum bagi konsumen terhadap praktik overclaim dalam industri skincare di Indonesia dan Amerika Serikat, serta menganalisis prinsip dan mekanisme hukum yang dapat diadopsi oleh Indonesia guna memperkuat sistem perlindungan konsumen. Metode penelitian yang digunakan adalah penelitian hukum normatif dengan pendekatan perundang-undangan, konseptual, dan komparatif, yang bersumber dari bahan hukum primer dan sekunder, meliputi Und",
-      "tags": [
-        "quantum_science_guardrails"
-      ],
-      "title": "Perlindungan Konsumen terhadap Praktik Overclaim dalam Industri Skincare: perbandingan antara Indonesia dan Amerika Serikat Perlindungan Konsumen terhadap Praktik Overclaim dalam Industri Skincare: Perbandingan antara Indonesia dan Amerika Serikat",
-      "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.24269/ls.v10i1.13300",
-      "year": 2026
-    },
-    {
-      "authors": [
-        "Robin Mains"
-      ],
-      "auto_review_approval": "not_auto_approved",
-      "auto_review_approval_scope": "manual_review_required",
-      "auto_review_approval_warnings": [
-        "missing DOI or author/year metadata"
-      ],
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "author metadata present",
-        "recognized scholarly source type",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 8,
-      "automated_evidence_warnings": [],
-      "citation_count": 0,
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 4862,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 0,
-      "discovery_page": 1,
       "doi": null,
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "https://philpapers.org/rec/maiera-2",
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "https://www.degruyterbrill.com/document/isbn/9780884142720/html",
       "is_retracted": false,
       "layer_review_prompts": [
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+        "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
       ],
       "layer_routes": [
-        "deep_sources",
-        "pattern_tests"
+        "visual_art",
+        "human_stories",
+        "cultural_inputs",
+        "pattern_tests",
+        "history_inputs"
       ],
-      "primary_layer": "deep_sources",
+      "primary_layer": "visual_art",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
-      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "review_status": "auto_approved_for_review_queue",
       "source_type": "article",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
-        "quantum_science_guardrails"
+        "visual_media_patterns"
       ],
-      "title": "Difference and the Boundary of Time",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://philpapers.org/rec/MAIERA-2",
-      "year": null
-    },
-    {
-      "authors": [
-        "Marco Scirea",
-        "Julian Togelius",
-        "Peter Eklund"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is strong_scholarly_candidate",
-        "stable DOI present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "strong_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "DOI or stable scholarly identifier present",
-        "author metadata present",
-        "publication year present",
-        "recognized scholarly source type",
-        "moderate citation signal",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 12,
-      "automated_evidence_warnings": [],
-      "citation_count": 38,
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 3509,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 20,
-      "discovery_page": 5,
-      "doi": "https://doi.org/10.1007/s10710-017-9307-y",
-      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "https://doi.org/10.1007/s10710-017-9307-y",
-      "is_retracted": false,
-      "layer_review_prompts": [
-        "Check musical structure directly before using it as analogy or theological support.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
-      ],
-      "layer_routes": [
-        "music_notes",
-        "deep_sources"
-      ],
-      "primary_layer": "music_notes",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "article",
-      "summary": "",
-      "tags": [
-        "music_math"
-      ],
-      "title": "Affective evolutionary music composition with MetaCompose",
+      "title": "Reflections of Empire in Isaiah 1-39: Responses to Assyrian Ideology",
       "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.1007/s10710-017-9307-y",
+      "url": "https://www.degruyterbrill.com/document/isbn/9780884142720/html",
       "year": 2017
     },
     {
@@ -518,6 +534,7 @@
       "auto_review_approval_warnings": [
         "automated score below 7",
         "label weak_scholarly_candidate is not eligible",
+        "automated warning present",
         "open-web source requires manual review"
       ],
       "automated_evidence_label": "weak_scholarly_candidate",
@@ -527,258 +544,47 @@
         "summary or abstract metadata available",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 6,
-      "automated_evidence_warnings": [],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 4932,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 0,
-      "discovery_page": 1,
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://sites.radford.edu/~mlovric/harmony.html",
-      "layer_review_prompts": [
-        "Check musical structure directly before using it as analogy or theological support.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading."
-      ],
-      "layer_routes": [
-        "music_notes",
-        "deep_sources",
-        "visual_art"
-      ],
-      "primary_layer": "music_notes",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.86632514,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "# Harmony \u2014 The Mathematics of Music | Dr. Miodrag M. # Harmony \u2014 The Mathematics of Music. Ratios, resonance, and form: from Pythagoras to Bach, Mozart, Beethoven, and Vivaldi \u2014 how structure creates beauty. ## Number & Sound. **Pythagorean ratios**: simple integer proportions (2:1, 3:2, 4:3) underpin the octave, fifth, and fourth. **Temperament** and tuning: mathematical compromises enabling modulation across keys. **Resonance**, Fourier components, and timbre: why instruments have distinct voices. Geometry of sound \u2014 proportion, symmetry, variation. ## Form & Structure. **Bach** \u2014 counterpoint and permutations; fugue as combinatorial art. **Mozart** \u2014 symmetry and clarity; Musikalisches W",
-      "tags": [
-        "music_math"
-      ],
-      "title": "Harmony \u2014 The Mathematics of Music",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://sites.radford.edu/~mlovric/harmony.html",
-      "year": null
-    },
-    {
-      "authors": [],
-      "auto_review_approval": "not_auto_approved",
-      "auto_review_approval_scope": "manual_review_required",
-      "auto_review_approval_warnings": [
-        "automated score below 7",
-        "label weak_scholarly_candidate is not eligible",
-        "missing DOI or author/year metadata",
-        "automated warning present",
-        "open-web source requires manual review"
-      ],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
+      "automated_evidence_score": 5,
       "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
+        "media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims"
       ],
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 3510,
-      "date_accessed": "2026-09-15",
+      "corroborating_source_count": 6553,
+      "date_accessed": "2026-09-16",
       "discovery_offset": 0,
       "discovery_page": 1,
       "doi": "",
       "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.sciencenewstoday.org/the-hidden-mathematics-of-music-and-harmony",
+      "id": "https://guides.library.duke.edu/c.php?g=289800&p=1931316",
       "layer_review_prompts": [
-        "Check musical structure directly before using it as analogy or theological support.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
-      ],
-      "layer_routes": [
-        "music_notes",
-        "deep_sources"
-      ],
-      "primary_layer": "music_notes",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.8332299,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "# The Hidden Mathematics of Music and Harmony. The discovery that mathematics and music are deeply connected is as old as philosophy itself. The intervals between notes, such as the octave, the fifth, and the fourth, could all be expressed through simple mathematical ratios. These relationships can be explained through mathematics, though our emotional response to them is complex and deeply tied to culture, biology, and experience. The mathematics of wave alignment thus shapes our emotional response to sound. In these traditions, the mathematics of ratios is extended into more nuanced divisions, showing how cultural interpretations of harmony can spring from the same universal principles of ",
-      "tags": [
-        "music_math"
-      ],
-      "title": "The Hidden Mathematics of Music and Harmony",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.sciencenewstoday.org/the-hidden-mathematics-of-music-and-harmony",
-      "year": null
-    },
-    {
-      "authors": [],
-      "auto_review_approval": "not_auto_approved",
-      "auto_review_approval_scope": "manual_review_required",
-      "auto_review_approval_warnings": [
-        "automated score below 7",
-        "label weak_scholarly_candidate is not eligible",
-        "missing DOI or author/year metadata",
-        "automated warning present",
-        "open-web source requires manual review"
-      ],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 7646,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 0,
-      "discovery_page": 1,
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://cognitivepsycho.com/pythagorean-thought-in-music-theory-the-mathematics-of-harmony",
-      "layer_review_prompts": [
-        "Check musical structure directly before using it as analogy or theological support.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
-        "Separate psychological/social process from theological interpretation and note clinical limits."
-      ],
-      "layer_routes": [
-        "music_notes",
-        "deep_sources",
-        "history_inputs",
-        "all_texts",
-        "psychology_inputs"
-      ],
-      "primary_layer": "music_notes",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.82425016,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Title: Pythagorean Thought in Music Theory: The Mathematics of Harmony - Cognitive Psycho Home \u00bb The Wisdom Walk \u00bb Pythagorean Thought in Music Theory: The Mathematics of Harmony. # Pythagorean Thought in Music Theory: The Mathematics of Harmony. ancient music theory, cosmic harmony, harmonic ratios, history of music theory, mathematical acoustics, mathematical tuning, mathematics of music, monochord experiment, music and mathematics, Music of the Spheres, music philosophy, music science, musical harmony, Pythagoras and music, Pythagorean music theory, Pythagorean scale, Pythagorean tuning system, sacred geometry in music, sound frequencies, Western music theory. * Share on Mail (Opens in ne",
-      "tags": [
-        "music_math"
-      ],
-      "title": "Pythagorean Thought in Music Theory: The Mathematics of Harmony - Cognitive Psycho",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://cognitivepsycho.com/pythagorean-thought-in-music-theory-the-mathematics-of-harmony",
-      "year": null
-    },
-    {
-      "authors": [],
-      "auto_review_approval": "not_auto_approved",
-      "auto_review_approval_scope": "manual_review_required",
-      "auto_review_approval_warnings": [
-        "automated score below 7",
-        "label weak_scholarly_candidate is not eligible",
-        "missing DOI or author/year metadata",
-        "automated warning present",
-        "open-web source requires manual review"
-      ],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 3510,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 0,
-      "discovery_page": 1,
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://www.brainmusic.org/mbb91%20webpage/evolution_zentner.pdf",
-      "layer_review_prompts": [
-        "Check musical structure directly before using it as analogy or theological support.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
-      ],
-      "layer_routes": [
-        "music_notes",
-        "deep_sources"
-      ],
-      "primary_layer": "music_notes",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.76951396,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "INFANTS\u2019 PERCEPTION OF CONSONANCE AND DISSONANCE IN MUSIC Marcel R. Zentner\u2019 Jerome Kagan Harvard The origins of the perception of consonance and dissonance in music are a matter of debate. The present study examined the hypothesis of an innate preferential bias favoring consonance over dissonance by exposing 4 month old infants to consonant and dissonant versions of two melodies. Infants looked signif- icantly longer at the source of sound and were less motorically active to consonant compared [...] question is now being empirically addressed. The study of infants represents one way to explore musical universals. This research investigates the hypothesis of an innate bias for consonance ove",
-      "tags": [
-        "music_math"
-      ],
-      "title": "[PDF] INFANTS' PERCEPTION OF CONSONANCE AND DISSONANCE IN ...",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://www.brainmusic.org/MBB91%20Webpage/Evolution_Zentner.pdf",
-      "year": null
-    },
-    {
-      "authors": [],
-      "auto_review_approval": "not_auto_approved",
-      "auto_review_approval_scope": "manual_review_required",
-      "auto_review_approval_warnings": [
-        "automated score below 7",
-        "label weak_scholarly_candidate is not eligible",
-        "missing DOI or author/year metadata",
-        "automated warning present",
-        "open-web source requires manual review"
-      ],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 3274,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 0,
-      "discovery_page": 1,
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://politicaltheology.com/tag/justice",
-      "layer_review_prompts": [
+        "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
         "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
       ],
       "layer_routes": [
+        "visual_art",
+        "human_stories",
         "cultural_inputs",
-        "history_inputs"
+        "pattern_tests"
       ],
-      "primary_layer": "cultural_inputs",
+      "media_kind": "video",
+      "media_review_prompt": "Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.",
+      "primary_layer": "visual_art",
       "provider": "Tavily Search",
       "quality": "open web result",
-      "relevance_score": 0.7449724,
+      "relevance_score": 0.4866005,
+      "requires_multimodal_review": true,
       "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Title: Tag: Justice | Political Theology Network # Tag: Justice. As a corrective to their corruption and total misconception of God\u2019s character, Micah puts forth the disposition God requires \u2013 the triad to do justice, love mercy and walk humbly with God. There is Power in Negative Political Theology. #### There is Power in Negative Political Theology. Negativity cuts against a politics of nostalgia (which seeks to conserve the imagined glories of the past) and apocalypse (which rejects the world as irredeemably compromised). They resist passivity and compliance, they dream boldly and they demand justice. How do we then understand a biblical vision of peace relevant for our contexts today? Pe",
+      "source_type": "video candidate",
+      "summary": "Another useful site for finding images by: biblical subject, biblical text, artist, or keyword search. Author: Rolf E. St\u00e6rk Digital Scriptorium This link opens in a new window Index of Medieval Art (Princeton Univ.) This link opens in a new window A thematic and iconographic index of early Christian and medieval art objects. United Methodist Church Graphics Library This link opens in a new window [...] These digitized images include scans of text, art, and mp4 video files curated by the American Theological Library Association. Images are available for academic use with the attribution listed on the site. Biblical Art on the Web This link opens in a new window [...] Skip to Main Content Duk",
       "tags": [
-        "politics_justice"
+        "visual_media_patterns"
       ],
-      "title": "Tag: Justice | Political Theology Network",
+      "title": "Art & Images - Open Access Resources in Religious & Theological Studies - LibGuides at Duke University",
       "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://politicaltheology.com/tag/justice",
+      "url": "https://guides.library.duke.edu/c.php?g=289800&p=1931316",
       "year": null
     },
     {
@@ -805,188 +611,13 @@
       ],
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 6950,
-      "date_accessed": "2026-09-15",
+      "corroborating_source_count": 6553,
+      "date_accessed": "2026-09-16",
       "discovery_offset": 0,
       "discovery_page": 1,
       "doi": "",
       "evaluation_use": "do not use to increase confidence without stronger corroboration",
-      "id": "https://podcast.thomisticinstitute.org/mercy-and-justice-in-political-life-augustine-seneca-and-nussbaum-prof-sarah-byers",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "theologians",
-        "visual_art",
-        "human_stories"
-      ],
-      "media_kind": "podcast",
-      "media_review_prompt": "Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.",
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.68748367,
-      "requires_multimodal_review": true,
-      "review_status": "machine_assessed_do_not_strengthen_claim",
-      "source_type": "podcast candidate",
-      "summary": "Title: Mercy and Justice in Political Life: Augustine, Seneca, and Nuss\u2026 The Thomistic Institute exists to promote Catholic truth in our contemporary world by strengthening the intellectual formation of Christians at universities, in the Church, and in the wider public square. The thought of St. Thomas Aquinas, the Universal Doctor of the Church, is our touchstone.The Thomistic Institute Podcast features the lectures and talks from our conferences, campus chapters events, intellectual retreats, livestream events, and much more. Founded in 2009, the Thomistic Institute is part of the Pontifical Faculty of the Immaculate Conception at the Dominican House of Studies in Washington, DC. Choose yo",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "Mercy and Justice in Political Life: Augustine, Seneca, and Nuss\u2026",
-      "truth_assessment": "do_not_strengthen_claim",
-      "url": "https://podcast.thomisticinstitute.org/mercy-and-justice-in-political-life-augustine-seneca-and-nussbaum-prof-sarah-byers",
-      "year": null
-    },
-    {
-      "authors": [],
-      "auto_review_approval": "not_auto_approved",
-      "auto_review_approval_scope": "manual_review_required",
-      "auto_review_approval_warnings": [
-        "automated score below 7",
-        "label weak_scholarly_candidate is not eligible",
-        "missing DOI or author/year metadata",
-        "automated warning present",
-        "open-web source requires manual review"
-      ],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 3274,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 0,
-      "discovery_page": 1,
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://dokumen.pub/download/justice-and-mercy-moral-theology-and-the-exercise-of-law-in-twelfth-century-england-1526125366-9781526125361.html",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.6426349,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "Title: Justice and mercy: Moral theology and the exercise of law in twelfth-century England 1526125366, 9781526125361 - DOKUMEN.PUB # Justice and mercy: Moral theology and the exercise of law in twelfth-century England 1526125366, 9781526125361. This book examines one of the most fundamental issues in twelfth-century English politics: justice. Justice and mercy: Moral theology and the exercise of law in twelfth-century England. Justice and mercy: Moral theology and the exercise of law in twelfth-century England. Justice and Mercy: Moral Theology and the Exercise of Law in Twelfth-Century England. ###### Justice and Mercy: Moral Theology and the Exercise of Law in Twelfth-Century England 1526",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "Justice and mercy: Moral theology and the exercise of law in twelfth-century England 1526125366, 9781526125361 - DOKUMEN.PUB",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://dokumen.pub/download/justice-and-mercy-moral-theology-and-the-exercise-of-law-in-twelfth-century-england-1526125366-9781526125361.html",
-      "year": null
-    },
-    {
-      "authors": [],
-      "auto_review_approval": "not_auto_approved",
-      "auto_review_approval_scope": "manual_review_required",
-      "auto_review_approval_warnings": [
-        "automated score below 7",
-        "label weak_scholarly_candidate is not eligible",
-        "missing DOI or author/year metadata",
-        "automated warning present",
-        "open-web source requires manual review"
-      ],
-      "automated_evidence_label": "weak_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "broad open-web search result",
-        "summary or abstract metadata available",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 4,
-      "automated_evidence_warnings": [
-        "open-web result: require corroboration before strengthening claims"
-      ],
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
-      "corroborating_source_count": 5200,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 0,
-      "discovery_page": 1,
-      "doi": "",
-      "evaluation_use": "use as a lead or question generator, not strong evidence",
-      "id": "https://followingjesus.org/journey/social-justice",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "pattern_tests"
-      ],
-      "primary_layer": "cultural_inputs",
-      "provider": "Tavily Search",
-      "quality": "open web result",
-      "relevance_score": 0.31072626,
-      "review_status": "machine_assessed_weak_scholarly_candidate",
-      "source_type": "open web result via Tavily",
-      "summary": "He accused the religious people of his day, the Pharisees, of focusing on religious practice and neglecting justice. \u201cWoe to you Pharisees\u2026 you tithe herbs of all kinds, and neglect justice and the love of God.\u201d (Luke 11:42) ### the early Jesus movement The early followers of Jesus were a Covenant renewal community. They practiced distributive justice. Living as a contrast community, they eliminated poverty in their midst. In Acts, we read about the Jerusalem community: [...] Justice on the other hand seeks to eliminate the root causes of suffering. It is about transforming the social structures and systems that produce poverty and suffering. Justice is the social form of compassion. It is t",
-      "tags": [
-        "politics_justice"
-      ],
-      "title": "social justice \u2014 following Jesus",
-      "truth_assessment": "weak_scholarly_candidate",
-      "url": "https://followingjesus.org/journey/social-justice",
-      "year": null
-    },
-    {
-      "authors": [
-        "Penelope Buckley"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is strong_scholarly_candidate",
-        "stable DOI present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "strong_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "DOI or stable scholarly identifier present",
-        "author metadata present",
-        "publication year present",
-        "recognized scholarly source type",
-        "summary or abstract metadata available",
-        "moderate citation signal",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 13,
-      "automated_evidence_warnings": [],
-      "citation_count": 52,
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 6541,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 40,
-      "discovery_page": 9,
-      "doi": "https://doi.org/10.1017/cbo9781139583879",
-      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "https://doi.org/10.1017/cbo9781139583879",
-      "is_retracted": false,
+      "id": "https://www.facebook.com/okcmoa/videos/religious-inspiration/1390423123006449",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.",
         "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
@@ -999,53 +630,54 @@
         "cultural_inputs",
         "pattern_tests"
       ],
+      "media_kind": "video",
+      "media_review_prompt": "Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.",
       "primary_layer": "visual_art",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "book",
-      "summary": "OpenAlex abstract metadata available.",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.3176384,
+      "requires_multimodal_review": true,
+      "review_status": "machine_assessed_do_not_strengthen_claim",
+      "source_type": "video candidate",
+      "summary": "Museum Art Museums Oklahoma City Museum of Art Videos Religious Inspiration Home Live Explore Privacy \u00b7 Terms \u00b7 Advertising \u00b7 Ad choices \u00b7 Cookies \u00b7 More See more on Facebook See more on Facebook Email address or phone number Password Log in Forgotten password? or Create new account [...] Log in Log in Forgotten account? # Video Home Live Reels Explore More Home Live Reels Explore Video 1 0:00 / 0:00 Religious Inspiration Like Comment Share Image 1 Image 2 36 \u00b7 1 comment \u00b7 1.5K views returns with a soulful, genre-spanning odyssey starring Matthew McConaughey as a charismatic musician and beekeeper reconnecting with his foster daughter. Get tickets: Oklahoma City Museum of Art 22.5K views \u00b7 4",
       "tags": [
         "visual_media_patterns"
       ],
-      "title": "The Alexiad of Anna Komnene",
-      "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.1017/cbo9781139583879",
-      "year": 2014
+      "title": "1.5K views \u00b7 36 reactions | Museo de Arte de Ponce houses an exceptional collection of Early Modern religious art, particularly from the seventeenth century. In its early years, the museum prioritized acquiring works of remarkable quality over follow",
+      "truth_assessment": "do_not_strengthen_claim",
+      "url": "https://www.facebook.com/OKCMOA/videos/religious-inspiration/1390423123006449",
+      "year": null
     },
     {
-      "authors": [
-        "Jaanika Anderson"
+      "authors": [],
+      "auto_review_approval": "not_auto_approved",
+      "auto_review_approval_scope": "manual_review_required",
+      "auto_review_approval_warnings": [
+        "automated score below 7",
+        "label weak_scholarly_candidate is not eligible",
+        "automated warning present",
+        "open-web source requires manual review"
       ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is moderate_scholarly_candidate",
-        "author and year metadata present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_label": "weak_scholarly_candidate",
       "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "author metadata present",
-        "publication year present",
+        "broad open-web search result",
+        "trusted archive, university, government, museum, library, or public-domain domain",
         "summary or abstract metadata available",
-        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 9,
-      "automated_evidence_warnings": [],
-      "citation_count": 21,
+      "automated_evidence_score": 5,
+      "automated_evidence_warnings": [
+        "media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims"
+      ],
       "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 6970,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 40,
-      "discovery_page": 9,
-      "doi": null,
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "http://hdl.handle.net/10062/45430",
-      "is_retracted": false,
+      "copyright_note": "Open web search metadata and short snippet only; do not store full copyrighted text.",
+      "corroborating_source_count": 6982,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 0,
+      "discovery_page": 1,
+      "doi": "",
+      "evaluation_use": "use as a lead or question generator, not strong evidence",
+      "id": "https://www.youtube.com/watch?v=-wjjowslfhe",
       "layer_review_prompts": [
         "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.",
         "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
@@ -1060,23 +692,27 @@
         "pattern_tests",
         "history_inputs"
       ],
+      "media_kind": "video",
+      "media_review_prompt": "Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.",
       "primary_layer": "visual_art",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "dissertation",
-      "summary": "OpenAlex abstract metadata available.",
+      "provider": "Tavily Search",
+      "quality": "open web result",
+      "relevance_score": 0.27653712,
+      "requires_multimodal_review": true,
+      "review_status": "machine_assessed_weak_scholarly_candidate",
+      "source_type": "video candidate",
+      "summary": "[20:10] photograph is like a map or diagram it's the witness's testimony rendered visually he says a map picture or [20:20] diagram is for evidential purposes simply nothing except so far as it has a human being's credit to support it it is [20:28] mere Waste Paper a testimonial non-entity it speaks to us no more than a stick or stone it can of itself tell [...] [22:11] any more Authority than if I could paint that same image in a word picture right [22:17] it's my testimony rendered visually so this is formally the method [22:25] by which photographs come into court and there's several critical aspects to this [22:34] first is this analogy which I've already spoken about which is um both bo",
       "tags": [
         "visual_media_patterns"
       ],
-      "title": "Reception of Ancient Art: the Cast Collections of the University of Tartu Art Museum in the Historical, Ideological and Academic Context of Europe (1803\u20131918)",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "http://hdl.handle.net/10062/45430",
-      "year": 2015
+      "title": "Constructed Truths: The History of Photographs as Legal Evidence",
+      "truth_assessment": "weak_scholarly_candidate",
+      "url": "https://www.youtube.com/watch?v=-wJjOWsLfHE",
+      "year": null
     },
     {
       "authors": [
-        "Cybelle T. Shattuck"
+        "Aaron Trammell"
       ],
       "auto_review_approval": "not_auto_approved",
       "auto_review_approval_scope": "manual_review_required",
@@ -1086,185 +722,176 @@
       "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
         "author metadata present",
-        "publication year present",
         "summary or abstract metadata available",
-        "some citation signal",
         "many routed corroborating candidates"
       ],
       "automated_evidence_score": 9,
       "automated_evidence_warnings": [
         "media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims"
       ],
-      "citation_count": 2,
       "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 7099,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 25,
-      "discovery_page": 6,
-      "doi": null,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 6150,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 40,
+      "discovery_page": 9,
+      "doi": "10.59350/4va8c-v9w74",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "http://hdl.handle.net/2027.42/133231",
-      "is_retracted": false,
+      "id": "10.59350/4va8c-v9w74",
       "layer_review_prompts": [
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
         "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
-        "Classify the cultural domain and practical consequences before making theological claims.",
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
         "Name the failure condition and whether the pattern holds, breaks, or needs revision."
       ],
       "layer_routes": [
-        "theologians",
         "human_stories",
-        "cultural_inputs",
+        "psychology_inputs",
+        "theologians",
         "pattern_tests"
       ],
-      "media_kind": "video",
+      "media_kind": "podcast",
       "media_review_prompt": "Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.",
-      "primary_layer": "theologians",
-      "provider": "OpenAlex",
+      "primary_layer": "human_stories",
+      "provider": "Crossref",
       "quality": "scholarly metadata",
       "requires_multimodal_review": true,
       "review_status": "machine_assessed_moderate_scholarly_candidate",
-      "source_type": "dissertation",
-      "summary": "OpenAlex abstract metadata available.",
+      "source_type": "posted-content",
+      "summary": "In honor of Record Store Day (4/21!!!!) our latest podcast investigates what it means to inhabit the most profound of listening spaces, the record store.",
       "tags": [
-        "video_teaching_patterns"
+        "podcast_testimony_patterns"
       ],
-      "title": "Pathways to Sustainability: The Greening of US Faith Communities.",
+      "title": "Sounding Out! Podcast Episode #6: Spaces of Listening / The Record Shop",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "http://hdl.handle.net/2027.42/133231",
-      "year": 2016
+      "url": "https://doi.org/10.59350/4va8c-v9w74",
+      "year": null
     },
     {
       "authors": [
-        "Mathias Thaler"
+        "Aaron Trammell"
       ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is strong_scholarly_candidate",
-        "stable DOI present"
+      "auto_review_approval": "not_auto_approved",
+      "auto_review_approval_scope": "manual_review_required",
+      "auto_review_approval_warnings": [
+        "automated warning present"
       ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_label": "moderate_scholarly_candidate",
       "automated_evidence_reasons": [
         "scholarly metadata provider",
         "DOI or stable scholarly identifier present",
         "author metadata present",
-        "publication year present",
-        "recognized scholarly source type",
         "summary or abstract metadata available",
-        "moderate citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 13,
-      "automated_evidence_warnings": [],
-      "citation_count": 61,
+      "automated_evidence_score": 9,
+      "automated_evidence_warnings": [
+        "media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims"
+      ],
       "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 3746,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 55,
-      "discovery_page": 12,
-      "doi": "https://doi.org/10.1017/s000305542300031x",
-      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "https://doi.org/10.1017/s000305542300031x",
-      "is_retracted": false,
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 6926,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 40,
+      "discovery_page": 9,
+      "doi": "10.59350/kmgjj-bsw73",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "10.59350/kmgjj-bsw73",
       "layer_review_prompts": [
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
-      ],
-      "layer_routes": [
-        "history_inputs",
-        "theologians"
-      ],
-      "opencitations_checked_at": "2026-09-15",
-      "opencitations_citation_count": 0,
-      "opencitations_reference_count": 0,
-      "primary_layer": "history_inputs",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "article",
-      "summary": "OpenAlex abstract metadata available.",
-      "tags": [
-        "history_memory"
-      ],
-      "title": "Eco-Miserabilism and Radical Hope: On the Utopian Vision of Post-Apocalyptic Environmentalism",
-      "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.1017/s000305542300031x",
-      "year": 2023
-    },
-    {
-      "authors": [
-        "Timothy J. Nelson"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is strong_scholarly_candidate",
-        "stable DOI present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "strong_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "DOI or stable scholarly identifier present",
-        "author metadata present",
-        "publication year present",
-        "recognized scholarly source type",
-        "summary or abstract metadata available",
-        "moderate citation signal",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 13,
-      "automated_evidence_warnings": [],
-      "citation_count": 48,
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 8327,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 25,
-      "discovery_page": 6,
-      "doi": "https://doi.org/10.18574/nyu/9780814758816",
-      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "https://doi.org/10.18574/nyu/9780814758816",
-      "is_retracted": false,
-      "layer_review_prompts": [
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
         "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Track original language, translation range, metaphor, grammar, culture, and rival reading."
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision.",
+        "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading."
       ],
       "layer_routes": [
-        "psychology_inputs",
-        "pattern_tests",
         "human_stories",
-        "deep_sources",
-        "world_languages",
-        "all_texts",
-        "other_religious_texts"
+        "psychology_inputs",
+        "theologians",
+        "pattern_tests",
+        "visual_art"
       ],
-      "primary_layer": "psychology_inputs",
-      "provider": "OpenAlex",
+      "media_kind": "podcast",
+      "media_review_prompt": "Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.",
+      "primary_layer": "human_stories",
+      "provider": "Crossref",
       "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "article",
-      "summary": "OpenAlex abstract metadata available.",
+      "requires_multimodal_review": true,
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "posted-content",
+      "summary": "Click Phonograph to Download #Blog-O-Versary 3.0 Mix! (Image by Mafleen; tunes picked by SO! writers &amp;amp; editors!) There's a fable that some beats are so contagious that they can transform crowds. \"Black magic,\" some whisper. &lt;em&gt; Dance magic. &lt;/em&gt; The rumors are true \u2013 there are some songs so awesome that they simply can't be stopped. No! As speakers rumble, bodies shake.",
       "tags": [
-        "pattern_perception_divine_response",
-        "world_language_source_sampling"
+        "podcast_testimony_patterns"
       ],
-      "title": "Every Time I Feel the Spirit: Religious Experience and Ritual in an African American Church",
-      "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://opensquare.nyupress.org/books/9780814758816/",
-      "year": 2004
+      "title": "Sounding Out! Podcast Episode #8: Can't Stop Won't Stop (The Awesomeness)!",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://doi.org/10.59350/kmgjj-bsw73",
+      "year": null
     },
     {
       "authors": [
-        "Lydia Katherine Christoph"
+        "Gavin Baker"
+      ],
+      "auto_review_approval": "not_auto_approved",
+      "auto_review_approval_scope": "manual_review_required",
+      "auto_review_approval_warnings": [
+        "automated warning present"
+      ],
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "DOI or stable scholarly identifier present",
+        "author metadata present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 9,
+      "automated_evidence_warnings": [
+        "media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims"
+      ],
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
+      "corroborating_source_count": 6150,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 40,
+      "discovery_page": 9,
+      "doi": "10.63485/vpk4m-qn690",
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "10.63485/vpk4m-qn690",
+      "layer_review_prompts": [
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Name the failure condition and whether the pattern holds, breaks, or needs revision."
+      ],
+      "layer_routes": [
+        "human_stories",
+        "psychology_inputs",
+        "theologians",
+        "pattern_tests"
+      ],
+      "media_kind": "podcast",
+      "media_review_prompt": "Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.",
+      "primary_layer": "human_stories",
+      "provider": "Crossref",
+      "quality": "scholarly metadata",
+      "requires_multimodal_review": true,
+      "review_status": "machine_assessed_moderate_scholarly_candidate",
+      "source_type": "posted-content",
+      "summary": "JISC, OCLC's Vice President talks libraries, the future and learning, podcast (24:17), March 9, 2009.",
+      "tags": [
+        "podcast_testimony_patterns"
+      ],
+      "title": "Podcast interview with OCLC VP",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "https://doi.org/10.63485/vpk4m-qn690",
+      "year": null
+    },
+    {
+      "authors": [
+        "Dan Ben\u2010Amos"
       ],
       "auto_review_approval": "approved_for_review_queue",
       "auto_review_approval_reasons": [
@@ -1286,101 +913,44 @@
       ],
       "automated_evidence_score": 12,
       "automated_evidence_warnings": [],
-      "citation_count": 1,
+      "citation_count": 7,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 4454,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 30,
-      "discovery_page": 7,
+      "corroborating_source_count": 3168,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 20,
+      "discovery_page": 5,
       "doi": null,
       "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "https://digitalcommons.liberty.edu/masters/118",
+      "id": "https://repository.upenn.edu/handle/20.500.14332/41427",
       "is_retracted": false,
       "layer_review_prompts": [
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
+        "Read the tradition on its own terms; do not flatten it into Christian categories.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations."
       ],
       "layer_routes": [
-        "psychology_inputs",
-        "human_stories"
+        "all_texts",
+        "other_religious_texts",
+        "modern_literature"
       ],
-      "primary_layer": "psychology_inputs",
+      "primary_layer": "all_texts",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
       "review_status": "auto_approved_for_review_queue",
       "source_type": "article",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
-        "psychology_patterns"
+        "global_text_traditions"
       ],
-      "title": "Disenchantment: The Formation, Distortion, and Transformation of Identity in Charles Dickens' Great Expectations",
+      "title": "Jewish Folk Literature",
       "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://digitalcommons.liberty.edu/masters/118",
-      "year": 2009
+      "url": "https://repository.upenn.edu/handle/20.500.14332/41427",
+      "year": 1998
     },
     {
       "authors": [
-        "Massimo De Angelis"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is strong_scholarly_candidate",
-        "author and year metadata present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "strong_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "trusted archive, university, government, museum, library, or public-domain domain",
-        "author metadata present",
-        "publication year present",
-        "recognized scholarly source type",
-        "summary or abstract metadata available",
-        "high citation signal",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 14,
-      "automated_evidence_warnings": [],
-      "citation_count": 160,
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 4454,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 40,
-      "discovery_page": 9,
-      "doi": null,
-      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "https://repository.uel.ac.uk/download/36409e304f68e587158035564fc7b5dd584aecb809d76c3b63a38d48d729e1be/4704436/de%20angelis_omnia%20sunt%20communia.pdf",
-      "is_retracted": false,
-      "layer_review_prompts": [
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
-      ],
-      "layer_routes": [
-        "psychology_inputs",
-        "human_stories"
-      ],
-      "primary_layer": "psychology_inputs",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "book",
-      "summary": "OpenAlex abstract metadata available.",
-      "tags": [
-        "psychology_patterns"
-      ],
-      "title": "Omnia Sunt Communia: On the Commons and the Transformation to Postcapitalism",
-      "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://repository.uel.ac.uk/download/36409e304f68e587158035564fc7b5dd584aecb809d76c3b63a38d48d729e1be/4704436/De%20Angelis_Omnia%20Sunt%20Communia.pdf",
-      "year": 2017
-    },
-    {
-      "authors": [
-        "Sascha O. Becker",
-        "Jared Rubin",
-        "Ludger Woessmann"
+        "Sandeep Parmar"
       ],
       "auto_review_approval": "approved_for_review_queue",
       "auto_review_approval_reasons": [
@@ -1397,56 +967,49 @@
         "publication year present",
         "recognized scholarly source type",
         "summary or abstract metadata available",
-        "moderate citation signal",
+        "some citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 13,
+      "automated_evidence_score": 12,
       "automated_evidence_warnings": [],
-      "citation_count": 44,
+      "citation_count": 7,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 6018,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 40,
-      "discovery_page": 9,
-      "doi": "https://doi.org/10.1257/jel.20231666",
+      "corroborating_source_count": 5388,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 50,
+      "discovery_page": 11,
+      "doi": "https://doi.org/10.16995/bip.3384",
       "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "https://doi.org/10.1257/jel.20231666",
+      "id": "https://doi.org/10.16995/bip.3384",
       "is_retracted": false,
       "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Use summaries or public-domain material only; preserve ambiguity and rival interpretations.",
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit.",
         "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
       ],
       "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs",
+        "modern_literature",
+        "all_texts",
         "human_stories"
       ],
-      "opencitations_checked_at": "2026-09-15",
-      "opencitations_citation_count": 0,
-      "opencitations_reference_count": 0,
-      "primary_layer": "cultural_inputs",
+      "primary_layer": "modern_literature",
       "provider": "OpenAlex",
       "quality": "scholarly metadata",
       "review_status": "auto_approved_for_review_queue",
       "source_type": "article",
       "summary": "OpenAlex abstract metadata available.",
       "tags": [
-        "cultural_practice_patterns",
-        "psychology_patterns"
+        "modern_literature_meaning"
       ],
-      "title": "Religion and Growth",
+      "title": "Still Not a British Subject: Race and UK Poetry",
       "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.1257/jel.20231666",
-      "year": 2024
+      "url": "https://doi.org/10.16995/bip.3384",
+      "year": 2020
     },
     {
       "authors": [
-        "Crerar S",
-        "Harrison C."
+        "Peter-Ben Smit"
       ],
       "auto_review_approval": "approved_for_review_queue",
       "auto_review_approval_reasons": [
@@ -1461,169 +1024,46 @@
         "DOI or stable scholarly identifier present",
         "author metadata present",
         "publication year present",
-        "summary or abstract metadata available",
+        "recognized scholarly source type",
         "many routed corroborating candidates"
       ],
       "automated_evidence_score": 10,
       "automated_evidence_warnings": [],
-      "citation_count": 0,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "corroborating_source_count": 6018,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 10,
-      "discovery_page": 3,
-      "doi": "10.1002/jgc4.70279",
+      "corroborating_source_count": 6005,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 55,
+      "discovery_page": 12,
+      "doi": "10.1163/9789004460966_005",
       "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "10.1002/jgc4.70279",
-      "layer_review_prompts": [
-        "Classify the cultural domain and practical consequences before making theological claims.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.",
-        "Separate psychological/social process from theological interpretation and note clinical limits.",
-        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
-      ],
-      "layer_routes": [
-        "cultural_inputs",
-        "history_inputs",
-        "psychology_inputs",
-        "human_stories"
-      ],
-      "opencitations_checked_at": "2026-09-15",
-      "opencitations_citation_count": 0,
-      "opencitations_reference_count": 0,
-      "primary_layer": "cultural_inputs",
-      "provider": "Europe PMC",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "scholarly metadata",
-      "summary": "Genetic counseling is undergoing a rapid transformation as genomic medicine becomes embedded within mainstream healthcare systems. At the same time, the profession is being challenged to respond to systemic racism, colonial legacies, technological change, and evolving expectations regarding equity and justice. Historically, genetic counseling emerged within twentieth-century medical genetics and was influenced by political, social, scientific, and medical forces that included eugenic ideology, values, and practices. The profession has since evolved substantially toward psychosocial, patient-centered, and non-directive models of care. Contemporary debates regarding \"newgenics\" or \"neugenics\" ",
-      "tags": [
-        "cultural_practice_patterns"
-      ],
-      "title": "(Re)imagining the Future of Genetic Counseling: A Reflexive Qualitative Analysis of Sociopolitical Power, Cultural Safety, Systemic Racism, and Comparative Practice in the United Kingdom, Aotearoa New Zealand and, Australia.",
-      "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.1002/jgc4.70279",
-      "year": "2026"
-    },
-    {
-      "authors": [
-        "James Alfred Loader"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is strong_scholarly_candidate",
-        "stable DOI present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "strong_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "DOI or stable scholarly identifier present",
-        "author metadata present",
-        "publication year present",
-        "recognized scholarly source type",
-        "summary or abstract metadata available",
-        "some citation signal",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 12,
-      "automated_evidence_warnings": [],
-      "citation_count": 6,
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "corroborating_source_count": 6458,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 5,
-      "discovery_page": 2,
-      "doi": "10.4102/hts.v70i1.2657",
-      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "10.4102/hts.v70i1.2657",
+      "id": "10.1163/9789004460966_005",
       "layer_review_prompts": [
         "Use as general research context until a more specific layer is reviewed.",
         "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+        "Classify text tradition, genre, community context, and whether recurrence is broad or overfit."
       ],
       "layer_routes": [
         "research_documents",
         "deep_sources",
-        "visual_art",
-        "history_inputs"
+        "all_texts"
       ],
-      "opencitations_checked_at": "2026-09-15",
-      "opencitations_citation_count": 6,
-      "opencitations_reference_count": 1,
+      "opencitations_checked_at": "2026-09-16",
+      "opencitations_citation_count": 0,
+      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
       "review_status": "auto_approved_for_review_queue",
-      "source_type": "journal-article",
-      "summary": "Taking its cue from Rudolf Bultmann\u2019s famous verdict that the Old Testament is a \u2018failure\u2019 (\u2018Scheitern\u2019), the article reviews three influential negative readings of Israel\u2019s history as told in the Former Prophets. It is then argued that awareness of the theological problem posed by Israel\u2019s history enabled the redactors of both the former and the latter prophetic collections to deal with the element of human failure in a way that facilitated Israel\u2019s retaining of her faith. Next, the sapiential insight in failing human discernment is drawn into the equation. Failure of human action is here interrelated with failure to comprehend God\u2019s order. By virtue of its incorporation into the totality o",
+      "source_type": "book-chapter",
+      "summary": "",
       "tags": [
         "general_research_methods"
       ],
-      "title": "Understanding of failure and failure of understanding: Aspects of failure in the Old Testament",
+      "title": "Ritual Failure and Circumcision",
       "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.4102/hts.v70i1.2657",
-      "year": 2014
-    },
-    {
-      "authors": [
-        "Kristof van Baarle"
-      ],
-      "auto_review_approval": "approved_for_review_queue",
-      "auto_review_approval_reasons": [
-        "automated score >= 7",
-        "label is moderate_scholarly_candidate",
-        "author and year metadata present"
-      ],
-      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
-      "automated_evidence_label": "moderate_scholarly_candidate",
-      "automated_evidence_reasons": [
-        "scholarly metadata provider",
-        "author metadata present",
-        "publication year present",
-        "summary or abstract metadata available",
-        "some citation signal",
-        "many routed corroborating candidates"
-      ],
-      "automated_evidence_score": 9,
-      "automated_evidence_warnings": [],
-      "citation_count": 1,
-      "confidence_effect": "none_until_human_review",
-      "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 5292,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 50,
-      "discovery_page": 11,
-      "doi": null,
-      "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "http://hdl.handle.net/1854/lu-8565196",
-      "is_retracted": false,
-      "layer_review_prompts": [
-        "Use as general research context until a more specific layer is reviewed.",
-        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
-        "Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading."
-      ],
-      "layer_routes": [
-        "research_documents",
-        "deep_sources",
-        "visual_art"
-      ],
-      "primary_layer": "research_documents",
-      "provider": "OpenAlex",
-      "quality": "scholarly metadata",
-      "review_status": "auto_approved_for_review_queue",
-      "source_type": "dissertation",
-      "summary": "OpenAlex abstract metadata available.",
-      "tags": [
-        "general_research_methods"
-      ],
-      "title": "From the cyborg to the apparatus : figures of posthumanism in the philosophy of Giorgio Agamben and the contemporary performing arts of Kris Verdonck",
-      "truth_assessment": "moderate_scholarly_candidate",
-      "url": "http://hdl.handle.net/1854/LU-8565196",
-      "year": 2018
+      "url": "https://doi.org/10.1163/9789004460966_005",
+      "year": 2021
     },
     {
       "authors": [],
@@ -1639,19 +1079,20 @@
         "scholarly metadata provider",
         "DOI or stable scholarly identifier present",
         "publication year present",
+        "recognized scholarly source type",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 8,
+      "automated_evidence_score": 9,
       "automated_evidence_warnings": [],
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata and short abstract summary only; do not store full copyrighted text.",
-      "corroborating_source_count": 3905,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 35,
-      "discovery_page": 8,
-      "doi": "10.4135/9781412963961.n444",
+      "corroborating_source_count": 3912,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 55,
+      "discovery_page": 12,
+      "doi": "10.2307/j.ctt1cg4jxq.7",
       "evaluation_use": "can support cautious working claims when corroborated",
-      "id": "10.4135/9781412963961.n444",
+      "id": "10.2307/j.ctt1cg4jxq.7",
       "layer_review_prompts": [
         "Use as general research context until a more specific layer is reviewed.",
         "Verify qualified sources and counterarguments before strengthening science or suffering claims."
@@ -1660,26 +1101,139 @@
         "research_documents",
         "deep_sources"
       ],
-      "opencitations_checked_at": "2026-09-15",
-      "opencitations_citation_count": 0,
-      "opencitations_reference_count": 0,
       "primary_layer": "research_documents",
       "provider": "Crossref",
       "quality": "scholarly metadata",
       "review_status": "auto_approved_for_review_queue",
-      "source_type": "reference-entry",
+      "source_type": "book-chapter",
       "summary": "",
       "tags": [
         "general_research_methods"
       ],
-      "title": "Punctuality",
+      "title": "Theological Perspective",
       "truth_assessment": "moderate_scholarly_candidate",
-      "url": "https://doi.org/10.4135/9781412963961.n444",
-      "year": 2009
+      "url": "https://doi.org/10.2307/j.ctt1cg4jxq.7",
+      "year": 2014
     },
     {
       "authors": [
-        "Peter Jackson"
+        "Mark F. Kightlinger"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is strong_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "recognized scholarly source type",
+        "summary or abstract metadata available",
+        "some citation signal",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 12,
+      "automated_evidence_warnings": [],
+      "citation_count": 1,
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "corroborating_source_count": 3912,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 40,
+      "discovery_page": 9,
+      "doi": null,
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "https://uknowledge.uky.edu/law_facpub/353",
+      "is_retracted": false,
+      "layer_review_prompts": [
+        "Use as general research context until a more specific layer is reviewed.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims."
+      ],
+      "layer_routes": [
+        "research_documents",
+        "deep_sources"
+      ],
+      "primary_layer": "research_documents",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "general_research_methods"
+      ],
+      "title": "The Gathering Twilight? Information Privacy on the Internet in the Post-Enlightenment Era",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://uknowledge.uky.edu/law_facpub/353",
+      "year": 2006
+    },
+    {
+      "authors": [
+        "Esau Willemse"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is moderate_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "moderate_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "author metadata present",
+        "publication year present",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 8,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "corroborating_source_count": 7136,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 40,
+      "discovery_page": 9,
+      "doi": null,
+      "evaluation_use": "can support cautious working claims when corroborated",
+      "id": "http://hdl.handle.net/2263/24563",
+      "is_retracted": false,
+      "layer_review_prompts": [
+        "Use as general research context until a more specific layer is reviewed.",
+        "Verify qualified sources and counterarguments before strengthening science or suffering claims.",
+        "Separate psychological/social process from theological interpretation and note clinical limits.",
+        "Protect privacy; look for truth, care, justice, repair, and unresolved suffering."
+      ],
+      "layer_routes": [
+        "research_documents",
+        "deep_sources",
+        "psychology_inputs",
+        "human_stories"
+      ],
+      "primary_layer": "research_documents",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "dissertation",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "general_research_methods"
+      ],
+      "title": "Traumatic experience of divorce within a pastoral family in the Volkskerk van Africa (People\u2019s Church of Africa)",
+      "truth_assessment": "moderate_scholarly_candidate",
+      "url": "http://hdl.handle.net/2263/24563",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Frances Power Cobbe",
+        "Stephen Austin and Sons"
       ],
       "auto_review_approval": "approved_for_review_queue",
       "auto_review_approval_reasons": [
@@ -1696,33 +1250,31 @@
         "publication year present",
         "recognized scholarly source type",
         "summary or abstract metadata available",
-        "some citation signal",
+        "moderate citation signal",
         "many routed corroborating candidates"
       ],
-      "automated_evidence_score": 12,
+      "automated_evidence_score": 13,
       "automated_evidence_warnings": [],
-      "citation_count": 6,
+      "citation_count": 68,
       "confidence_effect": "none_until_human_review",
       "copyright_note": "Metadata only; do not store full copyrighted text.",
-      "corroborating_source_count": 6488,
-      "date_accessed": "2026-09-15",
-      "discovery_offset": 30,
-      "discovery_page": 7,
-      "doi": "https://doi.org/10.16993/bag",
+      "corroborating_source_count": 5675,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 55,
+      "discovery_page": 12,
+      "doi": "https://doi.org/10.5962/bhl.title.167383",
       "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
-      "id": "https://doi.org/10.16993/bag",
+      "id": "https://doi.org/10.5962/bhl.title.167383",
       "is_retracted": false,
       "layer_review_prompts": [
         "Read the tradition on its own terms; do not flatten it into Christian categories.",
         "Protect privacy; look for truth, care, justice, repair, and unresolved suffering.",
-        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
-        "Check era, power, conflict, memory, harmed communities, reform, and unintended consequences."
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point."
       ],
       "layer_routes": [
         "other_religious_texts",
         "human_stories",
-        "theologians",
-        "history_inputs"
+        "theologians"
       ],
       "primary_layer": "other_religious_texts",
       "provider": "OpenAlex",
@@ -1733,33 +1285,88 @@
       "tags": [
         "interreligious_dream_testimony"
       ],
-      "title": "Horizons of Shamanism: A Triangular Approach to the History and Anthropology of Ecstatic Techniques",
+      "title": "Darwinism in morals : and other essays /",
       "truth_assessment": "strong_scholarly_candidate",
-      "url": "https://doi.org/10.16993/bag",
-      "year": 2016
+      "url": "https://doi.org/10.5962/bhl.title.167383",
+      "year": 1872
+    },
+    {
+      "authors": [
+        "Zaida P\u00e9rez"
+      ],
+      "auto_review_approval": "approved_for_review_queue",
+      "auto_review_approval_reasons": [
+        "automated score >= 7",
+        "label is strong_scholarly_candidate",
+        "author and year metadata present"
+      ],
+      "auto_review_approval_scope": "routing_and_queue_only_not_claim_confidence",
+      "automated_evidence_label": "strong_scholarly_candidate",
+      "automated_evidence_reasons": [
+        "scholarly metadata provider",
+        "trusted archive, university, government, museum, library, or public-domain domain",
+        "author metadata present",
+        "publication year present",
+        "recognized scholarly source type",
+        "summary or abstract metadata available",
+        "many routed corroborating candidates"
+      ],
+      "automated_evidence_score": 11,
+      "automated_evidence_warnings": [],
+      "citation_count": 0,
+      "confidence_effect": "none_until_human_review",
+      "copyright_note": "Metadata only; do not store full copyrighted text.",
+      "corroborating_source_count": 3187,
+      "date_accessed": "2026-09-16",
+      "discovery_offset": 5,
+      "discovery_page": 2,
+      "doi": null,
+      "evaluation_use": "may increase confidence after claim-scope and counterargument checks",
+      "id": "https://place.asburyseminary.edu/syllabi/3944",
+      "is_retracted": false,
+      "layer_review_prompts": [
+        "Check named theologian, era, primary source, doctrine, disagreement, and pressure point.",
+        "Check Christian source context, doctrine, and source quality."
+      ],
+      "layer_routes": [
+        "theologians",
+        "research_documents/christian_sources"
+      ],
+      "primary_layer": "theologians",
+      "provider": "OpenAlex",
+      "quality": "scholarly metadata",
+      "review_status": "auto_approved_for_review_queue",
+      "source_type": "article",
+      "summary": "OpenAlex abstract metadata available.",
+      "tags": [
+        "theologians_cross_era"
+      ],
+      "title": "Method And Praxis in Theology",
+      "truth_assessment": "strong_scholarly_candidate",
+      "url": "https://place.asburyseminary.edu/syllabi/3944",
+      "year": 2010
     }
   ],
-  "opencitations_enriched_count": 25,
+  "opencitations_enriched_count": 1,
   "query_modifiers": [
     "primary source",
     "counterargument"
   ],
   "run_provider_counts": {
-    "Crossref": 463,
+    "Crossref": 464,
     "Europe PMC": 317,
-    "Internet Archive": 58,
-    "OpenAlex": 394,
-    "PubMed": 10,
-    "Tavily Search": 15,
-    "arXiv": 50
+    "Internet Archive": 34,
+    "OpenAlex": 400,
+    "PubMed": 5,
+    "Tavily Search": 15
   },
   "search_strategy": {
-    "discovery_run_index": 1831,
+    "discovery_run_index": 1841,
     "discovery_window_pages": 12,
     "path": "references/next_search_strategy.json",
     "priority_lanes": [],
     "suggested_query_count": 11,
-    "updated_at": "2026-09-14T19:07:36.666504+00:00"
+    "updated_at": "2026-09-15T18:00:34.011467+00:00"
   },
-  "updated_at": "2026-09-15T17:59:22.766880+00:00"
+  "updated_at": "2026-09-16T17:56:56.655743+00:00"
 }
