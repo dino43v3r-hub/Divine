@@ -8,395 +8,156 @@ Media rule: videos, podcasts, and images can be found and queued, but they canno
 
 ## Newest Candidate Material
 
-### Theological interpretation and inculturation Hermeneutics: a comparison, with special reference to the work of Justin Ukpong and the scripture project.
+### Tertullian on the Trinity
 
 - Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: trinity
-- Layer routes: theologians, research_documents, all_texts
+- Layer routes: theologians, research_documents
 - Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: moderate_scholarly_candidate (8)
+- Automated evidence: strong_scholarly_candidate (12)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 5930
-- Year: 2017
-- URL: https://researchspace.ukzn.ac.za/handle/10413/16356
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 3992
+- Year: 2019
+- URL: https://doi.org/10.2478/perc-2019-0012
 
 OpenAlex abstract metadata available.
 
 Automated evidence reasons:
 - scholarly metadata provider
+- DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
+- recognized scholarly source type
 - summary or abstract metadata available
-- many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
-- label is moderate_scholarly_candidate
-- author and year metadata present
+- label is strong_scholarly_candidate
+- stable DOI present
 
 Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Use as general research context until a more specific layer is reviewed.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### The Digital Twin Paradigm for Future NASA and U.S. Air Force Vehicles
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests
-- Primary layer: deep_sources
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (13)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 4880
-- Year: 2012
-- URL: https://doi.org/10.2514/6.2012-1818
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- high citation signal
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### The Aesthetics of Everyday Life edited by light, andrew and jonathan m. smith
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (13)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 3413
-- Year: 2006
-- URL: https://doi.org/10.1111/j.1540-594x.2006.00226_7.x
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### Architectural Elements in Islamic Ornamentation: New Vision in Contemporary Islamic Art
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs, other_religious_texts
-- Primary layer: visual_art
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 4780
-- Year: 2014
-- URL: http://iiste.org/Journals/index.php/ADS/article/view/14079
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-- some citation signal
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Exploring the Meanings of Hijab through Online Comments in Canada
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (12)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 3413
-- Year: 2016
-- URL: https://doi.org/10.1080/17475759.2016.1171795
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### SO! Podcast #72: Not Your Muse (Episode 1 feat. Hailey Niswanger)
+### From Science to Christianity, Part V: A Reality Check of Scientia Theology with an AI Chatbot
 
 - Review status: machine_assessed_moderate_scholarly_candidate
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: podcast_testimony_patterns
-- Layer routes: human_stories, psychology_inputs, theologians, pattern_tests
-- Primary layer: human_stories
-- Provider: Crossref
+- Tags: trinity
+- Layer routes: theologians, research_documents, visual_art, deep_sources
+- Primary layer: theologians
+- Provider: OpenAlex
 - Quality: scholarly metadata
-- Media kind: podcast
-- Requires multimodal review: True
+- Media kind: none
+- Requires multimodal review: False
 - Automated evidence: moderate_scholarly_candidate (8)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 6159
+- Corroborating routed candidates: 7155
 - Year: n.d.
-- URL: https://doi.org/10.59350/62jhz-m3m23
+- URL: https://philpapers.org/rec/LUKFST-6
 
-https://soundstudiesblog.com/wp-content/uploads/2018/11/not-your-muse-1.mp3 &lt;strong&gt; CLICK
-HERE TO DOWNLOAD &lt;/strong&gt; : &lt;strong&gt; SO! Podcast #72: Not Your Muse (Episode 1 feat.
-&lt;/strong&gt;
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- author metadata present
+- recognized scholarly source type
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- missing DOI or author/year metadata
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use as general research context until a more specific layer is reviewed.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Pain, presence, paradox: healing prayer as lived theology amid vulnerability
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 6839
+- Year: 2026
+- URL: https://doi.org/10.1080/1756073x.2026.2713807
+
+OpenAlex abstract metadata available.
 
 Automated evidence reasons:
 - scholarly metadata provider
 - DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
 - summary or abstract metadata available
-- many routed corroborating candidates
 
-Auto approval blockers:
-- automated warning present
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
 
 Layer review prompts:
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 
-### Grief 2 Great Day - Christian Grief Support for Women, Questioning God in Grief, Life after Loss, Hope in Grief | Stefanie Cabaniss - Christian Grief Coach, Purpose After Loss Coach, Health Professional
+### Nihilism, Post-Truth and the Moral Future of Planning
 
-- Review status: machine_assessed_do_not_strengthen_claim
-- Evaluation use: do not use to increase confidence without stronger corroboration
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: podcast_testimony_patterns
 - Layer routes: human_stories, psychology_inputs, theologians, pattern_tests
 - Primary layer: human_stories
-- Provider: Tavily Search
-- Quality: open web result
+- Provider: OpenAlex
+- Quality: scholarly metadata
 - Media kind: podcast
 - Requires multimodal review: True
-- Automated evidence: do_not_strengthen_claim (3)
+- Automated evidence: strong_scholarly_candidate (12)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Truth assessment: do_not_strengthen_claim
-- Corroborating routed candidates: 6160
-- Year: n.d.
-- URL: https://grief2greatday.podbean.com
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 6173
+- Year: 2026
+- URL: https://doi.org/10.1080/14649357.2025.2607293
 
-feel it will never get better? • Have you cried so much there can’t be any tears left? • Are you
-angry with God? Or question your own faith? • Do you need faith-based help through the toughest
-season of your life? In this podcast, you will find faith-based grief support to navigate the
-overwhelming and confusing journey of grief, to continue seeking God and most importantly, to
-breathe, laugh, and live again. My mission is to walk with you through the healing, experience the
-milestones and the [...] feel it will never get better? • Have you cried so much there can’t be any
-tears left? • Are you angry with God? Or question your own faith? • Do you need faith-based help
-through the toughest se
+OpenAlex abstract metadata available.
 
 Automated evidence reasons:
-- broad open-web search result
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
 - summary or abstract metadata available
-- many routed corroborating candidates
 
 Auto approval blockers:
-- automated score below 7
-- label do_not_strengthen_claim is not eligible
-- missing DOI or author/year metadata
 - automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-- open-web result: require corroboration before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Instagram
-
-- Review status: machine_assessed_do_not_strengthen_claim
-- Evaluation use: do not use to increase confidence without stronger corroboration
-- Tags: podcast_testimony_patterns
-- Layer routes: human_stories, psychology_inputs, theologians, pattern_tests
-- Primary layer: human_stories
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: podcast
-- Requires multimodal review: True
-- Automated evidence: do_not_strengthen_claim (3)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: do_not_strengthen_claim
-- Corroborating routed candidates: 6160
-- Year: n.d.
-- URL: https://www.instagram.com/reel/DaqR_JalAFB?hl=en
-
-courtney.nm Carla is one of the best people on this side of heaven. So very happy for the two of
-you! ❤️ 1 like Reply donnagwynn's profile picture donnagwynn I so enjoyed listening to this episode!
-1 like Reply joy.adeyeye's profile picture joy.adeyeye I love Dr Carla's personality too❤️ 1 like
-Reply joy.adeyeye's profile picture joy.adeyeye Absolutely worth the watch 1 like Reply
-joy.adeyeye's profile picture joy.adeyeye I love you both 💓 and your family ❤️ 1 like Reply [...]
-drtonyevans Two lives. One season of unimaginable loss. One faithful God. Don't miss Tuesday's
-episode of The Unbound Podcast. journeywithsherley's profile picture journeywithsherley ❤️ 1 like
-Reply felecia.jean's prof
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label do_not_strengthen_claim is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-- open-web result: require corroboration before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Forgiveness Is For YOU - Overcome Trauma Through Forgiveness | Podcast on Spotify
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: podcast_testimony_patterns
-- Layer routes: human_stories, psychology_inputs, theologians, pattern_tests
-- Primary layer: human_stories
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: podcast
-- Requires multimodal review: True
-- Automated evidence: weak_scholarly_candidate (5)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 6160
-- Year: n.d.
-- URL: https://open.spotify.com/show/6dRUSt5P6K2Ba9xMNqad00
-
-showed remorse afterward. St. Pope John Paul II taught us that the suffering we face in our pain
-story can be redemptive if we unite our suffering to Christ on the cross. This, my friends, is a
-gift we as Christians can treasure. If this podcast resonates with you, please hit subscribe below.
-Write a review, share the link with a friend, take a screenshot, and share it on your social media.
-Connect with me as your forgiveness guide at www.drcarron.com. I will hold space for you as your
-[...] our sorrow. We can trust in that. Forgiveness is being willing to acknowledge the offender’s
-right to moral justice. Moral justice is the justice that belongs to Christ Himself. This is the
-hardest sayin
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- automated warning present
-- open-web source requires manual review
 
 Automated evidence warnings:
 - media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
@@ -410,44 +171,41 @@ Layer review prompts:
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### “My heart was that religious spirit.” May more be set free ...
+### Abuse in World Religions: Articulating the Problem
 
-- Review status: machine_assessed_do_not_strengthen_claim
-- Evaluation use: do not use to increase confidence without stronger corroboration
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: podcast_testimony_patterns
 - Layer routes: human_stories, psychology_inputs, theologians, pattern_tests, visual_art
 - Primary layer: human_stories
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: video
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: podcast
 - Requires multimodal review: True
-- Automated evidence: do_not_strengthen_claim (3)
+- Automated evidence: strong_scholarly_candidate (10)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Truth assessment: do_not_strengthen_claim
-- Corroborating routed candidates: 6940
-- Year: n.d.
-- URL: https://www.facebook.com/astrongerfaith/videos/my-heart-was-that-religious-spirit-may-more-be-set-free-from-religious-routine-a/2208163660002189
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 6956
+- Year: 2025
+- URL: https://eprints.whiterose.ac.uk/id/eprint/243299/1/Abuse%20in%20World%20Religions_26_08_05_15_28_51.pdf
 
-This video features a podcast discussion from the "Spirited to Faith" about how some Christians stay
-grounded despite being hurt. The speakers
+OpenAlex abstract metadata available.
 
 Automated evidence reasons:
-- broad open-web search result
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- publication year present
+- recognized scholarly source type
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval blockers:
-- automated score below 7
-- label do_not_strengthen_claim is not eligible
-- missing DOI or author/year metadata
 - automated warning present
-- open-web source requires manual review
 
 Automated evidence warnings:
 - media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-- open-web result: require corroboration before strengthening claims
 
 Media review prompt:
 - Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
@@ -459,44 +217,41 @@ Layer review prompts:
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 - Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
 
-### E11: Spiritual Care & Attentiveness - Following Jesus in Nursing
+### Intern and congregant perceptions of the impact of a United Methodist ministry internship program in rural Missouri
 
-- Review status: machine_assessed_do_not_strengthen_claim
-- Evaluation use: do not use to increase confidence without stronger corroboration
+- Review status: machine_assessed_strong_scholarly_candidate
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: podcast_testimony_patterns
-- Layer routes: human_stories, psychology_inputs, theologians, pattern_tests, all_texts
+- Layer routes: human_stories, psychology_inputs, theologians, pattern_tests
 - Primary layer: human_stories
-- Provider: Tavily Search
-- Quality: open web result
+- Provider: OpenAlex
+- Quality: scholarly metadata
 - Media kind: podcast
 - Requires multimodal review: True
-- Automated evidence: do_not_strengthen_claim (3)
+- Automated evidence: strong_scholarly_candidate (10)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Truth assessment: do_not_strengthen_claim
-- Corroborating routed candidates: 7429
-- Year: n.d.
-- URL: https://followingjesusinnursing.transistor.fm/episodes/e11-spiritual-care-attentiveness/transcript
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 6173
+- Year: 2018
+- URL: https://doi.org/10.32469/10355/66374
 
-Dr. Elizabeth Johnston Taylor unpacks her definition of spiritual care by sharing stories of
-discernment and learning
+OpenAlex abstract metadata available.
 
 Automated evidence reasons:
-- broad open-web search result
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval blockers:
-- automated score below 7
-- label do_not_strengthen_claim is not eligible
-- missing DOI or author/year metadata
 - automated warning present
-- open-web source requires manual review
 
 Automated evidence warnings:
 - media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-- open-web result: require corroboration before strengthening claims
 
 Media review prompt:
 - Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
@@ -506,360 +261,14 @@ Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### HIV/AIDS and the Bible in Tanzania : A Contextual Re-reading of 2 Samuel 13:1-14:33
-
-- Review status: machine_assessed_strong_scholarly_candidate
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: video_teaching_patterns
-- Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-- Primary layer: theologians
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: video
-- Requires multimodal review: True
-- Automated evidence: strong_scholarly_candidate (12)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 7125
-- Year: 2012
-- URL: http://dx.doi.org/10.20378/irb-601
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval blockers:
-- automated warning present
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Kristen Deede Johnson: Exploring a Biblical Theology of Justice - Christ and Culture
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: video_teaching_patterns
-- Layer routes: theologians, human_stories, cultural_inputs, pattern_tests, visual_art, history_inputs
-- Primary layer: theologians
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: video
-- Requires multimodal review: True
-- Automated evidence: weak_scholarly_candidate (5)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 7546
-- Year: n.d.
-- URL: https://cfc.sebts.edu/faith-and-culture/kristen-deede-johnson-exploring-a-biblical-theology-of-justice
-
-"You can never secure yourself. You are dependent on God. You are dependent on others," says Dr.
-Luke Bretherton. Center for Faith and Culture video icon CFC Lecture Jonathan Moo: Loving God and
-Neighbor in an Age of Climate Crisis Jonathan Moo discusses ways to love our neighbor as we engage
-the issue of climate change. Center for Faith and Culture video icon CFC Lecture Erin Smith: Burning
-Neural Circuits – The Acts of Daily Formation [...] [video icon CFC Lecture A Conversation Regarding
-Theology, Ethics, and Racial Injustice Over the past week, we have been deeply grieved by the events
-that have played out in our […] Center for Faith and Culture]( [video icon history Ben Holloway:
-Findin
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-
-### David Powlison: All Theology is Practical ...
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: video_teaching_patterns
-- Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-- Primary layer: theologians
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: video
-- Requires multimodal review: True
-- Automated evidence: weak_scholarly_candidate (5)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 7126
-- Year: n.d.
-- URL: https://www.youtube.com/watch?v=o6NP3TdPJ5w
-
-Can theology ever be merely academic? In this classic lecture from 2000, David Powlison argues that
-every doctrine is meant to shape the way
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Abolition’s Afterlives
-
-- Review status: machine_assessed_strong_scholarly_candidate
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: video_teaching_patterns
-- Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-- Primary layer: theologians
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: video
-- Requires multimodal review: True
-- Automated evidence: strong_scholarly_candidate (12)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 7125
-- Year: 2021
-- URL: https://doi.org/10.1093/alh/ajab006
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval blockers:
-- automated warning present
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Facing Death with Hope: A Christian Theology of Grief and Resurrection | Mary Vanden Berg
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: video_teaching_patterns
-- Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-- Primary layer: theologians
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: video
-- Requires multimodal review: True
-- Automated evidence: weak_scholarly_candidate (5)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 7126
-- Year: n.d.
-- URL: https://www.youtube.com/watch?v=jVc2G6FEnFQ
-
-# Facing Death with Hope: A Christian Theology of Grief and Resurrection | Mary Vanden Berg ##
-Channel: Calvin Theological Seminary 7.08K subscribers 122 likes [...] hope rather than denial.
-[...] In this deeply reflective Lifelong Learning conversation, Calvin Theological Seminary Emerita
-of Systematic Theology, Mary Vanden Berg, joins host Aaron Einfeld, Director of Lifelong Learning
-and Program Consultant for the Next Steps Initiative, to discuss Christian perspectives on death,
-dying, and suffering. Together, they explore what it means to live in the reality of our finitude,
-why our culture avoids grief, and how funerals can become powerful moments of resurrection hope
-rather than
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Home - Christians for Social Action
-
-- Review status: machine_assessed_do_not_strengthen_claim
-- Evaluation use: do not use to increase confidence without stronger corroboration
-- Tags: video_teaching_patterns
-- Layer routes: theologians, human_stories, cultural_inputs, pattern_tests, all_texts
-- Primary layer: theologians
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: video
-- Requires multimodal review: True
-- Automated evidence: do_not_strengthen_claim (3)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: do_not_strengthen_claim
-- Corroborating routed candidates: 8382
-- Year: n.d.
-- URL: https://christiansforsocialaction.org
-
-⁠ When something about injustice makes you uncomfortable, what would it look like to stay curious
-long enough to ask why?⁠ ⁠ #WednesdayWisdom #JamesCone #FaithAndJustice #BlackTheology #Justice
-#ChristianWitness [...] ⁠ #WednesdayWisdom #PedroArrupe #FaithAndJustice #SpiritualFormation
-#FaithInAction #LoveYourNeighbor [...] ⁠ #RacialJustice #ChristianFaith #FaithAndJustice
-#ChurchResources #ChristianDiscipleship #SocialJustice
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label do_not_strengthen_claim is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-- open-web result: require corroboration before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### For the Sake of the Joy: Meetings, Pilgrimage, and the ReOlding of Quakerism
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature, visual_art, human_stories
-- Primary layer: all_texts
-- Provider: Internet Archive
-- Quality: reference metadata
-- Media kind: podcast
-- Requires multimodal review: True
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 6357
-- Year: 2026
-- URL: https://archive.org/details/Providence_Friends_Meeting__NE-19142604_for_the_sake_of_the_joy_meetings_pilgrim
-
-An address given by Noah Bishop Merrill as the 2026 Perkins Family Lecture hosted by the Quaker
-Leadership Center, a ministry of the Earlham School of Religion, in Richmond, Indiana on April 24,
-2026. Want to share your thoughts on our podcast content? Email podcast@neym.org. To learn more
-about the life and ministry of Quakers in New England visit neym.org. Subscribe to our monthly
-newsletter here: neym.org/newsletter-signup Donate to sustain our ministry here: neym.org/donate
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated warning present
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-
-### Memories of violence and New English identities in early modern Ireland
+### A Theology of Voice: VOCAL and the Catholic Clergy Abuse Survivor Movement
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories
-- Primary layer: modern_literature
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
@@ -869,9 +278,9 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5397
-- Year: 2016
-- URL: https://doi.org/10.1111/1468-2281.12143
+- Corroborating routed candidates: 5731
+- Year: 2022
+- URL: https://doi.org/10.1353/cht.2022.0004
 
 OpenAlex abstract metadata available.
 
@@ -889,11 +298,334 @@ Auto approval reasons:
 - stable DOI present
 
 Layer review prompts:
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### Silence, Sentimentalism, and the British Romantic Novel, 1789–1824
+### Somatic Memory: Trauma and the (Eucharistic) Body
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, visual_art, psychology_inputs
+- Primary layer: history_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: weak_scholarly_candidate (6)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 6356
+- Year: n.d.
+- URL: https://ore.exeter.ac.uk/articles/thesis/Somatic_Memory_Trauma_and_the_Eucharistic_Body/29718812/1/files/56733992.pdf
+
+to the Sacred, 447. 133 Liberation Theology became a significant force within the Catholic Church as
+concern for the poor and justice within communities became increasingly important. Furthermore, the
+encouragement for the laity to actively participate in the celebration of the liturgy served to
+decrease the sense of uniqueness and isolation of the priest-celebrant. The Decree on the Apostolate
+of the Laity29 emphasised the importance of active participation in the life of the Church. This was
+[...] and Christian Theology: Cartographies of Grace (Minneapolis: Augsburg Fortress Press, 2000),
+16-­‐17. 35 body and memory and taking the embodied experience of trauma seriously, I will
+demonstrate
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- open-web source requires manual review
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Entrepreneurial Visions as Rhetorical History: A Diegetic Narrative Model of Stakeholder Enrollment
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: history_memory
+- Layer routes: history_inputs, theologians
+- Primary layer: history_inputs
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (13)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 3769
+- Year: 2021
+- URL: https://doi.org/10.5465/amr.2020.0010
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### The Whisper of Dangerous Memory - Interfaith America
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, pattern_tests
+- Primary layer: history_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 5732
+- Year: n.d.
+- URL: https://interfaithamerica.org/the-whisper-of-dangerous-memory
+
+Her experience is now my dangerous memory. It’s now in my DNA. A memory of suffering. A memory of
+doubt. A memory of questioning. And yet. And yet, somewhere in that memory from those shores of
+Africa across this rolling ocean and on to these hateful shores there is also a memory of courage. A
+memory of survival. A memory of hope. A memory of perseverance. That’s my dangerous memory too. I
+get up each day to honor that dangerous memory, to emphasize the hope, to let her know that I pray
+her [...] the dangerous memory; to use my voice, a voice epigenetically rooted in her suffering, to
+give hope to the world around me? [...] Johann Baptist Metz, the prominent Catholic theologian,
+wrote extens
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
+### A Corpus-based Study on the Translation Strategies of ...
+
+- Review status: machine_assessed_do_not_strengthen_claim
+- Evaluation use: do not use to increase confidence without stronger corroboration
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, visual_art, psychology_inputs
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: image
+- Requires multimodal review: True
+- Automated evidence: do_not_strengthen_claim (3)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: do_not_strengthen_claim
+- Corroborating routed candidates: 6254
+- Year: n.d.
+- URL: https://www.athensjournals.gr/philology/2023-10-1-4-Xueke.pdf
+
+languages and cultures inevitably form different thinking forms and expression habits, and often use
+different figurative bodies to express the same concept. Therefore, when translating some
+metaphorical words, it is necessary to change the figurative bodies and adopt the figurative images
+familiar to Chinese readers, so as to facilitate the expression of the translated language and the
+understanding of the readers. Addition of Similes or Metaphors Addition is to add some words
+semantically, [...] target language. In recent years, these translation methods have been promoted
+to a variety of theory-oriented studies on metaphor translation, such as rhetoric, component
+analysis, discourse analy
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label do_not_strengthen_claim is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
+- open-web result: require corroboration before strengthening claims
+
+Media review prompt:
+- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Reading Ancient Minds: Metaphor, Culture, and Complexity
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, history_inputs, psychology_inputs, deep_sources
+- Primary layer: world_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: video
+- Requires multimodal review: True
+- Automated evidence: weak_scholarly_candidate (5)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 7909
+- Year: n.d.
+- URL: https://www.youtube.com/watch?v=fOlYyh3dk8c
+
+and allow us to better understand the critical role culture plays in human history. [...] How much
+does culture influence human societies? The traditional view in many fields is that material forces
+-- land, climate, warfare -- trump less tangible human conceptualizations like currencies and laws.
+But Ortman argues that we don't really know, yet. Cognitive science suggests that conceptual
+metaphors are the building blocks of human systems, from governments to ideologies. He illustrates
+how new archaeological methods and linguistic analysis can reveal these metaphors and allow us to
+[...] # Reading Ancient Minds: Metaphor, Culture, and Complexity ## Channel: Santa Fe Institute
+74.9K subscribe
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
+
+Media review prompt:
+- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Secular shadows: African, immanent, post-colonial
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: world_language_source_sampling
+- Layer routes: world_languages, all_texts, other_religious_texts
+- Primary layer: world_languages
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (13)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 3404
+- Year: 2015
+- URL: https://doi.org/10.1177/2050303215584229
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### Theological and Exegetical Foundations of some Translation Solutions in BTD (Based on Chapters 1-12 of the Gospel of Luke). Part III
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
+- Primary layer: biblical_languages
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (12)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 3350
+- Year: 2021
+- URL: https://doi.org/10.31802/gb.2021.41.2.002
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
+### The Catholic Spirit in Modern English Literature
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
@@ -909,17 +641,17 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 5397
-- Year: 2015
-- URL: http://hdl.handle.net/1911/88121
+- Corroborating routed candidates: 5406
+- Year: 1922
+- URL: http://ci.nii.ac.jp/ncid/BA13435597
 
-OpenAlex abstract metadata available.
+No summary available in metadata.
 
 Automated evidence reasons:
 - scholarly metadata provider
 - author metadata present
 - publication year present
-- summary or abstract metadata available
+- recognized scholarly source type
 - some citation signal
 - many routed corroborating candidates
 
@@ -933,12 +665,130 @@ Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 
-### The phallocentric paradox and semantics of Eve’s myth in Zimbabwe’s contemporary national politics: An ecofeminist reading of Bulawayo’s novel, Glory
+### Clio, a Muse, and Other Essays Literary and Pedestrian
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: modern_literature_meaning
+- Layer routes: modern_literature, all_texts, human_stories
+- Primary layer: modern_literature
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 5406
+- Year: 2009
+- URL: http://ci.nii.ac.jp/ncid/BA16690397
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- some citation signal
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+
+### Redefining Russian Literary Diaspora, 1920-2020
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: modern_literature_meaning
+- Layer routes: modern_literature, all_texts, human_stories
+- Primary layer: modern_literature
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 5406
+- Year: 2021
+- URL: https://doi.org/10.2307/j.ctv17ppc6w
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+- some citation signal
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+
+### Racialized ethnic boundary-making in multilingual Kazakhstan: from silent to recognitional tolerance
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 5266
+- Year: n.d.
+- URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581756/?tool=EBI
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- trusted open-web domain present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### An exploration of the idea of ecodomy in Calvin's view of God and the world: Its implications for churches in South Africa today
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: general_research_methods
-- Layer routes: research_documents, deep_sources, world_languages, all_texts, modern_literature
+- Layer routes: research_documents, deep_sources, theologians
 - Primary layer: research_documents
 - Provider: OpenAlex
 - Quality: scholarly metadata
@@ -949,9 +799,9 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 6297
-- Year: 2023
-- URL: https://doi.org/10.4102/hts.v79i3.8070
+- Corroborating routed candidates: 5995
+- Year: 2015
+- URL: https://doi.org/10.4102/ve.v36i3.1474
 
 OpenAlex abstract metadata available.
 
@@ -971,56 +821,15 @@ Auto approval reasons:
 Layer review prompts:
 - Use as general research context until a more specific layer is reviewed.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 
-### Unlocking the Science-Religion Dialogue: Honoring a Master of Thomistic Natural Philosophy and Theology
+### I. Neuroenhancement – a short introduction on medical options
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: general_research_methods
 - Layer routes: research_documents, deep_sources
 - Primary layer: research_documents
-- Provider: Crossref
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 3917
-- Year: 2026
-- URL: https://doi.org/10.1080/14746700.2026.2725284
-
-No summary available in metadata.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Use as general research context until a more specific layer is reviewed.
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-
-### Social Christianity and the American Friends Service Committee's Pacifist Humanitarianism in Germany and Appalachia, 1919-1941
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: interreligious_dream_testimony
-- Layer routes: other_religious_texts, human_stories, theologians
-- Primary layer: other_religious_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
@@ -1030,9 +839,86 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5684
-- Year: 2017
-- URL: https://doi.org/10.18130/v3md35
+- Corroborating routed candidates: 3923
+- Year: 2022
+- URL: https://doi.org/10.5771/9783495999615-13
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Beyond Normative Developmental Scripts: Reading for Reproductive Becomings in Contemporary U.S. Genres
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources
+- Primary layer: research_documents
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 3923
+- Year: 2026
+- URL: https://hdl.handle.net/1773/57765
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Poems in Interreligious Dialogue: Searching for God in the Poetry of Ku Sang and Thomas Merton
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: interreligious_dream_testimony
+- Layer routes: other_religious_texts, human_stories, theologians, modern_literature
+- Primary layer: other_religious_texts
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 5768
+- Year: 2020
+- URL: https://doi.org/10.26686/wgtn.17148485.v1
 
 OpenAlex abstract metadata available.
 
@@ -1042,7 +928,7 @@ Automated evidence reasons:
 - author metadata present
 - publication year present
 - summary or abstract metadata available
-- some citation signal
+- many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
@@ -1053,72 +939,27 @@ Layer review prompts:
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 - Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 
-### The Incarnate Clinic: Pope Leo XIV's Magnifica Humanitas, AI Optimization, and the Bioethics of Technological Colonialism in Philippine Healthcare.
+### Towards a Socio-Theological Evaluation of Artificial Intelligence
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: technology_ethics
 - Layer routes: cultural_inputs, visual_art
 - Primary layer: cultural_inputs
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 3413
-- Year: 2026
-- URL: https://doi.org/10.1007/s10943-026-02794-0
-
-Medical artificial intelligence is increasingly used in diagnostic support, risk prediction, disease
-surveillance, documentation, referral, and workflow management. This conceptual study examines its
-ethical integration into Philippine healthcare through Pope Leo XIV's Magnifica Humanitas,
-incarnational theology, Filipino relational ethics, postcolonial bioethics, and Catholic Social
-Teaching. Using integrative, concept-driven thematic analysis and theological-bioethical dialogue,
-the study develops three themes: the optimized body and incarnate human dignity; medical AI and
-technological colonialism; and subsidiarity, distributive justice, and the incarnate clinic. Medical
-AI is neither inh
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-
-### The Politics of Digital Agricultural Technologies: A Preliminary Review
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: technology_ethics
-- Layer routes: cultural_inputs
-- Primary layer: cultural_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (14)
+- Automated evidence: strong_scholarly_candidate (12)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 2616
-- Year: 2019
-- URL: https://doi.org/10.1111/soru.12233
+- Corroborating routed candidates: 3420
+- Year: 2025
+- URL: https://doi.org/10.3390/rel16111372
 
 OpenAlex abstract metadata available.
 
@@ -1134,6 +975,43 @@ Auto approval reasons:
 - automated score >= 7
 - label is strong_scholarly_candidate
 - stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+
+### Legal, ethical and moral dilemma of human cloning: the conflict between technological progress and human dignity
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: technology_ethics
+- Layer routes: cultural_inputs
+- Primary layer: cultural_inputs
+- Provider: Europe PMC
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 2620
+- Year: n.d.
+- URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581949/?tool=EBI
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- trusted open-web domain present
 
 Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
