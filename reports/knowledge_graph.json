@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 24836,
+  "edge_count": 24944,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -6509,6 +6509,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_ferry_retrouv_leaving_the_history_of_empire_out_of_the_liberal_moment_",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_ferry_retrouv_leaving_the_history_of_empire_out_of_the_liberal_moment_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_ferry_retrouv_leaving_the_history_of_empire_out_of_the_liberal_moment_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_ferry_retrouv_leaving_the_history_of_empire_out_of_the_liberal_moment_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_ferry_retrouv_leaving_the_history_of_empire_out_of_the_liberal_moment_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_fiscal_devaluation_and_fiscal_consolidation_the_vat_in_troubled_times_",
       "target": "lane:research_documents"
     },
@@ -16271,6 +16296,16 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:promotion_restraint"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -18124,6 +18159,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_7_ruach_pneuma_ce613e178e1a_md",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_7_ruach_pneuma_ce613e178e1a_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_7_ruach_pneuma_ce613e178e1a_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_7_ruach_pneuma_ce613e178e1a_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_7_ruach_pneuma_ce613e178e1a_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_9_the_classification_of_literalism_in_ancient_hebrew_greek_translation",
       "target": "lane:biblical_languages"
     },
@@ -18739,6 +18799,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_balisage_biblical_scholarship_in_the_github_jungle_6fb13487047b_md",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_balisage_biblical_scholarship_in_the_github_jungle_6fb13487047b_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_balisage_biblical_scholarship_in_the_github_jungle_6fb13487047b_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_balisage_biblical_scholarship_in_the_github_jungle_6fb13487047b_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_balisage_biblical_scholarship_in_the_github_jungle_6fb13487047b_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_balisage_biblical_scholarship_in_the_github_jungle_6fb13487047b_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_balisage_paper_biblical_scholarship_in_the_github_jungle_8961d5886ddb_",
       "target": "lane:biblical_languages"
     },
@@ -18875,6 +18965,61 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hebrew_a_comprehensive_beginner_s_grammar_including_dictionar",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hebrew_ancient_language_resources_libguides_at_digital_theolo",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hebrew_ancient_language_resources_libguides_at_digital_theolo",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hebrew_ancient_language_resources_libguides_at_digital_theolo",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hebrew_ancient_language_resources_libguides_at_digital_theolo",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hebrew_ancient_language_resources_libguides_at_digital_theolo",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hebrew_ancient_language_resources_libguides_at_digital_theolo",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hesed_and_nephite_covenant_culture_byu_studies_bc6aeb3b65f7_m",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hesed_and_nephite_covenant_culture_byu_studies_bc6aeb3b65f7_m",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hesed_and_nephite_covenant_culture_byu_studies_bc6aeb3b65f7_m",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hesed_and_nephite_covenant_culture_byu_studies_bc6aeb3b65f7_m",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hesed_and_nephite_covenant_culture_byu_studies_bc6aeb3b65f7_m",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -19519,6 +19664,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_going_to_jesus_com_pastor_john_clark_s_abbreviated_pneuma_study_5bcd81",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_going_to_jesus_com_pastor_john_clark_s_abbreviated_pneuma_study_5bcd81",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_going_to_jesus_com_pastor_john_clark_s_abbreviated_pneuma_study_5bcd81",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_going_to_jesus_com_pastor_john_clark_s_abbreviated_pneuma_study_5bcd81",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_going_to_jesus_com_pastor_john_clark_s_abbreviated_pneuma_study_5bcd81",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_going_to_jesus_com_pastor_john_clark_s_abbreviated_pneuma_study_5bcd81",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_gordon_fee_ca1ad3b4ff0a_md",
       "target": "lane:biblical_languages"
     },
@@ -19655,6 +19830,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_greek_words_and_hebrew_meanings_8a77f038ee0f_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_h_esed_in_the_hebrew_bible_bible_interp_43dcdbd6dc80_md",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_h_esed_in_the_hebrew_bible_bible_interp_43dcdbd6dc80_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_h_esed_in_the_hebrew_bible_bible_interp_43dcdbd6dc80_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_h_esed_in_the_hebrew_bible_bible_interp_43dcdbd6dc80_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_h_esed_in_the_hebrew_bible_bible_interp_43dcdbd6dc80_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -20944,6 +21144,66 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_bible_in_greek_translation_transmission_and_theology_of_the_se",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_bible_in_greek_translation_transmission_and_theology_of_the_se",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_bible_in_greek_translation_transmission_and_theology_of_the_se",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_bible_in_greek_translation_transmission_and_theology_of_the_se",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_bible_in_greek_translation_transmission_and_theology_of_the_se",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_bible_in_greek_translation_transmission_and_theology_of_the_se",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_historical_and_theological_lexicon_of_the_septuagint_htls_in_e",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_historical_and_theological_lexicon_of_the_septuagint_htls_in_e",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_historical_and_theological_lexicon_of_the_septuagint_htls_in_e",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_historical_and_theological_lexicon_of_the_septuagint_htls_in_e",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_historical_and_theological_lexicon_of_the_septuagint_htls_in_e",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_historical_and_theological_lexicon_of_the_septuagint_htls_in_e",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_peace_shalom_hebrew_word_study_precept_austin_c91724436bf3_md",
       "target": "lane:biblical_languages"
     },
@@ -22570,6 +22830,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_greek_article_a_functional_grammar_of_items_in_the_greek_new_testa",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_greek_translation_of_the_hebrew_bible_the_septuagint_posen_library",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_greek_translation_of_the_hebrew_bible_the_septuagint_posen_library",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_greek_translation_of_the_hebrew_bible_the_septuagint_posen_library",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_greek_translation_of_the_hebrew_bible_the_septuagint_posen_library",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_greek_translation_of_the_hebrew_bible_the_septuagint_posen_library",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -26559,6 +26844,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_contrarian_lives_christians_and_contemporary_protest_in_jharkhand_7443abf",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_contrarian_lives_christians_and_contemporary_protest_in_jharkhand_7443abf",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_contrarian_lives_christians_and_contemporary_protest_in_jharkhand_7443abf",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_contrarian_lives_christians_and_contemporary_protest_in_jharkhand_7443abf",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_contrarian_lives_christians_and_contemporary_protest_in_jharkhand_7443abf",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_contrarian_lives_christians_and_contemporary_protest_in_jharkhand_7443abf",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_corpora_and_the_semantics_of_metaphor_34a71c085c98_md",
       "target": "lane:world_languages"
     },
@@ -29035,6 +29350,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:world_languages_auto_imported_cloud_candidates_liberation_theology_and_christian_radicalism_in_contemporary_latin_americ",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_linguistic_argumentation_and_logic_an_alternative_method_approach_in_arab",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_linguistic_argumentation_and_logic_an_alternative_method_approach_in_arab",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_linguistic_argumentation_and_logic_an_alternative_method_approach_in_arab",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_linguistic_argumentation_and_logic_an_alternative_method_approach_in_arab",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_linguistic_argumentation_and_logic_an_alternative_method_approach_in_arab",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -36064,6 +36404,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jk_voice_power_group_small_love_life_world_0600e53b0008_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jk_voice_power_group_small_love_life_world_0600e53b0008_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jk_voice_power_group_small_love_life_world_0600e53b0008_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jk_voice_power_group_small_love_life_world_0600e53b0008_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_jk_voice_power_group_small_love_life_world_0600e53b0008_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:all_texts_auto_imported_cloud_candidates_john_henry_newman_s_anglican_views_on_judaism_4a77f2cc46dd_md",
       "target": "lane:all_texts"
     },
@@ -37415,6 +37780,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:all_texts_auto_imported_cloud_candidates_spiritual_ethical_great_religions_world_s_religious_compassion_wisdom_f8d8b8fc8",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_spiritual_ethical_great_world_s_compassion_religions_religious_wisdom_b5e32dded",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_spiritual_ethical_great_world_s_compassion_religions_religious_wisdom_b5e32dded",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_spiritual_ethical_great_world_s_compassion_religions_religious_wisdom_b5e32dded",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_spiritual_ethical_great_world_s_compassion_religions_religious_wisdom_b5e32dded",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_spiritual_ethical_great_world_s_compassion_religions_religious_wisdom_b5e32dded",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -49895,6 +50285,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_islamic_ecoteology_and_the_spirit_of_fastabiqul_khairat_a_reconstruction_of_t",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_islamist_antisemitism_a_neglected_hate_b2ca5843cdda_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_islamist_antisemitism_a_neglected_hate_b2ca5843cdda_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_islamist_antisemitism_a_neglected_hate_b2ca5843cdda_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_islamist_antisemitism_a_neglected_hate_b2ca5843cdda_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_islamist_antisemitism_a_neglected_hate_b2ca5843cdda_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_islamist_antisemitism_a_neglected_hate_b2ca5843cdda_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -71604,6 +72024,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_sergei_bulgakov_on_the_art_of_the_icon_68d116e37ac7_md",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_sergei_bulgakov_on_the_art_of_the_icon_68d116e37ac7_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_sergei_bulgakov_on_the_art_of_the_icon_68d116e37ac7_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_sergei_bulgakov_on_the_art_of_the_icon_68d116e37ac7_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_sergei_bulgakov_on_the_art_of_the_icon_68d116e37ac7_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_sergei_bulgakov_on_the_art_of_the_icon_68d116e37ac7_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_show_us_your_god_marilla_baker_ingalls_and_the_power_of_religious_objects_in_n",
       "target": "lane:visual_art"
     },
@@ -88970,6 +89420,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_time_reversal_in_umeda_ritual_cbc3d4992862_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_time_to_abandon_christian_nationalism_17_million_from_child_sponsorships_",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_time_to_abandon_christian_nationalism_17_million_from_child_sponsorships_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_time_to_abandon_christian_nationalism_17_million_from_child_sponsorships_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_time_to_abandon_christian_nationalism_17_million_from_child_sponsorships_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_time_to_abandon_christian_nationalism_17_million_from_child_sponsorships_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -112234,6 +112709,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_feminist_theology_and_the_theology_of_the_eucharist_a_quantum_leap_0b32e53fd",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_feminist_theology_and_the_theology_of_the_eucharist_a_quantum_leap_0b32e53fd",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_feminist_theology_and_the_theology_of_the_eucharist_a_quantum_leap_0b32e53fd",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_feminist_theology_and_the_theology_of_the_eucharist_a_quantum_leap_0b32e53fd",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_feminist_theology_and_the_theology_of_the_eucharist_a_quantum_leap_0b32e53fd",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_feminist_theology_and_the_theology_of_the_eucharist_a_quantum_leap_0b32e53fd",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_feminist_theology_and_the_theology_of_the_eucharist_a_quantum_leap_0b32e53fd",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_finite_time_cluster_synchronization_for_a_class_of_fuzzy_cellular_neural_net",
       "target": "lane:deep_sources"
     },
@@ -112440,6 +112950,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_gaussian_states_in_continuous_variable_quantum_information_240b9673dd97_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_geographic_information_systems_and_science_78cc58e93a8c_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_geographic_information_systems_and_science_78cc58e93a8c_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_geographic_information_systems_and_science_78cc58e93a8c_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_geographic_information_systems_and_science_78cc58e93a8c_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_geographic_information_systems_and_science_78cc58e93a8c_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_geographic_information_systems_and_science_78cc58e93a8c_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -124184,7 +124724,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 3966,
+  "node_count": 3985,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -126608,6 +127148,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/feminist_theology_a_critical_theology_of_liberation_3224bfed7468.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_ferry_retrouv_leaving_the_history_of_empire_out_of_the_liberal_moment_",
+      "label": "Ferry Retrouv\u00e9 : Leaving the History of Empire Out of the \u201cLiberal Moment\u201d in France",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/ferry_retrouv_leaving_the_history_of_empire_out_of_the_liberal_moment_in_france_77ac2907f21c.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -130595,6 +131146,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_7_ruach_pneuma_ce613e178e1a_md",
+      "label": "7. Ruach & Pneuma",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/7_ruach_pneuma_ce613e178e1a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_auto_imported_cloud_candidates_9_the_classification_of_literalism_in_ancient_hebrew_greek_translation",
       "label": "9. The Classification of Literalism in Ancient Hebrew-Greek Translation",
       "lane": "biblical_languages",
@@ -130837,6 +131399,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_balisage_biblical_scholarship_in_the_github_jungle_6fb13487047b_md",
+      "label": "Balisage: Biblical Scholarship in the GitHub Jungle",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/balisage_biblical_scholarship_in_the_github_jungle_6fb13487047b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_auto_imported_cloud_candidates_balisage_paper_biblical_scholarship_in_the_github_jungle_8961d5886ddb_",
       "label": "Balisage Paper: Biblical Scholarship in the GitHub Jungle",
       "lane": "biblical_languages",
@@ -130876,6 +131449,28 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "biblical_languages/auto_imported_cloud_candidates/biblical_hebrew_a_comprehensive_beginner_s_grammar_including_dictionary_grammar_8cf69ae87cbb.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hebrew_ancient_language_resources_libguides_at_digital_theolo",
+      "label": "Biblical Hebrew - Ancient Language Resources - LibGuides at Digital Theological Library",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/biblical_hebrew_ancient_language_resources_libguides_at_digital_theological_libr_7e11a80dab0b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_biblical_hesed_and_nephite_covenant_culture_byu_studies_bc6aeb3b65f7_m",
+      "label": "Biblical hesed and Nephite Covenant Culture - BYU Studies",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/biblical_hesed_and_nephite_covenant_culture_byu_studies_bc6aeb3b65f7.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -131123,6 +131718,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_going_to_jesus_com_pastor_john_clark_s_abbreviated_pneuma_study_5bcd81",
+      "label": "Going to Jesus.com - Pastor John Clark's Abbreviated Pneuma Study",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/going_to_jesus_com_pastor_john_clark_s_abbreviated_pneuma_study_5bcd81fe375e.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_auto_imported_cloud_candidates_gordon_fee_ca1ad3b4ff0a_md",
       "label": "Gordon Fee",
       "lane": "biblical_languages",
@@ -131162,6 +131768,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "biblical_languages/auto_imported_cloud_candidates/greek_words_and_hebrew_meanings_8a77f038ee0f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_h_esed_in_the_hebrew_bible_bible_interp_43dcdbd6dc80_md",
+      "label": "H\u0323esed in the Hebrew Bible | Bible Interp",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/h_esed_in_the_hebrew_bible_bible_interp_43dcdbd6dc80.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -131646,6 +132263,28 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "biblical_languages/auto_imported_cloud_candidates/pdf_john_w_wyckoff_pneuma_and_logos_the_role_of_8e1cacec29d6.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_bible_in_greek_translation_transmission_and_theology_of_the_se",
+      "label": "(PDF) The Bible in Greek: Translation, Transmission, and Theology of the Septuagint",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/pdf_the_bible_in_greek_translation_transmission_and_theology_of_the_septuagint_c5bbbee7cf0a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_pdf_the_historical_and_theological_lexicon_of_the_septuagint_htls_in_e",
+      "label": "(PDF) \u201cThe \u2018Historical and Theological Lexicon of the Septuagint\u2019 (HTLS)\u201d, in: E. Bons, R. Hunziker-Rodewald, J. Joosten, Biblical Lexicology: Hebrew and Greek. Semantics \u2013 Exegesis \u2013 Translation (BZAW 443), Berlin, New York: De Gruyter, 2015, pp. 35",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/pdf_the_historical_and_theological_lexicon_of_the_septuagint_htls_in_e_bons_r_hu_884a2cd23840.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -132240,6 +132879,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "biblical_languages/auto_imported_cloud_candidates/the_greek_article_a_functional_grammar_of_items_in_the_greek_new_testament_with_d1b5affc9a1a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_the_greek_translation_of_the_hebrew_bible_the_septuagint_posen_library",
+      "label": "The Greek Translation of the Hebrew Bible: The Septuagint | Posen Library",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/the_greek_translation_of_the_hebrew_bible_the_septuagint_posen_library_23c09c29b437.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -133598,6 +134248,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_contrarian_lives_christians_and_contemporary_protest_in_jharkhand_7443abf",
+      "label": "Contrarian lives: Christians and contemporary protest in Jharkhand",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/contrarian_lives_christians_and_contemporary_protest_in_jharkhand_7443abfc13f6.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_corpora_and_the_semantics_of_metaphor_34a71c085c98_md",
       "label": "Corpora and the Semantics of Metaphor",
       "lane": "world_languages",
@@ -134473,6 +135134,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "world_languages/auto_imported_cloud_candidates/liberation_theology_and_christian_radicalism_in_contemporary_latin_america_1ae030150bd9.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_linguistic_argumentation_and_logic_an_alternative_method_approach_in_arab",
+      "label": "Linguistic argumentation and logic: An alternative method approach in Arabic grammar",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/linguistic_argumentation_and_logic_an_alternative_method_approach_in_arabic_gram_73344515a10c.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -137074,6 +137746,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_jk_voice_power_group_small_love_life_world_0600e53b0008_md",
+      "label": "Jk - Voice Power Group Small Love Life World.",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/jk_voice_power_group_small_love_life_world_0600e53b0008.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_john_henry_newman_s_anglican_views_on_judaism_4a77f2cc46dd_md",
       "label": "John Henry Newman\u2019s Anglican Views on Judaism",
       "lane": "all_texts",
@@ -137564,6 +138247,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "all_texts/auto_imported_cloud_candidates/spiritual_ethical_great_religions_world_s_religious_compassion_wisdom_f8d8b8fc8eeb.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_spiritual_ethical_great_world_s_compassion_religions_religious_wisdom_b5e32dded",
+      "label": "Spiritual Ethical Great World'S Compassion Religions Religious Wisdom",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/spiritual_ethical_great_world_s_compassion_religions_religious_wisdom_b5e32dded38c.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -141854,6 +142548,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/islamic_ecoteology_and_the_spirit_of_fastabiqul_khairat_a_reconstruction_of_the_cd021b2157d7.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_islamist_antisemitism_a_neglected_hate_b2ca5843cdda_md",
+      "label": "Islamist antisemitism: a neglected hate",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/islamist_antisemitism_a_neglected_hate_b2ca5843cdda.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -149559,6 +150264,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_sergei_bulgakov_on_the_art_of_the_icon_68d116e37ac7_md",
+      "label": "Sergei Bulgakov on the Art of the Icon",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/sergei_bulgakov_on_the_art_of_the_icon_68d116e37ac7.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_show_us_your_god_marilla_baker_ingalls_and_the_power_of_religious_objects_in_n",
       "label": "\u201cShow Us Your God\u201d: Marilla Baker Ingalls and the Power of Religious Objects in Nineteenth-Century Burma",
       "lane": "visual_art",
@@ -155670,6 +156386,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/time_reversal_in_umeda_ritual_cbc3d4992862.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_time_to_abandon_christian_nationalism_17_million_from_child_sponsorships_",
+      "label": "Time to Abandon Christian Nationalism? + $17 Million From Child Sponsorships + Raves at St. Paul\u2019s Cathedral",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/time_to_abandon_christian_nationalism_17_million_from_child_sponsorships_raves_a_108157b36999.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -163804,6 +164531,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_feminist_theology_and_the_theology_of_the_eucharist_a_quantum_leap_0b32e53fd",
+      "label": "Feminist Theology and the Theology of the Eucharist \u2013 A Quantum Leap?",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/feminist_theology_and_the_theology_of_the_eucharist_a_quantum_leap_0b32e53fd3d8.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_finite_time_cluster_synchronization_for_a_class_of_fuzzy_cellular_neural_net",
       "label": "Finite-time cluster synchronization for a class of fuzzy cellular neural networks via non-chattering quantized controllers.",
       "lane": "deep_sources",
@@ -163876,6 +164614,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/gaussian_states_in_continuous_variable_quantum_information_240b9673dd97.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_geographic_information_systems_and_science_78cc58e93a8c_md",
+      "label": "Geographic information systems and science",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/geographic_information_systems_and_science_78cc58e93a8c.md",
       "review_note_count": 1,
       "type": "document"
     },
