@@ -8,216 +8,81 @@ Media rule: videos, podcasts, and images can be found and queued, but they canno
 
 ## Newest Candidate Material
 
-### Feminist Theology and the Theology of the Eucharist – A Quantum Leap?
+### Development of a Nursing Quality Evaluation Indicator System for Lung Cancer in Traditional Chinese Medicine Based on the Donabedian Model: A Delphi Study.
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests, visual_art
-- Primary layer: deep_sources
-- Provider: Crossref
+- Tags: music_math
+- Layer routes: music_notes, deep_sources
+- Primary layer: music_notes
+- Provider: Europe PMC
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
+- Automated evidence: strong_scholarly_candidate (10)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5769
-- Year: 2013
-- URL: https://doi.org/10.1177/0966735013484228
-
-This paper is based on the findings of my PhD research into at the effect of participation in the
-Roman Catholic Sacrament of the Eucharist on the formation of subjectivity viewed from the
-perspective of Feminist Liberation Theology. Taking Eucharist as a communal manifestation of belief
-in communion with the divine celebrated through symbolic liturgical enactments of thanksgiving and
-praise I am exploring the link between Feminist Relational Theologies and new findings in Cosmology
-and Quantum Theology that highlight interdependence and relationality as basic to our understanding
-of ourselves and the nature of the divine. Subsequently the contribution of these theologies that
-offer the poss
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-
-### Geographic information systems and science
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests
-- Primary layer: deep_sources
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (14)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 4903
-- Year: 2011
-- URL: https://doi.org/10.1080/17538947.2011.582276
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Time to Abandon Christian Nationalism? + $17 Million From Child Sponsorships + Raves at St. Paul’s Cathedral
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs, all_texts
-- Primary layer: cultural_inputs
-- Provider: Internet Archive
-- Quality: reference metadata
-- Media kind: podcast
-- Requires multimodal review: True
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 5284
+- Corroborating routed candidates: 3536
 - Year: 2026
-- URL: https://archive.org/details/KOREAN_METHODIST_CHURCH_AND_INSTITUTE-WR2026_0908
+- URL: https://doi.org/10.2147/jmdh.s632882
 
-Christian nationalism promises a more Christian society—but is giving the government power to
-enforce Christianity actually biblical? Todd looks at what Scripture and history have to say before
-turning to a $17 million child sponsorship controversy and some troubling church news. Segment 1 •
-Is it time for Christians to finally render a verdict on Christian nationalism? • Where does the
-Bible actually tell the church to impose Christianity through the state? • Why Todd believes
-Christian nationalism is creating real problems inside local churches. Segment 2 • Christian
-nationalism has been tried before—what can we learn from the results? • If the government enforces
-Christianity, who gets to
+Background Currently, no unified quality evaluation standard exists specifically for Traditional
+Chinese Medicine (TCM) nursing in lung cancer in China, and existing indicators do not capture TCM's
+unique features. To address this gap, we aimed to construct a preliminary scientific and disease
+specific quality evaluation framework for Traditional Chinese Medicine (TCM) nursing in lung cancer
+patients based on expert consensus, which can serve as a theoretical foundation for standardized
+management and future empirical validation. Methods Guided by Donabedian's structure process outcome
+model, we developed an initial indicator pool through a systematic literature review and semi
+structured in
 
 Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
 - summary or abstract metadata available
 - many routed corroborating candidates
 
-Auto approval blockers:
-- automated warning present
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Check musical structure directly before using it as analogy or theological support.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### Sergei Bulgakov on the Art of the Icon
+### The disciples of light: a way of seeing and the educational transfer of ideas linking spirituality and art among southern painters in the Hensche-Hawthorne tradition
 
 - Review status: machine_assessed_strong_scholarly_candidate
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: visual_media_patterns
-- Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests
-- Primary layer: visual_art
-- Provider: Crossref
+- Tags: video_teaching_patterns
+- Layer routes: theologians, human_stories, cultural_inputs, pattern_tests, visual_art, all_texts
+- Primary layer: theologians
+- Provider: OpenAlex
 - Quality: scholarly metadata
-- Media kind: image
+- Media kind: video
 - Requires multimodal review: True
 - Automated evidence: strong_scholarly_candidate (10)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 6596
-- Year: 2021
-- URL: https://doi.org/10.4324/9781315245119-6
+- Corroborating routed candidates: 8629
+- Year: 2006
+- URL: https://doi.org/10.31390/gradschool_dissertations.1046
 
-No summary available in metadata.
+OpenAlex abstract metadata available.
 
 Automated evidence reasons:
 - scholarly metadata provider
 - DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
-- recognized scholarly source type
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated warning present
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-- Classify the cultural domain and practical consequences before making theological claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Islamist antisemitism: a neglected hate
-
-- Review status: machine_assessed_strong_scholarly_candidate
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: video_teaching_patterns
-- Layer routes: theologians, human_stories, cultural_inputs, pattern_tests, other_religious_texts
-- Primary layer: theologians
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: video
-- Requires multimodal review: True
-- Automated evidence: strong_scholarly_candidate (11)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 7844
-- Year: 2025
-- URL: https://kclpure.kcl.ac.uk/portal/files/355294819/CEG_Daniel_Allington_-_Islamist_Antisemitism.pdf
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- recognized scholarly source type
 - summary or abstract metadata available
+- many routed corroborating candidates
 
 Auto approval blockers:
 - automated warning present
@@ -233,15 +98,60 @@ Layer review prompts:
 - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 - Classify the cultural domain and practical consequences before making theological claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
 
-### Linguistic argumentation and logic: An alternative method approach in Arabic grammar
+### Youth and Liturgy: an Oxymoron? A study into how and why Anglican liturgy and the Anglican liturgical tradition are being used in worship targeting young people within the Anglican Church (Tikanga Pakeha) in New Zealand.
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: video_teaching_patterns
+- Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
+- Primary layer: theologians
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: video
+- Requires multimodal review: True
+- Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 7166
+- Year: 2009
+- URL: https://ourarchive.otago.ac.nz/esploro/outputs/graduate/Youth-and-Liturgy-an-Oxymoron-A/9926478643101891
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- some citation signal
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated warning present
+
+Automated evidence warnings:
+- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
+
+Media review prompt:
+- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Classify the cultural domain and practical consequences before making theological claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
+### Post-conflict societies and the social sciences: a review
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: world_languages_translation
-- Layer routes: world_languages, all_texts
-- Primary layer: world_languages
+- Tags: history_memory
+- Layer routes: history_inputs, theologians, deep_sources
+- Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
@@ -251,15 +161,15 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 2695
-- Year: 2013
-- URL: http://funes.uniandes.edu.co/32393/1/delR%C3%ADoLauraRecursos.pdf
+- Corroborating routed candidates: 6920
+- Year: 2011
+- URL: https://doi.org/10.1080/17450144.2010.534497
 
 OpenAlex abstract metadata available.
 
 Automated evidence reasons:
 - scholarly metadata provider
-- trusted archive, university, government, museum, library, or public-domain domain
+- DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
 - recognized scholarly source type
@@ -268,39 +178,40 @@ Automated evidence reasons:
 Auto approval reasons:
 - automated score >= 7
 - label is strong_scholarly_candidate
-- author and year metadata present
+- stable DOI present
 
 Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### Contrarian lives: Christians and contemporary protest in Jharkhand
+### Living at the edge of empire: can Christianity prevail and be effective? A theological response to the historical struggle between empire and Christianity
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts
-- Primary layer: world_languages
+- Tags: history_memory
+- Layer routes: history_inputs, theologians
+- Primary layer: history_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
+- Automated evidence: strong_scholarly_candidate (10)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 3410
-- Year: 2005
-- URL: https://researchonline.lse.ac.uk/id/eprint/25191/1/ARCWorkingPaper18SushilJAaron2007.pdf
+- Corroborating routed candidates: 3784
+- Year: 2011
+- URL: http://hdl.handle.net/10500/5656
 
 OpenAlex abstract metadata available.
 
 Automated evidence reasons:
 - scholarly metadata provider
-- trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
 - publication year present
+- recognized scholarly source type
 - summary or abstract metadata available
 - some citation signal
 
@@ -310,411 +221,55 @@ Auto approval reasons:
 - author and year metadata present
 
 Layer review prompts:
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+
+### Baptist Way Or Ways Full - Church Southern Baptist,
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: world_language_source_sampling
+- Layer routes: world_languages, all_texts, other_religious_texts, visual_art
+- Primary layer: world_languages
+- Provider: Internet Archive
+- Quality: reference metadata
+- Media kind: podcast
+- Requires multimodal review: True
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 4894
+- Year: 2022
+- URL: https://archive.org/details/Best_Private_Christian_Univers-baptistwayorways_full
+
+Justification before god by the righteousness of jesus christ imputedCarterr, and reconciliation,
+regeneration, recycle, vacation by the operations of the holy spirit.
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated warning present
+
+Automated evidence warnings:
+- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
+
+Media review prompt:
+- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
+
+Layer review prompts:
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Biblical Hebrew - Ancient Language Resources - LibGuides at Digital Theological Library
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_languages
-- Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 3361
-- Year: n.d.
-- URL: https://libguides.thedtl.org/c.php?g=750784&p=5388821
-
-"At the heart of biblical interpretation is the need to read the Bible's "syntax" (the way words,
-clauses, and sentences relate to each other). The growing demands on theological education have made
-it difficult for students of the Hebrew Bible (or Old Testament) to master the intermediate-level
-skills required to interpret the syntax of the Bible's original language. A Guide to Biblical Hebrew
-Syntax defines the fundamental syntactical features of the Hebrew Bible, and illustrates each [...]
-by Professor Williams re-emphasizes the significance of word order in Hebrew. Developed over fifteen
-years in a formal course on Hebrew syntax at the University of Toronto, it treats the syntax of the
-n
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
 - Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
 
-### Balisage: Biblical Scholarship in the GitHub Jungle
-
-- Review status: machine_assessed_do_not_strengthen_claim
-- Evaluation use: do not use to increase confidence without stronger corroboration
-- Tags: biblical_languages
-- Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: image
-- Requires multimodal review: True
-- Automated evidence: do_not_strengthen_claim (3)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: do_not_strengthen_claim
-- Corroborating routed candidates: 3361
-- Year: n.d.
-- URL: https://balisage.net/Proceedings////vol27/html/Robie01/BalisageVol27-Robie01.html
-
-At Clear, we use these datasets in our own tools. including a dashboard for translation consultants
-to identify and address potential issues in a translation, an NLP engine for aligning translations
-to Greek or Hebrew, an environment for reading the biblical text in Hebrew, Aramaic, and Greek, and
-a syntax tree editor. We also align translations to the original Hebrew and Greek words so that
-images, maps, articles, and other resources can be associated with the original language text and
-used [...] ## Two Independent Analyses In this tree, the overall syntax tree structure is based on
-the analysis found in Westminster Hebrew Syntax Without Morphology). The morphological analysis that
-describ
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label do_not_strengthen_claim is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-- open-web result: require corroboration before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### (PDF) “The ‘Historical and Theological Lexicon of the Septuagint’ (HTLS)”, in: E. Bons, R. Hunziker-Rodewald, J. Joosten, Biblical Lexicology: Hebrew and Greek. Semantics – Exegesis – Translation (BZAW 443), Berlin, New York: De Gruyter, 2015, pp. 35
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_languages
-- Layer routes: biblical_languages, research_documents/christian_sources, visual_art, history_inputs, world_languages, all_texts
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: image
-- Requires multimodal review: True
-- Automated evidence: weak_scholarly_candidate (5)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 5586
-- Year: n.d.
-- URL: https://www.academia.edu/13051992/_The_Historical_and_Theological_Lexicon_of_the_Septuagint_HTLS_in_E_Bons_R_Hunziker_Rodewald_J_Joosten_Biblical_Lexicology_Hebrew_and_Greek_Semantics_Exegesis_Translation_BZAW_443_Berlin_New_York_De_Gruyter_2015_pp_357_367
-
-Title: (PDF) “The ‘Historical and Theological Lexicon of the Septuagint’ (HTLS)”, in: E. Bons, R.
-Hunziker-Rodewald, J. Joosten, Biblical Lexicology: Hebrew and Greek. Semantics – Exegesis –
-Translation (BZAW 443), Berlin, New York: De Gruyter, 2015, pp. 357–367. # “The ‘Historical and
-Theological Lexicon of the Septuagint’ (HTLS)”, in: E. “The Nature of the Hebrew Text Underlying the
-LXX: A Survey of the Problems,” JSOT 7 (1978): 53–68. “The Evaluation of the Greek Scripture
-Translations in Rabbinic Sources,” Revised version: Emanuel Tov, Hebrew Bible, Greek Bible, and
-Qumran (2008), 365–77. “The Septuagint as a Source for the Literary Analysis of Hebrew Scripture,”
-in Exploring the Origins
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### (PDF) The Bible in Greek: Translation, Transmission, and Theology of the Septuagint
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_languages
-- Layer routes: biblical_languages, research_documents/christian_sources, world_languages, all_texts
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: weak_scholarly_candidate (6)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 2961
-- Year: n.d.
-- URL: https://www.academia.edu/115088959/The_Bible_in_Greek_Translation_Transmission_and_Theology_of_the_Septuagint
-
-Title: (PDF) The Bible in Greek: Translation, Transmission, and Theology of the Septuagint
-Academia.edu uses cookies to personalize content, tailor ads and improve the user experience. By
-using our site, you agree to our collection of information through the use of cookies. To learn
-more, view our Privacy Policy. # The Bible in Greek: Translation, Transmission, and Theology of the
-Septuagint. ## Related papers. The Book of the Twelve and the New Form Criticism ed. The Book of the
-Twelve and the New Form Criticism. Review: Perspectives on New Testament Textual Criticism, Vol. 2,
-by Eldon Jay Epp. “Post-Modern Textual Criticism?” in Greek Scripture and the Rabbis (eds. T.
-Michael Law & Alison
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- open-web source requires manual review
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### The Greek Translation of the Hebrew Bible: The Septuagint | Posen Library
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_languages
-- Layer routes: biblical_languages, research_documents/christian_sources, world_languages, all_texts
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 2961
-- Year: n.d.
-- URL: https://posenlibrary.com/guide/greek-translation-hebrew-bible-septuagint
-
-Title: The Greek Translation of the Hebrew Bible: The Septuagint | Posen Library # The Greek
-Translation of the Hebrew Bible: The Septuagint. The Septuagint (abbreviated LXX), the Greek
-translation of the Hebrew Bible, is the earliest known biblical translation, first of the Pentateuch
-and later of the entire Hebrew Bible. It is an important witness to the development of the biblical
-text during the Second Temple period and served as the sacred text of the Greek-speaking Jewish
-community of Hellenistic Egypt. The work is named to reflect the miraculous legend of its
-translation by seventy-two independent scholars, six from each of the twelve tribes of Israel, all
-of whom translated the text
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### 7. Ruach & Pneuma
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_languages
-- Layer routes: biblical_languages, research_documents/christian_sources, theologians, visual_art, world_languages, all_texts
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: video
-- Requires multimodal review: True
-- Automated evidence: weak_scholarly_candidate (5)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 6390
-- Year: n.d.
-- URL: https://www.youtube.com/watch?v=HKQH3UhPtpk
-
-# 7. Ruach & Pneuma ## Channel: Dakota SDA Kids 2.02K subscribers 8 likes ### Description 647 views
-Posted: 2022-01-07 Scripture: Genesis 1:1-2 Acts 2:1-4 John 4:23-26 Ruach is the Hebrew word and
-Pneuma is the Greek word for "Spirit." This is the name used for the Holy Spirit, part of the
-Trinity or Godhead. Jesus told the woman at the well that God is Spirit and we have the gift of the
-Holy Spirit who lives inside you and me, dwelling in those who believe in Jesus. [...] [13:03] so we
-can show your love to the world we are so thankful that you are in our hearts and we accept you
-again today in your name amen [13:11] all right if you are making the matching game with me here we
-have it all
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### Ḥesed in the Hebrew Bible | Bible Interp
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_language_source_depth
-- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: weak_scholarly_candidate (6)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 2961
-- Year: n.d.
-- URL: https://bibleinterp.arizona.edu/articles/hesed-hebrew-bible
-
-Ḥesed is a central theological term in the Hebrew Bible that is fundamentally relational, resistant
-to reduction to a single-word equivalent, and semantically multivalent. While earlier scholarship
-often treated this ambiguity as a lexical problem, recent studies have increasingly recognized it as
-a source of interpretive and theological richness. By examining its use across a variety of
-contexts, from covenant relationships to descriptions of God’s character and name, the semantic
-breadth of [...] Ḥesed is found in every main section of the Hebrew Bible (Torah, Prophets, and
-Writings). Similar to terroir, it is important to look at ḥesed in its context to understand the
-way it functions.
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- open-web source requires manual review
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### Biblical hesed and Nephite Covenant Culture - BYU Studies
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: biblical_language_source_depth
-- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
-- Primary layer: biblical_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: weak_scholarly_candidate (6)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 2961
-- Year: n.d.
-- URL: https://byustudies.byu.edu/article/biblical-hesed-and-nephite-covenant-culture
-
-Glueck’s study engages every occurrence of hesed in the Hebrew Bible, as well as the then-existing
-scholarly commentaries on those occurrences. The study begins with a careful look at the secular
-meanings of hesed as applied to human conduct in the Bible. He found six categories of relationships
-where the reciprocal obligations of hesed were in play: (1) between relatives and related tribes,
-(2) between hosts and guests, (3) between allies and their relatives, (4) between friends, (5)
-between [...] One of the simplest and most direct ways of unraveling the complexities of biblical
-hesed as applied to Yahweh is to review the struggle of Hebrew Bible translators to find suitable
-English synony
-
-Automated evidence reasons:
-- broad open-web search result
-- trusted archive, university, government, museum, library, or public-domain domain
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- open-web source requires manual review
-
-Layer review prompts:
-- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
-- Check Christian source context, doctrine, and source quality.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-
-### Going to Jesus.com - Pastor John Clark's Abbreviated Pneuma Study
+### The Septuagint as a holy text – The first ‘bible’ of the early church | Cook | HTS Teologiese Studies / Theological Studies
 
 - Review status: machine_assessed_weak_scholarly_candidate
 - Evaluation use: use as a lead or question generator, not strong evidence
@@ -730,18 +285,18 @@ Layer review prompts:
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 4467
+- Corroborating routed candidates: 4472
 - Year: n.d.
-- URL: https://goingtojesus.com/gtj_books.html?tname=pneumastudy
+- URL: https://hts.org.za/index.php/hts/article/view/6132/15896
 
-Because the word spirit is so often capitalized, the assumption on the part of many readers is that
-pneuma is capitalized in the original Greek text. It is not. Of the 245 times when New Testament
-writers use the word pneuma (MT), it is never capitalized (except on two occasions when pneuma is
-the first word in a quotation: Lk. 1:35 and 4:18 – UBS Greek text). The only justification, then,
-for capitalizing spirit is to show reverence for God, which I myself often do, just as we may
-capitalize [...] I want to stress the fact that every Greek word the apostles used in reference to
-the holy Spirit in the New Testament is in a neuter form. Every adjective, article, pronoun, verb,
-and participle
+[H]as convinced him that the textual-linguistic nature of the translation indicates that it tries to
+bring the reader to the original, not the original to the reader. (p. 52) Thus, from the textual-
+linguistic make-up of the LXX, it is clear that there was originally a relationship of dependence
+between the Hebrew and the Greek. The Greek is, after all, a translation of the Hebrew/Aramaic (Cook
+2017:9). ###### Theological misunderstandings [...] He elegantly translates concepts expressed in
+Hebrew by more than one word. Unlike Aquila, he does not restrict a particular Greek word to the
+same Hebrew term. Finally, he tones down anthropomorphisms referring to the deity. #### The
+Septuagint in Ch
 
 Automated evidence reasons:
 - broad open-web search result
@@ -765,116 +320,25 @@ Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
 
-### Jk - Voice Power Group Small Love Life World.
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature, visual_art
-- Primary layer: all_texts
-- Provider: Internet Archive
-- Quality: reference metadata
-- Media kind: podcast
-- Requires multimodal review: True
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 4689
-- Year: 2022
-- URL: https://archive.org/details/First_Unitarian_Universalist_Society_of_San_Francisco-20110717JKComplete
-
-Listen for those words in the voices of strangers on the streets. ... Shortly after she started
-attending and in the four years since he joined, She's been involved in many aspects of the church,
-including Serving as the chair for a nominating committee, Mentoring youth in the coming-of-age
-program, As a member of the intern committee, A young adult group co-leader And member of the small
-group ministry, as well as a worship associate.
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated warning present
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-
-### Spiritual Ethical Great World'S Compassion Religions Religious Wisdom
-
-- Review status: machine_assessed_moderate_scholarly_candidate
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature
-- Primary layer: all_texts
-- Provider: Internet Archive
-- Quality: reference metadata
-- Media kind: podcast
-- Requires multimodal review: True
-- Automated evidence: moderate_scholarly_candidate (8)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 3186
-- Year: 2014
-- URL: https://archive.org/details/UUFVB___Living_our_Seven_Principles-2014Nov30Sermon32
-
-Third wisdom From the world's religions which inspire us in our ethical and spiritual life.
-
-Automated evidence reasons:
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated warning present
-
-Automated evidence warnings:
-- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
-
-Media review prompt:
-- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-
-### Ferry Retrouvé : Leaving the History of Empire Out of the “Liberal Moment” in France
+### A Viable Model and Self-Report Measure of Spiritual Intelligence
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: general_research_methods
-- Layer routes: research_documents, deep_sources, history_inputs
-- Primary layer: research_documents
+- Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, all_texts
+- Primary layer: psychology_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
+- Automated evidence: strong_scholarly_candidate (14)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5300
-- Year: 2026
-- URL: https://doi.org/10.1017/s1479244326100729
+- Corroborating routed candidates: 5875
+- Year: 2009
+- URL: https://doi.org/10.24972/ijts.2010.28.1.68
 
 OpenAlex abstract metadata available.
 
@@ -892,6 +356,495 @@ Auto approval reasons:
 - stable DOI present
 
 Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### Spirituality & Post Traumatic Growth - Dr Steve Taylor Ph.D.
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, visual_art, all_texts
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: video
+- Requires multimodal review: True
+- Automated evidence: weak_scholarly_candidate (5)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 6728
+- Year: n.d.
+- URL: https://www.youtube.com/watch?v=z7A9Aax1-4c
+
+i want to guide you through a brief meditation based on the principle of letting go of psychological
+attachments and as i say it's a way of illustrating the transformation which people go through in
+the midst of intense trauma and turmoil so again let's uh let's close our eyes for a moment let's
+return to our inner space hopefully you can still sense that feeling of acceptance and harmony from
+the previous exercise and i'd like to begin this new exercise with another visualization i'd like
+you [...] our attention to our bodies feel your body against the floor or against your chair be
+aware of your breathing again and let's bring this meditation to a close by slowly opening our eyes
+again hop
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
+
+Media review prompt:
+- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### The Ritual Animal: A Response to Reviews | Journal for the Cognitive Science of Religion
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, history_inputs, all_texts, deep_sources
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 8729
+- Year: n.d.
+- URL: https://journal.equinoxpub.com/JCSR/article/view/23748
+
+Title: The Ritual Animal: A Response to Reviews | Journal for the Cognitive Science of Religion #
+The Ritual Animal. ## A Response to Reviews. * Harvey Whitehouse University of Oxford. ## DOI:.
+Evolution, cognition and history, group identity, Prehistoric archaeology, ritual, modes of
+religiosity. This is a response to six reviews of The Ritual Animal (Whitehouse, 2021). The reviews
+covered a wide range of topics, from evolutionary theory (e.g., Bryson; Shilton and Jablonka), to
+group psychology (e.g., Putra) and development (e.g., Umbres), and the evidence from archaeology and
+deep history on the role of ritual in the evolution of socio-political complexity (e.g., Watkins).
+Some of the revi
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### (PDF) What is missing from the cognitive science of religion and ritual
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, visual_art, all_texts, deep_sources
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: weak_scholarly_candidate (6)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 8631
+- Year: n.d.
+- URL: https://www.academia.edu/12980032/What_is_missing_from_the_cognitive_science_of_religion_and_ritual
+
+# What is missing from the cognitive science of religion and ritual. Ritual Studies in Psychology of
+Religion. Trauma, Tedium and Tautology in the Study of Ritual: Bringing Ritual to Mind:
+Psychological Foundations of Cultural Form, by R.N. McCauley & E.T. Lawson, 2002. Religious Ritual
+and Extended Cognition. 1 Cognitive constraints on religious ritual form : a theory of participants
+’ competence with religious ritual systems. Concept of Ritual in the Psychology of Religion and
+Ritual Studies. Cognitive and Evolutionary Approaches to Ancient Rituals: Reflections on Recent
+Theories and Their Relevance for the Historian of Religion. Ritual: Theoretical Issues in the Study
+of Religion. Rituali
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- open-web source requires manual review
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Trends and Challenges in the Cognitive Science of Religion | Ritual and Early Christian Religion
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: psychology_patterns
+- Layer routes: psychology_inputs, human_stories, visual_art, all_texts, deep_sources
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 8631
+- Year: n.d.
+- URL: https://blogs.helsinki.fi/ritual-earlychristianity/2015/02/09/trends-and-challenges-in-the-cognitive-science-of-religion
+
+Cognitive Science of Religion (CSR) emerged in the 1990s to explain regularities of religious
+phenomena across time and place by using the growing body of knowledge from cognitive and
+evolutionary sciences. Today CSR is a pluralistic and interdisciplinary field that focuses on the
+intuitive mental mechanisms underpinning religious beliefs and behaviors as well as on the
+interaction of the human mind, social cognition, and cultural environment. CSR applies a wide
+variety of different theoretical [...] | uro In collaboration with the CoE on Changes in Sacred
+Texts and Traditions (led by Martti Nissinen), the REECR project organizes a workshop on “Trends and
+Challenges in the Cognitive Science
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Deity and Divine Agency in the Hebrew Bible: Cognitive ...
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, biblical_languages
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: weak_scholarly_candidate (6)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 7393
+- Year: n.d.
+- URL: https://core.ac.uk/download/323088837.pdf
+
+for Yhwh,” 112–15; Herring, Divine Substitution, 58–59. 276 Bloch-Smith, “Massebot Standing for
+Yhwh,” 111. CHAPTER 2 – Agency and Personhood 164 requirements to provide food of various kinds on a
+daily basis stem essentially from the perception that the recipient is in need of it and cannot
+access it independently. The most likely source of this perception is the identical perception of
+the dead. Deities and the deceased were also both consulted for their access to strategic
+information, as [...] commonly couched in terms of “religion” and it remains deeply embedded.94 Two
+patterns stand out to me as reflecting pretty clear attempts to shoehorn the modern dichotomy into
+the ancient texts wh
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- open-web source requires manual review
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+
+### THE PROBLEM OF “GOD” IN PSYCHOLOGY OF RELIGION
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: pattern_perception_divine_response
+- Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources, all_texts
+- Primary layer: psychology_inputs
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 8136
+- Year: n.d.
+- URL: https://www.zygonjournal.org/article/id/14399
+
+by DA Helminiak · 2017 · Cited by 12 — The emphasis on God in American psychology of religion
+generates the problem of explaining divine‐versus‐natural causality in “spiritual
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+
+### Textual Criticism and Religion
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 3189
+- Year: 2023
+- URL: https://doi.org/10.5040/9781978729520.ch-5
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
+### Justice and Righteousness in the Old Testament
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: global_text_traditions
+- Layer routes: all_texts, other_religious_texts, modern_literature
+- Primary layer: all_texts
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (12)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 3189
+- Year: 2025
+- URL: https://doi.org/10.1515/9783112206782
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
+
+### Who Will Be the Members of Society 5.0? Towards an Anthropology of Technologically Posthumanized Future Societies
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: cultural_practice_patterns
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Primary layer: cultural_inputs
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (14)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 5287
+- Year: 2019
+- URL: https://doi.org/10.3390/socsci8050148
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Existentialism
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources
+- Primary layer: research_documents
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 3935
+- Year: 2009
+- URL: https://doi.org/10.4135/9781412963961.n197
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
 - Use as general research context until a more specific layer is reviewed.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Source-Constrained Comparative Presentation: A Methodology for Employing Artificial Intelligence in Comparative Tafsir and An Experimental Application on Juz Amma
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources, visual_art
+- Primary layer: research_documents
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 5339
+- Year: 2026
+- URL: https://doi.org/10.63226/iisj.v10i3.6064
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.

@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 487
-Total theologian words analyzed: 87,605
+Theologian documents analyzed: 489
+Total theologian words analyzed: 88,019
 
 Era Coverage
 ------------
@@ -25,29 +25,29 @@ Concept Coverage
 - Pneumatology: 303
 - Christology: 281
 - Theodicy And Suffering: 249
-- Creation: 184
-- Church And Practice: 145
+- Creation: 185
+- Church And Practice: 150
 - Grace And Transformation: 126
 - Justice And Public Life: 114
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 2,809
+- Father: 2,821
 - Son: 367
 - Holy Spirit: 584
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 180 | broader corpus 2,686
+- Physical Order: theologians 180 | broader corpus 2,685
 - Mathematical Structure: theologians 4 | broader corpus 648
-- Mathematical Theophany: theologians 381 | broader corpus 1,269
-- Quantum Probability: theologians 2 | broader corpus 177
-- Life And Consciousness: theologians 1,288 | broader corpus 6,711
+- Mathematical Theophany: theologians 385 | broader corpus 1,265
+- Quantum Probability: theologians 2 | broader corpus 173
+- Life And Consciousness: theologians 1,294 | broader corpus 6,722
 - Meaning And Logos: theologians 151 | broader corpus 6,118
-- Moral Response: theologians 132 | broader corpus 2,482
-- Worship And Community: theologians 266 | broader corpus 1,642
-- Transformation: theologians 594 | broader corpus 2,233
+- Moral Response: theologians 132 | broader corpus 2,491
+- Worship And Community: theologians 268 | broader corpus 1,656
+- Transformation: theologians 594 | broader corpus 2,226
 
 Per-Source Findings
 -------------------
@@ -3946,6 +3946,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+the_disciples_of_light_a_way_of_seeing_and_the_educational_transfer_of_ideas_lin_778cf3f0e6b1.md
+------------------------------------------------------------------------------------------------
+Words: 205
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
 the_dynamic_of_ordered_liberty_forming_united_church_worship_leaders_in_the_atla_70b6c5cc2253.md
 ------------------------------------------------------------------------------------------------
 Words: 194
@@ -5221,6 +5232,17 @@ Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
+
+youth_and_liturgy_an_oxymoron_a_study_into_how_and_why_anglican_liturgy_and_the_75d7f0f5fbef.md
+-----------------------------------------------------------------------------------------------
+Words: 209
+Strongest era signal: Patristic (0)
+Strongest concept signal: Church And Practice (5)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 zionist_syncretism_in_the_apostolic_faith_mission_of_south_africa_before_the_197_1b4cb68dc17e.md
 ------------------------------------------------------------------------------------------------

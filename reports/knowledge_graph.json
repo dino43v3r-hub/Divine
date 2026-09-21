@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 24944,
+  "edge_count": 25037,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -6144,6 +6144,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_existentialism_43dcc640a617_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_existentialism_43dcc640a617_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_existentialism_43dcc640a617_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_existentialism_43dcc640a617_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_existentialism_43dcc640a617_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_expanding_the_scope_and_implications_of_energy_research_a_guide_to_key",
       "target": "lane:research_documents"
     },
@@ -12165,6 +12190,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_songs_of_love_a_pastoral_reading_of_st_augustine_of_hippo_s_enarration",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_source_constrained_comparative_presentation_a_methodology_for_employin",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_source_constrained_comparative_presentation_a_methodology_for_employin",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_source_constrained_comparative_presentation_a_methodology_for_employin",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_source_constrained_comparative_presentation_a_methodology_for_employin",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_source_constrained_comparative_presentation_a_methodology_for_employin",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -16296,16 +16346,6 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:failure_condition"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:liturgical_grounding"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:promotion_restraint"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -23389,6 +23429,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_septuagint_as_a_holy_text_the_first_bible_of_the_early_church_cook",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_septuagint_as_a_holy_text_the_first_bible_of_the_early_church_cook",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_septuagint_as_a_holy_text_the_first_bible_of_the_early_church_cook",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_septuagint_as_a_holy_text_the_first_bible_of_the_early_church_cook",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_septuagint_as_a_holy_text_the_first_bible_of_the_early_church_cook",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_septuagint_is_the_most_important_bible_you_ve_never_heard_of_c2736",
       "target": "lane:biblical_languages"
     },
@@ -25845,6 +25910,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:world_languages_auto_imported_cloud_candidates_aztec_philosophy_understanding_a_world_in_motion_888be6286328_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_baptist_way_or_ways_full_church_southern_baptist_cfab36c758df_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_baptist_way_or_ways_full_church_southern_baptist_cfab36c758df_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_baptist_way_or_ways_full_church_southern_baptist_cfab36c758df_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_baptist_way_or_ways_full_church_southern_baptist_cfab36c758df_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_baptist_way_or_ways_full_church_southern_baptist_cfab36c758df_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -36454,6 +36544,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_justice_and_righteousness_in_the_old_testament_550b539a6bd3_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_justice_and_righteousness_in_the_old_testament_550b539a6bd3_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_justice_and_righteousness_in_the_old_testament_550b539a6bd3_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_justice_and_righteousness_in_the_old_testament_550b539a6bd3_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_justice_and_righteousness_in_the_old_testament_550b539a6bd3_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_justice_and_righteousness_in_the_old_testament_550b539a6bd3_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:all_texts_auto_imported_cloud_candidates_king_benjamin_s_speech_that_ye_may_learn_wisdom_7d923c7734ca_md",
       "target": "lane:all_texts"
     },
@@ -38005,6 +38125,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:all_texts_auto_imported_cloud_candidates_texts_contexts_and_intertextuality_dickens_as_a_reader_0a423bbf3b83_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_textual_criticism_and_religion_31777c7ba7ac_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_textual_criticism_and_religion_31777c7ba7ac_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_textual_criticism_and_religion_31777c7ba7ac_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_textual_criticism_and_religion_31777c7ba7ac_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_textual_criticism_and_religion_31777c7ba7ac_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -54369,6 +54514,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_disciples_of_light_a_way_of_seeing_and_the_educational_transfer_of_ideas_",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_disciples_of_light_a_way_of_seeing_and_the_educational_transfer_of_ideas_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_disciples_of_light_a_way_of_seeing_and_the_educational_transfer_of_ideas_",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_disciples_of_light_a_way_of_seeing_and_the_educational_transfer_of_ideas_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_disciples_of_light_a_way_of_seeing_and_the_educational_transfer_of_ideas_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_disciples_of_light_a_way_of_seeing_and_the_educational_transfer_of_ideas_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_the_dynamic_of_ordered_liberty_forming_united_church_worship_leaders_in_the_a",
       "target": "lane:theologians"
     },
@@ -57699,6 +57874,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_youth_and_liturgy_an_oxymoron_a_study_into_how_and_why_anglican_liturgy_and_t",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_youth_and_liturgy_an_oxymoron_a_study_into_how_and_why_anglican_liturgy_and_t",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_youth_and_liturgy_an_oxymoron_a_study_into_how_and_why_anglican_liturgy_and_t",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_youth_and_liturgy_an_oxymoron_a_study_into_how_and_why_anglican_liturgy_and_t",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_youth_and_liturgy_an_oxymoron_a_study_into_how_and_why_anglican_liturgy_and_t",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_youth_and_liturgy_an_oxymoron_a_study_into_how_and_why_anglican_liturgy_and_t",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_zionist_syncretism_in_the_apostolic_faith_mission_of_south_africa_before_the_",
       "target": "lane:theologians"
     },
@@ -61309,6 +61514,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_living_at_the_edge_of_empire_can_christianity_prevail_and_be_effective_a_t",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_living_at_the_edge_of_empire_can_christianity_prevail_and_be_effective_a_t",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_living_at_the_edge_of_empire_can_christianity_prevail_and_be_effective_a_t",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_living_at_the_edge_of_empire_can_christianity_prevail_and_be_effective_a_t",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_living_at_the_edge_of_empire_can_christianity_prevail_and_be_effective_a_t",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_making_the_world_philosophical_poems_by_sorin_cerin_38ad1c05f428_md",
       "target": "lane:history_inputs"
     },
@@ -61825,6 +62055,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_pluralism_and_religious_tolerance_in_indonesia_an_ethical_theological_revi",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_post_conflict_societies_and_the_social_sciences_a_review_f26f402557f6_md",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_post_conflict_societies_and_the_social_sciences_a_review_f26f402557f6_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_post_conflict_societies_and_the_social_sciences_a_review_f26f402557f6_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_post_conflict_societies_and_the_social_sciences_a_review_f26f402557f6_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_post_conflict_societies_and_the_social_sciences_a_review_f26f402557f6_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -90379,6 +90634,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_who_will_be_the_members_of_society_5_0_towards_an_anthropology_of_technol",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_who_will_be_the_members_of_society_5_0_towards_an_anthropology_of_technol",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_who_will_be_the_members_of_society_5_0_towards_an_anthropology_of_technol",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_who_will_be_the_members_of_society_5_0_towards_an_anthropology_of_technol",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_who_will_be_the_members_of_society_5_0_towards_an_anthropology_of_technol",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_why_ethics_matters_for_autonomous_cars_725f2b186c9f_md",
       "target": "lane:cultural_inputs"
     },
@@ -91305,6 +91585,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_single_filter_for_edge_detection_08853cc9ab4e_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_viable_model_and_self_report_measure_of_spiritual_intelligence_e2b9eb",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_viable_model_and_self_report_measure_of_spiritual_intelligence_e2b9eb",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_viable_model_and_self_report_measure_of_spiritual_intelligence_e2b9eb",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_viable_model_and_self_report_measure_of_spiritual_intelligence_e2b9eb",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_a_viable_model_and_self_report_measure_of_spiritual_intelligence_e2b9eb",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -93324,6 +93629,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_deity_and_divine_agency_in_the_hebrew_bible_cognitive_b2e36e210d5b_md",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_deity_and_divine_agency_in_the_hebrew_bible_cognitive_b2e36e210d5b_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_deity_and_divine_agency_in_the_hebrew_bible_cognitive_b2e36e210d5b_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_deity_and_divine_agency_in_the_hebrew_bible_cognitive_b2e36e210d5b_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_deity_and_divine_agency_in_the_hebrew_bible_cognitive_b2e36e210d5b_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_deity_and_divine_agency_in_the_hebrew_bible_cognitive_b2e36e210d5b_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_detecting_god_s_action_theory_testing_and_theory_building_8d6cbe65f2f8_",
       "target": "lane:psychology_inputs"
     },
@@ -97499,6 +97834,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_pdf_what_is_missing_from_the_cognitive_science_of_religion_and_ritual_3",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_pdf_what_is_missing_from_the_cognitive_science_of_religion_and_ritual_3",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_pdf_what_is_missing_from_the_cognitive_science_of_religion_and_ritual_3",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_pdf_what_is_missing_from_the_cognitive_science_of_religion_and_ritual_3",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_pdf_what_is_missing_from_the_cognitive_science_of_religion_and_ritual_3",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_people_f22f09826587_md",
       "target": "lane:psychology_inputs"
     },
@@ -100224,6 +100584,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_spirituality_post_traumatic_growth_dr_steve_taylor_ph_d_fdbd5e80b72a_md",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_spirituality_post_traumatic_growth_dr_steve_taylor_ph_d_fdbd5e80b72a_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_spirituality_post_traumatic_growth_dr_steve_taylor_ph_d_fdbd5e80b72a_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_spirituality_post_traumatic_growth_dr_steve_taylor_ph_d_fdbd5e80b72a_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_spirituality_post_traumatic_growth_dr_steve_taylor_ph_d_fdbd5e80b72a_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_st_thomas_aquinas_on_affectivity_a_way_forward_for_seminary_formation_3",
       "target": "lane:psychology_inputs"
     },
@@ -100954,6 +101339,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_problem_of_god_in_psychology_of_religion_c3949b85aad4_md",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_problem_of_god_in_psychology_of_religion_c3949b85aad4_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_problem_of_god_in_psychology_of_religion_c3949b85aad4_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_problem_of_god_in_psychology_of_religion_c3949b85aad4_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_problem_of_god_in_psychology_of_religion_c3949b85aad4_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_problem_of_god_in_psychology_of_religion_c3949b85aad4_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_psychology_of_forgiveness_7_lessons_on_how_to_finally_let_go_and_fo",
       "target": "lane:psychology_inputs"
     },
@@ -101200,6 +101615,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_religious_and_spiritual_beliefs_and_practices_among_practitioners_a",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_ritual_animal_a_response_to_reviews_journal_for_the_cognitive_scien",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_ritual_animal_a_response_to_reviews_journal_for_the_cognitive_scien",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_ritual_animal_a_response_to_reviews_journal_for_the_cognitive_scien",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_ritual_animal_a_response_to_reviews_journal_for_the_cognitive_scien",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_the_ritual_animal_a_response_to_reviews_journal_for_the_cognitive_scien",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -101860,6 +102300,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_trauma_sensitive_pedagogy_7ff97c58b436_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_trends_and_challenges_in_the_cognitive_science_of_religion_ritual_and_e",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_trends_and_challenges_in_the_cognitive_science_of_religion_ritual_and_e",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_trends_and_challenges_in_the_cognitive_science_of_religion_ritual_and_e",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_trends_and_challenges_in_the_cognitive_science_of_religion_ritual_and_e",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_trends_and_challenges_in_the_cognitive_science_of_religion_ritual_and_e",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -124724,7 +125189,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 3985,
+  "node_count": 4003,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -127021,6 +127486,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_existentialism_43dcc640a617_md",
+      "label": "Existentialism",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/existentialism_43dcc640a617.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_expanding_the_scope_and_implications_of_energy_research_a_guide_to_key",
       "label": "Expanding the scope and implications of energy research: A guide to key themes and concepts from the Social Sciences and Humanities",
       "lane": "research_documents",
@@ -129238,6 +129714,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/songs_of_love_a_pastoral_reading_of_st_augustine_of_hippo_s_enarrations_in_psalm_be53f5c6cd4b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_source_constrained_comparative_presentation_a_methodology_for_employin",
+      "label": "Source-Constrained Comparative Presentation: A Methodology for Employing Artificial Intelligence in Comparative Tafsir and An Experimental Application on Juz Amma",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/source_constrained_comparative_presentation_a_methodology_for_employing_artifici_2de5ffb74df0.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -133093,6 +133580,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_the_septuagint_as_a_holy_text_the_first_bible_of_the_early_church_cook",
+      "label": "The Septuagint as a holy text \u2013 The first \u2018bible\u2019 of the early church | Cook | HTS Teologiese Studies / Theological Studies",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/the_septuagint_as_a_holy_text_the_first_bible_of_the_early_church_cook_hts_teolo_681baca5ff39.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_auto_imported_cloud_candidates_the_septuagint_is_the_most_important_bible_you_ve_never_heard_of_c2736",
       "label": "The Septuagint is the most important Bible you've never heard of",
       "lane": "biblical_languages",
@@ -133902,6 +134400,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "world_languages/auto_imported_cloud_candidates/aztec_philosophy_understanding_a_world_in_motion_888be6286328.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_baptist_way_or_ways_full_church_southern_baptist_cfab36c758df_md",
+      "label": "Baptist Way Or Ways Full - Church Southern Baptist,",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/baptist_way_or_ways_full_church_southern_baptist_cfab36c758df.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -137768,6 +138277,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_justice_and_righteousness_in_the_old_testament_550b539a6bd3_md",
+      "label": "Justice and Righteousness in the Old Testament",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/justice_and_righteousness_in_the_old_testament_550b539a6bd3.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_king_benjamin_s_speech_that_ye_may_learn_wisdom_7d923c7734ca_md",
       "label": "King Benjamin's Speech: \"That Ye May Learn Wisdom\"",
       "lane": "all_texts",
@@ -138335,6 +138855,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "all_texts/auto_imported_cloud_candidates/texts_contexts_and_intertextuality_dickens_as_a_reader_0a423bbf3b83.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_textual_criticism_and_religion_31777c7ba7ac_md",
+      "label": "Textual Criticism and Religion",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/textual_criticism_and_religion_31777c7ba7ac.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -144115,6 +144646,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_the_disciples_of_light_a_way_of_seeing_and_the_educational_transfer_of_ideas_",
+      "label": "The disciples of light: a way of seeing and the educational transfer of ideas linking spirituality and art among southern painters in the Hensche-Hawthorne tradition",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/the_disciples_of_light_a_way_of_seeing_and_the_educational_transfer_of_ideas_lin_778cf3f0e6b1.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_the_dynamic_of_ordered_liberty_forming_united_church_worship_leaders_in_the_a",
       "label": "The Dynamic of \"Ordered Liberty:\" Forming United Church Worship Leaders in the Atlantic School of Theology Chapel",
       "lane": "theologians",
@@ -145342,6 +145884,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/you_shall_receive_power_cd3a23a8ada9.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_youth_and_liturgy_an_oxymoron_a_study_into_how_and_why_anglican_liturgy_and_t",
+      "label": "Youth and Liturgy: an Oxymoron? A study into how and why Anglican liturgy and the Anglican liturgical tradition are being used in worship targeting young people within the Anglican Church (Tikanga Pakeha) in New Zealand.",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/youth_and_liturgy_an_oxymoron_a_study_into_how_and_why_anglican_liturgy_and_the_75d7f0f5fbef.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -146579,6 +147132,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_living_at_the_edge_of_empire_can_christianity_prevail_and_be_effective_a_t",
+      "label": "Living at the edge of empire: can Christianity prevail and be effective? A theological response to the historical struggle between empire and Christianity",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/living_at_the_edge_of_empire_can_christianity_prevail_and_be_effective_a_theolog_05986a2be31d.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_making_the_world_philosophical_poems_by_sorin_cerin_38ad1c05f428_md",
       "label": "Making the World: Philosophical poems by Sorin Cerin",
       "lane": "history_inputs",
@@ -146772,6 +147336,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "history_inputs/auto_imported_cloud_candidates/pluralism_and_religious_tolerance_in_indonesia_an_ethical_theological_review_bas_eec1a85f0ca5.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_post_conflict_societies_and_the_social_sciences_a_review_f26f402557f6_md",
+      "label": "Post-conflict societies and the social sciences: a review",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/post_conflict_societies_and_the_social_sciences_a_review_f26f402557f6.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -156721,6 +157296,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_who_will_be_the_members_of_society_5_0_towards_an_anthropology_of_technol",
+      "label": "Who Will Be the Members of Society 5.0? Towards an Anthropology of Technologically Posthumanized Future Societies",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/who_will_be_the_members_of_society_5_0_towards_an_anthropology_of_technologicall_1f4798ad0485.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_why_ethics_matters_for_autonomous_cars_725f2b186c9f_md",
       "label": "Why Ethics Matters for Autonomous Cars",
       "lane": "cultural_inputs",
@@ -157057,6 +157643,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "psychology_inputs/auto_imported_cloud_candidates/a_single_filter_for_edge_detection_08853cc9ab4e.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_a_viable_model_and_self_report_measure_of_spiritual_intelligence_e2b9eb",
+      "label": "A Viable Model and Self-Report Measure of Spiritual Intelligence",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/a_viable_model_and_self_report_measure_of_spiritual_intelligence_e2b9eb94d671.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -157761,6 +158358,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "psychology_inputs/auto_imported_cloud_candidates/dedication_daf4d9d4f67a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_deity_and_divine_agency_in_the_hebrew_bible_cognitive_b2e36e210d5b_md",
+      "label": "Deity and Divine Agency in the Hebrew Bible: Cognitive ...",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/deity_and_divine_agency_in_the_hebrew_bible_cognitive_b2e36e210d5b.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -159251,6 +159859,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_pdf_what_is_missing_from_the_cognitive_science_of_religion_and_ritual_3",
+      "label": "(PDF) What is missing from the cognitive science of religion and ritual",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/pdf_what_is_missing_from_the_cognitive_science_of_religion_and_ritual_3c2726759a51.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_people_f22f09826587_md",
       "label": "People",
       "lane": "psychology_inputs",
@@ -160219,6 +160838,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_spirituality_post_traumatic_growth_dr_steve_taylor_ph_d_fdbd5e80b72a_md",
+      "label": "Spirituality & Post Traumatic Growth - Dr Steve Taylor Ph.D.",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/spirituality_post_traumatic_growth_dr_steve_taylor_ph_d_fdbd5e80b72a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_st_thomas_aquinas_on_affectivity_a_way_forward_for_seminary_formation_3",
       "label": "St Thomas Aquinas on affectivity: A way forward for seminary formation",
       "lane": "psychology_inputs",
@@ -160472,6 +161102,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_the_problem_of_god_in_psychology_of_religion_c3949b85aad4_md",
+      "label": "THE PROBLEM OF \u201cGOD\u201d IN PSYCHOLOGY OF RELIGION",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/the_problem_of_god_in_psychology_of_religion_c3949b85aad4.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_the_psychology_of_forgiveness_7_lessons_on_how_to_finally_let_go_and_fo",
       "label": "The Psychology of Forgiveness: 7 Lessons on How to Finally Let Go and Forgive Someone - Nick Wignall",
       "lane": "psychology_inputs",
@@ -160555,6 +161196,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "psychology_inputs/auto_imported_cloud_candidates/the_religious_and_spiritual_beliefs_and_practices_among_practitioners_across_fiv_13ac95ade308.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_the_ritual_animal_a_response_to_reviews_journal_for_the_cognitive_scien",
+      "label": "The Ritual Animal: A Response to Reviews | Journal for the Cognitive Science of Religion",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/the_ritual_animal_a_response_to_reviews_journal_for_the_cognitive_science_of_rel_b81ecad1be51.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -160797,6 +161449,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "psychology_inputs/auto_imported_cloud_candidates/trauma_sensitive_pedagogy_7ff97c58b436.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_trends_and_challenges_in_the_cognitive_science_of_religion_ritual_and_e",
+      "label": "Trends and Challenges in the Cognitive Science of Religion | Ritual and Early Christian Religion",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/trends_and_challenges_in_the_cognitive_science_of_religion_ritual_and_early_chri_730cfb3ee65f.md",
       "review_note_count": 1,
       "type": "document"
     },
