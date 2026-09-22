@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0",
+  "profileType": "source-profile",
+  "name": "City of God",
+  "author": "Augustine",
+  "category": "political-theology",
+  "profileMaturity": "scaffold",
+  "sourceObservations": [],
+  "interpretiveSynthesis": {
+    "summary": "",
+    "emergingThemes": [],
+    "ambiguities": [],
+    "alternateReadings": [],
+    "counterevidence": []
+  },
+  "divineCoreAssessment": {
+    "summary": "",
+    "potentialContributions": [],
+    "theologicalCautions": [],
+    "unresolvedTensions": [],
+    "authorityBoundary": "This assessment is provisional and revisable reasoning under the Divine Core Constitution. It is not final doctrine, automatic acceptance, human or ecclesial approval, or an independent source of theological authority."
+  },
+  "scripturalDoctrinalEvaluation": {
+    "governingPrinciple": "Scripture is the governing written authority. Patristic and other theological sources are subordinate witnesses whose claims must be tested by Scripture and accountable Christian doctrine.",
+    "scripture": [],
+    "canonicalTensions": [],
+    "doctrinalAgreements": [],
+    "neededQualifications": [],
+    "possibleConflicts": []
+  },
+  "provenanceAndReview": {
+    "workTitle": "City of God",
+    "author": "Augustine",
+    "scope": "",
+    "edition": "",
+    "translator": "",
+    "publisher": "",
+    "publicationYear": "",
+    "sourceLocationsReviewed": [],
+    "originalSourceChecked": false,
+    "evidenceNotes": [],
+    "humanReview": {
+      "status": "not-reviewed",
+      "reviewers": [],
+      "reviewerComments": [],
+      "reviewedAt": ""
+    }
+  },
+  "status": "draft",
+  "reasoningMethod": {
+    "startingPoint": "Draft prompt: identify the source's basic theological starting point without quoting it.",
+    "coreEmphases": [],
+    "discernmentQuestions": [],
+    "pastoralPriorities": [],
+    "commonWarnings": []
+  },
+  "patternRecognition": {
+    "looksFor": [],
+    "strengthens": [],
+    "guardsAgainst": []
+  },
+  "composerHints": {
+    "tone": "Draft prompt: describe an appropriate composer tone after review.",
+    "preferredStructure": [],
+    "avoid": [
+      "do not quote or reproduce source text",
+      "do not treat this draft as reviewed",
+      "do not generate final user-facing prose"
+    ]
+  },
+  "reviewNotes": [
+    "Draft generated as a safe empty structure for later evidence development and review."
+  ]
+}
