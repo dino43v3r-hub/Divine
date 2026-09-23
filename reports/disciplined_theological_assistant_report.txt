@@ -75,11 +75,11 @@ Evidence Versus Discernment
 
 Current Corpus Shape
 --------------------
-Documents analyzed across all lanes: 4,195
-Top-pattern source documents: 3,505
+Documents analyzed across all lanes: 4,216
+Top-pattern source documents: 3,521
 Pressure-test documents: 185
-Theologian documents: 495
-Dedicated synthesis documents: 2,049
+Theologian documents: 498
+Dedicated synthesis documents: 2,061
 
 The Main Pattern Chapters
 -------------------------
@@ -101,10 +101,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (16,990 signals)
-- Meaning And Logos: high internal signal (21,660 signals)
-- Moral Response: high internal signal (12,149 signals)
-- Worship And Community: high internal signal (11,696 signals)
+- Life And Consciousness: high internal signal (17,055 signals)
+- Meaning And Logos: high internal signal (21,770 signals)
+- Moral Response: high internal signal (12,203 signals)
+- Worship And Community: high internal signal (11,773 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -121,9 +121,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (21,660 signals)
-- Moral Response: high internal signal (12,149 signals)
-- Transformation: high internal signal (12,354 signals)
+- Meaning And Logos: high internal signal (21,770 signals)
+- Moral Response: high internal signal (12,203 signals)
+- Transformation: high internal signal (12,394 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -140,10 +140,10 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (8,074 signals)
-- Life And Consciousness: high internal signal (16,990 signals)
-- Moral Response: high internal signal (12,149 signals)
-- Worship And Community: high internal signal (11,696 signals)
+- Physical Order: high internal signal (8,103 signals)
+- Life And Consciousness: high internal signal (17,055 signals)
+- Moral Response: high internal signal (12,203 signals)
+- Worship And Community: high internal signal (11,773 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -160,9 +160,9 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (8,074 signals)
-- Meaning And Logos: high internal signal (21,660 signals)
-- Transformation: high internal signal (12,354 signals)
+- Physical Order: high internal signal (8,103 signals)
+- Meaning And Logos: high internal signal (21,770 signals)
+- Transformation: high internal signal (12,394 signals)
 
 Chapter 5: Moral Transformation Pattern
 ---------------------------------------
@@ -179,9 +179,9 @@ Pressure test: abuse, cheap grace, unresolved harm, and failed repair tests
 Daily-life practice: practice confession, accountability, repair, and mercy without denial.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Moral Response: high internal signal (12,149 signals)
-- Transformation: high internal signal (12,354 signals)
-- Worship And Community: high internal signal (11,696 signals)
+- Moral Response: high internal signal (12,203 signals)
+- Transformation: high internal signal (12,394 signals)
+- Worship And Community: high internal signal (11,773 signals)
 
 Everyday Case Studies
 ---------------------
@@ -215,72 +215,72 @@ Research Detail: Pattern Families
 1. Image Of God Pattern
 -----------------------
 Status: high internal signal; not proof
-Layer signal total: 62,495
+Layer signal total: 62,801
 Layers present: 4/4
 Pattern: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
 Interpretation: Human beings are pattern-recognizing, meaning-making, morally accountable, relational creatures. Christianity interprets this through the image of God.
 Layer support:
-- Life And Consciousness: 16,990 (high internal signal)
-- Meaning And Logos: 21,660 (high internal signal)
-- Moral Response: 12,149 (high internal signal)
-- Worship And Community: 11,696 (high internal signal)
+- Life And Consciousness: 17,055 (high internal signal)
+- Meaning And Logos: 21,770 (high internal signal)
+- Moral Response: 12,203 (high internal signal)
+- Worship And Community: 11,773 (high internal signal)
 Evidence needed: Genesis, theological anthropology, cognitive science, social cognition, moral psychology, and worship studies.
 Risk to avoid: Do not collapse the image of God into intelligence alone.
 
 2. Cross And Reversal Pattern
 -----------------------------
 Status: high internal signal; not proof
-Layer signal total: 46,163
+Layer signal total: 46,367
 Layers present: 3/3
 Pattern: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
 Interpretation: Jesus introduces a reversal pattern where transformation comes through sacrifice, mercy, and resurrection hope.
 Layer support:
-- Meaning And Logos: 21,660 (high internal signal)
-- Moral Response: 12,149 (high internal signal)
-- Transformation: 12,354 (high internal signal)
+- Meaning And Logos: 21,770 (high internal signal)
+- Moral Response: 12,203 (high internal signal)
+- Transformation: 12,394 (high internal signal)
 Evidence needed: Gospels, Pauline theology, creeds, atonement theology, martyrdom studies, and psychology of forgiveness.
 Risk to avoid: Do not romanticize suffering or ignore injustice.
 
 3. Creation-To-Consciousness Pattern
 ------------------------------------
 Status: high internal signal; not proof
-Layer signal total: 48,909
+Layer signal total: 49,134
 Layers present: 4/4
 Pattern: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
 Interpretation: The universe contains layers that move from matter and law toward life, mind, responsibility, and worship.
 Layer support:
-- Physical Order: 8,074 (high internal signal)
-- Life And Consciousness: 16,990 (high internal signal)
-- Moral Response: 12,149 (high internal signal)
-- Worship And Community: 11,696 (high internal signal)
+- Physical Order: 8,103 (high internal signal)
+- Life And Consciousness: 17,055 (high internal signal)
+- Moral Response: 12,203 (high internal signal)
+- Worship And Community: 11,773 (high internal signal)
 Evidence needed: Physics, biology, cognitive science, theological anthropology, and anthropology of worship.
 Risk to avoid: Avoid implying a simple linear proof from physics to worship.
 
 4. Trinity-As-Behavior Pattern
 ------------------------------
 Status: high internal signal; not proof
-Layer signal total: 42,088
+Layer signal total: 42,267
 Layers present: 3/3
 Pattern: Father Creates -> Son Redeems -> Spirit Transforms
 Interpretation: Christian belief forms a behavioral map: humans receive life, encounter redemption, and are changed into a new way of living.
 Layer support:
-- Physical Order: 8,074 (high internal signal)
-- Meaning And Logos: 21,660 (high internal signal)
-- Transformation: 12,354 (high internal signal)
+- Physical Order: 8,103 (high internal signal)
+- Meaning And Logos: 21,770 (high internal signal)
+- Transformation: 12,394 (high internal signal)
 Evidence needed: Creeds, Trinitarian theology, Christology, pneumatology, worship practice, and lived Christian formation.
 Risk to avoid: Keep the Trinity theological and relational, not merely symbolic psychology.
 
 5. Moral Transformation Pattern
 -------------------------------
 Status: high internal signal; not proof
-Layer signal total: 36,199
+Layer signal total: 36,370
 Layers present: 3/3
 Pattern: Sin -> Conviction -> Repentance -> Forgiveness -> New Life
 Interpretation: Christianity repeatedly frames human behavior as transformable, not fixed. The pattern is moral repair through grace.
 Layer support:
-- Moral Response: 12,149 (high internal signal)
-- Transformation: 12,354 (high internal signal)
-- Worship And Community: 11,696 (high internal signal)
+- Moral Response: 12,203 (high internal signal)
+- Transformation: 12,394 (high internal signal)
+- Worship And Community: 11,773 (high internal signal)
 Evidence needed: Scripture, Augustine, pastoral theology, moral psychology, forgiveness research, and spiritual formation studies.
 Risk to avoid: Do not reduce grace to self-improvement psychology.
 
@@ -336,20 +336,20 @@ Claims that should not be promoted without more review:
 Source Lane Balance
 -------------------
 The assistant should not strengthen broad claims while relevant lanes are thin.
-- biblical_languages: 354 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
+- biblical_languages: 356 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
 - world_languages: 443 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
-- all_texts: 432 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
+- all_texts: 433 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
 - other_religious_texts: 385 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: respectful comparison across traditions without flattening differences.
-- theologians: 864 notes; target 30-75, review cap 120; above review cap - pause unless thin lanes are growing. Purpose: primary-text theology and disagreements across eras.
-- history_inputs: 468 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: power, conflict, memory, reform, and consequences.
-- visual_art: 335 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
-- psychology_inputs: 387 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
-- human_stories: 120 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: lived grief, repair, vocation, community, and transformation.
-- cultural_inputs: 502 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: politics, economics, technology, ecology, health, work, and education.
-- modern_literature: 148 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: narrative recurrence and limits through literature summaries.
+- theologians: 867 notes; target 30-75, review cap 120; above review cap - pause unless thin lanes are growing. Purpose: primary-text theology and disagreements across eras.
+- history_inputs: 470 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: power, conflict, memory, reform, and consequences.
+- visual_art: 336 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
+- psychology_inputs: 388 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
+- human_stories: 121 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: lived grief, repair, vocation, community, and transformation.
+- cultural_inputs: 507 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: politics, economics, technology, ecology, health, work, and education.
+- modern_literature: 152 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: narrative recurrence and limits through literature summaries.
 - deep_sources: 230 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: math, statistics, science, suffering, and counterargument guardrails.
 - pattern_tests: 189 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: pressure tests that challenge claims without becoming the whole project.
-- research_documents: 610 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
+- research_documents: 611 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
 No lane is below its minimum target, but broad claims still need source-specific review.
 
 Reviewed Source Packs
@@ -392,7 +392,7 @@ Use it for family conflict, work, grief, spiritual gifts, interreligious encount
 Cloud Reference Discipline
 --------------------------
 - Reviewed cloud-reference markers: 5
-- Unreviewed cloud-reference markers: 52
+- Unreviewed cloud-reference markers: 57
 - Cloud references are leads until the original source, author expertise, date, venue, and counterarguments are checked.
 
 Assistant Behavior Rules

@@ -1,9 +1,9 @@
 Cloud Research Findings Report
 ==============================
 
-Updated: 2026-09-22T17:58:03.383406+00:00
-Total references: 11,591
-New references this run: 20
+Updated: 2026-09-23T18:12:18.415188+00:00
+Total references: 11,612
+New references this run: 21
 
 Guardrails
 ----------
@@ -17,7 +17,7 @@ Online Collection Status
 ------------------------
 - Online scholarly/indexed metadata returned from provider APIs this run.
 - Self-directed query modifiers used this run: primary source, counterargument.
-- Discovery pagination: rotating across 12 page(s) with run index 1,901, so repeated runs do not keep rereading page one.
+- Discovery pagination: rotating across 12 page(s) with run index 1,911, so repeated runs do not keep rereading page one.
 - Auto-import to local lane notes is enabled for up to 40 new candidate(s) per run. These notes are candidate notes, not human-reviewed evidence.
 - Free/keyless metadata providers available: Crossref, OpenAlex, Europe PMC, PubMed, Internet Archive, and arXiv for science/music queries.
 - OpenCitations DOI enrichment checked 25 stored DOI source(s) this run.
@@ -26,97 +26,99 @@ Online Collection Status
 - Open-web candidates returned this run: 15.
 - Provider results returned this run:
   - Crossref: 464
-  - Europe PMC: 177
-  - Internet Archive: 35
-  - OpenAlex: 400
-  - PubMed: 5
+  - Europe PMC: 254
+  - Internet Archive: 37
+  - OpenAlex: 394
+  - PubMed: 10
   - Tavily Search: 15
 - Brand-new references added by provider:
-  - Crossref: 7
-  - OpenAlex: 11
-  - Tavily Search: 2
+  - Crossref: 4
+  - Europe PMC: 1
+  - Internet Archive: 1
+  - OpenAlex: 8
+  - Tavily Search: 7
 - Total stored references by provider:
-  - Crossref: 4,850
-  - Europe PMC: 442
-  - Internet Archive: 629
-  - OpenAlex: 4,436
+  - Crossref: 4,854
+  - Europe PMC: 443
+  - Internet Archive: 630
+  - OpenAlex: 4,444
   - PubMed: 153
-  - Tavily Search: 838
+  - Tavily Search: 845
   - arXiv: 243
 
 Reference Tags
 --------------
-- art_beauty: 679
+- art_beauty: 680
 - biblical_language_source_depth: 311
-- biblical_languages: 323
-- cultural_practice_patterns: 511
-- general_research_methods: 1,437
-- global_text_traditions: 492
-- history_memory: 601
-- holy_spirit_gifts_global: 382
+- biblical_languages: 325
+- cultural_practice_patterns: 514
+- general_research_methods: 1,438
+- global_text_traditions: 493
+- history_memory: 603
+- holy_spirit_gifts_global: 383
 - interreligious_dream_testimony: 413
-- modern_literature_meaning: 510
+- modern_literature_meaning: 515
 - music_math: 581
-- pattern_perception_divine_response: 493
-- podcast_testimony_patterns: 411
+- pattern_perception_divine_response: 494
+- podcast_testimony_patterns: 412
 - politics_justice: 481
 - psychology_patterns: 508
 - quantum_science_guardrails: 692
-- technology_ethics: 513
+- technology_ethics: 515
 - theologians_cross_era: 281
-- trinity: 539
+- trinity: 541
 - unresolved_suffering: 520
-- video_teaching_patterns: 555
-- visual_media_patterns: 522
+- video_teaching_patterns: 556
+- visual_media_patterns: 523
 - world_language_source_sampling: 451
 - world_languages_translation: 414
 
 Layer Routes
 ------------
-- all_texts: 2,906
-- biblical_languages: 702
-- cultural_inputs: 3,090
-- deep_sources: 3,807
-- history_inputs: 2,058
-- human_stories: 4,315
-- modern_literature: 1,146
+- all_texts: 2,912
+- biblical_languages: 704
+- cultural_inputs: 3,097
+- deep_sources: 3,809
+- history_inputs: 2,064
+- human_stories: 4,325
+- modern_literature: 1,152
 - music_notes: 581
-- other_religious_texts: 1,926
-- pattern_tests: 3,385
-- psychology_inputs: 3,028
-- research_documents: 1,953
-- research_documents/christian_sources: 859
-- theologians: 3,254
-- visual_art: 2,654
-- world_languages: 1,613
+- other_religious_texts: 1,928
+- pattern_tests: 3,391
+- psychology_inputs: 3,034
+- research_documents: 1,955
+- research_documents/christian_sources: 861
+- theologians: 3,260
+- visual_art: 2,659
+- world_languages: 1,616
 
 Layer Balance Watch
 -------------------
 - These layers are below 25% of the current largest layer count; prioritize direct source notes and targeted searches here:
   - music_notes: 581
-  - biblical_languages: 702
-  - research_documents/christian_sources: 859
+  - biblical_languages: 704
+  - research_documents/christian_sources: 861
 
 Quality Counts
 --------------
-- open web result: 838
-- reference metadata: 620
-- scholarly metadata: 9,881
+- open web result: 845
+- reference metadata: 621
+- scholarly metadata: 9,894
 - scholarly preprint: 243
 - speculative-risk: 9
 
 Media Candidate Counts
 ----------------------
-- image: 361
-- podcast: 756
-- video: 751
+- image: 364
+- podcast: 757
+- video: 752
 
 Automated Evidence Counts
 -------------------------
-- do_not_strengthen_claim: 116
-- moderate_scholarly_candidate: 3,468
-- strong_scholarly_candidate: 7,264
-- weak_scholarly_candidate: 743
+- do_not_strengthen_claim: 119
+- moderate_scholarly_candidate: 3,471
+- strong_scholarly_candidate: 7,275
+- weak_scholarly_candidate: 747
 
 Auto Review Approval Counts
 ---------------------------
@@ -124,195 +126,203 @@ Auto Review Approval Counts
 - Minimum score: 7
 - Open-web auto approval enabled: False
 - Warning-bearing source auto approval enabled: False
-- approved_for_review_queue: 8,850
-- not_auto_approved: 2,741
+- approved_for_review_queue: 8,862
+- not_auto_approved: 2,750
 
 New This Run By Tag
 -------------------
-- art_beauty: 3
-- general_research_methods: 2
-- global_text_traditions: 2
-- history_memory: 1
+- art_beauty: 1
+- biblical_languages: 2
+- cultural_practice_patterns: 3
+- general_research_methods: 1
+- global_text_traditions: 1
+- history_memory: 2
 - holy_spirit_gifts_global: 1
-- modern_literature_meaning: 1
-- music_math: 1
+- modern_literature_meaning: 4
 - pattern_perception_divine_response: 1
-- podcast_testimony_patterns: 2
+- podcast_testimony_patterns: 1
+- technology_ethics: 2
 - trinity: 1
-- video_teaching_patterns: 4
-- visual_media_patterns: 1
+- video_teaching_patterns: 1
 
 New This Run By Layer Route
 ---------------------------
-- all_texts: 4
-- cultural_inputs: 8
-- deep_sources: 4
-- history_inputs: 1
-- human_stories: 10
-- modern_literature: 3
-- music_notes: 1
-- other_religious_texts: 3
-- pattern_tests: 11
-- psychology_inputs: 4
-- research_documents: 3
-- theologians: 9
-- visual_art: 6
+- all_texts: 5
+- biblical_languages: 2
+- cultural_inputs: 7
+- deep_sources: 2
+- history_inputs: 6
+- human_stories: 8
+- modern_literature: 5
+- other_religious_texts: 2
+- pattern_tests: 5
+- psychology_inputs: 6
+- research_documents: 2
+- research_documents/christian_sources: 2
+- theologians: 6
+- visual_art: 5
+- world_languages: 3
 
 New Media Candidates
 --------------------
-- image: 1
-- podcast: 2
-- video: 4
+- image: 3
+- podcast: 1
+- video: 1
 
 Newest Additions This Run
 ------------------------
-- The Transformation of Persons and the Concept of Moral Order: A Study of the Evangelical Ethics of Oliver O'Donovan with Special Reference to the Barth-Brunner Debate (2010)
+- Romanian theology: A theology of dialogue (2009)
   Tags: trinity
-  Layer routes: theologians, research_documents, visual_art
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: moderate_scholarly_candidate (8)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: http://hdl.handle.net/10023/975
-- Consonance and Dissonance (1962)
-  Tags: music_math
-  Layer routes: music_notes, deep_sources
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.2307/924667
-- Theological Aesthetics and Revelatory Tension (2008)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs
+  Layer routes: theologians, research_documents
   Source: OpenAlex | scholarly metadata
   Automated evidence: strong_scholarly_candidate (12)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1111/j.1741-2005.2007.00209.x
-- The Madwoman and the blindman: Jane Eyre, discourse, disability (2013)
+  URL: https://doi.org/10.4102/hts.v65i1.294
+- New Light on the Relationship between the Montecitorio Obelisk and Ara Pacis of Augustus (2017)
   Tags: art_beauty
   Layer routes: visual_art, cultural_inputs
   Source: OpenAlex | scholarly metadata
   Automated evidence: strong_scholarly_candidate (13)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.5860/choice.50-6044
-- Homelessness and Covid-19 in the City of Tshwane: Doing liberation theology undercover – A conversation with Ivan Petrella (2020)
-  Tags: art_beauty
-  Layer routes: visual_art, cultural_inputs
-  Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.4102/hts.v76i1.6209
-- The 13th century icon ‘The Mother of God Eleousa’from a private collection in Moscow (2024)
-  Tags: visual_media_patterns
-  Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests
-  Source: Crossref | scholarly metadata
-  Media candidate: image | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (11)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.34680/vistheo-2024-6-2-400-410
-- Dominican MFA in Creative Writing Podcast Episode 7 (n.d.)
-  Tags: podcast_testimony_patterns
-  Layer routes: human_stories, psychology_inputs, theologians, pattern_tests
-  Source: Crossref | scholarly metadata
-  Media candidate: podcast | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.33015/dominican.edu/2021.mfa.podcast.07
-- Podcast interview with Clifford Lynch (n.d.)
+  URL: https://doi.org/10.14434/sdh.v1i1.23331
+- Podcast interview with MacKenzie Smith (n.d.)
   Tags: podcast_testimony_patterns
   Layer routes: human_stories, psychology_inputs, theologians, pattern_tests
   Source: Crossref | scholarly metadata
   Media candidate: podcast | review required before confidence change
   Automated evidence: moderate_scholarly_candidate (9)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://doi.org/10.63485/n12gk-97n25
-- Who's got the power? : a practical theological reflection on the power relations in the "Blesser" phenomenon amoung female adolescence in South Africa (2019)
+  URL: https://doi.org/10.63485/sbmvx-txm89
+- Documentary Editing: Journal of the Association for Documentary Editing, Volume 32: 2011 (2011)
   Tags: video_teaching_patterns
   Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
   Source: OpenAlex | scholarly metadata
   Media candidate: video | review required before confidence change
-  Automated evidence: moderate_scholarly_candidate (8)
+  Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: http://hdl.handle.net/10019.1/107205
-- For The Love of Darkness - A Dark Theology (2017)
-  Tags: video_teaching_patterns
-  Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-  Source: OpenAlex | scholarly metadata
-  Media candidate: video | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (13)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://academiccommons.columbia.edu/doi/10.7916/D85149R1/download
-- Committed Seventh-Day Adventist Students at Secular Institutions of Higher Education. (2013)
-  Tags: video_teaching_patterns
-  Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
-  Source: OpenAlex | scholarly metadata
-  Media candidate: video | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (11)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://scholarworks.wmich.edu/dissertations/158
-- A Framework for Christian Spiritual Formation (2025)
-  Tags: video_teaching_patterns
-  Layer routes: theologians, human_stories, cultural_inputs, pattern_tests, all_texts
-  Source: OpenAlex | scholarly metadata
-  Media candidate: video | review required before confidence change
-  Automated evidence: strong_scholarly_candidate (11)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: http://hdl.handle.net/11375/31968
-- Great transformation: The political and economic origins of our time (1944)
+  URL: https://digitalcommons.unl.edu/docedit/1
+- Olive growing in Palestine: A decolonial ethnographic study of collective daily-forms-of-resistance (2017)
   Tags: history_memory
   Layer routes: history_inputs, theologians
   Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
+  Automated evidence: strong_scholarly_candidate (14)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://inctpped.ie.ufrj.br/spiderweb/pdf_4/Great_Transformation.pdf
-- Hyperactive Agency Detection - NeuroLogica Blog (n.d.)
+  URL: https://doi.org/10.1080/14427591.2017.1378119
+- CIA Reading Room cia-rdp82-00850r000200030002-4: JPRS ID: 74695 NEAR EAST/NORTH AFRICA REPORT (2016)
+  Tags: history_memory
+  Layer routes: history_inputs, theologians
+  Source: Internet Archive | reference metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://archive.org/details/cia-readingroom-document-cia-rdp82-00850r000200030002-4
+- Book Reviews (2018)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.31826/hug-2018-200113
+- Profiles of Pentecostal Theology, by Christopher A. Stephenson (2024)
+  Tags: biblical_languages
+  Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (10)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1163/15700747-04602007
+- Connectionist cognitive processing for invariant pattern recognition (1996)
   Tags: pattern_perception_divine_response
   Layer routes: psychology_inputs, pattern_tests, human_stories, deep_sources
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://theness.com/neurologicablog/hyperactive-agency-detection
-- Reproductive Health and Justice in Alleviating World Suffering (2017)
-  Tags: global_text_traditions
-  Layer routes: all_texts, other_religious_texts, modern_literature, pattern_tests
   Source: Crossref | scholarly metadata
   Automated evidence: strong_scholarly_candidate (10)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1007/978-3-319-51391-1_16
-- 7 Examples of Hope in the Bible For When Believing Gets Hard (n.d.)
+  URL: https://doi.org/10.1109/icpr.1996.547651
+- Popular Politics in the Making of the Modern Middle East (2016)
   Tags: global_text_traditions
-  Layer routes: all_texts, other_religious_texts, modern_literature, visual_art, pattern_tests
-  Source: Tavily Search | open web result
-  Automated evidence: weak_scholarly_candidate (4)
-  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
-  URL: https://deepspirituality.com/examples-of-hope-in-the-bible
-- The symbolic construction of literary naming at the crossroads of tradition and modernity: towards new historicism in Ahmed Abodehman’s memoir The Belt (2024)
-  Tags: modern_literature_meaning
-  Layer routes: modern_literature, all_texts, human_stories
+  Layer routes: all_texts, other_religious_texts, modern_literature
   Source: OpenAlex | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (12)
+  Automated evidence: strong_scholarly_candidate (14)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1080/23311983.2024.2408866
-- Lament Psalms as Epistemology: Faithful Inquiry Amid Mystery and Suffering (2026)
-  Tags: general_research_methods
-  Layer routes: research_documents, deep_sources, pattern_tests
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
-  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1080/14746700.2026.2725296
-- Security, Religion, and Political Culture: A Defense of Weak Disestablishment (2019)
+  URL: https://doi.org/10.1017/cbo9780511843952
+- An Examination of Redemptive Suffering through a Psychological Lens (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories, visual_art, pattern_tests
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (4)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.zygonjournal.org/article/id/24801
+- Analysis of Boris Pasternak ‘s The Poems of Dr. Zhivago – Literary Theory and Criticism (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories, visual_art, pattern_tests
+  Source: Tavily Search | open web result
+  Media candidate: image | review required before confidence change
+  Automated evidence: do_not_strengthen_claim (3)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://literariness.org/2025/06/30/analysis-of-boris-pasternak-s-the-poems-of-dr-zhivago
+- Literary Criticism (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories, visual_art, history_inputs
+  Source: Tavily Search | open web result
+  Media candidate: image | review required before confidence change
+  Automated evidence: do_not_strengthen_claim (3)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.slideshare.net/tag/literary-criticism
+- Drama & Criticism books | Waterstones (n.d.)
+  Tags: modern_literature_meaning
+  Layer routes: modern_literature, all_texts, human_stories, visual_art
+  Source: Tavily Search | open web result
+  Media candidate: image | review required before confidence change
+  Automated evidence: do_not_strengthen_claim (3)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.waterstones.com/category/poetry-drama-criticism
+- McFarland Center for Religion, Ethics and Culture | Holy Cross (n.d.)
+  Tags: cultural_practice_patterns
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.holycross.edu/faith-service/mcfarland-center-religion-ethics-and-culture
+- McFarland Center for Religion, Ethics and Culture | Holy Cross (n.d.)
+  Tags: cultural_practice_patterns
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://www.holycross.edu/faith-service/mcfarland-center-religion-ethics-and-culture/about-mcfarland-center-religion-ethics-2
+- McFarland Center for Religion, Ethics and Culture | Holy Cross (n.d.)
+  Tags: cultural_practice_patterns
+  Layer routes: cultural_inputs, history_inputs, psychology_inputs
+  Source: Tavily Search | open web result
+  Automated evidence: weak_scholarly_candidate (6)
+  Auto review approval: not_auto_approved | confidence effect: none_until_human_review
+  URL: https://holycross.edu/community/mission-service/mcfarland-center
+- Methodology in Comparative Education: An Annotated Bibliography (1973)
   Tags: general_research_methods
   Layer routes: research_documents, deep_sources
+  Source: Crossref | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (11)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://doi.org/10.1086/445696
+- Learning to pray the Pentecostal way: language and personhood on the Zambian Copperbelt (2016)
+  Tags: holy_spirit_gifts_global
+  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs, world_languages
   Source: OpenAlex | scholarly metadata
   Automated evidence: strong_scholarly_candidate (12)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.3390/rel10020088
-- Seductive spirits: Deliverance, demons, and sexual worldmaking in Ghanaian Pentecostalism (2025)
-  Tags: holy_spirit_gifts_global
-  Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs
-  Source: Crossref | scholarly metadata
-  Automated evidence: strong_scholarly_candidate (10)
+  URL: https://doi.org/10.1080/0048721x.2016.1225906
+- Existential risks: analyzing human extinction scenarios and related hazards (2002)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs
+  Source: OpenAlex | scholarly metadata
+  Automated evidence: strong_scholarly_candidate (12)
   Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
-  URL: https://doi.org/10.1080/27691616.2024.2402661
+  URL: http://jetpress.org/
+- Human Enhancement, Bioethics, and Moral Diversity: An International Philosophical Endeavor (2026)
+  Tags: technology_ethics
+  Layer routes: cultural_inputs
+  Source: Europe PMC | scholarly metadata
+  Automated evidence: moderate_scholarly_candidate (8)
+  Auto review approval: approved_for_review_queue | confidence effect: none_until_human_review
+  URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13592770/?tool=EBI
 
 Recent Candidate Sources
 ------------------------
@@ -549,7 +559,22 @@ Collector Errors
 - search_arxiv failed for music_math: HTTP Error 406: Not Acceptable
 - search_arxiv failed for music_math: HTTP Error 406: Not Acceptable
 - search_arxiv failed for music_math: HTTP Error 406: Not Acceptable
+- search_europe_pmc failed for music_math: HTTP Error 503: 
 - search_arxiv failed for music_math: HTTP Error 406: Not Acceptable
 - search_arxiv failed for music_math: HTTP Error 406: Not Acceptable
-- search_pubmed failed for psychology_patterns: The read operation timed out
-- search_europe_pmc failed for cultural_practice_patterns: The read operation timed out
+- search_europe_pmc failed for art_beauty: HTTP Error 503: 
+- search_europe_pmc failed for visual_media_patterns: HTTP Error 503: 
+- search_europe_pmc failed for history_memory: HTTP Error 503: 
+- search_europe_pmc failed for world_languages_translation: HTTP Error 503: 
+- search_europe_pmc failed for biblical_languages: HTTP Error 503: 
+- search_europe_pmc failed for global_text_traditions: HTTP Error 503: 
+- search_europe_pmc failed for modern_literature_meaning: HTTP Error 503: 
+- search_europe_pmc failed for modern_literature_meaning: HTTP Error 503: 
+- search_europe_pmc failed for cultural_practice_patterns: HTTP Error 503: 
+- search_europe_pmc failed for cultural_practice_patterns: HTTP Error 503: 
+- search_europe_pmc failed for general_research_methods: HTTP Error 503: 
+- search_europe_pmc failed for general_research_methods: HTTP Error 503: 
+- search_europe_pmc failed for general_research_methods: HTTP Error 503: 
+- search_europe_pmc failed for interreligious_dream_testimony: HTTP Error 503: 
+- search_europe_pmc failed for interreligious_dream_testimony: HTTP Error 503: 
+- search_europe_pmc failed for interreligious_dream_testimony: HTTP Error 503: 
