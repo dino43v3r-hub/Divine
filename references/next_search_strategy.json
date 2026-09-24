@@ -26,7 +26,7 @@
   ],
   "review_targets": {
     "current_source_pack_count": 12,
-    "newest_candidate_reference_count": 7,
+    "newest_candidate_reference_count": 6,
     "weak_or_limited_claim_count": 3
   },
   "source": "divine_pattern_analyzer.py",
@@ -94,5 +94,5 @@
     "Trinity-As-Behavior Pattern",
     "Moral Transformation Pattern"
   ],
-  "updated_at": "2026-09-23T18:13:32.165996+00:00"
+  "updated_at": "2026-09-24T18:14:14.869461+00:00"
 }

@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 25260,
+  "edge_count": 25281,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -4184,6 +4184,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_comparative_theology_and_hermeneutics_a_gadamerian_approach_to_interre",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_comparative_theology_and_hermeneutics_a_gadamerian_approach_to_interre",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_comparative_theology_and_hermeneutics_a_gadamerian_approach_to_interre",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_comparative_theology_and_hermeneutics_a_gadamerian_approach_to_interre",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_comparative_theology_and_hermeneutics_a_gadamerian_approach_to_interre",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_comparative_theology_and_interreligious_dialogue_62f8629a337d_md",
       "target": "lane:research_documents"
     },
@@ -7369,6 +7394,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_humanities_research_approaches_in_the_humanities_social_sciences_or_sc",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_humanities_research_approaches_in_the_humanities_social_sciences_or_sc",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_humanities_research_approaches_in_the_humanities_social_sciences_or_sc",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_humanities_research_approaches_in_the_humanities_social_sciences_or_sc",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_humanities_research_approaches_in_the_humanities_social_sciences_or_sc",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_humanity_nature_and_survival_in_yann_martel_s_life_of_pi_and_margaret_",
       "target": "lane:research_documents"
     },
@@ -10019,6 +10069,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_online_theology_and_religious_studies_dissertations_tutors_spires_guid",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_online_theology_and_religious_studies_dissertations_tutors_spires_guid",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_online_theology_and_religious_studies_dissertations_tutors_spires_guid",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_online_theology_and_religious_studies_dissertations_tutors_spires_guid",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_online_theology_and_religious_studies_dissertations_tutors_spires_guid",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_openness_to_argument_a_philosophical_examination_of_marxism_and_freudi",
       "target": "lane:research_documents"
     },
@@ -11505,6 +11580,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_research_on_self_healing_control_method_for_gas_regulation_failure_in_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_research_projects_boniuk_institute_rice_university_dde342bebdc0_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_research_projects_boniuk_institute_rice_university_dde342bebdc0_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_research_projects_boniuk_institute_rice_university_dde342bebdc0_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_research_projects_boniuk_institute_rice_university_dde342bebdc0_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_research_projects_boniuk_institute_rice_university_dde342bebdc0_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -16405,11 +16505,6 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:discernment"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:analogy"
     },
     {
@@ -16425,22 +16520,7 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:failure_condition"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:promotion_restraint"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:machine_label_boundary"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:no_comparative_flattening"
     },
     {
       "relation": "belongs_to_lane",
@@ -84244,6 +84324,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_is_jesus_a_socialist_51a0cc5fdc06_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_is_jesus_a_socialist_51a0cc5fdc06_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_is_jesus_a_socialist_51a0cc5fdc06_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_is_jesus_a_socialist_51a0cc5fdc06_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_is_jesus_a_socialist_51a0cc5fdc06_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_is_virtually_everything_possible_the_relevance_of_ethics_and_human_rights",
       "target": "lane:cultural_inputs"
     },
@@ -126304,7 +126409,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 4043,
+  "node_count": 4048,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -127930,6 +128035,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_comparative_theology_and_hermeneutics_a_gadamerian_approach_to_interre",
+      "label": "Comparative Theology and Hermeneutics: A Gadamerian Approach to Interreligious Interpretation",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/comparative_theology_and_hermeneutics_a_gadamerian_approach_to_interreligious_in_608b8854ff3b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_comparative_theology_and_interreligious_dialogue_62f8629a337d_md",
       "label": "Comparative Theology and Interreligious Dialogue",
       "lane": "research_documents",
@@ -129041,6 +129157,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_humanities_research_approaches_in_the_humanities_social_sciences_or_sc",
+      "label": "Humanities - Research Approaches in the Humanities, Social Sciences, or Sciences - Research Guides at Washington University in St. Louis",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/humanities_research_approaches_in_the_humanities_social_sciences_or_sciences_res_7bb71091426d.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_humanity_nature_and_survival_in_yann_martel_s_life_of_pi_and_margaret_",
       "label": "Humanity, Nature, and Survival in Yann Martel's Life of Pi and Margaret Atwood's Oryx and Crake: An Ecocritical Comparative Study.",
       "lane": "research_documents",
@@ -129998,6 +130125,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_online_theology_and_religious_studies_dissertations_tutors_spires_guid",
+      "label": "\ud83c\udf92 Online Theology And Religious Studies Dissertations Tutors Spires\u2122 | Guidelines For Writing A Theology And Religious Studies Dissertation",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/online_theology_and_religious_studies_dissertations_tutors_spires_guidelines_for_e75dfbcad600.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_openness_to_argument_a_philosophical_examination_of_marxism_and_freudi",
       "label": "Openness to argument: A philosophical examination of Marxism and Freudianism.",
       "lane": "research_documents",
@@ -130565,6 +130703,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/research_on_self_healing_control_method_for_gas_regulation_failure_in_reciprocat_deaf876c1dcd.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_research_projects_boniuk_institute_rice_university_dde342bebdc0_md",
+      "label": "Research Projects | Boniuk Institute | Rice University",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/research_projects_boniuk_institute_rice_university_dde342bebdc0.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -156107,6 +156256,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/invigorating_ubuntu_ethics_in_ai_for_healthcare_enabling_equitable_care_413416b2af8b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_is_jesus_a_socialist_51a0cc5fdc06_md",
+      "label": "Is Jesus a Socialist?!?",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/is_jesus_a_socialist_51a0cc5fdc06.md",
       "review_note_count": 1,
       "type": "document"
     },

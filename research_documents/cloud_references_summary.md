@@ -142,7 +142,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 5941
+- Corroborating routed candidates: 5942
 - URL: https://doi.org/10.4148/biyclc.v3i0.16
 
 OpenAlex abstract metadata available.
@@ -625,7 +625,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 7263
+- Corroborating routed candidates: 7264
 - URL: https://doi.org/10.12697/sss.2006.34.1.07
 
 OpenAlex abstract metadata available.
@@ -1188,7 +1188,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 5984
+- Corroborating routed candidates: 5985
 - URL: https://discourse.biologos.org/t/translation-literal-meaning-and-the-search-for-better-metaphors/3227
 
 # Translation, "literal meaning," and the search for better metaphors Powered by Discourse, best

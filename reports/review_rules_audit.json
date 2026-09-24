@@ -9,7 +9,7 @@
   },
   "confidence_tier_totals": {
     "candidate_lead": 112,
-    "developing_evidence": 3914,
+    "developing_evidence": 3919,
     "reviewed_evidence_ready": 1
   },
   "documents": [
@@ -8817,6 +8817,75 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/comparative_theology_and_hermeneutics_a_gadamerian_approach_to_interreligious_in_608b8854ff3b.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Comparative Theology and Hermeneutics: A Gadamerian Approach to Interreligious Interpretation"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -15933,6 +16002,75 @@
         "final_promotion_restraint"
       ],
       "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/humanities_research_approaches_in_the_humanities_social_sciences_or_sciences_res_7bb71091426d.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Humanities - Research Approaches in the Humanities, Social Sciences, or Sciences - Research Guides at Washington University in St. Louis"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/humanity_nature_and_survival_in_yann_martel_s_life_of_pi_and_margaret_atwood_s_o_b03009993a97.md",
       "patterns": [],
       "promotion_blockers": [
@@ -21922,6 +22060,75 @@
       "machine_drafted_status": "",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/online_theology_and_religious_studies_dissertations_tutors_spires_guidelines_for_e75dfbcad600.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "\ud83c\udf92 Online Theology And Religious Studies Dissertations Tutors Spires\u2122 | Guidelines For Writing A Theology And Religious Studies Dissertation"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
@@ -25490,6 +25697,75 @@
       },
       "sidecar_paths": [],
       "title": "Research on Self-healing Control Method for Gas Regulation Failure in Reciprocating Compressor under Valve Fault Condition"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "research_documents",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/research_projects_boniuk_institute_rice_university_dde342bebdc0.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Research Projects | Boniuk Institute | Rice University"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -36652,14 +36928,18 @@
       "machine_drafted_status": "machine_drafted_not_source_checked",
       "media_review_status": "text_reviewable",
       "missing_rules": [
+        "discernment",
+        "failure_condition",
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
+        "promotion_restraint",
         "scripture_anchor",
         "doctrinal_fit",
         "no_unresolved_pastoral_harm",
         "no_abuse_enabling_language",
         "no_science_overclaim",
+        "no_comparative_flattening",
         "does_not_prove_boundary",
         "plain_language_public_summary",
         "final_promotion_restraint"
@@ -36668,9 +36948,12 @@
       "path": "research_documents/daily_evaluation_queue.md",
       "patterns": [],
       "promotion_blockers": [
+        "discernment",
+        "failure_condition",
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
+        "promotion_restraint",
         "source_check_review_companion",
         "source_check_machine_draft"
       ],
@@ -36684,24 +36967,24 @@
       "rules_present": {
         "analogy": true,
         "counter_reading": true,
-        "discernment": true,
+        "discernment": false,
         "doctrinal_fit": false,
         "does_not_prove_boundary": false,
         "ecclesial_review": false,
         "evidence": true,
-        "failure_condition": true,
+        "failure_condition": false,
         "final_promotion_restraint": false,
         "interpretation": true,
         "liturgical_grounding": false,
         "machine_label_boundary": true,
         "no_abuse_enabling_language": false,
-        "no_comparative_flattening": true,
+        "no_comparative_flattening": false,
         "no_science_overclaim": false,
         "no_unresolved_pastoral_harm": false,
         "pastoral_safety": false,
         "plain_language_public_summary": false,
         "practical_use": true,
-        "promotion_restraint": true,
+        "promotion_restraint": false,
         "scripture_anchor": false
       },
       "sidecar_paths": [],
@@ -186045,6 +186328,75 @@
         "final_promotion_restraint"
       ],
       "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/is_jesus_a_socialist_51a0cc5fdc06.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Is Jesus a Socialist?!?"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/is_virtually_everything_possible_the_relevance_of_ethics_and_human_rights_for_in_e28a178d87ab.md",
       "patterns": [],
       "promotion_blockers": [
@@ -276083,10 +276435,10 @@
       "text_documents": 227
     },
     "cultural_inputs": {
-      "documents": 507,
+      "documents": 508,
       "media_assets": 0,
-      "review_notes": 507,
-      "text_documents": 507
+      "review_notes": 508,
+      "text_documents": 508
     },
     "deep_sources": {
       "documents": 213,
@@ -276131,10 +276483,10 @@
       "text_documents": 388
     },
     "research_documents": {
-      "documents": 563,
+      "documents": 567,
       "media_assets": 0,
-      "review_notes": 610,
-      "text_documents": 563
+      "review_notes": 614,
+      "text_documents": 567
     },
     "theologians": {
       "documents": 498,
@@ -277161,150 +277513,150 @@
   "rule_coverage": {
     "analogy": {
       "machine_drafted": 0,
-      "missing": 2996,
+      "missing": 3001,
       "present": 1031,
       "review_companion": 976,
-      "total": 4027
+      "total": 4032
     },
     "counter_reading": {
       "machine_drafted": 1,
       "missing": 42,
-      "present": 3984,
+      "present": 3989,
       "review_companion": 0,
-      "total": 4027
+      "total": 4032
     },
     "discernment": {
       "machine_drafted": 0,
-      "missing": 2010,
-      "present": 2017,
+      "missing": 2016,
+      "present": 2016,
       "review_companion": 598,
-      "total": 4027
+      "total": 4032
     },
     "doctrinal_fit": {
       "machine_drafted": 0,
-      "missing": 4024,
+      "missing": 4029,
       "present": 3,
       "review_companion": 1,
-      "total": 4027
+      "total": 4032
     },
     "does_not_prove_boundary": {
       "machine_drafted": 0,
-      "missing": 4009,
+      "missing": 4014,
       "present": 18,
       "review_companion": 1,
-      "total": 4027
+      "total": 4032
     },
     "ecclesial_review": {
       "machine_drafted": 449,
-      "missing": 3568,
+      "missing": 3573,
       "present": 10,
       "review_companion": 2,
-      "total": 4027
+      "total": 4032
     },
     "evidence": {
       "machine_drafted": 2,
       "missing": 101,
-      "present": 3924,
+      "present": 3929,
       "review_companion": 0,
-      "total": 4027
+      "total": 4032
     },
     "failure_condition": {
       "machine_drafted": 1,
-      "missing": 2985,
-      "present": 1041,
+      "missing": 2991,
+      "present": 1040,
       "review_companion": 932,
-      "total": 4027
+      "total": 4032
     },
     "final_promotion_restraint": {
       "machine_drafted": 0,
-      "missing": 4025,
+      "missing": 4030,
       "present": 2,
       "review_companion": 1,
-      "total": 4027
+      "total": 4032
     },
     "interpretation": {
       "machine_drafted": 2,
-      "missing": 2974,
+      "missing": 2979,
       "present": 1051,
       "review_companion": 993,
-      "total": 4027
+      "total": 4032
     },
     "liturgical_grounding": {
       "machine_drafted": 429,
-      "missing": 3549,
+      "missing": 3554,
       "present": 49,
       "review_companion": 2,
-      "total": 4027
+      "total": 4032
     },
     "machine_label_boundary": {
       "machine_drafted": 2,
       "missing": 170,
-      "present": 3855,
+      "present": 3860,
       "review_companion": 0,
-      "total": 4027
+      "total": 4032
     },
     "no_abuse_enabling_language": {
       "machine_drafted": 0,
-      "missing": 4025,
+      "missing": 4030,
       "present": 2,
       "review_companion": 1,
-      "total": 4027
+      "total": 4032
     },
     "no_comparative_flattening": {
       "machine_drafted": 0,
-      "missing": 4019,
-      "present": 8,
+      "missing": 4025,
+      "present": 7,
       "review_companion": 1,
-      "total": 4027
+      "total": 4032
     },
     "no_science_overclaim": {
       "machine_drafted": 0,
-      "missing": 3978,
+      "missing": 3983,
       "present": 49,
       "review_companion": 1,
-      "total": 4027
+      "total": 4032
     },
     "no_unresolved_pastoral_harm": {
       "machine_drafted": 0,
-      "missing": 4025,
+      "missing": 4030,
       "present": 2,
       "review_companion": 1,
-      "total": 4027
+      "total": 4032
     },
     "pastoral_safety": {
       "machine_drafted": 407,
-      "missing": 3553,
+      "missing": 3558,
       "present": 67,
       "review_companion": 3,
-      "total": 4027
+      "total": 4032
     },
     "plain_language_public_summary": {
       "machine_drafted": 0,
-      "missing": 4024,
+      "missing": 4029,
       "present": 3,
       "review_companion": 1,
-      "total": 4027
+      "total": 4032
     },
     "practical_use": {
       "machine_drafted": 0,
       "missing": 32,
-      "present": 3995,
+      "present": 4000,
       "review_companion": 0,
-      "total": 4027
+      "total": 4032
     },
     "promotion_restraint": {
       "machine_drafted": 441,
-      "missing": 3517,
-      "present": 69,
+      "missing": 3523,
+      "present": 68,
       "review_companion": 2,
-      "total": 4027
+      "total": 4032
     },
     "scripture_anchor": {
       "machine_drafted": 0,
-      "missing": 4022,
+      "missing": 4027,
       "present": 5,
       "review_companion": 1,
-      "total": 4027
+      "total": 4032
     }
   }
 }
