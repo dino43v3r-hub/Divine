@@ -13,14 +13,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 186
-Test words analyzed: 28,179
+Test documents analyzed: 187
+Test words analyzed: 28,325
 
 Pressure Types
 --------------
-- Science Guardrail: 372
-- Suffering Without Resolution: 332
-- Counterexample Pressure: 180
+- Science Guardrail: 374
+- Suffering Without Resolution: 333
+- Counterexample Pressure: 181
 - Injustice And Corruption: 70
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 37
@@ -30,19 +30,19 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 403
-- Primary Or Classical Source: 162
+- Scholarly Or Scientific Source: 405
+- Primary Or Classical Source: 163
 - Practical Lived Source: 100
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- needs deeper review but still plausible: 101
+- needs deeper review but still plausible: 102
 - resilient under pressure: 85
 
 Hold Assessment
 ---------------
-- not enough friction to judge hold: 99
+- not enough friction to judge hold: 100
 - pressure present but hold question is underdeveloped: 76
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
@@ -52,26 +52,26 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 907 | research corpus 6,726
-- Son: test set 34 | research corpus 6,830
+- Father: test set 912 | research corpus 6,743
+- Son: test set 34 | research corpus 6,831
 - Holy Spirit: test set 50 | research corpus 1,857
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 56 | research corpus 2,688
-- Mathematical Structure: test set 18 | research corpus 647
-- Mathematical Theophany: test set 467 | research corpus 1,263
+- Physical Order: test set 56 | research corpus 2,687
+- Mathematical Structure: test set 18 | research corpus 649
+- Mathematical Theophany: test set 469 | research corpus 1,265
 - Quantum Probability: test set 25 | research corpus 175
-- Life And Consciousness: test set 534 | research corpus 6,738
-- Meaning And Logos: test set 44 | research corpus 6,109
-- Moral Response: test set 56 | research corpus 2,484
-- Worship And Community: test set 105 | research corpus 1,632
-- Transformation: test set 64 | research corpus 2,226
+- Life And Consciousness: test set 537 | research corpus 6,762
+- Meaning And Logos: test set 44 | research corpus 6,127
+- Moral Response: test set 56 | research corpus 2,491
+- Worship And Community: test set 105 | research corpus 1,648
+- Transformation: test set 64 | research corpus 2,229
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 491
-- Desire And Longing: 196
+- Creation And Order: 493
+- Desire And Longing: 197
 - Alienation And Lament: 91
 - Communal Practice: 87
 - Transformation And Hope: 68
@@ -2276,6 +2276,26 @@ Recommendations:
 contents_aaaeca78e625.md
 ------------------------
 Words: 136
+Meaning confidence: thin meaning signal
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+cracks_in_the_theology_of_contempt_the_french_roots_of_nostra_aetate_e334028c7d0e.md
+------------------------------------------------------------------------------------
+Words: 146
 Meaning confidence: thin meaning signal
 Test confidence: needs deeper review but still plausible
 Hold assessment: not enough friction to judge hold

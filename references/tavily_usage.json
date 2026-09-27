@@ -4247,6 +4247,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-09-27": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "Trinity Father Son Holy Spirit practical theology",
+          "searched_at": "2026-09-27T17:57:45.083609+00:00",
+          "tag": "trinity"
+        },
+        {
+          "credits_used": 1,
+          "query": "Nicene Creed Trinity Father Son Holy Spirit",
+          "searched_at": "2026-09-27T17:57:57.095096+00:00",
+          "tag": "trinity"
+        },
+        {
+          "credits_used": 1,
+          "query": "Trinitarian theology creation redemption sanctification",
+          "searched_at": "2026-09-27T17:58:04.659689+00:00",
+          "tag": "trinity"
+        },
+        {
+          "credits_used": 1,
+          "query": "theodicy unresolved suffering lament pastoral care",
+          "searched_at": "2026-09-27T17:58:24.902772+00:00",
+          "tag": "unresolved_suffering"
+        },
+        {
+          "credits_used": 1,
+          "query": "lament grief trauma pastoral theology",
+          "searched_at": "2026-09-27T17:58:29.794114+00:00",
+          "tag": "unresolved_suffering"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

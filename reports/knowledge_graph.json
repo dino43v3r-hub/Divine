@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 25526,
+  "edge_count": 25673,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -4539,6 +4539,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_contemporary_interpretation_methodology_comparative_study_of_the_thoug",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_contemporary_interpretation_methodology_comparative_study_of_the_thoug",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_contemporary_interpretation_methodology_comparative_study_of_the_thoug",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_contemporary_interpretation_methodology_comparative_study_of_the_thoug",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_contemporary_interpretation_methodology_comparative_study_of_the_thoug",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_contingency_and_providence_aristotle_and_augustine_bedaec80430e_md",
       "target": "lane:research_documents"
     },
@@ -6990,6 +7015,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_futurology_a50ad433dd4b_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_globalization_7c4b45764eac_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_globalization_7c4b45764eac_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_globalization_7c4b45764eac_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_globalization_7c4b45764eac_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_globalization_7c4b45764eac_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -16680,7 +16730,7 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:promotion_restraint"
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -19724,6 +19774,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_comparison_of_polish_and_english_selected_versions_of_the_bible_pragma",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_comparison_of_polish_and_english_selected_versions_of_the_bible_pragma",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_comparison_of_polish_and_english_selected_versions_of_the_bible_pragma",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_comparison_of_polish_and_english_selected_versions_of_the_bible_pragma",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_comparison_of_polish_and_english_selected_versions_of_the_bible_pragma",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_contemporary_approaches_to_bible_translation_origins_characteristics_a",
       "target": "lane:biblical_languages"
     },
@@ -20385,6 +20460,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_hebrews_5_7_as_the_cry_of_the_davidic_sufferer_2c9083b86229_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_helfi_a_hebrew_greek_finnish_parallel_bible_corpus_with_cross_lingual_",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_helfi_a_hebrew_greek_finnish_parallel_bible_corpus_with_cross_lingual_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_helfi_a_hebrew_greek_finnish_parallel_bible_corpus_with_cross_lingual_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_helfi_a_hebrew_greek_finnish_parallel_bible_corpus_with_cross_lingual_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_helfi_a_hebrew_greek_finnish_parallel_bible_corpus_with_cross_lingual_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -23100,6 +23200,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_divine_human_encounter_towards_a_pentecostal_theology_of_experienc",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_divine_name_in_early_judaism_use_and_non_use_in_aramaic_hebrew_and",
+      "target": "lane:biblical_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_divine_name_in_early_judaism_use_and_non_use_in_aramaic_hebrew_and",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_divine_name_in_early_judaism_use_and_non_use_in_aramaic_hebrew_and",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_divine_name_in_early_judaism_use_and_non_use_in_aramaic_hebrew_and",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:biblical_languages_auto_imported_cloud_candidates_the_divine_name_in_early_judaism_use_and_non_use_in_aramaic_hebrew_and",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -27839,6 +27964,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_episode_101_regan_caruthers_5b7a5b445557_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_episode_101_regan_caruthers_5b7a5b445557_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_episode_101_regan_caruthers_5b7a5b445557_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_episode_101_regan_caruthers_5b7a5b445557_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_episode_101_regan_caruthers_5b7a5b445557_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_essay_abstracts_78569f179443_md",
       "target": "lane:world_languages"
     },
@@ -33459,6 +33609,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_third_world_theology_c08f061e5c57_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_third_world_theology_c08f061e5c57_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_third_world_theology_c08f061e5c57_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_third_world_theology_c08f061e5c57_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_third_world_theology_c08f061e5c57_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_thomas_aquinas_and_the_dominant_tradition_a74ae399fa8c_md",
       "target": "lane:world_languages"
     },
@@ -34300,6 +34475,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:world_languages_auto_imported_cloud_candidates_yasna_47_c9abf2dd65ca_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_yasna_51_d6b0ec02f20c_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_yasna_51_d6b0ec02f20c_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_yasna_51_d6b0ec02f20c_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_yasna_51_d6b0ec02f20c_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_yasna_51_d6b0ec02f20c_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -50839,6 +51039,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_ignoring_god_triune_the_doctrine_of_the_trinity_in_dutch_theology_f58ce52bc0d",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_ignoring_god_triune_the_doctrine_of_the_trinity_in_dutch_theology_f58ce52bc0d",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_ignoring_god_triune_the_doctrine_of_the_trinity_in_dutch_theology_f58ce52bc0d",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_ignoring_god_triune_the_doctrine_of_the_trinity_in_dutch_theology_f58ce52bc0d",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_ignoring_god_triune_the_doctrine_of_the_trinity_in_dutch_theology_f58ce52bc0d",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_imago_expandit_splendorem_suum_hildegard_of_bingen_s_visio_theological_design",
       "target": "lane:theologians"
     },
@@ -51974,6 +52199,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_les_hom_lies_de_jean_chrysostome_in_principium_actorum_2871820401ee_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_les_hom_lies_de_jean_chrysostome_in_principium_actorum_2871820401ee_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_les_hom_lies_de_jean_chrysostome_in_principium_actorum_2871820401ee_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_les_hom_lies_de_jean_chrysostome_in_principium_actorum_2871820401ee_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_les_hom_lies_de_jean_chrysostome_in_principium_actorum_2871820401ee_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_let_him_thus_be_a_hippolytus_perist_11_87_horror_and_rhetoric_in_prudentius_p",
       "target": "lane:theologians"
     },
@@ -52675,6 +52925,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_notes_b8510169a19b_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_offenders_for_a_word_how_anti_mormons_play_word_games_to_attack_the_latter_da",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_offenders_for_a_word_how_anti_mormons_play_word_games_to_attack_the_latter_da",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_offenders_for_a_word_how_anti_mormons_play_word_games_to_attack_the_latter_da",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_offenders_for_a_word_how_anti_mormons_play_word_games_to_attack_the_latter_da",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_offenders_for_a_word_how_anti_mormons_play_word_games_to_attack_the_latter_da",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -56849,6 +57124,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_nicene_creed_one_church_and_one_baptism_clearly_reformed_da94acb72af9_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_nicene_creed_one_church_and_one_baptism_clearly_reformed_da94acb72af9_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_nicene_creed_one_church_and_one_baptism_clearly_reformed_da94acb72af9_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_nicene_creed_one_church_and_one_baptism_clearly_reformed_da94acb72af9_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_nicene_creed_one_church_and_one_baptism_clearly_reformed_da94acb72af9_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_nicene_creed_one_church_and_one_baptism_clearly_reformed_da94acb72af9_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_the_nicene_creed_the_church_and_christian_mission_df9312a1e53b_md",
       "target": "lane:theologians"
     },
@@ -57365,6 +57670,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_the_spirituality_of_the_nicene_creed_and_its_missionary_implications_in_the_p",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_starting_point_of_sanctification_5e50863fc0a2_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_starting_point_of_sanctification_5e50863fc0a2_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_starting_point_of_sanctification_5e50863fc0a2_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_starting_point_of_sanctification_5e50863fc0a2_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_starting_point_of_sanctification_5e50863fc0a2_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -64164,6 +64494,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_restorative_justice_and_post_genocide_reconciliation_ethical_implications_",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_restorative_justice_and_post_genocide_reconciliation_ethical_implications_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_restorative_justice_and_post_genocide_reconciliation_ethical_implications_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_restorative_justice_and_post_genocide_reconciliation_ethical_implications_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_restorative_justice_and_post_genocide_reconciliation_ethical_implications_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_rethinking_black_rage_in_and_with_james_cone_s_black_theology_and_black_po",
       "target": "lane:history_inputs"
     },
@@ -65155,6 +65510,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_the_reader_an_exploration_of_the_history_and_present_place_of_reader_minis",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_the_roman_mould_of_the_australian_catholic_church_1846_1878_1f2ef5d6bb71_m",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_the_roman_mould_of_the_australian_catholic_church_1846_1878_1f2ef5d6bb71_m",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_the_roman_mould_of_the_australian_catholic_church_1846_1878_1f2ef5d6bb71_m",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_the_roman_mould_of_the_australian_catholic_church_1846_1878_1f2ef5d6bb71_m",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_the_roman_mould_of_the_australian_catholic_church_1846_1878_1f2ef5d6bb71_m",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -67914,6 +68294,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_mataphor_copyright_infringement_and_the_fiction_of_the_work_61a05fbc3b0",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_mataphor_copyright_infringement_and_the_fiction_of_the_work_61a05fbc3b0",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_mataphor_copyright_infringement_and_the_fiction_of_the_work_61a05fbc3b0",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_mataphor_copyright_infringement_and_the_fiction_of_the_work_61a05fbc3b0",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_mataphor_copyright_infringement_and_the_fiction_of_the_work_61a05fbc3b0",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_beyond_theological_aesthetics_aesthetic_theology_04b4a712b291_md",
       "target": "lane:visual_art"
     },
@@ -74535,6 +74940,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:visual_art_auto_imported_cloud_candidates_the_birth_of_a_national_icon_grant_wood_s_american_gothic_a08a237123f9_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_blank_page_and_the_issues_of_female_creativity_4db31a79bece_md",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_blank_page_and_the_issues_of_female_creativity_4db31a79bece_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_blank_page_and_the_issues_of_female_creativity_4db31a79bece_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_blank_page_and_the_issues_of_female_creativity_4db31a79bece_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_blank_page_and_the_issues_of_female_creativity_4db31a79bece_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_the_blank_page_and_the_issues_of_female_creativity_4db31a79bece_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -82114,6 +82549,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_issues_in_nursing_care_for_older_adults_in_community_settings_a_s",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_issues_in_nursing_care_for_older_adults_in_community_settings_a_s",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_issues_in_nursing_care_for_older_adults_in_community_settings_a_s",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_issues_in_nursing_care_for_older_adults_in_community_settings_a_s",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_issues_in_nursing_care_for_older_adults_in_community_settings_a_s",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_amp_ai_a_systematic_review_on_ethical_concerns_and_related_strateg",
       "target": "lane:cultural_inputs"
     },
@@ -83579,6 +84039,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_from_seminary_to_sanctuary_reimagining_faith_and_justice_with_rev_caleb_e",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_from_seminary_to_sanctuary_reimagining_faith_and_justice_with_rev_caleb_e",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_from_seminary_to_sanctuary_reimagining_faith_and_justice_with_rev_caleb_e",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_from_seminary_to_sanctuary_reimagining_faith_and_justice_with_rev_caleb_e",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_from_seminary_to_sanctuary_reimagining_faith_and_justice_with_rev_caleb_e",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_from_textual_poachers_to_textual_gifters_exploring_fan_community_and_cele",
       "target": "lane:cultural_inputs"
     },
@@ -84839,6 +85324,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_incorporating_ethics_into_artificial_intelligence_95432d525984_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_incorporating_ethics_into_artificial_intelligence_95432d525984_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_incorporating_ethics_into_artificial_intelligence_95432d525984_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_incorporating_ethics_into_artificial_intelligence_95432d525984_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_incorporating_ethics_into_artificial_intelligence_95432d525984_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_index_785325e1b5e5_md",
       "target": "lane:cultural_inputs"
     },
@@ -85740,6 +86250,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_licensing_high_risk_artificial_intelligence_toward_ex_ante_justification_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_life_of_dorothea_lynde_dix_ae0715845af4_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_life_of_dorothea_lynde_dix_ae0715845af4_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_life_of_dorothea_lynde_dix_ae0715845af4_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_life_of_dorothea_lynde_dix_ae0715845af4_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_life_of_dorothea_lynde_dix_ae0715845af4_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -86689,6 +87224,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_online_gambling_and_its_prevalence_among_nigerian_medical_and_dental_stud",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_online_gambling_and_its_prevalence_among_nigerian_medical_and_dental_stud",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_online_gambling_and_its_prevalence_among_nigerian_medical_and_dental_stud",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_online_gambling_and_its_prevalence_among_nigerian_medical_and_dental_stud",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_online_gambling_and_its_prevalence_among_nigerian_medical_and_dental_stud",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ontological_anthropology_and_the_deferral_of_critique_0eb22ee7633a_md",
       "target": "lane:cultural_inputs"
     },
@@ -90270,6 +90830,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_devil_s_handwriting_precolonial_discourse_ethnographic_acuity_and_cro",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_digital_disciple_7f74be1892cd_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_digital_disciple_7f74be1892cd_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_digital_disciple_7f74be1892cd_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_digital_disciple_7f74be1892cd_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_digital_disciple_7f74be1892cd_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_digital_disciple_7f74be1892cd_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -105704,6 +106294,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_collaborative_preaching_for_collective_trauma_healing_practical_implementat",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_collaborative_preaching_for_collective_trauma_healing_practical_implementat",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_collaborative_preaching_for_collective_trauma_healing_practical_implementat",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_collaborative_preaching_for_collective_trauma_healing_practical_implementat",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_collaborative_preaching_for_collective_trauma_healing_practical_implementat",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_collaborative_preaching_for_collective_trauma_healing_practical_implementat",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:human_stories_auto_imported_cloud_candidates_day_6_conversion_an_advent_journey_for_the_discerning_heart_343f862fc7da_md",
       "target": "lane:human_stories"
     },
@@ -113209,6 +113829,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_vital_subjects_race_and_biopolitics_in_italy_1521f4a8c1bd_md",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_vital_subjects_race_and_biopolitics_in_italy_1521f4a8c1bd_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_vital_subjects_race_and_biopolitics_in_italy_1521f4a8c1bd_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_vital_subjects_race_and_biopolitics_in_italy_1521f4a8c1bd_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_vital_subjects_race_and_biopolitics_in_italy_1521f4a8c1bd_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_walter_scott_extract_from_an_essay_on_the_drama_ef66351e4f02_md",
       "target": "lane:modern_literature"
     },
@@ -116404,6 +117049,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_lsst_from_science_drivers_to_reference_design_and_anticipated_data_products_",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_lsst_from_science_drivers_to_reference_design_and_anticipated_data_products_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_lsst_from_science_drivers_to_reference_design_and_anticipated_data_products_",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_lsst_from_science_drivers_to_reference_design_and_anticipated_data_products_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_lsst_from_science_drivers_to_reference_design_and_anticipated_data_products_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_lsst_from_science_drivers_to_reference_design_and_anticipated_data_products_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_machine_intelligence_a_chimera_21ff72babd9e_md",
       "target": "lane:deep_sources"
     },
@@ -119150,6 +119825,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_the_end_of_keynes_and_philosophy_31a5ccfe9452_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_entangled_ledger_9ebc3a686928_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_entangled_ledger_9ebc3a686928_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_entangled_ledger_9ebc3a686928_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_entangled_ledger_9ebc3a686928_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_entangled_ledger_9ebc3a686928_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_the_entangled_ledger_9ebc3a686928_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -122275,6 +122980,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_contents_aaaeca78e625_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_cracks_in_the_theology_of_contempt_the_french_roots_of_nostra_aetate_e33402",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_cracks_in_the_theology_of_contempt_the_french_roots_of_nostra_aetate_e33402",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_cracks_in_the_theology_of_contempt_the_french_roots_of_nostra_aetate_e33402",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_cracks_in_the_theology_of_contempt_the_french_roots_of_nostra_aetate_e33402",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_cracks_in_the_theology_of_contempt_the_french_roots_of_nostra_aetate_e33402",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_cracks_in_the_theology_of_contempt_the_french_roots_of_nostra_aetate_e33402",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -127634,7 +128369,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 4092,
+  "node_count": 4119,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -129381,6 +130116,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_contemporary_interpretation_methodology_comparative_study_of_the_thoug",
+      "label": "Contemporary Interpretation Methodology: Comparative Study of the Thought of Fazlur Rahman and Sahiron Syamsuddin",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/contemporary_interpretation_methodology_comparative_study_of_the_thought_of_fazl_19df412ffb6b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_contingency_and_providence_aristotle_and_augustine_bedaec80430e_md",
       "label": "Contingency and Providence: Aristotle and Augustine",
       "lane": "research_documents",
@@ -130223,6 +130969,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/futurology_a50ad433dd4b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_globalization_7c4b45764eac_md",
+      "label": "Globalization",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/globalization_7c4b45764eac.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -134672,6 +135429,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_comparison_of_polish_and_english_selected_versions_of_the_bible_pragma",
+      "label": "Comparison of Polish and English Selected Versions of the Bible: Pragmatics and Semantics in Focus",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/comparison_of_polish_and_english_selected_versions_of_the_bible_pragmatics_and_s_6de3b3dbd6bf.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:biblical_languages_auto_imported_cloud_candidates_contemporary_approaches_to_bible_translation_origins_characteristics_a",
       "label": "Contemporary Approaches to Bible Translation Origins, Characteristics and Issues",
       "lane": "biblical_languages",
@@ -135910,6 +136678,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "biblical_languages/auto_imported_cloud_candidates/the_divine_human_encounter_towards_a_pentecostal_theology_of_experience_d4f0644dd9e4.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:biblical_languages_auto_imported_cloud_candidates_the_divine_name_in_early_judaism_use_and_non_use_in_aramaic_hebrew_and",
+      "label": "The Divine Name in Early Judaism: Use and Non-Use in Aramaic, Hebrew, and Greek",
+      "lane": "biblical_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "biblical_languages/auto_imported_cloud_candidates/the_divine_name_in_early_judaism_use_and_non_use_in_aramaic_hebrew_and_greek_b8fa69aa77c1.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -137549,6 +138328,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "world_languages/auto_imported_cloud_candidates/education_and_training_of_fisheries_personnel_for_asian_african_and_latin_americ_df27df193386.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_episode_101_regan_caruthers_5b7a5b445557_md",
+      "label": "Episode 101 - Regan Caruthers",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/episode_101_regan_caruthers_5b7a5b445557.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -139622,6 +140412,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_third_world_theology_c08f061e5c57_md",
+      "label": "Third World Theology",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/third_world_theology_c08f061e5c57.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_thomas_aquinas_and_the_dominant_tradition_a74ae399fa8c_md",
       "label": "Thomas Aquinas and the Dominant Tradition",
       "lane": "world_languages",
@@ -139958,6 +140759,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "world_languages/auto_imported_cloud_candidates/yasna_47_c9abf2dd65ca.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_yasna_51_d6b0ec02f20c_md",
+      "label": "YASNA 51",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/yasna_51_d6b0ec02f20c.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -145727,6 +146539,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_ignoring_god_triune_the_doctrine_of_the_trinity_in_dutch_theology_f58ce52bc0d",
+      "label": "Ignoring God Triune? The Doctrine of the Trinity in Dutch Theology",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/ignoring_god_triune_the_doctrine_of_the_trinity_in_dutch_theology_f58ce52bc0dc.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_imago_expandit_splendorem_suum_hildegard_of_bingen_s_visio_theological_design",
       "label": "\"Imago expandit splendorem suum\". Hildegard of Bingen\u2019s Visio-Theological Designs in the Rupertsberg Scivias Manuscript",
       "lane": "theologians",
@@ -146134,6 +146957,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_les_hom_lies_de_jean_chrysostome_in_principium_actorum_2871820401ee_md",
+      "label": "Les hom\u00e9lies de Jean Chrysostome In principium Actorum :",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/les_hom_lies_de_jean_chrysostome_in_principium_actorum_2871820401ee.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_let_him_thus_be_a_hippolytus_perist_11_87_horror_and_rhetoric_in_prudentius_p",
       "label": "\u2018Let him thus be a Hippolytus\u2019 (Perist. 11.87) : horror and rhetoric in Prudentius\u2019 Peristephanon 11",
       "lane": "theologians",
@@ -146415,6 +147249,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/notes_b8510169a19b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_offenders_for_a_word_how_anti_mormons_play_word_games_to_attack_the_latter_da",
+      "label": "Offenders for a Word: How Anti-Mormons Play Word Games to Attack the Latter-Day Saints",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/offenders_for_a_word_how_anti_mormons_play_word_games_to_attack_the_latter_day_s_3c327bc5cd7e.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -147982,6 +148827,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_the_nicene_creed_one_church_and_one_baptism_clearly_reformed_da94acb72af9_md",
+      "label": "The Nicene Creed: One Church and One Baptism | Clearly Reformed",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/the_nicene_creed_one_church_and_one_baptism_clearly_reformed_da94acb72af9.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_the_nicene_creed_the_church_and_christian_mission_df9312a1e53b_md",
       "label": "The Nicene Creed, the Church, and Christian Mission",
       "lane": "theologians",
@@ -148175,6 +149031,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/the_spirituality_of_the_nicene_creed_and_its_missionary_implications_in_the_pari_51b58f8cd9e5.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_the_starting_point_of_sanctification_5e50863fc0a2_md",
+      "label": "The Starting Point of Sanctification",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/the_starting_point_of_sanctification_5e50863fc0a2.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -150600,6 +151467,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_restorative_justice_and_post_genocide_reconciliation_ethical_implications_",
+      "label": "Restorative Justice and Post-Genocide Reconciliation: Ethical Implications and Community Healing in Rwanda",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/restorative_justice_and_post_genocide_reconciliation_ethical_implications_and_co_45f67eb0dbc8.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_rethinking_black_rage_in_and_with_james_cone_s_black_theology_and_black_po",
       "label": "Rethinking Black Rage in and with James Cone\u2019s Black Theology and Black Power",
       "lane": "history_inputs",
@@ -150980,6 +151858,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "history_inputs/auto_imported_cloud_candidates/the_reader_an_exploration_of_the_history_and_present_place_of_reader_ministry_in_525dc1bf72c2.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_the_roman_mould_of_the_australian_catholic_church_1846_1878_1f2ef5d6bb71_m",
+      "label": "The Roman mould of the Australian Catholic Church, 1846-1878",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/the_roman_mould_of_the_australian_catholic_church_1846_1878_1f2ef5d6bb71.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -151893,6 +152782,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/beyond_doctrine_art_and_the_expression_of_the_divine_00291237fc37.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_beyond_mataphor_copyright_infringement_and_the_fiction_of_the_work_61a05fbc3b0",
+      "label": "Beyond Mataphor: Copyright Infringement and the Fiction of the Work",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/beyond_mataphor_copyright_infringement_and_the_fiction_of_the_work_61a05fbc3b0a.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -154170,6 +155070,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/the_birth_of_a_national_icon_grant_wood_s_american_gothic_a08a237123f9.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_the_blank_page_and_the_issues_of_female_creativity_4db31a79bece_md",
+      "label": "\"The Blank Page\" and the Issues of Female Creativity",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/the_blank_page_and_the_issues_of_female_creativity_4db31a79bece.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -156760,6 +157671,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_issues_in_nursing_care_for_older_adults_in_community_settings_a_s",
+      "label": "Ethical issues in nursing care for older adults in community settings: A scoping review.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/ethical_issues_in_nursing_care_for_older_adults_in_community_settings_a_scoping_30a811e9619a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_amp_ai_a_systematic_review_on_ethical_concerns_and_related_strateg",
       "label": "Ethics &amp; AI: A Systematic Review on Ethical Concerns and Related Strategies for Designing with AI in Healthcare",
       "lane": "cultural_inputs",
@@ -157266,6 +158188,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_from_seminary_to_sanctuary_reimagining_faith_and_justice_with_rev_caleb_e",
+      "label": "From Seminary to Sanctuary: Reimagining Faith and Justice with Rev. Caleb Encinas Cortes",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/from_seminary_to_sanctuary_reimagining_faith_and_justice_with_rev_caleb_encinas_cb122c1a4500.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_from_textual_poachers_to_textual_gifters_exploring_fan_community_and_cele",
       "label": "From textual poachers to textual gifters : exploring fan community and celebrity in the field of fan cultural production",
       "lane": "cultural_inputs",
@@ -157728,6 +158661,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_incorporating_ethics_into_artificial_intelligence_95432d525984_md",
+      "label": "Incorporating Ethics into Artificial Intelligence",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/incorporating_ethics_into_artificial_intelligence_95432d525984.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_index_785325e1b5e5_md",
       "label": "Index",
       "lane": "cultural_inputs",
@@ -158031,6 +158975,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/licensing_high_risk_artificial_intelligence_toward_ex_ante_justification_for_a_d_d3dfc86f367a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_life_of_dorothea_lynde_dix_ae0715845af4_md",
+      "label": "Life of Dorothea Lynde Dix.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/life_of_dorothea_lynde_dix_ae0715845af4.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -158394,6 +159349,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/oh_dignity_too_said_the_robot_human_dignity_as_the_basis_for_the_governance_of_r_60686ca3c726.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_online_gambling_and_its_prevalence_among_nigerian_medical_and_dental_stud",
+      "label": "Online Gambling and Its Prevalence Among Nigerian Medical and Dental Students.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/online_gambling_and_its_prevalence_among_nigerian_medical_and_dental_students_f154fb0002d1.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -159692,6 +160658,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/the_devil_s_handwriting_precolonial_discourse_ethnographic_acuity_and_cross_iden_ad94c1ece4db.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_the_digital_disciple_7f74be1892cd_md",
+      "label": "The Digital Disciple",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/the_digital_disciple_7f74be1892cd.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -165175,6 +166152,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_collaborative_preaching_for_collective_trauma_healing_practical_implementat",
+      "label": "Collaborative Preaching for Collective Trauma Healing: Practical Implementation in Indonesia",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/collaborative_preaching_for_collective_trauma_healing_practical_implementation_i_6767444159dd.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:human_stories_auto_imported_cloud_candidates_day_6_conversion_an_advent_journey_for_the_discerning_heart_343f862fc7da_md",
       "label": "Day 6 - Conversion - An Advent Journey for the Discerning Heart",
       "lane": "human_stories",
@@ -167815,6 +168803,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_vital_subjects_race_and_biopolitics_in_italy_1521f4a8c1bd_md",
+      "label": "Vital Subjects: Race and Biopolitics in Italy",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/vital_subjects_race_and_biopolitics_in_italy_1521f4a8c1bd.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:modern_literature_auto_imported_cloud_candidates_walter_scott_extract_from_an_essay_on_the_drama_ef66351e4f02_md",
       "label": "Walter Scott, extract from \u2018An Essay on the Drama\u2019",
       "lane": "modern_literature",
@@ -168871,6 +169870,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_lsst_from_science_drivers_to_reference_design_and_anticipated_data_products_",
+      "label": "LSST: From Science Drivers to Reference Design and Anticipated Data Products",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/lsst_from_science_drivers_to_reference_design_and_anticipated_data_products_544c83a28f60.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_machine_intelligence_a_chimera_21ff72babd9e_md",
       "label": "Machine intelligence: a chimera",
       "lane": "deep_sources",
@@ -169735,6 +170745,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/the_end_of_keynes_and_philosophy_31a5ccfe9452.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_the_entangled_ledger_9ebc3a686928_md",
+      "label": "THE ENTANGLED LEDGER",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/the_entangled_ledger_9ebc3a686928.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -170714,6 +171735,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/contents_aaaeca78e625.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_cracks_in_the_theology_of_contempt_the_french_roots_of_nostra_aetate_e33402",
+      "label": "Cracks in the Theology of Contempt: The French Roots of Nostra Aetate",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/cracks_in_the_theology_of_contempt_the_french_roots_of_nostra_aetate_e334028c7d0e.md",
       "review_note_count": 1,
       "type": "document"
     },
