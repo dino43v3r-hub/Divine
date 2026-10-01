@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 26096,
+  "edge_count": 26191,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -3775,6 +3775,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_catholics_on_the_margins_in_india_dalits_and_adivasis_e489a72acb04_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_causality_34a51da8f1e3_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_causality_34a51da8f1e3_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_causality_34a51da8f1e3_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_causality_34a51da8f1e3_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_causality_34a51da8f1e3_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -16941,6 +16966,11 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:no_comparative_flattening"
     },
     {
       "relation": "belongs_to_lane",
@@ -32664,6 +32694,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_challenge_of_the_post_christendom_era_the_relation_of_christian_theol",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_challenge_of_the_post_christendom_era_the_relation_of_christian_theol",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_challenge_of_the_post_christendom_era_the_relation_of_christian_theol",
+      "target": "rule:interpretation"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_challenge_of_the_post_christendom_era_the_relation_of_christian_theol",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_challenge_of_the_post_christendom_era_the_relation_of_christian_theol",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_challenge_of_the_post_christendom_era_the_relation_of_christian_theol",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_the_cognitive_function_of_a_conceptual_metaphor_and_its_methodological_fo",
       "target": "lane:world_languages"
     },
@@ -46719,6 +46779,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_everyday_theology_of_suffering_cities_church_734c0321e3db_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_everyday_theology_of_suffering_cities_church_734c0321e3db_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_everyday_theology_of_suffering_cities_church_734c0321e3db_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_everyday_theology_of_suffering_cities_church_734c0321e3db_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_everyday_theology_of_suffering_cities_church_734c0321e3db_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_everyday_theology_of_suffering_cities_church_734c0321e3db_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_an_everyday_theology_of_suffering_cities_church_734c0321e3db_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_angelomorphic_christology_and_the_exegesis_of_psalm_8_5_in_tertullian_s_adver",
       "target": "lane:theologians"
     },
@@ -51444,6 +51539,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_how_god_can_help_you_heal_through_trauma_grief_loss_86f48ae261b3_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_how_god_can_help_you_heal_through_trauma_grief_loss_86f48ae261b3_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_how_god_can_help_you_heal_through_trauma_grief_loss_86f48ae261b3_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_how_god_can_help_you_heal_through_trauma_grief_loss_86f48ae261b3_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_how_god_can_help_you_heal_through_trauma_grief_loss_86f48ae261b3_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_how_god_can_help_you_heal_through_trauma_grief_loss_86f48ae261b3_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_humanitarian_adhocracy_transnational_new_apostolic_missions_and_evangelical_a",
       "target": "lane:theologians"
     },
@@ -54244,6 +54369,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_preface_57102339eb5f_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_preface_57102339eb5f_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_preface_57102339eb5f_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_preface_57102339eb5f_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_preface_57102339eb5f_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_preface_6a18e597ebbc_md",
       "target": "lane:theologians"
     },
@@ -55815,6 +55965,41 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_subject_index_3494a058b975_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_suffering_pain_and_loss_in_christian_theology_with_karen_kilby_d6c8172050bb_m",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_suffering_pain_and_loss_in_christian_theology_with_karen_kilby_d6c8172050bb_m",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_suffering_pain_and_loss_in_christian_theology_with_karen_kilby_d6c8172050bb_m",
+      "target": "rule:interpretation"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_suffering_pain_and_loss_in_christian_theology_with_karen_kilby_d6c8172050bb_m",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_suffering_pain_and_loss_in_christian_theology_with_karen_kilby_d6c8172050bb_m",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_suffering_pain_and_loss_in_christian_theology_with_karen_kilby_d6c8172050bb_m",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_suffering_pain_and_loss_in_christian_theology_with_karen_kilby_d6c8172050bb_m",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -59655,6 +59840,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_united_and_divided_luther_and_calvin_in_modern_protestant_theology_6535ceeef7",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_video_christ_in_the_rubble_faith_the_bible_and_the_genocide_in_gaza_religion_",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_video_christ_in_the_rubble_faith_the_bible_and_the_genocide_in_gaza_religion_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_video_christ_in_the_rubble_faith_the_bible_and_the_genocide_in_gaza_religion_",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_video_christ_in_the_rubble_faith_the_bible_and_the_genocide_in_gaza_religion_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_video_christ_in_the_rubble_faith_the_bible_and_the_genocide_in_gaza_religion_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_video_christ_in_the_rubble_faith_the_bible_and_the_genocide_in_gaza_religion_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -82759,6 +82974,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_data_dignity_and_dehumanization_a_critical_examination_of_ai_s_impact_on_",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_data_dignity_and_dehumanization_a_critical_examination_of_ai_s_impact_on_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_data_dignity_and_dehumanization_a_critical_examination_of_ai_s_impact_on_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_data_dignity_and_dehumanization_a_critical_examination_of_ai_s_impact_on_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_data_dignity_and_dehumanization_a_critical_examination_of_ai_s_impact_on_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_death_with_dignity_for_the_seemingly_undignified_denial_of_aid_in_dying_i",
       "target": "lane:cultural_inputs"
     },
@@ -83630,6 +83870,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_considerations_associated_with_humanitarian_drones_a_scoping_lite",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_dimensions_of_community_engagement_in_tuberculosis_prevention_pro",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_dimensions_of_community_engagement_in_tuberculosis_prevention_pro",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_dimensions_of_community_engagement_in_tuberculosis_prevention_pro",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_dimensions_of_community_engagement_in_tuberculosis_prevention_pro",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_dimensions_of_community_engagement_in_tuberculosis_prevention_pro",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -101390,6 +101655,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_mentalization_of_shame_in_coping_with_self_coherence_dysregulation_duri",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_mercy_repentance_and_forgiveness_in_ancient_judaism_b6ed2da00289_md",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_mercy_repentance_and_forgiveness_in_ancient_judaism_b6ed2da00289_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_mercy_repentance_and_forgiveness_in_ancient_judaism_b6ed2da00289_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_mercy_repentance_and_forgiveness_in_ancient_judaism_b6ed2da00289_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_mercy_repentance_and_forgiveness_in_ancient_judaism_b6ed2da00289_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -110424,6 +110714,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_spirituality_certitude_and_infinite_love_part_1_of_2_bren_brown_f1ff4e76eed",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_spirituality_certitude_and_infinite_love_part_1_of_2_bren_brown_f1ff4e76eed",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_spirituality_certitude_and_infinite_love_part_1_of_2_bren_brown_f1ff4e76eed",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_spirituality_certitude_and_infinite_love_part_1_of_2_bren_brown_f1ff4e76eed",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_spirituality_certitude_and_infinite_love_part_1_of_2_bren_brown_f1ff4e76eed",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_spirituality_certitude_and_infinite_love_part_1_of_2_bren_brown_f1ff4e76eed",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_spirituality_certitude_and_infinite_love_part_1_of_2_bren_brown_f1ff4e76eed",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:human_stories_auto_imported_cloud_candidates_stand_for_truth_podcast_5d8647d421f5_md",
       "target": "lane:human_stories"
     },
@@ -110450,6 +110775,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:human_stories_auto_imported_cloud_candidates_stand_for_truth_podcast_5d8647d421f5_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_struggling_to_forgive_finding_healing_the_chris_stefanick_show_520ddd7e2019",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_struggling_to_forgive_finding_healing_the_chris_stefanick_show_520ddd7e2019",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_struggling_to_forgive_finding_healing_the_chris_stefanick_show_520ddd7e2019",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_struggling_to_forgive_finding_healing_the_chris_stefanick_show_520ddd7e2019",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_struggling_to_forgive_finding_healing_the_chris_stefanick_show_520ddd7e2019",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_struggling_to_forgive_finding_healing_the_chris_stefanick_show_520ddd7e2019",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -110945,6 +111300,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:human_stories_auto_imported_cloud_candidates_the_rest_is_teaching_a_computing_education_podcast_trailer_episode_9ad91858",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_the_spiritual_life_with_fr_james_martin_s_j_podcast_apple_podcasts_745c1ca0",
+      "target": "lane:human_stories"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_the_spiritual_life_with_fr_james_martin_s_j_podcast_apple_podcasts_745c1ca0",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_the_spiritual_life_with_fr_james_martin_s_j_podcast_apple_podcasts_745c1ca0",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_the_spiritual_life_with_fr_james_martin_s_j_podcast_apple_podcasts_745c1ca0",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_the_spiritual_life_with_fr_james_martin_s_j_podcast_apple_podcasts_745c1ca0",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:human_stories_auto_imported_cloud_candidates_the_spiritual_life_with_fr_james_martin_s_j_podcast_apple_podcasts_745c1ca0",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -118260,6 +118645,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_from_mathematics_to_quantum_mechanics_on_the_conceptual_unity_of_cassirer_s_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_from_state_estimation_to_active_intelligence_safety_aware_battery_management",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_from_state_estimation_to_active_intelligence_safety_aware_battery_management",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_from_state_estimation_to_active_intelligence_safety_aware_battery_management",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_from_state_estimation_to_active_intelligence_safety_aware_battery_management",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_from_state_estimation_to_active_intelligence_safety_aware_battery_management",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_from_state_estimation_to_active_intelligence_safety_aware_battery_management",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -128329,6 +128744,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_lie_of_the_land_ruskin_and_the_english_landscape_tradition_8360699057a0",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_lie_of_the_land_ruskin_and_the_english_landscape_tradition_8360699057a0",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_lie_of_the_land_ruskin_and_the_english_landscape_tradition_8360699057a0",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_lie_of_the_land_ruskin_and_the_english_landscape_tradition_8360699057a0",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_lie_of_the_land_ruskin_and_the_english_landscape_tradition_8360699057a0",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_lie_of_the_land_ruskin_and_the_english_landscape_tradition_8360699057a0",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_the_literary_inheritance_of_paradise_lost_in_the_nineteenth_century_domesti",
       "target": "lane:pattern_tests"
     },
@@ -129330,6 +129775,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_are_the_implications_of_answered_and_unanswered_b689b690212a_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_on_earth_is_wrong_with_the_world_five_christian_voices_on_hamartology_",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_on_earth_is_wrong_with_the_world_five_christian_voices_on_hamartology_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_on_earth_is_wrong_with_the_world_five_christian_voices_on_hamartology_",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_on_earth_is_wrong_with_the_world_five_christian_voices_on_hamartology_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_on_earth_is_wrong_with_the_world_five_christian_voices_on_hamartology_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_what_on_earth_is_wrong_with_the_world_five_christian_voices_on_hamartology_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -130484,7 +130959,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 4194,
+  "node_count": 4210,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -131973,6 +132448,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/catholics_on_the_margins_in_india_dalits_and_adivasis_e489a72acb04.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_causality_34a51da8f1e3_md",
+      "label": "Causality",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/causality_34a51da8f1e3.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -142197,6 +142683,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_the_challenge_of_the_post_christendom_era_the_relation_of_christian_theol",
+      "label": "The Challenge of the Post-Christendom Era: The Relation of Christian Theology to World Religions",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/the_challenge_of_the_post_christendom_era_the_relation_of_christian_theology_to_a887fc2d6399.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_the_cognitive_function_of_a_conceptual_metaphor_and_its_methodological_fo",
       "label": "The cognitive function of a conceptual metaphor and its methodological foundations",
       "lane": "world_languages",
@@ -147059,6 +147556,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_an_everyday_theology_of_suffering_cities_church_734c0321e3db_md",
+      "label": "An Everyday Theology of Suffering | Cities Church",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/an_everyday_theology_of_suffering_cities_church_734c0321e3db.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_angelomorphic_christology_and_the_exegesis_of_psalm_8_5_in_tertullian_s_adver",
       "label": "Angelomorphic Christology and the exegesis of Psalm 8:5 in Tertullian's Adversus Praxean: An examination of Tertullian's reluctance to attribute angelic properties to the Son of God",
       "lane": "theologians",
@@ -148797,6 +149305,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_how_god_can_help_you_heal_through_trauma_grief_loss_86f48ae261b3_md",
+      "label": "How God Can Help You Heal Through Trauma, Grief & Loss",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/how_god_can_help_you_heal_through_trauma_grief_loss_86f48ae261b3.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_humanitarian_adhocracy_transnational_new_apostolic_missions_and_evangelical_a",
       "label": "Humanitarian Adhocracy, Transnational New Apostolic Missions, and Evangelical Anti-Dependency in a Haitian Refugee Camp",
       "lane": "theologians",
@@ -149864,6 +150383,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_preface_57102339eb5f_md",
+      "label": "Preface",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/preface_57102339eb5f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_preface_6a18e597ebbc_md",
       "label": "Preface",
       "lane": "theologians",
@@ -150453,6 +150983,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/subject_index_3494a058b975.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_suffering_pain_and_loss_in_christian_theology_with_karen_kilby_d6c8172050bb_m",
+      "label": "Suffering Pain and Loss in Christian Theology with Karen Kilby",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/suffering_pain_and_loss_in_christian_theology_with_karen_kilby_d6c8172050bb.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -151894,6 +152435,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/united_and_divided_luther_and_calvin_in_modern_protestant_theology_6535ceeef743.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_video_christ_in_the_rubble_faith_the_bible_and_the_genocide_in_gaza_religion_",
+      "label": "Video: Christ in the Rubble: Faith, the Bible, and the Genocide in Gaza | Religion and Public Life",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/video_christ_in_the_rubble_faith_the_bible_and_the_genocide_in_gaza_religion_and_53dbcb2244a6.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -159852,6 +160404,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_data_dignity_and_dehumanization_a_critical_examination_of_ai_s_impact_on_",
+      "label": "Data, Dignity, and Dehumanization: A Critical Examination of AI\u2019s Impact on Disability and Human Experience",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/data_dignity_and_dehumanization_a_critical_examination_of_ai_s_impact_on_disabil_d3292992b05b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_death_with_dignity_for_the_seemingly_undignified_denial_of_aid_in_dying_i",
       "label": "Death with Dignity for the Seemingly Undignified: Denial of Aid in Dying in Prison",
       "lane": "cultural_inputs",
@@ -160188,6 +160751,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/ethical_considerations_associated_with_humanitarian_drones_a_scoping_literature_0bc0b3980fd3.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethical_dimensions_of_community_engagement_in_tuberculosis_prevention_pro",
+      "label": "Ethical dimensions of community engagement in tuberculosis prevention programs.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/ethical_dimensions_of_community_engagement_in_tuberculosis_prevention_programs_bc8e89f08de3.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -166606,6 +167180,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_mercy_repentance_and_forgiveness_in_ancient_judaism_b6ed2da00289_md",
+      "label": "Mercy, Repentance, and Forgiveness in Ancient Judaism",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/mercy_repentance_and_forgiveness_in_ancient_judaism_b6ed2da00289.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_metaphor_meaning_and_religious_discourse_a_linguistic_and_theological_a",
       "label": "Metaphor, Meaning, and Religious Discourse: A Linguistic and Theological Archeology of the \u201cLiquidation of the Human Spirit\u201d",
       "lane": "psychology_inputs",
@@ -169785,12 +170370,34 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_spirituality_certitude_and_infinite_love_part_1_of_2_bren_brown_f1ff4e76eed",
+      "label": "Spirituality, Certitude, and Infinite Love, Part 1 of 2 - Bren\u00e9 Brown",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/spirituality_certitude_and_infinite_love_part_1_of_2_bren_brown_f1ff4e76eed4.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:human_stories_auto_imported_cloud_candidates_stand_for_truth_podcast_5d8647d421f5_md",
       "label": "Stand for Truth Podcast",
       "lane": "human_stories",
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "human_stories/auto_imported_cloud_candidates/stand_for_truth_podcast_5d8647d421f5.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_struggling_to_forgive_finding_healing_the_chris_stefanick_show_520ddd7e2019",
+      "label": "Struggling to Forgive, Finding Healing | The Chris Stefanick Show",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/struggling_to_forgive_finding_healing_the_chris_stefanick_show_520ddd7e2019.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -169956,6 +170563,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "human_stories/auto_imported_cloud_candidates/the_rest_is_teaching_a_computing_education_podcast_trailer_episode_9ad918584580.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:human_stories_auto_imported_cloud_candidates_the_spiritual_life_with_fr_james_martin_s_j_podcast_apple_podcasts_745c1ca0",
+      "label": "The Spiritual Life with Fr. James Martin, S.J. - Podcast - Apple Podcasts",
+      "lane": "human_stories",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "human_stories/auto_imported_cloud_candidates/the_spiritual_life_with_fr_james_martin_s_j_podcast_apple_podcasts_745c1ca0a7dc.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -172508,6 +173126,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/from_mathematics_to_quantum_mechanics_on_the_conceptual_unity_of_cassirer_s_phil_2dd3743c8a16.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_from_state_estimation_to_active_intelligence_safety_aware_battery_management",
+      "label": "From state estimation to active intelligence: safety-aware battery management for electric vehicles",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/from_state_estimation_to_active_intelligence_safety_aware_battery_management_for_9903b350d85b.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -175714,6 +176343,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_the_lie_of_the_land_ruskin_and_the_english_landscape_tradition_8360699057a0",
+      "label": "'The lie of the land' : Ruskin and the English landscape tradition",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/the_lie_of_the_land_ruskin_and_the_english_landscape_tradition_8360699057a0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_the_literary_inheritance_of_paradise_lost_in_the_nineteenth_century_domesti",
       "label": "The literary inheritance of paradise lost in the nineteenth-century domestic novel",
       "lane": "pattern_tests",
@@ -176028,6 +176668,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/what_are_the_implications_of_answered_and_unanswered_b689b690212a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_what_on_earth_is_wrong_with_the_world_five_christian_voices_on_hamartology_",
+      "label": "What on earth is wrong with the world? Five Christian voices on hamartology and ecology",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/what_on_earth_is_wrong_with_the_world_five_christian_voices_on_hamartology_and_e_7e8282657a77.md",
       "review_note_count": 1,
       "type": "document"
     },

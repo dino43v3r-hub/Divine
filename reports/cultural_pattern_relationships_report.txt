@@ -9,17 +9,17 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 543
-Total cultural words analyzed: 83,983
+Cultural documents analyzed: 545
+Total cultural words analyzed: 84,257
 
 Cultural Domains
 ----------------
-- Science And Discovery: 1,153
+- Science And Discovery: 1,157
 - Politics And Justice: 733
 - History And Memory: 439
-- Technology And AI: 338
+- Technology And AI: 342
 - Psychology And Human Behavior: 230
-- Family And Community: 146
+- Family And Community: 147
 - Health And Suffering: 144
 - Art And Beauty: 110
 - Economics And Work: 84
@@ -33,30 +33,30 @@ Cultural Domains
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 2,734
+- Father: 2,744
 - Son: 46
 - Holy Spirit: 4
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 602
+- Desire And Longing: 604
 - Moral Confrontation: 395
 - Creation And Order: 108
-- Communal Practice: 100
+- Communal Practice: 101
 - Transformation And Hope: 92
 - Alienation And Lament: 14
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 1,234 | religious/science corpus 2,684
-- Mathematical Structure: cultural inputs 1,497 | religious/science corpus 653
-- Mathematical Theophany: cultural inputs 36 | religious/science corpus 1,284
-- Quantum Probability: cultural inputs 4 | religious/science corpus 175
-- Life And Consciousness: cultural inputs 1,695 | religious/science corpus 6,777
-- Meaning And Logos: cultural inputs 1,983 | religious/science corpus 6,126
-- Moral Response: cultural inputs 2,384 | religious/science corpus 2,496
-- Worship And Community: cultural inputs 1,317 | religious/science corpus 1,629
-- Transformation: cultural inputs 1,125 | religious/science corpus 2,225
+- Physical Order: cultural inputs 1,238 | religious/science corpus 2,686
+- Mathematical Structure: cultural inputs 1,505 | religious/science corpus 649
+- Mathematical Theophany: cultural inputs 36 | religious/science corpus 1,281
+- Quantum Probability: cultural inputs 4 | religious/science corpus 174
+- Life And Consciousness: cultural inputs 1,700 | religious/science corpus 6,775
+- Meaning And Logos: cultural inputs 1,987 | religious/science corpus 6,115
+- Moral Response: cultural inputs 2,388 | religious/science corpus 2,495
+- Worship And Community: cultural inputs 1,319 | religious/science corpus 1,636
+- Transformation: cultural inputs 1,126 | religious/science corpus 2,224
 
 Per-Domain Findings
 -------------------
@@ -9205,6 +9205,27 @@ Practical domain applications:
 - Use art to reveal what people love, fear, remember, and hope for; then ask what kind of formation that beauty produces.
 - Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
 
+data_dignity_and_dehumanization_a_critical_examination_of_ai_s_impact_on_disabil_d3292992b05b.md
+------------------------------------------------------------------------------------------------
+Words: 136
+Strongest cultural domain: Technology And AI (3)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Mathematical Structure: 5
+- Life And Consciousness: 3
+- Moral Response: 3
+- Physical Order: 2
+- Meaning And Logos: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+
 ethical_issues_in_nursing_care_for_older_adults_in_community_settings_a_scoping_30a811e9619a.md
 -----------------------------------------------------------------------------------------------
 Words: 140
@@ -11169,6 +11190,31 @@ Practical domain applications:
 ethical_challenges_in_community_based_tuberculosis_screening_and_surveillance_44f04fd6912a.md
 ---------------------------------------------------------------------------------------------
 Words: 137
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Mathematical Structure: 3
+- Physical Order: 2
+- Life And Consciousness: 2
+- Meaning And Logos: 2
+- Worship And Community: 2
+- Moral Response: 1
+- Transformation: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Turn belief into embodied habit: worship, service, shared meals, reconciliation, and repeated practices that form character.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+- Look for practices that rebuild belonging: listening, forgiveness, shared responsibility, care, and truthful love.
+
+ethical_dimensions_of_community_engagement_in_tuberculosis_prevention_programs_bc8e89f08de3.md
+----------------------------------------------------------------------------------------------
+Words: 138
 Strongest cultural domain: Science And Discovery (2)
 Meaning confidence: thin meaning signal
 Meaning arc:
