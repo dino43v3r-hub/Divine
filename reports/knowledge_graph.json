@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 26191,
+  "edge_count": 26307,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -8959,6 +8959,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_latitude_5085d56b838b_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_latitude_5085d56b838b_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_latitude_5085d56b838b_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_latitude_5085d56b838b_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_latitude_5085d56b838b_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_law_8dfa255efe1d_md",
       "target": "lane:research_documents"
     },
@@ -15580,6 +15605,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_virtuous_citizens_and_sentimental_society_ethics_and_politics_in_neoli",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_voodoo_7c950074fcc6_md",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_voodoo_7c950074fcc6_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_voodoo_7c950074fcc6_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_voodoo_7c950074fcc6_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_voodoo_7c950074fcc6_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -16956,6 +17006,16 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:liturgical_grounding"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -25819,6 +25879,66 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_revised_framework_for_metaphor_translation_in_chinese_698325e30c76_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_revised_framework_for_metaphor_translation_in_chinese_698325e30c76_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_revised_framework_for_metaphor_translation_in_chinese_698325e30c76_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_revised_framework_for_metaphor_translation_in_chinese_698325e30c76_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_revised_framework_for_metaphor_translation_in_chinese_698325e30c76_md",
+      "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_revised_framework_for_metaphor_translation_in_chinese_698325e30c76_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_revised_framework_for_metaphor_translation_in_chinese_698325e30c76_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_study_of_chinese_translation_of_the_cambridge_grammar_of_the_english_la",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_study_of_chinese_translation_of_the_cambridge_grammar_of_the_english_la",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_study_of_chinese_translation_of_the_cambridge_grammar_of_the_english_la",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_study_of_chinese_translation_of_the_cambridge_grammar_of_the_english_la",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_study_of_chinese_translation_of_the_cambridge_grammar_of_the_english_la",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_a_systematic_theology_for_all_african_christians_8c37384c30df_md",
       "target": "lane:world_languages"
     },
@@ -28215,6 +28335,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:world_languages_auto_imported_cloud_candidates_education_and_training_of_fisheries_personnel_for_asian_african_and_latin",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_entry_metaphors_of_translation_56fbe5fbb89e_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_entry_metaphors_of_translation_56fbe5fbb89e_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_entry_metaphors_of_translation_56fbe5fbb89e_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_entry_metaphors_of_translation_56fbe5fbb89e_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_entry_metaphors_of_translation_56fbe5fbb89e_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -38580,6 +38725,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:all_texts_auto_imported_cloud_candidates_religion_and_the_individual_belief_practice_and_identity_af9047728895_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_religion_ecology_and_hindu_nationalism_in_india_fb03298fc6e2_md",
+      "target": "lane:all_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_religion_ecology_and_hindu_nationalism_in_india_fb03298fc6e2_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_religion_ecology_and_hindu_nationalism_in_india_fb03298fc6e2_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_religion_ecology_and_hindu_nationalism_in_india_fb03298fc6e2_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:all_texts_auto_imported_cloud_candidates_religion_ecology_and_hindu_nationalism_in_india_fb03298fc6e2_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -47854,6 +48024,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_can_a_christian_lose_their_salvation_live_free_with_josh_howerton_78f7cbc82e9",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_can_a_christian_lose_their_salvation_live_free_with_josh_howerton_78f7cbc82e9",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_can_a_christian_lose_their_salvation_live_free_with_josh_howerton_78f7cbc82e9",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_can_a_christian_lose_their_salvation_live_free_with_josh_howerton_78f7cbc82e9",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_can_a_christian_lose_their_salvation_live_free_with_josh_howerton_78f7cbc82e9",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_can_a_christian_lose_their_salvation_live_free_with_josh_howerton_78f7cbc82e9",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_cancer_coma_chromosomes_and_the_comforter_investigating_scientific_mechanisms",
       "target": "lane:theologians"
     },
@@ -55754,6 +55954,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_spiritual_discernment_journal_keeping_b57ccbe6b518_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_spiritual_discernment_journal_keeping_b57ccbe6b518_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_spiritual_discernment_journal_keeping_b57ccbe6b518_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_spiritual_discernment_journal_keeping_b57ccbe6b518_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_spiritual_discernment_journal_keeping_b57ccbe6b518_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_spiritual_discernment_journal_keeping_b57ccbe6b518_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_spiritual_discernment_journal_keeping_b57ccbe6b518_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_spiritual_expectations_and_experience_of_women_with_newborns_3b7c5f81ecc2_md",
       "target": "lane:theologians"
     },
@@ -59959,6 +60194,46 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_what_is_spiritual_formation_ryan_huber_free_online_bible_64f94849eef5_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_what_is_spiritual_formation_ryan_huber_free_online_bible_64f94849eef5_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_what_is_spiritual_formation_ryan_huber_free_online_bible_64f94849eef5_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_what_is_spiritual_formation_ryan_huber_free_online_bible_64f94849eef5_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_what_is_spiritual_formation_ryan_huber_free_online_bible_64f94849eef5_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_what_is_spiritual_formation_ryan_huber_free_online_bible_64f94849eef5_md",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_what_is_spiritual_formation_ryan_huber_free_online_bible_64f94849eef5_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_what_is_spiritual_formation_ryan_huber_free_online_bible_64f94849eef5_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_what_is_the_origin_of_the_christian_faith_5c8ac41693f8_md",
       "target": "lane:theologians"
     },
@@ -63384,6 +63659,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_history_united_church_of_christ_b6bb51079f66_md",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_history_united_church_of_christ_b6bb51079f66_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_history_united_church_of_christ_b6bb51079f66_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_history_united_church_of_christ_b6bb51079f66_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_history_united_church_of_christ_b6bb51079f66_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_history_united_church_of_christ_b6bb51079f66_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_how_generations_remember_conflicting_histories_and_shared_memories_in_post",
       "target": "lane:history_inputs"
     },
@@ -63780,6 +64085,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_islamic_perspectives_of_spiritual_needs_in_patients_with_breast_cancer_a_q",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_justice_101_philly_saves_adaptive_reuse_of_sites_of_memory_and_trauma_east",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_justice_101_philly_saves_adaptive_reuse_of_sites_of_memory_and_trauma_east",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_justice_101_philly_saves_adaptive_reuse_of_sites_of_memory_and_trauma_east",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_justice_101_philly_saves_adaptive_reuse_of_sites_of_memory_and_trauma_east",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_justice_101_philly_saves_adaptive_reuse_of_sites_of_memory_and_trauma_east",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -66835,6 +67165,41 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_to_trust_is_to_survive_toward_a_developmental_model_of_moral_injury_7e9b98",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_tradition_as_collective_memory_a70a24c5537d_md",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_tradition_as_collective_memory_a70a24c5537d_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_tradition_as_collective_memory_a70a24c5537d_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_tradition_as_collective_memory_a70a24c5537d_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_tradition_as_collective_memory_a70a24c5537d_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_tradition_as_collective_memory_a70a24c5537d_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_tradition_as_collective_memory_a70a24c5537d_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -70349,6 +70714,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_cross_crucifix_culture_an_approach_to_the_constitutional_meaning_of_confession",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_cross_crucifix_culture_an_approach_to_the_constitutional_meaning_of_confession",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_cross_crucifix_culture_an_approach_to_the_constitutional_meaning_of_confession",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_cross_crucifix_culture_an_approach_to_the_constitutional_meaning_of_confession",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_cross_crucifix_culture_an_approach_to_the_constitutional_meaning_of_confession",
+      "target": "rule:pastoral_safety"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_cross_crucifix_culture_an_approach_to_the_constitutional_meaning_of_confession",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_cultures_of_anti_racism_in_latin_america_and_the_caribbean_8341af32a294_md",
       "target": "lane:visual_art"
     },
@@ -71714,6 +72109,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_god_life_things_time_god_beliefs_religious_church_614a87bf6e1f_md",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_god_life_things_time_god_beliefs_religious_church_614a87bf6e1f_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_god_life_things_time_god_beliefs_religious_church_614a87bf6e1f_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_god_life_things_time_god_beliefs_religious_church_614a87bf6e1f_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_god_life_things_time_god_beliefs_religious_church_614a87bf6e1f_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_greek_tragedy_on_the_move_the_birth_of_a_panhellenic_art_form_c_500_300_bc_b4a",
       "target": "lane:visual_art"
     },
@@ -71850,6 +72270,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:visual_art_auto_imported_cloud_candidates_harmony_149a789a23a6_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_healing_love_universal_god_you_faith_spirit_light_e03aa08b650f_md",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_healing_love_universal_god_you_faith_spirit_light_e03aa08b650f_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_healing_love_universal_god_you_faith_spirit_light_e03aa08b650f_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_healing_love_universal_god_you_faith_spirit_light_e03aa08b650f_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_healing_love_universal_god_you_faith_spirit_light_e03aa08b650f_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -87009,6 +87454,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_innovations_for_cost_effective_and_eco_friendly_solutions_to_combat_chemo",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_innovations_for_cost_effective_and_eco_friendly_solutions_to_combat_chemo",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_innovations_for_cost_effective_and_eco_friendly_solutions_to_combat_chemo",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_innovations_for_cost_effective_and_eco_friendly_solutions_to_combat_chemo",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_innovations_for_cost_effective_and_eco_friendly_solutions_to_combat_chemo",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_institutional_anthropomorphic_error_0743b4e62a09_md",
       "target": "lane:cultural_inputs"
     },
@@ -91584,6 +92054,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_shorter_versus_longer_antibiotic_treatment_in_children_with_community_acq",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_shorter_versus_longer_antibiotic_treatment_in_children_with_community_acq",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_shorter_versus_longer_antibiotic_treatment_in_children_with_community_acq",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_shorter_versus_longer_antibiotic_treatment_in_children_with_community_acq",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_shorter_versus_longer_antibiotic_treatment_in_children_with_community_acq",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_should_impact_constitute_mitigation_structured_discretion_versus_mercy_a4",
       "target": "lane:cultural_inputs"
     },
@@ -92415,6 +92910,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_ai_creation_meme_a_case_study_of_the_new_visibility_of_religion_in_ar",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_case_against_police_militarization_a7f4f87e25c9_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_case_against_police_militarization_a7f4f87e25c9_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_case_against_police_militarization_a7f4f87e25c9_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_case_against_police_militarization_a7f4f87e25c9_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_case_against_police_militarization_a7f4f87e25c9_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -119879,6 +120399,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_mach_on_time_f507aae79001_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_mach_on_time_f507aae79001_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_mach_on_time_f507aae79001_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_mach_on_time_f507aae79001_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_mach_on_time_f507aae79001_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_mach_on_time_f507aae79001_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_on_schizophrenic_experiences_of_the_neutron_or_why_we_should_believe_in_the_",
       "target": "lane:deep_sources"
     },
@@ -120040,6 +120590,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_open_problems_in_the_philosophy_of_information_c34c12eb04e4_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_orthogonal_polynomial_ensembles_in_probability_theory_e702d167464b_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_orthogonal_polynomial_ensembles_in_probability_theory_e702d167464b_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_orthogonal_polynomial_ensembles_in_probability_theory_e702d167464b_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_orthogonal_polynomial_ensembles_in_probability_theory_e702d167464b_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_orthogonal_polynomial_ensembles_in_probability_theory_e702d167464b_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_orthogonal_polynomial_ensembles_in_probability_theory_e702d167464b_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -130959,7 +131539,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 4210,
+  "node_count": 4230,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -134301,6 +134881,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_latitude_5085d56b838b_md",
+      "label": "Latitude",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/latitude_5085d56b838b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:research_documents_auto_imported_cloud_candidates_law_8dfa255efe1d_md",
       "label": "Law",
       "lane": "research_documents",
@@ -136793,6 +137384,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/virtuous_citizens_and_sentimental_society_ethics_and_politics_in_neoliberal_sout_d6303689e567.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_voodoo_7c950074fcc6_md",
+      "label": "Voodoo",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/voodoo_7c950074fcc6.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -140219,6 +140821,28 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_a_revised_framework_for_metaphor_translation_in_chinese_698325e30c76_md",
+      "label": "A Revised Framework for Metaphor Translation in Chinese ...",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/a_revised_framework_for_metaphor_translation_in_chinese_698325e30c76.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_a_study_of_chinese_translation_of_the_cambridge_grammar_of_the_english_la",
+      "label": "A Study of Chinese Translation of The Cambridge Grammar of the English Language from the Perspective of Grammatical Metaphor",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/a_study_of_chinese_translation_of_the_cambridge_grammar_of_the_english_language_9ce6c2ac89e1.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_a_systematic_theology_for_all_african_christians_8c37384c30df_md",
       "label": "A Systematic Theology for All African Christians",
       "lane": "world_languages",
@@ -141017,6 +141641,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "world_languages/auto_imported_cloud_candidates/education_and_training_of_fisheries_personnel_for_asian_african_and_latin_americ_df27df193386.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_entry_metaphors_of_translation_56fbe5fbb89e_md",
+      "label": "Entry | Metaphors of translation",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/entry_metaphors_of_translation_56fbe5fbb89e.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -144850,6 +145485,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:all_texts_auto_imported_cloud_candidates_religion_ecology_and_hindu_nationalism_in_india_fb03298fc6e2_md",
+      "label": "Religion, Ecology and Hindu Nationalism in India",
+      "lane": "all_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "all_texts/auto_imported_cloud_candidates/religion_ecology_and_hindu_nationalism_in_india_fb03298fc6e2.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:all_texts_auto_imported_cloud_candidates_religious_experience_hindu_pluralism_and_hope_anubhava_in_the_tradition_of_sri_",
       "label": "Religious Experience, Hindu Pluralism, and Hope: Anubhava in the Tradition of Sri Ramakrishna",
       "lane": "all_texts",
@@ -147941,6 +148587,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_can_a_christian_lose_their_salvation_live_free_with_josh_howerton_78f7cbc82e9",
+      "label": "Can a Christian LOSE Their Salvation? | Live Free with Josh Howerton",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/can_a_christian_lose_their_salvation_live_free_with_josh_howerton_78f7cbc82e99.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_cancer_coma_chromosomes_and_the_comforter_investigating_scientific_mechanisms",
       "label": "Cancer, Coma, Chromosomes, and the Comforter: Investigating Scientific Mechanisms of Divine Healing and Design",
       "lane": "theologians",
@@ -150922,6 +151579,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_spiritual_discernment_journal_keeping_b57ccbe6b518_md",
+      "label": "Spiritual Discernment \u2014 Journal Keeping",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/spiritual_discernment_journal_keeping_b57ccbe6b518.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_spiritual_expectations_and_experience_of_women_with_newborns_3b7c5f81ecc2_md",
       "label": "Spiritual Expectations and Experience of Women with Newborns",
       "lane": "theologians",
@@ -152484,6 +153152,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_what_is_spiritual_formation_ryan_huber_free_online_bible_64f94849eef5_md",
+      "label": "What is Spiritual Formation? - Ryan Huber | Free Online Bible",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/what_is_spiritual_formation_ryan_huber_free_online_bible_64f94849eef5.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_what_is_the_origin_of_the_christian_faith_5c8ac41693f8_md",
       "label": "What Is the Origin of the Christian Faith?",
       "lane": "theologians",
@@ -153672,6 +154351,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_history_united_church_of_christ_b6bb51079f66_md",
+      "label": "History - United Church of Christ",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/history_united_church_of_christ_b6bb51079f66.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_how_generations_remember_conflicting_histories_and_shared_memories_in_post",
       "label": "How Generations Remember: Conflicting Histories and Shared Memories in Post-War Bosnia and Herzegovina",
       "lane": "history_inputs",
@@ -153788,6 +154478,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "history_inputs/auto_imported_cloud_candidates/islamic_perspectives_of_spiritual_needs_in_patients_with_breast_cancer_a_qualita_11882b2d4728.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_justice_101_philly_saves_adaptive_reuse_of_sites_of_memory_and_trauma_east",
+      "label": "Justice 101: Philly Saves: Adaptive Reuse of Sites of Memory and Trauma | Eastern State",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/justice_101_philly_saves_adaptive_reuse_of_sites_of_memory_and_trauma_eastern_st_e4c88de65511.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -154943,6 +155644,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "history_inputs/auto_imported_cloud_candidates/to_trust_is_to_survive_toward_a_developmental_model_of_moral_injury_7e9b981e0028.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_tradition_as_collective_memory_a70a24c5537d_md",
+      "label": "Tradition as Collective Memory",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/tradition_as_collective_memory_a70a24c5537d.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -156114,6 +156826,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_cross_crucifix_culture_an_approach_to_the_constitutional_meaning_of_confession",
+      "label": "Cross, Crucifix, Culture: An Approach to the Constitutional Meaning of Confessional Symbols",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/cross_crucifix_culture_an_approach_to_the_constitutional_meaning_of_confessional_db659e5a1bff.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_cultures_of_anti_racism_in_latin_america_and_the_caribbean_8341af32a294_md",
       "label": "Cultures of Anti-Racism in Latin America and the Caribbean",
       "lane": "visual_art",
@@ -156554,6 +157277,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_god_life_things_time_god_beliefs_religious_church_614a87bf6e1f_md",
+      "label": "God Life Things Time God. Beliefs Religious Church",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/god_life_things_time_god_beliefs_religious_church_614a87bf6e1f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_greek_tragedy_on_the_move_the_birth_of_a_panhellenic_art_form_c_500_300_bc_b4a",
       "label": "Greek Tragedy on the Move: The Birth of a Panhellenic Art Form c. 500-300 BC",
       "lane": "visual_art",
@@ -156593,6 +157327,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/harmony_149a789a23a6.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_healing_love_universal_god_you_faith_spirit_light_e03aa08b650f_md",
+      "label": "Healing Love Universal God You. Faith Spirit Light",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/healing_love_universal_god_you_faith_spirit_light_e03aa08b650f.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -161878,6 +162623,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_innovations_for_cost_effective_and_eco_friendly_solutions_to_combat_chemo",
+      "label": "Innovations for cost-effective and eco-friendly solutions to combat chemotherapy-induced alopecia: a narrative systematic review.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/innovations_for_cost_effective_and_eco_friendly_solutions_to_combat_chemotherapy_db2ee59d49c2.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_institutional_anthropomorphic_error_0743b4e62a09_md",
       "label": "Institutional Anthropomorphic Error.",
       "lane": "cultural_inputs",
@@ -163572,6 +164328,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_shorter_versus_longer_antibiotic_treatment_in_children_with_community_acq",
+      "label": "Shorter Versus Longer Antibiotic Treatment in Children With Community-Acquired Pneumonia: A Systematic Review With Meta-Analyses.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/shorter_versus_longer_antibiotic_treatment_in_children_with_community_acquired_p_4c99bb7babe8.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_should_impact_constitute_mitigation_structured_discretion_versus_mercy_a4",
       "label": "Should impact constitute mitigation?: structured discretion versus mercy",
       "lane": "cultural_inputs",
@@ -163875,6 +164642,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/the_ai_creation_meme_a_case_study_of_the_new_visibility_of_religion_in_artificia_f6700dc55fd9.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_the_case_against_police_militarization_a7f4f87e25c9_md",
+      "label": "The Case Against Police Militarization",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/the_case_against_police_militarization_a7f4f87e25c9.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -173538,6 +174316,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_on_mach_on_time_f507aae79001_md",
+      "label": "On Mach on time",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/on_mach_on_time_f507aae79001.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_on_schizophrenic_experiences_of_the_neutron_or_why_we_should_believe_in_the_",
       "label": "On schizophrenic experiences of the neutron or why we should believe in the many\u2010worlds interpretation of quantum theory",
       "lane": "deep_sources",
@@ -173577,6 +174366,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/open_problems_in_the_philosophy_of_information_c34c12eb04e4.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_orthogonal_polynomial_ensembles_in_probability_theory_e702d167464b_md",
+      "label": "Orthogonal polynomial ensembles in probability theory",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/orthogonal_polynomial_ensembles_in_probability_theory_e702d167464b.md",
       "review_note_count": 1,
       "type": "document"
     },
