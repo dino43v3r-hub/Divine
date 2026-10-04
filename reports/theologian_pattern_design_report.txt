@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 530
-Total theologian words analyzed: 96,152
+Theologian documents analyzed: 534
+Total theologian words analyzed: 96,721
 
 Era Coverage
 ------------
@@ -21,8 +21,8 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 441
-- Pneumatology: 339
+- Trinity: 445
+- Pneumatology: 340
 - Christology: 307
 - Theodicy And Suffering: 270
 - Creation: 195
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 3,065
+- Father: 3,085
 - Son: 399
-- Holy Spirit: 640
+- Holy Spirit: 642
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 188 | broader corpus 2,689
-- Mathematical Structure: theologians 4 | broader corpus 673
-- Mathematical Theophany: theologians 415 | broader corpus 1,433
-- Quantum Probability: theologians 2 | broader corpus 217
-- Life And Consciousness: theologians 1,408 | broader corpus 6,910
-- Meaning And Logos: theologians 159 | broader corpus 6,247
-- Moral Response: theologians 137 | broader corpus 2,536
-- Worship And Community: theologians 296 | broader corpus 1,642
-- Transformation: theologians 636 | broader corpus 2,230
+- Physical Order: theologians 188 | broader corpus 2,692
+- Mathematical Structure: theologians 4 | broader corpus 664
+- Mathematical Theophany: theologians 415 | broader corpus 1,394
+- Quantum Probability: theologians 2 | broader corpus 189
+- Life And Consciousness: theologians 1,417 | broader corpus 6,915
+- Meaning And Logos: theologians 159 | broader corpus 6,241
+- Moral Response: theologians 137 | broader corpus 2,526
+- Worship And Community: theologians 297 | broader corpus 1,659
+- Transformation: theologians 637 | broader corpus 2,238
 
 Per-Source Findings
 -------------------
@@ -1779,6 +1779,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+equilateral_triangle_and_the_holy_trinity_20c1968169d3.md
+---------------------------------------------------------
+Words: 134
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 establishing_traditional_methodism_teaching_free_methodist_history_theology_and_ac10bc3f50a6.md
 -----------------------------------------------------------------------------------------------
 Words: 198
@@ -1910,6 +1921,17 @@ Meaning arc:
 - Opening: Creation And Order (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+faith_healing_revisited_a_charismatic_christian_intervention_to_the_therapy_cult_5496bc94fc7e.md
+------------------------------------------------------------------------------------------------
+Words: 147
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 fakery_and_wealth_in_african_charismatic_christianity_moving_beyond_the_prosperi_64cd2701a116.md
 ------------------------------------------------------------------------------------------------
@@ -3077,6 +3099,17 @@ Meaning arc:
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
+noteworthy_problems_with_god_s_immutability_impassibility_and_simplicity_should_fd4b9199c2a5.md
+-----------------------------------------------------------------------------------------------
+Words: 148
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Creation And Order (0)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+
 offenders_for_a_word_how_anti_mormons_play_word_games_to_attack_the_latter_day_s_3c327bc5cd7e.md
 ------------------------------------------------------------------------------------------------
 Words: 143
@@ -3685,6 +3718,17 @@ Meaning arc:
 romanian_theology_a_theology_of_dialogue_0ff235eee010.md
 --------------------------------------------------------
 Words: 136
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+said_nursi_s_arguments_for_the_existence_of_god_in_the_risale_i_nur_89a17f72bdda.md
+-----------------------------------------------------------------------------------
+Words: 140
 Strongest era signal: Patristic (0)
 Strongest concept signal: Trinity (1)
 Meaning confidence: word-level signal only
