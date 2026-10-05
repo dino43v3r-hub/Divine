@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 534
-Total theologian words analyzed: 96,721
+Theologian documents analyzed: 536
+Total theologian words analyzed: 97,014
 
 Era Coverage
 ------------
@@ -21,8 +21,8 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 445
-- Pneumatology: 340
+- Trinity: 446
+- Pneumatology: 343
 - Christology: 307
 - Theodicy And Suffering: 270
 - Creation: 195
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 3,085
+- Father: 3,095
 - Son: 399
-- Holy Spirit: 642
+- Holy Spirit: 648
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 188 | broader corpus 2,692
-- Mathematical Structure: theologians 4 | broader corpus 664
-- Mathematical Theophany: theologians 415 | broader corpus 1,394
-- Quantum Probability: theologians 2 | broader corpus 189
-- Life And Consciousness: theologians 1,417 | broader corpus 6,915
-- Meaning And Logos: theologians 159 | broader corpus 6,241
-- Moral Response: theologians 137 | broader corpus 2,526
-- Worship And Community: theologians 297 | broader corpus 1,659
-- Transformation: theologians 637 | broader corpus 2,238
+- Physical Order: theologians 188 | broader corpus 2,693
+- Mathematical Structure: theologians 4 | broader corpus 658
+- Mathematical Theophany: theologians 415 | broader corpus 1,418
+- Quantum Probability: theologians 2 | broader corpus 205
+- Life And Consciousness: theologians 1,423 | broader corpus 6,920
+- Meaning And Logos: theologians 159 | broader corpus 6,240
+- Moral Response: theologians 137 | broader corpus 2,538
+- Worship And Community: theologians 297 | broader corpus 1,646
+- Transformation: theologians 641 | broader corpus 2,243
 
 Per-Source Findings
 -------------------
@@ -1089,6 +1089,17 @@ Meaning arc:
 chapter_six_men_marriage_and_modernity_5555f8fde98f.md
 ------------------------------------------------------
 Words: 139
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (1)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+
+charismatic_christianity_as_primal_spirituality_some_observations_from_slovenia_9226fb33d995.md
+-----------------------------------------------------------------------------------------------
+Words: 148
 Strongest era signal: Patristic (0)
 Strongest concept signal: Pneumatology (1)
 Meaning confidence: thin meaning signal
@@ -5617,6 +5628,17 @@ Meaning arc:
 - Opening: Creation And Order (1)
 - Middle: Desire And Longing (2)
 - Ending: Creation And Order (1)
+
+what_is_the_color_of_the_holy_spirit_pentecostalism_and_black_identity_in_brazil_cad9726519a7.md
+------------------------------------------------------------------------------------------------
+Words: 145
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (2)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
 
 what_is_the_origin_of_the_christian_faith_5c8ac41693f8.md
 ---------------------------------------------------------
