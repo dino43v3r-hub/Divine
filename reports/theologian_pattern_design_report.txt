@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 551
-Total theologian words analyzed: 99,146
+Theologian documents analyzed: 554
+Total theologian words analyzed: 99,566
 
 Era Coverage
 ------------
@@ -21,8 +21,8 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 458
-- Pneumatology: 354
+- Trinity: 460
+- Pneumatology: 355
 - Christology: 308
 - Theodicy And Suffering: 271
 - Creation: 196
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 3,171
+- Father: 3,186
 - Son: 400
-- Holy Spirit: 671
+- Holy Spirit: 673
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 189 | broader corpus 2,689
-- Mathematical Structure: theologians 4 | broader corpus 655
-- Mathematical Theophany: theologians 415 | broader corpus 1,345
-- Quantum Probability: theologians 2 | broader corpus 191
-- Life And Consciousness: theologians 1,460 | broader corpus 6,896
-- Meaning And Logos: theologians 159 | broader corpus 6,193
-- Moral Response: theologians 139 | broader corpus 2,511
-- Worship And Community: theologians 297 | broader corpus 1,649
-- Transformation: theologians 656 | broader corpus 2,229
+- Physical Order: theologians 189 | broader corpus 2,688
+- Mathematical Structure: theologians 4 | broader corpus 653
+- Mathematical Theophany: theologians 415 | broader corpus 1,330
+- Quantum Probability: theologians 2 | broader corpus 182
+- Life And Consciousness: theologians 1,467 | broader corpus 6,909
+- Meaning And Logos: theologians 159 | broader corpus 6,207
+- Moral Response: theologians 139 | broader corpus 2,515
+- Worship And Community: theologians 297 | broader corpus 1,657
+- Transformation: theologians 657 | broader corpus 2,236
 
 Per-Source Findings
 -------------------
@@ -442,6 +442,17 @@ a_trinitarian_christology_of_the_fourth_word_from_the_cross_the_commmunicatio_id
 Words: 144
 Strongest era signal: Patristic (0)
 Strongest concept signal: Christology (2)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+a_trinitarian_revisioning_of_the_wesleyan_doctrine_of_christian_perfection_9a9ea6d6900b.md
+------------------------------------------------------------------------------------------
+Words: 136
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
 Meaning confidence: word-level signal only
 Meaning arc:
 - Opening: Desire And Longing (1)
@@ -4232,6 +4243,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+testimonies_of_poverty_and_prosperity_in_tanzanian_charismatic_christianity_d51f25b8b9a1.md
+-------------------------------------------------------------------------------------------
+Words: 146
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 text_context_and_performance_the_lay_institutions_of_gagauz_orthodoxy_674f22355d44.md
 -------------------------------------------------------------------------------------
 Words: 147
@@ -4911,6 +4933,17 @@ Strongest concept signal: Trinity (2)
 Meaning confidence: plausible meaning pattern
 Meaning arc:
 - Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_nicene_creed_and_evangelical_lutheranism_for_the_twenty_first_century_e600352f6f5e.md
+-----------------------------------------------------------------------------------------
+Words: 138
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
