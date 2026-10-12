@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-12",
+  "generated_at_utc": "2026-10-12T22:07:52Z",
+  "reader_role": "priest",
+  "lens": "pastoral safety",
+  "theologian": "Aquinas",
+  "pattern_name": "Trinity-As-Behavior Pattern",
+  "public_final_claim_count": 0,
+  "candidate_reference_count": 79,
+  "review_queue_count": 1030,
+  "strongest_routed_lane": "deep_sources",
+  "strongest_routed_lane_count": 27,
+  "freshness_status": "2026-10-12 22:06 UTC",
+  "source_digest_date": "2026-10-12"
+}
