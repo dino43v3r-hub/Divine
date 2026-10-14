@@ -18,19 +18,19 @@ Pattern acceptance rule: patterns are secondary observations. They must be teste
 
 Latest Run Snapshot
 -------------------
-Collector run: 2026-10-13T20:10:24.991590+00:00
-Retained cloud candidate references: 13,555
-Brand-new candidate references this run: 53
-Top new routed layers: deep_sources: 20, cultural_inputs: 18, human_stories: 17, pattern_tests: 15
-New evidence mix: strong_scholarly_candidate: 40, moderate_scholarly_candidate: 9, weak_scholarly_candidate: 4
-New provider mix: OpenAlex: 40, Crossref: 5, Tavily Search: 4, Internet Archive: 3
+Collector run: 2026-10-14T18:24:06.839882+00:00
+Retained cloud candidate references: 13,591
+Brand-new candidate references this run: 36
+Top new routed layers: cultural_inputs: 14, pattern_tests: 14, visual_art: 14, all_texts: 12
+New evidence mix: strong_scholarly_candidate: 28, moderate_scholarly_candidate: 4, do_not_strengthen_claim: 3, weak_scholarly_candidate: 1
+New provider mix: OpenAlex: 27, Crossref: 4, Tavily Search: 4, arXiv: 1
 Query modifiers used: primary source, counterargument
 
 Journal Entry: What I Am Learning
 ---------------------------------
 I am reading this run as a conversation between what just arrived and what the project already thinks it sees.
 The older pattern map still points first toward Image Of God Pattern. Around it, I keep seeing related pressure from Cross And Reversal Pattern, Creation-To-Consciousness Pattern.
-The newest material is pulling my attention toward deep_sources, especially around quantum_science_guardrails. That does not overturn the older map, but it changes what I should ask next.
+The newest material is pulling my attention toward cultural_inputs, especially around visual_media_patterns. That does not overturn the older map, but it changes what I should ask next.
 My current thought is this: the new sources are less like final answers and more like fresh witnesses. Their strongest common quality is scholarly metadata, so I should let them sharpen questions before I let them strengthen claims.
 I also notice that Science Guardrail remains a live test. If the pattern cannot survive that friction, then it is probably only an attractive idea, not a disciplined theological insight.
 
@@ -97,15 +97,15 @@ This chart is a navigation aid, not a proof scale. Longer bars show where the cu
 
 Layer                         Signal                         Count     Reading
 -----                         ------                         -----     -------
-Physical Order                ##########..................    8,759  high internal signal
-Mathematical Structure        #######.....................    6,130  high internal signal
-Mathematical Theophany        #####.......................    3,860  high internal signal
-Quantum Probability           #...........................      242  early signal
-Life And Consciousness        ######################......   18,537  high internal signal
-Meaning And Logos             ############################   23,529  high internal signal
-Moral Response                ################............   13,239  high internal signal
-Worship And Community         ###############.............   12,700  high internal signal
-Transformation                ################............   13,439  high internal signal
+Physical Order                ##########..................    8,798  high internal signal
+Mathematical Structure        #######.....................    6,165  high internal signal
+Mathematical Theophany        #####.......................    3,883  high internal signal
+Quantum Probability           #...........................      239  early signal
+Life And Consciousness        ######################......   18,585  high internal signal
+Meaning And Logos             ############################   23,655  high internal signal
+Moral Response                ################............   13,264  high internal signal
+Worship And Community         ###############.............   12,816  high internal signal
+Transformation                ################............   13,465  high internal signal
 
 Reader note: Mathematical Theophany is deliberately placed between mathematical structure and the rest of the model. It asks whether order, pattern, symmetry, logic, infinity, and beauty may be read as secondary creaturely signs under Christ and Scripture, while keeping alternative explanations visible.
 
@@ -115,19 +115,19 @@ Use this as the table of contents for the argument. Each chapter has a main move
 
 No.  Pattern Family                 Signal   Status
 ---  --------------                 ------   ------
-1    Image Of God Pattern            68,005  high internal signal; not proof
+1    Image Of God Pattern            68,320  high internal signal; not proof
      Movement: Mind -> Symbol -> Moral Agency -> Relationship -> Worship
      Test: Do not collapse the image of God into intelligence alone.
-2    Cross And Reversal Pattern      50,207  high internal signal; not proof
+2    Cross And Reversal Pattern      50,384  high internal signal; not proof
      Movement: Power -> Humility | Violence -> Forgiveness | Suffering -> Redemption | Death -> Resurrection
      Test: Do not romanticize suffering or ignore injustice.
-3    Creation-To-Consciousness P...  53,235  high internal signal; not proof
+3    Creation-To-Consciousness P...  53,463  high internal signal; not proof
      Movement: Physical Order -> Life -> Consciousness -> Moral Awareness -> Worship
      Test: Avoid implying a simple linear proof from physics to worship.
-4    Trinity-As-Behavior Pattern     45,727  high internal signal; not proof
+4    Trinity-As-Behavior Pattern     45,918  high internal signal; not proof
      Movement: Father Creates -> Son Redeems -> Spirit Transforms
      Test: Keep the Trinity theological and relational, not merely symbolic psychology.
-5    Moral Transformation Pattern    39,378  high internal signal; not proof
+5    Moral Transformation Pattern    39,545  high internal signal; not proof
      Movement: Sin -> Conviction -> Repentance -> Forgiveness -> New Life
      Test: Do not reduce grace to self-improvement psychology.
 
@@ -145,17 +145,17 @@ Fresh research movements:
 - Deep-source candidates grew in the latest collector run; review qualified evidence and counterarguments before strengthening claims.
 - Pressure-test candidates grew in the latest collector run; name failure conditions and whether the pattern holds under friction.
 
-Most active new tags: quantum_science_guardrails: 6, music_math: 6, politics_justice: 5, video_teaching_patterns: 4
-Most active new layers: deep_sources: 20, cultural_inputs: 18, human_stories: 17, pattern_tests: 15
-Newest source-quality mix: scholarly metadata: 46, open web result: 4, reference metadata: 3
+Most active new tags: visual_media_patterns: 8, quantum_science_guardrails: 5, general_research_methods: 4, trinity: 3
+Most active new layers: cultural_inputs: 14, pattern_tests: 14, visual_art: 14, all_texts: 12
+Newest source-quality mix: scholarly metadata: 31, open web result: 4, scholarly preprint: 1
 
 Fresh source leads to review first:
-- Expression, Perception, and Induction of Musical Emotions: A Review and a Questionnaire Study of Everyday Listening (2004) | OpenAlex | layers: music_notes, deep_sources | review use: may increase confidence after claim-scope and counterargument checks
-- Is Quantum Mechanics Falsifiable? A Computational Perspective on the Foundations of Quantum Mechanics (2013) | OpenAlex | layers: deep_sources, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
-- "A sweet smile": the modulatory role of emotion in how extrinsic factors influence taste evaluation. (2018) | PubMed | layers: music_notes, deep_sources | review use: may increase confidence after claim-scope and counterargument checks
-- Quantum approaches to music cognition (2019) | OpenAlex | layers: music_notes, deep_sources | review use: may increase confidence after claim-scope and counterargument checks
-- Refutations of equivocal claims: No evidence for an ironic effect of counterargument number. (2019) | Crossref | layers: research_documents, deep_sources, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
-- Religion, Culture and the Process of Marginalization (2021) | OpenAlex | layers: cultural_inputs, history_inputs | review use: may increase confidence after claim-scope and counterargument checks
+- The Contribution of Ss. Cyril and Methodius to Culture and Religion (2021) | OpenAlex | layers: cultural_inputs, history_inputs, psychology_inputs | review use: may increase confidence after claim-scope and counterargument checks
+- Biomedical Ethics in US Public Policy. (1993) | OpenAlex | layers: cultural_inputs, history_inputs, psychology_inputs | review use: may increase confidence after claim-scope and counterargument checks
+- Eschatology in African Traditional Religion and African Christianity: Implications for Biblical and Theological Scholarship in Africa (2023) | OpenAlex | layers: world_languages, all_texts, other_religious_texts | review use: may increase confidence after claim-scope and counterargument checks
+- AN OUTLINE OF AN INTERPRETATION OF QUANTUM MECHANICS (2000) | OpenAlex | layers: deep_sources, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
+- Reimagining Spain : transnational entanglements and remembrance of the Spanish Civil War since 1989 (2016) | OpenAlex | layers: visual_art, human_stories, cultural_inputs, pattern_tests | review use: may increase confidence after claim-scope and counterargument checks
+- Religion and spirituality within environmental communities : place and significance in the UK context (2014) | OpenAlex | layers: psychology_inputs, human_stories, all_texts | review use: may increase confidence after claim-scope and counterargument checks
 
 Reader rule: this new material can change the questions immediately, but it should not strengthen a claim until the original source and counterarguments are reviewed.
 
@@ -177,10 +177,10 @@ Pressure test: Test against dementia, disability, racism, caste, poverty, trauma
 Daily-life practice: Treat the person in front of you as bearing dignity before achievement. Practice listening, protection, patience, advocacy, and worship that includes the weak and overlooked.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Life And Consciousness: high internal signal (18,537 signals)
-- Meaning And Logos: high internal signal (23,529 signals)
-- Moral Response: high internal signal (13,239 signals)
-- Worship And Community: high internal signal (12,700 signals)
+- Life And Consciousness: high internal signal (18,585 signals)
+- Meaning And Logos: high internal signal (23,655 signals)
+- Moral Response: high internal signal (13,264 signals)
+- Worship And Community: high internal signal (12,816 signals)
 
 Chapter 2: Cross And Reversal Pattern
 -------------------------------------
@@ -197,9 +197,9 @@ Pressure test: Test against abuse, domestic violence, spiritual manipulation, st
 Daily-life practice: Practice humility, truth-telling, forgiveness with boundaries, justice for victims, and hope that does not deny wounds.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Meaning And Logos: high internal signal (23,529 signals)
-- Moral Response: high internal signal (13,239 signals)
-- Transformation: high internal signal (13,439 signals)
+- Meaning And Logos: high internal signal (23,655 signals)
+- Moral Response: high internal signal (13,264 signals)
+- Transformation: high internal signal (13,465 signals)
 
 Chapter 3: Creation-To-Consciousness Pattern
 --------------------------------------------
@@ -216,10 +216,10 @@ Pressure test: Test against evolution debates, disability, animal consciousness,
 Daily-life practice: Practice wonder, stewardship, embodied care, learning, humility, and worship that honors creation without confusing creation with the Creator.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (8,759 signals)
-- Life And Consciousness: high internal signal (18,537 signals)
-- Moral Response: high internal signal (13,239 signals)
-- Worship And Community: high internal signal (12,700 signals)
+- Physical Order: high internal signal (8,798 signals)
+- Life And Consciousness: high internal signal (18,585 signals)
+- Moral Response: high internal signal (13,264 signals)
+- Worship And Community: high internal signal (12,816 signals)
 
 Chapter 4: Trinity-As-Behavior Pattern
 --------------------------------------
@@ -236,9 +236,9 @@ Pressure test: Test against modalism, tritheism, vague symbolism, authoritarian 
 Daily-life practice: Receive creation as gift, follow Christ in concrete obedience, and test Spirit-led change by love, holiness, humility, unity, and service.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Physical Order: high internal signal (8,759 signals)
-- Meaning And Logos: high internal signal (23,529 signals)
-- Transformation: high internal signal (13,439 signals)
+- Physical Order: high internal signal (8,798 signals)
+- Meaning And Logos: high internal signal (23,655 signals)
+- Transformation: high internal signal (13,465 signals)
 
 Chapter 5: Moral Transformation Pattern
 ---------------------------------------
@@ -255,9 +255,9 @@ Pressure test: abuse, cheap grace, unresolved harm, and failed repair tests
 Daily-life practice: practice confession, accountability, repair, and mercy without denial.
 Scholarly note: strengthen this chapter only with reviewed sources, counter-readings, and lane balance.
 Layer support in brief:
-- Moral Response: high internal signal (13,239 signals)
-- Transformation: high internal signal (13,439 signals)
-- Worship And Community: high internal signal (12,700 signals)
+- Moral Response: high internal signal (13,264 signals)
+- Transformation: high internal signal (13,465 signals)
+- Worship And Community: high internal signal (12,816 signals)
 
 Everyday Case Studies
 ---------------------
@@ -273,38 +273,39 @@ Other religions and cultures: The pattern should compare respectfully. Christian
 
 What The Research Currently Suggests
 ------------------------------------
-The project has analyzed 4,857 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
-The daily collector has retained 13,555 cloud candidate references, including 53 brand-new candidates in the latest run.
+The project has analyzed 4,893 local documents across research, theology, music, culture, pressure tests, source reviews, and synthesis lanes.
+The daily collector has retained 13,591 cloud candidate references, including 36 brand-new candidates in the latest run.
 The current corpus most visibly repeats pattern families led by Image Of God Pattern, Cross And Reversal Pattern, Creation-To-Consciousness Pattern, Trinity-As-Behavior Pattern, and Moral Transformation Pattern.
 These are best understood as chapters in an ongoing research book. They are not final proof claims.
 
 What Changed In The Latest Collection
 -------------------------------------
-Daily collector updated: 2026-10-13T20:10:24.991590+00:00
-Retained cloud candidate references: 13,555
-Brand-new candidate references this run: 53
+Daily collector updated: 2026-10-14T18:24:06.839882+00:00
+Retained cloud candidate references: 13,591
+Brand-new candidate references this run: 36
 
 Newest evidence movement by routed layer:
-- deep_sources: 20
-- cultural_inputs: 18
-- human_stories: 17
-- pattern_tests: 15
-- theologians: 12
-- history_inputs: 11
-- all_texts: 10
-- psychology_inputs: 10
+- cultural_inputs: 14
+- pattern_tests: 14
+- visual_art: 14
+- all_texts: 12
+- human_stories: 12
+- deep_sources: 10
+- research_documents: 7
+- world_languages: 6
 
 Newest automated evidence mix:
-- strong_scholarly_candidate: 40
-- moderate_scholarly_candidate: 9
-- weak_scholarly_candidate: 4
+- strong_scholarly_candidate: 28
+- moderate_scholarly_candidate: 4
+- do_not_strengthen_claim: 3
+- weak_scholarly_candidate: 1
 
 Newest sources shaping today's questions:
-- The Presence of God from Eden to the New Creation (2026) | layers: theologians, research_documents, all_texts, human_stories | evidence: moderate_scholarly_candidate
-- Church History - Pt. 2 (2026) | layers: theologians, research_documents, history_inputs | evidence: moderate_scholarly_candidate
-- Sermon: The Incomprehensible | Guest Pastor Jim Banach | 31 May 2026 (2026) | layers: theologians, research_documents | evidence: moderate_scholarly_candidate
-- Teologi Trauma Kolektif dan Hermeneutika Ratapan: Penyembuhan Memori Sejarah Kekerasan Politik di Indonesia (2025) | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: strong_scholarly_candidate
-- An Application of Eastern Objective Soteriology in Evangelical Theology (2013) | layers: pattern_tests, deep_sources, psychology_inputs, human_stories | evidence: strong_scholarly_candidate
+- With Sighs Too Deep for Words: Edward Schillebeeckx and the Holy Spirit (2022) | layers: theologians, research_documents | evidence: strong_scholarly_candidate
+- The Nicene Creed: Remembering What It Says; Re‐membering What It Forgot to Say (2025) | layers: theologians, research_documents | evidence: strong_scholarly_candidate
+- Theology, Psychology, and Politics: The Holy Trinity in Morrison's Beloved (2011) | layers: theologians, research_documents, psychology_inputs | evidence: strong_scholarly_candidate
+- Michael Redhead's contributions to the philosophy of science and of physics (2023) | layers: deep_sources, pattern_tests | evidence: strong_scholarly_candidate
+- AN OUTLINE OF AN INTERPRETATION OF QUANTUM MECHANICS (2000) | layers: deep_sources, pattern_tests | evidence: strong_scholarly_candidate
 
 Reader note: cloud candidates change the research questions immediately, but they should strengthen conclusions only after source review.
 
@@ -362,19 +363,19 @@ Source Lane Balance
 -------------------
 The assistant should not strengthen broad claims while relevant lanes are thin.
 - biblical_languages: 372 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: original-language depth before using Greek, Hebrew, Aramaic, or translation claims.
-- world_languages: 504 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
+- world_languages: 510 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: global translation, metaphor, oral tradition, and language-family breadth.
 - all_texts: 449 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: sacred, wisdom, legal, poetic, ritual, oral, and philosophical comparison.
 - other_religious_texts: 412 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: respectful comparison across traditions without flattening differences.
-- theologians: 926 notes; target 30-75, review cap 120; above review cap - pause unless thin lanes are growing. Purpose: primary-text theology and disagreements across eras.
+- theologians: 930 notes; target 30-75, review cap 120; above review cap - pause unless thin lanes are growing. Purpose: primary-text theology and disagreements across eras.
 - history_inputs: 502 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: power, conflict, memory, reform, and consequences.
-- visual_art: 384 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
-- psychology_inputs: 454 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
+- visual_art: 393 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: image, form, gesture, beauty, lament, glory, and iconography.
+- psychology_inputs: 455 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: pattern perception, attachment, trauma, habit, desire, identity, and repair.
 - human_stories: 131 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: lived grief, repair, vocation, community, and transformation.
-- cultural_inputs: 628 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: politics, economics, technology, ecology, health, work, and education.
-- modern_literature: 166 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: narrative recurrence and limits through literature summaries.
-- deep_sources: 289 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: math, statistics, science, suffering, and counterargument guardrails.
+- cultural_inputs: 632 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: politics, economics, technology, ecology, health, work, and education.
+- modern_literature: 168 notes; target 12-30, review cap 60; above review cap - pause unless thin lanes are growing. Purpose: narrative recurrence and limits through literature summaries.
+- deep_sources: 294 notes; target 20-50, review cap 90; above review cap - pause unless thin lanes are growing. Purpose: math, statistics, science, suffering, and counterargument guardrails.
 - pattern_tests: 204 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: pressure tests that challenge claims without becoming the whole project.
-- research_documents: 666 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
+- research_documents: 670 notes; target 20-45, review cap 75; above review cap - pause unless thin lanes are growing. Purpose: method, cloud review, claim rules, ledgers, and synthesis policy.
 No lane is below its minimum target, but broad claims still need source-specific review.
 
 Reviewed Source Packs
