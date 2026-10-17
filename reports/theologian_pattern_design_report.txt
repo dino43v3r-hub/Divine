@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 569
-Total theologian words analyzed: 102,129
+Theologian documents analyzed: 570
+Total theologian words analyzed: 102,317
 
 Era Coverage
 ------------
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 3,269
+- Father: 3,275
 - Son: 407
 - Holy Spirit: 677
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 191 | broader corpus 2,689
-- Mathematical Structure: theologians 4 | broader corpus 651
-- Mathematical Theophany: theologians 425 | broader corpus 1,305
-- Quantum Probability: theologians 2 | broader corpus 179
-- Life And Consciousness: theologians 1,503 | broader corpus 6,908
-- Meaning And Logos: theologians 159 | broader corpus 6,164
-- Moral Response: theologians 145 | broader corpus 2,503
-- Worship And Community: theologians 300 | broader corpus 1,660
-- Transformation: theologians 666 | broader corpus 2,233
+- Physical Order: theologians 191 | broader corpus 2,687
+- Mathematical Structure: theologians 4 | broader corpus 654
+- Mathematical Theophany: theologians 427 | broader corpus 1,291
+- Quantum Probability: theologians 2 | broader corpus 188
+- Life And Consciousness: theologians 1,506 | broader corpus 6,885
+- Meaning And Logos: theologians 159 | broader corpus 6,141
+- Moral Response: theologians 145 | broader corpus 2,494
+- Worship And Community: theologians 300 | broader corpus 1,640
+- Transformation: theologians 666 | broader corpus 2,224
 
 Per-Source Findings
 -------------------
@@ -5518,6 +5518,17 @@ Meaning arc:
 - Opening: Creation And Order (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
+
+theo_111_19_theological_foundations_e937b44ce578.md
+---------------------------------------------------
+Words: 188
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 theologia_and_oikonomia_the_soteriological_ground_of_gregory_of_nazianzus_s_trin_67dc3189cd89.md
 ------------------------------------------------------------------------------------------------
