@@ -8,69 +8,30 @@ Media rule: videos, podcasts, and images can be found and queued, but they canno
 
 ## Newest Candidate Material
 
-### Back Matter
+### For Pity’s Sake: God, Men, Mothering, And Me. A Theological Reflection
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests
-- Primary layer: deep_sources
-- Provider: Crossref
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: moderate_scholarly_candidate (9)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 5690
-- Year: 2014
-- URL: https://doi.org/10.2307/j.ctt22nm9mz.17
-
-No summary available in metadata.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- publication year present
-- recognized scholarly source type
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### HIOF • Probability — Paper III: Readings and Probability
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests
-- Primary layer: deep_sources
+- Tags: unresolved_suffering
+- Layer routes: pattern_tests, deep_sources, psychology_inputs, human_stories
+- Primary layer: pattern_tests
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (10)
+- Automated evidence: moderate_scholarly_candidate (8)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5690
-- Year: 2026
-- URL: https://doi.org/10.5281/zenodo.23320387
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 8076
+- Year: 2024
+- URL: https://ourarchive.otago.ac.nz/esploro/outputs/graduate/For-Pitys-Sake-God-Men-Mothering/9926528378401891
 
 OpenAlex abstract metadata available.
 
 Automated evidence reasons:
 - scholarly metadata provider
-- DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
 - summary or abstract metadata available
@@ -78,14 +39,16 @@ Automated evidence reasons:
 
 Auto approval reasons:
 - automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
+- label is moderate_scholarly_candidate
+- author and year metadata present
 
 Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 
-### Teaching Philosophy of Science to Science Students: An Alternative Approach
+### Quantum Mechanics
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -101,9 +64,9 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5690
-- Year: 2021
-- URL: https://doi.org/10.1007/s11217-021-09802-8
+- Corroborating routed candidates: 5704
+- Year: 2025
+- URL: https://doi.org/10.1007/978-3-031-98119-7_3
 
 OpenAlex abstract metadata available.
 
@@ -124,7 +87,46 @@ Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### Feyerabend and the Philosophy of Physics, Part II
+### Quantum Mechanics for Thinkers
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: quantum_science_guardrails
+- Layer routes: deep_sources, pattern_tests
+- Primary layer: deep_sources
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (12)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 5704
+- Year: 2014
+- URL: https://doi.org/10.1201/b17083
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+- Name the failure condition and whether the pattern holds, breaks, or needs revision.
+
+### Philosophy of Climate Science Part II: Modelling Climate Change
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -135,14 +137,14 @@ Layer review prompts:
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
+- Automated evidence: strong_scholarly_candidate (13)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 6750
-- Year: 2024
-- URL: https://doi.org/10.1080/02698595.2024.2440672
+- Corroborating routed candidates: 6765
+- Year: 2015
+- URL: https://doi.org/10.1111/phc3.12297
 
 OpenAlex abstract metadata available.
 
@@ -164,7 +166,7 @@ Layer review prompts:
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 - Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
 
-### Heisenberg Uncertainty Principle & Kant Philosophy: Why Hawking Thinks Philosophy Is Dead
+### Physics, Philosophy, Observers and Multiverses
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -180,30 +182,30 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5690
-- Year: 2016
-- URL: https://jcer.com/index.php/jcj/article/view/606
+- Corroborating routed candidates: 5704
+- Year: 2024
+- URL: http://arxiv.org/abs/2411.05893
 
 OpenAlex abstract metadata available.
 
 Automated evidence reasons:
 - scholarly metadata provider
+- DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
-- recognized scholarly source type
 - summary or abstract metadata available
-- some citation signal
+- many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
 - label is strong_scholarly_candidate
-- author and year metadata present
+- stable DOI present
 
 Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### 6G Networks Orientation by Quantum Mechanics
+### Uncertainty in the classroom—teaching quantum physics
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -219,9 +221,9 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5690
-- Year: 2022
-- URL: https://doi.org/10.13052/jicts2245-800x.1013
+- Corroborating routed candidates: 5704
+- Year: 2008
+- URL: https://doi.org/10.1088/0031-9120/43/2/006
 
 OpenAlex abstract metadata available.
 
@@ -242,123 +244,7 @@ Layer review prompts:
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### Reconstructing Reality: Environment-Induced Decoherence, the Measurement Problem, and the Emergence of Definiteness in Quantum Mechanics
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests
-- Primary layer: deep_sources
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5690
-- Year: 2008
-- URL: https://philsci-archive.pitt.edu/4224/1/scriptie.pdf
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- some citation signal
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Machine-Learning-Driven Performance Optimization of Nano-Modified Construction Materials: A Bibliometric Analysis and Systematic Review
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests
-- Primary layer: deep_sources
-- Provider: Europe PMC
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: moderate_scholarly_candidate (9)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 5690
-- Year: 2026
-- URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13666754/?tool=EBI
-
-No summary available in metadata.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Against free will in the contemporary natural sciences
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: quantum_science_guardrails
-- Layer routes: deep_sources, pattern_tests
-- Primary layer: deep_sources
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5690
-- Year: 2016
-- URL: http://arxiv.org/abs/1612.01466
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Verify qualified sources and counterarguments before strengthening science or suffering claims.
-- Name the failure condition and whether the pattern holds, breaks, or needs revision.
-
-### Pedagogical approaches that connect music and mathematics
+### African Classical Ensemble Music Book 3
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -374,9 +260,9 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 4101
-- Year: 2024
-- URL: https://doi.org/10.5937/obrvas19-54822
+- Corroborating routed candidates: 4112
+- Year: 2012
+- URL: https://doi.org/10.47622/9781920355029
 
 OpenAlex abstract metadata available.
 
@@ -397,67 +283,27 @@ Layer review prompts:
 - Check musical structure directly before using it as analogy or theological support.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### Christian Participation in Public life. A theological view of “Radical Orthodoxy Theology”
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: politics_justice
-- Layer routes: cultural_inputs, history_inputs, visual_art
-- Primary layer: cultural_inputs
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 4870
-- Year: 2025
-- URL: https://doi.org/10.36576/summa.173261
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-
-### POVERTY, DECLINE OF MORALITY AND SOCIAL JUSTICE IN NIGERIA
+### Christian ethics at the boundary: feminism and theologies of public life
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: politics_justice
 - Layer routes: cultural_inputs, history_inputs
 - Primary layer: cultural_inputs
-- Provider: OpenAlex
+- Provider: Crossref
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (12)
+- Automated evidence: strong_scholarly_candidate (10)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 4080
-- Year: 2024
-- URL: https://doi.org/10.70382/hijaerd.v06i6.003
+- Corroborating routed candidates: 4096
+- Year: 2019
+- URL: https://doi.org/10.1080/1462317x.2018.1530880
 
-OpenAlex abstract metadata available.
+No summary available in metadata.
 
 Automated evidence reasons:
 - scholarly metadata provider
@@ -465,7 +311,7 @@ Automated evidence reasons:
 - author metadata present
 - publication year present
 - recognized scholarly source type
-- summary or abstract metadata available
+- many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
@@ -476,53 +322,14 @@ Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 - Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 
-### Qur'an Calligraphy at The Straits of Malacca Mosque: Symbols, Meanings and Messages
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 4147
-- Year: 2025
-- URL: https://doi.org/10.58218/kasta.v5i3.3446
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Classify the cultural domain and practical consequences before making theological claims.
-
-### Theology and the (post)apartheid condition
+### Mercy, Music, And The Prophetic Voice Of Theology
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
-- Tags: art_beauty
-- Layer routes: visual_art, cultural_inputs
-- Primary layer: visual_art
-- Provider: OpenAlex
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
@@ -531,30 +338,358 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 4147
-- Year: 2016
-- URL: https://library.oapen.org/handle/20.500.12657/59082
+- Corroborating routed candidates: 4096
+- Year: 2017
+- URL: https://doi.org/10.5040/9781978725645.ch-003
 
-OpenAlex abstract metadata available.
+No summary available in metadata.
 
 Automated evidence reasons:
 - scholarly metadata provider
+- DOI or stable scholarly identifier present
 - author metadata present
 - publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
 - label is moderate_scholarly_candidate
-- author and year metadata present
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Back Matter
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 4096
+- Year: 2020
+- URL: https://doi.org/10.2307/j.ctv1850g93.21
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Acknowledgements
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 4096
+- Year: 2018
+- URL: https://doi.org/10.7765/9781526125354.00006
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Three Intersections in Criminology and Public Theology
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 4096
+- Year: 2020
+- URL: https://doi.org/10.51952/9781529207415.ch003
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Carl Schmitt, Leo Strauss, and the Necessity of Political Theology
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 4096
+- Year: 2017
+- URL: https://doi.org/10.4324/9781315126876-2
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Doing Justice to Justice: Re-assessing Deconstructive Eschatology
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 4096
+- Year: 2011
+- URL: https://doi.org/10.1558/poth.v12i1.11
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Introduction
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (10)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 4096
+- Year: 2018
+- URL: https://doi.org/10.7765/9781526125354.00009
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+
+### Undressing Political Theology for an Animal-Saint Redress
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: politics_justice
+- Layer routes: cultural_inputs, history_inputs, visual_art
+- Primary layer: cultural_inputs
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 4887
+- Year: 2021
+- URL: https://doi.org/10.5422/fordham/9780823298112.003.0011
+
+In chapter 10, Balbinder Singh Bhogal sketches a decolonial work to undo the European colonialism at
+the heart of political theology. He mines Indian religious traditions, particularly Sikhism, to
+conceptualize sovereignty differently. Beyond egoistic rationalism, a form of ahuman affective
+knowing links what we call the animal and the saint. Rather than the Western sovereignty of the One,
+Bhogal asserts a double and doubled sovereignty in Sikhism that is horizontal rather than vertical
+in its operation. There is an “internal, co-dependent sovereignty” in everyone, “a pluriversal
+sovereignty within all beings” that undresses political theology in its Western guise.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+
+### Episode 433: The Wood Between the Worlds with Brian Zahnd
+
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: art_beauty
+- Layer routes: visual_art, cultural_inputs, all_texts
+- Primary layer: visual_art
+- Provider: Internet Archive
+- Quality: reference metadata
+- Media kind: podcast
+- Requires multimodal review: True
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 6485
+- Year: 2024
+- URL: https://archive.org/details/Paul_R__Hinlicky-a01ed32c39270dc53a2ef94f26133556
+
+Teer caught up with the Godfather of the pod, Brian Zahnd to talk about his newest book The Wood
+Between the Worlds - A Poetic Theology of the Cross. Brian and Teer talk about why a theology of the
+cross is necessary to fully understand the Good News of the Gospel, along with what is lost when we
+become numb to the violence of Good Friday. The cross is the heart of Scripture Everything about the
+gospel message leads to the cross, and proceeds from the cross. In fact, within the narrative of
+Scripture, the crucifixion of Jesus is literally the crux of the story—the axis upon which the
+biblical story turns. But it would be a mistake to think we could sum up the significance of the
+crucifixion
+
+Automated evidence reasons:
+- trusted archive, university, government, museum, library, or public-domain domain
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated warning present
+
+Automated evidence warnings:
+- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
+
+Media review prompt:
+- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
 
 Layer review prompts:
 - Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
 - Classify the cultural domain and practical consequences before making theological claims.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 
-### Iconography of Kinship. The Holy Family and Attems Family in the Holy Virgin’ s Church at Zagorje near Pilštanj
+### Imago, ius, religio. Religious Images in Medieval Legal Manuscripts: An Overview
 
 - Review status: machine_assessed_strong_scholarly_candidate
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -570,9 +705,9 @@ Layer review prompts:
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 7889
-- Year: 2021
-- URL: https://doi.org/10.31664/ripu.2021.45.08
+- Corroborating routed candidates: 7913
+- Year: 2023
+- URL: https://doi.org/10.5209/eiko.85807
 
 OpenAlex abstract metadata available.
 
@@ -599,49 +734,50 @@ Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### Possible fictions : the testimony of applied performance with women in prisons in England and Brazil
+### Faith Ridiculed: Hume’s Bonfire of the Vanities of Christian Rationalism
 
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: visual_media_patterns
-- Layer routes: visual_art, human_stories, cultural_inputs, pattern_tests, modern_literature
-- Primary layer: visual_art
-- Provider: OpenAlex
+- Review status: machine_assessed_moderate_scholarly_candidate
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: video_teaching_patterns
+- Layer routes: theologians, human_stories, cultural_inputs, pattern_tests
+- Primary layer: theologians
+- Provider: Crossref
 - Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Media kind: video
+- Requires multimodal review: True
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 8302
-- Year: 2007
-- URL: http://qmro.qmul.ac.uk/xmlui/handle/123456789/1678
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 8634
+- Year: n.d.
+- URL: https://doi.org/10.5040/9780567663412.ch-011
 
-OpenAlex abstract metadata available.
+No summary available in metadata.
 
 Automated evidence reasons:
 - scholarly metadata provider
-- trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
 - many routed corroborating candidates
 
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- author and year metadata present
+Auto approval blockers:
+- automated warning present
+
+Automated evidence warnings:
+- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
+
+Media review prompt:
+- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
 
 Layer review prompts:
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
 - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 - Classify the cultural domain and practical consequences before making theological claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 
-### THEO 111-19 Theological Foundations
+### The Witch is not a Witch : the Dynamics and Contestations of Witchcraft Accusations in Northern Ghana
 
 - Review status: machine_assessed_strong_scholarly_candidate
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -652,24 +788,24 @@ Layer review prompts:
 - Quality: scholarly metadata
 - Media kind: video
 - Requires multimodal review: True
-- Automated evidence: strong_scholarly_candidate (11)
+- Automated evidence: strong_scholarly_candidate (10)
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 8609
-- Year: 2015
-- URL: https://www.exhibit.xavier.edu/theology_syllabi/524
+- Corroborating routed candidates: 8634
+- Year: 2017
+- URL: https://epub.uni-bayreuth.de/3377/1/THESISfinaldraft.pdf
 
 OpenAlex abstract metadata available.
 
 Automated evidence reasons:
 - scholarly metadata provider
-- trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
 - publication year present
-- recognized scholarly source type
 - summary or abstract metadata available
+- moderate citation signal
+- many routed corroborating candidates
 
 Auto approval blockers:
 - automated warning present
@@ -686,13 +822,13 @@ Layer review prompts:
 - Classify the cultural domain and practical consequences before making theological claims.
 - Name the failure condition and whether the pattern holds, breaks, or needs revision.
 
-### The voice of the outcast : Josephine Butler's Biblical interpretation and public theology
+### Some Concerns In The Semantics Of Biblical Hebrew.
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: history_memory
-- Layer routes: history_inputs, theologians
-- Primary layer: history_inputs
+- Tags: world_languages_translation
+- Layer routes: world_languages, all_texts, biblical_languages
+- Primary layer: world_languages
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
@@ -702,294 +838,213 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 4513
-- Year: 2015
-- URL: http://etheses.bham.ac.uk/5801/1/RussellJones15PhD.pdf
+- Corroborating routed candidates: 3316
+- Year: 1972
+- URL: https://hdl.handle.net/2027.42/187590
 
 OpenAlex abstract metadata available.
 
 Automated evidence reasons:
 - scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+
+### Latin American Catholicism
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: world_language_source_sampling
+- Layer routes: world_languages, all_texts, other_religious_texts
+- Primary layer: world_languages
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (11)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 4088
+- Year: 2024
+- URL: https://doi.org/10.1002/9781119754343.ch13
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- some citation signal
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+
+### Bible Translation & Theology: Part I - The Good Book Blog - Biola University
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, visual_art, world_languages
+- Primary layer: biblical_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: weak_scholarly_candidate (6)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 4019
+- Year: n.d.
+- URL: https://www.biola.edu/blogs/good-book-blog/2021/bible-translation-theology-part-i
+
+Most people are aware that Bible translation is influenced by theology, since translation is always
+interpretive in thousands of little choices. Theology and translation work together; they affect
+each other. I have studied biblical Greek and Hebrew (missing the Aramaic for Daniel), but I now do
+most of my reading and study of the Bible in English translation. I am grateful for having learned
+enough of biblical languages that I can use lexical resources and exegetical commentaries. Working
+with [...] I’ve read the English translation in the past. The Greek phrase is clear that among
+Jesus’ disciples there were many women. The English phrase is gender-neutral, but the Greek phrase
+is clearly
+
+Automated evidence reasons:
+- broad open-web search result
 - trusted archive, university, government, museum, library, or public-domain domain
-- author metadata present
-- publication year present
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-
-### Translating Repetition in the Holy Qur’an: A Diachronic Analysis of Rhetorical Equivalence in English Translations
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: world_languages_translation
-- Layer routes: world_languages, all_texts
-- Primary layer: world_languages
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 3239
-- Year: 2026
-- URL: https://doi.org/10.17507/tpls.1608.32
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### ‘Covenant’ in the Grassroots Christologies of African Christianity: An inquiry into a Translation of Doctrine
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: can support cautious working claims when corroborated
-- Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts
-- Primary layer: world_languages
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: moderate_scholarly_candidate (9)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 4079
-- Year: 2026
-- URL: https://ibsafrica.org/ojs/index.php/iwj/article/view/18
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval reasons:
-- automated score >= 7
-- label is moderate_scholarly_candidate
-- author and year metadata present
-
-Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### The Reformation from the Perspective of World Christianity
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts, history_inputs
-- Primary layer: world_languages
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5676
-- Year: 2019
-- URL: https://doi.org/10.14712/23363398.2018.51
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-
-### How The Bible is Translated into New Languages
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts, theologians
-- Primary layer: world_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 6119
-- Year: n.d.
-- URL: https://www.globalfrontiermissions.org/how-the-bible-is-translated-into-new-languages
-
-The team often includes linguists, theologians, Bible scholars, and community members. Theologians
-ensure that the translation is doctrinally sound and faithful to the original text, while linguists
-focus on the grammatical and syntactical challenges. The involvement of the local community is also
-essential to ensure that the translation resonates with the everyday experiences and idiomatic
-expressions of the target language speakers. library to access resources [...] 3. Review and
-Refinement: Once a draft is completed, it undergoes extensive review. Local community members,
-linguistic experts, and theologians examine the translation for accuracy, clarity, and cultural
-appropriateness. In ma
-
-Automated evidence reasons:
-- broad open-web search result
 - summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval blockers:
 - automated score below 7
 - label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
 - open-web source requires manual review
 
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
 Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
-
-### Mojola
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts
-- Primary layer: world_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 4080
-- Year: n.d.
-- URL: https://verbumetecclesia.org.za/index.php/ve/rt/printerFriendly/1307/2203
-
-appeared in 1998; the first Maasai NT appeared in 1923 but the first Maasai OT appeared in 1992; the
-first Luo NT appeared in 1926 but the first OT in 1957; the first Gikuyu NT appeared in 1926 but the
-first OT appeared in 1951. The major early exception to this trend was the Swahili Bible in Kenya
-and Tanzania – where the first Zanzibar Swahili NT appeared in 1879 and the first OT in 1891, whilst
-the first Mombasa Swahili NT appeared in 1909 and the first OT in 1914. In Uganda the first [...]
-This means that of the 2000 and more African languages, only 196 of them have access to the OT in
-their own tongue! How and by whom were these OT texts into African languages translated? The first
-tran
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-
-### Bible Translation in Latin America | Wycliffe Associates
-
-- Review status: machine_assessed_weak_scholarly_candidate
-- Evaluation use: use as a lead or question generator, not strong evidence
-- Tags: world_language_source_sampling
-- Layer routes: world_languages, all_texts, other_religious_texts, visual_art
-- Primary layer: world_languages
-- Provider: Tavily Search
-- Quality: open web result
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: weak_scholarly_candidate (4)
-- Auto review approval: not_auto_approved
-- Auto approval scope: manual_review_required
-- Confidence effect: none_until_human_review
-- Truth assessment: weak_scholarly_candidate
-- Corroborating routed candidates: 5872
-- Year: n.d.
-- URL: https://wycliffeassociates.org/our-impact/regions/latin-america
-
-“The Lord will indeed give what is good, and our land will yield its harvest.” Psalm 85:12 (NIV)
-Middle East | Asia | Africa | Latin America | Pacific ## Don’t let the thousands of communities
-without God’s Word in their heart language wait any longer.
-
-Automated evidence reasons:
-- broad open-web search result
-- summary or abstract metadata available
-- many routed corroborating candidates
-
-Auto approval blockers:
-- automated score below 7
-- label weak_scholarly_candidate is not eligible
-- missing DOI or author/year metadata
-- automated warning present
-- open-web source requires manual review
-
-Automated evidence warnings:
-- open-web result: require corroboration before strengthening claims
-
-Layer review prompts:
-- Track original language, translation range, metaphor, grammar, culture, and rival reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
 - Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
 
-### Paul and the Septuagint
+### Which biblical language yields the most exegetical benefits?
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: biblical_languages
+- Layer routes: biblical_languages, research_documents/christian_sources, world_languages
+- Primary layer: biblical_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: weak_scholarly_candidate (4)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 1967
+- Year: n.d.
+- URL: https://www.facebook.com/groups/NerdyLanguageMajors/posts/2630977947004858
+
+Weakness in understanding the Biblical Hebrew, Aramaic and Greek leads to exegetical imprecision. It
+is the Hebrew and Greek that provide the
+
+Automated evidence reasons:
+- broad open-web search result
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- missing DOI or author/year metadata
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- open-web result: require corroboration before strengthening claims
+
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
+### How the Hebrew Bible Uses Ruach, Nefesh, and N'shamah
+
+- Review status: machine_assessed_weak_scholarly_candidate
+- Evaluation use: use as a lead or question generator, not strong evidence
+- Tags: biblical_language_source_depth
+- Layer routes: biblical_languages, research_documents/christian_sources, all_texts, world_languages
+- Primary layer: biblical_languages
+- Provider: Tavily Search
+- Quality: open web result
+- Media kind: video
+- Requires multimodal review: True
+- Automated evidence: weak_scholarly_candidate (5)
+- Auto review approval: not_auto_approved
+- Auto approval scope: manual_review_required
+- Confidence effect: none_until_human_review
+- Truth assessment: weak_scholarly_candidate
+- Corroborating routed candidates: 3538
+- Year: n.d.
+- URL: https://www.youtube.com/watch?v=23NdU8dWKE4
+
+[3:20] nothingness ruach also has more spiritual meanings like meaning Spirit itself the opposite of
+Flesh Isaiah 31:3 [3:29] the Egyptians are human not God their horses are flesh not ruach not spirit
+in the Bible a ruach or Spirit [3:39] can be a presence in the physical world as in Genesis 1:2 with
+God's ruach hovering over the waters or in job 4:15 [3:47] a ruach a spirit glided past my face a
+ruach is also something that can possess people especially to make them prophesy [...] [5:36] that
+is trustworthy keeps a secret the word ruach can even be used all by itself to refer to a deep
+emotion [5:44] like courage or anger Joshua 211 everyone's R everyone's courage has failed because
+of you
+
+Automated evidence reasons:
+- broad open-web search result
+- trusted archive, university, government, museum, library, or public-domain domain
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval blockers:
+- automated score below 7
+- label weak_scholarly_candidate is not eligible
+- automated warning present
+- open-web source requires manual review
+
+Automated evidence warnings:
+- media candidate: inspect image/video/audio and capture caption or transcript before strengthening claims
+
+Media review prompt:
+- Evaluate the actual media, not only the title/snippet. Capture a short caption or transcript note, source context, rights status, smallest allowed claim, and at least one counter-reading before strengthening a pattern.
+
+Layer review prompts:
+- Check lemma, syntax, canonical context, translation history, and scholarly counter-reading.
+- Check Christian source context, doctrine, and source quality.
+- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
+### Sanctification in the Greek verb tenses in Hebrews
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -1005,9 +1060,9 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 3528
-- Year: 1993
-- URL: https://place.asburyseminary.edu/ecommonsatsdissertations/966
+- Corroborating routed candidates: 3537
+- Year: 1967
+- URL: https://place.asburyseminary.edu/ecommonsatsdissertations/1151
 
 OpenAlex abstract metadata available.
 
@@ -1030,85 +1085,7 @@ Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Track original language, translation range, metaphor, grammar, culture, and rival reading.
 
-### Trauma as Condition and Trauma as Claim: Advancing the Concept of Trauma in Planning Theory and Practice
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: psychology_patterns
-- Layer routes: psychology_inputs, human_stories
-- Primary layer: psychology_inputs
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5257
-- Year: 2026
-- URL: https://doi.org/10.1080/14649357.2026.2708644
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-
-### Identity, “Identology” and World Religions
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: psychology_patterns
-- Layer routes: psychology_inputs, human_stories
-- Primary layer: psychology_inputs
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (12)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5257
-- Year: 2014
-- URL: https://doi.org/10.4236/ojpp.2014.41006
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
-
-### Exploring the Theoretical Connections Between Psychology of Religion and Religious Pedagogy: An In-depth Analysis
+### Phenomenological models of divine communication
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
@@ -1119,29 +1096,29 @@ Layer review prompts:
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
+- Automated evidence: strong_scholarly_candidate (10)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 8056
-- Year: 2025
-- URL: https://doi.org/10.59379/tdpd.1663686
+- Corroborating routed candidates: 8076
+- Year: 2017
+- URL: https://eprints.nottingham.ac.uk/48208/1/Jack%20Williams%2C%20MRes%20Thesis.pdf
 
 OpenAlex abstract metadata available.
 
 Automated evidence reasons:
 - scholarly metadata provider
-- DOI or stable scholarly identifier present
+- trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
 - publication year present
-- recognized scholarly source type
 - summary or abstract metadata available
+- many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
 - label is strong_scholarly_candidate
-- stable DOI present
+- author and year metadata present
 
 Layer review prompts:
 - Separate psychological/social process from theological interpretation and note clinical limits.
@@ -1149,88 +1126,49 @@ Layer review prompts:
 - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### Lived Theology and Leadership in Wartime Ukraine: An Empirical Study of How Lament, Presence, and Hope Reflect and Shape Theological Meaning-Making (2022–2025)
+### Cultural Memory In Post -1937-1938 Dersim Laments: Reflections On Trauma And Violence
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature, visual_art
+- Layer routes: all_texts, other_religious_texts, modern_literature, history_inputs, psychology_inputs
 - Primary layer: all_texts
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
+- Automated evidence: strong_scholarly_candidate (10)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 5636
-- Year: 2026
-- URL: https://doi.org/10.3390/rel17020169
+- Corroborating routed candidates: 7074
+- Year: 2013
+- URL: https://polen.itu.edu.tr/bitstream/11527/12512/1/419101011.pdf
 
-OpenAlex abstract metadata available.
+No summary available in metadata.
 
 Automated evidence reasons:
 - scholarly metadata provider
-- DOI or stable scholarly identifier present
+- trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
 - publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
+- some citation signal
+- many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
 - label is strong_scholarly_candidate
-- stable DOI present
+- author and year metadata present
 
 Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Read the tradition on its own terms; do not flatten it into Christian categories.
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
 
-### Red Thread and Golden Arrow: A Comparative Study of Love Myth Symbols, Narrative Motifs and Civilizational Roots in Chinese and Western Cultures
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: global_text_traditions
-- Layer routes: all_texts, other_religious_texts, modern_literature
-- Primary layer: all_texts
-- Provider: OpenAlex
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 3820
-- Year: 2026
-- URL: https://doi.org/10.47297/wsprolaadwsp2634-786514.20260704
-
-OpenAlex abstract metadata available.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-- Read the tradition on its own terms; do not flatten it into Christian categories.
-- Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
-
-### 'The Poet and Publisher at Variance!': Comic Representations of Literary Professionals in Eighteenth-Century Fiction and Drama
+### The theological moment in eleven short stories of Flannery O'Connor
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: can support cautious working claims when corroborated
@@ -1246,9 +1184,9 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: moderate_scholarly_candidate
-- Corroborating routed candidates: 6402
-- Year: 2013
-- URL: http://hdl.handle.net/1807/70093
+- Corroborating routed candidates: 6415
+- Year: 1975
+- URL: http://hdl.handle.net/10211.2/5098
 
 OpenAlex abstract metadata available.
 
@@ -1269,10 +1207,10 @@ Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 
-### Novel criticism in the eighteen-eighties
+### Technologies of remembrance, literary criticism and Duncan Campbell Scott's Indian poems
 
 - Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: modern_literature_meaning
 - Layer routes: modern_literature, all_texts, human_stories
 - Primary layer: modern_literature
@@ -1280,28 +1218,26 @@ Layer review prompts:
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (10)
+- Automated evidence: moderate_scholarly_candidate (7)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 6402
-- Year: 1975
-- URL: https://repository.royalholloway.ac.uk/items/b51b3ee5-8853-44bd-9f23-562eec302844/1/
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 6415
+- Year: 1999
+- URL: http://www.collectionscanada.ca/obj/s4/f2/dsk1/tape7/PQDD_0003/MQ45483.pdf
 
-OpenAlex abstract metadata available.
+No summary available in metadata.
 
 Automated evidence reasons:
 - scholarly metadata provider
-- trusted archive, university, government, museum, library, or public-domain domain
 - author metadata present
 - publication year present
-- summary or abstract metadata available
 - many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
-- label is strong_scholarly_candidate
+- label is moderate_scholarly_candidate
 - author and year metadata present
 
 Layer review prompts:
@@ -1309,12 +1245,12 @@ Layer review prompts:
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
 
-### Modern encounters: Lhasa Tibetan, Christian mission schools, and religious conversion in modern Tibetan autobiographies
+### Writing History and Jain Literary Production in Early Modern South Asia
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
 - Tags: modern_literature_meaning
-- Layer routes: modern_literature, all_texts, human_stories
+- Layer routes: modern_literature, all_texts, human_stories, history_inputs
 - Primary layer: modern_literature
 - Provider: OpenAlex
 - Quality: scholarly metadata
@@ -1325,9 +1261,9 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 6402
-- Year: 2026
-- URL: https://doi.org/10.1017/s0026749x26101991
+- Corroborating routed candidates: 7887
+- Year: 2024
+- URL: https://doi.org/10.1177/23484489241233665
 
 OpenAlex abstract metadata available.
 
@@ -1348,26 +1284,106 @@ Layer review prompts:
 - Use summaries or public-domain material only; preserve ambiguity and rival interpretations.
 - Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
 - Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
 
-### Cultural Syncretism and Religious Authority: Early Ramadan Determination Practices in Maluku
+### Indigenous ways of living, culture, language, and connection as a source for mental wellness for individuals, families, and community
 
 - Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Evaluation use: can support cautious working claims when corroborated
 - Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs
+- Layer routes: cultural_inputs, history_inputs, psychology_inputs, world_languages
 - Primary layer: cultural_inputs
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
 - Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 7762
+- Year: 2018
+- URL: http://hdl.handle.net/1993/32929
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- author metadata present
+- publication year present
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Classify the cultural domain and practical consequences before making theological claims.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+- Track original language, translation range, metaphor, grammar, culture, and rival reading.
+
+### Engineered for Life: The Failed Dogma of Evolution and a Fresh Model of Creationism
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources
+- Primary layer: research_documents
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: moderate_scholarly_candidate (9)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 4615
+- Year: 2023
+- URL: https://philpapers.org/rec/MCIEFL-3
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- author metadata present
+- publication year present
+- recognized scholarly source type
+- summary or abstract metadata available
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- author and year metadata present
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### A Research Agenda for Civil Society
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources
+- Primary layer: research_documents
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (12)
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 6359
-- Year: 2025
-- URL: https://doi.org/10.24090/ibda.v23i1.12973
+- Corroborating routed candidates: 4615
+- Year: 2022
+- URL: https://doi.org/10.4337/9781800378155
 
 OpenAlex abstract metadata available.
 
@@ -1378,95 +1394,6 @@ Automated evidence reasons:
 - publication year present
 - recognized scholarly source type
 - summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-
-### From Andalusia to Shanghai: Ariel Bension’s Cross-Cultural Mysticism and Cultural-Political Creativity
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: cultural_practice_patterns
-- Layer routes: cultural_inputs, history_inputs, psychology_inputs, visual_art, all_texts, other_religious_texts
-- Primary layer: cultural_inputs
-- Provider: Crossref
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (11)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 9118
-- Year: 2026
-- URL: https://doi.org/10.64830/001c.171890
-
-This article examines Ariel Bension’s reinterpretation of Jewish mysticism as a resource for modern
-Sephardic cultural-political renewal. Focusing on The Zohar in Moslem and Christian Spain , it
-argues that Bension situated the Zohar within the intercultural world of medieval Andalusia in order
-to recover the Eastern dimensions of Judaism and challenge Eurocentric accounts of Jewish
-intellectual history. Yet Bension’s engagement with Andalusia was not merely antiquarian or
-historical. It formed the intellectual foundation for his activity in Shanghai, where his encounter
-with the writings of Rabindranath Tagore enabled him to articulate a modern Jewish ethics of
-dialogue, spiritual universal
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- author metadata present
-- publication year present
-- recognized scholarly source type
-- summary or abstract metadata available
-
-Auto approval reasons:
-- automated score >= 7
-- label is strong_scholarly_candidate
-- stable DOI present
-
-Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
-- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
-- Separate psychological/social process from theological interpretation and note clinical limits.
-- Review actual image/form, composition, symbol, context, beauty, lament, source rights, and counter-reading.
-- Classify text tradition, genre, community context, and whether recurrence is broad or overfit.
-
-### On Methodology in Comparative and International Education
-
-- Review status: auto_approved_for_review_queue
-- Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: general_research_methods
-- Layer routes: research_documents, deep_sources
-- Primary layer: research_documents
-- Provider: Crossref
-- Quality: scholarly metadata
-- Media kind: none
-- Requires multimodal review: False
-- Automated evidence: strong_scholarly_candidate (10)
-- Auto review approval: approved_for_review_queue
-- Auto approval scope: routing_and_queue_only_not_claim_confidence
-- Confidence effect: none_until_human_review
-- Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 4604
-- Year: 2017
-- URL: https://doi.org/10.1086/694217
-
-No summary available in metadata.
-
-Automated evidence reasons:
-- scholarly metadata provider
-- DOI or stable scholarly identifier present
-- publication year present
-- recognized scholarly source type
-- some citation signal
-- many routed corroborating candidates
 
 Auto approval reasons:
 - automated score >= 7
@@ -1477,13 +1404,52 @@ Layer review prompts:
 - Use as general research context until a more specific layer is reviewed.
 - Verify qualified sources and counterarguments before strengthening science or suffering claims.
 
-### Ethical Implications of Emerging Technologies and Scientific Discoveries for Human Dignity and Rights in Rwanda
+### The contribution of law to interdisciplinary conversations on law and religion
 
 - Review status: auto_approved_for_review_queue
 - Evaluation use: may increase confidence after claim-scope and counterargument checks
-- Tags: technology_ethics
-- Layer routes: cultural_inputs
-- Primary layer: cultural_inputs
+- Tags: general_research_methods
+- Layer routes: research_documents, deep_sources
+- Primary layer: research_documents
+- Provider: OpenAlex
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: strong_scholarly_candidate (14)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: strong_scholarly_candidate
+- Corroborating routed candidates: 4615
+- Year: 2015
+- URL: https://radar.brookes.ac.uk/radar/items/1a73b297-7fb4-4329-b459-d53438cfafb5/1
+
+OpenAlex abstract metadata available.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- trusted archive, university, government, museum, library, or public-domain domain
+- DOI or stable scholarly identifier present
+- author metadata present
+- publication year present
+- recognized scholarly source type
+
+Auto approval reasons:
+- automated score >= 7
+- label is strong_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Use as general research context until a more specific layer is reviewed.
+- Verify qualified sources and counterarguments before strengthening science or suffering claims.
+
+### Shrines in Ecclesia in Asia and in Canon Law: Their Contribution to the Evangelization in Asia
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: may increase confidence after claim-scope and counterargument checks
+- Tags: holy_spirit_gifts_global
+- Layer routes: theologians, other_religious_texts, human_stories, psychology_inputs
+- Primary layer: theologians
 - Provider: OpenAlex
 - Quality: scholarly metadata
 - Media kind: none
@@ -1493,9 +1459,9 @@ Layer review prompts:
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
 - Truth assessment: strong_scholarly_candidate
-- Corroborating routed candidates: 3252
-- Year: 2024
-- URL: http://dx.doi.org/10.47604/jpcr.2343
+- Corroborating routed candidates: 7406
+- Year: 2003
+- URL: https://doi.org/10.55997/ps3005xxxviii114a5
 
 OpenAlex abstract metadata available.
 
@@ -1513,4 +1479,45 @@ Auto approval reasons:
 - stable DOI present
 
 Layer review prompts:
-- Classify the cultural domain and practical consequences before making theological claims.
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Read the tradition on its own terms; do not flatten it into Christian categories.
+- Protect privacy; look for truth, care, justice, repair, and unresolved suffering.
+- Separate psychological/social process from theological interpretation and note clinical limits.
+
+### Thomas Aquinas, the Reformation, and the Enlightenment
+
+- Review status: auto_approved_for_review_queue
+- Evaluation use: can support cautious working claims when corroborated
+- Tags: theologians_cross_era
+- Layer routes: theologians, research_documents/christian_sources, history_inputs
+- Primary layer: theologians
+- Provider: Crossref
+- Quality: scholarly metadata
+- Media kind: none
+- Requires multimodal review: False
+- Automated evidence: moderate_scholarly_candidate (8)
+- Auto review approval: approved_for_review_queue
+- Auto approval scope: routing_and_queue_only_not_claim_confidence
+- Confidence effect: none_until_human_review
+- Truth assessment: moderate_scholarly_candidate
+- Corroborating routed candidates: 5057
+- Year: n.d.
+- URL: https://doi.org/10.5040/9781501301902.ch-006
+
+No summary available in metadata.
+
+Automated evidence reasons:
+- scholarly metadata provider
+- DOI or stable scholarly identifier present
+- recognized scholarly source type
+- many routed corroborating candidates
+
+Auto approval reasons:
+- automated score >= 7
+- label is moderate_scholarly_candidate
+- stable DOI present
+
+Layer review prompts:
+- Check named theologian, era, primary source, doctrine, disagreement, and pressure point.
+- Check Christian source context, doctrine, and source quality.
+- Check era, power, conflict, memory, harmed communities, reform, and unintended consequences.
