@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 575
-Total theologian words analyzed: 103,129
+Theologian documents analyzed: 577
+Total theologian words analyzed: 103,508
 
 Era Coverage
 ------------
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 3,302
+- Father: 3,314
 - Son: 408
 - Holy Spirit: 681
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 192 | broader corpus 2,691
-- Mathematical Structure: theologians 4 | broader corpus 650
-- Mathematical Theophany: theologians 431 | broader corpus 1,281
-- Quantum Probability: theologians 2 | broader corpus 186
-- Life And Consciousness: theologians 1,520 | broader corpus 6,898
-- Meaning And Logos: theologians 159 | broader corpus 6,142
-- Moral Response: theologians 145 | broader corpus 2,501
-- Worship And Community: theologians 301 | broader corpus 1,643
-- Transformation: theologians 668 | broader corpus 2,226
+- Physical Order: theologians 192 | broader corpus 2,687
+- Mathematical Structure: theologians 4 | broader corpus 653
+- Mathematical Theophany: theologians 435 | broader corpus 1,290
+- Quantum Probability: theologians 2 | broader corpus 181
+- Life And Consciousness: theologians 1,526 | broader corpus 6,901
+- Meaning And Logos: theologians 159 | broader corpus 6,131
+- Moral Response: theologians 145 | broader corpus 2,495
+- Worship And Community: theologians 301 | broader corpus 1,644
+- Transformation: theologians 668 | broader corpus 2,227
 
 Per-Source Findings
 -------------------
@@ -1592,6 +1592,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
 
+decentering_nationalism_representing_and_contesting_chimurenga_in_zimbabwean_pop_6f203957c34f.md
+------------------------------------------------------------------------------------------------
+Words: 190
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
 decolonising_the_concept_of_the_trinity_to_decolonise_the_religious_education_cu_9400091f4764.md
 ------------------------------------------------------------------------------------------------
 Words: 139
@@ -2592,6 +2603,17 @@ Meaning arc:
 - Opening: Creation And Order (0)
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
+
+imhotep_graduate_student_journal_2026_92be4b34658d.md
+-----------------------------------------------------
+Words: 189
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
 
 in_the_spirit_of_salvation_william_of_st_thierry_s_theological_treatment_of_salv_44a92c85bcc8.md
 ------------------------------------------------------------------------------------------------

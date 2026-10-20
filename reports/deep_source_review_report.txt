@@ -16,20 +16,20 @@ Area signal: 21
 Guardrail: Do not rush grief into easy resolution. Look for truthful lament, patient presence, embodied care, and hope without denial.
 Required source types:
 - Scripture/Theology: present (68)
-- Pastoral/Clinical: present (18)
+- Pastoral/Clinical: present (22)
 - Lived Case: present (12)
-- Counterargument: present (324)
+- Counterargument: present (326)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 866
+Area signal: 873
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
 - Physicist/Primary Science: present (77)
-- Peer-Reviewed/Academic: present (762)
+- Peer-Reviewed/Academic: present (765)
 - Philosophy Of Science: present (145)
-- Counterargument: present (324)
+- Counterargument: present (326)
 
 Mathematics Statistics And Logic
 --------------------------------
@@ -39,32 +39,32 @@ Guardrail: Do not treat repeated patterns, analogies, or mathematical beauty as 
 Required source types:
 - Mathematics/Logic: present (60)
 - Statistics/Inference: present (34)
-- Peer-Reviewed/Academic: present (762)
-- Counterargument: present (324)
+- Peer-Reviewed/Academic: present (765)
+- Counterargument: present (326)
 
 Mathematical Theophany And Beauty
 ---------------------------------
 Status: source-supported
-Area signal: 380
+Area signal: 382
 Guardrail: Treat mathematical order and beauty as possible signs, not proof. Strengthen the analysis by naming naturalistic, Platonist, constructivist, cognitive, cultural, and aesthetic alternatives.
 Required source types:
 - Scripture/Theology: present (68)
 - Mathematics/Logic: present (60)
 - Aesthetics/Beauty: present (24)
 - Alternative Interpretation: present (13)
-- Counterargument: present (324)
+- Counterargument: present (326)
 
 All Source-Type Signals
 -----------------------
-- Peer-Reviewed/Academic: 762
-- Counterargument: 324
+- Peer-Reviewed/Academic: 765
+- Counterargument: 326
 - Philosophy Of Science: 145
 - Physicist/Primary Science: 77
 - Scripture/Theology: 68
 - Mathematics/Logic: 60
 - Statistics/Inference: 34
 - Aesthetics/Beauty: 24
-- Pastoral/Clinical: 18
+- Pastoral/Clinical: 22
 - Alternative Interpretation: 13
 - Lived Case: 12
 
@@ -80,15 +80,15 @@ Math / Statistics / Logic Congruence Filters
   Rule: Mathematical proof applies inside formal systems; it cannot be transferred directly into theology without philosophical argument.
 - Theophany Interpretation Filter: active (48)
   Rule: Mathematical order, symmetry, logic, infinity, and beauty may be explored as secondary creaturely signs only under Christ and Scripture, and only after contrasting non-theistic, Platonist, constructivist, cognitive, and cultural explanations are named.
-- Physics Scale Filter: active (601)
+- Physics Scale Filter: active (606)
   Rule: Do not move from quantum, cosmic, or thermodynamic claims to daily spiritual claims without a justified bridge.
 - Causality Filter: active (29)
   Rule: Distinguish causation, correlation, compatibility, analogy, and theological interpretation.
 
 Quality And Risk Markers
 ------------------------
-- Scholarly Or Scientific Source: 687
-- Primary Or Classical Source: 293
+- Scholarly Or Scientific Source: 691
+- Primary Or Classical Source: 295
 - Practical Lived Source: 16
 - Speculative Source: 11
 - Reviewed Cloud Reference: 3
@@ -1419,6 +1419,18 @@ Source types:
 Active congruence filters:
 - Physics Scale Filter
 
+imprecise_measurements_in_quantum_mechanics_794466e155c3.md
+-----------------------------------------------------------
+Words: 137
+Area scores:
+- Quantum And Science Claims: under-sourced (2)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Counterargument: 1
+- Peer-Reviewed/Academic: 1
+Active congruence filters:
+- Physics Scale Filter
+
 in_our_mind_s_eye_thinkable_and_unthinkable_and_classical_and_quantum_in_fundame_e93167c1b967.md
 ------------------------------------------------------------------------------------------------
 Words: 147
@@ -1456,6 +1468,19 @@ Area scores:
 Source types:
 - Counterargument: 1
 - Peer-Reviewed/Academic: 1
+Active congruence filters:
+- Physics Scale Filter
+
+information_theory_and_diagnostic_reasoning_in_primary_care_a_framework_for_navi_2ee95272e953.md
+------------------------------------------------------------------------------------------------
+Words: 208
+Area scores:
+- Quantum And Science Claims: under-sourced (5)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Pastoral/Clinical: 4
+- Peer-Reviewed/Academic: 2
+- Counterargument: 1
 Active congruence filters:
 - Physics Scale Filter
 
