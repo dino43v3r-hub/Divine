@@ -6,18 +6,16 @@ on:
     - cron: "0 14 * * *"
 
 permissions:
-  contents: write
-  issues: write
+  contents: read
+
+concurrency:
+  group: daily-cloud-research
+  cancel-in-progress: false
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
-  SEARXNG_BASE_URL: ${{ secrets.SEARXNG_BASE_URL }}
-  TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
   TAVILY_DAILY_SEARCH_LIMIT: "5"
   TAVILY_MAX_RESULTS: "3"
   DISCOVERY_WINDOW_PAGES: "12"
-  BING_SEARCH_API_KEY: ${{ secrets.BING_SEARCH_API_KEY }}
-  BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
   AUTO_APPROVE_REVIEW_QUEUE: "true"
   AUTO_APPROVE_MIN_SCORE: "7"
   AUTO_APPROVE_OPEN_WEB: "false"
@@ -27,18 +25,26 @@ env:
 
 jobs:
   collect-and-analyze:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-
+    timeout-minutes: 60
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Check out repository without write credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
 
       - name: Collect daily internet candidate material
+        env:
+          SEARXNG_BASE_URL: ${{ secrets.SEARXNG_BASE_URL }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          BING_SEARCH_API_KEY: ${{ secrets.BING_SEARCH_API_KEY }}
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
         run: python internet_source_collector.py
 
       - name: Run divine pattern analyzer
@@ -56,8 +62,52 @@ jobs:
       - name: Build GitHub issue summary
         run: python build_github_issue_summary.py
 
+      - name: Package only generated research changes
+        run: |
+          for path in references research_documents theologians visual_art history_inputs world_languages biblical_languages all_texts psychology_inputs other_religious_texts modern_literature human_stories deep_sources pattern_tests cultural_inputs music_notes reports; do
+            if [ -e "$path" ]; then
+              git add -- "$path"
+            fi
+          done
+          git diff --cached --binary > "$RUNNER_TEMP/research.patch"
+
+      - name: Transfer generated changes to the publication job
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: daily-research-patch
+          path: ${{ runner.temp }}/research.patch
+          retention-days: 1
+          if-no-files-found: error
+
+  publish-research:
+    needs: collect-and-analyze
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Check out current main for publication
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+
+      - name: Download changes from this workflow run
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: daily-research-patch
+          path: ${{ runner.temp }}/daily-research-patch
+
+      - name: Apply generated changes without overwriting concurrent edits
+        run: |
+          PATCH="$RUNNER_TEMP/daily-research-patch/research.patch"
+          if [ -s "$PATCH" ]; then
+            git apply --check "$PATCH"
+            git apply "$PATCH"
+          fi
+
       - name: Create GitHub notification issue
-        uses: actions/github-script@v7
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
             const fs = require("fs");
@@ -72,7 +122,7 @@ jobs:
             });
 
       - name: Commit updated references, evaluation queue, and reports
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
         with:
           commit_message: "Update daily cloud research evaluation set"
           file_pattern: "references research_documents theologians visual_art history_inputs world_languages biblical_languages all_texts psychology_inputs other_religious_texts modern_literature human_stories deep_sources pattern_tests cultural_inputs music_notes reports"
