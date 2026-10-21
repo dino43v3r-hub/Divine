@@ -818,8 +818,25 @@ def source_quality(source: dict):
 
 
 def is_trusted_open_web_source(source: dict):
-    url = (source.get("url") or "").lower()
-    return any(domain in url for domain in TRUSTED_OPEN_WEB_DOMAINS)
+    raw_url = source.get("url")
+    if not isinstance(raw_url, str) or any(char.isspace() or ord(char) < 32 for char in raw_url):
+        return False
+    try:
+        parsed = urllib.parse.urlsplit(raw_url)
+        if parsed.scheme.lower() not in {"http", "https"} or parsed.username is not None or parsed.password is not None:
+            return False
+        # Accessing port also validates malformed/non-numeric/out-of-range ports.
+        parsed.port
+        hostname = (parsed.hostname or "").removesuffix(".").encode("idna").decode("ascii").lower()
+    except (ValueError, UnicodeError):
+        return False
+    if not hostname or any(not label or not re.fullmatch(r"[a-z0-9](?:[a-z0-9-]*[a-z0-9])?", label) for label in hostname.split(".")):
+        return False
+    return any(
+        hostname.endswith(domain) if domain.startswith(".")
+        else hostname == domain or hostname.endswith("." + domain)
+        for domain in TRUSTED_OPEN_WEB_DOMAINS
+    )
 
 
 def source_text(source: dict):
