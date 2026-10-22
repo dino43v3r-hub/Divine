@@ -11,8 +11,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 5,141
-Dedicated synthesis documents: 2,497
+Total documents across all lanes: 5,160
+Dedicated synthesis documents: 2,505
 Active divine-pattern layers: 9 of 9
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
@@ -21,32 +21,32 @@ Coverage note: these are coverage-map signals. A language family or tradition is
 
 Interpretive Lenses
 -------------------
-- Psychological Process: 2,773
-- Counter-Reading: 2,518
-- Historical Context: 2,069
-- Language Semantics: 1,680
-- Embodied Practice: 839
+- Psychological Process: 2,778
+- Counter-Reading: 2,527
+- Historical Context: 2,073
+- Language Semantics: 1,690
+- Embodied Practice: 843
 - Original-Language Witness: 790
 - Theological Resonance: 750
 - Ethical Consequence: 743
-- Visual Symbol: 666
-- Surface Vocabulary: 449
+- Visual Symbol: 669
+- Surface Vocabulary: 451
 
 Dedicated Synthesis Domains
 ---------------------------
-- Science And Discovery: 5,587
-- Global Text Traditions: 3,125
-- Psychology And Human Behavior: 2,862
-- Art And Beauty: 2,446
-- History And Memory: 2,303
-- World Languages: 1,902
-- Politics And Justice: 1,029
+- Science And Discovery: 5,609
+- Global Text Traditions: 3,129
+- Psychology And Human Behavior: 2,867
+- Art And Beauty: 2,459
+- History And Memory: 2,316
+- World Languages: 1,914
+- Politics And Justice: 1,033
 - Biblical Greek And Hebrew: 823
-- Visual Art And Iconography: 675
+- Visual Art And Iconography: 678
 - Health And Suffering: 558
 - Education And Formation: 434
-- Family And Community: 411
-- Ecology And Creation Care: 220
+- Family And Community: 414
+- Ecology And Creation Care: 222
 - Technology And AI: 150
 - Economics And Work: 141
 
@@ -75,43 +75,43 @@ Text Tradition Coverage
 - Wisdom And Proverbs: mapped (181)
 - Epic And Myth: mapped (60)
 - Philosophy And Ethics: mapped (155)
-- Law And Covenant: mapped (434)
+- Law And Covenant: mapped (435)
 - Poetry And Lament: mapped (176)
 - Ritual And Liturgy: mapped (265)
-- History And Chronicle: mapped (1,234)
-- Oral Tradition And Folklore: mapped (607)
+- History And Chronicle: mapped (1,237)
+- Oral Tradition And Folklore: mapped (608)
 - Commentary And Interpretation: mapped (89)
 - Modern Literature: mapped (108)
 - Human Story And Testimony: mapped (593)
 
 Layer Convergence Across All Sources
 ------------------------------------
-- Physical Order: 10,917 (high internal signal)
-- Mathematical Structure: 8,770 (high internal signal)
-- Mathematical Theophany: 4,010 (high internal signal)
+- Physical Order: 10,955 (high internal signal)
+- Mathematical Structure: 8,802 (high internal signal)
+- Mathematical Theophany: 4,002 (high internal signal)
 - Quantum Probability: 230 (early signal)
-- Life And Consciousness: 21,357 (high internal signal)
-- Meaning And Logos: 27,148 (high internal signal)
-- Moral Response: 16,751 (high internal signal)
-- Worship And Community: 14,931 (high internal signal)
-- Transformation: 15,463 (high internal signal)
+- Life And Consciousness: 21,372 (high internal signal)
+- Meaning And Logos: 27,171 (high internal signal)
+- Moral Response: 16,764 (high internal signal)
+- Worship And Community: 14,981 (high internal signal)
+- Transformation: 15,497 (high internal signal)
 
 Meaning Movement Across All Sources
 -----------------------------------
-- Creation And Order: 11,101
-- Alienation And Lament: 2,678
-- Desire And Longing: 9,303
-- Moral Confrontation: 4,466
-- Communal Practice: 3,666
+- Creation And Order: 11,088
+- Alienation And Lament: 2,671
+- Desire And Longing: 9,314
+- Moral Confrontation: 4,369
+- Communal Practice: 3,649
 - Transformation And Hope: 5,310
 
 Synthesis Depth Results
 -----------------------
-- early synthesis signal: 1,200
-- contextual interpretation: 591
+- early synthesis signal: 1,205
+- contextual interpretation: 593
 - lens detected but still word-heavy: 477
 - multi-lens understanding: 159
-- cross-layer synthesis: 70
+- cross-layer synthesis: 71
 
 Comparative Validity Check
 --------------------------
@@ -139,10 +139,10 @@ Per-Lane Synthesis
 
 Visual Art
 ----------
-Files: 406
-Strongest lens: Counter-Reading (407)
-Strongest layer: Meaning And Logos (3,317)
-Strongest meaning context: Desire And Longing (468)
+Files: 408
+Strongest lens: Counter-Reading (409)
+Strongest layer: Meaning And Logos (3,342)
+Strongest meaning context: Desire And Longing (470)
 
 1_5k_views_36_reactions_museo_de_arte_de_ponce_houses_an_exceptional_collection_7564b22f7827.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -873,6 +873,15 @@ Synthesis questions:
 - What does the visual form communicate before any explanation is added?
 - What responsibility, justice, mercy, or repair does this pattern call for?
 
+children_share_church_hope_class_animals_you_you_73b0616e91cc.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 199
+Meaning confidence: context-supported pattern
+Synthesis depth: contextual interpretation
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
 christ_s_miracles_87f7eea05a34.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 136
@@ -1546,6 +1555,15 @@ Synthesis depth: lens detected but still word-heavy
 Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
+
+human_earth_scientific_oneness_world_years_religious_science_494d823d6174.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 230
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What responsibility, justice, mercy, or repair does this pattern call for?
 
 humanities_research_centre_documentary_film_festival_film_and_photography_confer_638d685724bc.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3882,10 +3900,10 @@ Synthesis questions:
 
 History
 -------
-Files: 266
-Strongest lens: Historical Context (1,500)
-Strongest layer: Moral Response (2,757)
-Strongest meaning context: Desire And Longing (295)
+Files: 267
+Strongest lens: Historical Context (1,504)
+Strongest layer: Moral Response (2,767)
+Strongest meaning context: Desire And Longing (304)
 
 05_28_23_sermon_piece_of_my_heart_rev_t_j_fitzgerald_da9f626e9591.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -5140,6 +5158,16 @@ living_at_the_edge_of_empire_can_christianity_prevail_and_be_effective_a_theolog
 Words: 144
 Meaning confidence: word-level signal only
 Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+- How does the pattern change when placed in its historical conflict, memory, and consequence?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
+love_love_people_time_fear_love_care_heart_b2fe2cc5cbe7.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 244
+Meaning confidence: context-supported pattern
+Synthesis depth: cross-layer synthesis
 Global coverage: starter global coverage map
 Synthesis questions:
 - How does the pattern change when placed in its historical conflict, memory, and consequence?
@@ -6647,10 +6675,10 @@ Synthesis questions:
 
 World Languages
 ---------------
-Files: 412
-Strongest lens: Language Semantics (900)
-Strongest layer: Meaning And Logos (3,095)
-Strongest meaning context: Creation And Order (1,353)
+Files: 414
+Strongest lens: Language Semantics (908)
+Strongest layer: Meaning And Logos (3,115)
+Strongest meaning context: Creation And Order (1,359)
 
 210_christian_tradition_ii_92318068a844.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -8758,6 +8786,15 @@ Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
+negotiating_culture_in_terminology_translation_ideology_metaphor_and_adaptation_1d2452673339.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 201
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
+
 notes_606c032bee93.md
 ~~~~~~~~~~~~~~~~~~~~~
 Words: 130
@@ -10131,6 +10168,15 @@ Synthesis questions:
 - How does the pattern change when placed in its historical conflict, memory, and consequence?
 - What responsibility, justice, mercy, or repair does this pattern call for?
 
+wellspring_of_motivation_and_l2_vision_in_second_language_acquisition_sla_sacred_b49aeac69bcd.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 142
+Meaning confidence: thin meaning signal
+Synthesis depth: contextual interpretation
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
 western_translation_theory_from_herodotus_to_nietzsche_e2a03bac52bd.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 142
@@ -10423,10 +10469,10 @@ Synthesis questions:
 
 Biblical Greek And Hebrew
 -------------------------
-Files: 252
+Files: 254
 Strongest lens: Original-Language Witness (676)
-Strongest layer: Meaning And Logos (2,117)
-Strongest meaning context: Creation And Order (355)
+Strongest layer: Meaning And Logos (2,124)
+Strongest meaning context: Creation And Order (359)
 
 10_the_annunciation_and_the_senses_ruach_pneuma_odour_b1bcc53db3e5.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -11528,6 +11574,15 @@ Global coverage: starter global coverage map
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
+old_testament_law_for_christians_original_context_and_enduring_applications_by_r_d6dfd524fe79.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 146
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
 on_earth_as_it_is_in_heaven_the_heavenly_sanctuary_motif_in_hebrews_8_5_and_its_460452bf23f3.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 157
@@ -11853,6 +11908,15 @@ Global coverage: starter global coverage map
 Synthesis questions:
 - What meanings appear, disappear, or shift when translation, grammar, and original-language range are checked?
 - Does the original-language evidence support the theological claim, or only suggest a possible reading?
+
+saecular_the_ancient_word_that_became_the_modern_world_5f063129db5c.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 142
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
 
 sanctification_in_the_greek_verb_tenses_in_hebrews_8a7fb6357cd1.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -14965,10 +15029,10 @@ Comparative validity: shared-human pattern signal
 
 Psychology And Other Texts
 --------------------------
-Files: 477
-Strongest lens: Psychological Process (1,782)
-Strongest layer: Life And Consciousness (3,532)
-Strongest meaning context: Creation And Order (563)
+Files: 478
+Strongest lens: Psychological Process (1,785)
+Strongest layer: Life And Consciousness (3,538)
+Strongest meaning context: Creation And Order (565)
 
 18_adaptation_and_identity_building_among_the_ethnic_chinese_communities_in_viet_ea9f27cc423b.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18083,6 +18147,17 @@ Synthesis questions:
 religion_and_change_200668179854.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 141
+Meaning confidence: plausible meaning pattern
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What human processes are involved: perception, attachment, trauma, habit, desire, identity, or repair?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+- Does psychology illuminate the pattern without reducing spiritual meaning to mechanism?
+
+religion_and_change_ddc67aa9cc29.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 148
 Meaning confidence: plausible meaning pattern
 Synthesis depth: early synthesis signal
 Global coverage: no global-language coverage yet
