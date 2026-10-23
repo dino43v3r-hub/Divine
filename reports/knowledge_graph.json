@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 30062,
+  "edge_count": 30109,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -18556,6 +18556,16 @@
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:failure_condition"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_daily_evaluation_queue_md",
+      "target": "rule:promotion_restraint"
     },
     {
       "relation": "satisfies_or_mentions_rule",
@@ -57699,6 +57709,41 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_godly_discernment_four12_global_f1db94f4dfce_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_godly_discernment_four12_global_f1db94f4dfce_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_godly_discernment_four12_global_f1db94f4dfce_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_godly_discernment_four12_global_f1db94f4dfce_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_godly_discernment_four12_global_f1db94f4dfce_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_godly_discernment_four12_global_f1db94f4dfce_md",
+      "target": "rule:promotion_restraint"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_godly_discernment_four12_global_f1db94f4dfce_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_good_grief_faith_documentary_full_movie_reverend_youtube_26a2bdbfaa90_md",
       "target": "lane:theologians"
     },
@@ -61865,6 +61910,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_same_storm_different_boats_a_southern_african_methodist_response_to_socio_eco",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_sanctified_waters_toward_a_baptismal_ethic_of_creation_care_915d2727e749_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_sanctified_waters_toward_a_baptismal_ethic_of_creation_care_915d2727e749_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_sanctified_waters_toward_a_baptismal_ethic_of_creation_care_915d2727e749_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_sanctified_waters_toward_a_baptismal_ethic_of_creation_care_915d2727e749_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_sanctified_waters_toward_a_baptismal_ethic_of_creation_care_915d2727e749_md",
+      "target": "rule:liturgical_grounding"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_sanctified_waters_toward_a_baptismal_ethic_of_creation_care_915d2727e749_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -89099,6 +89174,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_144_apologetics_conference_2_a_strategy_to_reach_our_postmodern_world_sea",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_144_apologetics_conference_2_a_strategy_to_reach_our_postmodern_world_sea",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_144_apologetics_conference_2_a_strategy_to_reach_our_postmodern_world_sea",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_144_apologetics_conference_2_a_strategy_to_reach_our_postmodern_world_sea",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_144_apologetics_conference_2_a_strategy_to_reach_our_postmodern_world_sea",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_1848_in_1998_the_politics_of_commemoration_in_hungary_romania_and_slovaki",
       "target": "lane:cultural_inputs"
     },
@@ -98049,6 +98149,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_human_dignity_in_the_age_of_ai_e945a36b95e1_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_human_dignity_in_the_age_of_ai_e945a36b95e1_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_human_dignity_in_the_age_of_ai_e945a36b95e1_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_human_dignity_in_the_age_of_ai_e945a36b95e1_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_human_dignity_in_the_age_of_ai_e945a36b95e1_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_human_dignity_in_the_digital_age_6516fdb22b33_md",
       "target": "lane:cultural_inputs"
     },
@@ -98590,6 +98715,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_incorporating_ethics_into_artificial_intelligence_95432d525984_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_index_33ea6da9193c_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_index_33ea6da9193c_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_index_33ea6da9193c_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_index_33ea6da9193c_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_index_33ea6da9193c_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -101340,6 +101490,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_patchwork_law_reform_your_idea_is_good_in_practice_but_it_won_t_work_in_t",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_paternalism_and_autonomy_views_of_patients_and_providers_in_a_transitiona",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_paternalism_and_autonomy_views_of_patients_and_providers_in_a_transitiona",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_paternalism_and_autonomy_views_of_patients_and_providers_in_a_transitiona",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_paternalism_and_autonomy_views_of_patients_and_providers_in_a_transitiona",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_paternalism_and_autonomy_views_of_patients_and_providers_in_a_transitiona",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -139039,6 +139214,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_like_formalism_for_cognitive_measurements_ee3a1b6a496f_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_like_formalism_for_cognitive_measurements_ee3a1b6a496f_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_like_formalism_for_cognitive_measurements_ee3a1b6a496f_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_like_formalism_for_cognitive_measurements_ee3a1b6a496f_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_like_formalism_for_cognitive_measurements_ee3a1b6a496f_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_like_formalism_for_cognitive_measurements_ee3a1b6a496f_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_quantum_measurement_in_the_framework_of_philosophy_30f36a915461_md",
       "target": "lane:deep_sources"
     },
@@ -144655,6 +144860,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_dealing_with_the_challenges_of_macro_financial_linkages_in_emerging_markets",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_disenfranchised_grief_ministry_that_breaks_the_silence_0258093226e4_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_disenfranchised_grief_ministry_that_breaks_the_silence_0258093226e4_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_disenfranchised_grief_ministry_that_breaks_the_silence_0258093226e4_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_disenfranchised_grief_ministry_that_breaks_the_silence_0258093226e4_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_disenfranchised_grief_ministry_that_breaks_the_silence_0258093226e4_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_disenfranchised_grief_ministry_that_breaks_the_silence_0258093226e4_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -150314,7 +150549,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 4926,
+  "node_count": 4934,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -171278,6 +171513,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_godly_discernment_four12_global_f1db94f4dfce_md",
+      "label": "Godly Discernment - Four12 Global",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/godly_discernment_four12_global_f1db94f4dfce.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_good_grief_faith_documentary_full_movie_reverend_youtube_26a2bdbfaa90_md",
       "label": "Good Grief | Faith Documentary | Full Movie | Reverend - YouTube",
       "lane": "theologians",
@@ -172868,6 +173114,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/same_storm_different_boats_a_southern_african_methodist_response_to_socio_econom_7003a9880e53.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_sanctified_waters_toward_a_baptismal_ethic_of_creation_care_915d2727e749_md",
+      "label": "Sanctified Waters: Toward a Baptismal Ethic of Creation Care",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/sanctified_waters_toward_a_baptismal_ethic_of_creation_care_915d2727e749.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -182641,6 +182898,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_144_apologetics_conference_2_a_strategy_to_reach_our_postmodern_world_sea",
+      "label": "144 Apologetics Conference 2: A Strategy to Reach Our Postmodern World (Sean Finnegan)",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/144_apologetics_conference_2_a_strategy_to_reach_our_postmodern_world_sean_finne_8e3d0445d8e2.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_1848_in_1998_the_politics_of_commemoration_in_hungary_romania_and_slovaki",
       "label": "1848 in 1998: The Politics of Commemoration in Hungary, Romania, and Slovakia",
       "lane": "cultural_inputs",
@@ -185875,6 +186143,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_human_dignity_in_the_age_of_ai_e945a36b95e1_md",
+      "label": "Human Dignity in the Age of AI",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/human_dignity_in_the_age_of_ai_e945a36b95e1.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_human_dignity_in_the_digital_age_6516fdb22b33_md",
       "label": "Human Dignity in the Digital Age",
       "lane": "cultural_inputs",
@@ -186090,6 +186369,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/incorporating_ethics_into_artificial_intelligence_95432d525984.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_index_33ea6da9193c_md",
+      "label": "Index",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/index_33ea6da9193c.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -187113,6 +187403,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/patchwork_law_reform_your_idea_is_good_in_practice_but_it_won_t_work_in_theory_d8e6a09ee792.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_paternalism_and_autonomy_views_of_patients_and_providers_in_a_transitiona",
+      "label": "Paternalism and autonomy: views of patients and providers in a transitional (post-communist) country.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/paternalism_and_autonomy_views_of_patients_and_providers_in_a_transitional_post_cecbd47faf02.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -200659,6 +200960,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_quantum_like_formalism_for_cognitive_measurements_ee3a1b6a496f_md",
+      "label": "Quantum-like formalism for cognitive measurements",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/quantum_like_formalism_for_cognitive_measurements_ee3a1b6a496f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_quantum_measurement_in_the_framework_of_philosophy_30f36a915461_md",
       "label": "QUANTUM MEASUREMENT IN THE FRAMEWORK OF PHILOSOPHY.",
       "lane": "deep_sources",
@@ -202458,6 +202770,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/dealing_with_the_challenges_of_macro_financial_linkages_in_emerging_markets_3628069b43c0.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_disenfranchised_grief_ministry_that_breaks_the_silence_0258093226e4_md",
+      "label": "Disenfranchised Grief: Ministry That Breaks the Silence",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/disenfranchised_grief_ministry_that_breaks_the_silence_0258093226e4.md",
       "review_note_count": 1,
       "type": "document"
     },

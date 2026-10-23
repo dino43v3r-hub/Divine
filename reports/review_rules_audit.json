@@ -9,7 +9,7 @@
   },
   "confidence_tier_totals": {
     "candidate_lead": 113,
-    "developing_evidence": 4810,
+    "developing_evidence": 4818,
     "reviewed_evidence_ready": 1
   },
   "documents": [
@@ -42438,8 +42438,6 @@
       "missing_rules": [
         "pastoral_safety",
         "ecclesial_review",
-        "liturgical_grounding",
-        "promotion_restraint",
         "scripture_anchor",
         "doctrinal_fit",
         "no_unresolved_pastoral_harm",
@@ -42455,8 +42453,6 @@
       "promotion_blockers": [
         "pastoral_safety",
         "ecclesial_review",
-        "liturgical_grounding",
-        "promotion_restraint",
         "source_check_review_companion",
         "source_check_machine_draft"
       ],
@@ -42478,7 +42474,7 @@
         "failure_condition": true,
         "final_promotion_restraint": false,
         "interpretation": true,
-        "liturgical_grounding": false,
+        "liturgical_grounding": true,
         "machine_label_boundary": true,
         "no_abuse_enabling_language": false,
         "no_comparative_flattening": true,
@@ -42487,7 +42483,7 @@
         "pastoral_safety": false,
         "plain_language_public_summary": false,
         "practical_use": true,
-        "promotion_restraint": false,
+        "promotion_restraint": true,
         "scripture_anchor": false
       },
       "sidecar_paths": [],
@@ -130580,6 +130576,71 @@
         "pastoral_safety",
         "ecclesial_review",
         "liturgical_grounding",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/godly_discernment_four12_global_f1db94f4dfce.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": true,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Godly Discernment - Four12 Global"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "theologians",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
         "promotion_restraint",
         "scripture_anchor",
         "doctrinal_fit",
@@ -140479,6 +140540,73 @@
       },
       "sidecar_paths": [],
       "title": "\u2018Same storm \u2013 Different boats\u2019: A Southern African Methodist response to socio-economic inequalities exposed by the COVID-19 storm"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "theologians",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/sanctified_waters_toward_a_baptismal_ethic_of_creation_care_915d2727e749.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": true,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Sanctified Waters: Toward a Baptismal Ethic of Creation Care"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -201863,6 +201991,75 @@
     {
       "confidence_tier": "developing_evidence",
       "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/144_apologetics_conference_2_a_strategy_to_reach_our_postmodern_world_sean_finne_8e3d0445d8e2.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "144 Apologetics Conference 2: A Strategy to Reach Our Postmodern World (Sean Finnegan)"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
       "machine_drafted_confidence_effect": "does_not_raise_confidence",
       "machine_drafted_rules": [
         "ecclesial_review",
@@ -222418,6 +222615,75 @@
         "final_promotion_restraint"
       ],
       "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/human_dignity_in_the_age_of_ai_e945a36b95e1.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Human Dignity in the Age of AI"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/human_dignity_in_the_digital_age_6516fdb22b33.md",
       "patterns": [],
       "promotion_blockers": [
@@ -223764,6 +224030,75 @@
       },
       "sidecar_paths": [],
       "title": "Incorporating Ethics into Artificial Intelligence"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/index_33ea6da9193c.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Index"
     },
     {
       "confidence_tier": "developing_evidence",
@@ -230216,6 +230551,75 @@
       },
       "sidecar_paths": [],
       "title": "Patchwork Law Reform: Your Idea Is Good in Practice, but It Won't Work in Theory"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "cultural_inputs",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/paternalism_and_autonomy_views_of_patients_and_providers_in_a_transitional_post_cecbd47faf02.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "discernment",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": false,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Paternalism and autonomy: views of patients and providers in a transitional (post-communist) country."
     },
     {
       "confidence_tier": "developing_evidence",
@@ -314866,6 +315270,73 @@
         "final_promotion_restraint"
       ],
       "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/quantum_like_formalism_for_cognitive_measurements_ee3a1b6a496f.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Quantum-like formalism for cognitive measurements"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "deep_sources",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/quantum_measurement_in_the_framework_of_philosophy_30f36a915461.md",
       "patterns": [],
       "promotion_blockers": [
@@ -326159,6 +326630,73 @@
         "final_promotion_restraint"
       ],
       "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/disenfranchised_grief_ministry_that_breaks_the_silence_0258093226e4.md",
+      "patterns": [],
+      "promotion_blockers": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint"
+      ],
+      "review_companion_confidence_effect": "",
+      "review_companion_rules": [],
+      "review_companion_status": "",
+      "review_note_count": 1,
+      "rules_present": {
+        "analogy": false,
+        "counter_reading": true,
+        "discernment": true,
+        "doctrinal_fit": false,
+        "does_not_prove_boundary": false,
+        "ecclesial_review": false,
+        "evidence": true,
+        "failure_condition": false,
+        "final_promotion_restraint": false,
+        "interpretation": false,
+        "liturgical_grounding": false,
+        "machine_label_boundary": true,
+        "no_abuse_enabling_language": false,
+        "no_comparative_flattening": false,
+        "no_science_overclaim": false,
+        "no_unresolved_pastoral_harm": false,
+        "pastoral_safety": false,
+        "plain_language_public_summary": false,
+        "practical_use": true,
+        "promotion_restraint": false,
+        "scripture_anchor": false
+      },
+      "sidecar_paths": [],
+      "title": "Disenfranchised Grief: Ministry That Breaks the Silence"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "lane": "pattern_tests",
+      "machine_drafted_confidence_effect": "",
+      "machine_drafted_rules": [],
+      "machine_drafted_status": "",
+      "media_review_status": "text_reviewable",
+      "missing_rules": [
+        "interpretation",
+        "analogy",
+        "failure_condition",
+        "pastoral_safety",
+        "ecclesial_review",
+        "liturgical_grounding",
+        "promotion_restraint",
+        "scripture_anchor",
+        "doctrinal_fit",
+        "no_unresolved_pastoral_harm",
+        "no_abuse_enabling_language",
+        "no_science_overclaim",
+        "no_comparative_flattening",
+        "does_not_prove_boundary",
+        "plain_language_public_summary",
+        "final_promotion_restraint"
+      ],
+      "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/divine_presence_and_absence_a_theodicy_of_narrative_analytic_theology_630d8bd87f16.md",
       "patterns": [],
       "promotion_blockers": [
@@ -337342,16 +337880,16 @@
       "text_documents": 254
     },
     "cultural_inputs": {
-      "documents": 679,
+      "documents": 683,
       "media_assets": 0,
-      "review_notes": 679,
-      "text_documents": 679
+      "review_notes": 683,
+      "text_documents": 683
     },
     "deep_sources": {
-      "documents": 303,
+      "documents": 304,
       "media_assets": 0,
-      "review_notes": 320,
-      "text_documents": 303
+      "review_notes": 321,
+      "text_documents": 304
     },
     "history_inputs": {
       "documents": 267,
@@ -337378,10 +337916,10 @@
       "text_documents": 159
     },
     "pattern_tests": {
-      "documents": 207,
+      "documents": 208,
       "media_assets": 0,
-      "review_notes": 211,
-      "text_documents": 207
+      "review_notes": 212,
+      "text_documents": 208
     },
     "psychology_inputs": {
       "documents": 478,
@@ -337396,10 +337934,10 @@
       "text_documents": 647
     },
     "theologians": {
-      "documents": 583,
+      "documents": 585,
       "media_assets": 0,
-      "review_notes": 952,
-      "text_documents": 583
+      "review_notes": 954,
+      "text_documents": 585
     },
     "visual_art": {
       "documents": 408,
@@ -338420,150 +338958,150 @@
   "rule_coverage": {
     "analogy": {
       "machine_drafted": 0,
-      "missing": 3891,
+      "missing": 3899,
       "present": 1033,
       "review_companion": 976,
-      "total": 4924
+      "total": 4932
     },
     "counter_reading": {
       "machine_drafted": 1,
       "missing": 43,
-      "present": 4880,
+      "present": 4888,
       "review_companion": 0,
-      "total": 4924
+      "total": 4932
     },
     "discernment": {
       "machine_drafted": 0,
-      "missing": 2627,
-      "present": 2297,
+      "missing": 2632,
+      "present": 2300,
       "review_companion": 598,
-      "total": 4924
+      "total": 4932
     },
     "doctrinal_fit": {
       "machine_drafted": 0,
-      "missing": 4921,
+      "missing": 4929,
       "present": 3,
       "review_companion": 1,
-      "total": 4924
+      "total": 4932
     },
     "does_not_prove_boundary": {
       "machine_drafted": 0,
-      "missing": 4906,
+      "missing": 4914,
       "present": 18,
       "review_companion": 1,
-      "total": 4924
+      "total": 4932
     },
     "ecclesial_review": {
       "machine_drafted": 449,
-      "missing": 4465,
+      "missing": 4473,
       "present": 10,
       "review_companion": 2,
-      "total": 4924
+      "total": 4932
     },
     "evidence": {
       "machine_drafted": 2,
       "missing": 101,
-      "present": 4821,
+      "present": 4829,
       "review_companion": 0,
-      "total": 4924
+      "total": 4932
     },
     "failure_condition": {
       "machine_drafted": 1,
-      "missing": 3878,
+      "missing": 3886,
       "present": 1045,
       "review_companion": 932,
-      "total": 4924
+      "total": 4932
     },
     "final_promotion_restraint": {
       "machine_drafted": 0,
-      "missing": 4922,
+      "missing": 4930,
       "present": 2,
       "review_companion": 1,
-      "total": 4924
+      "total": 4932
     },
     "interpretation": {
       "machine_drafted": 2,
-      "missing": 3866,
+      "missing": 3874,
       "present": 1056,
       "review_companion": 993,
-      "total": 4924
+      "total": 4932
     },
     "liturgical_grounding": {
       "machine_drafted": 429,
-      "missing": 4437,
-      "present": 58,
+      "missing": 4443,
+      "present": 60,
       "review_companion": 2,
-      "total": 4924
+      "total": 4932
     },
     "machine_label_boundary": {
       "machine_drafted": 2,
       "missing": 170,
-      "present": 4752,
+      "present": 4760,
       "review_companion": 0,
-      "total": 4924
+      "total": 4932
     },
     "no_abuse_enabling_language": {
       "machine_drafted": 0,
-      "missing": 4922,
+      "missing": 4930,
       "present": 2,
       "review_companion": 1,
-      "total": 4924
+      "total": 4932
     },
     "no_comparative_flattening": {
       "machine_drafted": 0,
-      "missing": 4916,
+      "missing": 4924,
       "present": 8,
       "review_companion": 1,
-      "total": 4924
+      "total": 4932
     },
     "no_science_overclaim": {
       "machine_drafted": 0,
-      "missing": 4875,
+      "missing": 4883,
       "present": 49,
       "review_companion": 1,
-      "total": 4924
+      "total": 4932
     },
     "no_unresolved_pastoral_harm": {
       "machine_drafted": 0,
-      "missing": 4922,
+      "missing": 4930,
       "present": 2,
       "review_companion": 1,
-      "total": 4924
+      "total": 4932
     },
     "pastoral_safety": {
       "machine_drafted": 407,
-      "missing": 4447,
+      "missing": 4455,
       "present": 70,
       "review_companion": 3,
-      "total": 4924
+      "total": 4932
     },
     "plain_language_public_summary": {
       "machine_drafted": 0,
-      "missing": 4921,
+      "missing": 4929,
       "present": 3,
       "review_companion": 1,
-      "total": 4924
+      "total": 4932
     },
     "practical_use": {
       "machine_drafted": 0,
       "missing": 32,
-      "present": 4892,
+      "present": 4900,
       "review_companion": 0,
-      "total": 4924
+      "total": 4932
     },
     "promotion_restraint": {
       "machine_drafted": 441,
-      "missing": 4399,
-      "present": 84,
+      "missing": 4405,
+      "present": 86,
       "review_companion": 2,
-      "total": 4924
+      "total": 4932
     },
     "scripture_anchor": {
       "machine_drafted": 0,
-      "missing": 4919,
+      "missing": 4927,
       "present": 5,
       "review_companion": 1,
-      "total": 4924
+      "total": 4932
     }
   }
 }
