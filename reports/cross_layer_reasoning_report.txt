@@ -11,8 +11,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 Current Synthesis Status
 ------------------------
 Status: broad cross-layer synthesis
-Total documents across all lanes: 5,190
-Dedicated synthesis documents: 2,511
+Total documents across all lanes: 5,208
+Dedicated synthesis documents: 2,515
 Active divine-pattern layers: 9 of 9
 Active meaning contexts: 6 of 6
 Active synthesis lenses: 10 of 10
@@ -21,10 +21,10 @@ Coverage note: these are coverage-map signals. A language family or tradition is
 
 Interpretive Lenses
 -------------------
-- Psychological Process: 2,786
-- Counter-Reading: 2,533
-- Historical Context: 2,077
-- Language Semantics: 1,691
+- Psychological Process: 2,787
+- Counter-Reading: 2,538
+- Historical Context: 2,082
+- Language Semantics: 1,695
 - Embodied Practice: 844
 - Original-Language Witness: 790
 - Theological Resonance: 750
@@ -34,12 +34,12 @@ Interpretive Lenses
 
 Dedicated Synthesis Domains
 ---------------------------
-- Science And Discovery: 5,624
-- Global Text Traditions: 3,135
-- Psychology And Human Behavior: 2,875
+- Science And Discovery: 5,632
+- Global Text Traditions: 3,139
+- Psychology And Human Behavior: 2,876
 - Art And Beauty: 2,473
-- History And Memory: 2,323
-- World Languages: 1,915
+- History And Memory: 2,328
+- World Languages: 1,919
 - Politics And Justice: 1,036
 - Biblical Greek And Hebrew: 823
 - Visual Art And Iconography: 683
@@ -53,7 +53,7 @@ Dedicated Synthesis Domains
 Language Family Coverage
 ------------------------
 - Afro-Asiatic: mapped (338)
-- Indo-European: mapped (453)
+- Indo-European: mapped (454)
 - Sino-Tibetan: mapped (58)
 - Niger-Congo: mapped (53)
 - Austronesian: mapped (33)
@@ -74,40 +74,40 @@ Text Tradition Coverage
 - Sacred Scripture: mapped (302)
 - Wisdom And Proverbs: mapped (181)
 - Epic And Myth: mapped (60)
-- Philosophy And Ethics: mapped (155)
+- Philosophy And Ethics: mapped (156)
 - Law And Covenant: mapped (435)
 - Poetry And Lament: mapped (176)
 - Ritual And Liturgy: mapped (265)
-- History And Chronicle: mapped (1,239)
-- Oral Tradition And Folklore: mapped (610)
+- History And Chronicle: mapped (1,242)
+- Oral Tradition And Folklore: mapped (611)
 - Commentary And Interpretation: mapped (89)
 - Modern Literature: mapped (108)
 - Human Story And Testimony: mapped (594)
 
 Layer Convergence Across All Sources
 ------------------------------------
-- Physical Order: 10,997 (high internal signal)
-- Mathematical Structure: 8,866 (high internal signal)
-- Mathematical Theophany: 4,035 (high internal signal)
+- Physical Order: 11,030 (high internal signal)
+- Mathematical Structure: 8,896 (high internal signal)
+- Mathematical Theophany: 4,025 (high internal signal)
 - Quantum Probability: 230 (early signal)
-- Life And Consciousness: 21,477 (high internal signal)
-- Meaning And Logos: 27,295 (high internal signal)
-- Moral Response: 16,859 (high internal signal)
-- Worship And Community: 15,065 (high internal signal)
-- Transformation: 15,555 (high internal signal)
+- Life And Consciousness: 21,511 (high internal signal)
+- Meaning And Logos: 27,339 (high internal signal)
+- Moral Response: 16,899 (high internal signal)
+- Worship And Community: 15,089 (high internal signal)
+- Transformation: 15,594 (high internal signal)
 
 Meaning Movement Across All Sources
 -----------------------------------
-- Creation And Order: 11,115
-- Alienation And Lament: 2,675
-- Desire And Longing: 9,346
-- Moral Confrontation: 4,378
-- Communal Practice: 3,653
-- Transformation And Hope: 5,326
+- Creation And Order: 11,131
+- Alienation And Lament: 2,670
+- Desire And Longing: 9,361
+- Moral Confrontation: 4,372
+- Communal Practice: 3,651
+- Transformation And Hope: 5,322
 
 Synthesis Depth Results
 -----------------------
-- early synthesis signal: 1,207
+- early synthesis signal: 1,211
 - contextual interpretation: 594
 - lens detected but still word-heavy: 478
 - multi-lens understanding: 161
@@ -3919,10 +3919,10 @@ Synthesis questions:
 
 History
 -------
-Files: 267
-Strongest lens: Historical Context (1,504)
-Strongest layer: Moral Response (2,767)
-Strongest meaning context: Desire And Longing (304)
+Files: 268
+Strongest lens: Historical Context (1,509)
+Strongest layer: Moral Response (2,773)
+Strongest meaning context: Desire And Longing (305)
 
 05_28_23_sermon_piece_of_my_heart_rev_t_j_fitzgerald_da9f626e9591.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4183,6 +4183,16 @@ Synthesis questions:
 book_review_the_church_in_the_christian_roman_empire_591a46d2b1aa.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 134
+Meaning confidence: word-level signal only
+Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+- How does the pattern change when placed in its historical conflict, memory, and consequence?
+- What responsibility, justice, mercy, or repair does this pattern call for?
+
+book_review_the_irish_church_its_reform_and_the_english_invasion_f97eea2819c4.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 136
 Meaning confidence: word-level signal only
 Synthesis depth: early synthesis signal
 Global coverage: starter global coverage map
@@ -6694,10 +6704,10 @@ Synthesis questions:
 
 World Languages
 ---------------
-Files: 414
-Strongest lens: Language Semantics (908)
-Strongest layer: Meaning And Logos (3,115)
-Strongest meaning context: Creation And Order (1,359)
+Files: 417
+Strongest lens: Language Semantics (912)
+Strongest layer: Meaning And Logos (3,129)
+Strongest meaning context: Creation And Order (1,368)
 
 210_christian_tradition_ii_92318068a844.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -7705,6 +7715,15 @@ Synthesis depth: contextual interpretation
 Global coverage: starter global coverage map
 Synthesis questions:
 - What responsibility, justice, mercy, or repair does this pattern call for?
+
+eco_s_lingua_edenica_and_other_languages_a_biblical_theological_critique_of_umbe_d35920b5e8fe.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 145
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
 
 ecumenical_framework_in_mbiti_s_african_theology_9dc0599de799.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -8742,6 +8761,15 @@ Global coverage: no global-language coverage yet
 Synthesis questions:
 - What context beyond repeated words would make this interpretation stronger or weaker?
 
+metaphysics_through_semantics_the_philosophical_recovery_of_the_medieval_mind_92478c3c7e99.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 141
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: starter global coverage map
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
+
 mission_as_theological_education_is_christian_mission_history_coming_full_circle_4dbfad9b0ea5.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Words: 154
@@ -9432,6 +9460,15 @@ Synthesis depth: contextual interpretation
 Global coverage: no global-language coverage yet
 Synthesis questions:
 - What responsibility, justice, mercy, or repair does this pattern call for?
+
+the_circumcision_of_the_ear_the_multiple_meanings_of_a_metaphor_in_its_context_i_539d0f6cdef1.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Words: 150
+Meaning confidence: thin meaning signal
+Synthesis depth: early synthesis signal
+Global coverage: no global-language coverage yet
+Synthesis questions:
+- What context beyond repeated words would make this interpretation stronger or weaker?
 
 the_cognitive_function_of_a_conceptual_metaphor_and_its_methodological_foundatio_669cd1da2210.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 30220,
+  "edge_count": 30312,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -18585,17 +18585,7 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:promotion_restraint"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
       "target": "rule:machine_label_boundary"
-    },
-    {
-      "relation": "satisfies_or_mentions_rule",
-      "source": "doc:research_documents_daily_evaluation_queue_md",
-      "target": "rule:no_comparative_flattening"
     },
     {
       "relation": "belongs_to_lane",
@@ -31084,6 +31074,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_eco_s_lingua_edenica_and_other_languages_a_biblical_theological_critique_",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_eco_s_lingua_edenica_and_other_languages_a_biblical_theological_critique_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_eco_s_lingua_edenica_and_other_languages_a_biblical_theological_critique_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_eco_s_lingua_edenica_and_other_languages_a_biblical_theological_critique_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_eco_s_lingua_edenica_and_other_languages_a_biblical_theological_critique_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_ecumenical_framework_in_mbiti_s_african_theology_9dc0599de799_md",
       "target": "lane:world_languages"
     },
@@ -34324,6 +34339,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_metaphysics_through_semantics_the_philosophical_recovery_of_the_medieval_",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_metaphysics_through_semantics_the_philosophical_recovery_of_the_medieval_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_metaphysics_through_semantics_the_philosophical_recovery_of_the_medieval_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_metaphysics_through_semantics_the_philosophical_recovery_of_the_medieval_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_metaphysics_through_semantics_the_philosophical_recovery_of_the_medieval_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_mission_as_theological_education_is_christian_mission_history_coming_full",
       "target": "lane:world_languages"
     },
@@ -36485,6 +36525,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:world_languages_auto_imported_cloud_candidates_the_challenge_of_the_post_christendom_era_the_relation_of_christian_theol",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_circumcision_of_the_ear_the_multiple_meanings_of_a_metaphor_in_its_co",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_circumcision_of_the_ear_the_multiple_meanings_of_a_metaphor_in_its_co",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_circumcision_of_the_ear_the_multiple_meanings_of_a_metaphor_in_its_co",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_circumcision_of_the_ear_the_multiple_meanings_of_a_metaphor_in_its_co",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_circumcision_of_the_ear_the_multiple_meanings_of_a_metaphor_in_its_co",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -53104,6 +53169,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_aquinas_on_the_creative_act_and_god_s_relation_to_creation_0ad81b238348_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_aquinas_on_the_creative_act_and_god_s_relation_to_creation_0ad81b238348_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_aquinas_on_the_creative_act_and_god_s_relation_to_creation_0ad81b238348_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_aquinas_on_the_creative_act_and_god_s_relation_to_creation_0ad81b238348_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_aquinas_on_the_creative_act_and_god_s_relation_to_creation_0ad81b238348_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_archives_as_agents_of_accountability_and_justice_an_examination_of_the_nation",
       "target": "lane:theologians"
     },
@@ -63229,6 +63319,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_tgc_course_the_doctrine_of_the_trinity_3a93973bbfb8_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_tgc_course_the_doctrine_of_the_trinity_3a93973bbfb8_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_tgc_course_the_doctrine_of_the_trinity_3a93973bbfb8_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_tgc_course_the_doctrine_of_the_trinity_3a93973bbfb8_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_tgc_course_the_doctrine_of_the_trinity_3a93973bbfb8_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_tgc_course_the_doctrine_of_the_trinity_3a93973bbfb8_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_the_adventist_trinity_debate_part_1_historical_overview_4d539d4f67b1_md",
       "target": "lane:theologians"
     },
@@ -65330,6 +65450,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_the_pneumatic_experiences_of_the_indian_neocharismatics_1e3e11938ebb_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_power_of_sound_reflections_on_an_intervention_programme_to_develop_aspect",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_power_of_sound_reflections_on_an_intervention_programme_to_develop_aspect",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_power_of_sound_reflections_on_an_intervention_programme_to_develop_aspect",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_power_of_sound_reflections_on_an_intervention_programme_to_develop_aspect",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_power_of_sound_reflections_on_an_intervention_programme_to_develop_aspect",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_power_of_sound_reflections_on_an_intervention_programme_to_develop_aspect",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -69460,6 +69610,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_book_review_the_church_in_the_christian_roman_empire_591a46d2b1aa_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_book_review_the_irish_church_its_reform_and_the_english_invasion_f97eea281",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_book_review_the_irish_church_its_reform_and_the_english_invasion_f97eea281",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_book_review_the_irish_church_its_reform_and_the_english_invasion_f97eea281",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_book_review_the_irish_church_its_reform_and_the_english_invasion_f97eea281",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_book_review_the_irish_church_its_reform_and_the_english_invasion_f97eea281",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -90264,6 +90439,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_addressing_inequality_in_global_poverty_research_ethics_power_and_epistem",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_addressing_inequality_in_global_poverty_research_ethics_power_and_epistem",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_addressing_inequality_in_global_poverty_research_ethics_power_and_epistem",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_addressing_inequality_in_global_poverty_research_ethics_power_and_epistem",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_addressing_inequality_in_global_poverty_research_ethics_power_and_epistem",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_addressing_the_critical_challenge_of_ai_bias_through_empathy_46e0c3c3bc65",
       "target": "lane:cultural_inputs"
     },
@@ -91870,6 +92070,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_bibliography_6f476b57f601_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_bibliography_d4e264324fbe_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_bibliography_d4e264324fbe_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_bibliography_d4e264324fbe_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_bibliography_d4e264324fbe_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_bibliography_d4e264324fbe_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -96369,6 +96594,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_of_telerehabilitation_in_supportive_cancer_care_through_a_responsi",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_of_telerehabilitation_in_supportive_cancer_care_through_a_responsi",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_of_telerehabilitation_in_supportive_cancer_care_through_a_responsi",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_of_telerehabilitation_in_supportive_cancer_care_through_a_responsi",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_of_telerehabilitation_in_supportive_cancer_care_through_a_responsi",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_of_the_attention_economy_the_problem_of_social_media_addiction_50e",
       "target": "lane:cultural_inputs"
     },
@@ -97955,6 +98205,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_health_providers_reasons_for_participating_in_abortion_care_a_scoping_rev",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_heaven_is_empty_a_cross_cultural_approach_to_religion_and_human_agency_in",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_heaven_is_empty_a_cross_cultural_approach_to_religion_and_human_agency_in",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_heaven_is_empty_a_cross_cultural_approach_to_religion_and_human_agency_in",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_heaven_is_empty_a_cross_cultural_approach_to_religion_and_human_agency_in",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_heaven_is_empty_a_cross_cultural_approach_to_religion_and_human_agency_in",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -99399,6 +99674,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_intercultural_pathways_to_indigenous_mental_health_the_integration_of_aya",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_intercultural_pathways_to_indigenous_mental_health_the_integration_of_aya",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_intercultural_pathways_to_indigenous_mental_health_the_integration_of_aya",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_intercultural_pathways_to_indigenous_mental_health_the_integration_of_aya",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_intercultural_pathways_to_indigenous_mental_health_the_integration_of_aya",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_interpreting_the_public_accountants_code_of_ethics_from_the_perspective_o",
       "target": "lane:cultural_inputs"
     },
@@ -102714,6 +103014,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_professional_values_in_nursing_a_comparative_study_between_brazilian_and_",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_professional_values_in_nursing_a_comparative_study_between_brazilian_and_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_professional_values_in_nursing_a_comparative_study_between_brazilian_and_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_professional_values_in_nursing_a_comparative_study_between_brazilian_and_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_professional_values_in_nursing_a_comparative_study_between_brazilian_and_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_promoting_voices_of_people_with_dementia_examining_barriers_to_participat",
       "target": "lane:cultural_inputs"
     },
@@ -105380,6 +105705,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_st_paul_among_the_criminologists_08080b1c8771_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_starting_from_the_margins_liberation_theology_as_a_framework_for_ethical_",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_starting_from_the_margins_liberation_theology_as_a_framework_for_ethical_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_starting_from_the_margins_liberation_theology_as_a_framework_for_ethical_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_starting_from_the_margins_liberation_theology_as_a_framework_for_ethical_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_starting_from_the_margins_liberation_theology_as_a_framework_for_ethical_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -107589,6 +107939,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_socialist_sacred_atheism_religion_and_mass_culture_in_romania_1948_19",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_socialist_sacred_atheism_religion_and_mass_culture_in_romania_1948_19",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_socialist_sacred_atheism_religion_and_mass_culture_in_romania_1948_19",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_socialist_sacred_atheism_religion_and_mass_culture_in_romania_1948_19",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_socialist_sacred_atheism_religion_and_mass_culture_in_romania_1948_19",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_ss_ideology_and_ethics_1cf86360aaf1_md",
       "target": "lane:cultural_inputs"
     },
@@ -107660,6 +108035,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_transformation_of_land_tenure_in_lesotho_494f7987d563_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_unconstitutionality_of_religious_vilification_laws_in_australia_why_r",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_unconstitutionality_of_religious_vilification_laws_in_australia_why_r",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_unconstitutionality_of_religious_vilification_laws_in_australia_why_r",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_unconstitutionality_of_religious_vilification_laws_in_australia_why_r",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_unconstitutionality_of_religious_vilification_laws_in_australia_why_r",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -148364,6 +148764,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_sundays_kingdom_of_god_pt2_the_now_and_the_not_yet_05_07_2026_talk_only_dea",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_sundays_kingdom_of_god_pt2_the_now_and_the_not_yet_05_07_2026_talk_only_dea",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_sundays_kingdom_of_god_pt2_the_now_and_the_not_yet_05_07_2026_talk_only_dea",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_sundays_kingdom_of_god_pt2_the_now_and_the_not_yet_05_07_2026_talk_only_dea",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_sundays_kingdom_of_god_pt2_the_now_and_the_not_yet_05_07_2026_talk_only_dea",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_sundays_kingdom_of_god_pt2_the_now_and_the_not_yet_05_07_2026_talk_only_dea",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_sustaining_lamentation_in_traumatic_grief_through_the_contemporary_ac0faceb",
       "target": "lane:pattern_tests"
     },
@@ -149545,6 +149975,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_trans_generational_trauma_and_tribal_conflict_among_amandebele_and_vashona_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_transcendent_human_experience_as_christian_prayer_c15f893af536_md",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_transcendent_human_experience_as_christian_prayer_c15f893af536_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_transcendent_human_experience_as_christian_prayer_c15f893af536_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_transcendent_human_experience_as_christian_prayer_c15f893af536_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_transcendent_human_experience_as_christian_prayer_c15f893af536_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_transcendent_human_experience_as_christian_prayer_c15f893af536_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -151104,7 +151564,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 4955,
+  "node_count": 4972,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -162388,6 +162848,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_eco_s_lingua_edenica_and_other_languages_a_biblical_theological_critique_",
+      "label": "Eco\u2019s Lingua Edenica and \u201cOther Languages\u201d: A Biblical-Theological Critique of Umberto Eco\u2019s Semiotics",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/eco_s_lingua_edenica_and_other_languages_a_biblical_theological_critique_of_umbe_d35920b5e8fe.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_ecumenical_framework_in_mbiti_s_african_theology_9dc0599de799_md",
       "label": "ecumenical framework in Mbiti\u2019s African theology",
       "lane": "world_languages",
@@ -163620,6 +164091,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_metaphysics_through_semantics_the_philosophical_recovery_of_the_medieval_",
+      "label": "Metaphysics Through Semantics: The Philosophical Recovery of the Medieval Mind",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/metaphysics_through_semantics_the_philosophical_recovery_of_the_medieval_mind_92478c3c7e99.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_mission_as_theological_education_is_christian_mission_history_coming_full",
       "label": "Mission as theological education: Is Christian mission history coming full circle? A German-South African case study",
       "lane": "world_languages",
@@ -164451,6 +164933,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "world_languages/auto_imported_cloud_candidates/the_challenge_of_the_post_christendom_era_the_relation_of_christian_theology_to_a887fc2d6399.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_the_circumcision_of_the_ear_the_multiple_meanings_of_a_metaphor_in_its_co",
+      "label": "THE CIRCUMCISION OF THE EAR: THE MULTIPLE MEANINGS OF A METAPHOR IN ITS CONTEXT IN SECOND TEMPLE AND EARLY CHRISTIAN TEXTS",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/the_circumcision_of_the_ear_the_multiple_meanings_of_a_metaphor_in_its_context_i_539d0f6cdef1.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -170352,6 +170845,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_aquinas_on_the_creative_act_and_god_s_relation_to_creation_0ad81b238348_md",
+      "label": "Aquinas on the Creative Act and God's Relation to Creation",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/aquinas_on_the_creative_act_and_god_s_relation_to_creation_0ad81b238348.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_archives_as_agents_of_accountability_and_justice_an_examination_of_the_nation",
       "label": "ARCHIVES AS AGENTS OF ACCOUNTABILITY AND JUSTICE: AN EXAMINATION OF THE NATIONAL SECURITY ARCHIVE IN THE CONTEXT OF TRANSITIONAL JUSTICE IN LATIN AMERICA",
       "lane": "theologians",
@@ -174169,6 +174673,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_tgc_course_the_doctrine_of_the_trinity_3a93973bbfb8_md",
+      "label": "TGC Course | The Doctrine of the Trinity",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/tgc_course_the_doctrine_of_the_trinity_3a93973bbfb8.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_the_adventist_trinity_debate_part_1_historical_overview_4d539d4f67b1_md",
       "label": "The Adventist Trinity Debate - Part 1: Historical Overview",
       "lane": "theologians",
@@ -174956,6 +175471,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/the_pneumatic_experiences_of_the_indian_neocharismatics_1e3e11938ebb.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_the_power_of_sound_reflections_on_an_intervention_programme_to_develop_aspect",
+      "label": "The power of sound: reflections on an intervention programme to develop aspects of mindfulness",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/the_power_of_sound_reflections_on_an_intervention_programme_to_develop_aspects_o_66a8eacb623e.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -176441,6 +176967,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "history_inputs/auto_imported_cloud_candidates/book_review_the_church_in_the_christian_roman_empire_591a46d2b1aa.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_book_review_the_irish_church_its_reform_and_the_english_invasion_f97eea281",
+      "label": "Book Review: The Irish Church, Its Reform and the English Invasion",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/book_review_the_irish_church_its_reform_and_the_english_invasion_f97eea2819c4.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -183860,6 +184397,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_addressing_inequality_in_global_poverty_research_ethics_power_and_epistem",
+      "label": "Addressing Inequality in Global Poverty Research: Ethics, Power, and Epistemic Justice",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/addressing_inequality_in_global_poverty_research_ethics_power_and_epistemic_just_1e7b5d1f1ae6.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_addressing_the_critical_challenge_of_ai_bias_through_empathy_46e0c3c3bc65",
       "label": "Addressing the Critical Challenge of AI Bias Through Empathy",
       "lane": "cultural_inputs",
@@ -184416,6 +184964,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/bibliography_6f476b57f601.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_bibliography_d4e264324fbe_md",
+      "label": "Bibliography",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/bibliography_d4e264324fbe.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -186049,6 +186608,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_of_telerehabilitation_in_supportive_cancer_care_through_a_responsi",
+      "label": "Ethics of Telerehabilitation in Supportive Cancer Care Through a Responsible Innovation Lens.",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/ethics_of_telerehabilitation_in_supportive_cancer_care_through_a_responsible_inn_92bd2f056f2e.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_ethics_of_the_attention_economy_the_problem_of_social_media_addiction_50e",
       "label": "Ethics of the Attention Economy: The Problem of Social Media Addiction",
       "lane": "cultural_inputs",
@@ -186643,6 +187213,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_heaven_is_empty_a_cross_cultural_approach_to_religion_and_human_agency_in",
+      "label": "Heaven is Empty: A Cross-Cultural Approach to Religion and Human Agency in Early Imperial China",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/heaven_is_empty_a_cross_cultural_approach_to_religion_and_human_agency_in_early_d327283f1f59.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_here_there_and_everywhere_human_dignity_in_contemporary_law_and_in_the_tr",
       "label": "'Here, There and Everywhere': Human Dignity in Contemporary Law and in the Transnational Discourse",
       "lane": "cultural_inputs",
@@ -187188,6 +187769,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/institutional_anthropomorphic_error_0743b4e62a09.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_intercultural_pathways_to_indigenous_mental_health_the_integration_of_aya",
+      "label": "Intercultural pathways to indigenous mental health: the integration of ayahuasca in community care in the Yaqui intercultural medicine clinic in Sonora, Mexico",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/intercultural_pathways_to_indigenous_mental_health_the_integration_of_ayahuasca_7075acf57d08.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -188430,7 +189022,7 @@
       "lane": "cultural_inputs",
       "media_review_status": "text_reviewable",
       "modality": "text",
-      "path": "cultural_inputs/auto_imported_cloud_candidates/professional_values_in_nursing_a_comparative_study_between_brazilian_and_albania_2a05c2d7e760.md",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/professional_values_in_nursing_a_comparative_study_between_brazilian_and_albania_3b1965b607b5.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -189492,6 +190084,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_starting_from_the_margins_liberation_theology_as_a_framework_for_ethical_",
+      "label": "Starting from the margins: Liberation theology as a framework for ethical AI in higher education Authors",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/starting_from_the_margins_liberation_theology_as_a_framework_for_ethical_ai_in_h_a39b54d0d547.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_states_and_ontological_security_a_historical_rethinking_e7cc28c5fffa_md",
       "label": "States and ontological security: A historical rethinking",
       "lane": "cultural_inputs",
@@ -190317,6 +190920,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_the_socialist_sacred_atheism_religion_and_mass_culture_in_romania_1948_19",
+      "label": "The socialist sacred: atheism, religion, and mass culture in Romania, 1948-1989",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/the_socialist_sacred_atheism_religion_and_mass_culture_in_romania_1948_1989_3483dfbcd01c.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_the_ss_ideology_and_ethics_1cf86360aaf1_md",
       "label": "The SS: Ideology and Ethics",
       "lane": "cultural_inputs",
@@ -190345,6 +190959,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/the_transformation_of_land_tenure_in_lesotho_494f7987d563.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_the_unconstitutionality_of_religious_vilification_laws_in_australia_why_r",
+      "label": "The Unconstitutionality of Religious Vilification Laws in Australia: Why Religious Vilification Laws are Contrary to the Implied Freedom of Political Communication Affirmed in the Australian Constitution",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/the_unconstitutionality_of_religious_vilification_laws_in_australia_why_religiou_837d637d7155.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -204518,6 +205143,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_sundays_kingdom_of_god_pt2_the_now_and_the_not_yet_05_07_2026_talk_only_dea",
+      "label": "Sundays // Kingdom of God pt2 - The Now and The Not Yet // 05.07.2026 // Talk Only",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/sundays_kingdom_of_god_pt2_the_now_and_the_not_yet_05_07_2026_talk_only_deaa6758ae6b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_sustaining_lamentation_in_traumatic_grief_through_the_contemporary_ac0faceb",
       "label": "\"Sustaining Lamentation in Traumatic Grief Through the Contemporary ...",
       "lane": "pattern_tests",
@@ -204898,6 +205534,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/trans_generational_trauma_and_tribal_conflict_among_amandebele_and_vashona_pente_06ec45b2433d.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_transcendent_human_experience_as_christian_prayer_c15f893af536_md",
+      "label": "Transcendent human experience as Christian prayer",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/transcendent_human_experience_as_christian_prayer_c15f893af536.md",
       "review_note_count": 1,
       "type": "document"
     },
