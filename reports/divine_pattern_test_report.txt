@@ -13,14 +13,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 213
-Test words analyzed: 32,169
+Test documents analyzed: 214
+Test words analyzed: 32,312
 
 Pressure Types
 --------------
-- Science Guardrail: 427
-- Suffering Without Resolution: 369
-- Counterexample Pressure: 207
+- Science Guardrail: 429
+- Suffering Without Resolution: 371
+- Counterexample Pressure: 208
 - Injustice And Corruption: 70
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 37
@@ -30,20 +30,20 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 460
-- Primary Or Classical Source: 189
+- Scholarly Or Scientific Source: 462
+- Primary Or Classical Source: 190
 - Practical Lived Source: 104
 - Speculative Source: 3
 
 Confidence Results
 ------------------
 - needs deeper review but still plausible: 118
-- resilient under pressure: 95
+- resilient under pressure: 96
 
 Hold Assessment
 ---------------
 - not enough friction to judge hold: 116
-- pressure present but hold question is underdeveloped: 86
+- pressure present but hold question is underdeveloped: 87
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
 - holds under added friction: 1
@@ -52,26 +52,26 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 1,046 | research corpus 7,198
-- Son: test set 34 | research corpus 6,822
+- Father: test set 1,051 | research corpus 7,231
+- Son: test set 35 | research corpus 6,832
 - Holy Spirit: test set 50 | research corpus 1,858
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 56 | research corpus 2,692
+- Physical Order: test set 56 | research corpus 2,691
 - Mathematical Structure: test set 18 | research corpus 658
-- Mathematical Theophany: test set 522 | research corpus 1,308
-- Quantum Probability: test set 25 | research corpus 182
-- Life And Consciousness: test set 616 | research corpus 6,975
-- Meaning And Logos: test set 44 | research corpus 6,156
-- Moral Response: test set 56 | research corpus 2,505
-- Worship And Community: test set 110 | research corpus 1,641
-- Transformation: test set 66 | research corpus 2,230
+- Mathematical Theophany: test set 524 | research corpus 1,321
+- Quantum Probability: test set 25 | research corpus 176
+- Life And Consciousness: test set 619 | research corpus 7,009
+- Meaning And Logos: test set 44 | research corpus 6,181
+- Moral Response: test set 56 | research corpus 2,521
+- Worship And Community: test set 110 | research corpus 1,652
+- Transformation: test set 66 | research corpus 2,229
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 547
-- Desire And Longing: 223
+- Creation And Order: 549
+- Desire And Longing: 224
 - Alienation And Lament: 93
 - Communal Practice: 91
 - Transformation And Hope: 69
@@ -1106,6 +1106,26 @@ Pressure signals:
 Meaning arc:
 - Opening: Creation And Order (2)
 - Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+christ_and_cancer_trauma_as_hermeneutics_e89b9cbedc8e.md
+--------------------------------------------------------
+Words: 143
+Meaning confidence: thin meaning signal
+Test confidence: resilient under pressure
+Hold assessment: pressure present but hold question is underdeveloped
+Pressure signals:
+- Suffering Without Resolution: 2
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 Recommendations:
 - Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
