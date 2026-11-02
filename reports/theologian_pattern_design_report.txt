@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 618
-Total theologian words analyzed: 110,169
+Theologian documents analyzed: 620
+Total theologian words analyzed: 110,496
 
 Era Coverage
 ------------
@@ -21,7 +21,7 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 508
+- Trinity: 509
 - Pneumatology: 375
 - Christology: 332
 - Theodicy And Suffering: 289
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 3,542
+- Father: 3,553
 - Son: 432
 - Holy Spirit: 719
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 198 | broader corpus 2,690
-- Mathematical Structure: theologians 4 | broader corpus 651
-- Mathematical Theophany: theologians 448 | broader corpus 1,290
+- Physical Order: theologians 198 | broader corpus 2,688
+- Mathematical Structure: theologians 4 | broader corpus 652
+- Mathematical Theophany: theologians 450 | broader corpus 1,280
 - Quantum Probability: theologians 2 | broader corpus 175
-- Life And Consciousness: theologians 1,628 | broader corpus 7,011
-- Meaning And Logos: theologians 163 | broader corpus 6,178
-- Moral Response: theologians 146 | broader corpus 2,515
-- Worship And Community: theologians 309 | broader corpus 1,648
-- Transformation: theologians 702 | broader corpus 2,235
+- Life And Consciousness: theologians 1,633 | broader corpus 6,984
+- Meaning And Logos: theologians 163 | broader corpus 6,131
+- Moral Response: theologians 146 | broader corpus 2,500
+- Worship And Community: theologians 309 | broader corpus 1,632
+- Transformation: theologians 702 | broader corpus 2,225
 
 Per-Source Findings
 -------------------
@@ -4716,6 +4716,17 @@ Meaning arc:
 - Middle: Desire And Longing (2)
 - Ending: Creation And Order (0)
 
+the_act_of_pilgrimage_07e0f02a0b60.md
+-------------------------------------
+Words: 186
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (0)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (1)
+
 the_adventist_trinity_debate_part_1_historical_overview_4d539d4f67b1.md
 -----------------------------------------------------------------------
 Words: 140
@@ -5492,6 +5503,17 @@ Words: 143
 Strongest era signal: Patristic (0)
 Strongest concept signal: Pneumatology (1)
 Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_paradigm_shift_of_practical_theology_and_theological_practice_to_overcome_mo_91cb9c3e4ba0.md
+------------------------------------------------------------------------------------------------
+Words: 141
+Strongest era signal: Patristic (0)
+Strongest concept signal: Trinity (1)
+Meaning confidence: word-level signal only
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
