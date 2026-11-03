@@ -26,8 +26,8 @@
       "name": "City of God",
       "author": "Augustine",
       "category": "political-theology",
-      "drafted": false,
-      "draftFile": ""
+      "drafted": true,
+      "draftFile": "divineCore/drafts/augustine-city-of-god.json"
     },
     {
       "name": "Summa Theologica",
