@@ -13,14 +13,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 218
-Test words analyzed: 32,900
+Test documents analyzed: 219
+Test words analyzed: 33,040
 
 Pressure Types
 --------------
-- Science Guardrail: 437
-- Suffering Without Resolution: 376
-- Counterexample Pressure: 212
+- Science Guardrail: 439
+- Suffering Without Resolution: 377
+- Counterexample Pressure: 213
 - Injustice And Corruption: 70
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 37
@@ -30,19 +30,19 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 470
-- Primary Or Classical Source: 194
+- Scholarly Or Scientific Source: 472
+- Primary Or Classical Source: 195
 - Practical Lived Source: 105
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- needs deeper review but still plausible: 121
+- needs deeper review but still plausible: 122
 - resilient under pressure: 97
 
 Hold Assessment
 ---------------
-- not enough friction to judge hold: 119
+- not enough friction to judge hold: 120
 - pressure present but hold question is underdeveloped: 88
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
@@ -52,27 +52,27 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 1,072 | research corpus 7,331
-- Son: test set 35 | research corpus 6,827
-- Holy Spirit: test set 50 | research corpus 1,857
+- Father: test set 1,077 | research corpus 7,361
+- Son: test set 35 | research corpus 6,829
+- Holy Spirit: test set 50 | research corpus 1,864
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 57 | research corpus 2,689
-- Mathematical Structure: test set 18 | research corpus 654
-- Mathematical Theophany: test set 532 | research corpus 1,322
-- Quantum Probability: test set 25 | research corpus 198
-- Life And Consciousness: test set 632 | research corpus 7,045
-- Meaning And Logos: test set 44 | research corpus 6,186
-- Moral Response: test set 56 | research corpus 2,516
+- Physical Order: test set 57 | research corpus 2,688
+- Mathematical Structure: test set 18 | research corpus 661
+- Mathematical Theophany: test set 534 | research corpus 1,314
+- Quantum Probability: test set 25 | research corpus 183
+- Life And Consciousness: test set 635 | research corpus 7,057
+- Meaning And Logos: test set 44 | research corpus 6,180
+- Moral Response: test set 56 | research corpus 2,504
 - Worship And Community: test set 113 | research corpus 1,648
-- Transformation: test set 67 | research corpus 2,225
+- Transformation: test set 67 | research corpus 2,231
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 558
-- Desire And Longing: 228
-- Alienation And Lament: 93
+- Creation And Order: 560
+- Desire And Longing: 229
+- Alienation And Lament: 94
 - Communal Practice: 93
 - Transformation And Hope: 71
 - Moral Confrontation: 52
@@ -3136,6 +3136,26 @@ Recommendations:
 jesus_prayer_anxiety_and_the_puzzle_of_the_thief_da6982da48eb.md
 ----------------------------------------------------------------
 Words: 138
+Meaning confidence: plausible meaning pattern
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+lament_informed_preaching_for_the_present_age_da99109496ec.md
+-------------------------------------------------------------
+Words: 140
 Meaning confidence: plausible meaning pattern
 Test confidence: needs deeper review but still plausible
 Hold assessment: not enough friction to judge hold
