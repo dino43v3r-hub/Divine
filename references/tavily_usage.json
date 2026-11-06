@@ -5687,6 +5687,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-11-06": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "religious conversion dreams visions Jesus testimonies comparative religion research",
+          "searched_at": "2026-11-06T20:16:29.671455+00:00",
+          "tag": "interreligious_dream_testimony"
+        },
+        {
+          "credits_used": 1,
+          "query": "dreams visions conversion testimony Christianity anthropology religion",
+          "searched_at": "2026-11-06T20:16:36.576765+00:00",
+          "tag": "interreligious_dream_testimony"
+        },
+        {
+          "credits_used": 1,
+          "query": "gifts of the Holy Spirit global Christianity Pentecostal charismatic anthropology",
+          "searched_at": "2026-11-06T20:16:42.392979+00:00",
+          "tag": "holy_spirit_gifts_global"
+        },
+        {
+          "credits_used": 1,
+          "query": "spiritual gifts healing prophecy tongues discernment cross cultural Christianity",
+          "searched_at": "2026-11-06T20:16:48.585537+00:00",
+          "tag": "holy_spirit_gifts_global"
+        },
+        {
+          "credits_used": 1,
+          "query": "charismatic gifts world Christianity interreligious discernment spiritual experiences",
+          "searched_at": "2026-11-06T20:16:55.021936+00:00",
+          "tag": "holy_spirit_gifts_global"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }

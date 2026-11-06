@@ -10,9 +10,9 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Music-note files analyzed: 253
-Note/chord events analyzed: 515
-Individual notes analyzed: 549
+Music-note files analyzed: 256
+Note/chord events analyzed: 518
+Individual notes analyzed: 552
 Intervals analyzed: 316
 Consonance ratio: 79.75%
 Tension ratio: 20.25%
@@ -42,36 +42,36 @@ Science And Math Relationships
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 1,283
+- Father: 1,298
 - Son: 3
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 283
-- Creation And Order: 78
+- Desire And Longing: 286
+- Creation And Order: 79
 - Communal Practice: 16
-- Transformation And Hope: 13
+- Transformation And Hope: 14
 - Alienation And Lament: 3
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: music notes 316 | religious/science corpus 2,688
-- Mathematical Structure: music notes 509 | religious/science corpus 661
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,314
-- Quantum Probability: music notes 0 | religious/science corpus 183
-- Life And Consciousness: music notes 0 | religious/science corpus 7,057
-- Meaning And Logos: music notes 178 | religious/science corpus 6,180
-- Moral Response: music notes 0 | religious/science corpus 2,504
-- Worship And Community: music notes 16 | religious/science corpus 1,648
-- Transformation: music notes 64 | religious/science corpus 2,231
+- Physical Order: music notes 316 | religious/science corpus 2,691
+- Mathematical Structure: music notes 509 | religious/science corpus 655
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,285
+- Quantum Probability: music notes 0 | religious/science corpus 181
+- Life And Consciousness: music notes 0 | religious/science corpus 7,040
+- Meaning And Logos: music notes 178 | religious/science corpus 6,168
+- Moral Response: music notes 0 | religious/science corpus 2,501
+- Worship And Community: music notes 16 | religious/science corpus 1,646
+- Transformation: music notes 64 | religious/science corpus 2,236
 
 Relevant Research Domains
 -------------------------
-- Philosophy Of Mathematics: corpus signal 573
+- Philosophy Of Mathematics: corpus signal 568
 - Physics And Quantum Mechanics: corpus signal 1,454
-- Philosophy Of Science: corpus signal 2,874
-- Cognitive Science: corpus signal 1,067
+- Philosophy Of Science: corpus signal 2,875
+- Cognitive Science: corpus signal 1,056
 - Anthropology And Psychology Of Worship: corpus signal 854
 
 Per-Composition Findings
@@ -2166,6 +2166,29 @@ Meaning arc:
 Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 
+ancient_harmony_for_a_new_order_mesmerism_music_and_timaeus_of_locri_f963c5e2969a.md
+------------------------------------------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: plausible meaning pattern
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Creation And Order (1)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+
 auditory_nerve_responses_predict_pitch_attributes_related_to_musical_consonance_171ba9fec114.md
 -----------------------------------------------------------------------------------------------
 Events: 1
@@ -4151,6 +4174,27 @@ Practical theology applications:
 - Practice attentiveness: notice order, beauty, limits, and responsibility in ordinary work, nature, technology, and relationships.
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 
+music_perception_processing_and_therapy_in_infants_and_older_adults_b168b84971cc.md
+-----------------------------------------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
 music_science_58c7b8aa14d4.md
 -----------------------------
 Events: 1
@@ -4702,6 +4746,27 @@ Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 
 real_time_analysis_of_sensory_dissonance_932b1c783624.md
+--------------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+real_time_analysis_of_sensory_dissonance_efba8537d690.md
 --------------------------------------------------------
 Events: 1
 Notes: 1
