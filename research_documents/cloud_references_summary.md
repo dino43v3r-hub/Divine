@@ -88,7 +88,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 7878
+- Corroborating routed candidates: 7880
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12239927
 
 In translation studies, insights into cultural metaphors could enhance translation accuracy and
@@ -171,7 +171,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 9019
+- Corroborating routed candidates: 9033
 - URL: https://doi.org/10.12697/sss.2006.34.1.07
 
 OpenAlex abstract metadata available.
@@ -383,7 +383,7 @@ Community-l
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 7671
+- Corroborating routed candidates: 7673
 - URL: https://doi.org/10.3390/languages4040077
 
 The study of metaphorization processes in scientific texts is essential in terminological studies
@@ -449,7 +449,7 @@ sense to be
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 6193
+- Corroborating routed candidates: 6195
 - URL: https://doi.org/10.30819/4701
 
 OpenAlex abstract metadata available.
@@ -467,7 +467,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 5280
+- Corroborating routed candidates: 5281
 - URL: https://www.euppublishing.com/doi/10.3366/tal.2011.0030
 
 The introduction reviews highpoints in the long history of discussions of metaphor and translation,
@@ -594,7 +594,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 5279
+- Corroborating routed candidates: 5280
 - URL: https://doi.org/10.46362/ijr.v8i2.74
 
 OpenAlex abstract metadata available.
@@ -730,7 +730,7 @@ No summary available in metadata.
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 7113
+- Corroborating routed candidates: 7115
 - URL: https://esiculture.com/index.php/esiculture/article/view/3076
 
 OpenAlex abstract metadata available.
@@ -947,7 +947,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 6194
+- Corroborating routed candidates: 6196
 - URL: https://www.tandfonline.com/doi/full/10.1080/0048721X.2019.1635332
 
 translation involves comparative moves across linguistic and sacred domains, the work of translation
@@ -966,7 +966,7 @@ translation involves comparative moves across linguistic and sacred domains, the
 - Auto review approval: approved_for_review_queue
 - Auto approval scope: routing_and_queue_only_not_claim_confidence
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 5279
+- Corroborating routed candidates: 5280
 - URL: https://doi.org/10.4324/9781315753638-5
 
 No summary available in metadata.
@@ -1081,7 +1081,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 7429
+- Corroborating routed candidates: 7443
 - URL: https://discourse.biologos.org/t/translation-literal-meaning-and-the-search-for-better-metaphors/3227
 
 # Translation, "literal meaning," and the search for better metaphors Powered by Discourse, best
@@ -1258,7 +1258,7 @@ OpenAlex abstract metadata available.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 6990
+- Corroborating routed candidates: 6991
 - URL: https://vananservices.com/blog/why-sacred-text-translation-requires-more-language-knowledge
 
 The Assumption of Mary, observed on August 15, offers a clear example of why sacred text translation
@@ -1320,7 +1320,7 @@ No summary available in metadata.
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 7556
+- Corroborating routed candidates: 7560
 - URL: https://vocal.media/education/words-that-changed-history-famous-translation-errors-that-shaped-our-world
 
 Language barriers have shaped civilization in unexpected ways. When words cross linguistic
@@ -1518,7 +1518,7 @@ English and Chinese metaphors hold the same semantic meaning, but have different
 - Auto review approval: not_auto_approved
 - Auto approval scope: manual_review_required
 - Confidence effect: none_until_human_review
-- Corroborating routed candidates: 6354
+- Corroborating routed candidates: 6357
 - URL: https://surface.syr.edu/cgi/viewcontent.cgi?article=1111&context=rel
 
 Religious language amplifies this effect through beliefs that a deity or ultimate reality can
