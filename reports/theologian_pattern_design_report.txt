@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 655
-Total theologian words analyzed: 115,741
+Theologian documents analyzed: 660
+Total theologian words analyzed: 116,463
 
 Era Coverage
 ------------
@@ -22,32 +22,32 @@ Era Coverage
 Concept Coverage
 ----------------
 - Trinity: 538
-- Pneumatology: 386
+- Pneumatology: 391
 - Christology: 345
 - Theodicy And Suffering: 299
 - Creation: 207
-- Church And Practice: 173
+- Church And Practice: 174
 - Grace And Transformation: 141
-- Justice And Public Life: 126
+- Justice And Public Life: 127
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 3,736
+- Father: 3,761
 - Son: 445
-- Holy Spirit: 740
+- Holy Spirit: 751
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 201 | broader corpus 2,690
-- Mathematical Structure: theologians 6 | broader corpus 661
-- Mathematical Theophany: theologians 453 | broader corpus 1,279
-- Quantum Probability: theologians 2 | broader corpus 191
-- Life And Consciousness: theologians 1,710 | broader corpus 7,012
-- Meaning And Logos: theologians 165 | broader corpus 6,122
-- Moral Response: theologians 146 | broader corpus 2,488
-- Worship And Community: theologians 312 | broader corpus 1,626
-- Transformation: theologians 717 | broader corpus 2,224
+- Physical Order: theologians 201 | broader corpus 2,688
+- Mathematical Structure: theologians 6 | broader corpus 655
+- Mathematical Theophany: theologians 453 | broader corpus 1,302
+- Quantum Probability: theologians 2 | broader corpus 180
+- Life And Consciousness: theologians 1,725 | broader corpus 7,054
+- Meaning And Logos: theologians 165 | broader corpus 6,168
+- Moral Response: theologians 147 | broader corpus 2,512
+- Worship And Community: theologians 312 | broader corpus 1,644
+- Transformation: theologians 723 | broader corpus 2,230
 
 Per-Source Findings
 -------------------
@@ -4320,6 +4320,17 @@ Meaning arc:
 - Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
+prophetic_preaching_in_neo_pentecostal_christianity_during_the_socio_economic_an_32372d4af3f3.md
+------------------------------------------------------------------------------------------------
+Words: 149
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 questioning_traumatic_heritage_180866d7756c.md
 ----------------------------------------------
 Words: 188
@@ -5585,6 +5596,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+the_liturgy_of_deliverance_ministry_in_mopani_0c0fa53a8762.md
+-------------------------------------------------------------
+Words: 141
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 the_lord_and_giver_of_life_the_person_and_work_of_the_holy_spirit_in_the_trinita_d89dd9f63f06.md
 ------------------------------------------------------------------------------------------------
 Words: 144
@@ -5838,6 +5860,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+the_pentecostal_theologian_3585f8d573de.md
+------------------------------------------
+Words: 142
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 the_personhood_of_the_holy_spirit_and_why_it_matters_b8df86daa95e.md
 --------------------------------------------------------------------
 Words: 136
@@ -5989,6 +6022,28 @@ Strongest concept signal: Pneumatology (2)
 Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_spanish_aggiornamento_of_ignatian_theology_and_spirituality_axes_and_figures_16578469c2c7.md
+------------------------------------------------------------------------------------------------
+Words: 148
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+the_spirit_and_the_body_towards_a_womanist_pentecostal_social_justice_ethic_b6901c18ffc2.md
+-------------------------------------------------------------------------------------------
+Words: 142
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Transformation And Hope (2)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
