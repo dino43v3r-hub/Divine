@@ -8,12 +8,12 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 662
-Total theologian words analyzed: 116,754
+Theologian documents analyzed: 665
+Total theologian words analyzed: 117,180
 
 Era Coverage
 ------------
-- Patristic: 116
+- Patristic: 117
 - Medieval: 73
 - Reformation: 78
 - Modern: 112
@@ -21,33 +21,33 @@ Era Coverage
 
 Concept Coverage
 ----------------
-- Trinity: 540
-- Pneumatology: 392
+- Trinity: 544
+- Pneumatology: 397
 - Christology: 345
 - Theodicy And Suffering: 299
 - Creation: 208
-- Church And Practice: 174
+- Church And Practice: 175
 - Grace And Transformation: 141
 - Justice And Public Life: 127
 
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 3,772
+- Father: 3,787
 - Son: 445
-- Holy Spirit: 753
+- Holy Spirit: 764
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 201 | broader corpus 2,705
-- Mathematical Structure: theologians 6 | broader corpus 658
-- Mathematical Theophany: theologians 453 | broader corpus 1,346
-- Quantum Probability: theologians 2 | broader corpus 207
-- Life And Consciousness: theologians 1,730 | broader corpus 7,105
-- Meaning And Logos: theologians 165 | broader corpus 6,209
-- Moral Response: theologians 147 | broader corpus 2,519
-- Worship And Community: theologians 312 | broader corpus 1,648
-- Transformation: theologians 724 | broader corpus 2,229
+- Physical Order: theologians 201 | broader corpus 2,688
+- Mathematical Structure: theologians 6 | broader corpus 657
+- Mathematical Theophany: theologians 453 | broader corpus 1,315
+- Quantum Probability: theologians 2 | broader corpus 189
+- Life And Consciousness: theologians 1,738 | broader corpus 7,058
+- Meaning And Logos: theologians 165 | broader corpus 6,150
+- Moral Response: theologians 147 | broader corpus 2,521
+- Worship And Community: theologians 313 | broader corpus 1,633
+- Transformation: theologians 733 | broader corpus 2,234
 
 Per-Source Findings
 -------------------
@@ -73,6 +73,17 @@ Meaning arc:
 - Opening: Creation And Order (1)
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (1)
+
+11_charismatic_music_and_the_pentecostalization_of_latin_american_evangelicalism_bb1a37ef5986.md
+------------------------------------------------------------------------------------------------
+Words: 140
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
 
 18_the_trinity_in_africa_eeda9ade2c5f.md
 ----------------------------------------
@@ -6014,6 +6025,17 @@ Meaning arc:
 - Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 
+the_role_of_the_holy_spirit_in_pentecostal_worship_in_the_light_of_john_4_20_26_464296c6dc19.md
+-----------------------------------------------------------------------------------------------
+Words: 148
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (2)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Transformation And Hope (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
 the_shack_2_is_coming_should_you_leave_a_church_quietly_24269fdbecf7.md
 -----------------------------------------------------------------------
 Words: 267
@@ -7101,6 +7123,17 @@ Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+works_on_the_spirit_athanasius_s_letters_to_serapion_on_the_holy_spirit_and_didy_3850bd902b06.md
+------------------------------------------------------------------------------------------------
+Words: 138
+Strongest era signal: Patristic (1)
+Strongest concept signal: Trinity (3)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (3)
+- Middle: Desire And Longing (1)
 - Ending: Creation And Order (0)
 
 world_christianity_and_the_reorganization_of_disciplines_on_the_emerging_dialogu_bcc7411d5f0b.md
