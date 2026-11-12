@@ -13,14 +13,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 225
-Test words analyzed: 33,912
+Test documents analyzed: 226
+Test words analyzed: 34,060
 
 Pressure Types
 --------------
-- Science Guardrail: 451
-- Suffering Without Resolution: 387
-- Counterexample Pressure: 219
+- Science Guardrail: 453
+- Suffering Without Resolution: 388
+- Counterexample Pressure: 220
 - Injustice And Corruption: 71
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 37
@@ -30,19 +30,19 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 484
-- Primary Or Classical Source: 201
+- Scholarly Or Scientific Source: 486
+- Primary Or Classical Source: 202
 - Practical Lived Source: 107
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- needs deeper review but still plausible: 124
+- needs deeper review but still plausible: 125
 - resilient under pressure: 101
 
 Hold Assessment
 ---------------
-- not enough friction to judge hold: 122
+- not enough friction to judge hold: 123
 - pressure present but hold question is underdeveloped: 92
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
@@ -52,26 +52,26 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 1,107 | research corpus 7,389
-- Son: test set 35 | research corpus 6,825
-- Holy Spirit: test set 50 | research corpus 1,864
+- Father: test set 1,112 | research corpus 7,441
+- Son: test set 35 | research corpus 6,824
+- Holy Spirit: test set 50 | research corpus 1,862
 
 Layer Pressure Comparison
 -------------------------
-- Physical Order: test set 57 | research corpus 2,688
-- Mathematical Structure: test set 18 | research corpus 657
-- Mathematical Theophany: test set 546 | research corpus 1,315
-- Quantum Probability: test set 25 | research corpus 189
-- Life And Consciousness: test set 656 | research corpus 7,058
-- Meaning And Logos: test set 44 | research corpus 6,150
-- Moral Response: test set 56 | research corpus 2,521
-- Worship And Community: test set 113 | research corpus 1,633
-- Transformation: test set 67 | research corpus 2,234
+- Physical Order: test set 57 | research corpus 2,692
+- Mathematical Structure: test set 18 | research corpus 656
+- Mathematical Theophany: test set 548 | research corpus 1,312
+- Quantum Probability: test set 25 | research corpus 180
+- Life And Consciousness: test set 659 | research corpus 7,100
+- Meaning And Logos: test set 44 | research corpus 6,185
+- Moral Response: test set 56 | research corpus 2,520
+- Worship And Community: test set 113 | research corpus 1,650
+- Transformation: test set 67 | research corpus 2,235
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 572
-- Desire And Longing: 235
+- Creation And Order: 574
+- Desire And Longing: 236
 - Alienation And Lament: 96
 - Communal Practice: 93
 - Transformation And Hope: 74
@@ -3916,6 +3916,26 @@ Recommendations:
 
 studying_religiosity_and_spirituality_a_review_of_macro_micro_and_meso_level_app_60af0c5eb577.md
 ------------------------------------------------------------------------------------------------
+Words: 148
+Meaning confidence: thin meaning signal
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+surrendering_autonomy_in_dietrich_bonhoeffer_s_theology_f99f20d2ce71.md
+-----------------------------------------------------------------------
 Words: 148
 Meaning confidence: thin meaning signal
 Test confidence: needs deeper review but still plausible
