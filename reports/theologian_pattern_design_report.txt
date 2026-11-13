@@ -8,8 +8,8 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Theologian documents analyzed: 667
-Total theologian words analyzed: 117,477
+Theologian documents analyzed: 668
+Total theologian words analyzed: 117,617
 
 Era Coverage
 ------------
@@ -22,7 +22,7 @@ Era Coverage
 Concept Coverage
 ----------------
 - Trinity: 544
-- Pneumatology: 400
+- Pneumatology: 401
 - Christology: 345
 - Theodicy And Suffering: 299
 - Creation: 208
@@ -33,21 +33,21 @@ Concept Coverage
 Trinitarian Lens
 ----------------
 Signal: strong Trinitarian signal
-- Father: 3,797
+- Father: 3,802
 - Son: 445
-- Holy Spirit: 770
+- Holy Spirit: 772
 
 Layer Comparison
 ----------------
-- Physical Order: theologians 201 | broader corpus 2,692
-- Mathematical Structure: theologians 6 | broader corpus 656
-- Mathematical Theophany: theologians 453 | broader corpus 1,312
-- Quantum Probability: theologians 2 | broader corpus 180
-- Life And Consciousness: theologians 1,744 | broader corpus 7,100
-- Meaning And Logos: theologians 165 | broader corpus 6,185
-- Moral Response: theologians 147 | broader corpus 2,520
-- Worship And Community: theologians 313 | broader corpus 1,650
-- Transformation: theologians 736 | broader corpus 2,235
+- Physical Order: theologians 201 | broader corpus 2,689
+- Mathematical Structure: theologians 6 | broader corpus 655
+- Mathematical Theophany: theologians 453 | broader corpus 1,343
+- Quantum Probability: theologians 2 | broader corpus 174
+- Life And Consciousness: theologians 1,747 | broader corpus 7,129
+- Meaning And Logos: theologians 165 | broader corpus 6,199
+- Moral Response: theologians 147 | broader corpus 2,521
+- Worship And Community: theologians 313 | broader corpus 1,645
+- Transformation: theologians 737 | broader corpus 2,235
 
 Per-Source Findings
 -------------------
@@ -696,6 +696,17 @@ Words: 149
 Strongest era signal: Patristic (0)
 Strongest concept signal: Trinity (2)
 Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+
+anthropologies_of_the_spiritual_body_d4886cbbd702.md
+----------------------------------------------------
+Words: 140
+Strongest era signal: Patristic (0)
+Strongest concept signal: Pneumatology (1)
+Meaning confidence: thin meaning signal
 Meaning arc:
 - Opening: Desire And Longing (1)
 - Middle: Creation And Order (0)
