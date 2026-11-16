@@ -13,14 +13,14 @@ Father creates and sustains order; Son/Logos reveals meaning and redeems disorde
 
 Test Overview
 -------------
-Test documents analyzed: 228
-Test words analyzed: 34,351
+Test documents analyzed: 229
+Test words analyzed: 34,498
 
 Pressure Types
 --------------
-- Science Guardrail: 457
-- Suffering Without Resolution: 392
-- Counterexample Pressure: 222
+- Science Guardrail: 459
+- Suffering Without Resolution: 393
+- Counterexample Pressure: 223
 - Injustice And Corruption: 71
 - Disconfirming Failure Condition: 38
 - Practical Case Study: 37
@@ -30,19 +30,19 @@ Pressure Types
 
 Source Quality Markers
 ----------------------
-- Scholarly Or Scientific Source: 491
-- Primary Or Classical Source: 204
+- Scholarly Or Scientific Source: 493
+- Primary Or Classical Source: 205
 - Practical Lived Source: 108
 - Speculative Source: 3
 
 Confidence Results
 ------------------
-- needs deeper review but still plausible: 126
+- needs deeper review but still plausible: 127
 - resilient under pressure: 102
 
 Hold Assessment
 ---------------
-- not enough friction to judge hold: 124
+- not enough friction to judge hold: 125
 - pressure present but hold question is underdeveloped: 93
 - provisionally holds; needs stronger review: 8
 - does not hold yet under this friction: 2
@@ -52,26 +52,26 @@ Trinitarian Test Lens
 ---------------------
 Test-set signal: moderate Trinitarian signal
 Research-corpus signal: strong Trinitarian signal
-- Father: test set 1,123 | research corpus 7,595
-- Son: test set 35 | research corpus 6,829
-- Holy Spirit: test set 50 | research corpus 1,865
+- Father: test set 1,128 | research corpus 7,643
+- Son: test set 35 | research corpus 6,824
+- Holy Spirit: test set 50 | research corpus 1,858
 
 Layer Pressure Comparison
 -------------------------
 - Physical Order: test set 58 | research corpus 2,696
-- Mathematical Structure: test set 18 | research corpus 655
-- Mathematical Theophany: test set 552 | research corpus 1,328
-- Quantum Probability: test set 25 | research corpus 190
-- Life And Consciousness: test set 665 | research corpus 7,150
-- Meaning And Logos: test set 44 | research corpus 6,200
-- Moral Response: test set 56 | research corpus 2,514
-- Worship And Community: test set 113 | research corpus 1,650
-- Transformation: test set 68 | research corpus 2,236
+- Mathematical Structure: test set 18 | research corpus 657
+- Mathematical Theophany: test set 554 | research corpus 1,313
+- Quantum Probability: test set 25 | research corpus 183
+- Life And Consciousness: test set 668 | research corpus 7,182
+- Meaning And Logos: test set 44 | research corpus 6,209
+- Moral Response: test set 56 | research corpus 2,548
+- Worship And Community: test set 113 | research corpus 1,655
+- Transformation: test set 68 | research corpus 2,233
 
 Meaning Contexts Under Pressure
 --------------------------------
-- Creation And Order: 578
-- Desire And Longing: 238
+- Creation And Order: 580
+- Desire And Longing: 239
 - Alienation And Lament: 96
 - Communal Practice: 93
 - Transformation And Hope: 75
@@ -3787,6 +3787,26 @@ Pressure signals:
 Meaning arc:
 - Opening: Creation And Order (2)
 - Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Recommendations:
+- Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.
+- Add concrete daily-life case studies so the pattern can be used, not just admired.
+- Name explicit failure conditions so the pattern can be revised or rejected.
+- Add rival natural, psychological, social, or comparative explanations.
+
+remy_de_gourmont_and_the_crisis_of_erotic_idealism_6e9ef5e2abde.md
+------------------------------------------------------------------
+Words: 147
+Meaning confidence: thin meaning signal
+Test confidence: needs deeper review but still plausible
+Hold assessment: not enough friction to judge hold
+Pressure signals:
+- Science Guardrail: 2
+- Counterexample Pressure: 1
+- Suffering Without Resolution: 1
+Meaning arc:
+- Opening: Creation And Order (2)
+- Middle: Creation And Order (0)
 - Ending: Creation And Order (0)
 Recommendations:
 - Add non-Christian and secular comparison sources to identify what is uniquely Trinitarian.

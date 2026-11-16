@@ -10,9 +10,9 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Music-note files analyzed: 275
-Note/chord events analyzed: 541
-Individual notes analyzed: 575
+Music-note files analyzed: 279
+Note/chord events analyzed: 545
+Individual notes analyzed: 579
 Intervals analyzed: 320
 Consonance ratio: 80.00%
 Tension ratio: 20.00%
@@ -42,13 +42,13 @@ Science And Math Relationships
 Trinitarian Lens
 ----------------
 Signal: partial Trinitarian signal
-- Father: 1,394
+- Father: 1,414
 - Son: 3
 - Holy Spirit: 0
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 306
+- Desire And Longing: 310
 - Creation And Order: 82
 - Communal Practice: 19
 - Transformation And Hope: 14
@@ -57,21 +57,21 @@ Meaning Guardrails
 Shared Divine-Pattern Layers
 ----------------------------
 - Physical Order: music notes 320 | religious/science corpus 2,696
-- Mathematical Structure: music notes 516 | religious/science corpus 655
-- Mathematical Theophany: music notes 0 | religious/science corpus 1,328
-- Quantum Probability: music notes 0 | religious/science corpus 190
-- Life And Consciousness: music notes 0 | religious/science corpus 7,150
-- Meaning And Logos: music notes 182 | religious/science corpus 6,200
-- Moral Response: music notes 0 | religious/science corpus 2,514
-- Worship And Community: music notes 16 | religious/science corpus 1,650
-- Transformation: music notes 64 | religious/science corpus 2,236
+- Mathematical Structure: music notes 516 | religious/science corpus 657
+- Mathematical Theophany: music notes 0 | religious/science corpus 1,313
+- Quantum Probability: music notes 0 | religious/science corpus 183
+- Life And Consciousness: music notes 0 | religious/science corpus 7,182
+- Meaning And Logos: music notes 182 | religious/science corpus 6,209
+- Moral Response: music notes 0 | religious/science corpus 2,548
+- Worship And Community: music notes 16 | religious/science corpus 1,655
+- Transformation: music notes 64 | religious/science corpus 2,233
 
 Relevant Research Domains
 -------------------------
-- Philosophy Of Mathematics: corpus signal 567
-- Physics And Quantum Mechanics: corpus signal 1,459
-- Philosophy Of Science: corpus signal 2,883
-- Cognitive Science: corpus signal 1,059
+- Philosophy Of Mathematics: corpus signal 571
+- Physics And Quantum Mechanics: corpus signal 1,455
+- Philosophy Of Science: corpus signal 2,882
+- Cognitive Science: corpus signal 1,073
 - Anthropology And Psychology Of Worship: corpus signal 882
 
 Per-Composition Findings
@@ -2238,6 +2238,27 @@ Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 - Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
 
+associating_dis_consonance_of_harmonic_intervals_with_emotional_valences_explori_e3c8399cc275.md
+------------------------------------------------------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
 auditory_nerve_responses_predict_pitch_attributes_related_to_musical_consonance_171ba9fec114.md
 -----------------------------------------------------------------------------------------------
 Events: 1
@@ -2494,6 +2515,27 @@ Practical theology applications:
 
 computational_models_of_expressive_music_performance_a_comprehensive_and_critica_701d89c0cbed.md
 ------------------------------------------------------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+computer_realization_of_human_music_cognition_e2705a703529.md
+-------------------------------------------------------------
 Events: 1
 Notes: 1
 Chord events: 0
@@ -4453,6 +4495,27 @@ Meaning arc:
 Practical theology applications:
 - Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
 
+music_mathematics_and_microcomputers_building_upon_a_classical_tradition_b31fa4e2091f.md
+----------------------------------------------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
 music_mediation_and_superstrings_the_quest_for_universal_harmony_236d75d03287.md
 --------------------------------------------------------------------------------
 Events: 1
@@ -5685,6 +5748,27 @@ Practical theology applications:
 
 the_influence_of_theosophy_on_the_tradition_of_speculative_and_esoteric_theories_1bea7603e40d.md
 ------------------------------------------------------------------------------------------------
+Events: 1
+Notes: 1
+Chord events: 0
+Melodic intervals: 0
+Harmonic intervals: 0
+Consonant intervals: 0
+Tension intervals: 0
+Return motifs: 0
+Meaning confidence: word-level signal only
+Most common intervals:
+- No intervals detected.
+Layer interpretation:
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+
+the_later_music_of_elliott_carter_68e5a5fc3a7a.md
+-------------------------------------------------
 Events: 1
 Notes: 1
 Chord events: 0

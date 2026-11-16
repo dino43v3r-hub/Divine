@@ -6011,6 +6011,42 @@
         }
       ],
       "searches_used": 5
+    },
+    "2026-11-16": {
+      "credits_used": 5,
+      "queries": [
+        {
+          "credits_used": 1,
+          "query": "Septuagint translation Hebrew Greek theological terms source study",
+          "searched_at": "2026-11-16T23:07:59.617055+00:00",
+          "tag": "biblical_language_source_depth"
+        },
+        {
+          "credits_used": 1,
+          "query": "psychology trauma attachment religion transformation hope",
+          "searched_at": "2026-11-16T23:08:04.787007+00:00",
+          "tag": "psychology_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "moral psychology forgiveness repentance habit formation",
+          "searched_at": "2026-11-16T23:08:09.816807+00:00",
+          "tag": "psychology_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "cognitive science religion ritual identity community transformation",
+          "searched_at": "2026-11-16T23:08:15.750079+00:00",
+          "tag": "psychology_patterns"
+        },
+        {
+          "credits_used": 1,
+          "query": "psychology pattern perception religious meaning divine agency",
+          "searched_at": "2026-11-16T23:08:20.845061+00:00",
+          "tag": "pattern_perception_divine_response"
+        }
+      ],
+      "searches_used": 5
     }
   }
 }
