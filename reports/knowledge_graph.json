@@ -1,6 +1,6 @@
 {
   "backend": "knowledge_graph",
-  "edge_count": 34465,
+  "edge_count": 34659,
   "edges": [
     {
       "relation": "belongs_to_lane",
@@ -895,6 +895,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_a_theory_practice_spiral_the_ethics_of_feminism_and_clinical_education",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_a_time_to_deconstruct_refining_the_work_of_jewish_christian_engagement",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_a_time_to_deconstruct_refining_the_work_of_jewish_christian_engagement",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_a_time_to_deconstruct_refining_the_work_of_jewish_christian_engagement",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_a_time_to_deconstruct_refining_the_work_of_jewish_christian_engagement",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_a_time_to_deconstruct_refining_the_work_of_jewish_christian_engagement",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -14249,6 +14274,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_reconciling_democratization_and_secularization_in_the_middle_east_tuni",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_reconciling_democratization_and_secularization_in_the_middle_east_tuni",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_reconciling_democratization_and_secularization_in_the_middle_east_tuni",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_reconciling_democratization_and_secularization_in_the_middle_east_tuni",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_reconciling_democratization_and_secularization_in_the_middle_east_tuni",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:research_documents_auto_imported_cloud_candidates_reconstructing_ta_dib_philosophy_a_theoretical_framework_for_modern_is",
       "target": "lane:research_documents"
     },
@@ -20035,6 +20085,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:research_documents_auto_imported_cloud_candidates_yugonostalgic_against_all_odds_nostalgia_for_socialist_federal_republi",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_zeal_for_darwin_s_house_consumes_them_how_supporters_of_evolution_enco",
+      "target": "lane:research_documents"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_zeal_for_darwin_s_house_consumes_them_how_supporters_of_evolution_enco",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_zeal_for_darwin_s_house_consumes_them_how_supporters_of_evolution_enco",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_zeal_for_darwin_s_house_consumes_them_how_supporters_of_evolution_enco",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:research_documents_auto_imported_cloud_candidates_zeal_for_darwin_s_house_consumes_them_how_supporters_of_evolution_enco",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -31059,6 +31134,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_critical_engagement_with_theological_education_in_africa_a_south_africa",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_critical_engagement_with_theological_education_in_africa_a_south_africa",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_critical_engagement_with_theological_education_in_africa_a_south_africa",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_critical_engagement_with_theological_education_in_africa_a_south_africa",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_a_critical_engagement_with_theological_education_in_africa_a_south_africa",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_a_handbook_for_african_mother_tongue_bible_translators_e5486220e2b5_md",
       "target": "lane:world_languages"
     },
@@ -32344,6 +32444,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_applying_hermeneutics_to_the_therapeutic_interaction_the_act_of_interpret",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_applying_hermeneutics_to_the_therapeutic_interaction_the_act_of_interpret",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_applying_hermeneutics_to_the_therapeutic_interaction_the_act_of_interpret",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_applying_hermeneutics_to_the_therapeutic_interaction_the_act_of_interpret",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_applying_hermeneutics_to_the_therapeutic_interaction_the_act_of_interpret",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_arabic_tradition_translation_22d828b9b851_md",
       "target": "lane:world_languages"
     },
@@ -32970,6 +33095,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:world_languages_auto_imported_cloud_candidates_book_review_christianity_in_the_roman_world_e9243b0d4aea_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_book_review_the_semantics_of_biblical_language_4105b68536bf_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_book_review_the_semantics_of_biblical_language_4105b68536bf_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_book_review_the_semantics_of_biblical_language_4105b68536bf_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_book_review_the_semantics_of_biblical_language_4105b68536bf_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_book_review_the_semantics_of_biblical_language_4105b68536bf_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -37894,6 +38044,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_local_theologies_on_the_world_wide_web_c36d7d0790ae_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_local_theologies_on_the_world_wide_web_c36d7d0790ae_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_local_theologies_on_the_world_wide_web_c36d7d0790ae_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_local_theologies_on_the_world_wide_web_c36d7d0790ae_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_local_theologies_on_the_world_wide_web_c36d7d0790ae_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_luso_african_real_maravilloso_a_study_on_the_convergence_of_latin_america",
       "target": "lane:world_languages"
     },
@@ -39314,6 +39489,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_professions_as_religious_metaphors_733f8e0052b3_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_professions_as_religious_metaphors_733f8e0052b3_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_professions_as_religious_metaphors_733f8e0052b3_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_professions_as_religious_metaphors_733f8e0052b3_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_professions_as_religious_metaphors_733f8e0052b3_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_proposing_a_tentative_revision_hypothesis_for_sacred_texts_the_holy_qur_a",
       "target": "lane:world_languages"
     },
@@ -41084,6 +41284,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_beauty_of_the_ethiopian_christian_tradition_an_appropriation_for_mode",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_beauty_of_the_ethiopian_christian_tradition_an_appropriation_for_mode",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_beauty_of_the_ethiopian_christian_tradition_an_appropriation_for_mode",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_beauty_of_the_ethiopian_christian_tradition_an_appropriation_for_mode",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_beauty_of_the_ethiopian_christian_tradition_an_appropriation_for_mode",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:world_languages_auto_imported_cloud_candidates_the_bungku_tolaki_languages_of_south_eastern_sulawesi_indonesia_a3d39896e",
       "target": "lane:world_languages"
     },
@@ -42025,6 +42250,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:world_languages_auto_imported_cloud_candidates_the_meaning_of_meaning_in_biology_and_cognitive_science_a_semiotic_recons",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_multiplicity_of_meaning_a_comparative_analysis_of_polysemy_in_quranic",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_multiplicity_of_meaning_a_comparative_analysis_of_polysemy_in_quranic",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_multiplicity_of_meaning_a_comparative_analysis_of_polysemy_in_quranic",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_multiplicity_of_meaning_a_comparative_analysis_of_polysemy_in_quranic",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_multiplicity_of_meaning_a_comparative_analysis_of_polysemy_in_quranic",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -42425,6 +42675,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:world_languages_auto_imported_cloud_candidates_the_routledge_handbook_of_religions_and_global_development_b12e1fd0c4f7_m",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_semantics_of_prussian_weapon_d_cor_74679b04ad23_md",
+      "target": "lane:world_languages"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_semantics_of_prussian_weapon_d_cor_74679b04ad23_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_semantics_of_prussian_weapon_d_cor_74679b04ad23_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_semantics_of_prussian_weapon_d_cor_74679b04ad23_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:world_languages_auto_imported_cloud_candidates_the_semantics_of_prussian_weapon_d_cor_74679b04ad23_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -54409,6 +54684,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_frontiers_of_african_christianity_essays_in_honour_of_inus_daneel_3",
+      "target": "lane:other_religious_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_frontiers_of_african_christianity_essays_in_honour_of_inus_daneel_3",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_frontiers_of_african_christianity_essays_in_honour_of_inus_daneel_3",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_frontiers_of_african_christianity_essays_in_honour_of_inus_daneel_3",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_frontiers_of_african_christianity_essays_in_honour_of_inus_daneel_3",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_frontiers_of_african_christianity_essays_in_honour_of_inus_daneel_3",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:other_religious_texts_auto_imported_cloud_candidates_gandhi_and_buber_on_individual_and_collective_transformation_e2d9f7",
       "target": "lane:other_religious_texts"
     },
@@ -56119,6 +56424,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_resources_for_a_restoration_theology_of_religions_e4ed9ced1cef_md",
+      "target": "lane:other_religious_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_resources_for_a_restoration_theology_of_religions_e4ed9ced1cef_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_resources_for_a_restoration_theology_of_religions_e4ed9ced1cef_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_resources_for_a_restoration_theology_of_religions_e4ed9ced1cef_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_resources_for_a_restoration_theology_of_religions_e4ed9ced1cef_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_resources_for_a_restoration_theology_of_religions_e4ed9ced1cef_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:other_religious_texts_auto_imported_cloud_candidates_rethinking_the_history_of_conversion_to_christianity_in_japan_1549_",
       "target": "lane:other_religious_texts"
     },
@@ -56760,6 +57095,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:other_religious_texts_auto_imported_cloud_candidates_the_complex_forms_of_the_religious_life_a_durkheimian_view_of_new_r",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_the_demise_of_religion_how_religions_end_die_or_dissipate_25dc68f40",
+      "target": "lane:other_religious_texts"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_the_demise_of_religion_how_religions_end_die_or_dissipate_25dc68f40",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_the_demise_of_religion_how_religions_end_die_or_dissipate_25dc68f40",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_the_demise_of_religion_how_religions_end_die_or_dissipate_25dc68f40",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_the_demise_of_religion_how_religions_end_die_or_dissipate_25dc68f40",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:other_religious_texts_auto_imported_cloud_candidates_the_demise_of_religion_how_religions_end_die_or_dissipate_25dc68f40",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -64424,6 +64789,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_father_and_the_holy_trinity_in_the_new_testament_7e03343f938e_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_father_and_the_holy_trinity_in_the_new_testament_7e03343f938e_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_father_and_the_holy_trinity_in_the_new_testament_7e03343f938e_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_father_and_the_holy_trinity_in_the_new_testament_7e03343f938e_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_father_and_the_holy_trinity_in_the_new_testament_7e03343f938e_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_father_and_the_holy_trinity_in_the_new_testament_7e03343f938e_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_feminist_christology_and_pneumatology_pdf_sophia_wisdom_christology_59be5d2b6",
       "target": "lane:theologians"
     },
@@ -65839,6 +66234,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_holy_spirit_and_holy_scripture_5e31dfcbd488_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_holy_spirit_and_holy_scripture_5e31dfcbd488_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_holy_spirit_and_holy_scripture_5e31dfcbd488_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_holy_spirit_and_holy_scripture_5e31dfcbd488_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_holy_spirit_and_holy_scripture_5e31dfcbd488_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_home_bibliographies_of_theologians_thought_and_issues_luther_seminary_at_luth",
       "target": "lane:theologians"
     },
@@ -68154,6 +68574,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_new_questions_on_old_answers_towards_a_critical_edition_of_the_answers_to_the",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_new_questions_on_old_answers_towards_a_critical_edition_of_the_answers_to_the",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_new_questions_on_old_answers_towards_a_critical_edition_of_the_answers_to_the",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_new_questions_on_old_answers_towards_a_critical_edition_of_the_answers_to_the",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_new_questions_on_old_answers_towards_a_critical_edition_of_the_answers_to_the",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:theologians_auto_imported_cloud_candidates_nomenclature_in_atonement_theology_65b1007f161b_md",
       "target": "lane:theologians"
     },
@@ -68360,6 +68805,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_only_dis_connect_pentecostal_global_networking_as_revelation_and_concealment_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_opinion_religion_and_catholic_spirit_john_wesley_on_theological_integrity_d38",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_opinion_religion_and_catholic_spirit_john_wesley_on_theological_integrity_d38",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_opinion_religion_and_catholic_spirit_john_wesley_on_theological_integrity_d38",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_opinion_religion_and_catholic_spirit_john_wesley_on_theological_integrity_d38",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_opinion_religion_and_catholic_spirit_john_wesley_on_theological_integrity_d38",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -71725,6 +72195,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:theologians_auto_imported_cloud_candidates_the_agency_of_the_holy_spirit_and_heuristic_categories_for_discernment_in_spi",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_anthropology_of_christianity_e54f443a55d7_md",
+      "target": "lane:theologians"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_anthropology_of_christianity_e54f443a55d7_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_anthropology_of_christianity_e54f443a55d7_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_anthropology_of_christianity_e54f443a55d7_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:theologians_auto_imported_cloud_candidates_the_anthropology_of_christianity_e54f443a55d7_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -77919,6 +78414,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_8_weaving_memory_and_unweaving_trauma_textile_narratives_on_the_conflict_i",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_8_weaving_memory_and_unweaving_trauma_textile_narratives_on_the_conflict_i",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_8_weaving_memory_and_unweaving_trauma_textile_narratives_on_the_conflict_i",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_8_weaving_memory_and_unweaving_trauma_textile_narratives_on_the_conflict_i",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_8_weaving_memory_and_unweaving_trauma_textile_narratives_on_the_conflict_i",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_a_century_of_violence_in_a_red_city_cd20fd953d16_md",
       "target": "lane:history_inputs"
     },
@@ -78085,6 +78605,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:history_inputs_auto_imported_cloud_candidates_a_multidimensional_analysis_of_religious_extremism_f9fdb20f4cea_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_a_review_on_the_korean_non_church_movement_history_on_the_soil_of_korean_c",
+      "target": "lane:history_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_a_review_on_the_korean_non_church_movement_history_on_the_soil_of_korean_c",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_a_review_on_the_korean_non_church_movement_history_on_the_soil_of_korean_c",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_a_review_on_the_korean_non_church_movement_history_on_the_soil_of_korean_c",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:history_inputs_auto_imported_cloud_candidates_a_review_on_the_korean_non_church_movement_history_on_the_soil_of_korean_c",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -90324,6 +90869,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_delighting_in_natural_beauty_joint_attention_and_the_phenomenology_of_nature_a",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_delighting_in_natural_beauty_joint_attention_and_the_phenomenology_of_nature_a",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_delighting_in_natural_beauty_joint_attention_and_the_phenomenology_of_nature_a",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_delighting_in_natural_beauty_joint_attention_and_the_phenomenology_of_nature_a",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_delighting_in_natural_beauty_joint_attention_and_the_phenomenology_of_nature_a",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:visual_art_auto_imported_cloud_candidates_dietrich_von_hildebrand_s_reflection_on_beauty_and_aesthetics_a_theological_ap",
       "target": "lane:visual_art"
     },
@@ -93480,6 +94050,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:visual_art_auto_imported_cloud_candidates_learning_from_visual_images_an_example_from_twelfth_century_france_8e82678dff7",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_learning_to_lament_billie_eilish_trauma_theology_and_the_pastoral_imagination_",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_learning_to_lament_billie_eilish_trauma_theology_and_the_pastoral_imagination_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_learning_to_lament_billie_eilish_trauma_theology_and_the_pastoral_imagination_",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_learning_to_lament_billie_eilish_trauma_theology_and_the_pastoral_imagination_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_learning_to_lament_billie_eilish_trauma_theology_and_the_pastoral_imagination_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_learning_to_lament_billie_eilish_trauma_theology_and_the_pastoral_imagination_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -100060,6 +100660,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:visual_art_auto_imported_cloud_candidates_trauma_lament_and_the_seven_last_words_of_jesus_from_the_cross_35dbe1f755d1_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_triune_beauty_and_the_ugly_cross_towards_a_theological_aesthetic_1d347a8fa161_",
+      "target": "lane:visual_art"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_triune_beauty_and_the_ugly_cross_towards_a_theological_aesthetic_1d347a8fa161_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_triune_beauty_and_the_ugly_cross_towards_a_theological_aesthetic_1d347a8fa161_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_triune_beauty_and_the_ugly_cross_towards_a_theological_aesthetic_1d347a8fa161_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:visual_art_auto_imported_cloud_candidates_triune_beauty_and_the_ugly_cross_towards_a_theological_aesthetic_1d347a8fa161_",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -107459,6 +108084,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_destruction_of_human_trafficking_from_an_islamic_perspective_an_interpret",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_destruction_of_human_trafficking_from_an_islamic_perspective_an_interpret",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_destruction_of_human_trafficking_from_an_islamic_perspective_an_interpret",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_destruction_of_human_trafficking_from_an_islamic_perspective_an_interpret",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_destruction_of_human_trafficking_from_an_islamic_perspective_an_interpret",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_determinants_of_school_based_sexuality_education_implementation_in_south_",
       "target": "lane:cultural_inputs"
     },
@@ -114349,6 +114999,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_manifold_anthropology_reordering_relations_9a419cced0cb_md",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_manifold_anthropology_reordering_relations_9a419cced0cb_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_manifold_anthropology_reordering_relations_9a419cced0cb_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_manifold_anthropology_reordering_relations_9a419cced0cb_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_manifold_anthropology_reordering_relations_9a419cced0cb_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_mapping_the_role_of_structural_and_interpersonal_violence_in_the_lives_of",
       "target": "lane:cultural_inputs"
     },
@@ -115920,6 +116595,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_policing_the_borders_of_bioethics_rawlsian_public_reason_as_a_disciplinar",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_political_anthropology_and_anthropology_of_politics_an_overview_11e8f93e0",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_political_anthropology_and_anthropology_of_politics_an_overview_11e8f93e0",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_political_anthropology_and_anthropology_of_politics_an_overview_11e8f93e0",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_political_anthropology_and_anthropology_of_politics_an_overview_11e8f93e0",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_political_anthropology_and_anthropology_of_politics_an_overview_11e8f93e0",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -122240,6 +122940,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_potential_of_religion_for_promoting_sustainability_the_role_of_stewar",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_practices_of_happiness_political_economy_religion_and_wellbeing_d4c59",
+      "target": "lane:cultural_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_practices_of_happiness_political_economy_religion_and_wellbeing_d4c59",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_practices_of_happiness_political_economy_religion_and_wellbeing_d4c59",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_practices_of_happiness_political_economy_religion_and_wellbeing_d4c59",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:cultural_inputs_auto_imported_cloud_candidates_the_practices_of_happiness_political_economy_religion_and_wellbeing_d4c59",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -131644,6 +132369,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_introduction_science_magic_and_religion_the_ritual_processes_of_museum_",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_introduction_science_magic_and_religion_the_ritual_processes_of_museum_",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_introduction_science_magic_and_religion_the_ritual_processes_of_museum_",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_introduction_science_magic_and_religion_the_ritual_processes_of_museum_",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_introduction_science_magic_and_religion_the_ritual_processes_of_museum_",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_introduction_to_the_special_issue_advancements_in_the_study_of_attachme",
       "target": "lane:psychology_inputs"
     },
@@ -136850,6 +137600,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:psychology_inputs_auto_imported_cloud_candidates_sacred_feminine_or_divine_feminine_0d897da53b2a_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_sacrifice_in_modernity_community_ritual_identity_de8ef4f593ff_md",
+      "target": "lane:psychology_inputs"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_sacrifice_in_modernity_community_ritual_identity_de8ef4f593ff_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_sacrifice_in_modernity_community_ritual_identity_de8ef4f593ff_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_sacrifice_in_modernity_community_ritual_identity_de8ef4f593ff_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:psychology_inputs_auto_imported_cloud_candidates_sacrifice_in_modernity_community_ritual_identity_de8ef4f593ff_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -146314,6 +147089,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_at_home_in_exile_a_memoir_e91e7b032642_md",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_at_home_in_exile_a_memoir_e91e7b032642_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_at_home_in_exile_a_memoir_e91e7b032642_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_at_home_in_exile_a_memoir_e91e7b032642_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_at_home_in_exile_a_memoir_e91e7b032642_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_at_home_in_exile_a_memoir_ed061b1cfcfb_md",
       "target": "lane:modern_literature"
     },
@@ -146770,6 +147570,31 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_bowing_before_christ_nodding_to_the_state_reading_paul_politically_with",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_brahmins_from_abroad_english_expatriates_and_spiritual_consciousness_in",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_brahmins_from_abroad_english_expatriates_and_spiritual_consciousness_in",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_brahmins_from_abroad_english_expatriates_and_spiritual_consciousness_in",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_brahmins_from_abroad_english_expatriates_and_spiritual_consciousness_in",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_brahmins_from_abroad_english_expatriates_and_spiritual_consciousness_in",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -147979,6 +148804,31 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_international_handbook_of_practical_theology_3326d02daccf_md",
+      "target": "lane:modern_literature"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_international_handbook_of_practical_theology_3326d02daccf_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_international_handbook_of_practical_theology_3326d02daccf_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_international_handbook_of_practical_theology_3326d02daccf_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:modern_literature_auto_imported_cloud_candidates_international_handbook_of_practical_theology_3326d02daccf_md",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:modern_literature_auto_imported_cloud_candidates_interpretation_and_theology_8996c0117320_md",
       "target": "lane:modern_literature"
     },
@@ -156049,6 +156899,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_history_of_western_philosophy_and_quantum_language_including_quantum_mechani",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_history_of_western_philosophy_and_quantum_language_including_quantum_mechani",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_history_of_western_philosophy_and_quantum_language_including_quantum_mechani",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_history_of_western_philosophy_and_quantum_language_including_quantum_mechani",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_history_of_western_philosophy_and_quantum_language_including_quantum_mechani",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_history_of_western_philosophy_and_quantum_language_including_quantum_mechani",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_holism_and_non_separability_applied_to_quantum_mechanics_8a8097263cfe_md",
       "target": "lane:deep_sources"
     },
@@ -157695,6 +158575,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:deep_sources_auto_imported_cloud_candidates_on_the_controllability_of_artificial_intelligence_an_analysis_of_limitations",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_the_possibility_of_feminist_philosophy_of_physics_ab97112b601f_md",
+      "target": "lane:deep_sources"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_the_possibility_of_feminist_philosophy_of_physics_ab97112b601f_md",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_the_possibility_of_feminist_philosophy_of_physics_ab97112b601f_md",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_the_possibility_of_feminist_philosophy_of_physics_ab97112b601f_md",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_the_possibility_of_feminist_philosophy_of_physics_ab97112b601f_md",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:deep_sources_auto_imported_cloud_candidates_on_the_possibility_of_feminist_philosophy_of_physics_ab97112b601f_md",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -166664,6 +167574,36 @@
     },
     {
       "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_grief_in_exile_and_the_city_of_god_reading_ezekiel_with_augustine_5cff35ff6",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_grief_in_exile_and_the_city_of_god_reading_ezekiel_with_augustine_5cff35ff6",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_grief_in_exile_and_the_city_of_god_reading_ezekiel_with_augustine_5cff35ff6",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_grief_in_exile_and_the_city_of_god_reading_ezekiel_with_augustine_5cff35ff6",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_grief_in_exile_and_the_city_of_god_reading_ezekiel_with_augustine_5cff35ff6",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_grief_in_exile_and_the_city_of_god_reading_ezekiel_with_augustine_5cff35ff6",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_growth_fueled_by_uncertainty_25c72aa64220_md",
       "target": "lane:pattern_tests"
     },
@@ -167215,6 +168155,36 @@
     {
       "relation": "satisfies_or_mentions_rule",
       "source": "doc:pattern_tests_auto_imported_cloud_candidates_information_essence_of_spiritual_substance_and_universe_and_man_in_cosmolog",
+      "target": "rule:machine_label_boundary"
+    },
+    {
+      "relation": "belongs_to_lane",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_introducing_a_re_reading_of_lamentations_through_the_lens_of_trauma_studies",
+      "target": "lane:pattern_tests"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_introducing_a_re_reading_of_lamentations_through_the_lens_of_trauma_studies",
+      "target": "rule:evidence"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_introducing_a_re_reading_of_lamentations_through_the_lens_of_trauma_studies",
+      "target": "rule:discernment"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_introducing_a_re_reading_of_lamentations_through_the_lens_of_trauma_studies",
+      "target": "rule:practical_use"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_introducing_a_re_reading_of_lamentations_through_the_lens_of_trauma_studies",
+      "target": "rule:counter_reading"
+    },
+    {
+      "relation": "satisfies_or_mentions_rule",
+      "source": "doc:pattern_tests_auto_imported_cloud_candidates_introducing_a_re_reading_of_lamentations_through_the_lens_of_trauma_studies",
       "target": "rule:machine_label_boundary"
     },
     {
@@ -172329,7 +173299,7 @@
     }
   ],
   "graph_policy": "edges support retrieval and review routing; they do not prove theological claims",
-  "node_count": 5747,
+  "node_count": 5783,
   "nodes": [
     {
       "id": "lane:research_documents",
@@ -172883,6 +173853,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/a_theory_practice_spiral_the_ethics_of_feminism_and_clinical_education_ad18abeab470.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_a_time_to_deconstruct_refining_the_work_of_jewish_christian_engagement",
+      "label": "A Time to Deconstruct: Refining the Work of Jewish-Christian Engagement",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/a_time_to_deconstruct_refining_the_work_of_jewish_christian_engagement_f946b2156b7e.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -177778,6 +178759,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "research_documents/auto_imported_cloud_candidates/recensie_nova_et_vetera_patristic_studies_in_honor_of_thomas_patrick_halton_j_pe_3b60e1dd1543.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:research_documents_auto_imported_cloud_candidates_reconciling_democratization_and_secularization_in_the_middle_east_tuni",
+      "label": "Reconciling democratization and secularization in the Middle East: Tunisia and Egypt in comparative perspective",
+      "lane": "research_documents",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "research_documents/auto_imported_cloud_candidates/reconciling_democratization_and_secularization_in_the_middle_east_tunisia_and_eg_d6502fa9c8d9.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -183855,6 +184847,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_a_critical_engagement_with_theological_education_in_africa_a_south_africa",
+      "label": "A critical engagement with theological education in Africa: A South African perspective",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/a_critical_engagement_with_theological_education_in_africa_a_south_african_persp_a9f863e8c30f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_a_handbook_for_african_mother_tongue_bible_translators_e5486220e2b5_md",
       "label": "A Handbook for African Mother-Tongue Bible Translators",
       "lane": "world_languages",
@@ -184284,6 +185287,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_applying_hermeneutics_to_the_therapeutic_interaction_the_act_of_interpret",
+      "label": "Applying Hermeneutics to the Therapeutic Interaction: The Act of Interpreting the Patient History as a Sacred Text Sacred Listening as Experiential Encounter versus Rational Faith",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/applying_hermeneutics_to_the_therapeutic_interaction_the_act_of_interpreting_the_2a544d05ddab.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_arabic_tradition_translation_22d828b9b851_md",
       "label": "Arabic Tradition, Translation",
       "lane": "world_languages",
@@ -184510,6 +185524,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "world_languages/auto_imported_cloud_candidates/book_review_christianity_in_the_roman_world_e9243b0d4aea.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_book_review_the_semantics_of_biblical_language_4105b68536bf_md",
+      "label": "Book Review: The Semantics of Biblical Language",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/book_review_the_semantics_of_biblical_language_4105b68536bf.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -186374,6 +187399,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_local_theologies_on_the_world_wide_web_c36d7d0790ae_md",
+      "label": "Local Theologies on the World Wide Web",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/local_theologies_on_the_world_wide_web_c36d7d0790ae.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_luso_african_real_maravilloso_a_study_on_the_convergence_of_latin_america",
       "label": "Luso-African Real Maravilloso? : a study on the convergence of Latin American and Luso-African literatures /",
       "lane": "world_languages",
@@ -186963,6 +187999,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "world_languages/auto_imported_cloud_candidates/preface_b682246bf897.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_professions_as_religious_metaphors_733f8e0052b3_md",
+      "label": "Professions as Religious Metaphors",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/professions_as_religious_metaphors_733f8e0052b3.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -187650,6 +188697,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_the_beauty_of_the_ethiopian_christian_tradition_an_appropriation_for_mode",
+      "label": "The Beauty of the Ethiopian Christian Tradition: An Appropriation for Modern Black Spirituality",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/the_beauty_of_the_ethiopian_christian_tradition_an_appropriation_for_modern_blac_0df01ebb4e31.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_the_bungku_tolaki_languages_of_south_eastern_sulawesi_indonesia_a3d39896e",
       "label": "The Bungku-Tolaki languages of south-eastern Sulawesi, Indonesia",
       "lane": "world_languages",
@@ -188024,6 +189082,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_the_multiplicity_of_meaning_a_comparative_analysis_of_polysemy_in_quranic",
+      "label": "The Multiplicity of Meaning: A Comparative Analysis of Polysemy in Quranic Translation",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/the_multiplicity_of_meaning_a_comparative_analysis_of_polysemy_in_quranic_transl_48b6b06ab225.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:world_languages_auto_imported_cloud_candidates_the_muslim_empires_of_the_ottomans_safavids_and_mughals_b936467c98f4_md",
       "label": "The Muslim Empires of the Ottomans, Safavids, and Mughals",
       "lane": "world_languages",
@@ -188173,6 +189242,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "world_languages/auto_imported_cloud_candidates/the_routledge_handbook_of_religions_and_global_development_b12e1fd0c4f7.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:world_languages_auto_imported_cloud_candidates_the_semantics_of_prussian_weapon_d_cor_74679b04ad23_md",
+      "label": "The Semantics of Prussian Weapon D\u00e9cor",
+      "lane": "world_languages",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "world_languages/auto_imported_cloud_candidates/the_semantics_of_prussian_weapon_d_cor_74679b04ad23.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -192578,6 +193658,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:other_religious_texts_auto_imported_cloud_candidates_frontiers_of_african_christianity_essays_in_honour_of_inus_daneel_3",
+      "label": "Frontiers of African Christianity: Essays in honour of Inus Daneel",
+      "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "other_religious_texts/auto_imported_cloud_candidates/frontiers_of_african_christianity_essays_in_honour_of_inus_daneel_3f544a816e25.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_auto_imported_cloud_candidates_gandhi_and_buber_on_individual_and_collective_transformation_e2d9f7",
       "label": "Gandhi and Buber on Individual and Collective Transformation",
       "lane": "other_religious_texts",
@@ -193139,6 +194230,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:other_religious_texts_auto_imported_cloud_candidates_resources_for_a_restoration_theology_of_religions_e4ed9ced1cef_md",
+      "label": "Resources for a Restoration Theology of Religions",
+      "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "other_religious_texts/auto_imported_cloud_candidates/resources_for_a_restoration_theology_of_religions_e4ed9ced1cef.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:other_religious_texts_auto_imported_cloud_candidates_rethinking_the_history_of_conversion_to_christianity_in_japan_1549_",
       "label": "Rethinking the history of conversion to Christianity in Japan, 1549-1644",
       "lane": "other_religious_texts",
@@ -193365,6 +194467,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "other_religious_texts/auto_imported_cloud_candidates/the_complex_forms_of_the_religious_life_a_durkheimian_view_of_new_religious_move_aba22a420e7b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:other_religious_texts_auto_imported_cloud_candidates_the_demise_of_religion_how_religions_end_die_or_dissipate_25dc68f40",
+      "label": "The Demise of Religion: How Religions End, Die, or Dissipate",
+      "lane": "other_religious_texts",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "other_religious_texts/auto_imported_cloud_candidates/the_demise_of_religion_how_religions_end_die_or_dissipate_25dc68f404b0.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -196153,6 +197266,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_father_and_the_holy_trinity_in_the_new_testament_7e03343f938e_md",
+      "label": "\u0398\u03b5\u03cc\u03c2, Father and the \u2018Holy Trinity\u2019 in the New Testament",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/father_and_the_holy_trinity_in_the_new_testament_7e03343f938e.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_feminist_christology_and_pneumatology_pdf_sophia_wisdom_christology_59be5d2b6",
       "label": "Feminist Christology and Pneumatology | PDF | Sophia (Wisdom) | Christology",
       "lane": "theologians",
@@ -196676,6 +197800,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/holy_spirit_2adc3a638b2f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_holy_spirit_and_holy_scripture_5e31dfcbd488_md",
+      "label": "Holy Spirit and Holy Scripture",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/holy_spirit_and_holy_scripture_5e31dfcbd488.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -197572,6 +198707,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_new_questions_on_old_answers_towards_a_critical_edition_of_the_answers_to_the",
+      "label": "New Questions on Old Answers: Towards a Critical Edition of the Answers to the Orthodox of Pseudo-Justin",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/new_questions_on_old_answers_towards_a_critical_edition_of_the_answers_to_the_or_88b5fe6a6968.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:theologians_auto_imported_cloud_candidates_nomenclature_in_atonement_theology_65b1007f161b_md",
       "label": "Nomenclature in Atonement Theology",
       "lane": "theologians",
@@ -197655,6 +198801,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/only_dis_connect_pentecostal_global_networking_as_revelation_and_concealment_d6b1f1600ea7.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_opinion_religion_and_catholic_spirit_john_wesley_on_theological_integrity_d38",
+      "label": "Opinion, Religion and \"Catholic Spirit\" : John Wesley on Theological Integrity.",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/opinion_religion_and_catholic_spirit_john_wesley_on_theological_integrity_d3813e1aeee5.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -198964,6 +200121,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "theologians/auto_imported_cloud_candidates/the_agency_of_the_holy_spirit_and_heuristic_categories_for_discernment_in_spirit_d4d823da0a53.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:theologians_auto_imported_cloud_candidates_the_anthropology_of_christianity_e54f443a55d7_md",
+      "label": "The Anthropology of Christianity",
+      "lane": "theologians",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "theologians/auto_imported_cloud_candidates/the_anthropology_of_christianity_e54f443a55d7.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -201257,6 +202425,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_8_weaving_memory_and_unweaving_trauma_textile_narratives_on_the_conflict_i",
+      "label": "8 Weaving Memory and Unweaving Trauma: Textile Narratives on the Conflict in Colombia",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/8_weaving_memory_and_unweaving_trauma_textile_narratives_on_the_conflict_in_colo_ee4eefa460b1.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:history_inputs_auto_imported_cloud_candidates_a_century_of_violence_in_a_red_city_cd20fd953d16_md",
       "label": "A Century of Violence in a Red City",
       "lane": "history_inputs",
@@ -201318,6 +202497,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "history_inputs/auto_imported_cloud_candidates/a_multidimensional_analysis_of_religious_extremism_f9fdb20f4cea.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:history_inputs_auto_imported_cloud_candidates_a_review_on_the_korean_non_church_movement_history_on_the_soil_of_korean_c",
+      "label": "A review on the Korean non-Church movement history -on the soil of Korean church history",
+      "lane": "history_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "history_inputs/auto_imported_cloud_candidates/a_review_on_the_korean_non_church_movement_history_on_the_soil_of_korean_church_3a0c1a83de83.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -205844,6 +207034,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_delighting_in_natural_beauty_joint_attention_and_the_phenomenology_of_nature_a",
+      "label": "Delighting in Natural Beauty: Joint Attention and the Phenomenology of Nature Aesthetics",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/delighting_in_natural_beauty_joint_attention_and_the_phenomenology_of_nature_aes_7cd7a328587b.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:visual_art_auto_imported_cloud_candidates_dietrich_von_hildebrand_s_reflection_on_beauty_and_aesthetics_a_theological_ap",
       "label": "Dietrich von Hildebrand\u2019s Reflection on Beauty and Aesthetics: A Theological Appraisal of AI-Generated Art",
       "lane": "visual_art",
@@ -206928,6 +208129,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/learning_from_visual_images_an_example_from_twelfth_century_france_8e82678dff79.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_learning_to_lament_billie_eilish_trauma_theology_and_the_pastoral_imagination_",
+      "label": "Learning to lament: Billie Eilish, trauma theology and the pastoral imagination",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/learning_to_lament_billie_eilish_trauma_theology_and_the_pastoral_imagination_4ba293d6cc7a.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -209293,6 +210505,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "visual_art/auto_imported_cloud_candidates/trauma_lament_and_the_seven_last_words_of_jesus_from_the_cross_35dbe1f755d1.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:visual_art_auto_imported_cloud_candidates_triune_beauty_and_the_ugly_cross_towards_a_theological_aesthetic_1d347a8fa161_",
+      "label": "Triune Beauty and the Ugly Cross: Towards a Theological Aesthetic",
+      "lane": "visual_art",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "visual_art/auto_imported_cloud_candidates/triune_beauty_and_the_ugly_cross_towards_a_theological_aesthetic_1d347a8fa161.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -211982,6 +213205,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_destruction_of_human_trafficking_from_an_islamic_perspective_an_interpret",
+      "label": "DESTRUCTION OF HUMAN TRAFFICKING FROM AN ISLAMIC PERSPECTIVE (AN INTERPRETIVE STUDY OF DIGNITY AND ETHICS)",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/destruction_of_human_trafficking_from_an_islamic_perspective_an_interpretive_stu_b04908795e1f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_determinants_of_school_based_sexuality_education_implementation_in_south_",
       "label": "Determinants of school-based sexuality education implementation in South Africa and Sweden: a comparative critical policy and evidence synthesis.",
       "lane": "cultural_inputs",
@@ -214644,6 +215878,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_manifold_anthropology_reordering_relations_9a419cced0cb_md",
+      "label": "Manifold Anthropology: Reordering Relations",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/manifold_anthropology_reordering_relations_9a419cced0cb.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:cultural_inputs_auto_imported_cloud_candidates_mapping_the_role_of_structural_and_interpersonal_violence_in_the_lives_of",
       "label": "Mapping the role of structural and interpersonal violence in the lives of women: implications for public health interventions and policy",
       "lane": "cultural_inputs",
@@ -215233,6 +216478,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/policing_the_borders_of_bioethics_rawlsian_public_reason_as_a_disciplinary_tool_990cfaf2c322.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_political_anthropology_and_anthropology_of_politics_an_overview_11e8f93e0",
+      "label": "Political Anthropology and Anthropology of Politics: An Overview",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/political_anthropology_and_anthropology_of_politics_an_overview_11e8f93e06ac.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -217719,6 +218975,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "cultural_inputs/auto_imported_cloud_candidates/the_potential_of_religion_for_promoting_sustainability_the_role_of_stewardship_2fe3efb214b1.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:cultural_inputs_auto_imported_cloud_candidates_the_practices_of_happiness_political_economy_religion_and_wellbeing_d4c59",
+      "label": "The Practices of Happiness: Political economy, religion and wellbeing",
+      "lane": "cultural_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "cultural_inputs/auto_imported_cloud_candidates/the_practices_of_happiness_political_economy_religion_and_wellbeing_d4c593e914f1.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -221145,6 +222412,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_introduction_science_magic_and_religion_the_ritual_processes_of_museum_",
+      "label": "INTRODUCTION: SCIENCE, MAGIC AND RELIGION: THE RITUAL PROCESSES OF MUSEUM MAGIC",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/introduction_science_magic_and_religion_the_ritual_processes_of_museum_magic_5be92db553ce.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:psychology_inputs_auto_imported_cloud_candidates_introduction_to_the_special_issue_advancements_in_the_study_of_attachme",
       "label": "Introduction to the Special Issue: Advancements in the Study of Attachment and Religion/Spirituality",
       "lane": "psychology_inputs",
@@ -223054,6 +224332,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "psychology_inputs/auto_imported_cloud_candidates/sacred_feminine_or_divine_feminine_0d897da53b2a.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:psychology_inputs_auto_imported_cloud_candidates_sacrifice_in_modernity_community_ritual_identity_de8ef4f593ff_md",
+      "label": "Sacrifice in Modernity: Community, Ritual, Identity",
+      "lane": "psychology_inputs",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "psychology_inputs/auto_imported_cloud_candidates/sacrifice_in_modernity_community_ritual_identity_de8ef4f593ff.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -226447,6 +227736,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_at_home_in_exile_a_memoir_e91e7b032642_md",
+      "label": "At Home in Exile: A Memoir",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/at_home_in_exile_a_memoir_e91e7b032642.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:modern_literature_auto_imported_cloud_candidates_at_home_in_exile_a_memoir_ed061b1cfcfb_md",
       "label": "At Home in Exile: A Memoir",
       "lane": "modern_literature",
@@ -226596,6 +227896,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "modern_literature/auto_imported_cloud_candidates/bowing_before_christ_nodding_to_the_state_reading_paul_politically_with_oliver_o_d0945f80da0f.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_brahmins_from_abroad_english_expatriates_and_spiritual_consciousness_in",
+      "label": "Brahmins from abroad: English expatriates and spiritual consciousness in modern America",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/brahmins_from_abroad_english_expatriates_and_spiritual_consciousness_in_modern_a_78b946b5630f.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -227058,6 +228369,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "modern_literature/auto_imported_cloud_candidates/interfaith_dialogue_and_tolerance_franz_magnis_suseno_s_theological_insights_in_38f17611afc8.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:modern_literature_auto_imported_cloud_candidates_international_handbook_of_practical_theology_3326d02daccf_md",
+      "label": "International Handbook of Practical Theology",
+      "lane": "modern_literature",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "modern_literature/auto_imported_cloud_candidates/international_handbook_of_practical_theology_3326d02daccf.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -229989,6 +231311,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_history_of_western_philosophy_and_quantum_language_including_quantum_mechani",
+      "label": "History of Western Philosophy and Quantum Language (Including Quantum Mechanics, Statistics, Fuzzy Logic, etc.)",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/history_of_western_philosophy_and_quantum_language_including_quantum_mechanics_s_39fc26203b01.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:deep_sources_auto_imported_cloud_candidates_holism_and_non_separability_applied_to_quantum_mechanics_8a8097263cfe_md",
       "label": "Holism and non-separability applied to quantum mechanics",
       "lane": "deep_sources",
@@ -230523,6 +231856,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "deep_sources/auto_imported_cloud_candidates/on_the_controllability_of_artificial_intelligence_an_analysis_of_limitations_d693fc92de08.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:deep_sources_auto_imported_cloud_candidates_on_the_possibility_of_feminist_philosophy_of_physics_ab97112b601f_md",
+      "label": "On the Possibility of Feminist Philosophy of Physics",
+      "lane": "deep_sources",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "deep_sources/auto_imported_cloud_candidates/on_the_possibility_of_feminist_philosophy_of_physics_ab97112b601f.md",
       "review_note_count": 1,
       "type": "document"
     },
@@ -233498,6 +234842,17 @@
     },
     {
       "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_grief_in_exile_and_the_city_of_god_reading_ezekiel_with_augustine_5cff35ff6",
+      "label": "Grief in exile and the City of God: Reading Ezekiel with Augustine",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/grief_in_exile_and_the_city_of_god_reading_ezekiel_with_augustine_5cff35ff6c7d.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
       "id": "doc:pattern_tests_auto_imported_cloud_candidates_growth_fueled_by_uncertainty_25c72aa64220_md",
       "label": "Growth Fueled by Uncertainty",
       "lane": "pattern_tests",
@@ -233658,6 +235013,17 @@
       "media_review_status": "text_reviewable",
       "modality": "text",
       "path": "pattern_tests/auto_imported_cloud_candidates/information_essence_of_spiritual_substance_and_universe_and_man_in_cosmology_ac6e396b7d48.md",
+      "review_note_count": 1,
+      "type": "document"
+    },
+    {
+      "confidence_tier": "developing_evidence",
+      "id": "doc:pattern_tests_auto_imported_cloud_candidates_introducing_a_re_reading_of_lamentations_through_the_lens_of_trauma_studies",
+      "label": "Introducing a re-reading of Lamentations through the lens of trauma studies: The challenge of the COVID-19 pandemic",
+      "lane": "pattern_tests",
+      "media_review_status": "text_reviewable",
+      "modality": "text",
+      "path": "pattern_tests/auto_imported_cloud_candidates/introducing_a_re_reading_of_lamentations_through_the_lens_of_trauma_studies_the_d5a6cfb5cd56.md",
       "review_note_count": 1,
       "type": "document"
     },

@@ -18,51 +18,51 @@ Required source types:
 - Scripture/Theology: present (68)
 - Pastoral/Clinical: present (22)
 - Lived Case: present (12)
-- Counterargument: present (396)
+- Counterargument: present (398)
 
 Quantum And Science Claims
 --------------------------
 Status: source-supported
-Area signal: 1,040
+Area signal: 1,045
 Guardrail: Do not use quantum physics as vague proof of God. Keep science claims tied to evidence, scope, and qualified sources.
 Required source types:
 - Physicist/Primary Science: present (83)
-- Peer-Reviewed/Academic: present (940)
+- Peer-Reviewed/Academic: present (946)
 - Philosophy Of Science: present (168)
-- Counterargument: present (396)
+- Counterargument: present (398)
 
 Mathematics Statistics And Logic
 --------------------------------
 Status: source-supported
-Area signal: 166
+Area signal: 168
 Guardrail: Do not treat repeated patterns, analogies, or mathematical beauty as proof. Check validity, statistical inference, base rates, and alternative explanations.
 Required source types:
-- Mathematics/Logic: present (63)
-- Statistics/Inference: present (36)
-- Peer-Reviewed/Academic: present (940)
-- Counterargument: present (396)
+- Mathematics/Logic: present (64)
+- Statistics/Inference: present (37)
+- Peer-Reviewed/Academic: present (946)
+- Counterargument: present (398)
 
 Mathematical Theophany And Beauty
 ---------------------------------
 Status: source-supported
-Area signal: 455
+Area signal: 458
 Guardrail: Treat mathematical order and beauty as possible signs, not proof. Strengthen the analysis by naming naturalistic, Platonist, constructivist, cognitive, cultural, and aesthetic alternatives.
 Required source types:
 - Scripture/Theology: present (68)
-- Mathematics/Logic: present (63)
+- Mathematics/Logic: present (64)
 - Aesthetics/Beauty: present (24)
 - Alternative Interpretation: present (14)
-- Counterargument: present (396)
+- Counterargument: present (398)
 
 All Source-Type Signals
 -----------------------
-- Peer-Reviewed/Academic: 940
-- Counterargument: 396
+- Peer-Reviewed/Academic: 946
+- Counterargument: 398
 - Philosophy Of Science: 168
 - Physicist/Primary Science: 83
 - Scripture/Theology: 68
-- Mathematics/Logic: 63
-- Statistics/Inference: 36
+- Mathematics/Logic: 64
+- Statistics/Inference: 37
 - Aesthetics/Beauty: 24
 - Pastoral/Clinical: 22
 - Alternative Interpretation: 14
@@ -70,9 +70,9 @@ All Source-Type Signals
 
 Math / Statistics / Logic Congruence Filters
 ------------------------------------------------
-- Logic Validity Filter: active (32)
+- Logic Validity Filter: active (33)
   Rule: Reject claims where the conclusion does not follow, terms shift meaning, or analogy is treated as identity.
-- Statistical Inference Filter: active (33)
+- Statistical Inference Filter: active (34)
   Rule: Pattern frequency cannot become evidence without sample size, base rates, comparison cases, and bias checks.
 - Bayesian Humility Filter: active (12)
   Rule: New evidence should update confidence modestly and should not jump from compatibility to proof.
@@ -80,15 +80,15 @@ Math / Statistics / Logic Congruence Filters
   Rule: Mathematical proof applies inside formal systems; it cannot be transferred directly into theology without philosophical argument.
 - Theophany Interpretation Filter: active (49)
   Rule: Mathematical order, symmetry, logic, infinity, and beauty may be explored as secondary creaturely signs only under Christ and Scripture, and only after contrasting non-theistic, Platonist, constructivist, cognitive, and cultural explanations are named.
-- Physics Scale Filter: active (743)
+- Physics Scale Filter: active (747)
   Rule: Do not move from quantum, cosmic, or thermodynamic claims to daily spiritual claims without a justified bridge.
 - Causality Filter: active (29)
   Rule: Distinguish causation, correlation, compatibility, analogy, and theological interpretation.
 
 Quality And Risk Markers
 ------------------------
-- Scholarly Or Scientific Source: 837
-- Primary Or Classical Source: 365
+- Scholarly Or Scientific Source: 841
+- Primary Or Classical Source: 367
 - Practical Lived Source: 16
 - Speculative Source: 11
 - Reviewed Cloud Reference: 3
@@ -1581,6 +1581,23 @@ Source types:
 Active congruence filters:
 - Physics Scale Filter
 
+history_of_western_philosophy_and_quantum_language_including_quantum_mechanics_s_39fc26203b01.md
+------------------------------------------------------------------------------------------------
+Words: 152
+Area scores:
+- Quantum And Science Claims: under-sourced (3)
+- Mathematics Statistics And Logic: source-supported (2)
+- Mathematical Theophany And Beauty: under-sourced (2)
+Source types:
+- Peer-Reviewed/Academic: 3
+- Counterargument: 1
+- Mathematics/Logic: 1
+- Statistics/Inference: 1
+Active congruence filters:
+- Logic Validity Filter
+- Statistical Inference Filter
+- Physics Scale Filter
+
 holism_and_non_separability_applied_to_quantum_mechanics_8a8097263cfe.md
 ------------------------------------------------------------------------
 Words: 140
@@ -2219,6 +2236,18 @@ on_the_controllability_of_artificial_intelligence_an_analysis_of_limitations_d69
 Words: 143
 Area scores:
 - Quantum And Science Claims: under-sourced (1)
+- Mathematical Theophany And Beauty: under-sourced (1)
+Source types:
+- Peer-Reviewed/Academic: 3
+- Counterargument: 1
+Active congruence filters:
+- Physics Scale Filter
+
+on_the_possibility_of_feminist_philosophy_of_physics_ab97112b601f.md
+--------------------------------------------------------------------
+Words: 137
+Area scores:
+- Quantum And Science Claims: under-sourced (2)
 - Mathematical Theophany And Beauty: under-sourced (1)
 Source types:
 - Peer-Reviewed/Academic: 3
