@@ -9,54 +9,54 @@ Trinitarian guardrail: Father, Son, and Holy Spirit are distinct persons, not in
 
 Overview
 --------
-Cultural documents analyzed: 850
-Total cultural words analyzed: 130,562
+Cultural documents analyzed: 853
+Total cultural words analyzed: 131,058
 
 Cultural Domains
 ----------------
-- Science And Discovery: 1,788
-- Politics And Justice: 1,117
-- History And Memory: 692
-- Technology And AI: 514
-- Psychology And Human Behavior: 348
+- Science And Discovery: 1,794
+- Politics And Justice: 1,121
+- History And Memory: 694
+- Technology And AI: 520
+- Psychology And Human Behavior: 349
 - Family And Community: 182
 - Health And Suffering: 176
-- Art And Beauty: 167
-- Global Text Traditions: 139
+- Art And Beauty: 168
+- Global Text Traditions: 141
 - Economics And Work: 102
 - World Languages: 95
 - Education And Formation: 77
-- Visual Art And Iconography: 70
+- Visual Art And Iconography: 73
 - Ecology And Creation Care: 45
 - Biblical Greek And Hebrew: 2
 
 Trinitarian Lens
 ----------------
 Signal: thin but complete Trinitarian signal
-- Father: 4,292
+- Father: 4,308
 - Son: 55
 - Holy Spirit: 5
 
 Meaning Guardrails
 ------------------
-- Desire And Longing: 927
-- Moral Confrontation: 599
+- Desire And Longing: 931
+- Moral Confrontation: 600
 - Creation And Order: 164
 - Communal Practice: 128
-- Transformation And Hope: 125
+- Transformation And Hope: 127
 - Alienation And Lament: 18
 
 Shared Divine-Pattern Layers
 ----------------------------
-- Physical Order: cultural inputs 1,888 | religious/science corpus 2,695
-- Mathematical Structure: cultural inputs 2,311 | religious/science corpus 655
-- Mathematical Theophany: cultural inputs 53 | religious/science corpus 1,305
-- Quantum Probability: cultural inputs 4 | religious/science corpus 175
-- Life And Consciousness: cultural inputs 2,605 | religious/science corpus 7,195
-- Meaning And Logos: cultural inputs 3,082 | religious/science corpus 6,179
-- Moral Response: cultural inputs 3,641 | religious/science corpus 2,513
-- Worship And Community: cultural inputs 1,964 | religious/science corpus 1,650
-- Transformation: cultural inputs 1,656 | religious/science corpus 2,242
+- Physical Order: cultural inputs 1,894 | religious/science corpus 2,696
+- Mathematical Structure: cultural inputs 2,323 | religious/science corpus 651
+- Mathematical Theophany: cultural inputs 53 | religious/science corpus 1,286
+- Quantum Probability: cultural inputs 4 | religious/science corpus 176
+- Life And Consciousness: cultural inputs 2,621 | religious/science corpus 7,160
+- Meaning And Logos: cultural inputs 3,096 | religious/science corpus 6,123
+- Moral Response: cultural inputs 3,662 | religious/science corpus 2,497
+- Worship And Community: cultural inputs 1,976 | religious/science corpus 1,644
+- Transformation: cultural inputs 1,661 | religious/science corpus 2,231
 
 Per-Domain Findings
 -------------------
@@ -1003,6 +1003,29 @@ Practical domain applications:
 - Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
+ai_ethics_a_catholic_perspective_on_artificial_intelligence_24aa97fd977a.md
+---------------------------------------------------------------------------
+Words: 227
+Strongest cultural domain: Technology And AI (6)
+Meaning confidence: word-level signal only
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 11
+- Life And Consciousness: 10
+- Mathematical Structure: 8
+- Meaning And Logos: 6
+- Worship And Community: 5
+- Physical Order: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+Practical domain applications:
+- Use tools ethically: ask whether technology serves human dignity, truth, community, and responsible stewardship.
+- Read visual form as meaning: ask how image, color, gesture, and composition reveal desire, lament, worship, power, or hope.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 
 cedar_rapids_gazette_10_18_2026_61268bfd86f7.md
 -----------------------------------------------
@@ -4817,6 +4840,31 @@ Practical domain applications:
 - Compare sacred, philosophical, poetic, legal, oral, and wisdom texts as witnesses to human longing, moral order, suffering, community, and transformation.
 - Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 
+10_ritual_change_and_agency_4a66d5188917.md
+-------------------------------------------
+Words: 136
+Strongest cultural domain: Science And Discovery (2)
+Meaning confidence: thin meaning signal
+Meaning arc:
+- Opening: Transformation And Hope (1)
+- Middle: Desire And Longing (1)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Meaning And Logos: 5
+- Moral Response: 4
+- Transformation: 4
+- Life And Consciousness: 3
+- Worship And Community: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+Practical domain applications:
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Compare sacred, philosophical, poetic, legal, oral, and wisdom texts as witnesses to human longing, moral order, suffering, community, and transformation.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
+
 3_the_self_declared_islamic_state_da_esh_and_ius_ad_bellum_under_islamic_interna_88c3c7bcea41.md
 ------------------------------------------------------------------------------------------------
 Words: 146
@@ -6791,6 +6839,32 @@ Practical domain applications:
 - Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
 - Respond to suffering with truthful lament, practical care, patience, and hope without minimizing pain.
 - Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+
+religion_politics_and_public_life_e7df8e2cc0d9.md
+-------------------------------------------------
+Words: 133
+Strongest cultural domain: Politics And Justice (4)
+Meaning confidence: plausible meaning pattern
+Meaning arc:
+- Opening: Desire And Longing (1)
+- Middle: Creation And Order (0)
+- Ending: Creation And Order (0)
+Layer interpretation:
+- Moral Response: 6
+- Worship And Community: 4
+- Life And Consciousness: 3
+- Meaning And Logos: 3
+- Physical Order: 2
+- Mathematical Structure: 2
+- Transformation: 1
+Practical theology applications:
+- Discern desire: ask what loves are shaping the person, family, church, or culture, and whether those loves are ordered toward life.
+- Move from insight to repair: connect truth, justice, repentance, forgiveness, and concrete action for neighbors.
+- Look for signs of renewal: healing, courage, patience, sobriety, reconciliation, and hope that can be practiced today.
+Practical domain applications:
+- Use the pattern to move political anger toward truth, neighbor-love, justice, accountability, and practical repair.
+- Use science as disciplined wonder: observe order carefully while staying humble about what the evidence can and cannot claim.
+- Place patterns in time: test whether a pattern survives historical complexity, conflict, reform, memory, and unintended consequences.
 
 religious_ethics_and_the_governance_of_artificial_intelligence_a_comparative_fra_734af87dcdc0.md
 ------------------------------------------------------------------------------------------------
