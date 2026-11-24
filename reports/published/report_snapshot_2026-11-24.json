@@ -1,15 +1,15 @@
 {
   "date": "2026-11-24",
-  "generated_at_utc": "2026-11-24T01:29:20Z",
+  "generated_at_utc": "2026-11-24T23:26:17Z",
   "reader_role": "deaconess",
   "lens": "theologian pressure",
   "theologian": "Irenaeus",
   "pattern_name": "Creation-To-Consciousness Pattern",
   "public_final_claim_count": 0,
-  "candidate_reference_count": 73,
+  "candidate_reference_count": 58,
   "review_queue_count": 1030,
   "strongest_routed_lane": "human_stories",
-  "strongest_routed_lane_count": 28,
-  "freshness_status": "2026-11-24 01:27 UTC",
+  "strongest_routed_lane_count": 20,
+  "freshness_status": "2026-11-24 23:25 UTC",
   "source_digest_date": "2026-11-24"
 }

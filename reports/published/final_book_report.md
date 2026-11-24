@@ -30,9 +30,9 @@ In that room, the pattern is asking me to notice this: God gives ordered creatio
 
 ## Today’s Discovery
 
-The freshest thing in the available discovery record is not a new certainty for the parish road, but a new cluster needing care: 73 candidate references, led by OpenAlex (58), with the strongest routed lane showing as human_stories (28). This must be read cautiously, since the collector snapshot is current for this UTC day.
+The freshest thing in the available discovery record is not a new certainty for the parish road, but a new cluster needing care: 58 candidate references, led by OpenAlex (49), with the strongest routed lane showing as human_stories (20). This must be read cautiously, since the collector snapshot is current for this UTC day.
 
-That is a mercy-shaped warning rather than a comfort to distribute. 56 new items may be ready for the review queue, podcast (4) appears in the media mix, and optional `public_final_ready` metadata appears on 0 sources.
+That is a mercy-shaped warning rather than a comfort to distribute. 47 new items may be ready for the review queue, image (4) appears in the media mix, and optional `public_final_ready` metadata appears on 0 sources.
 
 No findings currently meet the optional polished-publication metadata state. Research findings remain visible below with their current strength and limitations; `public_final_ready` does not determine research visibility or theological authority.
 
@@ -46,7 +46,7 @@ So the change I can name is one of ministry setting rather than proven evidence 
 
 ## The Theologian Beside The Prayer Book
 
-The theologian section behind this entry draws on 721 analyzed theologian documents and gives special weight today to Trinity, Pneumatology, Christology.
+The theologian section behind this entry draws on 729 analyzed theologian documents and gives special weight today to Trinity, Pneumatology, Christology.
 
 Today's theologian is **Irenaeus**, chosen from the rotating theologian voices gathered for this project. I would let Irenaeus stand beside the Prayer Book and the deaconess voice today because of creation, communion, and the patient maturing of human life in God. Irenaeus would ask whether the pattern helps creation move toward communion with God, or whether it merely admires a shape without leading persons toward healing and fullness.
 
@@ -100,6 +100,6 @@ No recently discovered source is both sufficiently traceable and directly releva
 
 ## Quiet Notes For The Reader
 
-This entry was generated at 2026-11-24 01:29 UTC. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.
+This entry was generated at 2026-11-24 23:26 UTC. Tomorrow the pattern, the lens, the theologian, and the Anglican reader may change. The reader role alternates every other day between deaconess and priest so the report can keep both pastoral voices in view.
 
-Input freshness: 2026-11-24 01:27 UTC. Collector snapshot is current for this UTC day.
+Input freshness: 2026-11-24 23:25 UTC. Collector snapshot is current for this UTC day.
